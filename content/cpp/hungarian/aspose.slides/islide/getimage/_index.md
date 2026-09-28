@@ -1,6 +1,6 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides C++ API-referencia
+second_title: Aspose.Slides C++ API referencia
 description: Visszaad egy képobjektumot egyéni méretezéssel.
 type: docs
 weight: 105
@@ -9,7 +9,7 @@ url: /hu/aspose.slides/islide/getimage/
 ## ISlide::GetImage(float, float) módszer
 
 
-Visszaad egy képobjektumot egyéni méretezéssel.
+Visszaad egy képpéldányt egyéni méretezéssel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
@@ -20,17 +20,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| scaleX | **float** | Az érték, amellyel a bélyegképet az x tengely mentén méretezi. |
-| scaleY | **float** | Az érték, amellyel a bélyegképet az y tengely mentén méretezi. |
+| scaleX | **float** | Az az érték, amellyel a Thumbnail-t az x-tengely mentén méretezi. |
+| scaleY | **float** | Az az érték, amellyel a Thumbnail-t az y-tengely mentén méretezi. |
 
 ### Visszatérési érték
 
-Képobjektum [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage() módszer
 
 
-Visszaad egy bélyegkép képtárgyat (a valós méret 20%-a).
+Visszaad egy Thumbnail képobjektumot (a valós méret 20%-a).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -39,12 +39,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### Visszatérési érték
 
-Képobjektum [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) módszer
 
 
-Visszaad egy képobjektumot megadott mérettel.
+Visszaad egy képpéldányt a megadott mérettel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
@@ -59,12 +59,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Visszatérési érték
 
-Bitmap objektum.
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) módszer
 
 
-Visszaad egy bélyegkép tiff bitmap objektumot megadott paraméterekkel.
+Visszaad egy Thumbnail tiff bitmap objektumot a megadott paraméterekkel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -79,12 +79,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Visszatérési érték
 
-Képobjektum.
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) módszer
 
 
-Visszaad egy bélyegkép bitmap objektumot.
+Visszaad egy Thumbnail bitmap objektumot.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -99,12 +99,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Visszatérési érték
 
-Bitmap objektumok.
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) módszer
 
 
-Visszaad egy bélyegkép bitmap objektumot egyéni méretezéssel.
+Visszaad egy Thumbnail bitmap objektumot egyéni méretezéssel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -116,17 +116,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Renderelési beállítások. |
-| scaleX | **float** | Az érték, amellyel a bélyegképet az x tengely mentén méretezi. |
-| scaleY | **float** | Az érték, amellyel a bélyegképet az y tengely mentén méretezi. |
+| scaleX | **float** | Az az érték, amellyel a Thumbnail-t az x-tengely mentén méretezi. |
+| scaleY | **float** | Az az érték, amellyel a Thumbnail-t az y-tengely mentén méretezi. |
 
 ### Visszatérési érték
 
-Bitmap objektumok.
+Képobjektum [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) módszer
 
 
-Visszaad egy bélyegkép bitmap objektumot megadott mérettel.
+Visszaad egy Thumbnail bitmap objektumot a megadott mérettel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -142,11 +142,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Visszatérési érték
 
-Bitmap objektumok.
+Képobjektum [IImage](../../iimage/)
 
 ## Lásd még
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
+* Típusdefiníció [SharedPtr](../../../system/sharedptr/)
 * Osztály [IImage](../../iimage/)
 * Osztály [ISlide](../)
 * Osztály [Size](../../../system.drawing/size/)

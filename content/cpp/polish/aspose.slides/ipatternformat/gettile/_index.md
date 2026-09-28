@@ -1,14 +1,14 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides dla C++ Dokumentacja API
-description: Tworzy obraz kafelka dla wypełnienia wzorem z określonymi kolorami.
+second_title: Aspose.Slides dla C++ – dokumentacja API
+description: Tworzy obraz kafelka dla wypełnienia wzorem przy użyciu określonych kolorów.
 type: docs
 weight: 53
 url: /pl/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) metoda
 
-Tworzy obraz kafelka dla wypełnienia wzorem z określonymi kolorami.
+Tworzy obraz kafelka dla wypełnienia wzorem o określonych kolorach.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -23,7 +23,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Wartość zwracana
 
-Kafelek [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Kafelek [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) metoda
 
@@ -37,11 +37,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Domyślny [System::Drawing::Color](../../../system.drawing/color/), zdefiniowany w obiekcie StyleEx klasy ShapeEx. Kolory wypełnienia mogą zależeć od tego. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Domyślne [System::Drawing::Color](../../../system.drawing/color/) zdefiniowane w obiekcie StyleEx klasy ShapeEx. Kolory wypełnienia mogą zależeć od tego. |
 
 ### Wartość zwracana
 
-Kafelek [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Kafelek [IImage](../../iimage/).
 
 ## Zobacz także
 

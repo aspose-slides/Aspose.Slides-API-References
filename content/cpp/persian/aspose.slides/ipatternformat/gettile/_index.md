@@ -1,12 +1,12 @@
 ---
 title: GetTile()
-second_title: مرجع API Aspose.Slides برای C++
+second_title: Aspose.Slides برای C++ مرجع API
 description: یک تصویر کاشی برای پر کردن الگو با رنگ‌های مشخص ایجاد می‌کند.
 type: docs
 weight: 53
 url: /fa/aspose.slides/ipatternformat/gettile/
 ---
-## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) روش
+## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) متد
 
 یک تصویر کاشی برای پر کردن الگو با رنگ‌های مشخص ایجاد می‌کند.
 
@@ -18,14 +18,14 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | پس‌زمینه [System::Drawing::Color](../../../system.drawing/color/) برای الگو. |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | پیش‌زمینه [System::Drawing::Color](../../../system.drawing/color/) برای الگو. |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | [System::Drawing::Color](../../../system.drawing/color/) پس‌زمینه برای الگو. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | [System::Drawing::Color](../../../system.drawing/color/) پیش‌زمینه برای الگو. |
 
 ### مقدار بازگشت
 
-کاشه [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+کاشی [IImage](../../iimage/).
 
-## IPatternFormat::GetTile(System::Drawing::Color) روش
+## IPatternFormat::GetTile(System::Drawing::Color) متد
 
 یک تصویر کاشی برای پر کردن الگو ایجاد می‌کند.
 
@@ -37,17 +37,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | مقدار پیش‌فرض [System::Drawing::Color](../../../system.drawing/color/) که در شیء StyleEx از ShapeEx تعریف شده است. رنگ‌های پرکننده می‌توانند به این مقدار وابسته باشند. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | [System::Drawing::Color](../../../system.drawing/color/) پیش‌فرض، تعریف‌شده در شیء StyleEx مربوط به ShapeEx. رنگ‌های پرکننده می‌توانند به این مقدار وابسته باشند. |
 
 ### مقدار بازگشت
 
-کاشه [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+کاشی [IImage](../../iimage/).
 
 ## موارد مرتبط
 
-* تعریف‌نوع [SharedPtr](../../../system/sharedptr/)
+* تعریف نوع [SharedPtr](../../../system/sharedptr/)
 * کلاس [IImage](../../iimage/)
 * کلاس [Color](../../../system.drawing/color/)
 * کلاس [IPatternFormat](../)
-* فضای‌نام [Aspose::Slides](../../)
+* فضای نام [Aspose::Slides](../../)
 * کتابخانه [Aspose.Slides](../../../)

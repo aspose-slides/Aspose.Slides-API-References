@@ -1,14 +1,14 @@
 ---
 title: AreEqualImpl()
-second_title: Aspose.Slides for C++ API リファレンス
-description: 浮動小数点数と算術型を等価比較します。
+second_title: Aspose.Slides for C++ APIリファレンス
+description: 浮動小数点と算術型を等価比較します。
 type: docs
 weight: 27
 url: /ja/system.testpredicates/areequalimpl/
 ---
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1, const T2, long long) 関数
 
-浮動小数点数と算術型を等価比較します。
+浮動小数点と算術型を等価比較します。
 
 ```cpp
 template<typename T1,typename T2> std::enable_if<TypeTraits::AreFPandArithmetic<T1, T2>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T1 lhs, const T2 rhs, long long s)
@@ -16,20 +16,20 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AreFPandArithmetic<
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS オブジェクトの型。 |
-| T2 | RHS オブジェクトの型。 |
+| T1 | LHS object type. |
+| T2 | RHS object type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T1 | LHS 値。 |
-| rhs | const T2 | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T1 | LHS value. |
+| rhs | const T2 | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -37,7 +37,7 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) 関数
 
-[Decimal](../../system/decimal/) のいずれか、または両方の値を等価比較します。
+[Decimal](../../system/decimal/) である値のいずれかまたは両方を等価比較します。
 
 ```cpp
 template<typename T1,typename T2> std::enable_if<TypeTraits::AnyOfDecimal<T1, T2>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T1 &lhs, const T2 &rhs, long long s)
@@ -45,20 +45,20 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AnyOfDecimal<T1, T2
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS オブジェクトの型。 |
-| T2 | RHS オブジェクトの型。 |
+| T1 | LHS object type. |
+| T2 | RHS object type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T1\& | LHS 値。 |
-| rhs | const T2\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T1\& | LHS value. |
+| rhs | const T2\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -66,27 +66,27 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) 関数
 
-提供された Equals メソッドを使用してポインタでない型を等価比較します。
+提供された Equals メソッドを使用して、ポインタではない型を等価比較します。
 
 ```cpp
-template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
+template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, System::String>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
 ```
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T\& | LHS 値。 |
-| rhs | const T\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T\& | LHS value. |
+| rhs | const T\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -94,27 +94,27 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, T\&, const T\&, long long) 関数
 
-提供された Equals メソッドを使用してポインタでない型を等価比較します。
+提供された Equals メソッドを使用して、ポインタではない型を等価比較します。
 
 ```cpp
-template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, T &lhs, const T &rhs, long long s)
+template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, System::String>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, T &lhs, const T &rhs, long long s)
 ```
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | T\& | LHS 値。 |
-| rhs | const T\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | T\& | LHS value. |
+| rhs | const T\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -122,7 +122,7 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) 関数
 
-提供された operator == を使用してポインタでない型を等価比較します。
+提供された operator == を使用して、ポインタではない型を等価比較します。
 
 ```cpp
 template<typename T> std::enable_if<!IsSmartPtr<T>::value &&std::is_class<T>::value &&!detail::has_method_equals<T>::value &&detail::has_operator_equal<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
@@ -130,19 +130,19 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&std::is_class<T>::va
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T\& | LHS 値。 |
-| rhs | const T\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T\& | LHS value. |
+| rhs | const T\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -158,19 +158,19 @@ template<typename T> std::enable_if<IsBoxable<T>::value &&!IsStringByteSequence<
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | T | LHS 値。 |
-| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | T | LHS value. |
+| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -186,19 +186,19 @@ template<typename T> std::enable_if<IsBoxable<T>::value &&!IsStringByteSequence<
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS 値。 |
-| rhs | T | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS value. |
+| rhs | T | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -214,13 +214,13 @@ testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_ex
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const char16_t * | LHS 値。 |
-| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const char16_t * | LHS value. |
+| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -236,13 +236,13 @@ testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_ex
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS 値。 |
-| rhs | const char16_t * | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS value. |
+| rhs | const char16_t * | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -250,7 +250,7 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, T, std::nullptr_t, long long) 関数
 
-nullptr とランダム型を等価比較します。
+ランダム型と nullptr を等価比較します。
 
 ```cpp
 template<typename T> testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, T lhs, std::nullptr_t, long long s)
@@ -258,18 +258,18 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreEqualIm
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | T | LHS 値。 |
-| s | std::nullptr_t | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | T | LHS value. |
+| s | std::nullptr_t | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -277,7 +277,7 @@ gtest 形式のアサーション結果。
 
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, std::nullptr_t, T, long long) 関数
 
-nullptr とランダム型を等価比較します。
+ランダム型と nullptr を等価比較します。
 
 ```cpp
 template<typename T> testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, std::nullptr_t, T rhs, long long s)
@@ -285,18 +285,18 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreEqualIm
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T | [Object](../../system/object/) 型。 |
+| T | [Object](../../system/object/) type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| rhs | std::nullptr_t | RHS 値。 |
-| s | T | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| rhs | std::nullptr_t | RHS value. |
+| s | T | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -312,20 +312,20 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS 型。 |
-| T2 | RHS 型。 |
+| T1 | LHS type. |
+| T2 | RHS type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T1\& | LHS 値。 |
-| rhs | const T2\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T1\& | LHS value. |
+| rhs | const T2\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -341,20 +341,20 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS 型。 |
-| T2 | RHS 型。 |
+| T1 | LHS type. |
+| T2 | RHS type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const T1\& | LHS 値。 |
-| rhs | const T2\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T1\& | LHS value. |
+| rhs | const T2\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -370,20 +370,20 @@ template<typename T1,typename T2> std::enable_if<!std::is_null_pointer<T1>::valu
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS 型。 |
-| T2 | RHS 型。 |
+| T1 | LHS type. |
+| T2 | RHS type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | T1 | LHS 値。 |
-| rhs | const [Nullable](../../system/nullable/)\<T2\>\& | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | T1 | LHS value. |
+| rhs | const [Nullable](../../system/nullable/)\<T2\>\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -399,20 +399,20 @@ template<typename T1,typename T2> std::enable_if<!std::is_null_pointer<T2>::valu
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS 型。 |
-| T2 | RHS 型。 |
+| T1 | LHS type. |
+| T2 | RHS type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | const [Nullable](../../system/nullable/)\<T1\>\& | LHS 値。 |
-| rhs | T2 | RHS 値。 |
-| s | long long | 関数の実装を選択するためのサービスパラメータです。パラメータの値は無視されます。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const [Nullable](../../system/nullable/)\<T1\>\& | LHS value. |
+| rhs | T2 | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -428,19 +428,47 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 ### テンプレート パラメータ
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
-| T1 | LHS 型。 |
-| T2 | RHS 型。 |
+| T1 | LHS type. |
+| T2 | RHS type. |
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS 式。 |
-| rhs_expr | const char * | RHS 式。 |
-| lhs | T1 | LHS 値。 |
-| rhs | T2 | RHS 値。 |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | T1 | LHS value. |
+| rhs | T2 | RHS value. |
+
+### 戻り値
+
+gtest 形式のアサーション結果。
+
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) 関数
+
+2つの [System::String](../../system/string/) 値を等価比較し、null の [String](../../system/string/) 上でメンバー関数が呼び出されることを防止します。テンプレート化されているため（const [String](../../system/string/)& を受け取る単純なオーバーロードではなく）、char16_t の文字列リテラルと [String](../../system/string/) を比較するような混合型呼び出しが単一の一貫した T を推論できず、この候補から完全に除外されます。その結果、long long/int のセレクタパラメーターを介した包括的な AreEqualImpl<T1,T2> テンプレートとの競合や、曖昧なオーバーロード解決が発生しません。
+
+```cpp
+template<typename T> std::enable_if<std::is_same<T, System::String>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
+```
+
+### テンプレート パラメータ
+
+| パラメーター | 説明 |
+| --- | --- |
+| T | [Object](../../system/object/) type, constrained to [System::String](../../system/string/). |
+
+### 引数
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T\& | LHS value. |
+| rhs | const T\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the function; the value of the parameter is ignored |
 
 ### 戻り値
 
@@ -451,12 +479,13 @@ gtest 形式のアサーション結果。
 * Typedef [AreFPandArithmetic](../../system.testpredicates.typetraits/arefpandarithmetic/)
 * Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
 * Typedef [SharedPtr](../../system/sharedptr/)
-* クラス [Object](../../system/object/)
-* クラス [Stream](../../system.io/stream/)
-* クラス [Nullable](../../system/nullable/)
-* 構造体 [IsSmartPtr](../../system/issmartptr/)
-* 構造体 [IsBoxable](../../system/isboxable/)
-* 構造体 [IsStringByteSequence](../../system/isstringbytesequence/)
-* 構造体 [IsNullable](../../system/isnullable/)
-* 名前空間 [System::TestPredicates](../)
-* ライブラリ [Aspose.Slides](../../)
+* Class [String](../../system/string/)
+* Class [Object](../../system/object/)
+* Class [Stream](../../system.io/stream/)
+* Class [Nullable](../../system/nullable/)
+* Struct [IsSmartPtr](../../system/issmartptr/)
+* Struct [IsBoxable](../../system/isboxable/)
+* Struct [IsStringByteSequence](../../system/isstringbytesequence/)
+* Struct [IsNullable](../../system/isnullable/)
+* Namespace [System::TestPredicates](../)
+* Library [Aspose.Slides](../../)

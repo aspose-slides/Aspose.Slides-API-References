@@ -1,48 +1,43 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides için C++ API Referansı
-description: Özel ölçekleme ile bir görüntü nesnesi döndürür.
+second_title: Aspose.Slides for C++ API Referansı
+description: Özel ölçeklendirme ile bir görüntü nesnesi döndürür.
 type: docs
 weight: 105
 url: /tr/aspose.slides/islide/getimage/
 ---
-## ISlide::GetImage(float, float) method
+## ISlide::GetImage(float, float) metod
 
-
-Özel ölçekleme ile bir görüntü nesnesi döndürür.
+Özel ölçeklendirme ile bir görüntü nesnesi döndürür.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| scaleX | **float** | Bu Küçük Resmi x ekseni yönünde ölçeklemek için kullanılacak değer. |
-| scaleY | **float** | Bu Küçük Resmi y ekseni yönünde ölçeklemek için kullanılacak değer. |
+| scaleX | **float** | Bu Küçük Resim'in x eksenindeki ölçeklendirme değeri. |
+| scaleY | **float** | Bu Küçük Resim'in y eksenindeki ölçeklendirme değeri. |
 
 ### Dönüş Değeri
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage() method
+## ISlide::GetImage() metod
 
-
-Gerçek boyutun %20'si kadar bir Küçük Resim Image nesnesi döndürür.
+Gerçek boyutunun %20'si kadar bir Küçük Resim Görüntü nesnesi döndürür.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 ```
 
-
 ### Dönüş Değeri
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage(System::Drawing::Size) method
-
+## ISlide::GetImage(System::Drawing::Size) metod
 
 Belirtilen boyutta bir görüntü nesnesi döndürür.
 
@@ -50,8 +45,7 @@ Belirtilen boyutta bir görüntü nesnesi döndürür.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
@@ -59,10 +53,9 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Dönüş Değeri
 
-Bitmap object.
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) method
-
+## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) metod
 
 Belirtilen parametrelerle bir Küçük Resim tiff bitmap nesnesi döndürür.
 
@@ -70,8 +63,7 @@ Belirtilen parametrelerle bir Küçük Resim tiff bitmap nesnesi döndürür.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
@@ -79,10 +71,9 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Dönüş Değeri
 
-Image object.
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) method
-
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) metod
 
 Bir Küçük Resim Bitmap nesnesi döndürür.
 
@@ -90,41 +81,37 @@ Bir Küçük Resim Bitmap nesnesi döndürür.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Render seçenekleri. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | İşleme seçenekleri. |
 
 ### Dönüş Değeri
 
-Bitmap objects.
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) metod
 
-
-Özel ölçekleme ile bir Küçük Resim Bitmap nesnesi döndürür.
+Özel ölçeklendirme ile bir Küçük Resim Bitmap nesnesi döndürür.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Render seçenekleri. |
-| scaleX | **float** | Bu Küçük Resmi x ekseni yönünde ölçeklemek için kullanılacak değer. |
-| scaleY | **float** | Bu Küçük Resmi y ekseni yönünde ölçeklemek için kullanılacak değer. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | İşleme seçenekleri. |
+| scaleX | **float** | Bu Küçük Resim'in x eksenindeki ölçeklendirme değeri. |
+| scaleY | **float** | Bu Küçük Resim'in y eksenindeki ölçeklendirme değeri. |
 
 ### Dönüş Değeri
 
-Bitmap objects.
+Görüntü nesnesi [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
-
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) metod
 
 Belirtilen boyutta bir Küçük Resim Bitmap nesnesi döndürür.
 
@@ -132,21 +119,20 @@ Belirtilen boyutta bir Küçük Resim Bitmap nesnesi döndürür.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
 
-
-### Argümanlar
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Render seçenekleri. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | İşleme seçenekleri. |
 | imageSize | [System::Drawing::Size](../../../system.drawing/size/) | Oluşturulacak görüntünün boyutu. |
 
 ### Dönüş Değeri
 
-Bitmap objects.
+Görüntü nesnesi [IImage](../../iimage/)
 
-## Ayrıca Bakınız
+## İlgili
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
+* Tip Tanımı [SharedPtr](../../../system/sharedptr/)
 * Sınıf [IImage](../../iimage/)
 * Sınıf [ISlide](../)
 * Sınıf [Size](../../../system.drawing/size/)

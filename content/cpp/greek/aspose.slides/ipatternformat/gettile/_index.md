@@ -1,14 +1,14 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides για C++ API Αναφορά
-description: Δημιουργεί μια εικόνα πλακιδίου για το γεμιστικό μοτίβο με καθορισμένα χρώματα.
+second_title: Aspose.Slides για την αναφορά API C++
+description: Δημιουργεί μια εικόνα πλακιδίου για το γέμισμα μοτίβου με καθορισμένα χρώματα.
 type: docs
 weight: 53
 url: /el/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) μέθοδος
 
-Δημιουργεί μια εικόνα πλακιδίου για το γεμιστικό μοτίβο με καθορισμένα χρώματα.
+Δημιουργεί μια εικόνα πλακιδίου για γέμισμα μοτίβου με συγκεκριμένα χρώματα.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -21,13 +21,13 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 | background | [System::Drawing::Color](../../../system.drawing/color/) | Το φόντο [System::Drawing::Color](../../../system.drawing/color/) για το μοτίβο. |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | Το προσκήνιο [System::Drawing::Color](../../../system.drawing/color/) για το μοτίβο. |
 
-### Τιμή Επιστροφής
+### Τιμή επιστροφής
 
-Πλακίδιο [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Πλακίδιο [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) μέθοδος
 
-Δημιουργεί μια εικόνα πλακιδίου για το γεμιστικό μοτίβο.
+Δημιουργεί μια εικόνα πλακιδίου για γέμισμα μοτίβου.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
@@ -37,15 +37,15 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Η προεπιλεγμένη [System::Drawing::Color](../../../system.drawing/color/), ορισμένη στο αντικείμενο StyleEx του ShapeEx. Τα χρώματα του γεμίσματος μπορεί να εξαρτώνται από αυτήν. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Η προεπιλεγμένη [System::Drawing::Color](../../../system.drawing/color/), ορισμένη στο αντικείμενο StyleEx του ShapeEx. Τα χρώματα του γεμίσματος μπορεί να εξαρτώνται από αυτό. |
 
-### Τιμή Επιστροφής
+### Τιμή επιστροφής
 
-Πλακίδιο [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Πλακίδιο [IImage](../../iimage/).
 
 ## Δείτε επίσης
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
+* Τύπος ορισμού [SharedPtr](../../../system/sharedptr/)
 * Κλάση [IImage](../../iimage/)
 * Κλάση [Color](../../../system.drawing/color/)
 * Κλάση [IPatternFormat](../)

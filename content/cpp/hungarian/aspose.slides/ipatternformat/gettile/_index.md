@@ -1,20 +1,18 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides C++ API referenciája
+second_title: Aspose.Slides C++ API referencia
 description: Létrehoz egy csempe képet a minta kitöltéséhez megadott színekkel.
 type: docs
 weight: 53
 url: /hu/aspose.slides/ipatternformat/gettile/
 ---
-## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) metódus
 
-
-Létrehoz egy csempe képet a minta kitöltéséhez megadott színekkel.
+Létrehoz egy csempe képet a mintához megadott színekkel.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
 ```
-
 
 ### Argumentumok
 
@@ -25,17 +23,15 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Visszatérési érték
 
-Csempe [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Csempe [IImage](../../iimage/).
 
-## IPatternFormat::GetTile(System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color) metódus
 
-
-Létrehoz egy csempe képet a minta kitöltéséhez.
+Létrehoz egy csempe képet a mintához.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
 ```
-
 
 ### Argumentumok
 
@@ -45,7 +41,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Visszatérési érték
 
-Csempe [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Csempe [IImage](../../iimage/).
 
 ## Lásd még
 
@@ -53,5 +49,5 @@ Csempe [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 * Osztály [IImage](../../iimage/)
 * Osztály [Color](../../../system.drawing/color/)
 * Osztály [IPatternFormat](../)
-* Névtér [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* Névtere [Aspose::Slides](../../)
+* Könyvtár [Aspose.Slides](../../../)

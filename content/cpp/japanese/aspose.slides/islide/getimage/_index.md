@@ -1,14 +1,14 @@
 ---
 title: GetImage()
 second_title: Aspose.Slides for C++ API リファレンス
-description: カスタム スケーリングで画像オブジェクトを返します。
+description: カスタムスケーリングされた画像オブジェクトを返します。
 type: docs
 weight: 105
 url: /ja/aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) メソッド
 
-カスタム スケーリングで画像オブジェクトを返します。
+カスタムスケーリングされた画像オブジェクトを返します。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
@@ -16,14 +16,14 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| scaleX | **float** | このサムネイルを x 軸方向に拡大する値。 |
-| scaleY | **float** | このサムネイルを y 軸方向に拡大する値。 |
+| scaleX | **float** | x 軸方向にこの Thumbnail を拡大縮小するための値です。 |
+| scaleY | **float** | y 軸方向にこの Thumbnail を拡大縮小するための値です。 |
 
 ### 戻り値
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage() メソッド
 
@@ -35,11 +35,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### 戻り値
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) メソッド
 
-指定したサイズの画像オブジェクトを返します。
+指定されたサイズの画像オブジェクトを返します。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
@@ -47,17 +47,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 作成する画像のサイズ。 |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 作成する画像のサイズです。 |
 
 ### 戻り値
 
-Bitmap object.
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) メソッド
 
-指定したパラメータでサムネイル tiff ビットマップオブジェクトを返します。
+指定されたパラメーターでサムネイル TIFF ビットマップオブジェクトを返します。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -65,13 +65,13 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Tiff のオプション。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | TIFF オプションです。 |
 
 ### 戻り値
 
-Image object.
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) メソッド
 
@@ -83,17 +83,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプション。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプションです。 |
 
 ### 戻り値
 
-Bitmap objects.
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) メソッド
 
-カスタム スケーリングでサムネイル Bitmap オブジェクトを返します。
+カスタムスケーリングされたサムネイル Bitmap オブジェクトを返します。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -101,19 +101,19 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプション。 |
-| scaleX | **float** | このサムネイルを x 軸方向に拡大する値。 |
-| scaleY | **float** | このサムネイルを y 軸方向に拡大する値。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプションです。 |
+| scaleX | **float** | x 軸方向にこの Thumbnail を拡大縮小するための値です。 |
+| scaleY | **float** | y 軸方向にこの Thumbnail を拡大縮小するための値です。 |
 
 ### 戻り値
 
-Bitmap objects.
+Image オブジェクト [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) メソッド
 
-指定したサイズのサムネイル Bitmap オブジェクトを返します。
+指定されたサイズのサムネイル Bitmap オブジェクトを返します。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -121,16 +121,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 引数
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプション。 |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 作成する画像のサイズ。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | レンダリング オプションです。 |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 作成する画像のサイズです。 |
 
 ### 戻り値
 
-Bitmap objects.
+Image オブジェクト [IImage](../../iimage/)
 
-## 関連項目
+## 参照
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IImage](../../iimage/)

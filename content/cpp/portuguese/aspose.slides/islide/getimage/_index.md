@@ -20,17 +20,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| scaleX | **float** | O valor pelo qual dimensionar esta miniatura no eixo x. |
-| scaleY | **float** | O valor pelo qual dimensionar esta miniatura no eixo y. |
+| scaleX | **float** | O valor pelo qual escalar este Thumbnail na direção do eixo x. |
+| scaleY | **float** | O valor pelo qual escalar este Thumbnail na direção do eixo y. |
 
 ### Valor de Retorno
 
-Objeto Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage() método
 
 
-Retorna um objeto Image em miniatura (20% do tamanho real).
+Retorna um objeto Thumbnail Image (20% do tamanho real).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -39,7 +39,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### Valor de Retorno
 
-Objeto Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) método
 
@@ -59,12 +59,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Valor de Retorno
 
-Objeto Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) método
 
 
-Retorna um objeto bitmap tiff em miniatura com parâmetros especificados.
+Retorna um objeto Thumbnail tiff bitmap com parâmetros especificados.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -75,16 +75,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Opções tiff. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Opções Tiff. |
 
 ### Valor de Retorno
 
-Objeto Image.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) método
 
 
-Retorna um objeto Bitmap em miniatura.
+Retorna um objeto Thumbnail Bitmap.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -99,12 +99,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Valor de Retorno
 
-Objetos Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) método
 
 
-Retorna um objeto Bitmap em miniatura com dimensionamento personalizado.
+Retorna um objeto Thumbnail Bitmap com dimensionamento personalizado.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -116,17 +116,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Opções de renderização. |
-| scaleX | **float** | O valor pelo qual dimensionar esta miniatura no eixo x. |
-| scaleY | **float** | O valor pelo qual dimensionar esta miniatura no eixo y. |
+| scaleX | **float** | O valor pelo qual escalar este Thumbnail na direção do eixo x. |
+| scaleY | **float** | O valor pelo qual escalar este Thumbnail na direção do eixo y. |
 
 ### Valor de Retorno
 
-Objetos Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) método
 
 
-Retorna um objeto Bitmap em miniatura com tamanho especificado.
+Retorna um objeto Thumbnail Bitmap com tamanho especificado.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -142,9 +142,9 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Valor de Retorno
 
-Objetos Bitmap.
+Image object [IImage](../../iimage/)
 
-## Veja Também
+## Veja também
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Classe [IImage](../../iimage/)
@@ -153,4 +153,4 @@ Objetos Bitmap.
 * Classe [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
 * Classe [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * Namespace [Aspose::Slides](../../)
-* Biblioteca [Aspose.Slides](../../../)
+* Library [Aspose.Slides](../../../)

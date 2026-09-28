@@ -6,7 +6,8 @@ type: docs
 weight: 105
 url: /sv/aspose.slides/islide/getimage/
 ---
-## ISlide::GetImage(float, float) method
+## ISlide::GetImage(float, float) metod
+
 
 Returnerar ett bildobjekt med anpassad skalning.
 
@@ -14,36 +15,41 @@ Returnerar ett bildobjekt med anpassad skalning.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
+
 ### Argument
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| scaleX | **float** | Värdet som används för att skala den här Thumbnail i x-axelns riktning. |
-| scaleY | **float** | Värdet som används för att skala den här Thumbnail i y-axelns riktning. |
+| scaleX | **float** | Värdet med vilket detta miniatyrbild ska skalas i x-axelns riktning. |
+| scaleY | **float** | Värdet med vilket detta miniatyrbild ska skalas i y-axelns riktning. |
 
 ### Returvärde
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage() method
+## ISlide::GetImage() metod
 
-Returnerar ett miniatyr-Image-objekt (20 % av verklig storlek).
+
+Returnerar ett miniatyrbildsobjekt (20 % av verklig storlek).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 ```
 
+
 ### Returvärde
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage(System::Drawing::Size) method
+## ISlide::GetImage(System::Drawing::Size) metod
+
 
 Returnerar ett bildobjekt med angiven storlek.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
+
 
 ### Argument
 
@@ -53,15 +59,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Returvärde
 
-Bitmap-objekt.
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) method
+## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) metod
 
-Returnerar ett miniatyr-tiff-bitmap-objekt med angivna parametrar.
+
+Returnerar ett miniatur-tiff-bitmapobjekt med angivna parametrar.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
+
 
 ### Argument
 
@@ -71,16 +79,18 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Returvärde
 
-Image object.
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) method
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) metod
 
-Returnerar ett miniatyr-Bitmap-objekt.
+
+Returnerar ett miniatur-bitmap-objekt.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
+
 ### Argument
 
 | Parameter | Typ | Beskrivning |
@@ -89,35 +99,39 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Returvärde
 
-Bitmap-objekt.
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) metod
 
-Returnerar ett miniatyr-Bitmap-objekt med anpassad skalning.
+
+Returnerar ett miniatur-bitmap-objekt med anpassad skalning.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
+
 ### Argument
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Renderingsalternativ. |
-| scaleX | **float** | Värdet som används för att skala den här Thumbnail i x-axelns riktning. |
-| scaleY | **float** | Värdet som används för att skala den här Thumbnail i y-axelns riktning. |
+| scaleX | **float** | Värdet med vilket detta miniatyrbild ska skalas i x-axelns riktning. |
+| scaleY | **float** | Värdet med vilket detta miniatyrbild ska skalas i y-axelns riktning. |
 
 ### Returvärde
 
-Bitmap-objekt.
+Image object [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) metod
 
-Returnerar ett miniatyr-Bitmap-objekt med angiven storlek.
+
+Returnerar ett miniatur-bitmap-objekt med angiven storlek.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
+
 
 ### Argument
 
@@ -128,7 +142,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Returvärde
 
-Bitmap-objekt.
+Image object [IImage](../../iimage/)
 
 ## Se också
 

@@ -8,27 +8,24 @@ url: /nl/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) methode
 
-
 Maakt een tegelafbeelding voor de patroonvulling met opgegeven kleuren.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
 ```
 
-
-### Argumenten
+### Arguments
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | background | [System::Drawing::Color](../../../system.drawing/color/) | De achtergrond [System::Drawing::Color](../../../system.drawing/color/) voor het patroon. |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | De voorgrond [System::Drawing::Color](../../../system.drawing/color/) voor het patroon. |
 
-### Retourwaarde
+### Return Value
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tegel [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) methode
-
 
 Maakt een tegelafbeelding voor de patroonvulling.
 
@@ -36,16 +33,15 @@ Maakt een tegelafbeelding voor de patroonvulling.
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
 ```
 
-
-### Argumenten
+### Arguments
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | styleColor | [System::Drawing::Color](../../../system.drawing/color/) | De standaard [System::Drawing::Color](../../../system.drawing/color/), gedefinieerd in het StyleEx-object van ShapeEx. De kleuren van de vulling kunnen hiervan afhankelijk zijn. |
 
-### Retourwaarde
+### Return Value
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tegel [IImage](../../iimage/).
 
 ## Zie ook
 
@@ -54,4 +50,4 @@ Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 * Klasse [Color](../../../system.drawing/color/)
 * Klasse [IPatternFormat](../)
 * Naamruimte [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* Bibliotheek [Aspose.Slides](../../../)

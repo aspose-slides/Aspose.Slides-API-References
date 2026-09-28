@@ -1,13 +1,13 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.7)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /hu/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: Az Aspose.Slides egy osztálykönyvtár, amelyet fejlesztők különféle platformokon felhasználhatnak különböző bemutatófeldolgozási feladatokhoz.
+description: Az Aspose.Slides egy osztálykönyvtár, amelyet fejlesztők különféle platformokon a prezentációk feldolgozásának számos feladatához használhatnak.
 is_root: true
 ---
-## Névterek
+## Névtér
 
 - [Aspose::Slides](./aspose.slides/)
 - [Aspose::Slides::Animation](./aspose.slides.animation/)
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

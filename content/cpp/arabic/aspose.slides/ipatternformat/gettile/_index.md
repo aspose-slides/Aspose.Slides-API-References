@@ -1,53 +1,53 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides للـ C++ مرجع API
-description: ينشئ صورة بلاطة لتعبئة النمط بألوان محددة.
+second_title: مرجع API Aspose.Slides للـ C++
+description: ينشئ صورة بلاط لتعبئة النمط بألوان محددة.
 type: docs
 weight: 53
 url: /ar/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) طريقة
 
-ينشئ صورة بلاطة لتعبئة النمط بألوان محددة.
+Creates a tile image for the pattern fill with a specified colors.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
 ```
 
-### وسائط
+### المعلمات
 
-| معامل | نوع | وصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | background | [System::Drawing::Color](../../../system.drawing/color/) | الخلفية [System::Drawing::Color](../../../system.drawing/color/) للنمط. |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | المقدمة [System::Drawing::Color](../../../system.drawing/color/) للنمط. |
 
 ### قيمة الإرجاع
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+بلاط [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) طريقة
 
-ينشئ صورة بلاطة لتعبئة النمط.
+Creates a tile image for the pattern fill.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
 ```
 
-### وسائط
+### المعلمات
 
-| معامل | نوع | وصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | القيمة الافتراضية [System::Drawing::Color](../../../system.drawing/color/)، المعرفة في كائن StyleEx الخاص بـ ShapeEx. يمكن أن تعتمد ألوان التعبئة على ذلك. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | القيمة الافتراضية [System::Drawing::Color](../../../system.drawing/color/)، المعرفة في كائن StyleEx الخاص بـ ShapeEx. قد تعتمد ألوان التعبئة على ذلك. |
 
 ### قيمة الإرجاع
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+بلاط [IImage](../../iimage/).
 
-## انظر أيضًا
+## أنظر أيضًا
 
-* تعريف نوع [SharedPtr](../../../system/sharedptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * فئة [IImage](../../iimage/)
 * فئة [Color](../../../system.drawing/color/)
 * فئة [IPatternFormat](../)
-* نطاق [Aspose::Slides](../../)
+* فضاء الاسم [Aspose::Slides](../../)
 * مكتبة [Aspose.Slides](../../../)

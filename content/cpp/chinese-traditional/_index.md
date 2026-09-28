@@ -1,10 +1,10 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.7)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /zh-hant/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: "Aspose.Slides 是一個類別庫，可供開發人員在各種平台上用於各種簡報處理任務。"
+description: Aspose.Slides 是一個類別庫，開發人員可於各種平台上使用，以執行多種簡報處理任務。
 is_root: true
 ---
 ## 命名空間
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

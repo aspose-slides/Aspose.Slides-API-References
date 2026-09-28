@@ -1,33 +1,33 @@
 ---
 title: GetImage()
 second_title: مرجع API لـ Aspose.Slides للغة C++
-description: يعيد كائن صورة مع تحجيم مخصص.
+description: يرجع كائن صورة مع تحجيم مخصص.
 type: docs
 weight: 105
 url: /ar/aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) طريقة
 
-يعيد كائن Image مع تحجيم مخصص.
+إرجاع كائن Image مع تحجيم مخصص.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| scaleX | **float** | القيمة التي سيتم بموجبها تحجيم هذه المصغرة في اتجاه محور x. |
-| scaleY | **float** | القيمة التي سيتم بموجبها تحجيم هذه المصغرة في اتجاه محور y. |
+| scaleX | **float** | القيمة التي يتم من خلالها تحجيم هذا Thumbnail في اتجاه محور x. |
+| scaleY | **float** | القيمة التي يتم من خلالها تحجيم هذا Thumbnail في اتجاه محور y. |
 
 ### قيمة الإرجاع
 
-كائن Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage() طريقة
 
-يعيد كائن Thumbnail Image (20% من الحجم الحقيقي).
+إرجاع كائن Thumbnail Image (20% من الحجم الحقيقي).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -35,108 +35,108 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### قيمة الإرجاع
 
-كائن Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) طريقة
 
-يعيد كائن Image بالحجم المحدد.
+إرجاع كائن Image بالحجم المحدد.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | حجم الصورة التي سيتم إنشاؤها. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | حجم الصورة لإنشائها. |
 
 ### قيمة الإرجاع
 
-كائن Bitmap.
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) طريقة
 
-يعيد كائن تيف Bitmap مصغر مع المعلمات المحددة.
+إرجاع كائن Thumbnail tiff bitmap بالمعلمات المحددة.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | خيارات tiff. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | خيارات Tiff. |
 
 ### قيمة الإرجاع
 
-كائن Image.
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) طريقة
 
-يعيد كائن Thumbnail Bitmap.
+إرجاع كائن Thumbnail Bitmap.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات التصيير. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات Rendering. |
 
 ### قيمة الإرجاع
 
-كائنات Bitmap.
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) طريقة
 
-يعيد كائن Thumbnail Bitmap مع تحجيم مخصص.
+إرجاع كائن Thumbnail Bitmap مع تحجيم مخصص.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات التصيير. |
-| scaleX | **float** | القيمة التي سيتم بموجبها تحجيم هذه المصغرة في اتجاه محور x. |
-| scaleY | **float** | القيمة التي سيتم بموجبها تحجيم هذه المصغرة في اتجاه محور y. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات Rendering. |
+| scaleX | **float** | القيمة التي يتم من خلالها تحجيم هذا Thumbnail في اتجاه محور x. |
+| scaleY | **float** | القيمة التي يتم من خلالها تحجيم هذا Thumbnail في اتجاه محور y. |
 
 ### قيمة الإرجاع
 
-كائنات Bitmap.
+كائن Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) طريقة
 
-يعيد كائن Thumbnail Bitmap بالحجم المحدد.
+إرجاع كائن Thumbnail Bitmap بالحجم المحدد.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
 
-### المعلمات
+### الوسائط
 
 | المعامل | النوع | الوصف |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات التصيير. |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | حجم الصورة التي سيتم إنشاؤها. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | خيارات Rendering. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | حجم الصورة لإنشائها. |
 
 ### قيمة الإرجاع
 
-كائنات Bitmap.
+كائن Image [IImage](../../iimage/)
 
-## راجع أيضاً
+## انظر أيضًا
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IImage](../../iimage/)
-* Class [ISlide](../)
-* Class [Size](../../../system.drawing/size/)
-* Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Namespace [Aspose::Slides](../../)
+* فئة [IImage](../../iimage/)
+* فئة [ISlide](../)
+* فئة [Size](../../../system.drawing/size/)
+* فئة [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
+* فئة [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* نطاق [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

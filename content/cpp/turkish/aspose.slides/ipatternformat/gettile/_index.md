@@ -1,39 +1,43 @@
 ---
 title: GetTile()
-second_title: C++ için Aspose.Slides API Referansı
-description: Belirtilen renklerle desen dolgusuna ait bir döşeme resmi oluşturur.
+second_title: Aspose.Slides for C++ API Referansı
+description: Belirtilen renklerle desen dolgu için bir döşeme resmi oluşturur.
 type: docs
 weight: 53
 url: /tr/aspose.slides/ipatternformat/gettile/
 ---
-## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) yöntemi
 
-Belirtilen renklerle desen dolgusuna ait bir döşeme resmi oluşturur.
+
+Belirtilen renklerle desen dolgu için bir döşeme resmi oluşturur.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
 ```
 
-### Argümanlar
+
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | Desen için [System::Drawing::Color](../../../system.drawing/color/) arka plan. |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Desen için [System::Drawing::Color](../../../system.drawing/color/) ön plan. |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | Desen için [System::Drawing::Color](../../../system.drawing/color/) arka planı. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Desen için [System::Drawing::Color](../../../system.drawing/color/) ön planı. |
 
 ### Dönüş Değeri
 
-Döşeme [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Döşeme [IImage](../../iimage/).
 
-## IPatternFormat::GetTile(System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color) yöntemi
 
-Desen dolgusuna ait bir döşeme resmi oluşturur.
+
+Desen dolgu için bir döşeme resmi oluşturur.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
 ```
 
-### Argümanlar
+
+### Parametreler
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
@@ -41,13 +45,13 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Dönüş Değeri
 
-Döşeme [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Döşeme [IImage](../../iimage/).
 
 ## Ayrıca Bakınız
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
+* Tip Tanımı [SharedPtr](../../../system/sharedptr/)
 * Sınıf [IImage](../../iimage/)
 * Sınıf [Color](../../../system.drawing/color/)
 * Sınıf [IPatternFormat](../)
-* İsim Alanı [Aspose::Slides](../../)
+* AdAlanı [Aspose::Slides](../../)
 * Kütüphane [Aspose.Slides](../../../)

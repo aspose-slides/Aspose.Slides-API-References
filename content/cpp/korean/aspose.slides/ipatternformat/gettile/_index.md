@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) 메서드
 
-패턴 채우기를 위한 타일 이미지를 지정된 색상으로 생성합니다.
+지정된 색상으로 패턴 채우기를 위한 타일 이미지를 생성합니다.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -23,7 +23,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### 반환값
 
-타일 [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+타일 [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) 메서드
 
@@ -37,11 +37,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | ShapeEx의 StyleEx 객체에 정의된 기본 [System::Drawing::Color](../../../system.drawing/color/). Fill의 색상은 이것에 의존할 수 있습니다. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | ShapeEx의 StyleEx 객체에 정의된 기본 [System::Drawing::Color](../../../system.drawing/color/). 채우기 색상은 이에 따라 달라질 수 있습니다. |
 
 ### 반환값
 
-타일 [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+타일 [IImage](../../iimage/).
 
 ## 참고
 

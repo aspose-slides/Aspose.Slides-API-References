@@ -1,14 +1,14 @@
 ---
 title: GetTile()
-second_title: Riferimento API di Aspose.Slides per C++
-description: Crea un'immagine tile per il riempimento del pattern con colori specificati.
+second_title: Riferimento API Aspose.Slides per C++
+description: Crea un'immagine tile per il riempimento a trama con i colori specificati.
 type: docs
 weight: 53
 url: /it/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) metodo
 
-Crea un'immagine tile per il riempimento del pattern con colori specificati.
+Crea un'immagine tile per il riempimento a trama con i colori specificati.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -18,16 +18,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | Lo sfondo [System::Drawing::Color](../../../system.drawing/color/) per il pattern. |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Il primo piano [System::Drawing::Color](../../../system.drawing/color/) per il pattern. |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | Il [System::Drawing::Color](../../../system.drawing/color/) di sfondo per la trama. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Il [System::Drawing::Color](../../../system.drawing/color/) di primo piano per la trama. |
 
 ### Valore di ritorno
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tile [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) metodo
 
-Crea un'immagine tile per il riempimento del pattern.
+Crea un'immagine tile per il riempimento a trama.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
@@ -37,11 +37,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Il valore predefinito [System::Drawing::Color](../../../system.drawing/color/), definito nell'oggetto StyleEx di ShapeEx. I colori del riempimento possono dipendere da questo. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Il [System::Drawing::Color](../../../system.drawing/color/) predefinito, definito nell'oggetto StyleEx di ShapeEx. I colori di riempimento possono dipendere da questo. |
 
 ### Valore di ritorno
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tile [IImage](../../iimage/).
 
 ## Vedi anche
 
@@ -49,5 +49,5 @@ Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 * Classe [IImage](../../iimage/)
 * Classe [Color](../../../system.drawing/color/)
 * Classe [IPatternFormat](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* Spazio dei nomi [Aspose::Slides](../../)
+* Libreria [Aspose.Slides](../../../)

@@ -1,13 +1,13 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.6)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /el/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: Το Aspose.Slides είναι μια βιβλιοθήκη κλάσεων που μπορεί να χρησιμοποιηθεί από προγραμματιστές για διάφορες πλατφόρμες για μια ποικιλία εργασιών επεξεργασίας παρουσιάσεων.
+description: Aspose.Slides είναι μια βιβλιοθήκη κλάσεων που μπορεί να χρησιμοποιηθεί από προγραμματιστές για διάφορες πλατφόρμες για μια ποικιλία εργασιών επεξεργασίας παρουσιάσεων.
 is_root: true
 ---
-## Ονοματοχώροι
+## Χώροι ονομάτων
 
 - [Aspose::Slides](./aspose.slides/)
 - [Aspose::Slides::Animation](./aspose.slides.animation/)
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

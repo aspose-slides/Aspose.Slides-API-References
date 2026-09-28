@@ -1,6 +1,6 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides dla C++ – dokumentacja API
+second_title: Aspose.Slides dla C++ – Referencja API
 description: Zwraca obiekt obrazu z niestandardowym skalowaniem.
 type: docs
 weight: 105
@@ -8,36 +8,41 @@ url: /pl/aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) metoda
 
+
 Zwraca obiekt obrazu z niestandardowym skalowaniem.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| scaleX | **float** | Wartość, o którą skalujemy tę miniaturę w kierunku osi x. |
-| scaleY | **float** | Wartość, o którą skalujemy tę miniaturę w kierunku osi y. |
+| scaleX | **float** | Wartość, o którą należy skalować ten Thumbnail w kierunku osi x. |
+| scaleY | **float** | Wartość, o którą należy skalować ten Thumbnail w kierunku osi y. |
 
 ### Wartość zwracana
 
-Obiekt Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage() metoda
 
-Zwraca obiekt obrazu miniatury (20% rzeczywistego rozmiaru).
+
+Zwraca obiekt Thumbnail Image (20% rzeczywistego rozmiaru).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 ```
 
+
 ### Wartość zwracana
 
-Obiekt Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) metoda
+
 
 Zwraca obiekt obrazu o określonym rozmiarze.
 
@@ -45,6 +50,7 @@ Zwraca obiekt obrazu o określonym rozmiarze.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Opis |
@@ -53,34 +59,38 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Wartość zwracana
 
-Obiekt Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) metoda
 
-Zwraca obiekt bitmapy TIFF miniatury z określonymi parametrami.
+
+Zwraca obiekt Thumbnail tiff bitmap z określonymi parametrami.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Opcje TIFF. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Opcje Tiff. |
 
 ### Wartość zwracana
 
-Obiekt Image.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) metoda
 
-Zwraca obiekt bitmapy miniatury.
+
+Zwraca obiekt Thumbnail Bitmap.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Opis |
@@ -89,35 +99,39 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Wartość zwracana
 
-Obiekty Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) metoda
 
-Zwraca obiekt bitmapy miniatury z niestandardowym skalowaniem.
+
+Zwraca obiekt Thumbnail Bitmap z niestandardowym skalowaniem.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Opcje renderowania. |
-| scaleX | **float** | Wartość, o którą skalujemy tę miniaturę w kierunku osi x. |
-| scaleY | **float** | Wartość, o którą skalujemy tę miniaturę w kierunku osi y. |
+| scaleX | **float** | Wartość, o którą należy skalować ten Thumbnail w kierunku osi x. |
+| scaleY | **float** | Wartość, o którą należy skalować ten Thumbnail w kierunku osi y. |
 
 ### Wartość zwracana
 
-Obiekty Bitmap.
+Image object [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) metoda
 
-Zwraca obiekt bitmapy miniatury o określonym rozmiarze.
+
+Zwraca obiekt Thumbnail Bitmap o określonym rozmiarze.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
+
 
 ### Argumenty
 
@@ -128,15 +142,15 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Wartość zwracana
 
-Obiekty Bitmap.
+Image object [IImage](../../iimage/)
 
 ## Zobacz także
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IImage](../../iimage/)
-* Class [ISlide](../)
-* Class [Size](../../../system.drawing/size/)
-* Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Namespace [Aspose::Slides](../../)
+* Klasa [IImage](../../iimage/)
+* Klasa [ISlide](../)
+* Klasa [Size](../../../system.drawing/size/)
+* Klasa [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
+* Klasa [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* Przestrzeń nazw [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)
