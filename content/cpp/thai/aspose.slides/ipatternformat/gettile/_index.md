@@ -1,14 +1,14 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides สำหรับการอ้างอิง API ของ C++
-description: สร้างภาพไทล์สำหรับการเติมลายด้วยสีที่ระบุ
+second_title: Aspose.Slides สำหรับอ้างอิง API ของ C++
+description: สร้างภาพไทล์สำหรับการเติมลายแบบด้วยสีที่ระบุ.
 type: docs
 weight: 53
 url: /th/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) เมธอด
 
-สร้างภาพไทล์สำหรับการเติมลายด้วยสีที่ระบุ
+สร้างภาพไทล์สำหรับการเติมลายด้วยสีที่ระบุ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -16,18 +16,18 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### อาร์กิวเมนต์
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | พื้นหลัง [System::Drawing::Color](../../../system.drawing/color/) สำหรับลาย |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | พื้นหน้า [System::Drawing::Color](../../../system.drawing/color/) สำหรับลาย |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | พื้นหลัง [System::Drawing::Color](../../../system.drawing/color/) สำหรับลายแบบ. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | พื้นหน้า [System::Drawing::Color](../../../system.drawing/color/) สำหรับลายแบบ. |
 
-### ค่าที่คืน
+### ค่าที่ส่งคืน
 
-ไทล์ [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+ไทล์ [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) เมธอด
 
-สร้างภาพไทล์สำหรับการเติมลาย
+สร้างภาพไทล์สำหรับการเติมลายแบบ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
@@ -35,19 +35,19 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### อาร์กิวเมนต์
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | ค่าเริ่มต้น [System::Drawing::Color](../../../system.drawing/color/) ที่กำหนดในออบเจ็กต์ StyleEx ของ ShapeEx. สีของการเติมอาจพึ่งพาค่านี้ |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | ค่าเริ่มต้น [System::Drawing::Color](../../../system.drawing/color/) ที่กำหนดในอ็อบเจกต์ StyleEx ของ ShapeEx. สีของ Fill อาจขึ้นกับค่านี้. |
 
-### ค่าที่คืน
+### ค่าที่ส่งคืน
 
-ไทล์ [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+ไทล์ [IImage](../../iimage/).
 
 ## ดูเพิ่มเติม
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IImage](../../iimage/)
-* Class [Color](../../../system.drawing/color/)
-* Class [IPatternFormat](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* คลาส [IImage](../../iimage/)
+* คลาส [Color](../../../system.drawing/color/)
+* คลาส [IPatternFormat](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

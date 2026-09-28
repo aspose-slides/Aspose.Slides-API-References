@@ -1,14 +1,14 @@
 ---
 title: GetTile()
-second_title: Aspose.Slides C++ API 參考
-description: 使用指定的顏色建立圖案填充的磚塊影像。
+second_title: Aspose.Slides for C++ API 參考
+description: 建立具有指定顏色的圖案填充平鋪圖像。
 type: docs
 weight: 53
 url: /zh-hant/aspose.slides/ipatternformat/gettile/
 ---
-## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) 方法
+## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) method
 
-建立一個使用指定顏色的圖案填充磚塊影像。
+建立具有指定顏色的圖案填充平鋪圖像。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -16,18 +16,18 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### 參數
 
-| Parameter | Type | Description |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | background | [System::Drawing::Color](../../../system.drawing/color/) | 圖案的背景 [System::Drawing::Color](../../../system.drawing/color/)。 |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | 圖案的前景 [System::Drawing::Color](../../../system.drawing/color/)。 |
 
-### 返回值
+### Return Value
 
-磚塊 [System::Drawing::Bitmap](../../../system.drawing/bitmap/)。
+圖塊 [IImage](../../iimage/).
 
-## IPatternFormat::GetTile(System::Drawing::Color) 方法
+## IPatternFormat::GetTile(System::Drawing::Color) method
 
-建立圖案填充的磚塊影像。
+建立圖案填充的平鋪圖像。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
@@ -35,19 +35,19 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### 參數
 
-| Parameter | Type | Description |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | styleColor | [System::Drawing::Color](../../../system.drawing/color/) | 在 ShapeEx 的 StyleEx 物件中定義的預設 [System::Drawing::Color](../../../system.drawing/color/)。填充的顏色可能取決於此。 |
 
-### 返回值
+### Return Value
 
-磚塊 [System::Drawing::Bitmap](../../../system.drawing/bitmap/)。
+圖塊 [IImage](../../iimage/)。
 
-## 另請參閱
+## 另見
 
-* 型別定義 [SharedPtr](../../../system/sharedptr/)
-* 類別 [IImage](../../iimage/)
-* 類別 [Color](../../../system.drawing/color/)
-* 類別 [IPatternFormat](../)
-* 命名空間 [Aspose::Slides](../../)
-* 程式庫 [Aspose.Slides](../../../)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IImage](../../iimage/)
+* Class [Color](../../../system.drawing/color/)
+* Class [IPatternFormat](../)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

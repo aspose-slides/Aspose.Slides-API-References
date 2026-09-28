@@ -1,6 +1,6 @@
 ---
 title: GetTile()
-second_title: Référence de l'API Aspose.Slides pour C++
+second_title: Référence de l'API Aspose.Slides for C++
 description: Crée une image de tuile pour le remplissage du motif avec des couleurs spécifiées.
 type: docs
 weight: 53
@@ -16,16 +16,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 ```
 
 
-### Paramètres
+### Arguments
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | background | [System::Drawing::Color](../../../system.drawing/color/) | L'arrière-plan [System::Drawing::Color](../../../system.drawing/color/) du motif. |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Le premier plan [System::Drawing::Color](../../../system.drawing/color/) du motif. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | Le premier-plan [System::Drawing::Color](../../../system.drawing/color/) du motif. |
 
 ### Valeur de retour
 
-Tuile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tuile [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) méthode
 
@@ -37,7 +37,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 ```
 
 
-### Paramètres
+### Arguments
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
@@ -45,13 +45,13 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Valeur de retour
 
-Tuile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Tuile [IImage](../../iimage/).
 
 ## Voir aussi
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IImage](../../iimage/)
-* Class [Color](../../../system.drawing/color/)
-* Class [IPatternFormat](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* Classe [IImage](../../iimage/)
+* Classe [Color](../../../system.drawing/color/)
+* Classe [IPatternFormat](../)
+* Espace de noms [Aspose::Slides](../../)
+* Bibliothèque [Aspose.Slides](../../../)

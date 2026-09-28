@@ -1,10 +1,10 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.6)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /zh/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: Aspose.Slides 是一个类库，开发者可在各种平台上使用它执行多种演示文稿处理任务。
+description: Aspose.Slides 是一个类库，可供开发人员在各种平台上执行各种演示文稿处理任务。
 is_root: true
 ---
 ## 命名空间
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

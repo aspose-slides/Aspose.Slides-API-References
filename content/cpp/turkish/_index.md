@@ -1,10 +1,10 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.7)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /tr/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: Aspose.Slides, geliştiriciler tarafından çeşitli platformlarda çeşitli sunum işleme görevleri için kullanılabilen bir sınıf kitaplığıdır.
+description: Aspose.Slides, geliştiriciler tarafından çeşitli platformlarda çok çeşitli sunum işleme görevleri için kullanılabilen bir sınıf kitaplığıdır.
 is_root: true
 ---
 ## Ad Alanları
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

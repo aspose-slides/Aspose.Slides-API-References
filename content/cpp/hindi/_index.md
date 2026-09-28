@@ -1,10 +1,10 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.7)
+title: Aspose.Slides for C++ API Reference (version 26.9)
 type: docs
 weight: 12
 url: /hi/
 keywords: "Aspose.Slides for C++, Aspose Slides, Aspose API Reference."
-description: Aspose.Slides एक क्लास लाइब्रेरी है जिसे विभिन्न प्लेटफ़ॉर्म पर विभिन्न प्रेजेंटेशन प्रोसेसिंग कार्यों के लिए डेवलपर्स द्वारा उपयोग किया जा सकता है।
+description: Aspose.Slides एक क्लास लाइब्रेरी है जिसे डेवलपर्स विभिन्न प्लेटफ़ॉर्म पर विभिन्न प्रस्तुति प्रोसेसिंग कार्यों के लिए उपयोग कर सकते हैं।
 is_root: true
 ---
 ## नामस्थान
@@ -32,6 +32,7 @@ is_root: true
 - [Aspose::Slides::Warnings](./aspose.slides.warnings/)
 - [System](./system/)
 - [System::BoxedValueDetail](./system.boxedvaluedetail/)
+- [System::Buffers](./system.buffers/)
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)

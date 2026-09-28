@@ -1,6 +1,6 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides για C++ API Αναφορά
+second_title: Aspose.Slides για C++ – Αναφορά API
 description: Επιστρέφει ένα αντικείμενο εικόνας με προσαρμοσμένη κλιμάκωση.
 type: docs
 weight: 105
@@ -18,16 +18,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| scaleX | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Thumbnail στην κατεύθυνση του άξονα x. |
-| scaleY | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Thumbnail στην κατεύθυνση του άξονα y. |
+| scaleX | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Μικρογραφία στην κατεύθυνση του άξονα x. |
+| scaleY | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Μικρογραφία στην κατεύθυνση του άξονα y. |
 
 ### Τιμή Επιστροφής
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage() μέθοδος
 
-Επιστρέφει ένα αντικείμενο Thumbnail Image (20% του πραγματικού μεγέθους).
+Επιστρέφει ένα αντικείμενο Μικρογραφίας Εικόνας (20% του πραγματικού μεγέθους).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -35,7 +35,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### Τιμή Επιστροφής
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) μέθοδος
 
@@ -53,11 +53,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Τιμή Επιστροφής
 
-Bitmap object.
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) μέθοδος
 
-Επιστρέφει ένα αντικείμενο Thumbnail tiff bitmap με καθορισμένες παραμέτρους.
+Επιστρέφει ένα αντικείμενο μικρογραφίας tiff bitmap με συγκεκριμένες παραμέτρους.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -71,11 +71,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Τιμή Επιστροφής
 
-Image object.
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) μέθοδος
 
-Επιστρέφει ένα αντικείμενο Thumbnail Bitmap.
+Επιστρέφει ένα αντικείμενο Μικρογραφία Bitmap.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -85,15 +85,15 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Παράμετροι Rendering. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Επιλογές απόδοσης. |
 
 ### Τιμή Επιστροφής
 
-Bitmap objects.
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) μέθοδος
 
-Επιστρέφει ένα αντικείμενο Thumbnail Bitmap με προσαρμοσμένη κλιμάκωση.
+Επιστρέφει ένα αντικείμενο Μικρογραφία Bitmap με προσαρμοσμένη κλιμάκωση.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -103,17 +103,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Παράμετροι Rendering. |
-| scaleX | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Thumbnail στην κατεύθυνση του άξονα x. |
-| scaleY | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Thumbnail στην κατεύθυνση του άξονα y. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Επιλογές απόδοσης. |
+| scaleX | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Μικρογραφία στην κατεύθυνση του άξονα x. |
+| scaleY | **float** | Η τιμή με την οποία κλιμακώνεται αυτή η Μικρογραφία στην κατεύθυνση του άξονα y. |
 
 ### Τιμή Επιστροφής
 
-Bitmap objects.
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) μέθοδος
 
-Επιστρέφει ένα αντικείμενο Thumbnail Bitmap με καθορισμένο μέγεθος.
+Επιστρέφει ένα αντικείμενο Μικρογραφία Bitmap με συγκεκριμένο μέγεθος.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -123,12 +123,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Παράμετροι Rendering. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Επιλογές απόδοσης. |
 | imageSize | [System::Drawing::Size](../../../system.drawing/size/) | Μέγεθος της εικόνας που θα δημιουργηθεί. |
 
 ### Τιμή Επιστροφής
 
-Bitmap objects.
+αντικείμενο εικόνας [IImage](../../iimage/)
 
 ## Δείτε επίσης
 

@@ -1,18 +1,20 @@
 ---
 title: GetTile()
 second_title: Aspose.Slides pro C++ API Reference
-description: Vytvoří obrázek dlaždice pro výplň vzoru s určenými barvami.
+description: Vytvoří obrázek dlaždice pro výplň vzoru se zadanými barvami.
 type: docs
 weight: 53
 url: /cs/aspose.slides/ipatternformat/gettile/
 ---
 ## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) metoda
 
+
 Vytvoří obrázek dlaždice pro výplň vzoru s určenými barvami.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
 ```
+
 
 ### Argumenty
 
@@ -23,9 +25,10 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Návratová hodnota
 
-Dlaždice [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Dlaždice [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) metoda
+
 
 Vytvoří obrázek dlaždice pro výplň vzoru.
 
@@ -33,15 +36,16 @@ Vytvoří obrázek dlaždice pro výplň vzoru.
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
 ```
 
+
 ### Argumenty
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Výchozí [System::Drawing::Color](../../../system.drawing/color/), definovaný v objektu StyleEx třídy ShapeEx. Barvy výplně mohou záviset na tomto. |
+| styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Výchozí [System::Drawing::Color](../../../system.drawing/color/), definované v objektu StyleEx třídy ShapeEx. Barvy výplně mohou na tom záviset. |
 
 ### Návratová hodnota
 
-Dlaždice [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Dlaždice [IImage](../../iimage/).
 
 ## Viz také
 

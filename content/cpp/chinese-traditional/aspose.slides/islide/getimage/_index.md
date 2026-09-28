@@ -1,14 +1,14 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides C++ API 參考
-description: 傳回具有自訂縮放的影像物件。
+second_title: Aspose.Slides for C++ API 參考
+description: 傳回具有自訂縮放的 Image 物件。
 type: docs
 weight: 105
 url: /zh-hant/aspose.slides/islide/getimage/
 ---
-## ISlide::GetImage(float, float) 方法
+## ISlide::GetImage(float, float) method
 
-返回具有自訂縮放的影像物件。
+傳回具有自訂縮放的 Image 物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
@@ -16,18 +16,18 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| scaleX | **float** | 在 x 軸方向上縮放此縮圖的值。 |
-| scaleY | **float** | 在 y 軸方向上縮放此縮圖的值。 |
+| scaleX | **float** | 用於在 x 軸方向上縮放此縮圖的值。 |
+| scaleY | **float** | 用於在 y 軸方向上縮放此縮圖的值。 |
 
 ### 返回值
 
-影像物件 [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage() 方法
+## ISlide::GetImage() method
 
-返回縮圖影像物件（實際大小的 20%）。
+傳回一個縮圖 Image 物件（實際尺寸的 20%）。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -35,11 +35,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### 返回值
 
-影像物件 [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage(System::Drawing::Size) 方法
+## ISlide::GetImage(System::Drawing::Size) method
 
-返回具有指定大小的影像物件。
+傳回具有指定尺寸的 Image 物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
@@ -47,17 +47,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 要建立的影像大小。 |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 要建立的圖像尺寸。 |
 
 ### 返回值
 
-位圖物件。
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) 方法
+## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) method
 
-返回具有指定參數的縮圖 TIFF 位圖物件。
+傳回具有指定參數的縮圖 tiff 位圖物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -65,17 +65,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Tiff 選項。 |
 
 ### 返回值
 
-影像物件。
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) 方法
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) method
 
-返回縮圖位圖物件。
+傳回縮圖 Bitmap 物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -83,17 +83,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | 渲染選項。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering 選項。 |
 
 ### 返回值
 
-位圖物件。
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) 方法
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
 
-返回具有自訂縮放的縮圖位圖物件。
+傳回具有自訂縮放的縮圖 Bitmap 物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -101,19 +101,19 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | 渲染選項。 |
-| scaleX | **float** | 在 x 軸方向上縮放此縮圖的值。 |
-| scaleY | **float** | 在 y 軸方向上縮放此縮圖的值。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering 選項。 |
+| scaleX | **float** | 用於在 x 軸方向上縮放此縮圖的值。 |
+| scaleY | **float** | 用於在 y 軸方向上縮放此縮圖的值。 |
 
 ### 返回值
 
-位圖物件。
+Image 物件 [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) 方法
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
 
-返回具有指定大小的縮圖位圖物件。
+傳回具有指定尺寸的縮圖 Bitmap 物件。
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -121,22 +121,22 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### 參數
 
-| 參數 | 類型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | 渲染選項。 |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 要建立的影像大小。 |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering 選項。 |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | 要建立的圖像尺寸。 |
 
 ### 返回值
 
-位圖物件。
+Image 物件 [IImage](../../iimage/)
 
-## 另請參閱
+## 另見
 
-* 型別別名 [SharedPtr](../../../system/sharedptr/)
-* 類別 [IImage](../../iimage/)
-* 類別 [ISlide](../)
-* 類別 [Size](../../../system.drawing/size/)
-* 類別 [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* 類別 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* 命名空間 [Aspose::Slides](../../)
-* 函式庫 [Aspose.Slides](../../../)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IImage](../../iimage/)
+* Class [ISlide](../)
+* Class [Size](../../../system.drawing/size/)
+* Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
+* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

@@ -16,16 +16,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 ```
 
 
-### Arguments
+### Argument
 
-| Parameter | Typ | Beskrivning |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | background | [System::Drawing::Color](../../../system.drawing/color/) | Bakgrunden [System::Drawing::Color](../../../system.drawing/color/) för mönstret. |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | Förgrunden [System::Drawing::Color](../../../system.drawing/color/) för mönstret. |
 
-### Return Value
+### Returvärde
 
-Kakel [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Kakel [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) method
 
@@ -37,17 +37,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 ```
 
 
-### Arguments
+### Argument
 
-| Parameter | Typ | Beskrivning |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | styleColor | [System::Drawing::Color](../../../system.drawing/color/) | Standard [System::Drawing::Color](../../../system.drawing/color/), definierad i ShapeEx:s StyleEx-objekt. Fyllningens färger kan bero på detta. |
 
-### Return Value
+### Returvärde
 
-Kakel [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Kakel [IImage](../../iimage/).
 
-## See Also
+## Se även
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Klass [IImage](../../iimage/)

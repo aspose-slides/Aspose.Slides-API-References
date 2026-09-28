@@ -6,9 +6,9 @@ type: docs
 weight: 105
 url: /hi/aspose.slides/islide/getimage/
 ---
-## ISlide::GetImage(float, float) मेथड
+## ISlide::GetImage(float, float) विधि
 
-निर्दिष्ट कस्टम स्केलिंग के साथ एक इमेज ऑब्जेक्ट लौटाता है।
+कस्टम स्केलिंग के साथ एक Image ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
@@ -16,18 +16,18 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| scaleX | **float** | x-अक्ष दिशा में इस थंबनेल को स्केल करने के लिए मान। |
-| scaleY | **float** | y-अक्ष दिशा में इस थंबनेल को स्केल करने के लिए मान। |
+| scaleX | **float** | x-अक्ष दिशा में इस Thumbnail को स्केल करने का मान। |
+| scaleY | **float** | y-अक्ष दिशा में इस Thumbnail को स्केल करने का मान। |
 
 ### वापसी मान
 
-छवि ऑब्जेक्ट [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage() मेथड
+## ISlide::GetImage() विधि
 
-वास्तविक आकार के 20% पर एक थंबनेल इमेज ऑब्जेक्ट लौटाता है।
+एक Thumbnail Image ऑब्जेक्ट (वास्तविक आकार का 20%) लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -35,11 +35,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### वापसी मान
 
-छवि ऑब्जेक्ट [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage(System::Drawing::Size) मेथड
+## ISlide::GetImage(System::Drawing::Size) विधि
 
-निर्दिष्ट आकार के साथ एक इमेज ऑब्जेक्ट लौटाता है।
+निर्दिष्ट आकार के साथ एक Image ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
@@ -47,17 +47,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | बनाने वाली इमेज का आकार। |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | बनाने के लिए इमेज का आकार। |
 
 ### वापसी मान
 
-बिटमैप ऑब्जेक्ट।
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) मेथड
+## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) विधि
 
-निर्दिष्ट पैरामीटरों के साथ एक थंबनेल टिफ़ बिटमैप ऑब्जेक्ट लौटाता है।
+निर्दिष्ट पैरामीटरों के साथ एक Thumbnail tiff बिटमैप ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -65,17 +65,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | टिफ़ विकल्प। |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Tiff विकल्प। |
 
 ### वापसी मान
 
-छवि ऑब्जेक्ट।
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) मेथड
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) विधि
 
-एक थंबनेल बिटमैप ऑब्जेक्ट लौटाता है।
+एक Thumbnail Bitmap ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -83,17 +83,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | रेन्डरिंग विकल्प। |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering विकल्प। |
 
 ### वापसी मान
 
-बिटमैप ऑब्जेक्ट्स।
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) मेथड
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) विधि
 
-कस्टम स्केलिंग के साथ एक थंबनेल बिटमैप ऑब्जेक्ट लौटाता है।
+कस्टम स्केलिंग के साथ एक Thumbnail Bitmap ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -101,19 +101,19 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | रेन्डरिंग विकल्प। |
-| scaleX | **float** | x-अक्ष दिशा में इस थंबनेल को स्केल करने के लिए मान। |
-| scaleY | **float** | y-अक्ष दिशा में इस थंबनेल को स्केल करने के लिए मान। |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering विकल्प। |
+| scaleX | **float** | x-अक्ष दिशा में इस Thumbnail को स्केल करने का मान। |
+| scaleY | **float** | y-अक्ष दिशा में इस Thumbnail को स्केल करने का मान। |
 
 ### वापसी मान
 
-बिटमैप ऑब्जेक्ट्स।
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
-## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) मेथड
+## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) विधि
 
-निर्दिष्ट आकार के साथ एक थंबनेल बिटमैप ऑब्जेक्ट लौटाता है।
+निर्दिष्ट आकार के साथ एक Thumbnail Bitmap ऑब्जेक्ट लौटाता है।
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -121,22 +121,22 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### आर्ग्युमेंट्स
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | रेन्डरिंग विकल्प। |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | बनाने वाली इमेज का आकार। |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering विकल्प। |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | बनाने के लिए इमेज का आकार। |
 
 ### वापसी मान
 
-बिटमैप ऑब्जेक्ट्स।
+Image ऑब्जेक्ट [IImage](../../iimage/)
 
 ## देखें
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IImage](../../iimage/)
-* Class [ISlide](../)
-* Class [Size](../../../system.drawing/size/)
-* Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* क्लास [IImage](../../iimage/)
+* क्लास [ISlide](../)
+* क्लास [Size](../../../system.drawing/size/)
+* क्लास [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
+* क्लास [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* नेमस्पेस [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

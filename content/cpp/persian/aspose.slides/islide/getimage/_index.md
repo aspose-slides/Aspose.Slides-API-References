@@ -1,142 +1,142 @@
 ---
 title: GetImage()
 second_title: Aspose.Slides برای C++ مرجع API
-description: یک شی تصویر با مقیاس‌گذاری سفارشی برمی‌گرداند.
+description: یک شیء تصویر با مقیاس‌گذاری سفارشی برمی‌گرداند.
 type: docs
 weight: 105
 url: /fa/aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) متد
 
-یک شی تصویر با مقیاس‌گذاری سفارشی برمی‌گرداند.
+یک شیء تصویر با مقیاس‌گذاری سفارشی برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| scaleX | **float** | مقداری که برای تغییر مقیاس این Thumbnail در جهت محور x استفاده می‌شود. |
-| scaleY | **float** | مقداری که برای تغییر مقیاس این Thumbnail در جهت محور y استفاده می‌شود. |
+| scaleX | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور x استفاده می‌شود. |
+| scaleY | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور y استفاده می‌شود. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-شی تصویر [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage() متد
 
-یک شی تصویر Thumbnail (20٪ از اندازه واقعی) برمی‌گرداند.
+یک شیء تصویر بندانگشتی (20٪ از اندازه واقعی) را برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 ```
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-شی تصویر [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) متد
 
-یک شی تصویر با اندازه مشخص برمی‌گرداند.
+یک شیء تصویر با اندازهٔ مشخص برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | اندازه تصویر برای ساخت. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | اندازهٔ تصویری که باید ایجاد شود. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-شی بیت‌مپ.
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) متد
 
-یک شی بیت‌مپ tiff Thumbnail با پارامترهای مشخص برمی‌گرداند.
+یک شیء بیتی‌مپ تِیف بندانگشتی با پارامترهای مشخص را برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | گزینه‌های tiff. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | گزینه‌های Tiff. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-شی تصویر.
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) متد
 
-یک شی Bitmap Thumbnail برمی‌گرداند.
+یک شیء بیتی‌مپ بندانگشتی را برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | گزینه‌های رندرینگ. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-اشیای Bitmap.
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) متد
 
-یک شی Bitmap Thumbnail با مقیاس‌گذاری سفارشی برمی‌گرداند.
+یک شیء بیتی‌مپ بندانگشتی با مقیاس‌گذاری سفارشی را برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | گزینه‌های رندرینگ. |
-| scaleX | **float** | مقداری که برای تغییر مقیاس این Thumbnail در جهت محور x استفاده می‌شود. |
-| scaleY | **float** | مقداری که برای تغییر مقیاس این Thumbnail در جهت محور y استفاده می‌شود. |
+| scaleX | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور x استفاده می‌شود. |
+| scaleY | **float** | مقداری که برای مقیاس‌گذاری این بندانگشتی در جهت محور y استفاده می‌شود. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-اشیای Bitmap.
+شیء Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) متد
 
-یک شی Bitmap Thumbnail با اندازه مشخص برمی‌گرداند.
+یک شیء بیتی‌مپ بندانگشتی با اندازهٔ مشخص را برمی‌گرداند.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
 
-### آرگومان‌ها
+### استدلال‌ها
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | گزینه‌های رندرینگ. |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | اندازه تصویر برای ساخت. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | اندازهٔ تصویری که باید ایجاد شود. |
 
-### مقدار بازگشتی
+### مقدار برگشتی
 
-اشیای Bitmap.
+شیء Image [IImage](../../iimage/)
 
-## مراجع
+## همچنین ببینید
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* کلاس [IImage](../../iimage/)
-* کلاس [ISlide](../)
-* کلاس [Size](../../../system.drawing/size/)
-* کلاس [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
-* کلاس [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* فضای‌نام [Aspose::Slides](../../)
-* کتابخانه [Aspose.Slides](../../../)
+* Class [IImage](../../iimage/)
+* Class [ISlide](../)
+* Class [Size](../../../system.drawing/size/)
+* Class [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
+* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

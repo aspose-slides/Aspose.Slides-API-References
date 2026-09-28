@@ -23,7 +23,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### 戻り値
 
-タイル [System::Drawing::Bitmap](../../../system.drawing/bitmap/)。
+タイル [IImage](../../iimage/)。
 
 ## IPatternFormat::GetTile(System::Drawing::Color) メソッド
 
@@ -41,13 +41,13 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### 戻り値
 
-タイル [System::Drawing::Bitmap](../../../system.drawing/bitmap/)。
+タイル [IImage](../../iimage/)。
 
 ## 参照
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
+* 型定義 [SharedPtr](../../../system/sharedptr/)
 * クラス [IImage](../../iimage/)
 * クラス [Color](../../../system.drawing/color/)
 * クラス [IPatternFormat](../)
 * 名前空間 [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* ライブラリ [Aspose.Slides](../../../)

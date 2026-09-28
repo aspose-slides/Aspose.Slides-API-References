@@ -1,7 +1,7 @@
 ---
 title: GetImage()
-second_title: Aspose.Slides สำหรับการอ้างอิง API ของ C++
-description: คืนอ็อบเจ็กต์รูปภาพพร้อมการสเกลที่กำหนดเอง.
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ C++
+description: คืนอ็อบเจ็กต์ภาพที่มีการปรับสเกลแบบกำหนดเอง.
 type: docs
 weight: 105
 url: /th/aspose.slides/islide/getimage/
@@ -9,7 +9,7 @@ url: /th/aspose.slides/islide/getimage/
 ## ISlide::GetImage(float, float) เมธอด
 
 
-คืนอ็อบเจ็กต์รูปภาพพร้อมการสเกลที่กำหนดเอง.
+คืนอ็อบเจ็กต์ภาพที่มีการปรับสเกลแบบกำหนดเอง.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
@@ -20,17 +20,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX,
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| scaleX | **float** | ค่าที่ใช้ในการสเกล Thumbnail นี้ในแนวแกน x. |
-| scaleY | **float** | ค่าที่ใช้ในการสเกล Thumbnail นี้ในแนวแกน y. |
+| scaleX | **float** | ค่าที่ใช้ปรับสเกลรูปย่อนี้ในทิศทางแกน x. |
+| scaleY | **float** | ค่าที่ใช้ปรับสเกลรูปย่อนี้ในทิศทางแกน y. |
 
 ### ค่าที่ส่งกลับ
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage() เมธอด
 
 
-คืนอ็อบเจ็กต์รูปภาพ Thumbnail (ขนาด 20% ของขนาดจริง).
+คืนอ็อบเจ็กต์รูปภาพย่อ (20% ของขนาดจริง).
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
@@ -39,12 +39,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 
 ### ค่าที่ส่งกลับ
 
-Image object [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) เมธอด
 
 
-คืนอ็อบเจ็กต์รูปภาพที่มีขนาดตามที่ระบุ.
+คืนอ็อบเจ็กต์ภาพที่มีขนาดที่ระบุ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
@@ -55,16 +55,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | ขนาดของรูปภาพที่จะสร้าง. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | ขนาดของภาพที่จะสร้าง. |
 
 ### ค่าที่ส่งกลับ
 
-Bitmap object.
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) เมธอด
 
 
-คืนอ็อบเจ็กต์บิตแม็พ TIFF Thumbnail พร้อมพารามิเตอร์ที่ระบุ.
+คืนอ็อบเจ็กต์บิตแมป TIFF ย่อที่มีพารามิเตอร์ที่ระบุ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
@@ -79,12 +79,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### ค่าที่ส่งกลับ
 
-Image object.
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) เมธอด
 
 
-คืนอ็อบเจ็กต์บิตแม็พ Thumbnail.
+คืนอ็อบเจ็กต์บิตแมปย่อ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
@@ -99,12 +99,12 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### ค่าที่ส่งกลับ
 
-Bitmap objects.
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) เมธอด
 
 
-คืนอ็อบเจ็กต์บิตแม็พ Thumbnail พร้อมการสเกลที่กำหนดเอง.
+คืนอ็อบเจ็กต์บิตแมปย่อที่มีการปรับสเกลแบบกำหนดเอง.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
@@ -116,17 +116,17 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | ตัวเลือกการเรนเดอร์. |
-| scaleX | **float** | ค่าที่ใช้ในการสเกล Thumbnail นี้ในแนวแกน x. |
-| scaleY | **float** | ค่าที่ใช้ในการสเกล Thumbnail นี้ในแนวแกน y. |
+| scaleX | **float** | ค่าที่ใช้ปรับสเกลรูปย่อนี้ในทิศทางแกน x. |
+| scaleY | **float** | ค่าที่ใช้ปรับสเกลรูปย่อนี้ในทิศทางแกน y. |
 
 ### ค่าที่ส่งกลับ
 
-Bitmap objects.
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) เมธอด
 
 
-คืนอ็อบเจ็กต์บิตแม็พ Thumbnail ที่มีขนาดตามที่ระบุ.
+คืนอ็อบเจ็กต์บิตแมปย่อที่มีขนาดที่ระบุ.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
@@ -138,11 +138,11 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | ตัวเลือกการเรนเดอร์. |
-| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | ขนาดของรูปภาพที่จะสร้าง. |
+| imageSize | [System::Drawing::Size](../../../system.drawing/size/) | ขนาดของภาพที่จะสร้าง. |
 
 ### ค่าที่ส่งกลับ
 
-Bitmap objects.
+Image อ็อบเจ็กต์ [IImage](../../iimage/)
 
 ## ดูเพิ่มเติม
 
@@ -153,4 +153,4 @@ Bitmap objects.
 * คลาส [ITiffOptions](../../../aspose.slides.export/itiffoptions/)
 * คลาส [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * เนมสเปซ [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
+* ไลบรารี [Aspose.Slides](../../../)

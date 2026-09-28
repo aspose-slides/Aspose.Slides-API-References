@@ -8,27 +8,24 @@ url: /fr/aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) méthode
 
-
-Renvoie un objet image avec un redimensionnement personnalisé.
+Renvoie un objet Image avec un redimensionnement personnalisé.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(float scaleX, float scaleY)=0
 ```
 
-
 ### Arguments
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| scaleX | **float** | La valeur par laquelle redimensionner cette miniature selon l'axe x. |
-| scaleY | **float** | La valeur par laquelle redimensionner cette miniature selon l'axe y. |
+| scaleX | **float** | Valeur par laquelle redimensionner cette vignette le long de l'axe x. |
+| scaleY | **float** | Valeur par laquelle redimensionner cette vignette le long de l'axe y. |
 
 ### Valeur de retour
 
-Objet Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage() méthode
-
 
 Renvoie un objet Image miniature (20 % de la taille réelle).
 
@@ -36,20 +33,17 @@ Renvoie un objet Image miniature (20 % de la taille réelle).
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage()=0
 ```
 
-
 ### Valeur de retour
 
-Objet Image [System::Drawing::Bitmap](../../../system.drawing/bitmap/)
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::Drawing::Size) méthode
 
-
-Renvoie un objet image avec la taille spécifiée.
+Renvoie un objet Image avec la taille spécifiée.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawing::Size imageSize)=0
 ```
-
 
 ### Arguments
 
@@ -59,30 +53,27 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Drawi
 
 ### Valeur de retour
 
-Objet Bitmap.
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::ITiffOptions\>) méthode
 
-
-Renvoie un objet bitmap TIFF miniature avec les paramètres spécifiés.
+Renvoie un objet bitmap tiff miniature avec les paramètres spécifiés.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::ITiffOptions> options)=0
 ```
 
-
 ### Arguments
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Options TIFF. |
+| options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITiffOptions](../../../aspose.slides.export/itiffoptions/)\> | Options tiff. |
 
 ### Valeur de retour
 
-Objet Image.
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) méthode
-
 
 Renvoie un objet Bitmap miniature.
 
@@ -90,7 +81,6 @@ Renvoie un objet Bitmap miniature.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options)=0
 ```
 
-
 ### Arguments
 
 | Paramètre | Type | Description |
@@ -99,10 +89,9 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Valeur de retour
 
-Objets Bitmap.
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) méthode
-
 
 Renvoie un objet Bitmap miniature avec un redimensionnement personnalisé.
 
@@ -110,28 +99,25 @@ Renvoie un objet Bitmap miniature avec un redimensionnement personnalisé.
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, float scaleX, float scaleY)=0
 ```
 
-
 ### Arguments
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Options de rendu. |
-| scaleX | **float** | La valeur par laquelle redimensionner cette miniature selon l'axe x. |
-| scaleY | **float** | La valeur par laquelle redimensionner cette miniature selon l'axe y. |
+| scaleX | **float** | Valeur par laquelle redimensionner cette vignette le long de l'axe x. |
+| scaleY | **float** | Valeur par laquelle redimensionner cette vignette le long de l'axe y. |
 
 ### Valeur de retour
 
-Objets Bitmap.
+Objet Image [IImage](../../iimage/)
 
 ## ISlide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) méthode
-
 
 Renvoie un objet Bitmap miniature avec la taille spécifiée.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::SharedPtr<Export::IRenderingOptions> options, System::Drawing::Size imageSize)=0
 ```
-
 
 ### Arguments
 
@@ -142,7 +128,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::ISlide::GetImage(System::Share
 
 ### Valeur de retour
 
-Objets Bitmap.
+Objet Image [IImage](../../iimage/)
 
 ## Voir aussi
 

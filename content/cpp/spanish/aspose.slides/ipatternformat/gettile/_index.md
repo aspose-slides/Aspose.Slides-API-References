@@ -18,16 +18,16 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | El [System::Drawing::Color](../../../system.drawing/color/) de fondo para el patrón. |
-| foreground | [System::Drawing::Color](../../../system.drawing/color/) | El [System::Drawing::Color](../../../system.drawing/color/) de primer plano para el patrón. |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | El fondo [System::Drawing::Color](../../../system.drawing/color/) para el patrón. |
+| foreground | [System::Drawing::Color](../../../system.drawing/color/) | El primer plano [System::Drawing::Color](../../../system.drawing/color/) para el patrón. |
 
 ### Valor devuelto
 
-Mosaico [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Mosaico [IImage](../../iimage/).
 
 ## IPatternFormat::GetTile(System::Drawing::Color) método
 
-Crea una imagen de mosaico para el relleno del patrón.
+Crea una imagen de mosaico para el relleno de patrón.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color styleColor)=0
@@ -41,9 +41,9 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Valor devuelto
 
-Mosaico [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Mosaico [IImage](../../iimage/).
 
-## Véase también
+## Ver también
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Clase [IImage](../../iimage/)

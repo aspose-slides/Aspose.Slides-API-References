@@ -6,9 +6,9 @@ type: docs
 weight: 53
 url: /pt/aspose.slides/ipatternformat/gettile/
 ---
-## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color, System::Drawing::Color) método
 
-Cria uma imagem de ladrilho para o preenchimento de padrão com cores específicas.
+Cria uma imagem de ladrilho para o preenchimento de padrão com cores especificadas.
 
 ```cpp
 virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System::Drawing::Color background, System::Drawing::Color foreground)=0
@@ -18,14 +18,14 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| background | [System::Drawing::Color](../../../system.drawing/color/) | O fundo [System::Drawing::Color](../../../system.drawing/color/) para o padrão. |
+| background | [System::Drawing::Color](../../../system.drawing/color/) | O plano de fundo [System::Drawing::Color](../../../system.drawing/color/) para o padrão. |
 | foreground | [System::Drawing::Color](../../../system.drawing/color/) | O primeiro plano [System::Drawing::Color](../../../system.drawing/color/) para o padrão. |
 
 ### Valor de Retorno
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Ladrilho [IImage](../../iimage/).
 
-## IPatternFormat::GetTile(System::Drawing::Color) method
+## IPatternFormat::GetTile(System::Drawing::Color) método
 
 Cria uma imagem de ladrilho para o preenchimento de padrão.
 
@@ -41,7 +41,7 @@ virtual System::SharedPtr<IImage> Aspose::Slides::IPatternFormat::GetTile(System
 
 ### Valor de Retorno
 
-Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
+Ladrilho [IImage](../../iimage/).
 
 ## Veja Também
 
