@@ -74,7 +74,7 @@ gtest-styled assertion result.
 Equal-compares non-pointer types using Equals method provided.
 
 ```cpp
-template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
+template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, System::String>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
 ```
 
 
@@ -104,7 +104,7 @@ gtest-styled assertion result.
 Equal-compares non-pointer types using Equals method provided.
 
 ```cpp
-template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, T &lhs, const T &rhs, long long s)
+template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, System::String>::value &&detail::has_method_equals<T>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, T &lhs, const T &rhs, long long s)
 ```
 
 
@@ -478,11 +478,42 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 gtest-styled assertion result.
 
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
+
+
+Equal-compares two [System::String](../../system/string/) values, guarding against invoking a member function on a null [String](../../system/string/). Templated (rather than a plain overload taking const [String](../../system/string/)&) so that mixed-type calls - e.g. a char16_t string literal compared against a [String](../../system/string/) - fail to deduce a single consistent T and are excluded from this candidate entirely, instead of competing with the catch-all AreEqualImpl<T1,T2> template via the long long/int selector parameter and producing an ambiguous overload resolution.
+
+```cpp
+template<typename T> std::enable_if<std::is_same<T, System::String>::value, testing::AssertionResult>::type System::TestPredicates::AreEqualImpl(const char *lhs_expr, const char *rhs_expr, const T &lhs, const T &rhs, long long s)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| T | [Object](../../system/object/) type, constrained to [System::String](../../system/string/). |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| lhs_expr | const char * | LHS expression. |
+| rhs_expr | const char * | RHS expression. |
+| lhs | const T\& | LHS value. |
+| rhs | const T\& | RHS value. |
+| s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
+
+### Return Value
+
+gtest-styled assertion result.
+
 ## See Also
 
 * Typedef [AreFPandArithmetic](../../system.testpredicates.typetraits/arefpandarithmetic/)
 * Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
 * Typedef [SharedPtr](../../system/sharedptr/)
+* Class [String](../../system/string/)
 * Class [Object](../../system/object/)
 * Class [Stream](../../system.io/stream/)
 * Class [Nullable](../../system/nullable/)
