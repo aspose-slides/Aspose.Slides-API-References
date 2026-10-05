@@ -16,6 +16,13 @@ void System::Collections::Generic::LinkedList<T>::RemoveLast()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | if the LinkedList\<T\> is empty. |
+
+
 ## See Also
 
 * Class [LinkedList](../)

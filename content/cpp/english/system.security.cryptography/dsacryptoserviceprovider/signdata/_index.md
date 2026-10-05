@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.security.cryptography/dsacryptoserviceprovider/signdata/
 ---
-## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr&) method
 
 
 Computes the signature of specified input value.
@@ -20,13 +20,13 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Buffer](../../../system/buffer/) to read input data from. |
+| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Buffer](../../../system/buffer/) to read input data from. |
 
 ### Return Value
 
 [DSA](../../dsa/) signature for specified data.
 
-## DSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>\&) method
+## DSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>&) method
 
 
 Computes the signature of specified input value.
@@ -40,13 +40,13 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input_stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | Stream to read data being signed from. |
+| input_stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | Stream to read data being signed from. |
 
 ### Return Value
 
 [DSA](../../dsa/) signature for specified data.
 
-## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr&, int32_t, int32_t) method
 
 
 Computes the signature of specified input value.
@@ -60,7 +60,7 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Buffer](../../../system/buffer/) to read input data from. |
+| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Buffer](../../../system/buffer/) to read input data from. |
 | offset | **int32_t** | Input buffer slice beginning index. |
 | count | **int32_t** | Input buffer slice size. |
 
@@ -68,7 +68,7 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 [DSA](../../dsa/) signature for specified data.
 
-## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -82,10 +82,10 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
 
-## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr&, int32_t, int32_t, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -99,12 +99,12 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to use as input data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
 
-## DSACryptoServiceProvider::SignData(const StreamPtr\&, const HashAlgorithmName\&) method
+## DSACryptoServiceProvider::SignData(const StreamPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm, and signs the result.
@@ -118,8 +118,8 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const StreamPtr &stre
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Binary stream. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Binary stream. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
 
 ## See Also
 

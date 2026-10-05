@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.reflection/fieldinfo/setvalue/
 ---
-## FieldInfo::SetValue(const System::SharedPtr\<System::Object\>\&, const System::SharedPtr\<System::Object\>\&) method
+## FieldInfo::SetValue(const System::SharedPtr\<System::Object\>&, const System::SharedPtr\<System::Object\>&) method
 
 
 Sets property value to specific object.
@@ -20,8 +20,8 @@ void System::Reflection::FieldInfo::SetValue(const System::SharedPtr<System::Obj
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to write property to. |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Value of property to set. |
+| obj | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to write property to. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | Value of property to set. |
 
 ## See Also
 

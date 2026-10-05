@@ -16,7 +16,14 @@ void System::Threading::Tasks::Task::Start()
 ```
 
 
-## Task::Start(const SharedPtr\<TaskScheduler\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| If | the task has already been started |
+
+
+## Task::Start(const SharedPtr\<TaskScheduler\>&) method
 
 
 Starts the task execution using the specified scheduler.
@@ -30,7 +37,14 @@ void System::Threading::Tasks::Task::Start(const SharedPtr<TaskScheduler> &sched
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scheduler | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>\& | The scheduler to use for execution |
+| scheduler | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>& | The scheduler to use for execution |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| If | the task has already been started |
+
 
 ## See Also
 

@@ -16,6 +16,13 @@ bool System::Security::Cryptography::X509Certificates::X509Chain::Build(SharedPt
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

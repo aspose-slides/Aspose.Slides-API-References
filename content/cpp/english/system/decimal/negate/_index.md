@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /system/decimal/negate/
 ---
-## Decimal::Negate(const Decimal\&) method
+## Decimal::Negate(const Decimal&) method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that results from negation of the value represented by the specified object.

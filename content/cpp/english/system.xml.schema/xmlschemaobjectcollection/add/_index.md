@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemaobjectcollection/add/
 ---
-## XmlSchemaObjectCollection::Add(const SharedPtr\<XmlSchemaObject\>\&) method
+## XmlSchemaObjectCollection::Add(const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Adds an [XmlSchemaObject](../../xmlschemaobject/) to the [XmlSchemaObjectCollection](../).
@@ -20,11 +20,19 @@ int32_t System::Xml::Schema::XmlSchemaObjectCollection::Add(const SharedPtr<XmlS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | The [XmlSchemaObject](../../xmlschemaobject/). |
+| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | The [XmlSchemaObject](../../xmlschemaobject/). |
 
 ### Return Value
 
 The index at which the item has been added.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | **index** is less than zero. or **index** is greater than get_Count value. |
+| InvalidCastException | The [XmlSchemaObject](../../xmlschemaobject/) parameter specified is not of type [XmlSchemaExternal](../../xmlschemaexternal/) or its derived types [XmlSchemaImport](../../xmlschemaimport/), [XmlSchemaInclude](../../xmlschemainclude/), and [XmlSchemaRedefine](../../xmlschemaredefine/). |
+
 
 ## See Also
 

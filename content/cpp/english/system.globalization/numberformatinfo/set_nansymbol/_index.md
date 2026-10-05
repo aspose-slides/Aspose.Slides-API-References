@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.globalization/numberformatinfo/set_nansymbol/
 ---
-## NumberFormatInfo::set_NaNSymbol(const String\&) method
+## NumberFormatInfo::set_NaNSymbol(const String&) method
 
 
 Sets Not-a-Number symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_NaNSymbol(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Not-a-Number symbol. |
+| value | const [String](../../../system/string/)& | Not-a-Number symbol. |
 
 ## See Also
 

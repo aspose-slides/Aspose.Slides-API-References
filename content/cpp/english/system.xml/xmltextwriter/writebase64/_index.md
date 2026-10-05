@@ -24,6 +24,16 @@ void System::Xml::XmlTextWriter::WriteBase64(ArrayPtr<uint8_t> buffer, int32_t i
 | index | **int32_t** | The position within the buffer indicating the start of the bytes to write. |
 | count | **int32_t** | The number of bytes to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **buffer** is **nullptr**. |
+| ArgumentException | The buffer length minus **index** is less than **count**. |
+| ArgumentOutOfRangeException | **index** or **count** is less than zero. |
+| InvalidOperationException | The [XmlTextWriter::get_WriteState](../get_writestate/) value is [WriteState::Closed](../../writestate/). |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

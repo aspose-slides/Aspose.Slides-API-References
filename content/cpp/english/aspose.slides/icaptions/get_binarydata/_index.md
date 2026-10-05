@@ -9,7 +9,7 @@ url: /aspose.slides/icaptions/get_binarydata/
 ## ICaptions::get_BinaryData() method
 
 
-Returns the binary data of the closed captions. Read-only **uint8_t**[].
+Returns the binary data of the closed captions. Read-only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::ICaptions::get_BinaryData()=0

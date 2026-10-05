@@ -54,7 +54,7 @@ virtual int System::Text::Encoding::GetBytes(System::Details::ArrayView<char_t> 
 
 Number of written bytes.
 
-## Encoding::GetBytes(System::Details::StackArray\<char_t, SC\>\&, int, int, System::Details::StackArray\<uint8_t, SB\>\&, int) method
+## Encoding::GetBytes(System::Details::StackArray\<char_t, SC\>&, int, int, System::Details::StackArray\<uint8_t, SB\>&, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -68,17 +68,17 @@ template<std::size_t,std::size_t> int System::Text::Encoding::GetBytes(System::D
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | System::Details::StackArray\<char_t, SC\>\& | Characters to encode. |
+| chars | System::Details::StackArray\<char_t, SC\>& | Characters to encode. |
 | char_index | int | Character slice beginning. |
 | char_count | int | Number of characters to convert. |
-| bytes | System::Details::StackArray\<**uint8_t**, SB\>\& | [Buffer](../../../system/buffer/) to put characters to. |
+| bytes | System::Details::StackArray\<**uint8_t**, SB\>& | [Buffer](../../../system/buffer/) to put characters to. |
 | byte_index | int | Output buffer offset. |
 
 ### Return Value
 
 Number of written bytes.
 
-## Encoding::GetBytes(const String\&, int, int, ArrayPtr\<uint8_t\>, int) method
+## Encoding::GetBytes(const String&, int, int, ArrayPtr\<uint8_t\>, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -92,7 +92,7 @@ virtual int System::Text::Encoding::GetBytes(const String &s, int char_index, in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | [String](../../../system/string/) to encode. |
+| s | const [String](../../../system/string/)& | [String](../../../system/string/) to encode. |
 | char_index | int | Character slice beginning. |
 | char_count | int | Number of characters to convert. |
 | bytes | [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | [Buffer](../../../system/buffer/) to put characters to. |
@@ -102,7 +102,7 @@ virtual int System::Text::Encoding::GetBytes(const String &s, int char_index, in
 
 Number of written bytes.
 
-## Encoding::GetBytes(const String\&) method
+## Encoding::GetBytes(const String&) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -116,7 +116,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | [String](../../../system/string/) to encode. |
+| s | const [String](../../../system/string/)& | [String](../../../system/string/) to encode. |
 
 ### Return Value
 
@@ -144,7 +144,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(ArrayPtr<char_t> char
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## Encoding::GetBytes(const System::Details::ArrayView\<char_t\>\&, int, int) method
+## Encoding::GetBytes(const System::Details::ArrayView\<char_t\>&, int, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -158,7 +158,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const System::Details
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const System::Details::ArrayView\<char_t\>\& | Characters to encode. |
+| chars | const System::Details::ArrayView\<char_t\>& | Characters to encode. |
 | index | int | Character slice beginning. |
 | count | int | Number of characters to convert. |
 
@@ -166,7 +166,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const System::Details
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## Encoding::GetBytes(const System::Details::StackArray\<char_t, N\>\&, int, int) method
+## Encoding::GetBytes(const System::Details::StackArray\<char_t, N\>&, int, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -180,7 +180,7 @@ template<std::size_t> ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const System::Details::StackArray\<char_t, N\>\& | Characters to encode. |
+| chars | const System::Details::StackArray\<char_t, N\>& | Characters to encode. |
 | index | int | Character slice beginning. |
 | count | int | Number of characters to convert. |
 
@@ -208,7 +208,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(ArrayPtr<char_t> char
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## Encoding::GetBytes(const char_t *, int, uint8_t *, int) method
+## Encoding::GetBytes(const char_t \*, int, uint8_t \*, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -222,9 +222,9 @@ virtual int System::Text::Encoding::GetBytes(const char_t *chars, int char_count
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters to encode. |
+| chars | const char_t \* | Characters to encode. |
 | char_count | int | Number of characters to convert. |
-| bytes | **uint8_t** * | [Buffer](../../../system/buffer/) to put characters to. |
+| bytes | **uint8_t** \* | [Buffer](../../../system/buffer/) to put characters to. |
 | byte_count | int | Output buffer size. |
 
 ### Return Value

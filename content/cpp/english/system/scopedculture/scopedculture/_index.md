@@ -1,12 +1,12 @@
 ---
 title: ScopedCulture()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ScopedCulture::ScopedCulture() constructor"
 type: docs
 weight: 1
 url: /system/scopedculture/scopedculture/
 ---
-## ScopedCulture::ScopedCulture(const String\&) constructor
+## ScopedCulture::ScopedCulture(const String&) constructor
 
 
 
@@ -15,7 +15,7 @@ url: /system/scopedculture/scopedculture/
 System::ScopedCulture::ScopedCulture(const String &culture_name)
 ```
 
-## ScopedCulture::ScopedCulture(const ScopedCulture\&) constructor
+## ScopedCulture::ScopedCulture(const ScopedCulture&) constructor
 
 
 

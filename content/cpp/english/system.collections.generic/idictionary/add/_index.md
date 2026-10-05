@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/idictionary/add/
 ---
-## IDictionary::Add(const TKey\&, const TValue\&) method
+## IDictionary::Add(const TKey&, const TValue&) method
 
 
 Adds key-value pair into container.
@@ -20,8 +20,8 @@ virtual void System::Collections::Generic::IDictionary<TKey, TValue>::Add(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to add. |
-| value | const TValue\& | Value to add. |
+| key | const TKey& | Key to add. |
+| value | const TValue& | Value to add. |
 
 ## See Also
 

@@ -31,6 +31,13 @@ System::Collections::Generic::List<T>::List(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | if capacity is less than zero. |
+
+
 ## List::List(IEnumerablePtr) constructor
 
 
@@ -46,6 +53,13 @@ System::Collections::Generic::List<T>::List(IEnumerablePtr collection)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | [IEnumerablePtr](../ienumerableptr/) | Collection to copy data from. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if collection is nullptr. |
+
 
 ## See Also
 

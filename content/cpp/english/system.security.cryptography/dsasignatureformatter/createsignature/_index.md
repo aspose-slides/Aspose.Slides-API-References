@@ -16,6 +16,13 @@ ArrayPtr<uint8_t> System::Security::Cryptography::DSASignatureFormatter::CreateS
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

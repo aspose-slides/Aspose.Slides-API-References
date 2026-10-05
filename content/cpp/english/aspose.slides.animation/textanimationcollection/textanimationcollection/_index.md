@@ -1,7 +1,7 @@
 ---
 title: TextAnimationCollection()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextAnimationCollection::TextAnimationCollection() constructor"
 type: docs
 weight: 92
 url: /aspose.slides.animation/textanimationcollection/textanimationcollection/

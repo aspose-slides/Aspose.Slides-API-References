@@ -15,7 +15,7 @@ Creates empty [SmartPtrInfo](../) object.
 System::SmartPtrInfo::SmartPtrInfo()
 ```
 
-## SmartPtrInfo::SmartPtrInfo(const SmartPtr\<T\>\&) constructor
+## SmartPtrInfo::SmartPtrInfo(const SmartPtr\<T\>&) constructor
 
 
 Creates [SmartPtrInfo](../) object with information on specific smart pointer.
@@ -35,7 +35,7 @@ template<typename T> System::SmartPtrInfo::SmartPtrInfo(const SmartPtr<T> &ptr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | const [SmartPtr](../../smartptr/)\<T\>\& | Smart pointer to create info for. |
+| ptr | const [SmartPtr](../../smartptr/)\<T\>& | Smart pointer to create info for. |
 
 ## See Also
 

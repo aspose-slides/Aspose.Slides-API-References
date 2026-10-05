@@ -23,6 +23,13 @@ virtual void System::Xml::XPath::XPathExpression::AddSort(SharedPtr<Object> expr
 | expr | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | An object representing the sort key. This can be the **string** value of the node or an [XPathExpression](../) object with a compiled [XPath](../../) expression. |
 | comparer | [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\> | An IComparer object that provides the specific data type comparisons for comparing two objects for equivalence. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPathExpression](../) or sort key includes a prefix and either an [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) is not provided, or the prefix cannot be found in the supplied [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
+
+
 ## XPathExpression::AddSort(SharedPtr\<Object\>, XmlSortOrder, XmlCaseOrder, String, XmlDataType) method
 
 
@@ -40,8 +47,15 @@ virtual void System::Xml::XPath::XPathExpression::AddSort(SharedPtr<Object> expr
 | expr | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | An object representing the sort key. This can be the **string** value of the node or an [XPathExpression](../) object with a compiled [XPath](../../) expression. |
 | order | [XmlSortOrder](../../xmlsortorder/) | An XmlSortOrder value indicating the sort order. |
 | caseOrder | [XmlCaseOrder](../../xmlcaseorder/) | An XmlCaseOrder value indicating how to sort uppercase and lowercase letters. |
-| lang | [String](../../../system/string/) | The language to use for comparison. Uses the [Globalization::CultureInfo](../../../system.globalization/cultureinfo/) class that can be passed to the [String::Compare](../../../system/string/compare/) method for the language types, for example, \"us-en\" for U.S. English. If an empty string is specified, the system environment is used to determine the [Globalization::CultureInfo](../../../system.globalization/cultureinfo/). |
+| lang | [String](../../../system/string/) | The language to use for comparison. Uses the [Globalization::CultureInfo](../../../system.globalization/cultureinfo/) class that can be passed to the [String::Compare](../../../system/string/compare/) method for the language types, for example, "us-en" for U.S. English. If an empty string is specified, the system environment is used to determine the [Globalization::CultureInfo](../../../system.globalization/cultureinfo/). |
 | dataType | [XmlDataType](../../xmldatatype/) | An XmlDataType value indicating the sort order for the data type. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPathExpression](../) or sort key includes a prefix and either an [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) is not provided, or the prefix cannot be found in the supplied [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
+
 
 ## See Also
 

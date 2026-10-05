@@ -1,7 +1,7 @@
 ---
 title: Invalid
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Invalid field
 type: docs
 weight: 92
 url: /system.collections.generic.details.castrules/casttype/invalid/

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/ilist/indexof/
 ---
-## IList::IndexOf(const T\&) const method
+## IList::IndexOf(const T&) const method
 
 
 Gets index of first appearance of item in container.
@@ -20,7 +20,7 @@ virtual int System::Collections::Generic::IList<T>::IndexOf(const T &item) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

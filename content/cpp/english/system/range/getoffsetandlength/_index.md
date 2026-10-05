@@ -26,6 +26,13 @@ System::ValueTuple<int32_t, int32_t> System::Range::GetOffsetAndLength(int32_t l
 
 The tuple containing zero-based index from the start of the collection and the number of elements selected by the range.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | if the length is invalid or the start index is out of range. |
+
+
 ## See Also
 
 * Class [ValueTuple](../../valuetuple/)

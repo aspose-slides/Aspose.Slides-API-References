@@ -34,7 +34,7 @@ System::Drawing::RectangleF::RectangleF(float x, float y, float width, float hei
 | width | **float** | The width of the rectangle |
 | height | **float** | The height of the rectangle |
 
-## RectangleF::RectangleF(const PointF\&, const SizeF\&) constructor
+## RectangleF::RectangleF(const PointF&, const SizeF&) constructor
 
 
 Constructs a new instance of [RectangleF](../) object that represents a rectangle with the coordinates of its upper left corner specified as an instance of [PointF](../../pointf/) class and its width and height as an instance of [SizeF](../../sizef/) class.
@@ -48,10 +48,10 @@ System::Drawing::RectangleF::RectangleF(const PointF &location, const SizeF &siz
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | const [PointF](../../pointf/)\& | Specifies the location of the upper left corner of the rectangle |
-| size | const [SizeF](../../sizef/)\& | Specifies the width and hegiht of the rectangle |
+| location | const [PointF](../../pointf/)& | Specifies the location of the upper left corner of the rectangle |
+| size | const [SizeF](../../sizef/)& | Specifies the width and hegiht of the rectangle |
 
-## RectangleF::RectangleF(const Rectangle\&) constructor
+## RectangleF::RectangleF(const Rectangle&) constructor
 
 
 Constructs a new instance of [RectangleF](../) object that represents the rectangle equivalent to the specified one.
@@ -65,7 +65,7 @@ System::Drawing::RectangleF::RectangleF(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | An instance of [Rectangle](../../rectangle/) class that specifies the position and size of the rectangle to be represented by the object being constructed |
+| rect | const [Rectangle](../../rectangle/)& | An instance of [Rectangle](../../rectangle/) class that specifies the position and size of the rectangle to be represented by the object being constructed |
 
 ## See Also
 

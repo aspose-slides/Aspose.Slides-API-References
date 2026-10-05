@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system/typeinfo/issubclassof/
 ---
-## TypeInfo::IsSubclassOf(const TypeInfo\&) const method
+## TypeInfo::IsSubclassOf(const TypeInfo&) const method
 
 
 Determines whether the type represented by the current object is a subclass of the specified class.
@@ -20,7 +20,7 @@ bool System::TypeInfo::IsSubclassOf(const TypeInfo &type) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../)\& | the type to compare with the current type |
+| type | const [TypeInfo](../)& | the type to compare with the current type |
 
 ## See Also
 

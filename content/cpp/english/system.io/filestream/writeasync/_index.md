@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.io/filestream/writeasync/
 ---
-## FileStream::WriteAsync(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t, const Threading::CancellationToken\&) method
+## FileStream::WriteAsync(const ArrayPtr\<uint8_t\>&, int32_t, int32_t, const Threading::CancellationToken&) method
 
 
 Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests.
@@ -20,10 +20,10 @@ TaskPtr System::IO::FileStream::WriteAsync(const ArrayPtr<uint8_t> &buffer, int3
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The array containing the bytes to write. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The array containing the bytes to write. |
 | offset | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins. |
 | count | **int32_t** | The number of elements in the subrange to write. |
-| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)\& | The token to monitor for cancellation requests. |
+| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)& | The token to monitor for cancellation requests. |
 
 ### Return Value
 

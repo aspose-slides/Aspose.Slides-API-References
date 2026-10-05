@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.globalization/datetimeformatinfo/set_daynames/
 ---
-## DateTimeFormatInfo::set_DayNames(const ArrayPtr\<String\>\&) method
+## DateTimeFormatInfo::set_DayNames(const ArrayPtr\<String\>&) method
 
 
 Sets day names.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_DayNames(const ArrayPtr<Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\& | [Array](../../../system/array/) of day names, starting with Sunday. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>& | [Array](../../../system/array/) of day names, starting with Sunday. |
 
 ## See Also
 

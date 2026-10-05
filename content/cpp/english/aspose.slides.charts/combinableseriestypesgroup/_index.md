@@ -1,7 +1,7 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Aspose.Slides for C++ API Reference
-description: "Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType::PercentsStackedArea series cannot be simultaneously with ChartType::StackedArea series in one ChartSeriesGroup. But two or more ChartType::PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea). And ChartType::Line series can be with ChartType::LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup::LineChart_LineChartSeriesGroup."
+description: "Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType::PercentsStackedArea series cannot be simultaneously with ChartType::StackedArea series in one ChartSeriesGroup. But two or more ChartType::PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea). And ChartType::Line series can be with ChartType::LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup::LineChart_Line ChartSeriesGroup."
 type: docs
 weight: 1496
 url: /aspose.slides.charts/combinableseriestypesgroup/
@@ -9,7 +9,7 @@ url: /aspose.slides.charts/combinableseriestypesgroup/
 ## CombinableSeriesTypesGroup enum
 
 
-Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one [ChartSeriesGroup](../chartseriesgroup/). For example: [ChartType::PercentsStackedArea](../charttype/) series cannot be simultaneously with [ChartType::StackedArea](../charttype/) series in one [ChartSeriesGroup](../chartseriesgroup/). But two or more [ChartType::PercentsStackedArea](../charttype/) can be in one [ChartSeriesGroup](../chartseriesgroup/) simultaneously ([CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea](./)). And [ChartType::Line](../charttype/) series can be with [ChartType::LineWithMarkers](../charttype/) series simultaneously in one [CombinableSeriesTypesGroup::LineChart_Line](./)[ChartSeriesGroup](../chartseriesgroup/).
+Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one [ChartSeriesGroup](../chartseriesgroup/). For example: [ChartType::PercentsStackedArea](../charttype/) series cannot be simultaneously with [ChartType::StackedArea](../charttype/) series in one [ChartSeriesGroup](../chartseriesgroup/). But two or more [ChartType::PercentsStackedArea](../charttype/) can be in one [ChartSeriesGroup](../chartseriesgroup/) simultaneously ([CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea](./)). And [ChartType::Line](../charttype/) series can be with [ChartType::LineWithMarkers](../charttype/) series simultaneously in one [CombinableSeriesTypesGroup::LineChart_Line](./) [ChartSeriesGroup](../chartseriesgroup/).
 
 ```cpp
 enum class CombinableSeriesTypesGroup

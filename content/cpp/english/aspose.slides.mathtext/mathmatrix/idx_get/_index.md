@@ -22,10 +22,6 @@ System::SharedPtr<IMathElement> Aspose::Slides::MathText::MathMatrix::idx_get(in
 | --- | --- | --- |
 | row | **int32_t** | The zero-based index of the row to get item |
 | column | **int32_t** | The zero-based index of the column to get item |
-
-### Return Value
-
-
 ## Remarks
 
 

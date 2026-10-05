@@ -20,7 +20,7 @@ StringBuilder * System::Text::StringBuilder::AppendLine()
 
 This pointer.
 
-## StringBuilder::AppendLine(const String\&) method
+## StringBuilder::AppendLine(const String&) method
 
 
 Appends string followed by new line character to builder.
@@ -34,7 +34,7 @@ StringBuilder * System::Text::StringBuilder::AppendLine(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to add. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to add. |
 
 ### Return Value
 

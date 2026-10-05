@@ -21,6 +21,13 @@ void Aspose::Slides::Charts::ChartData::SetExternalWorkbook(System::String workb
 | Parameter | Type | Description |
 | --- | --- | --- |
 | workbookPath | [System::String](../../../system/string/) | Path to the target workbook |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | External workbook is not available or can't be loaded. |
+
 ## Remarks
 
 
@@ -49,6 +56,13 @@ void Aspose::Slides::Charts::ChartData::SetExternalWorkbook(System::String workb
 | --- | --- | --- |
 | workbookPath | [System::String](../../../system/string/) | Path to the target workbook |
 | updateChartData | **bool** | If value is false only workbook path will be updated. [Chart](../../chart/) data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | External workbook is not available or can't be loaded. |
+
 ## Remarks
 
 

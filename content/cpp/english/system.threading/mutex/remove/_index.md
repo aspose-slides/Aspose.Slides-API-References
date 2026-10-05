@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.threading/mutex/remove/
 ---
-## Mutex::Remove(const String\&) method
+## Mutex::Remove(const String&) method
 
 
 Erases a named mutex from the system.

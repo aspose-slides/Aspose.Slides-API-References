@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system/typeinfo/addattribute/
 ---
-## TypeInfo::AddAttribute(const ObjectPtr\&) method
+## TypeInfo::AddAttribute(const ObjectPtr&) method
 
 
 Adds the specified attribute to the list of type's attributes.
@@ -20,7 +20,7 @@ void System::TypeInfo::AddAttribute(const ObjectPtr &attribute)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attribute | const [ObjectPtr](../../smartptr/)\& | A constant reference to an object that represents an attribute to be added |
+| attribute | const [ObjectPtr](../../smartptr/)& | A constant reference to an object that represents an attribute to be added |
 
 ## See Also
 

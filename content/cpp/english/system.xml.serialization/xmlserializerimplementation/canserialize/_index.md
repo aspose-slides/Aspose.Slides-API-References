@@ -1,12 +1,12 @@
 ---
 title: CanSerialize()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlSerializerImplementation::CanSerialize() method"
 type: docs
 weight: 66
 url: /system.xml.serialization/xmlserializerimplementation/canserialize/
 ---
-## XmlSerializerImplementation::CanSerialize(const TypeInfo\&) method
+## XmlSerializerImplementation::CanSerialize(const TypeInfo&) method
 
 
 

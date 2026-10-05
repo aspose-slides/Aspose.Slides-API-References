@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.componentmodel/typeconverter/convertto/
 ---
-## TypeConverter::ConvertTo(const System::SharedPtr\<System::Object\>\&, const System::TypeInfo\&) method
+## TypeConverter::ConvertTo(const System::SharedPtr\<System::Object\>&, const System::TypeInfo&) method
 
 
 Converts object to specific type.
@@ -20,14 +20,14 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
-| destinationType | const [System::TypeInfo](../../../system/typeinfo/)\& | Type to convert to. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
+| destinationType | const [System::TypeInfo](../../../system/typeinfo/)& | Type to convert to. |
 
 ### Return Value
 
 Converted object.
 
-## TypeConverter::ConvertTo(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&, const System::TypeInfo\&) method
+## TypeConverter::ConvertTo(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::SharedPtr\<System::Globalization::CultureInfo\>&, const System::SharedPtr\<System::Object\>&, const System::TypeInfo&) method
 
 
 Converts object to specific type.
@@ -41,10 +41,10 @@ virtual System::SharedPtr<System::Object> System::ComponentModel::TypeConverter:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use when converting objects. |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
-| destinationType | const [System::TypeInfo](../../../system/typeinfo/)\& | Type to convert to. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use when converting objects. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
+| destinationType | const [System::TypeInfo](../../../system/typeinfo/)& | Type to convert to. |
 
 ### Return Value
 

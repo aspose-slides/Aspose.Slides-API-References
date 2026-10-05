@@ -1,7 +1,7 @@
 ---
 title: AddCertificate()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::AddCertificate() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/keyinfox509data/addcertificate/

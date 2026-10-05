@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.generic/ikvcollection/remove/
 ---
-## IKVCollection::Remove(const T\&) method
+## IKVCollection::Remove(const T&) method
 
 
 Removes item from container.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::IKVCollection<T>::Remove(const T &ite
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to remove. |
+| item | const T& | Item to remove. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.data.sqlclient/sqlconnectionstringbuilder/set_initialcatalog/
 ---
-## SqlConnectionStringBuilder::set_InitialCatalog(const String\&) method
+## SqlConnectionStringBuilder::set_InitialCatalog(const String&) method
 
 
 Sets name of database associated with connection.
@@ -20,7 +20,7 @@ void System::Data::SqlClient::SqlConnectionStringBuilder::set_InitialCatalog(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Database name. |
+| value | const [String](../../../system/string/)& | Database name. |
 
 ## See Also
 

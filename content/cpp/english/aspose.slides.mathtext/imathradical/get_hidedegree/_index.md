@@ -1,7 +1,7 @@
 ---
 title: get_HideDegree()
 second_title: Aspose.Slides for C++ API Reference
-description: Hide degree When is true, the degree is not shown, as in \\u221A\\uD835\\uDC65
+description: Hide degree When is true, the degree is not shown, as in √𝑥
 type: docs
 weight: 27
 url: /aspose.slides.mathtext/imathradical/get_hidedegree/
@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/imathradical/get_hidedegree/
 ## IMathRadical::get_HideDegree() method
 
 
-Hide degree When is true, the degree is not shown, as in \\u221A\\uD835\\uDC65
+Hide degree When is true, the degree is not shown, as in √𝑥
 
 ```cpp
 virtual bool Aspose::Slides::MathText::IMathRadical::get_HideDegree()=0

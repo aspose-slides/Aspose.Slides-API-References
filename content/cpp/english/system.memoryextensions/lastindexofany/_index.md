@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.memoryextensions/lastindexofany/
 ---
-## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
 Finds the last occurrence of any of three specified values within a span.
@@ -26,16 +26,16 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>&, const T&, const T&, const T&) function
 
 
 Finds the last occurrence of any of three specified values within a mutable span.
@@ -55,16 +55,16 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any of two specified values within a span.
@@ -84,15 +84,15 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any of two specified values within a mutable span.
@@ -112,15 +112,15 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the last occurrence of any value from a sequence within a span.
@@ -140,14 +140,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sequence of values to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sequence of values to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the last occurrence of any value from a sequence within a mutable span.
@@ -167,14 +167,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sequence of values to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sequence of values to search for |
 
 ### Return Value
 
 The zero-based index of the last occurrence, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>\&, const Span\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAny(const Span\<T\>&, const Span\<T\>&) function
 
 
 Finds the last occurrence of any value from a mutable sequence within a mutable span.
@@ -194,8 +194,8 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAny(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| values | const [Span](../../system/span/)\<T\>\& | The sequence of values to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| values | const [Span](../../system/span/)\<T\>& | The sequence of values to search for |
 
 ### Return Value
 

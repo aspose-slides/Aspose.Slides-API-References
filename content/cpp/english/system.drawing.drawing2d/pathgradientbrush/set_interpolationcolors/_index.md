@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.drawing.drawing2d/pathgradientbrush/set_interpolationcolors/
 ---
-## PathGradientBrush::set_InterpolationColors(const SharedPtr\<ColorBlend\>\&) method
+## PathGradientBrush::set_InterpolationColors(const SharedPtr\<ColorBlend\>&) method
 
 
 Sets a value the defines a multicolor linear gradient.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathGradientBrush::set_InterpolationColors(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[ColorBlend](../../colorblend/)\>\& | The value to set |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[ColorBlend](../../colorblend/)\>& | The value to set |
 
 ## See Also
 

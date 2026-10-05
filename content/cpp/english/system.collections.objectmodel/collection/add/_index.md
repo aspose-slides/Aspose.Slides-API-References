@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.collections.objectmodel/collection/add/
 ---
-## Collection::Add(const T\&) method
+## Collection::Add(const T&) method
 
 
 Adds value to container.
@@ -20,7 +20,7 @@ virtual void System::Collections::ObjectModel::Collection<T>::Add(const T &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to add. |
+| item | const T& | Item to add. |
 
 ## See Also
 

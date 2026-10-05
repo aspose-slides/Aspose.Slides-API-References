@@ -22,6 +22,13 @@ void System::Xml::XmlDocument::set_InnerText(String value) override
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | In all cases. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

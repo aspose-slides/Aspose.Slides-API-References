@@ -1,7 +1,7 @@
 ---
 title: set_Id()
 second_title: Aspose.Slides for C++ API Reference
-description: Sets id for the \"tspan\" element
+description: "Sets id for the \"tspan\" element"
 type: docs
 weight: 14
 url: /aspose.slides.export/isvgtspan/set_id/
@@ -9,7 +9,7 @@ url: /aspose.slides.export/isvgtspan/set_id/
 ## ISvgTSpan::set_Id(System::String) method
 
 
-Sets id for the \"tspan\" element
+Sets id for the "tspan" element
 
 ```cpp
 virtual void Aspose::Slides::Export::ISvgTSpan::set_Id(System::String value)=0

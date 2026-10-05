@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.io/file/appendtext/
 ---
-## File::AppendText(const String\&) method
+## File::AppendText(const String&) method
 
 
 Creates a [StreamWriter](../../streamwriter/) object that appends text to the specified file using UTF-8 encoding. If the specified file does not exist, it is created.
@@ -20,7 +20,7 @@ static StreamWriterPtr System::IO::File::AppendText(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to open or create |
+| path | const [String](../../../system/string/)& | The path of the file to open or create |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2341
 url: /system/isnull/
 ---
-## System::IsNull(const T\&) function
+## System::IsNull(const T&) function
 
 
 Implements 'is null' pattern.

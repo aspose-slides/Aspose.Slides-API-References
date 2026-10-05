@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /system.io/file/writealllines/
 ---
-## File::WriteAllLines(const String\&, const SharedPtr\<Collections::Generic::IEnumerable\<String\>\>\&, const EncodingPtr\&) method
+## File::WriteAllLines(const String&, const SharedPtr\<Collections::Generic::IEnumerable\<String\>\>&, const EncodingPtr&) method
 
 
 Creates a new text file or overwrites the existing one and writes all strings from the specified enumerable collection of strings to it, each string on a new line, using the specified encoding.
@@ -20,11 +20,11 @@ static void System::IO::File::WriteAllLines(const String &path, const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The file to create or overwrite |
-| contents | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>\& | An enumerable collection of strings |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The file to create or overwrite |
+| contents | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>& | An enumerable collection of strings |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
-## File::WriteAllLines(const String\&, const ArrayPtr\<String\>\&, const EncodingPtr\&) method
+## File::WriteAllLines(const String&, const ArrayPtr\<String\>&, const EncodingPtr&) method
 
 
 Creates a new text file or overwrites the existing one and writes all strings from the specified array of strings to it, each string on a new line, using the specified encoding.
@@ -38,9 +38,9 @@ static void System::IO::File::WriteAllLines(const String &path, const ArrayPtr<S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The file to create or overwrite |
-| contents | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\& | A string array |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The file to create or overwrite |
+| contents | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>& | A string array |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ## See Also
 

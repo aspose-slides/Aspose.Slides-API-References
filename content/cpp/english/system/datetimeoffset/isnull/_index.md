@@ -1,7 +1,7 @@
 ---
 title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "DateTimeOffset::IsNull() method"
 type: docs
 weight: 612
 url: /system/datetimeoffset/isnull/

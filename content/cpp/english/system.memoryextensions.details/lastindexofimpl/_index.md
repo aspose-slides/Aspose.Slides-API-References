@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.memoryextensions.details/lastindexofimpl/
 ---
-## System::MemoryExtensions::Details::LastIndexOfImpl(const ReadOnlySpan\<T\>\&, int32_t, const T\&) function
+## System::MemoryExtensions::Details::LastIndexOfImpl(const ReadOnlySpan\<T\>&, int32_t, const T&) function
 
 
 Finds the last index of a value in a span.
@@ -26,9 +26,9 @@ template<typename T> int32_t System::MemoryExtensions::Details::LastIndexOfImpl(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchSpace | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | [Span](../../system/span/) to search |
+| searchSpace | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | [Span](../../system/span/) to search |
 | length | **int32_t** | Length to search within |
-| value | const T\& | Value to find |
+| value | const T& | Value to find |
 
 ### Return Value
 

@@ -20,10 +20,10 @@ System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::AddMathShape(floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | **float** | The width of the shape\\u2019s frame, in points. |
-| height | **float** | The height of the shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 ### Return Value
 

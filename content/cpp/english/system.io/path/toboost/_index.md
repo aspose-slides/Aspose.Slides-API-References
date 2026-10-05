@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.io/path/toboost/
 ---
-## Path::ToBoost(const String\&) method
+## Path::ToBoost(const String&) method
 
 
 Returns an instance of boost::filesystem::path class that represents the specified path.
@@ -20,7 +20,7 @@ static boost::filesystem::path System::IO::Path::ToBoost(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path |
+| path | const [String](../../../system/string/)& | A path |
 
 ### Return Value
 

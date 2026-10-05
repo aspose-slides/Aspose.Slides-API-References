@@ -19,9 +19,9 @@ class ColorTranslator
 
 | Method | Description |
 | --- | --- |
-| static [Color](../color/) [FromHtml](./fromhtml/)(const [System::String](../../system/string/)\&) | Converts the specified HTML color representation to the equvivalent [Color](../color/) object. |
-| static [Color](../color/) [FromWin32](./fromwin32/)(int) | Converts the specified [Windows](../../system.windows/) color to the equvivalent [Color](../color/) object. |
-| static [String](../../system/string/) [ToHtml](./tohtml/)(const [Color](../color/)\&) | Converts the specified [Color](../color/) object to the string representation of equivalent HTML color. |
+| static [Color](../color/) [FromHtml](./fromhtml/)(const [System::String](../../system/string/)&) | Converts the specified HTML color representation to the equvivalent [Color](../color/) object. |
+| static [Color](../color/) [FromWin32](./fromwin32/)(int) | Converts the specified Windows color to the equvivalent [Color](../color/) object. |
+| static [String](../../system/string/) [ToHtml](./tohtml/)(const [Color](../color/)&) | Converts the specified [Color](../color/) object to the string representation of equivalent HTML color. |
 ## See Also
 
 * Namespace [System::Drawing](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemasimplecontentrestriction/set_basetypename/
 ---
-## XmlSchemaSimpleContentRestriction::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaSimpleContentRestriction::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of the built-in data type or simple type from which this type is derived.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleContentRestriction::set_BaseTypeName(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

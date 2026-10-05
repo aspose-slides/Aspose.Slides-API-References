@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/namevalueheadervalue/tryparse/
 ---
-## NameValueHeaderValue::TryParse(String, System::SharedPtr\<NameValueHeaderValue\>\&) method
+## NameValueHeaderValue::TryParse(String, System::SharedPtr\<NameValueHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [NameValueHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::NameValueHeaderValue::TryParse(String in
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

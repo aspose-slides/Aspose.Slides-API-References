@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/boxedvaluebase/parse/
 ---
-## BoxedValueBase::Parse(const TypeInfo\&, const String\&, bool) method
+## BoxedValueBase::Parse(const TypeInfo&, const String&, bool) method
 
 
 Boxes the value of enumeration constant of the specified enumeration with the specified name. A parameter specifies if the case should be ignored when interpreting the string specifying the name of the enumeration constant.
@@ -20,15 +20,22 @@ static SharedPtr<Object> System::BoxedValueBase::Parse(const TypeInfo &type, con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | Specifies the type of the enumeration |
-| str | const [String](../../string/)\& | The name of the enumeration constant, value of which is to be boxed |
+| type | const [TypeInfo](../../typeinfo/)& | Specifies the type of the enumeration |
+| str | const [String](../../string/)& | The name of the enumeration constant, value of which is to be boxed |
 | ignoreCase | **bool** | Specifies if case should be ignored when interpreting the string representing the name of the enumeration constant |
 
 ### Return Value
 
 A shared pointer to the object representing boxed value of the specified enumeration constant
 
-## BoxedValueBase::Parse(const TypeInfo\&, const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidEnumArgumentException | If the specified enumeration constant was not found in the specified enumeration |
+
+
+## BoxedValueBase::Parse(const TypeInfo&, const String&) method
 
 
 Boxes the value of enumeration constant of the specified enumeration with the specified name.
@@ -42,12 +49,19 @@ static SharedPtr<Object> System::BoxedValueBase::Parse(const TypeInfo &type, con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | Specifies the type of the enumeration |
-| str | const [String](../../string/)\& | The name of the enumeration constant, value of which is to be boxed |
+| type | const [TypeInfo](../../typeinfo/)& | Specifies the type of the enumeration |
+| str | const [String](../../string/)& | The name of the enumeration constant, value of which is to be boxed |
 
 ### Return Value
 
 A shared pointer to the object representing boxed value of the specified enumeration constant
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidEnumArgumentException | If the specified enumeration constant was not found in the specified enumeration |
+
 
 ## See Also
 

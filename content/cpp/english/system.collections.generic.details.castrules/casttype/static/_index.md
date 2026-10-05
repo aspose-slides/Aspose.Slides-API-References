@@ -1,7 +1,7 @@
 ---
 title: Static
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Static field
 type: docs
 weight: 14
 url: /system.collections.generic.details.castrules/casttype/static/

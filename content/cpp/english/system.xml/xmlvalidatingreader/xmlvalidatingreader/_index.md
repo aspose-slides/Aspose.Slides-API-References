@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system.xml/xmlvalidatingreader/xmlvalidatingreader/
 ---
-## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<XmlReader\>\&) constructor
+## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<XmlReader\>&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class that validates the content returned from the given [XmlReader](../../xmlreader/).
@@ -20,9 +20,16 @@ System::Xml::XmlValidatingReader::XmlValidatingReader(const SharedPtr<XmlReader>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>\& | The [XmlReader](../../xmlreader/) to read from while validating. The current implementation supports only [XmlTextReader](../../xmltextreader/). |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>& | The [XmlReader](../../xmlreader/) to read from while validating. The current implementation supports only [XmlTextReader](../../xmltextreader/). |
 
-## XmlValidatingReader::XmlValidatingReader(const String\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The reader specified is not an [XmlTextReader](../../xmltextreader/). |
+
+
+## XmlValidatingReader::XmlValidatingReader(const String&, XmlNodeType, const SharedPtr\<XmlParserContext\>&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class with the specified values.
@@ -36,9 +43,16 @@ System::Xml::XmlValidatingReader::XmlValidatingReader(const String &xmlFragment,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xmlFragment | const [String](../../../system/string/)\& | The string containing the XML fragment to parse. |
+| xmlFragment | const [String](../../../system/string/)& | The string containing the XML fragment to parse. |
 | fragType | [XmlNodeType](../../xmlnodetype/) | The XmlNodeType of the XML fragment. This also determines what the fragment string can contain (see table below). |
-| context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\& | The [XmlParserContext](../../xmlparsercontext/) in which the XML fragment is to be parsed. This includes the [NameTable](../../nametable/) to use, encoding, namespace scope, current **xml:lang**, and **xml:space** scope. |
+| context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>& | The [XmlParserContext](../../xmlparsercontext/) in which the XML fragment is to be parsed. This includes the [NameTable](../../nametable/) to use, encoding, namespace scope, current **xml:lang**, and **xml:space** scope. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **fragType** is not one of the node types listed in the table below. |
+
 ## Remarks
 
 
@@ -52,7 +66,7 @@ The following table lists valid values for **fragType** and how the reader parse
 | Document| The contents of an entire XML document; this enforces document level rules. |
 
 
-## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<IO::Stream\>\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
+## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<IO::Stream\>&, XmlNodeType, const SharedPtr\<XmlParserContext\>&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class with the specified values.
@@ -66,9 +80,16 @@ System::Xml::XmlValidatingReader::XmlValidatingReader(const SharedPtr<IO::Stream
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xmlFragment | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream containing the XML fragment to parse. |
+| xmlFragment | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The stream containing the XML fragment to parse. |
 | fragType | [XmlNodeType](../../xmlnodetype/) | The XmlNodeType of the XML fragment. This determines what the fragment can contain (see table below). |
-| context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\& | The [XmlParserContext](../../xmlparsercontext/) in which the XML fragment is to be parsed. This includes the [XmlNameTable](../../xmlnametable/) to use, encoding, namespace scope, current **xml:lang**, and **xml:space** scope. |
+| context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>& | The [XmlParserContext](../../xmlparsercontext/) in which the XML fragment is to be parsed. This includes the [XmlNameTable](../../xmlnametable/) to use, encoding, namespace scope, current **xml:lang**, and **xml:space** scope. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **fragType** is not one of the node types listed in the table below. |
+
 ## Remarks
 
 

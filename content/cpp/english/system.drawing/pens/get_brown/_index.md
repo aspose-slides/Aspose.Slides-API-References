@@ -1,7 +1,7 @@
 ---
 title: get_Brown()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFA52A2A.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFA52A2A."
 type: docs
 weight: 157
 url: /system.drawing/pens/get_brown/

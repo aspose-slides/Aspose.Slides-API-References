@@ -1,7 +1,7 @@
 ---
 title: get_OldLace()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFDF5E6.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFDF5E6."
 type: docs
 weight: 1535
 url: /system.drawing/color/get_oldlace/

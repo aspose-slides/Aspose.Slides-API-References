@@ -15,7 +15,7 @@ Creates adapter not using any comparator.
 System::Collections::Generic::EqualityComparerAdapter<T>::EqualityComparerAdapter()
 ```
 
-## EqualityComparerAdapter::EqualityComparerAdapter(const SharedPtr\<IEqualityComparer\<T\>\>\&) constructor
+## EqualityComparerAdapter::EqualityComparerAdapter(const SharedPtr\<IEqualityComparer\<T\>\>&) constructor
 
 
 Creates adapter with given comparator.
@@ -29,7 +29,7 @@ System::Collections::Generic::EqualityComparerAdapter<T>::EqualityComparerAdapte
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparator | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | Comparator to use. |
+| comparator | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>& | Comparator to use. |
 
 ## See Also
 

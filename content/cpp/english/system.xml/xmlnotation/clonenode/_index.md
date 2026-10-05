@@ -26,6 +26,13 @@ SharedPtr<XmlNode> System::Xml::XmlNotation::CloneNode(bool deep) override
 
 A [XmlNode](../../xmlnode/) copy of the node from which the method is called.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Notation nodes cannot be cloned. Calling this method on an [XmlNotation](../) object throws an exception. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

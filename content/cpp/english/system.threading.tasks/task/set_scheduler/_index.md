@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.threading.tasks/task/set_scheduler/
 ---
-## Task::set_Scheduler(const SharedPtr\<TaskScheduler\>\&) method
+## Task::set_Scheduler(const SharedPtr\<TaskScheduler\>&) method
 
 
 Sets the scheduler associated with this task.

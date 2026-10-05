@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemafacet/set_value/
 ---
-## XmlSchemaFacet::set_Value(const String\&) method
+## XmlSchemaFacet::set_Value(const String&) method
 
 
 Sets the **value** attribute of the facet.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaFacet::set_Value(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2757
 url: /system/compare/
 ---
-## System::Compare(const TA\&, const TB\&) function
+## System::Compare(const TA&, const TB&) function
 
 
 Compares two values.
@@ -27,14 +27,14 @@ template<typename TA,typename TB> std::enable_if_t<!std::is_floating_point<TA>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const TA\& | The first comparand |
-| b | const TB\& | The second comparand |
+| a | const TA& | The first comparand |
+| b | const TB& | The second comparand |
 
 ### Return Value
 
 -1 if **a** compares less than **b**; 0 if the values are equal; 1 if **a** compares greater than **b**
 
-## System::Compare(const TA\&, const TB\&) function
+## System::Compare(const TA&, const TB&) function
 
 
 Compares two floating point values.
@@ -55,8 +55,8 @@ template<typename TA,typename TB> std::enable_if_t<std::is_floating_point<TA>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const TA\& | The first comparand |
-| b | const TB\& | The second comparand |
+| a | const TA& | The first comparand |
+| b | const TB& | The second comparand |
 
 ### Return Value
 

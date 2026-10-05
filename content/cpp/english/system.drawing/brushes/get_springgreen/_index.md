@@ -1,7 +1,7 @@
 ---
 title: get_SpringGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF00FF7F.
+description: "Returns the solid fill color whose hexadecimal value is #FF00FF7F."
 type: docs
 weight: 1652
 url: /system.drawing/brushes/get_springgreen/

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text/encodinginfo/encodinginfo/
 ---
-## EncodingInfo::EncodingInfo(int, const String\&, const String\&) constructor
+## EncodingInfo::EncodingInfo(int, const String&, const String&) constructor
 
 
 Constuctor.
@@ -20,9 +20,9 @@ System::Text::EncodingInfo::EncodingInfo(int codepage, const String &name, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codepage | int | [Windows](../../../system.windows/) codepage id. |
-| name | const [String](../../../system/string/)\& | [Encoding](../../encoding/) short name (web). |
-| display_name | const [String](../../../system/string/)\& | Full localized encoding name (only English supports). |
+| codepage | int | Windows codepage id. |
+| name | const [String](../../../system/string/)& | [Encoding](../../encoding/) short name (web). |
+| display_name | const [String](../../../system/string/)& | Full localized encoding name (only English supports). |
 
 ## See Also
 

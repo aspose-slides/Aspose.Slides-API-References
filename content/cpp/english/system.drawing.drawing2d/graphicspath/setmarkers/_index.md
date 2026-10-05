@@ -16,6 +16,13 @@ void System::Drawing::Drawing2D::GraphicsPath::SetMarkers()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [GraphicsPath](../)

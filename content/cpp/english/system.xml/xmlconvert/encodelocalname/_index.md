@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlconvert/encodelocalname/
 ---
-## XmlConvert::EncodeLocalName(const String\&) method
+## XmlConvert::EncodeLocalName(const String&) method
 
 
 Converts the name to a valid XML local name.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::EncodeLocalName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to be encoded. |
+| name | const [String](../../../system/string/)& | The name to be encoded. |
 
 ### Return Value
 

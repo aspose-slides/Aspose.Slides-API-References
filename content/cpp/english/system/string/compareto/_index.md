@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system/string/compareto/
 ---
-## String::CompareTo(const String\&) const method
+## String::CompareTo(const String&) const method
 
 
 Compares two strings in 'less-equals-more' style. Uses current culture.
@@ -20,7 +20,7 @@ int System::String::CompareTo(const String &str) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to compare this to. |
+| str | const [String](../)& | [String](../) to compare this to. |
 
 ### Return Value
 

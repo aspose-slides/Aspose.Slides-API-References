@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/object/operator_equal/
 ---
-## Object::operator=(Object const\&) method
+## Object::operator=(Object const&) method
 
 
 Assignment operator. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses.
@@ -20,7 +20,7 @@ Object & System::Object::operator=(Object const &x)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [Object](../) const\& | Formal parameter. |
+| x | [Object](../) const& | Formal parameter. |
 
 ## See Also
 

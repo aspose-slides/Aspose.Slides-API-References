@@ -47,7 +47,7 @@ StringBuilder * System::Text::StringBuilder::Append(char_t c, int count)
 
 This pointer.
 
-## StringBuilder::Append(const ArrayPtr\<char_t\>\&) method
+## StringBuilder::Append(const ArrayPtr\<char_t\>&) method
 
 
 Adds characters array to builder.
@@ -61,13 +61,13 @@ StringBuilder * System::Text::StringBuilder::Append(const ArrayPtr<char_t> &arr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | Characters to add. |
+| arr | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | Characters to add. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::Append(const ArrayPtr\<char_t\>\&, int, int) method
+## StringBuilder::Append(const ArrayPtr\<char_t\>&, int, int) method
 
 
 Adds characters array slice to builder.
@@ -81,7 +81,7 @@ StringBuilder * System::Text::StringBuilder::Append(const ArrayPtr<char_t> &arr,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | Characters to add. |
+| arr | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | Characters to add. |
 | startIndex | int | Slice beginning index. |
 | charCount | int | Slice length. |
 
@@ -89,7 +89,7 @@ StringBuilder * System::Text::StringBuilder::Append(const ArrayPtr<char_t> &arr,
 
 This pointer.
 
-## StringBuilder::Append(const String\&) method
+## StringBuilder::Append(const String&) method
 
 
 Adds string to builder.
@@ -103,13 +103,13 @@ StringBuilder * System::Text::StringBuilder::Append(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to add. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to add. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::Append(const String\&, int, int) method
+## StringBuilder::Append(const String&, int, int) method
 
 
 Adds string slice to builder.
@@ -123,7 +123,7 @@ StringBuilder * System::Text::StringBuilder::Append(const String &str, int start
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to add. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to add. |
 | startIndex | int | Slice beginning index. |
 | charCount | int | Slice length. |
 
@@ -131,7 +131,7 @@ StringBuilder * System::Text::StringBuilder::Append(const String &str, int start
 
 This pointer.
 
-## StringBuilder::Append(const SharedPtr\<T\>\&) method
+## StringBuilder::Append(const SharedPtr\<T\>&) method
 
 
 Adds object's string representation to builder.
@@ -151,13 +151,13 @@ template<class T> StringBuilder * System::Text::StringBuilder::Append(const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<T\>\& | [Object](../../../system/object/) to serialize and add. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<T\>& | [Object](../../../system/object/) to serialize and add. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::Append(const SharedPtr\<StringBuilder\>\&) method
+## StringBuilder::Append(const SharedPtr\<StringBuilder\>&) method
 
 
 Adds builder's content to builder.
@@ -171,7 +171,7 @@ StringBuilder * System::Text::StringBuilder::Append(const SharedPtr<StringBuilde
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| builder | const [SharedPtr](../../../system/sharedptr/)\<[StringBuilder](../)\>\& | Builder to add content from. |
+| builder | const [SharedPtr](../../../system/sharedptr/)\<[StringBuilder](../)\>& | Builder to add content from. |
 
 ### Return Value
 

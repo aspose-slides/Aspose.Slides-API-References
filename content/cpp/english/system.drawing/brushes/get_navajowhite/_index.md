@@ -1,7 +1,7 @@
 ---
 title: get_NavajoWhite()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFDEAD.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFDEAD."
 type: docs
 weight: 1223
 url: /system.drawing/brushes/get_navajowhite/

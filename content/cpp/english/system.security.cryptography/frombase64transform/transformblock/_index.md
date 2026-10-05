@@ -1,7 +1,7 @@
 ---
 title: TransformBlock()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FromBase64Transform::TransformBlock() method"
 type: docs
 weight: 66
 url: /system.security.cryptography/frombase64transform/transformblock/

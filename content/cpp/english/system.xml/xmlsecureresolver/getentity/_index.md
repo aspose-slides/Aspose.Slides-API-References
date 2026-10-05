@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlsecureresolver/getentity/
 ---
-## XmlSecureResolver::GetEntity(SharedPtr\<Uri\>, String, const TypeInfo\&) method
+## XmlSecureResolver::GetEntity(SharedPtr\<Uri\>, String, const TypeInfo&) method
 
 
 Maps a URI to an object that contains the actual resource.
@@ -20,13 +20,23 @@ SharedPtr<Object> System::Xml::XmlSecureResolver::GetEntity(SharedPtr<Uri> absol
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| absoluteUri | [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI that is returned from [XmlSecureResolver::ResolveUri(SharedPtr<Uri>, String)](../resolveuri/) call. |
+| absoluteUri | [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI that is returned from [XmlSecureResolver::ResolveUri(SharedPtr\<Uri\>, String)](../resolveuri/) call. |
 | role | [String](../../../system/string/) | Currently not used. |
-| ofObjectToReturn | const [TypeInfo](../../../system/typeinfo/)\& | The type of object to return. The current version only returns Stream objects. |
+| ofObjectToReturn | const [TypeInfo](../../../system/typeinfo/)& | The type of object to return. The current version only returns Stream objects. |
 
 ### Return Value
 
 The stream returned by calling **GetEntity** on the underlying [XmlResolver](../../xmlresolver/). If a type other than Stream is specified, the method returns **nullptr**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **ofObjectToReturn** is neither **nullptr** nor a Stream type. |
+| UriFormatException | The specified URI is not an absolute URI. |
+| NullReferenceException | **absoluteUri** is **nullptr**. |
+| Exception | There is a runtime error (for example, an interrupted server connection). |
+
 
 ## See Also
 

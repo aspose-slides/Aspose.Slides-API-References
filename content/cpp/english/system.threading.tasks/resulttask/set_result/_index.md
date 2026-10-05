@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.threading.tasks/resulttask/set_result/
 ---
-## ResultTask::set_Result(const T\&) method
+## ResultTask::set_Result(const T&) method
 
 
 Sets the result value for the task.

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.security.cryptography/dsacryptoserviceprovider/verifyhash/
 ---
-## DSACryptoServiceProvider::VerifyHash(const ByteArrayPtr\&, const String\&, const ByteArrayPtr\&) method
+## DSACryptoServiceProvider::VerifyHash(const ByteArrayPtr&, const String&, const ByteArrayPtr&) method
 
 
 Checks data signature.
@@ -20,9 +20,9 @@ bool System::Security::Cryptography::DSACryptoServiceProvider::VerifyHash(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash calculated for received data. |
-| str | const [String](../../../system/string/)\& | Name of hash algorithm used. |
-| rgb_signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature as received. |
+| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash calculated for received data. |
+| str | const [String](../../../system/string/)& | Name of hash algorithm used. |
+| rgb_signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature as received. |
 
 ### Return Value
 

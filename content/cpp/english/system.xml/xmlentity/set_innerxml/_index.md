@@ -22,6 +22,13 @@ void System::Xml::XmlEntity::set_InnerXml(String value) override
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Attempting to set the value. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

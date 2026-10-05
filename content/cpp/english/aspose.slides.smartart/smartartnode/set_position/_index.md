@@ -16,6 +16,13 @@ void Aspose::Slides::SmartArt::SmartArtNode::set_Position(int32_t value) overrid
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | value is less than 0. -or- value is equal to or greater than siblings count |
+
+
 ## See Also
 
 * Class [SmartArtNode](../)

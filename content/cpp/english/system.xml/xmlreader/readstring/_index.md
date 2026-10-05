@@ -20,6 +20,13 @@ virtual String System::Xml::XmlReader::ReadString()
 
 The contents of the element or an empty string.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error occurred while parsing the XML. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.drawing.drawing2d/graphicspath/addbezier/
 ---
-## GraphicsPath::AddBezier(const Point\&, const Point\&, const Point\&, const Point\&) method
+## GraphicsPath::AddBezier(const Point&, const Point&, const Point&, const Point&) method
 
 
 Adds the specified cubic Bezier curve to the path represented by the current object.
@@ -20,12 +20,12 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(const Point &pt1, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pt1 | const [Point](../../../system.drawing/point/)\& | The starting point of the curve to add |
-| pt2 | const [Point](../../../system.drawing/point/)\& | The 1-st control point of the curve to add |
-| pt3 | const [Point](../../../system.drawing/point/)\& | The 2-nd control point of the curve to add |
-| pt4 | const [Point](../../../system.drawing/point/)\& | The ending point of the curve to add |
+| pt1 | const [Point](../../../system.drawing/point/)& | The starting point of the curve to add |
+| pt2 | const [Point](../../../system.drawing/point/)& | The 1-st control point of the curve to add |
+| pt3 | const [Point](../../../system.drawing/point/)& | The 2-nd control point of the curve to add |
+| pt4 | const [Point](../../../system.drawing/point/)& | The ending point of the curve to add |
 
-## GraphicsPath::AddBezier(const PointF\&, const PointF\&, const PointF\&, const PointF\&) method
+## GraphicsPath::AddBezier(const PointF&, const PointF&, const PointF&, const PointF&) method
 
 
 Adds the specified cubic Bezier curve to the path represented by the current object.
@@ -39,10 +39,10 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(const PointF &pt1, cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pt1 | const [PointF](../../../system.drawing/pointf/)\& | The starting point of the curve to add |
-| pt2 | const [PointF](../../../system.drawing/pointf/)\& | The 1-st control point of the curve to add |
-| pt3 | const [PointF](../../../system.drawing/pointf/)\& | The 2-nd control point of the curve to add |
-| pt4 | const [PointF](../../../system.drawing/pointf/)\& | The ending point of the curve to add |
+| pt1 | const [PointF](../../../system.drawing/pointf/)& | The starting point of the curve to add |
+| pt2 | const [PointF](../../../system.drawing/pointf/)& | The 1-st control point of the curve to add |
+| pt3 | const [PointF](../../../system.drawing/pointf/)& | The 2-nd control point of the curve to add |
+| pt4 | const [PointF](../../../system.drawing/pointf/)& | The ending point of the curve to add |
 
 ## GraphicsPath::AddBezier(int, int, int, int, int, int, int, int) method
 

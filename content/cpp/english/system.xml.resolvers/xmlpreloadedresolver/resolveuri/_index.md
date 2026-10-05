@@ -27,6 +27,13 @@ SharedPtr<Uri> System::Xml::Resolvers::XmlPreloadedResolver::ResolveUri(SharedPt
 
 The [Uri](../../../system/uri/) representing the absolute URI or **nullptr** if the relative URI cannot be resolved.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** is **nullptr**. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

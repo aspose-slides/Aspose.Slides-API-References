@@ -27,6 +27,15 @@ virtual bool System::Xml::XPath::XPathNavigator::CheckValidity(SharedPtr<System:
 
 **true** if no schema validation errors occurred; otherwise, **false**.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | A schema validation error occurred, and no ValidationEventHandler was specified to handle validation errors. |
+| InvalidOperationException | The [XPathNavigator](../) is positioned on a node that is not an element, attribute, or the root node or there is not type information to perform validation. |
+| ArgumentException | The method was called with an XmlSchemaSet parameter when the [XPathNavigator](../) was not positioned on the root node of the XML data. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

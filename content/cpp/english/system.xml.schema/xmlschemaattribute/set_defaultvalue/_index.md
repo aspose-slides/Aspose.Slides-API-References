@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaattribute/set_defaultvalue/
 ---
-## XmlSchemaAttribute::set_DefaultValue(const String\&) method
+## XmlSchemaAttribute::set_DefaultValue(const String&) method
 
 
 Sets the default value for the attribute.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttribute::set_DefaultValue(const String &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: get_SlateGray()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF708090.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF708090."
 type: docs
 weight: 1639
 url: /system.drawing/pens/get_slategray/

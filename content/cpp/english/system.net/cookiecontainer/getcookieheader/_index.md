@@ -26,7 +26,7 @@ String System::Net::CookieContainer::GetCookieHeader(System::SharedPtr<Uri> uri)
 
 An HTTP header that contains cookies associated with the specified URI.
 
-## CookieContainer::GetCookieHeader(System::SharedPtr\<Uri\>, String\&) method
+## CookieContainer::GetCookieHeader(System::SharedPtr\<Uri\>, String&) method
 
 
 Return an HTTP header that contains cookies associated with the specified URI.
@@ -41,7 +41,7 @@ String System::Net::CookieContainer::GetCookieHeader(System::SharedPtr<Uri> uri,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uri | [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | An URI for which header name will be built. |
-| optCookie2 | [String](../../../system/string/)\& | The output parameter where a cookie with the maximum supported version will be assigned. |
+| optCookie2 | [String](../../../system/string/)& | The output parameter where a cookie with the maximum supported version will be assigned. |
 
 ### Return Value
 

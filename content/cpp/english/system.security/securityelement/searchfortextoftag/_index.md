@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.security/securityelement/searchfortextoftag/
 ---
-## SecurityElement::SearchForTextOfTag(const String\&) method
+## SecurityElement::SearchForTextOfTag(const String&) method
 
 
 Gets child tag inner text by tag name.
@@ -20,7 +20,7 @@ String System::Security::SecurityElement::SearchForTextOfTag(const String &tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const [String](../../../system/string/)\& | Tag name to look for. |
+| tag | const [String](../../../system/string/)& | Tag name to look for. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections/bitarray/remove/
 ---
-## BitArray::Remove(const bool\&) method
+## BitArray::Remove(const bool&) method
 
 
 Returns first occurance of specified value. Not implemented.
@@ -20,7 +20,7 @@ bool System::Collections::BitArray::Remove(const bool &item) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const **bool**\& | Value to remove. |
+| item | const **bool**& | Value to remove. |
 
 ### Return Value
 

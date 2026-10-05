@@ -26,7 +26,7 @@ int32_t System::Net::Sockets::Socket::EndSend(System::SharedPtr<IAsyncResult> as
 
 The number of sent bytes.
 
-## Socket::EndSend(System::SharedPtr\<IAsyncResult\>, SocketError\&) method
+## Socket::EndSend(System::SharedPtr\<IAsyncResult\>, SocketError&) method
 
 
 Waits until the specified asynchronous send operation completes.
@@ -41,7 +41,7 @@ int32_t System::Net::Sockets::Socket::EndSend(System::SharedPtr<IAsyncResult> as
 | Parameter | Type | Description |
 | --- | --- | --- |
 | asyncResult | [System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\> | An [IAsyncResult](../../../system/iasyncresult/) object that represents an asynchronous send operation. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the send operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the send operation fails. |
 
 ### Return Value
 

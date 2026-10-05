@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "RegionInfo::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/regioninfo/operator_equal/
 ---
-## RegionInfo::operator=(const RegionInfo\&) method
+## RegionInfo::operator=(const RegionInfo&) method
 
 
 

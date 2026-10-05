@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.threading.tasks/fromcanceled/
 ---
-## System::Threading::Tasks::FromCanceled(const CancellationToken\&) function
+## System::Threading::Tasks::FromCanceled(const CancellationToken&) function
 
 
 Creates a task that has completed due to cancellation with the specified token.
@@ -20,7 +20,7 @@ TaskPtr System::Threading::Tasks::FromCanceled(const CancellationToken &cancella
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)\& | The cancellation token that caused the task to be cancelled. |
+| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)& | The cancellation token that caused the task to be cancelled. |
 
 ### Return Value
 

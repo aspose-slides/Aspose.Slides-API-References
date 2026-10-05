@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.net/ipaddress/tryparse/
 ---
-## IPAddress::TryParse(String, System::SharedPtr\<IPAddress\>\&) method
+## IPAddress::TryParse(String, System::SharedPtr\<IPAddress\>&) method
 
 
 Tries to convert a passed string to an instance of the [IPAddress](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::IPAddress::TryParse(String ipString, System::SharedPtr<
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ipString | [String](../../../system/string/) | A string to parse. |
-| address | [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../)\>\& | An instance where a parsed object will be assigned. |
+| address | [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

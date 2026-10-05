@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic/icollection/add/
 ---
-## ICollection::Add(const T\&) method
+## ICollection::Add(const T&) method
 
 
 Adds element into collection.
@@ -20,7 +20,7 @@ virtual void System::Collections::Generic::ICollection<T>::Add(const T &item)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | to add. |
+| item | const T& | to add. |
 
 ## See Also
 

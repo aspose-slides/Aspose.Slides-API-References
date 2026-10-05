@@ -24,7 +24,7 @@ Runtime::CompilerServices::ConfiguredResultValueTaskAwaitable<T> System::Threadi
 
 ### Return Value
 
-ConfiguredResultValueTaskAwaitable<T> An object that configures how awaiters behave for this task.
+ConfiguredResultValueTaskAwaitable\<T\> An object that configures how awaiters behave for this task.
 
 ## See Also
 

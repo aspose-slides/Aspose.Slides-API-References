@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/range/equals/
 ---
-## Range::Equals(const Range\&) const method
+## Range::Equals(const Range&) const method
 
 
 Determines whether the current range is equal to the specified range.
@@ -20,7 +20,7 @@ bool System::Range::Equals(const Range &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Range](../)\& | The range to compare with. |
+| other | const [Range](../)& | The range to compare with. |
 
 ### Return Value
 

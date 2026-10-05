@@ -20,7 +20,7 @@ virtual void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strName | [System::String](../../../system/string/) | Hash algorithm name. Should be \"SHA1\", \"SHA256\", \"SHA384\" or \"SHA512\". |
+| strName | [System::String](../../../system/string/) | Hash algorithm name. Should be "SHA1", "SHA256", "SHA384" or "SHA512". |
 
 ## See Also
 

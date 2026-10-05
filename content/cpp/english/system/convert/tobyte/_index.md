@@ -105,7 +105,7 @@ Converts the specified double number to an equivalent 8-bit unsigned integer.
 static uint8_t System::Convert::ToByte(double value)
 ```
 
-## Convert::ToByte(const Decimal\&) method
+## Convert::ToByte(const Decimal&) method
 
 
 Converts the specified decimal number to an equivalent 8-bit unsigned integer.
@@ -146,7 +146,7 @@ static constexpr uint8_t System::Convert::ToByte(std::nullptr_t)
 
 Zero.
 
-## Convert::ToByte(const char_t *) method
+## Convert::ToByte(const char_t \*) method
 
 
 Converts the specified c-string containing the string representation of a number to the equivalent unsigned 8-bit integer value.
@@ -160,13 +160,21 @@ static uint8_t System::Convert::ToByte(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert |
+| value | const char_t \* | The c-string to convert |
 
 ### Return Value
 
 The unsigned 8-bit integer value equal to the number represented by the specified c-string
 
-## Convert::ToByte(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified c-string does not represent a number |
+| OverflowException | If the number represented by the specified c-string is greater than UINT8_MAX or is a negative number |
+
+
+## Convert::ToByte(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent unsigned 8-bit integer value.
@@ -180,13 +188,21 @@ static uint8_t System::Convert::ToByte(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
 The unsigned 8-bit integer value equal to the number represented by the specified string
 
-## Convert::ToByte(const String\&, int) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string does not represent a number |
+| OverflowException | If the number represented by the specified string is greater than UINT8_MAX or is a negative number |
+
+
+## Convert::ToByte(const String&, int) method
 
 
 Converts the specified string containing the string representation of a number in the specified base to the equivalent unsigned 8-bit integer value.
@@ -200,14 +216,22 @@ static uint8_t System::Convert::ToByte(const String &value, int from_base)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 | from_base | int | The base of the number represented by the string |
 
 ### Return Value
 
 The unsigned 8-bit integer value equal to the number represented by the specified string
 
-## Convert::ToByte(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string does not represent a number |
+| OverflowException | If the number represented by the specified string is greater than UINT8_MAX or is a negative number |
+
+
+## Convert::ToByte(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent unsigned 8-bit integer value using the provided formatting information.
@@ -221,14 +245,22 @@ static uint8_t System::Convert::ToByte(const String &value, const SharedPtr<IFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| value | const [String](../../string/)& | The string to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The unsigned 8-bit integer value equal to the number represented by the specified string
 
-## Convert::ToByte(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string does not represent a number |
+| OverflowException | If the number represented by the specified string is greater than UINT8_MAX or is a negative number |
+
+
+## Convert::ToByte(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -237,7 +269,7 @@ The unsigned 8-bit integer value equal to the number represented by the specifie
 static uint8_t System::Convert::ToByte(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToByte(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToByte(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -246,7 +278,7 @@ static uint8_t System::Convert::ToByte(const String &value, const SharedPtr<Glob
 static uint8_t System::Convert::ToByte(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToByte(const String\&, std::nullptr_t) method
+## Convert::ToByte(const String&, std::nullptr_t) method
 
 
 
@@ -255,7 +287,7 @@ static uint8_t System::Convert::ToByte(const String &value, const SharedPtr<Glob
 static uint8_t System::Convert::ToByte(const String &value, std::nullptr_t)
 ```
 
-## Convert::ToByte(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToByte(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent unsigned 8-bit integer value using the provided formatting information and number style.
@@ -269,15 +301,23 @@ static uint8_t System::Convert::ToByte(const String &value, Globalization::Numbe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The unsigned 8-bit integer value equal to the number represented by the specified string
 
-## Convert::ToByte(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string does not represent a number |
+| OverflowException | If the number represented by the specified string is greater than UINT8_MAX or is a negative number |
+
+
+## Convert::ToByte(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -286,7 +326,7 @@ The unsigned 8-bit integer value equal to the number represented by the specifie
 static uint8_t System::Convert::ToByte(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToByte(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToByte(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -295,7 +335,7 @@ static uint8_t System::Convert::ToByte(const String &value, Globalization::Numbe
 static uint8_t System::Convert::ToByte(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToByte(const String\&, Globalization::NumberStyles, std::nullptr_t) method
+## Convert::ToByte(const String&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -313,7 +353,7 @@ static uint8_t System::Convert::ToByte(const String &value, Globalization::Numbe
 template<typename Enum,typename> static uint8_t System::Convert::ToByte(Enum value)
 ```
 
-## Convert::ToByte(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToByte(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to equivalent unsigned 8-bit integer value.
@@ -327,8 +367,8 @@ static uint8_t System::Convert::ToByte(const SharedPtr<Object> &obj, const Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

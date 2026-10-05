@@ -1,7 +1,7 @@
 ---
 title: get_MediumSeaGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF3CB371.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF3CB371."
 type: docs
 weight: 1119
 url: /system.drawing/pens/get_mediumseagreen/

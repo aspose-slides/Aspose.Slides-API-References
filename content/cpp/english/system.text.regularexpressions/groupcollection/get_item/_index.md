@@ -26,7 +26,7 @@ GroupPtr System::Text::RegularExpressions::GroupCollection::get_Item(int index) 
 
 [Group](../../group/) with specified index.
 
-## GroupCollection::get_Item(const String\&) const method
+## GroupCollection::get_Item(const String&) const method
 
 
 [Group](../../group/) accessor.
@@ -40,7 +40,7 @@ GroupPtr System::Text::RegularExpressions::GroupCollection::get_Item(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Group](../../group/) name. |
+| name | const [String](../../../system/string/)& | [Group](../../group/) name. |
 
 ### Return Value
 

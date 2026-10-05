@@ -32,7 +32,7 @@ template<typename T> static std::enable_if<std::is_arithmetic<T>::value||std::is
 
 Always returns false.
 
-## TestTools::IsNull(const T\&) method
+## TestTools::IsNull(const T&) method
 
 
 Checks if specific value is null. [Version](../../version/) for non-arithmetic and non-enum value types.
@@ -52,13 +52,13 @@ template<typename T> static std::enable_if<!std::is_arithmetic<T>::value &&!std:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | Value to check for null. |
+| obj | const T& | Value to check for null. |
 
 ### Return Value
 
 True if object is compared to nullptr as true, false otherwise.
 
-## TestTools::IsNull(const SharedPtr\<T\>\&) method
+## TestTools::IsNull(const SharedPtr\<T\>&) method
 
 
 Checks if specific value is null. [Version](../../version/) for non-arithmetic value types.
@@ -78,13 +78,13 @@ template<typename T> static bool System::TestTools::IsNull(const SharedPtr<T> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<T\>\& | Value to check for null. |
+| obj | const [SharedPtr](../../sharedptr/)\<T\>& | Value to check for null. |
 
 ### Return Value
 
 True if object is compared to nullptr as true, false otherwise.
 
-## TestTools::IsNull(System::Collections::Generic::KeyValuePair\<K, V\>\&) method
+## TestTools::IsNull(System::Collections::Generic::KeyValuePair\<K, V\>&) method
 
 
 Checks if specific value is null. [Version](../../version/) for key-value pairs.
@@ -105,13 +105,13 @@ template<typename K,typename V> static bool System::TestTools::IsNull(System::Co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kvp | [System::Collections::Generic::KeyValuePair](../../../system.collections.generic/keyvaluepair/)\<K, V\>\& | Pair object. |
+| kvp | [System::Collections::Generic::KeyValuePair](../../../system.collections.generic/keyvaluepair/)\<K, V\>& | Pair object. |
 
 ### Return Value
 
 True if pair is considered null, false otherwise.
 
-## TestTools::IsNull(const System::String\&) method
+## TestTools::IsNull(const System::String&) method
 
 
 Checks if string is null.
@@ -125,7 +125,7 @@ static bool System::TestTools::IsNull(const System::String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [System::String](../../string/)\& | [String](../../string/) to check. |
+| str | const [System::String](../../string/)& | [String](../../string/) to check. |
 
 ### Return Value
 

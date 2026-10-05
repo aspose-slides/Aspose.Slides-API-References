@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.imaging/framedimension/framedimension/
 ---
-## FrameDimension::FrameDimension(const System::Guid\&) constructor
+## FrameDimension::FrameDimension(const System::Guid&) constructor
 
 
 Constructs a new [FrameDimension](../) object and initializes it with the specified GUID.
@@ -20,7 +20,7 @@ System::Drawing::Imaging::FrameDimension::FrameDimension(const System::Guid &gui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| guid | const [System::Guid](../../../system/guid/)\& | A GUID to be associated with the object being created |
+| guid | const [System::Guid](../../../system/guid/)& | A GUID to be associated with the object being created |
 
 ## See Also
 

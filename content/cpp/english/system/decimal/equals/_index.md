@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system/decimal/equals/
 ---
-## Decimal::Equals(const Decimal\&) const method
+## Decimal::Equals(const Decimal&) const method
 
 
 Determines if the values represented by the current object and the specified object are equal.
@@ -20,13 +20,13 @@ bool System::Decimal::Equals(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object to compare the current object with |
+| d | const [Decimal](../)& | The [Decimal](../) object to compare the current object with |
 
 ### Return Value
 
 True if the value represented by the current and the specified objects are equal, otherwise - false
 
-## Decimal::Equals(const SharedPtr\<Object\>\&) const method
+## Decimal::Equals(const SharedPtr\<Object\>&) const method
 
 
 Determines if the values represented by the current object and the specified object are equal.
@@ -40,13 +40,13 @@ bool System::Decimal::Equals(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The object to compare the current object with |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The object to compare the current object with |
 
 ### Return Value
 
 True if the value represented by the current and the specified objects are equal, otherwise - false
 
-## Decimal::Equals(const Decimal\&, const Decimal\&) method
+## Decimal::Equals(const Decimal&, const Decimal&) method
 
 
 Determines if the values represented by the specified objects are equal.
@@ -60,8 +60,8 @@ static bool System::Decimal::Equals(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | The first comparand |
-| d2 | const [Decimal](../)\& | The second comparand |
+| d1 | const [Decimal](../)& | The first comparand |
+| d2 | const [Decimal](../)& | The second comparand |
 
 ### Return Value
 

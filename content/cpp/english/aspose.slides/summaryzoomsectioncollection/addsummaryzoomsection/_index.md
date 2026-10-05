@@ -25,6 +25,13 @@ System::SharedPtr<ISummaryZoomSection> Aspose::Slides::SummaryZoomSectionCollect
 ### Return Value
 
 Added [ISummaryZoomFrame](../../isummaryzoomframe/) element
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException ](../../../system/argumentexception/) | Referenced section does not belong to the current presentation or does not contains any slides. |
+
 ## Remarks
 
 

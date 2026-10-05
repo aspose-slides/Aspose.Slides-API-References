@@ -6,10 +6,10 @@ type: docs
 weight: 53
 url: /system.collections.generic/keyvaluepair/operator_less/
 ---
-## KeyValuePair::operator<(const KeyValuePair\&) const method
+## KeyValuePair::operator\<(const KeyValuePair&) const method
 
 
-Patch for classes inherited from IComparer<KeyValuePair<TKey, TValue>>, doesn't compare anything.
+Patch for classes inherited from IComparer\<KeyValuePair\<TKey, TValue\>\>, doesn't compare anything.
 
 ```cpp
 bool System::Collections::Generic::KeyValuePair<TKey, TValue>::operator<(const KeyValuePair &kvp) const
@@ -20,7 +20,7 @@ bool System::Collections::Generic::KeyValuePair<TKey, TValue>::operator<(const K
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| kvp | const [KeyValuePair](../)\& | Dummy argument. |
+| kvp | const [KeyValuePair](../)& | Dummy argument. |
 
 ### Return Value
 

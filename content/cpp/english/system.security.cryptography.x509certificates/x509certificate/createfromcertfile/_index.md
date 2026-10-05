@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.security.cryptography.x509certificates/x509certificate/createfromcertfile/
 ---
-## X509Certificate::CreateFromCertFile(const String\&) method
+## X509Certificate::CreateFromCertFile(const String&) method
 
 
 Creates sertificate from the specified PKCS7 file.
@@ -20,7 +20,7 @@ static SharedPtr<X509Certificate> System::Security::Cryptography::X509Certificat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | Certificate file name. |
+| filename | const [String](../../../system/string/)& | Certificate file name. |
 
 ### Return Value
 

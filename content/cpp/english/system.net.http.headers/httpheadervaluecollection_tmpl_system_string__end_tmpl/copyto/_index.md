@@ -1,12 +1,12 @@
 ---
 title: CopyTo()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HttpHeaderValueCollection< System::String >::CopyTo() method"
 type: docs
 weight: 118
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/copyto/
 ---
-## HttpHeaderValueCollection< System::String >::CopyTo(System::ArrayPtr\<String\>, int32_t) method
+## HttpHeaderValueCollection\< System::String \>::CopyTo(System::ArrayPtr\<String\>, int32_t) method
 
 
 
@@ -19,6 +19,6 @@ void System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::Copy
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

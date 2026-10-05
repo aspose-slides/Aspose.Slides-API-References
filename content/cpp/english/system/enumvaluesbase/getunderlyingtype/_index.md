@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/enumvaluesbase/getunderlyingtype/
 ---
-## EnumValuesBase::GetUnderlyingType(const TypeInfo\&) method
+## EnumValuesBase::GetUnderlyingType(const TypeInfo&) method
 
 
 Returns the underlying type of the specified enumeration.
@@ -20,7 +20,7 @@ static const System::TypeInfo & System::EnumValuesBase::GetUnderlyingType(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | The enumeration whose underlying type will be retrieved. |
+| type | const [TypeInfo](../../typeinfo/)& | The enumeration whose underlying type will be retrieved. |
 
 ### Return Value
 

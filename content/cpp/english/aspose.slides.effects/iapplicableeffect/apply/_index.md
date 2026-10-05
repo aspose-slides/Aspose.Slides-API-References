@@ -1,7 +1,7 @@
 ---
 title: Apply()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IApplicableEffect::Apply() method"
 type: docs
 weight: 1
 url: /aspose.slides.effects/iapplicableeffect/apply/

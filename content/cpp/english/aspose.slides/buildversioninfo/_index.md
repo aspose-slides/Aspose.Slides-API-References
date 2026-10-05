@@ -19,11 +19,11 @@ class BuildVersionInfo
 
 | Method | Description |
 | --- | --- |
-| static const [System::String](../../system/string/)\& [AssemblyVersion](./assemblyversion/)() | Version of [Aspose.Slides](../) assembly. |
+| static const [System::String](../../system/string/)& [AssemblyVersion](./assemblyversion/)() | Version of [Aspose.Slides](../) assembly. |
 |  [BuildVersionInfo](./buildversioninfo/)() |  |
-| static const [System::String](../../system/string/)\& [FileVersion](./fileversion/)() | Version of assembly file. |
-| static const [System::String](../../system/string/)\& [Product](./product/)() | Product name of [Aspose.Slides](../) |
-| static [System::DateTime](../../system/datetime/)\& [ReleaseDate](./releasedate/)() | Release date of the assembly. |
+| static const [System::String](../../system/string/)& [FileVersion](./fileversion/)() | Version of assembly file. |
+| static const [System::String](../../system/string/)& [Product](./product/)() | Product name of [Aspose.Slides](../) |
+| static [System::DateTime](../../system/datetime/)& [ReleaseDate](./releasedate/)() | Release date of the assembly. |
 ## Fields
 
 | Field | Description |

@@ -20,6 +20,13 @@ bool System::Xml::XmlTextReader::Read() override
 
 **true** if the next node was read successfully; **false** if there are no more nodes to read.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error occurred while parsing the XML. |
+
+
 ## See Also
 
 * Class [XmlTextReader](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlnamespacemanager/xmlnamespacemanager/
 ---
-## XmlNamespaceManager::XmlNamespaceManager(const SharedPtr\<XmlNameTable\>\&) constructor
+## XmlNamespaceManager::XmlNamespaceManager(const SharedPtr\<XmlNameTable\>&) constructor
 
 
 Initializes a new instance of the [XmlNamespaceManager](../) class with the specified [XmlNameTable](../../xmlnametable/).
@@ -20,7 +20,14 @@ System::Xml::XmlNamespaceManager::XmlNamespaceManager(const SharedPtr<XmlNameTab
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
+| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NullReferenceException | **nullptr** is passed to the constructor. |
+
 
 ## See Also
 

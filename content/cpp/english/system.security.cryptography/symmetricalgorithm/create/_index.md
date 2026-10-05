@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.security.cryptography/symmetricalgorithm/create/
 ---
-## SymmetricAlgorithm::Create(const String\&) method
+## SymmetricAlgorithm::Create(const String&) method
 
 
 Creates algorithm instance.
@@ -20,7 +20,7 @@ static SharedPtr<SymmetricAlgorithm> System::Security::Cryptography::SymmetricAl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algName | const [String](../../../system/string/)\& | Should be \"Rijndael\", \"TripleDES\" or \"RC2\". |
+| algName | const [String](../../../system/string/)& | Should be "Rijndael", "TripleDES" or "RC2". |
 
 ### Return Value
 

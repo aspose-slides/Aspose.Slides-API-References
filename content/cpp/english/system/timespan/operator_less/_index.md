@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system/timespan/operator_less/
 ---
-## TimeSpan::operator<(TimeSpan) const method
+## TimeSpan::operator\<(TimeSpan) const method
 
 
 Determines if the time interval represented by the current object is shorter than the time interval represented by the specified object.
@@ -26,7 +26,7 @@ constexpr bool System::TimeSpan::operator<(TimeSpan value) const
 
 True if the time interval represented by the current object is shorter than the time interval represented by **value**, otherwise - false
 
-## TimeSpan::operator<(std::nullptr_t) const method
+## TimeSpan::operator\<(std::nullptr_t) const method
 
 
 

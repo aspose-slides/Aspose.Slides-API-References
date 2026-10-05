@@ -15,7 +15,7 @@ Creates null smart pointer.
 System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPtr(std::nullptr_t=nullptr)
 ```
 
-## DynamicWeakPtr::DynamicWeakPtr(Pointee_ *) constructor
+## DynamicWeakPtr::DynamicWeakPtr(Pointee_ \*) constructor
 
 
 Creates smart pointer pointing to given object.
@@ -29,9 +29,9 @@ System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPtr(Pointee_ *object
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | [Pointee_](../../smartptr/pointee_/) * | Pointee. |
+| object | [Pointee_](../../smartptr/pointee_/) \* | Pointee. |
 
-## DynamicWeakPtr::DynamicWeakPtr(const SmartPtr_\&) constructor
+## DynamicWeakPtr::DynamicWeakPtr(const SmartPtr_&) constructor
 
 
 Copy-constructs smart pointer.
@@ -45,9 +45,9 @@ System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPtr(const SmartPtr_ 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | const [SmartPtr_](../smartptr_/)\& | Smart pointer to copy pointee information from. |
+| ptr | const [SmartPtr_](../smartptr_/)& | Smart pointer to copy pointee information from. |
 
-## DynamicWeakPtr::DynamicWeakPtr(const SmartPtr\<Q\>\&) constructor
+## DynamicWeakPtr::DynamicWeakPtr(const SmartPtr\<Q\>&) constructor
 
 
 Copy-constructs smart pointer.
@@ -67,9 +67,9 @@ template<class Q> System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr](../../smartptr/)\<Q\>\& | Smart pointer to copy pointee information from. |
+| x | const [SmartPtr](../../smartptr/)\<Q\>& | Smart pointer to copy pointee information from. |
 
-## DynamicWeakPtr::DynamicWeakPtr(const DynamicWeakPtr_\&) constructor
+## DynamicWeakPtr::DynamicWeakPtr(const DynamicWeakPtr_&) constructor
 
 
 Copy-constructs smart pointer.
@@ -83,9 +83,9 @@ System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPtr(const DynamicWea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | const [DynamicWeakPtr_](../dynamicweakptr_/)\& | Smart pointer to copy pointee information from. |
+| ptr | const [DynamicWeakPtr_](../dynamicweakptr_/)& | Smart pointer to copy pointee information from. |
 
-## DynamicWeakPtr::DynamicWeakPtr(SmartPtr_\&&) constructor
+## DynamicWeakPtr::DynamicWeakPtr(SmartPtr_&&) constructor
 
 
 Move-constructs smart pointer.
@@ -99,7 +99,7 @@ System::DynamicWeakPtr<T, trunkMode, weakLeafs>::DynamicWeakPtr(SmartPtr_ &&x)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr_](../smartptr_/)\&& | Smart pointer to move pointee information from. Becomes unusable after call. |
+| x | [SmartPtr_](../smartptr_/)&& | Smart pointer to move pointee information from. Becomes unusable after call. |
 
 ## See Also
 

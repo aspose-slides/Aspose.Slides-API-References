@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/decimal/operator_minus/
 ---
-## Decimal::operator-(const Decimal\&) const method
+## Decimal::operator-(const Decimal&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is the result of subtraction of the value represented by the specified object from the value represented by the current object.
@@ -20,7 +20,7 @@ Decimal System::Decimal::operator-(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object representing the value to subtract |
+| d | const [Decimal](../)& | The [Decimal](../) object representing the value to subtract |
 
 ### Return Value
 

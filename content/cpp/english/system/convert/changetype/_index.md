@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/convert/changetype/
 ---
-## Convert::ChangeType(const SharedPtr\<Object\>\&, const TypeInfo\&) method
+## Convert::ChangeType(const SharedPtr\<Object\>&, const TypeInfo&) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ static SharedPtr<Object> System::Convert::ChangeType(const SharedPtr<Object> &va
 ```
 
 
-## Convert::ChangeType(const SharedPtr\<Object\>\&, const TypeInfo\&, const SharedPtr\<IFormatProvider\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Convert::ChangeType(const SharedPtr\<Object\>&, const TypeInfo&, const SharedPtr\<IFormatProvider\>&) method
 
 
 

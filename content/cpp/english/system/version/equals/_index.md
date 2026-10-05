@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system/version/equals/
 ---
-## Version::Equals(const Version\&) const method
+## Version::Equals(const Version&) const method
 
 
 Determines if the version numbers represented by the current and the specified objects are equal.
@@ -20,7 +20,7 @@ bool System::Version::Equals(const Version &ver) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ver | const [Version](../)\& | A [Version](../) object to compare the current object with |
+| ver | const [Version](../)& | A [Version](../) object to compare the current object with |
 
 ### Return Value
 

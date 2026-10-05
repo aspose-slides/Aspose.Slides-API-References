@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing.drawing2d/pathgradientbrush/multiplytransform/
 ---
-## PathGradientBrush::MultiplyTransform(const SharedPtr\<Matrix\>\&, MatrixOrder) method
+## PathGradientBrush::MultiplyTransform(const SharedPtr\<Matrix\>&, MatrixOrder) method
 
 
 Multiplies current object's transform matrix by the specified matrix.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathGradientBrush::MultiplyTransform(const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>\& | The matrix by which the current object's transform matrix is multiplied |
+| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>& | The matrix by which the current object's transform matrix is multiplied |
 | order | [MatrixOrder](../../matrixorder/) | Specifies the order of the operation |
 
 ## See Also

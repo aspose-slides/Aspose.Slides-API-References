@@ -89,6 +89,13 @@ Aspose::Slides::Presentation::Presentation(System::String file)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | [System::String](../../../system/string/) | Input file. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file has zero length |
+
 ## Remarks
 
 
@@ -114,6 +121,13 @@ Aspose::Slides::Presentation::Presentation(System::String file, System::SharedPt
 | --- | --- | --- |
 | file | [System::String](../../../system/string/) | Input file. |
 | loadOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\> | Additional load options. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file has zero length |
+
 
 ## See Also
 

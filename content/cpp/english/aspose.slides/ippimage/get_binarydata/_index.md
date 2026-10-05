@@ -9,7 +9,7 @@ url: /aspose.slides/ippimage/get_binarydata/
 ## IPPImage::get_BinaryData() method
 
 
-Returns the copy of an image's data. Read-only **uint8_t**[].
+Returns the copy of an image's data. Read-only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::IPPImage::get_BinaryData()=0

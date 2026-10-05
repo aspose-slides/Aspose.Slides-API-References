@@ -50,7 +50,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>&, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -64,7 +64,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | size | **int32_t** | The number of bytes to receive. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
 
@@ -114,7 +114,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, SocketFlags) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>&, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -128,7 +128,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
 
 ### Return Value
@@ -175,7 +175,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -189,7 +189,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 
 ### Return Value
 
@@ -241,7 +241,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -255,7 +255,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
@@ -264,7 +264,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## Socket::Receive(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -282,13 +282,13 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer, 
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the receive operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the receive operation fails. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -306,13 +306,13 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the receive operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the receive operation fails. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, SocketError\&) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t, SocketFlags, SocketError&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -326,11 +326,11 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the receive operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the receive operation fails. |
 
 ### Return Value
 
@@ -377,7 +377,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::SharedPtr<Collections::Gen
 
 The number of received bytes.
 
-## Socket::Receive(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags, SocketError\&) method
+## Socket::Receive(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags, SocketError&) method
 
 
 Receives data from the socket and writes it to the specified byte arrays.
@@ -393,7 +393,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::SharedPtr<Collections::Gen
 | --- | --- | --- |
 | buffers | [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\> | The byte arrays where the received data will be assigned. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behaviour. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the receive operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the receive operation fails. |
 
 ### Return Value
 

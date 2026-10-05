@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.memoryextensions.details/sequenceequalimpl/
 ---
-## System::MemoryExtensions::Details::SequenceEqualImpl(const ReadOnlySpan\<T\>\&, const int32_t, int32_t, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::Details::SequenceEqualImpl(const ReadOnlySpan\<T\>&, const int32_t, int32_t, const ReadOnlySpan\<T\>&) function
 
 
 Checks if two spans are equal starting from specified positions.
@@ -26,10 +26,10 @@ template<typename T> bool System::MemoryExtensions::Details::SequenceEqualImpl(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | First span |
+| first | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | First span |
 | start | const **int32_t** | Starting index in first span |
 | length | **int32_t** | Number of elements to compare |
-| second | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | Second span |
+| second | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | Second span |
 
 ### Return Value
 

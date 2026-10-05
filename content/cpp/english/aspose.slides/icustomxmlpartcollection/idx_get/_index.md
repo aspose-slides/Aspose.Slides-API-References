@@ -26,6 +26,13 @@ virtual System::SharedPtr<ICustomXmlPart> Aspose::Slides::ICustomXmlPartCollecti
 
 The element at the specified index.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | index is less than 0.-or-index is equal to or greater than Count |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

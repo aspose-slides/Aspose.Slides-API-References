@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.serialization/iformatterconverter/convert/
 ---
-## IFormatterConverter::Convert(System::SharedPtr\<Object\>, const TypeInfo\&) method
+## IFormatterConverter::Convert(System::SharedPtr\<Object\>, const TypeInfo&) method
 
 
 RTTI information.
@@ -21,7 +21,7 @@ virtual System::SharedPtr<Object> System::Runtime::Serialization::IFormatterConv
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The object to be converted. |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | The [System::TypeInfo](../../../system/typeinfo/) into which value is to be converted. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | The [System::TypeInfo](../../../system/typeinfo/) into which value is to be converted. |
 
 ### Return Value
 

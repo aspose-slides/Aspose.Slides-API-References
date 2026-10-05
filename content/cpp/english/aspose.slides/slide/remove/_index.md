@@ -16,6 +16,13 @@ void Aspose::Slides::Slide::Remove() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if slide is already removed from presentation. |
+
+
 ## See Also
 
 * Class [Slide](../)

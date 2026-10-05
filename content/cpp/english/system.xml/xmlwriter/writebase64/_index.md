@@ -24,6 +24,14 @@ virtual void System::Xml::XmlWriter::WriteBase64(ArrayPtr<uint8_t> buffer, int32
 | index | **int32_t** | The position in the buffer indicating the start of the bytes to write. |
 | count | **int32_t** | The number of bytes to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **buffer** is **nullptr**. |
+| ArgumentOutOfRangeException | **index** or **count** is less than zero. or The buffer length minus **index** is less than **count**. |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

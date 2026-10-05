@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/readonlyspan/to_readonlyspan/
 ---
-## ReadOnlySpan::to_ReadOnlySpan(const typename BaseType::ArrayPtrT\&) method
+## ReadOnlySpan::to_ReadOnlySpan(const typename BaseType::ArrayPtrT&) method
 
 
 Converts an array to a [ReadOnlySpan](../).
@@ -20,7 +20,7 @@ static ThisType System::ReadOnlySpan<T>::to_ReadOnlySpan(const typename BaseType
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const typename BaseType::ArrayPtrT\& | The array to convert. |
+| array | const typename BaseType::ArrayPtrT& | The array to convert. |
 
 ### Return Value
 

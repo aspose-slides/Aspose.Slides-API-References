@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.componentmodel/typeconverter/converttoinvariantstring/
 ---
-## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<System::Object\>\&) method
+## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<System::Object\>&) method
 
 
 Converts object to invariant string.
@@ -20,13 +20,13 @@ System::String System::ComponentModel::TypeConverter::ConvertToInvariantString(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
 
 ### Return Value
 
 Converted object.
 
-## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Object\>\&) method
+## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::SharedPtr\<System::Object\>&) method
 
 
 Converts object to invariant string.
@@ -40,8 +40,8 @@ System::String System::ComponentModel::TypeConverter::ConvertToInvariantString(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
 
 ### Return Value
 

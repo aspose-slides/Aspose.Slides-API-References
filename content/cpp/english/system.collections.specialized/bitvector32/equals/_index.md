@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.specialized/bitvector32/equals/
 ---
-## BitVector32::Equals(const BitVector32\&) method
+## BitVector32::Equals(const BitVector32&) method
 
 
 Determines whether the specified object is the same as the current.
@@ -20,7 +20,7 @@ bool System::Collections::Specialized::BitVector32::Equals(const BitVector32 &ob
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [BitVector32](../)\& | object to be compared |
+| obj | const [BitVector32](../)& | object to be compared |
 
 ### Return Value
 

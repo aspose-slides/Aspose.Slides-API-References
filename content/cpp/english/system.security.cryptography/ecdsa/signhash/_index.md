@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.security.cryptography/ecdsa/signhash/
 ---
-## ECDsa::SignHash(const ByteArrayPtr\&) method
+## ECDsa::SignHash(const ByteArrayPtr&) method
 
 
 Computes the signature of specified input value.
@@ -20,7 +20,7 @@ virtual ByteArrayPtr System::Security::Cryptography::ECDsa::SignHash(const ByteA
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash value of data to be signed. |
+| hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash value of data to be signed. |
 
 ### Return Value
 

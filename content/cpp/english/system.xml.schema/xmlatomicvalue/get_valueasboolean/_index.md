@@ -20,6 +20,14 @@ bool System::Xml::Schema::XmlAtomicValue::get_ValueAsBoolean() override
 
 The validated XML element or attribute's value as a [Boolean](../../../system/boolean/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The validated XML element or attribute's value is not in the correct format for the [Boolean](../../../system/boolean/) type. |
+| InvalidCastException | The attempted cast to [Boolean](../../../system/boolean/) is not valid. |
+
+
 ## See Also
 
 * Class [XmlAtomicValue](../)

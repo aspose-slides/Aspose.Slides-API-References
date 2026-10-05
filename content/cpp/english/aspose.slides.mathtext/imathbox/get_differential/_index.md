@@ -1,7 +1,7 @@
 ---
 title: get_Differential()
 second_title: Aspose.Slides for C++ API Reference
-description: "Differential. When true, the box acts as a differential (e.g., \\uD835\\uDC51\\uD835\\uDC65 in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false"
+description: "Differential. When true, the box acts as a differential (e.g., 𝑑𝑥 in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false"
 type: docs
 weight: 66
 url: /aspose.slides.mathtext/imathbox/get_differential/
@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/imathbox/get_differential/
 ## IMathBox::get_Differential() method
 
 
-Differential. When true, the box acts as a differential (e.g., \\uD835\\uDC51\\uD835\\uDC65 in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false
+Differential. When true, the box acts as a differential (e.g., 𝑑𝑥 in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false
 
 ```cpp
 virtual bool Aspose::Slides::MathText::IMathBox::get_Differential()=0

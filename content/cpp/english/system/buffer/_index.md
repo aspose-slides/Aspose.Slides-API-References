@@ -19,24 +19,24 @@ class Buffer
 
 | Method | Description |
 | --- | --- |
-| static void [BlockCopy](./blockcopy/)(const **uint8_t** *, int, **uint8_t** *, int, int) | Copies a specified number of bytes from source buffer to destination buffer. |
-| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>\&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>\&, int, const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>\&, int, int) | Interprets two specified arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>\&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const System::Details::StackArray\<TSrc, NS\>\&, int, const System::Details::StackArray\<TDst, ND\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>\&, int, const System::Details::StackArray\<TDst, ND\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static void [BlockCopy](./blockcopy/)(const System::Details::StackArray\<TSrc, NS\>\&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
-| static int [ByteLength](./bytelength/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>\&) | Determines the number of bytes occupied by all elements of the specified array. |
-| static int [ByteLength](./bytelength/)(const System::Details::ArrayView\<T\>\&) | Determines the number of bytes occupied by all elements of the specified array. |
-| static int [ByteLength](./bytelength/)(const System::Details::StackArray\<T, N\>\&) | Determines the number of bytes occupied by all elements of the specified array. |
-| static **uint8_t** [GetByte](./getbyte/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>\&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
-| static **uint8_t** [GetByte](./getbyte/)(const System::Details::ArrayView\<T\>\&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
-| static **uint8_t** [GetByte](./getbyte/)(const System::Details::StackArray\<T, N\>\&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
-| static void [SetByte](./setbyte/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>\&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
-| static void [SetByte](./setbyte/)(const System::Details::ArrayView\<T\>\&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
-| static void [SetByte](./setbyte/)(const System::Details::StackArray\<T, N\>\&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
+| static void [BlockCopy](./blockcopy/)(const **uint8_t** \*, int, **uint8_t** \*, int, int) | Copies a specified number of bytes from source buffer to destination buffer. |
+| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>&, int, const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>&, int, int) | Interprets two specified arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>&, int, const System::Details::ArrayView\<TDst\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>&, int, const System::Details::ArrayView\<TDst\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const System::Details::StackArray\<TSrc, NS\>&, int, const System::Details::StackArray\<TDst, ND\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>&, int, const System::Details::StackArray\<TDst, ND\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const System::Details::StackArray\<TSrc, NS\>&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static int [ByteLength](./bytelength/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>&) | Determines the number of bytes occupied by all elements of the specified array. |
+| static int [ByteLength](./bytelength/)(const System::Details::ArrayView\<T\>&) | Determines the number of bytes occupied by all elements of the specified array. |
+| static int [ByteLength](./bytelength/)(const System::Details::StackArray\<T, N\>&) | Determines the number of bytes occupied by all elements of the specified array. |
+| static **uint8_t** [GetByte](./getbyte/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
+| static **uint8_t** [GetByte](./getbyte/)(const System::Details::ArrayView\<T\>&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
+| static **uint8_t** [GetByte](./getbyte/)(const System::Details::StackArray\<T, N\>&, int) | Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset. |
+| static void [SetByte](./setbyte/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<T\>\>&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
+| static void [SetByte](./setbyte/)(const System::Details::ArrayView\<T\>&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
+| static void [SetByte](./setbyte/)(const System::Details::StackArray\<T, N\>&, int, **uint8_t**) | Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset. |
 ## Remarks
 
 

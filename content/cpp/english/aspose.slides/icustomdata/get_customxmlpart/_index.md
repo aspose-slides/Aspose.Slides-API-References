@@ -16,6 +16,13 @@ virtual System::SharedPtr<ICustomXmlPart> Aspose::Slides::ICustomData::get_Custo
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Index is less than 0 or index is equal or great than length of [get_CustomXmlParts()](../get_customxmlparts/) |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

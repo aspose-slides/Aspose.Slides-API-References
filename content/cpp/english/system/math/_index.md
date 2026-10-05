@@ -20,20 +20,20 @@ class Math
 | Method | Description |
 | --- | --- |
 | static T [Abs](./abs/)(T) | Returns the absolute value of the specified value. |
-| static [Decimal](../decimal/) [Abs](./abs/)(const [Decimal](../decimal/)\&) | Returns the absolute value of a value represented by the specified [Decimal](../decimal/) object. |
+| static [Decimal](../decimal/) [Abs](./abs/)(const [Decimal](../decimal/)&) | Returns the absolute value of a value represented by the specified [Decimal](../decimal/) object. |
 | static **double** [Acos](./acos/)(**double**) | Calculates the arccosine of the specified value. |
 | static **double** [Asin](./asin/)(**double**) | Calculates the arcsin of the specified value. |
 | static **double** [Atan](./atan/)(**double**) | Calculates the arctan of the specified value. |
 | static **double** [Atan2](./atan2/)(**double**, **double**) | Calculates the arctan of the ration of the specified values. |
 | static **int64_t** [BigMul](./bigmul/)(int, int) | Returns the full product of two 32-bit integers. |
-| static [Decimal](../decimal/) [Ceiling](./ceiling/)(const [Decimal](../decimal/)\&) | Returns the smallest integral value that is greater than or equal to the specified value. |
+| static [Decimal](../decimal/) [Ceiling](./ceiling/)(const [Decimal](../decimal/)&) | Returns the smallest integral value that is greater than or equal to the specified value. |
 | static **double** [Ceiling](./ceiling/)(**double**) | Returns the smallest integral value that is greater than or equal to the specified value. |
 | static **double** [Cos](./cos/)(**double**) | Calculates the cosine of the specified value. |
 | static **double** [Cosh](./cosh/)(**double**) | Calculates the hyperbolic cosine of the specified value. |
-| static int [DivRem](./divrem/)(int, int, int\&) | Calculates the quotient of two 32-bit integers and the remainder. |
-| static **int64_t** [DivRem](./divrem/)(**int64_t**, **int64_t**, **int64_t**\&) | Calculates the quotient of two 64-bit integers and the remainder. |
+| static int [DivRem](./divrem/)(int, int, int&) | Calculates the quotient of two 32-bit integers and the remainder. |
+| static **int64_t** [DivRem](./divrem/)(**int64_t**, **int64_t**, **int64_t**&) | Calculates the quotient of two 64-bit integers and the remainder. |
 | static **double** [Exp](./exp/)(**double**) | Returns e constant raised to the specified power. |
-| static [Decimal](../decimal/) [Floor](./floor/)(const [Decimal](../decimal/)\&) | Returns the largest integral value that is less than or equal to the specified value. |
+| static [Decimal](../decimal/) [Floor](./floor/)(const [Decimal](../decimal/)&) | Returns the largest integral value that is less than or equal to the specified value. |
 | static **double** [Floor](./floor/)(**double**) | Returns the largest integral value that is less than or equal to the specified value. |
 | static **double** [IEEERemainder](./ieeeremainder/)(**double**, **double**) | Returns the remainder resulting from the division of a specified number by another specified number. |
 | static **double** [Log](./log/)(**double**) | Returns the natural logarithm of the specified value. |
@@ -53,19 +53,19 @@ class Math
 | static **double** [Round](./round/)(**double**, int) | Rounds the specified value to the nearest value with the specified number of fractional digits. |
 | static **double** [Round](./round/)(**double**, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
 | static **double** [Round](./round/)(**double**, int, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
-| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)\&) | Rounds the specified value to the nearest integral value. |
-| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)\&, int) | Rounds the specified value to the nearest value with the specified number of fractional digits. |
-| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)\&, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
-| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)\&, int, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
-| static std::enable_if\<std::is_integral\<T\>::value\&&\!std::is_unsigned\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified signed integral value. |
+| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)&) | Rounds the specified value to the nearest integral value. |
+| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)&, int) | Rounds the specified value to the nearest value with the specified number of fractional digits. |
+| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)&, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
+| static [Decimal](../decimal/) [Round](./round/)(const [Decimal](../decimal/)&, int, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
+| static std::enable_if\<std::is_integral\<T\>::value&&!std::is_unsigned\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified signed integral value. |
 | static std::enable_if\<std::is_floating_point\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified floating-point value. |
-| static int [Sign](./sign/)(const [Decimal](../decimal/)\&) | Determines the sign of the specified decimal value. |
+| static int [Sign](./sign/)(const [Decimal](../decimal/)&) | Determines the sign of the specified decimal value. |
 | static **double** [Sin](./sin/)(**double**) | Calculates the sine of the specified value. |
 | static **double** [Sinh](./sinh/)(**double**) | Calculates the hyperbolic sine of the specified value. |
 | static **double** [Sqrt](./sqrt/)(**double**) | Returns the square root of the specified value. |
 | static **double** [Tan](./tan/)(**double**) | Calculates the tangen of the specified value. |
 | static **double** [Tanh](./tanh/)(**double**) | Calculates the hyperbolic tangen of the specified value. |
-| static [Decimal](../decimal/) [Truncate](./truncate/)(const [Decimal](../decimal/)\&) | Returns the [Decimal](../decimal/) object representing a value that has integral part equal to that of the value represented by the specified [Decimal](../decimal/) object of the with all fractional digits discarded. |
+| static [Decimal](../decimal/) [Truncate](./truncate/)(const [Decimal](../decimal/)&) | Returns the [Decimal](../decimal/) object representing a value that has integral part equal to that of the value represented by the specified [Decimal](../decimal/) object of the with all fractional digits discarded. |
 | static **double** [Truncate](./truncate/)(**double**) | Returns a double-precision floating point value that has integral part equal to that of the specified value with all fractional digits discarded. |
 ## Fields
 

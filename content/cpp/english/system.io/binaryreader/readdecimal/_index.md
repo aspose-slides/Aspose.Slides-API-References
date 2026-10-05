@@ -16,6 +16,13 @@ virtual Decimal System::IO::BinaryReader::ReadDecimal()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | always |
+
+
 ## See Also
 
 * Class [Decimal](../../../system/decimal/)

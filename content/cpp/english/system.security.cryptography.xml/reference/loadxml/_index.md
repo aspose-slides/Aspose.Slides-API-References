@@ -1,7 +1,7 @@
 ---
 title: LoadXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::LoadXml() method"
 type: docs
 weight: 183
 url: /system.security.cryptography.xml/reference/loadxml/

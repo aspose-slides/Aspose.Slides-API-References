@@ -1,7 +1,7 @@
 ---
 title: SetHandler
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SetHandler typedef
 type: docs
 weight: 27
 url: /aspose.slides/pviproperty/sethandler/

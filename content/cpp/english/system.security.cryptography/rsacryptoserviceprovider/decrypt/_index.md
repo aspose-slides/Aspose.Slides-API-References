@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.security.cryptography/rsacryptoserviceprovider/decrypt/
 ---
-## RSACryptoServiceProvider::Decrypt(const ByteArrayPtr\&, bool) method
+## RSACryptoServiceProvider::Decrypt(const ByteArrayPtr&, bool) method
 
 
 Decrypts message. Not implemented.
@@ -20,7 +20,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::Decrypt(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Data](../../../system.data/) to decrypt. |
+| rgb | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Data](../../../system.data/) to decrypt. |
 | use_oaep | **bool** | True to use OAEP padding, false to use PKCS#1 v1.5 padding. |
 
 ### Return Value

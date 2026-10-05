@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.io/file/setcreationtime/
 ---
-## File::SetCreationTime(const String\&, DateTime) method
+## File::SetCreationTime(const String&, DateTime) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 static void System::IO::File::SetCreationTime(const String &path, DateTime creationTime)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

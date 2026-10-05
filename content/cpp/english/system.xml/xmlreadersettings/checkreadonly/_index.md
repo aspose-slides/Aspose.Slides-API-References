@@ -1,12 +1,12 @@
 ---
 title: CheckReadOnly()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlReaderSettings::CheckReadOnly() method"
 type: docs
 weight: 495
 url: /system.xml/xmlreadersettings/checkreadonly/
 ---
-## XmlReaderSettings::CheckReadOnly(const String\&) method
+## XmlReaderSettings::CheckReadOnly(const String&) method
 
 
 

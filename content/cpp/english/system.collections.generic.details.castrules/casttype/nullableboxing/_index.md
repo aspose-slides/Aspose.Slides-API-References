@@ -1,7 +1,7 @@
 ---
 title: NullableBoxing
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: NullableBoxing field
 type: docs
 weight: 40
 url: /system.collections.generic.details.castrules/casttype/nullableboxing/

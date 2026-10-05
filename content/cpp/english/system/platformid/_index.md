@@ -20,9 +20,9 @@ enum class PlatformID
 | Name | Value | Description |
 | --- | --- | --- |
 | Win32S | 0 | Win32S layer. |
-| Win32Windows | 1 | [Windows](../../system.windows/) 95 or [Windows](../../system.windows/) 98. |
-| Win32NT | 2 | [Windows](../../system.windows/) NT or later. |
-| WinCE | 3 | [Windows](../../system.windows/) CE. |
+| Win32Windows | 1 | Windows 95 or Windows 98. |
+| Win32NT | 2 | Windows NT or later. |
+| WinCE | 3 | Windows CE. |
 | Unix | 4 | Unix. |
 | Xbox | 5 | Xbox. |
 | MacOSX | 6 | Macintosh. |

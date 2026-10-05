@@ -15,7 +15,7 @@ Default constructor.
 System::Security::Cryptography::Oid::Oid()
 ```
 
-## Oid::Oid(const SharedPtr\<Oid\>\&) constructor
+## Oid::Oid(const SharedPtr\<Oid\>&) constructor
 
 
 Copy constructor.
@@ -29,9 +29,9 @@ System::Security::Cryptography::Oid::Oid(const SharedPtr<Oid> &oid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../)\>\& | Identifier to copy data from. |
+| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../)\>& | Identifier to copy data from. |
 
-## Oid::Oid(const String\&) constructor
+## Oid::Oid(const String&) constructor
 
 
 Constructor.
@@ -45,9 +45,9 @@ System::Security::Cryptography::Oid::Oid(const String &oid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [String](../../../system/string/)\& | [String](../../../system/string/) value of object identifier. |
+| oid | const [String](../../../system/string/)& | [String](../../../system/string/) value of object identifier. |
 
-## Oid::Oid(const String\&, const String\&) constructor
+## Oid::Oid(const String&, const String&) constructor
 
 
 Constructor.
@@ -61,8 +61,8 @@ System::Security::Cryptography::Oid::Oid(const String &value, const String &frie
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [String](../../../system/string/) value of object identifier. |
-| friendly_name | const [String](../../../system/string/)\& | User-friendly object name. |
+| value | const [String](../../../system/string/)& | [String](../../../system/string/) value of object identifier. |
+| friendly_name | const [String](../../../system/string/)& | User-friendly object name. |
 
 ## See Also
 

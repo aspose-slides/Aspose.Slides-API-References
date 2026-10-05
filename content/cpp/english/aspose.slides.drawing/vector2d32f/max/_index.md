@@ -1,7 +1,7 @@
 ---
 title: Max()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Vector2d32f::Max() method"
 type: docs
 weight: 118
 url: /aspose.slides.drawing/vector2d32f/max/

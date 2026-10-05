@@ -22,6 +22,13 @@ void Aspose::Slides::Charts::ChartCategoryCollection::Remove(System::SharedPtr<I
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[IChartCategory](../../ichartcategory/)\> | The value. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException ](../../../system/argumentexception/) | The value parameter was not found in the collection. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

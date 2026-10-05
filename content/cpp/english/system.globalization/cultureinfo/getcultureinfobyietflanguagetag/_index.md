@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /system.globalization/cultureinfo/getcultureinfobyietflanguagetag/
 ---
-## CultureInfo::GetCultureInfoByIetfLanguageTag(const String\&) method
+## CultureInfo::GetCultureInfoByIetfLanguageTag(const String&) method
 
 
 Deprecated. Gets a read-only [CultureInfo](../) object by the specified RFC 4646 language tag.
@@ -20,7 +20,7 @@ static CultureInfoPtr System::Globalization::CultureInfo::GetCultureInfoByIetfLa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Name of a language. |
+| name | const [String](../../../system/string/)& | Name of a language. |
 
 ### Return Value
 

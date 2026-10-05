@@ -1,7 +1,7 @@
 ---
 title: get_DarkOliveGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF556B2F.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF556B2F."
 type: docs
 weight: 378
 url: /system.drawing/pens/get_darkolivegreen/

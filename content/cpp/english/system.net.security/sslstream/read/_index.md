@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.net.security/sslstream/read/
 ---
-## SslStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## SslStream::Read(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -20,7 +20,7 @@ int32_t System::Net::Security::SslStream::Read(const ArrayPtr<uint8_t> &buffer, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array to write the read bytes to |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 
@@ -28,7 +28,7 @@ int32_t System::Net::Security::SslStream::Read(const ArrayPtr<uint8_t> &buffer, 
 
 The number of bytes read
 
-## SslStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## SslStream::Read(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -42,7 +42,7 @@ int32_t System::Net::Security::SslStream::Read(const System::Details::ArrayView<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | The byte array to write the read bytes to |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | The byte array to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 

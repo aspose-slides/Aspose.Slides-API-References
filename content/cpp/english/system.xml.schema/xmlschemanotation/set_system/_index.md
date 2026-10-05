@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemanotation/set_system/
 ---
-## XmlSchemaNotation::set_System(const String\&) method
+## XmlSchemaNotation::set_System(const String&) method
 
 
 Sets the **system** identifier.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaNotation::set_System(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

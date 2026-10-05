@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing.drawing2d/lineargradientbrush/set_transform/
 ---
-## LinearGradientBrush::set_Transform(const SharedPtr\<Matrix\>\&) method
+## LinearGradientBrush::set_Transform(const SharedPtr\<Matrix\>&) method
 
 
 Sets a [Matrix](../../matrix/) object that specifies the geometrical transformations for the brush represented by the current object.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::LinearGradientBrush::set_Transform(const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>\& | The value to set |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>& | The value to set |
 
 ## See Also
 

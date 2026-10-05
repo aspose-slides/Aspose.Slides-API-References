@@ -19,7 +19,7 @@ class GlobalizationExtensions
 
 | Method | Description |
 | --- | --- |
-| static [StringComparerPtr](../../system/stringcomparerptr/) [GetStringComparer](./getstringcomparer/)(const [CompareInfoPtr](../compareinfoptr/)\&, [CompareOptions](../compareoptions/)) | Gets [StringComparer](../../system/stringcomparer/) object for the specified [CompareInfo](../compareinfo/) object and specified string comparison rules. |
+| static [StringComparerPtr](../../system/stringcomparerptr/) [GetStringComparer](./getstringcomparer/)(const [CompareInfoPtr](../compareinfoptr/)&, [CompareOptions](../compareoptions/)) | Gets [StringComparer](../../system/stringcomparer/) object for the specified [CompareInfo](../compareinfo/) object and specified string comparison rules. |
 ## See Also
 
 * Namespace [System::Globalization](../)

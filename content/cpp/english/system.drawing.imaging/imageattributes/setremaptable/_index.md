@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.drawing.imaging/imageattributes/setremaptable/
 ---
-## ImageAttributes::SetRemapTable(const ArrayPtr\<SharedPtr\<ColorMap\>\>\&, ColorAdjustType) method
+## ImageAttributes::SetRemapTable(const ArrayPtr\<SharedPtr\<ColorMap\>\>&, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Imaging::ImageAttributes::SetRemapTable(const ArrayPtr<SharedPtr<ColorMap>> &map, ColorAdjustType type=ColorAdjustType::Default)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

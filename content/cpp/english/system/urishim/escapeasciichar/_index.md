@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/urishim/escapeasciichar/
 ---
-## UriShim::EscapeAsciiChar(char16_t, const System::ArrayPtr\<char16_t\>\&, int32_t\&) method
+## UriShim::EscapeAsciiChar(char16_t, const System::ArrayPtr\<char16_t\>&, int32_t&) method
 
 
 Converts character to escaped hex form.
@@ -21,8 +21,8 @@ static void System::UriShim::EscapeAsciiChar(char16_t ch, const System::ArrayPtr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ch | char16_t | Character to convert. |
-| to | const [System::ArrayPtr](../../arrayptr/)\<char16_t\>\& | Output buffer. |
-| pos | **int32_t**\& | Position in output buffer; gets advanced after encoding. |
+| to | const [System::ArrayPtr](../../arrayptr/)\<char16_t\>& | Output buffer. |
+| pos | **int32_t**& | Position in output buffer; gets advanced after encoding. |
 
 ## See Also
 

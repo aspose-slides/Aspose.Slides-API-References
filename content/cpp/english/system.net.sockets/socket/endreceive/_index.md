@@ -26,7 +26,7 @@ int32_t System::Net::Sockets::Socket::EndReceive(System::SharedPtr<IAsyncResult>
 
 The number of bytes that are received.
 
-## Socket::EndReceive(System::SharedPtr\<IAsyncResult\>, SocketError\&) method
+## Socket::EndReceive(System::SharedPtr\<IAsyncResult\>, SocketError&) method
 
 
 Waits until the specified asynchronous receive operation completes.
@@ -41,7 +41,7 @@ int32_t System::Net::Sockets::Socket::EndReceive(System::SharedPtr<IAsyncResult>
 | Parameter | Type | Description |
 | --- | --- | --- |
 | asyncResult | [System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\> | An [IAsyncResult](../../../system/iasyncresult/) object that represents an asynchronous receive operation. |
-| errorCode | [SocketError](../../socketerror/)\& | The output parameter where the error code will be assigned when the receive operation fails. |
+| errorCode | [SocketError](../../socketerror/)& | The output parameter where the error code will be assigned when the receive operation fails. |
 
 ### Return Value
 

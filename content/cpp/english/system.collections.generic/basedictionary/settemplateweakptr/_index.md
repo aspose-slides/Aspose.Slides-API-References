@@ -1,7 +1,7 @@
 ---
 title: SetTemplateWeakPtr()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "BaseDictionary::SetTemplateWeakPtr() method"
 type: docs
 weight: 1
 url: /system.collections.generic/basedictionary/settemplateweakptr/

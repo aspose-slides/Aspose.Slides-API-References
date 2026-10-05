@@ -105,7 +105,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(double value)
 ```
 
-## Convert::ToChar(const Decimal\&) method
+## Convert::ToChar(const Decimal&) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -132,7 +132,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(DateTime value)
 ```
 
-## Convert::ToChar(const char_t *) method
+## Convert::ToChar(const char_t \*) method
 
 
 Converts the first and the only character of the specified c-string to a char_t value.
@@ -146,13 +146,13 @@ static char_t System::Convert::ToChar(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert; it is expected that the c-string be exactly 1 character long. |
+| value | const char_t \* | The c-string to convert; it is expected that the c-string be exactly 1 character long. |
 
 ### Return Value
 
 The first and the only character of the specified c-string if it is exactly 1 characetr long, otherwise - 0
 
-## Convert::ToChar(const String\&) method
+## Convert::ToChar(const String&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.
@@ -166,13 +166,13 @@ static char_t System::Convert::ToChar(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert; it is expected that the string be exactly 1 character long |
+| value | const [String](../../string/)& | The string to convert; it is expected that the string be exactly 1 character long |
 
 ### Return Value
 
 The first and the only character of the specified string if it is exactly 1 characetr long, otherwise - 0
 
-## Convert::ToChar(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToChar(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.
@@ -186,13 +186,13 @@ static char_t System::Convert::ToChar(const String &value, const SharedPtr<IForm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert; it is expected that the string be exactly 1 character long |
+| value | const [String](../../string/)& | The string to convert; it is expected that the string be exactly 1 character long |
 
 ### Return Value
 
 The first and the only character of the specified string if it is exactly 1 characetr long, otherwise - 0
 
-## Convert::ToChar(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToChar(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to equivalent unicode character.
@@ -206,8 +206,8 @@ static char_t System::Convert::ToChar(const SharedPtr<Object> &obj, const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

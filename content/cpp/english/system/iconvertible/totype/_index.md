@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system/iconvertible/totype/
 ---
-## IConvertible::ToType(const TypeInfo\&, System::SharedPtr\<System::IFormatProvider\>) method
+## IConvertible::ToType(const TypeInfo&, System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to a [System::Object](../../object/) of the specified System::Type that has an equivalent value, using the specified culture-specific formatting information.
@@ -20,7 +20,7 @@ virtual System::SharedPtr<System::Object> System::IConvertible::ToType(const Typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| conversionType | const [TypeInfo](../../typeinfo/)\& | The System::Type to which the value of this instance is converted. |
+| conversionType | const [TypeInfo](../../typeinfo/)& | The System::Type to which the value of this instance is converted. |
 | provider | [System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\> | A [System::IFormatProvider](../../iformatprovider/) interface implementation that supplies culture-specific formatting information. |
 
 ### Return Value

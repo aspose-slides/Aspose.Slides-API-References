@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.drawing/point/add/
 ---
-## Point::Add(const Point\&, const Size\&) method
+## Point::Add(const Point&, const Size&) method
 
 
 Adds the width and height values of the specified [Size](../../size/) object to the X and Y coordinates values of the specified [Point](../) object correspondingly.
@@ -20,8 +20,8 @@ static Point System::Drawing::Point::Add(const Point &point, const Size &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../)\& | The point to translate |
-| size | const [Size](../../size/)\& | The [Size](../../size/) object that specifies the values to add to the coordinates values of the **point** |
+| point | const [Point](../)& | The point to translate |
+| size | const [Size](../../size/)& | The [Size](../../size/) object that specifies the values to add to the coordinates values of the **point** |
 
 ### Return Value
 

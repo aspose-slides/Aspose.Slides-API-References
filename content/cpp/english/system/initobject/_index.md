@@ -6,7 +6,7 @@ type: docs
 weight: 2289
 url: /system/initobject/
 ---
-## System::InitObject(const SharedPtr\<T\>\&) function
+## System::InitObject(const SharedPtr\<T\>&) function
 
 
 Starts initialization of an object with shared ownership.
@@ -26,7 +26,7 @@ template<typename T> Details::ObjectBuilder<T, SharedPtr<T>> System::InitObject(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | const [SharedPtr](../sharedptr/)\<T\>\& | [Object](../object/) to initialize |
+| object | const [SharedPtr](../sharedptr/)\<T\>& | [Object](../object/) to initialize |
 
 ### Return Value
 

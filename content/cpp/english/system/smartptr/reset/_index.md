@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/smartptr/reset/
 ---
-## SmartPtr::reset(Pointee_ *) method
+## SmartPtr::reset(Pointee_ \*) method
 
 
 Sets pointed object.
@@ -20,7 +20,7 @@ void System::SmartPtr<T>::reset(Pointee_ *ptr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | [Pointee_](../pointee_/) * | Raw pointer to new referenced object. |
+| ptr | [Pointee_](../pointee_/) \* | Raw pointer to new referenced object. |
 
 ## SmartPtr::reset() method
 

@@ -1,7 +1,7 @@
 ---
 title: GetDigestedOutput()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::GetDigestedOutput() method"
 type: docs
 weight: 131
 url: /system.security.cryptography.xml/transform/getdigestedoutput/

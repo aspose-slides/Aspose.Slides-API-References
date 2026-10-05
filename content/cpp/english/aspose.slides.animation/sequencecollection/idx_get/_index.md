@@ -22,10 +22,6 @@ System::SharedPtr<ISequence> Aspose::Slides::Animation::SequenceCollection::idx_
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

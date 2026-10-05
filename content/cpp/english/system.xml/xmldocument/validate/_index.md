@@ -22,7 +22,14 @@ void System::Xml::XmlDocument::Validate(Schema::ValidationEventHandler validatio
 | --- | --- | --- |
 | validationEventHandler | [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) | The [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) object that receives information about schema validation warnings and errors. |
 
-## XmlDocument::Validate(Schema::ValidationEventHandler, const SharedPtr\<XmlNode\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | A schema validation event occurred and no [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) object was specified. |
+
+
+## XmlDocument::Validate(Schema::ValidationEventHandler, const SharedPtr\<XmlNode\>&) method
 
 
 Validates the [XmlNode](../../xmlnode/) object specified against the XML [Schema](../../../system.xml.schema/) Definition Language (XSD) schemas in the [XmlDocument::get_Schemas](../get_schemas/) list.
@@ -37,7 +44,16 @@ void System::Xml::XmlDocument::Validate(Schema::ValidationEventHandler validatio
 | Parameter | Type | Description |
 | --- | --- | --- |
 | validationEventHandler | [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) | The [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) object that receives information about schema validation warnings and errors. |
-| nodeToValidate | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\& | The [XmlNode](../../xmlnode/) object created from an [XmlDocument](../) to validate. |
+| nodeToValidate | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>& | The [XmlNode](../../xmlnode/) object created from an [XmlDocument](../) to validate. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XmlNode](../../xmlnode/) object parameter was not created from an [XmlDocument](../). |
+| InvalidOperationException | The [XmlNode](../../xmlnode/) object parameter is not an element, attribute, document fragment, or the root node. |
+| XmlSchemaValidationException | A schema validation event occurred and no [Schema::ValidationEventHandler](../../../system.xml.schema/validationeventhandler/) object was specified. |
+
 
 ## See Also
 

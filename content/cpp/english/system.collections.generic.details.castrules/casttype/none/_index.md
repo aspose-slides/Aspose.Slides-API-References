@@ -1,7 +1,7 @@
 ---
 title: None
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: None field
 type: docs
 weight: 1
 url: /system.collections.generic.details.castrules/casttype/none/

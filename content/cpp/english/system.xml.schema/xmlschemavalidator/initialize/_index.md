@@ -16,7 +16,14 @@ void System::Xml::Schema::XmlSchemaValidator::Initialize()
 ```
 
 
-## XmlSchemaValidator::Initialize(const SharedPtr\<XmlSchemaObject\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Calling the [XmlSchemaValidator::Initialize](./) method is valid immediately after the construction of an [XmlSchemaValidator](../) object or after a call to [XmlSchemaValidator::EndValidation](../endvalidation/) only. |
+
+
+## XmlSchemaValidator::Initialize(const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Initializes the state of the [XmlSchemaValidator](../) object using the [XmlSchemaObject](../../xmlschemaobject/) specified for partial validation.
@@ -30,7 +37,16 @@ void System::Xml::Schema::XmlSchemaValidator::Initialize(const SharedPtr<XmlSche
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| partialValidationType | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | An [XmlSchemaElement](../../xmlschemaelement/), [XmlSchemaAttribute](../../xmlschemaattribute/), or [XmlSchemaType](../../xmlschematype/) object used to initialize the validation context of the [XmlSchemaValidator](../) object for partial validation. |
+| partialValidationType | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | An [XmlSchemaElement](../../xmlschemaelement/), [XmlSchemaAttribute](../../xmlschemaattribute/), or [XmlSchemaType](../../xmlschematype/) object used to initialize the validation context of the [XmlSchemaValidator](../) object for partial validation. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Calling the [XmlSchemaValidator::Initialize](./) method is valid immediately after the construction of an [XmlSchemaValidator](../) object or after a call to [XmlSchemaValidator::EndValidation](../endvalidation/) only. |
+| ArgumentException | The [XmlSchemaObject](../../xmlschemaobject/) parameter is not an [XmlSchemaElement](../../xmlschemaelement/), [XmlSchemaAttribute](../../xmlschemaattribute/), or [XmlSchemaType](../../xmlschematype/) object. |
+| ArgumentNullException | The [XmlSchemaObject](../../xmlschemaobject/) parameter cannot be **nullptr**. |
+
 
 ## See Also
 

@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::ClearBrushRemapTable()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [ImageAttributes](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.globalization/idnmapping/getunicode/
 ---
-## IdnMapping::GetUnicode(const String\&) const method
+## IdnMapping::GetUnicode(const String&) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.
@@ -20,13 +20,13 @@ String System::Globalization::IdnMapping::GetUnicode(const String &ascii) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascii | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| ascii | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 
 ### Return Value
 
 Unicode equivalent of ascii string.
 
-## IdnMapping::GetUnicode(const String\&, int) const method
+## IdnMapping::GetUnicode(const String&, int) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.
@@ -40,14 +40,14 @@ String System::Globalization::IdnMapping::GetUnicode(const String &ascii, int in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascii | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| ascii | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 | index | int | Start index of the substring to convert |
 
 ### Return Value
 
 Unicode equivalent of ascii string.
 
-## IdnMapping::GetUnicode(const String\&, int, int) const method
+## IdnMapping::GetUnicode(const String&, int, int) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.
@@ -61,7 +61,7 @@ String System::Globalization::IdnMapping::GetUnicode(const String &ascii, int in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ascii | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| ascii | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 | index | int | Start index of the substring to convert |
 | count | int | Number of characters to convert. |
 

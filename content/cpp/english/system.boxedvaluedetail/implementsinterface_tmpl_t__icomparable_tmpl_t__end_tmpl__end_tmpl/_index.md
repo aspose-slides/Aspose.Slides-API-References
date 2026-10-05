@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.boxedvaluedetail/implementsinterface_tmpl_t__icomparable_tmpl_t__end_tmpl__end_tmpl/
 ---
-## ImplementsInterface< T, IComparable< T > > struct
+## ImplementsInterface\< T, IComparable\< T \> \> struct
 
 
 Template predicate that checks if boxed object should implement [IComparable](../../system/icomparable/) interface by itself.

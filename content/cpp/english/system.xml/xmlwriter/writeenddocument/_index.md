@@ -16,6 +16,13 @@ virtual void System::Xml::XmlWriter::WriteEndDocument()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The XML document is invalid. |
+
+
 ## See Also
 
 * Class [XmlWriter](../)

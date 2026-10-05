@@ -20,7 +20,7 @@ template<typename T1,typename> Nullable<T> System::Nullable<T>::operator=(std::n
 
 A [Nullable](../) object that represents null-value.
 
-## Nullable::operator=(const T1\&) method
+## Nullable::operator=(const T1&) method
 
 
 Replaces the object's currently represented value with the specified one.
@@ -40,13 +40,13 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value &&!std::is_null_poin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const T1\& | The new value to be represented by the current object |
+| x | const T1& | The new value to be represented by the current object |
 
 ### Return Value
 
 A reference to the self
 
-## Nullable::operator=(const Nullable\<T1\>\&) method
+## Nullable::operator=(const Nullable\<T1\>&) method
 
 
 Replaces the object's currently represented value with the specified one.
@@ -66,7 +66,7 @@ template<typename T1> Nullable<T> & System::Nullable<T>::operator=(const Nullabl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [Nullable](../)\<T1\>\& | The new value to be represented by the current object |
+| x | const [Nullable](../)\<T1\>& | The new value to be represented by the current object |
 
 ### Return Value
 

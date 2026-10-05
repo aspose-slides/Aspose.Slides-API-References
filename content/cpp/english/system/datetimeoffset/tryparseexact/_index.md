@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /system/datetimeoffset/tryparseexact/
 ---
-## DateTimeOffset::TryParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
+## DateTimeOffset::TryParseExact(const String&, const ArrayPtr\<String\>&, const SharedPtr\<IFormatProvider\>&, Globalization::DateTimeStyles, DateTimeOffset&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified formats, format provider and formatting style.
@@ -20,17 +20,17 @@ static bool System::DateTimeOffset::TryParseExact(const String &input, const Arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
-| formats | const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\& | Arrays of format strings. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
+| formats | const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>& | Arrays of format strings. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 | styles | [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/) | Date and time formatting styles. |
-| result | [DateTimeOffset](../)\& | [DateTimeOffset](../) that is equivalent to the **input**. |
+| result | [DateTimeOffset](../)& | [DateTimeOffset](../) that is equivalent to the **input**. |
 
 ### Return Value
 
 true if the **input** converted successfully, otherwise - false.
 
-## DateTimeOffset::TryParseExact(const String\&, const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
+## DateTimeOffset::TryParseExact(const String&, const String&, const SharedPtr\<IFormatProvider\>&, Globalization::DateTimeStyles, DateTimeOffset&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified format, format provider and formatting style.
@@ -44,11 +44,11 @@ static bool System::DateTimeOffset::TryParseExact(const String &input, const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
-| format | const [String](../../string/)\& | Format string. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
+| format | const [String](../../string/)& | Format string. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 | styles | [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/) | Date and time formatting styles. |
-| result | [DateTimeOffset](../)\& | [DateTimeOffset](../) that is equivalent to the **input**. |
+| result | [DateTimeOffset](../)& | [DateTimeOffset](../) that is equivalent to the **input**. |
 
 ### Return Value
 

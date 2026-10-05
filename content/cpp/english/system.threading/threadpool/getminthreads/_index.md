@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.threading/threadpool/getminthreads/
 ---
-## ThreadPool::GetMinThreads(int\&, int\&) method
+## ThreadPool::GetMinThreads(int&, int&) method
 
 
 Gets minimal number of threads being created by pool.
@@ -20,8 +20,8 @@ static void System::Threading::ThreadPool::GetMinThreads(int &wt, int &cpt)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wt | int\& | Reference to variable to store minimal number of awailable worker threads. |
-| cpt | int\& | Reference to variable to store minimal number of awailable [IO](../../../system.io/) threads. |
+| wt | int& | Reference to variable to store minimal number of awailable worker threads. |
+| cpt | int& | Reference to variable to store minimal number of awailable [IO](../../../system.io/) threads. |
 
 ## See Also
 

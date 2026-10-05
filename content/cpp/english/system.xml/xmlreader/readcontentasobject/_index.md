@@ -20,6 +20,14 @@ virtual SharedPtr<Object> System::Xml::XmlReader::ReadContentAsObject()
 
 The text content as the most appropriate object type.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

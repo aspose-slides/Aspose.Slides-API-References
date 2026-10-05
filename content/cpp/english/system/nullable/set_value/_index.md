@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/nullable/set_value/
 ---
-## Nullable::set_Value(const T\&) method
+## Nullable::set_Value(const T&) method
 
 
 Sets a new value to nullable object.
@@ -20,7 +20,7 @@ void System::Nullable<T>::set_Value(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | New value of nullable |
+| value | const T& | New value of nullable |
 
 ## See Also
 

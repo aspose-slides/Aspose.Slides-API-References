@@ -20,7 +20,7 @@ static SharedPtr<SHA256> System::Security::Cryptography::SHA256::Create()
 
 Newly created hasher instance.
 
-## SHA256::Create(const String\&) method
+## SHA256::Create(const String&) method
 
 
 Creates hash algorithm instance.
@@ -34,7 +34,7 @@ static SharedPtr<SHA256> System::Security::Cryptography::SHA256::Create(const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algName | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.SHA256\". |
+| algName | const [String](../../../system/string/)& | Must be "System.Security.Cryptography.SHA256". |
 
 ### Return Value
 

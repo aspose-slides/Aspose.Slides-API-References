@@ -16,6 +16,13 @@ SharedPtr<Graphics> System::Drawing::Printing::PrintPageEventArgs::get_Graphics(
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

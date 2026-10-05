@@ -15,7 +15,7 @@ Returns an array containing objects that represent all custom attributes applied
 ArrayPtr<ObjectPtr> System::TypeInfo::GetCustomAttributes() const
 ```
 
-## TypeInfo::GetCustomAttributes(const TypeInfo\&, bool) const method
+## TypeInfo::GetCustomAttributes(const TypeInfo&, bool) const method
 
 
 Returns an array containing objects that represent specific attributes applied to the type.
@@ -29,7 +29,7 @@ ArrayPtr<ObjectPtr> System::TypeInfo::GetCustomAttributes(const TypeInfo &attrib
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attributeType | const [TypeInfo](../)\& | Type of the attribute to look for. |
+| attributeType | const [TypeInfo](../)& | Type of the attribute to look for. |
 | inherit | **bool** | Whether to look for inherited attributes as well. |
 
 ## See Also

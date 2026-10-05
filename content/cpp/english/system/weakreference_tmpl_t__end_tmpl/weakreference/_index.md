@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/weakreference_tmpl_t__end_tmpl/weakreference/
 ---
-## WeakReference< T >::WeakReference() method
+## WeakReference\< T \>::WeakReference() method
 
 
 Default constructor.
@@ -15,7 +15,7 @@ Default constructor.
 System::WeakReference<T>::WeakReference()
 ```
 
-## WeakReference< T >::WeakReference(std::nullptr_t) method
+## WeakReference\< T \>::WeakReference(std::nullptr_t) method
 
 
 Constructor from nullptr.
@@ -24,7 +24,7 @@ Constructor from nullptr.
 System::WeakReference<T>::WeakReference(std::nullptr_t)
 ```
 
-## WeakReference< T >::WeakReference(const SmartPtr\<T\>\&) method
+## WeakReference\< T \>::WeakReference(const SmartPtr\<T\>&) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -38,9 +38,9 @@ System::WeakReference<T>::WeakReference(const SmartPtr<T> &data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<T\>\& | [Object](../../object/) to store. |
+| data | const [SmartPtr](../../smartptr/)\<T\>& | [Object](../../object/) to store. |
 
-## WeakReference< T >::WeakReference(const SmartPtr\<T\>\&, bool) method
+## WeakReference\< T \>::WeakReference(const SmartPtr\<T\>&, bool) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -54,12 +54,12 @@ System::WeakReference<T>::WeakReference(const SmartPtr<T> &data, bool trackResur
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<T\>\& | [Object](../../object/) to store. |
+| data | const [SmartPtr](../../smartptr/)\<T\>& | [Object](../../object/) to store. |
 | trackResurrection | **bool** | Ignored. |
 
 ## See Also
 
-* Class [WeakReference< T >](../)
+* Class [WeakReference\< T \>](../)
 * Class [SmartPtr](../../smartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: XmlStandalone
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlStandalone enum
 type: docs
 weight: 885
 url: /system.xml/xmlstandalone/

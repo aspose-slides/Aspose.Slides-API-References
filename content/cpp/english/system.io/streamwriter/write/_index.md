@@ -22,7 +22,7 @@ void System::IO::StreamWriter::Write(char_t value) override
 | --- | --- | --- |
 | value | char_t | The character to write |
 
-## StreamWriter::Write(const String\&) method
+## StreamWriter::Write(const String&) method
 
 
 Writes the specified string to the stream.
@@ -36,9 +36,9 @@ void System::IO::StreamWriter::Write(const String &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The string to write |
+| value | const [String](../../../system/string/)& | The string to write |
 
-## StreamWriter::Write(const SharedPtr\<Object\>\&) method
+## StreamWriter::Write(const SharedPtr\<Object\>&) method
 
 
 Writes the string representation of the specified object to the stream.
@@ -52,9 +52,9 @@ void System::IO::StreamWriter::Write(const SharedPtr<Object> &obj) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object to write |
 
-## StreamWriter::Write(const ArrayPtr\<char_t\>\&) method
+## StreamWriter::Write(const ArrayPtr\<char_t\>&) method
 
 
 Writes all characetrs from the specified array to the stream.
@@ -68,9 +68,9 @@ void System::IO::StreamWriter::Write(const ArrayPtr<char_t> &buffer) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 
-## StreamWriter::Write(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## StreamWriter::Write(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array to the stream.
@@ -84,11 +84,11 @@ void System::IO::StreamWriter::Write(const ArrayPtr<char_t> &buffer, int32_t ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## StreamWriter::Write(const char_t *) method
+## StreamWriter::Write(const char_t \*) method
 
 
 Writes the specified c-string to the stream.
@@ -102,9 +102,9 @@ void System::IO::StreamWriter::Write(const char_t *buffer) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const char_t * | The c-string to write |
+| buffer | const char_t \* | The c-string to write |
 
-## StreamWriter::Write(const System::SharedPtr\<T\>\&) method
+## StreamWriter::Write(const System::SharedPtr\<T\>&) method
 
 
 Writes the string representation of the specified object to the stream.
@@ -124,7 +124,7 @@ template<typename T> void System::IO::StreamWriter::Write(const System::SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [System::SharedPtr](../../../system/sharedptr/)\<T\>\& | The object to write |
+| obj | const [System::SharedPtr](../../../system/sharedptr/)\<T\>& | The object to write |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.net.http.headers/viaheadervalue/tryparse/
 ---
-## ViaHeaderValue::TryParse(String, System::SharedPtr\<ViaHeaderValue\>\&) method
+## ViaHeaderValue::TryParse(String, System::SharedPtr\<ViaHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [ViaHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::ViaHeaderValue::TryParse(String input, S
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ViaHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ViaHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

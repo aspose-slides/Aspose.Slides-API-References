@@ -1,7 +1,7 @@
 ---
 title: get_Certificates()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::get_Certificates() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/keyinfox509data/get_certificates/

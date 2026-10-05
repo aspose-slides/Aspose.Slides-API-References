@@ -31,7 +31,7 @@ System::Threading::Mutex::Mutex(bool initiallyOwned)
 | --- | --- | --- |
 | initiallyOwned | **bool** | If true, the mutex being constructed is owned initially. |
 
-## Mutex::Mutex(bool, const String\&) constructor
+## Mutex::Mutex(bool, const String&) constructor
 
 
 Constructor.
@@ -46,7 +46,7 @@ System::Threading::Mutex::Mutex(bool initiallyOwned, const String &name)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | initiallyOwned | **bool** | If true, the mutex being constructed is owned initially. |
-| name | const [String](../../../system/string/)\& | Name of the mutex. |
+| name | const [String](../../../system/string/)& | Name of the mutex. |
 
 ## See Also
 

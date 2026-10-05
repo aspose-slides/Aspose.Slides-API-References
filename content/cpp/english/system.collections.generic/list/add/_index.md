@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.generic/list/add/
 ---
-## List::Add(const T\&) method
+## List::Add(const T&) method
 
 
 Adds element to the end of list.
@@ -20,7 +20,7 @@ void System::Collections::Generic::List<T>::Add(const T &item) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to add. |
+| item | const T& | Item to add. |
 
 ## See Also
 

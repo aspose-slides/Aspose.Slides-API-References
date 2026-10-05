@@ -9,7 +9,7 @@ url: /system.xml/xmltextwriter/writeprocessinginstruction/
 ## XmlTextWriter::WriteProcessingInstruction(String, String) method
 
 
-Writes out a processing instruction with a space between the name and text as follows: **<?name text?>**.
+Writes out a processing instruction with a space between the name and text as follows: **\<?name text?\>**.
 
 ```cpp
 void System::Xml::XmlTextWriter::WriteProcessingInstruction(String name, String text) override
@@ -22,6 +22,13 @@ void System::Xml::XmlTextWriter::WriteProcessingInstruction(String name, String 
 | --- | --- | --- |
 | name | [String](../../../system/string/) | Name of the processing instruction. |
 | text | [String](../../../system/string/) | [Text](../../../system.text/) to include in the processing instruction. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text would result in a non-well formed XML document. **name** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 ## Remarks
 
 

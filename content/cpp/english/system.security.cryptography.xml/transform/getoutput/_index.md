@@ -1,7 +1,7 @@
 ---
 title: GetOutput()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::GetOutput() method"
 type: docs
 weight: 118
 url: /system.security.cryptography.xml/transform/getoutput/
@@ -15,7 +15,7 @@ url: /system.security.cryptography.xml/transform/getoutput/
 virtual SharedPtr<Object> System::Security::Cryptography::Xml::Transform::GetOutput()=0
 ```
 
-## Transform::GetOutput(const TypeInfo\&) method
+## Transform::GetOutput(const TypeInfo&) method
 
 
 

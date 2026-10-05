@@ -21,10 +21,10 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::AddClone(Sys
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The shape to clone. |
-| x | **float** | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the cloned shape\\u2019s frame, in points. |
-| width | **float** | The width of the cloned shape\\u2019s frame, in points. |
-| height | **float** | The height of the cloned shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
+| width | **float** | The width of the cloned shape’s frame, in points. |
+| height | **float** | The height of the cloned shape’s frame, in points. |
 
 ### Return Value
 
@@ -45,8 +45,8 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::AddClone(Sys
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The [IShape](../../ishape/) to clone. |
-| x | **float** | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the cloned shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
 
 ### Return Value
 
@@ -55,7 +55,7 @@ The newly created [IShape](../../ishape/).
 ## IShapeCollection::AddClone(System::SharedPtr\<IShape\>) method
 
 
-Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original\\u2019s position and size.
+Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original’s position and size.
 
 ```cpp
 virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::AddClone(System::SharedPtr<IShape> sourceShape)=0

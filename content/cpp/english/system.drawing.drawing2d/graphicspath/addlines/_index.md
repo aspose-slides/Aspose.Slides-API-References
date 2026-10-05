@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.drawing.drawing2d/graphicspath/addlines/
 ---
-## GraphicsPath::AddLines(const ArrayPtr\<PointF\>\&) method
+## GraphicsPath::AddLines(const ArrayPtr\<PointF\>&) method
 
 
 Adds the specified series of connected line segments to the path represented by the current object.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLines(const ArrayPtr<PointF> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | An array containing points that specify the line segments to add |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | An array containing points that specify the line segments to add |
 
-## GraphicsPath::AddLines(const ArrayPtr\<Point\>\&) method
+## GraphicsPath::AddLines(const ArrayPtr\<Point\>&) method
 
 
 Adds the specified series of connected line segments to the path represented by the current object.
@@ -36,7 +36,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLines(const ArrayPtr<Point> &p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array containing points that specify the line segments to add |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | An array containing points that specify the line segments to add |
 
 ## See Also
 

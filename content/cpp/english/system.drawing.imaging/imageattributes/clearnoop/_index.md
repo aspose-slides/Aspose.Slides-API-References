@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::ClearNoOp(ColorAdjustType type=C
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

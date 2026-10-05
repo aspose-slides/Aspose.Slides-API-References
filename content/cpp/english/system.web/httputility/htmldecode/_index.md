@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.web/httputility/htmldecode/
 ---
-## HttpUtility::HtmlDecode(const String\&) method
+## HttpUtility::HtmlDecode(const String&) method
 
 
 Decodes Html fragment.
@@ -20,13 +20,13 @@ static String System::Web::HttpUtility::HtmlDecode(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Html fragment to decode. |
+| str | const [String](../../../system/string/)& | Html fragment to decode. |
 
 ### Return Value
 
 Decoded Html fragment.
 
-## HttpUtility::HtmlDecode(const String\&, const SharedPtr\<IO::TextWriter\>\&) method
+## HttpUtility::HtmlDecode(const String&, const SharedPtr\<IO::TextWriter\>&) method
 
 
 Decodes Html fragment.
@@ -40,8 +40,8 @@ static void System::Web::HttpUtility::HtmlDecode(const String &str, const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Html fragment to decode. |
-| output | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | A TextWriter object for output. |
+| str | const [String](../../../system/string/)& | Html fragment to decode. |
+| output | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>& | A TextWriter object for output. |
 
 ## See Also
 

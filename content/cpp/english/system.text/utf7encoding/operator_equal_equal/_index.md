@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.text/utf7encoding/operator_equal_equal/
 ---
-## UTF7Encoding::operator==(const UTF7Encoding\&) const method
+## UTF7Encoding::operator==(const UTF7Encoding&) const method
 
 
 Compares encodings parameters.
@@ -20,7 +20,7 @@ bool System::Text::UTF7Encoding::operator==(const UTF7Encoding &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [UTF7Encoding](../)\& | [Encoding](../../encoding/) to compare parameters with. |
+| other | const [UTF7Encoding](../)& | [Encoding](../../encoding/) to compare parameters with. |
 
 ### Return Value
 

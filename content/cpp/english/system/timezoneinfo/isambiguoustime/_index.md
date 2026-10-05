@@ -26,7 +26,7 @@ bool System::TimeZoneInfo::IsAmbiguousTime(DateTime date_time) const
 
 True if date_time is ambiguous.
 
-## TimeZoneInfo::IsAmbiguousTime(const DateTimeOffset\&) const method
+## TimeZoneInfo::IsAmbiguousTime(const DateTimeOffset&) const method
 
 
 Checks if specified date and time is ambiguous and can be mapped to many UTC times.
@@ -40,7 +40,7 @@ bool System::TimeZoneInfo::IsAmbiguousTime(const DateTimeOffset &date_time_offse
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)\& | Date and Time. |
+| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)& | Date and Time. |
 
 ### Return Value
 

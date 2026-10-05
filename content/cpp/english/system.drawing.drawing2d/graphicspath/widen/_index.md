@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.drawing.drawing2d/graphicspath/widen/
 ---
-## GraphicsPath::Widen(const SharedPtr\<Pen\>\&) method
+## GraphicsPath::Widen(const SharedPtr\<Pen\>&) method
 
 
 Replaces this path with an outline around the original path.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::GraphicsPath::Widen(const SharedPtr<Pen> &pen)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../../system.drawing/pen/)\>\& | A [Pen](../../../system.drawing/pen/) object that specifies the width between the original and the new outlines |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../../system.drawing/pen/)\>& | A [Pen](../../../system.drawing/pen/) object that specifies the width between the original and the new outlines |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.memoryextensions/trimstart/
 ---
-## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<T\>\&, const T\&) function
+## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<T\>&, const T&) function
 
 
 Trims specified element from the start of a typed span.
@@ -26,14 +26,14 @@ template<typename T> ReadOnlySpan<T> System::MemoryExtensions::TrimStart(const R
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to trim |
-| trimElement | const T\& | The element to trim |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to trim |
+| trimElement | const T& | The element to trim |
 
 ### Return Value
 
 A new span with the specified element trimmed from the start
 
-## System::MemoryExtensions::TrimStart(Span\<T\>\&, const T\&) function
+## System::MemoryExtensions::TrimStart(Span\<T\>&, const T&) function
 
 
 Trims specified element from the start of a mutable typed span.
@@ -53,14 +53,14 @@ template<typename T> Span<T> System::MemoryExtensions::TrimStart(Span<T> &span, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<T\>\& | The mutable span to trim |
-| trimElement | const T\& | The element to trim |
+| span | [Span](../../system/span/)\<T\>& | The mutable span to trim |
+| trimElement | const T& | The element to trim |
 
 ### Return Value
 
 A new span with the specified element trimmed from the start
 
-## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Trims specified elements from the start of a typed span.
@@ -80,14 +80,14 @@ template<typename T> ReadOnlySpan<T> System::MemoryExtensions::TrimStart(const R
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to trim |
-| trimElements | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The elements to trim |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to trim |
+| trimElements | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The elements to trim |
 
 ### Return Value
 
 A new span with the specified elements trimmed from the start
 
-## System::MemoryExtensions::TrimStart(Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::TrimStart(Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Trims specified elements from the start of a mutable typed span.
@@ -107,14 +107,14 @@ template<typename T> Span<T> System::MemoryExtensions::TrimStart(Span<T> &span, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<T\>\& | The mutable span to trim |
-| trimElements | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The elements to trim |
+| span | [Span](../../system/span/)\<T\>& | The mutable span to trim |
+| trimElements | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The elements to trim |
 
 ### Return Value
 
 A new span with the specified elements trimmed from the start
 
-## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>\&) function
+## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>&) function
 
 
 Trims whitespace characters from the start of a character span.
@@ -128,13 +128,13 @@ ReadOnlySpan<char16_t> System::MemoryExtensions::TrimStart(const ReadOnlySpan<ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The character span to trim |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The character span to trim |
 
 ### Return Value
 
 A new span with whitespace trimmed from the start
 
-## System::MemoryExtensions::TrimStart(Span\<char16_t\>\&) function
+## System::MemoryExtensions::TrimStart(Span\<char16_t\>&) function
 
 
 Trims whitespace characters from the start of a mutable character span.
@@ -148,13 +148,13 @@ Span<char16_t> System::MemoryExtensions::TrimStart(Span<char16_t> &span)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<char16_t\>\& | The mutable character span to trim |
+| span | [Span](../../system/span/)\<char16_t\>& | The mutable character span to trim |
 
 ### Return Value
 
 A new span with whitespace trimmed from the start
 
-## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>\&, char16_t) function
+## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>&, char16_t) function
 
 
 Trims specified character from the start of a character span.
@@ -168,14 +168,14 @@ ReadOnlySpan<char16_t> System::MemoryExtensions::TrimStart(const ReadOnlySpan<ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The character span to trim |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The character span to trim |
 | trimchar | char16_t | The character to trim |
 
 ### Return Value
 
 A new span with the specified character trimmed from the start
 
-## System::MemoryExtensions::TrimStart(Span\<char16_t\>\&, char16_t) function
+## System::MemoryExtensions::TrimStart(Span\<char16_t\>&, char16_t) function
 
 
 Trims specified character from the start of a mutable character span.
@@ -189,14 +189,14 @@ Span<char16_t> System::MemoryExtensions::TrimStart(Span<char16_t> &span, char16_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<char16_t\>\& | The mutable character span to trim |
+| span | [Span](../../system/span/)\<char16_t\>& | The mutable character span to trim |
 | trimchar | char16_t | The character to trim |
 
 ### Return Value
 
 A new span with the specified character trimmed from the start
 
-## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&) function
+## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<char16_t\>&, const ReadOnlySpan\<char16_t\>&) function
 
 
 Trims specified characters from the start of a character span.
@@ -210,14 +210,14 @@ ReadOnlySpan<char16_t> System::MemoryExtensions::TrimStart(const ReadOnlySpan<ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The character span to trim |
-| trimchars | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The characters to trim |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The character span to trim |
+| trimchars | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The characters to trim |
 
 ### Return Value
 
 A new span with the specified characters trimmed from the start
 
-## System::MemoryExtensions::TrimStart(Span\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&) function
+## System::MemoryExtensions::TrimStart(Span\<char16_t\>&, const ReadOnlySpan\<char16_t\>&) function
 
 
 Trims specified characters from the start of a mutable character span.
@@ -231,8 +231,8 @@ Span<char16_t> System::MemoryExtensions::TrimStart(Span<char16_t> &span, const R
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<char16_t\>\& | The mutable character span to trim |
-| trimchars | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The characters to trim |
+| span | [Span](../../system/span/)\<char16_t\>& | The mutable character span to trim |
+| trimchars | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The characters to trim |
 
 ### Return Value
 

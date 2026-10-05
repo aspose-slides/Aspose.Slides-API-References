@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.text.regularexpressions/capturecollection/addcapture/
 ---
-## CaptureCollection::AddCapture(const CapturePtr\&) method
+## CaptureCollection::AddCapture(const CapturePtr&) method
 
 
 Service method to add capture into collection.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::CaptureCollection::AddCapture(const Captu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [CapturePtr](../../captureptr/)\& | Item to add. |
+| item | const [CapturePtr](../../captureptr/)& | Item to add. |
 
 ## See Also
 

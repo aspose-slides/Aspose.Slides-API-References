@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.collections.generic/basedictionary/containskey/
 ---
-## BaseDictionary::ContainsKey(const key_t\&) const method
+## BaseDictionary::ContainsKey(const key_t&) const method
 
 
 Checks if key is present in dictionary.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseDictionary<Map>::ContainsKey(const key_t 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to look for. |
+| key | const key_t& | Key to look for. |
 
 ### Return Value
 

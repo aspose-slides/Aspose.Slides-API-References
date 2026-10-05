@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.generic/stack/push/
 ---
-## Stack::Push(const T\&) method
+## Stack::Push(const T&) method
 
 
 Puts element of top of the stack.
@@ -20,7 +20,7 @@ void System::Collections::Generic::Stack<T>::Push(const T &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Element to push into stack. |
+| item | const T& | Element to push into stack. |
 
 ## See Also
 

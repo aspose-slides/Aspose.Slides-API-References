@@ -27,6 +27,13 @@ virtual bool System::Text::EncoderExceptionFallbackBuffer::Fallback(char_t charU
 
 Never actually returns, throws instead.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| EncoderFallbackException | Throws unconditionally. |
+
+
 ## EncoderExceptionFallbackBuffer::Fallback(char_t, char_t, int) method
 
 
@@ -48,6 +55,13 @@ virtual bool System::Text::EncoderExceptionFallbackBuffer::Fallback(char_t charU
 ### Return Value
 
 Never actually returns, throws instead.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| EncoderFallbackException | Throws unconditionally. |
+
 
 ## See Also
 

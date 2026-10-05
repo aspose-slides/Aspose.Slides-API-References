@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /system/array/foreach/
 ---
-## Array::ForEach(const ArrayPtr\<T\>\&, System::Action\<T\>) method
+## Array::ForEach(const ArrayPtr\<T\>&, System::Action\<T\>) method
 
 
 Performs specified action on each element of the specified array.
@@ -20,7 +20,7 @@ static void System::Array<T>::ForEach(const ArrayPtr<T> &arr, System::Action<T> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<T\>\& | Target array |
+| arr | const [ArrayPtr](../../arrayptr/)\<T\>& | Target array |
 | action | [System::Action](../../action/)\<T\> | The action to perform on each element of the array |
 
 ## See Also

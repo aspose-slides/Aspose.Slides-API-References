@@ -1,7 +1,7 @@
 ---
 title: GetHeaderStringWithoutSpecial()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a string representation of the current collection without a \"special value\".
+description: "Returns a string representation of the current collection without a \"special value\"."
 type: docs
 weight: 170
 url: /system.net.http.headers/httpheadervaluecollection/getheaderstringwithoutspecial/
@@ -9,7 +9,7 @@ url: /system.net.http.headers/httpheadervaluecollection/getheaderstringwithoutsp
 ## HttpHeaderValueCollection::GetHeaderStringWithoutSpecial() method
 
 
-Returns a string representation of the current collection without a \"special value\".
+Returns a string representation of the current collection without a "special value".
 
 ```cpp
 String System::Net::Http::Headers::HttpHeaderValueCollection<T>::GetHeaderStringWithoutSpecial()
@@ -18,7 +18,7 @@ String System::Net::Http::Headers::HttpHeaderValueCollection<T>::GetHeaderString
 
 ### Return Value
 
-A string representation of the current collection without a \"special value\".
+A string representation of the current collection without a "special value".
 
 ## See Also
 

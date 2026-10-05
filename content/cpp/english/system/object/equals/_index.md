@@ -26,7 +26,7 @@ virtual bool System::Object::Equals(ptr obj)
 
 True if objects are considered equal and false otherwise.
 
-## Object::Equals(T1 const\&, T2 const\&) method
+## Object::Equals(T1 const&, T2 const&) method
 
 
 Compares reference type objects in C# style.
@@ -47,14 +47,14 @@ template<typename T1,typename T2> static std::enable_if<IsSmartPtr<T1>::value &&
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | T1 const\& | First object to compare. |
-| objB | T2 const\& | Second object to compare. |
+| objA | T1 const& | First object to compare. |
+| objB | T2 const& | Second object to compare. |
 
 ### Return Value
 
 True if objects match either by reference or semantically (by [Object.Equals](./)-alike comparison), false otherwise.
 
-## Object::Equals(T1 const\&, T2 const\&) method
+## Object::Equals(T1 const&, T2 const&) method
 
 
 Compares value type objects in C# style.
@@ -75,14 +75,14 @@ template<typename T1,typename T2> static std::enable_if<!IsSmartPtr<T1>::value &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | T1 const\& | First object to compare. |
-| objB | T2 const\& | Second object to compare. |
+| objA | T1 const& | First object to compare. |
+| objB | T2 const& | Second object to compare. |
 
 ### Return Value
 
 True if objects are considered equal by equality operator available, false otherwise.
 
-## Object::Equals(float const\&, float const\&) method
+## Object::Equals(float const&, float const&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -96,14 +96,14 @@ bool System::Object::Equals(float const &objA, float const &objB)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | **float** const\& | LHS floating point value. |
-| objB | **float** const\& | RHS floating point value. |
+| objA | **float** const& | LHS floating point value. |
+| objB | **float** const& | RHS floating point value. |
 
 ### Return Value
 
 True if **objA** and **objB** are both NaN or equal, false otherwise.
 
-## Object::Equals(double const\&, double const\&) method
+## Object::Equals(double const&, double const&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -117,8 +117,8 @@ bool System::Object::Equals(double const &objA, double const &objB)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | **double** const\& | LHS floating point value. |
-| objB | **double** const\& | RHS floating point value. |
+| objA | **double** const& | LHS floating point value. |
+| objB | **double** const& | RHS floating point value. |
 
 ### Return Value
 

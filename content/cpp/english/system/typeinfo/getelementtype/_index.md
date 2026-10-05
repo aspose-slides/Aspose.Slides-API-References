@@ -16,6 +16,13 @@ TypeInfo System::TypeInfo::GetElementType() const
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [TypeInfo](../)

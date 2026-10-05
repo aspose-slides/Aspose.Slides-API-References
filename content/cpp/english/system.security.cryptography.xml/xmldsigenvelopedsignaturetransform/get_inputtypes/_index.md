@@ -1,7 +1,7 @@
 ---
 title: get_InputTypes()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigEnvelopedSignatureTransform::get_InputTypes() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/get_inputtypes/

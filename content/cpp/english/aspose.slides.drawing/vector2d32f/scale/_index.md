@@ -16,10 +16,6 @@ Vector2d32f Aspose::Slides::Drawing::Vector2d32f::Scale(float scaleX, float scal
 ```
 
 
-### Return Value
-
-
-
 ## Vector2d32f::Scale(Vector2d32f) method
 
 
@@ -28,10 +24,6 @@ Scale vector
 ```cpp
 Vector2d32f Aspose::Slides::Drawing::Vector2d32f::Scale(Vector2d32f scale)
 ```
-
-
-### Return Value
-
 
 
 ## See Also

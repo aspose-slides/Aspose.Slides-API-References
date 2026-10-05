@@ -26,6 +26,13 @@ virtual SharedPtr<XmlNode> System::Xml::XmlNode::CloneNode(bool deep)=0
 
 The cloned node.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Calling this method on a node type that cannot be cloned. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

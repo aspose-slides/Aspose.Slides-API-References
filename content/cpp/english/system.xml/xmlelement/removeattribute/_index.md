@@ -22,6 +22,13 @@ virtual void System::Xml::XmlElement::RemoveAttribute(String name)
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The name of the attribute to remove. This is a qualified name. It is matched against the **get_Name** value of the matching node. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The node is read-only. |
+
+
 ## XmlElement::RemoveAttribute(String, String) method
 
 
@@ -38,6 +45,13 @@ virtual void System::Xml::XmlElement::RemoveAttribute(String localName, String n
 | --- | --- | --- |
 | localName | [String](../../../system/string/) | The local name of the attribute to remove. |
 | namespaceURI | [String](../../../system/string/) | The namespace URI of the attribute to remove. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The node is read-only. |
+
 
 ## See Also
 

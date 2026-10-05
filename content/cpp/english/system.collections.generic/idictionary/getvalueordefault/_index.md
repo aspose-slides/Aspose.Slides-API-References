@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.generic/idictionary/getvalueordefault/
 ---
-## IDictionary::GetValueOrDefault(const TKey\&) const method
+## IDictionary::GetValueOrDefault(const TKey&) const method
 
 
 Returns value if found; or **Value()** otherwise.
@@ -15,7 +15,7 @@ Returns value if found; or **Value()** otherwise.
 virtual TValue System::Collections::Generic::IDictionary<TKey, TValue>::GetValueOrDefault(const TKey &key) const
 ```
 
-## IDictionary::GetValueOrDefault(const TKey\&, const TValue\&) const method
+## IDictionary::GetValueOrDefault(const TKey&, const TValue&) const method
 
 
 Returns value if found; or **defaultValue** otherwise.

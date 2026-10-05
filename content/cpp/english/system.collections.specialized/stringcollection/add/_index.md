@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.collections.specialized/stringcollection/add/
 ---
-## StringCollection::Add(const System::String\&) method
+## StringCollection::Add(const System::String&) method
 
 
 Adds value to the end of the list.
@@ -20,7 +20,7 @@ int System::Collections::Specialized::StringCollection::Add(const System::String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::String](../../../system/string/)\& | [String](../../../system/string/) to add. |
+| value | const [System::String](../../../system/string/)& | [String](../../../system/string/) to add. |
 
 ### Return Value
 

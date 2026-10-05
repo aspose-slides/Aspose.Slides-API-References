@@ -1,7 +1,7 @@
 ---
 title: set_SerialNumber()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509IssuerSerial::set_SerialNumber() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/x509issuerserial/set_serialnumber/

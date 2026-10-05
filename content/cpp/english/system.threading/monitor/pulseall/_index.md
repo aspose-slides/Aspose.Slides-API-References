@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.threading/monitor/pulseall/
 ---
-## Monitor::PulseAll(const SharedPtr\<Object\>\&) method
+## Monitor::PulseAll(const SharedPtr\<Object\>&) method
 
 
 Notifies all waiting threads of a change in the object's state Not implemented.
@@ -14,6 +14,13 @@ Notifies all waiting threads of a change in the object's state Not implemented.
 ```cpp
 static void System::Threading::Monitor::PulseAll(const SharedPtr<Object> &obj)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always. |
 
 
 ## See Also

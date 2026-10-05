@@ -9,7 +9,7 @@ url: /aspose.slides/ianimationtimeline/get_interactivesequences/
 ## IAnimationTimeLine::get_InteractiveSequences() method
 
 
-Returns collection of interactive sequences. This sequences may contain only effects by \"click on shape\" with specifies target shape. Read-only [Animation::ISequenceCollection](../../../aspose.slides.animation/isequencecollection/).
+Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [Animation::ISequenceCollection](../../../aspose.slides.animation/isequencecollection/).
 
 ```cpp
 virtual System::SharedPtr<Animation::ISequenceCollection> Aspose::Slides::IAnimationTimeLine::get_InteractiveSequences()=0

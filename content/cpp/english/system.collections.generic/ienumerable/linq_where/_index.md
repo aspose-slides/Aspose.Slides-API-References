@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.collections.generic/ienumerable/linq_where/
 ---
-## IEnumerable::LINQ_Where(std::function\<bool(T)>) method
+## IEnumerable::LINQ_Where(std::function\<bool(T)\>) method
 
 
 Filters a sequence based on the specified predicate.
@@ -20,7 +20,7 @@ SharedPtr<IEnumerable<T>> System::Collections::Generic::IEnumerable<T>::LINQ_Whe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | std::function\<**bool**(T)> | A function that test each elements for some condition. |
+| predicate | std::function\<**bool**(T)\> | A function that test each elements for some condition. |
 
 ### Return Value
 

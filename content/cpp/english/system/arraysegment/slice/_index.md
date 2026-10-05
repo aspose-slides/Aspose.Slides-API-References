@@ -1,7 +1,7 @@
 ---
 title: Slice()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ArraySegment::Slice() method"
 type: docs
 weight: 79
 url: /system/arraysegment/slice/

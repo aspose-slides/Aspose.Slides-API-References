@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /system.globalization/datetimeformatinfo/set_fulldatetimepattern/
 ---
-## DateTimeFormatInfo::set_FullDateTimePattern(const String\&) method
+## DateTimeFormatInfo::set_FullDateTimePattern(const String&) method
 
 
 Sets full date and time pattern.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_FullDateTimePattern(const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Format string. |
+| value | const [String](../../../system/string/)& | Format string. |
 
 ## See Also
 

@@ -18,7 +18,7 @@ String System::Xml::XmlAttribute::get_LocalName() override
 
 ### Return Value
 
-The name of the attribute node with the prefix removed. In the following example **<book bk:genre= 'novel'>**, the **LocalName** of the attribute is **genre**.
+The name of the attribute node with the prefix removed. In the following example **\<book bk:genre= 'novel'\>**, the **LocalName** of the attribute is **genre**.
 
 ## See Also
 

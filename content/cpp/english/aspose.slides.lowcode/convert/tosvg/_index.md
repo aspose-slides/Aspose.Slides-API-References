@@ -75,7 +75,7 @@ static void Aspose::Slides::LowCode::Convert::ToSvg(System::SharedPtr<Presentati
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pres | [System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\> | Input presentation |
-| getOutPath | [Convert::GetOutPathCallback](../getoutpathcallback/) | >Callback that returns the SVG output path for each slide in the presentation |
+| getOutPath | [Convert::GetOutPathCallback](../getoutpathcallback/) | \>Callback that returns the SVG output path for each slide in the presentation |
 ## Remarks
 
 

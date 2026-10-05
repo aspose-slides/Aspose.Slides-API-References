@@ -6,7 +6,7 @@ type: docs
 weight: 2978
 url: /system/const_pointer_cast/
 ---
-## System::const_pointer_cast(SmartPtr\<X\> const\&) function
+## System::const_pointer_cast(SmartPtr\<X\> const&) function
 
 
 Casts smart pointers using const_cast.
@@ -27,7 +27,7 @@ template<class Y,class X> SmartPtr<Y> System::const_pointer_cast(SmartPtr<X> con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr](../smartptr/)\<X\> const\& | Source pointer. |
+| x | [SmartPtr](../smartptr/)\<X\> const& | Source pointer. |
 
 ### Return Value
 

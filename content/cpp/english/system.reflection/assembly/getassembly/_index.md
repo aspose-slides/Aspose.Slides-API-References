@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.reflection/assembly/getassembly/
 ---
-## Assembly::GetAssembly(const TypeInfo\&) method
+## Assembly::GetAssembly(const TypeInfo&) method
 
 
 Gets assembly defining specific type.
@@ -20,7 +20,7 @@ static System::SharedPtr<Assembly> System::Reflection::Assembly::GetAssembly(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | Type to get defining assembly for. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | Type to get defining assembly for. |
 
 ### Return Value
 

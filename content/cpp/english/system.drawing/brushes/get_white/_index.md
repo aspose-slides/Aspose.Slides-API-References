@@ -1,7 +1,7 @@
 ---
 title: get_White()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFFFFF.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFFFFF."
 type: docs
 weight: 1782
 url: /system.drawing/brushes/get_white/

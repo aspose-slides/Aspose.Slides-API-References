@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/basicsystemostreamwrapper/operator_equal/
 ---
-## BasicSystemOStreamWrapper::operator=(const BasicSystemOStreamWrapper\&) method
+## BasicSystemOStreamWrapper::operator=(const BasicSystemOStreamWrapper&) method
 
 
 Copy assignment operator. Deleted.
@@ -15,7 +15,7 @@ Copy assignment operator. Deleted.
 BasicSystemOStreamWrapper & System::IO::BasicSystemOStreamWrapper<Elem, Traits>::operator=(const BasicSystemOStreamWrapper &)=delete
 ```
 
-## BasicSystemOStreamWrapper::operator=(BasicSystemOStreamWrapper\&&) method
+## BasicSystemOStreamWrapper::operator=(BasicSystemOStreamWrapper&&) method
 
 
 Move assignment operator.
@@ -29,11 +29,11 @@ BasicSystemOStreamWrapper & System::IO::BasicSystemOStreamWrapper<Elem, Traits>:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemOStreamWrapper](../)\&& | [Object](../../../system/object/) to be move |
+| right | [BasicSystemOStreamWrapper](../)&& | [Object](../../../system/object/) to be move |
 
 ### Return Value
 
-*this
+\*this
 
 ## See Also
 

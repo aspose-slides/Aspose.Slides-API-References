@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.security.cryptography/rsacryptoserviceprovider/verifyhash/
 ---
-## RSACryptoServiceProvider::VerifyHash(const ByteArrayPtr\&, const String\&, const ByteArrayPtr\&) method
+## RSACryptoServiceProvider::VerifyHash(const ByteArrayPtr&, const String&, const ByteArrayPtr&) method
 
 
 Checks data signature.
@@ -20,15 +20,15 @@ bool System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash calculated for received data. |
-| str | const [String](../../../system/string/)\& | Name of hash algorithm used. |
-| rgb_signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature as received. |
+| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash calculated for received data. |
+| str | const [String](../../../system/string/)& | Name of hash algorithm used. |
+| rgb_signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature as received. |
 
 ### Return Value
 
 True if signature is valid, false otherwise.
 
-## RSACryptoServiceProvider::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName\&, SharedPtr\<RSASignaturePadding\>) method
+## RSACryptoServiceProvider::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName&, SharedPtr\<RSASignaturePadding\>) method
 
 
 Verifies that the signature of the specified hash is valid.
@@ -44,7 +44,7 @@ bool System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash(ByteAr
 | --- | --- | --- |
 | hash | [ByteArrayPtr](../../../system/bytearrayptr/) | Hash value of the signed data. |
 | signature | [ByteArrayPtr](../../../system/bytearrayptr/) | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
 | padding | [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\> | Padding mode. return true if signature is valid, otherwise - false. |
 
 ## See Also

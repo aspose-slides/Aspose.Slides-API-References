@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.testpredicates.details.sharedptrasserts/notnullareequal/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>&) function
 
 
 Equal-compares dictionaries of value types.
@@ -27,16 +27,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>&) function
 
 
 Equal-compares dictionaries of shared pointers.
@@ -57,16 +57,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::HashSet\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::HashSet\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::HashSet\<T1\>\>&, const SharedPtr\<System::Collections::Generic::HashSet\<T2\>\>&) function
 
 
 Equal-compares hashsets.
@@ -87,16 +87,16 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T1\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T2\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T1\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T2\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Queue\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::Queue\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::Queue\<T1\>\>&, const SharedPtr\<System::Collections::Generic::Queue\<T2\>\>&) function
 
 
 Equal-compares queues.
@@ -117,16 +117,16 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T1\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T2\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T1\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T2\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Stack\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::Stack\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::Stack\<T1\>\>&, const SharedPtr\<System::Collections::Generic::Stack\<T2\>\>&) function
 
 
 Equal-compares stacks.
@@ -147,16 +147,16 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T1\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T2\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T1\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T2\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>&) function
 
 
 Equal-compares sorted dictionaries of value types.
@@ -177,16 +177,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>&) function
 
 
 Equal-compares sorted dictionaries of shared pointers.
@@ -207,16 +207,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>&, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>&) function
 
 
 Equal-compares sorted lists of value types.
@@ -237,16 +237,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>&, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>&) function
 
 
 Equal-compares sorted lists of shared pointers.
@@ -267,16 +267,16 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::BitArray\>\&, const SharedPtr\<System::Collections::BitArray\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::BitArray\>&, const SharedPtr\<System::Collections::BitArray\>&) function
 
 
 Equal-compares bit arrays.
@@ -290,16 +290,16 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Specialized::StringCollection\>\&, const SharedPtr\<System::Collections::Specialized::StringCollection\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Specialized::StringCollection\>&, const SharedPtr\<System::Collections::Specialized::StringCollection\>&) function
 
 
 Equal-compares string collections.
@@ -313,16 +313,16 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>&) function
 
 
 Equal-compares abstract collections.
@@ -342,16 +342,16 @@ template<typename T> testing::AssertionResult System::TestPredicates::Details::S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<Object\>\&, const SharedPtr\<Object\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) function
 
 
 Equal-compares two [Object](../../system/object/) types.
@@ -365,16 +365,16 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | RHS value. |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<T1\>\&, const SharedPtr\<T2\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char \*, const char \*, const SharedPtr\<T1\>&, const SharedPtr\<T2\>&) function
 
 
 Equal-compares unknown types.
@@ -395,10 +395,10 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<T1\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<T2\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<T1\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<T2\>& | RHS value. |
 
 ### Return Value
 

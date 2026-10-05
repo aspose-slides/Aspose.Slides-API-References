@@ -1,7 +1,7 @@
 ---
 title: get_Keys()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SortedListHelper::get_Keys() method"
 type: docs
 weight: 1
 url: /system.collections.generic/sortedlisthelper/get_keys/

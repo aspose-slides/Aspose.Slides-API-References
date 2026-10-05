@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.xml.schema/xmlschemavalidator/validatetext/
 ---
-## XmlSchemaValidator::ValidateText(const String\&) method
+## XmlSchemaValidator::ValidateText(const String&) method
 
 
 Validates whether the text **string** specified is allowed in the current element context, and accumulates the text for validation if the current element has simple content.
@@ -20,7 +20,16 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateText(const String &element
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| elementValue | const [String](../../../system/string/)\& | A text **string** to validate in the current element context. |
+| elementValue | const [String](../../../system/string/)& | A text **string** to validate in the current element context. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The text **string** specified is not allowed in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateText](./) method was not called in the correct sequence. For example, the [XmlSchemaValidator::ValidateText](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+| ArgumentNullException | The text **string** parameter cannot be **nullptr**. |
+
 
 ## XmlSchemaValidator::ValidateText(XmlValueGetter) method
 
@@ -37,6 +46,15 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateText(XmlValueGetter elemen
 | Parameter | Type | Description |
 | --- | --- | --- |
 | elementValue | [XmlValueGetter](../../xmlvaluegetter/) | An XmlValueGetter callback used to pass the text value as a type compatible with the XML [Schema](../../) Definition Language (XSD) type of the attribute. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The text **string** specified is not allowed in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateText](./) method was not called in the correct sequence. For example, the [XmlSchemaValidator::ValidateText](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+| ArgumentNullException | The text **string** parameter cannot be **nullptr**. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/char/ishighsurrogate/
 ---
-## Char::IsHighSurrogate(const String\&, int) method
+## Char::IsHighSurrogate(const String&, int) method
 
 
 Determines whether the character at the specified index in the specified string is UTF-16 high surrogate code unit.
@@ -20,14 +20,14 @@ static bool System::Char::IsHighSurrogate(const String &s, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | A string |
+| s | const [String](../../string/)& | A string |
 | index | int | The index in the specified string of the character to test |
 
 ### Return Value
 
 True if the character at the specified index is a UTF-16 high surrogate code unit, otherwise - false
 
-## Char::IsHighSurrogate(const char_t *, int) method
+## Char::IsHighSurrogate(const char_t \*, int) method
 
 
 Determines whether the character at the specified index in the specified character buffer is a high surrogate.
@@ -41,7 +41,7 @@ static bool System::Char::IsHighSurrogate(const char_t *str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | Pointer to the beginning of the character buffer |
+| str | const char_t \* | Pointer to the beginning of the character buffer |
 | idx | int | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.io/file/setlastwritetimeutc/
 ---
-## File::SetLastWriteTimeUtc(const String\&, DateTime) method
+## File::SetLastWriteTimeUtc(const String&, DateTime) method
 
 
 Sets the last write time of the specified entity as UTC time.
@@ -20,7 +20,7 @@ static void System::IO::File::SetLastWriteTimeUtc(const String &path, DateTime l
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last write time to set |
+| path | const [String](../../../system/string/)& | The entity whose last write time to set |
 | lastWriteTimeUtc | [DateTime](../../../system/datetime/) | A [DateTime](../../../system/datetime/) object representing the time to set as UTC time |
 
 ## See Also

@@ -18,7 +18,7 @@ static constexpr constexpr int System::Text::UTF8Encoding::UTF8_CODE_PAGE
 ## Remarks
 
 
-Magic number used by [Windows](../../../system.windows/) for UTF-8 codepage id. 
+Magic number used by Windows for UTF-8 codepage id. 
 ## See Also
 
 * Class [UTF8Encoding](../)

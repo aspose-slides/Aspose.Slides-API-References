@@ -19,8 +19,8 @@ class SecureStringMarshal
 
 | Method | Description |
 | --- | --- |
-| static IntPtr [SecureStringToGlobalAllocAnsi](./securestringtoglobalallocansi/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../securestring/)\>\&) | Copies contents of specified secure string into unmanaged memory, converting into ANSI format. |
-| static IntPtr [SecureStringToGlobalAllocUnicode](./securestringtoglobalallocunicode/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../securestring/)\>\&) | Copies contents of specified secure string into unmanaged memory. |
+| static IntPtr [SecureStringToGlobalAllocAnsi](./securestringtoglobalallocansi/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../securestring/)\>&) | Copies contents of specified secure string into unmanaged memory, converting into ANSI format. |
+| static IntPtr [SecureStringToGlobalAllocUnicode](./securestringtoglobalallocunicode/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../securestring/)\>&) | Copies contents of specified secure string into unmanaged memory. |
 ## See Also
 
 * Namespace [System::Security](../)

@@ -24,9 +24,9 @@ int32_t Aspose::Slides::Tab::CompareTo(System::SharedPtr<ITab> obj) override
 
 ### Return Value
 
-A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: * < 0 - This instance is less than obj.
+A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: * \< 0 - This instance is less than obj.
 * = 0 - This instance is equal to obj.
-* > 0 - This instance is greater than obj.
+* \> 0 - This instance is greater than obj.
 
 ## See Also
 

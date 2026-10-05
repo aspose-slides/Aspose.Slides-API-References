@@ -21,10 +21,10 @@ System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::AddAutoShape(Shap
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to add. |
-| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | **float** | The width of the shape\\u2019s frame, in points. |
-| height | **float** | The height of the shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 ### Return Value
 
@@ -45,10 +45,10 @@ System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::AddAutoShape(Shap
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to add. |
-| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | **float** | The width of the shape\\u2019s frame, in points. |
-| height | **float** | The height of the shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 | createFromTemplate | **bool** | True to apply default template styling (simple style, centered text, and non-empty name) to the new shape; false to create the shape with all properties set to their default values. |
 
 ### Return Value

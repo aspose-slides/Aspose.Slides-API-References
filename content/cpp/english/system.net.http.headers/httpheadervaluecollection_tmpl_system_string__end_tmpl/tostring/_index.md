@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/tostring/
 ---
-## HttpHeaderValueCollection< System::String >::ToString() const method
+## HttpHeaderValueCollection\< System::String \>::ToString() const method
 
 
 Analog of C# [Object.ToString()](../../httpheadervaluecollection/tostring/) method. Enables converting custom objects to string.
@@ -23,6 +23,6 @@ virtual String System::Net::Http::Headers::HttpHeaderValueCollection<System::Str
 ## See Also
 
 * Class [String](../../../system/string/)
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

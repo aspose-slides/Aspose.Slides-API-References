@@ -32,7 +32,7 @@ slide->get_Shapes()->AddAutoShape(ShapeType::RoundCornerRectangle,
 std::numeric_limits<float>::quiet_NaN(), std::numeric_limits<float>::quiet_NaN(), 
 std::numeric_limits<float>::quiet_NaN(), std::numeric_limits<float>::quiet_NaN());
 ```
- Such code can lead to unclear situations. So restrictions had been added for using undefined values for [IShape::set_Frame](../../ishape/set_frame/). Values of x, y, width, height, flipH, flipV and rotationAngle must be defined (not std::numeric_limits<float>::quiet_NaN() or [NullableBool::NotDefined](../../nullablebool/)). Example code above now throws ArgumentException exception. This applies to these use cases: 
+ Such code can lead to unclear situations. So restrictions had been added for using undefined values for [IShape::set_Frame](../../ishape/set_frame/). Values of x, y, width, height, flipH, flipV and rotationAngle must be defined (not std::numeric_limits\<float\>::quiet_NaN() or [NullableBool::NotDefined](../../nullablebool/)). Example code above now throws ArgumentException exception. This applies to these use cases: 
 ```cpp
 SharedPtr<IShape> shape = ...;
 shape->set_Frame(...); // cannot be undefined

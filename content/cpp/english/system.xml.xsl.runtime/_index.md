@@ -1,7 +1,7 @@
 ---
 title: "System::Xml::Xsl::Runtime"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Xml::Xsl::Runtime namespace"
 type: docs
 weight: 1210
 url: /system.xml.xsl.runtime/

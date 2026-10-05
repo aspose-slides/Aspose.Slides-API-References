@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /system.globalization/datetimeformatinfo/set_monthdaypattern/
 ---
-## DateTimeFormatInfo::set_MonthDayPattern(const String\&) method
+## DateTimeFormatInfo::set_MonthDayPattern(const String&) method
 
 
 Sets month day pattern.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_MonthDayPattern(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Format string. |
+| value | const [String](../../../system/string/)& | Format string. |
 
 ## See Also
 

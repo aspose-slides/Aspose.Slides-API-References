@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/regioninfo/regioninfo/
 ---
-## RegionInfo::RegionInfo(const String\&) constructor
+## RegionInfo::RegionInfo(const String&) constructor
 
 
 RTTI information.
@@ -20,7 +20,7 @@ System::Globalization::RegionInfo::RegionInfo(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Language & Region pair (not just region). For instance: \"en-US\" or \"en_US\". |
+| name | const [String](../../../system/string/)& | Language & Region pair (not just region). For instance: "en-US" or "en_US". |
 ## Remarks
 
 
@@ -41,7 +41,7 @@ System::Globalization::RegionInfo::RegionInfo(int culture)
 | --- | --- | --- |
 | culture | int | Culture identifier. |
 
-## RegionInfo::RegionInfo(const RegionInfo\&) constructor
+## RegionInfo::RegionInfo(const RegionInfo&) constructor
 
 
 

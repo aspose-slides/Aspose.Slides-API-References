@@ -16,6 +16,13 @@ virtual void Aspose::Slides::ICommentAuthor::Remove()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if author is already removed. |
+
+
 ## See Also
 
 * Class [ICommentAuthor](../)

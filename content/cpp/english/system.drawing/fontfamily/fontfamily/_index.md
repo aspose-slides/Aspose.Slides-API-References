@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/fontfamily/fontfamily/
 ---
-## FontFamily::FontFamily(const String\&) constructor
+## FontFamily::FontFamily(const String&) constructor
 
 
 Constructs a new instance of [FontFamily](../) class that represents a font family with the specified name.
@@ -20,9 +20,9 @@ System::Drawing::FontFamily::FontFamily(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | A font family name |
+| name | const [String](../../../system/string/)& | A font family name |
 
-## FontFamily::FontFamily(const String\&, const SharedPtr\<Text::FontCollection\>\&) constructor
+## FontFamily::FontFamily(const String&, const SharedPtr\<Text::FontCollection\>&) constructor
 
 
 Constructs a new instance of [FontFamily](../) in the specified FontCollection with the specified name.
@@ -36,8 +36,8 @@ System::Drawing::FontFamily::FontFamily(const String &name, const SharedPtr<Text
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | A font family name |
-| font_collection | const [SharedPtr](../../../system/sharedptr/)\<[Text::FontCollection](../../../system.drawing.text/fontcollection/)\>\& | The FontCollection what contains this instance. |
+| name | const [String](../../../system/string/)& | A font family name |
+| font_collection | const [SharedPtr](../../../system/sharedptr/)\<[Text::FontCollection](../../../system.drawing.text/fontcollection/)\>& | The FontCollection what contains this instance. |
 
 ## FontFamily::FontFamily(Text::GenericFontFamilies) constructor
 

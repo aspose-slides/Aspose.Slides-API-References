@@ -22,10 +22,6 @@ System::SharedPtr<IMotionCmdPath> Aspose::Slides::Animation::MotionPath::idx_get
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

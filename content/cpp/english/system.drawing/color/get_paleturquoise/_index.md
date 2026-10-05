@@ -1,7 +1,7 @@
 ---
 title: get_PaleTurquoise()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFAFEEEE.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFAFEEEE."
 type: docs
 weight: 1639
 url: /system.drawing/color/get_paleturquoise/

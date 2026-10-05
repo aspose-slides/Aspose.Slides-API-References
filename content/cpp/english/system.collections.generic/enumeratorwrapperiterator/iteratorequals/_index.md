@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.collections.generic/enumeratorwrapperiterator/iteratorequals/
 ---
-## EnumeratorWrapperIterator::IteratorEquals(System::Details::VirtualizedIteratorBase\<Element\> *) const method
+## EnumeratorWrapperIterator::IteratorEquals(System::Details::VirtualizedIteratorBase\<Element\> \*) const method
 
 
 Checks if two iterators point to the same item.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::EnumeratorWrapperIterator<Element>::IteratorE
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | System::Details::VirtualizedIteratorBase\<Element\> * | Iterator to check against. |
+| other | System::Details::VirtualizedIteratorBase\<Element\> \* | Iterator to check against. |
 
 ### Return Value
 

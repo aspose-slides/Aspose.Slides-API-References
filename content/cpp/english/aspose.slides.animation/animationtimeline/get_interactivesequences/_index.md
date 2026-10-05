@@ -1,7 +1,7 @@
 ---
 title: get_InteractiveSequences()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns collection of interactive sequences. This sequences may contain only effects by \"click on shape\" with specifies target shape. Read-only ISequenceCollection.
+description: "Returns collection of interactive sequences. This sequences may contain only effects by \"click on shape\" with specifies target shape. Read-only ISequenceCollection."
 type: docs
 weight: 1
 url: /aspose.slides.animation/animationtimeline/get_interactivesequences/
@@ -9,7 +9,7 @@ url: /aspose.slides.animation/animationtimeline/get_interactivesequences/
 ## AnimationTimeLine::get_InteractiveSequences() method
 
 
-Returns collection of interactive sequences. This sequences may contain only effects by \"click on shape\" with specifies target shape. Read-only [ISequenceCollection](../../isequencecollection/).
+Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [ISequenceCollection](../../isequencecollection/).
 
 ```cpp
 System::SharedPtr<ISequenceCollection> Aspose::Slides::Animation::AnimationTimeLine::get_InteractiveSequences() override

@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_IOException::Is() method"
 type: docs
 weight: 27
 url: /system.io/details_ioexception/is/
 ---
-## Details_IOException::Is(const System::TypeInfo\&) const method
+## Details_IOException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::IO::Details_IOException::Is(const System::TypeInfo &target) const o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../../system/typeinfo/)\& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../../system/typeinfo/)& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

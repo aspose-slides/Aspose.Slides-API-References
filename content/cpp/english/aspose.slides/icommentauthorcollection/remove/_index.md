@@ -22,6 +22,14 @@ virtual void Aspose::Slides::ICommentAuthorCollection::Remove(System::SharedPtr<
 | --- | --- | --- |
 | author | [System::SharedPtr](../../../system/sharedptr/)\<[ICommentAuthor](../../icommentauthor/)\> | The author to remove from a collection. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Author is **null** |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if author is already removed. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

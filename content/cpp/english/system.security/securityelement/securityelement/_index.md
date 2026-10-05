@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security/securityelement/securityelement/
 ---
-## SecurityElement::SecurityElement(const String\&) constructor
+## SecurityElement::SecurityElement(const String&) constructor
 
 
 Constructor.
@@ -20,9 +20,9 @@ System::Security::SecurityElement::SecurityElement(const String &tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const [String](../../../system/string/)\& | XML tag name. |
+| tag | const [String](../../../system/string/)& | XML tag name. |
 
-## SecurityElement::SecurityElement(const String\&, const String\&) constructor
+## SecurityElement::SecurityElement(const String&, const String&) constructor
 
 
 Constructor.
@@ -36,8 +36,8 @@ System::Security::SecurityElement::SecurityElement(const String &tag, const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const [String](../../../system/string/)\& | XML tag name. |
-| text | const [String](../../../system/string/)\& | XML text inside given tag. |
+| tag | const [String](../../../system/string/)& | XML tag name. |
+| text | const [String](../../../system/string/)& | XML text inside given tag. |
 
 ## See Also
 

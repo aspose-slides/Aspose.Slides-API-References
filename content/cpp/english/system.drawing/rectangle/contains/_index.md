@@ -27,7 +27,7 @@ bool System::Drawing::Rectangle::Contains(int x, int y) const
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## Rectangle::Contains(const Point\&) const method
+## Rectangle::Contains(const Point&) const method
 
 
 Determines if the specified point is located within the rectangle represented by the current object.
@@ -41,13 +41,13 @@ bool System::Drawing::Rectangle::Contains(const Point &point) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../../point/)\& | A point to check |
+| point | const [Point](../../point/)& | A point to check |
 
 ### Return Value
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## Rectangle::Contains(const Rectangle\&) const method
+## Rectangle::Contains(const Rectangle&) const method
 
 
 Determines if the specified rectangle is located within the rectangle represented by the current object.
@@ -61,7 +61,7 @@ bool System::Drawing::Rectangle::Contains(const Rectangle &rect) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../)\& | A rectangle to check |
+| rect | const [Rectangle](../)& | A rectangle to check |
 
 ### Return Value
 

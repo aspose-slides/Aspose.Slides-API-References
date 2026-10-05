@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections/iequalitycomparer/equals/
 ---
-## IEqualityComparer::Equals(const SharedPtr\<Object\>\&, const SharedPtr\<Object\>\&) const method
+## IEqualityComparer::Equals(const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) const method
 
 
 Checks if two objects are equal.
@@ -20,8 +20,8 @@ virtual bool System::Collections::IEqualityComparer::Equals(const SharedPtr<Obje
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | LHS object. |
-| y | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | RHS object. |
+| x | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | LHS object. |
+| y | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | RHS object. |
 
 ### Return Value
 

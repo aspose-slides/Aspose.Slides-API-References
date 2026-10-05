@@ -1,7 +1,7 @@
 ---
 title: get_ColorFormat()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ITheme::get_ColorFormat() method"
 type: docs
 weight: 53
 url: /aspose.slides.theme/itheme/get_colorformat/

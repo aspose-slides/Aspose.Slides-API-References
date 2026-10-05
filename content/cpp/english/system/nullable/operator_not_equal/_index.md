@@ -20,7 +20,7 @@ bool System::Nullable<T>::operator!=(std::nullptr_t) const
 
 True if the value represented by the current object is not null, otherwise - false
 
-## Nullable::operator!=(const T1\&) const method
+## Nullable::operator!=(const T1&) const method
 
 
 Determines if the value represented by the current object is not equal to the specified value.
@@ -40,13 +40,13 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value, bool>::type System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const T1\& | A constant reference to the value to compare with |
+| other | const T1& | A constant reference to the value to compare with |
 
 ### Return Value
 
 True if the value represented by the current object is not equal to the specified value, otherwise - false
 
-## Nullable::operator!=(const Nullable\<T1\>\&) const method
+## Nullable::operator!=(const Nullable\<T1\>&) const method
 
 
 Determines if the value represented by the current object is not equal to the value represented by the specified [Nullable](../) object.
@@ -66,7 +66,7 @@ template<typename T1> bool System::Nullable<T>::operator!=(const Nullable<T1> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Nullable](../)\<T1\>\& | A constant reference to the [Nullable](../) object to compare with |
+| other | const [Nullable](../)\<T1\>& | A constant reference to the [Nullable](../) object to compare with |
 
 ### Return Value
 

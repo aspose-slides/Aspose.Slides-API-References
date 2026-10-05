@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/char/isletter/
 ---
-## Char::IsLetter(const char_t *, int) method
+## Char::IsLetter(const char_t \*, int) method
 
 
 Determines whether the character at the specified index in the specified character buffer is classified as Unicode letter.
@@ -20,7 +20,7 @@ static bool System::Char::IsLetter(const char_t *str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | Pointer to the beginning of the character buffer |
+| str | const char_t \* | Pointer to the beginning of the character buffer |
 | idx | int | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.diagnostics/debug/print/
 ---
-## Debug::Print(const String\&) method
+## Debug::Print(const String&) method
 
 
 Print message to debug interface.
@@ -20,9 +20,9 @@ static void System::Diagnostics::Debug::Print(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Message to write. |
+| message | const [String](../../../system/string/)& | Message to write. |
 
-## Debug::Print(const String\&, const System::ArrayPtr\<SharedPtr\<System::Object\>\>\&) method
+## Debug::Print(const String&, const System::ArrayPtr\<SharedPtr\<System::Object\>\>&) method
 
 
 Print message to debug interface.
@@ -36,8 +36,8 @@ static void System::Diagnostics::Debug::Print(const String &format, const System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../../system/string/)\& | Format string. |
-| args | const [System::ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>\& | Arguments to substitute to format string. |
+| format | const [String](../../../system/string/)& | Format string. |
+| args | const [System::ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>& | Arguments to substitute to format string. |
 
 ## See Also
 

@@ -26,6 +26,13 @@ virtual SharedPtr<XmlNode> System::Xml::XmlNode::RemoveChild(SharedPtr<XmlNode> 
 
 The node removed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **oldChild** is not a child of this node. Or this node is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

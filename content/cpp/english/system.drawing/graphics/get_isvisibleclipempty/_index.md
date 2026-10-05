@@ -16,6 +16,13 @@ bool System::Drawing::Graphics::get_IsVisibleClipEmpty() const
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Graphics](../)

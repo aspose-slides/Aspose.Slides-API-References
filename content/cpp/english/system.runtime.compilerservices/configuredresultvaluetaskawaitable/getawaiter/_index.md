@@ -1,7 +1,7 @@
 ---
 title: GetAwaiter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ConfiguredResultValueTaskAwaitable::GetAwaiter() method"
 type: docs
 weight: 14
 url: /system.runtime.compilerservices/configuredresultvaluetaskawaitable/getawaiter/

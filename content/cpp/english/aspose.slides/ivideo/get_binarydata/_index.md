@@ -9,7 +9,7 @@ url: /aspose.slides/ivideo/get_binarydata/
 ## IVideo::get_BinaryData() method
 
 
-Returns the copy of an audio's data. In case of large amount of data consider using of [IVideo::GetStream](../getstream/) method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only **uint8_t**[].
+Returns the copy of an audio's data. In case of large amount of data consider using of [IVideo::GetStream](../getstream/) method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::IVideo::get_BinaryData()=0

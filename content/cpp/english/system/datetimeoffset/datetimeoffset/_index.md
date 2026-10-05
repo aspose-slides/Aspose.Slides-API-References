@@ -110,7 +110,7 @@ System::DateTimeOffset::DateTimeOffset(int year, int month, int day, int hour, i
 | millisecond | int | Millisecond (0 through 999). |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
-## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>\&, TimeSpan) constructor
+## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>&, TimeSpan) constructor
 
 
 Constructor.
@@ -131,7 +131,7 @@ System::DateTimeOffset::DateTimeOffset(int year, int month, int day, int hour, i
 | minute | int | Minute (0 through 59). |
 | second | int | Second (0 through 59). |
 | millisecond | int | Millisecond (0 through 999). |
-| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>\& | Calendar used to interpret year, month, and day. |
+| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>& | Calendar used to interpret year, month, and day. |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
 ## See Also

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/datetime/operator_equal/
 ---
-## DateTime::operator=(const DateTime\&) method
+## DateTime::operator=(const DateTime&) method
 
 
 Assigns the value represented by the specified [DateTime](../) instance to the current object.
@@ -20,7 +20,7 @@ DateTime & System::DateTime::operator=(const DateTime &dt)=default
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dt | const [DateTime](../)\& | An instance of [DateTime](../) class to copy the represented date and time value from |
+| dt | const [DateTime](../)& | An instance of [DateTime](../) class to copy the represented date and time value from |
 
 ### Return Value
 

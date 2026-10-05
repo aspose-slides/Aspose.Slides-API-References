@@ -31,7 +31,7 @@ System::Diagnostics::StackTrace::StackTrace(bool isFileInfoNeeded)
 | --- | --- | --- |
 | isFileInfoNeeded | **bool** | True to capture the file name, line number, and column number; otherwise, false |
 
-## StackTrace::StackTrace(const StackTrace\&) constructor
+## StackTrace::StackTrace(const StackTrace&) constructor
 
 
 No copying.

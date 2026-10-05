@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlattributecollection/remove/
 ---
-## XmlAttributeCollection::Remove(const SharedPtr\<XmlAttribute\>\&) method
+## XmlAttributeCollection::Remove(const SharedPtr\<XmlAttribute\>&) method
 
 
 Removes the specified attribute from the collection.
@@ -20,7 +20,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::Remove(const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\& | The attribute to remove. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>& | The attribute to remove. |
 
 ### Return Value
 

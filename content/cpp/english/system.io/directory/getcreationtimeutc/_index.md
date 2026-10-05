@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.io/directory/getcreationtimeutc/
 ---
-## Directory::GetCreationTimeUtc(const String\&) method
+## Directory::GetCreationTimeUtc(const String&) method
 
 
 Returns the creation time of the specified entity as UTC time.
@@ -20,7 +20,7 @@ static DateTime System::IO::Directory::GetCreationTimeUtc(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose creating time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose creating time to retrieve |
 
 ### Return Value
 

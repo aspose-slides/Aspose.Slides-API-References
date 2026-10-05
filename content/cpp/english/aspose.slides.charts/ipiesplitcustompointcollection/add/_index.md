@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /aspose.slides.charts/ipiesplitcustompointcollection/add/
 ---
-## IPieSplitCustomPointCollection::Add(const int32_t\&) method
+## IPieSplitCustomPointCollection::Add(const int32_t&) method
 
 
 Adds data point by its index in parent series points collection.
@@ -20,7 +20,7 @@ virtual void Aspose::Slides::Charts::IPieSplitCustomPointCollection::Add(const i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataPointIndex | const **int32_t**\& | Index of data point in parent series points collection. |
+| dataPointIndex | const **int32_t**& | Index of data point in parent series points collection. |
 
 ## See Also
 

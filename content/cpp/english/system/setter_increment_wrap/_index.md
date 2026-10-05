@@ -6,7 +6,7 @@ type: docs
 weight: 2861
 url: /system/setter_increment_wrap/
 ---
-## System::setter_increment_wrap(T(*)(), void(*)(T)) function
+## System::setter_increment_wrap(T(\*)(), void(\*)(T)) function
 
 
 Translator translates C#'s increment expressions targeting class' property that has setter and getter defined, into invocation of this function.
@@ -26,14 +26,14 @@ template<typename T> T System::setter_increment_wrap(T(*pGetter)(), void(*pSette
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pGetter | T(*)() | Function pointer pointing to the property's getter free function |
-| pSetter | void(*)(T) | Function pointer pointing to the property's setter free function |
+| pGetter | T(\*)() | Function pointer pointing to the property's getter free function |
+| pSetter | void(\*)(T) | Function pointer pointing to the property's setter free function |
 
 ### Return Value
 
 The incremented value of the property
 
-## System::setter_increment_wrap(Host *const, T(HostGet::*)(), void(HostSet::*)(T)) function
+## System::setter_increment_wrap(Host \*const, T(HostGet::\*)(), void(HostSet::\*)(T)) function
 
 
 Translator translates C#'s increment expressions targeting class' property that has setter and getter defined, into invocation of this function.
@@ -56,9 +56,9 @@ template<typename T,typename Host,typename HostGet,typename HostSet> std::enable
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| host | Host *const | A pointer to an object whose property is to be incremented |
-| pGetter | T(HostGet::*)() | Function pointer pointing to the property's getter method |
-| pSetter | void(HostSet::*)(T) | Function pointer pointing to the property's setter method |
+| host | Host \*const | A pointer to an object whose property is to be incremented |
+| pGetter | T(HostGet::\*)() | Function pointer pointing to the property's getter method |
+| pSetter | void(HostSet::\*)(T) | Function pointer pointing to the property's setter method |
 
 ### Return Value
 

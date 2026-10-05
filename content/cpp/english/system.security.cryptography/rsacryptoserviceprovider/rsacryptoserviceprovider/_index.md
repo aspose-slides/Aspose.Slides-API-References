@@ -15,7 +15,7 @@ Constructor. Uses default parameters.
 System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider()
 ```
 
-## RSACryptoServiceProvider::RSACryptoServiceProvider(const SharedPtr\<CspParameters\>\&) constructor
+## RSACryptoServiceProvider::RSACryptoServiceProvider(const SharedPtr\<CspParameters\>&) constructor
 
 
 Constructor. Not implemented.
@@ -29,9 +29,9 @@ System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\& | Algorithm parameters. |
+| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>& | Algorithm parameters. |
 
-## RSACryptoServiceProvider::RSACryptoServiceProvider(const RSAParameters\&) constructor
+## RSACryptoServiceProvider::RSACryptoServiceProvider(const RSAParameters&) constructor
 
 
 Constructor.
@@ -45,7 +45,7 @@ System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [RSAParameters](../../rsaparameters/)\& | Algorithm parameters. |
+| parameters | const [RSAParameters](../../rsaparameters/)& | Algorithm parameters. |
 
 ## RSACryptoServiceProvider::RSACryptoServiceProvider(int32_t) constructor
 
@@ -63,7 +63,7 @@ System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvid
 | --- | --- | --- |
 | key_size | **int32_t** | Key size in bits. |
 
-## RSACryptoServiceProvider::RSACryptoServiceProvider(int32_t, const SharedPtr\<CspParameters\>\&) constructor
+## RSACryptoServiceProvider::RSACryptoServiceProvider(int32_t, const SharedPtr\<CspParameters\>&) constructor
 
 
 Constructor. Not implemented.
@@ -78,7 +78,7 @@ System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvid
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key_size | **int32_t** | Key size in bits. |
-| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\& | Algorithm parameters. |
+| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>& | Algorithm parameters. |
 
 ## See Also
 

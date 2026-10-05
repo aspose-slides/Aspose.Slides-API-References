@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/transfercodingheadervalue/gettransfercodinglength/
 ---
-## TransferCodingHeaderValue::GetTransferCodingLength(String, int32_t, const HeaderFunc\<System::SharedPtr\<TransferCodingHeaderValue\>\>\&, System::SharedPtr\<TransferCodingHeaderValue\>\&) method
+## TransferCodingHeaderValue::GetTransferCodingLength(String, int32_t, const HeaderFunc\<System::SharedPtr\<TransferCodingHeaderValue\>\>&, System::SharedPtr\<TransferCodingHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [TransferCodingHeaderValue](../) class.
@@ -22,8 +22,8 @@ static int32_t System::Net::Http::Headers::TransferCodingHeaderValue::GetTransfe
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | const [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\>\& | An instance where a parsed object will be assigned. |
-| transferCodingCreator | [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\& | The delegate that is used to create instances of the [TransferCodingHeaderValue](../) class. |
+| parsedValue | const [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\>& | An instance where a parsed object will be assigned. |
+| transferCodingCreator | [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>& | The delegate that is used to create instances of the [TransferCodingHeaderValue](../) class. |
 
 ### Return Value
 

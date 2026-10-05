@@ -15,7 +15,7 @@ Constructs a new instance of the [BasicSystemIOStreamBuf](../).
 System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf()
 ```
 
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const SharedPtr\<Stream\>\&, SystemIOStreamWrappingMode, const std::locale\&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const SharedPtr\<Stream\>&, SystemIOStreamWrappingMode, const std::locale&) constructor
 
 
 Constructs a new instance of the [BasicSystemIOStreamBuf](../).
@@ -29,11 +29,11 @@ System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | Smart pointer to the stream |
+| str | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | Smart pointer to the stream |
 | mode | [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/) | Wrapping mode |
-| locale | const std::locale\& | [Stream](../../stream/)'s locale |
+| locale | const std::locale& | [Stream](../../stream/)'s locale |
 
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const BasicSystemIOStreamBuf\&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const BasicSystemIOStreamBuf&) constructor
 
 
 Copy constructor. Deleted.
@@ -42,7 +42,7 @@ Copy constructor. Deleted.
 System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(const BasicSystemIOStreamBuf &)=delete
 ```
 
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(BasicSystemIOStreamBuf\&&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(BasicSystemIOStreamBuf&&) constructor
 
 
 Move constructor.
@@ -56,7 +56,7 @@ System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(BasicSy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemIOStreamBuf](../)\&& | [Object](../../../system/object/) to be move |
+| right | [BasicSystemIOStreamBuf](../)&& | [Object](../../../system/object/) to be move |
 
 ## See Also
 

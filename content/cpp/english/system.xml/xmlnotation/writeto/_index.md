@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml/xmlnotation/writeto/
 ---
-## XmlNotation::WriteTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlNotation::WriteTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/). This method has no effect on [XmlNotation](../) nodes.
@@ -20,7 +20,7 @@ void System::Xml::XmlNotation::WriteTo(const SharedPtr<XmlWriter> &w) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

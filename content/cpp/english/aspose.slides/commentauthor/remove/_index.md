@@ -16,6 +16,13 @@ void Aspose::Slides::CommentAuthor::Remove() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if author is already removed. |
+
+
 ## See Also
 
 * Class [CommentAuthor](../)

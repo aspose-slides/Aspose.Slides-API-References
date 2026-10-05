@@ -16,6 +16,13 @@ void System::Security::Cryptography::CryptoStream::set_Position(int64_t value) o
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | Unconditionally as operation is not supported. |
+
+
 ## See Also
 
 * Class [CryptoStream](../)

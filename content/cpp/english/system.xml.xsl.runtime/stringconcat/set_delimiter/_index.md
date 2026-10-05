@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.xsl.runtime/stringconcat/set_delimiter/
 ---
-## StringConcat::set_Delimiter(const String\&) method
+## StringConcat::set_Delimiter(const String&) method
 
 
 Sets the string that delimits concatenated strings.
@@ -20,7 +20,7 @@ void System::Xml::Xsl::Runtime::StringConcat::set_Delimiter(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.drawing.drawing2d/colorblend/set_positions/
 ---
-## ColorBlend::set_Positions(const ArrayPtr\<float\>\&) method
+## ColorBlend::set_Positions(const ArrayPtr\<float\>&) method
 
 
 Sets the array of blend positions along a gradient.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::ColorBlend::set_Positions(const ArrayPtr<float>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**float**\>\& | The array to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**float**\>& | The array to set |
 
 ## See Also
 

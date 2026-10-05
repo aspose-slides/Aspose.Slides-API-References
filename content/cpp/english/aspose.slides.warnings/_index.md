@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Warnings"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Warnings namespace"
 type: docs
 weight: 261
 url: /aspose.slides.warnings/

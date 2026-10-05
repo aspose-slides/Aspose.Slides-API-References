@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /system.globalization/cultureinfo/readonly/
 ---
-## CultureInfo::ReadOnly(const CultureInfoPtr\&) method
+## CultureInfo::ReadOnly(const CultureInfoPtr&) method
 
 
 Gets a read only version of culture.
@@ -20,7 +20,7 @@ static CultureInfoPtr System::Globalization::CultureInfo::ReadOnly(const Culture
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| culture_info | const [CultureInfoPtr](../../cultureinfoptr/)\& | Culture to wrap as read-only. |
+| culture_info | const [CultureInfoPtr](../../cultureinfoptr/)& | Culture to wrap as read-only. |
 
 ### Return Value
 

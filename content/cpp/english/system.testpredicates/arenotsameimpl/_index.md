@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.testpredicates/arenotsameimpl/
 ---
-## System::TestPredicates::AreNotSameImpl(const char *, const char *, const T1\&, const T2\&, long long) function
+## System::TestPredicates::AreNotSameImpl(const char \*, const char \*, const T1&, const T2&, long long) function
 
 
 Are-not-same-compares smart pointers.
@@ -27,17 +27,17 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotSameImpl(const char *, const char *, const T1\&, const T2\&, int) function
+## System::TestPredicates::AreNotSameImpl(const char \*, const char \*, const T1&, const T2&, int) function
 
 
 Are-not-same-compares non-pointer values.
@@ -58,10 +58,10 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 
 ### Return Value
 

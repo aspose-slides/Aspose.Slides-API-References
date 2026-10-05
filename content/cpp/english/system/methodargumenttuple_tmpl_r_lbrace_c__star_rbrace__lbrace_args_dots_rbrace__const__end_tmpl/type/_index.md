@@ -17,6 +17,6 @@ using System::MethodArgumentTuple< R(C::*)(Args...) const >::type =  std::tuple<
 
 ## See Also
 
-* Struct [MethodArgumentTuple< R(C::*)(Args...) const >](../)
+* Struct [MethodArgumentTuple\< R(C::\*)(Args...) const \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

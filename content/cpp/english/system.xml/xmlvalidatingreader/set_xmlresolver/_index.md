@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.xml/xmlvalidatingreader/set_xmlresolver/
 ---
-## XmlValidatingReader::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XmlValidatingReader::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Sets the [XmlResolver](../../xmlresolver/) used for resolving external document type definition (DTD) and schema location references. The [XmlResolver](../../xmlresolver/) is also used to handle any import or include elements found in XML [Schema](../../../system.xml.schema/) definition language (XSD) schemas.
@@ -20,7 +20,7 @@ void System::Xml::XmlValidatingReader::set_XmlResolver(const SharedPtr<System::X
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.net.http/bytearraycontent/trycomputelength/
 ---
-## ByteArrayContent::TryComputeLength(int64_t\&) method
+## ByteArrayContent::TryComputeLength(int64_t&) method
 
 
 Tries to calculate the byte array length.
@@ -20,7 +20,7 @@ bool System::Net::Http::ByteArrayContent::TryComputeLength(int64_t &length) over
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| length | **int64_t**\& | The output parameter where the calculated length will be assigned. |
+| length | **int64_t**& | The output parameter where the calculated length will be assigned. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.io/stream/write/
 ---
-## Stream::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## Stream::Write(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -20,11 +20,11 @@ virtual void System::IO::Stream::Write(const ArrayPtr<uint8_t> &buffer, int32_t 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The array containing the bytes to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The array containing the bytes to write |
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## Stream::Write(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## Stream::Write(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -38,11 +38,11 @@ virtual void System::IO::Stream::Write(const System::Details::ArrayView<uint8_t>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | The array view containing the bytes to write |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | The array view containing the bytes to write |
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## Stream::Write(const System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t) method
+## Stream::Write(const System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -62,11 +62,11 @@ template<std::size_t> void System::IO::Stream::Write(const System::Details::Stac
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::StackArray\<**uint8_t**, N\>\& | The stack array containing the bytes to write |
+| buffer | const System::Details::StackArray\<**uint8_t**, N\>& | The stack array containing the bytes to write |
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## Stream::Write(const System::ReadOnlySpan\<uint8_t\>\&) method
+## Stream::Write(const System::ReadOnlySpan\<uint8_t\>&) method
 
 
 Writes the specified subrange of bytes from the specified byte span to the stream.
@@ -80,7 +80,7 @@ virtual void System::IO::Stream::Write(const System::ReadOnlySpan<uint8_t> &buff
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [System::ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>\& | The byte span to read the written bytes from |
+| buffer | const [System::ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>& | The byte span to read the written bytes from |
 
 ## See Also
 

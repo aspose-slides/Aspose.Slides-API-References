@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.specialized/stringcollection/insert/
 ---
-## StringCollection::Insert(int, const System::String\&) method
+## StringCollection::Insert(int, const System::String&) method
 
 
 Inserts specific value into container.
@@ -21,7 +21,7 @@ void System::Collections::Specialized::StringCollection::Insert(int index, const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | [Index](../../../system/index/) to insert string into. |
-| value | const [System::String](../../../system/string/)\& | Value to insert into specified position. |
+| value | const [System::String](../../../system/string/)& | Value to insert into specified position. |
 
 ## See Also
 

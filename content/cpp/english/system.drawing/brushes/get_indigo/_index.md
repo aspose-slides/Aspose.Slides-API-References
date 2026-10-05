@@ -1,7 +1,7 @@
 ---
 title: get_Indigo()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF4B0082.
+description: "Returns the solid fill color whose hexadecimal value is #FF4B0082."
 type: docs
 weight: 729
 url: /system.drawing/brushes/get_indigo/

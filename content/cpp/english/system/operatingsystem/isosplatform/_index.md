@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/operatingsystem/isosplatform/
 ---
-## OperatingSystem::IsOSPlatform(const String\&) method
+## OperatingSystem::IsOSPlatform(const String&) method
 
 
 Indicates whether the current application is running on the specified platform.

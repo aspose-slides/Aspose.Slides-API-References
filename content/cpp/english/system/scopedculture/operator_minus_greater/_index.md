@@ -1,12 +1,12 @@
 ---
 title: operator->()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ScopedCulture::operator->() method"
 type: docs
 weight: 40
 url: /system/scopedculture/operator_minus_greater/
 ---
-## ScopedCulture::operator->() const method
+## ScopedCulture::operator-\>() const method
 
 
 
@@ -15,7 +15,7 @@ url: /system/scopedculture/operator_minus_greater/
 const Globalization::CultureInfo * System::ScopedCulture::operator->() const
 ```
 
-## ScopedCulture::operator->() method
+## ScopedCulture::operator-\>() method
 
 
 

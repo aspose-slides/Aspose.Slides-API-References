@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography.x509certificates/x500distinguishedname/x500distinguishedname/
 ---
-## X500DistinguishedName::X500DistinguishedName(const SharedPtr\<AsnEncodedData\>\&) constructor
+## X500DistinguishedName::X500DistinguishedName(const SharedPtr\<AsnEncodedData\>&) constructor
 
 
 Constructor.
@@ -20,9 +20,9 @@ System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500Dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoded_distinguished_name | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | [Object](../../../system/object/) representing distinguished name. |
+| encoded_distinguished_name | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>& | [Object](../../../system/object/) representing distinguished name. |
 
-## X500DistinguishedName::X500DistinguishedName(const ByteArrayPtr\&) constructor
+## X500DistinguishedName::X500DistinguishedName(const ByteArrayPtr&) constructor
 
 
 Constructor.
@@ -36,9 +36,9 @@ System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500Dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoded_distinguished_name | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded distinguished name. |
+| encoded_distinguished_name | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Encoded distinguished name. |
 
-## X500DistinguishedName::X500DistinguishedName(const String\&) constructor
+## X500DistinguishedName::X500DistinguishedName(const String&) constructor
 
 
 Constructor.
@@ -52,9 +52,9 @@ System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500Dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| distinguished_name | const [String](../../../system/string/)\& | Distinguished name. |
+| distinguished_name | const [String](../../../system/string/)& | Distinguished name. |
 
-## X500DistinguishedName::X500DistinguishedName(const SharedPtr\<X500DistinguishedName\>\&) constructor
+## X500DistinguishedName::X500DistinguishedName(const SharedPtr\<X500DistinguishedName\>&) constructor
 
 
 Copy constructor.
@@ -68,9 +68,9 @@ System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500Dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| distinguishedName | const [SharedPtr](../../../system/sharedptr/)\<[X500DistinguishedName](../)\>\& | Distinguished name to copy data from. |
+| distinguishedName | const [SharedPtr](../../../system/sharedptr/)\<[X500DistinguishedName](../)\>& | Distinguished name to copy data from. |
 
-## X500DistinguishedName::X500DistinguishedName(const String\&, X500DistinguishedNameFlags) constructor
+## X500DistinguishedName::X500DistinguishedName(const String&, X500DistinguishedNameFlags) constructor
 
 
 Constructor.
@@ -84,7 +84,7 @@ System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500Dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| distinguished_name | const [String](../../../system/string/)\& | Distinguished name. |
+| distinguished_name | const [String](../../../system/string/)& | Distinguished name. |
 | flags | [X500DistinguishedNameFlags](../../x500distinguishednameflags/) | Bitwise-combined flags specifying name building properties. |
 
 ## See Also

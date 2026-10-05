@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.xml/xmlnametable/get/
 ---
-## XmlNameTable::Get(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
+## XmlNameTable::Get(const ArrayPtr\<char16_t\>&, int32_t, int32_t) method
 
 
 When overridden in a derived class, gets the atomized string containing the same characters as the specified range of characters in the given array.
@@ -20,7 +20,7 @@ virtual const String & System::Xml::XmlNameTable::Get(const ArrayPtr<char16_t> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\& | The character array containing the name to look up. |
+| array | const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>& | The character array containing the name to look up. |
 | offset | **int32_t** | The zero-based index into the array specifying the first character of the name. |
 | length | **int32_t** | The number of characters in the name. |
 
@@ -28,7 +28,15 @@ virtual const String & System::Xml::XmlNameTable::Get(const ArrayPtr<char16_t> &
 
 The atomized string or **nullptr** if the string has not already been atomized. If **length** is zero, [String::Empty](../../../system/string/empty/) is returned.
 
-## XmlNameTable::Get(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| IndexOutOfRangeException | 0 \> **offset** or **offset** \>= **array.Length** or **length** \> **array.Length** The above conditions do not cause an exception to be thrown if **length** = 0. |
+| ArgumentOutOfRangeException | **length** \< 0. |
+
+
+## XmlNameTable::Get(const String&) method
 
 
 When overridden in a derived class, gets the atomized string containing the same value as the specified string.
@@ -42,11 +50,18 @@ virtual const String & System::Xml::XmlNameTable::Get(const String &array)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [String](../../../system/string/)\& | The name to look up. |
+| array | const [String](../../../system/string/)& | The name to look up. |
 
 ### Return Value
 
 The atomized string or **nullptr** if the string has not already been atomized.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **array** is **nullptr**. |
+
 
 ## See Also
 

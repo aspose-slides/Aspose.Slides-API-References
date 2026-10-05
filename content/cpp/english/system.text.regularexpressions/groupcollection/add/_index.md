@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.text.regularexpressions/groupcollection/add/
 ---
-## GroupCollection::Add(const GroupPtr\&) method
+## GroupCollection::Add(const GroupPtr&) method
 
 
 Disables adding element into collection.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::GroupCollection::Add(const GroupPtr &item
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [GroupPtr](../../groupptr/)\& | Item to add; ignored. |
+| item | const [GroupPtr](../../groupptr/)& | Item to add; ignored. |
 
 ## See Also
 

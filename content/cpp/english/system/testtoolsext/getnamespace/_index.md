@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/testtoolsext/getnamespace/
 ---
-## TestToolsExt::GetNamespace(const char *, const char *, std::string\&) method
+## TestToolsExt::GetNamespace(const char \*, const char \*, std::string&) method
 
 
 Retrieves namespace of specified test.
@@ -20,9 +20,9 @@ static bool System::TestToolsExt::GetNamespace(const char *class_name, const cha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| class_name | const char * | Class to look for. |
-| method_name | const char * | Method to look for. |
-| name_space | std::string\& | Variable to put namespace name into, if found. |
+| class_name | const char \* | Class to look for. |
+| method_name | const char \* | Method to look for. |
+| name_space | std::string& | Variable to put namespace name into, if found. |
 
 ### Return Value
 

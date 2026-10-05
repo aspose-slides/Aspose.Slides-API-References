@@ -1,7 +1,7 @@
 ---
 title: PropertyEffect()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "PropertyEffect::PropertyEffect() constructor"
 type: docs
 weight: 170
 url: /aspose.slides.animation/propertyeffect/propertyeffect/

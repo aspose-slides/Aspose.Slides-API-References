@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.io/file/readalltext/
 ---
-## File::ReadAllText(const String\&, const EncodingPtr\&) method
+## File::ReadAllText(const String&, const EncodingPtr&) method
 
 
 Reads the content of the specified text file to a single [String](../../../system/string/) object using the specified character encoding.
@@ -20,8 +20,8 @@ static String System::IO::File::ReadAllText(const String &path, const EncodingPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to read |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The path of the file to read |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ### Return Value
 

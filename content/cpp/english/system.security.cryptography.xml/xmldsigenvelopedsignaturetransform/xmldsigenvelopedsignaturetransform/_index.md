@@ -1,7 +1,7 @@
 ---
 title: XmlDsigEnvelopedSignatureTransform()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigEnvelopedSignatureTransform::XmlDsigEnvelopedSignatureTransform() constructor"
 type: docs
 weight: 27
 url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/xmldsigenvelopedsignaturetransform/

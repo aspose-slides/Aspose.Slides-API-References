@@ -1,7 +1,7 @@
 ---
 title: X509ChainStatusFlags
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: X509ChainStatusFlags enum
 type: docs
 weight: 222
 url: /system.security.cryptography.x509certificates/x509chainstatusflags/

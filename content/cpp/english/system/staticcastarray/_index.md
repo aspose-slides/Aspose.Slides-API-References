@@ -6,7 +6,7 @@ type: docs
 weight: 3017
 url: /system/staticcastarray/
 ---
-## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>\&) function
+## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>&) function
 
 
 Performs casting of elements of the specified array to different type. Override for cases then From is [SmartPtr](../smartptr/) obj.
@@ -27,7 +27,7 @@ template<typename To,typename From> std::enable_if_t<System::IsSmartPtr<From>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>\& | Shared pointer to the array containing the elements to cast |
+| from | const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>& | Shared pointer to the array containing the elements to cast |
 
 ### Return Value
 
@@ -36,10 +36,10 @@ A pointer to a new array containing elements of type **To** equivalent to the el
 Deprecated
 :   Added for backward compatibility. Use ExplicitCast instead.
 
-## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>\&) function
+## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>&) function
 
 
-Performs casting of elements of the specified array to different type. Override for cases then From is Boxable and To is [Object](../object/)[].
+Performs casting of elements of the specified array to different type. Override for cases then From is Boxable and To is [Object](../object/)\[\].
 
 ```cpp
 template<typename To,typename From> std::enable_if_t<!System::IsSmartPtr<From>::value &&System::IsBoxable<From>::value &&std::is_same<To, System::SharedPtr<Object>>::value, System::SharedPtr<System::Array<To>>> System::StaticCastArray(const System::SharedPtr<System::Array<From>> &from)
@@ -57,7 +57,7 @@ template<typename To,typename From> std::enable_if_t<!System::IsSmartPtr<From>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>\& | Shared pointer to the array containing the elements to cast |
+| from | const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>& | Shared pointer to the array containing the elements to cast |
 
 ### Return Value
 

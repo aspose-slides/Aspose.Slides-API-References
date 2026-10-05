@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/behaviorpropertycollection/indexof/
 ---
-## BehaviorPropertyCollection::IndexOf(const System::SharedPtr\<IBehaviorProperty\>\&) const method
+## BehaviorPropertyCollection::IndexOf(const System::SharedPtr\<IBehaviorProperty\>&) const method
 
 
 Determines the index of a specific item in the [IList](../../../system.collections.generic/ilist/).
@@ -20,13 +20,13 @@ int32_t Aspose::Slides::Animation::BehaviorPropertyCollection::IndexOf(const Sys
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | The object to locate in the [IList](../../../system.collections.generic/ilist/). |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>& | The object to locate in the [IList](../../../system.collections.generic/ilist/). |
 
 ### Return Value
 
 The index of *item*  if found in the list; otherwise, -1.
 
-## BehaviorPropertyCollection::IndexOf(const System::String\&) const method
+## BehaviorPropertyCollection::IndexOf(const System::String&) const method
 
 
 Determines the index of a specific item by property value in the [IList](../../../system.collections.generic/ilist/).
@@ -40,7 +40,7 @@ int32_t Aspose::Slides::Animation::BehaviorPropertyCollection::IndexOf(const Sys
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | const [System::String](../../../system/string/)\& | value of the property |
+| propertyValue | const [System::String](../../../system/string/)& | value of the property |
 
 ### Return Value
 

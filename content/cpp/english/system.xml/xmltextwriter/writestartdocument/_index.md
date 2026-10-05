@@ -1,7 +1,7 @@
 ---
 title: WriteStartDocument()
 second_title: Aspose.Slides for C++ API Reference
-description: Writes the XML declaration with the version \"1.0\".
+description: "Writes the XML declaration with the version \"1.0\"."
 type: docs
 weight: 196
 url: /system.xml/xmltextwriter/writestartdocument/
@@ -9,17 +9,24 @@ url: /system.xml/xmltextwriter/writestartdocument/
 ## XmlTextWriter::WriteStartDocument() method
 
 
-Writes the XML declaration with the version \"1.0\".
+Writes the XML declaration with the version "1.0".
 
 ```cpp
 void System::Xml::XmlTextWriter::WriteStartDocument() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | This is not the first write method called after the constructor. |
+
+
 ## XmlTextWriter::WriteStartDocument(bool) method
 
 
-Writes the XML declaration with the version \"1.0\" and the standalone attribute.
+Writes the XML declaration with the version "1.0" and the standalone attribute.
 
 ```cpp
 void System::Xml::XmlTextWriter::WriteStartDocument(bool standalone) override
@@ -30,7 +37,14 @@ void System::Xml::XmlTextWriter::WriteStartDocument(bool standalone) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| standalone | **bool** | If **true**, it writes \"standalone=yes\"; if **false**, it writes \"standalone=no\". |
+| standalone | **bool** | If **true**, it writes "standalone=yes"; if **false**, it writes "standalone=no". |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | This is not the first write method called after the constructor. |
+
 
 ## See Also
 

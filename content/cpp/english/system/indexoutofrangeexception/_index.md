@@ -1,7 +1,7 @@
 ---
 title: IndexOutOfRangeException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: IndexOutOfRangeException typedef
 type: docs
 weight: 4031
 url: /system/indexoutofrangeexception/

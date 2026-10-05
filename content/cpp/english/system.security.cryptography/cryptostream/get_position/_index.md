@@ -16,6 +16,13 @@ int64_t System::Security::Cryptography::CryptoStream::get_Position() const overr
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | Unconditionally as operation is not supported. |
+
+
 ## See Also
 
 * Class [CryptoStream](../)

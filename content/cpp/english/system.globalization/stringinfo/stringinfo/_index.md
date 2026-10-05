@@ -19,7 +19,7 @@ System::Globalization::StringInfo::StringInfo()
 
 
 Constructor. 
-## StringInfo::StringInfo(const String\&) constructor
+## StringInfo::StringInfo(const String&) constructor
 
 
 Constructor.
@@ -33,9 +33,9 @@ System::Globalization::StringInfo::StringInfo(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | A string to initialize this [StringInfo](../) object, |
+| value | const [String](../../../system/string/)& | A string to initialize this [StringInfo](../) object, |
 
-## StringInfo::StringInfo(const StringInfo\&) constructor
+## StringInfo::StringInfo(const StringInfo&) constructor
 
 
 

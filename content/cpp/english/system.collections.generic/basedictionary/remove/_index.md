@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections.generic/basedictionary/remove/
 ---
-## BaseDictionary::Remove(const key_t\&) method
+## BaseDictionary::Remove(const key_t&) method
 
 
 Removes specific key from dictionary.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseDictionary<Map>::Remove(const key_t &key)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to remove. |
+| key | const key_t& | Key to remove. |
 
 ### Return Value
 

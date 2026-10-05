@@ -39,7 +39,7 @@ class MathF
 | static **float** [Round](./round/)(**float**, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
 | static **float** [Round](./round/)(**float**, int, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
 | static **float** [RoundImpl](./roundimpl/)(**float**, int, [MidpointRounding](../midpointrounding/)) | Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers. |
-| static std::enable_if\<std::is_integral\<T\>::value\&&\!std::is_unsigned\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified signed integral value. |
+| static std::enable_if\<std::is_integral\<T\>::value&&!std::is_unsigned\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified signed integral value. |
 | static std::enable_if\<std::is_floating_point\<T\>::value, int\>::type [Sign](./sign/)(T) | Determines the sign of the specified floating-point value. |
 | static **float** [Sin](./sin/)(**float**) | Calculates the sine of the specified value. |
 | static **float** [Sinh](./sinh/)(**float**) | Calculates the hyperbolic sine of the specified value. |

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml.schema/xmlschemainfo/set_schematype/
 ---
-## XmlSchemaInfo::set_SchemaType(const SharedPtr\<XmlSchemaType\>\&) method
+## XmlSchemaInfo::set_SchemaType(const SharedPtr\<XmlSchemaType\>&) method
 
 
 Sets the static XML [Schema](../../) Definition Language (XSD) schema type of this validated XML node.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaInfo::set_SchemaType(const SharedPtr<XmlSchem
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../../xmlschematype/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../../xmlschematype/)\>& | The value to set. |
 
 ## See Also
 

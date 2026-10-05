@@ -22,10 +22,6 @@ System::SharedPtr<IEffectEffectiveData> Aspose::Slides::Effects::ImageTransformO
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

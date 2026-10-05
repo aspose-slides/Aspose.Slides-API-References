@@ -1,7 +1,7 @@
 ---
 title: "System::Globalization::Details"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Globalization::Details namespace"
 type: docs
 weight: 573
 url: /system.globalization.details/

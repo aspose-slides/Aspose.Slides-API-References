@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.threading/thread/operator_equal/
 ---
-## Thread::operator=(const Thread\&) method
+## Thread::operator=(const Thread&) method
 
 
 Copies TLS data from different thread.
@@ -20,7 +20,7 @@ Thread & System::Threading::Thread::operator=(const Thread &t)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| t | const [Thread](../)\& | [Thread](../) to copy data from. |
+| t | const [Thread](../)& | [Thread](../) to copy data from. |
 
 ### Return Value
 

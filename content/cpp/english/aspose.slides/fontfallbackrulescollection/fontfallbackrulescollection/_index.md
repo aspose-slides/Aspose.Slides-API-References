@@ -1,7 +1,7 @@
 ---
 title: FontFallBackRulesCollection()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FontFallBackRulesCollection::FontFallBackRulesCollection() constructor"
 type: docs
 weight: 105
 url: /aspose.slides/fontfallbackrulescollection/fontfallbackrulescollection/

@@ -16,6 +16,13 @@ ArrayPtr<X509ChainStatus> System::Security::Cryptography::X509Certificates::X509
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

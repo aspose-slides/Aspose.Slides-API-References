@@ -1,7 +1,7 @@
 ---
 title: "System::IO"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::IO namespace"
 type: docs
 weight: 586
 url: /system.io/
@@ -53,9 +53,9 @@ url: /system.io/
 
 | Function | Description |
 | --- | --- |
-| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_istream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Wrapper function for std::basic_istream-like streams. |
-| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_ostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Wrapper function for std::basic_ostream-like streams. |
-| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_iostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/), [STDIOStreamPositionPreference](./stdiostreampositionpreference/)) | Wrapper function for std::basic_iostream-like streams. |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_istream\<char_type, traits_type\>&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Wrapper function for std::basic_istream-like streams. |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_ostream\<char_type, traits_type\>&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/)) | Wrapper function for std::basic_ostream-like streams. |
+| [SharedPtr](../system/sharedptr/)\<[Stream](./stream/)\> [WrapSTDIOStream](./wrapstdiostream/)(std::basic_iostream\<char_type, traits_type\>&, [STDIOStreamWrappingMode](./stdiostreamwrappingmode/), [STDIOStreamPositionPreference](./stdiostreampositionpreference/)) | Wrapper function for std::basic_iostream-like streams. |
 ## Enums
 
 | Enum | Description |

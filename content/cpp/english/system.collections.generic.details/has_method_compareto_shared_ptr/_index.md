@@ -9,7 +9,7 @@ url: /system.collections.generic.details/has_method_compareto_shared_ptr/
 ## has_method_compareto_shared_ptr struct
 
 
-Checks whether CompareTo(SharedPtr<T>) method exists in specified type. If so, inherits std::true_type, otherwise inherits std::false_type. Can be used in std::enable_if.
+Checks whether CompareTo(SharedPtr\<T\>) method exists in specified type. If so, inherits std::true_type, otherwise inherits std::false_type. Can be used in std::enable_if.
 
 ```cpp
 template<typename T,typename Sfinae>class has_method_compareto_shared_ptr : public std::false_type

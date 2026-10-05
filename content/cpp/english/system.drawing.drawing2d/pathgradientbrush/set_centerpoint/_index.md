@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.drawing.drawing2d/pathgradientbrush/set_centerpoint/
 ---
-## PathGradientBrush::set_CenterPoint(const PointF\&) method
+## PathGradientBrush::set_CenterPoint(const PointF&) method
 
 
 Sets the center point of the gradient.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathGradientBrush::set_CenterPoint(const PointF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [PointF](../../../system.drawing/pointf/)\& | The value to set |
+| value | const [PointF](../../../system.drawing/pointf/)& | The value to set |
 
 ## See Also
 

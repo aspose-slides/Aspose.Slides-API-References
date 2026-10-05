@@ -20,6 +20,13 @@ virtual String System::Xml::XmlReader::ReadInnerXml()
 
 All the XML content, including markup, in the current node. If the current node has no children, an empty string is returned. If the current node is neither an element nor attribute, an empty string is returned.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The XML was not well-formed, or an error occurred while parsing the XML. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

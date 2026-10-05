@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.drawing/rectangle/ceiling/
 ---
-## Rectangle::Ceiling(const RectangleF\&) method
+## Rectangle::Ceiling(const RectangleF&) method
 
 
 Constructs a [Rectangle](../) object from the specified [RectangleF](../../rectanglef/) object by rounding the [RectangleF](../../rectanglef/) object's location and size values to the next higher integer values.
@@ -20,7 +20,7 @@ static Rectangle System::Drawing::Rectangle::Ceiling(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | The [RectangleF](../../rectanglef/) object to convert |
+| rect | const [RectangleF](../../rectanglef/)& | The [RectangleF](../../rectanglef/) object to convert |
 
 ### Return Value
 

@@ -16,6 +16,13 @@ void System::Xml::Schema::XmlSchemaValidator::EndValidation()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | An identity constraint error was found in the XML document. |
+
+
 ## See Also
 
 * Class [XmlSchemaValidator](../)

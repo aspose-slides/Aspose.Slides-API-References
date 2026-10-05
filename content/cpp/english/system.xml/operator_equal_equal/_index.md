@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /system.xml/operator_equal_equal/
 ---
-## System::Xml::operator==(const SharedPtr\<XmlQualifiedName\>\&, const SharedPtr\<XmlQualifiedName\>\&) function
+## System::Xml::operator==(const SharedPtr\<XmlQualifiedName\>&, const SharedPtr\<XmlQualifiedName\>&) function
 
 
 Compares two [XmlQualifiedName](../xmlqualifiedname/) objects.
@@ -20,8 +20,8 @@ bool System::Xml::operator==(const SharedPtr<XmlQualifiedName> &a, const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [SharedPtr](../../system/sharedptr/)\<[XmlQualifiedName](../xmlqualifiedname/)\>\& | An [XmlQualifiedName](../xmlqualifiedname/) to compare. |
-| b | const [SharedPtr](../../system/sharedptr/)\<[XmlQualifiedName](../xmlqualifiedname/)\>\& | An [XmlQualifiedName](../xmlqualifiedname/) to compare. |
+| a | const [SharedPtr](../../system/sharedptr/)\<[XmlQualifiedName](../xmlqualifiedname/)\>& | An [XmlQualifiedName](../xmlqualifiedname/) to compare. |
+| b | const [SharedPtr](../../system/sharedptr/)\<[XmlQualifiedName](../xmlqualifiedname/)\>& | An [XmlQualifiedName](../xmlqualifiedname/) to compare. |
 
 ### Return Value
 

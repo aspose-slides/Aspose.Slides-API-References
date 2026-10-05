@@ -16,6 +16,13 @@ static int System::Windows::Forms::SystemInformation::get_MonitorCount()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Struct [SystemInformation](../)

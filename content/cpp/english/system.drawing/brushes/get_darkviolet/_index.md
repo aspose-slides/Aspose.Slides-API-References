@@ -1,7 +1,7 @@
 ---
 title: get_DarkViolet()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF9400D3.
+description: "Returns the solid fill color whose hexadecimal value is #FF9400D3."
 type: docs
 weight: 482
 url: /system.drawing/brushes/get_darkviolet/

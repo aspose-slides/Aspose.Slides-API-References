@@ -31,6 +31,13 @@ System::Collections::Generic::Stack<T>::Stack(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve; ignored. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | if capacity is less than zero. |
+
+
 ## Stack::Stack(IEnumerablePtr) constructor
 
 
@@ -46,6 +53,13 @@ System::Collections::Generic::Stack<T>::Stack(IEnumerablePtr collection)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | [IEnumerablePtr](../ienumerableptr/) | Collection to copy elements from. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if collection is nullptr. |
+
 
 ## See Also
 

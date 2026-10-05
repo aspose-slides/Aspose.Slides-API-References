@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.security/securityelement/isvalidtag/
 ---
-## SecurityElement::IsValidTag(const String\&) method
+## SecurityElement::IsValidTag(const String&) method
 
 
 Checks if tag is valid.
@@ -20,7 +20,7 @@ static bool System::Security::SecurityElement::IsValidTag(const String &tag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const [String](../../../system/string/)\& | Tag to test. |
+| tag | const [String](../../../system/string/)& | Tag to test. |
 
 ### Return Value
 

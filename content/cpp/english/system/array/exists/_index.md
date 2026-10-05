@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /system/array/exists/
 ---
-## Array::Exists(ArrayPtr\<T\>, std::function\<bool(T)>) method
+## Array::Exists(ArrayPtr\<T\>, std::function\<bool(T)\>) method
 
 
 Determines if the specified [Array](../) object contains an element that satisfies requirements of the specified predicate.
@@ -21,7 +21,7 @@ static bool System::Array<T>::Exists(ArrayPtr<T> arr, std::function<bool(T)> mat
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arr | [ArrayPtr](../../arrayptr/)\<T\> | The array to look for the element in |
-| match | std::function\<**bool**(T)> | Function object that defines requirements and checks if an element satisfies them |
+| match | std::function\<**bool**(T)\> | Function object that defines requirements and checks if an element satisfies them |
 
 ### Return Value
 

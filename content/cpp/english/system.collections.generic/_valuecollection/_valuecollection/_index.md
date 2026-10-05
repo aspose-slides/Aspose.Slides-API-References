@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/_valuecollection/_valuecollection/
 ---
-## _ValueCollection::_ValueCollection(const typename Dict::Ptr\&) constructor
+## _ValueCollection::_ValueCollection(const typename Dict::Ptr&) constructor
 
 
 Initializes collection referencing specified dictionary.
@@ -20,7 +20,7 @@ System::Collections::Generic::_ValueCollection<Dict>::_ValueCollection(const typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dict | const typename Dict::Ptr\& | [Dictionary](../../dictionary/) to reference. |
+| dict | const typename Dict::Ptr& | [Dictionary](../../dictionary/) to reference. |
 
 ## See Also
 

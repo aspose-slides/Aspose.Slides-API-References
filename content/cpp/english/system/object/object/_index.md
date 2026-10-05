@@ -15,7 +15,7 @@ Creates object. Initializes all internal data structures.
 System::Object::Object()
 ```
 
-## Object::Object(Object const\&) constructor
+## Object::Object(Object const&) constructor
 
 
 Copy constructor. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses.
@@ -29,7 +29,7 @@ System::Object::Object(Object const &x)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [Object](../) const\& | Formal parameter. |
+| x | [Object](../) const& | Formal parameter. |
 
 ## See Also
 

@@ -26,6 +26,13 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::RemoveAttributeNode(Sha
 
 The removed [XmlAttribute](../../xmlattribute/) or **nullptr** if **oldAttr** is not an attribute node of the [XmlElement](../).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | This node is read-only. |
+
+
 ## XmlElement::RemoveAttributeNode(String, String) method
 
 
@@ -46,6 +53,13 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::RemoveAttributeNode(Str
 ### Return Value
 
 The removed [XmlAttribute](../../xmlattribute/) or **nullptr** if the [XmlElement](../) does not have a matching attribute node.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | This node is read-only. |
+
 
 ## See Also
 

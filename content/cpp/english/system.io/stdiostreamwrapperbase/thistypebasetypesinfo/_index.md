@@ -1,7 +1,7 @@
 ---
 title: ThisTypeBaseTypesInfo
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ThisTypeBaseTypesInfo typedef
 type: docs
 weight: 157
 url: /system.io/stdiostreamwrapperbase/thistypebasetypesinfo/

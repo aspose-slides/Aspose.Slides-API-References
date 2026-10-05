@@ -27,7 +27,7 @@ String System::String::Replace(char_t oldValue, char_t newValue) const
 
 [String](../) with replacement done.
 
-## String::Replace(const String\&, const String\&) const method
+## String::Replace(const String&, const String&) const method
 
 
 Replaces all occurrences of lookup in this string.
@@ -41,8 +41,8 @@ String System::String::Replace(const String &oldValue, const String &newValue) c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldValue | const [String](../)\& | [String](../) to replace. |
-| newValue | const [String](../)\& | replacement string. |
+| oldValue | const [String](../)& | [String](../) to replace. |
+| newValue | const [String](../)& | replacement string. |
 
 ### Return Value
 

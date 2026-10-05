@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.imaging/encoder/encoder/
 ---
-## Encoder::Encoder(const Guid\&) constructor
+## Encoder::Encoder(const Guid&) constructor
 
 
 Constructs a new instance of [Encoder](../) class.
@@ -20,7 +20,7 @@ System::Drawing::Imaging::Encoder::Encoder(const Guid &guid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| guid | const [Guid](../../../system/guid/)\& | A GUID that specifies a set of image encoder parameters the object being corstructed should represent. |
+| guid | const [Guid](../../../system/guid/)& | A GUID that specifies a set of image encoder parameters the object being corstructed should represent. |
 
 ## See Also
 

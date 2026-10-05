@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/graphics/fromimage/
 ---
-## Graphics::FromImage(const SharedPtr\<Image\>\&) method
+## Graphics::FromImage(const SharedPtr\<Image\>&) method
 
 
 Creates a new [Graphics](../) object from the specified image.
@@ -20,7 +20,7 @@ static SharedPtr<Graphics> System::Drawing::Graphics::FromImage(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | An [Image](../../image/) object from which a [Graphics](../) object should be created |
+| image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>& | An [Image](../../image/) object from which a [Graphics](../) object should be created |
 
 ### Return Value
 

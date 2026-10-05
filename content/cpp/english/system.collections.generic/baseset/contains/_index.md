@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.generic/baseset/contains/
 ---
-## BaseSet::Contains(const T\&) const method
+## BaseSet::Contains(const T&) const method
 
 
 Checks if element is present in set.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseSet<T, SET_T>::Contains(const T &item) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

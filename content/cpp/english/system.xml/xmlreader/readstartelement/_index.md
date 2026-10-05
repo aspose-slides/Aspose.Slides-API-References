@@ -16,6 +16,13 @@ virtual void System::Xml::XmlReader::ReadStartElement()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML was encountered in the input stream. |
+
+
 ## XmlReader::ReadStartElement(String) method
 
 
@@ -31,6 +38,13 @@ virtual void System::Xml::XmlReader::ReadStartElement(String name)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The qualified name of the element. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML was encountered in the input stream. The [XmlReader::get_Name](../get_name/) of the element does not match the given **name**. |
+
 
 ## XmlReader::ReadStartElement(String, String) method
 
@@ -48,6 +62,13 @@ virtual void System::Xml::XmlReader::ReadStartElement(String localname, String n
 | --- | --- | --- |
 | localname | [String](../../../system/string/) | The local name of the element. |
 | ns | [String](../../../system/string/) | The namespace URI of the element. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML was encountered in the input stream. The [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values of the element found do not match the given arguments. |
+
 
 ## See Also
 

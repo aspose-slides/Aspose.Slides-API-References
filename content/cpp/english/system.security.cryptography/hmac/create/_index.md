@@ -16,6 +16,13 @@ static SharedPtr<HMAC> System::Security::Cryptography::HMAC::Create()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

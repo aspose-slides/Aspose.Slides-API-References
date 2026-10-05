@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/weakreference_tmpl_end_tmpl/set_target/
 ---
-## WeakReference<>::set_Target(const SmartPtr\<Object\>\&) method
+## WeakReference\<\>::set_Target(const SmartPtr\<Object\>&) method
 
 
 Sets the object (the target) referenced by the current WeakReference object.
@@ -20,12 +20,12 @@ void System::WeakReference<>::set_Target(const SmartPtr<Object> &data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to set. |
+| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to set. |
 
 ## See Also
 
 * Class [SmartPtr](../../smartptr/)
 * Class [Object](../../object/)
-* Class [WeakReference<>](../)
+* Class [WeakReference\<\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

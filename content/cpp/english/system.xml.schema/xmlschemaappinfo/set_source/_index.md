@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaappinfo/set_source/
 ---
-## XmlSchemaAppInfo::set_Source(const String\&) method
+## XmlSchemaAppInfo::set_Source(const String&) method
 
 
 Sets the source of the application information.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAppInfo::set_Source(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

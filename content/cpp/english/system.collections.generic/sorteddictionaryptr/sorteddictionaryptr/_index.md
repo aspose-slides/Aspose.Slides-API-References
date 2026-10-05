@@ -15,7 +15,7 @@ Constructs null pointer.
 System::Collections::Generic::SortedDictionaryPtr<T, V>::SortedDictionaryPtr()
 ```
 
-## SortedDictionaryPtr::SortedDictionaryPtr(const SharedPtr\<SortedDictionary\<T, V\>\>\&) constructor
+## SortedDictionaryPtr::SortedDictionaryPtr(const SharedPtr\<SortedDictionary\<T, V\>\>&) constructor
 
 
 Constructs pointer to specified sorted dictionary.
@@ -29,7 +29,7 @@ System::Collections::Generic::SortedDictionaryPtr<T, V>::SortedDictionaryPtr(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[SortedDictionary](../../sorteddictionary/)\<T, V\>\>\& | [Dictionary](../../dictionary/) to point to. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[SortedDictionary](../../sorteddictionary/)\<T, V\>\>& | [Dictionary](../../dictionary/) to point to. |
 
 ## See Also
 

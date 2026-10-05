@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/guid/compareto/
 ---
-## Guid::CompareTo(const Guid\&) const method
+## Guid::CompareTo(const Guid&) const method
 
 
 Performs arithmetic comparison of the GUIDs represented by the current and specified objects.
@@ -20,7 +20,7 @@ int System::Guid::CompareTo(const Guid &g) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| g | const [Guid](../)\& | The comparand |
+| g | const [Guid](../)& | The comparand |
 
 ### Return Value
 

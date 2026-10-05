@@ -6,7 +6,7 @@ type: docs
 weight: 2276
 url: /system/buildobject/
 ---
-## System::BuildObject(Args\&&...) function
+## System::BuildObject(Args&&...) function
 
 
 Build an object with shared ownership.
@@ -27,7 +27,7 @@ template<typename T,typename...> Details::ObjectBuilder<T, SharedPtr<T>> System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | Args\&&... | Arguments to forward to object constructor |
+| args | Args&&... | Arguments to forward to object constructor |
 
 ### Return Value
 
@@ -36,7 +36,7 @@ ObjectBuilder configured for shared pointer construction
 
 
 
-Creates a SharedPtr<T> and returns a builder for it 
+Creates a SharedPtr\<T\> and returns a builder for it 
 [Object](../object/) construction must be finished with [Get()](../get/) call 
 
 ## See Also

@@ -15,7 +15,7 @@ Null pointer constructor.
 System::Text::RegularExpressions::GroupCollectionPtr::GroupCollectionPtr()
 ```
 
-## GroupCollectionPtr::GroupCollectionPtr(const SharedPtr\<GroupCollection\>\&) constructor
+## GroupCollectionPtr::GroupCollectionPtr(const SharedPtr\<GroupCollection\>&) constructor
 
 
 Type convesion constructor.
@@ -29,7 +29,7 @@ System::Text::RegularExpressions::GroupCollectionPtr::GroupCollectionPtr(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[GroupCollection](../../groupcollection/)\>\& | [Object](../../../system/object/) to reference. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[GroupCollection](../../groupcollection/)\>& | [Object](../../../system/object/) to reference. |
 
 ## See Also
 

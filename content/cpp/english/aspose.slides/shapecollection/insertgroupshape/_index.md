@@ -1,7 +1,7 @@
 ---
 title: InsertGroupShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new empty group shape and inserts it to the shape collection at the specified index. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+description: Creates a new empty group shape and inserts it to the shape collection at the specified index. The group’s frame will automatically adjust to fit any shapes added to it.
 type: docs
 weight: 404
 url: /aspose.slides/shapecollection/insertgroupshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertgroupshape/
 ## ShapeCollection::InsertGroupShape(int32_t) method
 
 
-Creates a new empty group shape and inserts it to the shape collection at the specified index. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+Creates a new empty group shape and inserts it to the shape collection at the specified index. The group’s frame will automatically adjust to fit any shapes added to it.
 
 ```cpp
 System::SharedPtr<IGroupShape> Aspose::Slides::ShapeCollection::InsertGroupShape(int32_t index) override

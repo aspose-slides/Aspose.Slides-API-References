@@ -1,12 +1,12 @@
 ---
 title: operator*()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Drawing::operator*() function"
 type: docs
 weight: 79
 url: /aspose.slides.drawing/operator_star/
 ---
-## Aspose::Slides::Drawing::operator*(Margin32f, float) function
+## Aspose::Slides::Drawing::operator\*(Margin32f, float) function
 
 
 
@@ -15,7 +15,7 @@ url: /aspose.slides.drawing/operator_star/
 Margin32f Aspose::Slides::Drawing::operator*(Margin32f l, float r)
 ```
 
-## Aspose::Slides::Drawing::operator*(Margin64d, double) function
+## Aspose::Slides::Drawing::operator\*(Margin64d, double) function
 
 
 
@@ -24,7 +24,7 @@ Margin32f Aspose::Slides::Drawing::operator*(Margin32f l, float r)
 Margin64d Aspose::Slides::Drawing::operator*(Margin64d l, double r)
 ```
 
-## Aspose::Slides::Drawing::operator*(Vector2d32f, float) function
+## Aspose::Slides::Drawing::operator\*(Vector2d32f, float) function
 
 
 
@@ -33,7 +33,7 @@ Margin64d Aspose::Slides::Drawing::operator*(Margin64d l, double r)
 Vector2d32f Aspose::Slides::Drawing::operator*(Vector2d32f l, float r)
 ```
 
-## Aspose::Slides::Drawing::operator*(Vector2d64d, int32_t) function
+## Aspose::Slides::Drawing::operator\*(Vector2d64d, int32_t) function
 
 
 
@@ -42,7 +42,7 @@ Vector2d32f Aspose::Slides::Drawing::operator*(Vector2d32f l, float r)
 Vector2d64d Aspose::Slides::Drawing::operator*(Vector2d64d l, int32_t r)
 ```
 
-## Aspose::Slides::Drawing::operator*(Vector2d64d, double) function
+## Aspose::Slides::Drawing::operator\*(Vector2d64d, double) function
 
 
 

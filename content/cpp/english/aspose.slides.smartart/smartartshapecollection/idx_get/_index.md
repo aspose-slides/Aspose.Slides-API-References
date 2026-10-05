@@ -9,7 +9,7 @@ url: /aspose.slides.smartart/smartartshapecollection/idx_get/
 ## SmartArtShapeCollection::idx_get(int32_t) method
 
 
-Gets the element at the specified index. Read-only [SmartArtShape](../../smartartshape/).>.
+Gets the element at the specified index. Read-only [SmartArtShape](../../smartartshape/).\>.
 
 ```cpp
 System::SharedPtr<ISmartArtShape> Aspose::Slides::SmartArt::SmartArtShapeCollection::idx_get(int32_t index) override

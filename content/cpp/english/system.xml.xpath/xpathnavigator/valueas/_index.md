@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.xml.xpath/xpathnavigator/valueas/
 ---
-## XPathNavigator::ValueAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
+## XPathNavigator::ValueAs(const TypeInfo&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Returns the current node's value as the Type specified, using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -20,12 +20,20 @@ SharedPtr<Object> System::Xml::XPath::XPathNavigator::ValueAs(const TypeInfo &re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| returnType | const [TypeInfo](../../../system/typeinfo/)\& | The Type to return the current node's value as. |
+| returnType | const [TypeInfo](../../../system/typeinfo/)& | The Type to return the current node's value as. |
 | nsResolver | [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\> | The [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object used to resolve namespace prefixes. |
 
 ### Return Value
 
 The value of the current node as the Type requested.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's value is not in the correct format for the target type. |
+| InvalidCastException | The attempted cast is not valid. |
+
 
 ## See Also
 

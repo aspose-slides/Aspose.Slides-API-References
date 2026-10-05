@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.security.cryptography/dsa/createfromxmlstring/
 ---
-## DSA::CreateFromXmlString(const String\&) method
+## DSA::CreateFromXmlString(const String&) method
 
 
 Creates default [DSA](../) algorithm implementation with specifed XML-encoded parameters.
@@ -20,7 +20,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::CreateFromXmlString(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_string | const [String](../../../system/string/)\& | The parameters for the [DSA](../) algorithm. |
+| xml_string | const [String](../../../system/string/)& | The parameters for the [DSA](../) algorithm. |
 
 ## See Also
 

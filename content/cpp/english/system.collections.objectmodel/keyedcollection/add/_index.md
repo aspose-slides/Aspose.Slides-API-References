@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.objectmodel/keyedcollection/add/
 ---
-## KeyedCollection::Add(const TItem\&) method
+## KeyedCollection::Add(const TItem&) method
 
 
 Add item to container end.
@@ -20,7 +20,7 @@ virtual void System::Collections::ObjectModel::KeyedCollection<TKey, TItem>::Add
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const TItem\& | Item to add. |
+| item | const TItem& | Item to add. |
 
 ## See Also
 

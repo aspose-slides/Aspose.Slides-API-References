@@ -6,10 +6,10 @@ type: docs
 weight: 261
 url: /system/nullable/operator_or_equal/
 ---
-## Nullable::operator|=(bool) method
+## Nullable::operator\|=(bool) method
 
 
-Applies [operator|=()](./) to the value represented by the current object using the specified value as a right-side argument.
+Applies [operator\|=()](./) to the value represented by the current object using the specified value as a right-side argument.
 
 ```cpp
 template<typename T1> std::enable_if<std::is_same<T1, bool>::value, Nullable<T>>::type System::Nullable<T>::operator|=(bool other)
@@ -26,7 +26,7 @@ template<typename T1> std::enable_if<std::is_same<T1, bool>::value, Nullable<T>>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | **bool** | A boolean value that is used as a right-side value of the [operator|=()](./) applied to the value represented by the current object. |
+| other | **bool** | A boolean value that is used as a right-side value of the [operator\|=()](./) applied to the value represented by the current object. |
 
 ### Return Value
 

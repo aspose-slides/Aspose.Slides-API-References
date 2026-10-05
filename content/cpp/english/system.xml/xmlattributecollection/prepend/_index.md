@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlattributecollection/prepend/
 ---
-## XmlAttributeCollection::Prepend(const SharedPtr\<XmlAttribute\>\&) method
+## XmlAttributeCollection::Prepend(const SharedPtr\<XmlAttribute\>&) method
 
 
 Inserts the specified attribute as the first node in the collection.
@@ -20,7 +20,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::Prepend(const Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\& | The attribute to insert. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>& | The attribute to insert. |
 
 ### Return Value
 

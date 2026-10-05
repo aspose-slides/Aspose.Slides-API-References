@@ -9,7 +9,7 @@ url: /aspose.slides.charts/axis/get_showmajorgridlines/
 ## Axis::get_ShowMajorGridLines() method
 
 
-To hide major gridline set [get_MajorGridLinesFormat()](../get_majorgridlinesformat/)->get_Line()->get_FillFormat()->get(set)_FillType() to [FillType::NoFill](../../../aspose.slides/filltype/). Read-only **bool**.
+To hide major gridline set [get_MajorGridLinesFormat()](../get_majorgridlinesformat/)-\>get_Line()-\>get_FillFormat()-\>get(set)_FillType() to [FillType::NoFill](../../../aspose.slides/filltype/). Read-only **bool**.
 
 ```cpp
 bool Aspose::Slides::Charts::Axis::get_ShowMajorGridLines() override

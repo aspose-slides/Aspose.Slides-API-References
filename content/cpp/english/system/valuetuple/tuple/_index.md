@@ -1,7 +1,7 @@
 ---
 title: tuple()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::tuple() method"
 type: docs
 weight: 105
 url: /system/valuetuple/tuple/

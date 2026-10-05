@@ -1,7 +1,7 @@
 ---
 title: get_LightPink()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFB6C1.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFB6C1."
 type: docs
 weight: 898
 url: /system.drawing/brushes/get_lightpink/

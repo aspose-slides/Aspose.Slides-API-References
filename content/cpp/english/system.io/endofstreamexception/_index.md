@@ -1,7 +1,7 @@
 ---
 title: EndOfStreamException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: EndOfStreamException typedef
 type: docs
 weight: 625
 url: /system.io/endofstreamexception/

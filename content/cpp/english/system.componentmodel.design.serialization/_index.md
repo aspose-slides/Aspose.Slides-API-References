@@ -1,7 +1,7 @@
 ---
 title: "System::ComponentModel::Design::Serialization"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::ComponentModel::Design::Serialization namespace"
 type: docs
 weight: 430
 url: /system.componentmodel.design.serialization/

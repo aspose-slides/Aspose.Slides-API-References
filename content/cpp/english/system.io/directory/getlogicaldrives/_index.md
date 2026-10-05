@@ -16,6 +16,13 @@ static ArrayPtr<String> System::IO::Directory::GetLogicalDrives()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| IOException | Always |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

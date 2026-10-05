@@ -1,7 +1,7 @@
 ---
 title: set_IssuerName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509IssuerSerial::set_IssuerName() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/x509issuerserial/set_issuername/

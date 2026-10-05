@@ -6,7 +6,7 @@ type: docs
 weight: 2666
 url: /system/ascast/
 ---
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used when simple constructor-like cast is needed.
@@ -27,13 +27,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used when the source and the result types are the same.
@@ -54,13 +54,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for exception wrappers.
@@ -81,13 +81,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result. Returns nullptr if no conversion available.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for casting object to exception.
@@ -108,13 +108,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result. Returns nullptr if no conversion available.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used when the source and result both are smart pointers.
@@ -135,16 +135,16 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result. Returns nullptr if no conversion available.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
-Casts the source type to the result type using 'as' operator cast. Used when the source and result both are smart pointers (with expicit SmartPtr<...> in result type).
+Casts the source type to the result type using 'as' operator cast. Used when the source and result both are smart pointers (with expicit SmartPtr\<...\> in result type).
 
 ```cpp
 template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::PointerToPointer, Result> System::AsCast(const Source &value)
@@ -162,13 +162,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result. Returns nullptr if no conversion available.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for unboxing object to nullable.
@@ -189,13 +189,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result. Returns empty nullable if no conversion available.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Invalid unboxing to non-object type.
@@ -216,13 +216,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 Always returns null.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Invalid unboxing to non-object type.
@@ -243,13 +243,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 Always returns null.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for boxing nullable object.
@@ -270,13 +270,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for boxing common object.
@@ -297,13 +297,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for boxing common object.
@@ -324,13 +324,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for string unboxing.
@@ -351,13 +351,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used for nullptr casing.
@@ -378,13 +378,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::AsCast(const Source\&) function
+## System::AsCast(const Source&) function
 
 
 Casts the source type to the result type using 'as' operator cast. Used to cast between arrays.
@@ -405,7 +405,7 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 

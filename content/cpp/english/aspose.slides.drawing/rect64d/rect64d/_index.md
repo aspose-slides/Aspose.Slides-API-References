@@ -1,7 +1,7 @@
 ---
 title: Rect64d()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rect64d::Rect64d() constructor"
 type: docs
 weight: 1
 url: /aspose.slides.drawing/rect64d/rect64d/

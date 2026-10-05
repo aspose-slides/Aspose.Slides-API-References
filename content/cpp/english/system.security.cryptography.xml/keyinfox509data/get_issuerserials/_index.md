@@ -1,7 +1,7 @@
 ---
 title: get_IssuerSerials()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::get_IssuerSerials() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/keyinfox509data/get_issuerserials/

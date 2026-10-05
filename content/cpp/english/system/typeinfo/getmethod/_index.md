@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /system/typeinfo/getmethod/
 ---
-## TypeInfo::GetMethod(const String\&) const method
+## TypeInfo::GetMethod(const String&) const method
 
 
 Gets method with specified name.
@@ -20,7 +20,7 @@ SharedPtr<System::Reflection::MethodInfo> System::TypeInfo::GetMethod(const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | Name of the method to get. |
+| name | const [String](../../string/)& | Name of the method to get. |
 
 ### Return Value
 

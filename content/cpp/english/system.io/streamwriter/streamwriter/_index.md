@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/streamwriter/streamwriter/
 ---
-## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using UTF-8 encoding and a buffer with default size of 1024 bytes.
@@ -20,9 +20,9 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying stream to write characters to |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The underlying stream to write characters to |
 
-## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&, const EncodingPtr\&) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>&, const EncodingPtr&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using the specified encoding and a buffer with default size of 1024 bytes.
@@ -36,10 +36,10 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream, const En
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying stream to write characters to |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The underlying stream to write characters to |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The encoding to use |
 
-## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&, const EncodingPtr\&, int, bool) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>&, const EncodingPtr&, int, bool) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using the specified encoding and a buffer of the specified size. A parameter specifies whether the underlying stream should be closed when the [StreamWriter](../) object is disposed.
@@ -53,12 +53,12 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream, const En
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying stream to write characters to |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The underlying stream to write characters to |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The encoding to use |
 | buffer_size | int | The minimum size of the buffer in bytes |
 | leave_open | **bool** | Specifies whether the underlying stream should be left open after the current [StreamWriter](../) object is disposed |
 
-## StreamWriter::StreamWriter(const String\&) constructor
+## StreamWriter::StreamWriter(const String&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using UTF-8 encoding and a buffer with default size of 1024 bytes.
@@ -72,9 +72,9 @@ System::IO::StreamWriter::StreamWriter(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to write characters to |
+| path | const [String](../../../system/string/)& | The path of the file to write characters to |
 
-## StreamWriter::StreamWriter(const String\&, bool, const EncodingPtr\&) constructor
+## StreamWriter::StreamWriter(const String&, bool, const EncodingPtr&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using the specified encoding and a buffer with default size of 1024 bytes. A parameter specifies whether the data should be appened to the file or the file should be overwritten.
@@ -88,11 +88,11 @@ System::IO::StreamWriter::StreamWriter(const String &path, bool append, const En
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to write characters to |
+| path | const [String](../../../system/string/)& | The path of the file to write characters to |
 | append | **bool** | Specifies whether the data should be appended to the specified file (true) or the file should be overwritten (false) |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The encoding to use |
 
-## StreamWriter::StreamWriter(const String\&, bool, const EncodingPtr\&, int) constructor
+## StreamWriter::StreamWriter(const String&, bool, const EncodingPtr&, int) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using the specified encoding and buffer size. A parameter specifies whether the data should be appened to the file or the file should be overwritten.
@@ -106,9 +106,9 @@ System::IO::StreamWriter::StreamWriter(const String &path, bool append, const En
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to write characters to |
+| path | const [String](../../../system/string/)& | The path of the file to write characters to |
 | append | **bool** | Specifies whether the data should be appended to the specified file (true) or the file should be overwritten (false) |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The encoding to use |
 | buffer_size | int | The size of buffer to use |
 
 ## See Also

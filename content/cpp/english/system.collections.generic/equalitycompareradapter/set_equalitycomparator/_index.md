@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic/equalitycompareradapter/set_equalitycomparator/
 ---
-## EqualityComparerAdapter::set_EqualityComparator(const SharedPtr\<IEqualityComparer\<T\>\>\&) method
+## EqualityComparerAdapter::set_EqualityComparator(const SharedPtr\<IEqualityComparer\<T\>\>&) method
 
 
 Sets comparator.
@@ -20,7 +20,7 @@ void System::Collections::Generic::EqualityComparerAdapter<T>::set_EqualityCompa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparator | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | Comparator to use. |
+| comparator | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>& | Comparator to use. |
 
 ## See Also
 

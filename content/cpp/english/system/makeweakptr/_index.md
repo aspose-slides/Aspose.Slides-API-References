@@ -6,7 +6,7 @@ type: docs
 weight: 2939
 url: /system/makeweakptr/
 ---
-## System::MakeWeakPtr(X *) function
+## System::MakeWeakPtr(X \*) function
 
 
 Converts raw pointer to weak pointer.
@@ -26,13 +26,13 @@ template<class X> SmartPtr<X> System::MakeWeakPtr(X *p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | X * | Raw pointer to object. |
+| p | X \* | Raw pointer to object. |
 
 ### Return Value
 
 Weak smart pointer to object.
 
-## System::MakeWeakPtr(const X *) function
+## System::MakeWeakPtr(const X \*) function
 
 
 Converts raw pointer to weak pointer. Overload for const pointers. Useful e. g. when using 'this' variable in C# methods translated as const.
@@ -52,7 +52,7 @@ template<class X> SmartPtr<X> System::MakeWeakPtr(const X *p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | const X * | Raw pointer to object. |
+| p | const X \* | Raw pointer to object. |
 
 ### Return Value
 

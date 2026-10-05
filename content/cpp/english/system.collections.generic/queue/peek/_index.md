@@ -20,6 +20,13 @@ T System::Collections::Generic::Queue<T>::Peek()
 
 First item in queue.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if the queue is empty. |
+
+
 ## See Also
 
 * Class [Queue](../)

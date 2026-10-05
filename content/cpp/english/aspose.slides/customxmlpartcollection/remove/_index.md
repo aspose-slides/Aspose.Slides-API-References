@@ -26,6 +26,13 @@ bool Aspose::Slides::CustomXmlPartCollection::Remove(System::SharedPtr<ICustomXm
 
 **true** if item is successfully removed; otherwise, **false**.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | item is **null**. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

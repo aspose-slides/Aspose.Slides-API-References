@@ -31,10 +31,6 @@ System::ArrayPtr<System::SharedPtr<ITextAnimation>> Aspose::Slides::Animation::T
 | --- | --- | --- |
 | shape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\> |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

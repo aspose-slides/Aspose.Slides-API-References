@@ -18,7 +18,7 @@ ArrayPtr<int> System::Globalization::NumberFormatInfo::get_NumberGroupSizes() co
 
 ### Return Value
 
-[Array](../../../system/array/) of digits per group, left to right; each element must be 1 to 9, last one can be 0 which means \"combine all\"; last element repeats.
+[Array](../../../system/array/) of digits per group, left to right; each element must be 1 to 9, last one can be 0 which means "combine all"; last element repeats.
 
 ## See Also
 

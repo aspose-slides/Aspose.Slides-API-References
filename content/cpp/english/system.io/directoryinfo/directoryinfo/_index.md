@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/directoryinfo/directoryinfo/
 ---
-## DirectoryInfo::DirectoryInfo(const String\&) constructor
+## DirectoryInfo::DirectoryInfo(const String&) constructor
 
 
 Constructs an instnace of [DirectoryInfo](../) class on the specified path.
@@ -20,7 +20,7 @@ System::IO::DirectoryInfo::DirectoryInfo(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path on which to create an instance; the path does not have to refer to existing entity |
+| path | const [String](../../../system/string/)& | A path on which to create an instance; the path does not have to refer to existing entity |
 
 ## See Also
 

@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::operator=() method"
 type: docs
 weight: 92
 url: /system/valuetuple/operator_equal/
 ---
-## ValueTuple::operator=(const ValueTuple\<OtherArgs...\>\&) method
+## ValueTuple::operator=(const ValueTuple\<OtherArgs...\>&) method
 
 
 
@@ -15,7 +15,7 @@ url: /system/valuetuple/operator_equal/
 template<typename ...> ValueTuple & System::ValueTuple<Args>::operator=(const ValueTuple<OtherArgs...> &otherTuple)
 ```
 
-## ValueTuple::operator=(const SharedPtr\<T\>\&) method
+## ValueTuple::operator=(const SharedPtr\<T\>&) method
 
 
 Deconstructs object to this value tuple.
@@ -29,7 +29,7 @@ template<typename T> ValueTuple & System::ValueTuple<Args>::operator=(const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| deconstructiblePtr | const [SharedPtr](../../sharedptr/)\<T\>\& | An object to deconstruct |
+| deconstructiblePtr | const [SharedPtr](../../sharedptr/)\<T\>& | An object to deconstruct |
 
 ## See Also
 

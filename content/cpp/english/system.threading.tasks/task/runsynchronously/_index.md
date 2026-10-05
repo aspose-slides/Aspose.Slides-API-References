@@ -16,7 +16,14 @@ void System::Threading::Tasks::Task::RunSynchronously()
 ```
 
 
-## Task::RunSynchronously(const SharedPtr\<TaskScheduler\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| If | the task has already been started or completed |
+
+
+## Task::RunSynchronously(const SharedPtr\<TaskScheduler\>&) method
 
 
 Runs the task synchronously using the specified scheduler.
@@ -30,7 +37,14 @@ void System::Threading::Tasks::Task::RunSynchronously(const SharedPtr<TaskSchedu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scheduler | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>\& | The scheduler to use for execution |
+| scheduler | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>& | The scheduler to use for execution |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| If | the task has already been started or completed |
+
 
 ## See Also
 

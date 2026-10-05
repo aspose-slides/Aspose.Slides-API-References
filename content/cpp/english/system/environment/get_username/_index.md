@@ -9,7 +9,7 @@ url: /system/environment/get_username/
 ## Environment::get_UserName() method
 
 
-Returns the name of the user currently logged on to the [Windows](../../../system.windows/) OS.
+Returns the name of the user currently logged on to the Windows OS.
 
 ```cpp
 static String System::Environment::get_UserName()

@@ -9,7 +9,7 @@ url: /aspose.slides/ipresentation/get_allcustomxmlparts/
 ## IPresentation::get_AllCustomXmlParts() method
 
 
-Returns all custom data parts in the presentaion. Read-only [ICustomXmlPart](../../icustomxmlpart/)[].
+Returns all custom data parts in the presentaion. Read-only [ICustomXmlPart](../../icustomxmlpart/)\[\].
 
 ```cpp
 virtual System::ArrayPtr<System::SharedPtr<ICustomXmlPart>> Aspose::Slides::IPresentation::get_AllCustomXmlParts()=0

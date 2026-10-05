@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/environment/set_currentdirectory/
 ---
-## Environment::set_CurrentDirectory(const String\&) method
+## Environment::set_CurrentDirectory(const String&) method
 
 
 Sets the specified directory as the current working directory.
@@ -20,7 +20,7 @@ static void System::Environment::set_CurrentDirectory(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../string/)\& | The fully qualified path to the directory to be set as current working directory |
+| path | const [String](../../string/)& | The fully qualified path to the directory to be set as current working directory |
 
 ## See Also
 

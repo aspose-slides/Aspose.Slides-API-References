@@ -21,11 +21,11 @@ class Axis : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::
 | Method | Description |
 | --- | --- |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
-| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
-| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |
-| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
-| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
-| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const&, T2 const&) | Compares reference type objects in C# style. |
+| static std::enable_if\<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const&, T2 const&) | Compares value type objects in C# style. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const&, **float** const&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const&, **double** const&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase&, void \*\*) const | For internal purposes only. |
 | **double** [get_ActualMajorUnit](./get_actualmajorunit/)() override | Specifies actual major unit of the axis. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) previously to get actual value. |
 | [TimeUnitType](../timeunittype/) [get_ActualMajorUnitScale](./get_actualmajorunitscale/)() override | Specifies actual major unit scale of the axis. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) previously to get actual value. |
 | **double** [get_ActualMaxValue](./get_actualmaxvalue/)() override | Specifies actual maximum value on the axis. Call method [IChart::ValidateChartLayout](../ichart/validatechartlayout/) previously to get actual value. |
@@ -73,8 +73,8 @@ class Axis : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::
 | **uint32_t** [get_NumberOfBins](./get_numberofbins/)() override | Specifies number of bins when AggregationType property value setted to [AxisAggregationType::ByNumberOfBins](../axisaggregationtype/). Applied to category axes. Used with Histogram or HistogramPareto series only. |
 | **double** [get_OverflowBin](./get_overflowbin/)() override | Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. |
 | [AxisPositionType](../axispositiontype/) [get_Position](./get_position/)() override | Represents position of axis. Read [AxisPositionType](../axispositiontype/). |
-| **bool** [get_ShowMajorGridLines](./get_showmajorgridlines/)() override | To hide major gridline set [get_MajorGridLinesFormat()](./get_majorgridlinesformat/)->get_Line()->get_FillFormat()->get(set)_FillType() to [FillType::NoFill](../../aspose.slides/filltype/). Read-only **bool**. |
-| **bool** [get_ShowMinorGridLines](./get_showminorgridlines/)() override | To hide minor gridline set [get_MinorGridLinesFormat()](./get_minorgridlinesformat/)->get_Line()->get_FillFormat()->get(set)_FillType() to [FillType::NoFill](../../aspose.slides/filltype/). Read-only **bool**. |
+| **bool** [get_ShowMajorGridLines](./get_showmajorgridlines/)() override | To hide major gridline set [get_MajorGridLinesFormat()](./get_majorgridlinesformat/)-\>get_Line()-\>get_FillFormat()-\>get(set)_FillType() to [FillType::NoFill](../../aspose.slides/filltype/). Read-only **bool**. |
+| **bool** [get_ShowMinorGridLines](./get_showminorgridlines/)() override | To hide minor gridline set [get_MinorGridLinesFormat()](./get_minorgridlinesformat/)-\>get_Line()-\>get_FillFormat()-\>get(set)_FillType() to [FillType::NoFill](../../aspose.slides/filltype/). Read-only **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartTextFormat](../icharttextformat/)\> [get_TextFormat](./get_textformat/)() override | Represents format of text. Read-only [IChartTextFormat](../icharttextformat/). |
 | [TickLabelPositionType](../ticklabelpositiontype/) [get_TickLabelPosition](./get_ticklabelposition/)() override | Represents the position of tick-mark labels on the specified axis. Read [TickLabelPositionType](../ticklabelpositiontype/). |
 | **float** [get_TickLabelRotationAngle](./get_ticklabelrotationangle/)() override | Represents the rotation angle of tick labels. Read **float**. |
@@ -82,20 +82,20 @@ class Axis : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::
 | **uint32_t** [get_TickMarksSpacing](./get_tickmarksspacing/)() override | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read **uint16_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartTitle](../icharttitle/)\> [get_Title](./get_title/)() override | Gets the axis' title. Read-only [IChartTitle](../icharttitle/). |
 | **double** [get_UnderflowBin](./get_underflowbin/)() override | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
-| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
+| Detail::SmartPtrCounter \* [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
-| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
-| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
+| virtual const [TypeInfo](../../system/typeinfo/)& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
 | void [Lock](../../system/object/lock/)() | Implements C# lock() statement locking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
 | virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analog of C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) method. Enables cloning custom types. |
 |  [Object](../../system/object/object/)() | Creates object. Initializes all internal data structures. |
-|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Copy constructor. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses. |
-| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Assignment operator. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses. |
-| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compares objects by reference. |
-| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compares objects by reference. |
-| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Reference-compares value type object with nullptr. |
-| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
-| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const&) | Copy constructor. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses. |
+| [Object](../../system/object/)& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const&) | Assignment operator. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const&, [ptr](../../system/object/ptr/) const&) | Compares objects by reference. |
+| static std::enable_if\<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const&, T const&) | Compares objects by reference. |
+| static std::enable_if\<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const&, std::nullptr_t) | Reference-compares value type object with nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const&, [String](../../system/string/) const&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [set_AggregationType](./set_aggregationtype/)([AxisAggregationType](../axisaggregationtype/)) override | Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only. |
 | void [set_AxisBetweenCategories](./set_axisbetweencategories/)(**bool**) override | Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Write **bool**. |
@@ -142,12 +142,12 @@ class Axis : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::
 | void [SetCategoryAxisTypeAutomatically](./setcategoryaxistypeautomatically/)() override | Sets IAxis::get(set)_CategoryAxisType property with a value that is automatically determined based on axis data. |
 | void [SetTemplateWeakPtr](./settemplateweakptr/)(**uint32_t**) override | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
-| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
+| [Object](../../system/object/) \* [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrements and returns shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
-| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
+| static const [TypeInfo](../../system/typeinfo/)& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
+| Detail::SmartPtrCounter \* [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
 ## See Also

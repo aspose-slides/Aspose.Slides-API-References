@@ -20,6 +20,15 @@ virtual SharedPtr<Object> System::Xml::XmlReader::ReadElementContentAsObject()
 
 A boxed object of the most appropriate type. The [XmlReader::get_ValueType](../get_valuetype/) value determines the appropriate type. If the content is typed as a list type, this method returns an array of boxed objects of the appropriate type.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to the requested type |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+
+
 ## XmlReader::ReadElementContentAsObject(String, String) method
 
 
@@ -40,6 +49,16 @@ virtual SharedPtr<Object> System::Xml::XmlReader::ReadElementContentAsObject(Str
 ### Return Value
 
 A boxed object of the most appropriate type. The [XmlReader::get_ValueType](../get_valuetype/) value determines the appropriate type. If the content is typed as a list type, this method returns an array of boxed objects of the appropriate type.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to the requested type. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

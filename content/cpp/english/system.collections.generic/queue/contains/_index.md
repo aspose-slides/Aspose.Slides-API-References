@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/queue/contains/
 ---
-## Queue::Contains(const T\&) const method
+## Queue::Contains(const T&) const method
 
 
 Checks if queue contains specific element using operator == to compare elements.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::Queue<T>::Contains(const T &item) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

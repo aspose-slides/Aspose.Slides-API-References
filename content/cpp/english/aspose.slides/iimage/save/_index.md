@@ -72,9 +72,7 @@ virtual void Aspose::Slides::IImage::Save(System::String filename, ImageFormat f
 | --- | --- | --- |
 | filename | [System::String](../../../system/string/) | The path to the file where the image will be saved. |
 | format | [ImageFormat](../../imageformat/) | The image format. |
-| quality | **int32_t** | The quality of the saved image (0 to 100). 
-
- This parameter only affects saving in [ImageFormat::Jpeg](../../imageformat/); for all other formats, it is ignored. |
+| quality | **int32_t** | The quality of the saved image (0 to 100).<br>This parameter only affects saving in [ImageFormat::Jpeg](../../imageformat/); for all other formats, it is ignored. |
 
 ## IImage::Save(System::SharedPtr\<System::IO::Stream\>, ImageFormat, int32_t) method
 
@@ -92,9 +90,7 @@ virtual void Aspose::Slides::IImage::Save(System::SharedPtr<System::IO::Stream> 
 | --- | --- | --- |
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | The stream where the image will be saved. |
 | format | [ImageFormat](../../imageformat/) | The image format. |
-| quality | **int32_t** | The quality of the saved image (0 to 100). 
-
- This parameter only affects saving in [ImageFormat::Jpeg](../../imageformat/); for all other formats, it is ignored. |
+| quality | **int32_t** | The quality of the saved image (0 to 100).<br>This parameter only affects saving in [ImageFormat::Jpeg](../../imageformat/); for all other formats, it is ignored. |
 
 ## See Also
 

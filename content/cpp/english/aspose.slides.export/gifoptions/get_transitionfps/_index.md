@@ -9,7 +9,7 @@ url: /aspose.slides.export/gifoptions/get_transitionfps/
 ## GifOptions::get_TransitionFps() method
 
 
-Gets transition FPS [frames/sec] The default value is 25.
+Gets transition FPS \[frames/sec\] The default value is 25.
 
 ```cpp
 int32_t Aspose::Slides::Export::GifOptions::get_TransitionFps() override

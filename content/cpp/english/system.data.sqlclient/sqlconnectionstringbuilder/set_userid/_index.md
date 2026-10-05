@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.data.sqlclient/sqlconnectionstringbuilder/set_userid/
 ---
-## SqlConnectionStringBuilder::set_UserID(const String\&) method
+## SqlConnectionStringBuilder::set_UserID(const String&) method
 
 
 Sets user id to use for connection.
@@ -20,7 +20,7 @@ void System::Data::SqlClient::SqlConnectionStringBuilder::set_UserID(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | User ID string. |
+| value | const [String](../../../system/string/)& | User ID string. |
 
 ## See Also
 

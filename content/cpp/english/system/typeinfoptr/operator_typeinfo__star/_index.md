@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/typeinfoptr/operator_typeinfo__star/
 ---
-## TypeInfoPtr::operator TypeInfo *() method
+## TypeInfoPtr::operator TypeInfo \*() method
 
 
 Returns a raw pointer to the represented [TypeInfo](../../typeinfo/) object.

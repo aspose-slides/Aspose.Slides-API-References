@@ -9,7 +9,7 @@ url: /system.collections.generic/ienumerable/linq_tolist/
 ## IEnumerable::LINQ_ToList() method
 
 
-Creates a List<T> from a sequence.
+Creates a List\<T\> from a sequence.
 
 ```cpp
 System::SharedPtr<Collections::Generic::List<T>> System::Collections::Generic::IEnumerable<T>::LINQ_ToList()

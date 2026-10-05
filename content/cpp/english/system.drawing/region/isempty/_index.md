@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing/region/isempty/
 ---
-## Region::IsEmpty(const SharedPtr\<Graphics\>\&) const method
+## Region::IsEmpty(const SharedPtr\<Graphics\>&) const method
 
 
 Determines wheter the region represented by the current object has empty interior on the specified drawing surface.
@@ -20,7 +20,7 @@ bool System::Drawing::Region::IsEmpty(const SharedPtr<Graphics> &g) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | A drawing surface |
+| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | A drawing surface |
 
 ## See Also
 

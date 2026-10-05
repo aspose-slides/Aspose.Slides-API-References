@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.testpredicates/arenotsame/
 ---
-## System::TestPredicates::AreNotSame(const char *, const char *, const T1\&, const T2\&) function
+## System::TestPredicates::AreNotSame(const char \*, const char \*, const T1&, const T2&) function
 
 
 Are-not-same-compares arguments for AreSame assertion translation.
@@ -27,10 +27,10 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 
 ### Return Value
 

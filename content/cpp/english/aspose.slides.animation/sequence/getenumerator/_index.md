@@ -18,7 +18,7 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<IE
 
 ### Return Value
 
-A [System::Collections::Generic::IEnumerator<IEffect>](../../../system.collections.generic/ienumerator/) that can be used to iterate through the collection.
+A [System::Collections::Generic::IEnumerator\<IEffect\>](../../../system.collections.generic/ienumerator/) that can be used to iterate through the collection.
 
 ## See Also
 

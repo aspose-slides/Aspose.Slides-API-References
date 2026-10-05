@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography/cryptostream/cryptostream/
 ---
-## CryptoStream::CryptoStream(const SharedPtr\<System::IO::Stream\>\&, const SharedPtr\<ICryptoTransform\>\&, CryptoStreamMode) constructor
+## CryptoStream::CryptoStream(const SharedPtr\<System::IO::Stream\>&, const SharedPtr\<ICryptoTransform\>&, CryptoStreamMode) constructor
 
 
 Constructor.
@@ -20,8 +20,8 @@ System::Security::Cryptography::CryptoStream::CryptoStream(const SharedPtr<Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\& | Stream to wrap. |
-| transform | const [SharedPtr](../../../system/sharedptr/)\<[ICryptoTransform](../../icryptotransform/)\>\& | Transformation function to process data with when sending/reading it to/from stream. |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>& | Stream to wrap. |
+| transform | const [SharedPtr](../../../system/sharedptr/)\<[ICryptoTransform](../../icryptotransform/)\>& | Transformation function to process data with when sending/reading it to/from stream. |
 | mode | [CryptoStreamMode](../../cryptostreammode/) | Stream direction. |
 
 ## See Also

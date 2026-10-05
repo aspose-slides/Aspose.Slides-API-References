@@ -16,6 +16,13 @@ virtual bool Aspose::Slides::IBaseSlide::get_ShowMasterShapes()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotSupportedException](../../../system/notsupportedexception/) | Thrown if set **true** for master slide. |
+
+
 ## See Also
 
 * Class [IBaseSlide](../)

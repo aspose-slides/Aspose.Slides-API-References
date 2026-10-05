@@ -20,7 +20,7 @@ System::SharedPtr<System::Collections::ObjectModel::ReadOnlyCollection<System::S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formula | [System::String](../../../system/string/) | A formula or range expression (e.g., \"Sheet1!A1:B3\") used to identify target cells. |
+| formula | [System::String](../../../system/string/) | A formula or range expression (e.g., "Sheet1!A1:B3") used to identify target cells. |
 | skipHiddenCells | **bool** | If **true**, hidden cells (e.g., in hidden rows or columns) will be excluded from the result. |
 
 ### Return Value

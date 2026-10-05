@@ -16,6 +16,13 @@ int64_t System::Security::Cryptography::CryptoStream::Seek(int64_t offset, IO::S
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | Unconditionally as operation is not supported. |
+
+
 ## See Also
 
 * Enum [SeekOrigin](../../../system.io/seekorigin/)

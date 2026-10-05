@@ -1,7 +1,7 @@
 ---
 title: X509ChainPolicy()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainPolicy::X509ChainPolicy() constructor"
 type: docs
 weight: 131
 url: /system.security.cryptography.x509certificates/x509chainpolicy/x509chainpolicy/

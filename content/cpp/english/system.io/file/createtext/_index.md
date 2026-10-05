@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.io/file/createtext/
 ---
-## File::CreateText(const String\&) method
+## File::CreateText(const String&) method
 
 
 Creates a new or opens existing file for writing UTF-8 encoded text.
@@ -20,7 +20,7 @@ static StreamWriterPtr System::IO::File::CreateText(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to create or open |
+| path | const [String](../../../system/string/)& | The path of the file to create or open |
 
 ### Return Value
 

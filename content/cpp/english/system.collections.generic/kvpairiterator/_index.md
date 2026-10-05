@@ -27,10 +27,10 @@ template<typename KVPair,typename Container>class KVPairIterator
 | Method | Description |
 | --- | --- |
 |  [KVPairIterator](./kvpairiterator/)(typename Container::const_iterator) |  |
-| KVPair [operator*](./operator_star/)() const |  |
-| [KVPairIterator](./)\& [operator++](./operator_plus_plus/)() |  |
+| KVPair [operator\*](./operator_star/)() const |  |
+| [KVPairIterator](./)& [operator++](./operator_plus_plus/)() |  |
 | [KVPairIterator](./) [operator++](./operator_plus_plus/)(int) |  |
-| [KVPairIterator](./)\& [operator--](./operator_minus_minus/)() |  |
+| [KVPairIterator](./)& [operator--](./operator_minus_minus/)() |  |
 | [KVPairIterator](./) [operator--](./operator_minus_minus/)(int) |  |
 ## Typedefs
 

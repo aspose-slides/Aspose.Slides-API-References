@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.drawing.drawing2d/graphicspath/isvisible/
 ---
-## GraphicsPath::IsVisible(const PointF\&) method
+## GraphicsPath::IsVisible(const PointF&) method
 
 
 Determines if the specified point is contained within the path represented by the current object.
@@ -20,7 +20,7 @@ bool System::Drawing::Drawing2D::GraphicsPath::IsVisible(const PointF &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../../system.drawing/pointf/)\& | The point to check |
+| point | const [PointF](../../../system.drawing/pointf/)& | The point to check |
 
 ## GraphicsPath::IsVisible(float, float) method
 

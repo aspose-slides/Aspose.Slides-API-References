@@ -16,6 +16,13 @@ static bool System::Windows::Forms::SystemInformation::get_ShowSounds()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Struct [SystemInformation](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.xml/xmldocument/createsignificantwhitespace/
 ---
-## XmlDocument::CreateSignificantWhitespace(const String\&) method
+## XmlDocument::CreateSignificantWhitespace(const String&) method
 
 
 Creates an [XmlSignificantWhitespace](../../xmlsignificantwhitespace/) node.
@@ -20,7 +20,7 @@ virtual SharedPtr<XmlSignificantWhitespace> System::Xml::XmlDocument::CreateSign
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [String](../../../system/string/)\& | The string must contain only the following characters **'\x20'**, **'\x0d'**, **'\x0a'**, **'\x09'**. |
+| text | const [String](../../../system/string/)& | The string must contain only the following characters **'\\x20'**, **'\\x0d'**, **'\\x0a'**, **'\\x09'**. |
 
 ### Return Value
 

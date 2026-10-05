@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml/xmlconvert/verifyname/
 ---
-## XmlConvert::VerifyName(const String\&) method
+## XmlConvert::VerifyName(const String&) method
 
 
 Verifies that the name is a valid name according to the W3C Extended Markup Language recommendation.
@@ -20,11 +20,19 @@ static String System::Xml::XmlConvert::VerifyName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to verify. |
+| name | const [String](../../../system/string/)& | The name to verify. |
 
 ### Return Value
 
 The name, if it is a valid XML name.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **name** is not a valid XML name. |
+| ArgumentNullException | **name** is **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

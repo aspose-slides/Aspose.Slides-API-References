@@ -21,7 +21,7 @@ System::Threading::Tasks::ValueTask::ValueTask()
 
 The task is not completed and contains no result. Attempting to get the result will throw an exception. 
 
-## ValueTask::ValueTask(const TaskPtr\&) constructor
+## ValueTask::ValueTask(const TaskPtr&) constructor
 
 
 Constructs a [ValueTask](../) from a shared pointer to a [Task](../../task/).
@@ -35,7 +35,7 @@ System::Threading::Tasks::ValueTask::ValueTask(const TaskPtr &task)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | const [TaskPtr](../../../system/taskptr/)\& | The task to wrap. Can be null for an empty task. |
+| task | const [TaskPtr](../../../system/taskptr/)& | The task to wrap. Can be null for an empty task. |
 ## Remarks
 
 

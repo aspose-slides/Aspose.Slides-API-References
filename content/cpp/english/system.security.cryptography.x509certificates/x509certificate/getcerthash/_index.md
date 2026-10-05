@@ -20,7 +20,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 The hash value.
 
-## X509Certificate::GetCertHash(const HashAlgorithmName\&) const method
+## X509Certificate::GetCertHash(const HashAlgorithmName&) const method
 
 
 Gets hash for the current object as an array of bytes.
@@ -34,7 +34,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hash_algorithm | const [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)\& | Hash algorithm name. |
+| hash_algorithm | const [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)& | Hash algorithm name. |
 
 ### Return Value
 

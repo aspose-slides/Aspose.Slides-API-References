@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.io/file/delete/
 ---
-## File::Delete(const String\&) method
+## File::Delete(const String&) method
 
 
 Deletes the specified file or directory.
@@ -20,7 +20,7 @@ static void System::IO::File::Delete(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file or directory to delete |
+| path | const [String](../../../system/string/)& | The path of the file or directory to delete |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.generic/ienumerable/linq_all/
 ---
-## IEnumerable::LINQ_All(std::function\<bool(T)>) method
+## IEnumerable::LINQ_All(std::function\<bool(T)\>) method
 
 
 Determines whether all elements of a sequence satisfy a condition.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::IEnumerable<T>::LINQ_All(std::function<bool(T
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | std::function\<**bool**(T)> | A function to test each element for a condition. |
+| predicate | std::function\<**bool**(T)\> | A function to test each element for a condition. |
 
 ### Return Value
 

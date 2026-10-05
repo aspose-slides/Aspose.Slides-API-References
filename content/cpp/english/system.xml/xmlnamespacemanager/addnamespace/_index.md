@@ -20,8 +20,16 @@ virtual void System::Xml::XmlNamespaceManager::AddNamespace(String prefix, Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | [String](../../../system/string/) | The prefix to associate with the namespace being added. Use [String::Empty](../../../system/string/empty/) to add a default namespace. If the [XmlNamespaceManager](../) will be used for resolving namespaces in an XML Path Language ([XPath](../../../system.xml.xpath/)) expression, a prefix must be specified. If an [XPath](../../../system.xml.xpath/) expression does not include a prefix, it is assumed that the namespace Uniform Resource Identifier (URI) is the empty namespace. For more information about [XPath](../../../system.xml.xpath/) expressions and the [XmlNamespaceManager](../), refer to the XmlNode::SelectNodes(String) and XPathExpression::SetContext(SharedPtr<XmlNamespaceManager>) methods. |
+| prefix | [String](../../../system/string/) | The prefix to associate with the namespace being added. Use [String::Empty](../../../system/string/empty/) to add a default namespace. If the [XmlNamespaceManager](../) will be used for resolving namespaces in an XML Path Language ([XPath](../../../system.xml.xpath/)) expression, a prefix must be specified. If an [XPath](../../../system.xml.xpath/) expression does not include a prefix, it is assumed that the namespace Uniform Resource Identifier (URI) is the empty namespace. For more information about [XPath](../../../system.xml.xpath/) expressions and the [XmlNamespaceManager](../), refer to the XmlNode::SelectNodes(String) and XPathExpression::SetContext(SharedPtr\<XmlNamespaceManager\>) methods. |
 | uri | [String](../../../system/string/) | The namespace to add. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The value for **prefix** is "xml" or "xmlns". |
+| ArgumentNullException | The value for **prefix** or **uri** is **nullptr**. |
+
 
 ## See Also
 

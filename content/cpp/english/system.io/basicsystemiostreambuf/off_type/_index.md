@@ -1,7 +1,7 @@
 ---
 title: off_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: off_type typedef
 type: docs
 weight: 131
 url: /system.io/basicsystemiostreambuf/off_type/

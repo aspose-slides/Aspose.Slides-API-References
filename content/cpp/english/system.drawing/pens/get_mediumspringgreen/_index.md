@@ -1,7 +1,7 @@
 ---
 title: get_MediumSpringGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF00FA9A.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF00FA9A."
 type: docs
 weight: 1145
 url: /system.drawing/pens/get_mediumspringgreen/

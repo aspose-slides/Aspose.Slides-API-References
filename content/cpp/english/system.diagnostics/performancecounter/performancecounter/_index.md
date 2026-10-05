@@ -15,7 +15,7 @@ Creates performance counter.
 System::Diagnostics::PerformanceCounter::PerformanceCounter()
 ```
 
-## PerformanceCounter::PerformanceCounter(const String\&, const String\&) constructor
+## PerformanceCounter::PerformanceCounter(const String&, const String&) constructor
 
 
 Creates performance counter of specific category.
@@ -24,7 +24,7 @@ Creates performance counter of specific category.
 System::Diagnostics::PerformanceCounter::PerformanceCounter(const String &category_name, const String &counter_name)
 ```
 
-## PerformanceCounter::PerformanceCounter(const String\&, const String\&, const String\&, const String\&) constructor
+## PerformanceCounter::PerformanceCounter(const String&, const String&, const String&, const String&) constructor
 
 
 Creates performance counter of specific category and instance name.

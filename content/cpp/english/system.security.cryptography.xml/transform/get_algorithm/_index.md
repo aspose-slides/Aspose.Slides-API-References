@@ -1,7 +1,7 @@
 ---
 title: get_Algorithm()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::get_Algorithm() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/transform/get_algorithm/

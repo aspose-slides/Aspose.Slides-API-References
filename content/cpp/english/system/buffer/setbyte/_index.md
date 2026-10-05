@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/buffer/setbyte/
 ---
-## Buffer::SetByte(const SharedPtr\<Array\<T\>\>\&, int, uint8_t) method
+## Buffer::SetByte(const SharedPtr\<Array\<T\>\>&, int, uint8_t) method
 
 
 Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset.
@@ -26,11 +26,11 @@ template<typename T> static void System::Buffer::SetByte(const SharedPtr<Array<T
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\& | The target array |
+| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>& | The target array |
 | index | int | Zero-based offset of the byte to set |
 | value | **uint8_t** | The byte value to set |
 
-## Buffer::SetByte(const System::Details::ArrayView\<T\>\&, int, uint8_t) method
+## Buffer::SetByte(const System::Details::ArrayView\<T\>&, int, uint8_t) method
 
 
 Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset.
@@ -50,11 +50,11 @@ template<typename T> static void System::Buffer::SetByte(const System::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::ArrayView\<T\>\& | The target array view |
+| array | const System::Details::ArrayView\<T\>& | The target array view |
 | index | int | Zero-based offset of the byte to set |
 | value | **uint8_t** | The byte value to set |
 
-## Buffer::SetByte(const System::Details::StackArray\<T, N\>\&, int, uint8_t) method
+## Buffer::SetByte(const System::Details::StackArray\<T, N\>&, int, uint8_t) method
 
 
 Interprets the specified typed array as a raw byte array and sets the specified byte value at specified byte offset.
@@ -75,7 +75,7 @@ template<typename T,std::size_t> static void System::Buffer::SetByte(const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::StackArray\<T, N\>\& | The target stack array |
+| array | const System::Details::StackArray\<T, N\>& | The target stack array |
 | index | int | Zero-based offset of the byte to set |
 | value | **uint8_t** | The byte value to set |
 

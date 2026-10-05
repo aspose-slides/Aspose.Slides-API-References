@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/binaryreader/binaryreader/
 ---
-## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>&) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using UTF-8 encoding.
@@ -20,9 +20,9 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The input stream |
+| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The input stream |
 
-## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&, const SharedPtr\<Text::Encoding\>\&) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>&, const SharedPtr\<Text::Encoding\>&) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using the specified encoding.
@@ -36,10 +36,10 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input, const Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The input stream |
-| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to use |
+| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The input stream |
+| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | The encoding to use |
 
-## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&, const SharedPtr\<Text::Encoding\>\&, bool) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>&, const SharedPtr\<Text::Encoding\>&, bool) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using the specified encoding.
@@ -53,8 +53,8 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input, const Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The input stream |
-| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to use |
+| input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The input stream |
+| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | The encoding to use |
 | leaveOpen | **bool** | Specifies whether the stream **input** should be left open (true) after the current object has been disposed or not (false) |
 
 ## See Also

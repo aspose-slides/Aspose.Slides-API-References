@@ -1,7 +1,7 @@
 ---
 title: ConfiguredTaskAwaitable
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ConfiguredTaskAwaitable class
 type: docs
 weight: 27
 url: /system.runtime.compilerservices/configuredtaskawaitable/
@@ -19,7 +19,7 @@ class ConfiguredTaskAwaitable
 
 | Method | Description |
 | --- | --- |
-| ASPOSECPP_SHARED_CLASS [ConfiguredTaskAwaitable](./configuredtaskawaitable/)(const [TaskPtr](../../system/taskptr/)\&, **bool**) |  |
+| ASPOSECPP_SHARED_CLASS [ConfiguredTaskAwaitable](./configuredtaskawaitable/)(const [TaskPtr](../../system/taskptr/)&, **bool**) |  |
 | [Runtime::CompilerServices::TaskAwaiter](../taskawaiter/) [GetAwaiter](./getawaiter/)() const |  |
 ## See Also
 

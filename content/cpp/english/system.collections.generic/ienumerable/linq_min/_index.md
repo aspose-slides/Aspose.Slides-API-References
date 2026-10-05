@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.collections.generic/ienumerable/linq_min/
 ---
-## IEnumerable::LINQ_Min(const Func\<T, ResultType\>\&) method
+## IEnumerable::LINQ_Min(const Func\<T, ResultType\>&) method
 
 
 Invokes a transform function on each element of a generic sequence and returns the minimum resulting value.
@@ -26,13 +26,13 @@ template<typename ResultType> ResultType System::Collections::Generic::IEnumerab
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, ResultType\>\& | A transform function to apply to each element. |
+| selector | const [Func](../../../system/func/)\<T, ResultType\>& | A transform function to apply to each element. |
 
 ### Return Value
 
 The minimum value in the sequence.
 
-## IEnumerable::LINQ_Min(const Func\<Source, ResultType\>\&) method
+## IEnumerable::LINQ_Min(const Func\<Source, ResultType\>&) method
 
 
 

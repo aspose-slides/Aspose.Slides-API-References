@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /system.globalization/cultureinfo/getcultureinfo/
 ---
-## CultureInfo::GetCultureInfo(const String\&) method
+## CultureInfo::GetCultureInfo(const String&) method
 
 
 Gets culture by its name. Same as CreateSpecificCulture.
@@ -20,13 +20,13 @@ static CultureInfoPtr System::Globalization::CultureInfo::GetCultureInfo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Predefined culture name or existing culture object's name. |
+| name | const [String](../../../system/string/)& | Predefined culture name or existing culture object's name. |
 
 ### Return Value
 
 Newly created culture object.
 
-## CultureInfo::GetCultureInfo(const String\&, const String\&) method
+## CultureInfo::GetCultureInfo(const String&, const String&) method
 
 
 Gets culture by its name.
@@ -40,8 +40,8 @@ static CultureInfoPtr System::Globalization::CultureInfo::GetCultureInfo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Culture name. |
-| text_and_compare_culture_name | const [String](../../../system/string/)\& | Culture name used for [TextInfo](../../textinfo/) and [CompareInfo](../../compareinfo/) objects. |
+| name | const [String](../../../system/string/)& | Culture name. |
+| text_and_compare_culture_name | const [String](../../../system/string/)& | Culture name used for [TextInfo](../../textinfo/) and [CompareInfo](../../compareinfo/) objects. |
 
 ### Return Value
 

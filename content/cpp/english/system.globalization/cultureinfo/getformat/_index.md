@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.globalization/cultureinfo/getformat/
 ---
-## CultureInfo::GetFormat(const TypeInfo\&) method
+## CultureInfo::GetFormat(const TypeInfo&) method
 
 
 Gets format object for specific type.
@@ -20,7 +20,7 @@ SharedPtr<Object> System::Globalization::CultureInfo::GetFormat(const TypeInfo &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format_type | const [TypeInfo](../../../system/typeinfo/)\& | Format object type. |
+| format_type | const [TypeInfo](../../../system/typeinfo/)& | Format object type. |
 
 ### Return Value
 

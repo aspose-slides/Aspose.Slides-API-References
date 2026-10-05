@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.xml/xmlnodereader/xmlnodereader/
 ---
-## XmlNodeReader::XmlNodeReader(const SharedPtr\<XmlNode\>\&) constructor
+## XmlNodeReader::XmlNodeReader(const SharedPtr\<XmlNode\>&) constructor
 
 
 Creates an instance of the [XmlNodeReader](../) class using the specified [XmlNode](../../xmlnode/).
@@ -20,7 +20,7 @@ System::Xml::XmlNodeReader::XmlNodeReader(const SharedPtr<XmlNode> &node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\& | The [XmlNode](../../xmlnode/) you want to read. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>& | The [XmlNode](../../xmlnode/) you want to read. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.memoryextensions/sort/
 ---
-## System::MemoryExtensions::Sort(const Span\<T\>\&, const SharedPtr\<TComparer\>\&) function
+## System::MemoryExtensions::Sort(const Span\<T\>&, const SharedPtr\<TComparer\>&) function
 
 
 Sorts a [Span](../../system/span/) using a custom comparer.
@@ -27,10 +27,10 @@ template<typename T,typename TComparer> void System::MemoryExtensions::Sort(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to sort |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>\& | Smart pointer to comparer object for element comparison |
+| span | const [Span](../../system/span/)\<T\>& | The span to sort |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>& | Smart pointer to comparer object for element comparison |
 
-## System::MemoryExtensions::Sort(Span\<T\>\&) function
+## System::MemoryExtensions::Sort(Span\<T\>&) function
 
 
 Sorts a [Span](../../system/span/) using default comparison.
@@ -50,9 +50,9 @@ template<typename T> void System::MemoryExtensions::Sort(Span<T> &span)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<T\>\& | The span to sort |
+| span | [Span](../../system/span/)\<T\>& | The span to sort |
 
-## System::MemoryExtensions::Sort(Span\<TKey\>\&, Span\<TValue\>\&, const SharedPtr\<TComparer\>\&) function
+## System::MemoryExtensions::Sort(Span\<TKey\>&, Span\<TValue\>&, const SharedPtr\<TComparer\>&) function
 
 
 Sorts key-value pairs using a custom comparer (keys and values sorted together)
@@ -74,11 +74,18 @@ template<typename TKey,typename TValue,typename TComparer> void System::MemoryEx
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to sort |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to sort (maintaining correspondence with keys) |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>\& | Smart pointer to comparer object for key comparison |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to sort |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to sort (maintaining correspondence with keys) |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>& | Smart pointer to comparer object for key comparison |
 
-## System::MemoryExtensions::Sort(Span\<TKey\>\&, Span\<TValue\>\&, System::Comparison\<TKey\>) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | if keys and values have different lengths |
+
+
+## System::MemoryExtensions::Sort(Span\<TKey\>&, Span\<TValue\>&, System::Comparison\<TKey\>) function
 
 
 Sorts key-value pairs using a comparison delegate.
@@ -99,11 +106,18 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Sort(Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to sort |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to sort |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to sort |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to sort |
 | comparer | [System::Comparison](../../system/comparison/)\<TKey\> | [Comparison](../../system/comparison/) delegate for key comparison |
 
-## System::MemoryExtensions::Sort(Span\<TKey\>\&, Span\<TValue\>\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | if keys and values have different lengths |
+
+
+## System::MemoryExtensions::Sort(Span\<TKey\>&, Span\<TValue\>&) function
 
 
 Sorts key-value pairs using default comparison.
@@ -124,8 +138,15 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Sort(Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to sort |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to sort |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to sort |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to sort |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | if keys and values have different lengths |
+
 
 ## See Also
 

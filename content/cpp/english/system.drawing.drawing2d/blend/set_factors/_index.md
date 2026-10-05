@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.drawing.drawing2d/blend/set_factors/
 ---
-## Blend::set_Factors(const ArrayPtr\<float\>\&) method
+## Blend::set_Factors(const ArrayPtr\<float\>&) method
 
 
 Sets the array of blend factors of the gradient.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::Blend::set_Factors(const ArrayPtr<float> &value
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**float**\>\& | The array to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**float**\>& | The array to set |
 
 ## See Also
 

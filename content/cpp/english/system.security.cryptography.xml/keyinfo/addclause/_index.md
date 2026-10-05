@@ -1,7 +1,7 @@
 ---
 title: AddClause()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfo::AddClause() method"
 type: docs
 weight: 27
 url: /system.security.cryptography.xml/keyinfo/addclause/

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/boxedvaluebase/tostring/
 ---
-## BoxedValueBase::ToString(const System::String\&) const method
+## BoxedValueBase::ToString(const System::String&) const method
 
 
 Converts boxed object to string using specified format string.

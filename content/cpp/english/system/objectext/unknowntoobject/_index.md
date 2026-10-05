@@ -32,7 +32,7 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value, System::SmartPt
 
 Smart pointer to [Object](../../object/) being either converted pointer or boxed value.
 
-## ObjectExt::UnknownToObject(const T\&) method
+## ObjectExt::UnknownToObject(const T&) method
 
 
 Converts unknown type to [Object](../../object/), handling both smart pointer type and value type situations.
@@ -52,7 +52,7 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value, System::SmartP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to convert. |
+| obj | const T& | [Object](../../object/) to convert. |
 
 ### Return Value
 

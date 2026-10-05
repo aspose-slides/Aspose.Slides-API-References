@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/boolean/tryparse/
 ---
-## Boolean::TryParse(const String\&, bool\&) method
+## Boolean::TryParse(const String&, bool&) method
 
 
 Converts the specified string to a value of bool type.
@@ -20,12 +20,12 @@ static bool System::Boolean::TryParse(const String &value, bool &result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
-| result | **bool**\& | The reference to a bool variable where the result of the conversion is put; the result is true if the specified string is equal to \"True\" and false if the specified string is equal to \"False\". |
+| value | const [String](../../string/)& | The string to convert. |
+| result | **bool**& | The reference to a bool variable where the result of the conversion is put; the result is true if the specified string is equal to "True" and false if the specified string is equal to "False". |
 
 ### Return Value
 
-True if the specified string is equal either to \"True\" or \"False\", otherwise - false.
+True if the specified string is equal either to "True" or "False", otherwise - false.
 
 ## See Also
 

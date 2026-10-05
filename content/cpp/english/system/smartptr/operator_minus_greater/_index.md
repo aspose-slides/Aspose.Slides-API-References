@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/smartptr/operator_minus_greater/
 ---
-## SmartPtr::operator->() const method
+## SmartPtr::operator-\>() const method
 
 
 Allows to access members of referenced object.
@@ -19,6 +19,13 @@ Pointee_ * System::SmartPtr<T>::operator->() const
 ### Return Value
 
 Raw pointer to referenced object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NullReferenceException](../../nullreferenceexception/) | If pointer is null. |
+
 
 ## See Also
 

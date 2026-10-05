@@ -20,7 +20,7 @@ virtual System::String Aspose::Slides::IFonts::GetScriptFont(System::String scri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| script | [System::String](../../../system/string/) | The BCP-47 script code (e.g., \"Latn\", \"Cyrl\", \"Jpan\") used to identify a writing system. |
+| script | [System::String](../../../system/string/) | The BCP-47 script code (e.g., "Latn", "Cyrl", "Jpan") used to identify a writing system. |
 
 ### Return Value
 

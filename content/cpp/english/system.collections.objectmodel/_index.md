@@ -1,7 +1,7 @@
 ---
 title: "System::Collections::ObjectModel"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Collections::ObjectModel namespace"
 type: docs
 weight: 391
 url: /system.collections.objectmodel/

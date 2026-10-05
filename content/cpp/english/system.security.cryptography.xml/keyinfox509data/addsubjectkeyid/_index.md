@@ -1,7 +1,7 @@
 ---
 title: AddSubjectKeyId()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::AddSubjectKeyId() method"
 type: docs
 weight: 79
 url: /system.security.cryptography.xml/keyinfox509data/addsubjectkeyid/

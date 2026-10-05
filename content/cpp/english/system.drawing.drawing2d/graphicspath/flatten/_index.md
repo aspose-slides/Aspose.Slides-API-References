@@ -15,7 +15,7 @@ Flattens each curve in the path by converting them into a series of connected li
 void System::Drawing::Drawing2D::GraphicsPath::Flatten()
 ```
 
-## GraphicsPath::Flatten(const MatrixPtr\&) method
+## GraphicsPath::Flatten(const MatrixPtr&) method
 
 
 Flattens each curve in the path by converting them into a series of connected lines. The flatness value of 0.25 is used.
@@ -29,9 +29,9 @@ void System::Drawing::Drawing2D::GraphicsPath::Flatten(const MatrixPtr &matrix)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [MatrixPtr](../../matrixptr/)\& | The transform matrix to apply to the path before flattening |
+| matrix | const [MatrixPtr](../../matrixptr/)& | The transform matrix to apply to the path before flattening |
 
-## GraphicsPath::Flatten(const MatrixPtr\&, float) method
+## GraphicsPath::Flatten(const MatrixPtr&, float) method
 
 
 Flattens each curve in the path by converting them into a series of connected lines.
@@ -45,7 +45,7 @@ void System::Drawing::Drawing2D::GraphicsPath::Flatten(const MatrixPtr &matrix, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [MatrixPtr](../../matrixptr/)\& | The transform matrix to apply to the path before flattening |
+| matrix | const [MatrixPtr](../../matrixptr/)& | The transform matrix to apply to the path before flattening |
 | flatness | **float** | Specifies the maximum permitted error between the curve and its flattened approximation |
 
 ## See Also

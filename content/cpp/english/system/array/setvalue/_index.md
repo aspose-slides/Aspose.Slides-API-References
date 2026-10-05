@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system/array/setvalue/
 ---
-## Array::SetValue(const T\&, int) method
+## Array::SetValue(const T&, int) method
 
 
 Sets value of the element at specified index.
@@ -20,7 +20,7 @@ void System::Array<T>::SetValue(const T &value, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | A const reference to the value to set |
+| value | const T& | A const reference to the value to set |
 | index | int | [Index](../../index/) of the element |
 
 ## See Also

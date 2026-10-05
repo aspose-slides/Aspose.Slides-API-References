@@ -1,7 +1,7 @@
 ---
 title: "System::Runtime::Serialization"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Runtime::Serialization namespace"
 type: docs
 weight: 807
 url: /system.runtime.serialization/

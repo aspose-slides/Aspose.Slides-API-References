@@ -24,7 +24,7 @@ static String System::Xml::XmlConvert::ToString(bool value)
 
 ### Return Value
 
-A string representation of the [Boolean](../../../system/boolean/), that is, \"true\" or \"false\".
+A string representation of the [Boolean](../../../system/boolean/), that is, "true" or "false".
 
 ## XmlConvert::ToString(char16_t) method
 
@@ -306,7 +306,7 @@ static String System::Xml::XmlConvert::ToString(DateTime value)
 
 A string representation of the [DateTime](../../../system/datetime/) in the format yyyy-MM-ddTHH:mm:ss where 'T' is a constant literal.
 
-## XmlConvert::ToString(DateTime, const String\&) method
+## XmlConvert::ToString(DateTime, const String&) method
 
 
 Converts the [DateTime](../../../system/datetime/) to a [String](../../../system/string/).
@@ -321,7 +321,7 @@ static String System::Xml::XmlConvert::ToString(DateTime value, const String &fo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTime](../../../system/datetime/) | The value to convert. |
-| format | const [String](../../../system/string/)\& | The format structure that defines how to display the converted string. Valid formats include \"yyyy-MM-ddTHH:mm:sszzzzzz\" and its subsets. |
+| format | const [String](../../../system/string/)& | The format structure that defines how to display the converted string. Valid formats include "yyyy-MM-ddTHH:mm:sszzzzzz" and its subsets. |
 
 ### Return Value
 
@@ -348,6 +348,14 @@ static String System::Xml::XmlConvert::ToString(DateTime value, XmlDateTimeSeria
 
 A [String](../../../system/string/) equivalent of the [DateTime](../../../system/datetime/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **dateTimeOption** value is not valid. |
+| ArgumentNullException | The **value** or **dateTimeOption** value is **nullptr**. |
+
+
 ## XmlConvert::ToString(DateTimeOffset) method
 
 
@@ -368,7 +376,7 @@ static String System::Xml::XmlConvert::ToString(DateTimeOffset value)
 
 A [String](../../../system/string/) representation of the supplied [DateTimeOffset](../../../system/datetimeoffset/).
 
-## XmlConvert::ToString(DateTimeOffset, const String\&) method
+## XmlConvert::ToString(DateTimeOffset, const String&) method
 
 
 Converts the supplied [DateTimeOffset](../../../system/datetimeoffset/) to a [String](../../../system/string/) in the specified format.
@@ -383,7 +391,7 @@ static String System::Xml::XmlConvert::ToString(DateTimeOffset value, const Stri
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTimeOffset](../../../system/datetimeoffset/) | The [DateTimeOffset](../../../system/datetimeoffset/) to be converted. |
-| format | const [String](../../../system/string/)\& | The format to which **s** is converted. The format parameter can be any subset of the W3C Recommendation for the XML dateTime type. For more information, see the [dateTime](https://www.w3.org/TR/xmlschema-2/#dateTime) section of the XML [Schema](../../../system.xml.schema/) specification. |
+| format | const [String](../../../system/string/)& | The format to which **s** is converted. The format parameter can be any subset of the W3C Recommendation for the XML dateTime type. For more information, see the [dateTime](https://www.w3.org/TR/xmlschema-2/#dateTime) section of the XML [Schema](../../../system.xml.schema/) specification. |
 
 ### Return Value
 

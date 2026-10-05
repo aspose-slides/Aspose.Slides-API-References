@@ -1,7 +1,7 @@
 ---
 title: get_SignatureValue()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::get_SignatureValue() method"
 type: docs
 weight: 92
 url: /system.security.cryptography.xml/signedxml/get_signaturevalue/

@@ -1,7 +1,7 @@
 ---
 title: HttpException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: HttpException typedef
 type: docs
 weight: 53
 url: /system.web/httpexception/

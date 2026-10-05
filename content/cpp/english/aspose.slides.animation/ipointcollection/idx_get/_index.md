@@ -22,10 +22,6 @@ virtual System::SharedPtr<IPoint> Aspose::Slides::Animation::IPointCollection::i
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

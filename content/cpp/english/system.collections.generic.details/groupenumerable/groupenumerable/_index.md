@@ -1,12 +1,12 @@
 ---
 title: GroupEnumerable()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "GroupEnumerable::GroupEnumerable() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/groupenumerable/groupenumerable/
 ---
-## GroupEnumerable::GroupEnumerable(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Key\>\&, const System::Func\<Source, Element\>\&) constructor
+## GroupEnumerable::GroupEnumerable(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Key\>&, const System::Func\<Source, Element\>&) constructor
 
 
 

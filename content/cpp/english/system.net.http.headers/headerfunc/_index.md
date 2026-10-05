@@ -1,7 +1,7 @@
 ---
 title: HeaderFunc
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: HeaderFunc typedef
 type: docs
 weight: 352
 url: /system.net.http.headers/headerfunc/

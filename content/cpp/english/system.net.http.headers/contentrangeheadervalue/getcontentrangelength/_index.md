@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.net.http.headers/contentrangeheadervalue/getcontentrangelength/
 ---
-## ContentRangeHeaderValue::GetContentRangeLength(String, int32_t, System::SharedPtr\<Object\>\&) method
+## ContentRangeHeaderValue::GetContentRangeLength(String, int32_t, System::SharedPtr\<Object\>&) method
 
 
 Converts a passed string from the specified position to an instance of the [ContentRangeHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::ContentRangeHeaderValue::GetContentRa
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

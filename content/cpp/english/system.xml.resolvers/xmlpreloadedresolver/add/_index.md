@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml.resolvers/xmlpreloadedresolver/add/
 ---
-## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>\&, const ArrayPtr\<uint8_t\>\&) method
+## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>&, const ArrayPtr\<uint8_t\>&) method
 
 
 Adds a byte array to the [XmlPreloadedResolver](../) store and maps it to a URI. If the store already contains a mapping for the same URI, the existing mapping is overridden.
@@ -20,10 +20,17 @@ void System::Xml::Resolvers::XmlPreloadedResolver::Add(const SharedPtr<Uri> &uri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | A byte array with the data that corresponds to the provided URI. |
+| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | A byte array with the data that corresponds to the provided URI. |
 
-## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>\&, const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** or **value** is **nullptr**. |
+
+
+## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>&, const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Adds a byte array to the [XmlPreloadedResolver](../) store and maps it to a URI. If the store already contains a mapping for the same URI, the existing mapping is overridden.
@@ -37,12 +44,20 @@ void System::Xml::Resolvers::XmlPreloadedResolver::Add(const SharedPtr<Uri> &uri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | A byte array with the data that corresponds to the provided URI. |
+| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | A byte array with the data that corresponds to the provided URI. |
 | offset | **int32_t** | The offset in the provided byte array where the data starts. |
 | count | **int32_t** | The number of bytes to read from the byte array, starting at the provided offset. |
 
-## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>\&, const SharedPtr\<IO::Stream\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** or **value** is **nullptr**. |
+| ArgumentOutOfRangeException | **offset** or **count** is less than 0. or The length of the **value** minus **offset** is less than **count**. |
+
+
+## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>&, const SharedPtr\<IO::Stream\>&) method
 
 
 Adds a Stream to the [XmlPreloadedResolver](../) store and maps it to a URI. If the store already contains a mapping for the same URI, the existing mapping is overridden.
@@ -56,10 +71,17 @@ void System::Xml::Resolvers::XmlPreloadedResolver::Add(const SharedPtr<Uri> &uri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | A Stream with the data that corresponds to the provided URI. |
+| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | A Stream with the data that corresponds to the provided URI. |
 
-## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>\&, const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** or **value** is **nullptr**. |
+
+
+## XmlPreloadedResolver::Add(const SharedPtr\<Uri\>&, const String&) method
 
 
 Adds a string with preloaded data to the [XmlPreloadedResolver](../) store and maps it to a URI. If the store already contains a mapping for the same URI, the existing mapping is overridden.
@@ -73,8 +95,15 @@ void System::Xml::Resolvers::XmlPreloadedResolver::Add(const SharedPtr<Uri> &uri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
-| value | const [String](../../../system/string/)\& | A [String](../../../system/string/) with the data that corresponds to the provided URI. |
+| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The URI of the data that is being added to the [XmlPreloadedResolver](../) store. |
+| value | const [String](../../../system/string/)& | A [String](../../../system/string/) with the data that corresponds to the provided URI. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** or **value** is **nullptr**. |
+
 
 ## See Also
 

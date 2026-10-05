@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemadatatype/changetype/
 ---
-## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo\&) method
+## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo&) method
 
 
 Converts the value specified, whose type is one of the valid representations of the XML schema type represented by the [XmlSchemaDatatype](../), to the run-time type specified.
@@ -21,13 +21,21 @@ virtual SharedPtr<Object> System::Xml::Schema::XmlSchemaDatatype::ChangeType(Sha
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The input value to convert to the specified type. |
-| targetType | const [TypeInfo](../../../system/typeinfo/)\& | The target type to convert the input value to. |
+| targetType | const [TypeInfo](../../../system/typeinfo/)& | The target type to convert the input value to. |
 
 ### Return Value
 
 The converted input value.
 
-## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [Object](../../../system/object/) or Type parameter is **nullptr**. |
+| InvalidCastException | The type represented by the [XmlSchemaDatatype](../) does not support a conversion from type of the value specified to the type specified. |
+
+
+## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Converts the value specified, whose type is one of the valid representations of the XML schema type represented by the [XmlSchemaDatatype](../), to the run-time type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) if the [XmlSchemaDatatype](../) represents the **xs:QName** type or a type derived from it.
@@ -42,12 +50,20 @@ virtual SharedPtr<Object> System::Xml::Schema::XmlSchemaDatatype::ChangeType(Sha
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The input value to convert to the specified type. |
-| targetType | const [TypeInfo](../../../system/typeinfo/)\& | The target type to convert the input value to. |
+| targetType | const [TypeInfo](../../../system/typeinfo/)& | The target type to convert the input value to. |
 | namespaceResolver | [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\> | An [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) used for resolving namespace prefixes. This is only of use if the [XmlSchemaDatatype](../) represents the **xs:QName** type or a type derived from it. |
 
 ### Return Value
 
 The converted input value.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [Object](../../../system/object/) or Type parameter is **nullptr**. |
+| InvalidCastException | The type represented by the [XmlSchemaDatatype](../) does not support a conversion from type of the value specified to the type specified. |
+
 
 ## See Also
 

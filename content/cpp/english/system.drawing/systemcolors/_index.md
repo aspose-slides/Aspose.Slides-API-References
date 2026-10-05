@@ -9,7 +9,7 @@ url: /system.drawing/systemcolors/
 ## SystemColors class
 
 
-Class that provide a set of precreated [Color](../color/) objects that represent colors of [Windows](../../system.windows/) display elements. This is a static type with no instance services. You should never create instances of it by any means.
+Class that provide a set of precreated [Color](../color/) objects that represent colors of Windows display elements. This is a static type with no instance services. You should never create instances of it by any means.
 
 ```cpp
 class SystemColors

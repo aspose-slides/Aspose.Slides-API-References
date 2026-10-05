@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.security.cryptography/hashalgorithm/create/
 ---
-## HashAlgorithm::Create(const String\&) method
+## HashAlgorithm::Create(const String&) method
 
 
 Creates hash algorithm based on name.
@@ -20,7 +20,7 @@ static SharedPtr<HashAlgorithm> System::Security::Cryptography::HashAlgorithm::C
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hashName | const [String](../../../system/string/)\& | One of the following values: \"MD5\", \"SHA1\", \"SHA256\", \"SHA384\", \"SHA512\", \"RIPEMD160\" or any of them with \"System.Security.Cryptography.\" prefix. |
+| hashName | const [String](../../../system/string/)& | One of the following values: "MD5", "SHA1", "SHA256", "SHA384", "SHA512", "RIPEMD160" or any of them with "System.Security.Cryptography." prefix. |
 
 ## See Also
 

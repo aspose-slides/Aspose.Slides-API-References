@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /system/string/fromutf32/
 ---
-## String::FromUtf32(const uint32_t *, int32_t) method
+## String::FromUtf32(const uint32_t \*, int32_t) method
 
 
 Creates [String](../) from utf32 string.
@@ -20,7 +20,7 @@ static String System::String::FromUtf32(const uint32_t *utf32, int32_t length)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| utf32 | const **uint32_t** * | Pointer to string encoded in utf32. |
+| utf32 | const **uint32_t** \* | Pointer to string encoded in utf32. |
 | length | **int32_t** | Number of characters to convert. |
 
 ### Return Value

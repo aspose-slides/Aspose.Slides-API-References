@@ -25,14 +25,21 @@ virtual bool Aspose::Slides::IPictureFillFormat::CompressImage(bool deleteCroppe
 
 ### Return Value
 
-A **bool** indicating whether the image was successfully compressed. Returns ****true****
+A **bool** indicating whether the image was successfully compressed. Returns **true**
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when the resolution is not a valid value. |
+
 ## Remarks
 
 
-This method changes the image's size and resolution similar to PowerPoint's \"Picture Format -> Compress Pictures\" feature.
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -\> Compress Pictures" feature.
 
 
-if the image was resized or cropped, otherwise ****false****
+if the image was resized or cropped, otherwise **false**
 
 . 
 
@@ -66,14 +73,21 @@ virtual bool Aspose::Slides::IPictureFillFormat::CompressImage(bool deleteCroppe
 
 ### Return Value
 
-A **bool** indicating whether the image was successfully compressed. Returns ****true****
+A **bool** indicating whether the image was successfully compressed. Returns **true**
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when the resolution is not a positive value. |
+
 ## Remarks
 
 
-This method changes the image's size and resolution similar to PowerPoint's \"Picture Format -> Compress Pictures\" feature.
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -\> Compress Pictures" feature.
 
 
-if the image was resized or cropped, otherwise ****false****
+if the image was resized or cropped, otherwise **false**
 
 . 
 

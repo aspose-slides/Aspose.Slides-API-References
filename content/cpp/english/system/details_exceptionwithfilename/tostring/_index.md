@@ -1,7 +1,7 @@
 ---
 title: ToString()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ExceptionWithFilename::ToString() method"
 type: docs
 weight: 27
 url: /system/details_exceptionwithfilename/tostring/

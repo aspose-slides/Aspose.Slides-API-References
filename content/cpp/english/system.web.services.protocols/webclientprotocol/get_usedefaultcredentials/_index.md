@@ -20,6 +20,13 @@ bool System::Web::Services::Protocols::WebClientProtocol::get_UseDefaultCredenti
 
 The value that indicates if the 'Credential' property is equal to the 'DefaultCredentials' property.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotImplementedException](../../../system/notimplementedexception/) |  |
+
+
 ## See Also
 
 * Class [WebClientProtocol](../)

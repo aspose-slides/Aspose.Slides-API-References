@@ -9,7 +9,7 @@ url: /aspose.slides.export/igifoptions/set_defaultdelay/
 ## IGifOptions::set_DefaultDelay(int32_t) method
 
 
-Sets default delay time [ms]. This value will be used if the [ISlideShowTransition::set_AdvanceAfterTime()](../../../aspose.slides/islideshowtransition/set_advanceaftertime/) method was not called. The default value is 1000.
+Sets default delay time \[ms\]. This value will be used if the [ISlideShowTransition::set_AdvanceAfterTime()](../../../aspose.slides/islideshowtransition/set_advanceaftertime/) method was not called. The default value is 1000.
 
 ```cpp
 virtual void Aspose::Slides::Export::IGifOptions::set_DefaultDelay(int32_t value)=0

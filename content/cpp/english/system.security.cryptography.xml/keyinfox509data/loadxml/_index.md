@@ -1,7 +1,7 @@
 ---
 title: LoadXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::LoadXml() method"
 type: docs
 weight: 144
 url: /system.security.cryptography.xml/keyinfox509data/loadxml/

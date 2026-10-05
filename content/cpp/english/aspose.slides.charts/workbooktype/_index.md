@@ -20,11 +20,11 @@ enum class WorkbookType
 | Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | -1 | The workbook type is not defined. |
-| Workbook | 0 | [Excel](../../aspose.slides.excel/) workbook (*.xlsx). |
-| WorkbookMacro | 1 | [Excel](../../aspose.slides.excel/) macro-enabled workbook (*.xlsm). |
-| Template | 2 | [Excel](../../aspose.slides.excel/) template (*.xltx). |
-| TemplateMacro | 3 | [Excel](../../aspose.slides.excel/) macro-enabled template (*.xltm). |
-| WorkbookBinaryMacro | 4 | [Excel](../../aspose.slides.excel/) binary macro-enabled workbook (*.xlsb). |
+| Workbook | 0 | [Excel](../../aspose.slides.excel/) workbook (\*.xlsx). |
+| WorkbookMacro | 1 | [Excel](../../aspose.slides.excel/) macro-enabled workbook (\*.xlsm). |
+| Template | 2 | [Excel](../../aspose.slides.excel/) template (\*.xltx). |
+| TemplateMacro | 3 | [Excel](../../aspose.slides.excel/) macro-enabled template (\*.xltm). |
+| WorkbookBinaryMacro | 4 | [Excel](../../aspose.slides.excel/) binary macro-enabled workbook (\*.xlsb). |
 
 ## See Also
 

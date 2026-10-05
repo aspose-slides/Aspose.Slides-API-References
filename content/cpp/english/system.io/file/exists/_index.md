@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.io/file/exists/
 ---
-## File::Exists(const String\&) method
+## File::Exists(const String&) method
 
 
 Determines if the specified path references an existing file.
@@ -20,7 +20,7 @@ static bool System::IO::File::Exists(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to test |
+| path | const [String](../../../system/string/)& | The path to test |
 
 ### Return Value
 

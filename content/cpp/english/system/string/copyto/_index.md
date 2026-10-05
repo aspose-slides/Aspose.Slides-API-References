@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system/string/copyto/
 ---
-## String::CopyTo(int, const ArrayPtr\<char_t\>\&, int, int) const method
+## String::CopyTo(int, const ArrayPtr\<char_t\>&, int, int) const method
 
 
 Copies string characters into existing array elements. No resize is being done.
@@ -21,7 +21,7 @@ void System::String::CopyTo(int sourceIndex, const ArrayPtr<char_t> &destination
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceIndex | int | In-string index to start reading from. |
-| destination | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | Destination array. |
+| destination | const [ArrayPtr](../../arrayptr/)\<char_t\>& | Destination array. |
 | destinationIndex | int | In-array index to start writing from. |
 | count | int | Number of characters to copy. |
 

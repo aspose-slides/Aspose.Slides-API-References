@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system/environment/setenvironmentvariable/
 ---
-## Environment::SetEnvironmentVariable(const String\&, const String\&) method
+## Environment::SetEnvironmentVariable(const String&, const String&) method
 
 
 NOT IMPLEMENTED.
@@ -15,7 +15,7 @@ NOT IMPLEMENTED.
 static void System::Environment::SetEnvironmentVariable(const String &variable, const String &value)
 ```
 
-## Environment::SetEnvironmentVariable(const String\&, const String\&, EnvironmentVariableTarget) method
+## Environment::SetEnvironmentVariable(const String&, const String&, EnvironmentVariableTarget) method
 
 
 NOT IMPLEMENTED.

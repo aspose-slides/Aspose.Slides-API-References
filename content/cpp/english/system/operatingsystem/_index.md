@@ -21,15 +21,15 @@ class OperatingSystem
 | --- | --- |
 | [PlatformID](../platformid/) [get_Platform](./get_platform/)() const | Returns the platform identifier of the operating system represented by the current object. |
 | [String](../string/) [get_ServicePack](./get_servicepack/)() const | Returns the service pack name of the operating system represented by the current object. |
-| const [Version](../version/)\& [get_Version](./get_version/)() const | Returns a constant reference to a [Version](../version/) object representing the version of the operating system represented by the current object. |
+| const [Version](../version/)& [get_Version](./get_version/)() const | Returns a constant reference to a [Version](../version/) object representing the version of the operating system represented by the current object. |
 | [String](../string/) [get_VersionString](./get_versionstring/)() const | Returns the string representation of the version of the operating system represented by the current object. |
 | static **bool** [IsFreeBSD](./isfreebsd/)() | Indicates whether the current application is running on FreeBSD. |
 | static **bool** [IsLinux](./islinux/)() | Indicates whether the current application is running on Linux. |
 | static **bool** [IsMacOS](./ismacos/)() | Indicates whether the current application is running on MacOS. |
-| static **bool** [IsOSPlatform](./isosplatform/)(const [String](../string/)\&) | Indicates whether the current application is running on the specified platform. |
-| static **bool** [IsWindows](./iswindows/)() | Indicates whether the current application is running on [Windows](../../system.windows/). |
-|  [OperatingSystem](./operatingsystem/)([PlatformID](../platformid/), const [Version](../version/)\&) | Constructs an instance that represents an operating system specified as particular platform id and version. |
-|  [OperatingSystem](./operatingsystem/)([PlatformID](../platformid/), const [Version](../version/)\&, const [String](../string/)\&) | Constructs an instance that represents an operating system specified as particular platform id, version and service pack. |
+| static **bool** [IsOSPlatform](./isosplatform/)(const [String](../string/)&) | Indicates whether the current application is running on the specified platform. |
+| static **bool** [IsWindows](./iswindows/)() | Indicates whether the current application is running on Windows. |
+|  [OperatingSystem](./operatingsystem/)([PlatformID](../platformid/), const [Version](../version/)&) | Constructs an instance that represents an operating system specified as particular platform id and version. |
+|  [OperatingSystem](./operatingsystem/)([PlatformID](../platformid/), const [Version](../version/)&, const [String](../string/)&) | Constructs an instance that represents an operating system specified as particular platform id, version and service pack. |
 | [String](../string/) [ToString](./tostring/)() const | Returns the string representation of the version of the operating system represented by the current object. |
 ## See Also
 

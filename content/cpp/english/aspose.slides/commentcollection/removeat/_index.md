@@ -22,6 +22,14 @@ void Aspose::Slides::CommentCollection::RemoveAt(int32_t index) override
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Index is less than 0 or index is equal or greater than Count |
+| PptxEditException | Thrown if comment is already removed. |
+
+
 ## See Also
 
 * Class [CommentCollection](../)

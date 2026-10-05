@@ -6,7 +6,7 @@ type: docs
 weight: 1847
 url: /system/methodargumenttuple_tmpl_r_lbrace_c__star_rbrace__lbrace_args_dots_rbrace__const__end_tmpl/
 ---
-## MethodArgumentTuple< R(C::*)(Args...) const > struct
+## MethodArgumentTuple\< R(C::\*)(Args...) const \> struct
 
 
 Defines tuple to store method arguments.

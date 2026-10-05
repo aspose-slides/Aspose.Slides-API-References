@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.drawing/color/operator_equal_equal/
 ---
-## Color::operator==(const std::nullptr_t\&) const method
+## Color::operator==(const std::nullptr_t&) const method
 
 
 Always returns false.
@@ -15,7 +15,7 @@ Always returns false.
 bool System::Drawing::Color::operator==(const std::nullptr_t &r) const
 ```
 
-## Color::operator==(const Color\&) const method
+## Color::operator==(const Color&) const method
 
 
 Determines if the current and the specified [Color](../) objects represent the same color.
@@ -29,7 +29,7 @@ bool System::Drawing::Color::operator==(const Color &r) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| r | const [Color](../)\& | The [Color](../) object to compare the current object with |
+| r | const [Color](../)& | The [Color](../) object to compare the current object with |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.runtime.interopservices/nativelibrary/getexport/
 ---
-## NativeLibrary::GetExport(IntPtr, const String\&) method
+## NativeLibrary::GetExport(IntPtr, const String&) method
 
 
 Gets address of given library item.
@@ -21,7 +21,7 @@ static IntPtr System::Runtime::InteropServices::NativeLibrary::GetExport(IntPtr 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | handle | IntPtr | Native library handle. |
-| name | const [String](../../../system/string/)\& | Library item name. |
+| name | const [String](../../../system/string/)& | Library item name. |
 
 ### Return Value
 

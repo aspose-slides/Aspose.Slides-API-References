@@ -54,7 +54,7 @@ Added slide.
 
 
 
-New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with \"Use Destination Theme\" option in PowerPoint. 
+New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

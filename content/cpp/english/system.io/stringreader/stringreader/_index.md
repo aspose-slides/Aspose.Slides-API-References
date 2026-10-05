@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/stringreader/stringreader/
 ---
-## StringReader::StringReader(const String\&) constructor
+## StringReader::StringReader(const String&) constructor
 
 
 Constructs a new instance of [StringReader](../) class that reads characters from the specified string.
@@ -20,7 +20,7 @@ System::IO::StringReader::StringReader(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The underlying string |
+| s | const [String](../../../system/string/)& | The underlying string |
 
 ## See Also
 

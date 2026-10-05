@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/holderinitializer/hold/
 ---
-## HolderInitializer::Hold(const T\&) method
+## HolderInitializer::Hold(const T&) method
 
 
 Copies passed lvalue to holder, then return the holder reference Caller should use this method to hold passed value unconditionally.

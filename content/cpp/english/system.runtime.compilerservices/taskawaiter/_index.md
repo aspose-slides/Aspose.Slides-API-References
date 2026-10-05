@@ -1,7 +1,7 @@
 ---
 title: TaskAwaiter
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: TaskAwaiter class
 type: docs
 weight: 105
 url: /system.runtime.compilerservices/taskawaiter/
@@ -21,8 +21,8 @@ class TaskAwaiter
 | --- | --- |
 | **bool** [get_IsCompleted](./get_iscompleted/)() const |  |
 | void [GetResult](./getresult/)() const |  |
-| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)<>\&) |  |
-|  [TaskAwaiter](./taskawaiter/)(const [TaskPtr](../../system/taskptr/)\&) |  |
+| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)\<\>&) |  |
+|  [TaskAwaiter](./taskawaiter/)(const [TaskPtr](../../system/taskptr/)&) |  |
 ## See Also
 
 * Namespace [System::Runtime::CompilerServices](../)

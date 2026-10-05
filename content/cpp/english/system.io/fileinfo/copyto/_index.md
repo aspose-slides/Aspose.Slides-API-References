@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.io/fileinfo/copyto/
 ---
-## FileInfo::CopyTo(const String\&) method
+## FileInfo::CopyTo(const String&) method
 
 
 Copies the file represented by the current object to the specified location. If the destination file already exists, the copying fails.
@@ -20,13 +20,13 @@ FileInfoPtr System::IO::FileInfo::CopyTo(const String &destFileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destFileName | const [String](../../../system/string/)\& | The destination file name |
+| destFileName | const [String](../../../system/string/)& | The destination file name |
 
 ### Return Value
 
 A [FileInfo](../) object that represents the copy
 
-## FileInfo::CopyTo(const String\&, bool) method
+## FileInfo::CopyTo(const String&, bool) method
 
 
 Copies the file represented by the current object to the specified location. A parameter specifies if existing destination file should be overwritten.
@@ -40,7 +40,7 @@ FileInfoPtr System::IO::FileInfo::CopyTo(const String &destFileName, bool overwr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destFileName | const [String](../../../system/string/)\& | The destination file name |
+| destFileName | const [String](../../../system/string/)& | The destination file name |
 | overwrite | **bool** | True if the existing destination file should be overwritten, false if copying should fail if the destination file already exists |
 
 ### Return Value

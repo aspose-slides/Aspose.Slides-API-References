@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.security.cryptography/ecdsabotan/set_hashalgorithm/
 ---
-## ECDsaBotan::set_HashAlgorithm(const HashAlgorithmName\&) method
+## ECDsaBotan::set_HashAlgorithm(const HashAlgorithmName&) method
 
 
 Sets hash algortihm.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::ECDsaBotan::set_HashAlgorithm(const HashAlg
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm name. |
+| value | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm name. |
 
 ## See Also
 

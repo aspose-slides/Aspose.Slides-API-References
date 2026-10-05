@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /system/decimal/subtract/
 ---
-## Decimal::Subtract(const Decimal\&, const Decimal\&) method
+## Decimal::Subtract(const Decimal&, const Decimal&) method
 
 
 Subtracts one specified [Decimal](../) value from another.
@@ -20,8 +20,8 @@ static Decimal System::Decimal::Subtract(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | The minuend. |
-| d2 | const [Decimal](../)\& | The subtrahend. |
+| d1 | const [Decimal](../)& | The minuend. |
+| d2 | const [Decimal](../)& | The subtrahend. |
 
 ### Return Value
 

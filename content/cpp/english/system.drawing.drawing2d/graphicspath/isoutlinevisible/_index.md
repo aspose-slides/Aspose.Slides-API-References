@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system.drawing.drawing2d/graphicspath/isoutlinevisible/
 ---
-## GraphicsPath::IsOutlineVisible(const PointF\&, const SharedPtr\<Pen\>\&) method
+## GraphicsPath::IsOutlineVisible(const PointF&, const SharedPtr\<Pen\>&) method
 
 
 Indicates whether the specified point is contained within (under) the outline of this [GraphicsPath](../) when drawn with the specified [Pen](../../../system.drawing/pen/). NOT EMPLEMENTED.
@@ -20,8 +20,8 @@ bool System::Drawing::Drawing2D::GraphicsPath::IsOutlineVisible(const PointF &po
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../../system.drawing/pointf/)\& | The point to test |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../../system.drawing/pen/)\>\& | The [Pen](../../../system.drawing/pen/) to test |
+| point | const [PointF](../../../system.drawing/pointf/)& | The point to test |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../../system.drawing/pen/)\>& | The [Pen](../../../system.drawing/pen/) to test |
 
 ## See Also
 

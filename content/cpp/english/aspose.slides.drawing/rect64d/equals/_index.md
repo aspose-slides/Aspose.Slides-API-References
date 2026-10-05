@@ -1,12 +1,12 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rect64d::Equals() method"
 type: docs
 weight: 14
 url: /aspose.slides.drawing/rect64d/equals/
 ---
-## Rect64d::Equals(const Rect64d\&) method
+## Rect64d::Equals(const Rect64d&) method
 
 
 

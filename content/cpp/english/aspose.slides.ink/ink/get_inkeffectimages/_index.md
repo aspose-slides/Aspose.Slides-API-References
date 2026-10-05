@@ -20,7 +20,7 @@ static System::SharedPtr<System::Collections::Generic::IDictionary<InkEffectType
 
 This property allows replacing the default ink effect textures with user-defined ones, which is particularly useful when default assets are restricted by licensing or unavailable at runtime.
 
-Each entry in the dictionary must associate an [InkEffectType](../../inkeffecttype/) value with a corresponding [IImage](../../../aspose.slides/iimage/) object (e.g., Bitmap, or an **Aspose** image interface). 
+Each entry in the dictionary must associate an [InkEffectType](../../inkeffecttype/) value with a corresponding [IImage](../../../aspose.slides/iimage/) object (e.g., Bitmap, or an Aspose image interface). 
 
 
 ```cpp

@@ -17,6 +17,13 @@ void Aspose::Slides::InterruptionToken::ThrowIfInterruptionRequested() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::OperationCanceledException](../../../system/operationcanceledexception/) | Thrown when interruption was requested. |
+
+
 ## See Also
 
 * Class [InterruptionToken](../)

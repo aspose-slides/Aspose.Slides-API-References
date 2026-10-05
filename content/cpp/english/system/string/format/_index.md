@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /system/string/format/
 ---
-## String::Format(const SharedPtr\<IFormatProvider\>\&, const String\&, const Args\&...) method
+## String::Format(const SharedPtr\<IFormatProvider\>&, const String&, const Args&...) method
 
 
 Formats string in C# style.
@@ -26,11 +26,11 @@ template<class...> String System::String::Format(const SharedPtr<IFormatProvider
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fp | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider to use to convert arguments to strings. |
-| format | const [String](../)\& | Format string. |
-| args | const Args\&... | Arguments to format string. |
+| fp | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider to use to convert arguments to strings. |
+| format | const [String](../)& | Format string. |
+| args | const Args&... | Arguments to format string. |
 
-## String::Format(std::nullptr_t, const String\&, const Args\&...) method
+## String::Format(std::nullptr_t, const String&, const Args&...) method
 
 
 Formats string in C# style.
@@ -51,9 +51,9 @@ template<class...> String System::String::Format(std::nullptr_t, const String &f
 | Parameter | Type | Description |
 | --- | --- | --- |
 | format | std::nullptr_t | Format string. |
-| args | const [String](../)\& | Arguments to format string. |
+| args | const [String](../)& | Arguments to format string. |
 
-## String::Format(std::nullptr_t, const char16_t(&), const Args\&...) method
+## String::Format(std::nullptr_t, const char16_t(&), const Args&...) method
 
 
 Formats string in C# style.
@@ -76,7 +76,7 @@ template<std::size_t,class...> String System::String::Format(std::nullptr_t, con
 | format | std::nullptr_t | Format string. |
 | args | const char16_t(&) | Arguments to format string. |
 
-## String::Format(const String\&, const Args\&...) method
+## String::Format(const String&, const Args&...) method
 
 
 Formats string in C# style.
@@ -96,10 +96,10 @@ template<class...> String System::String::Format(const String &format, const Arg
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../)\& | Format string. |
-| args | const Args\&... | Arguments to format string. |
+| format | const [String](../)& | Format string. |
+| args | const Args&... | Arguments to format string. |
 
-## String::Format(const String\&, const System::ArrayPtr\<T\>\&) method
+## String::Format(const String&, const System::ArrayPtr\<T\>&) method
 
 
 Formats string in C# style.
@@ -119,8 +119,8 @@ template<class T> String System::String::Format(const String &format, const Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../)\& | Format string. |
-| args | const [System::ArrayPtr](../../arrayptr/)\<T\>\& | Arguments to format string. |
+| format | const [String](../)& | Format string. |
+| args | const [System::ArrayPtr](../../arrayptr/)\<T\>& | Arguments to format string. |
 
 ## See Also
 

@@ -9,7 +9,7 @@ url: /aspose.slides/icustomxmlpart/get_xmldata/
 ## ICustomXmlPart::get_XmlData() method
 
 
-Returns xml data. Read **uint8_t**[].
+Returns xml data. Read **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::ICustomXmlPart::get_XmlData()=0

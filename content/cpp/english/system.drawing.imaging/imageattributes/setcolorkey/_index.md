@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::SetColorKey(Color colorLow, Colo
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

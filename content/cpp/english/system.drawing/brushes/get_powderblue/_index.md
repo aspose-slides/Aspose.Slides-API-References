@@ -1,7 +1,7 @@
 ---
 title: get_PowderBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFB0E0E6.
+description: "Returns the solid fill color whose hexadecimal value is #FFB0E0E6."
 type: docs
 weight: 1444
 url: /system.drawing/brushes/get_powderblue/

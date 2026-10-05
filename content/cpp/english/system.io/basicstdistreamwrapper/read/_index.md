@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.io/basicstdistreamwrapper/read/
 ---
-## BasicSTDIStreamWrapper::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## BasicSTDIStreamWrapper::Read(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 If wrapping mode is binary, reads the specified number of bytes from the stream, otherwise read the specified number of characters and converts them to **uint8_t** type. Writes result of the reading to the specified byte array.
@@ -20,7 +20,7 @@ virtual int32_t System::IO::BasicSTDIStreamWrapper<T, typename>::Read(const Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array to write the read bytes to |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 
@@ -28,7 +28,7 @@ virtual int32_t System::IO::BasicSTDIStreamWrapper<T, typename>::Read(const Arra
 
 Number of bytes or characters read
 
-## BasicSTDIStreamWrapper::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## BasicSTDIStreamWrapper::Read(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -42,7 +42,7 @@ virtual int32_t System::IO::BasicSTDIStreamWrapper<T, typename>::Read(const Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | The byte array view to write the read bytes to |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | The byte array view to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 

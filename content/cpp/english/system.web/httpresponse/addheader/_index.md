@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.web/httpresponse/addheader/
 ---
-## HttpResponse::AddHeader(const String\&, const String\&) method
+## HttpResponse::AddHeader(const String&, const String&) method
 
 
 Not implemented.

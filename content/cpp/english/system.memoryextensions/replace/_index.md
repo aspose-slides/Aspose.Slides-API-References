@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.memoryextensions/replace/
 ---
-## System::MemoryExtensions::Replace(Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::Replace(Span\<T\>&, const T&, const T&) function
 
 
 Replaces all occurrences of a value with a new value in a [Span](../../system/span/).
@@ -26,11 +26,11 @@ template<typename T> void System::MemoryExtensions::Replace(Span<T> &span, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<T\>\& | The span to modify in-place |
-| oldValue | const T\& | The value to search for and replace |
-| newValue | const T\& | The new value to replace oldValue with |
+| span | [Span](../../system/span/)\<T\>& | The span to modify in-place |
+| oldValue | const T& | The value to search for and replace |
+| newValue | const T& | The new value to replace oldValue with |
 
-## System::MemoryExtensions::Replace(const ReadOnlySpan\<T\>\&, Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::Replace(const ReadOnlySpan\<T\>&, Span\<T\>&, const T&, const T&) function
 
 
 Copies elements from source to destination, replacing specified values during copy.
@@ -50,10 +50,17 @@ template<typename T> void System::MemoryExtensions::Replace(const ReadOnlySpan<T
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The source [ReadOnlySpan](../../system/readonlyspan/) to copy from |
-| destination | [Span](../../system/span/)\<T\>\& | The destination [Span](../../system/span/) to copy to |
-| oldValue | const T\& | The value to search for and replace during copying |
-| newValue | const T\& | The new value to replace oldValue with |
+| source | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The source [ReadOnlySpan](../../system/readonlyspan/) to copy from |
+| destination | [Span](../../system/span/)\<T\>& | The destination [Span](../../system/span/) to copy to |
+| oldValue | const T& | The value to search for and replace during copying |
+| newValue | const T& | The new value to replace oldValue with |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | if destination is smaller than source |
+
 
 ## See Also
 

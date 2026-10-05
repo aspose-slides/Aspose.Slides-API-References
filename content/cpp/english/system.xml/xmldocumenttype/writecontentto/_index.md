@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.xml/xmldocumenttype/writecontentto/
 ---
-## XmlDocumentType::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlDocumentType::WriteContentTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves all the children of the node to the specified [XmlWriter](../../xmlwriter/). For [XmlDocumentType](../) nodes, this method has no effect.
@@ -20,7 +20,7 @@ void System::Xml::XmlDocumentType::WriteContentTo(const SharedPtr<XmlWriter> &w)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

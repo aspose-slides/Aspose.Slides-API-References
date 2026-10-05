@@ -22,6 +22,14 @@ void System::Xml::XmlEntityReference::set_Value(String value) override
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | Node is read-only. |
+| InvalidOperationException | Setting the value. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

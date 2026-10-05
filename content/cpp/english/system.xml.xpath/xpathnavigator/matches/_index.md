@@ -26,6 +26,14 @@ virtual bool System::Xml::XPath::XPathNavigator::Matches(SharedPtr<XPathExpressi
 
 **true** if the current node matches the [XPathExpression](../../xpathexpression/); otherwise, **false**.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression cannot be evaluated. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## XPathNavigator::Matches(String) method
 
 
@@ -45,6 +53,14 @@ virtual bool System::Xml::XPath::XPathNavigator::Matches(String xpath)
 ### Return Value
 
 **true** if the current node matches the specified [XPath](../../) expression; otherwise, **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression cannot be evaluated. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system.drawing/graphics/drawicon/
 ---
-## Graphics::DrawIcon(const SharedPtr\<Icon\>\&, Rectangle) method
+## Graphics::DrawIcon(const SharedPtr\<Icon\>&, Rectangle) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ void System::Drawing::Graphics::DrawIcon(const SharedPtr<Icon> &icon, Rectangle 
 ```
 
 
-## Graphics::DrawIcon(const SharedPtr\<Icon\>\&, int32_t, int32_t) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::DrawIcon(const SharedPtr\<Icon\>&, int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::DrawIcon(const SharedPtr<Icon> &icon, int32_t x, int32_t y)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system/char/isupper/
 ---
-## Char::IsUpper(const String\&, int) method
+## Char::IsUpper(const String&, int) method
 
 
 Determines whether the character at the specified index in the specified string is classified as an upper case letter.
@@ -20,14 +20,22 @@ static bool System::Char::IsUpper(const String &str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | The string containing a char. |
+| str | const [String](../../string/)& | The string containing a char. |
 | idx | int | A zero-based index in the specified string to test |
 
 ### Return Value
 
 True if the character at the specified index is an upper case letter, otherwise - false
 
-## Char::IsUpper(const char_t *, int) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | If specified string is nullptr. |
+| ArgumentOutOfRangeException | If specified index is less than zero or greater than last position in string. |
+
+
+## Char::IsUpper(const char_t \*, int) method
 
 
 Determines whether the character at the specified index in the specified character buffer is classified as an upper case letter.
@@ -41,7 +49,7 @@ static bool System::Char::IsUpper(const char_t *str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | Pointer to the beginning of the character buffer |
+| str | const char_t \* | Pointer to the beginning of the character buffer |
 | idx | int | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value

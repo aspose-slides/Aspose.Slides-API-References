@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.componentmodel/enumconverter/convertfrom/
 ---
-## EnumConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&) method
+## EnumConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::SharedPtr\<System::Globalization::CultureInfo\>&, const System::SharedPtr\<System::Object\>&) method
 
 
 Does actual type conversion; not implemented.

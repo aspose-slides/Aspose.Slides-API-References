@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.globalization/datetimeformatinfo/set_amdesignator/
 ---
-## DateTimeFormatInfo::set_AMDesignator(const String\&) method
+## DateTimeFormatInfo::set_AMDesignator(const String&) method
 
 
 Sets AM designator.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_AMDesignator(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | AM designator string. |
+| value | const [String](../../../system/string/)& | AM designator string. |
 
 ## See Also
 

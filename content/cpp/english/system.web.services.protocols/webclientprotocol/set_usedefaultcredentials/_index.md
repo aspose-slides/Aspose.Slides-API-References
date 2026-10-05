@@ -22,6 +22,13 @@ void System::Web::Services::Protocols::WebClientProtocol::set_UseDefaultCredenti
 | --- | --- | --- |
 | value | **bool** | The value that must be set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotImplementedException](../../../system/notimplementedexception/) |  |
+
+
 ## See Also
 
 * Class [WebClientProtocol](../)

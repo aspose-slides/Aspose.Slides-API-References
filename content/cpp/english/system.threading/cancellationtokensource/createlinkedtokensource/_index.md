@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.threading/cancellationtokensource/createlinkedtokensource/
 ---
-## CancellationTokenSource::CreateLinkedTokenSource(const CancellationToken\&, const CancellationToken\&) method
+## CancellationTokenSource::CreateLinkedTokenSource(const CancellationToken&, const CancellationToken&) method
 
 
 Creates a linked token source that cancels when any of the provided tokens cancel.
@@ -20,8 +20,8 @@ static SharedPtr<CancellationTokenSource> System::Threading::CancellationTokenSo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| token1 | const [CancellationToken](../../cancellationtoken/)\& | First cancellation token to monitor. |
-| token2 | const [CancellationToken](../../cancellationtoken/)\& | Second cancellation token to monitor. |
+| token1 | const [CancellationToken](../../cancellationtoken/)& | First cancellation token to monitor. |
+| token2 | const [CancellationToken](../../cancellationtoken/)& | Second cancellation token to monitor. |
 
 ### Return Value
 

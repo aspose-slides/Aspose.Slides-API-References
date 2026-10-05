@@ -15,6 +15,13 @@ Removes layout from presentation.
 virtual void Aspose::Slides::ILayoutSlide::Remove()=0
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if layout is already removed from presentation or if layout is used in presentation (its HasDependingSlides property is true). |
+
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/valueiterator/valueiterator/
 ---
-## ValueIterator::ValueIterator(typename Dict::map_t::const_iterator\&&, typename Dict::map_t::const_iterator\&&) constructor
+## ValueIterator::ValueIterator(typename Dict::map_t::const_iterator&&, typename Dict::map_t::const_iterator&&) constructor
 
 
 Constructor.
@@ -20,10 +20,10 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(typename Dict::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
-| end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
+| iterator | typename Dict::map_t::const_iterator&& | Iterator to hold. |
+| end | typename Dict::map_t::const_iterator&& | Iterator to the end of the container. |
 
-## ValueIterator::ValueIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
+## ValueIterator::ValueIterator(const typename Dict::map_t::const_iterator&, const typename Dict::map_t::const_iterator&) constructor
 
 
 Constructor.
@@ -37,10 +37,10 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(const typename 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
-| end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
+| iterator | const typename Dict::map_t::const_iterator& | Iterator to hold. |
+| end | const typename Dict::map_t::const_iterator& | Iterator to the end of the container. |
 
-## ValueIterator::ValueIterator(ValueIterator\&&) constructor
+## ValueIterator::ValueIterator(ValueIterator&&) constructor
 
 
 Move constructor.
@@ -54,7 +54,7 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(ValueIterator &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [ValueIterator](../)\&& | Iteratro to move data from. |
+| other | [ValueIterator](../)&& | Iteratro to move data from. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /system/string/lastindexof/
 ---
-## String::LastIndexOf(const String\&, int) const method
+## String::LastIndexOf(const String&, int) const method
 
 
 Substring backward lookup.
@@ -20,14 +20,14 @@ int System::String::LastIndexOf(const String &str, int startIndex=INT32_MAX) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 
 ### Return Value
 
 [Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## String::LastIndexOf(const String\&, System::StringComparison) const method
+## String::LastIndexOf(const String&, System::StringComparison) const method
 
 
 Substring backward lookup.
@@ -41,14 +41,14 @@ int System::String::LastIndexOf(const String &str, System::StringComparison comp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
 
 ### Return Value
 
 [Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## String::LastIndexOf(const String\&, int, System::StringComparison) const method
+## String::LastIndexOf(const String&, int, System::StringComparison) const method
 
 
 Substring backward lookup.
@@ -62,7 +62,7 @@ int System::String::LastIndexOf(const String &str, int startIndex, System::Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
 
@@ -70,7 +70,7 @@ int System::String::LastIndexOf(const String &str, int startIndex, System::Strin
 
 [Index](../../index/) of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## String::LastIndexOf(const String\&, int, int, StringComparison) const method
+## String::LastIndexOf(const String&, int, int, StringComparison) const method
 
 
 Substring backward lookup.
@@ -84,7 +84,7 @@ int System::String::LastIndexOf(const String &value, int startIndex, int count, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Substring to look for. |
+| value | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 | count | int | Number of characters to look through. |
 | comparisonType | [StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |

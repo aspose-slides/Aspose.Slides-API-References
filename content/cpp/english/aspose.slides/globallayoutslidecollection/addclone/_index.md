@@ -54,7 +54,7 @@ Added slide.
 
 
 
-1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with \"Use Destination Theme\" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection::AddClone(SharedPtr<ILayoutSlide>)](../../imasterlayoutslidecollection/addclone/) accessed with [IMasterSlide::get_LayoutSlides()](../../imasterslide/get_layoutslides/) property. 
+1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection::AddClone(SharedPtr\<ILayoutSlide\>)](../../imasterlayoutslidecollection/addclone/) accessed with [IMasterSlide::get_LayoutSlides()](../../imasterslide/get_layoutslides/) property. 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

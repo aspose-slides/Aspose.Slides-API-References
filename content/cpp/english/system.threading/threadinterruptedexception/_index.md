@@ -1,7 +1,7 @@
 ---
 title: ThreadInterruptedException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ThreadInterruptedException typedef
 type: docs
 weight: 391
 url: /system.threading/threadinterruptedexception/

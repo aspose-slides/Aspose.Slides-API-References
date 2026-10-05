@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system.drawing/pen/set_customstartcap/
 ---
-## Pen::set_CustomStartCap(const SharedPtr\<Drawing2D::CustomLineCap\>\&) method
+## Pen::set_CustomStartCap(const SharedPtr\<Drawing2D::CustomLineCap\>&) method
 
 
 Sets the custom start line cap.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::set_CustomStartCap(const SharedPtr<Drawing2D::CustomL
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::CustomLineCap](../../../system.drawing.drawing2d/customlinecap/)\>\& | The value to set |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::CustomLineCap](../../../system.drawing.drawing2d/customlinecap/)\>& | The value to set |
 
 ## See Also
 

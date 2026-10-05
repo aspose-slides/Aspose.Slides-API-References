@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /aspose.slides.charts/piesplitcustompointcollection/add/
 ---
-## PieSplitCustomPointCollection::Add(const int32_t\&) method
+## PieSplitCustomPointCollection::Add(const int32_t&) method
 
 
 Adds data point by its index in parent series points collection.
@@ -20,9 +20,16 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Add(const int32_t &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataPointIndex | const **int32_t**\& | Index of data point in parent series points collection. |
+| dataPointIndex | const **int32_t**& | Index of data point in parent series points collection. |
 
-## PieSplitCustomPointCollection::Add(const System::SharedPtr\<IChartDataPoint\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Point with the given index was not found". |
+
+
+## PieSplitCustomPointCollection::Add(const System::SharedPtr\<IChartDataPoint\>&) method
 
 
 Adds data point to collection.
@@ -36,7 +43,7 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Add(const System::Sh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataPoint | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\& | Data point add to. |
+| dataPoint | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>& | Data point add to. |
 
 ## See Also
 

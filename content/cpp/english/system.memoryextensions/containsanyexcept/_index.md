@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.memoryextensions/containsanyexcept/
 ---
-## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
 Checks if a read-only span contains any element except three specified values.
@@ -26,16 +26,16 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
-| value2 | const T\& | The third value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
+| value2 | const T& | The third value to exclude |
 
 ### Return Value
 
 true if any element different from the specified values is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>&, const T&, const T&, const T&) function
 
 
 Checks if a mutable span contains any element except three specified values.
@@ -55,16 +55,16 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
-| value2 | const T\& | The third value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
+| value2 | const T& | The third value to exclude |
 
 ### Return Value
 
 true if any element different from the specified values is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Checks if a read-only span contains any element except two specified values.
@@ -84,15 +84,15 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
 
 ### Return Value
 
 true if any element different from the specified values is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>&, const T&, const T&) function
 
 
 Checks if a mutable span contains any element except two specified values.
@@ -112,15 +112,15 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
 
 ### Return Value
 
 true if any element different from the specified values is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>&, const T&) function
 
 
 Checks if a read-only span contains any element except a specified value.
@@ -140,14 +140,14 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value | const T\& | The value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value | const T& | The value to exclude |
 
 ### Return Value
 
 true if any element different from the specified value is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>&, const T&) function
 
 
 Checks if a mutable span contains any element except a specified value.
@@ -167,14 +167,14 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| value | const T\& | The value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| value | const T& | The value to exclude |
 
 ### Return Value
 
 true if any element different from the specified value is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Checks if a read-only span contains any element except those in another span.
@@ -194,14 +194,14 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Read
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span of values to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span of values to exclude |
 
 ### Return Value
 
 true if any element not in values is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::ContainsAnyExcept(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Checks if a mutable span contains any element except those in a read-only span.
@@ -221,8 +221,8 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExcept(const Span
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span of values to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The read-only span of values to exclude |
 
 ### Return Value
 

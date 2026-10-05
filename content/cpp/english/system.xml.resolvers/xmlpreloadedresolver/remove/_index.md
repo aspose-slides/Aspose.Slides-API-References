@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.resolvers/xmlpreloadedresolver/remove/
 ---
-## XmlPreloadedResolver::Remove(const SharedPtr\<Uri\>\&) method
+## XmlPreloadedResolver::Remove(const SharedPtr\<Uri\>&) method
 
 
 Removes the data that corresponds to the URI from the [XmlPreloadedResolver](../).
@@ -20,7 +20,14 @@ void System::Xml::Resolvers::XmlPreloadedResolver::Remove(const SharedPtr<Uri> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The URI of the data that should be removed from the [XmlPreloadedResolver](../) store. |
+| uri | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The URI of the data that should be removed from the [XmlPreloadedResolver](../) store. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** is **nullptr**. |
+
 
 ## See Also
 

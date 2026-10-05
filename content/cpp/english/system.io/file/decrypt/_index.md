@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.io/file/decrypt/
 ---
-## File::Decrypt(const String\&) method
+## File::Decrypt(const String&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 static void System::IO::File::Decrypt(const String &path)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

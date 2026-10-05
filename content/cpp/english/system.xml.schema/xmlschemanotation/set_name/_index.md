@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemanotation/set_name/
 ---
-## XmlSchemaNotation::set_Name(const String\&) method
+## XmlSchemaNotation::set_Name(const String&) method
 
 
 Sets the name of the notation.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaNotation::set_Name(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

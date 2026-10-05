@@ -16,6 +16,13 @@ static System::String System::Windows::Forms::SystemInformation::get_UserName()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

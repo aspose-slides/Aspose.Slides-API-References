@@ -15,7 +15,7 @@ Constructs empty dictionary.
 System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary()
 ```
 
-## SortedDictionary::SortedDictionary(const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>&) constructor
 
 
 Constructs empty dictionary.
@@ -29,9 +29,9 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | [Comparer](../../comparer/) to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>& | [Comparer](../../comparer/) to use. |
 
-## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>&) constructor
 
 
 Copy constructor.
@@ -45,9 +45,9 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary to copy data from. |
+| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>& | Source dictionary to copy data from. |
 
-## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&, const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>&, const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>&) constructor
 
 
 Copy constructor.
@@ -61,8 +61,8 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary to copy data from. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | [Comparer](../../comparer/) to use. |
+| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>& | Source dictionary to copy data from. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>& | [Comparer](../../comparer/) to use. |
 
 ## See Also
 

@@ -25,6 +25,14 @@ virtual void System::Xml::XPath::XPathNavigator::AppendChildElement(String prefi
 | namespaceURI | [String](../../../system/string/) | The namespace URI of the new child element node (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
 | value | [String](../../../system/string/) | The value of the new child element node. If [String::Empty](../../../system/string/empty/) or **nullptr** are passed, an empty element is created. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on is not the root node or an element node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

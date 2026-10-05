@@ -20,6 +20,14 @@ virtual Decimal System::Xml::XmlReader::ReadContentAsDecimal()
 
 The text content at the current position as a [Decimal](../../../system/decimal/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [Decimal](../../../system/decimal/)

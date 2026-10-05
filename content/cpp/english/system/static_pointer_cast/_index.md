@@ -6,7 +6,7 @@ type: docs
 weight: 2952
 url: /system/static_pointer_cast/
 ---
-## System::static_pointer_cast(SmartPtr\<X\> const\&) function
+## System::static_pointer_cast(SmartPtr\<X\> const&) function
 
 
 Casts smart pointers using static_cast.
@@ -27,7 +27,7 @@ template<class Y,class X> SmartPtr<Y> System::static_pointer_cast(SmartPtr<X> co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr](../smartptr/)\<X\> const\& | Source pointer. |
+| x | [SmartPtr](../smartptr/)\<X\> const& | Source pointer. |
 
 ### Return Value
 

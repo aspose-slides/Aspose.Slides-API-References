@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.drawing/bitmap/unlockbits/
 ---
-## Bitmap::UnlockBits(const Imaging::BitmapDataPtr\&) method
+## Bitmap::UnlockBits(const Imaging::BitmapDataPtr&) method
 
 
 Unlocks the specified bitmap from system memory.
@@ -20,7 +20,7 @@ void System::Drawing::Bitmap::UnlockBits(const Imaging::BitmapDataPtr &bitmap_da
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bitmap_data | const [Imaging::BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)\& | An object that contains information about the lock operation |
+| bitmap_data | const [Imaging::BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)& | An object that contains information about the lock operation |
 
 ## See Also
 

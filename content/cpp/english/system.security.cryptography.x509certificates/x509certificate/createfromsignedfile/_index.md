@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.security.cryptography.x509certificates/x509certificate/createfromsignedfile/
 ---
-## X509Certificate::CreateFromSignedFile(const String\&) method
+## X509Certificate::CreateFromSignedFile(const String&) method
 
 
 Creates sertificate from the specified signed file.
@@ -20,7 +20,7 @@ static SharedPtr<X509Certificate> System::Security::Cryptography::X509Certificat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | Certificate file name. |
+| filename | const [String](../../../system/string/)& | Certificate file name. |
 
 ### Return Value
 

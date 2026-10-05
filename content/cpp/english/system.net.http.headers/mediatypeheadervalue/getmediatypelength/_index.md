@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.net.http.headers/mediatypeheadervalue/getmediatypelength/
 ---
-## MediaTypeHeaderValue::GetMediaTypeLength(String, int32_t, HeaderFunc\<System::SharedPtr\<MediaTypeHeaderValue\>\>, System::SharedPtr\<MediaTypeHeaderValue\>\&) method
+## MediaTypeHeaderValue::GetMediaTypeLength(String, int32_t, HeaderFunc\<System::SharedPtr\<MediaTypeHeaderValue\>\>, System::SharedPtr\<MediaTypeHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [MediaTypeHeaderValue](../) class.
@@ -23,7 +23,7 @@ static int32_t System::Net::Http::Headers::MediaTypeHeaderValue::GetMediaTypeLen
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
 | mediaTypeCreator | [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeHeaderValue](../)\>\> | The delegate that is used to create instances of the [MediaTypeHeaderValue](../) class. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

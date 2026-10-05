@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.drawing.drawing2d/graphicspath/addclosedcurve/
 ---
-## GraphicsPath::AddClosedCurve(const ArrayPtr\<PointF\>\&, float) method
+## GraphicsPath::AddClosedCurve(const ArrayPtr\<PointF\>&, float) method
 
 
 Adds the specified closed curve to the path represented by the current object.
@@ -20,10 +20,10 @@ void System::Drawing::Drawing2D::GraphicsPath::AddClosedCurve(const ArrayPtr<Poi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## GraphicsPath::AddClosedCurve(const ArrayPtr\<Point\>\&, float) method
+## GraphicsPath::AddClosedCurve(const ArrayPtr\<Point\>&, float) method
 
 
 Adds the specified closed curve to the path represented by the current object.
@@ -37,7 +37,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddClosedCurve(const ArrayPtr<Poi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
 ## See Also

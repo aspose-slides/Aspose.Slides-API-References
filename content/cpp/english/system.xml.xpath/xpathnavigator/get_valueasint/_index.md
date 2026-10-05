@@ -20,6 +20,14 @@ int32_t System::Xml::XPath::XPathNavigator::get_ValueAsInt() override
 
 The current node's value as an [Int32](../../../system/int32/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's string value cannot be converted to a [Int32](../../../system/int32/). |
+| InvalidCastException | The attempted cast to [Int32](../../../system/int32/) is not valid. |
+
+
 ## See Also
 
 * Class [XPathNavigator](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.threading/timerqueue/timerqueue/
 ---
-## TimerQueue::TimerQueue(const TimerQueue\&) constructor
+## TimerQueue::TimerQueue(const TimerQueue&) constructor
 
 
 No copying.

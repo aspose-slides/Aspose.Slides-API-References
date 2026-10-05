@@ -1,7 +1,7 @@
 ---
 title: traits_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: traits_type typedef
 type: docs
 weight: 66
 url: /system.io/basicsystemostreamwrapper/traits_type/

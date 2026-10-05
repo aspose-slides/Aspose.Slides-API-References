@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlQualifiedName](../) class.
 System::Xml::XmlQualifiedName::XmlQualifiedName()
 ```
 
-## XmlQualifiedName::XmlQualifiedName(const String\&) constructor
+## XmlQualifiedName::XmlQualifiedName(const String&) constructor
 
 
 Initializes a new instance of the [XmlQualifiedName](../) class with the specified name.
@@ -29,9 +29,9 @@ System::Xml::XmlQualifiedName::XmlQualifiedName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The local name to use as the name of the [XmlQualifiedName](../) object. |
+| name | const [String](../../../system/string/)& | The local name to use as the name of the [XmlQualifiedName](../) object. |
 
-## XmlQualifiedName::XmlQualifiedName(const String\&, const String\&) constructor
+## XmlQualifiedName::XmlQualifiedName(const String&, const String&) constructor
 
 
 Initializes a new instance of the [XmlQualifiedName](../) class with the specified name and namespace.
@@ -45,8 +45,8 @@ System::Xml::XmlQualifiedName::XmlQualifiedName(const String &name, const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The local name to use as the name of the [XmlQualifiedName](../) object. |
-| ns | const [String](../../../system/string/)\& | The namespace for the [XmlQualifiedName](../) object. |
+| name | const [String](../../../system/string/)& | The local name to use as the name of the [XmlQualifiedName](../) object. |
+| ns | const [String](../../../system/string/)& | The namespace for the [XmlQualifiedName](../) object. |
 
 ## See Also
 

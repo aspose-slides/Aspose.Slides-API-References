@@ -1,12 +1,12 @@
 ---
 title: ExplicitCastToObject()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ObjectExt::ExplicitCastToObject() method"
 type: docs
 weight: 235
 url: /system/objectext/explicitcasttoobject/
 ---
-## ObjectExt::ExplicitCastToObject(const T\&) method
+## ObjectExt::ExplicitCastToObject(const T&) method
 
 
 
@@ -15,7 +15,7 @@ url: /system/objectext/explicitcasttoobject/
 template<typename T> static std::enable_if<System::IsBoxable<T>::value, System::SharedPtr<System::Object>>::type System::ObjectExt::ExplicitCastToObject(const T &value)
 ```
 
-## ObjectExt::ExplicitCastToObject(const T\&) method
+## ObjectExt::ExplicitCastToObject(const T&) method
 
 
 

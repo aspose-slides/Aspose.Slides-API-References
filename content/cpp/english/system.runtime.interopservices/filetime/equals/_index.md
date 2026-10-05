@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.interopservices/filetime/equals/
 ---
-## FILETIME::Equals(const FILETIME\&) const method
+## FILETIME::Equals(const FILETIME&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same file time.

@@ -6,7 +6,7 @@ type: docs
 weight: 2913
 url: /system/makeobject/
 ---
-## System::MakeObject(Args\&&...) function
+## System::MakeObject(Args&&...) function
 
 
 Creates object on heap and returns shared pointer to it.
@@ -27,13 +27,13 @@ template<class T,class ...> std::enable_if<!IsSmartPtr<T>::value, SmartPtr<T>>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | Args\&&... | Constructor arguments. |
+| args | Args&&... | Constructor arguments. |
 
 ### Return Value
 
 [SmartPtr](../smartptr/) to newly created object, always in shared mode.
 
-## System::MakeObject(Args\&&...) function
+## System::MakeObject(Args&&...) function
 
 
 Creates object on heap and returns shared pointer to it.
@@ -54,7 +54,7 @@ template<class T,class ...> std::enable_if<IsSmartPtr<T>::value, T>::type System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | Args\&&... | Constructor arguments. |
+| args | Args&&... | Constructor arguments. |
 
 ### Return Value
 

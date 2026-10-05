@@ -26,6 +26,13 @@ virtual bool System::Xml::XmlReader::ReadToNextSibling(String name)
 
 **true** if a matching sibling element is found; otherwise **false**. If a matching sibling element is not found, the [XmlReader](../) is positioned on the end tag ([XmlReader::get_NodeType](../get_nodetype/) value is [XmlNodeType::EndElement](../../xmlnodetype/)) of the parent element.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The parameter is an empty string. |
+
+
 ## XmlReader::ReadToNextSibling(String, String) method
 
 
@@ -46,6 +53,13 @@ virtual bool System::Xml::XmlReader::ReadToNextSibling(String localName, String 
 ### Return Value
 
 **true** if a matching sibling element is found; otherwise, **false**. If a matching sibling element is not found, the [XmlReader](../) is positioned on the end tag ([XmlReader::get_NodeType](../get_nodetype/) value is [XmlNodeType::EndElement](../../xmlnodetype/)) of the parent element.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | Both parameter values are **nullptr**. |
+
 
 ## See Also
 

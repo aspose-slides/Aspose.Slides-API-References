@@ -1,7 +1,7 @@
 ---
 title: KVPairIterator()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KVPairIterator::KVPairIterator() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic/kvpairiterator/kvpairiterator/

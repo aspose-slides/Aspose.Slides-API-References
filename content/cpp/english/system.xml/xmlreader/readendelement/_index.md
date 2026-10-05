@@ -16,6 +16,13 @@ virtual void System::Xml::XmlReader::ReadEndElement()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The current node is not an end tag or if incorrect XML is encountered in the input stream. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

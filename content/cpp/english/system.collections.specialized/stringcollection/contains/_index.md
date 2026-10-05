@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections.specialized/stringcollection/contains/
 ---
-## StringCollection::Contains(const System::String\&) const method
+## StringCollection::Contains(const System::String&) const method
 
 
 Checks whether specific string is present in container.
@@ -20,7 +20,7 @@ bool System::Collections::Specialized::StringCollection::Contains(const System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::String](../../../system/string/)\& | [String](../../../system/string/) to look for. |
+| value | const [System::String](../../../system/string/)& | [String](../../../system/string/) to look for. |
 
 ### Return Value
 

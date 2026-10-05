@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system/string/contains/
 ---
-## String::Contains(const String\&) const method
+## String::Contains(const String&) const method
 
 
 Checks if str is a substring of current string.
@@ -20,7 +20,7 @@ bool System::String::Contains(const String &str) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Lookup string. |
+| str | const [String](../)& | Lookup string. |
 
 ### Return Value
 

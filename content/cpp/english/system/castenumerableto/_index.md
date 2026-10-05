@@ -6,7 +6,7 @@ type: docs
 weight: 3004
 url: /system/castenumerableto/
 ---
-## System::CastEnumerableTo(const From\&) function
+## System::CastEnumerableTo(const From&) function
 
 
 Performs the explicit casting of elements of the specified enumerable object to different type.
@@ -27,13 +27,13 @@ template<class To,class From> std::enable_if<!System::detail::has_method_get_Cou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| enumerable | const From\& | Enumerable object containing the elements to cast |
+| enumerable | const From& | Enumerable object containing the elements to cast |
 
 ### Return Value
 
 A pointer to a new collection containing elements of type **To** equivalent to the elements of **enumerable**
 
-## System::CastEnumerableTo(const From\&) function
+## System::CastEnumerableTo(const From&) function
 
 
 Performs the explicit casting of elements of the specified enumerable object to different type.
@@ -54,7 +54,7 @@ template<class To,class From> std::enable_if<System::detail::has_method_get_Coun
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| enumerable | const From\& | is inheritor of Enumerable object with defined get_Count method and containing the elements to cast |
+| enumerable | const From& | is inheritor of Enumerable object with defined get_Count method and containing the elements to cast |
 
 ### Return Value
 

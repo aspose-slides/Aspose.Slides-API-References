@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.io/stream/flushasync/
 ---
-## Stream::FlushAsync(const Threading::CancellationToken\&) method
+## Stream::FlushAsync(const Threading::CancellationToken&) method
 
 
 Asynchronously clears all buffers for this stream, causes any buffered data to be written to the underlying device, and monitors cancellation requests.
@@ -20,7 +20,7 @@ virtual TaskPtr System::IO::Stream::FlushAsync(const Threading::CancellationToke
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)\& | The token to monitor for cancellation requests. |
+| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)& | The token to monitor for cancellation requests. |
 
 ### Return Value
 

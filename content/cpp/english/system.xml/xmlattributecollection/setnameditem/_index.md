@@ -26,6 +26,14 @@ SharedPtr<XmlNode> System::Xml::XmlAttributeCollection::SetNamedItem(SharedPtr<X
 
 If the **node** replaces an existing node with the same name, the old node is returned; otherwise, the added node is returned.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **node** was created from a different [XmlDocument](../../xmldocument/) than the one that created this collection. This [XmlAttributeCollection](../) is read-only. |
+| InvalidOperationException | **node** is an [XmlAttribute](../../xmlattribute/) that is already an attribute of another [XmlElement](../../xmlelement/) object. To re-use attributes in other elements, you must clone the [XmlAttribute](../../xmlattribute/) objects you want to re-use. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

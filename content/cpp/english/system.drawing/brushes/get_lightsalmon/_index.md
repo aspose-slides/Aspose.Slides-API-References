@@ -1,7 +1,7 @@
 ---
 title: get_LightSalmon()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFA07A.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFA07A."
 type: docs
 weight: 911
 url: /system.drawing/brushes/get_lightsalmon/

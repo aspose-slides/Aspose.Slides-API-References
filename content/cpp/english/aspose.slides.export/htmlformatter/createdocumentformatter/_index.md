@@ -23,10 +23,6 @@ static System::SharedPtr<HtmlFormatter> Aspose::Slides::Export::HtmlFormatter::C
 | css | [System::String](../../../system/string/) | Specifies CSS for this file. |
 | showSlideTitle | **bool** | Add slide title if there is one above slide image. |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

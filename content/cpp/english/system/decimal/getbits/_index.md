@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /system/decimal/getbits/
 ---
-## Decimal::GetBits(const Decimal\&) method
+## Decimal::GetBits(const Decimal&) method
 
 
 Converts the specified [Decimal](../) object into the binary representation of the value it represents.
@@ -20,7 +20,7 @@ static System::ArrayPtr<int> System::Decimal::GetBits(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object to convert |
+| d | const [Decimal](../)& | The [Decimal](../) object to convert |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system/timezoneinfo/findsystemtimezonebyid/
 ---
-## TimeZoneInfo::FindSystemTimeZoneById(const String\&) method
+## TimeZoneInfo::FindSystemTimeZoneById(const String&) method
 
 
 Gets time zone with specified identifier.
@@ -20,7 +20,7 @@ static TimeZoneInfoPtr System::TimeZoneInfo::FindSystemTimeZoneById(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | const [String](../../string/)\& | Time zone identifier. |
+| id | const [String](../../string/)& | Time zone identifier. |
 
 ### Return Value
 

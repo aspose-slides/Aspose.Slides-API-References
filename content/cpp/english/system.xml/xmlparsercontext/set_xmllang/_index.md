@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.xml/xmlparsercontext/set_xmllang/
 ---
-## XmlParserContext::set_XmlLang(const String\&) method
+## XmlParserContext::set_XmlLang(const String&) method
 
 
 Sets the current **xml:lang** scope.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_XmlLang(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

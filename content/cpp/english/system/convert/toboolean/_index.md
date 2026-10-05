@@ -105,7 +105,7 @@ Converts the specified double number to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(double value)
 ```
 
-## Convert::ToBoolean(const Decimal\&) method
+## Convert::ToBoolean(const Decimal&) method
 
 
 Converts the specified decimal number to an equivalent boolean value.
@@ -146,7 +146,7 @@ static constexpr bool System::Convert::ToBoolean(std::nullptr_t)
 
 False.
 
-## Convert::ToBoolean(const char_t *) method
+## Convert::ToBoolean(const char_t \*) method
 
 
 Converts the specified c-string to the value of bool type.
@@ -160,13 +160,20 @@ static bool System::Convert::ToBoolean(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert |
+| value | const char_t \* | The c-string to convert |
 
 ### Return Value
 
-True if the specified c-string is equal to \"True\" and false if the specified c-string is equal to \"False\".
+True if the specified c-string is equal to "True" and false if the specified c-string is equal to "False".
 
-## Convert::ToBoolean(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified c-string is not equal to "True" or "False". |
+
+
+## Convert::ToBoolean(const String&) method
 
 
 Converts the specified string to the value of bool type.
@@ -180,13 +187,20 @@ static bool System::Convert::ToBoolean(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
-True if the specified c-string is equal to \"True\" and false if the specified string is equal to \"False\".
+True if the specified c-string is equal to "True" and false if the specified string is equal to "False".
 
-## Convert::ToBoolean(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string is not equal to "True" or "False". |
+
+
+## Convert::ToBoolean(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string to the value of bool type.
@@ -200,13 +214,20 @@ static bool System::Convert::ToBoolean(const String &value, const SharedPtr<IFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
-True if the specified c-string is equal to \"True\" and false if the specified string is equal to \"False\".
+True if the specified c-string is equal to "True" and false if the specified string is equal to "False".
 
-## Convert::ToBoolean(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | If the specified string is not equal to "True" or "False". |
+
+
+## Convert::ToBoolean(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to equivalent boolean value.
@@ -220,8 +241,8 @@ static bool System::Convert::ToBoolean(const SharedPtr<Object> &obj, const Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

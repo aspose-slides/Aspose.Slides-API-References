@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.collections.generic.details/isoutofsize/
 ---
-## System::Collections::Generic::Details::IsOutOfSize(int, const Container\&) function
+## System::Collections::Generic::Details::IsOutOfSize(int, const Container&) function
 
 
 Checks if index is out of container bounds, including container size.
@@ -27,13 +27,13 @@ template<typename Container> bool System::Collections::Generic::Details::IsOutOf
 | Parameter | Type | Description |
 | --- | --- | --- |
 | count | int | [Index](../../system/index/). |
-| container | const Container\& | Container to check index against. |
+| container | const Container& | Container to check index against. |
 
 ### Return Value
 
 True if index is out of container bounds, false otherwise.
 
-## System::Collections::Generic::Details::IsOutOfSize(std::int64_t, const Container\&) function
+## System::Collections::Generic::Details::IsOutOfSize(std::int64_t, const Container&) function
 
 
 Checks if index is out of container bounds, including container size.
@@ -54,7 +54,7 @@ template<typename Container> bool System::Collections::Generic::Details::IsOutOf
 | Parameter | Type | Description |
 | --- | --- | --- |
 | count | std::int64_t | [Index](../../system/index/). |
-| container | const Container\& | Container to check index against. |
+| container | const Container& | Container to check index against. |
 
 ### Return Value
 

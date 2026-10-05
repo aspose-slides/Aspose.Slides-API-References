@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/holderinitializer/holdiftemporary/
 ---
-## HolderInitializer::HoldIfTemporary(const T\&) method
+## HolderInitializer::HoldIfTemporary(const T&) method
 
 
 Returns reference to rvalue (const)
@@ -15,7 +15,7 @@ Returns reference to rvalue (const)
 const T & System::HolderInitializer<T, R>::HoldIfTemporary(const T &value)
 ```
 
-## HolderInitializer::HoldIfTemporary(T\&) method
+## HolderInitializer::HoldIfTemporary(T&) method
 
 
 Returns reference to rvalue (non-const)
@@ -24,7 +24,7 @@ Returns reference to rvalue (non-const)
 const T & System::HolderInitializer<T, R>::HoldIfTemporary(T &value)
 ```
 
-## HolderInitializer::HoldIfTemporary(T\&&) method
+## HolderInitializer::HoldIfTemporary(T&&) method
 
 
 Copies passed lvalue to holder, then return the holder reference.

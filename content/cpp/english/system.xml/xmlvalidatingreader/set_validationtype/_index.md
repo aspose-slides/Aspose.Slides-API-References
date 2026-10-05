@@ -22,6 +22,13 @@ void System::Xml::XmlValidatingReader::set_ValidationType(System::Xml::Validatio
 | --- | --- | --- |
 | value | [System::Xml::ValidationType](../../validationtype/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Setting the value after a Read has been called. |
+
+
 ## See Also
 
 * Enum [ValidationType](../../validationtype/)

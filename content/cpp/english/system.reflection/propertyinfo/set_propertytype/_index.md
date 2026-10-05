@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.reflection/propertyinfo/set_propertytype/
 ---
-## PropertyInfo::set_PropertyType(const TypeInfo\&) method
+## PropertyInfo::set_PropertyType(const TypeInfo&) method
 
 
 Sets the type of this property.
@@ -20,7 +20,7 @@ void System::Reflection::PropertyInfo::set_PropertyType(const TypeInfo &type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | property type |
+| type | const [TypeInfo](../../../system/typeinfo/)& | property type |
 
 ## See Also
 

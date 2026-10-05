@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemacomplexcontentextension/set_basetypename/
 ---
-## XmlSchemaComplexContentExtension::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaComplexContentExtension::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of the complex type from which this type is derived by extension.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexContentExtension::set_BaseTypeName(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

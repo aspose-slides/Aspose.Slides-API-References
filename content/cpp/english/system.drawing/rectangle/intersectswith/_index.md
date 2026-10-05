@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.drawing/rectangle/intersectswith/
 ---
-## Rectangle::IntersectsWith(const Rectangle\&) method
+## Rectangle::IntersectsWith(const Rectangle&) method
 
 
 Determines if the rectangles represented by the current and specified objects intesect.
@@ -20,7 +20,7 @@ bool System::Drawing::Rectangle::IntersectsWith(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../)\& | The rectangle to check |
+| rect | const [Rectangle](../)& | The rectangle to check |
 
 ### Return Value
 

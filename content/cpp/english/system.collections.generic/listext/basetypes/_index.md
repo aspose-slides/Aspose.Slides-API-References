@@ -1,7 +1,7 @@
 ---
 title: BaseTypes
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: BaseTypes typedef
 type: docs
 weight: 53
 url: /system.collections.generic/listext/basetypes/

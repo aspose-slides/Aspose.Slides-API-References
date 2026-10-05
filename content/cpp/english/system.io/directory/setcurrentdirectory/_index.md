@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.io/directory/setcurrentdirectory/
 ---
-## Directory::SetCurrentDirectory(const String\&) method
+## Directory::SetCurrentDirectory(const String&) method
 
 
 Sets the current directory.
@@ -20,7 +20,7 @@ static void System::IO::Directory::SetCurrentDirectory(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to the directory to make current |
+| path | const [String](../../../system/string/)& | The path to the directory to make current |
 
 ## See Also
 

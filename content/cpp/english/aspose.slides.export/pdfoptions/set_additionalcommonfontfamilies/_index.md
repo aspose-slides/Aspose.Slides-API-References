@@ -9,7 +9,7 @@ url: /aspose.slides.export/pdfoptions/set_additionalcommonfontfamilies/
 ## PdfOptions::set_AdditionalCommonFontFamilies(System::ArrayPtr\<System::String\>) method
 
 
-Sets an array of user-defined names of font families which [Aspose.Slides](../../../aspose.slides/) should consider common. Write [System::String](../../../system/string/)[].
+Sets an array of user-defined names of font families which [Aspose.Slides](../../../aspose.slides/) should consider common. Write [System::String](../../../system/string/)\[\].
 
 ```cpp
 void Aspose::Slides::Export::PdfOptions::set_AdditionalCommonFontFamilies(System::ArrayPtr<System::String> value) override

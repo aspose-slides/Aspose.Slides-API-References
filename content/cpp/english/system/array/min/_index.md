@@ -9,7 +9,7 @@ url: /system/array/min/
 ## Array::Min() const method
 
 
-Finds the smallest element in the array using [operator<()](../../operator_less/) to compare elements.
+Finds the smallest element in the array using [operator\<()](../../operator_less/) to compare elements.
 
 ```cpp
 UnderlyingType System::Array<T>::Min() const

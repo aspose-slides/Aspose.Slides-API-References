@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /aspose.slides.animation/behaviorpropertycollection/contains/
 ---
-## BehaviorPropertyCollection::Contains(const System::SharedPtr\<IBehaviorProperty\>\&) const method
+## BehaviorPropertyCollection::Contains(const System::SharedPtr\<IBehaviorProperty\>&) const method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.
@@ -20,13 +20,13 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Contains(const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | The property to locate in the [ICollection](../../../system.collections.generic/icollection/). |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>& | The property to locate in the [ICollection](../../../system.collections.generic/icollection/). |
 
 ### Return Value
 
 true if *item*  is found in the [ICollection](../../../system.collections.generic/icollection/); otherwise, false.
 
-## BehaviorPropertyCollection::Contains(const System::String\&) const method
+## BehaviorPropertyCollection::Contains(const System::String&) const method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.
@@ -40,7 +40,7 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Contains(const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | const [System::String](../../../system/string/)\& | Value of the property to locate in the [ICollection](../../../system.collections.generic/icollection/). |
+| propertyValue | const [System::String](../../../system/string/)& | Value of the property to locate in the [ICollection](../../../system.collections.generic/icollection/). |
 
 ### Return Value
 

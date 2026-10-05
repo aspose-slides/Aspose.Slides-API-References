@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.io/filestream/readasync/
 ---
-## FileStream::ReadAsync(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t, const Threading::CancellationToken\&) method
+## FileStream::ReadAsync(const ArrayPtr\<uint8_t\>&, int32_t, int32_t, const Threading::CancellationToken&) method
 
 
 Asynchronously reads a sequence of bytes from the current stream, advances the position within the stream by the number of bytes read, and monitors cancellation requests.
@@ -20,10 +20,10 @@ RTaskPtr<int32_t> System::IO::FileStream::ReadAsync(const ArrayPtr<uint8_t> &buf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array to write the read bytes to. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array to write the read bytes to. |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at. |
 | count | **int32_t** | The number of bytes to read. |
-| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)\& | The token to monitor for cancellation requests. |
+| cancellationToken | const [Threading::CancellationToken](../../../system.threading/cancellationtoken/)& | The token to monitor for cancellation requests. |
 
 ### Return Value
 

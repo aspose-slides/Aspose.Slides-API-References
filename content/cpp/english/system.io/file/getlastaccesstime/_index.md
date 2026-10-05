@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.io/file/getlastaccesstime/
 ---
-## File::GetLastAccessTime(const String\&) method
+## File::GetLastAccessTime(const String&) method
 
 
 Returns the last access time of the specified entity as local time.
@@ -20,7 +20,7 @@ static DateTime System::IO::File::GetLastAccessTime(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last access time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose last access time to retrieve |
 
 ### Return Value
 

@@ -16,10 +16,6 @@ Vector2d64d Aspose::Slides::Drawing::Vector2d32f::ToVector2d64d()
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Class [Vector2d64d](../../vector2d64d/)

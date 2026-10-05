@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.collections.generic/linkedlist/remove/
 ---
-## LinkedList::Remove(const T\&) method
+## LinkedList::Remove(const T&) method
 
 
 Removes first occurance of the specified **element** from list.
@@ -20,13 +20,13 @@ bool System::Collections::Generic::LinkedList<T>::Remove(const T &element) overr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to remove. |
+| element | const T& | Element to remove. |
 
 ### Return Value
 
 True if **element** was found and removed, false otherwise.
 
-## LinkedList::Remove(const SharedPtr\<LinkedListNode\<T\>\>\&) method
+## LinkedList::Remove(const SharedPtr\<LinkedListNode\<T\>\>&) method
 
 
 Removes node from list.
@@ -40,7 +40,7 @@ void System::Collections::Generic::LinkedList<T>::Remove(const SharedPtr<LinkedL
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | Node to remove. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | Node to remove. |
 
 ## See Also
 

@@ -20,18 +20,18 @@ template<typename ...>class ValueTuple : public System::Details::BoxableObjectBa
 | Method | Description |
 | --- | --- |
 | **bool** [Equals](./equals/)([SharedPtr](../sharedptr/)\<[Object](../object/)\>) | Determines if the current and the specified objects are identical. |
-| **bool** [Equals](./equals/)(const [ValueTuple](./)\&) |  |
+| **bool** [Equals](./equals/)(const [ValueTuple](./)&) |  |
 | **int32_t** [GetHashCode](./gethashcode/)() const |  |
-| const [TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const |  |
-| std::tuple_element_t\<[Index](../index/), tuple_t\>\& [Item](./item/)() | Gets the reference to value of the [ValueTuple](./) object's component. |
-| const std::tuple_element_t\<[Index](../index/), tuple_t\>\& [Item](./item/)() const | Gets the value of the [ValueTuple](./) object's component. |
-| [ValueTuple](./)\& [operator=](./operator_equal/)(const [ValueTuple](./)\<OtherArgs...\>\&) |  |
-| [ValueTuple](./)\& [operator=](./operator_equal/)(const [SharedPtr](../sharedptr/)\<T\>\&) | Deconstructs object to this value tuple. |
-| **bool** [operator==](./operator_equal_equal/)(const [ValueTuple](./)\&) const |  |
+| const [TypeInfo](../typeinfo/)& [GetType](./gettype/)() const |  |
+| std::tuple_element_t\<[Index](../index/), tuple_t\>& [Item](./item/)() | Gets the reference to value of the [ValueTuple](./) object's component. |
+| const std::tuple_element_t\<[Index](../index/), tuple_t\>& [Item](./item/)() const | Gets the value of the [ValueTuple](./) object's component. |
+| [ValueTuple](./)& [operator=](./operator_equal/)(const [ValueTuple](./)\<OtherArgs...\>&) |  |
+| [ValueTuple](./)& [operator=](./operator_equal/)(const [SharedPtr](../sharedptr/)\<T\>&) | Deconstructs object to this value tuple. |
+| **bool** [operator==](./operator_equal_equal/)(const [ValueTuple](./)&) const |  |
 | [System::String](../string/) [ToString](./tostring/)() const |  |
-| tuple_t\& [tuple](./tuple/)() |  |
-| const tuple_t\& [tuple](./tuple/)() const |  |
-| static const [TypeInfo](../typeinfo/)\& [Type](./type/)() | Returns a reference to the [TypeInfo](../typeinfo/) object representing the [ValueTuple](./) class type information. |
+| tuple_t& [tuple](./tuple/)() |  |
+| const tuple_t& [tuple](./tuple/)() const |  |
+| static const [TypeInfo](../typeinfo/)& [Type](./type/)() | Returns a reference to the [TypeInfo](../typeinfo/) object representing the [ValueTuple](./) class type information. |
 |  [ValueTuple](./valuetuple/)() |  |
 |  [ValueTuple](./valuetuple/)(Args...) | Constructs a tuple object. |
 ## See Also

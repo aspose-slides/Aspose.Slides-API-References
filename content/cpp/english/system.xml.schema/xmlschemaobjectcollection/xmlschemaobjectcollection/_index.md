@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlSchemaObjectCollection](../) class.
 System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection()
 ```
 
-## XmlSchemaObjectCollection::XmlSchemaObjectCollection(const SharedPtr\<XmlSchemaObject\>\&) constructor
+## XmlSchemaObjectCollection::XmlSchemaObjectCollection(const SharedPtr\<XmlSchemaObject\>&) constructor
 
 
 Initializes a new instance of the [XmlSchemaObjectCollection](../) class that takes an [XmlSchemaObject](../../xmlschemaobject/).
@@ -29,7 +29,7 @@ System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parent | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | The [XmlSchemaObject](../../xmlschemaobject/). |
+| parent | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | The [XmlSchemaObject](../../xmlschemaobject/). |
 
 ## See Also
 

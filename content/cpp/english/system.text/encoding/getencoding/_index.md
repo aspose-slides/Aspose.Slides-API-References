@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /system.text/encoding/getencoding/
 ---
-## Encoding::GetEncoding(const String\&) method
+## Encoding::GetEncoding(const String&) method
 
 
 Gets encoding by name.
@@ -20,7 +20,7 @@ static EncodingPtr System::Text::Encoding::GetEncoding(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Encoding](../) name. |
+| name | const [String](../../../system/string/)& | [Encoding](../) name. |
 
 ### Return Value
 
@@ -46,7 +46,7 @@ static EncodingPtr System::Text::Encoding::GetEncoding(int codepage)
 
 [Encoding](../) of specified codepage.
 
-## Encoding::GetEncoding(int, const EncoderFallbackPtr\&, const DecoderFallbackPtr\&) method
+## Encoding::GetEncoding(int, const EncoderFallbackPtr&, const DecoderFallbackPtr&) method
 
 
 Gets encoding by codepage.
@@ -61,14 +61,14 @@ static EncodingPtr System::Text::Encoding::GetEncoding(int codepage, const Encod
 | Parameter | Type | Description |
 | --- | --- | --- |
 | codepage | int | Codepage number. |
-| encoder_fallback | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\& | Fallback to use for encoding. |
-| decoder_fallback | const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\& | Fallback to use for decoding. |
+| encoder_fallback | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)& | Fallback to use for encoding. |
+| decoder_fallback | const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)& | Fallback to use for decoding. |
 
 ### Return Value
 
 [Encoding](../) of specified codepage.
 
-## Encoding::GetEncoding(const String\&, const EncoderFallbackPtr\&, const DecoderFallbackPtr\&) method
+## Encoding::GetEncoding(const String&, const EncoderFallbackPtr&, const DecoderFallbackPtr&) method
 
 
 Gets encoding by name.
@@ -82,9 +82,9 @@ static EncodingPtr System::Text::Encoding::GetEncoding(const String &name, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Encoding](../) name. |
-| encoder_fallback | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\& | Fallback to use for encoding. |
-| decoder_fallback | const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\& | Fallback to use for decoding. |
+| name | const [String](../../../system/string/)& | [Encoding](../) name. |
+| encoder_fallback | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)& | Fallback to use for encoding. |
+| decoder_fallback | const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)& | Fallback to use for decoding. |
 
 ### Return Value
 

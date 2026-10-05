@@ -15,7 +15,7 @@ Null pointer constructor.
 System::Collections::Generic::HashSetPtr<T>::HashSetPtr()
 ```
 
-## HashSetPtr::HashSetPtr(const SharedPtr\<HashSet\<T\>\>\&) constructor
+## HashSetPtr::HashSetPtr(const SharedPtr\<HashSet\<T\>\>&) constructor
 
 
 Copy constructor.
@@ -29,7 +29,7 @@ System::Collections::Generic::HashSetPtr<T>::HashSetPtr(const SharedPtr<HashSet<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[HashSet](../../hashset/)\<T\>\>\& | Pointer to copy. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[HashSet](../../hashset/)\<T\>\>& | Pointer to copy. |
 
 ## See Also
 

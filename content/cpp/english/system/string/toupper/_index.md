@@ -20,7 +20,7 @@ String System::String::ToUpper() const
 
 Converted string.
 
-## String::ToUpper(const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
+## String::ToUpper(const SharedPtr\<System::Globalization::CultureInfo\>&) const method
 
 
 Converts all string's characters to upper case using specific culture.
@@ -34,7 +34,7 @@ String System::String::ToUpper(const SharedPtr<System::Globalization::CultureInf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cultureInfo | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use. |
+| cultureInfo | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use. |
 
 ### Return Value
 

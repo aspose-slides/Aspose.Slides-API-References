@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.drawing/color/equals/
 ---
-## Color::Equals(const Color\&) const method
+## Color::Equals(const Color&) const method
 
 
 Determines if the current and the specified [Color](../) objects represent the same color.
@@ -20,7 +20,7 @@ bool System::Drawing::Color::Equals(const Color &color) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | const [Color](../)\& | The [Color](../) object to compare the current object with |
+| color | const [Color](../)& | The [Color](../) object to compare the current object with |
 
 ### Return Value
 

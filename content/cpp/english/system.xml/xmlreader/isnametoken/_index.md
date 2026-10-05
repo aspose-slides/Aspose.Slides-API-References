@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /system.xml/xmlreader/isnametoken/
 ---
-## XmlReader::IsNameToken(const String\&) method
+## XmlReader::IsNameToken(const String&) method
 
 
 Returns a value indicating whether or not the string argument is a valid XML name token.
@@ -20,11 +20,18 @@ static bool System::Xml::XmlReader::IsNameToken(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | The name token to validate. |
+| str | const [String](../../../system/string/)& | The name token to validate. |
 
 ### Return Value
 
 **true** if it is a valid name token; otherwise **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **str** value is **nullptr**. |
+
 
 ## See Also
 

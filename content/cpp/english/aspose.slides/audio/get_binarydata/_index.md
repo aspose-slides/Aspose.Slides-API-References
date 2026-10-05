@@ -9,7 +9,7 @@ url: /aspose.slides/audio/get_binarydata/
 ## Audio::get_BinaryData() method
 
 
-Returns the copy of an audio's data. In case of large amount of data consider using of [Audio::GetStream](../getstream/) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only **uint8_t**[].
+Returns the copy of an audio's data. In case of large amount of data consider using of [Audio::GetStream](../getstream/) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only **uint8_t**\[\].
 
 ```cpp
 System::ArrayPtr<uint8_t> Aspose::Slides::Audio::get_BinaryData() override

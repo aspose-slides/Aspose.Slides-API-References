@@ -33,7 +33,7 @@ System::DateTime::DateTime(int year, int month, int day)
 | month | int | The month of the **year** to be represented by the instance being constructed. |
 | day | int | The day of the **month** to be represented by the instance being constructed. |
 
-## DateTime::DateTime(int, int, int, const SharedPtr\<Globalization::Calendar\>\&) constructor
+## DateTime::DateTime(int, int, int, const SharedPtr\<Globalization::Calendar\>&) constructor
 
 
 Constructs an instance that represents a date and time value specified as a particular year, month and day in the specified calendar.
@@ -50,7 +50,7 @@ System::DateTime::DateTime(int year, int month, int day, const SharedPtr<Globali
 | year | int | The year to be represented by the instance being constructed. |
 | month | int | The month of the **year** to be represented by the instance being constructed. |
 | day | int | The day of the **month** to be represented by the instance being constructed. |
-| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>\& | The calendar used to interpret the specified **year**, **month** and **day**. |
+| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>& | The calendar used to interpret the specified **year**, **month** and **day**. |
 
 ## DateTime::DateTime(int, int, int, int, int, int) constructor
 
@@ -95,7 +95,7 @@ System::DateTime::DateTime(int year, int month, int day, int hour, int minute, i
 | second | int | The second of the **minute** te be represented by the instance being constructed. |
 | kind | [DateTimeKind](../../datetimekind/) | The value that indicates if the provided date and time parameters specify a local time, UTC time or neither. |
 
-## DateTime::DateTime(int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>\&) constructor
+## DateTime::DateTime(int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>&) constructor
 
 
 Constructs an instance that represents a date and time value specified as a particular year, month, day, hour, minute and second in the specified calendar.
@@ -115,7 +115,7 @@ System::DateTime::DateTime(int year, int month, int day, int hour, int minute, i
 | hour | int | The hour of the **day** to be represented by the instance being constructed. |
 | minute | int | The minute of the **hour** to be represented by the instance being constructed. |
 | second | int | The second of the **minute** te be represented by the instance being constructed. |
-| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>\& | The calendar used to interpret the specified **year**, **month** and **day**. |
+| calendar | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>& | The calendar used to interpret the specified **year**, **month** and **day**. |
 
 ## DateTime::DateTime(int, int, int, int, int, int, int, DateTimeKind) constructor
 
@@ -140,7 +140,7 @@ System::DateTime::DateTime(int year, int month, int day, int hour, int minute, i
 | millisecond | int | The millisecond of the **second** to be represented by the instance being constructed. |
 | kind | [DateTimeKind](../../datetimekind/) | The value that indicates if the provided date and time parameters specify a local time, UTC time or neither. |
 
-## DateTime::DateTime(int, int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>\&, DateTimeKind) constructor
+## DateTime::DateTime(int, int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>&, DateTimeKind) constructor
 
 
 Constructs an instance that represents a date and time value specified as a particular year, month, day, hour, minute, second and millisecond in the specified calendar.
@@ -161,7 +161,7 @@ System::DateTime::DateTime(int year, int month, int day, int hour, int minute, i
 | minute | int | The minute of the **hour** to be represented by the instance being constructed. |
 | second | int | The second of the **minute** te be represented by the instance being constructed. |
 | millisecond | int | The millisecond of the **second** to be represented by the instance being constructed. |
-| kind | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>\& | The value that indicates if the provided date and time parameters specify a local time, UTC time or neither. |
+| kind | const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>& | The value that indicates if the provided date and time parameters specify a local time, UTC time or neither. |
 | calendar | [DateTimeKind](../../datetimekind/) | The calendar used to interpret the specified **year**, **month** and **day**. |
 
 ## DateTime::DateTime(int64_t, DateTimeKind) constructor
@@ -199,7 +199,7 @@ System::DateTime::DateTime(int64_t ticks, DateTimeKind kind, bool is_ambiguous_l
 | kind | [DateTimeKind](../../datetimekind/) | The value that indicates if **ticks** parameter specifies a local time, UTC time or neither. |
 | is_ambiguous_local_dst | **bool** | True if specified date and time is ambiguous and can be mapped to many UTC times. |
 
-## DateTime::DateTime(const DateTime\&) constructor
+## DateTime::DateTime(const DateTime&) constructor
 
 
 Copy-constructs an instance.
@@ -213,7 +213,7 @@ System::DateTime::DateTime(const DateTime &dt)=default
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dt | const [DateTime](../)\& | An instance of [DateTime](../) class to copy the represented date and time value from |
+| dt | const [DateTime](../)& | An instance of [DateTime](../) class to copy the represented date and time value from |
 
 ## See Also
 

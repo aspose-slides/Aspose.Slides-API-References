@@ -1,7 +1,7 @@
 ---
 title: get_Sienna()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFA0522D.
+description: "Returns the solid fill color whose hexadecimal value is #FFA0522D."
 type: docs
 weight: 1574
 url: /system.drawing/brushes/get_sienna/

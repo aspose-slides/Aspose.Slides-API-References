@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.globalization/numberformatinfo/set_permillesymbol/
 ---
-## NumberFormatInfo::set_PerMilleSymbol(const String\&) method
+## NumberFormatInfo::set_PerMilleSymbol(const String&) method
 
 
 Sets permille symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PerMilleSymbol(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Permille symbol. |
+| value | const [String](../../../system/string/)& | Permille symbol. |
 
 ## See Also
 

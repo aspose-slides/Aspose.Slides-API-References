@@ -15,6 +15,13 @@ Specifies how much bars and columns shall overlap on 2-D charts, as a percentage
 void Aspose::Slides::Charts::ChartSeriesGroup::set_Overlap(int8_t value) override
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Thrown when the value is set outside the valid range of -100 to 100. |
+
 ## Remarks
 
 

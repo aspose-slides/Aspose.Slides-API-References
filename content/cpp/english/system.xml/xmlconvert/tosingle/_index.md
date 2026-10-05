@@ -26,6 +26,15 @@ static float System::Xml::XmlConvert::ToSingle(String s)
 
 A [Single](../../../system/single/) equivalent of the string.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** is not in the correct format. |
+| OverflowException | **s** represents a number less than [Single::MinValue](../../../system/single/minvalue/) or greater than [Single::MaxValue](../../../system/single/maxvalue/). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

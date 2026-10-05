@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/file/appendalllines/
 ---
-## File::AppendAllLines(const String\&, const SharedPtr\<Collections::Generic::IEnumerable\<String\>\>\&, const EncodingPtr\&) method
+## File::AppendAllLines(const String&, const SharedPtr\<Collections::Generic::IEnumerable\<String\>\>&, const EncodingPtr&) method
 
 
 Appends strings from the specified collection of strings to the specified file using the specified encoding by writing each string in a new line. If the specified file does not exist, it is created. The file is closed after writing all strings.
@@ -20,9 +20,9 @@ static void System::IO::File::AppendAllLines(const String &path, const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to append the strings to |
-| contents | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>\& | The strings to write to the file |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The path of the file to append the strings to |
+| contents | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>& | The strings to write to the file |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ## See Also
 

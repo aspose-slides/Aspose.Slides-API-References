@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/sortversion/sortversion/
 ---
-## SortVersion::SortVersion(int, const Guid\&) constructor
+## SortVersion::SortVersion(int, const Guid&) constructor
 
 
 RTTI information.
@@ -21,12 +21,12 @@ System::Globalization::SortVersion::SortVersion(int full_version, const Guid &so
 | Parameter | Type | Description |
 | --- | --- | --- |
 | full_version | int | [Version](../../../system/version/) number. |
-| sort_id | const [Guid](../../../system/guid/)\& | A sort identifier. |
+| sort_id | const [Guid](../../../system/guid/)& | A sort identifier. |
 ## Remarks
 
 
 Constructor. 
-## SortVersion::SortVersion(const SortVersion\&) constructor
+## SortVersion::SortVersion(const SortVersion&) constructor
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /system/uri/escapeuristring/
 ---
-## Uri::EscapeUriString(const String\&) method
+## Uri::EscapeUriString(const String&) method
 
 
 Converts a URI string to its escaped representation.
@@ -20,7 +20,7 @@ static String System::Uri::EscapeUriString(const String &stringToEscape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stringToEscape | const [String](../../string/)\& | The string to escape |
+| stringToEscape | const [String](../../string/)& | The string to escape |
 
 ### Return Value
 

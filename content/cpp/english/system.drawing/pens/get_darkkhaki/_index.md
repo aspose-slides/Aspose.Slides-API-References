@@ -1,7 +1,7 @@
 ---
 title: get_DarkKhaki()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFBDB76B.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFBDB76B."
 type: docs
 weight: 352
 url: /system.drawing/pens/get_darkkhaki/

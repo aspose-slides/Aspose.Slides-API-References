@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml/xmlconvert/verifypublicid/
 ---
-## XmlConvert::VerifyPublicId(const String\&) method
+## XmlConvert::VerifyPublicId(const String&) method
 
 
 Returns the passed in string instance if all the characters in the string argument are valid public id characters.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::VerifyPublicId(const String &publicId)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| publicId | const [String](../../../system/string/)\& | [String](../../../system/string/) that contains the id to validate. |
+| publicId | const [String](../../../system/string/)& | [String](../../../system/string/) that contains the id to validate. |
 
 ### Return Value
 

@@ -16,6 +16,13 @@ void System::Drawing::Printing::PaperSize::set_PaperName(System::String value)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | The System::Drawing::Printing::PaperSize::Kind property is not set to [System::Drawing::Printing::PaperKind::Custom](../../paperkind/). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

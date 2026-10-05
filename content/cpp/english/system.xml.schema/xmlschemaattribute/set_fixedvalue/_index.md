@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemaattribute/set_fixedvalue/
 ---
-## XmlSchemaAttribute::set_FixedValue(const String\&) method
+## XmlSchemaAttribute::set_FixedValue(const String&) method
 
 
 Sets the fixed value for the attribute.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttribute::set_FixedValue(const String &value
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

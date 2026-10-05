@@ -15,7 +15,7 @@ Returns enumerable collection containing all directories located in the director
 SharedPtr<IEnumerable<DirectoryInfoPtr>> System::IO::DirectoryInfo::EnumerateDirectories()
 ```
 
-## DirectoryInfo::EnumerateDirectories(const String\&) method
+## DirectoryInfo::EnumerateDirectories(const String&) method
 
 
 Searches for the directories that satisfy the specified search criteria in the directory represented by the current object.
@@ -29,13 +29,13 @@ SharedPtr<IEnumerable<DirectoryInfoPtr>> System::IO::DirectoryInfo::EnumerateDir
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the directories to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the directories to search for |
 
 ### Return Value
 
 The enumerable collection of shared pointers to [DirectoryInfo](../) objects representing the found directories whose names match **searchPattern**
 
-## DirectoryInfo::EnumerateDirectories(const String\&, SearchOption) method
+## DirectoryInfo::EnumerateDirectories(const String&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -49,7 +49,7 @@ SharedPtr<IEnumerable<DirectoryInfoPtr>> System::IO::DirectoryInfo::EnumerateDir
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the directories to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the directories to search for |
 | searchOption | [SearchOption](../../searchoption/) | Specifies whether the search has to be performed in the directory represented by the current object only or in the whole directory tree rooted in the directory represented by the current object |
 
 ### Return Value

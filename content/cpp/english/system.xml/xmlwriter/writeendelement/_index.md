@@ -16,6 +16,13 @@ virtual void System::Xml::XmlWriter::WriteEndElement()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | This results in an invalid XML document. |
+
+
 ## See Also
 
 * Class [XmlWriter](../)

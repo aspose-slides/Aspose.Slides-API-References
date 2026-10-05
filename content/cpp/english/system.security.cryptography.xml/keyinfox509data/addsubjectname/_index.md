@@ -1,7 +1,7 @@
 ---
 title: AddSubjectName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::AddSubjectName() method"
 type: docs
 weight: 92
 url: /system.security.cryptography.xml/keyinfox509data/addsubjectname/

@@ -15,7 +15,7 @@ Constructs an object that represents a GUID consisting of all zeroes.
 System::Guid::Guid()
 ```
 
-## Guid::Guid(const ArrayPtr\<uint8_t\>\&) constructor
+## Guid::Guid(const ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructs an object that represents a GUID specified as an array of unsigned 8-bit integer values.
@@ -29,9 +29,9 @@ System::Guid::Guid(const ArrayPtr<uint8_t> &b)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| b | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | A byte-array containing separate bytes of the GUID |
+| b | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | A byte-array containing separate bytes of the GUID |
 
-## Guid::Guid(const System::Details::ArrayView\<uint8_t\>\&) constructor
+## Guid::Guid(const System::Details::ArrayView\<uint8_t\>&) constructor
 
 
 Constructs an object that represents a GUID specified as an array view of unsigned 8-bit integer values.
@@ -45,9 +45,9 @@ System::Guid::Guid(const System::Details::ArrayView<uint8_t> &b)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| b | const System::Details::ArrayView\<**uint8_t**\>\& | A byte-array containing separate bytes of the GUID |
+| b | const System::Details::ArrayView\<**uint8_t**\>& | A byte-array containing separate bytes of the GUID |
 
-## Guid::Guid(const String\&) constructor
+## Guid::Guid(const String&) constructor
 
 
 Constructs an object that represents a GUID specified as a string.
@@ -61,9 +61,9 @@ System::Guid::Guid(const String &g)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| g | const [String](../../string/)\& | The string representation of a GUID to be represented by the object being constructed |
+| g | const [String](../../string/)& | The string representation of a GUID to be represented by the object being constructed |
 
-## Guid::Guid(int32_t, int16_t, int16_t, const ArrayPtr\<uint8_t\>\&) constructor
+## Guid::Guid(int32_t, int16_t, int16_t, const ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified GUID components.
@@ -80,9 +80,9 @@ System::Guid::Guid(int32_t a, int16_t b, int16_t c, const ArrayPtr<uint8_t> &d)
 | a | **int32_t** | Bits 0-31 of the GUID |
 | b | **int16_t** | Bits 32-47 of the GUID |
 | c | **int16_t** | Bits 48-63 of the GUID |
-| d | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | A byte array containing bits 64-127 of the GUID |
+| d | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | A byte array containing bits 64-127 of the GUID |
 
-## Guid::Guid(int32_t, int16_t, int16_t, const System::Details::ArrayView\<uint8_t\>\&) constructor
+## Guid::Guid(int32_t, int16_t, int16_t, const System::Details::ArrayView\<uint8_t\>&) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified GUID components.
@@ -99,7 +99,7 @@ System::Guid::Guid(int32_t a, int16_t b, int16_t c, const System::Details::Array
 | a | **int32_t** | Bits 0-31 of the GUID |
 | b | **int16_t** | Bits 32-47 of the GUID |
 | c | **int16_t** | Bits 48-63 of the GUID |
-| d | const System::Details::ArrayView\<**uint8_t**\>\& | A byte array view containing bits 64-127 of the GUID |
+| d | const System::Details::ArrayView\<**uint8_t**\>& | A byte array view containing bits 64-127 of the GUID |
 
 ## Guid::Guid(int32_t, int16_t, int16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t) constructor
 
@@ -153,7 +153,7 @@ System::Guid::Guid(uint32_t a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uin
 | j | **uint8_t** | Bits 112-119 of the GUID |
 | k | **uint8_t** | Bits 120-127 of the GUID |
 
-## Guid::Guid(const Guid\&) constructor
+## Guid::Guid(const Guid&) constructor
 
 
 Constructs an object that represents the same GUID as the specified object.
@@ -167,7 +167,7 @@ System::Guid::Guid(const Guid &guid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| guid | const [Guid](../)\& | The [Guid](../) object to copy the GUID value from |
+| guid | const [Guid](../)& | The [Guid](../) object to copy the GUID value from |
 
 ## See Also
 

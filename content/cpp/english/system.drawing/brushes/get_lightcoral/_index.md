@@ -1,7 +1,7 @@
 ---
 title: get_LightCoral()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF08080.
+description: "Returns the solid fill color whose hexadecimal value is #FFF08080."
 type: docs
 weight: 833
 url: /system.drawing/brushes/get_lightcoral/

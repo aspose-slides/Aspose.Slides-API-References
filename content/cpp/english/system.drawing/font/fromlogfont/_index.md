@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.drawing/font/fromlogfont/
 ---
-## Font::FromLogFont(const SharedPtr\<Object\>\&) method
+## Font::FromLogFont(const SharedPtr\<Object\>&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 static SharedPtr<Font> System::Drawing::Font::FromLogFont(const SharedPtr<Object> &lf)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

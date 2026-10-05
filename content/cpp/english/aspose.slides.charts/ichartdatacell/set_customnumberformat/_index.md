@@ -16,6 +16,13 @@ virtual void Aspose::Slides::Charts::IChartDataCell::set_CustomNumberFormat(Syst
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if value is **null**. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

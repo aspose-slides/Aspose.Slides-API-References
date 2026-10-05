@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaxpath/set_xpath/
 ---
-## XmlSchemaXPath::set_XPath(const String\&) method
+## XmlSchemaXPath::set_XPath(const String&) method
 
 
 Sets the attribute for the [XPath](../../../system.xml.xpath/) expression.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaXPath::set_XPath(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

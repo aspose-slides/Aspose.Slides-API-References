@@ -20,6 +20,13 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_Last()
 
 Last element in the sequence.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Source sequence is empty. |
+
+
 ## See Also
 
 * Class [IEnumerable](../)

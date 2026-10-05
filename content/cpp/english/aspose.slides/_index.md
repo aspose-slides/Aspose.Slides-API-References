@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides namespace"
 type: docs
 weight: 1
 url: /aspose.slides/
@@ -75,7 +75,7 @@ url: /aspose.slides/
 | [DigitalSignature](./digitalsignature/) | Digital signature in signed file. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Represents a collection of digital signatures attached to a document. |
 | [DocumentProperties](./documentproperties/) | Represents properties of a presentation. |
-| [DomObject](./domobject/) | Base [DOM](../aspose.slides.dom/) object |
+| [DomObject](./domobject/) | Base DOM object |
 | [DrawingGuide](./drawingguide/) | Represents an adjustable drawing guide. |
 | [DrawingGuidesCollection](./drawingguidescollection/) | Represents a collection of the adjustable drawing guides. |
 | [EffectFormat](./effectformat/) | Represents effect properties of shape. |

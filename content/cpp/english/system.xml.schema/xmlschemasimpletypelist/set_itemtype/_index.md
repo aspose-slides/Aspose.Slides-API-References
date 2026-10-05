@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemasimpletypelist/set_itemtype/
 ---
-## XmlSchemaSimpleTypeList::set_ItemType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
+## XmlSchemaSimpleTypeList::set_ItemType(const SharedPtr\<XmlSchemaSimpleType\>&) method
 
 
 Sets the **simpleType** element that is derived from the type specified by the base value.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleTypeList::set_ItemType(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>& | The value to set. |
 
 ## See Also
 

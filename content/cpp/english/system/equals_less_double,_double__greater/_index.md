@@ -6,7 +6,7 @@ type: docs
 weight: 2744
 url: /system/equals_less_double,_double__greater/
 ---
-## System::Equals< double, double >(const double\&, const double\&) function
+## System::Equals\< double, double \>(const double&, const double&) function
 
 
 Specialization for double-precision floating point values.
@@ -20,8 +20,8 @@ bool System::Equals<double, double>(const double &a, const double &b)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const **double**\& | The first comparand |
-| b | const **double**\& | The second comparand |
+| a | const **double**& | The first comparand |
+| b | const **double**& | The second comparand |
 
 ### Return Value
 

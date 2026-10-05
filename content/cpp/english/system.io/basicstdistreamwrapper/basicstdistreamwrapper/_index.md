@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/basicstdistreamwrapper/basicstdistreamwrapper/
 ---
-## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(std::basic_istream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) constructor
+## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(std::basic_istream\<char_type, traits_type\>&, STDIOStreamWrappingMode) constructor
 
 
 Constructs a new instance of the [BasicSTDIStreamWrapper](../).
@@ -20,10 +20,10 @@ System::IO::BasicSTDIStreamWrapper<T, typename>::BasicSTDIStreamWrapper(std::bas
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | std::basic_istream\<[char_type](../../stdiostreamwrapperbase/char_type/), [traits_type](../../stdiostreamwrapperbase/traits_type/)\>\& | The reference to the stream |
+| str | std::basic_istream\<[char_type](../../stdiostreamwrapperbase/char_type/), [traits_type](../../stdiostreamwrapperbase/traits_type/)\>& | The reference to the stream |
 | mode | [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/) | Wrapping mode |
 
-## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(const BasicSTDIStreamWrapper\&) constructor
+## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(const BasicSTDIStreamWrapper&) constructor
 
 
 Copy constructor. Deleted.

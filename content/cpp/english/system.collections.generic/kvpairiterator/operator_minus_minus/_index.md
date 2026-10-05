@@ -1,7 +1,7 @@
 ---
 title: operator--()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KVPairIterator::operator--() method"
 type: docs
 weight: 40
 url: /system.collections.generic/kvpairiterator/operator_minus_minus/

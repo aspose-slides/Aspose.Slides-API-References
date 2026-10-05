@@ -1,12 +1,12 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TypeInfo::Equals() method"
 type: docs
 weight: 430
 url: /system/typeinfo/equals/
 ---
-## TypeInfo::Equals(const TypeInfo\&) const method
+## TypeInfo::Equals(const TypeInfo&) const method
 
 
 

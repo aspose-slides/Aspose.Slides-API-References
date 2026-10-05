@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.xml/xmlwriter/writestring/
 ---
-## XmlWriter::WriteString(const String\&) method
+## XmlWriter::WriteString(const String&) method
 
 
 When overridden in a derived class, writes the given text content.
@@ -20,7 +20,14 @@ virtual void System::Xml::XmlWriter::WriteString(const String &text)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [String](../../../system/string/)\& | The text to write. |
+| text | const [String](../../../system/string/)& | The text to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text string contains an invalid surrogate pair. |
+
 
 ## See Also
 

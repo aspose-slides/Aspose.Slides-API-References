@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system/datetime/getdatecomponents/
 ---
-## DateTime::GetDateComponents(int\&, int\&, int\&) const method
+## DateTime::GetDateComponents(int&, int&, int&) const method
 
 
 Gets date parts. FOR INTERNAL USE.

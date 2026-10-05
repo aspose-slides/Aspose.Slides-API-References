@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.io/basicsystemiostreambuf/assignrv/
 ---
-## BasicSystemIOStreamBuf::AssignRV(BasicSystemIOStreamBuf\&&) method
+## BasicSystemIOStreamBuf::AssignRV(BasicSystemIOStreamBuf&&) method
 
 
 Used in move constructor and move assignment operator to reset pointers and call [swap()](../swap/).
@@ -20,7 +20,7 @@ void System::IO::BasicSystemIOStreamBuf<Elem, Traits>::AssignRV(BasicSystemIOStr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemIOStreamBuf](../)\&& | Rvalue reference to object to be swap |
+| right | [BasicSystemIOStreamBuf](../)&& | Rvalue reference to object to be swap |
 
 ## See Also
 

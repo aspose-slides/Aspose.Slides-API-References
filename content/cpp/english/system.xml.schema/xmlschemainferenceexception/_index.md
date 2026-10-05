@@ -1,7 +1,7 @@
 ---
 title: XmlSchemaInferenceException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlSchemaInferenceException typedef
 type: docs
 weight: 1106
 url: /system.xml.schema/xmlschemainferenceexception/

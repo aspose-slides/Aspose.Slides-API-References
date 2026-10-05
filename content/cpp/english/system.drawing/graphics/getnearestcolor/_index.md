@@ -16,6 +16,13 @@ Color System::Drawing::Graphics::GetNearestColor(Color color)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Color](../../color/)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/testcompare/abstractequal/
 ---
-## TestCompare::AbstractEqual(SCG::ICollection\<T\> *const, SCG::ICollection\<T\> *const) method
+## TestCompare::AbstractEqual(SCG::ICollection\<T\> \*const, SCG::ICollection\<T\> \*const) method
 
 
 Compares two collections of unknown type.
@@ -26,8 +26,8 @@ template<typename T> static bool System::TestCompare::AbstractEqual(SCG::ICollec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collA | [SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> *const | LHS collection. |
-| collB | [SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> *const | RHS collection. |
+| collA | [SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> \*const | LHS collection. |
+| collB | [SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> \*const | RHS collection. |
 
 ### Return Value
 

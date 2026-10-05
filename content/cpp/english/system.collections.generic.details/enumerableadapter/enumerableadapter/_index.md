@@ -1,7 +1,7 @@
 ---
 title: EnumerableAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumerableAdapter::EnumerableAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumerableadapter/enumerableadapter/

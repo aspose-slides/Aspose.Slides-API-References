@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/buffer/getbyte/
 ---
-## Buffer::GetByte(const SharedPtr\<Array\<T\>\>\&, int) method
+## Buffer::GetByte(const SharedPtr\<Array\<T\>\>&, int) method
 
 
 Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset.
@@ -26,14 +26,14 @@ template<typename T> static uint8_t System::Buffer::GetByte(const SharedPtr<Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\& | The target array |
+| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>& | The target array |
 | index | int | Zero-based offset of the byte to retrieve |
 
 ### Return Value
 
 The byte value at the specified index
 
-## Buffer::GetByte(const System::Details::ArrayView\<T\>\&, int) method
+## Buffer::GetByte(const System::Details::ArrayView\<T\>&, int) method
 
 
 Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset.
@@ -53,14 +53,14 @@ template<typename T> static uint8_t System::Buffer::GetByte(const System::Detail
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::ArrayView\<T\>\& | The target array view |
+| array | const System::Details::ArrayView\<T\>& | The target array view |
 | index | int | Zero-based offset of the byte to retrieve |
 
 ### Return Value
 
 The byte value at the specified index
 
-## Buffer::GetByte(const System::Details::StackArray\<T, N\>\&, int) method
+## Buffer::GetByte(const System::Details::StackArray\<T, N\>&, int) method
 
 
 Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset.
@@ -81,7 +81,7 @@ template<typename T,std::size_t> static uint8_t System::Buffer::GetByte(const Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::StackArray\<T, N\>\& | The target stack array |
+| array | const System::Details::StackArray\<T, N\>& | The target stack array |
 | index | int | Zero-based offset of the byte to retrieve |
 
 ### Return Value

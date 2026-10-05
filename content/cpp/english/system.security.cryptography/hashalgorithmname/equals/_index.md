@@ -1,12 +1,12 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HashAlgorithmName::Equals() method"
 type: docs
 weight: 157
 url: /system.security.cryptography/hashalgorithmname/equals/
 ---
-## HashAlgorithmName::Equals(const HashAlgorithmName\&) const method
+## HashAlgorithmName::Equals(const HashAlgorithmName&) const method
 
 
 

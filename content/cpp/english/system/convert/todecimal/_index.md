@@ -105,7 +105,7 @@ Converts the specified double number to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(double value)
 ```
 
-## Convert::ToDecimal(const Decimal\&) method
+## Convert::ToDecimal(const Decimal&) method
 
 
 Returns the specified decimal number.
@@ -146,7 +146,7 @@ static Decimal System::Convert::ToDecimal(std::nullptr_t)
 
 Zero.
 
-## Convert::ToDecimal(const char_t *) method
+## Convert::ToDecimal(const char_t \*) method
 
 
 Converts the specified c-string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value.
@@ -160,13 +160,13 @@ static Decimal System::Convert::ToDecimal(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert |
+| value | const char_t \* | The c-string to convert |
 
 ### Return Value
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified c-string
 
-## Convert::ToDecimal(const String\&) method
+## Convert::ToDecimal(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value.
@@ -180,13 +180,13 @@ static Decimal System::Convert::ToDecimal(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## Convert::ToDecimal(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDecimal(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value using the provided formatting information.
@@ -200,14 +200,14 @@ static Decimal System::Convert::ToDecimal(const String &value, const SharedPtr<I
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| value | const [String](../../string/)& | The string to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## Convert::ToDecimal(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDecimal(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value using the specified number styles and formatting information.
@@ -221,15 +221,15 @@ static Decimal System::Convert::ToDecimal(const String &value, Globalization::Nu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## Convert::ToDecimal(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDecimal(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to equivalent [Decimal](../../decimal/) value.
@@ -243,8 +243,8 @@ static Decimal System::Convert::ToDecimal(const SharedPtr<Object> &obj, const Sh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

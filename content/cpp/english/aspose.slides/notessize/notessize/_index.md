@@ -1,7 +1,7 @@
 ---
 title: NotesSize()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "NotesSize::NotesSize() constructor"
 type: docs
 weight: 27
 url: /aspose.slides/notessize/notessize/

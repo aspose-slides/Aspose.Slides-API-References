@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.drawing.drawing2d/graphicspath/addrectangle/
 ---
-## GraphicsPath::AddRectangle(const Rectangle\&) method
+## GraphicsPath::AddRectangle(const Rectangle&) method
 
 
 Adds the specified rectangle to the path represented by the current object.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangle(const Rectangle &rec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../../system.drawing/rectangle/)\& | A rectangle to add |
+| rect | const [Rectangle](../../../system.drawing/rectangle/)& | A rectangle to add |
 
-## GraphicsPath::AddRectangle(const RectangleF\&) method
+## GraphicsPath::AddRectangle(const RectangleF&) method
 
 
 Adds the specified rectangle to the path represented by the current object.
@@ -36,7 +36,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangle(const RectangleF &re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../../system.drawing/rectanglef/)\& | A rectangle to add |
+| rect | const [RectangleF](../../../system.drawing/rectanglef/)& | A rectangle to add |
 
 ## See Also
 

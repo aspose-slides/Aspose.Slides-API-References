@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.diagnostics/fileversioninfo/getversioninfo/
 ---
-## FileVersionInfo::GetVersionInfo(const String\&) method
+## FileVersionInfo::GetVersionInfo(const String&) method
 
 
 Gets file version info; not implemented.
@@ -20,7 +20,7 @@ static SharedPtr<System::Diagnostics::FileVersionInfo> System::Diagnostics::File
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const [String](../../../system/string/)\& | Path to file to get information for. |
+| fileName | const [String](../../../system/string/)& | Path to file to get information for. |
 
 ## See Also
 

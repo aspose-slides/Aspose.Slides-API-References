@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.text.regularexpressions/regex/matches/
 ---
-## Regex::Matches(const String\&, int) method
+## Regex::Matches(const String&, int) method
 
 
 Gets all matches of regex in given string by matching repeatedly.
@@ -20,14 +20,14 @@ MatchCollectionPtr System::Text::RegularExpressions::Regex::Matches(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Input string. |
+| input | const [String](../../../system/string/)& | Input string. |
 | startat | int | [Index](../../../system/index/) to start matching at. |
 
 ### Return Value
 
 Collection of all matches found.
 
-## Regex::Matches(const String\&, const String\&, RegexOptions, TimeSpan, int, int) method
+## Regex::Matches(const String&, const String&, RegexOptions, TimeSpan, int, int) method
 
 
 Gets all matches between string and pattern.
@@ -41,8 +41,8 @@ static MatchCollectionPtr System::Text::RegularExpressions::Regex::Matches(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Input string. |
-| pattern | const [String](../../../system/string/)\& | Regexp pattern. |
+| input | const [String](../../../system/string/)& | Input string. |
+| pattern | const [String](../../../system/string/)& | Regexp pattern. |
 | options | [RegexOptions](../../regexoptions/) | Matching options. |
 | matchTimeout | [TimeSpan](../../../system/timespan/) | Timeout. |
 | startat | int | [Match](../../match/) beginning position. |

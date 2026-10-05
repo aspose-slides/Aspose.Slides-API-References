@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.specialized/stringcollection/idx_set/
 ---
-## StringCollection::idx_set(int, const System::String\&) method
+## StringCollection::idx_set(int, const System::String&) method
 
 
 Sets value at specified position.
@@ -21,7 +21,7 @@ void System::Collections::Specialized::StringCollection::idx_set(int index, cons
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | [Index](../../../system/index/) to set string at. |
-| value | const [System::String](../../../system/string/)\& | [String](../../../system/string/) value to set at specified index. |
+| value | const [System::String](../../../system/string/)& | [String](../../../system/string/) value to set at specified index. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system.xml/xmlnode/writecontentto/
 ---
-## XmlNode::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlNode::WriteContentTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves all the child nodes of the node to the specified [XmlWriter](../../xmlwriter/), when overridden in a derived class.
@@ -20,7 +20,7 @@ virtual void System::Xml::XmlNode::WriteContentTo(const SharedPtr<XmlWriter> &w)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

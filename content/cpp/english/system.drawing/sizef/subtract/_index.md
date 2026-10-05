@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.drawing/sizef/subtract/
 ---
-## SizeF::Subtract(const SizeF\&, const SizeF\&) method
+## SizeF::Subtract(const SizeF&, const SizeF&) method
 
 
 Returns a new [SizeF](../) object that is the results of subctraction of **size2** from **size1**, i.e. whose width value is the result of subtraction of **size2's** width value from **size1's** width value and height value is the result of subtraction of **size2's** height value from **size1's** height value.
@@ -20,8 +20,8 @@ static SizeF System::Drawing::SizeF::Subtract(const SizeF &size1, const SizeF &s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size1 | const [SizeF](../)\& | The [SizeF](../) object to subtract from |
-| size2 | const [SizeF](../)\& | The [SizeF](../) object to subtract |
+| size1 | const [SizeF](../)& | The [SizeF](../) object to subtract from |
+| size2 | const [SizeF](../)& | The [SizeF](../) object to subtract |
 
 ### Return Value
 

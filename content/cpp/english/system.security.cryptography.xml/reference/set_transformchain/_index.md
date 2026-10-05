@@ -1,7 +1,7 @@
 ---
 title: set_TransformChain()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::set_TransformChain() method"
 type: docs
 weight: 144
 url: /system.security.cryptography.xml/reference/set_transformchain/

@@ -1,7 +1,7 @@
 ---
 title: get_IsExplicit()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ECCurve::get_IsExplicit() method"
 type: docs
 weight: 40
 url: /system.security.cryptography/eccurve/get_isexplicit/

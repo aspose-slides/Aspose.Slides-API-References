@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.runtime.interopservices/marshal/stringtohglobalansi/
 ---
-## Marshal::StringToHGlobalAnsi(const String\&) method
+## Marshal::StringToHGlobalAnsi(const String&) method
 
 
 Copies the contents of a specified string into unmanaged memory.
@@ -20,7 +20,7 @@ static IntPtr System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | A string to be copied. |
+| s | const [String](../../../system/string/)& | A string to be copied. |
 
 ### Return Value
 

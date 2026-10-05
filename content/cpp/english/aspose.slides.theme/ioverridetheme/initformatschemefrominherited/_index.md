@@ -16,6 +16,13 @@ virtual void Aspose::Slides::Theme::IOverrideTheme::InitFormatSchemeFromInherite
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [FormatScheme](../../formatscheme/) is already initialized (not null). |
+
+
 ## See Also
 
 * Class [IOverrideTheme](../)

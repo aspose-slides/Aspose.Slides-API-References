@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.security.cryptography/rsacryptoserviceprovider/verifydata/
 ---
-## RSACryptoServiceProvider::VerifyData(const ByteArrayPtr\&, const SharedPtr\<Object\>\&, const ByteArrayPtr\&) method
+## RSACryptoServiceProvider::VerifyData(const ByteArrayPtr&, const SharedPtr\<Object\>&, const ByteArrayPtr&) method
 
 
 Checks data signature.
@@ -20,9 +20,9 @@ bool System::Security::Cryptography::RSACryptoServiceProvider::VerifyData(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Data](../../../system.data/) to check signature for. |
-| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | Hash algorithm to use. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature as received. |
+| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Data](../../../system.data/) to check signature for. |
+| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | Hash algorithm to use. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature as received. |
 
 ### Return Value
 

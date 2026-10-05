@@ -1,7 +1,7 @@
 ---
 title: GetXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::GetXml() method"
 type: docs
 weight: 170
 url: /system.security.cryptography.xml/reference/getxml/

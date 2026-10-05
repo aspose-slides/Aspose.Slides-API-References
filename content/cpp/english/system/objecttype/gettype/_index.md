@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/objecttype/gettype/
 ---
-## ObjectType::GetType(const T\&) method
+## ObjectType::GetType(const T&) method
 
 
 Implements typeof() translation. Overload for smart pointers.
@@ -26,13 +26,13 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value, constSystem::Ty
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
+| obj | const T& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
 
 ### Return Value
 
 Const reference to [TypeInfo](../../typeinfo/) structure describing the final class of object passed.
 
-## ObjectType::GetType(const T\&) method
+## ObjectType::GetType(const T&) method
 
 
 Implements typeof() translation. Overload for structures.
@@ -52,13 +52,13 @@ template<typename T> static std::enable_if<!IsExceptionWrapper<T>::value &&!IsSm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
+| obj | const T& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
 
 ### Return Value
 
 Const reference to [TypeInfo](../../typeinfo/) structure describing the final class of object passed.
 
-## ObjectType::GetType(const T\&) method
+## ObjectType::GetType(const T&) method
 
 
 Implements typeof() translation. Overload for exceptions.
@@ -78,7 +78,7 @@ template<typename T> static std::enable_if<IsExceptionWrapper<T>::value, constSy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
+| obj | const T& | [Object](../../object/) to get [TypeInfo](../../typeinfo/) for. |
 
 ### Return Value
 
@@ -256,7 +256,7 @@ template<typename T> static std::enable_if<!std::is_fundamental<T>::value &&!std
 
 Const reference to [TypeInfo](../../typeinfo/) structure describing the strcture specified or pointee type if called for [SmartPtr](../../smartptr/).
 
-## ObjectType::GetType(const String\&) method
+## ObjectType::GetType(const String&) method
 
 
 Implements typeof() translation. Overload for string type.

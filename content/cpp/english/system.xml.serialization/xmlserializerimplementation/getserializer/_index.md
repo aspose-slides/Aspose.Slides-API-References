@@ -1,12 +1,12 @@
 ---
 title: GetSerializer()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlSerializerImplementation::GetSerializer() method"
 type: docs
 weight: 79
 url: /system.xml.serialization/xmlserializerimplementation/getserializer/
 ---
-## XmlSerializerImplementation::GetSerializer(const TypeInfo\&) method
+## XmlSerializerImplementation::GetSerializer(const TypeInfo&) method
 
 
 

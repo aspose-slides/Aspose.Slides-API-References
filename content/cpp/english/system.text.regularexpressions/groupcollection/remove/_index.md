@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.text.regularexpressions/groupcollection/remove/
 ---
-## GroupCollection::Remove(const GroupPtr\&) method
+## GroupCollection::Remove(const GroupPtr&) method
 
 
 Disables removing element from collection.
@@ -20,7 +20,7 @@ bool System::Text::RegularExpressions::GroupCollection::Remove(const GroupPtr &i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [GroupPtr](../../groupptr/)\& | Item to remove; ignored. |
+| item | const [GroupPtr](../../groupptr/)& | Item to remove; ignored. |
 
 ## See Also
 

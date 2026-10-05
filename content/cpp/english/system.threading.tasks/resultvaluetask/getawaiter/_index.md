@@ -18,7 +18,7 @@ Runtime::CompilerServices::ResultValueTaskAwaiter<T> System::Threading::Tasks::R
 
 ### Return Value
 
-ResultValueTaskAwaiter<T> An awaiter instance for this task.
+ResultValueTaskAwaiter\<T\> An awaiter instance for this task.
 ## Remarks
 
 

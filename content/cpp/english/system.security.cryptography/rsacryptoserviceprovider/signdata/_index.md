@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.security.cryptography/rsacryptoserviceprovider/signdata/
 ---
-## RSACryptoServiceProvider::SignData(const ByteArrayPtr\&, const SharedPtr\<Object\>\&) method
+## RSACryptoServiceProvider::SignData(const ByteArrayPtr&, const SharedPtr\<Object\>&) method
 
 
 Computes the signature of specified input value.
@@ -20,14 +20,14 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Buffer](../../../system/buffer/) to read input data from. |
-| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | Hash algorithm to use. |
+| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Buffer](../../../system/buffer/) to read input data from. |
+| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | Hash algorithm to use. |
 
 ### Return Value
 
 [RSA](../../rsa/) signature for specified data.
 
-## RSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<Object\>\&) method
+## RSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>&, const SharedPtr\<Object\>&) method
 
 
 Computes the signature of specified input value.
@@ -41,14 +41,14 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input_stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | Stream to read data being signed from. |
-| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | Hash algorithm to use. |
+| input_stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | Stream to read data being signed from. |
+| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | Hash algorithm to use. |
 
 ### Return Value
 
 [RSA](../../rsa/) signature for specified data.
 
-## RSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t, const SharedPtr\<Object\>\&) method
+## RSACryptoServiceProvider::SignData(const ByteArrayPtr&, int32_t, int32_t, const SharedPtr\<Object\>&) method
 
 
 Computes the signature of specified input value.
@@ -62,10 +62,10 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Buffer](../../../system/buffer/) to read input data from. |
+| buffer | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Buffer](../../../system/buffer/) to read input data from. |
 | offset | **int32_t** | Input buffer slice beginning index. |
 | count | **int32_t** | Input buffer slice size. |
-| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | Hash algorithm to use. |
+| halg | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | Hash algorithm to use. |
 
 ### Return Value
 

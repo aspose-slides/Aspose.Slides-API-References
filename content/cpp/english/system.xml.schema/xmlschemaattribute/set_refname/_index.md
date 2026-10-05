@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml.schema/xmlschemaattribute/set_refname/
 ---
-## XmlSchemaAttribute::set_RefName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaAttribute::set_RefName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of an attribute declared in this schema (or another schema indicated by the specified namespace).
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttribute::set_RefName(const SharedPtr<XmlQua
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

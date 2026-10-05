@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system/timezoneinfo/transitiontimetodatetime/
 ---
-## TimeZoneInfo::TransitionTimeToDateTime(int32_t, const TransitionTime\&) method
+## TimeZoneInfo::TransitionTimeToDateTime(int32_t, const TransitionTime&) method
 
 
 Helper function that converts a year and **TransitionTime** into a [DateTime](../../datetime/).

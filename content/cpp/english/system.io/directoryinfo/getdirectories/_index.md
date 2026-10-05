@@ -15,7 +15,7 @@ Returns an array containing shared pointers to [DirectoryInfo](../) objects repr
 ArrayPtr<DirectoryInfoPtr> System::IO::DirectoryInfo::GetDirectories()
 ```
 
-## DirectoryInfo::GetDirectories(const String\&) method
+## DirectoryInfo::GetDirectories(const String&) method
 
 
 Searches for the directories that satisfy the specified search criteria in the directory represented by the current object.
@@ -29,13 +29,13 @@ ArrayPtr<DirectoryInfoPtr> System::IO::DirectoryInfo::GetDirectories(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the directories to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the directories to search for |
 
 ### Return Value
 
 An array of shared pointers to [DirectoryInfo](../) objects representing the found directories whose names match **searchPattern**
 
-## DirectoryInfo::GetDirectories(const String\&, SearchOption) method
+## DirectoryInfo::GetDirectories(const String&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -49,7 +49,7 @@ ArrayPtr<DirectoryInfoPtr> System::IO::DirectoryInfo::GetDirectories(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the directories to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the directories to search for |
 | searchOption | [SearchOption](../../searchoption/) | Specifies whether the search has to be performed in the directory represented by the current object only or in the whole directory tree rooted in the directory represented by the current object |
 
 ### Return Value

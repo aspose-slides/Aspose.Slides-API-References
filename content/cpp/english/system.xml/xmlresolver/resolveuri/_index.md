@@ -27,6 +27,13 @@ virtual SharedPtr<Uri> System::Xml::XmlResolver::ResolveUri(SharedPtr<Uri> baseU
 
 The absolute URI or **nullptr** if the relative URI cannot be resolved.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **relativeUri** is **nullptr**. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

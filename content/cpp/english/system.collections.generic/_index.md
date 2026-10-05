@@ -1,7 +1,7 @@
 ---
 title: "System::Collections::Generic"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Collections::Generic namespace"
 type: docs
 weight: 339
 url: /system.collections.generic/
@@ -22,7 +22,7 @@ url: /system.collections.generic/
 | [BaseKVCollection](./basekvcollection/) | Holds common code for collections of keys or values. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [BaseSet](./baseset/) |  |
 | [Comparer](./comparer/) | Provides a base class for implementations of the [System.Collections.Generic.IComparer](./icomparer/) generic interface. |
-| [DefaultComparer](./defaultcomparer/) | Default comparator class. Uses operator < and operator == to compare values. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [DefaultComparer](./defaultcomparer/) | Default comparator class. Uses operator \< and operator == to compare values. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Details_KeyNotFoundException](./details_keynotfoundexception/) |  |
 | [Dictionary](./dictionary/) | Forward declaration of [Dictionary](./dictionary/) class. |
 | [DictionaryIterator](./dictionaryiterator/) | [Dictionary](./dictionary/) iterator that provides [KeyValuePair](./keyvaluepair/) notation. |
@@ -66,7 +66,7 @@ url: /system.collections.generic/
 
 | Struct | Description |
 | --- | --- |
-| [ComparerAdapter](./compareradapter/) | Adapter to use [IComparer](./icomparer/) within STL environment. Uses [IComparer](./icomparer/) if set; otherwise, uses operator < (if available) or returns false (if not). |
+| [ComparerAdapter](./compareradapter/) | Adapter to use [IComparer](./icomparer/) within STL environment. Uses [IComparer](./icomparer/) if set; otherwise, uses operator \< (if available) or returns false (if not). |
 | [DictionaryHashSelector](./dictionaryhashselector/) | Hash function selector for [Dictionary](./dictionary/) class. This implementation uses STL hashing given no alternative is provided. |
 | [EqualityComparerAdapter](./equalitycompareradapter/) | Adapter making it possible using [IEqualityComparer](./iequalitycomparer/) with STL-styled collections and algorithms. Uses [IEqualityComparer](./iequalitycomparer/), if set. If not set, uses operator ==, [Object::Equals](../system/object/equals/) or T::Equals, whichever is available. |
 | [EqualityComparerHashAdapter](./equalitycomparerhashadapter/) | Adapter to use [IEqualityComparer](./iequalitycomparer/) for hashing. Uses comparator object, if set; otherwise, uses available hash method selected using [DictionaryHashSelector](./dictionaryhashselector/) struct. |
@@ -74,10 +74,10 @@ url: /system.collections.generic/
 
 | Function | Description |
 | --- | --- |
-| **bool** [operator==](./operator_equal_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Compares two key-value pairs using 'equals' semantics. Uses operator == or EqualsTo method for both keys and values, whichever is defined. |
-| **bool** [operator!=](./operator_not_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Compares two key-value pairs using inverse 'equals' semantics. |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>\&) | Insert data into the stream. |
+| **bool** [operator==](./operator_equal_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&) | Compares two key-value pairs using 'equals' semantics. Uses operator == or EqualsTo method for both keys and values, whichever is defined. |
+| **bool** [operator!=](./operator_not_equal/)(const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&) | Compares two key-value pairs using inverse 'equals' semantics. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [KeyValuePair](./keyvaluepair/)\<TKey, TValue\>&) | Insert data into the stream. |
 ## Typedefs
 
 | Typedef | Description |

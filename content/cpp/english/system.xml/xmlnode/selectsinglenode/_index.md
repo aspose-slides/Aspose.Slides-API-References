@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.xml/xmlnode/selectsinglenode/
 ---
-## XmlNode::SelectSingleNode(const String\&) method
+## XmlNode::SelectSingleNode(const String&) method
 
 
 Selects the first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) expression.
@@ -20,13 +20,20 @@ SharedPtr<XmlNode> System::Xml::XmlNode::SelectSingleNode(const String &xpath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | The [XPath](../../../system.xml.xpath/) expression. |
+| xpath | const [String](../../../system/string/)& | The [XPath](../../../system.xml.xpath/) expression. |
 
 ### Return Value
 
 The first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) query or **nullptr** if no matching node is found.
 
-## XmlNode::SelectSingleNode(const String\&, const SharedPtr\<XmlNamespaceManager\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPath](../../../system.xml.xpath/) expression contains a prefix. |
+
+
+## XmlNode::SelectSingleNode(const String&, const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Selects the first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) expression. Any prefixes found in the [XPath](../../../system.xml.xpath/) expression are resolved using the supplied [XmlNamespaceManager](../../xmlnamespacemanager/).
@@ -40,12 +47,19 @@ SharedPtr<XmlNode> System::Xml::XmlNode::SelectSingleNode(const String &xpath, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | The [XPath](../../../system.xml.xpath/) expression. |
-| nsmgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | An [XmlNamespaceManager](../../xmlnamespacemanager/) to use for resolving namespaces for prefixes in the [XPath](../../../system.xml.xpath/) expression. |
+| xpath | const [String](../../../system/string/)& | The [XPath](../../../system.xml.xpath/) expression. |
+| nsmgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | An [XmlNamespaceManager](../../xmlnamespacemanager/) to use for resolving namespaces for prefixes in the [XPath](../../../system.xml.xpath/) expression. |
 
 ### Return Value
 
 The first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) query or **nullptr** if no matching node is found.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPath](../../../system.xml.xpath/) expression contains a prefix which is not defined in the [XmlNamespaceManager](../../xmlnamespacemanager/). |
+
 
 ## See Also
 

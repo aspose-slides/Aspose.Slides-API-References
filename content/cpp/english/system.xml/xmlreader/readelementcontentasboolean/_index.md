@@ -20,6 +20,15 @@ virtual bool System::Xml::XmlReader::ReadElementContentAsBoolean()
 
 The element content as a [Boolean](../../../system/boolean/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a [Boolean](../../../system/boolean/) object. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+
+
 ## XmlReader::ReadElementContentAsBoolean(String, String) method
 
 
@@ -40,6 +49,16 @@ virtual bool System::Xml::XmlReader::ReadElementContentAsBoolean(String localNam
 ### Return Value
 
 The element content as a [Boolean](../../../system/boolean/) object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to the requested type. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

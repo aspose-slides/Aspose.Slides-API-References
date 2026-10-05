@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /system.drawing/graphics/transformpoints/
 ---
-## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::Point\>\&) method
+## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::Point\>&) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ void System::Drawing::Graphics::TransformPoints(Drawing2D::CoordinateSpace destS
 ```
 
 
-## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::PointF\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::PointF\>&) method
 
 
 NOT IMPLEMENTED.
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::TransformPoints(Drawing2D::CoordinateSpace destSpace, Drawing2D::CoordinateSpace srcSpace, const ArrayPtr<System::Drawing::PointF> &pts)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

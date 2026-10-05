@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/timezoneinfo/converttimebysystemtimezoneid/
 ---
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -21,13 +21,13 @@ static DateTime System::TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime dat
 | Parameter | Type | Description |
 | --- | --- | --- |
 | date_time | [DateTime](../../datetime/) | Date and time to convert. |
-| destination_time_zone_id | const [String](../../string/)\& | Identifier of the destination time zone. |
+| destination_time_zone_id | const [String](../../string/)& | Identifier of the destination time zone. |
 
 ### Return Value
 
 Converted date and time.
 
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const DateTimeOffset\&, const String\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const DateTimeOffset&, const String&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -41,14 +41,14 @@ static DateTimeOffset System::TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)\& | Date and time to convert. |
-| destination_time_zone_id | const [String](../../string/)\& | Identifier of the destination time zone. |
+| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)& | Date and time to convert. |
+| destination_time_zone_id | const [String](../../string/)& | Identifier of the destination time zone. |
 
 ### Return Value
 
 Converted date and time.
 
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String\&, const String\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String&, const String&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -63,8 +63,8 @@ static DateTime System::TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime dat
 | Parameter | Type | Description |
 | --- | --- | --- |
 | date_time | [DateTime](../../datetime/) | Date and time to convert. |
-| source_time_zone_id | const [String](../../string/)\& | Identifier of the source time zone. |
-| destination_time_zone_id | const [String](../../string/)\& | Identifier of the destination time zone. |
+| source_time_zone_id | const [String](../../string/)& | Identifier of the source time zone. |
+| destination_time_zone_id | const [String](../../string/)& | Identifier of the destination time zone. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.drawing/pen/set_customendcap/
 ---
-## Pen::set_CustomEndCap(const SharedPtr\<Drawing2D::CustomLineCap\>\&) method
+## Pen::set_CustomEndCap(const SharedPtr\<Drawing2D::CustomLineCap\>&) method
 
 
 Sets the custom end line cap.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::set_CustomEndCap(const SharedPtr<Drawing2D::CustomLin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::CustomLineCap](../../../system.drawing.drawing2d/customlinecap/)\>\& | The value to set |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::CustomLineCap](../../../system.drawing.drawing2d/customlinecap/)\>& | The value to set |
 
 ## See Also
 

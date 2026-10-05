@@ -1,12 +1,12 @@
 ---
 title: EnumeratorSelectManyAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumeratorSelectManyAdapter::EnumeratorSelectManyAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumeratorselectmanyadapter/enumeratorselectmanyadapter/
 ---
-## EnumeratorSelectManyAdapter::EnumeratorSelectManyAdapter(SharedPtr\<IEnumerator\<Source\>\>, const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>\&) constructor
+## EnumeratorSelectManyAdapter::EnumeratorSelectManyAdapter(SharedPtr\<IEnumerator\<Source\>\>, const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>&) constructor
 
 
 

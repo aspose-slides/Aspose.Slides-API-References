@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.io/textwriter/write/
 ---
-## TextWriter::Write(const SharedPtr\<Object\>\&) method
+## TextWriter::Write(const SharedPtr\<Object\>&) method
 
 
 Writes the string representation of the specified object to the stream.
@@ -20,7 +20,7 @@ virtual void System::IO::TextWriter::Write(const SharedPtr<Object> &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object to write |
 
 ## TextWriter::Write(bool) method
 
@@ -134,7 +134,7 @@ virtual void System::IO::TextWriter::Write(float value)
 | --- | --- | --- |
 | value | **float** | The value to write |
 
-## TextWriter::Write(const String\&) method
+## TextWriter::Write(const String&) method
 
 
 Writes the specified string to the stream.
@@ -148,7 +148,7 @@ virtual void System::IO::TextWriter::Write(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The string to write |
+| value | const [String](../../../system/string/)& | The string to write |
 
 ## TextWriter::Write(uint32_t) method
 
@@ -182,7 +182,7 @@ virtual void System::IO::TextWriter::Write(uint64_t value)
 | --- | --- | --- |
 | value | **uint64_t** | The value to write |
 
-## TextWriter::Write(const ArrayPtr\<char_t\>\&) method
+## TextWriter::Write(const ArrayPtr\<char_t\>&) method
 
 
 Writes all characetrs from the specified array to the stream.
@@ -196,9 +196,9 @@ virtual void System::IO::TextWriter::Write(const ArrayPtr<char_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 
-## TextWriter::Write(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## TextWriter::Write(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array to the stream.
@@ -212,11 +212,11 @@ virtual void System::IO::TextWriter::Write(const ArrayPtr<char_t> &buffer, int32
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## TextWriter::Write(const char_t *) method
+## TextWriter::Write(const char_t \*) method
 
 
 Writes the specified c-string to the stream.
@@ -230,9 +230,9 @@ virtual void System::IO::TextWriter::Write(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to write |
+| value | const char_t \* | The c-string to write |
 
-## TextWriter::Write(const TypeInfo\&) method
+## TextWriter::Write(const TypeInfo&) method
 
 
 Writes the string representation of the specified [TypeInfo](../../../system/typeinfo/) object to the stream.
@@ -246,9 +246,9 @@ virtual void System::IO::TextWriter::Write(const TypeInfo &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [TypeInfo](../../../system/typeinfo/)\& | The object to write |
+| value | const [TypeInfo](../../../system/typeinfo/)& | The object to write |
 
-## TextWriter::Write(const String\&, const TArgs\&...) method
+## TextWriter::Write(const String&, const TArgs&...) method
 
 
 Writes the specified values formatted according to the specified format to the stream.
@@ -268,8 +268,8 @@ template<class...> void System::IO::TextWriter::Write(const String &format, cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../../system/string/)\& | The string format |
-| args | const TArgs\&... | The values to write |
+| format | const [String](../../../system/string/)& | The string format |
+| args | const TArgs&... | The values to write |
 
 ## See Also
 

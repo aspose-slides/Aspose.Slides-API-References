@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::SetGamma(float gamma, ColorAdjus
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

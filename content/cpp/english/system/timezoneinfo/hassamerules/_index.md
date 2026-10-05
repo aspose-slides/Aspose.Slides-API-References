@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system/timezoneinfo/hassamerules/
 ---
-## TimeZoneInfo::HasSameRules(const TimeZoneInfoPtr\&) const method
+## TimeZoneInfo::HasSameRules(const TimeZoneInfoPtr&) const method
 
 
 Checks if current and another time zones have the same adjustment rules.
@@ -20,7 +20,7 @@ bool System::TimeZoneInfo::HasSameRules(const TimeZoneInfoPtr &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [TimeZoneInfoPtr](../../timezoneinfoptr/)\& | Time zone info. |
+| other | const [TimeZoneInfoPtr](../../timezoneinfoptr/)& | Time zone info. |
 
 ### Return Value
 

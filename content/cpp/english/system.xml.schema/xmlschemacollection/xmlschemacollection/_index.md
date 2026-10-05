@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlSchemaCollection](../) class.
 System::Xml::Schema::XmlSchemaCollection::XmlSchemaCollection()
 ```
 
-## XmlSchemaCollection::XmlSchemaCollection(const SharedPtr\<XmlNameTable\>\&) constructor
+## XmlSchemaCollection::XmlSchemaCollection(const SharedPtr\<XmlNameTable\>&) constructor
 
 
 Initializes a new instance of the [XmlSchemaCollection](../) class with the specified [XmlNameTable](../../../system.xml/xmlnametable/). The [XmlNameTable](../../../system.xml/xmlnametable/) is used when loading schemas.
@@ -29,7 +29,7 @@ System::Xml::Schema::XmlSchemaCollection::XmlSchemaCollection(const SharedPtr<Xm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nametable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>\& | The [XmlNameTable](../../../system.xml/xmlnametable/) to use. |
+| nametable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>& | The [XmlNameTable](../../../system.xml/xmlnametable/) to use. |
 
 ## See Also
 

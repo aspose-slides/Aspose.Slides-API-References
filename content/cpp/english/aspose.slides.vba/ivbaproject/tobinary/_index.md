@@ -9,7 +9,7 @@ url: /aspose.slides.vba/ivbaproject/tobinary/
 ## IVbaProject::ToBinary() method
 
 
-Returns the binary representation of the VBA project as OLE container. Read-only **uint8_t**[].
+Returns the binary representation of the VBA project as OLE container. Read-only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::Vba::IVbaProject::ToBinary()=0

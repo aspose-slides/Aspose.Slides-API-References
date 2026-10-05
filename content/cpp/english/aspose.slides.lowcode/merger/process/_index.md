@@ -22,6 +22,13 @@ static void Aspose::Slides::LowCode::Merger::Process(System::ArrayPtr<System::St
 | --- | --- | --- |
 | inputFileNames | [System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\> | An array of the input presentation file names. |
 | outputFileName | [System::String](../../../system/string/) | The output file name of the resulting merged presentation file. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file names are invalid or formats do not match. |
+
 ## Remarks
 
 
@@ -48,6 +55,13 @@ static void Aspose::Slides::LowCode::Merger::Process(System::ArrayPtr<System::St
 | inputFileNames | [System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\> | An array of the input presentation file names. |
 | outputFileName | [System::String](../../../system/string/) | The output file name of the resulting merged presentation file. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | The additional options that define how the merged presentation is saved. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file names are invalid or formats do not match. |
+
 ## Remarks
 
 
@@ -75,6 +89,13 @@ static void Aspose::Slides::LowCode::Merger::Process(System::ArrayPtr<System::St
 | --- | --- | --- |
 | inputFileNames | [System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\> | An array of the input presentation file names. |
 | outputStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | The output stream. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file names are invalid or formats do not match. |
+
 ## Remarks
 
 
@@ -102,6 +123,13 @@ static void Aspose::Slides::LowCode::Merger::Process(System::ArrayPtr<System::St
 | inputFileNames | [System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\> | An array of the input presentation file names. |
 | outputStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | The output stream. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | The additional options that define how the merged presentation is saved. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when input file names are invalid or formats do not match. |
+
 ## Remarks
 
 

@@ -1,7 +1,7 @@
 ---
 title: Grouping()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Grouping::Grouping() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/grouping/grouping/

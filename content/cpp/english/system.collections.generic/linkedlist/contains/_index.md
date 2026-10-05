@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections.generic/linkedlist/contains/
 ---
-## LinkedList::Contains(const T\&) const method
+## LinkedList::Contains(const T&) const method
 
 
 Checks if **element** is present in list.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::LinkedList<T>::Contains(const T &element) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to look for. |
+| element | const T& | Element to look for. |
 
 ### Return Value
 

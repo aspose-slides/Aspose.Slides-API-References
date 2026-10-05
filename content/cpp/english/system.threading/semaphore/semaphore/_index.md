@@ -23,7 +23,7 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount)
 | initialCount | int | Initial count of active entries. |
 | maximumCount | int | Maximum allwed entries count. |
 
-## Semaphore::Semaphore(int, int, const String\&) constructor
+## Semaphore::Semaphore(int, int, const String&) constructor
 
 
 Creates named semaphore.
@@ -39,9 +39,9 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount, cons
 | --- | --- | --- |
 | initialCount | int | Initial count of active entries. |
 | maximumCount | int | Maximum allwed entries count. |
-| name | const [String](../../../system/string/)\& | [Semaphore](../) name. |
+| name | const [String](../../../system/string/)& | [Semaphore](../) name. |
 
-## Semaphore::Semaphore(int, int, const String\&, bool\&) constructor
+## Semaphore::Semaphore(int, int, const String&, bool&) constructor
 
 
 Creates named semaphore.
@@ -57,8 +57,8 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount, cons
 | --- | --- | --- |
 | initialCount | int | Initial count of active entries. |
 | maximumCount | int | Maximum allwed entries count. |
-| name | const [String](../../../system/string/)\& | [Semaphore](../) name. |
-| createdNew | **bool**\& | Reference to variable which is set to true if semaphore was created and to false if existing one with same name was reused |
+| name | const [String](../../../system/string/)& | [Semaphore](../) name. |
+| createdNew | **bool**& | Reference to variable which is set to true if semaphore was created and to false if existing one with same name was reused |
 
 ## See Also
 

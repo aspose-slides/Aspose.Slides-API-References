@@ -16,6 +16,13 @@ PrintRange System::Drawing::Printing::PrinterSettings::get_PrintRange()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [PrintRange](../../printrange/)

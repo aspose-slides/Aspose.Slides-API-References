@@ -20,6 +20,13 @@ virtual ptr System::Object::MemberwiseClone() const
 
 Pointer to object copy created.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplemented | exception is thrown by default. Implement manually or use polymorphic_memberwiseclone option to enable this method in translated code. |
+
+
 ## See Also
 
 * Typedef [ptr](../ptr/)

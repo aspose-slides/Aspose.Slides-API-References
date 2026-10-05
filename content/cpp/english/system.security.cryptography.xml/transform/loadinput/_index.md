@@ -1,7 +1,7 @@
 ---
 title: LoadInput()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::LoadInput() method"
 type: docs
 weight: 105
 url: /system.security.cryptography.xml/transform/loadinput/

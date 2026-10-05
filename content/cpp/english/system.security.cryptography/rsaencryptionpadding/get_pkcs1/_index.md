@@ -1,7 +1,7 @@
 ---
 title: get_Pkcs1()
 second_title: Aspose.Slides for C++ API Reference
-description: Gets PKCS #1 v1.5 mode.
+description: "Gets PKCS #1 v1.5 mode."
 type: docs
 weight: 1
 url: /system.security.cryptography/rsaencryptionpadding/get_pkcs1/

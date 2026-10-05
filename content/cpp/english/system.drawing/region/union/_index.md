@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.drawing/region/union/
 ---
-## Region::Union(const RectangleF\&) method
+## Region::Union(const RectangleF&) method
 
 
 Replaces the region represented by the current object with the result of union operation of this region and a region defined by the specified rectangle.
@@ -20,9 +20,9 @@ void System::Drawing::Region::Union(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | A rectangle that defines a region to unite this region with |
+| rect | const [RectangleF](../../rectanglef/)& | A rectangle that defines a region to unite this region with |
 
-## Region::Union(const Rectangle\&) method
+## Region::Union(const Rectangle&) method
 
 
 Replaces the region represented by the current object with the result of union of this region and a region defined by the specified rectangle.
@@ -36,9 +36,9 @@ void System::Drawing::Region::Union(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | A rectangle that defines a region to unite this region with |
+| rect | const [Rectangle](../../rectangle/)& | A rectangle that defines a region to unite this region with |
 
-## Region::Union(const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
+## Region::Union(const SharedPtr\<Drawing2D::GraphicsPath\>&) method
 
 
 Replaces the region represented by the current object with the result of union of this region and a region defined by the specified path.
@@ -52,9 +52,9 @@ void System::Drawing::Region::Union(const SharedPtr<Drawing2D::GraphicsPath> &pa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A path that defines a region to unite this region with |
+| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>& | A path that defines a region to unite this region with |
 
-## Region::Union(const SharedPtr\<Region\>\&) method
+## Region::Union(const SharedPtr\<Region\>&) method
 
 
 Replaces the region represented by the current object with the result of union of this region and and the specified region.
@@ -68,7 +68,7 @@ void System::Drawing::Region::Union(const SharedPtr<Region> &region)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>\& | A region to unite this region with |
+| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>& | A region to unite this region with |
 
 ## See Also
 

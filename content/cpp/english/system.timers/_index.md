@@ -1,7 +1,7 @@
 ---
 title: "System::Timers"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Timers namespace"
 type: docs
 weight: 1041
 url: /system.timers/

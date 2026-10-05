@@ -20,7 +20,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create()
 
 [DSA](../) algorithm object.
 
-## DSA::Create(const String\&) method
+## DSA::Create(const String&) method
 
 
 Creates default [DSA](../) algorithm implementation.
@@ -34,7 +34,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alg_name | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.DSACryptoServiceProvider\". |
+| alg_name | const [String](../../../system/string/)& | Must be "System.Security.Cryptography.DSACryptoServiceProvider". |
 
 ### Return Value
 
@@ -56,7 +56,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(int32_t key_si
 | --- | --- | --- |
 | key_size_in_bits | **int32_t** | The key size, in bits. |
 
-## DSA::Create(const DSAParameters\&) method
+## DSA::Create(const DSAParameters&) method
 
 
 Creates default [DSA](../) algorithm implementation with specifed parameters.
@@ -70,7 +70,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(const DSAParam
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [DSAParameters](../../dsaparameters/)\& | The parameters for the [DSA](../) algorithm. |
+| parameters | const [DSAParameters](../../dsaparameters/)& | The parameters for the [DSA](../) algorithm. |
 
 ## See Also
 

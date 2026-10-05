@@ -69,7 +69,7 @@ System::TimeSpan::TimeSpan(int days, int hours, int minutes, int seconds, int mi
 | seconds | int | The number of seconds in the seconds component of the time interval to be represented by the instance being constructed |
 | milliseconds | int | The number of milliseconds in the milliseconds component of the time interval to be represented by the instance being constructed |
 
-## TimeSpan::TimeSpan(const TimeSpan\&) constructor
+## TimeSpan::TimeSpan(const TimeSpan&) constructor
 
 
 Constructs a [TimeSpan](../) object that represents the time interval equal to the time interval represented by the specified [TimeSpan](../) object.

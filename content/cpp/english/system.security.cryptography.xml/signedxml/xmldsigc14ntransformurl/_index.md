@@ -1,7 +1,7 @@
 ---
 title: XmlDsigC14NTransformUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigC14NTransformUrl field
 type: docs
 weight: 430
 url: /system.security.cryptography.xml/signedxml/xmldsigc14ntransformurl/

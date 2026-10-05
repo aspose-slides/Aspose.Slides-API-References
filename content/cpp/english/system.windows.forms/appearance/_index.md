@@ -20,7 +20,7 @@ enum class Appearance
 | Name | Value | Description |
 | --- | --- | --- |
 | Normal | 0 | The default appearance defined by the control class. |
-| Button | 1 | The appearance of a [Windows](../../system.windows/) button. |
+| Button | 1 | The appearance of a Windows button. |
 
 ## See Also
 

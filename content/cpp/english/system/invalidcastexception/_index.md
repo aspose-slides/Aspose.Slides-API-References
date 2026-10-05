@@ -1,7 +1,7 @@
 ---
 title: InvalidCastException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: InvalidCastException typedef
 type: docs
 weight: 4057
 url: /system/invalidcastexception/

@@ -20,7 +20,7 @@ int System::Collections::Generic::IEnumerable<T>::LINQ_Count()
 
 Number of elements in the sequence.
 
-## IEnumerable::LINQ_Count(const Func\<T, bool\>\&) method
+## IEnumerable::LINQ_Count(const Func\<T, bool\>&) method
 
 
 Returns the number of elements in the sequence that satisfy the specified condition.
@@ -34,7 +34,7 @@ int System::Collections::Generic::IEnumerable<T>::LINQ_Count(const Func<T, bool>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | const [Func](../../../system/func/)\<T, **bool**\>\& | A function to test each element for a condition. |
+| predicate | const [Func](../../../system/func/)\<T, **bool**\>& | A function to test each element for a condition. |
 
 ### Return Value
 

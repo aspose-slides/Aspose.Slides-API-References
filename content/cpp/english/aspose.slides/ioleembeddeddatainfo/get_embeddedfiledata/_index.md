@@ -9,7 +9,7 @@ url: /aspose.slides/ioleembeddeddatainfo/get_embeddedfiledata/
 ## IOleEmbeddedDataInfo::get_EmbeddedFileData() method
 
 
-Returns the file data of embedded OLE object Read only **uint8_t**[].
+Returns the file data of embedded OLE object Read only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::IOleEmbeddedDataInfo::get_EmbeddedFileData()=0

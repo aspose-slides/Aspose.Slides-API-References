@@ -1,7 +1,7 @@
 ---
 title: get_SandyBrown()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFF4A460.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFF4A460."
 type: docs
 weight: 1821
 url: /system.drawing/color/get_sandybrown/

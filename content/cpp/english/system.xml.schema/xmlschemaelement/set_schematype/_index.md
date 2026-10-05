@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.xml.schema/xmlschemaelement/set_schematype/
 ---
-## XmlSchemaElement::set_SchemaType(const SharedPtr\<XmlSchemaType\>\&) method
+## XmlSchemaElement::set_SchemaType(const SharedPtr\<XmlSchemaType\>&) method
 
 
 Sets the type of the element. This can either be a complex type or a simple type.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaElement::set_SchemaType(const SharedPtr<XmlSc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../../xmlschematype/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../../xmlschematype/)\>& | The value to set. |
 
 ## See Also
 

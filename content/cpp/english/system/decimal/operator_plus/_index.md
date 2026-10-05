@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/decimal/operator_plus/
 ---
-## Decimal::operator+(const Decimal\&) const method
+## Decimal::operator+(const Decimal&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is a sum of values represented by the current and specified objects.
@@ -20,7 +20,7 @@ Decimal System::Decimal::operator+(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object representing the value to add |
+| d | const [Decimal](../)& | The [Decimal](../) object representing the value to add |
 
 ### Return Value
 

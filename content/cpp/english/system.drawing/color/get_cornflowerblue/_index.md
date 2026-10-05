@@ -1,7 +1,7 @@
 ---
 title: get_CornflowerBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF6495ED.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF6495ED."
 type: docs
 weight: 508
 url: /system.drawing/color/get_cornflowerblue/

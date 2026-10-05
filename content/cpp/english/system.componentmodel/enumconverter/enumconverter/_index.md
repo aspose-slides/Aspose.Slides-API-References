@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.componentmodel/enumconverter/enumconverter/
 ---
-## EnumConverter::EnumConverter(const System::TypeInfo\&) constructor
+## EnumConverter::EnumConverter(const System::TypeInfo&) constructor
 
 
 RTTI information.

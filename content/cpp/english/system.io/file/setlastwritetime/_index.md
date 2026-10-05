@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.io/file/setlastwritetime/
 ---
-## File::SetLastWriteTime(const String\&, DateTime) method
+## File::SetLastWriteTime(const String&, DateTime) method
 
 
 Sets the last write time of the specified entity as local time.
@@ -20,7 +20,7 @@ static void System::IO::File::SetLastWriteTime(const String &path, DateTime last
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last write time to set |
+| path | const [String](../../../system/string/)& | The entity whose last write time to set |
 | lastWriteTime | [DateTime](../../../system/datetime/) | A [DateTime](../../../system/datetime/) object representing the time to set as local time |
 
 ## See Also

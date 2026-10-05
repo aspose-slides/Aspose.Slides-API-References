@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /system/array/sort/
 ---
-## Array::Sort(const ArrayPtr\<Type\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>&) method
 
 
 Sorts elements in the specified array using default comparer.
@@ -20,9 +20,9 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Targed array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Targed array |
 
-## Array::Sort(const ArrayPtr\<Type\>\&, int, int) method
+## Array::Sort(const ArrayPtr\<Type\>&, int, int) method
 
 
 Sorts a range of elements in the specified array using default comparer.
@@ -36,11 +36,11 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Targed array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Targed array |
 | startIndex | int | The index designating the beginning of the range of elements to sort |
 | count | int | The size of the range of elements to sort |
 
-## Array::Sort(const ArrayPtr\<Type\>\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>&) method
 
 
 Sorts elements in the specified array using specified comparer.
@@ -54,10 +54,10 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Targed array |
-| comparator | const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<T\>\>\& | IComparer<T> object used to compare elements of the array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Targed array |
+| comparator | const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<T\>\>& | IComparer\<T\> object used to compare elements of the array |
 
-## Array::Sort(const ArrayPtr\<Type\>\&, const SharedPtr\<System::Collections::Generic::IComparer\<Y\>\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>&, const SharedPtr\<System::Collections::Generic::IComparer\<Y\>\>&) method
 
 
 NOT IMPLEMENTED.
@@ -67,7 +67,14 @@ template<typename Type,typename Y> static void System::Array<T>::Sort(const Arra
 ```
 
 
-## Array::Sort(const ArrayPtr\<Type\>\&, const System::Comparison\<T\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Array::Sort(const ArrayPtr\<Type\>&, const System::Comparison\<T\>&) method
 
 
 Sorts elements in the specified array using specified comparison.
@@ -76,10 +83,10 @@ Sorts elements in the specified array using specified comparison.
 template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> &arr, const System::Comparison<T> &comparison)
 ```
 
-## Array::Sort(const ArrayPtr\<TKey\>\&, const ArrayPtr\<TValue\>\&) method
+## Array::Sort(const ArrayPtr\<TKey\>&, const ArrayPtr\<TValue\>&) method
 
 
-Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using operator<.
+Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using operator\<.
 
 ```cpp
 template<typename TKey,typename TValue> static void System::Array<T>::Sort(const ArrayPtr<TKey> &keys, const ArrayPtr<TValue> &items)
@@ -97,10 +104,10 @@ template<typename TKey,typename TValue> static void System::Array<T>::Sort(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | const [ArrayPtr](../../arrayptr/)\<TKey\>\& | [Array](../) that contains key values |
-| items | const [ArrayPtr](../../arrayptr/)\<TValue\>\& | [Array](../) that contains items that are mapped to the key values in **keys** array |
+| keys | const [ArrayPtr](../../arrayptr/)\<TKey\>& | [Array](../) that contains key values |
+| items | const [ArrayPtr](../../arrayptr/)\<TValue\>& | [Array](../) that contains items that are mapped to the key values in **keys** array |
 
-## Array::Sort(const ArrayPtr\<TKey\>\&, const ArrayPtr\<TValue\>\&, int, int) method
+## Array::Sort(const ArrayPtr\<TKey\>&, const ArrayPtr\<TValue\>&, int, int) method
 
 
 Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using default comparer.
@@ -121,8 +128,8 @@ template<typename TKey,typename TValue> static void System::Array<T>::Sort(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | const [ArrayPtr](../../arrayptr/)\<TKey\>\& | [Array](../) that contains key values |
-| items | const [ArrayPtr](../../arrayptr/)\<TValue\>\& | [Array](../) that contains items that are mapped to the key values in **keys** array |
+| keys | const [ArrayPtr](../../arrayptr/)\<TKey\>& | [Array](../) that contains key values |
+| items | const [ArrayPtr](../../arrayptr/)\<TValue\>& | [Array](../) that contains items that are mapped to the key values in **keys** array |
 | index | int | The index designating the beginning of the range to sort |
 | length | int | The number of elements in the range to sort |
 

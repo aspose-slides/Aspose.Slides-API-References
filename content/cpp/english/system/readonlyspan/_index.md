@@ -26,9 +26,9 @@ template<typename T>class ReadOnlySpan : public System::Details::SpanCore<const 
 | Method | Description |
 | --- | --- |
 |  [ReadOnlySpan](./readonlyspan/)() | Constructs an empty read-only span. |
-|  [ReadOnlySpan](./readonlyspan/)(const [Span](../span/)\<T\>\&) | Constructs a read-only span from a regular span. |
+|  [ReadOnlySpan](./readonlyspan/)(const [Span](../span/)\<T\>&) | Constructs a read-only span from a regular span. |
 |  [ReadOnlySpan](./readonlyspan/)(const typename std::enable_if\<std::is_same\<T1, **uint8_t**\>::value, char\>::type(&)) | Constructs a read-only span from a string literal. |
-| static [ThisType](./) [to_ReadOnlySpan](./to_readonlyspan/)(const typename BaseType::ArrayPtrT\&) | Converts an array to a [ReadOnlySpan](./). |
+| static [ThisType](./) [to_ReadOnlySpan](./to_readonlyspan/)(const typename BaseType::ArrayPtrT&) | Converts an array to a [ReadOnlySpan](./). |
 ## Remarks
 
 

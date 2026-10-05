@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.globalization/compareinfo/getcompareinfo/
 ---
-## CompareInfo::GetCompareInfo(int, const SharedPtr\<Reflection::Assembly\>\&) method
+## CompareInfo::GetCompareInfo(int, const SharedPtr\<Reflection::Assembly\>&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture and using string comparison methods in the specified assembly.
@@ -21,13 +21,13 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(int cul
 | Parameter | Type | Description |
 | --- | --- | --- |
 | culture | int | Culture identifier (LCID). |
-| assembly | const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>\& | Assembly that contains string comparison methods. |
+| assembly | const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>& | Assembly that contains string comparison methods. |
 
 ### Return Value
 
 [CompareInfo](../) object.
 
-## CompareInfo::GetCompareInfo(const String\&, const SharedPtr\<Reflection::Assembly\>\&) method
+## CompareInfo::GetCompareInfo(const String&, const SharedPtr\<Reflection::Assembly\>&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture and using string comparison methods in the specified assembly.
@@ -41,8 +41,8 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Culture name. |
-| assembly | const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>\& | Assembly that contains string comparison methods. |
+| name | const [String](../../../system/string/)& | Culture name. |
+| assembly | const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>& | Assembly that contains string comparison methods. |
 
 ### Return Value
 
@@ -68,7 +68,7 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(int cul
 
 [CompareInfo](../) object.
 
-## CompareInfo::GetCompareInfo(const String\&) method
+## CompareInfo::GetCompareInfo(const String&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture.
@@ -82,7 +82,7 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Culture name. |
+| name | const [String](../../../system/string/)& | Culture name. |
 
 ### Return Value
 

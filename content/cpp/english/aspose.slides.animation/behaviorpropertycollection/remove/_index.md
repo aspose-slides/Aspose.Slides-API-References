@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /aspose.slides.animation/behaviorpropertycollection/remove/
 ---
-## BehaviorPropertyCollection::Remove(const System::SharedPtr\<IBehaviorProperty\>\&) method
+## BehaviorPropertyCollection::Remove(const System::SharedPtr\<IBehaviorProperty\>&) method
 
 
 Removes specified property from the collection.
@@ -20,9 +20,9 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Remove(const System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | Property to remove. |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>& | Property to remove. |
 
-## BehaviorPropertyCollection::Remove(const System::String\&) method
+## BehaviorPropertyCollection::Remove(const System::String&) method
 
 
 Removes specified property from the collection.
@@ -36,7 +36,7 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Remove(const System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | const [System::String](../../../system/string/)\& | Value of the property to remove. |
+| propertyValue | const [System::String](../../../system/string/)& | Value of the property to remove. |
 
 ## See Also
 

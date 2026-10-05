@@ -1,7 +1,7 @@
 ---
 title: ~IEnumerator()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IEnumerator::~IEnumerator() method"
 type: docs
 weight: 14
 url: /system.collections.generic/ienumerator/~ienumerator/

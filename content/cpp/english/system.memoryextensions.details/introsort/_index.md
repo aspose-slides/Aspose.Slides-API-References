@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.memoryextensions.details/introsort/
 ---
-## System::MemoryExtensions::Details::IntroSort(Span\<TKey\>\&, Span\<TValue\>\&, int32_t, std::function\<int32_t(const TKey\&, const TKey\&)>) function
+## System::MemoryExtensions::Details::IntroSort(Span\<TKey\>&, Span\<TValue\>&, int32_t, std::function\<int32_t(const TKey&, const TKey&)\>) function
 
 
 Internal implementation of introsort algorithm for key-value pairs.
@@ -27,10 +27,10 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to sort |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to sort |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to sort |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to sort |
 | depthLimit | **int32_t** | Maximum recursion depth before switching to heapsort |
-| comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) function for keys |
+| comparer | std::function\<**int32_t**(const TKey&, const TKey&)\> | [Comparison](../../system/comparison/) function for keys |
 
 ## See Also
 

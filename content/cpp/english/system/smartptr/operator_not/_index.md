@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system/smartptr/operator_not/
 ---
-## SmartPtr::operator!() const method
+## SmartPtr::operator\!() const method
 
 
 Checks if pointer is null.

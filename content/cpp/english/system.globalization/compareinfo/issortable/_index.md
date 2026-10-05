@@ -26,7 +26,7 @@ static bool System::Globalization::CompareInfo::IsSortable(char16_t ch)
 
 True if **ch** is sortable; otherwise false.
 
-## CompareInfo::IsSortable(const String\&) method
+## CompareInfo::IsSortable(const String&) method
 
 
 Checks whether a specified string is sortable.
@@ -40,7 +40,7 @@ static bool System::Globalization::CompareInfo::IsSortable(const String &text)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [String](../../../system/string/)\& | A string. |
+| text | const [String](../../../system/string/)& | A string. |
 
 ### Return Value
 

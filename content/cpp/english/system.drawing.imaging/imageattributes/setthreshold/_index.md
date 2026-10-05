@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::SetThreshold(float threshold, Co
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

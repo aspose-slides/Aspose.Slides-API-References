@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.globalization/datetimeformatinfo/set_abbreviateddaynames/
 ---
-## DateTimeFormatInfo::set_AbbreviatedDayNames(const ArrayPtr\<String\>\&) method
+## DateTimeFormatInfo::set_AbbreviatedDayNames(const ArrayPtr\<String\>&) method
 
 
 Sets abbreviated day names.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_AbbreviatedDayNames(const Ar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\& | [Array](../../../system/array/) of abbreviated day names, starting with Sunday. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>& | [Array](../../../system/array/) of abbreviated day names, starting with Sunday. |
 
 ## See Also
 

@@ -37,6 +37,13 @@ virtual void Aspose::Slides::Charts::IChartCellCollection::Add(System::SharedPtr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\> | The value. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | if limit exceeded |
+
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.net.http.headers/mediatypewithqualityheadervalue/tryparse/
 ---
-## MediaTypeWithQualityHeaderValue::TryParse(String, System::SharedPtr\<MediaTypeWithQualityHeaderValue\>\&) method
+## MediaTypeWithQualityHeaderValue::TryParse(String, System::SharedPtr\<MediaTypeWithQualityHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [MediaTypeWithQualityHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryPars
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeWithQualityHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeWithQualityHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

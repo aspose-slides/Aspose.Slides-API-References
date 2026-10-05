@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.threading.tasks/waitall/
 ---
-## System::Threading::Tasks::WaitAll(const ArrayPtr\<TaskPtr\>\&, const CancellationToken\&) function
+## System::Threading::Tasks::WaitAll(const ArrayPtr\<TaskPtr\>&, const CancellationToken&) function
 
 
 Waits for all of the provided [Task](../task/) objects to complete execution.
@@ -20,10 +20,17 @@ void System::Threading::Tasks::WaitAll(const ArrayPtr<TaskPtr> &tasks, const Can
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>\& | An array of [Task](../task/) instances on which to wait. |
-| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)\& | A [CancellationToken](../../system.threading/cancellationtoken/) to observe while waiting for the tasks to complete. |
+| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>& | An array of [Task](../task/) instances on which to wait. |
+| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)& | A [CancellationToken](../../system.threading/cancellationtoken/) to observe while waiting for the tasks to complete. |
 
-## System::Threading::Tasks::WaitAll(const ArrayPtr\<TaskPtr\>\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.OperationCanceledException](../../system/operationcanceledexception/) | if the cancellationToken is cancelled. |
+
+
+## System::Threading::Tasks::WaitAll(const ArrayPtr\<TaskPtr\>&) function
 
 
 Waits for all of the provided [Task](../task/) objects to complete execution.
@@ -37,7 +44,7 @@ void System::Threading::Tasks::WaitAll(const ArrayPtr<TaskPtr> &tasks)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>\& | An array of [Task](../task/) instances on which to wait. |
+| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>& | An array of [Task](../task/) instances on which to wait. |
 
 ## See Also
 

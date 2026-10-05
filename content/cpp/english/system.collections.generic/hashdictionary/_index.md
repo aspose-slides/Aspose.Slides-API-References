@@ -19,7 +19,7 @@ template<typename T,typename T2>class HashDictionary
 
 | Method | Description |
 | --- | --- |
-| T2 [operator[]](./operator[]/)(const T\&) const | Accessor method stub. |
+| T2 [operator\[\]](./operator_idx/)(const T&) const | Accessor method stub. |
 
 ## See Also
 

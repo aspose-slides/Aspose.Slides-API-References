@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/decimal/operator_equal/
 ---
-## Decimal::operator=(const Decimal\&) method
+## Decimal::operator=(const Decimal&) method
 
 
 Assigns the value represented by the specified object to the current object.
@@ -20,7 +20,7 @@ Decimal & System::Decimal::operator=(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | [Decimal](../) object to copy the value from |
+| d | const [Decimal](../)& | [Decimal](../) object to copy the value from |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.xml/xmlconvert/totimespan/
 ---
-## XmlConvert::ToTimeSpan(const String\&) method
+## XmlConvert::ToTimeSpan(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [TimeSpan](../../../system/timespan/) equivalent.
@@ -20,11 +20,18 @@ static TimeSpan System::Xml::XmlConvert::ToTimeSpan(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string to convert. The string format must conform to the W3C XML [Schema](../../../system.xml.schema/) Part 2: Datatypes recommendation for duration. |
+| s | const [String](../../../system/string/)& | The string to convert. The string format must conform to the W3C XML [Schema](../../../system.xml.schema/) Part 2: Datatypes recommendation for duration. |
 
 ### Return Value
 
 A [TimeSpan](../../../system/timespan/) equivalent of the string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | **s** is not in correct format to represent a [TimeSpan](../../../system/timespan/) value. |
+
 
 ## See Also
 

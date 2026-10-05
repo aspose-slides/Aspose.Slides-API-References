@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemacollection/idx_get/
 ---
-## XmlSchemaCollection::idx_get(const String\&) method
+## XmlSchemaCollection::idx_get(const String&) method
 
 
 Returns the [XmlSchema](../../xmlschema/) associated with the given namespace URI.
@@ -20,7 +20,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::idx_get(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ns | const [String](../../../system/string/)\& | The namespace URI associated with the schema you want to return. This will typically be the **targetNamespace** of the schema. |
+| ns | const [String](../../../system/string/)& | The namespace URI associated with the schema you want to return. This will typically be the **targetNamespace** of the schema. |
 
 ### Return Value
 

@@ -15,7 +15,7 @@ Returns enumerable collection containing all files located in the directory repr
 SharedPtr<IEnumerable<FileInfoPtr>> System::IO::DirectoryInfo::EnumerateFiles()
 ```
 
-## DirectoryInfo::EnumerateFiles(const String\&) method
+## DirectoryInfo::EnumerateFiles(const String&) method
 
 
 Searches for the files that satisfy the specified search criteria in the directory represented by the current object.
@@ -29,13 +29,13 @@ SharedPtr<IEnumerable<FileInfoPtr>> System::IO::DirectoryInfo::EnumerateFiles(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the files to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the files to search for |
 
 ### Return Value
 
 The enumerable collection of shared pointers to [FileInfo](../../fileinfo/) objects representing the found files whose names match **searchPattern**
 
-## DirectoryInfo::EnumerateFiles(const String\&, SearchOption) method
+## DirectoryInfo::EnumerateFiles(const String&, SearchOption) method
 
 
 Searches for the files that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -49,7 +49,7 @@ SharedPtr<IEnumerable<FileInfoPtr>> System::IO::DirectoryInfo::EnumerateFiles(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the files to search for |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the files to search for |
 | searchOption | [SearchOption](../../searchoption/) | Specifies whether the search has to be performed in the directory represented by the current object only or in the whole directory tree rooted in the directory represented by the current object |
 
 ### Return Value

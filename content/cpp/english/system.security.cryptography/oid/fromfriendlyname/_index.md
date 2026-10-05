@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography/oid/fromfriendlyname/
 ---
-## Oid::FromFriendlyName(const String\&, OidGroup) method
+## Oid::FromFriendlyName(const String&, OidGroup) method
 
 
 Create OID object from the specified OID friendly name.
@@ -20,7 +20,7 @@ static SharedPtr<Oid> System::Security::Cryptography::Oid::FromFriendlyName(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| friendly_name | const [String](../../../system/string/)\& | User-friendly object name. |
+| friendly_name | const [String](../../../system/string/)& | User-friendly object name. |
 | group | [OidGroup](../../oidgroup/) | OID group to search in. |
 
 ## See Also

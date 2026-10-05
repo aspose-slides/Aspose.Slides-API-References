@@ -1,7 +1,7 @@
 ---
 title: get_DigestMethod()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::get_DigestMethod() method"
 type: docs
 weight: 79
 url: /system.security.cryptography.xml/reference/get_digestmethod/

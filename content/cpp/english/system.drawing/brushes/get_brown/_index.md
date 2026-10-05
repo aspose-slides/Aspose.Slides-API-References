@@ -1,7 +1,7 @@
 ---
 title: get_Brown()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFA52A2A.
+description: "Returns the solid fill color whose hexadecimal value is #FFA52A2A."
 type: docs
 weight: 144
 url: /system.drawing/brushes/get_brown/

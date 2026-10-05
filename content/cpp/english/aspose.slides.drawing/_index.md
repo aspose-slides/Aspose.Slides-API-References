@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Drawing"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Drawing namespace"
 type: docs
 weight: 53
 url: /aspose.slides.drawing/
@@ -23,11 +23,11 @@ url: /aspose.slides.drawing/
 
 | Function | Description |
 | --- | --- |
-| [Margin32f](./margin32f/) [operator*](./operator_star/)([Margin32f](./margin32f/), **float**) |  |
-| [Margin64d](./margin64d/) [operator*](./operator_star/)([Margin64d](./margin64d/), **double**) |  |
-| [Vector2d32f](./vector2d32f/) [operator*](./operator_star/)([Vector2d32f](./vector2d32f/), **float**) |  |
-| [Vector2d64d](./vector2d64d/) [operator*](./operator_star/)([Vector2d64d](./vector2d64d/), **int32_t**) |  |
-| [Vector2d64d](./vector2d64d/) [operator*](./operator_star/)([Vector2d64d](./vector2d64d/), **double**) |  |
+| [Margin32f](./margin32f/) [operator\*](./operator_star/)([Margin32f](./margin32f/), **float**) |  |
+| [Margin64d](./margin64d/) [operator\*](./operator_star/)([Margin64d](./margin64d/), **double**) |  |
+| [Vector2d32f](./vector2d32f/) [operator\*](./operator_star/)([Vector2d32f](./vector2d32f/), **float**) |  |
+| [Vector2d64d](./vector2d64d/) [operator\*](./operator_star/)([Vector2d64d](./vector2d64d/), **int32_t**) |  |
+| [Vector2d64d](./vector2d64d/) [operator\*](./operator_star/)([Vector2d64d](./vector2d64d/), **double**) |  |
 | [Margin32f](./margin32f/) [operator/](./operator_div/)([Margin32f](./margin32f/), **int32_t**) |  |
 | [Margin64d](./margin64d/) [operator/](./operator_div/)([Margin64d](./margin64d/), **double**) |  |
 | [Vector2d32f](./vector2d32f/) [operator/](./operator_div/)([Vector2d32f](./vector2d32f/), **int32_t**) |  |

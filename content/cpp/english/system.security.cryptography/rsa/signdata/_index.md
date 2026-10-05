@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.security.cryptography/rsa/signdata/
 ---
-## RSA::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::SignData(const ByteArrayPtr&, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm and padding, and signs the result.
@@ -20,11 +20,11 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return [RSA](../) signature for the input data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return [RSA](../) signature for the input data. |
 
-## RSA::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::SignData(const ByteArrayPtr&, int32_t, int32_t, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm and padding, and signs the result.
@@ -38,13 +38,13 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to use as input data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return [RSA](../) signature for the input data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return [RSA](../) signature for the input data. |
 
-## RSA::SignData(const StreamPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::SignData(const StreamPtr&, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm and padding, and signs the result.
@@ -58,9 +58,9 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const StreamPtr &stre
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Binary stream. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return [RSA](../) signature for the input data. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Binary stream. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return [RSA](../) signature for the input data. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /system/array/constrainedcopy/
 ---
-## Array::ConstrainedCopy(const ArrayPtr\<SrcType\>\&, int64_t, const ArrayPtr\<DstType\>\&, int64_t, int64_t) method
+## Array::ConstrainedCopy(const ArrayPtr\<SrcType\>&, int64_t, const ArrayPtr\<DstType\>&, int64_t, int64_t) method
 
 
 Copies a range of elements from an [System.Array](../) starting at the specified source.
@@ -27,9 +27,9 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Constr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array designating the beginning of the range of items to copy |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 ## Remarks

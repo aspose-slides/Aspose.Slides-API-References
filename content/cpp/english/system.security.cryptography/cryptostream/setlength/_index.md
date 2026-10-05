@@ -16,6 +16,13 @@ void System::Security::Cryptography::CryptoStream::SetLength(int64_t value) over
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | Unconditionally as operation is not supported. |
+
+
 ## See Also
 
 * Class [CryptoStream](../)

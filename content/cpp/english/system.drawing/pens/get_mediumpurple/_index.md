@@ -1,7 +1,7 @@
 ---
 title: get_MediumPurple()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF9370DB.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF9370DB."
 type: docs
 weight: 1106
 url: /system.drawing/pens/get_mediumpurple/

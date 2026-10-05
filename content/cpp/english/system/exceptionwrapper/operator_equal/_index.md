@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/exceptionwrapper/operator_equal/
 ---
-## ExceptionWrapper::operator=(const ExceptionWrapper\&) method
+## ExceptionWrapper::operator=(const ExceptionWrapper&) method
 
 
 Assignment operator.
@@ -20,13 +20,13 @@ ExceptionWrapper & System::ExceptionWrapper<T>::operator=(const ExceptionWrapper
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [ExceptionWrapper](../)\& | Other instance of wrapper class that must be assigned. |
+| other | const [ExceptionWrapper](../)& | Other instance of wrapper class that must be assigned. |
 
 ### Return Value
 
 Instance with new assigned value.
 
-## ExceptionWrapper::operator=(ExceptionWrapper\&&) method
+## ExceptionWrapper::operator=(ExceptionWrapper&&) method
 
 
 Move assignment operator.
@@ -40,7 +40,7 @@ ExceptionWrapper & System::ExceptionWrapper<T>::operator=(ExceptionWrapper &&oth
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [ExceptionWrapper](../)\&& | Other instance of wrapper class that must be moved. |
+| other | [ExceptionWrapper](../)&& | Other instance of wrapper class that must be moved. |
 
 ### Return Value
 

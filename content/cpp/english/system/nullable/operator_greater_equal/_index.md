@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system/nullable/operator_greater_equal/
 ---
-## Nullable::operator>=(std::nullptr_t) const method
+## Nullable::operator\>=(std::nullptr_t) const method
 
 
 Always returns false.
@@ -20,10 +20,10 @@ bool System::Nullable<T>::operator>=(std::nullptr_t) const
 
 Always - false
 
-## Nullable::operator>=(const T1\&) const method
+## Nullable::operator\>=(const T1&) const method
 
 
-Determines if the value represented by the current object is greater or equal to the value represented by the specified object by applying [operator>=()](./) to these values.
+Determines if the value represented by the current object is greater or equal to the value represented by the specified object by applying [operator\>=()](./) to these values.
 
 ```cpp
 template<typename T1> std::enable_if<!IsNullable<T1>::value, bool>::type System::Nullable<T>::operator>=(const T1 &other) const
@@ -40,16 +40,16 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value, bool>::type System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const T1\& | A constant reference to an object to compare the current object with |
+| other | const T1& | A constant reference to an object to compare the current object with |
 
 ### Return Value
 
 True if the value represented by the current object is greater or equal to the value represented by the specified object, otherwise - false
 
-## Nullable::operator>=(const Nullable\<T1\>\&) const method
+## Nullable::operator\>=(const Nullable\<T1\>&) const method
 
 
-Determines if the value represented by the current object is greater or equal to the value represented by the specified [Nullable](../) object by applying [operator>=()](./) to these values.
+Determines if the value represented by the current object is greater or equal to the value represented by the specified [Nullable](../) object by applying [operator\>=()](./) to these values.
 
 ```cpp
 template<typename T1> bool System::Nullable<T>::operator>=(const Nullable<T1> &other) const
@@ -66,7 +66,7 @@ template<typename T1> bool System::Nullable<T>::operator>=(const Nullable<T1> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Nullable](../)\<T1\>\& | A constant reference to the [Nullable](../) object to compare with |
+| other | const [Nullable](../)\<T1\>& | A constant reference to the [Nullable](../) object to compare with |
 
 ### Return Value
 

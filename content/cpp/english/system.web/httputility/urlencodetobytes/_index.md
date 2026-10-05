@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.web/httputility/urlencodetobytes/
 ---
-## HttpUtility::UrlEncodeToBytes(const String\&) method
+## HttpUtility::UrlEncodeToBytes(const String&) method
 
 
 Encodes URI fragment.
@@ -20,13 +20,13 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlEncodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | URI fragment to encode. |
+| str | const [String](../../../system/string/)& | URI fragment to encode. |
 
 ### Return Value
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncodeToBytes(const String\&, const System::SharedPtr\<Text::Encoding\>\&) method
+## HttpUtility::UrlEncodeToBytes(const String&, const System::SharedPtr\<Text::Encoding\>&) method
 
 
 Encodes URI fragment.
@@ -40,14 +40,14 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlEncodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | URI fragment to encode. |
-| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | Encoding to use. |
+| str | const [String](../../../system/string/)& | URI fragment to encode. |
+| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | Encoding to use. |
 
 ### Return Value
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncodeToBytes(const System::ArrayPtr\<uint8_t\>\&) method
+## HttpUtility::UrlEncodeToBytes(const System::ArrayPtr\<uint8_t\>&) method
 
 
 Encodes URI fragment.
@@ -61,13 +61,13 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlEncodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | URI fragment to encode. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | URI fragment to encode. |
 
 ### Return Value
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncodeToBytes(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## HttpUtility::UrlEncodeToBytes(const System::ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Encodes URI fragment.
@@ -81,7 +81,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlEncodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | URI fragment to encode. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | URI fragment to encode. |
 | offset | **int32_t** | Offset in the given byte array. |
 | count | **int32_t** | Number of bytes to read from. |
 

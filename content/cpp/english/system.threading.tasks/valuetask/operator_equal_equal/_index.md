@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.threading.tasks/valuetask/operator_equal_equal/
 ---
-## ValueTask::operator==(const ValueTask\&) const method
+## ValueTask::operator==(const ValueTask&) const method
 
 
 Equality operator for [ValueTask](../).
@@ -20,7 +20,7 @@ bool System::Threading::Tasks::ValueTask::operator==(const ValueTask &other) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [ValueTask](../)\& | The other [ValueTask](../) to compare with this instance. |
+| other | const [ValueTask](../)& | The other [ValueTask](../) to compare with this instance. |
 
 ### Return Value
 

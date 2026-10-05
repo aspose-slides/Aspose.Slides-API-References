@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.buffers/memoryhandle/memoryhandle/
 ---
-## MemoryHandle::MemoryHandle(void *) constructor
+## MemoryHandle::MemoryHandle(void \*) constructor
 
 
 Initializes a new instance of the [MemoryHandle](../) type.
@@ -20,7 +20,7 @@ System::Buffers::MemoryHandle::MemoryHandle(void *pointer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pointer | void * | Raw pointer to the memory block. |
+| pointer | void \* | Raw pointer to the memory block. |
 
 ## See Also
 

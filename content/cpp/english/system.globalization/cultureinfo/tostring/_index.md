@@ -18,7 +18,7 @@ String System::Globalization::CultureInfo::ToString() const override
 
 ### Return Value
 
-The name of the [CultureInfo](../), eg. \"de-DE_phoneb\", \"en-US\", or \"fj-FJ\".
+The name of the [CultureInfo](../), eg. "de-DE_phoneb", "en-US", or "fj-FJ".
 
 ## See Also
 

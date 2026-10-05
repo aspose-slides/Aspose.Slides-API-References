@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/span/to_span/
 ---
-## Span::to_Span(const typename BaseType::ArrayPtrT\&) method
+## Span::to_Span(const typename BaseType::ArrayPtrT&) method
 
 
 Converts an array to a [Span](../).
@@ -20,7 +20,7 @@ static ThisType System::Span<T>::to_Span(const typename BaseType::ArrayPtrT &arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const typename BaseType::ArrayPtrT\& | The array to convert. |
+| array | const typename BaseType::ArrayPtrT& | The array to convert. |
 
 ### Return Value
 

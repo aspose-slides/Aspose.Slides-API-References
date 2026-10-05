@@ -1,7 +1,7 @@
 ---
 title: AuthenticationException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: AuthenticationException typedef
 type: docs
 weight: 53
 url: /system.security.authentication/authenticationexception/

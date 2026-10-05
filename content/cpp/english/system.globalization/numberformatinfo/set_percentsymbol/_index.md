@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.globalization/numberformatinfo/set_percentsymbol/
 ---
-## NumberFormatInfo::set_PercentSymbol(const String\&) method
+## NumberFormatInfo::set_PercentSymbol(const String&) method
 
 
 Sets percent symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PercentSymbol(const String &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Percent symbol. |
+| value | const [String](../../../system/string/)& | Percent symbol. |
 
 ## See Also
 

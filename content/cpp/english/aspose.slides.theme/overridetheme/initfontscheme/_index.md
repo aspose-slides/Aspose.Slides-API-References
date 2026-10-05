@@ -16,6 +16,13 @@ void Aspose::Slides::Theme::OverrideTheme::InitFontScheme() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [FontScheme](../../fontscheme/) is already initialized (not null). |
+
+
 ## See Also
 
 * Class [OverrideTheme](../)

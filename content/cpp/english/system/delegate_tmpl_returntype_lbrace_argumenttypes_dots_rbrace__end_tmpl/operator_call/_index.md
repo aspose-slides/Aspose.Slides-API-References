@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_call/
 ---
-## Delegate< ReturnType(ArgumentTypes...)>::operator()(ArgumentTypes...) const method
+## Delegate\< ReturnType(ArgumentTypes...)\>::operator()(ArgumentTypes...) const method
 
 
 Invokes a function, method or a function object that is pointed to by current delegate object.
@@ -28,6 +28,6 @@ The value returned by invoked entity
 
 ## See Also
 
-* Class [Delegate< ReturnType(ArgumentTypes...)>](../)
+* Class [Delegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

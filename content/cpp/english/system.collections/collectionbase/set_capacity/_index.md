@@ -22,6 +22,14 @@ void System::Collections::CollectionBase<T>::set_Capacity(int32_t value)
 | --- | --- | --- |
 | value | **int32_t** | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | The **value** is set to a value that is less than [CollectionBase::get_Count](../get_count/). |
+| OutOfMemoryException | There is not enough memory available on the system. |
+
+
 ## See Also
 
 * Class [CollectionBase](../)

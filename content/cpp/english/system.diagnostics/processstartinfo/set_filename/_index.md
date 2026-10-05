@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.diagnostics/processstartinfo/set_filename/
 ---
-## ProcessStartInfo::set_FileName(const String\&) method
+## ProcessStartInfo::set_FileName(const String&) method
 
 
 Sets process file name.
@@ -20,7 +20,7 @@ void System::Diagnostics::ProcessStartInfo::set_FileName(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Process](../../process/) file name or path. |
+| value | const [String](../../../system/string/)& | [Process](../../process/) file name or path. |
 
 ## See Also
 

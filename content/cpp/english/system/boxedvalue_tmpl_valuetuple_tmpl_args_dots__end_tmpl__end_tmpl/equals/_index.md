@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/equals/
 ---
-## BoxedValue< ValueTuple< Args... > >::Equals(ptr) method
+## BoxedValue\< ValueTuple\< Args... \> \>::Equals(ptr) method
 
 
 Determines the equality of the boxed values represented by the current and specified objects.
@@ -29,6 +29,6 @@ True if the boxed value represented by the current object and **obj** are equal,
 ## See Also
 
 * Typedef [ptr](../../object/ptr/)
-* Class [BoxedValue< ValueTuple< Args... > >](../)
+* Class [BoxedValue\< ValueTuple\< Args... \> \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

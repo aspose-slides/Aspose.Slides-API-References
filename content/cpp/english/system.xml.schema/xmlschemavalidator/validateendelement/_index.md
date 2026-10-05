@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.xml.schema/xmlschemavalidator/validateendelement/
 ---
-## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>\&) method
+## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>&) method
 
 
 Verifies if the text content of the element is valid according to its data type for elements with simple content, and verifies if the content of the current element is complete for elements with complex content.
@@ -20,13 +20,21 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateEndElement(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element. This parameter can be **nullptr**. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element. This parameter can be **nullptr**. |
 
 ### Return Value
 
 The parsed, typed text value of the element if the element has simple content.
 
-## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>\&, const SharedPtr\<Object\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The element's content is not valid. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateEndElement](./) method was not called in the correct sequence. For example, if the [XmlSchemaValidator::ValidateEndElement](./) method is called after calling [XmlSchemaValidator::SkipToEndElement](../skiptoendelement/). |
+
+
+## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>&, const SharedPtr\<Object\>&) method
 
 
 Verifies if the text content of the element specified is valid according to its data type.
@@ -40,12 +48,21 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateEndElement(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the text content of the element. This parameter can be **nullptr**. |
-| typedValue | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The typed text content of the element. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the text content of the element. This parameter can be **nullptr**. |
+| typedValue | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The typed text content of the element. |
 
 ### Return Value
 
 The parsed, typed simple content of the element.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The element's text content is not valid. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateEndElement](./) method was not called in the correct sequence (for example, if the [XmlSchemaValidator::ValidateEndElement](./) method is called after calling [XmlSchemaValidator::SkipToEndElement](../skiptoendelement/)), calls to the [XmlSchemaValidator::ValidateText](../validatetext/) method have been previously made, or the element has complex content. |
+| ArgumentNullException | The typed text content parameter cannot be **nullptr**. |
+
 
 ## See Also
 

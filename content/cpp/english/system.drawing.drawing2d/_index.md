@@ -1,7 +1,7 @@
 ---
 title: "System::Drawing::Drawing2D"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Drawing::Drawing2D namespace"
 type: docs
 weight: 508
 url: /system.drawing.drawing2d/

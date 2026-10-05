@@ -1,7 +1,7 @@
 ---
 title: UnauthorizedAccessException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: UnauthorizedAccessException typedef
 type: docs
 weight: 4083
 url: /system/unauthorizedaccessexception/

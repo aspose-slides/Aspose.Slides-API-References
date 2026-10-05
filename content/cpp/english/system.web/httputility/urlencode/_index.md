@@ -26,7 +26,7 @@ static String System::Web::HttpUtility::UrlEncode(String str)
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncode(String, const System::SharedPtr\<Text::Encoding\>\&) method
+## HttpUtility::UrlEncode(String, const System::SharedPtr\<Text::Encoding\>&) method
 
 
 Encodes URI fragment.
@@ -41,13 +41,13 @@ static String System::Web::HttpUtility::UrlEncode(String str, const System::Shar
 | Parameter | Type | Description |
 | --- | --- | --- |
 | str | [String](../../../system/string/) | URI fragment to encode. |
-| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | Encoding to use. |
+| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | Encoding to use. |
 
 ### Return Value
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>\&) method
+## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>&) method
 
 
 Encodes URI fragment.
@@ -61,13 +61,13 @@ static String System::Web::HttpUtility::UrlEncode(const System::ArrayPtr<uint8_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | URI fragment to encode. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | URI fragment to encode. |
 
 ### Return Value
 
 Encoded URI fragment.
 
-## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Encodes URI fragment.
@@ -81,7 +81,7 @@ static String System::Web::HttpUtility::UrlEncode(const System::ArrayPtr<uint8_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | URI fragment to encode. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | URI fragment to encode. |
 | offset | **int32_t** | Offset in the given byte array. |
 | count | **int32_t** | Number of bytes to read from. |
 

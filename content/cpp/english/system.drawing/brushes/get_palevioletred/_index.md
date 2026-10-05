@@ -1,7 +1,7 @@
 ---
 title: get_PaleVioletRed()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFDB7093.
+description: "Returns the solid fill color whose hexadecimal value is #FFDB7093."
 type: docs
 weight: 1366
 url: /system.drawing/brushes/get_palevioletred/

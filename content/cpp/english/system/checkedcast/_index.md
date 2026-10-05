@@ -33,6 +33,13 @@ template<typename TTo,typename TFrom> TTo System::CheckedCast(TFrom value)
 
 The value of type **TTo** equivalent to **value**
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| OverflowException | If the specified value does not fall into the range of values represented by the **TTo** type |
+
+
 ## See Also
 
 * Namespace [System](../)

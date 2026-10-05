@@ -1,7 +1,7 @@
 ---
 title: MotionEffect()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "MotionEffect::MotionEffect() constructor"
 type: docs
 weight: 209
 url: /aspose.slides.animation/motioneffect/motioneffect/

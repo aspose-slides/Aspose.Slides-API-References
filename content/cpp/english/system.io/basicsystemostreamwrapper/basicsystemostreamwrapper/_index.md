@@ -23,7 +23,7 @@ System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(S
 | str | [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\> | The pointer to the stream |
 | mode | [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/) | Wrapping mode |
 
-## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(const BasicSystemOStreamWrapper\&) constructor
+## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(const BasicSystemOStreamWrapper&) constructor
 
 
 Copy constructor. Deleted.
@@ -32,7 +32,7 @@ Copy constructor. Deleted.
 System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(const BasicSystemOStreamWrapper &)=delete
 ```
 
-## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(BasicSystemOStreamWrapper\&&) constructor
+## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(BasicSystemOStreamWrapper&&) constructor
 
 
 Move constructor.
@@ -46,7 +46,7 @@ System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(B
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemOStreamWrapper](../)\&& | [Object](../../../system/object/) to be move |
+| right | [BasicSystemOStreamWrapper](../)&& | [Object](../../../system/object/) to be move |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.io/file/setattributes/
 ---
-## File::SetAttributes(const String\&, FileAttributes) method
+## File::SetAttributes(const String&, FileAttributes) method
 
 
 Sets the specified attributes on the specified file.
@@ -20,7 +20,7 @@ static void System::IO::File::SetAttributes(const String &path, FileAttributes f
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file on which the attributes to be set |
+| path | const [String](../../../system/string/)& | The path of the file on which the attributes to be set |
 | fileAttributes | [FileAttributes](../../fileattributes/) | A bitwise combination of FileAttributes values representing the attributes to set |
 
 ## See Also

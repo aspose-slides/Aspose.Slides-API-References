@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.xml/xmlparsercontext/set_baseuri/
 ---
-## XmlParserContext::set_BaseURI(const String\&) method
+## XmlParserContext::set_BaseURI(const String&) method
 
 
 Sets the base URI.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_BaseURI(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

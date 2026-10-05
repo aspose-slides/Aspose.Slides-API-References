@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.io/path/ispathrooted/
 ---
-## Path::IsPathRooted(const String\&) method
+## Path::IsPathRooted(const String&) method
 
 
 Determines if the specified path contains a root.
@@ -20,7 +20,7 @@ static bool System::IO::Path::IsPathRooted(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to check |
+| path | const [String](../../../system/string/)& | A path to check |
 
 ### Return Value
 

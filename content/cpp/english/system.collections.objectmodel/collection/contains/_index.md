@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.objectmodel/collection/contains/
 ---
-## Collection::Contains(const T\&) const method
+## Collection::Contains(const T&) const method
 
 
 Checks if item is present in collection.
@@ -20,7 +20,7 @@ bool System::Collections::ObjectModel::Collection<T>::Contains(const T &item) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | to look for. |
+| item | const T& | to look for. |
 
 ### Return Value
 

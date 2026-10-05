@@ -1,7 +1,7 @@
 ---
 title: "System::Text::RegularExpressions"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Text::RegularExpressions namespace"
 type: docs
 weight: 1002
 url: /system.text.regularexpressions/

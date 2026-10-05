@@ -23,6 +23,14 @@ virtual void System::Xml::XmlElement::SetAttribute(String name, String value)
 | name | [String](../../../system/string/) | The name of the attribute to create or alter. This is a qualified name. If the name contains a colon it is parsed into prefix and local name components. |
 | value | [String](../../../system/string/) | The value to set for the attribute. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The specified name contains an invalid character. |
+| ArgumentException | The node is read-only. |
+
+
 ## XmlElement::SetAttribute(String, String, String) method
 
 

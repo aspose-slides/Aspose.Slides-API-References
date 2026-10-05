@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /system.net.sockets/socket/receivemessagefrom/
 ---
-## Socket::ReceiveMessageFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
+## Socket::ReceiveMessageFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags&, System::SharedPtr\<EndPoint\>&, IPPacketInformation&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -23,15 +23,15 @@ int32_t System::Net::Sockets::Socket::ReceiveMessageFrom(System::ArrayPtr<uint8_
 | buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
-| socketFlags | [SocketFlags](../../socketflags/)\& | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
-| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)\& | The output parameter where information about the packet will be assigned. |
+| socketFlags | [SocketFlags](../../socketflags/)& | The receive behavior. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
+| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)& | The output parameter where information about the packet will be assigned. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveMessageFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
+## Socket::ReceiveMessageFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags&, System::SharedPtr\<EndPoint\>&, IPPacketInformation&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -48,15 +48,15 @@ int32_t System::Net::Sockets::Socket::ReceiveMessageFrom(System::Details::ArrayV
 | buffer | System::Details::ArrayView\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
-| socketFlags | [SocketFlags](../../socketflags/)\& | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
-| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)\& | The output parameter where information about the packet will be assigned. |
+| socketFlags | [SocketFlags](../../socketflags/)& | The receive behavior. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
+| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)& | The output parameter where information about the packet will be assigned. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveMessageFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
+## Socket::ReceiveMessageFrom(System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t, SocketFlags&, System::SharedPtr\<EndPoint\>&, IPPacketInformation&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -70,12 +70,12 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveMessageFrom(S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
-| socketFlags | [SocketFlags](../../socketflags/)\& | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
-| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)\& | The output parameter where information about the packet will be assigned. |
+| socketFlags | [SocketFlags](../../socketflags/)& | The receive behavior. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
+| ipPacketInformation | [IPPacketInformation](../../ippacketinformation/)& | The output parameter where information about the packet will be assigned. |
 
 ### Return Value
 

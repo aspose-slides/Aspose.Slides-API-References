@@ -48,7 +48,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(int x, int y, int width, i
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 
-## GraphicsPath::AddArc(const RectangleF\&, float, float) method
+## GraphicsPath::AddArc(const RectangleF&, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -62,11 +62,11 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(const RectangleF &rect, fl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../../system.drawing/rectanglef/)\& | The rectangle that bounds the ellipse from which the arc is drawn |
+| rect | const [RectangleF](../../../system.drawing/rectanglef/)& | The rectangle that bounds the ellipse from which the arc is drawn |
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 
-## GraphicsPath::AddArc(const Rectangle\&, float, float) method
+## GraphicsPath::AddArc(const Rectangle&, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -80,7 +80,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(const Rectangle &rect, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../../system.drawing/rectangle/)\& | The rectangle that bounds the ellipse from which the arc is drawn |
+| rect | const [Rectangle](../../../system.drawing/rectangle/)& | The rectangle that bounds the ellipse from which the arc is drawn |
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 

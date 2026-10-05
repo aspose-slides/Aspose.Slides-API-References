@@ -15,7 +15,7 @@ Returns an instance of [Nullable](../) class that represents a null-value.
 template<typename T1,typename> Nullable<T> System::Nullable<T>::operator-=(T1)
 ```
 
-## Nullable::operator-=(const T1\&) method
+## Nullable::operator-=(const T1&) method
 
 
 Applies [operator-=()](./) to the value represented by the current object using the specified value as a right-side argument.
@@ -35,13 +35,13 @@ template<typename T1,typename> std::enable_if<!IsNullable<T1>::value, Nullable<T
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const T1\& | A constant reference to the value that is used as a right-side value of the [operator-=()](./) applied to the value represented by the current object. |
+| other | const T1& | A constant reference to the value that is used as a right-side value of the [operator-=()](./) applied to the value represented by the current object. |
 
 ### Return Value
 
 A reference to the self
 
-## Nullable::operator-=(const Nullable\<T1\>\&) method
+## Nullable::operator-=(const Nullable\<T1\>&) method
 
 
 Applies [operator-=()](./) to the value represented by the current object using the value represented by the specified [Nullable](../) object as the right-side argument.
@@ -61,7 +61,7 @@ template<typename T1> Nullable<T> System::Nullable<T>::operator-=(const Nullable
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Nullable](../)\<T1\>\& | A constant reference to [Nullable](../) object the value represented by which is used as a right-side argument of the [operator-=()](./) applied to the value represented by the current object. |
+| other | const [Nullable](../)\<T1\>& | A constant reference to [Nullable](../) object the value represented by which is used as a right-side argument of the [operator-=()](./) applied to the value represented by the current object. |
 
 ### Return Value
 

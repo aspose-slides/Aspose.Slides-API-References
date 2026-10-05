@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.drawing.drawing2d/graphicspath/addrectangles/
 ---
-## GraphicsPath::AddRectangles(const ArrayPtr\<Rectangle\>\&) method
+## GraphicsPath::AddRectangles(const ArrayPtr\<Rectangle\>&) method
 
 
 Adds the specified series of rectangles to the path represented by the current object.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangles(const ArrayPtr<Rect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../../system.drawing/rectangle/)\>\& | An array of [Rectangle](../../../system.drawing/rectangle/) objects representing the rectangles to add |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../../system.drawing/rectangle/)\>& | An array of [Rectangle](../../../system.drawing/rectangle/) objects representing the rectangles to add |
 
-## GraphicsPath::AddRectangles(const ArrayPtr\<RectangleF\>\&) method
+## GraphicsPath::AddRectangles(const ArrayPtr\<RectangleF\>&) method
 
 
 Adds the specified series of rectangles to the path represented by the current object.
@@ -36,7 +36,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangles(const ArrayPtr<Rect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../../system.drawing/rectanglef/)\>\& | An array of [RectangleF](../../../system.drawing/rectanglef/) objects representing the rectangles to add |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../../system.drawing/rectanglef/)\>& | An array of [RectangleF](../../../system.drawing/rectanglef/) objects representing the rectangles to add |
 
 ## See Also
 

@@ -20,7 +20,7 @@ virtual String System::Security::Cryptography::X509Certificates::X509Certificate
 
 The hexadecimal string.
 
-## X509Certificate::GetCertHashString(const HashAlgorithmName\&) const method
+## X509Certificate::GetCertHashString(const HashAlgorithmName&) const method
 
 
 Gets [SHA1](../../../system.security.cryptography/sha1/) hash for the current object as a hexadecimal string.
@@ -34,7 +34,7 @@ virtual String System::Security::Cryptography::X509Certificates::X509Certificate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hash_algorithm | const [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)\& | Hash algorithm name. |
+| hash_algorithm | const [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)& | Hash algorithm name. |
 
 ### Return Value
 

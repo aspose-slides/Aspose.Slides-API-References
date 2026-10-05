@@ -40,7 +40,7 @@ String System::String::TrimEnd(char_t ch) const
 
 Removal result.
 
-## String::TrimEnd(const String\&) const method
+## String::TrimEnd(const String&) const method
 
 
 Removes all occurrences of passed characters from end of the string.
@@ -54,13 +54,13 @@ String System::String::TrimEnd(const String &anyOf) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| anyOf | const [String](../)\& | [String](../) of characters to remove. |
+| anyOf | const [String](../)& | [String](../) of characters to remove. |
 
 ### Return Value
 
 [String](../) without removed characters.
 
-## String::TrimEnd(const ArrayPtr\<char_t\>\&) const method
+## String::TrimEnd(const ArrayPtr\<char_t\>&) const method
 
 
 Removes all occurrences of passed characters from end of the string.
@@ -74,7 +74,7 @@ String System::String::TrimEnd(const ArrayPtr<char_t> &anyOf) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| anyOf | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | [Array](../../array/) of characters to remove. |
+| anyOf | const [ArrayPtr](../../arrayptr/)\<char_t\>& | [Array](../../array/) of characters to remove. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: DecoderFallbackException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: DecoderFallbackException typedef
 type: docs
 weight: 404
 url: /system.text/decoderfallbackexception/

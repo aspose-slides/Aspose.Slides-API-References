@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/gettype/
 ---
-## BoxedValue< ValueTuple< Args... > >::GetType() const method
+## BoxedValue\< ValueTuple\< Args... \> \>::GetType() const method
 
 
 Gets actual type of object.
@@ -23,6 +23,6 @@ const System::TypeInfo & System::BoxedValue<ValueTuple<Args...>>::GetType() cons
 ## See Also
 
 * Class [TypeInfo](../../typeinfo/)
-* Class [BoxedValue< ValueTuple< Args... > >](../)
+* Class [BoxedValue\< ValueTuple\< Args... \> \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

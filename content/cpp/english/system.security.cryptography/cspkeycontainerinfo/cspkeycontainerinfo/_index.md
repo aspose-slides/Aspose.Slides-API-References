@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography/cspkeycontainerinfo/cspkeycontainerinfo/
 ---
-## CspKeyContainerInfo::CspKeyContainerInfo(const SharedPtr\<CspParameters\>\&) constructor
+## CspKeyContainerInfo::CspKeyContainerInfo(const SharedPtr\<CspParameters\>&) constructor
 
 
 Consturctor.
@@ -20,7 +20,7 @@ System::Security::Cryptography::CspKeyContainerInfo::CspKeyContainerInfo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\& | Parameters. |
+| parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>& | Parameters. |
 
 ## See Also
 

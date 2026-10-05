@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/buffer/blockcopy/
 ---
-## Buffer::BlockCopy(const uint8_t *, int, uint8_t *, int, int) method
+## Buffer::BlockCopy(const uint8_t \*, int, uint8_t \*, int, int) method
 
 
 Copies a specified number of bytes from source buffer to destination buffer.
@@ -20,13 +20,13 @@ static void System::Buffer::BlockCopy(const uint8_t *src, int srcOffset, uint8_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const **uint8_t** * | Pointer to the source buffer |
+| src | const **uint8_t** \* | Pointer to the source buffer |
 | srcOffset | int | A byte offset in source buffer at which copying starts |
-| dst | **uint8_t** * | Pointer to the destination buffer |
+| dst | **uint8_t** \* | Pointer to the destination buffer |
 | dstOffset | int | A byte offset in the destination buffer at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>\&, int, const SharedPtr\<Array\<TDst\>\>\&, int, int) method
+## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>&, int, const SharedPtr\<Array\<TDst\>\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -47,13 +47,13 @@ template<typename TSrc,typename TDst> static void System::Buffer::BlockCopy(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>\& | The source array |
+| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>& | The source array |
 | srcOffset | int | A byte offset in the tho source array at which copying starts |
-| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>\& | The destination array |
+| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>& | The destination array |
 | dstOffset | int | A byte offset in the destination array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const SharedPtr\<ArrayBase\>\&, int, const SharedPtr\<ArrayBase\>\&, int, int) method
+## Buffer::BlockCopy(const SharedPtr\<ArrayBase\>&, int, const SharedPtr\<ArrayBase\>&, int, int) method
 
 
 Interprets two specified arrays as raw arrays of bytes and copies data from one of them to another.
@@ -67,13 +67,13 @@ static void System::Buffer::BlockCopy(const SharedPtr<ArrayBase> &src, int srcOf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>\& | The source array |
+| src | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>& | The source array |
 | srcOffset | int | A byte offset in the tho source array at which copying starts |
-| dst | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>\& | The destination array |
+| dst | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>& | The destination array |
 | dstOffset | int | A byte offset in the destination array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const System::Details::ArrayView\<TSrc\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) method
+## Buffer::BlockCopy(const System::Details::ArrayView\<TSrc\>&, int, const System::Details::ArrayView\<TDst\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -94,13 +94,13 @@ template<typename TSrc,typename TDst> static void System::Buffer::BlockCopy(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const System::Details::ArrayView\<TSrc\>\& | The source array view |
+| src | const System::Details::ArrayView\<TSrc\>& | The source array view |
 | srcOffset | int | A byte offset in the tho source array view at which copying starts |
-| dst | const System::Details::ArrayView\<TDst\>\& | The destination array view |
+| dst | const System::Details::ArrayView\<TDst\>& | The destination array view |
 | dstOffset | int | A byte offset in the destination array view at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) method
+## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>&, int, const System::Details::ArrayView\<TDst\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -121,13 +121,13 @@ template<typename TSrc,typename TDst> static void System::Buffer::BlockCopy(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>\& | The source array |
+| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>& | The source array |
 | srcOffset | int | A byte offset in the tho source array at which copying starts |
-| dst | const System::Details::ArrayView\<TDst\>\& | The destination array view |
+| dst | const System::Details::ArrayView\<TDst\>& | The destination array view |
 | dstOffset | int | A byte offset in the destination array view at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const System::Details::ArrayView\<TSrc\>\&, int, const SharedPtr\<Array\<TDst\>\>\&, int, int) method
+## Buffer::BlockCopy(const System::Details::ArrayView\<TSrc\>&, int, const SharedPtr\<Array\<TDst\>\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -148,13 +148,13 @@ template<typename TSrc,typename TDst> static void System::Buffer::BlockCopy(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const System::Details::ArrayView\<TSrc\>\& | The source array view |
+| src | const System::Details::ArrayView\<TSrc\>& | The source array view |
 | srcOffset | int | A byte offset in the tho source array view at which copying starts |
-| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>\& | The destination array |
+| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>& | The destination array |
 | dstOffset | int | A byte offset in the destination array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const System::Details::StackArray\<TSrc, NS\>\&, int, const System::Details::StackArray\<TDst, ND\>\&, int, int) method
+## Buffer::BlockCopy(const System::Details::StackArray\<TSrc, NS\>&, int, const System::Details::StackArray\<TDst, ND\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -177,13 +177,13 @@ template<typename TSrc,std::size_t,typename TDst,std::size_t> static void System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const System::Details::StackArray\<TSrc, NS\>\& | The source stack array |
+| src | const System::Details::StackArray\<TSrc, NS\>& | The source stack array |
 | srcOffset | int | A byte offset in the tho source stack array at which copying starts |
-| dst | const System::Details::StackArray\<TDst, ND\>\& | The destination stack array |
+| dst | const System::Details::StackArray\<TDst, ND\>& | The destination stack array |
 | dstOffset | int | A byte offset in the destination stack array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>\&, int, const System::Details::StackArray\<TDst, ND\>\&, int, int) method
+## Buffer::BlockCopy(const SharedPtr\<Array\<TSrc\>\>&, int, const System::Details::StackArray\<TDst, ND\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -205,13 +205,13 @@ template<typename TSrc,typename TDst,std::size_t> static void System::Buffer::Bl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>\& | The source array |
+| src | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TSrc\>\>& | The source array |
 | srcOffset | int | A byte offset in the tho source array at which copying starts |
-| dst | const System::Details::StackArray\<TDst, ND\>\& | The destination stack array |
+| dst | const System::Details::StackArray\<TDst, ND\>& | The destination stack array |
 | dstOffset | int | A byte offset in the destination stack array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
-## Buffer::BlockCopy(const System::Details::StackArray\<TSrc, NS\>\&, int, const SharedPtr\<Array\<TDst\>\>\&, int, int) method
+## Buffer::BlockCopy(const System::Details::StackArray\<TSrc, NS\>&, int, const SharedPtr\<Array\<TDst\>\>&, int, int) method
 
 
 Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another.
@@ -233,9 +233,9 @@ template<typename TSrc,std::size_t,typename TDst> static void System::Buffer::Bl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const System::Details::StackArray\<TSrc, NS\>\& | The source stack array |
+| src | const System::Details::StackArray\<TSrc, NS\>& | The source stack array |
 | srcOffset | int | A byte offset in the tho source stack array at which copying starts |
-| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>\& | The destination array |
+| dst | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<TDst\>\>& | The destination array |
 | dstOffset | int | A byte offset in the destination array at which to start inserting data |
 | count | int | The number of bytes to copy |
 

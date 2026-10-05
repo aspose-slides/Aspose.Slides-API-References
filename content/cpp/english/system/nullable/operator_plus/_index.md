@@ -9,13 +9,13 @@ url: /system/nullable/operator_plus/
 ## Nullable::operator+(std::nullptr_t) const method
 
 
-Returns a default constructed instance of Nullable<T> class.
+Returns a default constructed instance of Nullable\<T\> class.
 
 ```cpp
 Nullable<T> System::Nullable<T>::operator+(std::nullptr_t) const
 ```
 
-## Nullable::operator+(const T1\&) const method
+## Nullable::operator+(const T1&) const method
 
 
 Sums nullable and non-nullable values.
@@ -35,13 +35,13 @@ template<typename T1,typename> auto System::Nullable<T>::operator+(const T1 &oth
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const T1\& | value to add. |
+| other | const T1& | value to add. |
 
 ### Return Value
 
 Summing result.
 
-## Nullable::operator+(const Nullable\<T1\>\&) const method
+## Nullable::operator+(const Nullable\<T1\>&) const method
 
 
 Sums nullable values.
@@ -61,7 +61,7 @@ template<typename T1> auto System::Nullable<T>::operator+(const Nullable<T1> &ot
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Nullable](../)\<T1\>\& | value to add. |
+| other | const [Nullable](../)\<T1\>& | value to add. |
 
 ### Return Value
 

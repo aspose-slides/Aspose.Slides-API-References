@@ -1,7 +1,7 @@
 ---
 title: "System::Diagnostics"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Diagnostics namespace"
 type: docs
 weight: 482
 url: /system.diagnostics/

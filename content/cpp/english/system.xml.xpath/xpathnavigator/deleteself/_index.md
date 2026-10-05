@@ -16,6 +16,14 @@ virtual void System::Xml::XPath::XPathNavigator::DeleteSelf()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XPathNavigator](../) is positioned on a node that cannot be deleted such as the root node or a namespace node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Class [XPathNavigator](../)

@@ -15,7 +15,7 @@ Constructs an empty range.
 constexpr System::Range::Range() noexcept
 ```
 
-## Range::Range(const Index\&, const Index\&) constructor
+## Range::Range(const Index&, const Index&) constructor
 
 
 Constructs a [Range](../) from the specified start and end indexes.
@@ -29,8 +29,8 @@ constexpr System::Range::Range(const Index &start, const Index &end) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | const [Index](../../index/)\& | The start index of the range. |
-| end | const [Index](../../index/)\& | The end index of the range. |
+| start | const [Index](../../index/)& | The start index of the range. |
+| end | const [Index](../../index/)& | The end index of the range. |
 
 ## See Also
 

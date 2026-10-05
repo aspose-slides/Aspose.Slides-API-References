@@ -1,7 +1,7 @@
 ---
 title: get_DarkRed()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF8B0000.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF8B0000."
 type: docs
 weight: 417
 url: /system.drawing/pens/get_darkred/

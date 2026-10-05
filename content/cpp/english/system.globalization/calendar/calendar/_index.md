@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/calendar/calendar/
 ---
-## Calendar::Calendar(const Calendar\&) constructor
+## Calendar::Calendar(const Calendar&) constructor
 
 
 RTTI information.

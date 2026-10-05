@@ -21,10 +21,10 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The shape to clone. |
-| x | **float** | The x-coordinate of the new shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the new shape\\u2019s frame, in points. |
-| width | **float** | The width of the new shape\\u2019s frame, in points. |
-| height | **float** | The height of the new shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the new shape’s frame, in points. |
+| y | **float** | The y-coordinate of the new shape’s frame, in points. |
+| width | **float** | The width of the new shape’s frame, in points. |
+| height | **float** | The height of the new shape’s frame, in points. |
 
 ### Return Value
 
@@ -45,8 +45,8 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The shape to clone. |
-| x | **float** | The x-coordinate of the new shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the new shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the new shape’s frame, in points. |
+| y | **float** | The y-coordinate of the new shape’s frame, in points. |
 
 ### Return Value
 
@@ -55,7 +55,7 @@ The newly created [IShape](../../ishape/).
 ## ShapeCollection::AddClone(System::SharedPtr\<IShape\>) method
 
 
-Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original\\u2019s position and size.
+Creates a copy of the specified shape and adds it to the end of the shape collection. The cloned shape retains the original’s position and size.
 
 ```cpp
 System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::SharedPtr<IShape> sourceShape) override

@@ -1,7 +1,7 @@
 ---
 title: EmptyEnumerator()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EmptyEnumerator::EmptyEnumerator() constructor"
 type: docs
 weight: 1
 url: /system.linq.details/emptyenumerator/emptyenumerator/

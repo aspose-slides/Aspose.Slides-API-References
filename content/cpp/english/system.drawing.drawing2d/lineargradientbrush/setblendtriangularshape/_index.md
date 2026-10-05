@@ -16,6 +16,13 @@ void System::Drawing::Drawing2D::LinearGradientBrush::SetBlendTriangularShape(fl
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [LinearGradientBrush](../)

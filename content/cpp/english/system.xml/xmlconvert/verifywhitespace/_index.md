@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml/xmlconvert/verifywhitespace/
 ---
-## XmlConvert::VerifyWhitespace(const String\&) method
+## XmlConvert::VerifyWhitespace(const String&) method
 
 
 Returns the passed-in string instance if all the characters in the string argument are valid whitespace characters.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::VerifyWhitespace(const String &content)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | const [String](../../../system/string/)\& | [String](../../../system/string/) to verify. |
+| content | const [String](../../../system/string/)& | [String](../../../system/string/) to verify. |
 
 ### Return Value
 

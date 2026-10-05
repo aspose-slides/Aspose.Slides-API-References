@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/~multicastdelegate/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::~MulticastDelegate() method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::~MulticastDelegate() method
 
 
 Destructor.
@@ -17,6 +17,6 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::~MulticastDelegate()
 
 ## See Also
 
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

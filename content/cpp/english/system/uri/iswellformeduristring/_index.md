@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system/uri/iswellformeduristring/
 ---
-## Uri::IsWellFormedUriString(const String\&, UriKind) method
+## Uri::IsWellFormedUriString(const String&, UriKind) method
 
 
 Determines if the specified string is a well-formed URI.
@@ -20,7 +20,7 @@ static bool System::Uri::IsWellFormedUriString(const String &uriString, UriKind 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uriString | const [String](../../string/)\& | The URI to test |
+| uriString | const [String](../../string/)& | The URI to test |
 | uriKind | [UriKind](../../urikind/) | The type of the specified URI |
 
 ### Return Value

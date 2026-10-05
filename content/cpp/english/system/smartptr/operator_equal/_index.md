@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/smartptr/operator_equal/
 ---
-## SmartPtr::operator=(SmartPtr_\&&) method
+## SmartPtr::operator=(SmartPtr_&&) method
 
 
 Move-assigns [SmartPtr](../) object. x becomes unusable.
@@ -20,13 +20,13 @@ SmartPtr_ & System::SmartPtr<T>::operator=(SmartPtr_ &&x) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr_](../smartptr_/)\&& | Pointer to move-assign. |
+| x | [SmartPtr_](../smartptr_/)&& | Pointer to move-assign. |
 
 ### Return Value
 
 Reference to this object.
 
-## SmartPtr::operator=(const SmartPtr_\&) method
+## SmartPtr::operator=(const SmartPtr_&) method
 
 
 Copy-assigns [SmartPtr](../) object.
@@ -40,13 +40,13 @@ SmartPtr_ & System::SmartPtr<T>::operator=(const SmartPtr_ &x)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr_](../smartptr_/)\& | Pointer to copy-assign. |
+| x | const [SmartPtr_](../smartptr_/)& | Pointer to copy-assign. |
 
 ### Return Value
 
 Reference to this object.
 
-## SmartPtr::operator=(const SmartPtr\<Q\>\&) method
+## SmartPtr::operator=(const SmartPtr\<Q\>&) method
 
 
 Copy-assigns [SmartPtr](../) object. Does required type conversions.
@@ -66,13 +66,13 @@ template<typename Q> SmartPtr_ & System::SmartPtr<T>::operator=(const SmartPtr<Q
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr](../)\<Q\>\& | Pointer to copy-assign. |
+| x | const [SmartPtr](../)\<Q\>& | Pointer to copy-assign. |
 
 ### Return Value
 
 Reference to this object.
 
-## SmartPtr::operator=(Pointee_ *) method
+## SmartPtr::operator=(Pointee_ \*) method
 
 
 Assigns raw pointer to [SmartPtr](../) object.
@@ -86,7 +86,7 @@ SmartPtr_ & System::SmartPtr<T>::operator=(Pointee_ *p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | [Pointee_](../pointee_/) * | Pointer value to assign. |
+| p | [Pointee_](../pointee_/) \* | Pointer value to assign. |
 
 ### Return Value
 

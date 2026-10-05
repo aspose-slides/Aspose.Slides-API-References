@@ -1,7 +1,7 @@
 ---
 title: get_Id()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::get_Id() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/reference/get_id/

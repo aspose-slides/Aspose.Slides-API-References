@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Vba"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Vba namespace"
 type: docs
 weight: 248
 url: /aspose.slides.vba/

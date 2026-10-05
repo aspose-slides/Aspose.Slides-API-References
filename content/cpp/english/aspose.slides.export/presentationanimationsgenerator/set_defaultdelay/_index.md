@@ -9,7 +9,7 @@ url: /aspose.slides.export/presentationanimationsgenerator/set_defaultdelay/
 ## PresentationAnimationsGenerator::set_DefaultDelay(int32_t) method
 
 
-Sets default delay time [ms].
+Sets default delay time \[ms\].
 
 ```cpp
 void Aspose::Slides::Export::PresentationAnimationsGenerator::set_DefaultDelay(int32_t value)

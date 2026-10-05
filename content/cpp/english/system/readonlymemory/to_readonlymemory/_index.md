@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/readonlymemory/to_readonlymemory/
 ---
-## ReadOnlyMemory::to_ReadOnlyMemory(const ArrayPtr\<T\>\&) method
+## ReadOnlyMemory::to_ReadOnlyMemory(const ArrayPtr\<T\>&) method
 
 
 Creates a [ReadOnlyMemory](../) instance from the specified array.
@@ -20,7 +20,7 @@ static ReadOnlyMemory System::ReadOnlyMemory<T>::to_ReadOnlyMemory(const ArrayPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [ArrayPtr](../../arrayptr/)\<T\>\& | The source array. |
+| array | const [ArrayPtr](../../arrayptr/)\<T\>& | The source array. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.specialized/namevaluecollection/set/
 ---
-## NameValueCollection::Set(const String\&, const String\&) method
+## NameValueCollection::Set(const String&, const String&) method
 
 
 Sets the value of an entry.

@@ -1,7 +1,7 @@
 ---
 title: get_DarkSeaGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF8FBC8F.
+description: "Returns the solid fill color whose hexadecimal value is #FF8FBC8F."
 type: docs
 weight: 430
 url: /system.drawing/brushes/get_darkseagreen/

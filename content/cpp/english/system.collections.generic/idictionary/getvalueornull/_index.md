@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.generic/idictionary/getvalueornull/
 ---
-## IDictionary::GetValueOrNull(const TKey\&) const method
+## IDictionary::GetValueOrNull(const TKey&) const method
 
 
 Returns value if found; or **null** otherwise, make sense only for reference types.

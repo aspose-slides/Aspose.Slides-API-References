@@ -1,7 +1,7 @@
 ---
 title: XmlSchemaValidationException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlSchemaValidationException typedef
 type: docs
 weight: 1145
 url: /system.xml.schema/xmlschemavalidationexception/

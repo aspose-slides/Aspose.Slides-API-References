@@ -1,7 +1,7 @@
 ---
 title: "System::Linq"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Linq namespace"
 type: docs
 weight: 612
 url: /system.linq/

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.generic/ikvcollection/indexof/
 ---
-## IKVCollection::IndexOf(const T\&) const method
+## IKVCollection::IndexOf(const T&) const method
 
 
 Gets index of item in container.
@@ -20,7 +20,7 @@ virtual int System::Collections::Generic::IKVCollection<T>::IndexOf(const T &ite
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: NullableUnboxing
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: NullableUnboxing field
 type: docs
 weight: 53
 url: /system.collections.generic.details.castrules/casttype/nullableunboxing/

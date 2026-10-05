@@ -20,6 +20,13 @@ virtual String System::Xml::XmlReader::ReadElementString()
 
 The text contained in the element that was read. An empty string if the element is empty.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The next content node is not a start tag; or the element found does not contain a simple text value. |
+
+
 ## XmlReader::ReadElementString(String) method
 
 
@@ -39,6 +46,13 @@ virtual String System::Xml::XmlReader::ReadElementString(String name)
 ### Return Value
 
 The text contained in the element that was read. An empty string if the element is empty.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | If the next content node is not a start tag; if the element **Name** does not match the given argument; or if the element found does not contain a simple text value. |
+
 
 ## XmlReader::ReadElementString(String, String) method
 
@@ -60,6 +74,13 @@ virtual String System::Xml::XmlReader::ReadElementString(String localname, Strin
 ### Return Value
 
 The text contained in the element that was read. An empty string if the element is empty.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | If the next content node is not a start tag; if the element **LocalName** or **NamespaceURI** values do not match the given arguments; or if the element found does not contain a simple text value. |
+
 
 ## See Also
 

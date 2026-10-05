@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemaobjectcollection/insert/
 ---
-## XmlSchemaObjectCollection::Insert(int32_t, const SharedPtr\<XmlSchemaObject\>\&) method
+## XmlSchemaObjectCollection::Insert(int32_t, const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Inserts an [XmlSchemaObject](../../xmlschemaobject/) to the [XmlSchemaObjectCollection](../).
@@ -21,7 +21,14 @@ void System::Xml::Schema::XmlSchemaObjectCollection::Insert(int32_t index, const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index at which an item should be inserted. |
-| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | The [XmlSchemaObject](../../xmlschemaobject/) to insert. |
+| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | The [XmlSchemaObject](../../xmlschemaobject/) to insert. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | **index** is less than zero. or **index** is greater than get_Count value. |
+
 
 ## See Also
 

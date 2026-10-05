@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/enum/tryparse/
 ---
-## Enum::TryParse(const String\&, E\&) method
+## Enum::TryParse(const String&, E&) method
 
 
 Tries to convert the specified string into equivalent enum constant.
@@ -20,14 +20,14 @@ static bool System::Enum<E, Guard>::TryParse(const String &str, E &result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | [String](../../string/) that is interpreted as containing the name of enum constant |
-| result | E\& | The output parameter that if conversion succeeds contains the result of conversion on function |
+| str | const [String](../../string/)& | [String](../../string/) that is interpreted as containing the name of enum constant |
+| result | E& | The output parameter that if conversion succeeds contains the result of conversion on function |
 
 ### Return Value
 
 True if conversion succeeded, otherwise - false
 
-## Enum::TryParse(const String\&, bool, E\&) method
+## Enum::TryParse(const String&, bool, E&) method
 
 
 Tries to convert the specified string into equivalent enum constant.
@@ -41,9 +41,9 @@ static bool System::Enum<E, Guard>::TryParse(const String &str, bool ignoreCase,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | [String](../../string/) that is interpreted as containing the name of enum constant |
+| str | const [String](../../string/)& | [String](../../string/) that is interpreted as containing the name of enum constant |
 | ignoreCase | **bool** | Specifies if the case should be ignored when interpreting the string |
-| result | E\& | The output parameter that if conversion succeeds contains the result of conversion on function return |
+| result | E& | The output parameter that if conversion succeeds contains the result of conversion on function return |
 
 ### Return Value
 

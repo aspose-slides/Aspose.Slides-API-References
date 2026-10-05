@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system/timezoneinfo/getutcoffsetfromutc/
 ---
-## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr\&) method
+## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr&) method
 
 
 Internal helper function that returns the UTC offset for a UTC-datetime in a specified time zone. FOR INTERNAL USE.
@@ -15,7 +15,7 @@ Internal helper function that returns the UTC offset for a UTC-datetime in a spe
 static TimeSpan System::TimeZoneInfo::GetUtcOffsetFromUtc(DateTime time, const TimeZoneInfoPtr &zone)
 ```
 
-## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr\&, bool\&, bool\&) method
+## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr&, bool&, bool&) method
 
 
 Internal helper function that returns the UTC offset for a UTC-datetime in a specified time zone. FOR INTERNAL USE.

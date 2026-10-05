@@ -1,7 +1,7 @@
 ---
 title: char_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: char_type typedef
 type: docs
 weight: 157
 url: /system.io/basicstdistreamwrapper/char_type/

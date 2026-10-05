@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /system/datetimeoffset/operator_less/
 ---
-## DateTimeOffset::operator<(const DateTimeOffset\&) const method
+## DateTimeOffset::operator\<(const DateTimeOffset&) const method
 
 
 Determines if the current object represents the date and time value that is earlier than the value represented by the specified [DateTimeOffset](../) object.
@@ -20,13 +20,13 @@ bool System::DateTimeOffset::operator<(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | The [DateTimeOffset](../) object to compare the current object with |
+| other | const [DateTimeOffset](../)& | The [DateTimeOffset](../) object to compare the current object with |
 
 ### Return Value
 
 True if the date and time value represented by the current object is earlier than the value represented by **other**, otherwise - false
 
-## DateTimeOffset::operator<(std::nullptr_t) const method
+## DateTimeOffset::operator\<(std::nullptr_t) const method
 
 
 

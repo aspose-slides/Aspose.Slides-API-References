@@ -19,7 +19,7 @@ class ValueType
 
 | Method | Description |
 | --- | --- |
-| static **bool** [Equals](./equals/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&) | Supports value type and reference type comparison. |
+| static **bool** [Equals](./equals/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>&) | Supports value type and reference type comparison. |
 ## See Also
 
 * Namespace [System](../)

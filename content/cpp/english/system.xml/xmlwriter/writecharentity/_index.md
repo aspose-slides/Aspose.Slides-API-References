@@ -22,6 +22,13 @@ virtual void System::Xml::XmlWriter::WriteCharEntity(char16_t ch)=0
 | --- | --- | --- |
 | ch | char16_t | The Unicode character for which to generate a character entity. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The character is in the surrogate pair character range, **0xd800** - **0xdfff**. |
+
+
 ## See Also
 
 * Class [XmlWriter](../)

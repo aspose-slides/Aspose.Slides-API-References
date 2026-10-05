@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.runtime.interopservices/nativelibrary/tryload/
 ---
-## NativeLibrary::TryLoad(const String\&, IntPtr\&) method
+## NativeLibrary::TryLoad(const String&, IntPtr&) method
 
 
 Loads native dynamic library.
@@ -20,8 +20,8 @@ static bool System::Runtime::InteropServices::NativeLibrary::TryLoad(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| libraryPath | const [String](../../../system/string/)\& | Path to the library. |
-| handle | IntPtr\& | Native library handle. |
+| libraryPath | const [String](../../../system/string/)& | Path to the library. |
+| handle | IntPtr& | Native library handle. |
 
 ### Return Value
 

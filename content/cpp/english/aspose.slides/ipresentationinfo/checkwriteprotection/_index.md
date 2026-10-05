@@ -25,6 +25,13 @@ virtual bool Aspose::Slides::IPresentationInfo::CheckWriteProtection(System::Str
 ### Return Value
 
 True if the presentation is write protected and the password is correct. False otherwise.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) |  |
+
 ## Remarks
 
 

@@ -15,6 +15,13 @@ If data source for the chart is an external workbook and it's not available, it 
 virtual bool Aspose::Slides::ISpreadsheetOptions::get_RecoverWorkbookFromChartCache()=0
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false. |
+
 ## Remarks
 
 

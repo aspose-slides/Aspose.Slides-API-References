@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.globalization/compareinfo/getsortkey/
 ---
-## CompareInfo::GetSortKey(const String\&, CompareOptions) const method
+## CompareInfo::GetSortKey(const String&, CompareOptions) const method
 
 
 Gets [SortKey](../../sortkey/) object for the specified string using specified compare options.
@@ -20,14 +20,14 @@ virtual SortKeyPtr System::Globalization::CompareInfo::GetSortKey(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Input string. |
+| value | const [String](../../../system/string/)& | Input string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
 ### Return Value
 
 [SortKey](../../sortkey/) object.
 
-## CompareInfo::GetSortKey(const String\&) const method
+## CompareInfo::GetSortKey(const String&) const method
 
 
 Gets [SortKey](../../sortkey/) object for the specified string.
@@ -41,7 +41,7 @@ virtual SortKeyPtr System::Globalization::CompareInfo::GetSortKey(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Input string. |
+| value | const [String](../../../system/string/)& | Input string. |
 
 ### Return Value
 

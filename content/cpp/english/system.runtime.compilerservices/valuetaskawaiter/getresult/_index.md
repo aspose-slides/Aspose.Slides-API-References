@@ -1,7 +1,7 @@
 ---
 title: GetResult()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTaskAwaiter::GetResult() method"
 type: docs
 weight: 40
 url: /system.runtime.compilerservices/valuetaskawaiter/getresult/

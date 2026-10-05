@@ -20,6 +20,13 @@ virtual bool System::Xml::XmlReader::IsStartElement()
 
 **true** if [XmlReader::MoveToContent](../movetocontent/) finds a start tag or empty element tag; **false** if a node type other than [XmlNodeType::Element](../../xmlnodetype/) was found.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML is encountered in the input stream. |
+
+
 ## XmlReader::IsStartElement(String) method
 
 
@@ -39,6 +46,13 @@ virtual bool System::Xml::XmlReader::IsStartElement(String name)
 ### Return Value
 
 **true** if the resulting node is an element and the **Name** value matches the specified string. **false** if a node type other than [XmlNodeType::Element](../../xmlnodetype/) was found or if the element **Name** value does not match the specified string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML is encountered in the input stream. |
+
 
 ## XmlReader::IsStartElement(String, String) method
 
@@ -60,6 +74,13 @@ virtual bool System::Xml::XmlReader::IsStartElement(String localname, String ns)
 ### Return Value
 
 **true** if the resulting node is an element. **false** if a node type other than [XmlNodeType::Element](../../xmlnodetype/) was found or if the **LocalName** and **NamespaceURI** values of the element do not match the specified strings.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML is encountered in the input stream. |
+
 
 ## See Also
 

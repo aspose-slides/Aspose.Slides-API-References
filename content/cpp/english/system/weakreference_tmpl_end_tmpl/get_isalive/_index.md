@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/weakreference_tmpl_end_tmpl/get_isalive/
 ---
-## WeakReference<>::get_IsAlive() const method
+## WeakReference\<\>::get_IsAlive() const method
 
 
 Gets an indication whether the object referenced by the current WeakReference object has been deleted.
@@ -22,6 +22,6 @@ True if object is not expired, false otherwise.
 
 ## See Also
 
-* Class [WeakReference<>](../)
+* Class [WeakReference\<\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

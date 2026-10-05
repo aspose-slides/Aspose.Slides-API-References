@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.xml.xpath/xpathnavigator/lookupnamespace/
 ---
-## XPathNavigator::LookupNamespace(const String\&) method
+## XPathNavigator::LookupNamespace(const String&) method
 
 
 Returns the namespace URI for the specified prefix.
@@ -20,7 +20,7 @@ String System::Xml::XPath::XPathNavigator::LookupNamespace(const String &prefix)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass [String::Empty](../../../system/string/empty/). |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass [String::Empty](../../../system/string/empty/). |
 
 ### Return Value
 

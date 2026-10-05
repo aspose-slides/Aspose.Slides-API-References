@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.xml/xmlwriter/writeentityref/
 ---
-## XmlWriter::WriteEntityRef(const String\&) method
+## XmlWriter::WriteEntityRef(const String&) method
 
 
 When overridden in a derived class, writes out an entity reference as **&name**;.
@@ -20,7 +20,14 @@ virtual void System::Xml::XmlWriter::WriteEntityRef(const String &name)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the entity reference. |
+| name | const [String](../../../system/string/)& | The name of the entity reference. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **name** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

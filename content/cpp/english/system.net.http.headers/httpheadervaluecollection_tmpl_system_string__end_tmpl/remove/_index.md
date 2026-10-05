@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/remove/
 ---
-## HttpHeaderValueCollection< System::String >::Remove(const String\&) method
+## HttpHeaderValueCollection\< System::String \>::Remove(const String&) method
 
 
 Deletes element from collection.
@@ -20,7 +20,7 @@ bool System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::Remo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [String](../../../system/string/)\& | Item to remove. |
+| item | const [String](../../../system/string/)& | Item to remove. |
 
 ### Return Value
 
@@ -29,6 +29,6 @@ True if element was found and removed, false otherwise.
 ## See Also
 
 * Class [String](../../../system/string/)
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

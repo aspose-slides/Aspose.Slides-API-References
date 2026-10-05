@@ -22,6 +22,14 @@ void System::Xml::XmlTextWriter::WriteCharEntity(char16_t ch) override
 | --- | --- | --- |
 | ch | char16_t | Unicode character for which to generate a character entity. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The character is in the surrogate pair character range, **0xd800** - **0xdfff**; or the text would result in a non-well formed XML document. |
+| InvalidOperationException | The [XmlTextWriter::get_WriteState](../get_writestate/) value is [WriteState::Closed](../../writestate/). |
+
+
 ## See Also
 
 * Class [XmlTextWriter](../)

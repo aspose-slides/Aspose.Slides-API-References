@@ -6,7 +6,7 @@ type: docs
 weight: 2575
 url: /system/staticcast_noexcept/
 ---
-## System::StaticCast_noexcept(SmartPtr\<TFrom\> const\&) function
+## System::StaticCast_noexcept(SmartPtr\<TFrom\> const&) function
 
 
 Performs static cast on [SmartPtr](../smartptr/) objects.
@@ -27,7 +27,7 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TTo>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
@@ -36,7 +36,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## System::StaticCast_noexcept(WeakPtr\<TFrom\> const\&) function
+## System::StaticCast_noexcept(WeakPtr\<TFrom\> const&) function
 
 
 Performs static cast on [WeakPtr](../weakptr/) objects.
@@ -57,7 +57,7 @@ template<typename TTo,typename TFrom> CastResult<TTo>::type System::StaticCast_n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [WeakPtr](../weakptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [WeakPtr](../weakptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
@@ -66,7 +66,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## System::StaticCast_noexcept(const TFrom\&) function
+## System::StaticCast_noexcept(const TFrom&) function
 
 
 Performs static cast on Exception objects.
@@ -87,7 +87,7 @@ template<typename TTo,typename TFrom> std::enable_if<IsExceptionWrapper<TFrom>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const TFrom\& | Source pointer. |
+| obj | const TFrom& | Source pointer. |
 
 ### Return Value
 

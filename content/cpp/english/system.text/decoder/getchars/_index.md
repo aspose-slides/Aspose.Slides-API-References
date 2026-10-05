@@ -55,7 +55,7 @@ virtual int System::Text::Decoder::GetChars(ArrayPtr<uint8_t> bytes, int byteInd
 
 Number of characters written.
 
-## Decoder::GetChars(const uint8_t *, int, char_t *, int, bool) method
+## Decoder::GetChars(const uint8_t \*, int, char_t \*, int, bool) method
 
 
 Get the characters that result from decoding a buffer.
@@ -69,9 +69,9 @@ virtual int System::Text::Decoder::GetChars(const uint8_t *bytes, int byteCount,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const **uint8_t** * | Bytes to decode. |
+| bytes | const **uint8_t** \* | Bytes to decode. |
 | byteCount | int | Input buffer size. |
-| chars | char_t * | Destination character buffer. |
+| chars | char_t \* | Destination character buffer. |
 | charCount | int | Destination array size. |
 | flush | **bool** | If true, cleans internal decoder state after calculation. |
 

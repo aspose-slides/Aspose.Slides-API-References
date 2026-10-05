@@ -6,7 +6,7 @@ type: docs
 weight: 989
 url: /system.xml/xmlreader/isname/
 ---
-## XmlReader::IsName(const String\&) method
+## XmlReader::IsName(const String&) method
 
 
 Returns a value indicating whether the string argument is a valid XML name.
@@ -20,11 +20,18 @@ static bool System::Xml::XmlReader::IsName(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | The name to validate. |
+| str | const [String](../../../system/string/)& | The name to validate. |
 
 ### Return Value
 
 **true** if the name is valid; otherwise, **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **str** value is **nullptr**. |
+
 
 ## See Also
 

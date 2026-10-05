@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.net/cookiecollection/remove/
 ---
-## CookieCollection::Remove(const System::SharedPtr\<Cookie\>\&) method
+## CookieCollection::Remove(const System::SharedPtr\<Cookie\>&) method
 
 
 Removes the specified cookie from the collection.
@@ -20,11 +20,18 @@ bool System::Net::CookieCollection::Remove(const System::SharedPtr<Cookie> &cook
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\& | The cookie to remove. |
+| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>& | The cookie to remove. |
 
 ### Return Value
 
 True when the specified cookie is removed successfully, otherwise false.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotImplementedException](../../../system/notimplementedexception/) |  |
+
 
 ## See Also
 

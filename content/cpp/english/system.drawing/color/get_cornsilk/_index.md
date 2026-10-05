@@ -1,7 +1,7 @@
 ---
 title: get_Cornsilk()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFF8DC.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFF8DC."
 type: docs
 weight: 521
 url: /system.drawing/color/get_cornsilk/

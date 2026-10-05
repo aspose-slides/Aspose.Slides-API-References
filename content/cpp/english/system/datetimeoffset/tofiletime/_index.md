@@ -9,7 +9,7 @@ url: /system/datetimeoffset/tofiletime/
 ## DateTimeOffset::ToFileTime() const method
 
 
-Converts current object to the [Windows](../../../system.windows/) file time.
+Converts current object to the Windows file time.
 
 ```cpp
 int64_t System::DateTimeOffset::ToFileTime() const

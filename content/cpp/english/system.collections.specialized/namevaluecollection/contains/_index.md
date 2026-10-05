@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.specialized/namevaluecollection/contains/
 ---
-## NameValueCollection::Contains(const String\&) const method
+## NameValueCollection::Contains(const String&) const method
 
 
 Checks if item is present in collection.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Specialized::NameValueCollection::Contains(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [String](../../../system/string/)\& | to look for. |
+| item | const [String](../../../system/string/)& | to look for. |
 
 ### Return Value
 

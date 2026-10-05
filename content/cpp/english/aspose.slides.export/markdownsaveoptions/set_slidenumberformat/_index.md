@@ -9,11 +9,19 @@ url: /aspose.slides.export/markdownsaveoptions/set_slidenumberformat/
 ## MarkdownSaveOptions::set_SlideNumberFormat(System::String) method
 
 
-Sets the format string used for slide number headers in Markdown output. The format must include the \"{0}\" placeholder, which will be replaced with the slide index during export. Example: \"# Slide {0}\" will produce \"# Slide 1\", \"# Slide 2\", etc.
+Sets the format string used for slide number headers in Markdown output. The format must include the "{0}" placeholder, which will be replaced with the slide index during export. Example: "# Slide {0}" will produce "# Slide 1", "# Slide 2", etc.
 
 ```cpp
 void Aspose::Slides::Export::MarkdownSaveOptions::set_SlideNumberFormat(System::String value)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if the provided value is null or empty. |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the format string does not contain the "{0}" placeholder. |
 
 
 ## See Also

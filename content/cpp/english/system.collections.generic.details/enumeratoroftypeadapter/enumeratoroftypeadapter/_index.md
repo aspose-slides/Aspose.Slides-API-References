@@ -1,7 +1,7 @@
 ---
 title: EnumeratorOfTypeAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumeratorOfTypeAdapter::EnumeratorOfTypeAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumeratoroftypeadapter/enumeratoroftypeadapter/

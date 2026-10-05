@@ -1,7 +1,7 @@
 ---
 title: get_CadetBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF5F9EA0.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF5F9EA0."
 type: docs
 weight: 456
 url: /system.drawing/color/get_cadetblue/

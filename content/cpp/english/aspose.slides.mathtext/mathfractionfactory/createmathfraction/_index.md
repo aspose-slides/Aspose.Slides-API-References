@@ -24,10 +24,6 @@ System::SharedPtr<IMathFraction> Aspose::Slides::MathText::MathFractionFactory::
 | denominator | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Denominator |
 | fractionType | [MathFractionTypes](../../mathfractiontypes/) | Fraction type |
 
-### Return Value
-
-
-
 ## MathFractionFactory::CreateMathFraction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
@@ -44,10 +40,6 @@ System::SharedPtr<IMathFraction> Aspose::Slides::MathText::MathFractionFactory::
 | --- | --- | --- |
 | numerator | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Numerator |
 | denominator | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Denominator |
-
-### Return Value
-
-
 
 ## See Also
 

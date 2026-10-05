@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.memoryextensions/lastindexofanyexceptinrange/
 ---
-## System::MemoryExtensions::LastIndexOfAnyExceptInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExceptInRange(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any element outside the specified range within a span.
@@ -26,15 +26,15 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExceptInRan
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| lowInclusive | const T\& | The lower bound of the range (inclusive) |
-| highInclusive | const T\& | The upper bound of the range (inclusive) |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| lowInclusive | const T& | The lower bound of the range (inclusive) |
+| highInclusive | const T& | The upper bound of the range (inclusive) |
 
 ### Return Value
 
 The zero-based index of the last element outside the range, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExceptInRange(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExceptInRange(const Span\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any element outside the specified range within a mutable span.
@@ -54,9 +54,9 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExceptInRan
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| lowInclusive | const T\& | The lower bound of the range (inclusive) |
-| highInclusive | const T\& | The upper bound of the range (inclusive) |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| lowInclusive | const T& | The lower bound of the range (inclusive) |
+| highInclusive | const T& | The upper bound of the range (inclusive) |
 
 ### Return Value
 

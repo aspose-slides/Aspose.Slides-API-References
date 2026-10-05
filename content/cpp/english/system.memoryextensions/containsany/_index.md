@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.memoryextensions/containsany/
 ---
-## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Checks if a read-only span contains any of two values.
@@ -26,15 +26,15 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const ReadOnlySp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 true if any of the values is found in span, false otherwise
 
-## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
 Checks if a read-only span contains any of three values.
@@ -54,16 +54,16 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const ReadOnlySp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 true if any of the values is found in span, false otherwise
 
-## System::MemoryExtensions::ContainsAny(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAny(const Span\<T\>&, const T&, const T&) function
 
 
 Checks if a mutable span contains any of two values.
@@ -83,15 +83,15 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const Span<T> &s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 true if any of the values is found in span, false otherwise
 
-## System::MemoryExtensions::ContainsAny(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAny(const Span\<T\>&, const T&, const T&, const T&) function
 
 
 Checks if a mutable span contains any of three values.
@@ -111,16 +111,16 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const Span<T> &s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 true if any of the values is found in span, false otherwise
 
-## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Checks if a read-only span contains any value from another span.
@@ -140,14 +140,14 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const ReadOnlySp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span of values to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span of values to search for |
 
 ### Return Value
 
 true if any value from values is found in span, false otherwise
 
-## System::MemoryExtensions::ContainsAny(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::ContainsAny(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Checks if a mutable span contains any value from a read-only span.
@@ -167,8 +167,8 @@ template<typename T> bool System::MemoryExtensions::ContainsAny(const Span<T> &s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span of values to search for |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The read-only span of values to search for |
 
 ### Return Value
 

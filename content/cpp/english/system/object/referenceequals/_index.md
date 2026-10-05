@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system/object/referenceequals/
 ---
-## Object::ReferenceEquals(String const\&, std::nullptr_t) method
+## Object::ReferenceEquals(String const&, std::nullptr_t) method
 
 
 Specialization of [Object::ReferenceEquals](./) for case of string and nullptr.
@@ -20,13 +20,13 @@ bool System::Object::ReferenceEquals(String const &str, std::nullptr_t)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | [String](../../string/) const\& | [String](../../string/) to compare to nullptr. |
+| str | [String](../../string/) const& | [String](../../string/) to compare to nullptr. |
 
 ### Return Value
 
 true if string is null, false otherwise.
 
-## Object::ReferenceEquals(String const\&, String const\&) method
+## Object::ReferenceEquals(String const&, String const&) method
 
 
 Specialization of [Object::ReferenceEquals](./) for case of strings.
@@ -40,14 +40,14 @@ bool System::Object::ReferenceEquals(String const &str1, String const &str2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str1 | [String](../../string/) const\& | First string to compare. |
-| str2 | [String](../../string/) const\& | Second string to compare. |
+| str1 | [String](../../string/) const& | First string to compare. |
+| str2 | [String](../../string/) const& | Second string to compare. |
 
 ### Return Value
 
 true if strings match, false otherwise.
 
-## Object::ReferenceEquals(ptr const\&, ptr const\&) method
+## Object::ReferenceEquals(ptr const&, ptr const&) method
 
 
 Compares objects by reference.
@@ -61,14 +61,14 @@ static bool System::Object::ReferenceEquals(ptr const &objA, ptr const &objB)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | [ptr](../ptr/) const\& | First pointer to compare. |
-| objB | [ptr](../ptr/) const\& | Second pointer to compare. |
+| objA | [ptr](../ptr/) const& | First pointer to compare. |
+| objB | [ptr](../ptr/) const& | Second pointer to compare. |
 
 ### Return Value
 
 True if pointers match and false otherwise.
 
-## Object::ReferenceEquals(T const\&, T const\&) method
+## Object::ReferenceEquals(T const&, T const&) method
 
 
 Compares objects by reference.
@@ -88,14 +88,14 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value, bool>::type Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | T const\& | First object to compare. |
-| objB | T const\& | Second object to compare. |
+| objA | T const& | First object to compare. |
+| objB | T const& | Second object to compare. |
 
 ### Return Value
 
 True if object addresses match and false otherwise.
 
-## Object::ReferenceEquals(T const\&, std::nullptr_t) method
+## Object::ReferenceEquals(T const&, std::nullptr_t) method
 
 
 Reference-compares value type object with nullptr.
@@ -115,7 +115,7 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value, bool>::type Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| objA | T const\& | First object to compare. |
+| objA | T const& | First object to compare. |
 
 ### Return Value
 

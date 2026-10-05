@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml/xmlparsercontext/set_namespacemanager/
 ---
-## XmlParserContext::set_NamespaceManager(const SharedPtr\<XmlNamespaceManager\>\&) method
+## XmlParserContext::set_NamespaceManager(const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Sets the [XmlNamespaceManager](../../xmlnamespacemanager/).
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_NamespaceManager(const SharedPtr<XmlName
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | The value to set. |
 
 ## See Also
 

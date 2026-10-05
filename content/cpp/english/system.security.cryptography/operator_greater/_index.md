@@ -1,12 +1,12 @@
 ---
 title: operator>()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Cryptography::operator>() function"
 type: docs
 weight: 833
 url: /system.security.cryptography/operator_greater/
 ---
-## System::Security::Cryptography::operator>(std::nullptr_t, const HashAlgorithmName\&) function
+## System::Security::Cryptography::operator\>(std::nullptr_t, const HashAlgorithmName&) function
 
 
 

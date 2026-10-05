@@ -22,10 +22,6 @@ virtual System::SharedPtr<IEffectEffectiveData> Aspose::Slides::Effects::IImageT
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

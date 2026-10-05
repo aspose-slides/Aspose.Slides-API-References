@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /system.drawing/graphics/drawcurve/
 ---
-## Graphics::DrawCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<Point\>\&, float) method
+## Graphics::DrawCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<Point\>&, float) method
 
 
 Draws a spline using the specified pen.
@@ -20,11 +20,11 @@ void System::Drawing::Graphics::DrawCurve(const SharedPtr<Pen> &pen, const Array
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | tension | **float** | Value that specifies the tension of the spline |
 
-## Graphics::DrawCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<PointF\>\&, float) method
+## Graphics::DrawCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<PointF\>&, float) method
 
 
 Draws a spline using the specified pen.
@@ -38,11 +38,11 @@ void System::Drawing::Graphics::DrawCurve(const SharedPtr<Pen> &pen, const Array
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | tension | **float** | Value that specifies the tension of the spline |
 
-## Graphics::DrawCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<Point\>\&, int32_t, int32_t, float) method
+## Graphics::DrawCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<Point\>&, int32_t, int32_t, float) method
 
 
 Draws a spline using the specified pen.
@@ -56,13 +56,13 @@ void System::Drawing::Graphics::DrawCurve(const SharedPtr<Pen> &pen, const Array
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | offset | **int32_t** | Offset from the 1st element in the **points** array |
 | numberOfSegments | **int32_t** | Number of segments to include into the curve |
 | tension | **float** | Value that specifies the tension of the spline |
 
-## Graphics::DrawCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<PointF\>\&, int32_t, int32_t, float) method
+## Graphics::DrawCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<PointF\>&, int32_t, int32_t, float) method
 
 
 Draws a spline using the specified pen.
@@ -76,8 +76,8 @@ void System::Drawing::Graphics::DrawCurve(const SharedPtr<Pen> &pen, const Array
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | offset | **int32_t** | Offset from the 1st element in the **points** array |
 | numberOfSegments | **int32_t** | Number of segments to include into the curve |
 | tension | **float** | Value that specifies the tension of the spline |

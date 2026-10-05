@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.net.http.headers/warningheadervalue/tryparse/
 ---
-## WarningHeaderValue::TryParse(String, System::SharedPtr\<WarningHeaderValue\>\&) method
+## WarningHeaderValue::TryParse(String, System::SharedPtr\<WarningHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [WarningHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::WarningHeaderValue::TryParse(String inpu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[WarningHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[WarningHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

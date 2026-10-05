@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.drawing.drawing2d/regiondata/set_data/
 ---
-## RegionData::set_Data(const ArrayPtr\<uint8_t\>\&) method
+## RegionData::set_Data(const ArrayPtr\<uint8_t\>&) method
 
 
 Sets a region data for the current object.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::RegionData::set_Data(const ArrayPtr<uint8_t> &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The data to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The data to set |
 
 ## See Also
 

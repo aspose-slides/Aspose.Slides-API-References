@@ -1,7 +1,7 @@
 ---
 title: XmlDsigCanonicalizationUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigCanonicalizationUrl field
 type: docs
 weight: 274
 url: /system.security.cryptography.xml/signedxml/xmldsigcanonicalizationurl/

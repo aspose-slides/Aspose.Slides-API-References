@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system/uri/uri/
 ---
-## Uri::Uri(const String\&) constructor
+## Uri::Uri(const String&) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI.
@@ -20,9 +20,9 @@ System::Uri::Uri(const String &uriString)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
+| uriString | const [String](../../string/)& | The string URI to be represented by the object being constructed |
 
-## Uri::Uri(const String\&, bool) constructor
+## Uri::Uri(const String&, bool) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI; an argument specifies if the URI should be escaped.
@@ -36,10 +36,10 @@ System::Uri::Uri(const String &uriString, bool dontEscape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
+| uriString | const [String](../../string/)& | The string URI to be represented by the object being constructed |
 | dontEscape | **bool** | Specifies if the URI should not be escaped |
 
-## Uri::Uri(const SharedPtr\<Uri\>\&, const String\&, bool) constructor
+## Uri::Uri(const SharedPtr\<Uri\>&, const String&, bool) constructor
 
 
 Constructs an [Uri](../) abject from the specified [Uri](../) object representing the base URI and the string representation of relative URI; an argument specifies if the URI should be escaped.
@@ -53,11 +53,11 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const String &relativeUri, bool 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The base URI |
-| relativeUri | const [String](../../string/)\& | The relative URI that is added to the base URI |
+| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The base URI |
+| relativeUri | const [String](../../string/)& | The relative URI that is added to the base URI |
 | dontEscape | **bool** | Specifies if the URI should not be escaped |
 
-## Uri::Uri(const String\&, UriKind) constructor
+## Uri::Uri(const String&, UriKind) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI; an argument specifies the URI kind.
@@ -71,10 +71,10 @@ System::Uri::Uri(const String &uriString, UriKind uriKind)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
+| uriString | const [String](../../string/)& | The string URI to be represented by the object being constructed |
 | uriKind | [UriKind](../../urikind/) | Specifies the URI kind |
 
-## Uri::Uri(const SharedPtr\<Uri\>\&, const String\&) constructor
+## Uri::Uri(const SharedPtr\<Uri\>&, const String&) constructor
 
 
 Constructs an [Uri](../) abject from the specified base and relative URIs.
@@ -88,10 +88,10 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const String &relativeUri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The base URI |
-| relativeUri | const [String](../../string/)\& | The relative URI that is added to the base URI |
+| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The base URI |
+| relativeUri | const [String](../../string/)& | The relative URI that is added to the base URI |
 
-## Uri::Uri(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&) constructor
+## Uri::Uri(const SharedPtr\<Uri\>&, const SharedPtr\<Uri\>&) constructor
 
 
 Constructs an [Uri](../) abject from the specified base and relative URIs.
@@ -105,8 +105,8 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const SharedPtr<Uri> &relativeUr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The base URI |
-| relativeUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The relative URI that is added to the base URI |
+| baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The base URI |
+| relativeUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The relative URI that is added to the base URI |
 
 ## See Also
 

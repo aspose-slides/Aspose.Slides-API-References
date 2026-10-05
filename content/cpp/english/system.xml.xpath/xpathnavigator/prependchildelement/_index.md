@@ -25,6 +25,14 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChildElement(String pref
 | namespaceURI | [String](../../../system/string/) | The namespace URI of the new child element (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
 | value | [String](../../../system/string/) | The value of the new child element. If [String::Empty](../../../system/string/empty/) or **nullptr** are passed, an empty element is created. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on does not allow a new child node to be prepended. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

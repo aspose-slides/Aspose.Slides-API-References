@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.xml.schema/xmlschemainfo/set_schemaattribute/
 ---
-## XmlSchemaInfo::set_SchemaAttribute(const SharedPtr\<XmlSchemaAttribute\>\&) method
+## XmlSchemaInfo::set_SchemaAttribute(const SharedPtr\<XmlSchemaAttribute\>&) method
 
 
 Sets the compiled [XmlSchemaAttribute](../../xmlschemaattribute/) object that corresponds to this validated XML node.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaInfo::set_SchemaAttribute(const SharedPtr<Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAttribute](../../xmlschemaattribute/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAttribute](../../xmlschemaattribute/)\>& | The value to set. |
 
 ## See Also
 

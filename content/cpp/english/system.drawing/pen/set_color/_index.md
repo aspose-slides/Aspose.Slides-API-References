@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.drawing/pen/set_color/
 ---
-## Pen::set_Color(const Color\&) method
+## Pen::set_Color(const Color&) method
 
 
 Sets this pen's color.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::set_Color(const Color &color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | const [Color](../../color/)\& | The value to set |
+| color | const [Color](../../color/)& | The value to set |
 
 ## See Also
 

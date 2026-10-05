@@ -6,7 +6,7 @@ type: docs
 weight: 937
 url: /system/string/fromutf16/
 ---
-## String::FromUtf16(const std::u16string\&) method
+## String::FromUtf16(const std::u16string&) method
 
 
 Creates [String](../) from utf16 string.
@@ -20,7 +20,7 @@ static String System::String::FromUtf16(const std::u16string &u16str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| u16str | const std::u16string\& | Utf16 string. |
+| u16str | const std::u16string& | Utf16 string. |
 
 ### Return Value
 

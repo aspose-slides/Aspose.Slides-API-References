@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlsecureresolver/xmlsecureresolver/
 ---
-## XmlSecureResolver::XmlSecureResolver(const SharedPtr\<XmlResolver\>\&, const String\&) constructor
+## XmlSecureResolver::XmlSecureResolver(const SharedPtr\<XmlResolver\>&, const String&) constructor
 
 
 Initializes a new instance of the [XmlSecureResolver](../) class with the [XmlResolver](../../xmlresolver/) and URL provided.
@@ -20,8 +20,8 @@ System::Xml::XmlSecureResolver::XmlSecureResolver(const SharedPtr<XmlResolver> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resolver | const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../xmlresolver/)\>\& | The XML resolver that is wrapped by the [XmlSecureResolver](../). |
-| securityUrl | const [String](../../../system/string/)\& | Currently not used. |
+| resolver | const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../xmlresolver/)\>& | The XML resolver that is wrapped by the [XmlSecureResolver](../). |
+| securityUrl | const [String](../../../system/string/)& | Currently not used. |
 
 ## See Also
 

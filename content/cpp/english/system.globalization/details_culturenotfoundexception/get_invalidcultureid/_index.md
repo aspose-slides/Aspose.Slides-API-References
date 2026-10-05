@@ -1,7 +1,7 @@
 ---
 title: get_InvalidCultureId()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_CultureNotFoundException::get_InvalidCultureId() method"
 type: docs
 weight: 1
 url: /system.globalization/details_culturenotfoundexception/get_invalidcultureid/

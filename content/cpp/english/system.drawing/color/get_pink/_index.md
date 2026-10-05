@@ -1,7 +1,7 @@
 ---
 title: get_Pink()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFC0CB.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFC0CB."
 type: docs
 weight: 1704
 url: /system.drawing/color/get_pink/

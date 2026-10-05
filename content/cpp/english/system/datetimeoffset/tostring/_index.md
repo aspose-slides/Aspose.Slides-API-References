@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system/datetimeoffset/tostring/
 ---
-## DateTimeOffset::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
+## DateTimeOffset::ToString(const String&, const SharedPtr\<IFormatProvider\>&) const method
 
 
 Converts current object to string using the specified format and format provider.
@@ -20,14 +20,14 @@ String System::DateTimeOffset::ToString(const String &format, const SharedPtr<IF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | Format string. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| format | const [String](../../string/)& | Format string. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 
 ### Return Value
 
 [String](../../string/) representation of the current [DateTimeOffset](../) object.
 
-## DateTimeOffset::ToString(const SharedPtr\<IFormatProvider\>\&) const method
+## DateTimeOffset::ToString(const SharedPtr\<IFormatProvider\>&) const method
 
 
 Converts current object to string using the specified format provider.
@@ -41,13 +41,13 @@ String System::DateTimeOffset::ToString(const SharedPtr<IFormatProvider> &provid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 
 ### Return Value
 
 [String](../../string/) representation of the current [DateTimeOffset](../) object.
 
-## DateTimeOffset::ToString(const String\&) const method
+## DateTimeOffset::ToString(const String&) const method
 
 
 Converts current object to string using the specified format.
@@ -61,7 +61,7 @@ String System::DateTimeOffset::ToString(const String &format) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | Format string. |
+| format | const [String](../../string/)& | Format string. |
 
 ### Return Value
 

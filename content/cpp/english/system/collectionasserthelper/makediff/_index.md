@@ -1,15 +1,15 @@
 ---
 title: MakeDiff()
 second_title: Aspose.Slides for C++ API Reference
-description: Calculates 'diff' between two collections. For every element of each collection as key resulting value will be positive if element occures more times in \"expected\" collection, negative if element occures more times in \"actual\" collection, and zero if element occures equal times in each collection.
+description: "Calculates 'diff' between two collections. For every element of each collection as key resulting value will be positive if element occures more times in \"expected\" collection, negative if element occures more times in \"actual\" collection, and zero if element occures equal times in each collection."
 type: docs
 weight: 1
 url: /system/collectionasserthelper/makediff/
 ---
-## CollectionAssertHelper::MakeDiff(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T1\>\>\&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T2\>\>\&) method
+## CollectionAssertHelper::MakeDiff(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T1\>\>&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T2\>\>&) method
 
 
-Calculates 'diff' between two collections. For every element of each collection as key resulting value will be positive if element occures more times in \"expected\" collection, negative if element occures more times in \"actual\" collection, and zero if element occures equal times in each collection.
+Calculates 'diff' between two collections. For every element of each collection as key resulting value will be positive if element occures more times in "expected" collection, negative if element occures more times in "actual" collection, and zero if element occures equal times in each collection.
 
 ```cpp
 template<typename T1,typename T2> static System::SharedPtr<System::Collections::Generic::Dictionary<T1, int32_t>> System::CollectionAssertHelper::MakeDiff(const System::SharedPtr<System::Collections::Generic::IEnumerable<T1>> &expected, const System::SharedPtr<System::Collections::Generic::IEnumerable<T2>> &actual)
@@ -27,8 +27,8 @@ template<typename T1,typename T2> static System::SharedPtr<System::Collections::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expected | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T1\>\>\& | Expected collection. |
-| actual | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T2\>\>\& | Actual collecion. |
+| expected | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T1\>\>& | Expected collection. |
+| actual | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T2\>\>& | Actual collecion. |
 
 ### Return Value
 

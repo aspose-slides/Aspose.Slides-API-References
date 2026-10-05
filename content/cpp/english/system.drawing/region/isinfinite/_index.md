@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.drawing/region/isinfinite/
 ---
-## Region::IsInfinite(const SharedPtr\<Graphics\>\&) const method
+## Region::IsInfinite(const SharedPtr\<Graphics\>&) const method
 
 
 Determines wheter the region represented by the current object has infinite interior on the specified drawing surface.
@@ -20,7 +20,7 @@ bool System::Drawing::Region::IsInfinite(const SharedPtr<Graphics> &g) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | A drawing surface |
+| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | A drawing surface |
 
 ## See Also
 

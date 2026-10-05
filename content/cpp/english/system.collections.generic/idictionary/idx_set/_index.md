@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.generic/idictionary/idx_set/
 ---
-## IDictionary::idx_set(const TKey\&, TValue) method
+## IDictionary::idx_set(const TKey&, TValue) method
 
 
 Setter function.
@@ -20,7 +20,7 @@ virtual void System::Collections::Generic::IDictionary<TKey, TValue>::idx_set(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to look for. |
+| key | const TKey& | Key to look for. |
 | value | TValue | Value to set to specified key. |
 
 ## See Also

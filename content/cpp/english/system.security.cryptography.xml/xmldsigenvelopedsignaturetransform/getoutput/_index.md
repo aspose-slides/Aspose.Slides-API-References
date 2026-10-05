@@ -1,7 +1,7 @@
 ---
 title: GetOutput()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigEnvelopedSignatureTransform::GetOutput() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/getoutput/
@@ -15,7 +15,7 @@ url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/getout
 SharedPtr<Object> System::Security::Cryptography::Xml::XmlDsigEnvelopedSignatureTransform::GetOutput() override
 ```
 
-## XmlDsigEnvelopedSignatureTransform::GetOutput(const TypeInfo\&) method
+## XmlDsigEnvelopedSignatureTransform::GetOutput(const TypeInfo&) method
 
 
 

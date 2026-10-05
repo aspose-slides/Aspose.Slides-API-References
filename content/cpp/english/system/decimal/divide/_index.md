@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /system/decimal/divide/
 ---
-## Decimal::Divide(const Decimal\&, const Decimal\&) method
+## Decimal::Divide(const Decimal&, const Decimal&) method
 
 
 Divides two specified [Decimal](../) values.
@@ -20,8 +20,8 @@ static Decimal System::Decimal::Divide(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | The dividend. |
-| d2 | const [Decimal](../)\& | The divisor. |
+| d1 | const [Decimal](../)& | The dividend. |
+| d2 | const [Decimal](../)& | The divisor. |
 
 ### Return Value
 

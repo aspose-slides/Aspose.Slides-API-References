@@ -19,8 +19,8 @@ class Parallel
 
 | Method | Description |
 | --- | --- |
-| static [ParallelLoopResult](../parallelloopresult/) [ForEach](./foreach/)(const [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<TSource\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[ParallelOptions](../paralleloptions/)\>\&, const [Action](../../system/action/)\<TSource\>\&) | Executes a foreach operation on an IEnumerable in which iterations may run in parallel. |
-| static [ParallelLoopResult](../parallelloopresult/) [ForEach](./foreach/)(const [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<TSource\>\>\&, const [Action](../../system/action/)\<TSource\>\&) | Executes a foreach operation on an IEnumerable in which iterations may run in parallel. |
+| static [ParallelLoopResult](../parallelloopresult/) [ForEach](./foreach/)(const [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<TSource\>\>&, const [SharedPtr](../../system/sharedptr/)\<[ParallelOptions](../paralleloptions/)\>&, const [Action](../../system/action/)\<TSource\>&) | Executes a foreach operation on an IEnumerable in which iterations may run in parallel. |
+| static [ParallelLoopResult](../parallelloopresult/) [ForEach](./foreach/)(const [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<TSource\>\>&, const [Action](../../system/action/)\<TSource\>&) | Executes a foreach operation on an IEnumerable in which iterations may run in parallel. |
 ## Remarks
 
 

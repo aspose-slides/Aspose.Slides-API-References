@@ -1,7 +1,7 @@
 ---
 title: get_AliceBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0F8FF.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0F8FF."
 type: docs
 weight: 14
 url: /system.drawing/pens/get_aliceblue/

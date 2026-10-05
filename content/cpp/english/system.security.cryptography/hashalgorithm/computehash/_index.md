@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.security.cryptography/hashalgorithm/computehash/
 ---
-## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>\&) method
+## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>&) method
 
 
 Hashes buffer.
@@ -20,13 +20,13 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Source buffer. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Source buffer. |
 
 ### Return Value
 
 Calculated hash value.
 
-## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>\&, int, int) method
+## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>&, int, int) method
 
 
 Hashes buffer slice.
@@ -40,7 +40,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Source buffer. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Source buffer. |
 | offset | int | Offset in the source buffer. |
 | count | int | Number of bytes to use from the source buffer. |
 
@@ -48,7 +48,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(con
 
 Calculated hash value.
 
-## HashAlgorithm::ComputeHash(SharedPtr\<IO::Stream\> const\&) method
+## HashAlgorithm::ComputeHash(SharedPtr\<IO::Stream\> const&) method
 
 
 Reads stream until end and calculates hash for the data read.
@@ -62,7 +62,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> const\& | Stream to read data from. |
+| inputStream | [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> const& | Stream to read data from. |
 
 ### Return Value
 

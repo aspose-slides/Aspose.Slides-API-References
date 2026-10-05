@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.drawing/image/getbounds/
 ---
-## Image::GetBounds(GraphicsUnit\&) method
+## Image::GetBounds(GraphicsUnit&) method
 
 
 Returns the image bounds in the specified measurement units.
@@ -20,7 +20,7 @@ RectangleF System::Drawing::Image::GetBounds(GraphicsUnit &page_unit)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| page_unit | [GraphicsUnit](../../graphicsunit/)\& | Measurement unit |
+| page_unit | [GraphicsUnit](../../graphicsunit/)& | Measurement unit |
 
 ### Return Value
 

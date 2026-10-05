@@ -9,7 +9,7 @@ url: /system/typeinfo/boxedvaluetype/
 ## TypeInfo::BoxedValueType() method
 
 
-Provides unique [TypeInfo](../) structure for **BoxedValue** type to be shared by multiple Boxed* classes.
+Provides unique [TypeInfo](../) structure for **BoxedValue** type to be shared by multiple Boxed\* classes.
 
 ```cpp
 template<class T> static const TypeInfo & System::TypeInfo::BoxedValueType()

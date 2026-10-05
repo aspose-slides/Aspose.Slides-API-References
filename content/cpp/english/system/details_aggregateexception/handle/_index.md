@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/details_aggregateexception/handle/
 ---
-## Details_AggregateException::Handle(const Func\<Exception, bool\>\&) method
+## Details_AggregateException::Handle(const Func\<Exception, bool\>&) method
 
 
 Invokes a handler function on each inner exception and rethrows any unhandled exceptions.
@@ -20,7 +20,7 @@ void System::Details_AggregateException::Handle(const Func<Exception, bool> &pre
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | const [Func](../../func/)\<[Exception](../../exception/), **bool**\>\& | A function that takes an Exception and returns true if it is handled. |
+| predicate | const [Func](../../func/)\<[Exception](../../exception/), **bool**\>& | A function that takes an Exception and returns true if it is handled. |
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.io/file/getlastwritetime/
 ---
-## File::GetLastWriteTime(const String\&) method
+## File::GetLastWriteTime(const String&) method
 
 
 Returns the last write time of the specified entity as local time.
@@ -20,7 +20,7 @@ static DateTime System::IO::File::GetLastWriteTime(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last write time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose last write time to retrieve |
 
 ### Return Value
 

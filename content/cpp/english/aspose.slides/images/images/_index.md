@@ -1,7 +1,7 @@
 ---
 title: Images()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Images::Images() constructor"
 type: docs
 weight: 27
 url: /aspose.slides/images/images/

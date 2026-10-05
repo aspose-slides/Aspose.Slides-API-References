@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /system/string/isnullorwhitespace/
 ---
-## String::IsNullOrWhiteSpace(const String\&) method
+## String::IsNullOrWhiteSpace(const String&) method
 
 
 Indicates whether a specified string is null, empty, or consists only of white-space characters.
@@ -20,7 +20,7 @@ static bool System::String::IsNullOrWhiteSpace(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to check. |
+| str | const [String](../)& | [String](../) to check. |
 
 ### Return Value
 

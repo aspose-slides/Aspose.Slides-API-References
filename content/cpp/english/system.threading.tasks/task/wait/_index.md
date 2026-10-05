@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.threading.tasks/task/wait/
 ---
-## Task::Wait(const CancellationToken\&) method
+## Task::Wait(const CancellationToken&) method
 
 
 Waits for the task to complete with cancellation support.
@@ -20,7 +20,15 @@ void System::Threading::Tasks::Task::Wait(const CancellationToken &cancellationT
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)\& | Token to monitor for cancellation while waiting |
+| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)& | Token to monitor for cancellation while waiting |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| OperationCanceledException | If the wait is canceled |
+| Exception | If the task faults |
+
 
 ## Task::Wait() method
 
@@ -30,6 +38,13 @@ Waits for the task to complete.
 ```cpp
 void System::Threading::Tasks::Task::Wait()
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| Exception | If the task faults |
 
 
 ## See Also

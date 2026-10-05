@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_minus_equal/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator-=(Callback) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::operator-=(Callback) method
 
 
 Removes the specified delegate from the delegate collection.
@@ -30,6 +30,6 @@ A reference to the self
 
 * Typedef [Callback](../callback/)
 * Method [MulticastDelegate](../multicastdelegate/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

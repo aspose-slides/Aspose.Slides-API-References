@@ -20,6 +20,14 @@ virtual int32_t System::Xml::XmlReader::ReadContentAsInt()
 
 The text content as a 32-bit signed integer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

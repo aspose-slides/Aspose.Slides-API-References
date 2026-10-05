@@ -26,9 +26,9 @@ template<typename T>class EqualityComparerHashAdapter
 | Method | Description |
 | --- | --- |
 |  [EqualityComparerHashAdapter](./equalitycomparerhashadapter/)() | Creates adapter with no comparator to use. |
-|  [EqualityComparerHashAdapter](./equalitycomparerhashadapter/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>\&) | Creates adapter with given comparator to use. |
-| std::size_t [operator()](./operator_call/)(const T\&) const | Calculates hash value. |
-| void [set_EqualityComparator](./set_equalitycomparator/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>\&) | Sets comparator to use. |
+|  [EqualityComparerHashAdapter](./equalitycomparerhashadapter/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>&) | Creates adapter with given comparator to use. |
+| std::size_t [operator()](./operator_call/)(const T&) const | Calculates hash value. |
+| void [set_EqualityComparator](./set_equalitycomparator/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>&) | Sets comparator to use. |
 
 ## See Also
 

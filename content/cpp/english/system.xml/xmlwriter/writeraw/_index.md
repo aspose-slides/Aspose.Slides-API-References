@@ -24,7 +24,15 @@ virtual void System::Xml::XmlWriter::WriteRaw(ArrayPtr<char16_t> buffer, int32_t
 | index | **int32_t** | The position within the buffer indicating the start of the text to write. |
 | count | **int32_t** | The number of characters to write. |
 
-## XmlWriter::WriteRaw(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **buffer** is **nullptr**. |
+| ArgumentOutOfRangeException | **index** or **count** is less than zero. or The buffer length minus **index** is less than **count**. |
+
+
+## XmlWriter::WriteRaw(const String&) method
 
 
 When overridden in a derived class, writes raw markup manually from a string.
@@ -38,7 +46,14 @@ virtual void System::Xml::XmlWriter::WriteRaw(const String &data)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [String](../../../system/string/)\& | [String](../../../system/string/) containing the text to write. |
+| data | const [String](../../../system/string/)& | [String](../../../system/string/) containing the text to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **data** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

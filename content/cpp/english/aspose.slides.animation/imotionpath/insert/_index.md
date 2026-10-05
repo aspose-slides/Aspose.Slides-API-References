@@ -22,7 +22,7 @@ virtual void Aspose::Slides::Animation::IMotionPath::Insert(int32_t index, Motio
 | --- | --- | --- |
 | index | **int32_t** | Index for command insertion **int32_t** |
 | type | [MotionCommandPathType](../../motioncommandpathtype/) | Type of command for animation motion effect behavior [MotionCommandPathType](../../motioncommandpathtype/) |
-| pts | [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\> | Points array [System::Drawing::PointF](../../../system.drawing/pointf/)[] |
+| pts | [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\> | Points array [System::Drawing::PointF](../../../system.drawing/pointf/)\[\] |
 | ptsType | [MotionPathPointsType](../../motionpathpointstype/) | Type of points in animation motion path [MotionPathPointsType](../../motionpathpointstype/) |
 | bRelativeCoord | **bool** | Indicates whether to use relative coordinates or not **bool** |
 

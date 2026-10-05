@@ -27,6 +27,13 @@ System::SharedPtr<ICommentAuthor> Aspose::Slides::CommentAuthorCollection::AddAu
 
 New [ICommentAuthor](../../icommentauthor/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if author with the same name and initials is already added. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

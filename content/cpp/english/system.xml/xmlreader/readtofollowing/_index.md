@@ -26,6 +26,13 @@ virtual bool System::Xml::XmlReader::ReadToFollowing(String name)
 
 **true** if a matching element is found; otherwise **false** and the [XmlReader](../) is in an end of file state.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The parameter is an empty string. |
+
+
 ## XmlReader::ReadToFollowing(String, String) method
 
 
@@ -46,6 +53,13 @@ virtual bool System::Xml::XmlReader::ReadToFollowing(String localName, String na
 ### Return Value
 
 **true** if a matching element is found; otherwise **false** and the [XmlReader](../) is in an end of file state.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | Both parameter values are **nullptr**. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.text/utf8encoding/operator_equal_equal/
 ---
-## UTF8Encoding::operator==(const UTF8Encoding\&) const method
+## UTF8Encoding::operator==(const UTF8Encoding&) const method
 
 
 Compares encodings parameters.
@@ -20,7 +20,7 @@ bool System::Text::UTF8Encoding::operator==(const UTF8Encoding &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [UTF8Encoding](../)\& | [Encoding](../../encoding/) to compare with. |
+| other | const [UTF8Encoding](../)& | [Encoding](../../encoding/) to compare with. |
 
 ### Return Value
 

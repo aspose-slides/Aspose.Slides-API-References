@@ -26,7 +26,7 @@ TimeSpan System::TimeZoneInfo::GetUtcOffset(DateTime date_time) const
 
 Time difference between time zones.
 
-## TimeZoneInfo::GetUtcOffset(const DateTimeOffset\&) const method
+## TimeZoneInfo::GetUtcOffset(const DateTimeOffset&) const method
 
 
 Calculates difference between time in this time zone and UTC time zone for a specified date and time.
@@ -40,7 +40,7 @@ TimeSpan System::TimeZoneInfo::GetUtcOffset(const DateTimeOffset &date_time_offs
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)\& | Date and time. |
+| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)& | Date and time. |
 
 ### Return Value
 

@@ -20,7 +20,7 @@ class InvalidatableTracker
 | Method | Description |
 | --- | --- |
 | **bool** [CheckValidity](./checkvalidity/)() const | Checks if the state of the tracked object has changed. |
-|  [InvalidatableTracker](./invalidatabletracker/)([Invalidatable](../invalidatable/) *) | Constructs a tracker object. |
+|  [InvalidatableTracker](./invalidatabletracker/)([Invalidatable](../invalidatable/) \*) | Constructs a tracker object. |
 ## See Also
 
 * Namespace [System::Collections](../)

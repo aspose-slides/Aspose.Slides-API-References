@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.printing/printpageeventargs/printpageeventargs/
 ---
-## PrintPageEventArgs::PrintPageEventArgs(const SharedPtr\<Graphics\>\&, const SharedPtr\<Rectangle\>\&, const SharedPtr\<Rectangle\>\&, const SharedPtr\<PageSettings\>\&) constructor
+## PrintPageEventArgs::PrintPageEventArgs(const SharedPtr\<Graphics\>&, const SharedPtr\<Rectangle\>&, const SharedPtr\<Rectangle\>&, const SharedPtr\<PageSettings\>&) constructor
 
 
 Constructs a new instance of [PrintPageEventArgs](../) class.

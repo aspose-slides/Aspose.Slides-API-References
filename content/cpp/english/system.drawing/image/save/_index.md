@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/image/save/
 ---
-## Image::Save(const String\&) method
+## Image::Save(const String&) method
 
 
 Saves the image represented by the current object to the specified file in PNG format.
@@ -20,9 +20,9 @@ void System::Drawing::Image::Save(const String &filename)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The name of the file to save the image to |
+| filename | const [String](../../../system/string/)& | The name of the file to save the image to |
 
-## Image::Save(const String\&, const Imaging::ImageFormatPtr\&) method
+## Image::Save(const String&, const Imaging::ImageFormatPtr&) method
 
 
 Saves the image represented by the current object to the specified file in the specified format.
@@ -36,10 +36,10 @@ void System::Drawing::Image::Save(const String &filename, const Imaging::ImageFo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The name of the file to save the image to |
-| format | const [Imaging::ImageFormatPtr](../../../system.drawing.imaging/imageformatptr/)\& | A format to save the image in |
+| filename | const [String](../../../system/string/)& | The name of the file to save the image to |
+| format | const [Imaging::ImageFormatPtr](../../../system.drawing.imaging/imageformatptr/)& | A format to save the image in |
 
-## Image::Save(const SharedPtr\<System::IO::Stream\>\&, const Imaging::ImageFormatPtr\&) method
+## Image::Save(const SharedPtr\<System::IO::Stream\>&, const Imaging::ImageFormatPtr&) method
 
 
 Saves the image represented by the current object to the specified stream in the specified format.
@@ -53,10 +53,10 @@ void System::Drawing::Image::Save(const SharedPtr<System::IO::Stream> &stream, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\& | A stream to save the image to |
-| format | const [Imaging::ImageFormatPtr](../../../system.drawing.imaging/imageformatptr/)\& | A format to save the image in |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>& | A stream to save the image to |
+| format | const [Imaging::ImageFormatPtr](../../../system.drawing.imaging/imageformatptr/)& | A format to save the image in |
 
-## Image::Save(const String\&, const Imaging::ImageCodecInfoPtr\&, const Imaging::EncoderParametersPtr\&) method
+## Image::Save(const String&, const Imaging::ImageCodecInfoPtr&, const Imaging::EncoderParametersPtr&) method
 
 
 Saves the image represented by the current object to the specified file using the specified encoder and encoder parameters.
@@ -70,11 +70,11 @@ void System::Drawing::Image::Save(const String &filename, const Imaging::ImageCo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The name of the file to save the image to |
-| encoder | const [Imaging::ImageCodecInfoPtr](../../../system.drawing.imaging/imagecodecinfoptr/)\& | The encoder to use |
-| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\& | The parameters of the encoder to use |
+| filename | const [String](../../../system/string/)& | The name of the file to save the image to |
+| encoder | const [Imaging::ImageCodecInfoPtr](../../../system.drawing.imaging/imagecodecinfoptr/)& | The encoder to use |
+| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)& | The parameters of the encoder to use |
 
-## Image::Save(const SharedPtr\<System::IO::Stream\>\&, const Imaging::ImageCodecInfoPtr\&, const Imaging::EncoderParametersPtr\&) method
+## Image::Save(const SharedPtr\<System::IO::Stream\>&, const Imaging::ImageCodecInfoPtr&, const Imaging::EncoderParametersPtr&) method
 
 
 Saves the image represented by the current object to the specified stream using the specified encoder and encoder parameters.
@@ -88,9 +88,9 @@ void System::Drawing::Image::Save(const SharedPtr<System::IO::Stream> &stream, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\& | A stream to save the image to |
-| encoder | const [Imaging::ImageCodecInfoPtr](../../../system.drawing.imaging/imagecodecinfoptr/)\& | The encoder to use |
-| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\& | The parameters of the encoder to used |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>& | A stream to save the image to |
+| encoder | const [Imaging::ImageCodecInfoPtr](../../../system.drawing.imaging/imagecodecinfoptr/)& | The encoder to use |
+| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)& | The parameters of the encoder to used |
 
 ## See Also
 

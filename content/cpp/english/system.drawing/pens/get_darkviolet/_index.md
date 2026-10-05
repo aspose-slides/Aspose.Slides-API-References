@@ -1,7 +1,7 @@
 ---
 title: get_DarkViolet()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF9400D3.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF9400D3."
 type: docs
 weight: 495
 url: /system.drawing/pens/get_darkviolet/

@@ -19,6 +19,14 @@ T System::Threading::Tasks::ResultTask<T>::get_Result()
 ### Return Value
 
 T The result value produced by the task
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| If | the task faulted, rethrows the captured exception |
+| OperationCanceledException | If the task was canceled |
+
 ## Remarks
 
 

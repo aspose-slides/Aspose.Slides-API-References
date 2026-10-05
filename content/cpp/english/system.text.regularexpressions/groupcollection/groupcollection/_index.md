@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text.regularexpressions/groupcollection/groupcollection/
 ---
-## GroupCollection::GroupCollection(const WeakPtr\<Match\>\&) constructor
+## GroupCollection::GroupCollection(const WeakPtr\<Match\>&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::RegularExpressions::GroupCollection::GroupCollection(const WeakPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| match | const [WeakPtr](../../../system/weakptr/)\<[Match](../../match/)\>\& | [Match](../../match/) to catch groups for. |
+| match | const [WeakPtr](../../../system/weakptr/)\<[Match](../../match/)\>& | [Match](../../match/) to catch groups for. |
 
 ## See Also
 

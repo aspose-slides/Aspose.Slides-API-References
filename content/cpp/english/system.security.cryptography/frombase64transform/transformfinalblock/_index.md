@@ -1,7 +1,7 @@
 ---
 title: TransformFinalBlock()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FromBase64Transform::TransformFinalBlock() method"
 type: docs
 weight: 79
 url: /system.security.cryptography/frombase64transform/transformfinalblock/

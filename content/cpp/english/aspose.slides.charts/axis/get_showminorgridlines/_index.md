@@ -9,7 +9,7 @@ url: /aspose.slides.charts/axis/get_showminorgridlines/
 ## Axis::get_ShowMinorGridLines() method
 
 
-To hide minor gridline set [get_MinorGridLinesFormat()](../get_minorgridlinesformat/)->get_Line()->get_FillFormat()->get(set)_FillType() to [FillType::NoFill](../../../aspose.slides/filltype/). Read-only **bool**.
+To hide minor gridline set [get_MinorGridLinesFormat()](../get_minorgridlinesformat/)-\>get_Line()-\>get_FillFormat()-\>get(set)_FillType() to [FillType::NoFill](../../../aspose.slides/filltype/). Read-only **bool**.
 
 ```cpp
 bool Aspose::Slides::Charts::Axis::get_ShowMinorGridLines() override

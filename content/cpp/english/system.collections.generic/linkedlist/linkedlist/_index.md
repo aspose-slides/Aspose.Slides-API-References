@@ -15,7 +15,7 @@ Creates empty [LinkedList](../).
 System::Collections::Generic::LinkedList<T>::LinkedList()
 ```
 
-## LinkedList::LinkedList(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
+## LinkedList::LinkedList(const SharedPtr\<IEnumerable\<T\>\>&) constructor
 
 
 Copy constructor.
@@ -29,7 +29,7 @@ System::Collections::Generic::LinkedList<T>::LinkedList(const SharedPtr<IEnumera
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\& | Collection to copy data from. |
+| collection | const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>& | Collection to copy data from. |
 
 ## See Also
 

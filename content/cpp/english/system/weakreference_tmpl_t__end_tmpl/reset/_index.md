@@ -1,12 +1,12 @@
 ---
 title: reset()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "WeakReference< T >::reset() method"
 type: docs
 weight: 40
 url: /system/weakreference_tmpl_t__end_tmpl/reset/
 ---
-## WeakReference< T >::reset() method
+## WeakReference\< T \>::reset() method
 
 
 
@@ -17,6 +17,6 @@ void System::WeakReference<T>::reset()
 
 ## See Also
 
-* Class [WeakReference< T >](../)
+* Class [WeakReference\< T \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

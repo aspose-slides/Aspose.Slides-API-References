@@ -20,6 +20,14 @@ virtual double System::Xml::XmlReader::ReadContentAsDouble()
 
 The text content as a double-precision floating-point number.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

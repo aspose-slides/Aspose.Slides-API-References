@@ -111,6 +111,13 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NullReferenceException | Is thrown when the source value is nullptr. |
+
+
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -173,6 +180,13 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 ### Return Value
 
 The cast result.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ThrowInvalidCastException | This exception is always thrown. |
+
 
 ## See Also
 

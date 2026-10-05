@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlwriter/writedoctype/
 ---
-## XmlWriter::WriteDocType(const String\&, const String\&, const String\&, const String\&) method
+## XmlWriter::WriteDocType(const String&, const String&, const String&, const String&) method
 
 
 When overridden in a derived class, writes the DOCTYPE declaration with the specified name and optional attributes.
@@ -20,10 +20,18 @@ virtual void System::Xml::XmlWriter::WriteDocType(const String &name, const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the DOCTYPE. This must be non-empty. |
-| pubid | const [String](../../../system/string/)\& | If non-null it also writes PUBLIC \"pubid\" \"sysid\" where **pubid** and **sysid** are replaced with the value of the given arguments. |
-| sysid | const [String](../../../system/string/)\& | If **pubid** is **nullptr** and **sysid** is non-null it writes SYSTEM \"sysid\" where **sysid** is replaced with the value of this argument. |
-| subset | const [String](../../../system/string/)\& | If non-null it writes [subset] where subset is replaced with the value of this argument. |
+| name | const [String](../../../system/string/)& | The name of the DOCTYPE. This must be non-empty. |
+| pubid | const [String](../../../system/string/)& | If non-null it also writes PUBLIC "pubid" "sysid" where **pubid** and **sysid** are replaced with the value of the given arguments. |
+| sysid | const [String](../../../system/string/)& | If **pubid** is **nullptr** and **sysid** is non-null it writes SYSTEM "sysid" where **sysid** is replaced with the value of this argument. |
+| subset | const [String](../../../system/string/)& | If non-null it writes \[subset\] where subset is replaced with the value of this argument. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | This method was called outside the prolog (after the root element). |
+| ArgumentException | The value for **name** would result in invalid XML. |
+
 
 ## See Also
 

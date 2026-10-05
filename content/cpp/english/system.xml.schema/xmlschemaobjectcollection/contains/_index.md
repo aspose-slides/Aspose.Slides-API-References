@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemaobjectcollection/contains/
 ---
-## XmlSchemaObjectCollection::Contains(const SharedPtr\<XmlSchemaObject\>\&) method
+## XmlSchemaObjectCollection::Contains(const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Indicates if the specified [XmlSchemaObject](../../xmlschemaobject/) is in the [XmlSchemaObjectCollection](../).
@@ -20,7 +20,7 @@ bool System::Xml::Schema::XmlSchemaObjectCollection::Contains(const SharedPtr<Xm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | The [XmlSchemaObject](../../xmlschemaobject/). |
+| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | The [XmlSchemaObject](../../xmlschemaobject/). |
 
 ### Return Value
 

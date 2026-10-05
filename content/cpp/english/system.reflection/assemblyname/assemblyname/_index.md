@@ -15,7 +15,7 @@ Constructor.
 System::Reflection::AssemblyName::AssemblyName()
 ```
 
-## AssemblyName::AssemblyName(const String\&) constructor
+## AssemblyName::AssemblyName(const String&) constructor
 
 
 Constructor.
@@ -29,9 +29,9 @@ System::Reflection::AssemblyName::AssemblyName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Assembly](../../assembly/) name. |
+| name | const [String](../../../system/string/)& | [Assembly](../../assembly/) name. |
 
-## AssemblyName::AssemblyName(const String\&, const Version\&) constructor
+## AssemblyName::AssemblyName(const String&, const Version&) constructor
 
 
 Constructor.
@@ -45,8 +45,8 @@ System::Reflection::AssemblyName::AssemblyName(const String &name, const Version
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Assembly](../../assembly/) name. |
-| version | const [Version](../../../system/version/)\& | [Assembly](../../assembly/) version. |
+| name | const [String](../../../system/string/)& | [Assembly](../../assembly/) name. |
+| version | const [Version](../../../system/version/)& | [Assembly](../../assembly/) version. |
 
 ## See Also
 

@@ -1,12 +1,12 @@
 ---
 title: Hold()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HolderInitializer< T, false >::Hold() method"
 type: docs
 weight: 27
 url: /system/holderinitializer_tmpl_t__false__end_tmpl/hold/
 ---
-## HolderInitializer< T, false >::Hold(const T\&) method
+## HolderInitializer\< T, false \>::Hold(const T&) method
 
 
 
@@ -17,6 +17,6 @@ const T & System::HolderInitializer<T, false>::Hold(const T &value)
 
 ## See Also
 
-* Struct [HolderInitializer< T, false >](../)
+* Struct [HolderInitializer\< T, false \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

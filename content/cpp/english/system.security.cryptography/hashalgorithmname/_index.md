@@ -19,8 +19,8 @@ class HashAlgorithmName
 
 | Method | Description |
 | --- | --- |
-| **bool** [Equals](./equals/)(const [HashAlgorithmName](./)\&) const |  |
-| static [HashAlgorithmName](./) [FromOid](./fromoid/)(const [String](../../system/string/)\&) | Create [HashAlgorithmName](./) from OID-value. |
+| **bool** [Equals](./equals/)(const [HashAlgorithmName](./)&) const |  |
+| static [HashAlgorithmName](./) [FromOid](./fromoid/)(const [String](../../system/string/)&) | Create [HashAlgorithmName](./) from OID-value. |
 | static [HashAlgorithmName](./) [get_MD5](./get_md5/)() | Gets a [HashAlgorithmName](./) representing [MD5](../md5/). |
 | [String](../../system/string/) [get_Name](./get_name/)() const | Gets string representation of the algorithm name. |
 | static [HashAlgorithmName](./) [get_SHA1](./get_sha1/)() | Gets a [HashAlgorithmName](./) representing [SHA1](../sha1/). |
@@ -29,20 +29,20 @@ class HashAlgorithmName
 | static [HashAlgorithmName](./) [get_SHA512](./get_sha512/)() | Gets a [HashAlgorithmName](./) representing [SHA512](../sha512/). |
 | int [GetHashCode](./gethashcode/)() const |  |
 |  [HashAlgorithmName](./hashalgorithmname/)() |  |
-|  [HashAlgorithmName](./hashalgorithmname/)(const [String](../../system/string/)\&) | Constructor. |
+|  [HashAlgorithmName](./hashalgorithmname/)(const [String](../../system/string/)&) | Constructor. |
 | **bool** [IsNull](./isnull/)() const |  |
-| **bool** [operator!=](./operator_not_equal/)(const [HashAlgorithmName](./)\&) const |  |
+| **bool** [operator!=](./operator_not_equal/)(const [HashAlgorithmName](./)&) const |  |
 | **bool** [operator!=](./operator_not_equal/)(std::nullptr_t) const |  |
-| **bool** [operator<](./operator_less/)(std::nullptr_t) const |  |
-| **bool** [operator<=](./operator_less_equal/)(std::nullptr_t) const |  |
-| [HashAlgorithmName](./)\& [operator=](./operator_equal/)(const [HashAlgorithmName](./)\&) |  |
-| **bool** [operator==](./operator_equal_equal/)(const [HashAlgorithmName](./)\&) const |  |
+| **bool** [operator\<](./operator_less/)(std::nullptr_t) const |  |
+| **bool** [operator\<=](./operator_less_equal/)(std::nullptr_t) const |  |
+| [HashAlgorithmName](./)& [operator=](./operator_equal/)(const [HashAlgorithmName](./)&) |  |
+| **bool** [operator==](./operator_equal_equal/)(const [HashAlgorithmName](./)&) const |  |
 | **bool** [operator==](./operator_equal_equal/)(std::nullptr_t) const |  |
-| **bool** [operator>](./operator_greater/)(std::nullptr_t) const |  |
-| **bool** [operator>=](./operator_greater_equal/)(std::nullptr_t) const |  |
+| **bool** [operator\>](./operator_greater/)(std::nullptr_t) const |  |
+| **bool** [operator\>=](./operator_greater_equal/)(std::nullptr_t) const |  |
 | [String](../../system/string/) [ToString](./tostring/)() const | Gets string representation of the algorithm name. |
-| static **bool** [TryFromOid](./tryfromoid/)(const [String](../../system/string/)\&, [HashAlgorithmName](./)\&) | Try to create [HashAlgorithmName](./) from OID-value. |
-| static const [TypeInfo](../../system/typeinfo/)\& [Type](./type/)() | Returns a [TypeInfo](../../system/typeinfo/) object that represent [TimeSpan](../../system/timespan/) structure. |
+| static **bool** [TryFromOid](./tryfromoid/)(const [String](../../system/string/)&, [HashAlgorithmName](./)&) | Try to create [HashAlgorithmName](./) from OID-value. |
+| static const [TypeInfo](../../system/typeinfo/)& [Type](./type/)() | Returns a [TypeInfo](../../system/typeinfo/) object that represent [TimeSpan](../../system/timespan/) structure. |
 ## See Also
 
 * Namespace [System::Security::Cryptography](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.globalization/datetimeformatinfo/set_calendar/
 ---
-## DateTimeFormatInfo::set_Calendar(const SharedPtr\<Calendar\>\&) method
+## DateTimeFormatInfo::set_Calendar(const SharedPtr\<Calendar\>&) method
 
 
 Sets calendar associated with formatter.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_Calendar(const SharedPtr<Cal
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Calendar](../../calendar/)\>\& | [Calendar](../../calendar/) object. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Calendar](../../calendar/)\>& | [Calendar](../../calendar/) object. |
 
 ## See Also
 

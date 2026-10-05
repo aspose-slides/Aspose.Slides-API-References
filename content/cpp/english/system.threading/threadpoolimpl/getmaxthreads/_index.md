@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.threading/threadpoolimpl/getmaxthreads/
 ---
-## ThreadPoolImpl::GetMaxThreads(int\&, int\&) method
+## ThreadPoolImpl::GetMaxThreads(int&, int&) method
 
 
 Gets maximal number of concurrent threads.
@@ -20,8 +20,8 @@ void System::Threading::ThreadPoolImpl::GetMaxThreads(int &wt, int &cpt)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wt | int\& | Reference to variable to store maximal number of awailable worker threads. |
-| cpt | int\& | Reference to variable to store maximal number of awailable [IO](../../../system.io/) threads. |
+| wt | int& | Reference to variable to store maximal number of awailable worker threads. |
+| cpt | int& | Reference to variable to store maximal number of awailable [IO](../../../system.io/) threads. |
 
 ## See Also
 

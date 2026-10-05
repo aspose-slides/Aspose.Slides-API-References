@@ -23,6 +23,13 @@ virtual void System::Xml::XmlWriter::WriteSurrogateCharEntity(char16_t lowChar, 
 | lowChar | char16_t | The low surrogate. This must be a value between 0xDC00 and 0xDFFF. |
 | highChar | char16_t | The high surrogate. This must be a value between 0xD800 and 0xDBFF. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid surrogate character pair was passed. |
+
+
 ## See Also
 
 * Class [XmlWriter](../)

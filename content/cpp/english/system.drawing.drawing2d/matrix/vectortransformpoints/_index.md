@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.drawing.drawing2d/matrix/vectortransformpoints/
 ---
-## Matrix::VectorTransformPoints(const ArrayPtr\<Point\>\&) method
+## Matrix::VectorTransformPoints(const ArrayPtr\<Point\>&) method
 
 
 Multiplies each vector in an array by the matrix represented by the current object.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::Matrix::VectorTransformPoints(const ArrayPtr<Po
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pts | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array containing the points to transform |
+| pts | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | An array containing the points to transform |
 
-## Matrix::VectorTransformPoints(const System::Details::ArrayView\<Point\>\&) method
+## Matrix::VectorTransformPoints(const System::Details::ArrayView\<Point\>&) method
 
 
 Multiplies each vector in an array by the matrix represented by the current object.
@@ -36,7 +36,7 @@ void System::Drawing::Drawing2D::Matrix::VectorTransformPoints(const System::Det
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pts | const System::Details::ArrayView\<[Point](../../../system.drawing/point/)\>\& | An array view containing the points to transform |
+| pts | const System::Details::ArrayView\<[Point](../../../system.drawing/point/)\>& | An array view containing the points to transform |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: set_Operator()
 second_title: Aspose.Slides for C++ API Reference
-description: "Nary Operator Character For example: '\\u2211', '\\u222B'"
+description: "Nary Operator Character For example: '∑', '∫'"
 type: docs
 weight: 53
 url: /aspose.slides.mathtext/mathnaryoperator/set_operator/
@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/mathnaryoperator/set_operator/
 ## MathNaryOperator::set_Operator(char16_t) method
 
 
-Nary Operator Character For example: '\\u2211', '\\u222B'
+Nary Operator Character For example: '∑', '∫'
 
 ```cpp
 void Aspose::Slides::MathText::MathNaryOperator::set_Operator(char16_t value) override

@@ -1,7 +1,7 @@
 ---
 title: get_SubjectNames()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::get_SubjectNames() method"
 type: docs
 weight: 27
 url: /system.security.cryptography.xml/keyinfox509data/get_subjectnames/

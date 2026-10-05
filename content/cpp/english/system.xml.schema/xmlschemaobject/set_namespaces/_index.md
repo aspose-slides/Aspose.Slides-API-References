@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml.schema/xmlschemaobject/set_namespaces/
 ---
-## XmlSchemaObject::set_Namespaces(const SharedPtr\<System::Xml::Serialization::XmlSerializerNamespaces\>\&) method
+## XmlSchemaObject::set_Namespaces(const SharedPtr\<System::Xml::Serialization::XmlSerializerNamespaces\>&) method
 
 
 Sets the XmlSerializerNamespaces to use with this schema object.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaObject::set_Namespaces(const SharedPtr<System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::Serialization::XmlSerializerNamespaces](../../../system.xml.serialization/xmlserializernamespaces/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::Serialization::XmlSerializerNamespaces](../../../system.xml.serialization/xmlserializernamespaces/)\>& | The value to set. |
 
 ## See Also
 

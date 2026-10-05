@@ -1,7 +1,7 @@
 ---
 title: HashAlgorithmName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HashAlgorithmName::HashAlgorithmName() constructor"
 type: docs
 weight: 105
 url: /system.security.cryptography/hashalgorithmname/hashalgorithmname/
@@ -15,7 +15,7 @@ url: /system.security.cryptography/hashalgorithmname/hashalgorithmname/
 System::Security::Cryptography::HashAlgorithmName::HashAlgorithmName()=default
 ```
 
-## HashAlgorithmName::HashAlgorithmName(const String\&) constructor
+## HashAlgorithmName::HashAlgorithmName(const String&) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Security::Cryptography::HashAlgorithmName::HashAlgorithmName(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Algorithm name. |
+| name | const [String](../../../system/string/)& | Algorithm name. |
 
 ## See Also
 

@@ -26,6 +26,13 @@ SharedPtr<XmlNode> System::Xml::XmlAttribute::RemoveChild(SharedPtr<XmlNode> old
 
 The [XmlNode](../../xmlnode/) removed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **oldChild** is not a child of this node. Or this node is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

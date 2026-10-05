@@ -22,6 +22,13 @@ virtual void System::Security::Cryptography::SymmetricAlgorithm::set_KeySize(int
 | --- | --- | --- |
 | value | int | Key size in bits. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| CryptographicException | If key size is not valid. |
+
+
 ## See Also
 
 * Class [SymmetricAlgorithm](../)

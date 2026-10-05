@@ -1,7 +1,7 @@
 ---
 title: get_Azure()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0FFFF.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0FFFF."
 type: docs
 weight: 66
 url: /system.drawing/pens/get_azure/

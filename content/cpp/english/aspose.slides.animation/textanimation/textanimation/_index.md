@@ -1,7 +1,7 @@
 ---
 title: TextAnimation()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextAnimation::TextAnimation() constructor"
 type: docs
 weight: 66
 url: /aspose.slides.animation/textanimation/textanimation/

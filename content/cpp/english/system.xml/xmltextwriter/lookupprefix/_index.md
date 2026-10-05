@@ -26,6 +26,13 @@ String System::Xml::XmlTextWriter::LookupPrefix(String ns) override
 
 The matching prefix. Or **nullptr** if no matching namespace URI is found in the current scope.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **ns** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing.imaging/imageattributes/setcolormatrices/
 ---
-## ImageAttributes::SetColorMatrices(const SharedPtr\<ColorMatrix\>\&, const SharedPtr\<ColorMatrix\>\&, ColorMatrixFlag, ColorAdjustType) method
+## ImageAttributes::SetColorMatrices(const SharedPtr\<ColorMatrix\>&, const SharedPtr\<ColorMatrix\>&, ColorMatrixFlag, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Imaging::ImageAttributes::SetColorMatrices(const SharedPtr<ColorMatrix> &newColorMatrix, const SharedPtr<ColorMatrix> &grayMatrix, ColorMatrixFlag mode=ColorMatrixFlag::Default, ColorAdjustType type=ColorAdjustType::Default)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

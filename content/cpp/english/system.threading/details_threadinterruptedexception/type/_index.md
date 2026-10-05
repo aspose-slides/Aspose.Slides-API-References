@@ -1,7 +1,7 @@
 ---
 title: Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ThreadInterruptedException::Type() method"
 type: docs
 weight: 1
 url: /system.threading/details_threadinterruptedexception/type/

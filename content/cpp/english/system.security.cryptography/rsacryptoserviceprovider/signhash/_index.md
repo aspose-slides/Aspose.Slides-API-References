@@ -24,7 +24,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignHash(
 | hash_algorithm | [HashAlgorithmName](../../hashalgorithmname/) | Hash algorithm. |
 | padding | [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\> | Padding mode. return [RSA](../../rsa/) signature for the specified hash. |
 
-## RSACryptoServiceProvider::SignHash(const ByteArrayPtr\&, const String\&) method
+## RSACryptoServiceProvider::SignHash(const ByteArrayPtr&, const String&) method
 
 
 Computes the signature of specified input value. Not implemented.
@@ -38,8 +38,8 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignHash(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash value of data to be signed. |
-| str | const [String](../../../system/string/)\& | Hash algorithm identifier used to create the hash. |
+| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash value of data to be signed. |
+| str | const [String](../../../system/string/)& | Hash algorithm identifier used to create the hash. |
 
 ### Return Value
 

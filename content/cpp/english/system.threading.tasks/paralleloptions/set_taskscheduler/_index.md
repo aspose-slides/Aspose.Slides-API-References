@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.threading.tasks/paralleloptions/set_taskscheduler/
 ---
-## ParallelOptions::set_TaskScheduler(const SharedPtr\<TaskScheduler\>\&) method
+## ParallelOptions::set_TaskScheduler(const SharedPtr\<TaskScheduler\>&) method
 
 
 Sets the [TaskScheduler](../../taskscheduler/) associated with this [ParallelOptions](../) instance.
@@ -20,7 +20,7 @@ void System::Threading::Tasks::ParallelOptions::set_TaskScheduler(const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>\& | The [TaskScheduler](../../taskscheduler/) to use for scheduling tasks. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[TaskScheduler](../../taskscheduler/)\>& | The [TaskScheduler](../../taskscheduler/) to use for scheduling tasks. |
 
 ## See Also
 

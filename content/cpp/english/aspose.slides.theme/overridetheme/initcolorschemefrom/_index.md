@@ -22,6 +22,14 @@ void Aspose::Slides::Theme::OverrideTheme::InitColorSchemeFrom(System::SharedPtr
 | --- | --- | --- |
 | colorScheme | [System::SharedPtr](../../../system/sharedptr/)\<[IColorScheme](../../icolorscheme/)\> | Data to initialize from. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [ColorScheme](../../colorscheme/) is already initialized (not null). |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if the colorScheme parameter is null. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

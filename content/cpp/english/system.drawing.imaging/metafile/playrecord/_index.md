@@ -16,6 +16,13 @@ void System::Drawing::Imaging::Metafile::PlayRecord(EmfPlusRecordType, int32_t, 
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [EmfPlusRecordType](../../emfplusrecordtype/)

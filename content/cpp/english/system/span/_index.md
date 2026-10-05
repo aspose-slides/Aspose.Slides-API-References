@@ -26,8 +26,8 @@ template<typename T>class Span : public System::Details::SpanCore<T, Span<T>, Sp
 | Method | Description |
 | --- | --- |
 | void [Clear](./clear/)() const | Clears the contents of the span by setting all elements to default value. |
-| void [Fill](./fill/)(const T\&) const | Fills the span with the specified value. |
-| static [ThisType](./) [to_Span](./to_span/)(const typename BaseType::ArrayPtrT\&) | Converts an array to a [Span](./). |
+| void [Fill](./fill/)(const T&) const | Fills the span with the specified value. |
+| static [ThisType](./) [to_Span](./to_span/)(const typename BaseType::ArrayPtrT&) | Converts an array to a [Span](./). |
 
 ## See Also
 

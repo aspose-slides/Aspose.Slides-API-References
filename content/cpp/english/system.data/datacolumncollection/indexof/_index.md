@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.data/datacolumncollection/indexof/
 ---
-## DataColumnCollection::IndexOf(const System::String\&) method
+## DataColumnCollection::IndexOf(const System::String&) method
 
 
 Looks for column in collection.
@@ -20,7 +20,7 @@ int32_t System::Data::DataColumnCollection::IndexOf(const System::String &column
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnName | const [System::String](../../../system/string/)\& | Name of column to look for. |
+| columnName | const [System::String](../../../system/string/)& | Name of column to look for. |
 
 ### Return Value
 

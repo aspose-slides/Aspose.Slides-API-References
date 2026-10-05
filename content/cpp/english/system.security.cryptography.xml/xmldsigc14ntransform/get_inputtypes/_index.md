@@ -1,7 +1,7 @@
 ---
 title: get_InputTypes()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigC14NTransform::get_InputTypes() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/xmldsigc14ntransform/get_inputtypes/

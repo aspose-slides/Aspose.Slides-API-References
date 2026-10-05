@@ -1,7 +1,7 @@
 ---
 title: "System::Security::Cryptography::Pkcs"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Cryptography::Pkcs namespace"
 type: docs
 weight: 859
 url: /system.security.cryptography.pkcs/

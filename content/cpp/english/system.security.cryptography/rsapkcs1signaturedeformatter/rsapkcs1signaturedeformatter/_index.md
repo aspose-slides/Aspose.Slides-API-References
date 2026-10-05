@@ -15,7 +15,7 @@ Constructor.
 System::Security::Cryptography::RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter()
 ```
 
-## RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter(const System::SharedPtr\<AsymmetricAlgorithm\>\&) constructor
+## RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter(const System::SharedPtr\<AsymmetricAlgorithm\>&) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Security::Cryptography::RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureD
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const [System::SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>\& | Algorithm to extract key from. |
+| key | const [System::SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>& | Algorithm to extract key from. |
 
 ## See Also
 

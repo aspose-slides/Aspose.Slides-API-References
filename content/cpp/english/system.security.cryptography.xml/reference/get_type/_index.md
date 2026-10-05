@@ -1,7 +1,7 @@
 ---
 title: get_Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::get_Type() method"
 type: docs
 weight: 53
 url: /system.security.cryptography.xml/reference/get_type/

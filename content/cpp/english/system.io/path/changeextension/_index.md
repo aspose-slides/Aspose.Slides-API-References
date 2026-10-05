@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/path/changeextension/
 ---
-## Path::ChangeExtension(const String\&, const String\&) method
+## Path::ChangeExtension(const String&, const String&) method
 
 
 Changes the extension in the specified file path.
@@ -20,8 +20,8 @@ static String System::IO::Path::ChangeExtension(const String &path, const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A file path |
-| extension | const [String](../../../system/string/)\& | The extension to replace the one in **path** with |
+| path | const [String](../../../system/string/)& | A file path |
+| extension | const [String](../../../system/string/)& | The extension to replace the one in **path** with |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.text/stringbuilder/replace/
 ---
-## StringBuilder::Replace(const String\&, const String\&) method
+## StringBuilder::Replace(const String&, const String&) method
 
 
 Replaces substring through the builder.
@@ -20,14 +20,14 @@ StringBuilder * System::Text::StringBuilder::Replace(const String &oldString, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldString | const [String](../../../system/string/)\& | [String](../../../system/string/) to replace. |
-| newString | const [String](../../../system/string/)\& | Replacement string. |
+| oldString | const [String](../../../system/string/)& | [String](../../../system/string/) to replace. |
+| newString | const [String](../../../system/string/)& | Replacement string. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::Replace(const String\&, const String\&, int, int) method
+## StringBuilder::Replace(const String&, const String&, int, int) method
 
 
 Replaces substring through the builder's range.
@@ -41,8 +41,8 @@ StringBuilder * System::Text::StringBuilder::Replace(const String &oldString, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldString | const [String](../../../system/string/)\& | [String](../../../system/string/) to replace. |
-| newString | const [String](../../../system/string/)\& | Replacement string. |
+| oldString | const [String](../../../system/string/)& | [String](../../../system/string/) to replace. |
+| newString | const [String](../../../system/string/)& | Replacement string. |
 | position | int | Builder's replacement range beginning position. |
 | count | int | Builder's replacement range length. |
 

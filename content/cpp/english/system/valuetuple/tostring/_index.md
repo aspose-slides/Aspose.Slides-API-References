@@ -1,7 +1,7 @@
 ---
 title: ToString()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::ToString() method"
 type: docs
 weight: 40
 url: /system/valuetuple/tostring/

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.text/icuencoder/convert/
 ---
-## ICUEncoder::Convert(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, int, bool, int\&, int\&, bool\&) method
+## ICUEncoder::Convert(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, int, bool, int&, int&, bool&) method
 
 
 Converts characters to bytes.
@@ -27,11 +27,11 @@ virtual void System::Text::ICUEncoder::Convert(ArrayPtr<char_t> chars, int charI
 | byteIndex | int | Destination array offset. |
 | byteCount | int | Destination array size. |
 | flush | **bool** | If true, cleans internal encoder state after calculation. |
-| charsUsed | int\& | Reference to variable to store count of characters read. |
-| bytesUsed | int\& | Reference to variable to store count of bytes written. |
-| completed | **bool**\& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
+| charsUsed | int& | Reference to variable to store count of characters read. |
+| bytesUsed | int& | Reference to variable to store count of bytes written. |
+| completed | **bool**& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
 
-## ICUEncoder::Convert(const char_t *, int, uint8_t *, int, bool, int\&, int\&, bool\&) method
+## ICUEncoder::Convert(const char_t \*, int, uint8_t \*, int, bool, int&, int&, bool&) method
 
 
 Converts characters to bytes.
@@ -45,14 +45,14 @@ virtual void System::Text::ICUEncoder::Convert(const char_t *chars, int charCoun
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters to encode. |
+| chars | const char_t \* | Characters to encode. |
 | charCount | int | Input buffer size. |
-| bytes | **uint8_t** * | Destination byte buffer. |
+| bytes | **uint8_t** \* | Destination byte buffer. |
 | byteCount | int | Destination array size. |
 | flush | **bool** | If true, cleans internal encoder state after calculation. |
-| charsUsed | int\& | Reference to variable to store count of characters read. |
-| bytesUsed | int\& | Reference to variable to store count of bytes written. |
-| completed | **bool**\& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
+| charsUsed | int& | Reference to variable to store count of characters read. |
+| bytesUsed | int& | Reference to variable to store count of bytes written. |
+| completed | **bool**& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
 
 ## See Also
 

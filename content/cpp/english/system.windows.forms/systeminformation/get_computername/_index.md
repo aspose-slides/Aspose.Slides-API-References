@@ -16,6 +16,13 @@ static System::String System::Windows::Forms::SystemInformation::get_ComputerNam
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /system.drawing/graphics/drawclosedcurve/
 ---
-## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<Point\>\&, float, Drawing2D::FillMode) method
+## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<Point\>&, float, Drawing2D::FillMode) method
 
 
 Draws a closed spline using the specified pen.
@@ -20,12 +20,12 @@ void System::Drawing::Graphics::DrawClosedCurve(const SharedPtr<Pen> &pen, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | tension | **float** | Value that specifies the tension of the spline |
 | fillmode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | IGNORED |
 
-## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<PointF\>\&, float, Drawing2D::FillMode) method
+## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>&, const ArrayPtr\<PointF\>&, float, Drawing2D::FillMode) method
 
 
 Draws a closed spline using the specified pen.
@@ -39,8 +39,8 @@ void System::Drawing::Graphics::DrawClosedCurve(const SharedPtr<Pen> &pen, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | tension | **float** | Value that specifies the tension of the spline |
 | fillmode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | IGNORED |
 

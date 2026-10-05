@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.text.regularexpressions/regex/escape/
 ---
-## Regex::Escape(const String\&) method
+## Regex::Escape(const String&) method
 
 
 Escapes special characters to use string as part of the pattern.
@@ -20,7 +20,7 @@ static String System::Text::RegularExpressions::Regex::Escape(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to escape special characters in. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to escape special characters in. |
 
 ### Return Value
 

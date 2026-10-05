@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Export::Xaml"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Export::Xaml namespace"
 type: docs
 weight: 105
 url: /aspose.slides.export.xaml/

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.security/securityelement/fromstring/
 ---
-## SecurityElement::FromString(const String\&) method
+## SecurityElement::FromString(const String&) method
 
 
 Creates element from XML code.
@@ -20,7 +20,7 @@ static SecurityElement System::Security::SecurityElement::FromString(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml | const [String](../../../system/string/)\& | XML code. |
+| xml | const [String](../../../system/string/)& | XML code. |
 
 ### Return Value
 

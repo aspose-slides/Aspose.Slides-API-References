@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /system.globalization/cultureinfo/set_defaultthreadcurrentuiculture/
 ---
-## CultureInfo::set_DefaultThreadCurrentUICulture(const CultureInfoPtr\&) method
+## CultureInfo::set_DefaultThreadCurrentUICulture(const CultureInfoPtr&) method
 
 
 Sets default UI culture in the current application domain.
@@ -20,7 +20,7 @@ static void System::Globalization::CultureInfo::set_DefaultThreadCurrentUICultur
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [CultureInfoPtr](../../cultureinfoptr/)\& | Culture to set. |
+| value | const [CultureInfoPtr](../../cultureinfoptr/)& | Culture to set. |
 
 ## See Also
 

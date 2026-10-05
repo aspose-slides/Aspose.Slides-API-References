@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /system.drawing/graphics/intersectclip/
 ---
-## Graphics::IntersectClip(const System::SharedPtr\<Region\>\&) method
+## Graphics::IntersectClip(const System::SharedPtr\<Region\>&) method
 
 
 Updates the clip region of this object to the intersection of the current clip and the specified clip.
@@ -20,7 +20,7 @@ void System::Drawing::Graphics::IntersectClip(const System::SharedPtr<Region> &r
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region | const [System::SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\& | The region to intersect with |
+| region | const [System::SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>& | The region to intersect with |
 
 ## Graphics::IntersectClip(System::Drawing::RectangleF) method
 

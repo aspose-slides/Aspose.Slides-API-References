@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.xml.schema/xmlatomicvalue/valueas/
 ---
-## XmlAtomicValue::ValueAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
+## XmlAtomicValue::ValueAs(const TypeInfo&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Returns the validated XML element or attribute's value as the type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -20,12 +20,21 @@ SharedPtr<Object> System::Xml::Schema::XmlAtomicValue::ValueAs(const TypeInfo &t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | The type to return the validated XML element or attribute's value as. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | The type to return the validated XML element or attribute's value as. |
 | nsResolver | [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\> | The [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object used to resolve namespace prefixes. |
 
 ### Return Value
 
 The value of the validated XML element or attribute as the type requested.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The validated XML element or attribute's value is not in the correct format for the target type. |
+| InvalidCastException | The attempted cast is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
 
 ## See Also
 

@@ -1,12 +1,12 @@
 ---
 title: operator==()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::operator==() method"
 type: docs
 weight: 79
 url: /system/valuetuple/operator_equal_equal/
 ---
-## ValueTuple::operator==(const ValueTuple\&) const method
+## ValueTuple::operator==(const ValueTuple&) const method
 
 
 

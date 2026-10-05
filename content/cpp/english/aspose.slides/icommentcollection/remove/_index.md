@@ -22,6 +22,14 @@ virtual void Aspose::Slides::ICommentCollection::Remove(System::SharedPtr<IComme
 | --- | --- | --- |
 | comment | [System::SharedPtr](../../../system/sharedptr/)\<[IComment](../../icomment/)\> | The comment to remove from a collection. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | If comment is **null** |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if comment is already removed. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -47,7 +47,7 @@ static String System::Web::HttpUtility::UrlDecode(String str, System::SharedPtr<
 
 Decoded URI fragment.
 
-## HttpUtility::UrlDecode(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<Text::Encoding\>\&) method
+## HttpUtility::UrlDecode(const System::ArrayPtr\<uint8_t\>&, const System::SharedPtr\<Text::Encoding\>&) method
 
 
 Decodes URI fragment from bytes array.
@@ -61,14 +61,14 @@ static String System::Web::HttpUtility::UrlDecode(const System::ArrayPtr<uint8_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Encoded URI fragment. |
-| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | Encoding to use. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Encoded URI fragment. |
+| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | Encoding to use. |
 
 ### Return Value
 
 Decoded URI fragment.
 
-## HttpUtility::UrlDecode(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t, const System::SharedPtr\<Text::Encoding\>\&) method
+## HttpUtility::UrlDecode(const System::ArrayPtr\<uint8_t\>&, int32_t, int32_t, const System::SharedPtr\<Text::Encoding\>&) method
 
 
 Decodes URI fragment from bytes array.
@@ -82,10 +82,10 @@ static String System::Web::HttpUtility::UrlDecode(const System::ArrayPtr<uint8_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Encoded URI fragment. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Encoded URI fragment. |
 | offset | **int32_t** | Offset in the given byte array. |
 | count | **int32_t** | Number of bytes to read from. |
-| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | Encoding to use. |
+| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | Encoding to use. |
 
 ### Return Value
 

@@ -20,6 +20,13 @@ virtual XmlNodeType System::Xml::XmlReader::MoveToContent()
 
 The [XmlReader::get_NodeType](../get_nodetype/) value of the current node found by the method or [XmlNodeType::None](../../xmlnodetype/) if the reader has reached the end of the input stream.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | Incorrect XML encountered in the input stream. |
+
+
 ## See Also
 
 * Enum [XmlNodeType](../../xmlnodetype/)

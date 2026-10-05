@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FloatColor::Equals() method"
 type: docs
 weight: 40
 url: /aspose.slides/floatcolor/equals/

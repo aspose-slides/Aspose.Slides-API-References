@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.data.common/dbproviderfactories/getfactory/
 ---
-## DbProviderFactories::GetFactory(const String\&) method
+## DbProviderFactories::GetFactory(const String&) method
 
 
 Gets DB provider factory by name.
@@ -20,7 +20,7 @@ static SharedPtr<DbProviderFactory> System::Data::Common::DbProviderFactories::G
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| providerInvariantName | const [String](../../../system/string/)\& | Provider name (e. g. database vendor name). |
+| providerInvariantName | const [String](../../../system/string/)& | Provider name (e. g. database vendor name). |
 
 ### Return Value
 

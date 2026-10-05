@@ -16,6 +16,13 @@ void System::Drawing::Drawing2D::PathGradientBrush::SetSigmaBellShape(float focu
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [PathGradientBrush](../)

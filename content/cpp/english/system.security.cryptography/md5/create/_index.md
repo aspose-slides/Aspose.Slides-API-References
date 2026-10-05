@@ -20,7 +20,7 @@ static SharedPtr<MD5> System::Security::Cryptography::MD5::Create()
 
 Newly created algorithm object.
 
-## MD5::Create(const String\&) method
+## MD5::Create(const String&) method
 
 
 Creates [MD5](../) algorithm.
@@ -34,7 +34,7 @@ static SharedPtr<MD5> System::Security::Cryptography::MD5::Create(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algName | const [String](../../../system/string/)\& | Should be \"System.Security.Cryptography.MD5\". |
+| algName | const [String](../../../system/string/)& | Should be "System.Security.Cryptography.MD5". |
 
 ### Return Value
 

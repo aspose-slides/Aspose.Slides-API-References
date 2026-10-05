@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /system.memoryextensions/toupper/
 ---
-## System::MemoryExtensions::ToUpper(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&, const SharedPtr\<Globalization::CultureInfo\>\&) function
+## System::MemoryExtensions::ToUpper(const ReadOnlySpan\<char16_t\>&, Span\<char16_t\>&, const SharedPtr\<Globalization::CultureInfo\>&) function
 
 
 Converts characters to uppercase using specified culture.
@@ -20,9 +20,9 @@ int32_t System::MemoryExtensions::ToUpper(const ReadOnlySpan<char16_t> &source, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The source character span to convert |
-| destination | [Span](../../system/span/)\<char16_t\>\& | The destination span to store converted characters |
-| culture | const [SharedPtr](../../system/sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>\& | The culture to use for conversion (nullptr for current culture) |
+| source | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The source character span to convert |
+| destination | [Span](../../system/span/)\<char16_t\>& | The destination span to store converted characters |
+| culture | const [SharedPtr](../../system/sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>& | The culture to use for conversion (nullptr for current culture) |
 
 ### Return Value
 

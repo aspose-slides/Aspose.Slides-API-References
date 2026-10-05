@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.xml/xmlnode/selectnodes/
 ---
-## XmlNode::SelectNodes(const String\&) method
+## XmlNode::SelectNodes(const String&) method
 
 
 Selects a list of nodes matching the [XPath](../../../system.xml.xpath/) expression.
@@ -20,13 +20,20 @@ SharedPtr<XmlNodeList> System::Xml::XmlNode::SelectNodes(const String &xpath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | The [XPath](../../../system.xml.xpath/) expression. |
+| xpath | const [String](../../../system/string/)& | The [XPath](../../../system.xml.xpath/) expression. |
 
 ### Return Value
 
 An [XmlNodeList](../../xmlnodelist/) containing a collection of nodes matching the [XPath](../../../system.xml.xpath/) query.
 
-## XmlNode::SelectNodes(const String\&, const SharedPtr\<XmlNamespaceManager\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPath](../../../system.xml.xpath/) expression contains a prefix. |
+
+
+## XmlNode::SelectNodes(const String&, const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Selects a list of nodes matching the [XPath](../../../system.xml.xpath/) expression. Any prefixes found in the [XPath](../../../system.xml.xpath/) expression are resolved using the supplied [XmlNamespaceManager](../../xmlnamespacemanager/).
@@ -40,12 +47,19 @@ SharedPtr<XmlNodeList> System::Xml::XmlNode::SelectNodes(const String &xpath, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | The [XPath](../../../system.xml.xpath/) expression. |
-| nsmgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | An [XmlNamespaceManager](../../xmlnamespacemanager/) to use for resolving namespaces for prefixes in the [XPath](../../../system.xml.xpath/) expression. |
+| xpath | const [String](../../../system/string/)& | The [XPath](../../../system.xml.xpath/) expression. |
+| nsmgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | An [XmlNamespaceManager](../../xmlnamespacemanager/) to use for resolving namespaces for prefixes in the [XPath](../../../system.xml.xpath/) expression. |
 
 ### Return Value
 
 An [XmlNodeList](../../xmlnodelist/) containing a collection of nodes matching the [XPath](../../../system.xml.xpath/) query.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XPath](../../../system.xml.xpath/) expression contains a prefix which is not defined in the [XmlNamespaceManager](../../xmlnamespacemanager/). |
+
 
 ## See Also
 

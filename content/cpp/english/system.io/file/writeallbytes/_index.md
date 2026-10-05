@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system.io/file/writeallbytes/
 ---
-## File::WriteAllBytes(const String\&, const ArrayPtr\<uint8_t\>\&) method
+## File::WriteAllBytes(const String&, const ArrayPtr\<uint8_t\>&) method
 
 
 Overwrites the specified binary file and writes the specified bytes to it.
@@ -20,8 +20,8 @@ static void System::IO::File::WriteAllBytes(const String &path, const ArrayPtr<u
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The file to write to |
-| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array containing the bytes to write to the specified file |
+| path | const [String](../../../system/string/)& | The file to write to |
+| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array containing the bytes to write to the specified file |
 
 ## See Also
 

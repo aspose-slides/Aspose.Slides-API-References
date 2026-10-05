@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.xml/xmlnodereader/lookupnamespace/
 ---
-## XmlNodeReader::LookupNamespace(const String\&) method
+## XmlNodeReader::LookupNamespace(const String&) method
 
 
 Resolves a namespace prefix in the current element's scope.
@@ -20,7 +20,7 @@ String System::Xml::XmlNodeReader::LookupNamespace(const String &prefix) overrid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. This string does not have to be atomized. |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. This string does not have to be atomized. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.io/textwriter/set_newline/
 ---
-## TextWriter::set_NewLine(const System::String\&) method
+## TextWriter::set_NewLine(const System::String&) method
 
 
 Sets a line terminator string.
@@ -20,7 +20,7 @@ virtual void System::IO::TextWriter::set_NewLine(const System::String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::String](../../../system/string/)\& | A value to set |
+| value | const [System::String](../../../system/string/)& | A value to set |
 
 ## See Also
 

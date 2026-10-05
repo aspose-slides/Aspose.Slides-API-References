@@ -9,7 +9,7 @@ url: /aspose.slides.animation/motioncmdpath/set_points/
 ## MotionCmdPath::set_Points(System::ArrayPtr\<System::Drawing::PointF\>) method
 
 
-Specifies points of command. Write [System::Drawing::PointF](../../../system.drawing/pointf/)[].
+Specifies points of command. Write [System::Drawing::PointF](../../../system.drawing/pointf/)\[\].
 
 ```cpp
 void Aspose::Slides::Animation::MotionCmdPath::set_Points(System::ArrayPtr<System::Drawing::PointF> value) override

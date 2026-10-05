@@ -1,7 +1,7 @@
 ---
 title: AddTextFrameForOverriding()
 second_title: Aspose.Slides for C++ API Reference
-description: Initialize TextFrameForOverriding with the text in paramener \"text\". If TextFrameForOverriding is already initialized then simply changes its text.
+description: "Initialize TextFrameForOverriding with the text in paramener \"text\". If TextFrameForOverriding is already initialized then simply changes its text."
 type: docs
 weight: 261
 url: /aspose.slides.charts/charttitle/addtextframeforoverriding/
@@ -9,7 +9,7 @@ url: /aspose.slides.charts/charttitle/addtextframeforoverriding/
 ## ChartTitle::AddTextFrameForOverriding(System::String) method
 
 
-Initialize TextFrameForOverriding with the text in paramener \"text\". If TextFrameForOverriding is already initialized then simply changes its text.
+Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text.
 
 ```cpp
 System::SharedPtr<ITextFrame> Aspose::Slides::Charts::ChartTitle::AddTextFrameForOverriding(System::String text) override

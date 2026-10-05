@@ -1,7 +1,7 @@
 ---
 title: ConfiguredValueTaskAwaitable
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ConfiguredValueTaskAwaitable class
 type: docs
 weight: 40
 url: /system.runtime.compilerservices/configuredvaluetaskawaitable/
@@ -19,7 +19,7 @@ class ConfiguredValueTaskAwaitable
 
 | Method | Description |
 | --- | --- |
-|  [ConfiguredValueTaskAwaitable](./configuredvaluetaskawaitable/)(const [Threading::Tasks::ValueTask](../../system.threading.tasks/valuetask/)\&, **bool**) |  |
+|  [ConfiguredValueTaskAwaitable](./configuredvaluetaskawaitable/)(const [Threading::Tasks::ValueTask](../../system.threading.tasks/valuetask/)&, **bool**) |  |
 | [Runtime::CompilerServices::ValueTaskAwaiter](../valuetaskawaiter/) [GetAwaiter](./getawaiter/)() const |  |
 ## See Also
 

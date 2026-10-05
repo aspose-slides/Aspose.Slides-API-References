@@ -1,7 +1,7 @@
 ---
 title: PptCorruptFileException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: PptCorruptFileException typedef
 type: docs
 weight: 6852
 url: /aspose.slides/pptcorruptfileexception/

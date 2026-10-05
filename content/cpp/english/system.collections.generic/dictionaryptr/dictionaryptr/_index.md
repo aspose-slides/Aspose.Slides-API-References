@@ -15,7 +15,7 @@ Initializes null pointer.
 System::Collections::Generic::DictionaryPtr<T, V>::DictionaryPtr()
 ```
 
-## DictionaryPtr::DictionaryPtr(const SharedPtr\<Dictionary\<T, V\>\>\&) constructor
+## DictionaryPtr::DictionaryPtr(const SharedPtr\<Dictionary\<T, V\>\>&) constructor
 
 
 Converts pointer type.
@@ -29,7 +29,7 @@ System::Collections::Generic::DictionaryPtr<T, V>::DictionaryPtr(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Dictionary](../../dictionary/)\<T, V\>\>\& | Pointer to convert. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Dictionary](../../dictionary/)\<T, V\>\>& | Pointer to convert. |
 
 ## See Also
 

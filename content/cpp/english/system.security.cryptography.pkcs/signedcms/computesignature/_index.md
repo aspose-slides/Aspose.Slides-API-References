@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.security.cryptography.pkcs/signedcms/computesignature/
 ---
-## SignedCms::ComputeSignature(const SharedPtr\<CmsSigner\>\&, bool) method
+## SignedCms::ComputeSignature(const SharedPtr\<CmsSigner\>&, bool) method
 
 
 Creates a signature.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::Pkcs::SignedCms::ComputeSignature(const Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signer | const [SharedPtr](../../../system/sharedptr/)\<[CmsSigner](../../cmssigner/)\>\& | Signer to use. |
+| signer | const [SharedPtr](../../../system/sharedptr/)\<[CmsSigner](../../cmssigner/)\>& | Signer to use. |
 | silent | **bool** | Whether to suppress asking user for valid certificate if certificate associated with **signer** is not valid. |
 
 ## See Also

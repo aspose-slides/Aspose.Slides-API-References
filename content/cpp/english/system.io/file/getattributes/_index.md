@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.io/file/getattributes/
 ---
-## File::GetAttributes(const String\&) method
+## File::GetAttributes(const String&) method
 
 
 Returns the attributes of the specified entity.
@@ -20,7 +20,7 @@ static FileAttributes System::IO::File::GetAttributes(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the entity whose attributes to return |
+| path | const [String](../../../system/string/)& | The path of the entity whose attributes to return |
 
 ### Return Value
 

@@ -18,7 +18,7 @@ virtual float Aspose::Slides::IShape::get_X()=0
 ## Remarks
 
 
-The value returned is always defined and never [std::numeric_limits<float>::quiet_NaN()](../). The value assigned must also be defined; assign [std::numeric_limits<float>::quiet_NaN()](../) only to properties of a **RawFrame** instance. 
+The value returned is always defined and never [std::numeric_limits\<float\>::quiet_NaN()](../). The value assigned must also be defined; assign [std::numeric_limits\<float\>::quiet_NaN()](../) only to properties of a **RawFrame** instance. 
 ## See Also
 
 * Class [IShape](../)

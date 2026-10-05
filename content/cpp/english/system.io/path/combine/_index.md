@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/path/combine/
 ---
-## Path::Combine(const ArrayPtr\<String\>\&) method
+## Path::Combine(const ArrayPtr\<String\>&) method
 
 
 Combines the specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -20,13 +20,13 @@ static String System::IO::Path::Combine(const ArrayPtr<String> &paths)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paths | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\& | An array containing path segments to combine |
+| paths | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>& | An array containing path segments to combine |
 
 ### Return Value
 
 The combined path
 
-## Path::Combine(const String\&, const String\&) method
+## Path::Combine(const String&, const String&) method
 
 
 Combines two specified path segments into a single path inserting directory separator character between the segments if necessary.
@@ -40,14 +40,14 @@ static String System::IO::Path::Combine(const String &path1, const String &path2
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path1 | const [String](../../../system/string/)\& | The first path segment |
-| path2 | const [String](../../../system/string/)\& | The second path segment |
+| path1 | const [String](../../../system/string/)& | The first path segment |
+| path2 | const [String](../../../system/string/)& | The second path segment |
 
 ### Return Value
 
 The combined path
 
-## Path::Combine(const String\&, const String\&, const String\&) method
+## Path::Combine(const String&, const String&, const String&) method
 
 
 Combines three specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -61,15 +61,15 @@ static String System::IO::Path::Combine(const String &path1, const String &path2
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path1 | const [String](../../../system/string/)\& | The first path segment |
-| path2 | const [String](../../../system/string/)\& | The second path segment |
-| path3 | const [String](../../../system/string/)\& | The third path segment |
+| path1 | const [String](../../../system/string/)& | The first path segment |
+| path2 | const [String](../../../system/string/)& | The second path segment |
+| path3 | const [String](../../../system/string/)& | The third path segment |
 
 ### Return Value
 
 The combined path
 
-## Path::Combine(const String\&, const String\&, const String\&, const String\&) method
+## Path::Combine(const String&, const String&, const String&, const String&) method
 
 
 Combines four specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -83,10 +83,10 @@ static String System::IO::Path::Combine(const String &path1, const String &path2
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path1 | const [String](../../../system/string/)\& | The first path segment |
-| path2 | const [String](../../../system/string/)\& | The second path segment |
-| path3 | const [String](../../../system/string/)\& | The third path segment |
-| path4 | const [String](../../../system/string/)\& | The fourth path segment |
+| path1 | const [String](../../../system/string/)& | The first path segment |
+| path2 | const [String](../../../system/string/)& | The second path segment |
+| path3 | const [String](../../../system/string/)& | The third path segment |
+| path4 | const [String](../../../system/string/)& | The fourth path segment |
 
 ### Return Value
 

@@ -16,6 +16,13 @@ bool System::Drawing::Printing::PrintPageEventArgs::get_HasMorePages()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [PrintPageEventArgs](../)

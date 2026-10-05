@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/buffer/bytelength/
 ---
-## Buffer::ByteLength(const SharedPtr\<Array\<T\>\>\&) method
+## Buffer::ByteLength(const SharedPtr\<Array\<T\>\>&) method
 
 
 Determines the number of bytes occupied by all elements of the specified array.
@@ -26,13 +26,13 @@ template<class T> static int System::Buffer::ByteLength(const SharedPtr<Array<T>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\& | An array |
+| array | const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>& | An array |
 
 ### Return Value
 
 The number of bytes occupied by all elements of the specified array
 
-## Buffer::ByteLength(const System::Details::ArrayView\<T\>\&) method
+## Buffer::ByteLength(const System::Details::ArrayView\<T\>&) method
 
 
 Determines the number of bytes occupied by all elements of the specified array.
@@ -52,13 +52,13 @@ template<class T> static int System::Buffer::ByteLength(const System::Details::A
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::ArrayView\<T\>\& | An array view |
+| array | const System::Details::ArrayView\<T\>& | An array view |
 
 ### Return Value
 
 The number of bytes occupied by all elements of the specified array view
 
-## Buffer::ByteLength(const System::Details::StackArray\<T, N\>\&) method
+## Buffer::ByteLength(const System::Details::StackArray\<T, N\>&) method
 
 
 Determines the number of bytes occupied by all elements of the specified array.
@@ -79,7 +79,7 @@ template<class T,std::size_t> static int System::Buffer::ByteLength(const System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const System::Details::StackArray\<T, N\>\& | An stack array |
+| array | const System::Details::StackArray\<T, N\>& | An stack array |
 
 ### Return Value
 

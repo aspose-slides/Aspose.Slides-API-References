@@ -20,6 +20,13 @@ virtual bool System::Xml::XmlReader::Read()=0
 
 **true** if the next node was read successfully; otherwise, **false**.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error occurred while parsing the XML. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

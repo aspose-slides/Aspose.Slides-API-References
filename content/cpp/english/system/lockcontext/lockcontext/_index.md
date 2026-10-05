@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/lockcontext/lockcontext/
 ---
-## LockContext::LockContext(Object *) constructor
+## LockContext::LockContext(Object \*) constructor
 
 
 Locks object.

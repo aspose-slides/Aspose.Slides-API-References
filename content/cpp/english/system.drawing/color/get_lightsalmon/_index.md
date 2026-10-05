@@ -1,7 +1,7 @@
 ---
 title: get_LightSalmon()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFA07A.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFA07A."
 type: docs
 weight: 1197
 url: /system.drawing/color/get_lightsalmon/

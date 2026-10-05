@@ -16,6 +16,13 @@ static int System::Windows::Forms::SystemInformation::get_HorizontalResizeBorder
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Struct [SystemInformation](../)

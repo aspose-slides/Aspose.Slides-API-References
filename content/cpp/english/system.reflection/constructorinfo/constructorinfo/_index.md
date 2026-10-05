@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.reflection/constructorinfo/constructorinfo/
 ---
-## ConstructorInfo::ConstructorInfo(const String\&, std::function\<System::Object::ptr()>) constructor
+## ConstructorInfo::ConstructorInfo(const String&, std::function\<System::Object::ptr()\>) constructor
 
 
 Initializes a new instance of the [ConstructorInfo](../) class for constructor without parameters.
@@ -20,8 +20,8 @@ System::Reflection::ConstructorInfo::ConstructorInfo(const String &full_name, st
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| full_name | const [String](../../../system/string/)\& | name of the constructor |
-| default_constructor | std::function\<[System::Object::ptr](../../../system/object/ptr/)()> | function pointer to the constructor |
+| full_name | const [String](../../../system/string/)& | name of the constructor |
+| default_constructor | std::function\<[System::Object::ptr](../../../system/object/ptr/)()\> | function pointer to the constructor |
 
 ## See Also
 

@@ -19,7 +19,7 @@ class DbProviderFactories
 
 | Method | Description |
 | --- | --- |
-| static [SharedPtr](../../system/sharedptr/)\<[DbProviderFactory](../dbproviderfactory/)\> [GetFactory](./getfactory/)(const [String](../../system/string/)\&) | Gets DB provider factory by name. |
+| static [SharedPtr](../../system/sharedptr/)\<[DbProviderFactory](../dbproviderfactory/)\> [GetFactory](./getfactory/)(const [String](../../system/string/)&) | Gets DB provider factory by name. |
 ## See Also
 
 * Namespace [System::Data::Common](../)

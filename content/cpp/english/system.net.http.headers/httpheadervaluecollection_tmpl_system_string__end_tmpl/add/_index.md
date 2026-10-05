@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/add/
 ---
-## HttpHeaderValueCollection< System::String >::Add(const String\&) method
+## HttpHeaderValueCollection\< System::String \>::Add(const String&) method
 
 
 Adds element into collection.
@@ -20,11 +20,11 @@ void System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::Add(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [String](../../../system/string/)\& | to add. |
+| item | const [String](../../../system/string/)& | to add. |
 
 ## See Also
 
 * Class [String](../../../system/string/)
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

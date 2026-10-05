@@ -15,7 +15,7 @@ Constructs a new [Size](../) object and initializes its width and height values 
 System::Drawing::Size::Size()
 ```
 
-## Size::Size(const Point\&) constructor
+## Size::Size(const Point&) constructor
 
 
 Constructs a new [Size](../) object and initializes its width and height values with the values of X and Y coordinates of the specifide point correspondingly.
@@ -29,7 +29,7 @@ System::Drawing::Size::Size(const Point &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../../point/)\& | A [Point](../../point/) object whose X and Y coordinates are used to initialize width and height value of the [Size](../) object being created |
+| point | const [Point](../../point/)& | A [Point](../../point/) object whose X and Y coordinates are used to initialize width and height value of the [Size](../) object being created |
 
 ## Size::Size(int, int) constructor
 

@@ -19,7 +19,7 @@ class UriParser
 
 | Method | Description |
 | --- | --- |
-| static **bool** [IsKnownScheme](./isknownscheme/)(const [String](../string/)\&) | Indicates whether the parser for a scheme is registered. |
+| static **bool** [IsKnownScheme](./isknownscheme/)(const [String](../string/)&) | Indicates whether the parser for a scheme is registered. |
 |  [UriParser](./uriparser/)() |  |
 ## See Also
 

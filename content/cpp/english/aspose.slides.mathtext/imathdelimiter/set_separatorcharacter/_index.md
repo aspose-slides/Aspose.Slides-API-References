@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/imathdelimiter/set_separatorcharacter/
 ## IMathDelimiter::set_SeparatorCharacter(char16_t) method
 
 
-Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'.
+Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '\|'.
 
 ```cpp
 virtual void Aspose::Slides::MathText::IMathDelimiter::set_SeparatorCharacter(char16_t value)=0

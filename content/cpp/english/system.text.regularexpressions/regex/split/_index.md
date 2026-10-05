@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.text.regularexpressions/regex/split/
 ---
-## Regex::Split(const String\&) method
+## Regex::Split(const String&) method
 
 
 Splits string by regex matches.
@@ -20,13 +20,13 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | [String](../../../system/string/) to split. |
+| input | const [String](../../../system/string/)& | [String](../../../system/string/) to split. |
 
 ### Return Value
 
 [Array](../../../system/array/) of substrings between matches.
 
-## Regex::Split(const String\&, int) method
+## Regex::Split(const String&, int) method
 
 
 Splits string by regex matches.
@@ -40,14 +40,14 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | [String](../../../system/string/) to split. |
+| input | const [String](../../../system/string/)& | [String](../../../system/string/) to split. |
 | count | int | Number of substrings limit. |
 
 ### Return Value
 
 [Array](../../../system/array/) of substrings between matches.
 
-## Regex::Split(const String\&, int, int) method
+## Regex::Split(const String&, int, int) method
 
 
 Splits an input string a specified maximum number of times into an array of substrings, at the positions defined by a regular expression specified in the [Regex](../) constructor. The search for the regular expression pattern starts at a specified character position in the input string.
@@ -61,7 +61,7 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | The string to be split. |
+| input | const [String](../../../system/string/)& | The string to be split. |
 | count | int | The maximum number of times the split can occur. |
 | startat | int | The character position in the input string where the search will begin. |
 
@@ -69,7 +69,7 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 An array of strings.
 
-## Regex::Split(const String\&, const String\&, RegexOptions, TimeSpan) method
+## Regex::Split(const String&, const String&, RegexOptions, TimeSpan) method
 
 
 Splits string by regexp.
@@ -83,8 +83,8 @@ static ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Input string. |
-| pattern | const [String](../../../system/string/)\& | Regexp pattern. |
+| input | const [String](../../../system/string/)& | Input string. |
+| pattern | const [String](../../../system/string/)& | Regexp pattern. |
 | options | [RegexOptions](../../regexoptions/) | Matching options. |
 | matchTimeout | [TimeSpan](../../../system/timespan/) | Timeout. |
 
@@ -92,7 +92,7 @@ static ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const Str
 
 [Array](../../../system/array/) of strings between matchse.
 
-## Regex::Split(const String\&, const String\&, int, RegexOptions, TimeSpan) method
+## Regex::Split(const String&, const String&, int, RegexOptions, TimeSpan) method
 
 
 Splits string by regexp.
@@ -106,8 +106,8 @@ static ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Input string. |
-| pattern | const [String](../../../system/string/)\& | Regexp pattern. |
+| input | const [String](../../../system/string/)& | Input string. |
+| pattern | const [String](../../../system/string/)& | Regexp pattern. |
 | count | int | [Match](../../match/) number limit. |
 | options | [RegexOptions](../../regexoptions/) | Matching options. |
 | matchTimeout | [TimeSpan](../../../system/timespan/) | Timeout. |

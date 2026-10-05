@@ -15,7 +15,7 @@ Initializes null pointer.
 System::Collections::BitArrayPtr::BitArrayPtr()
 ```
 
-## BitArrayPtr::BitArrayPtr(const SharedPtr\<BitArray\>\&) constructor
+## BitArrayPtr::BitArrayPtr(const SharedPtr\<BitArray\>&) constructor
 
 
 Conversion constructor.
@@ -29,7 +29,7 @@ System::Collections::BitArrayPtr::BitArrayPtr(const SharedPtr<BitArray> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[BitArray](../../bitarray/)\>\& | value to convert. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[BitArray](../../bitarray/)\>& | value to convert. |
 
 ## See Also
 

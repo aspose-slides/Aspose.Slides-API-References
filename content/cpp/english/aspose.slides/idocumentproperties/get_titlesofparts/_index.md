@@ -9,7 +9,7 @@ url: /aspose.slides/idocumentproperties/get_titlesofparts/
 ## IDocumentProperties::get_TitlesOfParts() method
 
 
-Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only [System::ArrayPtr<System::String>](../../../system/arrayptr/).
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only [System::ArrayPtr\<System::String\>](../../../system/arrayptr/).
 
 ```cpp
 virtual System::ArrayPtr<System::String> Aspose::Slides::IDocumentProperties::get_TitlesOfParts()=0

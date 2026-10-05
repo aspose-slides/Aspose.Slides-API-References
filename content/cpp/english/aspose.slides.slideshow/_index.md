@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::SlideShow"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::SlideShow namespace"
 type: docs
 weight: 183
 url: /aspose.slides.slideshow/

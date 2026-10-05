@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system.drawing/pen/multiplytransform/
 ---
-## Pen::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>\&, Drawing2D::MatrixOrder) method
+## Pen::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>&, Drawing2D::MatrixOrder) method
 
 
 Multiplies current object's transform matrix by the specified matrix.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::MultiplyTransform(const SharedPtr<Drawing2D::Matrix> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\& | The matrix by which the current object's transform matrix is multiplied |
+| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>& | The matrix by which the current object's transform matrix is multiplied |
 | order | [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/) | Specifies the order of the operation |
 
 ## See Also

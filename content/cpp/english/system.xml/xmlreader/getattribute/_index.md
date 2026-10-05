@@ -26,6 +26,13 @@ virtual String System::Xml::XmlReader::GetAttribute(String name)=0
 
 The value of the specified attribute. If the attribute is not found or the value is [String::Empty](../../../system/string/empty/), **nullptr** is returned.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **name** is **nullptr**. |
+
+
 ## XmlReader::GetAttribute(String, String) method
 
 
@@ -47,6 +54,13 @@ virtual String System::Xml::XmlReader::GetAttribute(String name, String namespac
 
 The value of the specified attribute. If the attribute is not found or the value is [String::Empty](../../../system/string/empty/), **nullptr** is returned. This method does not move the reader.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **name** is **nullptr**. |
+
+
 ## XmlReader::GetAttribute(int32_t) method
 
 
@@ -66,6 +80,13 @@ virtual String System::Xml::XmlReader::GetAttribute(int32_t i)=0
 ### Return Value
 
 The value of the specified attribute. This method does not move the reader.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | **i** is out of range. It must be non-negative and less than the size of the attribute collection. |
+
 
 ## See Also
 

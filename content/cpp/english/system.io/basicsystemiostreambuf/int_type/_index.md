@@ -1,7 +1,7 @@
 ---
 title: int_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: int_type typedef
 type: docs
 weight: 105
 url: /system.io/basicsystemiostreambuf/int_type/

@@ -1,7 +1,7 @@
 ---
 title: operator/()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TimeSpan::operator/() method"
 type: docs
 weight: 326
 url: /system/timespan/operator_div/

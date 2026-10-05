@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/authenticationheadervalue/tryparse/
 ---
-## AuthenticationHeaderValue::TryParse(String, System::SharedPtr\<AuthenticationHeaderValue\>\&) method
+## AuthenticationHeaderValue::TryParse(String, System::SharedPtr\<AuthenticationHeaderValue\>&) method
 
 
 Trying to convert a passed string to an instance of the [AuthenticationHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::AuthenticationHeaderValue::TryParse(Stri
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[AuthenticationHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[AuthenticationHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

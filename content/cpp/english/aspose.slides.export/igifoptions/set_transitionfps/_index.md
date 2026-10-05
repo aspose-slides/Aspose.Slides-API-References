@@ -9,7 +9,7 @@ url: /aspose.slides.export/igifoptions/set_transitionfps/
 ## IGifOptions::set_TransitionFps(int32_t) method
 
 
-Sets transition FPS [frames/sec] The default value is 25.
+Sets transition FPS \[frames/sec\] The default value is 25.
 
 ```cpp
 virtual void Aspose::Slides::Export::IGifOptions::set_TransitionFps(int32_t value)=0

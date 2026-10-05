@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /system/string/is/
 ---
-## String::Is(const System::TypeInfo\&) const method
+## String::Is(const System::TypeInfo&) const method
 
 
 Checks if string object is of type specified by [TypeInfo](../../typeinfo/) passed.
@@ -20,7 +20,7 @@ bool System::String::Is(const System::TypeInfo &target) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../typeinfo/)\& | [TypeInfo](../../typeinfo/) to check against. |
+| target | const [System::TypeInfo](../../typeinfo/)& | [TypeInfo](../../typeinfo/) to check against. |
 
 ### Return Value
 

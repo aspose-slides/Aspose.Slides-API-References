@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography/rsaencryptionpadding/createoaep/
 ---
-## RSAEncryptionPadding::CreateOaep(const HashAlgorithmName\&) method
+## RSAEncryptionPadding::CreateOaep(const HashAlgorithmName&) method
 
 
 Creates [RSAEncryptionPadding](../) with OAEP mode and specified hash algorithm.

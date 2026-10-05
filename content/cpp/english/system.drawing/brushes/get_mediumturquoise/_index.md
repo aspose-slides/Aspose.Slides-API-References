@@ -1,7 +1,7 @@
 ---
 title: get_MediumTurquoise()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF48D1CC.
+description: "Returns the solid fill color whose hexadecimal value is #FF48D1CC."
 type: docs
 weight: 1145
 url: /system.drawing/brushes/get_mediumturquoise/

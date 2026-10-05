@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.reflection/methodinfo/methodinfo/
 ---
-## MethodInfo::MethodInfo(const String\&) constructor
+## MethodInfo::MethodInfo(const String&) constructor
 
 
 Initializes a new instance of the [MethodInfo](../) class.
@@ -20,7 +20,7 @@ System::Reflection::MethodInfo::MethodInfo(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Method name. |
+| name | const [String](../../../system/string/)& | Method name. |
 
 ## See Also
 

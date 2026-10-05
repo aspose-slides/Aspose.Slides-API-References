@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/textinfo/textinfo/
 ---
-## TextInfo::TextInfo(const TextInfo\&) constructor
+## TextInfo::TextInfo(const TextInfo&) constructor
 
 
 RTTI information.

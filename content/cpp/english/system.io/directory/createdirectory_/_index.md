@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/directory/createdirectory_/
 ---
-## Directory::CreateDirectory_(const String\&) method
+## Directory::CreateDirectory_(const String&) method
 
 
 Creates all directories in the specified path if those don't exist.
@@ -20,7 +20,7 @@ static void System::IO::Directory::CreateDirectory_(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path containing the directories to create |
+| path | const [String](../../../system/string/)& | The path containing the directories to create |
 
 ## See Also
 

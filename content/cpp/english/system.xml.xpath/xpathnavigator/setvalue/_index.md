@@ -22,6 +22,15 @@ virtual void System::Xml::XPath::XPathNavigator::SetValue(String value)
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The new value of the node. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The value parameter is **nullptr**. |
+| InvalidOperationException | The [XPathNavigator](../) is positioned on the root node, a namespace node, or the specified value is invalid. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

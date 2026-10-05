@@ -1,7 +1,7 @@
 ---
 title: get_SignatureMethod()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::get_SignatureMethod() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/signedxml/get_signaturemethod/

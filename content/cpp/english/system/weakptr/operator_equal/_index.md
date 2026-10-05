@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/weakptr/operator_equal/
 ---
-## WeakPtr::operator=(Q\&&) method
+## WeakPtr::operator=(Q&&) method
 
 
 Assigns value to weak pointer. Calls into specific assignment operator of SmartPtr_.
@@ -26,7 +26,7 @@ template<typename Q> WeakPtr & System::WeakPtr<T>::operator=(Q &&value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | Q\&& | Pointer to copy pointee value from. |
+| value | Q&& | Pointer to copy pointee value from. |
 
 ## See Also
 

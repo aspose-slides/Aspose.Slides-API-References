@@ -6,7 +6,7 @@ type: docs
 weight: 2211
 url: /system/operator_plus/
 ---
-## System::operator+(const T\&, const Decimal\&) function
+## System::operator+(const T&, const Decimal&) function
 
 
 Returns a new instance of [Decimal](../decimal/) class that represents a value that is a sum of the specified value and the value represented by the specified [Decimal](../decimal/) object.
@@ -20,8 +20,8 @@ template<typename T,typename _> Decimal System::operator+(const T &x, const Deci
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const T\& | The first summand |
-| d | const [Decimal](../decimal/)\& | The constant reference to the [Decimal](../decimal/) object representing the second summand |
+| x | const T& | The first summand |
+| d | const [Decimal](../decimal/)& | The constant reference to the [Decimal](../decimal/) object representing the second summand |
 
 ### Return Value
 
@@ -48,7 +48,7 @@ template<typename T> MulticastDelegate<T> System::operator+(MulticastDelegate<T>
 
 Returns a delegate that contains the callbacks of the left hand value and then the right hand ones.
 
-## System::operator+(const T1\&, const Nullable\<T2\>\&) function
+## System::operator+(const T1&, const Nullable\<T2\>&) function
 
 
 Sums non-nullable and nullable values.
@@ -69,14 +69,14 @@ template<typename T1,typename T2,typename> auto System::operator+(const T1 &some
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| some | const T1\& | Left operand. |
-| other | const [Nullable](../nullable/)\<T2\>\& | Right operand. |
+| some | const T1& | Left operand. |
+| other | const [Nullable](../nullable/)\<T2\>& | Right operand. |
 
 ### Return Value
 
 Summing result.
 
-## System::operator+(T\&, const String\&) function
+## System::operator+(T&, const String&) function
 
 
 [String](../string/) concatenation.
@@ -96,14 +96,14 @@ template<typename T> std::enable_if<IsStringLiteral<T, char_t>::value, String>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | T\& | Literal to concatenate to string. |
-| right | const [String](../string/)\& | [String](../string/) to concatenate. |
+| left | T& | Literal to concatenate to string. |
+| right | const [String](../string/)& | [String](../string/) to concatenate. |
 
 ### Return Value
 
 Concatenated string.
 
-## System::operator+(T\&, const String\&) function
+## System::operator+(T&, const String&) function
 
 
 [String](../string/) concatenation.
@@ -123,14 +123,14 @@ template<typename T> std::enable_if<IsStringPointer<T, char_t>::value, String>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | T\& | [String](../string/) pointer to concatenate to string. |
-| right | const [String](../string/)\& | [String](../string/) to concatenate. |
+| left | T& | [String](../string/) pointer to concatenate to string. |
+| right | const [String](../string/)& | [String](../string/) to concatenate. |
 
 ### Return Value
 
 Concatenated string.
 
-## System::operator+(const char_t, const String\&) function
+## System::operator+(const char_t, const String&) function
 
 
 [String](../string/) concatenation.
@@ -145,7 +145,7 @@ String System::operator+(const char_t left, const String &right)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | left | const char_t | Character to concatenate to string. |
-| right | const [String](../string/)\& | [String](../string/) to concatenate. |
+| right | const [String](../string/)& | [String](../string/) to concatenate. |
 
 ### Return Value
 

@@ -26,6 +26,14 @@ virtual SharedPtr<XPathNavigator> System::Xml::XPath::XPathNavigator::SelectSing
 
 An [XPathNavigator](../) object that contains the first matching node for the [XPath](../../) query specified; otherwise, **nullptr** if there are no query results.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An error was encountered in the [XPath](../../) query or the return type of the [XPath](../../) expression is not a node. |
+| XPathException | The [XPath](../../) query is not valid. |
+
+
 ## XPathNavigator::SelectSingleNode(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
@@ -47,6 +55,14 @@ virtual SharedPtr<XPathNavigator> System::Xml::XPath::XPathNavigator::SelectSing
 
 An [XPathNavigator](../) object that contains the first matching node for the [XPath](../../) query specified; otherwise **nullptr** if there are no query results.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An error was encountered in the [XPath](../../) query or the return type of the [XPath](../../) expression is not a node. |
+| XPathException | The [XPath](../../) query is not valid. |
+
+
 ## XPathNavigator::SelectSingleNode(SharedPtr\<XPathExpression\>) method
 
 
@@ -66,6 +82,14 @@ virtual SharedPtr<XPathNavigator> System::Xml::XPath::XPathNavigator::SelectSing
 ### Return Value
 
 An [XPathNavigator](../) object that contains the first matching node for the [XPath](../../) query specified; otherwise **nullptr** if there are no query results.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An error was encountered in the [XPath](../../) query or the return type of the [XPath](../../) expression is not a node. |
+| XPathException | The [XPath](../../) query is not valid. |
+
 
 ## See Also
 

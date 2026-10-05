@@ -20,6 +20,15 @@ double System::Xml::Schema::XmlAtomicValue::get_ValueAsDouble() override
 
 The validated XML element or attribute's value as a [Double](../../../system/double/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The validated XML element or attribute's value is not in the correct format for the [Double](../../../system/double/) type. |
+| InvalidCastException | The attempted cast to [Double](../../../system/double/) is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
+
 ## See Also
 
 * Class [XmlAtomicValue](../)

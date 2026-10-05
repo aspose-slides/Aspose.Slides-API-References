@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.reflection/memberinfo/getcustomattributes/
 ---
-## MemberInfo::GetCustomAttributes(const TypeInfo\&, bool) const method
+## MemberInfo::GetCustomAttributes(const TypeInfo&, bool) const method
 
 
 Returns an array containing objects that represent all custom attributes applied to the type represented by the current object.
@@ -20,7 +20,7 @@ ArrayPtr<SharedPtr<Object>> System::Reflection::MemberInfo::GetCustomAttributes(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attributeType | const [TypeInfo](../../../system/typeinfo/)\& | Type of attribute to look for. |
+| attributeType | const [TypeInfo](../../../system/typeinfo/)& | Type of attribute to look for. |
 | inherit | **bool** | Whether to check inherited attributes, too. |
 
 ## MemberInfo::GetCustomAttributes(bool) const method

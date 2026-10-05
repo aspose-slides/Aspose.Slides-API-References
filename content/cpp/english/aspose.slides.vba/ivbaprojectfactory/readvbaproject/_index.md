@@ -20,7 +20,7 @@ virtual System::SharedPtr<IVbaProject> Aspose::Slides::Vba::IVbaProjectFactory::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Ole data **uint8_t**[] |
+| data | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Ole data **uint8_t**\[\] |
 
 ### Return Value
 

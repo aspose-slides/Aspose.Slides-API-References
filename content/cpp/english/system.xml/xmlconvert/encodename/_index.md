@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.xml/xmlconvert/encodename/
 ---
-## XmlConvert::EncodeName(const String\&) method
+## XmlConvert::EncodeName(const String&) method
 
 
 Converts the name to a valid XML name.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::EncodeName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | A name to be translated. |
+| name | const [String](../../../system/string/)& | A name to be translated. |
 
 ### Return Value
 

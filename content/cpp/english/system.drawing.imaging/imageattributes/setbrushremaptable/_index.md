@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.drawing.imaging/imageattributes/setbrushremaptable/
 ---
-## ImageAttributes::SetBrushRemapTable(const ArrayPtr\<SharedPtr\<ColorMap\>\>\&) method
+## ImageAttributes::SetBrushRemapTable(const ArrayPtr\<SharedPtr\<ColorMap\>\>&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Imaging::ImageAttributes::SetBrushRemapTable(const ArrayPtr<SharedPtr<ColorMap>> &map)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

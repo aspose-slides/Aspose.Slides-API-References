@@ -1,7 +1,7 @@
 ---
 title: DirectoryNotFoundException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: DirectoryNotFoundException typedef
 type: docs
 weight: 651
 url: /system.io/directorynotfoundexception/

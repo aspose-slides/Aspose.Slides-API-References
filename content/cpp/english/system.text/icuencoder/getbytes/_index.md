@@ -31,7 +31,7 @@ virtual int System::Text::ICUEncoder::GetBytes(ArrayPtr<char_t> chars, int charI
 
 Number of bytes written.
 
-## ICUEncoder::GetBytes(const char_t *, int, uint8_t *, int, bool) method
+## ICUEncoder::GetBytes(const char_t \*, int, uint8_t \*, int, bool) method
 
 
 Get the bytes that result from encoding a buffer.
@@ -45,9 +45,9 @@ virtual int System::Text::ICUEncoder::GetBytes(const char_t *chars, int charCoun
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters to encode. |
+| chars | const char_t \* | Characters to encode. |
 | charCount | int | Source array length. |
-| bytes | **uint8_t** * | Destination byte buffer. |
+| bytes | **uint8_t** \* | Destination byte buffer. |
 | byteCount | int | Destination buffer size. |
 | flush | **bool** | If true, cleans internal encoder state after calculation. |
 

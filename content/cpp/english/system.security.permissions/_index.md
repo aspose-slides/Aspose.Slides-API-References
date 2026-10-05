@@ -1,7 +1,7 @@
 ---
 title: "System::Security::Permissions"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Permissions namespace"
 type: docs
 weight: 898
 url: /system.security.permissions/

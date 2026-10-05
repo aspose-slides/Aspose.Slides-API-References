@@ -1,7 +1,7 @@
 ---
 title: DivideByZeroException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: DivideByZeroException typedef
 type: docs
 weight: 4005
 url: /system/dividebyzeroexception/

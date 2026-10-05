@@ -20,6 +20,13 @@ System::Xml::WhitespaceHandling System::Xml::XmlTextReader::get_WhitespaceHandli
 
 One of the WhitespaceHandling values. The default is **[WhitespaceHandling.All](../../whitespacehandling/)** (returns **Whitespace** and **SignificantWhitespace** nodes).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | Invalid value specified. |
+
+
 ## See Also
 
 * Enum [WhitespaceHandling](../../whitespacehandling/)

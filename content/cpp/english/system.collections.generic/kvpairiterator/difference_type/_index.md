@@ -1,7 +1,7 @@
 ---
 title: difference_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: difference_type typedef
 type: docs
 weight: 79
 url: /system.collections.generic/kvpairiterator/difference_type/

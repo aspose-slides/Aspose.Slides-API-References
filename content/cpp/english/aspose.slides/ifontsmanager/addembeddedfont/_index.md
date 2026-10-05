@@ -22,6 +22,13 @@ virtual void Aspose::Slides::IFontsManager::AddEmbeddedFont(System::SharedPtr<IF
 | --- | --- | --- |
 | fontData | [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\> | Font data object [IFontData](../../ifontdata/) |
 | embedFontRule | [Export::EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/) | Embedded font rule [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/) |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | An ArgumentException can be thrown if font data is null or this font is already embedded |
+
 ## Remarks
 
 
@@ -42,8 +49,15 @@ virtual void Aspose::Slides::IFontsManager::AddEmbeddedFont(System::ArrayPtr<uin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Font data **uint8_t**[] |
+| fontData | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Font data **uint8_t**\[\] |
 | embedFontRule | [Export::EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/) | Embedded font rule [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/) |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | An ArgumentException can be thrown if font data is null or this font is already embedded |
+
 ## Remarks
 
 

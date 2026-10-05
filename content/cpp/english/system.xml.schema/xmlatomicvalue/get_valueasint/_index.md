@@ -20,6 +20,15 @@ int32_t System::Xml::Schema::XmlAtomicValue::get_ValueAsInt() override
 
 The validated XML element or attribute's value as an [Int32](../../../system/int32/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The validated XML element or attribute's value is not in the correct format for the [Int32](../../../system/int32/) type. |
+| InvalidCastException | The attempted cast to [Int32](../../../system/int32/) is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
+
 ## See Also
 
 * Class [XmlAtomicValue](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlcdatasection/writecontentto/
 ---
-## XmlCDataSection::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlCDataSection::WriteContentTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves the children of the node to the specified [XmlWriter](../../xmlwriter/).
@@ -20,7 +20,7 @@ void System::Xml::XmlCDataSection::WriteContentTo(const SharedPtr<XmlWriter> &w)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

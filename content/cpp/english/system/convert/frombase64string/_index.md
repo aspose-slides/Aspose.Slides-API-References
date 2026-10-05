@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/convert/frombase64string/
 ---
-## Convert::FromBase64String(const String\&) method
+## Convert::FromBase64String(const String&) method
 
 
 Decodes base-64 encoded data represented as a string.
@@ -20,7 +20,7 @@ static ArrayPtr<uint8_t> System::Convert::FromBase64String(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | The string containing the base-64 encoded data to decode |
+| s | const [String](../../string/)& | The string containing the base-64 encoded data to decode |
 
 ### Return Value
 

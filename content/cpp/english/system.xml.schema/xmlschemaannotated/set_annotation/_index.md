@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemaannotated/set_annotation/
 ---
-## XmlSchemaAnnotated::set_Annotation(const SharedPtr\<XmlSchemaAnnotation\>\&) method
+## XmlSchemaAnnotated::set_Annotation(const SharedPtr\<XmlSchemaAnnotation\>&) method
 
 
 Sets the **annotation** property.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAnnotated::set_Annotation(const SharedPtr<Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnnotation](../../xmlschemaannotation/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnnotation](../../xmlschemaannotation/)\>& | The value to set. |
 
 ## See Also
 

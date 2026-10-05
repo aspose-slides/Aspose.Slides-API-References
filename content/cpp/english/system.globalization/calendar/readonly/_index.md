@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system.globalization/calendar/readonly/
 ---
-## Calendar::ReadOnly(const CalendarPtr\&) method
+## Calendar::ReadOnly(const CalendarPtr&) method
 
 
 Gets read only version of calendar.
@@ -20,7 +20,7 @@ static CalendarPtr System::Globalization::Calendar::ReadOnly(const CalendarPtr &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| calendar | const [CalendarPtr](../../calendarptr/)\& | [Calendar](../) to get read only version of. |
+| calendar | const [CalendarPtr](../../calendarptr/)& | [Calendar](../) to get read only version of. |
 
 ### Return Value
 

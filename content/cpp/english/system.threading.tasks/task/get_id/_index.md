@@ -1,7 +1,7 @@
 ---
 title: get_Id()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Task::get_Id() method"
 type: docs
 weight: 79
 url: /system.threading.tasks/task/get_id/

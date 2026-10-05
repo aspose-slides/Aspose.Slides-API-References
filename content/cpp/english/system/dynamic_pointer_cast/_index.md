@@ -6,7 +6,7 @@ type: docs
 weight: 2965
 url: /system/dynamic_pointer_cast/
 ---
-## System::dynamic_pointer_cast(SmartPtr\<X\> const\&) function
+## System::dynamic_pointer_cast(SmartPtr\<X\> const&) function
 
 
 Casts smart pointers using dynamic_cast.
@@ -27,7 +27,7 @@ template<class Y,class X> SmartPtr<Y> System::dynamic_pointer_cast(SmartPtr<X> c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr](../smartptr/)\<X\> const\& | Source pointer. |
+| x | [SmartPtr](../smartptr/)\<X\> const& | Source pointer. |
 
 ### Return Value
 

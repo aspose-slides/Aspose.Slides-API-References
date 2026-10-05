@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.drawing/region/equals/
 ---
-## Region::Equals(const SharedPtr\<Region\>\&, const SharedPtr\<Graphics\>\&) method
+## Region::Equals(const SharedPtr\<Region\>&, const SharedPtr\<Graphics\>&) method
 
 
 Determines whether the specified region is identical to the region represented by the current object on the specified drawing surface.
@@ -20,8 +20,8 @@ bool System::Drawing::Region::Equals(const SharedPtr<Region> &r, const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| r | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>\& | The region to compare this region with |
-| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | A drawing surface |
+| r | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>& | The region to compare this region with |
+| g | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | A drawing surface |
 
 ### Return Value
 

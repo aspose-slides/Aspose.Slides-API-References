@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.xml/xmlconvert/touint32/
 ---
-## XmlConvert::ToUInt32(const String\&) method
+## XmlConvert::ToUInt32(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [UInt32](../../../system/uint32/) equivalent.
@@ -20,11 +20,20 @@ static uint32_t System::Xml::XmlConvert::ToUInt32(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string to convert. |
+| s | const [String](../../../system/string/)& | The string to convert. |
 
 ### Return Value
 
 A [UInt32](../../../system/uint32/) equivalent of the string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** is not in the correct format. |
+| OverflowException | **s** represents a number less than [UInt32::MinValue](../../../system/uint32/minvalue/) or greater than [UInt32::MaxValue](../../../system/uint32/maxvalue/). |
+
 
 ## See Also
 

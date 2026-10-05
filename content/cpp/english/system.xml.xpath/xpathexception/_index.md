@@ -1,7 +1,7 @@
 ---
 title: XPathException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XPathException typedef
 type: docs
 weight: 170
 url: /system.xml.xpath/xpathexception/

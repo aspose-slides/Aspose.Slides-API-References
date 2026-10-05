@@ -22,6 +22,13 @@ void System::Collections::CollectionBase<T>::RemoveAt(int32_t index)
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | **index** is less than zero. -or- **index** is equal to or greater than CollectionBase::Count. |
+
+
 ## See Also
 
 * Class [CollectionBase](../)

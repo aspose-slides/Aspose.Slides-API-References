@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.security/securityelement/isvalidtext/
 ---
-## SecurityElement::IsValidText(const String\&) method
+## SecurityElement::IsValidText(const String&) method
 
 
 Checks if text is valid.
@@ -20,7 +20,7 @@ static bool System::Security::SecurityElement::IsValidText(const String &text)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [String](../../../system/string/)\& | [Text](../../../system.text/) to test. |
+| text | const [String](../../../system/string/)& | [Text](../../../system.text/) to test. |
 
 ### Return Value
 

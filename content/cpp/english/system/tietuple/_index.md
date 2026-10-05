@@ -6,7 +6,7 @@ type: docs
 weight: 3095
 url: /system/tietuple/
 ---
-## System::TieTuple(Args\&&...) function
+## System::TieTuple(Args&&...) function
 
 
 Creates tuple bound to some values.
@@ -26,7 +26,7 @@ template<typename...> ValueTuple<Args...> System::TieTuple(Args &&... args)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | Args\&&... | [Tuple](../tuple/) values to bind. |
+| args | Args&&... | [Tuple](../tuple/) values to bind. |
 
 ### Return Value
 

@@ -20,6 +20,14 @@ virtual float System::Xml::XmlReader::ReadContentAsFloat()
 
 The text content at the current position as a single-precision floating point number.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

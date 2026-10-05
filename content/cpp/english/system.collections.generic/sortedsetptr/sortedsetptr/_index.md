@@ -15,7 +15,7 @@ Null pointer constructor.
 System::Collections::Generic::SortedSetPtr<T>::SortedSetPtr()
 ```
 
-## SortedSetPtr::SortedSetPtr(const SharedPtr\<SortedSet\<T\>\>\&) constructor
+## SortedSetPtr::SortedSetPtr(const SharedPtr\<SortedSet\<T\>\>&) constructor
 
 
 Copy constructor.
@@ -29,7 +29,7 @@ System::Collections::Generic::SortedSetPtr<T>::SortedSetPtr(const SharedPtr<Sort
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[SortedSet](../../sortedset/)\<T\>\>\& | Pointer to copy. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[SortedSet](../../sortedset/)\<T\>\>& | Pointer to copy. |
 
 ## See Also
 

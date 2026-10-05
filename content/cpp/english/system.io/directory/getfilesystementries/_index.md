@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.io/directory/getfilesystementries/
 ---
-## Directory::GetFileSystemEntries(const String\&, const String\&, SearchOption) method
+## Directory::GetFileSystemEntries(const String&, const String&, SearchOption) method
 
 
 Searches for the files and directories that satisfy the specified search criteria either in the specified directory or in the whole directory tree rooted in the specified directory.
@@ -20,8 +20,8 @@ static ArrayPtr<String> System::IO::Directory::GetFileSystemEntries(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | Full or relative path to the directory to search in |
-| searchPattern | const [String](../../../system/string/)\& | The name pattern of the files and directories to search for |
+| path | const [String](../../../system/string/)& | Full or relative path to the directory to search in |
+| searchPattern | const [String](../../../system/string/)& | The name pattern of the files and directories to search for |
 | searchOption | [SearchOption](../../searchoption/) | Specifies whether the search has to be performed in the specified directory only or in the whole directory tree rooted in the specified directory |
 
 ### Return Value

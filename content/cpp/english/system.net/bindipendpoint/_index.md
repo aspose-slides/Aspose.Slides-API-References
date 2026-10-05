@@ -1,7 +1,7 @@
 ---
 title: BindIPEndPoint
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: BindIPEndPoint typedef
 type: docs
 weight: 690
 url: /system.net/bindipendpoint/

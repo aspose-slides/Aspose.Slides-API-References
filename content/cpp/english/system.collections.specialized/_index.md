@@ -1,7 +1,7 @@
 ---
 title: "System::Collections::Specialized"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Collections::Specialized namespace"
 type: docs
 weight: 404
 url: /system.collections.specialized/

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.io/file/readallbytes/
 ---
-## File::ReadAllBytes(const String\&) method
+## File::ReadAllBytes(const String&) method
 
 
 Reads the content of the specified binary file to a byte array.
@@ -20,7 +20,7 @@ static ArrayPtr<uint8_t> System::IO::File::ReadAllBytes(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to read |
+| path | const [String](../../../system/string/)& | The path of the file to read |
 
 ### Return Value
 

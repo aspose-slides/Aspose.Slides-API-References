@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.drawing/image/saveadd/
 ---
-## Image::SaveAdd(const Imaging::EncoderParametersPtr\&) method
+## Image::SaveAdd(const Imaging::EncoderParametersPtr&) method
 
 
 Adds a frame to the file or stream specified in a previous call to the [Save()](../save/) method.
@@ -20,9 +20,9 @@ void System::Drawing::Image::SaveAdd(const Imaging::EncoderParametersPtr &encode
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\& | The parameters of the encoder to use |
+| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)& | The parameters of the encoder to use |
 
-## Image::SaveAdd(const SharedPtr\<Image\>\&, const Imaging::EncoderParametersPtr\&) method
+## Image::SaveAdd(const SharedPtr\<Image\>&, const Imaging::EncoderParametersPtr&) method
 
 
 Adds a frame to the file or stream specified in a previous call to the [Save()](../save/) method.
@@ -36,8 +36,8 @@ void System::Drawing::Image::SaveAdd(const SharedPtr<Image> &image, const Imagin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../)\>\& | An [Image](../) object that contains the frame to be added |
-| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\& | The parameters of the encoder to use |
+| image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../)\>& | An [Image](../) object that contains the frame to be added |
+| encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)& | The parameters of the encoder to use |
 
 ## See Also
 

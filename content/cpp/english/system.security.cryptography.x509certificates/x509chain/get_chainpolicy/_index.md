@@ -16,6 +16,13 @@ SharedPtr<X509ChainPolicy> System::Security::Cryptography::X509Certificates::X50
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

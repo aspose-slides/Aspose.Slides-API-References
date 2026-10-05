@@ -19,7 +19,7 @@ class Activator
 
 | Method | Description |
 | --- | --- |
-| static [System::SharedPtr](../sharedptr/)\<[System::Object](../object/)\> [CreateInstance](./createinstance/)(const [System::TypeInfo](../typeinfo/)\&) | Creates an instance of the specified type using the parameterless constructor of that type. |
+| static [System::SharedPtr](../sharedptr/)\<[System::Object](../object/)\> [CreateInstance](./createinstance/)(const [System::TypeInfo](../typeinfo/)&) | Creates an instance of the specified type using the parameterless constructor of that type. |
 ## See Also
 
 * Namespace [System](../)

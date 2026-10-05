@@ -1,7 +1,7 @@
 ---
 title: get_WhiteSmoke()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF5F5F5.
+description: "Returns the solid fill color whose hexadecimal value is #FFF5F5F5."
 type: docs
 weight: 1795
 url: /system.drawing/brushes/get_whitesmoke/

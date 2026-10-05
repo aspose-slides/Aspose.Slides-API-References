@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.text/unicodeencoding/operator_equal_equal/
 ---
-## UnicodeEncoding::operator==(const UnicodeEncoding\&) const method
+## UnicodeEncoding::operator==(const UnicodeEncoding&) const method
 
 
 Compares encodings by codepages and flags.

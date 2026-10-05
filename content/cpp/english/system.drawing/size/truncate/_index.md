@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.drawing/size/truncate/
 ---
-## Size::Truncate(const SizeF\&) method
+## Size::Truncate(const SizeF&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by truncating the [SizeF](../../sizef/) object's width and height values to the next lower integer values.
@@ -20,7 +20,7 @@ static Size System::Drawing::Size::Truncate(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../../sizef/)\& | The [SizeF](../../sizef/) object to convert to construct [Size](../) object from |
+| size | const [SizeF](../../sizef/)& | The [SizeF](../../sizef/) object to convert to construct [Size](../) object from |
 
 ### Return Value
 

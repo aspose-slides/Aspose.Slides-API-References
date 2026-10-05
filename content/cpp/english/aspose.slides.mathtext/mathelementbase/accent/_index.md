@@ -20,7 +20,7 @@ System::SharedPtr<IMathAccent> Aspose::Slides::MathText::MathElementBase::Accent
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| accentCharacter | char16_t | Accent character. The value should be within the range of (U+0300\\u2013U+036F) or (U+20D0\\u2013U+20EF) |
+| accentCharacter | char16_t | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
 
 ### Return Value
 

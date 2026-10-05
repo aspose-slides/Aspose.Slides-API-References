@@ -22,6 +22,13 @@ virtual void System::Xml::XmlDocument::Save(String filename)
 | --- | --- | --- |
 | filename | [String](../../../system/string/) | The location of the file where you want to save the document. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The operation would not result in a well formed XML document (for example, no document element or duplicate XML declarations). |
+
+
 ## XmlDocument::Save(SharedPtr\<IO::Stream\>) method
 
 
@@ -37,6 +44,13 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<IO::Stream> outStream)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | outStream | [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> | The stream to which you want to save. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The operation would not result in a well formed XML document (for example, no document element or duplicate XML declarations). |
+
 
 ## XmlDocument::Save(SharedPtr\<IO::TextWriter\>) method
 
@@ -54,6 +68,13 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<IO::TextWriter> writer)
 | --- | --- | --- |
 | writer | [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\> | The TextWriter to which you want to save. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The operation would not result in a well formed XML document (for example, no document element or duplicate XML declarations). |
+
+
 ## XmlDocument::Save(SharedPtr\<XmlWriter\>) method
 
 
@@ -69,6 +90,13 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<XmlWriter> w)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | w | [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\> | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The operation would not result in a well formed XML document (for example, no document element or duplicate XML declarations). |
+
 
 ## See Also
 

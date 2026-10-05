@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography/hashalgorithmname/tryfromoid/
 ---
-## HashAlgorithmName::TryFromOid(const String\&, HashAlgorithmName\&) method
+## HashAlgorithmName::TryFromOid(const String&, HashAlgorithmName&) method
 
 
 Try to create [HashAlgorithmName](../) from OID-value.
@@ -20,8 +20,8 @@ static bool System::Security::Cryptography::HashAlgorithmName::TryFromOid(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid_value | const [String](../../../system/string/)\& | OID value. |
-| value | [HashAlgorithmName](../)\& | Output [HashAlgorithmName](../). |
+| oid_value | const [String](../../../system/string/)& | OID value. |
+| value | [HashAlgorithmName](../)& | Output [HashAlgorithmName](../). |
 
 ### Return Value
 

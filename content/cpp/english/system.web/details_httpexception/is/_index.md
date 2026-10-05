@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_HttpException::Is() method"
 type: docs
 weight: 27
 url: /system.web/details_httpexception/is/
 ---
-## Details_HttpException::Is(const System::TypeInfo\&) const method
+## Details_HttpException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::Web::Details_HttpException::Is(const System::TypeInfo &target) cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../../system/typeinfo/)\& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../../system/typeinfo/)& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

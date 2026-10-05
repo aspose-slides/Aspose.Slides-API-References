@@ -26,7 +26,7 @@ static UnicodeCategory System::Globalization::CharUnicodeInfo::GetUnicodeCategor
 
 Unicode category.
 
-## CharUnicodeInfo::GetUnicodeCategory(const String\&, int) method
+## CharUnicodeInfo::GetUnicodeCategory(const String&, int) method
 
 
 Gets unicode category of the character at the specified index of the string.
@@ -40,7 +40,7 @@ static UnicodeCategory System::Globalization::CharUnicodeInfo::GetUnicodeCategor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | The string containing unicode character. |
+| str | const [String](../../../system/string/)& | The string containing unicode character. |
 | index | int | The index of the unicode character. |
 
 ### Return Value

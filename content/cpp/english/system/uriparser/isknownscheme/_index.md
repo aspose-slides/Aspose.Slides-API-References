@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/uriparser/isknownscheme/
 ---
-## UriParser::IsKnownScheme(const String\&) method
+## UriParser::IsKnownScheme(const String&) method
 
 
 Indicates whether the parser for a scheme is registered.
@@ -20,7 +20,7 @@ static bool System::UriParser::IsKnownScheme(const String &schemeName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemeName | const [String](../../string/)\& | The scheme name to check |
+| schemeName | const [String](../../string/)& | The scheme name to check |
 
 ### Return Value
 

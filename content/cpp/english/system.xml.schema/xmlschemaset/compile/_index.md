@@ -16,6 +16,13 @@ void System::Xml::Schema::XmlSchemaSet::Compile()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | An error occurred when validating and compiling the schemas in the [XmlSchemaSet](../). |
+
+
 ## See Also
 
 * Class [XmlSchemaSet](../)

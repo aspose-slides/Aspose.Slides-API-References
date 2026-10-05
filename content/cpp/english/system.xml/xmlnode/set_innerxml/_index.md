@@ -22,6 +22,14 @@ virtual void System::Xml::XmlNode::set_InnerXml(String value)
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Setting this value on a node that cannot have child nodes. |
+| XmlException | The XML specified when setting this value is not well-formed. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

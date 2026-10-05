@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/retryconditionheadervalue/tryparse/
 ---
-## RetryConditionHeaderValue::TryParse(String, System::SharedPtr\<RetryConditionHeaderValue\>\&) method
+## RetryConditionHeaderValue::TryParse(String, System::SharedPtr\<RetryConditionHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [RetryConditionHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::RetryConditionHeaderValue::TryParse(Stri
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RetryConditionHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RetryConditionHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

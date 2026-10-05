@@ -20,6 +20,14 @@ virtual bool System::Xml::XmlReader::ReadContentAsBoolean()
 
 The text content as a [Boolean](../../../system/boolean/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

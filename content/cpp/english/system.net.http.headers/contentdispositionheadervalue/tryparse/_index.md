@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.net.http.headers/contentdispositionheadervalue/tryparse/
 ---
-## ContentDispositionHeaderValue::TryParse(String, System::SharedPtr\<ContentDispositionHeaderValue\>\&) method
+## ContentDispositionHeaderValue::TryParse(String, System::SharedPtr\<ContentDispositionHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [ContentDispositionHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse(
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ContentDispositionHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ContentDispositionHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

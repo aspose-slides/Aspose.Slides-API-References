@@ -21,6 +21,13 @@ void Aspose::Slides::MasterSlideCollection::RemoveAt(int32_t index) override
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if the master to remove is used in presentation (its HasDependingSlides property is true). |
+
 ## Remarks
 
 

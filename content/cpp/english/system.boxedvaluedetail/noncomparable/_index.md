@@ -9,7 +9,7 @@ url: /system.boxedvaluedetail/noncomparable/
 ## NonComparable class
 
 
-Dummy base type for boxed types what do not implement IComparable<>
+Dummy base type for boxed types what do not implement IComparable\<\>
 
 ```cpp
 class NonComparable

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/stdiostreamwrapperbase/stdiostreamwrapperbase/
 ---
-## STDIOStreamWrapperBase::STDIOStreamWrapperBase(const STDIOStreamWrapperBase\&) constructor
+## STDIOStreamWrapperBase::STDIOStreamWrapperBase(const STDIOStreamWrapperBase&) constructor
 
 
 Copy constructor. Deleted.

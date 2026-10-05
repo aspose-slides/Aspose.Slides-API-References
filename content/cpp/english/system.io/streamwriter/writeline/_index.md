@@ -15,7 +15,7 @@ Writes line terminator characters to the stream.
 void System::IO::StreamWriter::WriteLine() override
 ```
 
-## StreamWriter::WriteLine(const String\&) method
+## StreamWriter::WriteLine(const String&) method
 
 
 Writes the specified string followed by the line-terminating characters to the stream.
@@ -29,9 +29,9 @@ void System::IO::StreamWriter::WriteLine(const String &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The string to write |
+| value | const [String](../../../system/string/)& | The string to write |
 
-## StreamWriter::WriteLine(const SharedPtr\<Object\>\&) method
+## StreamWriter::WriteLine(const SharedPtr\<Object\>&) method
 
 
 Writes the string representation of the specified object followed by the line-terminating characters to the stream.
@@ -45,9 +45,9 @@ void System::IO::StreamWriter::WriteLine(const SharedPtr<Object> &obj) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object to write |
 
-## StreamWriter::WriteLine(const ArrayPtr\<char_t\>\&) method
+## StreamWriter::WriteLine(const ArrayPtr\<char_t\>&) method
 
 
 Writes all characetrs from the specified array followed by the line-terminating characters to the stream.
@@ -61,9 +61,9 @@ void System::IO::StreamWriter::WriteLine(const ArrayPtr<char_t> &buffer) overrid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 
-## StreamWriter::WriteLine(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## StreamWriter::WriteLine(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array followed by the line-terminating characters to the stream.
@@ -77,11 +77,11 @@ void System::IO::StreamWriter::WriteLine(const ArrayPtr<char_t> &buffer, int32_t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## StreamWriter::WriteLine(const char_t *) method
+## StreamWriter::WriteLine(const char_t \*) method
 
 
 Writes the specified c-string followed by the line-terminating characters to the stream.
@@ -95,9 +95,9 @@ void System::IO::StreamWriter::WriteLine(const char_t *buffer) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const char_t * | The c-string to write |
+| buffer | const char_t \* | The c-string to write |
 
-## StreamWriter::WriteLine(const System::SharedPtr\<T\>\&) method
+## StreamWriter::WriteLine(const System::SharedPtr\<T\>&) method
 
 
 Writes the string representation of the specified object followed by the line-terminating characters to the stream.
@@ -117,7 +117,7 @@ template<typename T> void System::IO::StreamWriter::WriteLine(const System::Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [System::SharedPtr](../../../system/sharedptr/)\<T\>\& | The object to write |
+| obj | const [System::SharedPtr](../../../system/sharedptr/)\<T\>& | The object to write |
 
 ## See Also
 

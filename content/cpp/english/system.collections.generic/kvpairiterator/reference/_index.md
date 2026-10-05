@@ -1,7 +1,7 @@
 ---
 title: reference
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: reference typedef
 type: docs
 weight: 105
 url: /system.collections.generic/kvpairiterator/reference/

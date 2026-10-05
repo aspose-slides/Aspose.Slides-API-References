@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_equal_equal/
 ---
-## Delegate< ReturnType(ArgumentTypes...)>::operator==(const Delegate\&) const method
+## Delegate\< ReturnType(ArgumentTypes...)\>::operator==(const Delegate&) const method
 
 
 Compares two delegate objects to check if they point to the same entity.
@@ -20,7 +20,7 @@ bool System::Delegate<ReturnType(ArgumentTypes...)>::operator==(const Delegate &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| f | const [Delegate](../delegate/)\& | A delegate object to compare current delegate object with |
+| f | const [Delegate](../delegate/)& | A delegate object to compare current delegate object with |
 
 ### Return Value
 
@@ -29,6 +29,6 @@ True if both delegates point the same entity, otherwise - false
 ## See Also
 
 * Method [Delegate](../delegate/)
-* Class [Delegate< ReturnType(ArgumentTypes...)>](../)
+* Class [Delegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

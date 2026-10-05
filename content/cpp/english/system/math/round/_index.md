@@ -90,7 +90,7 @@ static double System::Math::Round(double value, int digits, MidpointRounding mod
 
 The number with the specified number of digits nearest to **value**
 
-## Math::Round(const Decimal\&) method
+## Math::Round(const Decimal&) method
 
 
 Rounds the specified value to the nearest integral value.
@@ -104,13 +104,13 @@ static Decimal System::Math::Round(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../../decimal/)\& | The value to round |
+| d | const [Decimal](../../decimal/)& | The value to round |
 
 ### Return Value
 
 **d** rounded to the nearest integral value
 
-## Math::Round(const Decimal\&, int) method
+## Math::Round(const Decimal&, int) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits.
@@ -124,14 +124,14 @@ static Decimal System::Math::Round(const Decimal &value, int digits)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../decimal/)\& | The value to round |
+| value | const [Decimal](../../decimal/)& | The value to round |
 | digits | int | The number of fractional digits in the rounded value |
 
 ### Return Value
 
 The number with the specified number of digits nearest to **value**
 
-## Math::Round(const Decimal\&, MidpointRounding) method
+## Math::Round(const Decimal&, MidpointRounding) method
 
 
 Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -145,14 +145,14 @@ static Decimal System::Math::Round(const Decimal &d, MidpointRounding mode)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../../decimal/)\& | The value to round |
+| d | const [Decimal](../../decimal/)& | The value to round |
 | mode | [MidpointRounding](../../midpointrounding/) | Specifies how to perform the rounding if **value** is equally close to two nearest numbers. |
 
 ### Return Value
 
 **d** rounded to the nearest integral value
 
-## Math::Round(const Decimal\&, int, MidpointRounding) method
+## Math::Round(const Decimal&, int, MidpointRounding) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -166,7 +166,7 @@ static Decimal System::Math::Round(const Decimal &d, int digits, MidpointRoundin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../../decimal/)\& | The value to round |
+| d | const [Decimal](../../decimal/)& | The value to round |
 | digits | int | The number of fractional digits in the rounded value |
 | mode | [MidpointRounding](../../midpointrounding/) | Specifies how to perform the rounding if **value** is equally close to two nearest numbers. |
 

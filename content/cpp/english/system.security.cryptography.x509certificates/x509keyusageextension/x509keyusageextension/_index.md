@@ -15,7 +15,7 @@ Default constructor.
 System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension()
 ```
 
-## X509KeyUsageExtension::X509KeyUsageExtension(const SharedPtr\<AsnEncodedData\>\&, bool) constructor
+## X509KeyUsageExtension::X509KeyUsageExtension(const SharedPtr\<AsnEncodedData\>&, bool) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509Key
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoded_key_usage | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | Encoded data of key usages. |
+| encoded_key_usage | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>& | Encoded data of key usages. |
 | critical | **bool** | Criticality sign. |
 
 ## X509KeyUsageExtension::X509KeyUsageExtension(X509KeyUsageFlags, bool) constructor

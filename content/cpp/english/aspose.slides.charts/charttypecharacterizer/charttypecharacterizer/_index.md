@@ -1,7 +1,7 @@
 ---
 title: ChartTypeCharacterizer()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ChartTypeCharacterizer::ChartTypeCharacterizer() constructor"
 type: docs
 weight: 274
 url: /aspose.slides.charts/charttypecharacterizer/charttypecharacterizer/

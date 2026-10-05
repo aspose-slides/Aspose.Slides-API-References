@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /system/array/copy/
 ---
-## Array::Copy(const ArrayPtr\<SrcType\>\&, const ArrayPtr\<DstType\>\&, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, const ArrayPtr\<DstType\>&, int64_t) method
 
 
 Copies the specified number of elements from the source array to the destination array.
@@ -20,11 +20,11 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::ArrayView\<SrcType\>, const ArrayPtr\<DstType\>\&, int64_t) method
+## Array::Copy(System::Details::ArrayView\<SrcType\>, const ArrayPtr\<DstType\>&, int64_t) method
 
 
 Copies the specified number of elements from the source array view to the destination array.
@@ -39,10 +39,10 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(S
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcArray | System::Details::ArrayView\<SrcType\> | Source array view |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(const ArrayPtr\<SrcType\>\&, System::Details::ArrayView\<DstType\>, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, System::Details::ArrayView\<DstType\>, int64_t) method
 
 
 Copies the specified number of elements from the source array to the destination array view.
@@ -56,7 +56,7 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
 | dstArray | System::Details::ArrayView\<DstType\> | Destination array view |
 | count | **int64_t** | The number of elements to copy |
 
@@ -78,7 +78,7 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(S
 | dstArray | System::Details::ArrayView\<DstType\> | Destination array view |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::StackArray\<SrcType, N\>\&, const ArrayPtr\<DstType\>\&, int64_t) method
+## Array::Copy(System::Details::StackArray\<SrcType, N\>&, const ArrayPtr\<DstType\>&, int64_t) method
 
 
 Copies the specified number of elements from the source array on stack to the destination array.
@@ -92,11 +92,11 @@ template<typename SrcType,std::size_t,typename DstType> static void System::Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | System::Details::StackArray\<SrcType, N\>\& | Source array on stack |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| srcArray | System::Details::StackArray\<SrcType, N\>& | Source array on stack |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(const ArrayPtr\<SrcType\>\&, System::Details::StackArray\<DstType, N\>\&, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, System::Details::StackArray\<DstType, N\>&, int64_t) method
 
 
 Copies the specified number of elements from the source array to the destination array on stack.
@@ -110,11 +110,11 @@ template<typename SrcType,typename DstType,std::size_t> static void System::Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
-| dstArray | System::Details::StackArray\<DstType, N\>\& | Destination array on stack |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
+| dstArray | System::Details::StackArray\<DstType, N\>& | Destination array on stack |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::StackArray\<SrcType, NS\>\&, System::Details::StackArray\<DstType, ND\>\&, int64_t) method
+## Array::Copy(System::Details::StackArray\<SrcType, NS\>&, System::Details::StackArray\<DstType, ND\>&, int64_t) method
 
 
 Copies the specified number of elements from the source array on stack to the destination array on stack.
@@ -128,11 +128,11 @@ template<typename SrcType,std::size_t,typename DstType,std::size_t> static void 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | System::Details::StackArray\<SrcType, NS\>\& | Source array on stack |
-| dstArray | System::Details::StackArray\<DstType, ND\>\& | Destination array on stack |
+| srcArray | System::Details::StackArray\<SrcType, NS\>& | Source array on stack |
+| dstArray | System::Details::StackArray\<DstType, ND\>& | Destination array on stack |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(const ArrayPtr\<SrcType\>\&, int64_t, const ArrayPtr\<DstType\>\&, int64_t, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, int64_t, const ArrayPtr\<DstType\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array starting at the specified index to the specified position in destination array.
@@ -153,13 +153,13 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array designating the beginning of the range of items to copy |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::ArrayView\<SrcType\>, int64_t, const ArrayPtr\<DstType\>\&, int64_t, int64_t) method
+## Array::Copy(System::Details::ArrayView\<SrcType\>, int64_t, const ArrayPtr\<DstType\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array view starting at the specified index to the specified position in destination array.
@@ -182,11 +182,11 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(S
 | --- | --- | --- |
 | srcArray | System::Details::ArrayView\<SrcType\> | Source array view |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array view designating the beginning of the range of items to copy |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(const ArrayPtr\<SrcType\>\&, int64_t, System::Details::ArrayView\<DstType\>, int64_t, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, int64_t, System::Details::ArrayView\<DstType\>, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array starting at the specified index to the specified position in destination array view.
@@ -207,7 +207,7 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array designating the beginning of the range of items to copy |
 | dstArray | System::Details::ArrayView\<DstType\> | Destination array view |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array view to start inserting copied items at |
@@ -240,7 +240,7 @@ template<typename SrcType,typename DstType> static void System::Array<T>::Copy(S
 | dstIndex | **int64_t** | [Index](../../index/) in destination array view to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::StackArray\<SrcType, N\>\&, int64_t, const ArrayPtr\<DstType\>\&, int64_t, int64_t) method
+## Array::Copy(System::Details::StackArray\<SrcType, N\>&, int64_t, const ArrayPtr\<DstType\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array on stack starting at the specified index to the specified position in destination array.
@@ -261,13 +261,13 @@ template<typename SrcType,std::size_t,typename DstType> static void System::Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | System::Details::StackArray\<SrcType, N\>\& | Source array on stack |
+| srcArray | System::Details::StackArray\<SrcType, N\>& | Source array on stack |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array on stack designating the beginning of the range of items to copy |
-| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
+| dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>& | Destination array |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(const ArrayPtr\<SrcType\>\&, int64_t, System::Details::StackArray\<DstType, N\>\&, int64_t, int64_t) method
+## Array::Copy(const ArrayPtr\<SrcType\>&, int64_t, System::Details::StackArray\<DstType, N\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array starting at the specified index to the specified position in destination array on stack.
@@ -288,13 +288,13 @@ template<typename SrcType,typename DstType,std::size_t> static void System::Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>\& | Source array |
+| srcArray | const [ArrayPtr](../../arrayptr/)\<SrcType\>& | Source array |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array designating the beginning of the range of items to copy |
-| dstArray | System::Details::StackArray\<DstType, N\>\& | Destination array on stack |
+| dstArray | System::Details::StackArray\<DstType, N\>& | Destination array on stack |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array on stack to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::StackArray\<SrcType, NS\>\&, int64_t, System::Details::StackArray\<DstType, ND\>\&, int64_t, int64_t) method
+## Array::Copy(System::Details::StackArray\<SrcType, NS\>&, int64_t, System::Details::StackArray\<DstType, ND\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array on stack starting at the specified index to the specified position in destination array on stack.
@@ -315,13 +315,13 @@ template<typename SrcType,std::size_t,typename DstType,std::size_t> static void 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | System::Details::StackArray\<SrcType, NS\>\& | Source array on stack |
+| srcArray | System::Details::StackArray\<SrcType, NS\>& | Source array on stack |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array on stack designating the beginning of the range of items to copy |
-| dstArray | System::Details::StackArray\<DstType, ND\>\& | Destination array on stack |
+| dstArray | System::Details::StackArray\<DstType, ND\>& | Destination array on stack |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array on stack to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 
-## Array::Copy(System::Details::ArrayView\<SrcType\>\&, int64_t, System::Details::StackArray\<DstType, ND\>\&, int64_t, int64_t) method
+## Array::Copy(System::Details::ArrayView\<SrcType\>&, int64_t, System::Details::StackArray\<DstType, ND\>&, int64_t, int64_t) method
 
 
 Copies a specified number of elements from the source array view starting at the specified index to the specified position in destination array on stack.
@@ -342,9 +342,9 @@ template<typename SrcType,typename DstType,std::size_t> static void System::Arra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcArray | System::Details::ArrayView\<SrcType\>\& | Source array view |
+| srcArray | System::Details::ArrayView\<SrcType\>& | Source array view |
 | srcIndex | **int64_t** | [Index](../../index/) in the source array view designating the beginning of the range of items to copy |
-| dstArray | System::Details::StackArray\<DstType, ND\>\& | Destination array on stack |
+| dstArray | System::Details::StackArray\<DstType, ND\>& | Destination array on stack |
 | dstIndex | **int64_t** | [Index](../../index/) in destination array on stack to start inserting copied items at |
 | count | **int64_t** | The number of elements to copy |
 

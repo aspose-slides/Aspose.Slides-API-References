@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.io/file/readalllines/
 ---
-## File::ReadAllLines(const String\&, const EncodingPtr\&) method
+## File::ReadAllLines(const String&, const EncodingPtr&) method
 
 
 Reads the content of the specified text file line by line to an array of strings using the specified character encoding.
@@ -20,8 +20,8 @@ static ArrayPtr<String> System::IO::File::ReadAllLines(const String &path, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to read |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The path of the file to read |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ### Return Value
 

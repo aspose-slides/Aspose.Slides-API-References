@@ -1,7 +1,7 @@
 ---
 title: XmlDsigHMACSHA1Url
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigHMACSHA1Url field
 type: docs
 weight: 339
 url: /system.security.cryptography.xml/signedxml/xmldsighmacsha1url/

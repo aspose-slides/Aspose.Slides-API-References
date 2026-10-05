@@ -16,6 +16,13 @@ TypeInfo System::Reflection::ConstructorInfo::get_DeclaringType()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [TypeInfo](../../../system/typeinfo/)

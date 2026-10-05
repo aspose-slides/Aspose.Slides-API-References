@@ -6,7 +6,7 @@ type: docs
 weight: 2601
 url: /system/constcast/
 ---
-## System::ConstCast(const SmartPtr\<TFrom\>\&) function
+## System::ConstCast(const SmartPtr\<TFrom\>&) function
 
 
 End of deprecated casts.
@@ -27,7 +27,7 @@ template<typename TTo,typename TFrom> CastResult<TTo>::type System::ConstCast(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../smartptr/)\<TFrom\>\& | Source pointer. |
+| obj | const [SmartPtr](../smartptr/)\<TFrom\>& | Source pointer. |
 
 ### Return Value
 

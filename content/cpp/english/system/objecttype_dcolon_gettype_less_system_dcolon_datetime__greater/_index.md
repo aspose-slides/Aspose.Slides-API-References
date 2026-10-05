@@ -6,7 +6,7 @@ type: docs
 weight: 2705
 url: /system/objecttype_dcolon_gettype_less_system_dcolon_datetime__greater/
 ---
-## System::ObjectType::GetType< System::DateTime >() function
+## System::ObjectType::GetType\< System::DateTime \>() function
 
 
 Implements typeof() translation. Overload for [DateTime](../datetime/).

@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system/uri/hexunescape/
 ---
-## Uri::HexUnescape(const String\&, int32_t\&) method
+## Uri::HexUnescape(const String&, int32_t&) method
 
 
 Converts the specified hexadecimal representation of a character to a character.
@@ -20,8 +20,8 @@ static char16_t System::Uri::HexUnescape(const String &pattern, int32_t &index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../string/)\& | A string containing the hexadecimal representation of a character |
-| index | **int32_t**\& | The position in **pattern** where the hexadecimal representation of a character begins |
+| pattern | const [String](../../string/)& | A string containing the hexadecimal representation of a character |
+| index | **int32_t**& | The position in **pattern** where the hexadecimal representation of a character begins |
 
 ### Return Value
 

@@ -16,6 +16,13 @@ void Aspose::Slides::CustomXmlPart::Remove() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if xml part is already removed. |
+
+
 ## See Also
 
 * Class [CustomXmlPart](../)

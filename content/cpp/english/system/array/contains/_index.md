@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/array/contains/
 ---
-## Array::Contains(const T\&) const method
+## Array::Contains(const T&) const method
 
 
 Determines if the specified item is in the array.
@@ -20,7 +20,7 @@ virtual bool System::Array<T>::Contains(const T &item) const override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for in the array |
+| item | const T& | Item to look for in the array |
 
 ### Return Value
 

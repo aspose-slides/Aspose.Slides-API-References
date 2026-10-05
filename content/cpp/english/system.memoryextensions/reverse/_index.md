@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.memoryextensions/reverse/
 ---
-## System::MemoryExtensions::Reverse(Span\<T\>\&) function
+## System::MemoryExtensions::Reverse(Span\<T\>&) function
 
 
 Reverses the order of elements in a [Span](../../system/span/) in-place.
@@ -26,7 +26,7 @@ template<typename T> void System::MemoryExtensions::Reverse(Span<T> &span)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | [Span](../../system/span/)\<T\>\& | The span to reverse |
+| span | [Span](../../system/span/)\<T\>& | The span to reverse |
 
 ## See Also
 

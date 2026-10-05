@@ -15,7 +15,7 @@ Constructs empty [X509Certificate2](../).
 System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2()
 ```
 
-## X509Certificate2::X509Certificate2(const String\&) constructor
+## X509Certificate2::X509Certificate2(const String&) constructor
 
 
 Constructor.
@@ -29,9 +29,9 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | File to load certificate from. |
+| filename | const [String](../../../system/string/)& | File to load certificate from. |
 
-## X509Certificate2::X509Certificate2(const SharedPtr\<X509Certificate\>\&) constructor
+## X509Certificate2::X509Certificate2(const SharedPtr\<X509Certificate\>&) constructor
 
 
 Constructor.
@@ -45,9 +45,9 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cert | const [SharedPtr](../../../system/sharedptr/)\<[X509Certificate](../../x509certificate/)\>\& | An [X509Certificate](../../x509certificate/) object. |
+| cert | const [SharedPtr](../../../system/sharedptr/)\<[X509Certificate](../../x509certificate/)\>& | An [X509Certificate](../../x509certificate/) object. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&) constructor
 
 
 Constructor.
@@ -61,9 +61,9 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&, const String\&) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&, const String&) constructor
 
 
 Constructor.
@@ -77,10 +77,10 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
-| password | const [String](../../../system/string/)\& | Certificate password. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate. |
+| password | const [String](../../../system/string/)& | Certificate password. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&, const SecureStringPtr\&) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&, const SecureStringPtr&) constructor
 
 
 Constructor.
@@ -94,10 +94,10 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Certificate password. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | Certificate password. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&, const String\&, X509KeyStorageFlags) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&, const String&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -111,11 +111,11 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
-| password | const [String](../../../system/string/)\& | Certificate password. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate. |
+| password | const [String](../../../system/string/)& | Certificate password. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&, const SecureStringPtr\&, X509KeyStorageFlags) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&, const SecureStringPtr&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -129,11 +129,11 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Certificate password. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | Certificate password. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## X509Certificate2::X509Certificate2(const String\&, const String\&) constructor
+## X509Certificate2::X509Certificate2(const String&, const String&) constructor
 
 
 Constructor.
@@ -147,10 +147,10 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | File to load certificate from. |
-| password | const [String](../../../system/string/)\& | Certificate password. |
+| filename | const [String](../../../system/string/)& | File to load certificate from. |
+| password | const [String](../../../system/string/)& | Certificate password. |
 
-## X509Certificate2::X509Certificate2(const String\&, const SecureStringPtr\&) constructor
+## X509Certificate2::X509Certificate2(const String&, const SecureStringPtr&) constructor
 
 
 Constructor.
@@ -164,10 +164,10 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | File to load certificate from. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Certificate password. |
+| filename | const [String](../../../system/string/)& | File to load certificate from. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | Certificate password. |
 
-## X509Certificate2::X509Certificate2(const String\&, const String\&, X509KeyStorageFlags) constructor
+## X509Certificate2::X509Certificate2(const String&, const String&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -181,11 +181,11 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | File to load certificate from. |
-| password | const [String](../../../system/string/)\& | Certificate password. |
+| filename | const [String](../../../system/string/)& | File to load certificate from. |
+| password | const [String](../../../system/string/)& | Certificate password. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## X509Certificate2::X509Certificate2(const String\&, const SecureStringPtr\&, X509KeyStorageFlags) constructor
+## X509Certificate2::X509Certificate2(const String&, const SecureStringPtr&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -199,11 +199,11 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | File to load certificate from. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Certificate password. |
+| filename | const [String](../../../system/string/)& | File to load certificate from. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | Certificate password. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## X509Certificate2::X509Certificate2(const ByteArrayPtr\&, const ByteArrayPtr\&, X509KeyStorageFlags) constructor
+## X509Certificate2::X509Certificate2(const ByteArrayPtr&, const ByteArrayPtr&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -217,8 +217,8 @@ System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certific
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate (public part). |
-| private_key | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents private key. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents encoded certificate (public part). |
+| private_key | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Sequence of bytes that represents private key. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
 ## See Also

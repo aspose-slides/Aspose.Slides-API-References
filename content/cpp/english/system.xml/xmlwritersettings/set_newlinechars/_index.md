@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml/xmlwritersettings/set_newlinechars/
 ---
-## XmlWriterSettings::set_NewLineChars(const String\&) method
+## XmlWriterSettings::set_NewLineChars(const String&) method
 
 
 Sets the character string to use for line breaks.
@@ -20,7 +20,14 @@ void System::Xml::XmlWriterSettings::set_NewLineChars(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **value** is **nullptr**. |
+
 
 ## See Also
 

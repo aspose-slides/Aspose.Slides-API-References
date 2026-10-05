@@ -21,6 +21,13 @@ virtual void Aspose::Slides::ILayoutSlideCollection::Remove(System::SharedPtr<IL
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\> | The layout slide to remove from the collection. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if layout is used in presentation (its HasDependingSlides property is true). |
+
 ## Remarks
 
 

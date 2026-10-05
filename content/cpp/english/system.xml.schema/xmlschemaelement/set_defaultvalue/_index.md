@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemaelement/set_defaultvalue/
 ---
-## XmlSchemaElement::set_DefaultValue(const String\&) method
+## XmlSchemaElement::set_DefaultValue(const String&) method
 
 
 Sets the default value of the element if its content is a simple type or content of the element is **textOnly**.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaElement::set_DefaultValue(const String &value
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

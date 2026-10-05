@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::SetOutputChannel(ColorChannelFla
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorChannelFlag](../../colorchannelflag/)

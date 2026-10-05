@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /system/datetimeoffset/compare/
 ---
-## DateTimeOffset::Compare(const DateTimeOffset\&, const DateTimeOffset\&) method
+## DateTimeOffset::Compare(const DateTimeOffset&, const DateTimeOffset&) method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -20,8 +20,8 @@ static int System::DateTimeOffset::Compare(const DateTimeOffset &first, const Da
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | const [DateTimeOffset](../)\& | First object to compare. |
-| second | const [DateTimeOffset](../)\& | Second object to compare. |
+| first | const [DateTimeOffset](../)& | First object to compare. |
+| second | const [DateTimeOffset](../)& | Second object to compare. |
 
 ### Return Value
 

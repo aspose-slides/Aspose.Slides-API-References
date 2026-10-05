@@ -1,7 +1,7 @@
 ---
 title: "System::Runtime::InteropServices"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Runtime::InteropServices namespace"
 type: docs
 weight: 794
 url: /system.runtime.interopservices/

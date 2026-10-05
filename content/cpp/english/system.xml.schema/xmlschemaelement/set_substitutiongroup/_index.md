@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.xml.schema/xmlschemaelement/set_substitutiongroup/
 ---
-## XmlSchemaElement::set_SubstitutionGroup(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaElement::set_SubstitutionGroup(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of an element that is being substituted by this element.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaElement::set_SubstitutionGroup(const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

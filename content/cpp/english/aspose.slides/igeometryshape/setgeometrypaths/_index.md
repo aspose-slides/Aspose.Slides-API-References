@@ -21,6 +21,14 @@ virtual void Aspose::Slides::IGeometryShape::SetGeometryPaths(System::ArrayPtr<S
 | Parameter | Type | Description |
 | --- | --- | --- |
 | geometryPaths | [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IGeometryPath](../../igeometrypath/)\>\> | Array geometry paths |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | No path found |
+| [System::ArgumentException](../../../system/argumentexception/) | Empty path |
+
 ## Remarks
 
 

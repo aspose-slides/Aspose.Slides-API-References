@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.io/file/setlastaccesstime/
 ---
-## File::SetLastAccessTime(const String\&, DateTime) method
+## File::SetLastAccessTime(const String&, DateTime) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 static void System::IO::File::SetLastAccessTime(const String &path, DateTime lastWriteTime)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

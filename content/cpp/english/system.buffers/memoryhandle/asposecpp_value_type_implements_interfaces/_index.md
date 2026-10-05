@@ -1,7 +1,7 @@
 ---
 title: ASPOSECPP_VALUE_TYPE_IMPLEMENTS_INTERFACES()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "MemoryHandle::ASPOSECPP_VALUE_TYPE_IMPLEMENTS_INTERFACES() method"
 type: docs
 weight: 1
 url: /system.buffers/memoryhandle/asposecpp_value_type_implements_interfaces/

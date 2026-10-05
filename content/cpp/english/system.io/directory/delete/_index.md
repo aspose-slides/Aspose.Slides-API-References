@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/directory/delete/
 ---
-## Directory::Delete(const String\&, bool) method
+## Directory::Delete(const String&, bool) method
 
 
 Removes the specified file or directory. Does not throw.
@@ -20,7 +20,7 @@ static void System::IO::Directory::Delete(const String &path, bool recursive=fal
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to the directory or file to be removed |
+| path | const [String](../../../system/string/)& | The path to the directory or file to be removed |
 | recursive | **bool** | If **path** specifies a non-empty directory then **recursive** specifies if if all directory's content should be removed recursively; if the directory specified by **path** is not empty and **recursive** is 'false' then the operation fails |
 
 ## See Also

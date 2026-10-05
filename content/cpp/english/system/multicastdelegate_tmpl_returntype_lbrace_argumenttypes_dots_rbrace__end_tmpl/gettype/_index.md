@@ -1,12 +1,12 @@
 ---
 title: GetType()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "MulticastDelegate< ReturnType(ArgumentTypes...)>::GetType() method"
 type: docs
 weight: 66
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/gettype/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::GetType() const method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::GetType() const method
 
 
 
@@ -18,6 +18,6 @@ const TypeInfo & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::GetTyp
 ## See Also
 
 * Class [TypeInfo](../../typeinfo/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

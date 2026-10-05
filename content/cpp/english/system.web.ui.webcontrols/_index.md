@@ -1,7 +1,7 @@
 ---
 title: "System::Web::UI::WebControls"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Web::UI::WebControls namespace"
 type: docs
 weight: 1106
 url: /system.web.ui.webcontrols/

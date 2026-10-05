@@ -26,6 +26,14 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(String xp
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The return type of the [XPath](../../) expression is a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## XPathNavigator::Evaluate(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
@@ -47,6 +55,14 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(String xp
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The return type of the [XPath](../../) expression is a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## XPathNavigator::Evaluate(SharedPtr\<XPathExpression\>) method
 
 
@@ -66,6 +82,14 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(SharedPtr
 ### Return Value
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The return type of the [XPath](../../) expression is a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
 
 ## XPathNavigator::Evaluate(SharedPtr\<XPathExpression\>, SharedPtr\<XPathNodeIterator\>) method
 
@@ -87,6 +111,14 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(SharedPtr
 ### Return Value
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The return type of the [XPath](../../) expression is a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
 
 ## See Also
 

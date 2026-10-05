@@ -1,7 +1,7 @@
 ---
 title: get_MediumVioletRed()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFC71585.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFC71585."
 type: docs
 weight: 1444
 url: /system.drawing/color/get_mediumvioletred/

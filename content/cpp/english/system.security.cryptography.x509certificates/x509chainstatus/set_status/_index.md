@@ -1,7 +1,7 @@
 ---
 title: set_Status()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainStatus::set_Status() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.x509certificates/x509chainstatus/set_status/

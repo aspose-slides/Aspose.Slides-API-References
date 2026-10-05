@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /system/typeinfo/getmember/
 ---
-## TypeInfo::GetMember(const String\&) const method
+## TypeInfo::GetMember(const String&) const method
 
 
 Gets list of the members with specified name.
@@ -20,7 +20,7 @@ ArrayPtr<SharedPtr<System::Reflection::MemberInfo>> System::TypeInfo::GetMember(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | Name of the member to get. |
+| name | const [String](../../string/)& | Name of the member to get. |
 
 ### Return Value
 

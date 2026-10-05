@@ -1,7 +1,7 @@
 ---
 title: "System::Net::Sockets"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Sockets namespace"
 type: docs
 weight: 742
 url: /system.net.sockets/

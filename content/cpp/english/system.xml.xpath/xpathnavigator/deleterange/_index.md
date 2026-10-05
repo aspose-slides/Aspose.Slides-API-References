@@ -22,6 +22,15 @@ virtual void System::Xml::XPath::XPathNavigator::DeleteRange(SharedPtr<XPathNavi
 | --- | --- | --- |
 | lastSiblingToDelete | [SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\> | An [XPathNavigator](../) positioned on the last sibling node in the range to delete. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XPathNavigator](../) specified is **nullptr**. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| InvalidOperationException | The last node to delete specified is not a valid sibling node of the current node. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

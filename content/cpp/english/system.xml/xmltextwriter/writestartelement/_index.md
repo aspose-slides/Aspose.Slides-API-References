@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.xml/xmltextwriter/writestartelement/
 ---
-## XmlTextWriter::WriteStartElement(const String\&, const String\&, const String\&) method
+## XmlTextWriter::WriteStartElement(const String&, const String&, const String&) method
 
 
 Writes the specified start tag and associates it with the given namespace and prefix.
@@ -20,9 +20,16 @@ void System::Xml::XmlTextWriter::WriteStartElement(const String &prefix, const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The namespace prefix of the element. |
-| localName | const [String](../../../system/string/)\& | The local name of the element. |
-| ns | const [String](../../../system/string/)\& | The namespace URI to associate with the element. If this namespace is already in scope and has an associated prefix then the writer automatically writes that prefix also. |
+| prefix | const [String](../../../system/string/)& | The namespace prefix of the element. |
+| localName | const [String](../../../system/string/)& | The local name of the element. |
+| ns | const [String](../../../system/string/)& | The namespace URI to associate with the element. If this namespace is already in scope and has an associated prefix then the writer automatically writes that prefix also. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The writer is closed. |
+
 
 ## See Also
 

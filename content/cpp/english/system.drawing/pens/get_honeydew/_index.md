@@ -1,7 +1,7 @@
 ---
 title: get_Honeydew()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0FFF0.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF0FFF0."
 type: docs
 weight: 703
 url: /system.drawing/pens/get_honeydew/

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/holderinitializer/holderinitializer/
 ---
-## HolderInitializer::HolderInitializer(T\&) constructor
+## HolderInitializer::HolderInitializer(T&) constructor
 
 
 Initializes holder reference with passed one.

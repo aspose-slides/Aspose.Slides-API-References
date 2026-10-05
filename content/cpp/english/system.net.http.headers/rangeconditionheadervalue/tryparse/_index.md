@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/rangeconditionheadervalue/tryparse/
 ---
-## RangeConditionHeaderValue::TryParse(String, System::SharedPtr\<RangeConditionHeaderValue\>\&) method
+## RangeConditionHeaderValue::TryParse(String, System::SharedPtr\<RangeConditionHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [RangeConditionHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::RangeConditionHeaderValue::TryParse(Stri
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeConditionHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeConditionHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

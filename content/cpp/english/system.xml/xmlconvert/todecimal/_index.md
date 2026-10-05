@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.xml/xmlconvert/todecimal/
 ---
-## XmlConvert::ToDecimal(const String\&) method
+## XmlConvert::ToDecimal(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [Decimal](../../../system/decimal/) equivalent.
@@ -20,11 +20,20 @@ static Decimal System::Xml::XmlConvert::ToDecimal(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string to convert. |
+| s | const [String](../../../system/string/)& | The string to convert. |
 
 ### Return Value
 
 A **[Decimal](../../../system/decimal/)** equivalent of the string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** is not in the correct format. |
+| OverflowException | **s** represents a number less than [Decimal::MinValue](../../../system/decimal/minvalue/) or greater than [Decimal::MaxValue](../../../system/decimal/maxvalue/). |
+
 
 ## See Also
 

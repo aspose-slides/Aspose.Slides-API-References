@@ -15,7 +15,7 @@ Default constructor.
 System::Collections::Generic::ICollection<T>::ICollection()
 ```
 
-## ICollection::ICollection(const ICollection\&) constructor
+## ICollection::ICollection(const ICollection&) constructor
 
 
 Copy constructor.
@@ -24,7 +24,7 @@ Copy constructor.
 System::Collections::Generic::ICollection<T>::ICollection(const ICollection &)
 ```
 
-## ICollection::ICollection(ICollection\&&) constructor
+## ICollection::ICollection(ICollection&&) constructor
 
 
 Move constructor.

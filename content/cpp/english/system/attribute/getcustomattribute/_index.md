@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/attribute/getcustomattribute/
 ---
-## Attribute::GetCustomAttribute(const TypeInfo\&, const TypeInfo\&) method
+## Attribute::GetCustomAttribute(const TypeInfo&, const TypeInfo&) method
 
 
 Returns a custom attribute of a specified type appllied to specified type.
@@ -20,8 +20,8 @@ static Object::ptr System::Attribute::GetCustomAttribute(const TypeInfo &type, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | Type attribute of which is retrieved |
-| attributeType | const [TypeInfo](../../typeinfo/)\& | Type of the attribute to retrieve |
+| type | const [TypeInfo](../../typeinfo/)& | Type attribute of which is retrieved |
+| attributeType | const [TypeInfo](../../typeinfo/)& | Type of the attribute to retrieve |
 
 ### Return Value
 

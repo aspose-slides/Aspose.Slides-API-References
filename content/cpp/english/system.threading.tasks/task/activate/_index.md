@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.threading.tasks/task/activate/
 ---
-## Task::Activate(const SharedPtr\<TaskScheduler\>\&) method
+## Task::Activate(const SharedPtr\<TaskScheduler\>&) method
 
 
 Activates the task for execution on a scheduler.

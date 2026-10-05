@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.drawing/characterrange/operator_equal_equal/
 ---
-## CharacterRange::operator==(const CharacterRange\&) const method
+## CharacterRange::operator==(const CharacterRange&) const method
 
 
 Determines if the current and specified objects represent the same range.
@@ -20,7 +20,7 @@ bool System::Drawing::CharacterRange::operator==(const CharacterRange &cr) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cr | const [CharacterRange](../)\& | The [CharacterRange](../) object to compare the current object with |
+| cr | const [CharacterRange](../)& | The [CharacterRange](../) object to compare the current object with |
 
 ### Return Value
 

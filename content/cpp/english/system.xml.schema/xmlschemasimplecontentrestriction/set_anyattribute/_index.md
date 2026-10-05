@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemasimplecontentrestriction/set_anyattribute/
 ---
-## XmlSchemaSimpleContentRestriction::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
+## XmlSchemaSimpleContentRestriction::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>&) method
 
 
 Sets an [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) to be used for the attribute value.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleContentRestriction::set_AnyAttribute(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>& | The value to set. |
 
 ## See Also
 

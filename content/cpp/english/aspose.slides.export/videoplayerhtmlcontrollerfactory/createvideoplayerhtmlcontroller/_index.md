@@ -24,10 +24,6 @@ System::SharedPtr<IVideoPlayerHtmlController> Aspose::Slides::Export::VideoPlaye
 | fileName | [System::String](../../../system/string/) | File name. |
 | baseUri | [System::String](../../../system/string/) | Base URI. |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

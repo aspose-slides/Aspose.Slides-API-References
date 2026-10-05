@@ -1,7 +1,7 @@
 ---
 title: get_Purple()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF800080.
+description: "Returns the solid fill color whose hexadecimal value is #FF800080."
 type: docs
 weight: 1457
 url: /system.drawing/brushes/get_purple/

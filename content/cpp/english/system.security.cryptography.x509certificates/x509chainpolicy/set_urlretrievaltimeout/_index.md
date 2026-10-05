@@ -1,7 +1,7 @@
 ---
 title: set_UrlRetrievalTimeout()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainPolicy::set_UrlRetrievalTimeout() method"
 type: docs
 weight: 118
 url: /system.security.cryptography.x509certificates/x509chainpolicy/set_urlretrievaltimeout/

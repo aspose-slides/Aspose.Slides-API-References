@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.globalization/numberformatinfo/set_currencysymbol/
 ---
-## NumberFormatInfo::set_CurrencySymbol(const String\&) method
+## NumberFormatInfo::set_CurrencySymbol(const String&) method
 
 
 Sets currency symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_CurrencySymbol(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Currency symbol. |
+| value | const [String](../../../system/string/)& | Currency symbol. |
 
 ## See Also
 

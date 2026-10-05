@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /system/string/join/
 ---
-## String::Join(const String\&, const ArrayPtr\<String\>\&, int, int) method
+## String::Join(const String&, const ArrayPtr\<String\>&, int, int) method
 
 
 Joins array using string as separator.
@@ -20,8 +20,8 @@ static String System::String::Join(const String &separator, const ArrayPtr<Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | [String](../) to put between array elements when joining them. |
-| parts | const [ArrayPtr](../../arrayptr/)\<[String](../)\>\& | [Array](../../array/) of parts to join. |
+| separator | const [String](../)& | [String](../) to put between array elements when joining them. |
+| parts | const [ArrayPtr](../../arrayptr/)\<[String](../)\>& | [Array](../../array/) of parts to join. |
 | startIndex | int | First index in array to start joining from. |
 | count | int | Number of array elements to join. -1 means 'until array ends'. |
 
@@ -29,7 +29,7 @@ static String System::String::Join(const String &separator, const ArrayPtr<Strin
 
 [String](../) representing joint array elements.
 
-## String::Join(const String\&, const System::Details::ArrayView\<String\>\&, int, int) method
+## String::Join(const String&, const System::Details::ArrayView\<String\>&, int, int) method
 
 
 Joins array using string as separator.
@@ -43,8 +43,8 @@ static String System::String::Join(const String &separator, const System::Detail
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | [String](../) to put between array elements when joining them. |
-| parts | const System::Details::ArrayView\<[String](../)\>\& | ArrayView of parts to join. |
+| separator | const [String](../)& | [String](../) to put between array elements when joining them. |
+| parts | const System::Details::ArrayView\<[String](../)\>& | ArrayView of parts to join. |
 | startIndex | int | First index in array to start joining from. |
 | count | int | Number of array elements to join. -1 means 'until array ends'. |
 
@@ -52,7 +52,7 @@ static String System::String::Join(const String &separator, const System::Detail
 
 [String](../) representing joint array elements.
 
-## String::Join(const String\&, const SharedPtr\<System::Collections::Generic::IEnumerable\<String\>\>\&) method
+## String::Join(const String&, const SharedPtr\<System::Collections::Generic::IEnumerable\<String\>\>&) method
 
 
 Joins array using string as separator.
@@ -66,14 +66,14 @@ static String System::String::Join(const String &separator, const SharedPtr<Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | [String](../) to put between array elements when joining them. |
-| parts | const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../)\>\>\& | - parts enumerable object |
+| separator | const [String](../)& | [String](../) to put between array elements when joining them. |
+| parts | const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../)\>\>& | - parts enumerable object |
 
 ### Return Value
 
 [String](../) representing joint elements.
 
-## String::Join(const String\&, const ArrayPtr\<SharedPtr\<Object\>\>\&) method
+## String::Join(const String&, const ArrayPtr\<SharedPtr\<Object\>\>&) method
 
 
 Joins array using string as separator.
@@ -87,8 +87,8 @@ static String System::String::Join(const String &separator, const ArrayPtr<Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | [String](../) to put between array elements when joining them. |
-| parts | const [ArrayPtr](../../arrayptr/)\<[SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\>\& | [Array](../../array/) of parts to join. |
+| separator | const [String](../)& | [String](../) to put between array elements when joining them. |
+| parts | const [ArrayPtr](../../arrayptr/)\<[SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\>& | [Array](../../array/) of parts to join. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml.xpath/xpathitem/valueas/
 ---
-## XPathItem::ValueAs(const TypeInfo\&) method
+## XPathItem::ValueAs(const TypeInfo&) method
 
 
 Returns the item's value as the specified type.
@@ -20,13 +20,22 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathItem::ValueAs(const TypeInfo 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| returnType | const [TypeInfo](../../../system/typeinfo/)\& | The type to return the item value as. |
+| returnType | const [TypeInfo](../../../system/typeinfo/)& | The type to return the item value as. |
 
 ### Return Value
 
 The value of the item as the type requested.
 
-## XPathItem::ValueAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The item's value is not in the correct format for the target type. |
+| InvalidCastException | The attempted cast is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
+
+## XPathItem::ValueAs(const TypeInfo&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 When overridden in a derived class, returns the item's value as the type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -40,12 +49,21 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathItem::ValueAs(const TypeInfo 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| returnType | const [TypeInfo](../../../system/typeinfo/)\& | The type to return the item's value as. |
+| returnType | const [TypeInfo](../../../system/typeinfo/)& | The type to return the item's value as. |
 | nsResolver | [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\> | The [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object used to resolve namespace prefixes. |
 
 ### Return Value
 
 The value of the item as the type requested.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The item's value is not in the correct format for the target type. |
+| InvalidCastException | The attempted cast is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
 
 ## See Also
 

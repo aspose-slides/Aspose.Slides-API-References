@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/equalitycomparerhashadapter/operator_call/
 ---
-## EqualityComparerHashAdapter::operator()(const T\&) const method
+## EqualityComparerHashAdapter::operator()(const T&) const method
 
 
 Calculates hash value.
@@ -20,7 +20,7 @@ std::size_t System::Collections::Generic::EqualityComparerHashAdapter<T>::operat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const T\& | Hashed object. |
+| x | const T& | Hashed object. |
 
 ### Return Value
 

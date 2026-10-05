@@ -9,7 +9,7 @@ url: /aspose.slides/controlpropertiescollection/get_namesofproperties/
 ## ControlPropertiesCollection::get_NamesOfProperties() method
 
 
-Returns the collection of properties names. Read-only ICollection<string>.
+Returns the collection of properties names. Read-only ICollection\<string\>.
 
 ```cpp
 System::SharedPtr<System::Collections::Generic::ICollection<System::String>> Aspose::Slides::ControlPropertiesCollection::get_NamesOfProperties() override

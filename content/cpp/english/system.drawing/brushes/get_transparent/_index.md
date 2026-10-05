@@ -1,7 +1,7 @@
 ---
 title: get_Transparent()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #00FFFFFF.
+description: "Returns the solid fill color whose hexadecimal value is #00FFFFFF."
 type: docs
 weight: 1730
 url: /system.drawing/brushes/get_transparent/

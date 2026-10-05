@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.xml/xmlconvert/tochar/
 ---
-## XmlConvert::ToChar(const String\&) method
+## XmlConvert::ToChar(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [Char](../../../system/char/) equivalent.
@@ -20,11 +20,19 @@ static char16_t System::Xml::XmlConvert::ToChar(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string containing a single character to convert. |
+| s | const [String](../../../system/string/)& | The string containing a single character to convert. |
 
 ### Return Value
 
 A **[Char](../../../system/char/)** representing the single character.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The value of the **s** parameter is **nullptr**. |
+| FormatException | The **s** parameter contains more than one character. |
+
 
 ## See Also
 

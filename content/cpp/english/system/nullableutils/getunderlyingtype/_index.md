@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/nullableutils/getunderlyingtype/
 ---
-## NullableUtils::GetUnderlyingType(const System::TypeInfo\&) method
+## NullableUtils::GetUnderlyingType(const System::TypeInfo&) method
 
 
 Returns the underlying type argument of the specified nullable type.
@@ -20,7 +20,7 @@ static const System::TypeInfo & System::NullableUtils::GetUnderlyingType(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nullableType | const [System::TypeInfo](../../typeinfo/)\& | A System.Type object that describes a closed generic nullable type. |
+| nullableType | const [System::TypeInfo](../../typeinfo/)& | A System.Type object that describes a closed generic nullable type. |
 
 ### Return Value
 

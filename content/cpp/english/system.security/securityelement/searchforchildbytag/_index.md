@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.security/securityelement/searchforchildbytag/
 ---
-## SecurityElement::SearchForChildByTag(const String\&) method
+## SecurityElement::SearchForChildByTag(const String&) method
 
 
 Gets child tag by name.
@@ -20,7 +20,7 @@ SecurityElement System::Security::SecurityElement::SearchForChildByTag(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tag | const [String](../../../system/string/)\& | Tag name to look for. |
+| tag | const [String](../../../system/string/)& | Tag name to look for. |
 
 ### Return Value
 

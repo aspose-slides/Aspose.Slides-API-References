@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /system.collections.generic/operator_less_less/
 ---
-## System::Collections::Generic::operator<<(std::ostream\&, const KeyValuePair\<TKey, TValue\>\&) function
+## System::Collections::Generic::operator\<\<(std::ostream&, const KeyValuePair\<TKey, TValue\>&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -27,14 +27,14 @@ template<typename TKey,typename TValue> std::ostream & System::Collections::Gene
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| pair | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| pair | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Collections::Generic::operator<<(std::wostream\&, const KeyValuePair\<TKey, TValue\>\&) function
+## System::Collections::Generic::operator\<\<(std::wostream&, const KeyValuePair\<TKey, TValue\>&) function
 
 
 Insert data into the stream.
@@ -55,8 +55,8 @@ template<typename TKey,typename TValue> std::wostream & System::Collections::Gen
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| pair | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| pair | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 

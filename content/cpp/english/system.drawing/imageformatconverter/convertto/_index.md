@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.drawing/imageformatconverter/convertto/
 ---
-## ImageFormatConverter::ConvertTo(const SharedPtr\<ComponentModel::ITypeDescriptorContext\>\&, const SharedPtr\<Globalization::CultureInfo\>\&, const SharedPtr\<Object\>\&, const TypeInfo\&) method
+## ImageFormatConverter::ConvertTo(const SharedPtr\<ComponentModel::ITypeDescriptorContext\>&, const SharedPtr\<Globalization::CultureInfo\>&, const SharedPtr\<Object\>&, const TypeInfo&) method
 
 
 Converts object to specific type.
@@ -20,10 +20,10 @@ SharedPtr<Object> System::Drawing::ImageFormatConverter::ConvertTo(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| culture | const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use when converting objects. |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
-| destinationType | const [TypeInfo](../../../system/typeinfo/)\& | Type to convert to. |
+| context | const [SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| culture | const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use when converting objects. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
+| destinationType | const [TypeInfo](../../../system/typeinfo/)& | Type to convert to. |
 
 ### Return Value
 

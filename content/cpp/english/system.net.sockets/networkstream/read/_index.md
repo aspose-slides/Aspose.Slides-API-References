@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.net.sockets/networkstream/read/
 ---
-## NetworkStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## NetworkStream::Read(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -20,7 +20,7 @@ int32_t System::Net::Sockets::NetworkStream::Read(const ArrayPtr<uint8_t> &buffe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array where the read bytes will be written. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array where the read bytes will be written. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to read. |
 
@@ -28,7 +28,7 @@ int32_t System::Net::Sockets::NetworkStream::Read(const ArrayPtr<uint8_t> &buffe
 
 The number of read bytes.
 
-## NetworkStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## NetworkStream::Read(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -42,7 +42,7 @@ int32_t System::Net::Sockets::NetworkStream::Read(const System::Details::ArrayVi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | The byte array view to write the read bytes to |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | The byte array view to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | size | **int32_t** | The number of bytes to read |
 

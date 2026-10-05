@@ -1,7 +1,7 @@
 ---
 title: RotationEffect()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "RotationEffect::RotationEffect() constructor"
 type: docs
 weight: 79
 url: /aspose.slides.animation/rotationeffect/rotationeffect/

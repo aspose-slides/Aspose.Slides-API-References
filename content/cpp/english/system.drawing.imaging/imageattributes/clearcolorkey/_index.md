@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::ClearColorKey(ColorAdjustType ty
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

@@ -1,7 +1,7 @@
 ---
 title: get_LightSlateGray()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF778899.
+description: "Returns the solid fill color whose hexadecimal value is #FF778899."
 type: docs
 weight: 950
 url: /system.drawing/brushes/get_lightslategray/

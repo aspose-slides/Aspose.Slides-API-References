@@ -27,6 +27,13 @@ virtual bool System::Text::DecoderExceptionFallbackBuffer::Fallback(ArrayPtr<uin
 
 Never actually returns, throws instead.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| DecoderFallbackException | Throws unconditionally. |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

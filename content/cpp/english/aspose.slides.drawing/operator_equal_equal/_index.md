@@ -1,7 +1,7 @@
 ---
 title: operator==()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Drawing::operator==() function"
 type: docs
 weight: 105
 url: /aspose.slides.drawing/operator_equal_equal/

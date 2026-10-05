@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/pen/pen/
 ---
-## Pen::Pen(const Color\&) constructor
+## Pen::Pen(const Color&) constructor
 
 
 Constructs a new [Pen](../) object representing the specified color.
@@ -20,9 +20,9 @@ System::Drawing::Pen::Pen(const Color &color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | const [Color](../../color/)\& | The color of the pen represented by the object being constructed |
+| color | const [Color](../../color/)& | The color of the pen represented by the object being constructed |
 
-## Pen::Pen(const Color\&, float) constructor
+## Pen::Pen(const Color&, float) constructor
 
 
 Constructs a new [Pen](../) object representing the specified color and width.
@@ -36,10 +36,10 @@ System::Drawing::Pen::Pen(const Color &color, float width)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | const [Color](../../color/)\& | The color of the pen represented by the object being constructed |
+| color | const [Color](../../color/)& | The color of the pen represented by the object being constructed |
 | width | **float** | The width of the pen represented by the object being constructed |
 
-## Pen::Pen(const SharedPtr\<Brush\>\&) constructor
+## Pen::Pen(const SharedPtr\<Brush\>&) constructor
 
 
 Constructs a new [Pen](../) object and initializes it with the specified [Brush](../../brush/) object.
@@ -53,9 +53,9 @@ System::Drawing::Pen::Pen(const SharedPtr<Brush> &brush)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | The [Brush](../../brush/) object that specifies the fill properties of the pen represented by the object being constructed |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | The [Brush](../../brush/) object that specifies the fill properties of the pen represented by the object being constructed |
 
-## Pen::Pen(const SharedPtr\<Brush\>\&, float) constructor
+## Pen::Pen(const SharedPtr\<Brush\>&, float) constructor
 
 
 Constructs a new [Pen](../) object and initializes it with the specified [Brush](../../brush/) object.
@@ -69,7 +69,7 @@ System::Drawing::Pen::Pen(const SharedPtr<Brush> &brush, float width)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | The [Brush](../../brush/) object that specifies the fill properties of the pen represented by the object being constructed |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | The [Brush](../../brush/) object that specifies the fill properties of the pen represented by the object being constructed |
 | width | **float** | The width of the pen represented by the object being constructed |
 
 ## See Also

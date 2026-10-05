@@ -1,7 +1,7 @@
 ---
 title: ToString()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IFormattable::ToString() method"
 type: docs
 weight: 1
 url: /system/iformattable/tostring/

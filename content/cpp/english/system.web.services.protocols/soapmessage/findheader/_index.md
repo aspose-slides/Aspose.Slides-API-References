@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.web.services.protocols/soapmessage/findheader/
 ---
-## SoapMessage::FindHeader(System::ArrayPtr\<System::SharedPtr\<SoapHeaderMapping\>\>, const TypeInfo\&) method
+## SoapMessage::FindHeader(System::ArrayPtr\<System::SharedPtr\<SoapHeaderMapping\>\>, const TypeInfo&) method
 
 
 Find the header mapping by specified header type.
@@ -21,7 +21,7 @@ System::SharedPtr<SoapHeaderMapping> System::Web::Services::Protocols::SoapMessa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headersInfo | [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<SoapHeaderMapping\>\> | The collection of the header mappings. |
-| headerType | const [TypeInfo](../../../system/typeinfo/)\& | The header type to look for. |
+| headerType | const [TypeInfo](../../../system/typeinfo/)& | The header type to look for. |
 
 ### Return Value
 

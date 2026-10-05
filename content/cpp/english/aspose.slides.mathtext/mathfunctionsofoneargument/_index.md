@@ -22,13 +22,13 @@ enum class MathFunctionsOfOneArgument
 | Sin | 0 | Sine |
 | Cos | 1 | Cosine |
 | Tan | 2 | Tangent |
-| Csc | 3 | \\u0421osecant |
+| Csc | 3 | Сosecant |
 | Sec | 4 | Secant |
 | Cot | 5 | Cotangent |
 | HyperbolicSin | 6 | Hyperbolic sine |
 | HyperbolicCos | 7 | Hyperbolic Cosine |
 | HyperbolicTan | 8 | Hyperbolic Tangent |
-| HyperbolicCsc | 9 | Hyperbolic \\u0421osecant |
+| HyperbolicCsc | 9 | Hyperbolic Сosecant |
 | HyperbolicSec | 10 | Hyperbolic Secant |
 | HyperbolicCot | 11 | Hyperbolic Cotangent |
 | Lg | 12 | Decimal logarithm |

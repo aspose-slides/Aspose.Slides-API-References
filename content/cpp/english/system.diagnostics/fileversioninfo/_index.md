@@ -20,7 +20,7 @@ class FileVersionInfo
 | Method | Description |
 | --- | --- |
 | [String](../../system/string/) [get_ProductVersion](./get_productversion/)() const | Gets product version field. |
-| static [SharedPtr](../../system/sharedptr/)\<[System::Diagnostics::FileVersionInfo](./)\> [GetVersionInfo](./getversioninfo/)(const [String](../../system/string/)\&) | Gets file version info; not implemented. |
+| static [SharedPtr](../../system/sharedptr/)\<[System::Diagnostics::FileVersionInfo](./)\> [GetVersionInfo](./getversioninfo/)(const [String](../../system/string/)&) | Gets file version info; not implemented. |
 ## See Also
 
 * Namespace [System::Diagnostics](../)

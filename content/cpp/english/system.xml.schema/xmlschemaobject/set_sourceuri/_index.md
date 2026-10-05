@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemaobject/set_sourceuri/
 ---
-## XmlSchemaObject::set_SourceUri(const String\&) method
+## XmlSchemaObject::set_SourceUri(const String&) method
 
 
 Sets the source location for the file that loaded the schema.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaObject::set_SourceUri(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

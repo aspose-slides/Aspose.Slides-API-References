@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.net/cookiecollection/contains/
 ---
-## CookieCollection::Contains(const System::SharedPtr\<Cookie\>\&) const method
+## CookieCollection::Contains(const System::SharedPtr\<Cookie\>&) const method
 
 
 Checks if the collection contains the specified cookie.
@@ -20,7 +20,7 @@ bool System::Net::CookieCollection::Contains(const System::SharedPtr<Cookie> &co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\& | The cookie to check. |
+| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>& | The cookie to check. |
 
 ### Return Value
 

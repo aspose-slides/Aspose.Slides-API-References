@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextElementEnumerator::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/textelementenumerator/operator_equal/
 ---
-## TextElementEnumerator::operator=(const TextElementEnumerator\&) method
+## TextElementEnumerator::operator=(const TextElementEnumerator&) method
 
 
 

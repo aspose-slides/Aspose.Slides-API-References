@@ -16,6 +16,13 @@ virtual void Aspose::Slides::Theme::IOverrideTheme::InitColorSchemeFromInherited
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [ColorScheme](../../colorscheme/) is already initialized (not null). |
+
+
 ## See Also
 
 * Class [IOverrideTheme](../)

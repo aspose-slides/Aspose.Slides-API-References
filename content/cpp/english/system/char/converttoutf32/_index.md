@@ -27,7 +27,7 @@ static int System::Char::ConvertToUtf32(char_t highSurrogate, char_t lowSurrogat
 
 A UTF-32 code unit resulting from conversion
 
-## Char::ConvertToUtf32(const String\&, int) method
+## Char::ConvertToUtf32(const String&, int) method
 
 
 Converts the value of a UTF-16 encoded character or surrogate pair at a specified position in a string into UTF-32 code unit.
@@ -41,7 +41,7 @@ static int System::Char::ConvertToUtf32(const String &s, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | A string that contains a character or surrogate pair |
+| s | const [String](../../string/)& | A string that contains a character or surrogate pair |
 | index | int | The index position of the character or surrogate pair in specified string |
 
 ### Return Value

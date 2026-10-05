@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/clear/
 ---
-## HttpHeaderValueCollection< System::String >::Clear() method
+## HttpHeaderValueCollection\< System::String \>::Clear() method
 
 
 Deletes all elements from collection.
@@ -17,6 +17,6 @@ void System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::Clea
 
 ## See Also
 
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

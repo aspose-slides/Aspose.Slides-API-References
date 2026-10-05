@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.reflection/assemblyname/set_name/
 ---
-## AssemblyName::set_Name(const String\&) method
+## AssemblyName::set_Name(const String&) method
 
 
 Sets assembly name.
@@ -20,7 +20,7 @@ void System::Reflection::AssemblyName::set_Name(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Assembly](../../assembly/) name. |
+| name | const [String](../../../system/string/)& | [Assembly](../../assembly/) name. |
 
 ## See Also
 

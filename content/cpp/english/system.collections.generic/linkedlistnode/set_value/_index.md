@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.generic/linkedlistnode/set_value/
 ---
-## LinkedListNode::set_Value(const T\&) method
+## LinkedListNode::set_Value(const T&) method
 
 
 Sets stored value.
@@ -20,7 +20,7 @@ void System::Collections::Generic::LinkedListNode<T>::set_Value(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | Value to store. |
+| value | const T& | Value to store. |
 
 ## See Also
 

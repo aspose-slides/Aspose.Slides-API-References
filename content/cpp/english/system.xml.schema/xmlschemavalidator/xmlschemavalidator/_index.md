@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemavalidator/xmlschemavalidator/
 ---
-## XmlSchemaValidator::XmlSchemaValidator(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlSchemaSet\>\&, const SharedPtr\<IXmlNamespaceResolver\>\&, XmlSchemaValidationFlags) constructor
+## XmlSchemaValidator::XmlSchemaValidator(const SharedPtr\<XmlNameTable\>&, const SharedPtr\<XmlSchemaSet\>&, const SharedPtr\<IXmlNamespaceResolver\>&, XmlSchemaValidationFlags) constructor
 
 
 Initializes a new instance of the [XmlSchemaValidator](../) class.
@@ -20,10 +20,18 @@ System::Xml::Schema::XmlSchemaValidator::XmlSchemaValidator(const SharedPtr<XmlN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>\& | An [XmlNameTable](../../../system.xml/xmlnametable/) object containing element and attribute names as atomized strings. |
-| schemas | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../../xmlschemaset/)\>\& | An [XmlSchemaSet](../../xmlschemaset/) object containing the XML [Schema](../../) Definition Language (XSD) schemas used for validation. |
-| namespaceResolver | const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>\& | An [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object used for resolving namespaces encountered during validation. |
+| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>& | An [XmlNameTable](../../../system.xml/xmlnametable/) object containing element and attribute names as atomized strings. |
+| schemas | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../../xmlschemaset/)\>& | An [XmlSchemaSet](../../xmlschemaset/) object containing the XML [Schema](../../) Definition Language (XSD) schemas used for validation. |
+| namespaceResolver | const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>& | An [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object used for resolving namespaces encountered during validation. |
 | validationFlags | [XmlSchemaValidationFlags](../../xmlschemavalidationflags/) | An XmlSchemaValidationFlags value specifying schema validation options. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | One or more of the parameters specified are **nullptr**. |
+| XmlSchemaException | An error occurred while compiling schemas in the [XmlSchemaSet](../../xmlschemaset/) parameter. |
+
 
 ## See Also
 

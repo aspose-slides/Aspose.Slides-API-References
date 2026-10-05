@@ -18,7 +18,7 @@ virtual String System::Xml::XmlNode::get_Prefix()
 
 ### Return Value
 
-The namespace prefix of this node. For example, **Prefix** is **bk** for the element **<bk:book>**. If there is no prefix, this method returns [String::Empty](../../../system/string/empty/).
+The namespace prefix of this node. For example, **Prefix** is **bk** for the element **\<bk:book\>**. If there is no prefix, this method returns [String::Empty](../../../system/string/empty/).
 
 ## See Also
 

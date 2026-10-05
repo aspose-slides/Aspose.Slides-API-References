@@ -1,7 +1,7 @@
 ---
 title: get_ExtraStore()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainPolicy::get_ExtraStore() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.x509certificates/x509chainpolicy/get_extrastore/

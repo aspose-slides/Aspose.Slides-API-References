@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.security.cryptography/eccurve/createfromfriendlyname/
 ---
-## ECCurve::CreateFromFriendlyName(const String\&) method
+## ECCurve::CreateFromFriendlyName(const String&) method
 
 
 Create a curve from the specified OID firendly name.

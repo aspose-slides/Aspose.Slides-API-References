@@ -57,7 +57,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 | --- | --- | --- |
 | headerName | [String](../../../system/string/) | The header name. |
 | store | [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\> | The collection of the HTTP headers. |
-| specialValue | T | A \"special value\". |
+| specialValue | T | A "special value". |
 
 ## HttpHeaderValueCollection::HttpHeaderValueCollection(String, System::SharedPtr\<HttpHeaders\>, T, Action\<System::SharedPtr\<HttpHeaderValueCollection\<T\>\>, T\>) constructor
 
@@ -75,7 +75,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 | --- | --- | --- |
 | headerName | [String](../../../system/string/) | The header name. |
 | store | [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\> | The collection of the HTTP headers. |
-| specialValue | T | A \"special value\". |
+| specialValue | T | A "special value". |
 | validator | [Action](../../../system/action/)\<[System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaderValueCollection](../)\<T\>\>, T\> | The delegate that is used to validate added items. |
 
 ## See Also

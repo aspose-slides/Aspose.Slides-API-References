@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.text.regularexpressions/group/addcapture/
 ---
-## Group::AddCapture(const CapturePtr\&) method
+## Group::AddCapture(const CapturePtr&) method
 
 
 Adds capture into group.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::Group::AddCapture(const CapturePtr &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [CapturePtr](../../captureptr/)\& | [Capture](../../capture/) to add. |
+| item | const [CapturePtr](../../captureptr/)& | [Capture](../../capture/) to add. |
 
 ## See Also
 

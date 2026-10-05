@@ -20,6 +20,14 @@ virtual String System::Xml::XmlNode::get_InnerXml()
 
 The markup of the child nodes of this node, not including default attributes.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Setting this value on a node that cannot have child nodes. |
+| XmlException | The XML specified when setting this value is not well-formed. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

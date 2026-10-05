@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.io/stream/read/
 ---
-## Stream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## Stream::Read(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -20,7 +20,7 @@ virtual int32_t System::IO::Stream::Read(const ArrayPtr<uint8_t> &buffer, int32_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The byte array to write the read bytes to |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The byte array to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 
@@ -28,7 +28,7 @@ virtual int32_t System::IO::Stream::Read(const ArrayPtr<uint8_t> &buffer, int32_
 
 The number of bytes read
 
-## Stream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## Stream::Read(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -42,7 +42,7 @@ virtual int32_t System::IO::Stream::Read(const System::Details::ArrayView<uint8_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | The byte array view to write the read bytes to |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | The byte array view to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 
@@ -50,7 +50,7 @@ virtual int32_t System::IO::Stream::Read(const System::Details::ArrayView<uint8_
 
 The number of bytes read
 
-## Stream::Read(const System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t) method
+## Stream::Read(const System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -70,7 +70,7 @@ template<std::size_t> int32_t System::IO::Stream::Read(const System::Details::St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::StackArray\<**uint8_t**, N\>\& | The byte stack array to write the read bytes to |
+| buffer | const System::Details::StackArray\<**uint8_t**, N\>& | The byte stack array to write the read bytes to |
 | offset | **int32_t** | A 0-based position in **buffer** to start writing at |
 | count | **int32_t** | The number of bytes to read |
 
@@ -78,7 +78,7 @@ template<std::size_t> int32_t System::IO::Stream::Read(const System::Details::St
 
 The number of bytes read
 
-## Stream::Read(const System::Span\<uint8_t\>\&) method
+## Stream::Read(const System::Span\<uint8_t\>&) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte span.
@@ -92,7 +92,7 @@ virtual int32_t System::IO::Stream::Read(const System::Span<uint8_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [System::Span](../../../system/span/)\<**uint8_t**\>\& | The byte span to write the read bytes to |
+| buffer | const [System::Span](../../../system/span/)\<**uint8_t**\>& | The byte span to write the read bytes to |
 
 ### Return Value
 

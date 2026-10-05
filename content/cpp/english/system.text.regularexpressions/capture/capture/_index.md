@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text.regularexpressions/capture/capture/
 ---
-## Capture::Capture(const UStringPtr\&, int, int) constructor
+## Capture::Capture(const UStringPtr&, int, int) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::RegularExpressions::Capture::Capture(const UStringPtr &source, int
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [UStringPtr](../../ustringptr/)\& | Source string. |
+| source | const [UStringPtr](../../ustringptr/)& | Source string. |
 | index | int | Captured substring beginning. |
 | length | int | Captured substring length. |
 

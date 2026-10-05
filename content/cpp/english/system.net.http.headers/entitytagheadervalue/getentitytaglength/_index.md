@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.net.http.headers/entitytagheadervalue/getentitytaglength/
 ---
-## EntityTagHeaderValue::GetEntityTagLength(String, int32_t, System::SharedPtr\<EntityTagHeaderValue\>\&) method
+## EntityTagHeaderValue::GetEntityTagLength(String, int32_t, System::SharedPtr\<EntityTagHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [EntityTagHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::EntityTagHeaderValue::GetEntityTagLen
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

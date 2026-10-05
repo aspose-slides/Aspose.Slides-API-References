@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml.schema/xmlschemavalidator/validateelement/
 ---
-## XmlSchemaValidator::ValidateElement(const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&) method
+## XmlSchemaValidator::ValidateElement(const String&, const String&, const SharedPtr\<XmlSchemaInfo\>&) method
 
 
 Validates the element in the current context.
@@ -20,11 +20,19 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateElement(const String &loca
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the element to validate. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the element to validate. |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element's name. This parameter can be **nullptr**. |
+| localName | const [String](../../../system/string/)& | The local name of the element to validate. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the element to validate. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element's name. This parameter can be **nullptr**. |
 
-## XmlSchemaValidator::ValidateElement(const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&, const String\&, const String\&, const String\&, const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The element's name is not valid in the current context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateElement](./) method was not called in the correct sequence. For example, the [XmlSchemaValidator::ValidateElement](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+
+
+## XmlSchemaValidator::ValidateElement(const String&, const String&, const SharedPtr\<XmlSchemaInfo\>&, const String&, const String&, const String&, const String&) method
 
 
 Validates the element in the current context with the **xsi:Type**, **xsi:Nil**, **xsi:SchemaLocation**, and **xsi:NoNamespaceSchemaLocation** attribute values specified.
@@ -38,13 +46,21 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateElement(const String &loca
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the element to validate. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the element to validate. |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element's name. This parameter can be **nullptr**. |
-| xsiType | const [String](../../../system/string/)\& | The **xsi:Type** attribute value of the element. This parameter can be **nullptr**. |
-| xsiNil | const [String](../../../system/string/)\& | The **xsi:Nil** attribute value of the element. This parameter can be **nullptr**. |
-| xsiSchemaLocation | const [String](../../../system/string/)\& | The **xsi:SchemaLocation** attribute value of the element. This parameter can be **nullptr**. |
-| xsiNoNamespaceSchemaLocation | const [String](../../../system/string/)\& | The **xsi:NoNamespaceSchemaLocation** attribute value of the element. This parameter can be **nullptr**. |
+| localName | const [String](../../../system/string/)& | The local name of the element to validate. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the element to validate. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element's name. This parameter can be **nullptr**. |
+| xsiType | const [String](../../../system/string/)& | The **xsi:Type** attribute value of the element. This parameter can be **nullptr**. |
+| xsiNil | const [String](../../../system/string/)& | The **xsi:Nil** attribute value of the element. This parameter can be **nullptr**. |
+| xsiSchemaLocation | const [String](../../../system/string/)& | The **xsi:SchemaLocation** attribute value of the element. This parameter can be **nullptr**. |
+| xsiNoNamespaceSchemaLocation | const [String](../../../system/string/)& | The **xsi:NoNamespaceSchemaLocation** attribute value of the element. This parameter can be **nullptr**. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The element's name is not valid in the current context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateElement](./) method was not called in the correct sequence. For example, the [XmlSchemaValidator::ValidateElement](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+
 
 ## See Also
 

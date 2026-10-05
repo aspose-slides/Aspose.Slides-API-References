@@ -1,7 +1,7 @@
 ---
 title: get_DarkTurquoise()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF00CED1.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF00CED1."
 type: docs
 weight: 755
 url: /system.drawing/color/get_darkturquoise/

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.serialization/serializationinfo/serializationinfo/
 ---
-## SerializationInfo::SerializationInfo(const System::TypeInfo\&, const System::SharedPtr\<IFormatterConverter\>\&) constructor
+## SerializationInfo::SerializationInfo(const System::TypeInfo&, const System::SharedPtr\<IFormatterConverter\>&) constructor
 
 
 RTTI information.
@@ -20,8 +20,8 @@ System::Runtime::Serialization::SerializationInfo::SerializationInfo(const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [System::TypeInfo](../../../system/typeinfo/)\& | The [System::TypeInfo](../../../system/typeinfo/) of the object to serialize. |
-| converter | const [System::SharedPtr](../../../system/sharedptr/)\<[IFormatterConverter](../../iformatterconverter/)\>\& | The [IFormatterConverter](../../iformatterconverter/) used during deserialization. |
+| type | const [System::TypeInfo](../../../system/typeinfo/)& | The [System::TypeInfo](../../../system/typeinfo/) of the object to serialize. |
+| converter | const [System::SharedPtr](../../../system/sharedptr/)\<[IFormatterConverter](../../iformatterconverter/)\>& | The [IFormatterConverter](../../iformatterconverter/) used during deserialization. |
 ## Remarks
 
 

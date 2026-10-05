@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/idictionary/remove/
 ---
-## IDictionary::Remove(const TKey\&) method
+## IDictionary::Remove(const TKey&) method
 
 
 Removes key from container.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::IDictionary<TKey, TValue>::Remove(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to remove. |
+| key | const TKey& | Key to remove. |
 
 ### Return Value
 

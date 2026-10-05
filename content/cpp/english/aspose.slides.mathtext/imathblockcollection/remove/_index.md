@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/imathblockcollection/remove/
 ## IMathBlockCollection::Remove(System::SharedPtr\<IMathBlock\>) method
 
 
-Removes the first occurrence of a specific object from the collection/>.
+Removes the first occurrence of a specific object from the collection/\>.
 
 ```cpp
 virtual bool Aspose::Slides::MathText::IMathBlockCollection::Remove(System::SharedPtr<IMathBlock> item)=0
@@ -24,7 +24,7 @@ virtual bool Aspose::Slides::MathText::IMathBlockCollection::Remove(System::Shar
 
 ### Return Value
 
-true if *item*  was successfully removed from the collection; otherwise, false. This method also returns false if *item*  is not found in the original collection/>.
+true if *item*  was successfully removed from the collection; otherwise, false. This method also returns false if *item*  is not found in the original collection/\>.
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text/decoderreplacementfallbackbuffer/decoderreplacementfallbackbuffer/
 ---
-## DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer(const DecoderReplacementFallbackPtr\&) constructor
+## DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer(const DecoderReplacementFallbackPtr&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fallback | const [DecoderReplacementFallbackPtr](../../../system/decoderreplacementfallbackptr/)\& | Fallback to get information from. |
+| fallback | const [DecoderReplacementFallbackPtr](../../../system/decoderreplacementfallbackptr/)& | Fallback to get information from. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml/xmlresolver/supportstype/
 ---
-## XmlResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo\&) method
+## XmlResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo&) method
 
 
 Enables the resolver to return types other than Stream.
@@ -21,7 +21,7 @@ virtual bool System::Xml::XmlResolver::SupportsType(SharedPtr<Uri> absoluteUri, 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | absoluteUri | [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI. |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | The type to return. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | The type to return. |
 
 ### Return Value
 

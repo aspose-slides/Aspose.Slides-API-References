@@ -1,7 +1,7 @@
 ---
 title: get_Character()
 second_title: Aspose.Slides for C++ API Reference
-description: "Accent Character The value should be within the range of (U+0300\\u2013U+036F) or(U+20D0\\u2013U+20EF) Default value: Combining Circumflex Accent (U+0302)"
+description: "Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302)"
 type: docs
 weight: 14
 url: /aspose.slides.mathtext/mathaccent/get_character/
@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/mathaccent/get_character/
 ## MathAccent::get_Character() method
 
 
-Accent Character The value should be within the range of (U+0300\\u2013U+036F) or(U+20D0\\u2013U+20EF) Default value: Combining Circumflex Accent (U+0302)
+Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302)
 
 ```cpp
 char16_t Aspose::Slides::MathText::MathAccent::get_Character() override

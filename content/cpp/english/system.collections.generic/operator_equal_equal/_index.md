@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /system.collections.generic/operator_equal_equal/
 ---
-## System::Collections::Generic::operator==(const KeyValuePair\<TKey, TValue\>\&, const KeyValuePair\<TKey, TValue\>\&) function
+## System::Collections::Generic::operator==(const KeyValuePair\<TKey, TValue\>&, const KeyValuePair\<TKey, TValue\>&) function
 
 
 Compares two key-value pairs using 'equals' semantics. Uses operator == or EqualsTo method for both keys and values, whichever is defined.
@@ -27,8 +27,8 @@ template<typename TKey,typename TValue> bool System::Collections::Generic::opera
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\& | LHS operand. |
-| right | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\& | RHS operand. |
+| left | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>& | LHS operand. |
+| right | const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>& | RHS operand. |
 
 ### Return Value
 

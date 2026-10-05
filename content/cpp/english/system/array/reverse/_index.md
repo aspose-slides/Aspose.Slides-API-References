@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /system/array/reverse/
 ---
-## Array::Reverse(const ArrayPtr\<Type\>\&) method
+## Array::Reverse(const ArrayPtr\<Type\>&) method
 
 
 Reverses elements in the specified array.
@@ -20,9 +20,9 @@ template<typename Type> static void System::Array<T>::Reverse(const ArrayPtr<Typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Target array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Target array |
 
-## Array::Reverse(const ArrayPtr\<Type\>\&, int, int) method
+## Array::Reverse(const ArrayPtr\<Type\>&, int, int) method
 
 
 Reverses a range of elements in the specified array.
@@ -36,7 +36,7 @@ template<typename Type> static void System::Array<T>::Reverse(const ArrayPtr<Typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Target array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Target array |
 | startIndex | int | [Index](../../index/) in the array at which the range to reverse start |
 | count | int | The size of the range to reverse |
 

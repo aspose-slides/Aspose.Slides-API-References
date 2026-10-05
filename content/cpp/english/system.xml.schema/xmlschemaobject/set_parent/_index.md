@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemaobject/set_parent/
 ---
-## XmlSchemaObject::set_Parent(const SharedPtr\<XmlSchemaObject\>\&) method
+## XmlSchemaObject::set_Parent(const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Sets the parent of this [XmlSchemaObject](../).
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaObject::set_Parent(const SharedPtr<XmlSchemaO
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../)\>& | The value to set. |
 
 ## See Also
 

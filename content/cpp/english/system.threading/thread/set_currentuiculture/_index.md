@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.threading/thread/set_currentuiculture/
 ---
-## Thread::set_CurrentUICulture(const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Thread::set_CurrentUICulture(const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Sets user interface culture used by thread.

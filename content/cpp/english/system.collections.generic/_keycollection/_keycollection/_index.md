@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/_keycollection/_keycollection/
 ---
-## _KeyCollection::_KeyCollection(const typename Dict::Ptr\&) constructor
+## _KeyCollection::_KeyCollection(const typename Dict::Ptr&) constructor
 
 
 Initializes collection referencing specified dictionary.
@@ -20,7 +20,7 @@ System::Collections::Generic::_KeyCollection<Dict>::_KeyCollection(const typenam
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dict | const typename Dict::Ptr\& | [Dictionary](../../dictionary/) to reference. |
+| dict | const typename Dict::Ptr& | [Dictionary](../../dictionary/) to reference. |
 
 ## See Also
 

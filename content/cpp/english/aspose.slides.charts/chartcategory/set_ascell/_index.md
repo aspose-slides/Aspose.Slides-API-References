@@ -1,7 +1,7 @@
 ---
 title: set_AsCell()
 second_title: Aspose.Slides for C++ API Reference
-description: Sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level \"0\". Write IChartDataCell.
+description: "Sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level \"0\". Write IChartDataCell."
 type: docs
 weight: 27
 url: /aspose.slides.charts/chartcategory/set_ascell/
@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartcategory/set_ascell/
 ## ChartCategory::set_AsCell(System::SharedPtr\<IChartDataCell\>) method
 
 
-Sets [IChartDataCell](../../ichartdatacell/) object. If category is multi-level then used [IChartDataCell](../../ichartdatacell/) object for level \"0\". Write [IChartDataCell](../../ichartdatacell/).
+Sets [IChartDataCell](../../ichartdatacell/) object. If category is multi-level then used [IChartDataCell](../../ichartdatacell/) object for level "0". Write [IChartDataCell](../../ichartdatacell/).
 
 ```cpp
 void Aspose::Slides::Charts::ChartCategory::set_AsCell(System::SharedPtr<IChartDataCell> value) override

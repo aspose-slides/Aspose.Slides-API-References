@@ -20,27 +20,7 @@ virtual System::SharedPtr<IPictureFrame> Aspose::Slides::IShapeCollection::AddPi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | [ShapeType](../../shapetype/) | Specifies the shape type contained in [ShapeType](../../shapetype/), except for all kinds of lines:
-
-[ShapeType::Line](../../shapetype/),
-
-[ShapeType::StraightConnector1](../../shapetype/),
-
-[ShapeType::BentConnector2](../../shapetype/),
-
-[ShapeType::BentConnector3](../../shapetype/),
-
-[ShapeType::BentConnector4](../../shapetype/),
-
-[ShapeType::BentConnector5](../../shapetype/),
-
-[ShapeType::CurvedConnector2](../../shapetype/),
-
-[ShapeType::CurvedConnector3](../../shapetype/),
-
-[ShapeType::CurvedConnector4](../../shapetype/),
-
-[ShapeType::CurvedConnector5](../../shapetype/). |
+| shapeType | [ShapeType](../../shapetype/) | Specifies the shape type contained in [ShapeType](../../shapetype/), except for all kinds of lines:<br>[ShapeType::Line](../../shapetype/),<br>[ShapeType::StraightConnector1](../../shapetype/),<br>[ShapeType::BentConnector2](../../shapetype/),<br>[ShapeType::BentConnector3](../../shapetype/),<br>[ShapeType::BentConnector4](../../shapetype/),<br>[ShapeType::BentConnector5](../../shapetype/),<br>[ShapeType::CurvedConnector2](../../shapetype/),<br>[ShapeType::CurvedConnector3](../../shapetype/),<br>[ShapeType::CurvedConnector4](../../shapetype/),<br>[ShapeType::CurvedConnector5](../../shapetype/). |
 | x | **float** | The x-coordinate of the picture frame, in points. |
 | y | **float** | The y-coordinate of the picture frame, in points. |
 | width | **float** | The width of the picture frame, in points. |

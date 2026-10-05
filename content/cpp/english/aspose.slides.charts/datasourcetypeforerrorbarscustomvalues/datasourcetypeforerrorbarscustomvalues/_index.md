@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "DataSourceTypeForErrorBarsCustomValues::DataSourceTypeForErrorBarsCustomValues() constructor"
 type: docs
 weight: 105
 url: /aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforerrorbarscustomvalues/

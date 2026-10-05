@@ -1,7 +1,7 @@
 ---
 title: DataObject()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "DataObject::DataObject() constructor"
 type: docs
 weight: 53
 url: /system.security.cryptography.xml/dataobject/dataobject/

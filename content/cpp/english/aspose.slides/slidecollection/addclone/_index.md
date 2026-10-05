@@ -29,7 +29,7 @@ New slide.
 
 
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [AddClone(SharedPtr<ISlide>, SharedPtr<ILayoutSlide>)](../../islidecollection/addclone/) or [AddClone(SharedPtr<ISlide>, SharedPtr<IMasterSlide>, bool)](../../islidecollection/addclone/) for cloning slides, [IGlobalLayoutSlideCollection::AddClone(SharedPtr<ILayoutSlide>)](../../igloballayoutslidecollection/addclone/) or [IGlobalLayoutSlideCollection::AddClone(SharedPtr<ILayoutSlide>, SharedPtr<IMasterSlide>)](../../igloballayoutslidecollection/addclone/) for cloning layouts and [IMasterSlideCollection::AddClone(SharedPtr<IMasterSlide>)](../../imasterslidecollection/addclone/) for cloning masters. 
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [AddClone(SharedPtr\<ISlide\>, SharedPtr\<ILayoutSlide\>)](../../islidecollection/addclone/) or [AddClone(SharedPtr\<ISlide\>, SharedPtr\<IMasterSlide\>, bool)](../../islidecollection/addclone/) for cloning slides, [IGlobalLayoutSlideCollection::AddClone(SharedPtr\<ILayoutSlide\>)](../../igloballayoutslidecollection/addclone/) or [IGlobalLayoutSlideCollection::AddClone(SharedPtr\<ILayoutSlide\>, SharedPtr\<IMasterSlide\>)](../../igloballayoutslidecollection/addclone/) for cloning layouts and [IMasterSlideCollection::AddClone(SharedPtr\<IMasterSlide\>)](../../imasterslidecollection/addclone/) for cloning masters. 
 ## SlideCollection::AddClone(System::SharedPtr\<ISlide\>, System::SharedPtr\<ISection\>) method
 
 
@@ -50,6 +50,14 @@ System::SharedPtr<ISlide> Aspose::Slides::SlideCollection::AddClone(System::Shar
 ### Return Value
 
 New slide.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) |  |
+| PptxEditException |  |
+
 ## Remarks
 
 
@@ -106,6 +114,13 @@ System::SharedPtr<ISlide> Aspose::Slides::SlideCollection::AddClone(System::Shar
 ### Return Value
 
 New slide.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if there is no appropriate layout in specified master and allowCloneMissingLayout is false. |
+
 
 ## See Also
 

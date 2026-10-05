@@ -20,6 +20,14 @@ int64_t System::Xml::XPath::XPathNavigator::get_ValueAsLong() override
 
 The current node's value as an [Int64](../../../system/int64/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's string value cannot be converted to a [Int64](../../../system/int64/). |
+| InvalidCastException | The attempted cast to [Int64](../../../system/int64/) is not valid. |
+
+
 ## See Also
 
 * Class [XPathNavigator](../)

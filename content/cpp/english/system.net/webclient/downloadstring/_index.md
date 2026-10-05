@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.net/webclient/downloadstring/
 ---
-## WebClient::DownloadString(const String\&) const method
+## WebClient::DownloadString(const String&) const method
 
 
 Downloads the specified resource as a string.
@@ -20,13 +20,13 @@ String System::Net::WebClient::DownloadString(const String &address) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | const [String](../../../system/string/)\& | The resource's URI. |
+| address | const [String](../../../system/string/)& | The resource's URI. |
 
 ### Return Value
 
 The string that contains the requested resource.
 
-## WebClient::DownloadString(const SharedPtr\<Uri\>\&) const method
+## WebClient::DownloadString(const SharedPtr\<Uri\>&) const method
 
 
 Downloads the specified resource as a string.
@@ -40,7 +40,7 @@ String System::Net::WebClient::DownloadString(const SharedPtr<Uri> &address) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The resource's URI. |
+| address | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The resource's URI. |
 
 ### Return Value
 

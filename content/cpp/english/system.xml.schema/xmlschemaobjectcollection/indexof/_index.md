@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml.schema/xmlschemaobjectcollection/indexof/
 ---
-## XmlSchemaObjectCollection::IndexOf(const SharedPtr\<XmlSchemaObject\>\&) method
+## XmlSchemaObjectCollection::IndexOf(const SharedPtr\<XmlSchemaObject\>&) method
 
 
 Returns the collection index corresponding to the specified [XmlSchemaObject](../../xmlschemaobject/).
@@ -20,7 +20,7 @@ int32_t System::Xml::Schema::XmlSchemaObjectCollection::IndexOf(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\& | The [XmlSchemaObject](../../xmlschemaobject/) whose index you want to return. |
+| item | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>& | The [XmlSchemaObject](../../xmlschemaobject/) whose index you want to return. |
 
 ### Return Value
 

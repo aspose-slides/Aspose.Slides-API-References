@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.security/securityelement/addattribute/
 ---
-## SecurityElement::AddAttribute(const String\&, const String\&) method
+## SecurityElement::AddAttribute(const String&, const String&) method
 
 
 Adds attribute to tag.
@@ -20,8 +20,8 @@ void System::Security::SecurityElement::AddAttribute(const String &name, const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | [Attribute](../../../system/attribute/) name. |
-| value | const [String](../../../system/string/)\& | [Attribute](../../../system/attribute/) value. |
+| name | const [String](../../../system/string/)& | [Attribute](../../../system/attribute/) name. |
+| value | const [String](../../../system/string/)& | [Attribute](../../../system/attribute/) value. |
 
 ## See Also
 

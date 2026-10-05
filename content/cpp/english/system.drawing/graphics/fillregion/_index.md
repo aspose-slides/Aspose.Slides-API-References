@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.drawing/graphics/fillregion/
 ---
-## Graphics::FillRegion(const SharedPtr\<Brush\>\&, const SharedPtr\<Region\>\&) method
+## Graphics::FillRegion(const SharedPtr\<Brush\>&, const SharedPtr\<Region\>&) method
 
 
 Fills the interiors of the specified region using the specified brush.
@@ -20,8 +20,8 @@ void System::Drawing::Graphics::FillRegion(const SharedPtr<Brush> &brush, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object that specifies the parameters of the fill |
-| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\& | The region to fill |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object that specifies the parameters of the fill |
+| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>& | The region to fill |
 
 ## See Also
 

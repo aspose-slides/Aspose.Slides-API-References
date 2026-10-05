@@ -1,7 +1,7 @@
 ---
 title: get_DarkGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF006400.
+description: "Returns the solid fill color whose hexadecimal value is #FF006400."
 type: docs
 weight: 326
 url: /system.drawing/brushes/get_darkgreen/

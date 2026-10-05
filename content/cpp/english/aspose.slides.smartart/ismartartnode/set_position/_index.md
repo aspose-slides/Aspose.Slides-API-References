@@ -16,6 +16,13 @@ virtual void Aspose::Slides::SmartArt::ISmartArtNode::set_Position(int32_t value
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Value is less than 0. -or- value is equal to or greater than siblings count. |
+
+
 
 
 ## See Also

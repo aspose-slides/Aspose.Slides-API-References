@@ -1,7 +1,7 @@
 ---
 title: get_TypeName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_TypeInitializationException::get_TypeName() method"
 type: docs
 weight: 40
 url: /system/details_typeinitializationexception/get_typename/

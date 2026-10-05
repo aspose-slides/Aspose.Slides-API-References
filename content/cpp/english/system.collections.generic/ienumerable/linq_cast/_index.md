@@ -26,6 +26,13 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 An [IEnumerable](../) that contains elements of the sequence cast the ResultType.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | Element of the sequence cannot be cast to the ResultType. |
+
+
 ## IEnumerable::LINQ_Cast() method
 
 

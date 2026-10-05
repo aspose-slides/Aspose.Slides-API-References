@@ -18,7 +18,7 @@ virtual System::ArrayPtr<float> Aspose::Slides::ICameraEffectiveData::GetRotatio
 
 ### Return Value
 
-Array of rotation values as **float**[].
+Array of rotation values as **float**\[\].
 
 ## See Also
 

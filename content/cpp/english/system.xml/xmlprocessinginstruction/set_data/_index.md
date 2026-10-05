@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlprocessinginstruction/set_data/
 ---
-## XmlProcessingInstruction::set_Data(const String\&) method
+## XmlProcessingInstruction::set_Data(const String&) method
 
 
 Sets the content of the processing instruction, excluding the target.
@@ -20,7 +20,7 @@ void System::Xml::XmlProcessingInstruction::set_Data(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

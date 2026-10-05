@@ -22,6 +22,13 @@ void System::Xml::XmlTextReader::set_Normalization(bool value)
 | --- | --- | --- |
 | value | **bool** | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Setting this value when the reader is closed ([XmlTextReader::get_ReadState](../get_readstate/) is [ReadState::Closed](../../readstate/)). |
+
+
 ## See Also
 
 * Class [XmlTextReader](../)

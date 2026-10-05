@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/get_count/
 ---
-## HttpHeaderValueCollection< System::String >::get_Count() const method
+## HttpHeaderValueCollection\< System::String \>::get_Count() const method
 
 
 Gets number of elements in collection.
@@ -22,6 +22,6 @@ Number of elements.
 
 ## See Also
 
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

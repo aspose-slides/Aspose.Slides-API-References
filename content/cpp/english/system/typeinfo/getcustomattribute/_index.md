@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /system/typeinfo/getcustomattribute/
 ---
-## TypeInfo::GetCustomAttribute(const TypeInfo\&) const method
+## TypeInfo::GetCustomAttribute(const TypeInfo&) const method
 
 
 Searches for the custom attribute applied having the specified type and applied to the type reprsented by the current object.
@@ -20,7 +20,7 @@ ObjectPtr System::TypeInfo::GetCustomAttribute(const TypeInfo &attributeType) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attributeType | const [TypeInfo](../)\& | The constant reference to the [TypeInfo](../) object representing the type of the attribute to search |
+| attributeType | const [TypeInfo](../)& | The constant reference to the [TypeInfo](../) object representing the type of the attribute to search |
 
 ### Return Value
 

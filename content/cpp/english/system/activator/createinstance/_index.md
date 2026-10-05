@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/activator/createinstance/
 ---
-## Activator::CreateInstance(const System::TypeInfo\&) method
+## Activator::CreateInstance(const System::TypeInfo&) method
 
 
 Creates an instance of the specified type using the parameterless constructor of that type.
@@ -20,7 +20,7 @@ static System::SharedPtr<System::Object> System::Activator::CreateInstance(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [System::TypeInfo](../../typeinfo/)\& | The type of object to create. |
+| type | const [System::TypeInfo](../../typeinfo/)& | The type of object to create. |
 
 ## See Also
 

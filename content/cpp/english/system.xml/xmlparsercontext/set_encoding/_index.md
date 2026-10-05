@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.xml/xmlparsercontext/set_encoding/
 ---
-## XmlParserContext::set_Encoding(const SharedPtr\<System::Text::Encoding\>\&) method
+## XmlParserContext::set_Encoding(const SharedPtr\<System::Text::Encoding\>&) method
 
 
 Sets the encoding type.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_Encoding(const SharedPtr<System::Text::E
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>& | The value to set. |
 
 ## See Also
 

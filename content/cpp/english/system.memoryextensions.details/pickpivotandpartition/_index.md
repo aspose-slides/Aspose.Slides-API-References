@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.memoryextensions.details/pickpivotandpartition/
 ---
-## System::MemoryExtensions::Details::PickPivotAndPartition(Span\<TKey\>\&, Span\<TValue\>\&, std::function\<int32_t(const TKey\&, const TKey\&)>) function
+## System::MemoryExtensions::Details::PickPivotAndPartition(Span\<TKey\>&, Span\<TValue\>&, std::function\<int32_t(const TKey&, const TKey&)\>) function
 
 
 Selects pivot and partitions key-value pairs for quicksort.
@@ -27,9 +27,9 @@ template<typename TKey,typename TValue> int32_t System::MemoryExtensions::Detail
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to partition |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to partition |
-| comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) function for keys |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to partition |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to partition |
+| comparer | std::function\<**int32_t**(const TKey&, const TKey&)\> | [Comparison](../../system/comparison/) function for keys |
 
 ### Return Value
 

@@ -9,7 +9,7 @@ url: /system.drawing.imaging/imageformat/get_icon/
 ## ImageFormat::get_Icon() method
 
 
-Returns a shared pointer to an [ImageFormat](../) object that represents the [Windows](../../../system.windows/) icon image format.
+Returns a shared pointer to an [ImageFormat](../) object that represents the Windows icon image format.
 
 ```cpp
 static ImageFormatPtr System::Drawing::Imaging::ImageFormat::get_Icon()

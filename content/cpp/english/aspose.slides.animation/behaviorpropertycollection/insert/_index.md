@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /aspose.slides.animation/behaviorpropertycollection/insert/
 ---
-## BehaviorPropertyCollection::Insert(int32_t, const System::SharedPtr\<IBehaviorProperty\>\&) method
+## BehaviorPropertyCollection::Insert(int32_t, const System::SharedPtr\<IBehaviorProperty\>&) method
 
 
 Inserts a new property to the collection at the specified index.
@@ -21,7 +21,7 @@ void Aspose::Slides::Animation::BehaviorPropertyCollection::Insert(int32_t index
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | Index where a new property should be inserted. |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | Property to add. |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>& | Property to add. |
 
 ## BehaviorPropertyCollection::Insert(int32_t, System::String) method
 

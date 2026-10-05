@@ -16,6 +16,13 @@ int64_t System::Security::Cryptography::CryptoStream::get_Length() const overrid
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | Unconditionally as operation is not supported. |
+
+
 ## See Also
 
 * Class [CryptoStream](../)

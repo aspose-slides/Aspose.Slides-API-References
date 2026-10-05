@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system/datetimeoffset/equals/
 ---
-## DateTimeOffset::Equals(const DateTimeOffset\&) const method
+## DateTimeOffset::Equals(const DateTimeOffset&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point.
@@ -20,13 +20,13 @@ bool System::DateTimeOffset::Equals(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | [Object](../../object/) to compare. |
+| other | const [DateTimeOffset](../)& | [Object](../../object/) to compare. |
 
 ### Return Value
 
 true if current object is equal to **other**, otherwise - false.
 
-## DateTimeOffset::Equals(const SharedPtr\<Object\>\&) const method
+## DateTimeOffset::Equals(const SharedPtr\<Object\>&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point.
@@ -40,13 +40,13 @@ bool System::DateTimeOffset::Equals(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to compare. |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | [Object](../../object/) to compare. |
 
 ### Return Value
 
 true if current object is equal to **obj**, otherwise - false.
 
-## DateTimeOffset::Equals(const DateTimeOffset\&, const DateTimeOffset\&) method
+## DateTimeOffset::Equals(const DateTimeOffset&, const DateTimeOffset&) method
 
 
 Checks if two [DateTimeOffset](../) objects represent the same time point.
@@ -60,8 +60,8 @@ static bool System::DateTimeOffset::Equals(const DateTimeOffset &first, const Da
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | const [DateTimeOffset](../)\& | First object to compare. |
-| second | const [DateTimeOffset](../)\& | Second object to compare. |
+| first | const [DateTimeOffset](../)& | First object to compare. |
+| second | const [DateTimeOffset](../)& | Second object to compare. |
 
 ### Return Value
 

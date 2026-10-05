@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.text.regularexpressions/groupcollection/addgroup/
 ---
-## GroupCollection::AddGroup(const GroupPtr\&) method
+## GroupCollection::AddGroup(const GroupPtr&) method
 
 
 Adds group into collection.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::GroupCollection::AddGroup(const GroupPtr 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [GroupPtr](../../groupptr/)\& | Item to add. |
+| item | const [GroupPtr](../../groupptr/)& | Item to add. |
 
 ## See Also
 

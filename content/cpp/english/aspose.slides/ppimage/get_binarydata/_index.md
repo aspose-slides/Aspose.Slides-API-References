@@ -9,7 +9,7 @@ url: /aspose.slides/ppimage/get_binarydata/
 ## PPImage::get_BinaryData() method
 
 
-Returns the copy of an image's data. Read-only **uint8_t**[].
+Returns the copy of an image's data. Read-only **uint8_t**\[\].
 
 ```cpp
 System::ArrayPtr<uint8_t> Aspose::Slides::PPImage::get_BinaryData() override

@@ -1,7 +1,7 @@
 ---
 title: get_PaleGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF98FB98.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF98FB98."
 type: docs
 weight: 1353
 url: /system.drawing/pens/get_palegreen/

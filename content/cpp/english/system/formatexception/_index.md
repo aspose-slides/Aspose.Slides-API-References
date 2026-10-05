@@ -1,7 +1,7 @@
 ---
 title: FormatException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: FormatException typedef
 type: docs
 weight: 3953
 url: /system/formatexception/

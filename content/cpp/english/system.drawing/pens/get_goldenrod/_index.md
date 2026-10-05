@@ -1,7 +1,7 @@
 ---
 title: get_Goldenrod()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDAA520.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDAA520."
 type: docs
 weight: 651
 url: /system.drawing/pens/get_goldenrod/

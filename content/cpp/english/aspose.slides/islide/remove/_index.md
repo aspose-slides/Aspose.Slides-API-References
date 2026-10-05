@@ -16,6 +16,13 @@ virtual void Aspose::Slides::ISlide::Remove()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if slide is already removed from presentation. |
+
+
 ## See Also
 
 * Class [ISlide](../)

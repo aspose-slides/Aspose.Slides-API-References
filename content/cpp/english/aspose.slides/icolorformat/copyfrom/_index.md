@@ -1,7 +1,7 @@
 ---
 title: CopyFrom()
 second_title: Aspose.Slides for C++ API Reference
-description: Copy color format from \"color\".
+description: "Copy color format from \"color\"."
 type: docs
 weight: 391
 url: /aspose.slides/icolorformat/copyfrom/
@@ -9,7 +9,7 @@ url: /aspose.slides/icolorformat/copyfrom/
 ## IColorFormat::CopyFrom(System::SharedPtr\<IColorFormat\>) method
 
 
-Copy color format from \"color\".
+Copy color format from "color".
 
 ```cpp
 virtual void Aspose::Slides::IColorFormat::CopyFrom(System::SharedPtr<IColorFormat> color)=0

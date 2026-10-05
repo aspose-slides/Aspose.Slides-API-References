@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.objectmodel/readonlycollection/indexof/
 ---
-## ReadOnlyCollection::IndexOf(const T\&) const method
+## ReadOnlyCollection::IndexOf(const T&) const method
 
 
 Looks for specific item in collection.
@@ -20,7 +20,7 @@ virtual int System::Collections::ObjectModel::ReadOnlyCollection<T>::IndexOf(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_LightGray()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFD3D3D3.
+description: "Returns the solid fill color whose hexadecimal value is #FFD3D3D3."
 type: docs
 weight: 872
 url: /system.drawing/brushes/get_lightgray/

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.globalization/cultureinfo/operator_equal_equal/
 ---
-## CultureInfo::operator==(const CultureInfo\&) const method
+## CultureInfo::operator==(const CultureInfo&) const method
 
 
 Compares culture parameters.
@@ -20,7 +20,7 @@ bool System::Globalization::CultureInfo::operator==(const CultureInfo &other) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [CultureInfo](../)\& | Culture to compare to. |
+| other | const [CultureInfo](../)& | Culture to compare to. |
 
 ### Return Value
 

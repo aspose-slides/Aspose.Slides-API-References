@@ -1,7 +1,7 @@
 ---
 title: BaseOType
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: BaseOType typedef
 type: docs
 weight: 157
 url: /system.io/basicstdiostreamwrapper/baseotype/

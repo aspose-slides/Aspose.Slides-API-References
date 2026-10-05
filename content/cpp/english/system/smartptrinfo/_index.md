@@ -19,15 +19,15 @@ class SmartPtrInfo
 
 | Method | Description |
 | --- | --- |
-| const void * [getInternalPtr](./getinternalptr/)() const | Gets raw object referenced pointer points to. |
-| [Object](../object/) * [getObject](./getobject/)() const | Gets object referenced pointer points to. |
-| [Object](../object/) * [getOwned](./getowned/)() const | Gets object owned pointer. |
+| const void \* [getInternalPtr](./getinternalptr/)() const | Gets raw object referenced pointer points to. |
+| [Object](../object/) \* [getObject](./getobject/)() const | Gets object referenced pointer points to. |
+| [Object](../object/) \* [getOwned](./getowned/)() const | Gets object owned pointer. |
 |  [operator bool](./operator_bool/)() const | Checks if info object points to non-null pointer. |
-| **bool** [operator!](./operator_not/)() const | Checks if info object does not point to non-null pointer. |
-| [Object](../object/) * [operator->](./operator_minus_greater/)() const | Allows to call methods of [Object](../object/) pointed by the referenced pointer. |
-| **bool** [operator<](./operator_less/)(const [SmartPtrInfo](./)\&) const | Less-compares values of pointers referenced by two info objects. |
+| **bool** [operator\!](./operator_not/)() const | Checks if info object does not point to non-null pointer. |
+| [Object](../object/) \* [operator-\>](./operator_minus_greater/)() const | Allows to call methods of [Object](../object/) pointed by the referenced pointer. |
+| **bool** [operator\<](./operator_less/)(const [SmartPtrInfo](./)&) const | Less-compares values of pointers referenced by two info objects. |
 |  [SmartPtrInfo](./smartptrinfo/)() | Creates empty [SmartPtrInfo](./) object. |
-| explicit  [SmartPtrInfo](./smartptrinfo/)(const [SmartPtr](../smartptr/)\<T\>\&) | Creates [SmartPtrInfo](./) object with information on specific smart pointer. |
+| explicit  [SmartPtrInfo](./smartptrinfo/)(const [SmartPtr](../smartptr/)\<T\>&) | Creates [SmartPtrInfo](./) object with information on specific smart pointer. |
 ## See Also
 
 * Namespace [System](../)

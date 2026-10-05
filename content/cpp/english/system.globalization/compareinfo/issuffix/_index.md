@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.globalization/compareinfo/issuffix/
 ---
-## CompareInfo::IsSuffix(const String\&, const String\&, CompareOptions) const method
+## CompareInfo::IsSuffix(const String&, const String&, CompareOptions) const method
 
 
 Checks if the specified string ends with the specified suffix using the specified compare options.
@@ -20,15 +20,15 @@ virtual bool System::Globalization::CompareInfo::IsSuffix(const String &source, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| suffix | const [String](../../../system/string/)\& | Suffix string. |
+| source | const [String](../../../system/string/)& | Source string. |
+| suffix | const [String](../../../system/string/)& | Suffix string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
 ### Return Value
 
 True if string ends with suffix; otherwise false.
 
-## CompareInfo::IsSuffix(const String\&, const String\&) const method
+## CompareInfo::IsSuffix(const String&, const String&) const method
 
 
 Checks if the specified string ends with the specified suffix.
@@ -42,8 +42,8 @@ virtual bool System::Globalization::CompareInfo::IsSuffix(const String &source, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| suffix | const [String](../../../system/string/)\& | Suffix string. |
+| source | const [String](../../../system/string/)& | Source string. |
+| suffix | const [String](../../../system/string/)& | Suffix string. |
 
 ### Return Value
 

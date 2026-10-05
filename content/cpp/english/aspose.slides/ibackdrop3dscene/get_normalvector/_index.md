@@ -9,7 +9,7 @@ url: /aspose.slides/ibackdrop3dscene/get_normalvector/
 ## IBackdrop3DScene::get_NormalVector() method
 
 
-Returns a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read **float**[].
+Returns a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read **float**\[\].
 
 ```cpp
 virtual System::ArrayPtr<float> Aspose::Slides::IBackdrop3DScene::get_NormalVector()=0

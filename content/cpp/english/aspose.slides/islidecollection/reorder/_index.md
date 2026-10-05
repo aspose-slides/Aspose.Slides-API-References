@@ -23,7 +23,7 @@ virtual void Aspose::Slides::ISlideCollection::Reorder(int32_t index, System::Sh
 | index | **int32_t** | Target index. |
 | slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | [Slide](../../slide/) to move. |
 
-## ISlideCollection::Reorder(int32_t, const System::ArrayPtr\<System::SharedPtr\<ISlide\>\>\&) method
+## ISlideCollection::Reorder(int32_t, const System::ArrayPtr\<System::SharedPtr\<ISlide\>\>&) method
 
 
 Moves slides from the collection to the specified position. [Slides](../../) will be placed starting from index in order they appear in list.
@@ -38,7 +38,7 @@ virtual void Aspose::Slides::ISlideCollection::Reorder(int32_t index, const Syst
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | Target index. |
-| slides | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>\>\& | [Slides](../../) to move. |
+| slides | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>\>& | [Slides](../../) to move. |
 
 ## See Also
 

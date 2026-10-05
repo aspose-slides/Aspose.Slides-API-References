@@ -1,7 +1,7 @@
 ---
 title: get_OutputTypes()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigEnvelopedSignatureTransform::get_OutputTypes() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/get_outputtypes/

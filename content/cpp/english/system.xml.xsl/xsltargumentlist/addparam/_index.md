@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.xsl/xsltargumentlist/addparam/
 ---
-## XsltArgumentList::AddParam(const String\&, const String\&, const SharedPtr\<Object\>\&) method
+## XsltArgumentList::AddParam(const String&, const String&, const SharedPtr\<Object\>&) method
 
 
 Adds a parameter to the [XsltArgumentList](../) and associates it with the namespace qualified name.
@@ -20,9 +20,16 @@ void System::Xml::Xsl::XsltArgumentList::AddParam(const String &name, const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to associate with the parameter. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI to associate with the parameter. To use the default namespace, specify an empty string. |
-| parameter | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The parameter value or object to add to the list. |
+| name | const [String](../../../system/string/)& | The name to associate with the parameter. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI to associate with the parameter. To use the default namespace, specify an empty string. |
+| parameter | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The parameter value or object to add to the list. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **namespaceUri** is either **nullptr** or [http://www.w3.org/1999/XSL/Transform](http://www.w3.org/1999/XSL/Transform). The **name** is not a valid name according to the W3C XML specification. The **namespaceUri** already has a parameter associated with it. |
+
 
 ## See Also
 

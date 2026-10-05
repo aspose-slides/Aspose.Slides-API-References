@@ -1,7 +1,7 @@
 ---
 title: get_FloralWhite()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFAF0.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFFAF0."
 type: docs
 weight: 846
 url: /system.drawing/color/get_floralwhite/

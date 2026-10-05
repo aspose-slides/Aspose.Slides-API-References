@@ -15,7 +15,7 @@ Starts process with pre-defined parameters.
 bool System::Diagnostics::Process::Start()
 ```
 
-## Process::Start(const String\&, const String\&) method
+## Process::Start(const String&, const String&) method
 
 
 Starts process with specified path and arguments.
@@ -29,14 +29,14 @@ static SharedPtr<Process> System::Diagnostics::Process::Start(const String &file
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | [Process](../) path. |
-| arguments | const [String](../../../system/string/)\& | [Process](../) parameters. |
+| filename | const [String](../../../system/string/)& | [Process](../) path. |
+| arguments | const [String](../../../system/string/)& | [Process](../) parameters. |
 
 ### Return Value
 
 [Object](../../../system/object/) attached to newly started process.
 
-## Process::Start(const SharedPtr\<ProcessStartInfo\>\&) method
+## Process::Start(const SharedPtr\<ProcessStartInfo\>&) method
 
 
 Starts process with specified path and arguments.
@@ -50,7 +50,7 @@ static SharedPtr<Process> System::Diagnostics::Process::Start(const SharedPtr<Pr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start_info | const [SharedPtr](../../../system/sharedptr/)\<[ProcessStartInfo](../../processstartinfo/)\>\& | Information on process to start. |
+| start_info | const [SharedPtr](../../../system/sharedptr/)\<[ProcessStartInfo](../../processstartinfo/)\>& | Information on process to start. |
 
 ### Return Value
 

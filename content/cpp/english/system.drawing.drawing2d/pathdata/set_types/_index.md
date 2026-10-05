@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.drawing.drawing2d/pathdata/set_types/
 ---
-## PathData::set_Types(const ArrayPtr\<uint8_t\>\&) method
+## PathData::set_Types(const ArrayPtr\<uint8_t\>&) method
 
 
 Sets an array containing the values that specify the types of corresponding points in **Points** array.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathData::set_Types(const ArrayPtr<uint8_t> &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The array to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The array to set |
 
 ## See Also
 

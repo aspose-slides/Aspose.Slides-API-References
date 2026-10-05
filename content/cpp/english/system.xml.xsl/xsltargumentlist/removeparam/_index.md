@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.xsl/xsltargumentlist/removeparam/
 ---
-## XsltArgumentList::RemoveParam(const String\&, const String\&) method
+## XsltArgumentList::RemoveParam(const String&, const String&) method
 
 
 Removes the parameter from the [XsltArgumentList](../).
@@ -20,8 +20,8 @@ SharedPtr<Object> System::Xml::Xsl::XsltArgumentList::RemoveParam(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the parameter to remove. [XsltArgumentList](../) does not check to ensure the name passed is a valid local name; however, the name cannot be **nullptr**. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the parameter to remove. |
+| name | const [String](../../../system/string/)& | The name of the parameter to remove. [XsltArgumentList](../) does not check to ensure the name passed is a valid local name; however, the name cannot be **nullptr**. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the parameter to remove. |
 
 ### Return Value
 

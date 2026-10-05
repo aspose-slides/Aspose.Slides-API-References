@@ -1,7 +1,7 @@
 ---
 title: PptOptions()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "PptOptions::PptOptions() constructor"
 type: docs
 weight: 27
 url: /aspose.slides.export/pptoptions/pptoptions/

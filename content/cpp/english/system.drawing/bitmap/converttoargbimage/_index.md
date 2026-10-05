@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.drawing/bitmap/converttoargbimage/
 ---
-## Bitmap::ConvertToARGBImage(const SharedPtr\<Bitmap\>\&) method
+## Bitmap::ConvertToARGBImage(const SharedPtr\<Bitmap\>&) method
 
 
 Creates a copy of the specified bitmap image with pixel format changed to Format32bppArgb.
@@ -20,7 +20,7 @@ static SharedPtr<Bitmap> System::Drawing::Bitmap::ConvertToARGBImage(const Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_bmp | const [SharedPtr](../../../system/sharedptr/)\<[Bitmap](../)\>\& | The original bitmap to copy |
+| src_bmp | const [SharedPtr](../../../system/sharedptr/)\<[Bitmap](../)\>& | The original bitmap to copy |
 
 ### Return Value
 

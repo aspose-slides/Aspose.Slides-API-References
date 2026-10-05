@@ -1,12 +1,12 @@
 ---
 title: MakeAsync()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::MakeAsync() function"
 type: docs
 weight: 3056
 url: /system/makeasync/
 ---
-## System::MakeAsync(const Details::AsyncFunction\&) function
+## System::MakeAsync(const Details::AsyncFunction&) function
 
 
 
@@ -15,7 +15,7 @@ url: /system/makeasync/
 TaskPtr System::MakeAsync(const Details::AsyncFunction &fnc)
 ```
 
-## System::MakeAsync(const Details::ResultAsyncFunction\<T\>\&) function
+## System::MakeAsync(const Details::ResultAsyncFunction\<T\>&) function
 
 
 

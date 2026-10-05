@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/urishim/ishexencoding/
 ---
-## UriShim::IsHexEncoding(const String\&, int32_t) method
+## UriShim::IsHexEncoding(const String&, int32_t) method
 
 
 Checks if given pattern is an escaped hex form.
@@ -20,7 +20,7 @@ static bool System::UriShim::IsHexEncoding(const String &pattern, int32_t index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../string/)\& | [String](../../string/) to read escaped hex form from. |
+| pattern | const [String](../../string/)& | [String](../../string/) to read escaped hex form from. |
 | index | **int32_t** | Offset in the given string. |
 
 ### Return Value

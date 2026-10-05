@@ -1,7 +1,7 @@
 ---
 title: PathTooLongException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: PathTooLongException typedef
 type: docs
 weight: 677
 url: /system.io/pathtoolongexception/

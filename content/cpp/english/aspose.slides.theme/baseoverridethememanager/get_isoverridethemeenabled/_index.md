@@ -9,7 +9,7 @@ url: /aspose.slides.theme/baseoverridethememanager/get_isoverridethemeenabled/
 ## BaseOverrideThemeManager::get_IsOverrideThemeEnabled() method
 
 
-Determines whether [OverrideTheme](../../overridetheme/) overrides inherited effective theme or not. To enable [OverrideTheme](../../overridetheme/) for overriding use OverrideTheme.Init*() methods. To disable [OverrideTheme](../../overridetheme/) from overriding use [OverrideTheme::Clear](../../overridetheme/clear/) method. Read-only **bool**.
+Determines whether [OverrideTheme](../../overridetheme/) overrides inherited effective theme or not. To enable [OverrideTheme](../../overridetheme/) for overriding use OverrideTheme.Init\*() methods. To disable [OverrideTheme](../../overridetheme/) from overriding use [OverrideTheme::Clear](../../overridetheme/clear/) method. Read-only **bool**.
 
 ```cpp
 bool Aspose::Slides::Theme::BaseOverrideThemeManager::get_IsOverrideThemeEnabled() override

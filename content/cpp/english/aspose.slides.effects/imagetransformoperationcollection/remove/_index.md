@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
-## ImageTransformOperationCollection::Remove(const System::SharedPtr\<IImageTransformOperation\>\&) method
+## ImageTransformOperationCollection::Remove(const System::SharedPtr\<IImageTransformOperation\>&) method
 
 
 Removes the first occurrence of a specific object from the [ICollection](../../../system.collections.generic/icollection/).
@@ -20,11 +20,18 @@ bool Aspose::Slides::Effects::ImageTransformOperationCollection::Remove(const Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IImageTransformOperation](../../iimagetransformoperation/)\>\& | The object to remove from the [ICollection](../../../system.collections.generic/icollection/). |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IImageTransformOperation](../../iimagetransformoperation/)\>& | The object to remove from the [ICollection](../../../system.collections.generic/icollection/). |
 
 ### Return Value
 
 true if *item*  was successfully removed from the [ICollection](../../../system.collections.generic/icollection/); otherwise, false. This method also returns false if *item*  is not found in the original [ICollection](../../../system.collections.generic/icollection/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotSupportedException](../../../system/notsupportedexception/) | The [ICollection](../../../system.collections.generic/icollection/) is read-only. |
+
 
 ## See Also
 

@@ -20,6 +20,13 @@ std::string System::String::ToAsciiString() const
 
 [String](../) representation in Ascii.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | if a string contains non-ASCII characters. |
+
+
 ## See Also
 
 * Class [String](../)

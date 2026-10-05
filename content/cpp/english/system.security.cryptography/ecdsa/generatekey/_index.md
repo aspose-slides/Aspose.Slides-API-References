@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.security.cryptography/ecdsa/generatekey/
 ---
-## ECDsa::GenerateKey(const ECCurve\&) method
+## ECDsa::GenerateKey(const ECCurve&) method
 
 
 Generates a new public/private key pair for the specified curve.
@@ -20,7 +20,7 @@ virtual void System::Security::Cryptography::ECDsa::GenerateKey(const ECCurve &c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curve | const [ECCurve](../../eccurve/)\& | Curve to use to generate the keys. |
+| curve | const [ECCurve](../../eccurve/)& | Curve to use to generate the keys. |
 
 ## See Also
 

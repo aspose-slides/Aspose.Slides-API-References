@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.collections.generic/linkedlist/addfirst/
 ---
-## LinkedList::AddFirst(const T\&) method
+## LinkedList::AddFirst(const T&) method
 
 
 Adds **element** to the beginning of the list.
@@ -20,13 +20,13 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddFir
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to add. |
+| element | const T& | Element to add. |
 
 ### Return Value
 
 New node.
 
-## LinkedList::AddFirst(const SharedPtr\<LinkedListNode\<T\>\>\&) method
+## LinkedList::AddFirst(const SharedPtr\<LinkedListNode\<T\>\>&) method
 
 
 Adds **newNode** to the beginning of the list.
@@ -40,7 +40,7 @@ void System::Collections::Generic::LinkedList<T>::AddFirst(const SharedPtr<Linke
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | New node to add. |
+| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | New node to add. |
 
 ## See Also
 

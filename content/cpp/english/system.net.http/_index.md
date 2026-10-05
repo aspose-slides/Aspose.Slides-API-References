@@ -1,7 +1,7 @@
 ---
 title: "System::Net::Http"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Http namespace"
 type: docs
 weight: 690
 url: /system.net.http/

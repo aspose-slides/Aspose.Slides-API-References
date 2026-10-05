@@ -16,6 +16,13 @@ void System::Drawing::Graphics::TranslateClip(int dx, int dy)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::TranslateClip(float, float) method
 
 
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::TranslateClip(float dx, float dy)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/memory/copyto/
 ---
-## Memory::CopyTo(const Memory\&) method
+## Memory::CopyTo(const Memory&) method
 
 
 Copies the contents of this memory to the destination memory.
@@ -20,7 +20,7 @@ void System::Memory<T>::CopyTo(const Memory &destination)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | const [Memory](../)\& | The destination memory segment. |
+| destination | const [Memory](../)& | The destination memory segment. |
 
 ## See Also
 

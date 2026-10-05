@@ -1,7 +1,7 @@
 ---
 title: X509RevocationFlag
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: X509RevocationFlag enum
 type: docs
 weight: 300
 url: /system.security.cryptography.x509certificates/x509revocationflag/

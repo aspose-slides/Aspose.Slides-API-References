@@ -1,7 +1,7 @@
 ---
 title: get_Reader()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlSerializerImplementation::get_Reader() method"
 type: docs
 weight: 1
 url: /system.xml.serialization/xmlserializerimplementation/get_reader/

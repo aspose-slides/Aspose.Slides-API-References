@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.boxedvaluedetail/equals_less_float__greater/
 ---
-## System::BoxedValueDetail::Equals< float >(float, float) function
+## System::BoxedValueDetail::Equals\< float \>(float, float) function
 
 
 Compares two single-precision floating-point values.

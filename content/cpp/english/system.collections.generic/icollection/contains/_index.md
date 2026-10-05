@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.collections.generic/icollection/contains/
 ---
-## ICollection::Contains(const T\&) const method
+## ICollection::Contains(const T&) const method
 
 
 Checks if element is present in collection.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::ICollection<T>::Contains(const T &ite
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlDocument](../) class.
 System::Xml::XmlDocument::XmlDocument()
 ```
 
-## XmlDocument::XmlDocument(const SharedPtr\<XmlNameTable\>\&) constructor
+## XmlDocument::XmlDocument(const SharedPtr\<XmlNameTable\>&) constructor
 
 
 Initializes a new instance of the [XmlDocument](../) class with the specified [XmlNameTable](../../xmlnametable/).
@@ -29,7 +29,7 @@ System::Xml::XmlDocument::XmlDocument(const SharedPtr<XmlNameTable> &nt)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use. |
 
 ## See Also
 

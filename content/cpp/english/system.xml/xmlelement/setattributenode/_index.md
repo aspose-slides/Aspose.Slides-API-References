@@ -26,6 +26,14 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::SetAttributeNode(Shared
 
 If the attribute replaces an existing attribute with the same name, the old [XmlAttribute](../../xmlattribute/) is returned; otherwise, **nullptr** is returned.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **newAttr** was created from a different document than the one that created this node. Or this node is read-only. |
+| InvalidOperationException | The **newAttr** is already an attribute of another [XmlElement](../) object. You must explicitly clone [XmlAttribute](../../xmlattribute/) nodes to re-use them in other [XmlElement](../) objects. |
+
+
 ## XmlElement::SetAttributeNode(String, String) method
 
 

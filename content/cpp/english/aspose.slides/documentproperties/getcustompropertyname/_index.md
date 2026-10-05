@@ -26,6 +26,13 @@ System::String Aspose::Slides::DocumentProperties::GetCustomPropertyName(int32_t
 
 Custom property name at the specified index.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Index is less than zero. Index is equal to or greater than Count. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

@@ -1,7 +1,7 @@
 ---
 title: CultureNotFoundException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CultureNotFoundException typedef
 type: docs
 weight: 534
 url: /system.globalization/culturenotfoundexception/

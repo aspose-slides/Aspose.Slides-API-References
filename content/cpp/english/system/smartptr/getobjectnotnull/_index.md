@@ -20,6 +20,13 @@ T * System::SmartPtr<T>::GetObjectNotNull() const
 
 Raw pointer to referenced object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NullReferenceException](../../nullreferenceexception/) | Thrown if called on null-pointer. |
+
+
 ## See Also
 
 * Class [SmartPtr](../)

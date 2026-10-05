@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/objectext/is/
 ---
-## ObjectExt::Is(const T\&) method
+## ObjectExt::Is(const T&) method
 
 
 Implements 'is' operator translation. Specialization for boxable (value) types which exactly is that they are.
@@ -26,13 +26,13 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value, bool>::type
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to test for 'is' operator. Ignored. |
+| obj | const T& | [Object](../../object/) to test for 'is' operator. Ignored. |
 
 ### Return Value
 
 Always true
 
-## ObjectExt::Is(const U\&) method
+## ObjectExt::Is(const U&) method
 
 
 Implements 'is' operator translation. Specialization for pointer types optimized for 'final' classes.
@@ -53,13 +53,13 @@ template<class T,class U> static std::enable_if<std::is_convertible<T, Object>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const U\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const U& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const U\&) method
+## ObjectExt::Is(const U&) method
 
 
 Implements 'is' operator translation. Specialization for pointer types.
@@ -80,13 +80,13 @@ template<class T,class U> static std::enable_if<std::is_convertible<T, Object>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const U\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const U& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const Object\&) method
+## ObjectExt::Is(const Object&) method
 
 
 Implements 'is' operator translation. Specialization for value types.
@@ -106,13 +106,13 @@ template<class T> static std::enable_if<std::is_convertible<T, Object>::value, b
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [Object](../../object/)\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [Object](../../object/)& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const Object\&) method
+## ObjectExt::Is(const Object&) method
 
 
 Implements 'is' operator translation. Specialization for unconvertible types.
@@ -132,13 +132,13 @@ template<class T> static std::enable_if<!std::is_convertible<T, Object>::value, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [Object](../../object/)\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [Object](../../object/)& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 Always returns false as types are unconvertible.
 
-## ObjectExt::Is(const SmartPtr\<U\>\&) method
+## ObjectExt::Is(const SmartPtr\<U\>&) method
 
 
 Implements 'is' operator translation. Specialization for pointer types.
@@ -158,13 +158,13 @@ template<class T,class U> static std::enable_if<IsSmartPtr<T>::value, bool>::typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<U\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<U\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const ExceptionWrapper\<U\>\&) method
+## ObjectExt::Is(const ExceptionWrapper\<U\>&) method
 
 
 Implements 'is' operator translation. Specialization for exception wrapper types.
@@ -184,13 +184,13 @@ template<class T,class U> static std::enable_if<IsExceptionWrapper<T>::value, bo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [ExceptionWrapper](../../exceptionwrapper/)\<U\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [ExceptionWrapper](../../exceptionwrapper/)\<U\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const SmartPtr\<Object\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>&) method
 
 
 Implements 'is' operator translation. Specialization for nullable types.
@@ -210,13 +210,13 @@ template<class T> static std::enable_if<IsNullable<T>::value, bool>::type System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const SmartPtr\<Object\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>&) method
 
 
 Implements 'is' operator translation. Specialization for boxable types with == operator defined.
@@ -236,13 +236,13 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value &&!IsNullabl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const SmartPtr\<Object\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>&) method
 
 
 Implements 'is' operator translation. Specialization for boxable types without defined ==.
@@ -262,13 +262,13 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value &&!IsNullabl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const SmartPtr\<V\>\&) method
+## ObjectExt::Is(const SmartPtr\<V\>&) method
 
 
 Implements 'is' operator translation. Specialization value types boxed to interfaces.
@@ -289,13 +289,13 @@ template<class T,class V> static std::enable_if<System::IsBoxable<T>::value &&!I
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<V\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<V\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const SmartPtr\<U\>\&) method
+## ObjectExt::Is(const SmartPtr\<U\>&) method
 
 
 Implements 'is' operator translation. Specialization for enum types.
@@ -316,13 +316,13 @@ template<class T,class U> static std::enable_if<std::is_enum<T>::value, bool>::t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<U\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [SmartPtr](../../smartptr/)\<U\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const WeakPtr\<U\>\&) method
+## ObjectExt::Is(const WeakPtr\<U\>&) method
 
 
 Implements 'is' operator translation. Specialization for enum types vs weak pointers.
@@ -343,13 +343,13 @@ template<class T,class U> static std::enable_if<std::is_enum<T>::value, bool>::t
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [WeakPtr](../../weakptr/)\<U\>\& | [Object](../../object/) to test for 'is' operator. |
+| obj | const [WeakPtr](../../weakptr/)\<U\>& | [Object](../../object/) to test for 'is' operator. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const Nullable\<U\>\&) method
+## ObjectExt::Is(const Nullable\<U\>&) method
 
 
 Implements 'is' operator translation. Specialization for [Nullable](../../nullable/) type.
@@ -369,13 +369,13 @@ template<class T,class U> static bool System::ObjectExt::Is(const Nullable<U> &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Nullable](../../nullable/)\<U\>\& | [Nullable](../../nullable/) type. |
+| value | const [Nullable](../../nullable/)\<U\>& | [Nullable](../../nullable/) type. |
 
 ### Return Value
 
 True if 'is' returns true, false otherwise.
 
-## ObjectExt::Is(const char16_t *) method
+## ObjectExt::Is(const char16_t \*) method
 
 
 Implements 'is' operator translation. Specialization for string literal.
@@ -395,7 +395,7 @@ template<class T> static bool System::ObjectExt::Is(const char16_t *str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char16_t * | [String](../../string/) literal. |
+| str | const char16_t \* | [String](../../string/) literal. |
 
 ### Return Value
 

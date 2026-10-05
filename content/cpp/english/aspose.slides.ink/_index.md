@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Ink"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Ink namespace"
 type: docs
 weight: 131
 url: /aspose.slides.ink/

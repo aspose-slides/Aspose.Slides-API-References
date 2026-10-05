@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/array/add/
 ---
-## Array::Add(const T\&) method
+## Array::Add(const T&) method
 
 
 Not supported because the array represented by the current object is read-only.
@@ -14,6 +14,13 @@ Not supported because the array represented by the current object is read-only.
 ```cpp
 virtual void System::Array<T>::Add(const T &) override
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | always |
 
 
 ## See Also

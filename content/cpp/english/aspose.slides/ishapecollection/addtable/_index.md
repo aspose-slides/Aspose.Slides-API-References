@@ -22,8 +22,8 @@ virtual System::SharedPtr<ITable> Aspose::Slides::IShapeCollection::AddTable(flo
 | --- | --- | --- |
 | x | **float** | The x-coordinate of the table, in points. |
 | y | **float** | The y-coordinate of the table, in points. |
-| columnWidths | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the widths of the table\\u2019s columns, in points. |
-| rowHeights | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the heights of the table\\u2019s rows, in points. |
+| columnWidths | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the widths of the table’s columns, in points. |
+| rowHeights | [System::ArrayPtr](../../../system/arrayptr/)\<**double**\> | An array of doubles representing the heights of the table’s rows, in points. |
 
 ### Return Value
 

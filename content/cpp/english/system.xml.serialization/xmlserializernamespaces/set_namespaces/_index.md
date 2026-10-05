@@ -1,12 +1,12 @@
 ---
 title: set_Namespaces()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlSerializerNamespaces::set_Namespaces() method"
 type: docs
 weight: 40
 url: /system.xml.serialization/xmlserializernamespaces/set_namespaces/
 ---
-## XmlSerializerNamespaces::set_Namespaces(const SharedPtr\<Collections::Generic::Dictionary\<String, String\>\>\&) method
+## XmlSerializerNamespaces::set_Namespaces(const SharedPtr\<Collections::Generic::Dictionary\<String, String\>\>&) method
 
 
 

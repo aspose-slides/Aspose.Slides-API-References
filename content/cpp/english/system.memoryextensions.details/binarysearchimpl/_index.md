@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.memoryextensions.details/binarysearchimpl/
 ---
-## System::MemoryExtensions::Details::BinarySearchImpl(const ReadOnlySpan\<T\>\&, const TValue\&, TCompareFunc) function
+## System::MemoryExtensions::Details::BinarySearchImpl(const ReadOnlySpan\<T\>&, const TValue&, TCompareFunc) function
 
 
 Common binary search implementation.
@@ -28,8 +28,8 @@ template<typename T,typename TValue,typename TCompareFunc> int32_t System::Memor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search |
-| value | const TValue\& | The value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search |
+| value | const TValue& | The value to search for |
 | compareFunc | TCompareFunc | Function that compares value with span element and returns **int32_t** (-1, 0, 1) |
 
 ### Return Value

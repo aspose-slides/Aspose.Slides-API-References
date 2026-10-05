@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/char/isdigit/
 ---
-## Char::IsDigit(const char_t *, int) method
+## Char::IsDigit(const char_t \*, int) method
 
 
 Determines whether the character at the specified index in the specified character buffer is classified as a decimal digit.
@@ -20,14 +20,14 @@ static bool System::Char::IsDigit(const char_t *str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | Pointer to the beginning of the character buffer |
+| str | const char_t \* | Pointer to the beginning of the character buffer |
 | idx | int | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value
 
 True if the character at the specified index is a decimal digit, otherwise - false
 
-## Char::IsDigit(const String\&, const int32_t) method
+## Char::IsDigit(const String&, const int32_t) method
 
 
 Determines whether the character at the specified index in the specified string is classified as a decimal digit.
@@ -41,7 +41,7 @@ static bool System::Char::IsDigit(const String &str, const int32_t idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | A string |
+| str | const [String](../../string/)& | A string |
 | idx | const **int32_t** | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value

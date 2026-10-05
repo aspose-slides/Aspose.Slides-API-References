@@ -1,7 +1,7 @@
 ---
 title: "System::Xml"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Xml namespace"
 type: docs
 weight: 1132
 url: /system.xml/
@@ -26,12 +26,12 @@ url: /system.xml/
 | [XmlCharType](./xmlchartype/) | For internal purposes. Do not use this class directly. |
 | [XmlComment](./xmlcomment/) | Represents the content of an XML comment. |
 | [XmlConvert](./xmlconvert/) | Encodes and decodes XML names, and provides methods for converting between runtime types and XML [Schema](../system.xml.schema/) definition language (XSD) types. When converting data types, the values returned are locale-independent. |
-| [XmlDeclaration](./xmldeclaration/) | Represents the XML declaration node **<?xml version='1.0'...?>**. |
+| [XmlDeclaration](./xmldeclaration/) | Represents the XML declaration node **\<?xml version='1.0'...?\>**. |
 | [XmlDocument](./xmldocument/) | Represents an XML document. You can use this class to load, validate, edit, add, and position XML in a document. |
 | [XmlDocumentFragment](./xmldocumentfragment/) | Represents a lightweight object that is useful for tree insert operations. |
 | [XmlDocumentType](./xmldocumenttype/) | Represents the document type declaration. |
 | [XmlElement](./xmlelement/) | Represents an element. |
-| [XmlEntity](./xmlentity/) | Represents an entity declaration, such as **<!ENTITY... >**. |
+| [XmlEntity](./xmlentity/) | Represents an entity declaration, such as **\<!ENTITY... \>**. |
 | [XmlEntityReference](./xmlentityreference/) | Represents an entity reference node. |
 | [XmlImplementation](./xmlimplementation/) | Defines the context for a set of [XmlDocument](./xmldocument/) objects. |
 | [XmlLinkedNode](./xmllinkednode/) | Returns the node immediately preceding or following this node. |
@@ -42,7 +42,7 @@ url: /system.xml/
 | [XmlNodeChangedEventArgs](./xmlnodechangedeventargs/) | Provides data for the **XmlDocument::NodeChanged**, **XmlDocument::NodeChanging**, **XmlDocument::NodeInserted**, **XmlDocument::NodeInserting**, **XmlDocument::NodeRemoved** and **XmlDocument::NodeRemoving** events. |
 | [XmlNodeList](./xmlnodelist/) | Represents an ordered collection of nodes. |
 | [XmlNodeReader](./xmlnodereader/) | Represents a reader that provides fast, non-cached forward only access to XML data in an [XmlNode](./xmlnode/). |
-| [XmlNotation](./xmlnotation/) | Represents a notation declaration, such as **<!NOTATION... >**. |
+| [XmlNotation](./xmlnotation/) | Represents a notation declaration, such as **\<!NOTATION... \>**. |
 | [XmlParserContext](./xmlparsercontext/) | Provides all the context information required by the [XmlReader](./xmlreader/) to parse an XML fragment. |
 | [XmlProcessingInstruction](./xmlprocessinginstruction/) | Represents a processing instruction, which XML defines to keep processor-specific information in the text of the document. |
 | [XmlQualifiedName](./xmlqualifiedname/) | Represents an XML qualified name. |
@@ -63,8 +63,8 @@ url: /system.xml/
 
 | Function | Description |
 | --- | --- |
-| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>\&, const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>\&) | Compares two [XmlQualifiedName](./xmlqualifiedname/) objects. |
-| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>\&, const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>\&) | Compares two [XmlQualifiedName](./xmlqualifiedname/) objects. |
+| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>&, const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>&) | Compares two [XmlQualifiedName](./xmlqualifiedname/) objects. |
+| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>&, const [SharedPtr](../system/sharedptr/)\<[XmlQualifiedName](./xmlqualifiedname/)\>&) | Compares two [XmlQualifiedName](./xmlqualifiedname/) objects. |
 ## Enums
 
 | Enum | Description |

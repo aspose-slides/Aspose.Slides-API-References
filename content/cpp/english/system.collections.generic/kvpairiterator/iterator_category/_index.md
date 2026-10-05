@@ -1,7 +1,7 @@
 ---
 title: iterator_category
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: iterator_category typedef
 type: docs
 weight: 53
 url: /system.collections.generic/kvpairiterator/iterator_category/

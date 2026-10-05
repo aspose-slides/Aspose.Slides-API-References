@@ -9,7 +9,7 @@ url: /aspose.slides.export/ipdfoptions/get_additionalcommonfontfamilies/
 ## IPdfOptions::get_AdditionalCommonFontFamilies() method
 
 
-Returns an array of user-defined names of font families which [Aspose.Slides](../../../aspose.slides/) should consider common. Read [System::String](../../../system/string/)[].
+Returns an array of user-defined names of font families which [Aspose.Slides](../../../aspose.slides/) should consider common. Read [System::String](../../../system/string/)\[\].
 
 ```cpp
 virtual System::ArrayPtr<System::String> Aspose::Slides::Export::IPdfOptions::get_AdditionalCommonFontFamilies()=0

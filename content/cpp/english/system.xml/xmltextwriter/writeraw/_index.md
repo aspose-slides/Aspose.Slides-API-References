@@ -24,7 +24,15 @@ void System::Xml::XmlTextWriter::WriteRaw(ArrayPtr<char16_t> buffer, int32_t ind
 | index | **int32_t** | The position within the buffer indicating the start of the text to write. |
 | count | **int32_t** | The number of characters to write. |
 
-## XmlTextWriter::WriteRaw(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **buffer** is **nullptr**. |
+| ArgumentOutOfRangeException | **index** or **count** is less than zero. The buffer length minus **index** is less than **count**. |
+
+
+## XmlTextWriter::WriteRaw(const String&) method
 
 
 Writes raw markup manually from a string.
@@ -38,7 +46,7 @@ void System::Xml::XmlTextWriter::WriteRaw(const String &data) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [String](../../../system/string/)\& | [String](../../../system/string/) containing the text to write. |
+| data | const [String](../../../system/string/)& | [String](../../../system/string/) containing the text to write. |
 
 ## See Also
 

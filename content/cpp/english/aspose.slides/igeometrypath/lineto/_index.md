@@ -56,6 +56,13 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(System::Drawing::PointF point
 | point | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
+
 ## IGeometryPath::LineTo(float, float, uint32_t) method
 
 
@@ -73,6 +80,13 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(float x, float y, uint32_t in
 | x | **float** | X coordinate of the point |
 | y | **float** | Y coordinate of the point |
 | index | **uint32_t** | Index of segment in PathData |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
 
 ## See Also
 

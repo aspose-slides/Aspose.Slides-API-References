@@ -1,7 +1,7 @@
 ---
 title: ToJpeg()
 second_title: Aspose.Slides for C++ API Reference
-description: Converts the input presentation to a set of JPEG format images.  If the output file name is given as \"myPath/myFilename.jpeg\", the result will be saved as a set of \"myPath/myFilename_N.jpeg\" files, where N is a slide number.
+description: "Converts the input presentation to a set of JPEG format images.  If the output file name is given as \"myPath/myFilename.jpeg\", the result will be saved as a set of \"myPath/myFilename_N.jpeg\" files, where N is a slide number."
 type: docs
 weight: 40
 url: /aspose.slides.lowcode/convert/tojpeg/
@@ -11,7 +11,7 @@ url: /aspose.slides.lowcode/convert/tojpeg/
 
 Converts the input presentation to a set of JPEG format images. 
 
- If the output file name is given as \"myPath/myFilename.jpeg\", the result will be saved as a set of \"myPath/myFilename_N.jpeg\" files, where N is a slide number.
+ If the output file name is given as "myPath/myFilename.jpeg", the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
 
 ```cpp
 static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentation> pres, System::String outputFileName)
@@ -24,6 +24,13 @@ static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentat
 | --- | --- | --- |
 | pres | [System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\> | The input presentation. |
 | outputFileName | [System::String](../../../system/string/) | The output file name. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) |  |
+
 ## Remarks
 
 
@@ -39,7 +46,7 @@ Convert::ToJpeg(pres, u"presImage.jpeg");
 
 Converts the input presentation to a set of JPEG format images. 
 
- If the output file name is given as \"myPath/myFilename.jpeg\", the result will be saved as a set of \"myPath/myFilename_N.jpeg\" files, where N is a slide number.
+ If the output file name is given as "myPath/myFilename.jpeg", the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
 
 ```cpp
 static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentation> pres, System::String outputFileName, System::Drawing::Size imageSize)
@@ -53,6 +60,13 @@ static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentat
 | pres | [System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\> | The input presentation |
 | outputFileName | [System::String](../../../system/string/) | The output file name. |
 | imageSize | [System::Drawing::Size](../../../system.drawing/size/) | The size of each generated image. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) |  |
+
 ## Remarks
 
 
@@ -68,7 +82,7 @@ Convert::ToJpeg(pres, u"presImage.jpeg", System::Drawing::Size(720, 540));
 
 Converts the input presentation to a set of JPEG format images. 
 
- If the output file name is given as \"myPath/myFilename.jpeg\", the result will be saved as a set of \"myPath/myFilename_N.jpeg\" files, where N is a slide number.
+ If the output file name is given as "myPath/myFilename.jpeg", the result will be saved as a set of "myPath/myFilename_N.jpeg" files, where N is a slide number.
 
 ```cpp
 static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentation> pres, System::String outputFileName, float scale, System::SharedPtr<Aspose::Slides::Export::IRenderingOptions> options)
@@ -83,6 +97,13 @@ static void Aspose::Slides::LowCode::Convert::ToJpeg(System::SharedPtr<Presentat
 | outputFileName | [System::String](../../../system/string/) | The output file name. |
 | scale | **float** | The scaling factor applied to the output images relative to the original slide size. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | The rendering options. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) |  |
+
 ## Remarks
 
 

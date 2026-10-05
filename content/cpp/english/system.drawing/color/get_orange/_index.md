@@ -1,7 +1,7 @@
 ---
 title: get_Orange()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFA500.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFA500."
 type: docs
 weight: 1574
 url: /system.drawing/color/get_orange/

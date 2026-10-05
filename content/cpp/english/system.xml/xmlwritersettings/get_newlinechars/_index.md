@@ -18,7 +18,7 @@ String System::Xml::XmlWriterSettings::get_NewLineChars()
 
 ### Return Value
 
-The character string to use for line breaks. This can be set to any string value. However, to ensure valid XML, you should specify only valid white space characters, such as space characters, tabs, carriage returns, or line feeds. The default is **\r\n** (carriage return, new line).
+The character string to use for line breaks. This can be set to any string value. However, to ensure valid XML, you should specify only valid white space characters, such as space characters, tabs, carriage returns, or line feeds. The default is **\\r\\n** (carriage return, new line).
 
 ## See Also
 

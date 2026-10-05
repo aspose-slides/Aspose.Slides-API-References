@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /system.xml/xmltextreader/readchars/
 ---
-## XmlTextReader::ReadChars(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
+## XmlTextReader::ReadChars(const ArrayPtr\<char16_t\>&, int32_t, int32_t) method
 
 
 Reads the text contents of an element into a character buffer. This method is designed to read large streams of embedded text by calling it successively.
@@ -20,13 +20,22 @@ int32_t System::Xml::XmlTextReader::ReadChars(const ArrayPtr<char16_t> &buffer, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\& | The array of characters that serves as the buffer to which the text contents are written. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>& | The array of characters that serves as the buffer to which the text contents are written. |
 | index | **int32_t** | The position within **buffer** where the method can begin writing text contents. |
 | count | **int32_t** | The number of characters to write into **buffer**. |
 
 ### Return Value
 
 The number of characters read. This can be 0 if the reader is not positioned on an element or if there is no more text content to return in the current context.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **count** is greater than the space specified in the **buffer** (buffer size - **index**). |
+| ArgumentNullException | The **buffer** value is **nullptr**. |
+| ArgumentOutOfRangeException | **index** \< 0 or **count** \< 0. |
+
 
 ## See Also
 

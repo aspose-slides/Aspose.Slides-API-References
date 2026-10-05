@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /system/datetimeoffset/tryparse/
 ---
-## DateTimeOffset::TryParse(const String\&, DateTimeOffset\&) method
+## DateTimeOffset::TryParse(const String&, DateTimeOffset&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object.
@@ -20,14 +20,14 @@ static bool System::DateTimeOffset::TryParse(const String &input, DateTimeOffset
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
-| result | [DateTimeOffset](../)\& | [DateTimeOffset](../) that is equivalent to the **input**. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
+| result | [DateTimeOffset](../)& | [DateTimeOffset](../) that is equivalent to the **input**. |
 
 ### Return Value
 
 true if the **input** converted successfully, otherwise - false.
 
-## DateTimeOffset::TryParse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
+## DateTimeOffset::TryParse(const String&, const SharedPtr\<IFormatProvider\>&, Globalization::DateTimeStyles, DateTimeOffset&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified format provider and formatting style.
@@ -41,10 +41,10 @@ static bool System::DateTimeOffset::TryParse(const String &input, const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 | styles | [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/) | Date and time formatting styles. |
-| result | [DateTimeOffset](../)\& | [DateTimeOffset](../) that is equivalent to the **input**. |
+| result | [DateTimeOffset](../)& | [DateTimeOffset](../) that is equivalent to the **input**. |
 
 ### Return Value
 

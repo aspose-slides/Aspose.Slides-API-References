@@ -16,6 +16,13 @@ Rectangle System::Drawing::Printing::PageSettings::get_Bounds()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Rectangle](../../../system.drawing/rectangle/)

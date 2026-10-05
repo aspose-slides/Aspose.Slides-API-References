@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/binarywriter/binarywriter/
 ---
-## BinaryWriter::BinaryWriter(const StreamPtr\&, const EncodingPtr\&, bool) constructor
+## BinaryWriter::BinaryWriter(const StreamPtr&, const EncodingPtr&, bool) constructor
 
 
 Constructs an instance of [BinaryWriter](../) class that writes data to the specified stream using the specified encoding.
@@ -20,8 +20,8 @@ System::IO::BinaryWriter::BinaryWriter(const StreamPtr &stream, const EncodingPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | The output stream |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
+| stream | const [StreamPtr](../../../system/streamptr/)& | The output stream |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The encoding to use |
 | leaveopen | **bool** | Specifies whether the stream **stream** should be left open (true) after the current object has been disposed or not (false) |
 
 ## See Also

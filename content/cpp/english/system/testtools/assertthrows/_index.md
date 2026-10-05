@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/testtools/assertthrows/
 ---
-## TestTools::AssertThrows(const std::function\<void()>\&) method
+## TestTools::AssertThrows(const std::function\<void()\>&) method
 
 
 Checks if function throws exception of any type.
@@ -20,7 +20,7 @@ static bool System::TestTools::AssertThrows(const std::function<void()> &func)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| func | const std::function\<void()>\& | Function to check for throwing. |
+| func | const std::function\<void()\>& | Function to check for throwing. |
 
 ### Return Value
 

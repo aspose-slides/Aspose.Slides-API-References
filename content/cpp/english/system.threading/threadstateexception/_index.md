@@ -1,7 +1,7 @@
 ---
 title: ThreadStateException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ThreadStateException typedef
 type: docs
 weight: 339
 url: /system.threading/threadstateexception/

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system/char/iswhitespace/
 ---
-## Char::IsWhiteSpace(const char_t *, int) method
+## Char::IsWhiteSpace(const char_t \*, int) method
 
 
 Determines whether the character at the specified index in the specified character buffer is classified as a white space character.
@@ -20,7 +20,7 @@ static bool System::Char::IsWhiteSpace(const char_t *str, int idx)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | Pointer to the beginning of the character buffer |
+| str | const char_t \* | Pointer to the beginning of the character buffer |
 | idx | int | A zero-based index in the specified buffer of the character to test |
 
 ### Return Value
@@ -47,7 +47,7 @@ static bool System::Char::IsWhiteSpace(char_t c)
 
 True if the specified character is a white space character, otherwise - false
 
-## Char::IsWhiteSpace(const String\&, int) method
+## Char::IsWhiteSpace(const String&, int) method
 
 
 Determines whether the character at the specified index in the specified string is classified as a white space character.
@@ -61,7 +61,7 @@ static bool System::Char::IsWhiteSpace(const String &str, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | A string |
+| str | const [String](../../string/)& | A string |
 | index | int | A zero-based index in the specified string |
 
 ### Return Value

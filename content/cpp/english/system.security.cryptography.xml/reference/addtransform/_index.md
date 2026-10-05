@@ -1,7 +1,7 @@
 ---
 title: AddTransform()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::AddTransform() method"
 type: docs
 weight: 196
 url: /system.security.cryptography.xml/reference/addtransform/

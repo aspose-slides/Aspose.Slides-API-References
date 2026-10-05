@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlconvert/verifytoken/
 ---
-## XmlConvert::VerifyTOKEN(const String\&) method
+## XmlConvert::VerifyTOKEN(const String&) method
 
 
 Verifies that the string is a valid token according to the W3C XML [Schema](../../../system.xml.schema/) Part2: Datatypes recommendation.
@@ -20,11 +20,18 @@ static String System::Xml::XmlConvert::VerifyTOKEN(const String &token)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| token | const [String](../../../system/string/)\& | The string value you wish to verify. |
+| token | const [String](../../../system/string/)& | The string value you wish to verify. |
 
 ### Return Value
 
 The token, if it is a valid token.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The string value is not a valid token. |
+
 
 ## See Also
 

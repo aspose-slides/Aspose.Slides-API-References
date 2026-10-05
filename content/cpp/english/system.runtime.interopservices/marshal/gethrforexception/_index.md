@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.runtime.interopservices/marshal/gethrforexception/
 ---
-## Marshal::GetHRForException(const System::Exception\&) method
+## Marshal::GetHRForException(const System::Exception&) method
 
 
 Gets HResult from exception.
@@ -20,7 +20,7 @@ static int32_t System::Runtime::InteropServices::Marshal::GetHRForException(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exc | const [System::Exception](../../../system/exception/)\& | Exception to get HResult for. |
+| exc | const [System::Exception](../../../system/exception/)& | Exception to get HResult for. |
 
 ### Return Value
 

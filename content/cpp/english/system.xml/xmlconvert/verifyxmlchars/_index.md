@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.xml/xmlconvert/verifyxmlchars/
 ---
-## XmlConvert::VerifyXmlChars(const String\&) method
+## XmlConvert::VerifyXmlChars(const String&) method
 
 
 Returns the passed-in string if all the characters and surrogate pair characters in the string argument are valid XML characters, otherwise an XmlException is thrown with information on the first invalid character encountered.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::VerifyXmlChars(const String &content)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | const [String](../../../system/string/)\& | [String](../../../system/string/) that contains characters to verify. |
+| content | const [String](../../../system/string/)& | [String](../../../system/string/) that contains characters to verify. |
 
 ### Return Value
 

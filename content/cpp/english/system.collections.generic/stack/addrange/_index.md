@@ -22,6 +22,13 @@ void System::Collections::Generic::Stack<T>::AddRange(IEnumerablePtr collection)
 | --- | --- | --- |
 | collection | [IEnumerablePtr](../ienumerableptr/) | Container of elements to push into stack. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if collection is nullptr. |
+
+
 ## See Also
 
 * Typedef [IEnumerablePtr](../ienumerableptr/)

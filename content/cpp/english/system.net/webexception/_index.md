@@ -1,7 +1,7 @@
 ---
 title: WebException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: WebException typedef
 type: docs
 weight: 703
 url: /system.net/webexception/

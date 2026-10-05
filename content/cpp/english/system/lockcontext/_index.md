@@ -19,7 +19,7 @@ class LockContext
 
 | Method | Description |
 | --- | --- |
-|  [LockContext](./lockcontext/)([Object](../object/) *) | Locks object. |
+|  [LockContext](./lockcontext/)([Object](../object/) \*) | Locks object. |
 | void [unlock](./unlock/)() | Unlocks object. |
 |  [~LockContext](./~lockcontext/)() | Unlocks object if not locked yet. |
 ## See Also

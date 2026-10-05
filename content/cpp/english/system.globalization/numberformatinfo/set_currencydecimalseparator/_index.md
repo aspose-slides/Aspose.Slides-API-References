@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.globalization/numberformatinfo/set_currencydecimalseparator/
 ---
-## NumberFormatInfo::set_CurrencyDecimalSeparator(const String\&) method
+## NumberFormatInfo::set_CurrencyDecimalSeparator(const String&) method
 
 
 Sets currency decimal separator.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_CurrencyDecimalSeparator(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Currency decimal separator. |
+| value | const [String](../../../system/string/)& | Currency decimal separator. |
 
 ## See Also
 

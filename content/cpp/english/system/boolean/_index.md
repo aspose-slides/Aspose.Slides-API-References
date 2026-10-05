@@ -19,8 +19,8 @@ class Boolean
 
 | Method | Description |
 | --- | --- |
-| static **bool** [Parse](./parse/)(const [String](../string/)\&) | Converts the specified string to a value of bool type. |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, **bool**\&) | Converts the specified string to a value of bool type. |
+| static **bool** [Parse](./parse/)(const [String](../string/)&) | Converts the specified string to a value of bool type. |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, **bool**&) | Converts the specified string to a value of bool type. |
 ## Fields
 
 | Field | Description |

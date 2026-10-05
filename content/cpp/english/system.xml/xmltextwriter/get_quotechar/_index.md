@@ -18,7 +18,7 @@ char16_t System::Xml::XmlTextWriter::get_QuoteChar()
 
 ### Return Value
 
-The character to use to quote attribute values. This must be a single quote **'** or a double quote **\"**. The default is a double quote.
+The character to use to quote attribute values. This must be a single quote **'** or a double quote **"**. The default is a double quote.
 
 ## See Also
 

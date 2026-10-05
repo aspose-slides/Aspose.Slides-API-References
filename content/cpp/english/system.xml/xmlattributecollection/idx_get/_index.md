@@ -26,7 +26,14 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::idx_get(int32_t i)
 
 The attribute at the specified index.
 
-## XmlAttributeCollection::idx_get(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| IndexOutOfRangeException | The index being passed in is out of range. |
+
+
+## XmlAttributeCollection::idx_get(const String&) method
 
 
 Returns the attribute with the specified name.
@@ -40,13 +47,13 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::idx_get(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The qualified name of the attribute. |
+| name | const [String](../../../system/string/)& | The qualified name of the attribute. |
 
 ### Return Value
 
 The attribute with the specified name. If the attribute does not exist, this method returns **nullptr**.
 
-## XmlAttributeCollection::idx_get(const String\&, const String\&) method
+## XmlAttributeCollection::idx_get(const String&, const String&) method
 
 
 Returns the attribute with the specified local name and namespace Uniform Resource Identifier (URI).
@@ -60,8 +67,8 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::idx_get(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute. |
-| namespaceURI | const [String](../../../system/string/)\& | The namespace URI of the attribute. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute. |
+| namespaceURI | const [String](../../../system/string/)& | The namespace URI of the attribute. |
 
 ### Return Value
 

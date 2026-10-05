@@ -1,7 +1,7 @@
 ---
 title: ThisType
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ThisType typedef
 type: docs
 weight: 131
 url: /system.io/stdiostreamwrapperbase/thistype/

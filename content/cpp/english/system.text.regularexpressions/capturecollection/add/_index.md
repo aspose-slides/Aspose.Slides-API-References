@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.text.regularexpressions/capturecollection/add/
 ---
-## CaptureCollection::Add(const CapturePtr\&) method
+## CaptureCollection::Add(const CapturePtr&) method
 
 
 Disables collection ammendment.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::CaptureCollection::Add(const CapturePtr &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [CapturePtr](../../captureptr/)\& | Item to add; ignored. |
+| item | const [CapturePtr](../../captureptr/)& | Item to add; ignored. |
 
 ## See Also
 

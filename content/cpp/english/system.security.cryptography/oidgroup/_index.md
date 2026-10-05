@@ -9,7 +9,7 @@ url: /system.security.cryptography/oidgroup/
 ## OidGroup enum
 
 
-Identifies [Windows](../../system.windows/) OID groups.
+Identifies Windows OID groups.
 
 ```cpp
 enum class OidGroup : int32_t

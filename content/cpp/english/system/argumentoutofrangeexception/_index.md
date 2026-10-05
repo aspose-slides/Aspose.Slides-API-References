@@ -1,7 +1,7 @@
 ---
 title: ArgumentOutOfRangeException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ArgumentOutOfRangeException typedef
 type: docs
 weight: 3940
 url: /system/argumentoutofrangeexception/

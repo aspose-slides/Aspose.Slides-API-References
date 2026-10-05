@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/attribute/getcustomattributes/
 ---
-## Attribute::GetCustomAttributes(const TypeInfo\&) method
+## Attribute::GetCustomAttributes(const TypeInfo&) method
 
 
 Returns all custom attributes appllied to specified type.
@@ -20,7 +20,7 @@ static ArrayPtr<Object::ptr> System::Attribute::GetCustomAttributes(const TypeIn
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | Type attributes of which to retrieved |
+| type | const [TypeInfo](../../typeinfo/)& | Type attributes of which to retrieved |
 
 ### Return Value
 

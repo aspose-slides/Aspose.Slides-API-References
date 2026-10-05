@@ -16,6 +16,13 @@ virtual void Aspose::Slides::IConnector::set_EndShapeConnectedTo(System::SharedP
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when connected shape doesn't has any connection sites ([IShape::get_ConnectionSiteCount](../../ishape/get_connectionsitecount/) equals zero) |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -1,7 +1,7 @@
 ---
 title: get_SerialNumber()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509IssuerSerial::get_SerialNumber() method"
 type: docs
 weight: 27
 url: /system.security.cryptography.xml/x509issuerserial/get_serialnumber/

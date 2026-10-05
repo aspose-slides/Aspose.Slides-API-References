@@ -9,7 +9,7 @@ url: /aspose.slides/isvgimage/get_svgdata/
 ## ISvgImage::get_SvgData() method
 
 
-Returns SVG data. Read-only **uint8_t**[].
+Returns SVG data. Read-only **uint8_t**\[\].
 
 ```cpp
 virtual System::ArrayPtr<uint8_t> Aspose::Slides::ISvgImage::get_SvgData()=0

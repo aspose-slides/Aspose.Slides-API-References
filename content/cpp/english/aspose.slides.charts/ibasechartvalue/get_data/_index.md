@@ -1,7 +1,7 @@
 ---
 title: get_Data()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IBaseChartValue::get_Data() method"
 type: docs
 weight: 27
 url: /aspose.slides.charts/ibasechartvalue/get_data/

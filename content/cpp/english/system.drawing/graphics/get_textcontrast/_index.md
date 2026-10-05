@@ -16,6 +16,13 @@ int32_t System::Drawing::Graphics::get_TextContrast() const
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Graphics](../)

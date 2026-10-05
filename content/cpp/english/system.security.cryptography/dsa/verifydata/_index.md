@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.security.cryptography/dsa/verifydata/
 ---
-## DSA::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## DSA::VerifyData(const ByteArrayPtr&, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -20,11 +20,11 @@ bool System::Security::Cryptography::DSA::VerifyData(const ByteArrayPtr &data, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## DSA::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## DSA::VerifyData(const ByteArrayPtr&, int32_t, int32_t, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -38,13 +38,13 @@ bool System::Security::Cryptography::DSA::VerifyData(const ByteArrayPtr &data, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to hash. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## DSA::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## DSA::VerifyData(const StreamPtr&, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -58,9 +58,9 @@ bool System::Security::Cryptography::DSA::VerifyData(const StreamPtr &stream, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
 ## See Also
 

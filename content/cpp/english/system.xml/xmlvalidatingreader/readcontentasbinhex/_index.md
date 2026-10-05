@@ -28,6 +28,16 @@ int32_t System::Xml::XmlValidatingReader::ReadContentAsBinHex(ArrayPtr<uint8_t> 
 
 The number of bytes written to the buffer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **buffer** value is **nullptr**. |
+| InvalidOperationException | The call is not supported on the current node. |
+| ArgumentOutOfRangeException | The index into the buffer or index + count is larger than the allocated buffer size. |
+| NotSupportedException | The [XmlValidatingReader](../) implementation does not support this method. |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

@@ -1,7 +1,7 @@
 ---
 title: get_Gainsboro()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDCDCDC.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDCDCDC."
 type: docs
 weight: 612
 url: /system.drawing/pens/get_gainsboro/

@@ -6,7 +6,7 @@ type: docs
 weight: 2432
 url: /system/get/
 ---
-## System::Get(const SharedPtr\<Object\>\&) function
+## System::Get(const SharedPtr\<Object\>&) function
 
 
 Function to get N-th element of tuple given. Overload for base object.
@@ -26,13 +26,13 @@ template<std::size_t> auto System::Get(const SharedPtr<Object> &object)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\& | object to inspect. |
+| object | const [SharedPtr](../sharedptr/)\<[Object](../object/)\>& | object to inspect. |
 
 ### Return Value
 
 value of N-th tuple element casted to object.
 
-## System::Get(const T\&) function
+## System::Get(const T&) function
 
 
 Function to get N-th element of tuple given. Overload for objects with Deconstruct method.
@@ -53,13 +53,13 @@ template<std::size_t,typename T> auto System::Get(const T &object)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | const T\& | object to inspect. |
+| object | const T& | object to inspect. |
 
 ### Return Value
 
 value of N-th tuple element.
 
-## System::Get(const SharedPtr\<T\>\&) function
+## System::Get(const SharedPtr\<T\>&) function
 
 
 Function to get N-th element of tuple given. Overload for shared pointers.
@@ -80,16 +80,16 @@ template<std::size_t,typename T> auto System::Get(const SharedPtr<T> &pointer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | const [SharedPtr](../sharedptr/)\<T\>\& | object to inspect. |
+| object | const [SharedPtr](../sharedptr/)\<T\>& | object to inspect. |
 
 ### Return Value
 
 value of N-th tuple element.
 
-## System::Get(T\&, const Index\&) function
+## System::Get(T&, const Index&) function
 
 
-Implementation for collection[index] expressions.
+Implementation for collection\[index\] expressions.
 
 ```cpp
 template<typename T> auto & System::Get(T &collection, const Index &index)
@@ -106,14 +106,14 @@ template<typename T> auto & System::Get(T &collection, const Index &index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | T\& | Collection object. |
-| index | const [Index](../index/)\& | Element index of type [System.Index](../index/). |
+| collection | T& | Collection object. |
+| index | const [Index](../index/)& | Element index of type [System.Index](../index/). |
 
 ### Return Value
 
 Collection element at the calculated offset.
 
-## System::Get(T\&, const Range\&) function
+## System::Get(T&, const Range&) function
 
 
 Returns a slice of the specified collection defined by the provided range.
@@ -127,14 +127,14 @@ template<typename T> auto System::Get(T &collection, const Range &range)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | T\& | The collection to slice. |
-| range | const [Range](../range/)\& | The range specifying the slice boundaries. |
+| collection | T& | The collection to slice. |
+| range | const [Range](../range/)& | The range specifying the slice boundaries. |
 
 ### Return Value
 
 A view or slice of the collection from the computed start offset and length.
 
-## System::Get(const ValueTuple\<Args...\>\&) function
+## System::Get(const ValueTuple\<Args...\>&) function
 
 
 Gets N-th element of value tuple.
@@ -155,7 +155,7 @@ template<std::size_t,typename...> auto System::Get(const ValueTuple<Args...> &tu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tuple | const [ValueTuple](../valuetuple/)\<Args...\>\& | tuple to get element from. |
+| tuple | const [ValueTuple](../valuetuple/)\<Args...\>& | tuple to get element from. |
 
 ### Return Value
 

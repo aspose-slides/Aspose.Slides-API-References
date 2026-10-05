@@ -1,12 +1,12 @@
 ---
 title: get_IsReadOnly()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HttpHeaderValueCollection< System::String >::get_IsReadOnly() method"
 type: docs
 weight: 14
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/get_isreadonly/
 ---
-## HttpHeaderValueCollection< System::String >::get_IsReadOnly() method
+## HttpHeaderValueCollection\< System::String \>::get_IsReadOnly() method
 
 
 
@@ -17,6 +17,6 @@ bool System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::get_
 
 ## See Also
 
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

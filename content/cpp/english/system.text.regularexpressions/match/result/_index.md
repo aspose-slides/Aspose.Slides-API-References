@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.text.regularexpressions/match/result/
 ---
-## Match::Result(const String\&) method
+## Match::Result(const String&) method
 
 
 Formats string by replacing submatch references with their values.
@@ -20,7 +20,7 @@ virtual String System::Text::RegularExpressions::Match::Result(const String &rep
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| replacement | const [String](../../../system/string/)\& | Format string with '$?'-styled substitutions. |
+| replacement | const [String](../../../system/string/)& | Format string with '$?'-styled substitutions. |
 
 ### Return Value
 

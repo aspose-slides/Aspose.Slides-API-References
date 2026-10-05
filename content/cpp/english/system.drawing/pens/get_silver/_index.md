@@ -1,7 +1,7 @@
 ---
 title: get_Silver()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFC0C0C0.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFC0C0C0."
 type: docs
 weight: 1600
 url: /system.drawing/pens/get_silver/

@@ -1,12 +1,12 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "MulticastDelegate< ReturnType(ArgumentTypes...)>::Equals() method"
 type: docs
 weight: 105
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/equals/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::Equals(const MulticastDelegate\&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::Equals(const MulticastDelegate&) method
 
 
 
@@ -18,6 +18,6 @@ bool System::MulticastDelegate<ReturnType(ArgumentTypes...)>::Equals(const Multi
 ## See Also
 
 * Method [MulticastDelegate](../multicastdelegate/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

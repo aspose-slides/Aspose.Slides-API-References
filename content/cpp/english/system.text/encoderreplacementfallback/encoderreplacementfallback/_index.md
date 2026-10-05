@@ -1,7 +1,7 @@
 ---
 title: EncoderReplacementFallback()
 second_title: Aspose.Slides for C++ API Reference
-description: Constructor that uses deafault \"?\" replacement string.
+description: "Constructor that uses deafault \"?\" replacement string."
 type: docs
 weight: 1
 url: /system.text/encoderreplacementfallback/encoderreplacementfallback/
@@ -9,13 +9,13 @@ url: /system.text/encoderreplacementfallback/encoderreplacementfallback/
 ## EncoderReplacementFallback::EncoderReplacementFallback() constructor
 
 
-Constructor that uses deafault \"?\" replacement string.
+Constructor that uses deafault "?" replacement string.
 
 ```cpp
 System::Text::EncoderReplacementFallback::EncoderReplacementFallback()
 ```
 
-## EncoderReplacementFallback::EncoderReplacementFallback(const String\&) constructor
+## EncoderReplacementFallback::EncoderReplacementFallback(const String&) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Text::EncoderReplacementFallback::EncoderReplacementFallback(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| replacement_ | const [String](../../../system/string/)\& | Replacement string. |
+| replacement_ | const [String](../../../system/string/)& | Replacement string. |
 
 ## See Also
 

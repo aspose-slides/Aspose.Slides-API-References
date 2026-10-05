@@ -1,12 +1,12 @@
 ---
 title: TaskAwaiter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TaskAwaiter::TaskAwaiter() constructor"
 type: docs
 weight: 1
 url: /system.runtime.compilerservices/taskawaiter/taskawaiter/
 ---
-## TaskAwaiter::TaskAwaiter(const TaskPtr\&) constructor
+## TaskAwaiter::TaskAwaiter(const TaskPtr&) constructor
 
 
 

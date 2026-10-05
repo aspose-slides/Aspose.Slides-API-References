@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography/ecdsa/importparameters/
 ---
-## ECDsa::ImportParameters(const ECParameters\&) method
+## ECDsa::ImportParameters(const ECParameters&) method
 
 
 Imports all parameters from data structure.
@@ -20,7 +20,7 @@ virtual void System::Security::Cryptography::ECDsa::ImportParameters(const ECPar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [ECParameters](../../ecparameters/)\& | Structure to import parameters from. |
+| parameters | const [ECParameters](../../ecparameters/)& | Structure to import parameters from. |
 
 ## See Also
 

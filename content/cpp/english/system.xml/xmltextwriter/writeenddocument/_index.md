@@ -16,6 +16,13 @@ void System::Xml::XmlTextWriter::WriteEndDocument() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The XML document is invalid. |
+
+
 ## See Also
 
 * Class [XmlTextWriter](../)

@@ -1,7 +1,7 @@
 ---
 title: get_DarkViolet()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF9400D3.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF9400D3."
 type: docs
 weight: 768
 url: /system.drawing/color/get_darkviolet/

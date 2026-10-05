@@ -16,6 +16,13 @@ Drawing2D::PenType System::Drawing::Pen::get_PenType() const
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [PenType](../../../system.drawing.drawing2d/pentype/)

@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TimeZoneInfo::Equals() method"
 type: docs
 weight: 365
 url: /system/timezoneinfo/equals/

@@ -1,7 +1,7 @@
 ---
 title: XmlDsigSHA384Url
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigSHA384Url field
 type: docs
 weight: 378
 url: /system.security.cryptography.xml/signedxml/xmldsigsha384url/

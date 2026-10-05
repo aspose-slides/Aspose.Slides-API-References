@@ -1,12 +1,12 @@
 ---
 title: EnumerableSelectAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumerableSelectAdapter::EnumerableSelectAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumerableselectadapter/enumerableselectadapter/
 ---
-## EnumerableSelectAdapter::EnumerableSelectAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Result\>\&) constructor
+## EnumerableSelectAdapter::EnumerableSelectAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Result\>&) constructor
 
 
 

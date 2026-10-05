@@ -1,7 +1,7 @@
 ---
 title: get_MediumAquamarine()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF66CDAA.
+description: "Returns the solid fill color whose hexadecimal value is #FF66CDAA."
 type: docs
 weight: 1054
 url: /system.drawing/brushes/get_mediumaquamarine/

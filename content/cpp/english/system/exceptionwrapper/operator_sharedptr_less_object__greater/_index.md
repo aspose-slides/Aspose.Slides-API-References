@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /system/exceptionwrapper/operator_sharedptr_less_object__greater/
 ---
-## ExceptionWrapper::operator SharedPtr< Object >() method
+## ExceptionWrapper::operator SharedPtr\< Object \>() method
 
 
-Implicit cast operator to SharedPtr<Object>
+Implicit cast operator to SharedPtr\<Object\>
 
 ```cpp
 System::ExceptionWrapper<T>::operator SharedPtr<Object>()

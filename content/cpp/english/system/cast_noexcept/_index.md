@@ -6,7 +6,7 @@ type: docs
 weight: 2523
 url: /system/cast_noexcept/
 ---
-## System::Cast_noexcept(SmartPtr\<TFrom\> const\&) function
+## System::Cast_noexcept(SmartPtr\<TFrom\> const&) function
 
 
 Performs cast on [SmartPtr](../smartptr/) objects.
@@ -27,7 +27,7 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TTo>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 

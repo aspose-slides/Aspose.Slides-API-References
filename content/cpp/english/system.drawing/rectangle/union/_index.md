@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system.drawing/rectangle/union/
 ---
-## Rectangle::Union(const Rectangle\&, const Rectangle\&) method
+## Rectangle::Union(const Rectangle&, const Rectangle&) method
 
 
 Returns a rectangle that is a result of union of the specified rectangles.
@@ -20,8 +20,8 @@ static Rectangle System::Drawing::Rectangle::Union(const Rectangle &a, const Rec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [Rectangle](../)\& | The first rectangle to union |
-| b | const [Rectangle](../)\& | The second rectangle to union |
+| a | const [Rectangle](../)& | The first rectangle to union |
+| b | const [Rectangle](../)& | The second rectangle to union |
 
 ### Return Value
 

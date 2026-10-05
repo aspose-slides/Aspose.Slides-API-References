@@ -1,7 +1,7 @@
 ---
 title: SynchronizationLockException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SynchronizationLockException typedef
 type: docs
 weight: 365
 url: /system.threading/synchronizationlockexception/

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.web/httputility/urlencodeunicode/
 ---
-## HttpUtility::UrlEncodeUnicode(const String\&) method
+## HttpUtility::UrlEncodeUnicode(const String&) method
 
 
 Encodes URI fragment usign Unicode.
@@ -20,7 +20,7 @@ static String System::Web::HttpUtility::UrlEncodeUnicode(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | URI fragment to encode. |
+| str | const [String](../../../system/string/)& | URI fragment to encode. |
 
 ### Return Value
 

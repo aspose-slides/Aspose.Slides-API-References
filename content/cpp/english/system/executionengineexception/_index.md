@@ -1,7 +1,7 @@
 ---
 title: ExecutionEngineException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ExecutionEngineException typedef
 type: docs
 weight: 4161
 url: /system/executionengineexception/

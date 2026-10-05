@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.io/file/getlastwritetimeutc/
 ---
-## File::GetLastWriteTimeUtc(const String\&) method
+## File::GetLastWriteTimeUtc(const String&) method
 
 
 Returns the last write time of the specified entity as UTC time.
@@ -20,7 +20,7 @@ static DateTime System::IO::File::GetLastWriteTimeUtc(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last write time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose last write time to retrieve |
 
 ### Return Value
 

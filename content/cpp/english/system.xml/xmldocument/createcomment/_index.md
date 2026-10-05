@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.xml/xmldocument/createcomment/
 ---
-## XmlDocument::CreateComment(const String\&) method
+## XmlDocument::CreateComment(const String&) method
 
 
 Creates an [XmlComment](../../xmlcomment/) containing the specified data.
@@ -20,7 +20,7 @@ virtual SharedPtr<XmlComment> System::Xml::XmlDocument::CreateComment(const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [String](../../../system/string/)\& | The content of the new [XmlComment](../../xmlcomment/). |
+| data | const [String](../../../system/string/)& | The content of the new [XmlComment](../../xmlcomment/). |
 
 ### Return Value
 

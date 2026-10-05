@@ -1,7 +1,7 @@
 ---
 title: get_RevocationFlag()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainPolicy::get_RevocationFlag() method"
 type: docs
 weight: 27
 url: /system.security.cryptography.x509certificates/x509chainpolicy/get_revocationflag/

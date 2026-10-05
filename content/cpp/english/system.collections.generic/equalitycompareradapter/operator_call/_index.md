@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/equalitycompareradapter/operator_call/
 ---
-## EqualityComparerAdapter::operator()(const T\&, const T\&) const method
+## EqualityComparerAdapter::operator()(const T&, const T&) const method
 
 
 Compares two objects.
@@ -20,8 +20,8 @@ bool System::Collections::Generic::EqualityComparerAdapter<T>::operator()(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const T\& | LHS operand. |
-| y | const T\& | RHS operand. |
+| x | const T& | LHS operand. |
+| y | const T& | RHS operand. |
 
 ### Return Value
 

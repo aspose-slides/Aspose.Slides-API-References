@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.specialized/stringcollection/copyto/
 ---
-## StringCollection::CopyTo(const ArrayPtr\<System::String\>\&, const int32_t) const method
+## StringCollection::CopyTo(const ArrayPtr\<System::String\>&, const int32_t) const method
 
 
 Copy elements to existing arra elements.
@@ -20,7 +20,7 @@ void System::Collections::Specialized::StringCollection::CopyTo(const ArrayPtr<S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>\& | [Array](../../../system/array/) to copy data to. |
+| arr | const [ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>& | [Array](../../../system/array/) to copy data to. |
 | index | const **int32_t** | [Index](../../../system/index/) in destination array to start data copying at. |
 
 ## See Also

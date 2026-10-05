@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.generic/linkedlist/add/
 ---
-## LinkedList::Add(const T\&) method
+## LinkedList::Add(const T&) method
 
 
 Adds **element** to the end of the list.
@@ -20,7 +20,7 @@ void System::Collections::Generic::LinkedList<T>::Add(const T &element) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to add into list. |
+| element | const T& | Element to add into list. |
 
 ## See Also
 

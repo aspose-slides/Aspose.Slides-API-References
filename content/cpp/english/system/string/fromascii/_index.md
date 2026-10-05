@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /system/string/fromascii/
 ---
-## String::FromAscii(const char *) method
+## String::FromAscii(const char \*) method
 
 
 Creates [String](../) from ASCII string.
@@ -20,13 +20,13 @@ static String System::String::FromAscii(const char *asciiStr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asciiStr | const char * | Pointer to null-terminated string encoded using ASCII codepage. |
+| asciiStr | const char \* | Pointer to null-terminated string encoded using ASCII codepage. |
 
 ### Return Value
 
 [String](../) object representing passed string.
 
-## String::FromAscii(const char *, int) method
+## String::FromAscii(const char \*, int) method
 
 
 Creates [String](../) from ASCII string.
@@ -40,14 +40,14 @@ static String System::String::FromAscii(const char *asciiStr, int len)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asciiStr | const char * | Pointer to string encoded using ASCII codepage. |
+| asciiStr | const char \* | Pointer to string encoded using ASCII codepage. |
 | len | int | Number of characters to handle. |
 
 ### Return Value
 
 [String](../) object representing passed string.
 
-## String::FromAscii(const std::string\&) method
+## String::FromAscii(const std::string&) method
 
 
 Creates [String](../) from ASCII string.
@@ -61,7 +61,7 @@ static String System::String::FromAscii(const std::string &asciiStr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asciiStr | const std::string\& | ASCII-encoded string. |
+| asciiStr | const std::string& | ASCII-encoded string. |
 
 ### Return Value
 

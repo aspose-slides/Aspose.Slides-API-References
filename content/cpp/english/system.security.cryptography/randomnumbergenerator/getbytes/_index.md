@@ -74,7 +74,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetBytes(Sys
 | offset | int | Slice beginning index. |
 | count | int | Slice size. |
 
-## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>\&) method
+## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>&) method
 
 
 Fills existing stack array elements with random bytes.
@@ -88,9 +88,9 @@ template<std::size_t> void System::Security::Cryptography::RandomNumberGenerator
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | System::Details::StackArray\<**uint8_t**, N\>\& | Bytes stack array to fill. |
+| bytes | System::Details::StackArray\<**uint8_t**, N\>& | Bytes stack array to fill. |
 
-## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>\&, int, int) method
+## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>&, int, int) method
 
 
 Fills existing stack array slice with random bytes.
@@ -104,7 +104,7 @@ template<std::size_t> void System::Security::Cryptography::RandomNumberGenerator
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | System::Details::StackArray\<**uint8_t**, N\>\& | Bytes stack array to fill slice of. |
+| bytes | System::Details::StackArray\<**uint8_t**, N\>& | Bytes stack array to fill slice of. |
 | offset | int | Slice beginning index. |
 | count | int | Slice size. |
 

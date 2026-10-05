@@ -20,7 +20,7 @@ virtual SharedPtr<XmlNodeList> System::Xml::XmlElement::GetElementsByTagName(Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | [String](../../../system/string/) | The name tag to match. This is a qualified name. It is matched against the **get_Name** value of the matching node. The asterisk (*) is a special value that matches all tags. |
+| name | [String](../../../system/string/) | The name tag to match. This is a qualified name. It is matched against the **get_Name** value of the matching node. The asterisk (\*) is a special value that matches all tags. |
 
 ### Return Value
 
@@ -40,7 +40,7 @@ virtual SharedPtr<XmlNodeList> System::Xml::XmlElement::GetElementsByTagName(Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | [String](../../../system/string/) | The local name to match. The asterisk (*) is a special value that matches all tags. |
+| localName | [String](../../../system/string/) | The local name to match. The asterisk (\*) is a special value that matches all tags. |
 | namespaceURI | [String](../../../system/string/) | The namespace URI to match. |
 
 ### Return Value

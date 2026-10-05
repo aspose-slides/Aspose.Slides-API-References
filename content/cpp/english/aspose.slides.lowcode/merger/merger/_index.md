@@ -1,7 +1,7 @@
 ---
 title: Merger()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Merger::Merger() constructor"
 type: docs
 weight: 14
 url: /aspose.slides.lowcode/merger/merger/

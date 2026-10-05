@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.sockets/udpclient/receive/
 ---
-## UdpClient::Receive(System::SharedPtr\<IPEndPoint\>\&) method
+## UdpClient::Receive(System::SharedPtr\<IPEndPoint\>&) method
 
 
 Returns a datagram sent by a server.
@@ -20,7 +20,7 @@ System::ArrayPtr<uint8_t> System::Net::Sockets::UdpClient::Receive(System::Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>\& | An [IPEndPoint](../../../system.net/ipendpoint/) that represents the remote host from which the data was sent. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>& | An [IPEndPoint](../../../system.net/ipendpoint/) that represents the remote host from which the data was sent. |
 
 ### Return Value
 

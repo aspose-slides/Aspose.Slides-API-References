@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.globalization/compareinfo/indexof/
 ---
-## CompareInfo::IndexOf(const String\&, const String\&, int, int) const method
+## CompareInfo::IndexOf(const String&, const String&, int, int) const method
 
 
 Looks for substring.
@@ -20,8 +20,8 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
 
@@ -29,7 +29,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, const String\&, int, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, const String&, int, CompareOptions) const method
 
 
 Looks for substring. Only Ordinal mode is supported.
@@ -43,8 +43,8 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | options | [CompareOptions](../../compareoptions/) | Lookup options. |
 
@@ -52,7 +52,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, const String\&, int, int, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, const String&, int, int, CompareOptions) const method
 
 
 Looks for substring. Only Ordinal mode is supported.
@@ -66,8 +66,8 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
 | options | [CompareOptions](../../compareoptions/) | Lookup options. |
@@ -76,7 +76,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t, int, int, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, char16_t, int, int, CompareOptions) const method
 
 
 Looks for the specified character. Only Ordinal mode is supported.
@@ -90,7 +90,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
@@ -100,7 +100,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, const String\&, int) const method
+## CompareInfo::IndexOf(const String&, const String&, int) const method
 
 
 Looks for substring.
@@ -114,15 +114,15 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t) const method
+## CompareInfo::IndexOf(const String&, char16_t) const method
 
 
 Looks for the specified character.
@@ -136,14 +136,14 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, const String\&) const method
+## CompareInfo::IndexOf(const String&, const String&) const method
 
 
 Looks for substring.
@@ -157,14 +157,14 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t, int, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, char16_t, int, CompareOptions) const method
 
 
 Looks for the specified character. Only Ordinal mode is supported.
@@ -178,7 +178,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 | start_index | int | Lookup start index in source string. |
 | options | [CompareOptions](../../compareoptions/) | Lookup options. |
@@ -187,7 +187,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t, int, int) const method
+## CompareInfo::IndexOf(const String&, char16_t, int, int) const method
 
 
 Looks for the specified character.
@@ -201,7 +201,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
@@ -210,7 +210,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t, int) const method
+## CompareInfo::IndexOf(const String&, char16_t, int) const method
 
 
 Looks for the specified character.
@@ -224,7 +224,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 | start_index | int | Lookup start index in source string. |
 
@@ -232,7 +232,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, const String\&, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, const String&, CompareOptions) const method
 
 
 Looks for substring. Only Ordinal mode is supported.
@@ -246,15 +246,15 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | options | [CompareOptions](../../compareoptions/) | Lookup options. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::IndexOf(const String\&, char16_t, CompareOptions) const method
+## CompareInfo::IndexOf(const String&, char16_t, CompareOptions) const method
 
 
 Looks for the specified character. Only Ordinal mode is supported.
@@ -268,7 +268,7 @@ virtual int System::Globalization::CompareInfo::IndexOf(const String &source, ch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Character. |
 | options | [CompareOptions](../../compareoptions/) | Lookup options. |
 

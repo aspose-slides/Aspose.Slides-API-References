@@ -1,7 +1,7 @@
 ---
 title: ValueTaskAwaiter
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ValueTaskAwaiter class
 type: docs
 weight: 131
 url: /system.runtime.compilerservices/valuetaskawaiter/
@@ -21,7 +21,7 @@ class ValueTaskAwaiter
 | --- | --- |
 | **bool** [get_IsCompleted](./get_iscompleted/)() const |  |
 | void [GetResult](./getresult/)() const |  |
-| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)<>\&) |  |
+| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)\<\>&) |  |
 |  [ValueTaskAwaiter](./valuetaskawaiter/)([Threading::Tasks::ValueTask](../../system.threading.tasks/valuetask/)) |  |
 ## See Also
 

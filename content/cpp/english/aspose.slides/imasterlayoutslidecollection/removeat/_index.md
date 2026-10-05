@@ -21,6 +21,13 @@ virtual void Aspose::Slides::IMasterLayoutSlideCollection::RemoveAt(int32_t inde
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if layout is used in presentation (its HasDependingSlides property is true). |
+
 ## Remarks
 
 

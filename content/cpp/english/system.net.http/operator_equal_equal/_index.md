@@ -1,7 +1,7 @@
 ---
 title: operator==()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Http::operator==() function"
 type: docs
 weight: 157
 url: /system.net.http/operator_equal_equal/

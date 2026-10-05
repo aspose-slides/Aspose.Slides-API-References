@@ -1,7 +1,7 @@
 ---
 title: ToArray()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ArraySegment::ToArray() method"
 type: docs
 weight: 66
 url: /system/arraysegment/toarray/

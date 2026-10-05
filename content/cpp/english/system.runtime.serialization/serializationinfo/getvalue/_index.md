@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.runtime.serialization/serializationinfo/getvalue/
 ---
-## SerializationInfo::GetValue(const System::String\&, const System::TypeInfo\&) method
+## SerializationInfo::GetValue(const System::String&, const System::TypeInfo&) method
 
 
 Retrieves a value from the [SerializationInfo](../) store. Not implemented.
@@ -20,8 +20,8 @@ System::SharedPtr<System::Object> System::Runtime::Serialization::SerializationI
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [System::String](../../../system/string/)\& | The name associated with the value to retrieve. |
-| type | const [System::TypeInfo](../../../system/typeinfo/)\& | The Type of the value to retrieve. |
+| name | const [System::String](../../../system/string/)& | The name associated with the value to retrieve. |
+| type | const [System::TypeInfo](../../../system/typeinfo/)& | The Type of the value to retrieve. |
 
 ## See Also
 

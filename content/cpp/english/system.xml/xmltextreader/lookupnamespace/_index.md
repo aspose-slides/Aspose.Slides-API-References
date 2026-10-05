@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /system.xml/xmltextreader/lookupnamespace/
 ---
-## XmlTextReader::LookupNamespace(const String\&) method
+## XmlTextReader::LookupNamespace(const String&) method
 
 
 Resolves a namespace prefix in the current element's scope.
@@ -20,11 +20,18 @@ String System::Xml::XmlTextReader::LookupNamespace(const String &prefix) overrid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. This string does not have to be atomized. |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. This string does not have to be atomized. |
 
 ### Return Value
 
 The namespace URI to which the prefix maps or **nullptr** if no matching prefix is found.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlTextReader::get_Namespaces](../get_namespaces/) value is set to **true** and the **prefix** value is **nullptr**. |
+
 
 ## See Also
 

@@ -16,6 +16,13 @@ System::SharedPtr<IShape> Aspose::Slides::Connector::get_StartShapeConnectedTo()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when connected shape doesn't has any connection sites ([IShape::get_ConnectionSiteCount](../../ishape/get_connectionsitecount/) equals zero) |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

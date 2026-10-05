@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system.drawing/graphics/fillrectangle/
 ---
-## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, float, float, float, float) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>&, float, float, float, float) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -20,13 +20,13 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | x | **float** | The X coordinate of the upper left corner of the rectangle to fill |
 | y | **float** | The Y coordinate of the upper left corner of the rectangle to fill |
 | width | **float** | The width of the rectangle to fill |
 | height | **float** | The height of the rectangle to fill |
 
-## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, int, int, int, int) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>&, int, int, int, int) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -40,13 +40,13 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, int
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | x | int | The X coordinate of the upper left corner of the rectangle to fill |
 | y | int | The Y coordinate of the upper left corner of the rectangle to fill |
 | width | int | The width of the rectangle to fill |
 | height | int | The height of the rectangle to fill |
 
-## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, Rectangle) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>&, Rectangle) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -60,10 +60,10 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, Rec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | rect | [Rectangle](../../rectangle/) | A [Rectangle](../../rectangle/) object that specifies the location and size of the rectangle to fill |
 
-## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, RectangleF) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>&, RectangleF) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -77,7 +77,7 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, Rec
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | rect | [RectangleF](../../rectanglef/) | A [RectangleF](../../rectanglef/) object that specifies the location and size of the rectangle to fill |
 
 ## See Also

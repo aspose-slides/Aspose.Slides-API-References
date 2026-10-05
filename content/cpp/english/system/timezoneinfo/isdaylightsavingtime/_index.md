@@ -26,7 +26,7 @@ bool System::TimeZoneInfo::IsDaylightSavingTime(DateTime date_time) const
 
 True if date_time is a daylight saving time.
 
-## TimeZoneInfo::IsDaylightSavingTime(const DateTimeOffset\&) const method
+## TimeZoneInfo::IsDaylightSavingTime(const DateTimeOffset&) const method
 
 
 Checks if specified date and time falls in range of daylight saving time.
@@ -40,7 +40,7 @@ bool System::TimeZoneInfo::IsDaylightSavingTime(const DateTimeOffset &date_time_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)\& | Date and Time. |
+| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)& | Date and Time. |
 
 ### Return Value
 

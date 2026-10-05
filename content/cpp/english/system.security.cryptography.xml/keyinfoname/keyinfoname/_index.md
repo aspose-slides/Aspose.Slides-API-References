@@ -1,7 +1,7 @@
 ---
 title: KeyInfoName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoName::KeyInfoName() constructor"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/keyinfoname/keyinfoname/

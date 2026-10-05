@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/console/set_title/
 ---
-## Console::set_Title(const String\&) method
+## Console::set_Title(const String&) method
 
 
 Sets console window caption.

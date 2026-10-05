@@ -19,13 +19,13 @@ template<typename Elem,typename Traits>class BasicSystemIStreamWrapper : public 
 
 | Method | Description |
 | --- | --- |
-| void [AssignRV](./assignrv/)([BasicSystemIStreamWrapper](./)\&&) | Used in move constructor and move assignment operator to reset pointers and call [swap()](./swap/). |
+| void [AssignRV](./assignrv/)([BasicSystemIStreamWrapper](./)&&) | Used in move constructor and move assignment operator to reset pointers and call [swap()](./swap/). |
 |  [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/)([SharedPtr](../../system/sharedptr/)\<[Stream](../stream/)\>, [SystemIOStreamWrappingMode](../systemiostreamwrappingmode/)) | Constructs a new instance of the [BasicSystemIStreamWrapper](./). |
-|  [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/)(const [BasicSystemIStreamWrapper](./)\&) | Copy constructor. Deleted. |
-|  [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/)([BasicSystemIStreamWrapper](./)\&&) | Move constructor. |
-| [BasicSystemIStreamWrapper](./)\& [operator=](./operator_equal/)(const [BasicSystemIStreamWrapper](./)\&) | Copy assignment operator. Deleted. |
-| [BasicSystemIStreamWrapper](./)\& [operator=](./operator_equal/)([BasicSystemIStreamWrapper](./)\&&) | Move assignment operator. |
-| void [swap](./swap/)([BasicSystemIStreamWrapper](./)\&) | Call to swap *this and **right**, if they are not equal. |
+|  [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/)(const [BasicSystemIStreamWrapper](./)&) | Copy constructor. Deleted. |
+|  [BasicSystemIStreamWrapper](./basicsystemistreamwrapper/)([BasicSystemIStreamWrapper](./)&&) | Move constructor. |
+| [BasicSystemIStreamWrapper](./)& [operator=](./operator_equal/)(const [BasicSystemIStreamWrapper](./)&) | Copy assignment operator. Deleted. |
+| [BasicSystemIStreamWrapper](./)& [operator=](./operator_equal/)([BasicSystemIStreamWrapper](./)&&) | Move assignment operator. |
+| void [swap](./swap/)([BasicSystemIStreamWrapper](./)&) | Call to swap \*this and **right**, if they are not equal. |
 ## Typedefs
 
 | Typedef | Description |

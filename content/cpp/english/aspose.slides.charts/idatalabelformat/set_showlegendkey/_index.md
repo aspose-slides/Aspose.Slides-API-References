@@ -18,7 +18,7 @@ virtual void Aspose::Slides::Charts::IDataLabelFormat::set_ShowLegendKey(bool va
 ## Remarks
 
 
-If parent of this [DataLabelFormat](../../datalabelformat/) object is a [DataLabelCollection](../../datalabelcollection/) collection of data labels then this property gets or sets the default value of the ShowLegendKey property for the new data labels in the [DataLabelCollection](../../datalabelcollection/) collection. Set this property with value also sets this value to the ShowLegendKey property for all data labels in the [DataLabelCollection](../../datalabelcollection/) collection (i.e. \"DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;\" cause to all DataLabels[i].ShowLegendKey is equal to val). 
+If parent of this [DataLabelFormat](../../datalabelformat/) object is a [DataLabelCollection](../../datalabelcollection/) collection of data labels then this property gets or sets the default value of the ShowLegendKey property for the new data labels in the [DataLabelCollection](../../datalabelcollection/) collection. Set this property with value also sets this value to the ShowLegendKey property for all data labels in the [DataLabelCollection](../../datalabelcollection/) collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" cause to all DataLabels\[i\].ShowLegendKey is equal to val). 
 
 
 

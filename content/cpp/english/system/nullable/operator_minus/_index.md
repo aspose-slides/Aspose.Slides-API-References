@@ -26,7 +26,7 @@ template<typename T1,typename> Nullable<T> System::Nullable<T>::operator-(T1) co
 
 Empty [Nullable](../) object.
 
-## Nullable::operator-(const T1\&) const method
+## Nullable::operator-(const T1&) const method
 
 
 Subtracts nullable and non-nullable values.
@@ -46,13 +46,13 @@ template<typename T1,typename> auto System::Nullable<T>::operator-(const T1 &oth
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const T1\& | value to subtract. |
+| other | const T1& | value to subtract. |
 
 ### Return Value
 
 Subtraction result.
 
-## Nullable::operator-(const Nullable\<T1\>\&) const method
+## Nullable::operator-(const Nullable\<T1\>&) const method
 
 
 Subtracts nullable values.
@@ -72,7 +72,7 @@ template<typename T1> auto System::Nullable<T>::operator-(const Nullable<T1> &ot
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Nullable](../)\<T1\>\& | value to subtract. |
+| other | const [Nullable](../)\<T1\>& | value to subtract. |
 
 ### Return Value
 

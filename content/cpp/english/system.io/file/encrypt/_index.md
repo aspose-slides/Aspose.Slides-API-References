@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.io/file/encrypt/
 ---
-## File::Encrypt(const String\&) method
+## File::Encrypt(const String&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 static void System::IO::File::Encrypt(const String &path)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

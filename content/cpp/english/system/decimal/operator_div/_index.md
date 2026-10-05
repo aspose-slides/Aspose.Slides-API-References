@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system/decimal/operator_div/
 ---
-## Decimal::operator/(const Decimal\&) const method
+## Decimal::operator/(const Decimal&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is a result of division of the value represented by the current object by the value represented by the specified object.
@@ -20,7 +20,7 @@ Decimal System::Decimal::operator/(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object representing the divisor |
+| d | const [Decimal](../)& | The [Decimal](../) object representing the divisor |
 
 ### Return Value
 

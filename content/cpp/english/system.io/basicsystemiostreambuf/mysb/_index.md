@@ -1,7 +1,7 @@
 ---
 title: Mysb
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Mysb typedef
 type: docs
 weight: 92
 url: /system.io/basicsystemiostreambuf/mysb/

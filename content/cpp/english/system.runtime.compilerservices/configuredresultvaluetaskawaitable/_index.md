@@ -1,7 +1,7 @@
 ---
 title: ConfiguredResultValueTaskAwaitable
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ConfiguredResultValueTaskAwaitable class
 type: docs
 weight: 14
 url: /system.runtime.compilerservices/configuredresultvaluetaskawaitable/
@@ -19,7 +19,7 @@ template<typename T>class ConfiguredResultValueTaskAwaitable
 
 | Method | Description |
 | --- | --- |
-|  [ConfiguredResultValueTaskAwaitable](./configuredresultvaluetaskawaitable/)(const [Threading::Tasks::ResultValueTask](../../system.threading.tasks/resultvaluetask/)\<T\>\&, **bool**) |  |
+|  [ConfiguredResultValueTaskAwaitable](./configuredresultvaluetaskawaitable/)(const [Threading::Tasks::ResultValueTask](../../system.threading.tasks/resultvaluetask/)\<T\>&, **bool**) |  |
 | [Runtime::CompilerServices::ResultTaskAwaiter](../resulttaskawaiter/)\<T\> [GetAwaiter](./getawaiter/)() const |  |
 ## See Also
 

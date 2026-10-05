@@ -20,7 +20,7 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create()
 
 ECDSA algorithm object.
 
-## ECDsa::Create(const ECCurve\&) method
+## ECDsa::Create(const ECCurve&) method
 
 
 Creates default ECDSA aglorithm implementation with newly created key over the specified curve.
@@ -34,13 +34,13 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create(const ECCu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curve | const [ECCurve](../../eccurve/)\& | Curve to use for key creation. |
+| curve | const [ECCurve](../../eccurve/)& | Curve to use for key creation. |
 
 ### Return Value
 
 ECDSA algorithm object.
 
-## ECDsa::Create(const ECParameters\&) method
+## ECDsa::Create(const ECParameters&) method
 
 
 Creates default ECDSA aglorithm implementation using the specified parameters.
@@ -54,13 +54,13 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create(const ECPa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [ECParameters](../../ecparameters/)\& | Parameters representing the key. |
+| parameters | const [ECParameters](../../ecparameters/)& | Parameters representing the key. |
 
 ### Return Value
 
 ECDSA algorithm object.
 
-## ECDsa::Create(const String\&) method
+## ECDsa::Create(const String&) method
 
 
 Creates specified ECDSA aglorithm implementation.
@@ -74,7 +74,7 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create(const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algorithm | const [String](../../../system/string/)\& | Algorithm name. |
+| algorithm | const [String](../../../system/string/)& | Algorithm name. |
 
 ### Return Value
 

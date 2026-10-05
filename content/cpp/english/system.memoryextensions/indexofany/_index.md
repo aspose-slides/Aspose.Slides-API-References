@@ -6,10 +6,10 @@ type: docs
 weight: 170
 url: /system.memoryextensions/indexofany/
 ---
-## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
-Finds the index of the first occurrence of any of two specified values in a ReadOnlySpan<T>
+Finds the index of the first occurrence of any of two specified values in a ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnlySpan<T> &span, const T &value0, const T &value1)
@@ -26,18 +26,18 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnly
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 The zero-based index of the first occurrence, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
-Finds the index of the first occurrence of any of three specified values in a ReadOnlySpan<T>
+Finds the index of the first occurrence of any of three specified values in a ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnlySpan<T> &span, const T &value0, const T &value1, const T &value2)
@@ -54,19 +54,19 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnly
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 The zero-based index of the first occurrence, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAny(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAny(const Span\<T\>&, const T&, const T&) function
 
 
-Finds the index of the first occurrence of any of two specified values in a Span<T>
+Finds the index of the first occurrence of any of two specified values in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> &span, const T &value0, const T &value1)
@@ -83,18 +83,18 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
 
 ### Return Value
 
 The zero-based index of the first occurrence, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAny(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAny(const Span\<T\>&, const T&, const T&, const T&) function
 
 
-Finds the index of the first occurrence of any of three specified values in a Span<T>
+Finds the index of the first occurrence of any of three specified values in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> &span, const T &value0, const T &value1, const T &value2)
@@ -111,19 +111,19 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to search for |
-| value1 | const T\& | The second value to search for |
-| value2 | const T\& | The third value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to search for |
+| value1 | const T& | The second value to search for |
+| value2 | const T& | The third value to search for |
 
 ### Return Value
 
 The zero-based index of the first occurrence, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
-Finds the index of the first occurrence of any value from a span in another ReadOnlySpan<T>
+Finds the index of the first occurrence of any value from a span in another ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnlySpan<T> &span, const ReadOnlySpan<T> &values)
@@ -140,17 +140,17 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const ReadOnly
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span containing values to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span containing values to search for |
 
 ### Return Value
 
 The zero-based index of the first occurrence, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAny(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::IndexOfAny(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
-Finds the index of the first occurrence of any value from a span in a Span<T>
+Finds the index of the first occurrence of any value from a span in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> &span, const ReadOnlySpan<T> &values)
@@ -167,8 +167,8 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAny(const Span<T> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span containing values to search for |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span containing values to search for |
 
 ### Return Value
 

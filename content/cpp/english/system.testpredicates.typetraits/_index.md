@@ -1,7 +1,7 @@
 ---
 title: "System::TestPredicates::TypeTraits"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::TestPredicates::TypeTraits namespace"
 type: docs
 weight: 976
 url: /system.testpredicates.typetraits/
@@ -14,7 +14,7 @@ url: /system.testpredicates.typetraits/
 | Struct | Description |
 | --- | --- |
 | [has_data_method](./has_data_method/) | Checks if a type has data() method. If it does, inherits std::true_type, otherwise inherits std::false_type. |
-| [has_data_method< System::Collections::BitArray, void >](./has_data_method_tmpl_system_collections_bitarray__void__end_tmpl/) | Specialization for BitArray type which provides boost type which is inaccessible there. |
+| [has_data_method\< System::Collections::BitArray, void \>](./has_data_method_tmpl_system_collections_bitarray__void__end_tmpl/) | Specialization for BitArray type which provides boost type which is inaccessible there. |
 | [has_print_to_method](./has_print_to_method/) | Checks for overload of PrintTo function that accepts given type as first argument. If an overload exists, inherits std::true_type, otherwise inheirts std::false_type. |
 | [IsCppContainer](./iscppcontainer/) | Checks if specific type is STL-style container. To do so, checks for iterator and const_iterator member types existance. If both exist, inherits std::true_type, otherwise inherits std::false_type. |
 | [IsEnumerable](./isenumerable/) | Checks if type has [System::Collections::Generic::IEnumerable](../system.collections.generic/ienumerable/) specialization as basetype. If so, value member is set to true, otherwise it is set to false. |

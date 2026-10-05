@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.threading/cancellationtoken/register/
 ---
-## CancellationToken::Register(const Action<>\&) const method
+## CancellationToken::Register(const Action\<\>&) const method
 
 
 Registers a callback that will be invoked when cancellation is requested.
@@ -20,7 +20,7 @@ CancellationTokenRegistration System::Threading::CancellationToken::Register(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| callback | const [Action](../../../system/action/)<>\& | The Action<> to execute when cancellation is requested. |
+| callback | const [Action](../../../system/action/)\<\>& | The Action\<\> to execute when cancellation is requested. |
 
 ### Return Value
 

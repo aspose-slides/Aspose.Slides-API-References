@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system/array/insert/
 ---
-## Array::Insert(int, const T\&) method
+## Array::Insert(int, const T&) method
 
 
 Not supported because array represented by the current object is read-only.
@@ -14,6 +14,13 @@ Not supported because array represented by the current object is read-only.
 ```cpp
 virtual void System::Array<T>::Insert(int, const T &) override
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | always |
 
 
 ## See Also

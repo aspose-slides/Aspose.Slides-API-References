@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.net.http.headers/httpheaders/trygetvalues/
 ---
-## HttpHeaders::TryGetValues(String, System::SharedPtr\<Collections::Generic::IEnumerable\<String\>\>\&) method
+## HttpHeaders::TryGetValues(String, System::SharedPtr\<Collections::Generic::IEnumerable\<String\>\>&) method
 
 
 Tries to get corresponding values by the specified name.
@@ -21,7 +21,7 @@ bool System::Net::Http::Headers::HttpHeaders::TryGetValues(String name, System::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The header name. |
-| values | [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>\& | An instance where corresponding values will be assigned. |
+| values | [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>& | An instance where corresponding values will be assigned. |
 
 ### Return Value
 

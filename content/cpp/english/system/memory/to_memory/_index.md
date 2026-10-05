@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/memory/to_memory/
 ---
-## Memory::to_Memory(const ArrayPtr\<T\>\&) method
+## Memory::to_Memory(const ArrayPtr\<T\>&) method
 
 
 Creates a [Memory](../) instance from the specified array.
@@ -20,7 +20,7 @@ static Memory System::Memory<T>::to_Memory(const ArrayPtr<T> &array)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [ArrayPtr](../../arrayptr/)\<T\>\& | The source array. |
+| array | const [ArrayPtr](../../arrayptr/)\<T\>& | The source array. |
 
 ### Return Value
 

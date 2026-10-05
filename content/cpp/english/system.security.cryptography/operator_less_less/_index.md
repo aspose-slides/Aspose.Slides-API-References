@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /system.security.cryptography/operator_less_less/
 ---
-## System::Security::Cryptography::operator<<(std::ostream\&, const HashAlgorithmName\&) function
+## System::Security::Cryptography::operator\<\<(std::ostream&, const HashAlgorithmName&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -20,14 +20,14 @@ std::ostream & System::Security::Cryptography::operator<<(std::ostream &stream, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| name | const [HashAlgorithmName](../hashalgorithmname/)\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| name | const [HashAlgorithmName](../hashalgorithmname/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Security::Cryptography::operator<<(std::wostream\&, const HashAlgorithmName\&) function
+## System::Security::Cryptography::operator\<\<(std::wostream&, const HashAlgorithmName&) function
 
 
 Insert data into the stream.
@@ -41,8 +41,8 @@ std::wostream & System::Security::Cryptography::operator<<(std::wostream &stream
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| name | const [HashAlgorithmName](../hashalgorithmname/)\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| name | const [HashAlgorithmName](../hashalgorithmname/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 

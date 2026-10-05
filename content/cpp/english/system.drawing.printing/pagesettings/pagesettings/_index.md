@@ -15,7 +15,7 @@ Constructs a new instance of [PageSettings](../) class.
 System::Drawing::Printing::PageSettings::PageSettings()
 ```
 
-## PageSettings::PageSettings(const SharedPtr\<PrinterSettings\>\&) constructor
+## PageSettings::PageSettings(const SharedPtr\<PrinterSettings\>&) constructor
 
 
 Constructs a new instance of [PageSettings](../) class.

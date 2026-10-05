@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /system/datetime/operator_less/
 ---
-## DateTime::operator<(DateTime) const method
+## DateTime::operator\<(DateTime) const method
 
 
 Determines if the current object represents the date and time value that is earlier than the value represented by the specified [DateTime](../) object.
@@ -26,7 +26,7 @@ constexpr bool System::DateTime::operator<(DateTime other) const
 
 True if the date and time value represented by the current object is earlier than the value represented by **other**, otherwise - false
 
-## DateTime::operator<(std::nullptr_t) const method
+## DateTime::operator\<(std::nullptr_t) const method
 
 
 

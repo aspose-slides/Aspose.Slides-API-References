@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.collections.generic/ienumerable/linq_selectmany/
 ---
-## IEnumerable::LINQ_SelectMany(const Func\<T, SharedPtr\<IEnumerable\<ResultType\>\>\>\&) method
+## IEnumerable::LINQ_SelectMany(const Func\<T, SharedPtr\<IEnumerable\<ResultType\>\>\>&) method
 
 
 Projects each element of a sequence and combines the resulting sequences into one sequence.
@@ -26,13 +26,13 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../)\<ResultType\>\>\>\& | A transform function. |
+| selector | const [Func](../../../system/func/)\<T, [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../)\<ResultType\>\>\>& | A transform function. |
 
 ### Return Value
 
 An [IEnumerable](../) that contains the result of invoking a one-to-many projection function on each element of the input sequence.
 
-## IEnumerable::LINQ_SelectMany(const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>\&) method
+## IEnumerable::LINQ_SelectMany(const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>&) method
 
 
 

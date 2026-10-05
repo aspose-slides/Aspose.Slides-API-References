@@ -1,7 +1,7 @@
 ---
 title: set_Id()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "DataObject::set_Id() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/dataobject/set_id/

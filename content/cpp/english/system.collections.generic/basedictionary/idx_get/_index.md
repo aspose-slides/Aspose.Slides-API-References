@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.collections.generic/basedictionary/idx_get/
 ---
-## BaseDictionary::idx_get(const key_t\&) const method
+## BaseDictionary::idx_get(const key_t&) const method
 
 
 Keyed getter function.
@@ -20,11 +20,18 @@ mapped_t System::Collections::Generic::BaseDictionary<Map>::idx_get(const key_t 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to get value at. |
+| key | const key_t& | Key to get value at. |
 
 ### Return Value
 
 Copy of element at **key** position.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| KeyNotFoundException | if element is not found. |
+
 
 ## See Also
 

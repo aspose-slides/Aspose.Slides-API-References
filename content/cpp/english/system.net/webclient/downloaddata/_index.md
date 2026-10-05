@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.net/webclient/downloaddata/
 ---
-## WebClient::DownloadData(const String\&) const method
+## WebClient::DownloadData(const String&) const method
 
 
 Downloads the specified resource as a byte array.
@@ -20,13 +20,13 @@ ByteArrayPtr System::Net::WebClient::DownloadData(const String &address) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | const [String](../../../system/string/)\& | The resource's URI. |
+| address | const [String](../../../system/string/)& | The resource's URI. |
 
 ### Return Value
 
 The byte array that contains the requested resource.
 
-## WebClient::DownloadData(const SharedPtr\<Uri\>\&) const method
+## WebClient::DownloadData(const SharedPtr\<Uri\>&) const method
 
 
 Downloads the specified resource as a byte array.
@@ -40,7 +40,7 @@ ByteArrayPtr System::Net::WebClient::DownloadData(const SharedPtr<Uri> &address)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| address | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The resource's URI. |
+| address | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The resource's URI. |
 
 ### Return Value
 

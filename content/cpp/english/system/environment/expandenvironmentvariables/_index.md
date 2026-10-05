@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system/environment/expandenvironmentvariables/
 ---
-## Environment::ExpandEnvironmentVariables(const String\&) method
+## Environment::ExpandEnvironmentVariables(const String&) method
 
 
 Replaces the names of environment variables found in the specified string with the values of those variables and returns the resulting string.
@@ -20,7 +20,7 @@ static String System::Environment::ExpandEnvironmentVariables(const String &name
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | The string containing the names of environment varibles |
+| name | const [String](../../string/)& | The string containing the names of environment varibles |
 
 ### Return Value
 

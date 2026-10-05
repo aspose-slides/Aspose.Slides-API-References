@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.security.cryptography/asnencodeddata/set_rawdata/
 ---
-## AsnEncodedData::set_RawData(const ByteArrayPtr\&) method
+## AsnEncodedData::set_RawData(const ByteArrayPtr&) method
 
 
 Sets raw encoded data.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::AsnEncodedData::set_RawData(const ByteArray
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data array in byte format. |
+| value | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Encoded data array in byte format. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: get_Aquamarine()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF7FFFD4.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF7FFFD4."
 type: docs
 weight: 53
 url: /system.drawing/pens/get_aquamarine/

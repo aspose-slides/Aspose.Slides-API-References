@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.security.cryptography.x509certificates/x509extension/copyfrom/
 ---
-## X509Extension::CopyFrom(const SharedPtr\<AsnEncodedData\>\&) method
+## X509Extension::CopyFrom(const SharedPtr\<AsnEncodedData\>&) method
 
 
 Copies extension data from other object.
@@ -20,7 +20,7 @@ virtual void System::Security::Cryptography::X509Certificates::X509Extension::Co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | [Object](../../../system/object/) to copy data from. |
+| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>& | [Object](../../../system/object/) to copy data from. |
 
 ## See Also
 

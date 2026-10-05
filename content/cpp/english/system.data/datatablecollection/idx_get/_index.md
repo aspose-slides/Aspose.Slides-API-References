@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.data/datatablecollection/idx_get/
 ---
-## DataTableCollection::idx_get(const System::String\&) method
+## DataTableCollection::idx_get(const System::String&) method
 
 
 RTTI information.
@@ -20,7 +20,7 @@ System::SharedPtr<DataTable> System::Data::DataTableCollection::idx_get(const Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [System::String](../../../system/string/)\& | Table name. |
+| name | const [System::String](../../../system/string/)& | Table name. |
 
 ### Return Value
 

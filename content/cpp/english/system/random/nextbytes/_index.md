@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/random/nextbytes/
 ---
-## Random::NextBytes(const ArrayPtr\<uint8_t\>\&) method
+## Random::NextBytes(const ArrayPtr\<uint8_t\>&) method
 
 
 Fills the elements of the specified array of bytes with random numbers.
@@ -20,7 +20,7 @@ virtual void System::Random::NextBytes(const ArrayPtr<uint8_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | The array to fill |
+| buffer | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | The array to fill |
 
 ## See Also
 

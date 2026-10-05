@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.specialized/stringcollection/addrange/
 ---
-## StringCollection::AddRange(const ArrayPtr\<System::String\>\&) method
+## StringCollection::AddRange(const ArrayPtr\<System::String\>&) method
 
 
 Add elements into container.
@@ -20,7 +20,7 @@ void System::Collections::Specialized::StringCollection::AddRange(const ArrayPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| range | const [ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>\& | Container of elements to insert. |
+| range | const [ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>& | Container of elements to insert. |
 
 ## See Also
 

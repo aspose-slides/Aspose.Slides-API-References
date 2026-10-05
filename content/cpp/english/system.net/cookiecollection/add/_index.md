@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.net/cookiecollection/add/
 ---
-## CookieCollection::Add(const System::SharedPtr\<Cookie\>\&) method
+## CookieCollection::Add(const System::SharedPtr\<Cookie\>&) method
 
 
 Adds a cookie to the collection.
@@ -20,7 +20,7 @@ void System::Net::CookieCollection::Add(const System::SharedPtr<Cookie> &cookie)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\& | The cookie to add. |
+| cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>& | The cookie to add. |
 
 ## CookieCollection::Add(System::SharedPtr\<CookieCollection\>) method
 

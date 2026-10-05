@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.xml/xmlwriter/writenmtoken/
 ---
-## XmlWriter::WriteNmToken(const String\&) method
+## XmlWriter::WriteNmToken(const String&) method
 
 
 When overridden in a derived class, writes out the specified name, ensuring it is a valid NmToken according to the W3C XML 1.0 recommendation ([https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name](https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name)).
@@ -20,7 +20,14 @@ virtual void System::Xml::XmlWriter::WriteNmToken(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to write. |
+| name | const [String](../../../system/string/)& | The name to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **name** is not a valid NmToken; or **name** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

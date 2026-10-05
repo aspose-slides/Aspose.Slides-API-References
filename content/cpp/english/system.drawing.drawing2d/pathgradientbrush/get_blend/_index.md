@@ -16,6 +16,13 @@ SharedPtr<Blend> System::Drawing::Drawing2D::PathGradientBrush::get_Blend() cons
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

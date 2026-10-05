@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.diagnostics/debug/writeline/
 ---
-## Debug::WriteLine(const String\&) method
+## Debug::WriteLine(const String&) method
 
 
 Writes line to debug interface.
@@ -20,9 +20,9 @@ static void System::Diagnostics::Debug::WriteLine(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Message to write. |
+| message | const [String](../../../system/string/)& | Message to write. |
 
-## Debug::WriteLine(const String\&, const String\&) method
+## Debug::WriteLine(const String&, const String&) method
 
 
 Writes line to debug interface.
@@ -36,10 +36,10 @@ static void System::Diagnostics::Debug::WriteLine(const String &message, const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Message to write. |
-| message2 | const [String](../../../system/string/)\& | Extra message. |
+| message | const [String](../../../system/string/)& | Message to write. |
+| message2 | const [String](../../../system/string/)& | Extra message. |
 
-## Debug::WriteLine(const char_t *) method
+## Debug::WriteLine(const char_t \*) method
 
 
 Writes line to debug interface.
@@ -53,9 +53,9 @@ static void System::Diagnostics::Debug::WriteLine(const char_t *message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const char_t * | Message to write. |
+| message | const char_t \* | Message to write. |
 
-## Debug::WriteLine(const SharedPtr\<Object\>\&) method
+## Debug::WriteLine(const SharedPtr\<Object\>&) method
 
 
 Writes line to debug interface.
@@ -69,7 +69,7 @@ static void System::Diagnostics::Debug::WriteLine(const SharedPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | [Object](../../../system/object/) to dump. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | [Object](../../../system/object/) to dump. |
 
 ## See Also
 

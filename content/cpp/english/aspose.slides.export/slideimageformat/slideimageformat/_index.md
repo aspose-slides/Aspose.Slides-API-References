@@ -1,7 +1,7 @@
 ---
 title: SlideImageFormat()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SlideImageFormat::SlideImageFormat() constructor"
 type: docs
 weight: 27
 url: /aspose.slides.export/slideimageformat/slideimageformat/

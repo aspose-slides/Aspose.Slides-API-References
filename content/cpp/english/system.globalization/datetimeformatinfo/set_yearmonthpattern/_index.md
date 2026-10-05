@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /system.globalization/datetimeformatinfo/set_yearmonthpattern/
 ---
-## DateTimeFormatInfo::set_YearMonthPattern(const String\&) method
+## DateTimeFormatInfo::set_YearMonthPattern(const String&) method
 
 
 Sets year and month pattern.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_YearMonthPattern(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Format string. |
+| value | const [String](../../../system/string/)& | Format string. |
 
 ## See Also
 

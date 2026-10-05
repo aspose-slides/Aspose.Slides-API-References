@@ -22,6 +22,14 @@ virtual void System::Xml::XmlNode::set_Value(String value)
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | Setting the value of a node that is read-only. |
+| InvalidOperationException | Setting the value of a node that is not supposed to have a value (for example, an Element node). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

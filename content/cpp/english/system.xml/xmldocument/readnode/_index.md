@@ -26,6 +26,13 @@ virtual SharedPtr<XmlNode> System::Xml::XmlDocument::ReadNode(SharedPtr<XmlReade
 
 The new [XmlNode](../../xmlnode/) or **nullptr** if no more nodes exist.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NullReferenceException | The reader is positioned on a node type that does not translate to a valid DOM node (for example, EndElement or EndEntity). |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

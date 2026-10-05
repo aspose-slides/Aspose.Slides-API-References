@@ -15,6 +15,13 @@ Removes layout from presentation.
 void Aspose::Slides::LayoutSlide::Remove() override
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if layout is already removed from presentation or if layout is used in presentation (its HasDependingSlides property is true). |
+
 ## Remarks
 
 

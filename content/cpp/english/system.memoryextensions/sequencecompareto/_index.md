@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system.memoryextensions/sequencecompareto/
 ---
-## System::MemoryExtensions::SequenceCompareTo(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::SequenceCompareTo(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Compares two ReadOnlySpans lexicographically.
@@ -26,14 +26,14 @@ template<typename T> int32_t System::MemoryExtensions::SequenceCompareTo(const R
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The first span to compare |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The second span to compare |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The first span to compare |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The second span to compare |
 
 ### Return Value
 
--1 if span < other, 0 if span == other, 1 if span > other
+-1 if span \< other, 0 if span == other, 1 if span \> other
 
-## System::MemoryExtensions::SequenceCompareTo(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::SequenceCompareTo(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Compares a [Span](../../system/span/) and [ReadOnlySpan](../../system/readonlyspan/) lexicographically.
@@ -53,14 +53,14 @@ template<typename T> int32_t System::MemoryExtensions::SequenceCompareTo(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The [Span](../../system/span/) to compare |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The [ReadOnlySpan](../../system/readonlyspan/) to compare |
+| span | const [Span](../../system/span/)\<T\>& | The [Span](../../system/span/) to compare |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The [ReadOnlySpan](../../system/readonlyspan/) to compare |
 
 ### Return Value
 
--1 if span < other, 0 if span == other, 1 if span > other
+-1 if span \< other, 0 if span == other, 1 if span \> other
 
-## System::MemoryExtensions::SequenceCompareTo(const ReadOnlySpan\<T\>\&, const Span\<T\>\&) function
+## System::MemoryExtensions::SequenceCompareTo(const ReadOnlySpan\<T\>&, const Span\<T\>&) function
 
 
 Compares a [ReadOnlySpan](../../system/readonlyspan/) and [Span](../../system/span/) lexicographically.
@@ -80,12 +80,12 @@ template<typename T> int32_t System::MemoryExtensions::SequenceCompareTo(const R
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The [ReadOnlySpan](../../system/readonlyspan/) to compare |
-| other | const [Span](../../system/span/)\<T\>\& | The [Span](../../system/span/) to compare |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The [ReadOnlySpan](../../system/readonlyspan/) to compare |
+| other | const [Span](../../system/span/)\<T\>& | The [Span](../../system/span/) to compare |
 
 ### Return Value
 
--1 if span < other, 0 if span == other, 1 if span > other
+-1 if span \< other, 0 if span == other, 1 if span \> other
 
 ## See Also
 

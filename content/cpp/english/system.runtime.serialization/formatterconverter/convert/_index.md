@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.serialization/formatterconverter/convert/
 ---
-## FormatterConverter::Convert(System::SharedPtr\<Object\>, const TypeInfo\&) method
+## FormatterConverter::Convert(System::SharedPtr\<Object\>, const TypeInfo&) method
 
 
 Converts a value to the given [System::TypeInfo](../../../system/typeinfo/).
@@ -21,7 +21,7 @@ System::SharedPtr<Object> System::Runtime::Serialization::FormatterConverter::Co
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The object to be converted. |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | The [System::TypeInfo](../../../system/typeinfo/) into which value is to be converted. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | The [System::TypeInfo](../../../system/typeinfo/) into which value is to be converted. |
 
 ### Return Value
 

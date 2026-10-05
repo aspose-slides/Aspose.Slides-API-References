@@ -1,7 +1,7 @@
 ---
 title: "System::Collections::Generic::Details::CastRules"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Collections::Generic::Details::CastRules namespace"
 type: docs
 weight: 378
 url: /system.collections.generic.details.castrules/

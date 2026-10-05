@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system/timespan/parse/
 ---
-## TimeSpan::Parse(const String\&) method
+## TimeSpan::Parse(const String&) method
 
 
 Converts string to equivalent [TimeSpan](../) object.
@@ -20,13 +20,13 @@ static TimeSpan System::TimeSpan::Parse(const String &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | Input string. |
+| input | const [String](../../string/)& | Input string. |
 
 ### Return Value
 
 Time interval that corresponds to string.
 
-## TimeSpan::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## TimeSpan::Parse(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts string to equivalent [TimeSpan](../) object using the specified format provider.
@@ -40,14 +40,14 @@ static TimeSpan System::TimeSpan::Parse(const String &input, const SharedPtr<IFo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | Input string. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider that supplies culture-specific formatting information. |
+| input | const [String](../../string/)& | Input string. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider that supplies culture-specific formatting information. |
 
 ### Return Value
 
 Time interval that corresponds to string.
 
-## TimeSpan::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## TimeSpan::Parse(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -56,7 +56,7 @@ Time interval that corresponds to string.
 static TimeSpan System::TimeSpan::Parse(const String &input, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## TimeSpan::Parse(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) method
+## TimeSpan::Parse(const String&, const SharedPtr\<Globalization::DateTimeFormatInfo\>&) method
 
 
 
@@ -65,7 +65,7 @@ static TimeSpan System::TimeSpan::Parse(const String &input, const SharedPtr<Glo
 static TimeSpan System::TimeSpan::Parse(const String &input, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi)
 ```
 
-## TimeSpan::Parse(const String\&, std::nullptr_t) method
+## TimeSpan::Parse(const String&, std::nullptr_t) method
 
 
 

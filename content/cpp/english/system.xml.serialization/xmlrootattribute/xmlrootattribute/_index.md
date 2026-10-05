@@ -15,7 +15,7 @@ Constructs a new instance of [XmlRootAttribute](../) class.
 System::Xml::Serialization::XmlRootAttribute::XmlRootAttribute()
 ```
 
-## XmlRootAttribute::XmlRootAttribute(const System::String\&) constructor
+## XmlRootAttribute::XmlRootAttribute(const System::String&) constructor
 
 
 Constructs a new instance of [XmlRootAttribute](../) class and initializes it with the specified element name.
@@ -29,7 +29,7 @@ System::Xml::Serialization::XmlRootAttribute::XmlRootAttribute(const System::Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| elementName | const [System::String](../../../system/string/)\& | The name of the XML root element |
+| elementName | const [System::String](../../../system/string/)& | The name of the XML root element |
 
 ## See Also
 

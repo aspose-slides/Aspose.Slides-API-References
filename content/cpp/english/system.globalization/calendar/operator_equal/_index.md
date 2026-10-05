@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Calendar::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/calendar/operator_equal/
 ---
-## Calendar::operator=(const Calendar\&) method
+## Calendar::operator=(const Calendar&) method
 
 
 

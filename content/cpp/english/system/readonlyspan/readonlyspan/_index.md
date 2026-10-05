@@ -15,7 +15,7 @@ Constructs an empty read-only span.
 System::ReadOnlySpan<T>::ReadOnlySpan()
 ```
 
-## ReadOnlySpan::ReadOnlySpan(const Span\<T\>\&) constructor
+## ReadOnlySpan::ReadOnlySpan(const Span\<T\>&) constructor
 
 
 Constructs a read-only span from a regular span.
@@ -29,7 +29,7 @@ System::ReadOnlySpan<T>::ReadOnlySpan(const Span<T> &span)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../span/)\<T\>\& | The span to create a read-only view of. |
+| span | const [Span](../../span/)\<T\>& | The span to create a read-only view of. |
 
 ## ReadOnlySpan::ReadOnlySpan(const typename std::enable_if\<std::is_same\<T1, uint8_t\>::value, char\>::type(&)) constructor
 

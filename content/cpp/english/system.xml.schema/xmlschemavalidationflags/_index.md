@@ -24,7 +24,7 @@ enum class XmlSchemaValidationFlags
 | ProcessSchemaLocation | 2 | Process schema location hints (**xsi:schemaLocation**, **xsi:noNamespaceSchemaLocation**) encountered during validation. |
 | ReportValidationWarnings | 4 | Report schema validation warnings encountered during validation. |
 | ProcessIdentityConstraints | 8 | Process identity constraints (**xs:ID**, **xs:IDREF**, **xs:key**, **xs:keyref**, **xs:unique**) encountered during validation. |
-| AllowXmlAttributes | 16 | Allow xml:* attributes even if they are not defined in the schema. The attributes will be validated based on their data type. |
+| AllowXmlAttributes | 16 | Allow xml:\* attributes even if they are not defined in the schema. The attributes will be validated based on their data type. |
 
 ## See Also
 

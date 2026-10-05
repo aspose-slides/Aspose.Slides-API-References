@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.security.cryptography.x509certificates/x509certificate2/getcertcontenttype/
 ---
-## X509Certificate2::GetCertContentType(const ByteArrayPtr\&) method
+## X509Certificate2::GetCertContentType(const ByteArrayPtr&) method
 
 
 Gets the type of certificate contained in the specified byte array.
@@ -20,13 +20,13 @@ static X509ContentType System::Security::Cryptography::X509Certificates::X509Cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Certificate data. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Certificate data. |
 
 ### Return Value
 
 Type of X.509 certificate.
 
-## X509Certificate2::GetCertContentType(const String\&) method
+## X509Certificate2::GetCertContentType(const String&) method
 
 
 Gets the type of certificate contained in the specified file.
@@ -40,7 +40,7 @@ static X509ContentType System::Security::Cryptography::X509Certificates::X509Cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | Certificate file name. |
+| filename | const [String](../../../system/string/)& | Certificate file name. |
 
 ### Return Value
 

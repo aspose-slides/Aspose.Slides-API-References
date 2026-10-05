@@ -23,7 +23,7 @@ void System::Drawing::RectangleF::Inflate(float width, float height)
 | width | **float** | The amount by which the width of the rectangle is to be increased in both directions |
 | height | **float** | The amount by which the height of the rectangle is to be increased in both directions |
 
-## RectangleF::Inflate(const SizeF\&) method
+## RectangleF::Inflate(const SizeF&) method
 
 
 Increases the width and height of the rectangle represented by the current object, maintaining the location of the geometrical center of the rectangle. The width and height are increased in both directions by the amounts specified by width and height values of the specified size object correspondingly.
@@ -37,9 +37,9 @@ void System::Drawing::RectangleF::Inflate(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../../sizef/)\& | The [SizeF](../../sizef/) object specifying the amounts to increase the width and height of the rectangle by |
+| size | const [SizeF](../../sizef/)& | The [SizeF](../../sizef/) object specifying the amounts to increase the width and height of the rectangle by |
 
-## RectangleF::Inflate(const RectangleF\&, float, float) method
+## RectangleF::Inflate(const RectangleF&, float, float) method
 
 
 Increases the width and height of the rectangle represented by the specified object, maintaining the location of the geometrical center of the rectangle. The width and height are increased in both directions by the specified amounts.
@@ -53,7 +53,7 @@ static RectangleF System::Drawing::RectangleF::Inflate(const RectangleF &rect, f
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../)\& | A rectangle to inflate |
+| rect | const [RectangleF](../)& | A rectangle to inflate |
 | x | **float** | The amount by which the width of the rectangle is to be increased in both directions |
 | y | **float** | The amount by which the height of the rectangle is to be increased in both directions |
 

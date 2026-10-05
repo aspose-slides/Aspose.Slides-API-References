@@ -1,7 +1,7 @@
 ---
 title: "System::ComponentModel"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::ComponentModel namespace"
 type: docs
 weight: 417
 url: /system.componentmodel/

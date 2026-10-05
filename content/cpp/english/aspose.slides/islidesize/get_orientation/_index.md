@@ -18,7 +18,7 @@ virtual SlideOrientation Aspose::Slides::ISlideSize::get_Orientation()=0
 ## Remarks
 
 
-Changing this value swaps the slide\\u2019s width and height. 
+Changing this value swaps the slide’s width and height. 
 ## See Also
 
 * Enum [SlideOrientation](../../slideorientation/)

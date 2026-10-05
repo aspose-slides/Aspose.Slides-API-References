@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.drawing/font/getheight/
 ---
-## Font::GetHeight(const SharedPtr\<Graphics\>\&) method
+## Font::GetHeight(const SharedPtr\<Graphics\>&) method
 
 
 Returns the line spacing of the font represented by the current object, in the current unit of a specified [Graphics](../../graphics/) object.
@@ -20,7 +20,7 @@ float System::Drawing::Font::GetHeight(const SharedPtr<Graphics> &graphics)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | A [Graphics](../../graphics/) object that specifies the measurement units |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | A [Graphics](../../graphics/) object that specifies the measurement units |
 
 ## Font::GetHeight(float) method
 

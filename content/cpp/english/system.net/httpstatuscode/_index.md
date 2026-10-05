@@ -1,7 +1,7 @@
 ---
 title: HttpStatusCode
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: HttpStatusCode enum
 type: docs
 weight: 612
 url: /system.net/httpstatuscode/

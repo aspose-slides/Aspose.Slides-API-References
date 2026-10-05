@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.globalization/datetimeformatinfo/set_pmdesignator/
 ---
-## DateTimeFormatInfo::set_PMDesignator(const String\&) method
+## DateTimeFormatInfo::set_PMDesignator(const String&) method
 
 
 Sets PM designator.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_PMDesignator(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | PM designator string. |
+| value | const [String](../../../system/string/)& | PM designator string. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: ValueTuple()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::ValueTuple() constructor"
 type: docs
 weight: 1
 url: /system/valuetuple/valuetuple/

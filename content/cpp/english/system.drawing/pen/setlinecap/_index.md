@@ -16,6 +16,13 @@ void System::Drawing::Pen::SetLineCap(Drawing2D::LineCap startCap, Drawing2D::Li
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [LineCap](../../../system.drawing.drawing2d/linecap/)

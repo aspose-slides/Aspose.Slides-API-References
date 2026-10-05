@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.drawing/size/subtract/
 ---
-## Size::Subtract(const Size\&, const Size\&) method
+## Size::Subtract(const Size&, const Size&) method
 
 
 Returns a new [Size](../) object that is the results of subctraction of **size2** from **size1**, i.e. whose width value is the result of subtraction of **size2's** width value from **size1's** width value and height value is the result of subtraction of **size2's** height value from **size1's** height value.
@@ -20,8 +20,8 @@ static Size System::Drawing::Size::Subtract(const Size &size1, const Size &size2
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size1 | const [Size](../)\& | The [Size](../) object to subtract from |
-| size2 | const [Size](../)\& | The [Size](../) object to subtract |
+| size1 | const [Size](../)& | The [Size](../) object to subtract from |
+| size2 | const [Size](../)& | The [Size](../) object to subtract |
 
 ### Return Value
 

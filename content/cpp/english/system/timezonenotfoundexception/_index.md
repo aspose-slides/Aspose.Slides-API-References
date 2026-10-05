@@ -1,7 +1,7 @@
 ---
 title: TimeZoneNotFoundException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: TimeZoneNotFoundException typedef
 type: docs
 weight: 3849
 url: /system/timezonenotfoundexception/

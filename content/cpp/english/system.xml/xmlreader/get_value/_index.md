@@ -27,13 +27,13 @@ The following table lists node types that have a value to return. All other node
 
 | Node type | Value |
 | --- | --- |
-| `[Attribute](../../../system/attribute/)`| The value of the attribute. |
+| `Attribute`| The value of the attribute. |
 | `CDATA`| The content of the CDATA section. |
 | `Comment`| The content of the comment. |
 | `DocumentType`| The internal subset. |
 | `ProcessingInstruction`| The entire content, excluding the target. |
 | `SignificantWhitespace`| The white space between markup in a mixed content model. |
-| `[Text](../../../system.text/)`| The content of the text node. |
+| `Text`| The content of the text node. |
 | `Whitespace`| The white space between markup. |
 | [XmlDeclaration](../../xmldeclaration/)| The content of the declaration. |
 

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/uribuilder/set_scheme/
 ---
-## UriBuilder::set_Scheme(const String\&) method
+## UriBuilder::set_Scheme(const String&) method
 
 
 Sets the scheme of the URI constructed by the current object to the specified value.
@@ -20,7 +20,7 @@ void System::UriBuilder::set_Scheme(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string representation of the scheme to set |
+| value | const [String](../../string/)& | The string representation of the scheme to set |
 
 ## See Also
 

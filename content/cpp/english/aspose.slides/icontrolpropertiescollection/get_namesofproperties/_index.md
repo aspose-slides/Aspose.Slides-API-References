@@ -9,7 +9,7 @@ url: /aspose.slides/icontrolpropertiescollection/get_namesofproperties/
 ## IControlPropertiesCollection::get_NamesOfProperties() method
 
 
-Returns a number of properties in the collection. Read-only ICollection<string>.
+Returns a number of properties in the collection. Read-only ICollection\<string\>.
 
 ```cpp
 virtual System::SharedPtr<System::Collections::Generic::ICollection<System::String>> Aspose::Slides::IControlPropertiesCollection::get_NamesOfProperties()=0

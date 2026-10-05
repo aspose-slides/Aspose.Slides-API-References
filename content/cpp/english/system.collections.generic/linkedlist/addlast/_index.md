@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.generic/linkedlist/addlast/
 ---
-## LinkedList::AddLast(const T\&) method
+## LinkedList::AddLast(const T&) method
 
 
 Adds **element** to the end of the list.
@@ -20,13 +20,13 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddLas
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to add. |
+| element | const T& | Element to add. |
 
 ### Return Value
 
 New node.
 
-## LinkedList::AddLast(const SharedPtr\<LinkedListNode\<T\>\>\&) method
+## LinkedList::AddLast(const SharedPtr\<LinkedListNode\<T\>\>&) method
 
 
 Adds **newNode** to the end of the list.
@@ -40,7 +40,7 @@ void System::Collections::Generic::LinkedList<T>::AddLast(const SharedPtr<Linked
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | New node to add. |
+| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | New node to add. |
 
 ## See Also
 

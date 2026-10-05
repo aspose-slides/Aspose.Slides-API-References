@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::ClearGamma(ColorAdjustType type=
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

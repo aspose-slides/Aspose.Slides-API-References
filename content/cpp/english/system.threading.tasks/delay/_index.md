@@ -26,7 +26,14 @@ TaskPtr System::Threading::Tasks::Delay(int32_t millisecondsDelay)
 
 A task that represents the time delay.
 
-## System::Threading::Tasks::Delay(int32_t, const CancellationToken\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.ArgumentOutOfRangeException](../../system/argumentoutofrangeexception/) | if the millisecondsDelay argument is less than -1. |
+
+
+## System::Threading::Tasks::Delay(int32_t, const CancellationToken&) function
 
 
 Creates a task that completes after a time delay and can be cancelled.
@@ -41,11 +48,18 @@ TaskPtr System::Threading::Tasks::Delay(int32_t millisecondsDelay, const Cancell
 | Parameter | Type | Description |
 | --- | --- | --- |
 | millisecondsDelay | **int32_t** | The number of milliseconds to wait before completing the returned task, or -1 to wait indefinitely. |
-| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)\& | The cancellation token that can be used to cancel the delay. |
+| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)& | The cancellation token that can be used to cancel the delay. |
 
 ### Return Value
 
 A task that represents the time delay.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.ArgumentOutOfRangeException](../../system/argumentoutofrangeexception/) | if the millisecondsDelay argument is less than -1. |
+
 
 ## See Also
 

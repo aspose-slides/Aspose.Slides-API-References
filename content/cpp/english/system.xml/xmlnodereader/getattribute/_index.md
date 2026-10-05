@@ -67,6 +67,13 @@ String System::Xml::XmlNodeReader::GetAttribute(int32_t attributeIndex) override
 
 The value of the specified attribute.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | The **i** parameter is less than 0 or greater than or equal to [XmlNodeReader::get_AttributeCount](../get_attributecount/) value. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

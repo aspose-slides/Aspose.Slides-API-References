@@ -105,7 +105,7 @@ Returns the specified double number.
 static constexpr double System::Convert::ToDouble(double value)
 ```
 
-## Convert::ToDouble(const Decimal\&) method
+## Convert::ToDouble(const Decimal&) method
 
 
 Converts the specified decimal number to an equivalent double-precision floating-point number.
@@ -146,7 +146,7 @@ static constexpr double System::Convert::ToDouble(std::nullptr_t)
 
 Zero.
 
-## Convert::ToDouble(const char_t *) method
+## Convert::ToDouble(const char_t \*) method
 
 
 Converts the specified c-string containing the string representation of a number to the equivalent double-precision floating-point value.
@@ -160,13 +160,13 @@ static double System::Convert::ToDouble(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert |
+| value | const char_t \* | The c-string to convert |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified c-string
 
-## Convert::ToDouble(const String\&) method
+## Convert::ToDouble(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value.
@@ -180,13 +180,13 @@ static double System::Convert::ToDouble(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToDouble(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDouble(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information.
@@ -200,14 +200,14 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<IFo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| value | const [String](../../string/)& | The string to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToDouble(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToDouble(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -216,7 +216,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Convert::ToDouble(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToDouble(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToDouble(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -225,7 +225,7 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<Glo
 static double System::Convert::ToDouble(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToDouble(const String\&, std::nullptr_t) method
+## Convert::ToDouble(const String&, std::nullptr_t) method
 
 
 
@@ -234,7 +234,7 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<Glo
 static double System::Convert::ToDouble(const String &value, std::nullptr_t)
 ```
 
-## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDouble(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information and number style.
@@ -248,15 +248,15 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToDouble(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -265,7 +265,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToDouble(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -274,7 +274,7 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToDouble(const String\&, Globalization::NumberStyles, std::nullptr_t) method
+## Convert::ToDouble(const String&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -283,7 +283,7 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToDouble(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDouble(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to double-precision floating-point value. If the type of boxed value is [String](../../string/), the specified string format is used during conversion.
@@ -297,8 +297,8 @@ static double System::Convert::ToDouble(const SharedPtr<Object> &obj, const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 
