@@ -1,7 +1,7 @@
 ---
 title: ThrowIfInterruptionRequested()
 second_title: Aspose.Slides for C++ API Reference
-description: Throws an if interruption was requested.
+description: "Throws an System::OperationCanceledException if interruption was requested."
 type: docs
 weight: 27
 url: /aspose.slides/interruptiontoken/throwifinterruptionrequested/
@@ -9,7 +9,7 @@ url: /aspose.slides/interruptiontoken/throwifinterruptionrequested/
 ## InterruptionToken::ThrowIfInterruptionRequested() method
 
 
-Throws an 
+Throws an [System::OperationCanceledException](../../../system/operationcanceledexception/)
 if interruption was requested.
 
 ```cpp
