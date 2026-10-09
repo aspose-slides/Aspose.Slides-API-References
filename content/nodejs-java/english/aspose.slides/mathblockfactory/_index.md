@@ -43,32 +43,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathAccent](../mathaccent)) | Create a math block and place the element in it |
+| createMathBlock ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathAccent](../mathaccent) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathBlock](../mathblock)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBlock](../mathblock) | A math element |
+| mathElement | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -100,51 +81,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
+| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathematicalText](../mathematicaltext) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../mathgroupingcharacter) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathSubscriptElement](../mathsubscriptelement)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSubscriptElement](../mathsubscriptelement) | A math element |
+| mathElement | [BaseScript](../basescript) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -176,89 +119,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathNaryOperator](../mathnaryoperator)) | Create a math block and place the element in it |
+| createMathBlock ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathNaryOperator](../mathnaryoperator) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathBorderBox](../mathborderbox)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBorderBox](../mathborderbox) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathFraction](../mathfraction)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../mathfraction) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathRadical](../mathradical)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathRadical](../mathradical) | A math element |
+| mathElement | [MathGroupingCharacter](../mathgroupingcharacter) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -290,13 +157,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathPhantom](../mathphantom)) | Create a math block and place the element in it |
+| createMathBlock ([MathAccent](../mathaccent)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathPhantom](../mathphantom) | A math element |
+| mathElement | [MathAccent](../mathaccent) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -328,13 +195,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math block and place the element in it |
+| createMathBlock ([MathFunction](../mathfunction)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | A math element |
+| mathElement | [MathFunction](../mathfunction) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -366,13 +233,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathFunction](../mathfunction)) | Create a math block and place the element in it |
+| createMathBlock ([MathMatrix](../mathmatrix)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathFunction](../mathfunction) | A math element |
+| mathElement | [MathMatrix](../mathmatrix) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -385,32 +252,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathDelimiter](../mathdelimiter)) | Create a math block and place the element in it |
+| createMathBlock ([MathBlock](../mathblock)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathDelimiter](../mathdelimiter) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [BaseScript](../basescript) | A math element |
+| mathElement | [MathBlock](../mathblock) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -442,13 +290,165 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathMatrix](../mathmatrix)) | Create a math block and place the element in it |
+| createMathBlock ([MathSubscriptElement](../mathsubscriptelement)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathMatrix](../mathmatrix) | A math element |
+| mathElement | [MathSubscriptElement](../mathsubscriptelement) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathRadical](../mathradical)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathRadical](../mathradical) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathFraction](../mathfraction)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFraction](../mathfraction) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathDelimiter](../mathdelimiter)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathDelimiter](../mathdelimiter) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathPhantom](../mathphantom)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathPhantom](../mathphantom) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathNaryOperator](../mathnaryoperator)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathNaryOperator](../mathnaryoperator) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../mathematicaltext) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathBorderBox](../mathborderbox)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBorderBox](../mathborderbox) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
