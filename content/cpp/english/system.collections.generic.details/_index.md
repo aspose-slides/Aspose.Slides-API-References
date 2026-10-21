@@ -30,6 +30,7 @@ url: /system.collections.generic.details/
 | --- | --- |
 | [ComparerType](./comparertype/) | Compares elements using 'less' semantics. |
 | [ComparerType\< SharedPtr\< T \> \>](./comparertype_tmpl_sharedptr_tmpl_t__end_tmpl__end_tmpl/) | Compares elements using 'less' semantics. |
+| [ComparerType\< System::String \>](./comparertype_tmpl_system_string__end_tmpl/) |  |
 | [has_method_compareto](./has_method_compareto/) | Checks whether CompareTo method exists in specified type. If so, inherits std::true_type, otherwise inherits std::false_type. Can be used in std::enable_if. |
 | [has_method_compareto_shared_ptr](./has_method_compareto_shared_ptr/) | Checks whether CompareTo(SharedPtr\<T\>) method exists in specified type. If so, inherits std::true_type, otherwise inherits std::false_type. Can be used in std::enable_if. |
 | [IsEqualExist](./isequalexist/) | Checks if type provides operator ==. |

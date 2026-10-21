@@ -1,11 +1,25 @@
 ---
 title: Normalize()
 second_title: Aspose.Slides for C++ API Reference
-description: Normalizes unicode string using normalization form specified.
+description: Normalizes unicode string using normalization form Unicode C.
 type: docs
 weight: 443
 url: /system/string/normalize/
 ---
+## String::Normalize() const method
+
+
+Normalizes unicode string using normalization form Unicode C.
+
+```cpp
+String System::String::Normalize() const
+```
+
+
+### Return Value
+
+Normalized string.
+
 ## String::Normalize(System::Text::NormalizationForm) const method
 
 

@@ -3,7 +3,7 @@ title: Equals< double >()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two double-precision floating-point values.
 type: docs
-weight: 92
+weight: 118
 url: /system.boxedvaluedetail/equals_less_double__greater/
 ---
 ## System::BoxedValueDetail::Equals\< double \>(double, double) function

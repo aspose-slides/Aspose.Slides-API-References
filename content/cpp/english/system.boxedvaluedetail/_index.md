@@ -13,7 +13,9 @@ url: /system.boxedvaluedetail/
 
 | Class | Description |
 | --- | --- |
+| [BoxedStringBase](./boxedstringbase/) | Additional base class for [BoxedValue](../system/boxedvalue/) for string to implement IEnumerator for char16_t interface. |
 | [Comparable](./comparable/) | Simple implementation of IComparable\<\> |
+| [NonBoxedStringBase](./nonboxedstringbase/) | Dummy base type non-string boxed types. |
 | [NonComparable](./noncomparable/) | Dummy base type for boxed types what do not implement IComparable\<\> |
 ## Structures
 

@@ -68,6 +68,7 @@ url: /system.collections.generic/
 | --- | --- |
 | [ComparerAdapter](./compareradapter/) | Adapter to use [IComparer](./icomparer/) within STL environment. Uses [IComparer](./icomparer/) if set; otherwise, uses operator \< (if available) or returns false (if not). |
 | [DictionaryHashSelector](./dictionaryhashselector/) | Hash function selector for [Dictionary](./dictionary/) class. This implementation uses STL hashing given no alternative is provided. |
+| [DictionaryHashSelector\< System::String \>](./dictionaryhashselector_tmpl_system_string__end_tmpl/) | Hash function selector for [Dictionary](./dictionary/) class. This implementation uses GetHashCode function and applies to [System::String](../system/string/). |
 | [EqualityComparerAdapter](./equalitycompareradapter/) | Adapter making it possible using [IEqualityComparer](./iequalitycomparer/) with STL-styled collections and algorithms. Uses [IEqualityComparer](./iequalitycomparer/), if set. If not set, uses operator ==, [Object::Equals](../system/object/equals/) or T::Equals, whichever is available. |
 | [EqualityComparerHashAdapter](./equalitycomparerhashadapter/) | Adapter to use [IEqualityComparer](./iequalitycomparer/) for hashing. Uses comparator object, if set; otherwise, uses available hash method selected using [DictionaryHashSelector](./dictionaryhashselector/) struct. |
 ## Functions

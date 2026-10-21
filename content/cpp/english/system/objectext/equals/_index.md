@@ -126,6 +126,15 @@ template<size_t> static bool System::ObjectExt::Equals(const char_t(&obj)[N], St
 
 True if strings match, false otherwise.
 
+## ObjectExt::Equals(const System::String&, const System::String&) method
+
+
+[Object.Equals](../../object/equals/) for [System.String](../../string/).
+
+```cpp
+static bool System::ObjectExt::Equals(const System::String &obj, const System::String &another)
+```
+
 ## ObjectExt::Equals(const float&, const float&) method
 
 

@@ -3,7 +3,7 @@ title: IsEqualExist
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if type provides operator ==.
 type: docs
-weight: 196
+weight: 209
 url: /system.collections.generic.details/isequalexist/
 ---
 ## IsEqualExist struct

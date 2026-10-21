@@ -92,6 +92,49 @@ String System::StringExtra::Concat(const String &str0, const String &str1, const
 
 Joint parameter strings.
 
+## System::StringExtra::Concat(const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) function
+
+
+Concatenates the string representations of two specified objects.
+
+```cpp
+String System::StringExtra::Concat(const SharedPtr<Object> &arg0, const SharedPtr<Object> &arg1)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The first object to concatenate. |
+| arg1 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The second object to concatenate |
+
+### Return Value
+
+The concatenated string representations of the values of arg0 and arg1.
+
+## System::StringExtra::Concat(const SharedPtr\<Object\>&, const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) function
+
+
+Concatenates the string representations of three specified objects.
+
+```cpp
+String System::StringExtra::Concat(const SharedPtr<Object> &arg0, const SharedPtr<Object> &arg1, const SharedPtr<Object> &arg2)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The first object to concatenate. |
+| arg1 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The second object to concatenate |
+| arg2 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The third object to concatenate |
+
+### Return Value
+
+The concatenated string representations of the values of arg0, arg1 and arg2.
+
 ## System::StringExtra::Concat(const ArrayPtr\<T\>&) function
 
 
@@ -155,7 +198,9 @@ template<typename T> std::enable_if_t<!IsSmartPtr<T>::value &&!std::is_arithmeti
 ## See Also
 
 * Typedef [ArrayPtr](../../system/arrayptr/)
+* Typedef [SharedPtr](../../system/sharedptr/)
 * Class [String](../../system/string/)
+* Class [Object](../../system/object/)
 * Struct [IsSmartPtr](../../system/issmartptr/)
 * Namespace [System::StringExtra](../)
 * Library [Aspose.Slides](../../)

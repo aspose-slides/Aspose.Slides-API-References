@@ -3,7 +3,7 @@ title: Comparable
 second_title: Aspose.Slides for C++ API Reference
 description: Simple implementation of IComparable<>
 type: docs
-weight: 1
+weight: 14
 url: /system.boxedvaluedetail/comparable/
 ---
 ## Comparable class

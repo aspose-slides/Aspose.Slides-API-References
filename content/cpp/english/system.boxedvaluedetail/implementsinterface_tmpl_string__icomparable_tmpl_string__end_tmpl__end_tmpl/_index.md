@@ -3,7 +3,7 @@ title: ImplementsInterface< String, IComparable< String > >
 second_title: Aspose.Slides for C++ API Reference
 description: String implements IComparable.
 type: docs
-weight: 40
+weight: 66
 url: /system.boxedvaluedetail/implementsinterface_tmpl_string__icomparable_tmpl_string__end_tmpl__end_tmpl/
 ---
 ## ImplementsInterface\< String, IComparable\< String \> \> struct

@@ -3,7 +3,7 @@ title: TryGetFirst()
 second_title: Aspose.Slides for C++ API Reference
 description: Tries to get the first element of the collection.
 type: docs
-weight: 248
+weight: 261
 url: /system.collections.generic.details/trygetfirst/
 ---
 ## System::Collections::Generic::Details::TryGetFirst(IEnumerable\<T\>&, bool&) function
