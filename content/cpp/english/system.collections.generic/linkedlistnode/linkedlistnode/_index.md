@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/linkedlistnode/linkedlistnode/
 ---
-## LinkedListNode::LinkedListNode(const T\&) constructor
+## LinkedListNode::LinkedListNode(const T&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Collections::Generic::LinkedListNode<T>::LinkedListNode(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | Contaied value. |
+| value | const T& | Contaied value. |
 
 ## See Also
 

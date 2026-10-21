@@ -9,7 +9,7 @@ url: /aspose.slides/videoframe/set_trimfromstart/
 ## VideoFrame::set_TrimFromStart(float) method
 
 
-Trim start [ms]
+Trim start \[ms\]
 
 ```cpp
 void Aspose::Slides::VideoFrame::set_TrimFromStart(float value) override

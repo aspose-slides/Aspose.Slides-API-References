@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.globalization/compareinfo/lastindexof/
 ---
-## CompareInfo::LastIndexOf(const String\&, const String\&) const method
+## CompareInfo::LastIndexOf(const String&, const String&) const method
 
 
 Searches last occurrence of the specified substring.
@@ -20,14 +20,14 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, const String\&, int, int, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, const String&, int, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified substring using the specified compare options.
@@ -41,8 +41,8 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
@@ -51,7 +51,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t, int, int, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, char16_t, int, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -65,7 +65,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
@@ -75,7 +75,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, const String\&, int, int) const method
+## CompareInfo::LastIndexOf(const String&, const String&, int, int) const method
 
 
 Searches last occurrence of the specified string.
@@ -89,8 +89,8 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |
 
@@ -98,7 +98,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, const String\&, int, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, const String&, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified string using the specified compare options.
@@ -112,8 +112,8 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
@@ -121,7 +121,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t, int, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, char16_t, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -135,7 +135,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
@@ -144,7 +144,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, const String\&, int) const method
+## CompareInfo::LastIndexOf(const String&, const String&, int) const method
 
 
 Searches last occurrence of the specified string.
@@ -158,15 +158,15 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t, int) const method
+## CompareInfo::LastIndexOf(const String&, char16_t, int) const method
 
 
 Searches last occurrence of the specified character.
@@ -180,7 +180,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 
@@ -188,7 +188,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, const String\&, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, const String&, CompareOptions) const method
 
 
 Searches last occurrence of the specified string using the specified compare options.
@@ -202,15 +202,15 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| value | const [String](../../../system/string/)\& | Lookup value. |
+| source | const [String](../../../system/string/)& | Source string. |
+| value | const [String](../../../system/string/)& | Lookup value. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t, CompareOptions) const method
+## CompareInfo::LastIndexOf(const String&, char16_t, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -224,7 +224,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
@@ -232,7 +232,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t) const method
+## CompareInfo::LastIndexOf(const String&, char16_t) const method
 
 
 Searches last occurrence of the specified character.
@@ -246,14 +246,14 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 
 ### Return Value
 
 [Index](../../../system/index/) of lookup value in source string or -1 if not found.
 
-## CompareInfo::LastIndexOf(const String\&, char16_t, int, int) const method
+## CompareInfo::LastIndexOf(const String&, char16_t, int, int) const method
 
 
 Searches last occurrence of the specified character.
@@ -267,7 +267,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
+| source | const [String](../../../system/string/)& | Source string. |
 | value | char16_t | Lookup value. |
 | start_index | int | Lookup start index in source string. |
 | count | int | Number of characters in source string. |

@@ -22,7 +22,7 @@ System::Diagnostics::StackFrame::StackFrame(int skip_frames)
 | --- | --- | --- |
 | skip_frames | int | How many frames to skip. |
 
-## StackFrame::StackFrame(const StackFrame\&) constructor
+## StackFrame::StackFrame(const StackFrame&) constructor
 
 
 No copying.

@@ -26,11 +26,11 @@ template<typename...>class Func : public System::MulticastDelegate<::System::Det
 | Method | Description |
 | --- | --- |
 |  [Func](./func/)() | Default constructor that creates null-Func. |
-|  [Func](./func/)(T\&&) | Constructor that constructs [Func](./) object and assigns value (either actual callback or nullptr) to it. |
-|  [Func](./func/)(const [Func](./)\&) | Copy constructor. |
-|  [Func](./func/)([Func](./)\&&) | Move constructor. |
-| [Func](./)\& [operator=](./operator_equal/)(const [Func](./)\&) | Copy assignment. |
-| [Func](./)\& [operator=](./operator_equal/)([Func](./)\&&) | Move assignment. |
+|  [Func](./func/)(T&&) | Constructor that constructs [Func](./) object and assigns value (either actual callback or nullptr) to it. |
+|  [Func](./func/)(const [Func](./)&) | Copy constructor. |
+|  [Func](./func/)([Func](./)&&) | Move constructor. |
+| [Func](./)& [operator=](./operator_equal/)(const [Func](./)&) | Copy assignment. |
+| [Func](./)& [operator=](./operator_equal/)([Func](./)&&) | Move assignment. |
 |  [~Func](./~func/)() | Destructor. |
 ## Remarks
 

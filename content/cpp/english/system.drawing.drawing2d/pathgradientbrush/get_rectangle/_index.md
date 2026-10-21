@@ -16,6 +16,13 @@ RectangleF System::Drawing::Drawing2D::PathGradientBrush::get_Rectangle()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [RectangleF](../../../system.drawing/rectanglef/)

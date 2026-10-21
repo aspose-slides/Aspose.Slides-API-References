@@ -86,56 +86,56 @@ enum class PaperKind
 | A2 | 66 | A2 paper (420 mm by 594 mm). |
 | A3Transverse | 67 | A3 transverse paper (297 mm by 420 mm). |
 | A3ExtraTransverse | 68 | A3 extra transverse paper (322 mm by 445 mm). |
-| JapaneseDoublePostcard | 69 | Japanese double postcard (200 mm by 148 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| A6 | 70 | A6 paper (105 mm by 148 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeKakuNumber2 | 71 | Japanese Kaku #2 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeKakuNumber3 | 72 | Japanese Kaku #3 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeChouNumber3 | 73 | Japanese Chou #3 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeChouNumber4 | 74 | Japanese Chou #4 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
+| JapaneseDoublePostcard | 69 | Japanese double postcard (200 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| A6 | 70 | A6 paper (105 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeKakuNumber2 | 71 | Japanese Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeKakuNumber3 | 72 | Japanese Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeChouNumber3 | 73 | Japanese Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeChouNumber4 | 74 | Japanese Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later. |
 | LetterRotated | 75 | Letter rotated paper (11 in. by 8.5 in.). |
 | A3Rotated | 76 | A3 rotated paper (420 mm by 297 mm). |
-| A4Rotated | 77 | A4 rotated paper (297 mm by 210 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| A5Rotated | 78 | A5 rotated paper (210 mm by 148 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| B4JisRotated | 79 | JIS B4 rotated paper (364 mm by 257 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| B5JisRotated | 80 | JIS B5 rotated paper (257 mm by 182 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapanesePostcardRotated | 81 | Japanese rotated postcard (148 mm by 100 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseDoublePostcardRotated | 82 | Japanese rotated double postcard (148 mm by 200 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| A6Rotated | 83 | A6 rotated paper (148 mm by 105 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeKakuNumber2Rotated | 84 | Japanese rotated Kaku #2 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeKakuNumber3Rotated | 85 | Japanese rotated Kaku #3 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeChouNumber3Rotated | 86 | Japanese rotated Chou #3 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeChouNumber4Rotated | 87 | Japanese rotated Chou #4 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| B6Jis | 88 | JIS B6 paper (128 mm by 182 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| B6JisRotated | 89 | JIS B6 rotated paper (182 mm by 128 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Standard12x11 | 90 | Standard paper (12 in. by 11 in.). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeYouNumber4 | 91 | Japanese You #4 envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| JapaneseEnvelopeYouNumber4Rotated | 92 | Japanese You #4 rotated envelope. Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc16K | 93 | 16K paper (146 mm by 215 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc32K | 94 | 32K paper (97 mm by 151 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc32KBig | 95 | 32K big paper (97 mm by 151 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber1 | 96 | #1 envelope (102 mm by 165 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber2 | 97 | #2 envelope (102 mm by 176 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber3 | 98 | #3 envelope (125 mm by 176 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber4 | 99 | #4 envelope (110 mm by 208 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber5 | 100 | #5 envelope (110 mm by 220 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber6 | 101 | #6 envelope (120 mm by 230 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber7 | 102 | #7 envelope (160 mm by 230 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber8 | 103 | #8 envelope (120 mm by 309 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber9 | 104 | #9 envelope (229 mm by 324 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber10 | 105 | #10 envelope (324 mm by 458 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc16KRotated | 106 | 16K rotated paper (146 mm by 215 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc32KRotated | 107 | 32K rotated paper (97 mm by 151 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| Prc32KBigRotated | 108 | 32K big rotated paper (97 mm by 151 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber1Rotated | 109 | #1 rotated envelope (165 mm by 102 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber2Rotated | 110 | #2 rotated envelope (176 mm by 102 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber3Rotated | 111 | #3 rotated envelope (176 mm by 125 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber4Rotated | 112 | #4 rotated envelope (208 mm by 110 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber5Rotated | 113 | Envelope #5 rotated envelope (220 mm by 110 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber6Rotated | 114 | #6 rotated envelope (230 mm by 120 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber7Rotated | 115 | #7 rotated envelope (230 mm by 160 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber8Rotated | 116 | #8 rotated envelope (309 mm by 120 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber9Rotated | 117 | #9 rotated envelope (324 mm by 229 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
-| PrcEnvelopeNumber10Rotated | 118 | #10 rotated envelope (458 mm by 324 mm). Requires [Windows](../../system.windows/) 98, [Windows](../../system.windows/) NT 4.0, or later. |
+| A4Rotated | 77 | A4 rotated paper (297 mm by 210 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| A5Rotated | 78 | A5 rotated paper (210 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| B4JisRotated | 79 | JIS B4 rotated paper (364 mm by 257 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| B5JisRotated | 80 | JIS B5 rotated paper (257 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| JapanesePostcardRotated | 81 | Japanese rotated postcard (148 mm by 100 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseDoublePostcardRotated | 82 | Japanese rotated double postcard (148 mm by 200 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| A6Rotated | 83 | A6 rotated paper (148 mm by 105 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeKakuNumber2Rotated | 84 | Japanese rotated Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeKakuNumber3Rotated | 85 | Japanese rotated Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeChouNumber3Rotated | 86 | Japanese rotated Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeChouNumber4Rotated | 87 | Japanese rotated Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| B6Jis | 88 | JIS B6 paper (128 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| B6JisRotated | 89 | JIS B6 rotated paper (182 mm by 128 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Standard12x11 | 90 | Standard paper (12 in. by 11 in.). Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeYouNumber4 | 91 | Japanese You #4 envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| JapaneseEnvelopeYouNumber4Rotated | 92 | Japanese You #4 rotated envelope. Requires Windows 98, Windows NT 4.0, or later. |
+| Prc16K | 93 | 16K paper (146 mm by 215 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Prc32K | 94 | 32K paper (97 mm by 151 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Prc32KBig | 95 | 32K big paper (97 mm by 151 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber1 | 96 | #1 envelope (102 mm by 165 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber2 | 97 | #2 envelope (102 mm by 176 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber3 | 98 | #3 envelope (125 mm by 176 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber4 | 99 | #4 envelope (110 mm by 208 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber5 | 100 | #5 envelope (110 mm by 220 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber6 | 101 | #6 envelope (120 mm by 230 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber7 | 102 | #7 envelope (160 mm by 230 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber8 | 103 | #8 envelope (120 mm by 309 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber9 | 104 | #9 envelope (229 mm by 324 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber10 | 105 | #10 envelope (324 mm by 458 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Prc16KRotated | 106 | 16K rotated paper (146 mm by 215 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Prc32KRotated | 107 | 32K rotated paper (97 mm by 151 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| Prc32KBigRotated | 108 | 32K big rotated paper (97 mm by 151 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber1Rotated | 109 | #1 rotated envelope (165 mm by 102 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber2Rotated | 110 | #2 rotated envelope (176 mm by 102 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber3Rotated | 111 | #3 rotated envelope (176 mm by 125 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber4Rotated | 112 | #4 rotated envelope (208 mm by 110 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber5Rotated | 113 | Envelope #5 rotated envelope (220 mm by 110 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber6Rotated | 114 | #6 rotated envelope (230 mm by 120 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber7Rotated | 115 | #7 rotated envelope (230 mm by 160 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber8Rotated | 116 | #8 rotated envelope (309 mm by 120 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber9Rotated | 117 | #9 rotated envelope (324 mm by 229 mm). Requires Windows 98, Windows NT 4.0, or later. |
+| PrcEnvelopeNumber10Rotated | 118 | #10 rotated envelope (458 mm by 324 mm). Requires Windows 98, Windows NT 4.0, or later. |
 
 ## See Also
 

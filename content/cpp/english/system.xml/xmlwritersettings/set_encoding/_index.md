@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlwritersettings/set_encoding/
 ---
-## XmlWriterSettings::set_Encoding(const SharedPtr\<System::Text::Encoding\>\&) method
+## XmlWriterSettings::set_Encoding(const SharedPtr\<System::Text::Encoding\>&) method
 
 
 Sets the type of text encoding to use.
@@ -20,7 +20,7 @@ void System::Xml::XmlWriterSettings::set_Encoding(const SharedPtr<System::Text::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>& | The value to set. |
 
 ## See Also
 

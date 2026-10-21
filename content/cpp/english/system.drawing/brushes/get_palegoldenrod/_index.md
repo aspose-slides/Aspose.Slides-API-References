@@ -1,7 +1,7 @@
 ---
 title: get_PaleGoldenrod()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFEEE8AA.
+description: "Returns the solid fill color whose hexadecimal value is #FFEEE8AA."
 type: docs
 weight: 1327
 url: /system.drawing/brushes/get_palegoldenrod/

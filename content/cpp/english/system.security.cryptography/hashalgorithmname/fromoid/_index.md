@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.security.cryptography/hashalgorithmname/fromoid/
 ---
-## HashAlgorithmName::FromOid(const String\&) method
+## HashAlgorithmName::FromOid(const String&) method
 
 
 Create [HashAlgorithmName](../) from OID-value.
@@ -20,7 +20,7 @@ static HashAlgorithmName System::Security::Cryptography::HashAlgorithmName::From
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid_value | const [String](../../../system/string/)\& | OID value. |
+| oid_value | const [String](../../../system/string/)& | OID value. |
 
 ### Return Value
 

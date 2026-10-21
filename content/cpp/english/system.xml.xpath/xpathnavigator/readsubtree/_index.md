@@ -20,6 +20,13 @@ virtual SharedPtr<XmlReader> System::Xml::XPath::XPathNavigator::ReadSubtree()
 
 An [XmlReader](../../../system.xml/xmlreader/) object that contains the current node and its child nodes.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XPathNavigator](../) is not positioned on an element node or the root node. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

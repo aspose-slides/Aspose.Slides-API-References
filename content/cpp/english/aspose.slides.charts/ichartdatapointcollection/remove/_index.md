@@ -22,6 +22,13 @@ virtual void Aspose::Slides::Charts::IChartDataPointCollection::Remove(System::S
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\> | The value. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException ](../../../system/argumentexception/) | The value parameter was not found in the collection. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

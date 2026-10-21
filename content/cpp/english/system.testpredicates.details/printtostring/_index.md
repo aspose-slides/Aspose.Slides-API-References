@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.testpredicates.details/printtostring/
 ---
-## System::TestPredicates::Details::PrintToString(const T\&) function
+## System::TestPredicates::Details::PrintToString(const T&) function
 
 
 Prints object to string by selecting proper serializer function.
@@ -26,13 +26,13 @@ template<typename T> std::enable_if_t<!TypeTraits::IsEnumerable<T>::value, std::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 
 ### Return Value
 
 [String](../../system/string/) representations of object passed.
 
-## System::TestPredicates::Details::PrintToString(const T\&) function
+## System::TestPredicates::Details::PrintToString(const T&) function
 
 
 Prints ICollection-style containers to string by printing their elements (not more than 32).
@@ -52,7 +52,7 @@ template<typename T> std::enable_if_t<TypeTraits::IsEnumerable<T>::value, std::s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 
 ### Return Value
 
@@ -70,12 +70,12 @@ std::string System::TestPredicates::Details::PrintToString(std::nullptr_t)
 
 ### Return Value
 
-\"nullptr\" string.
+"nullptr" string.
 
-## System::TestPredicates::Details::PrintToString(const Collections::Generic::IEnumerable\<bool\>\&) function
+## System::TestPredicates::Details::PrintToString(const Collections::Generic::IEnumerable\<bool\>&) function
 
 
-Prints [IEnumerable<bool>](../../system.collections.generic/ienumerable/) collections to string by printing their elements (not more than 32).
+Prints [IEnumerable\<bool\>](../../system.collections.generic/ienumerable/) collections to string by printing their elements (not more than 32).
 
 ```cpp
 std::string System::TestPredicates::Details::PrintToString(const Collections::Generic::IEnumerable<bool> &value)
@@ -92,7 +92,7 @@ std::string System::TestPredicates::Details::PrintToString(const Collections::Ge
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<**bool**\>\& | [Object](../../system/object/) to print. |
+| value | const [Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<**bool**\>& | [Object](../../system/object/) to print. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/basekvcollection/basekvcollection/
 ---
-## BaseKVCollection::BaseKVCollection(const typename Dict::Ptr\&) constructor
+## BaseKVCollection::BaseKVCollection(const typename Dict::Ptr&) constructor
 
 
 Creates collection.
@@ -20,7 +20,7 @@ System::Collections::Generic::BaseKVCollection<Dict, KV>::BaseKVCollection(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dict | const typename Dict::Ptr\& | [Dictionary](../../dictionary/) pointer to hold. |
+| dict | const typename Dict::Ptr& | [Dictionary](../../dictionary/) pointer to hold. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: XmlDsigExcC14NTransform()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigExcC14NTransform::XmlDsigExcC14NTransform() constructor"
 type: docs
 weight: 53
 url: /system.security.cryptography.xml/xmldsigexcc14ntransform/xmldsigexcc14ntransform/

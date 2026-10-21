@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/fileinfo/fileinfo/
 ---
-## FileInfo::FileInfo(const String\&) constructor
+## FileInfo::FileInfo(const String&) constructor
 
 
 Constructs a new instance of [FileInfo](../) class that represents the specified file.
@@ -20,7 +20,7 @@ System::IO::FileInfo::FileInfo(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to the file |
+| path | const [String](../../../system/string/)& | The path to the file |
 
 ## See Also
 

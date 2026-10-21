@@ -6,7 +6,7 @@ type: docs
 weight: 2783
 url: /system/isinfinity/
 ---
-## System::IsInfinity(const T\&) function
+## System::IsInfinity(const T&) function
 
 
 Determines if the specified value represents infinity.
@@ -26,7 +26,7 @@ template<typename T> bool System::IsInfinity(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to check |
+| value | const T& | The value to check |
 
 ### Return Value
 

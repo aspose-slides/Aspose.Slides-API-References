@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /aspose.slides.charts/piesplitcustompointcollection/contains/
 ---
-## PieSplitCustomPointCollection::Contains(const System::SharedPtr\<IChartDataPoint\>\&) const method
+## PieSplitCustomPointCollection::Contains(const System::SharedPtr\<IChartDataPoint\>&) const method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.
@@ -20,7 +20,7 @@ bool Aspose::Slides::Charts::PieSplitCustomPointCollection::Contains(const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\& | The object to locate in the [ICollection](../../../system.collections.generic/icollection/). |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>& | The object to locate in the [ICollection](../../../system.collections.generic/icollection/). |
 
 ### Return Value
 

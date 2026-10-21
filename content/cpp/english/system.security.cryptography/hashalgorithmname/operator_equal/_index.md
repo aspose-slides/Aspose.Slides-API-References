@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HashAlgorithmName::operator=() method"
 type: docs
 weight: 118
 url: /system.security.cryptography/hashalgorithmname/operator_equal/
 ---
-## HashAlgorithmName::operator=(const HashAlgorithmName\&) method
+## HashAlgorithmName::operator=(const HashAlgorithmName&) method
 
 
 

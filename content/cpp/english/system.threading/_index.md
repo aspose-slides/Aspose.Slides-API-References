@@ -1,7 +1,7 @@
 ---
 title: "System::Threading"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Threading namespace"
 type: docs
 weight: 1015
 url: /system.threading/

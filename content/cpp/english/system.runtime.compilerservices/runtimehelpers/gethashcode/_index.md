@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.compilerservices/runtimehelpers/gethashcode/
 ---
-## RuntimeHelpers::GetHashCode(SmartPtr\<T\> const\&) method
+## RuntimeHelpers::GetHashCode(SmartPtr\<T\> const&) method
 
 
 Gets hash code on arbitrary type. Calls [Object::GetHashCode()](../../../system/object/gethashcode/) to do so.
@@ -26,7 +26,7 @@ template<typename T> static int System::Runtime::CompilerServices::RuntimeHelper
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../../../system/smartptr/)\<T\> const\& | [Object](../../../system/object/) to get information from. |
+| obj | [SmartPtr](../../../system/smartptr/)\<T\> const& | [Object](../../../system/object/) to get information from. |
 
 ### Return Value
 

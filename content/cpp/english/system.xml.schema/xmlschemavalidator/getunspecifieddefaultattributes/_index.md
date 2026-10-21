@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.xml.schema/xmlschemavalidator/getunspecifieddefaultattributes/
 ---
-## XmlSchemaValidator::GetUnspecifiedDefaultAttributes(const SharedPtr\<Collections::Generic::List\<SharedPtr\<Object\>\>\>\&) method
+## XmlSchemaValidator::GetUnspecifiedDefaultAttributes(const SharedPtr\<Collections::Generic::List\<SharedPtr\<Object\>\>\>&) method
 
 
 Validates identity constraints on the default attributes and populates the List specified with [XmlSchemaAttribute](../../xmlschemaattribute/) objects for any attributes with default values that have not been previously validated using the [XmlSchemaValidator::ValidateAttribute](../validateattribute/) method in the element context.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaValidator::GetUnspecifiedDefaultAttributes(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| defaultAttributes | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::List](../../../system.collections.generic/list/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\>\& | A List to populate with [XmlSchemaAttribute](../../xmlschemaattribute/) objects for any attributes not yet encountered during validation in the element context. |
+| defaultAttributes | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::List](../../../system.collections.generic/list/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\>& | A List to populate with [XmlSchemaAttribute](../../xmlschemaattribute/) objects for any attributes not yet encountered during validation in the element context. |
 
 ## See Also
 

@@ -20,6 +20,14 @@ bool System::Xml::XPath::XPathNavigator::get_ValueAsBoolean() override
 
 The current node's value as a [Boolean](../../../system/boolean/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's string value cannot be converted to a [Boolean](../../../system/boolean/). |
+| InvalidCastException | The attempted cast to [Boolean](../../../system/boolean/) is not valid. |
+
+
 ## See Also
 
 * Class [XPathNavigator](../)

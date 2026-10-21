@@ -16,6 +16,13 @@ int System::Drawing::Printing::PrinterSettings::get_FromPage()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [PrinterSettings](../)

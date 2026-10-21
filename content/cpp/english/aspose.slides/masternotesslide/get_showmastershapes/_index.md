@@ -16,6 +16,13 @@ bool Aspose::Slides::MasterNotesSlide::get_ShowMasterShapes() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotSupportedException](../../../system/notsupportedexception/) | Thrown if set **true** for master slide. |
+
+
 ## See Also
 
 * Class [MasterNotesSlide](../)

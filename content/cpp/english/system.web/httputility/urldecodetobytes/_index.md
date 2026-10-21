@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.web/httputility/urldecodetobytes/
 ---
-## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>\&) method
+## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>&) method
 
 
 Decodes URI fragment from bytes array.
@@ -20,13 +20,13 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Encoded URI fragment. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Encoded URI fragment. |
 
 ### Return Value
 
 Decoded URI fragment.
 
-## HttpUtility::UrlDecodeToBytes(const String\&) method
+## HttpUtility::UrlDecodeToBytes(const String&) method
 
 
 Decodes URI fragment from bytes string.
@@ -40,13 +40,13 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Encoded URI fragment. |
+| str | const [String](../../../system/string/)& | Encoded URI fragment. |
 
 ### Return Value
 
 Decoded URI fragment.
 
-## HttpUtility::UrlDecodeToBytes(const String\&, const System::SharedPtr\<Text::Encoding\>\&) method
+## HttpUtility::UrlDecodeToBytes(const String&, const System::SharedPtr\<Text::Encoding\>&) method
 
 
 Decodes URI fragment from string.
@@ -60,14 +60,14 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Encoded URI fragment. |
-| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | Encoding to use. |
+| str | const [String](../../../system/string/)& | Encoded URI fragment. |
+| e | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | Encoding to use. |
 
 ### Return Value
 
 Decoded URI fragment.
 
-## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Decodes URI fragment from bytes array.
@@ -81,7 +81,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Encoded URI fragment. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Encoded URI fragment. |
 | offset | **int32_t** | Offset in the given byte array. |
 | count | **int32_t** | Number of bytes to read from. |
 

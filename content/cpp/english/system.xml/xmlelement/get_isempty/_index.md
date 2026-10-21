@@ -18,7 +18,7 @@ bool System::Xml::XmlElement::get_IsEmpty()
 
 ### Return Value
 
-**true** if the element is to be serialized in the short tag format \"<tt><item/></tt>\"; **false** for the long format \"<tt><item></item></tt>\".
+**true** if the element is to be serialized in the short tag format "\<tt\>\<item/\>\</tt\>"; **false** for the long format "\<tt\>\<item\>\</item\>\</tt\>".
 
 ## See Also
 

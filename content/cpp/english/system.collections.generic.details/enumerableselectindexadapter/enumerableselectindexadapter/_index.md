@@ -1,12 +1,12 @@
 ---
 title: EnumerableSelectIndexAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumerableSelectIndexAdapter::EnumerableSelectIndexAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumerableselectindexadapter/enumerableselectindexadapter/
 ---
-## EnumerableSelectIndexAdapter::EnumerableSelectIndexAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, int32_t, Result\>\&) constructor
+## EnumerableSelectIndexAdapter::EnumerableSelectIndexAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, int32_t, Result\>&) constructor
 
 
 

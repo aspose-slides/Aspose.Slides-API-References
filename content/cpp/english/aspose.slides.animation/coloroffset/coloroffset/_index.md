@@ -1,7 +1,7 @@
 ---
 title: ColorOffset()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ColorOffset::ColorOffset() constructor"
 type: docs
 weight: 79
 url: /aspose.slides.animation/coloroffset/coloroffset/

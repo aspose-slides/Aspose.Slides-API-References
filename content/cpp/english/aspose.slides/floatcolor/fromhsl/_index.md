@@ -1,7 +1,7 @@
 ---
 title: FromHSL()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FloatColor::FromHSL() method"
 type: docs
 weight: 66
 url: /aspose.slides/floatcolor/fromhsl/

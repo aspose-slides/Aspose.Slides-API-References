@@ -206,7 +206,7 @@ static String System::Convert::ToString(double value)
 
 The string representation of the specified value
 
-## Convert::ToString(const Decimal\&) method
+## Convert::ToString(const Decimal&) method
 
 
 Converts the specified value to its string representation.
@@ -220,7 +220,7 @@ static String System::Convert::ToString(const Decimal &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../decimal/)\& | The value to convert. |
+| value | const [Decimal](../../decimal/)& | The value to convert. |
 
 ### Return Value
 
@@ -246,7 +246,7 @@ static String System::Convert::ToString(DateTime value)
 
 The string representation of the specified value.
 
-## Convert::ToString(int8_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -261,13 +261,13 @@ static String System::Convert::ToString(int8_t value, const SharedPtr<IFormatPro
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int8_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int8_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -276,7 +276,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int8_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int8_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -294,7 +294,7 @@ static String System::Convert::ToString(int8_t value, const SharedPtr<Globalizat
 static String System::Convert::ToString(int8_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(uint8_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -309,13 +309,13 @@ static String System::Convert::ToString(uint8_t value, const SharedPtr<IFormatPr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint8_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint8_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -324,7 +324,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint8_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint8_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -342,7 +342,7 @@ static String System::Convert::ToString(uint8_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(uint8_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(int16_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -357,13 +357,13 @@ static String System::Convert::ToString(int16_t value, const SharedPtr<IFormatPr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int16_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int16_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -372,7 +372,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int16_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int16_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -390,7 +390,7 @@ static String System::Convert::ToString(int16_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int16_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(uint16_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -405,13 +405,13 @@ static String System::Convert::ToString(uint16_t value, const SharedPtr<IFormatP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint16_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint16_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -420,7 +420,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint16_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint16_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -438,7 +438,7 @@ static String System::Convert::ToString(uint16_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint16_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(int32_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -453,13 +453,13 @@ static String System::Convert::ToString(int32_t value, const SharedPtr<IFormatPr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int32_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int32_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -468,7 +468,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int32_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int32_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -486,7 +486,7 @@ static String System::Convert::ToString(int32_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int32_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(uint32_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -501,13 +501,13 @@ static String System::Convert::ToString(uint32_t value, const SharedPtr<IFormatP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint32_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint32_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -516,7 +516,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint32_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint32_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -534,7 +534,7 @@ static String System::Convert::ToString(uint32_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint32_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(int64_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -549,13 +549,13 @@ static String System::Convert::ToString(int64_t value, const SharedPtr<IFormatPr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int64_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int64_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -564,7 +564,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int64_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int64_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -582,7 +582,7 @@ static String System::Convert::ToString(int64_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int64_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(uint64_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -597,13 +597,13 @@ static String System::Convert::ToString(uint64_t value, const SharedPtr<IFormatP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint64_t** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint64_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -612,7 +612,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint64_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint64_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -630,7 +630,7 @@ static String System::Convert::ToString(uint64_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint64_t value, std::nullptr_t)
 ```
 
-## Convert::ToString(float, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(float, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -645,13 +645,13 @@ static String System::Convert::ToString(float value, const SharedPtr<IFormatProv
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **float** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(float, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(float, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -660,7 +660,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(float value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(float, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(float, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -678,7 +678,7 @@ static String System::Convert::ToString(float value, const SharedPtr<Globalizati
 static String System::Convert::ToString(float value, std::nullptr_t)
 ```
 
-## Convert::ToString(double, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(double, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -693,13 +693,13 @@ static String System::Convert::ToString(double value, const SharedPtr<IFormatPro
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **double** | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(double, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(double, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -708,7 +708,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(double value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(double, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(double, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -726,7 +726,7 @@ static String System::Convert::ToString(double value, const SharedPtr<Globalizat
 static String System::Convert::ToString(double value, std::nullptr_t)
 ```
 
-## Convert::ToString(const Decimal\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(const Decimal&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -740,14 +740,14 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<IF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../decimal/)\& | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| value | const [Decimal](../../decimal/)& | The value to convert. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(const Decimal\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(const Decimal&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -756,7 +756,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(const Decimal &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(const Decimal\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(const Decimal&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -765,7 +765,7 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<Gl
 static String System::Convert::ToString(const Decimal &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(const Decimal\&, std::nullptr_t) method
+## Convert::ToString(const Decimal&, std::nullptr_t) method
 
 
 
@@ -774,7 +774,7 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<Gl
 static String System::Convert::ToString(const Decimal &value, std::nullptr_t)
 ```
 
-## Convert::ToString(DateTime, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -789,13 +789,13 @@ static String System::Convert::ToString(DateTime value, const SharedPtr<IFormatP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTime](../../datetime/) | The value to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(DateTime, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -804,7 +804,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(DateTime value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(DateTime, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<Globalization::DateTimeFormatInfo\>&) method
 
 
 
@@ -822,7 +822,7 @@ static String System::Convert::ToString(DateTime value, const SharedPtr<Globaliz
 static String System::Convert::ToString(DateTime value, std::nullptr_t)
 ```
 
-## Convert::ToString(int8_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int8_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -837,14 +837,14 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int8_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int8_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int8_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -853,7 +853,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int8_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int8_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int8_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -862,7 +862,7 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 static String System::Convert::ToString(int8_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(int8_t, const String\&, std::nullptr_t) method
+## Convert::ToString(int8_t, const String&, std::nullptr_t) method
 
 
 
@@ -871,7 +871,7 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 static String System::Convert::ToString(int8_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(uint8_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint8_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -886,14 +886,14 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint8_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint8_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint8_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -902,7 +902,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint8_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint8_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint8_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -911,7 +911,7 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 static String System::Convert::ToString(uint8_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(uint8_t, const String\&, std::nullptr_t) method
+## Convert::ToString(uint8_t, const String&, std::nullptr_t) method
 
 
 
@@ -920,7 +920,7 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 static String System::Convert::ToString(uint8_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(int16_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int16_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -935,14 +935,14 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int16_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int16_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int16_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -951,7 +951,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int16_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int16_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int16_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -960,7 +960,7 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 static String System::Convert::ToString(int16_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(int16_t, const String\&, std::nullptr_t) method
+## Convert::ToString(int16_t, const String&, std::nullptr_t) method
 
 
 
@@ -969,7 +969,7 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 static String System::Convert::ToString(int16_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(uint16_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint16_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -984,14 +984,14 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint16_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint16_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint16_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1000,7 +1000,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint16_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint16_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint16_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1009,7 +1009,7 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 static String System::Convert::ToString(uint16_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(uint16_t, const String\&, std::nullptr_t) method
+## Convert::ToString(uint16_t, const String&, std::nullptr_t) method
 
 
 
@@ -1018,7 +1018,7 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 static String System::Convert::ToString(uint16_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(int32_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int32_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1033,14 +1033,14 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int32_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int32_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int32_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1049,7 +1049,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int32_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int32_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int32_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1058,7 +1058,7 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 static String System::Convert::ToString(int32_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(int32_t, const String\&, std::nullptr_t) method
+## Convert::ToString(int32_t, const String&, std::nullptr_t) method
 
 
 
@@ -1067,7 +1067,7 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 static String System::Convert::ToString(int32_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(uint32_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint32_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1082,14 +1082,14 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint32_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint32_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint32_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1098,7 +1098,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint32_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint32_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint32_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1107,7 +1107,7 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 static String System::Convert::ToString(uint32_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(uint32_t, const String\&, std::nullptr_t) method
+## Convert::ToString(uint32_t, const String&, std::nullptr_t) method
 
 
 
@@ -1116,7 +1116,7 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 static String System::Convert::ToString(uint32_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(int64_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(int64_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1131,14 +1131,14 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int64_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(int64_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(int64_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1147,7 +1147,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int64_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(int64_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(int64_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1156,7 +1156,7 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 static String System::Convert::ToString(int64_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(int64_t, const String\&, std::nullptr_t) method
+## Convert::ToString(int64_t, const String&, std::nullptr_t) method
 
 
 
@@ -1165,7 +1165,7 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 static String System::Convert::ToString(int64_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(uint64_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(uint64_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1180,14 +1180,14 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **uint64_t** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(uint64_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(uint64_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1196,7 +1196,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint64_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(uint64_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(uint64_t, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1205,7 +1205,7 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 static String System::Convert::ToString(uint64_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(uint64_t, const String\&, std::nullptr_t) method
+## Convert::ToString(uint64_t, const String&, std::nullptr_t) method
 
 
 
@@ -1214,7 +1214,7 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 static String System::Convert::ToString(uint64_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(float, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(float, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1229,14 +1229,14 @@ static String System::Convert::ToString(float value, const String &format, const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **float** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(float, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(float, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1245,7 +1245,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(float value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(float, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(float, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1254,7 +1254,7 @@ static String System::Convert::ToString(float value, const String &format, const
 static String System::Convert::ToString(float value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(float, const String\&, std::nullptr_t) method
+## Convert::ToString(float, const String&, std::nullptr_t) method
 
 
 
@@ -1263,7 +1263,7 @@ static String System::Convert::ToString(float value, const String &format, const
 static String System::Convert::ToString(float value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(double, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(double, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1278,14 +1278,14 @@ static String System::Convert::ToString(double value, const String &format, cons
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **double** | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(double, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(double, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1294,7 +1294,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(double value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(double, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(double, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1303,7 +1303,7 @@ static String System::Convert::ToString(double value, const String &format, cons
 static String System::Convert::ToString(double value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(double, const String\&, std::nullptr_t) method
+## Convert::ToString(double, const String&, std::nullptr_t) method
 
 
 
@@ -1312,7 +1312,7 @@ static String System::Convert::ToString(double value, const String &format, cons
 static String System::Convert::ToString(double value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(const Decimal&, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1326,15 +1326,15 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../decimal/)\& | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| value | const [Decimal](../../decimal/)& | The value to convert. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(const Decimal&, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1343,7 +1343,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(const Decimal &value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(const Decimal&, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1352,7 +1352,7 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 static String System::Convert::ToString(const Decimal &value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(const Decimal\&, const String\&, std::nullptr_t) method
+## Convert::ToString(const Decimal&, const String&, std::nullptr_t) method
 
 
 
@@ -1361,7 +1361,7 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 static String System::Convert::ToString(const Decimal &value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(DateTime, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(DateTime, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1376,14 +1376,14 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTime](../../datetime/) | The value to convert. |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the specified value.
 
-## Convert::ToString(DateTime, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(DateTime, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1392,7 +1392,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(DateTime value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToString(DateTime, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(DateTime, const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -1401,7 +1401,7 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 static String System::Convert::ToString(DateTime value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToString(DateTime, const String\&, std::nullptr_t) method
+## Convert::ToString(DateTime, const String&, std::nullptr_t) method
 
 
 
@@ -1410,7 +1410,7 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 static String System::Convert::ToString(DateTime value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(const Guid\&) method
+## Convert::ToString(const Guid&) method
 
 
 Converts the specified value to string.
@@ -1424,13 +1424,13 @@ static String System::Convert::ToString(const Guid &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Guid](../../guid/)\& | The value to convert |
+| value | const [Guid](../../guid/)& | The value to convert |
 
 ### Return Value
 
 The string representation of the specified value
 
-## Convert::ToString(const Guid\&, const String\&) method
+## Convert::ToString(const Guid&, const String&) method
 
 
 Converts the specified value to string using the specified string format.
@@ -1444,8 +1444,8 @@ static String System::Convert::ToString(const Guid &value, const String &format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Guid](../../guid/)\& | The value to convert |
-| format | const [String](../../string/)\& | The string format. |
+| value | const [Guid](../../guid/)& | The value to convert |
+| format | const [String](../../string/)& | The string format. |
 
 ### Return Value
 
@@ -1477,7 +1477,7 @@ template<size_t> static String System::Convert::ToString(const char_t(&value)[N]
 
 The string representation of the specified array.
 
-## Convert::ToString(const char_t(&), const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(const char_t(&), const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified array of unicode characters to string using the specified culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1503,7 +1503,7 @@ template<size_t> static String System::Convert::ToString(const char_t(&value)[N]
 
 The string representation of the specified array.
 
-## Convert::ToString(const char_t(&), const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(const char_t(&), const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -1512,7 +1512,7 @@ The string representation of the specified array.
 template<size_t> static String System::Convert::ToString(const char_t(&value)[N], const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## Convert::ToString(const String\&, std::nullptr_t) method
+## Convert::ToString(const String&, std::nullptr_t) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1521,7 +1521,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1530,7 +1530,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, const SharedPtr<IFormatProvider> &)
 ```
 
-## Convert::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1539,7 +1539,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## Convert::ToString(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1557,7 +1557,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToString(char_t, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(char_t, const SharedPtr\<IFormatProvider\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1566,7 +1566,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const SharedPtr<IFormatProvider> &)
 ```
 
-## Convert::ToString(char_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(char_t, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1575,7 +1575,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## Convert::ToString(char_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(char_t, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1584,7 +1584,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const String &, const SharedPtr<IFormatProvider> &)
 ```
 
-## Convert::ToString(char_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(char_t, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1593,7 +1593,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const String &, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## Convert::ToString(char_t, const String\&, std::nullptr_t) method
+## Convert::ToString(char_t, const String&, std::nullptr_t) method
 
 
 Returns the specified value; no conversion is performed.
@@ -1622,7 +1622,7 @@ static String System::Convert::ToString(bool value, std::nullptr_t=nullptr)
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(bool, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation.
@@ -1642,7 +1642,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<IFormatProvi
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(bool, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Converts the specified value to its string representation.
@@ -1662,7 +1662,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<Globalizatio
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToString(bool, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 Converts the specified value to its string representation.
@@ -1682,7 +1682,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<Globalizatio
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(bool, const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified value to its string representation.
@@ -1702,7 +1702,7 @@ static String System::Convert::ToString(bool value, const String &, const Shared
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToString(bool, const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Converts the specified value to its string representation.
@@ -1722,7 +1722,7 @@ static String System::Convert::ToString(bool value, const String &, const Shared
 
 The string representation of the specified value
 
-## Convert::ToString(bool, const String\&, std::nullptr_t) method
+## Convert::ToString(bool, const String&, std::nullptr_t) method
 
 
 Converts the specified value to its string representation.
@@ -1853,7 +1853,7 @@ static String System::Convert::ToString(uint16_t value, int to_base)
 static String System::Convert::ToString(uint32_t value, int to_base)
 ```
 
-## Convert::ToString(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToString(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to its string representation. If the type of boxed value is [String](../../string/), the specified string format is used during conversion.
@@ -1867,8 +1867,8 @@ static String System::Convert::ToString(const SharedPtr<Object> &obj, const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

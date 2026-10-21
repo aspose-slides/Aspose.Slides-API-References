@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Delegate< ReturnType(ArgumentTypes...)>::operator=() method"
 type: docs
 weight: 14
 url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_equal/
 ---
-## Delegate< ReturnType(ArgumentTypes...)>::operator=(const Delegate\&) method
+## Delegate\< ReturnType(ArgumentTypes...)\>::operator=(const Delegate&) method
 
 
 
@@ -15,7 +15,7 @@ url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl
 Delegate & System::Delegate<ReturnType(ArgumentTypes...)>::operator=(const Delegate &)=default
 ```
 
-## Delegate< ReturnType(ArgumentTypes...)>::operator=(Delegate\&&) method
+## Delegate\< ReturnType(ArgumentTypes...)\>::operator=(Delegate&&) method
 
 
 Moving assignment operator. Takes the ownership of an entity pointed to by the specified delegate.
@@ -29,7 +29,7 @@ Delegate & System::Delegate<ReturnType(ArgumentTypes...)>::operator=(Delegate &&
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| o | [Delegate](../delegate/)\&& | The Delegate object to move the pointed to entity from |
+| o | [Delegate](../delegate/)&& | The Delegate object to move the pointed to entity from |
 
 ### Return Value
 
@@ -38,6 +38,6 @@ A reference to the self
 ## See Also
 
 * Method [Delegate](../delegate/)
-* Class [Delegate< ReturnType(ArgumentTypes...)>](../)
+* Class [Delegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

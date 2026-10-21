@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.drawing.drawing2d/graphicspath/addline/
 ---
-## GraphicsPath::AddLine(const Point\&, const Point\&) method
+## GraphicsPath::AddLine(const Point&, const Point&) method
 
 
 Adds the specified line to the path represented by the current object.
@@ -20,10 +20,10 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(const Point &pt1, const P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pt1 | const [Point](../../../system.drawing/point/)\& | The starting point of the line to add |
-| pt2 | const [Point](../../../system.drawing/point/)\& | The ending point of the line to add |
+| pt1 | const [Point](../../../system.drawing/point/)& | The starting point of the line to add |
+| pt2 | const [Point](../../../system.drawing/point/)& | The ending point of the line to add |
 
-## GraphicsPath::AddLine(const PointF\&, const PointF\&) method
+## GraphicsPath::AddLine(const PointF&, const PointF&) method
 
 
 Adds the specified line to the path represented by the current object.
@@ -37,8 +37,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(const PointF &pt1, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pt1 | const [PointF](../../../system.drawing/pointf/)\& | The starting point of the line to add |
-| pt2 | const [PointF](../../../system.drawing/pointf/)\& | The ending point of the line to add |
+| pt1 | const [PointF](../../../system.drawing/pointf/)& | The starting point of the line to add |
+| pt2 | const [PointF](../../../system.drawing/pointf/)& | The ending point of the line to add |
 
 ## GraphicsPath::AddLine(int, int, int, int) method
 

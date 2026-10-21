@@ -6,7 +6,7 @@ type: docs
 weight: 2445
 url: /system/makeyieldenumerable/
 ---
-## System::MakeYieldEnumerable(const Details::YieldFunction\<T\>\&) function
+## System::MakeYieldEnumerable(const Details::YieldFunction\<T\>&) function
 
 
 Creates an IEnumerable from a yield function.
@@ -26,7 +26,7 @@ template<typename T> SharedPtr<Collections::Generic::IEnumerable<T>> System::Mak
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fnc | const Details::YieldFunction\<T\>\& | The yield function to execute |
+| fnc | const Details::YieldFunction\<T\>& | The yield function to execute |
 
 ### Return Value
 

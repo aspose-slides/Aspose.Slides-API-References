@@ -20,7 +20,7 @@ static SharedPtr<AsymmetricAlgorithm> System::Security::Cryptography::Asymmetric
 
 Algorithm object.
 
-## AsymmetricAlgorithm::Create(const String\&) method
+## AsymmetricAlgorithm::Create(const String&) method
 
 
 Creates algorithm by name. Not implemented.
@@ -34,7 +34,7 @@ static SharedPtr<AsymmetricAlgorithm> System::Security::Cryptography::Asymmetric
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alg_name | const [String](../../../system/string/)\& | Algorithm name. |
+| alg_name | const [String](../../../system/string/)& | Algorithm name. |
 
 ### Return Value
 

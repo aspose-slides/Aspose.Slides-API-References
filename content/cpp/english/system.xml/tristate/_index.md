@@ -1,7 +1,7 @@
 ---
 title: TriState
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: TriState enum
 type: docs
 weight: 872
 url: /system.xml/tristate/

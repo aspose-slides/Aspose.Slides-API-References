@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.memoryextensions/copyto/
 ---
-## System::MemoryExtensions::CopyTo(const ArrayPtr\<T\>\&, Span\<T\>\&) function
+## System::MemoryExtensions::CopyTo(const ArrayPtr\<T\>&, Span\<T\>&) function
 
 
 Copies elements from an array to a span.
@@ -26,8 +26,8 @@ template<typename T> void System::MemoryExtensions::CopyTo(const ArrayPtr<T> &so
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [ArrayPtr](../../system/arrayptr/)\<T\>\& | The source array |
-| destination | [Span](../../system/span/)\<T\>\& | The destination span |
+| source | const [ArrayPtr](../../system/arrayptr/)\<T\>& | The source array |
+| destination | [Span](../../system/span/)\<T\>& | The destination span |
 
 ## See Also
 

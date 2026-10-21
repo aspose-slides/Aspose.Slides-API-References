@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system/smartptr/operator_less/
 ---
-## SmartPtr::operator<(Y *) const method
+## SmartPtr::operator\<(Y \*) const method
 
 
 Provides less-compare semantics for [SmartPtr](../) class.
@@ -26,13 +26,13 @@ template<class Y> bool System::SmartPtr<T>::operator<(Y *p) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | Y * | Pointer to compare current one to. |
+| p | Y \* | Pointer to compare current one to. |
 
 ### Return Value
 
 True if the object referenced by [SmartPtr](../) is 'less' than p and false otherwise.
 
-## SmartPtr::operator<(SmartPtr\<Y\> const\&) const method
+## SmartPtr::operator\<(SmartPtr\<Y\> const&) const method
 
 
 Provides less-compare semantics for [SmartPtr](../) class.
@@ -52,7 +52,7 @@ template<class Y> bool System::SmartPtr<T>::operator<(SmartPtr<Y> const &x) cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr](../)\<Y\> const\& | Pointer to compare current one to. |
+| x | [SmartPtr](../)\<Y\> const& | Pointer to compare current one to. |
 
 ### Return Value
 

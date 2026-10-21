@@ -15,7 +15,7 @@ Returns the string representation of the time interval represented by the curren
 String System::TimeSpan::ToString() const
 ```
 
-## TimeSpan::ToString(const String\&) const method
+## TimeSpan::ToString(const String&) const method
 
 
 Converts the value of the current object to equivalent string representation, using the specified format.
@@ -24,7 +24,7 @@ Converts the value of the current object to equivalent string representation, us
 String System::TimeSpan::ToString(const String &format) const
 ```
 
-## TimeSpan::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
+## TimeSpan::ToString(const String&, const SharedPtr\<IFormatProvider\>&) const method
 
 
 Converts the value of the current object to equivalent string representation, using the specified format and format provider.
@@ -33,7 +33,7 @@ Converts the value of the current object to equivalent string representation, us
 String System::TimeSpan::ToString(const String &format, const SharedPtr<IFormatProvider> &provider) const
 ```
 
-## TimeSpan::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## TimeSpan::ToString(const String&, const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 
@@ -42,7 +42,7 @@ String System::TimeSpan::ToString(const String &format, const SharedPtr<IFormatP
 String System::TimeSpan::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## TimeSpan::ToString(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
+## TimeSpan::ToString(const String&, const SharedPtr\<Globalization::DateTimeFormatInfo\>&) const method
 
 
 
@@ -51,7 +51,7 @@ String System::TimeSpan::ToString(const String &format, const SharedPtr<Globaliz
 String System::TimeSpan::ToString(const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi) const
 ```
 
-## TimeSpan::ToString(const String\&, std::nullptr_t) const method
+## TimeSpan::ToString(const String&, std::nullptr_t) const method
 
 
 

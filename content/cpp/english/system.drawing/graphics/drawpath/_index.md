@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /system.drawing/graphics/drawpath/
 ---
-## Graphics::DrawPath(const SharedPtr\<Pen\>\&, const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
+## Graphics::DrawPath(const SharedPtr\<Pen\>&, const SharedPtr\<Drawing2D::GraphicsPath\>&) method
 
 
 Draws the specified path using the specified pen.
@@ -20,8 +20,8 @@ void System::Drawing::Graphics::DrawPath(const SharedPtr<Pen> &pen, const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A [Pen](../../pen/) object to use for drawing |
-| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A graphics path to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A [Pen](../../pen/) object to use for drawing |
+| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>& | A graphics path to draw |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: const_reverse_iterator
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: const_reverse_iterator typedef
 type: docs
 weight: 326
 url: /system.collections.objectmodel/collection/const_reverse_iterator/

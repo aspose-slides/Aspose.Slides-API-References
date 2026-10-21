@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.io/path/normalizepath/
 ---
-## Path::NormalizePath(const String\&) method
+## Path::NormalizePath(const String&) method
 
 
 Normalizes the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Path::NormalizePath(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to normalize |
+| path | const [String](../../../system/string/)& | A path to normalize |
 
 ### Return Value
 

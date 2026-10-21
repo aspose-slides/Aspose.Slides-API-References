@@ -1,7 +1,7 @@
 ---
 title: get_Key()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IGrouping::get_Key() method"
 type: docs
 weight: 1
 url: /system.linq/igrouping/get_key/

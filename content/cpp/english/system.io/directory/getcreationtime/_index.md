@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.io/directory/getcreationtime/
 ---
-## Directory::GetCreationTime(const String\&) method
+## Directory::GetCreationTime(const String&) method
 
 
 Returns the creation time of the specified entity as local time.
@@ -20,7 +20,7 @@ static DateTime System::IO::Directory::GetCreationTime(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose creating time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose creating time to retrieve |
 
 ### Return Value
 

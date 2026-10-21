@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.xml/xmlparsercontext/xmlparsercontext/
 ---
-## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, System::Xml::XmlSpace) constructor
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>&, const SharedPtr\<XmlNamespaceManager\>&, const String&, System::Xml::XmlSpace) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), **xml:lang**, and **xml:space** values.
@@ -20,12 +20,19 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
-| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
-| xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
+| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
+| xmlLang | const [String](../../../system/string/)& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
 
-## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **nt** is not the same [XmlNameTable](../../xmlnametable/) used to construct **nsMgr**. |
+
+
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>&, const SharedPtr\<XmlNamespaceManager\>&, const String&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>&) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), **xml:lang**, **xml:space**, and encoding.
@@ -39,13 +46,20 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information on atomized strings, see [XmlNameTable](../../xmlnametable/). |
-| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
-| xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information on atomized strings, see [XmlNameTable](../../xmlnametable/). |
+| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
+| xmlLang | const [String](../../../system/string/)& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
-| enc | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\& | An Encoding object indicating the encoding setting. |
+| enc | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>& | An Encoding object indicating the encoding setting. |
 
-## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, const String\&, const String\&, const String\&, const String\&, const String\&, System::Xml::XmlSpace) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **nt** is not the same [XmlNameTable](../../xmlnametable/) used to construct **nsMgr**. |
+
+
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>&, const SharedPtr\<XmlNamespaceManager\>&, const String&, const String&, const String&, const String&, const String&, const String&, System::Xml::XmlSpace) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), base URI, **xml:lang**, **xml:space**, and document type values.
@@ -59,17 +73,24 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
-| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
-| docTypeName | const [String](../../../system/string/)\& | The name of the document type declaration. |
-| pubId | const [String](../../../system/string/)\& | The public identifier. |
-| sysId | const [String](../../../system/string/)\& | The system identifier. |
-| internalSubset | const [String](../../../system/string/)\& | The internal DTD subset. The DTD subset is used for entity resolution, not for document validation. |
-| baseURI | const [String](../../../system/string/)\& | The base URI for the XML fragment (the location from which the fragment was loaded). |
-| xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
+| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
+| docTypeName | const [String](../../../system/string/)& | The name of the document type declaration. |
+| pubId | const [String](../../../system/string/)& | The public identifier. |
+| sysId | const [String](../../../system/string/)& | The system identifier. |
+| internalSubset | const [String](../../../system/string/)& | The internal DTD subset. The DTD subset is used for entity resolution, not for document validation. |
+| baseURI | const [String](../../../system/string/)& | The base URI for the XML fragment (the location from which the fragment was loaded). |
+| xmlLang | const [String](../../../system/string/)& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
 
-## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, const String\&, const String\&, const String\&, const String\&, const String\&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **nt** is not the same [XmlNameTable](../../xmlnametable/) used to construct **nsMgr**. |
+
+
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>&, const SharedPtr\<XmlNamespaceManager\>&, const String&, const String&, const String&, const String&, const String&, const String&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>&) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), base URI, **xml:lang**, **xml:space**, encoding, and document type values.
@@ -83,16 +104,23 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
-| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
-| docTypeName | const [String](../../../system/string/)\& | The name of the document type declaration. |
-| pubId | const [String](../../../system/string/)\& | The public identifier. |
-| sysId | const [String](../../../system/string/)\& | The system identifier. |
-| internalSubset | const [String](../../../system/string/)\& | The internal DTD subset. The DTD is used for entity resolution, not for document validation. |
-| baseURI | const [String](../../../system/string/)\& | The base URI for the XML fragment (the location from which the fragment was loaded). |
-| xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The [XmlNameTable](../../xmlnametable/) to use to atomize strings. If this is **nullptr**, the name table used to construct the **nsMgr** is used instead. For more information about atomized strings, see [XmlNameTable](../../xmlnametable/). |
+| nsMgr | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../xmlnamespacemanager/) to use for looking up namespace information, or **nullptr**. |
+| docTypeName | const [String](../../../system/string/)& | The name of the document type declaration. |
+| pubId | const [String](../../../system/string/)& | The public identifier. |
+| sysId | const [String](../../../system/string/)& | The system identifier. |
+| internalSubset | const [String](../../../system/string/)& | The internal DTD subset. The DTD is used for entity resolution, not for document validation. |
+| baseURI | const [String](../../../system/string/)& | The base URI for the XML fragment (the location from which the fragment was loaded). |
+| xmlLang | const [String](../../../system/string/)& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
-| enc | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\& | An Encoding object indicating the encoding setting. |
+| enc | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>& | An Encoding object indicating the encoding setting. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | **nt** is not the same [XmlNameTable](../../xmlnametable/) used to construct **nsMgr**. |
+
 
 ## See Also
 

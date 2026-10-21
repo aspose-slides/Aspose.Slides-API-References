@@ -26,6 +26,13 @@ virtual bool System::Xml::XmlReader::MoveToAttribute(String name)=0
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The parameter is an empty string. |
+
+
 ## XmlReader::MoveToAttribute(String, String) method
 
 
@@ -47,6 +54,13 @@ virtual bool System::Xml::XmlReader::MoveToAttribute(String name, String ns)=0
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | Both parameter values are **nullptr**. |
+
+
 ## XmlReader::MoveToAttribute(int32_t) method
 
 
@@ -62,6 +76,13 @@ virtual void System::Xml::XmlReader::MoveToAttribute(int32_t i)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | i | **int32_t** | The index of the attribute. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | The parameter has a negative value. |
+
 
 ## See Also
 

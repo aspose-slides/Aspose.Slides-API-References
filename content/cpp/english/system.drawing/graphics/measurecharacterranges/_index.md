@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /system.drawing/graphics/measurecharacterranges/
 ---
-## Graphics::MeasureCharacterRanges(const System::String\&, const SharedPtr\<Font\>\&, RectangleF, const SharedPtr\<StringFormat\>\&) method
+## Graphics::MeasureCharacterRanges(const System::String&, const SharedPtr\<Font\>&, RectangleF, const SharedPtr\<StringFormat\>&) method
 
 
 Returns an array of regions each of which bounds character positions in the specified string.
@@ -20,10 +20,10 @@ ArrayPtr<SharedPtr<Region>> System::Drawing::Graphics::MeasureCharacterRanges(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [System::String](../../../system/string/)\& | The string to measure |
-| font | const [SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\>\& | The font used during the measurement of the string |
+| text | const [System::String](../../../system/string/)& | The string to measure |
+| font | const [SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\>& | The font used during the measurement of the string |
 | layoutRect | [RectangleF](../../rectanglef/) | The layout rectangle used during the measurement of the string |
-| stringFormat | const [SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\>\& | The string format, contaions the character ranges to measure |
+| stringFormat | const [SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\>& | The string format, contaions the character ranges to measure |
 
 ## See Also
 

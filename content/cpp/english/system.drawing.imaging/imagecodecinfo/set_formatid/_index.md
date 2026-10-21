@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.drawing.imaging/imagecodecinfo/set_formatid/
 ---
-## ImageCodecInfo::set_FormatID(const Guid\&) method
+## ImageCodecInfo::set_FormatID(const Guid&) method
 
 
 Sets a GUID associated with the format of the codec represented by the current object.
@@ -20,7 +20,7 @@ void System::Drawing::Imaging::ImageCodecInfo::set_FormatID(const Guid &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Guid](../../../system/guid/)\& | The value to set |
+| value | const [Guid](../../../system/guid/)& | The value to set |
 
 ## See Also
 

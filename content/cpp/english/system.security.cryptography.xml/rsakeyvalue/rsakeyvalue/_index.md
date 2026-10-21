@@ -1,7 +1,7 @@
 ---
 title: RSAKeyValue()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "RSAKeyValue::RSAKeyValue() constructor"
 type: docs
 weight: 27
 url: /system.security.cryptography.xml/rsakeyvalue/rsakeyvalue/

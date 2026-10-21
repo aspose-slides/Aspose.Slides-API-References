@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.text/icuencoding/operator_equal_equal/
 ---
-## ICUEncoding::operator==(const ICUEncoding\&) const method
+## ICUEncoding::operator==(const ICUEncoding&) const method
 
 
 Compares encodings using codepages.
@@ -20,7 +20,7 @@ bool System::Text::ICUEncoding::operator==(const ICUEncoding &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [ICUEncoding](../)\& | [Encoding](../../encoding/) to compare to. |
+| other | const [ICUEncoding](../)& | [Encoding](../../encoding/) to compare to. |
 
 ### Return Value
 

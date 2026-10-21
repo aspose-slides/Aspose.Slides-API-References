@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemacollection/copyto/
 ---
-## XmlSchemaCollection::CopyTo(const ArrayPtr\<SharedPtr\<XmlSchema\>\>\&, int32_t) method
+## XmlSchemaCollection::CopyTo(const ArrayPtr\<SharedPtr\<XmlSchema\>\>&, int32_t) method
 
 
 Copies all the [XmlSchema](../../xmlschema/) objects from this collection into the given array starting at the given index.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaCollection::CopyTo(const ArrayPtr<SharedPtr<X
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\>\& | The array to copy the objects to. |
+| array | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\>& | The array to copy the objects to. |
 | index | **int32_t** | The index in **array** where copying will begin. |
 
 ## See Also

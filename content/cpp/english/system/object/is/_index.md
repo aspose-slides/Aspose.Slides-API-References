@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system/object/is/
 ---
-## Object::Is(const TypeInfo\&) const method
+## Object::Is(const TypeInfo&) const method
 
 
 Check if object represents an instance of type described by targetType. Analog of C# 'is' operator.
@@ -20,7 +20,7 @@ virtual bool System::Object::Is(const TypeInfo &targetType) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| targetType | const [TypeInfo](../../typeinfo/)\& | [TypeInfo](../../typeinfo/) structure describing the type to test current object against. |
+| targetType | const [TypeInfo](../../typeinfo/)& | [TypeInfo](../../typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

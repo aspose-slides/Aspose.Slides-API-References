@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.drawing/color/fromname/
 ---
-## Color::FromName(const String\&) method
+## Color::FromName(const String&) method
 
 
 Constructs an instance of [Color](../) class that represents a color with the specified name.
@@ -20,7 +20,7 @@ static Color System::Drawing::Color::FromName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the color |
+| name | const [String](../../../system/string/)& | The name of the color |
 
 ### Return Value
 

@@ -19,7 +19,7 @@ class RuntimeHelpers
 
 | Method | Description |
 | --- | --- |
-| static int [GetHashCode](./gethashcode/)([SmartPtr](../../system/smartptr/)\<T\> const\&) | Gets hash code on arbitrary type. Calls [Object::GetHashCode()](../../system/object/gethashcode/) to do so. |
+| static int [GetHashCode](./gethashcode/)([SmartPtr](../../system/smartptr/)\<T\> const&) | Gets hash code on arbitrary type. Calls [Object::GetHashCode()](../../system/object/gethashcode/) to do so. |
 ## See Also
 
 * Namespace [System::Runtime::CompilerServices](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.xml/xmlwriter/writequalifiedname/
 ---
-## XmlWriter::WriteQualifiedName(const String\&, const String\&) method
+## XmlWriter::WriteQualifiedName(const String&, const String&) method
 
 
 When overridden in a derived class, writes out the namespace-qualified name. This method looks up the prefix that is in scope for the given namespace.
@@ -20,8 +20,15 @@ virtual void System::Xml::XmlWriter::WriteQualifiedName(const String &localName,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name to write. |
-| ns | const [String](../../../system/string/)\& | The namespace URI for the name. |
+| localName | const [String](../../../system/string/)& | The local name to write. |
+| ns | const [String](../../../system/string/)& | The namespace URI for the name. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **localName** is either **nullptr** or [String::Empty](../../../system/string/empty/). **localName** is not a valid name. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /system/typeinfo/addmember/
 ---
-## TypeInfo::AddMember(const SharedPtr\<System::Reflection::MemberInfo\>\&) method
+## TypeInfo::AddMember(const SharedPtr\<System::Reflection::MemberInfo\>&) method
 
 
 Adds the specified member to the list of type's members.
@@ -20,7 +20,7 @@ void System::TypeInfo::AddMember(const SharedPtr<System::Reflection::MemberInfo>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| member | const [SharedPtr](../../sharedptr/)\<[System::Reflection::MemberInfo](../../../system.reflection/memberinfo/)\>\& | Member to add. |
+| member | const [SharedPtr](../../sharedptr/)\<[System::Reflection::MemberInfo](../../../system.reflection/memberinfo/)\>& | Member to add. |
 
 ## See Also
 

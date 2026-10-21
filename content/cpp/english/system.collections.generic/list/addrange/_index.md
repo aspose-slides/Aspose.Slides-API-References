@@ -22,6 +22,13 @@ void System::Collections::Generic::List<T>::AddRange(IEnumerablePtr collection)
 | --- | --- | --- |
 | collection | [IEnumerablePtr](../ienumerableptr/) | Collection to copy elements from. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if collection is nullptr. |
+
+
 ## See Also
 
 * Typedef [IEnumerablePtr](../ienumerableptr/)

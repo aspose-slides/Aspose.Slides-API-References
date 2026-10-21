@@ -1,7 +1,7 @@
 ---
 title: get_Cyan()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF00FFFF.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF00FFFF."
 type: docs
 weight: 547
 url: /system.drawing/color/get_cyan/

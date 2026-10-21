@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/weakreference_tmpl_end_tmpl/weakreference/
 ---
-## WeakReference<>::WeakReference() method
+## WeakReference\<\>::WeakReference() method
 
 
 Default constructor.
@@ -15,7 +15,7 @@ Default constructor.
 System::WeakReference<>::WeakReference()
 ```
 
-## WeakReference<>::WeakReference(std::nullptr_t) method
+## WeakReference\<\>::WeakReference(std::nullptr_t) method
 
 
 Constructor from nullptr.
@@ -24,7 +24,7 @@ Constructor from nullptr.
 System::WeakReference<>::WeakReference(std::nullptr_t)
 ```
 
-## WeakReference<>::WeakReference(const SmartPtr\<Object\>\&) method
+## WeakReference\<\>::WeakReference(const SmartPtr\<Object\>&) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -38,9 +38,9 @@ System::WeakReference<>::WeakReference(const SmartPtr<Object> &data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to store. |
+| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to store. |
 
-## WeakReference<>::WeakReference(const SmartPtr\<Object\>\&, bool) method
+## WeakReference\<\>::WeakReference(const SmartPtr\<Object\>&, bool) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -54,12 +54,12 @@ System::WeakReference<>::WeakReference(const SmartPtr<Object> &data, bool trackR
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to store. |
+| data | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to store. |
 | trackResurrection | **bool** | Ignored. |
 
 ## See Also
 
-* Class [WeakReference<>](../)
+* Class [WeakReference\<\>](../)
 * Class [SmartPtr](../../smartptr/)
 * Class [Object](../../object/)
 * Namespace [System](../../)

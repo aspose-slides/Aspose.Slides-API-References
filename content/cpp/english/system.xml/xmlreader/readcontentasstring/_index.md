@@ -20,6 +20,14 @@ virtual String System::Xml::XmlReader::ReadContentAsString()
 
 The text content as a [String](../../../system/string/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

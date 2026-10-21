@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.drawing/rectangle/round/
 ---
-## Rectangle::Round(const RectangleF\&) method
+## Rectangle::Round(const RectangleF&) method
 
 
 Constructs a [Rectangle](../) object from the specified [RectangleF](../../rectanglef/) object by rounding the [RectangleF](../../rectanglef/) object's location and size values to the nearest integer values.
@@ -20,7 +20,7 @@ static Rectangle System::Drawing::Rectangle::Round(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | The [RectangleF](../../rectanglef/) object to convert |
+| rect | const [RectangleF](../../rectanglef/)& | The [RectangleF](../../rectanglef/) object to convert |
 
 ### Return Value
 

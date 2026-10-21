@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.collections.generic/ienumerable/linq_max/
 ---
-## IEnumerable::LINQ_Max(const Func\<T, ResultType\>\&) method
+## IEnumerable::LINQ_Max(const Func\<T, ResultType\>&) method
 
 
 Invokes a transform function on each element of a generic sequence and returns the maximum resulting value.
@@ -26,13 +26,13 @@ template<typename ResultType> ResultType System::Collections::Generic::IEnumerab
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, ResultType\>\& | A transform function to apply to each element. |
+| selector | const [Func](../../../system/func/)\<T, ResultType\>& | A transform function to apply to each element. |
 
 ### Return Value
 
 The maximum value in the sequence.
 
-## IEnumerable::LINQ_Max(const Func\<Source, ResultType\>\&) method
+## IEnumerable::LINQ_Max(const Func\<Source, ResultType\>&) method
 
 
 

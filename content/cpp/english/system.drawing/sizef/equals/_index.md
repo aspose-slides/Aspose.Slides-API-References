@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.drawing/sizef/equals/
 ---
-## SizeF::Equals(const SizeF\&) const method
+## SizeF::Equals(const SizeF&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same pair of width and hegiht values.
@@ -20,7 +20,7 @@ bool System::Drawing::SizeF::Equals(const SizeF &size) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../)\& | The object to compare the current object with |
+| size | const [SizeF](../)& | The object to compare the current object with |
 
 ### Return Value
 

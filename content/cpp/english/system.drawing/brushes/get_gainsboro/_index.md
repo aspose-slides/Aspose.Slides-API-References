@@ -1,7 +1,7 @@
 ---
 title: get_Gainsboro()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFDCDCDC.
+description: "Returns the solid fill color whose hexadecimal value is #FFDCDCDC."
 type: docs
 weight: 599
 url: /system.drawing/brushes/get_gainsboro/

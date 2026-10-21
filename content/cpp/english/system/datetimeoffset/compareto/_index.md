@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system/datetimeoffset/compareto/
 ---
-## DateTimeOffset::CompareTo(const DateTimeOffset\&) const method
+## DateTimeOffset::CompareTo(const DateTimeOffset&) const method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -20,13 +20,13 @@ int System::DateTimeOffset::CompareTo(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | [Object](../../object/) to compare. |
+| other | const [DateTimeOffset](../)& | [Object](../../object/) to compare. |
 
 ### Return Value
 
 -1 - if current object is earlier than **other**, 1 - if current object is later than **other**, 0 - if current object is equal to **other**.
 
-## DateTimeOffset::CompareTo(const SharedPtr\<Object\>\&) const method
+## DateTimeOffset::CompareTo(const SharedPtr\<Object\>&) const method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -40,7 +40,7 @@ int System::DateTimeOffset::CompareTo(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to compare. |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | [Object](../../object/) to compare. |
 
 ### Return Value
 

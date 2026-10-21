@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/reverseenumerator/reverseenumerator/
 ---
-## ReverseEnumerator::ReverseEnumerator(const Object::ptr\&, Container\&) constructor
+## ReverseEnumerator::ReverseEnumerator(const Object::ptr&, Container&) constructor
 
 
 Initializes iterator.
@@ -20,8 +20,8 @@ System::Collections::Generic::ReverseEnumerator<Container, Element>::ReverseEnum
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| owner | const [Object::ptr](../../../system/object/ptr/)\& | Pointer to owner container. |
-| cont | Container\& | Actual container implementation reference. |
+| owner | const [Object::ptr](../../../system/object/ptr/)& | Pointer to owner container. |
+| cont | Container& | Actual container implementation reference. |
 
 ## See Also
 

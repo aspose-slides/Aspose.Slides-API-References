@@ -15,7 +15,7 @@ Constructs empty list.
 System::Collections::Generic::SortedList<TKey, TValue>::SortedList()
 ```
 
-## SortedList::SortedList(const SharedPtr\<IComparer\<TKey\>\>\&) constructor
+## SortedList::SortedList(const SharedPtr\<IComparer\<TKey\>\>&) constructor
 
 
 Constructs empty list.
@@ -29,9 +29,9 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>\& | [Comparer](../../comparer/) to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>& | [Comparer](../../comparer/) to use. |
 
-## SortedList::SortedList(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
+## SortedList::SortedList(const SharedPtr\<IDictionary\<TKey, TValue\>\>&) constructor
 
 
 Copy constructor.
@@ -45,9 +45,9 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | [Dictionary](../../dictionary/) to copy data from. |
+| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>& | [Dictionary](../../dictionary/) to copy data from. |
 
-## SortedList::SortedList(const map_t\&) constructor
+## SortedList::SortedList(const map_t&) constructor
 
 
 Copy constructor.
@@ -61,7 +61,7 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const map_t &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| map | const [map_t](../map_t/)\& | Map tp copy data from. |
+| map | const [map_t](../map_t/)& | Map tp copy data from. |
 
 ## SortedList::SortedList(int) constructor
 

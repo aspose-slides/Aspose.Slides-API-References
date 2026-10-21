@@ -16,6 +16,13 @@ void System::Drawing::Imaging::ImageAttributes::ClearRemapTable(ColorAdjustType 
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Enum [ColorAdjustType](../../coloradjusttype/)

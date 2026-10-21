@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.objectmodel/collection/insert/
 ---
-## Collection::Insert(int, const T\&) method
+## Collection::Insert(int, const T&) method
 
 
 Inserts item into specified position.
@@ -21,7 +21,7 @@ void System::Collections::ObjectModel::Collection<T>::Insert(int index, const T 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | [Index](../../../system/index/) to insert item into. |
-| item | const T\& | Item to insert into specified position. |
+| item | const T& | Item to insert into specified position. |
 
 ## See Also
 

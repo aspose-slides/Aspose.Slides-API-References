@@ -1,7 +1,7 @@
 ---
 title: get_Tan()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFD2B48C.
+description: "Returns the solid fill color whose hexadecimal value is #FFD2B48C."
 type: docs
 weight: 1678
 url: /system.drawing/brushes/get_tan/

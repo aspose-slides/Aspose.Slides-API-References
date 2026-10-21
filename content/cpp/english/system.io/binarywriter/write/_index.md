@@ -22,7 +22,7 @@ virtual void System::IO::BinaryWriter::Write(uint8_t value)
 | --- | --- | --- |
 | value | **uint8_t** | The value to write |
 
-## BinaryWriter::Write(const ArrayPtr\<uint8_t\>\&, int, int) method
+## BinaryWriter::Write(const ArrayPtr\<uint8_t\>&, int, int) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the output stream.
@@ -36,11 +36,11 @@ virtual void System::IO::BinaryWriter::Write(const ArrayPtr<uint8_t> &buffer, in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | The array containing the bytes to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | The array containing the bytes to write |
 | index | int | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | int | The number of elements in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## BinaryWriter::Write(const ArrayPtr\<char_t\>\&, int, int) method
+## BinaryWriter::Write(const ArrayPtr\<char_t\>&, int, int) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array to the output stream.
@@ -54,7 +54,7 @@ virtual void System::IO::BinaryWriter::Write(const ArrayPtr<char_t> &buffer, int
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 | index | int | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | int | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
@@ -218,7 +218,7 @@ virtual void System::IO::BinaryWriter::Write(double value)
 | --- | --- | --- |
 | value | **double** | The value to write |
 
-## BinaryWriter::Write(const Decimal\&) method
+## BinaryWriter::Write(const Decimal&) method
 
 
 Writes the byte representation of the specified [Decimal](../../../system/decimal/) value to the output stream.
@@ -232,9 +232,9 @@ virtual void System::IO::BinaryWriter::Write(const Decimal &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../../system/decimal/)\& | The value to write |
+| value | const [Decimal](../../../system/decimal/)& | The value to write |
 
-## BinaryWriter::Write(const String\&) method
+## BinaryWriter::Write(const String&) method
 
 
 Writes a length-prefixed string in the current encoding to the output stream.
@@ -248,9 +248,9 @@ virtual void System::IO::BinaryWriter::Write(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The string to write |
+| value | const [String](../../../system/string/)& | The string to write |
 
-## BinaryWriter::Write(const char_t *) method
+## BinaryWriter::Write(const char_t \*) method
 
 
 Writes a length-prefixed string in the current encoding to the output stream.
@@ -264,7 +264,7 @@ virtual void System::IO::BinaryWriter::Write(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to write |
+| value | const char_t \* | The c-string to write |
 
 ## See Also
 

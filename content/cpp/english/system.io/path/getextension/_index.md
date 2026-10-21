@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.io/path/getextension/
 ---
-## Path::GetExtension(const String\&) method
+## Path::GetExtension(const String&) method
 
 
 Returns the extension of the file referenced by the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Path::GetExtension(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to a file |
+| path | const [String](../../../system/string/)& | A path to a file |
 
 ### Return Value
 

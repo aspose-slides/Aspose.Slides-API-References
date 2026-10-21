@@ -1,7 +1,7 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CellInvalidReferenceException typedef
 type: docs
 weight: 79
 url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/

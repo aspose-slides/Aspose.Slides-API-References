@@ -15,7 +15,7 @@ Creates default [RSA](../) aglorithm implementation.
 static SharedPtr<RSA> System::Security::Cryptography::RSA::Create()
 ```
 
-## RSA::Create(const String\&) method
+## RSA::Create(const String&) method
 
 
 Creates default [RSA](../) algorithm implementation.
@@ -29,7 +29,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alg_name | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.RSACryptoServiceProvider\". |
+| alg_name | const [String](../../../system/string/)& | Must be "System.Security.Cryptography.RSACryptoServiceProvider". |
 
 ## RSA::Create(int32_t) method
 
@@ -47,7 +47,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(int32_t key_si
 | --- | --- | --- |
 | key_size_in_bits | **int32_t** | The key size, in bits. |
 
-## RSA::Create(const RSAParameters\&) method
+## RSA::Create(const RSAParameters&) method
 
 
 Creates default [RSA](../) algorithm implementation with specifed parameters.
@@ -61,7 +61,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(const RSAParam
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [RSAParameters](../../rsaparameters/)\& | The parameters for the [RSA](../) algorithm. |
+| parameters | const [RSAParameters](../../rsaparameters/)& | The parameters for the [RSA](../) algorithm. |
 
 ## See Also
 

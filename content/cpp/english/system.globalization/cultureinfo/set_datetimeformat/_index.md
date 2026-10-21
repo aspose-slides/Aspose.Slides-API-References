@@ -22,6 +22,13 @@ virtual void System::Globalization::CultureInfo::set_DateTimeFormat(DateTimeForm
 | --- | --- | --- |
 | value | [DateTimeFormatInfoPtr](../../datetimeformatinfoptr/) | Date time format information. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | If culture is read-only. |
+
+
 ## See Also
 
 * Typedef [DateTimeFormatInfoPtr](../../datetimeformatinfoptr/)

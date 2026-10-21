@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography.pkcs/signedcms/signedcms/
 ---
-## SignedCms::SignedCms(const SharedPtr\<ContentInfo\>\&, bool) constructor
+## SignedCms::SignedCms(const SharedPtr\<ContentInfo\>&, bool) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Security::Cryptography::Pkcs::SignedCms::SignedCms(const SharedPtr<Conte
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | const [SharedPtr](../../../system/sharedptr/)\<[ContentInfo](../../contentinfo/)\>\& | Content to sign. |
+| content | const [SharedPtr](../../../system/sharedptr/)\<[ContentInfo](../../contentinfo/)\>& | Content to sign. |
 | detached | **bool** | Whether signature is detached. |
 
 ## See Also

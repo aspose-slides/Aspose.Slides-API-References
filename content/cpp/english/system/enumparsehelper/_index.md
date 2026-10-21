@@ -27,7 +27,7 @@ template<class E,class G,class Guard>class EnumParseHelper
 
 | Method | Description |
 | --- | --- |
-| static E [Parse](./parse/)(const [String](../string/)\&, **bool**) | Converts the specfied string into equivalent enum constant value. |
+| static E [Parse](./parse/)(const [String](../string/)&, **bool**) | Converts the specfied string into equivalent enum constant value. |
 
 ## See Also
 

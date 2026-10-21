@@ -1,7 +1,7 @@
 ---
 title: get_SkyBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF87CEEB.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF87CEEB."
 type: docs
 weight: 1886
 url: /system.drawing/color/get_skyblue/

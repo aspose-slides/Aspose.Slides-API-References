@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.drawing.imaging/imageattributes/setoutputchannelcolorprofile/
 ---
-## ImageAttributes::SetOutputChannelColorProfile(const String\&, ColorAdjustType) method
+## ImageAttributes::SetOutputChannelColorProfile(const String&, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Imaging::ImageAttributes::SetOutputChannelColorProfile(const String &colorProfileFilename, ColorAdjustType type=ColorAdjustType::Default)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

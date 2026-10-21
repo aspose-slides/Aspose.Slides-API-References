@@ -1,7 +1,7 @@
 ---
 title: InvalidEnumArgumentException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: InvalidEnumArgumentException typedef
 type: docs
 weight: 261
 url: /system.componentmodel/invalidenumargumentexception/

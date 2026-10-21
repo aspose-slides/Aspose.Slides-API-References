@@ -16,6 +16,13 @@ IntPtr System::Drawing::Graphics::GetHdc()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Graphics](../)

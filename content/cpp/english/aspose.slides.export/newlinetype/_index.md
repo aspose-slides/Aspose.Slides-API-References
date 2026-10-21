@@ -19,9 +19,9 @@ enum class NewLineType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Windows | 0 | DOS & Windows OS new line - \r\n |
-| Unix | 1 | Unix & Mac OS X new line - \n |
-| Mac | 2 | Mac (OS 9) new line - \r |
+| Windows | 0 | DOS & Windows OS new line - \\r\\n |
+| Unix | 1 | Unix & Mac OS X new line - \\n |
+| Mac | 2 | Mac (OS 9) new line - \\r |
 
 ## Remarks
 

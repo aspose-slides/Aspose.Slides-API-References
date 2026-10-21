@@ -22,7 +22,7 @@ void System::ComponentModel::BackgroundWorker::ReportProgress(int percentProgres
 | --- | --- | --- |
 | percentProgress | int | The percentage, from 0 to 100, of the background operation that is complete. |
 
-## BackgroundWorker::ReportProgress(int, const System::SharedPtr\<System::Object\>\&) method
+## BackgroundWorker::ReportProgress(int, const System::SharedPtr\<System::Object\>&) method
 
 
 Raises the **System::ComponentModel::BackgroundWorker::ProgressChanged** event with userState object.
@@ -37,7 +37,7 @@ void System::ComponentModel::BackgroundWorker::ReportProgress(int percentProgres
 | Parameter | Type | Description |
 | --- | --- | --- |
 | percentProgress | int | The percentage, from 0 to 100, of the background operation that is complete. |
-| userState | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | The state object passed to System::ComponentModel::BackgroundWorker::RunWorkerAsync(System::Object). |
+| userState | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | The state object passed to System::ComponentModel::BackgroundWorker::RunWorkerAsync(System::Object). |
 
 ## See Also
 

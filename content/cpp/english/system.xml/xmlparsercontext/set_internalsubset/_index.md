@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.xml/xmlparsercontext/set_internalsubset/
 ---
-## XmlParserContext::set_InternalSubset(const String\&) method
+## XmlParserContext::set_InternalSubset(const String&) method
 
 
 Sets the internal DTD subset.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_InternalSubset(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

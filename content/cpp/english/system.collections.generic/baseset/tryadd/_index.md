@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.generic/baseset/tryadd/
 ---
-## BaseSet::TryAdd(const T\&) method
+## BaseSet::TryAdd(const T&) method
 
 
 Adds element into set.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseSet<T, SET_T>::TryAdd(const T &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to add. |
+| item | const T& | Item to add. |
 
 ### Return Value
 

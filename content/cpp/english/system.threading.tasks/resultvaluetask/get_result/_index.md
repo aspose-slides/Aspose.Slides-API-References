@@ -23,7 +23,7 @@ T The result value.
 
 
 
-If the task is backed by a ResultTask<T>, this method will await the result and cache it. Subsequent calls will return the cached value without awaiting. 
+If the task is backed by a ResultTask\<T\>, this method will await the result and cache it. Subsequent calls will return the cached value without awaiting. 
 
 ## See Also
 

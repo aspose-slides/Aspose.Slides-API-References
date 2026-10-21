@@ -16,6 +16,13 @@ SharedPtr<PageSettings> System::Drawing::Printing::PrintPageEventArgs::get_PageS
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

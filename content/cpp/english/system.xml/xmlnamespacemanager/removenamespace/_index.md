@@ -23,6 +23,13 @@ virtual void System::Xml::XmlNamespaceManager::RemoveNamespace(String prefix, St
 | prefix | [String](../../../system/string/) | The prefix for the namespace. |
 | uri | [String](../../../system/string/) | The namespace to remove for the given prefix. The namespace removed is from the current namespace scope. Namespaces outside the current scope are ignored. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The value of **prefix** or **uri** is **nullptr**. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

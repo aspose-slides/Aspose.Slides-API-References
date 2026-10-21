@@ -1,7 +1,7 @@
 ---
 title: operator new()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ExceptionWrapper::operator new() method"
 type: docs
 weight: 53
 url: /system/exceptionwrapper/operator_new/

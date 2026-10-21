@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /system/decimal/remainder/
 ---
-## Decimal::Remainder(const Decimal\&, const Decimal\&) method
+## Decimal::Remainder(const Decimal&, const Decimal&) method
 
 
 Computes the remainder after dividing two [Decimal](../) values.
@@ -20,8 +20,8 @@ static Decimal System::Decimal::Remainder(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | The dividend. |
-| d2 | const [Decimal](../)\& | The divisor. |
+| d1 | const [Decimal](../)& | The dividend. |
+| d2 | const [Decimal](../)& | The divisor. |
 
 ### Return Value
 

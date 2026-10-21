@@ -1,12 +1,12 @@
 ---
 title: SetMappedIndexes()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Match::SetMappedIndexes() method"
 type: docs
 weight: 53
 url: /system.text.regularexpressions/match/setmappedindexes/
 ---
-## Match::SetMappedIndexes(const std::vector\<int\>\&) method
+## Match::SetMappedIndexes(const std::vector\<int\>&) method
 
 
 

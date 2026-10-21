@@ -1,7 +1,7 @@
 ---
 title: XmlDsigDSAUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigDSAUrl field
 type: docs
 weight: 313
 url: /system.security.cryptography.xml/signedxml/xmldsigdsaurl/

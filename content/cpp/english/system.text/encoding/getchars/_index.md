@@ -72,7 +72,7 @@ virtual ArrayPtr<char_t> System::Text::Encoding::GetChars(ArrayPtr<uint8_t> byte
 
 [Buffer](../../../system/buffer/) of decoded characters.
 
-## Encoding::GetChars(const uint8_t *, int, char_t *, int) method
+## Encoding::GetChars(const uint8_t \*, int, char_t \*, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -86,9 +86,9 @@ virtual int System::Text::Encoding::GetChars(const uint8_t *bytes, int byte_coun
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const **uint8_t** * | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | const **uint8_t** \* | [Buffer](../../../system/buffer/) to read bytes from. |
 | byte_count | int | Input buffer size. |
-| chars | char_t * | [Buffer](../../../system/buffer/) to put characters to. |
+| chars | char_t \* | [Buffer](../../../system/buffer/) to put characters to. |
 | char_count | int | Output buffer size. |
 
 ### Return Value

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/stringcomparer/create/
 ---
-## StringComparer::Create(const System::SharedPtr\<System::Globalization::CultureInfo\>\&, bool) method
+## StringComparer::Create(const System::SharedPtr\<System::Globalization::CultureInfo\>&, bool) method
 
 
 Creates culture-specific comparer.
@@ -20,7 +20,7 @@ static StringComparerPtr System::StringComparer::Create(const System::SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| culture | const [System::SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to create comparer for. |
+| culture | const [System::SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to create comparer for. |
 | ignoreCase | **bool** | Whether the comparer should ignore case. |
 
 ### Return Value

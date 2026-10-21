@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.security/securityelement/attribute/
 ---
-## SecurityElement::Attribute(const String\&) method
+## SecurityElement::Attribute(const String&) method
 
 
 Gets attribute value.

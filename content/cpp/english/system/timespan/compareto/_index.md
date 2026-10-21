@@ -26,7 +26,7 @@ constexpr int System::TimeSpan::CompareTo(TimeSpan value) const
 
 -1 if the current object represents the interval that is shorter than **value**; 0 if the current object represents the interval that is equal to **value**; 1 if the current object represents the interval that is longer than **value**
 
-## TimeSpan::CompareTo(const SharedPtr\<Object\>\&) const method
+## TimeSpan::CompareTo(const SharedPtr\<Object\>&) const method
 
 
 Compares current and the specified objects.
@@ -40,7 +40,7 @@ int System::TimeSpan::CompareTo(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The [TimeSpan](../) object to compare the current object with |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The [TimeSpan](../) object to compare the current object with |
 
 ### Return Value
 

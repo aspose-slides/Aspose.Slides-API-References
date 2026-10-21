@@ -51,7 +51,7 @@ virtual int System::Text::ICUDecoder::GetCharCount(ArrayPtr<uint8_t> bytes, int 
 
 Number of characters required to decode the buffer.
 
-## ICUDecoder::GetCharCount(const uint8_t *, int, bool) method
+## ICUDecoder::GetCharCount(const uint8_t \*, int, bool) method
 
 
 Gets the number of characters needed to decode a buffer.
@@ -65,7 +65,7 @@ virtual int System::Text::ICUDecoder::GetCharCount(const uint8_t *bytes, int cou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const **uint8_t** * | Bytes to decode. |
+| bytes | const **uint8_t** \* | Bytes to decode. |
 | count | int | Number of bytes to decode. |
 | flush | **bool** | If true, cleans internal decoder state after calculation. |
 

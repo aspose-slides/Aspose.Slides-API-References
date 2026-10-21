@@ -105,7 +105,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(double value)
 ```
 
-## Convert::ToDateTime(const Decimal\&) method
+## Convert::ToDateTime(const Decimal&) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -132,7 +132,7 @@ Returns the specified date and time.
 static constexpr DateTime System::Convert::ToDateTime(DateTime value)
 ```
 
-## Convert::ToDateTime(const String\&) method
+## Convert::ToDateTime(const String&) method
 
 
 Converts the specified string to an instance of [DateTime](../../datetime/) class.
@@ -146,13 +146,13 @@ static DateTime System::Convert::ToDateTime(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
 An instance of [DateTime](../../datetime/) class representing the date and time information represented by the specified string
 
-## Convert::ToDateTime(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDateTime(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string to an instance of [DateTime](../../datetime/) class using the provided formatting information.
@@ -166,14 +166,14 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
-| fp | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| value | const [String](../../string/)& | The string to convert |
+| fp | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 An instance of [DateTime](../../datetime/) class representing the date and time information represented by the specified string
 
-## Convert::ToDateTime(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToDateTime(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -182,7 +182,7 @@ An instance of [DateTime](../../datetime/) class representing the date and time 
 static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToDateTime(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) method
+## Convert::ToDateTime(const String&, const SharedPtr\<Globalization::DateTimeFormatInfo\>&) method
 
 
 
@@ -191,7 +191,7 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi)
 ```
 
-## Convert::ToDateTime(const String\&, std::nullptr_t) method
+## Convert::ToDateTime(const String&, std::nullptr_t) method
 
 
 
@@ -200,7 +200,7 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 static DateTime System::Convert::ToDateTime(const String &value, std::nullptr_t)
 ```
 
-## Convert::ToDateTime(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToDateTime(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to equivalent [DateTime](../../datetime/) value.
@@ -214,8 +214,8 @@ static DateTime System::Convert::ToDateTime(const SharedPtr<Object> &obj, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

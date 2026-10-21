@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.xml.schema/xmlschemacomplextype/set_anyattribute/
 ---
-## XmlSchemaComplexType::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
+## XmlSchemaComplexType::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>&) method
 
 
 Sets the value for the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) component of the complex type.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexType::set_AnyAttribute(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>& | The value to set. |
 
 ## See Also
 

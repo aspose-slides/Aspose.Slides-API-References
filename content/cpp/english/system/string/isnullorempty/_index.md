@@ -20,7 +20,7 @@ bool System::String::IsNullOrEmpty() const
 
 true if string is empty or null, false otherwise.
 
-## String::IsNullOrEmpty(const String\&) method
+## String::IsNullOrEmpty(const String&) method
 
 
 Checks if passed string is null or empty.
@@ -34,7 +34,7 @@ static bool System::String::IsNullOrEmpty(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to check. |
+| str | const [String](../)& | [String](../) to check. |
 
 ### Return Value
 

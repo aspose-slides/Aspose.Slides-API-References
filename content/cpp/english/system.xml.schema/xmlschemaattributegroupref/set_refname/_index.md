@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaattributegroupref/set_refname/
 ---
-## XmlSchemaAttributeGroupRef::set_RefName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaAttributeGroupRef::set_RefName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of the referenced **attributeGroup** element.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttributeGroupRef::set_RefName(const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

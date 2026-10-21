@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.drawing/sizef/operator_plus_equal/
 ---
-## SizeF::operator+=(const SizeF\&) method
+## SizeF::operator+=(const SizeF&) method
 
 
 Adds the specified [SizeF](../) object's width and height values to the width and height values of the current [SizeF](../) object correspondingly.
@@ -20,7 +20,7 @@ SizeF & System::Drawing::SizeF::operator+=(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../)\& | The object to add |
+| size | const [SizeF](../)& | The object to add |
 
 ### Return Value
 

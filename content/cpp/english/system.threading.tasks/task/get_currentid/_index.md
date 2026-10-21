@@ -1,7 +1,7 @@
 ---
 title: get_CurrentId()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Task::get_CurrentId() method"
 type: docs
 weight: 339
 url: /system.threading.tasks/task/get_currentid/

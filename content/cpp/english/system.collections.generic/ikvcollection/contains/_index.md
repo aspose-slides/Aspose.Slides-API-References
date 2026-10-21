@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/ikvcollection/contains/
 ---
-## IKVCollection::Contains(const T\&) const method
+## IKVCollection::Contains(const T&) const method
 
 
 Checks if item is present in container.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::IKVCollection<T>::Contains(const T &i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

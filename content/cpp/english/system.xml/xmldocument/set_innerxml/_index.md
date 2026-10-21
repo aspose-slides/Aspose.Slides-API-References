@@ -22,6 +22,13 @@ void System::Xml::XmlDocument::set_InnerXml(String value) override
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The XML specified when setting this value is not well-formed. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

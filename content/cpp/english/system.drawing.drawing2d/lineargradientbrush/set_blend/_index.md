@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.drawing.drawing2d/lineargradientbrush/set_blend/
 ---
-## LinearGradientBrush::set_Blend(const SharedPtr\<Blend\>\&) method
+## LinearGradientBrush::set_Blend(const SharedPtr\<Blend\>&) method
 
 
 Sets a blend that specifies factors and positions of base colors for this brush.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::LinearGradientBrush::set_Blend(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Blend](../../blend/)\>\& | New blend value |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Blend](../../blend/)\>& | New blend value |
 
 ## See Also
 

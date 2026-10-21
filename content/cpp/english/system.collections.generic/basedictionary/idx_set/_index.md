@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.generic/basedictionary/idx_set/
 ---
-## BaseDictionary::idx_set(const key_t\&, mapped_t) method
+## BaseDictionary::idx_set(const key_t&, mapped_t) method
 
 
 Keyed setter function. Alters or creates element.
@@ -20,7 +20,7 @@ void System::Collections::Generic::BaseDictionary<Map>::idx_set(const key_t &key
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to set value at. |
+| key | const key_t& | Key to set value at. |
 | value | mapped_t | Value to set. |
 
 ## See Also

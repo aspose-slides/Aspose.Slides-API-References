@@ -26,6 +26,13 @@ bool Aspose::Slides::ParagraphCollection::Remove(System::SharedPtr<IParagraph> i
 
 true if *item*  was successfully removed from the [ICollection](../../../system.collections.generic/icollection/); otherwise, false. This method also returns false if *item*  is not found in the original [ICollection](../../../system.collections.generic/icollection/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotSupportedException](../../../system/notsupportedexception/) | The [ICollection](../../../system.collections.generic/icollection/) is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

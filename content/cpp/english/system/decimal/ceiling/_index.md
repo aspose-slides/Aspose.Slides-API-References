@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /system/decimal/ceiling/
 ---
-## Decimal::Ceiling(const Decimal\&) method
+## Decimal::Ceiling(const Decimal&) method
 
 
 Returns the smallest integral value that is greater than or equal to the specified value.
@@ -20,7 +20,7 @@ static Decimal System::Decimal::Ceiling(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | A decimal number |
+| d | const [Decimal](../)& | A decimal number |
 
 ### Return Value
 

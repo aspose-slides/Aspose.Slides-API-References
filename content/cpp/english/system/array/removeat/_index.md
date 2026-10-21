@@ -16,6 +16,13 @@ virtual void System::Array<T>::RemoveAt(int) override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | always |
+
+
 ## See Also
 
 * Class [Array](../)

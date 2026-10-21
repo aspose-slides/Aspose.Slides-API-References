@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system.io/wrapstdiostream/
 ---
-## System::IO::WrapSTDIOStream(std::basic_istream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) function
+## System::IO::WrapSTDIOStream(std::basic_istream\<char_type, traits_type\>&, STDIOStreamWrappingMode) function
 
 
 Wrapper function for std::basic_istream-like streams.
@@ -20,14 +20,14 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::basic_istream\<char_type, traits_type\>\& | std::basic_istream-like stream |
+| stream | std::basic_istream\<char_type, traits_type\>& | std::basic_istream-like stream |
 | mode | [STDIOStreamWrappingMode](../stdiostreamwrappingmode/) | Wrapping mode |
 
 ### Return Value
 
 [BasicSTDIStreamWrapper](../basicstdistreamwrapper/) wrapper
 
-## System::IO::WrapSTDIOStream(std::basic_ostream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) function
+## System::IO::WrapSTDIOStream(std::basic_ostream\<char_type, traits_type\>&, STDIOStreamWrappingMode) function
 
 
 Wrapper function for std::basic_ostream-like streams.
@@ -41,14 +41,14 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::basic_ostream\<char_type, traits_type\>\& | std::basic_ostream-like stream |
+| stream | std::basic_ostream\<char_type, traits_type\>& | std::basic_ostream-like stream |
 | mode | [STDIOStreamWrappingMode](../stdiostreamwrappingmode/) | Wrapping mode |
 
 ### Return Value
 
 [BasicSTDOStreamWrapper](../basicstdostreamwrapper/) wrapper
 
-## System::IO::WrapSTDIOStream(std::basic_iostream\<char_type, traits_type\>\&, STDIOStreamWrappingMode, STDIOStreamPositionPreference) function
+## System::IO::WrapSTDIOStream(std::basic_iostream\<char_type, traits_type\>&, STDIOStreamWrappingMode, STDIOStreamPositionPreference) function
 
 
 Wrapper function for std::basic_iostream-like streams.
@@ -62,7 +62,7 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::basic_iostream\<char_type, traits_type\>\& | std::basic_iostream-like stream |
+| stream | std::basic_iostream\<char_type, traits_type\>& | std::basic_iostream-like stream |
 | mode | [STDIOStreamWrappingMode](../stdiostreamwrappingmode/) | Wrapping mode |
 | pref_pos | [STDIOStreamPositionPreference](../stdiostreampositionpreference/) | Position that will prefer as read and write position, if they are different |
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.diagnostics/debug/writeif/
 ---
-## Debug::WriteIf(bool, const System::String\&) method
+## Debug::WriteIf(bool, const System::String&) method
 
 
 Writes string to debug interface if a condition is true.
@@ -21,7 +21,7 @@ static void System::Diagnostics::Debug::WriteIf(bool condition, const System::St
 | Parameter | Type | Description |
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
-| message | const [System::String](../../../system/string/)\& | Message to write. |
+| message | const [System::String](../../../system/string/)& | Message to write. |
 
 ## See Also
 

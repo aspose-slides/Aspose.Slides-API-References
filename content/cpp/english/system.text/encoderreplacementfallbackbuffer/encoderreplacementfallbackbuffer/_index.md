@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text/encoderreplacementfallbackbuffer/encoderreplacementfallbackbuffer/
 ---
-## EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer(const EncoderReplacementFallbackPtr\&) constructor
+## EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer(const EncoderReplacementFallbackPtr&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fallback | const [EncoderReplacementFallbackPtr](../../../system/encoderreplacementfallbackptr/)\& | Fallback to get information from. |
+| fallback | const [EncoderReplacementFallbackPtr](../../../system/encoderreplacementfallbackptr/)& | Fallback to get information from. |
 
 ## See Also
 

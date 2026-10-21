@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system/string/startswith/
 ---
-## String::StartsWith(const String\&) const method
+## String::StartsWith(const String&) const method
 
 
 Checks if string begins with specified substring.
@@ -20,13 +20,13 @@ bool System::String::StartsWith(const String &value) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 
 ### Return Value
 
 true if string starts with specified substring, false otherwise.
 
-## String::StartsWith(const String\&, System::StringComparison) const method
+## String::StartsWith(const String&, System::StringComparison) const method
 
 
 Checks if string begins with specified substring.
@@ -40,14 +40,14 @@ bool System::String::StartsWith(const String &value, System::StringComparison co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 | comparisonType | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode, see [System::StringComparison](../../stringcomparison/) for details. |
 
 ### Return Value
 
 true if string starts with specified substring, false otherwise.
 
-## String::StartsWith(const String\&, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
+## String::StartsWith(const String&, bool, const SharedPtr\<System::Globalization::CultureInfo\>&) const method
 
 
 Checks if string begins with specified substring.
@@ -61,9 +61,9 @@ bool System::String::StartsWith(const String &value, bool ignoreCase, const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
-| culture | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use while performing string comparison. |
+| culture | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use while performing string comparison. |
 
 ### Return Value
 

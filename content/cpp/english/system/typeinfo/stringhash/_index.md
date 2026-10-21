@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/typeinfo/stringhash/
 ---
-## TypeInfo::StringHash(const char_t *) method
+## TypeInfo::StringHash(const char_t \*) method
 
 
 Calculates hash for specified string.
@@ -20,7 +20,7 @@ static uint32_t System::TypeInfo::StringHash(const char_t *str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const char_t * | [String](../../string/) to calculate hash for. |
+| str | const char_t \* | [String](../../string/) to calculate hash for. |
 
 ### Return Value
 

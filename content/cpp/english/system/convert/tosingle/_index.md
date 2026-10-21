@@ -105,7 +105,7 @@ Converts the specified double-precision number to an equivalent single-precision
 static constexpr float System::Convert::ToSingle(double value)
 ```
 
-## Convert::ToSingle(const Decimal\&) method
+## Convert::ToSingle(const Decimal&) method
 
 
 Converts the specified decimal number to an equivalent single-precision floating-point number.
@@ -146,7 +146,7 @@ static constexpr float System::Convert::ToSingle(std::nullptr_t)
 
 Zero.
 
-## Convert::ToSingle(const char_t *) method
+## Convert::ToSingle(const char_t \*) method
 
 
 Converts the specified c-string containing the string representation of a number to the equivalent single-precision floating-point value.
@@ -160,13 +160,13 @@ static float System::Convert::ToSingle(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to convert |
+| value | const char_t \* | The c-string to convert |
 
 ### Return Value
 
 The single-precision floating-point value equal to the number represented by the specified c-string
 
-## Convert::ToSingle(const String\&) method
+## Convert::ToSingle(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value.
@@ -180,13 +180,13 @@ static float System::Convert::ToSingle(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 
 ### Return Value
 
 The single-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToSingle(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToSingle(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value using the provided formatting information.
@@ -200,14 +200,14 @@ static float System::Convert::ToSingle(const String &value, const SharedPtr<IFor
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| value | const [String](../../string/)& | The string to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The single-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToSingle(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToSingle(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -216,7 +216,7 @@ The single-precision floating-point value equal to the number represented by the
 static float System::Convert::ToSingle(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToSingle(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToSingle(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -225,7 +225,7 @@ static float System::Convert::ToSingle(const String &value, const SharedPtr<Glob
 static float System::Convert::ToSingle(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToSingle(const String\&, std::nullptr_t) method
+## Convert::ToSingle(const String&, std::nullptr_t) method
 
 
 
@@ -234,7 +234,7 @@ static float System::Convert::ToSingle(const String &value, const SharedPtr<Glob
 static float System::Convert::ToSingle(const String &value, std::nullptr_t)
 ```
 
-## Convert::ToSingle(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToSingle(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value using the provided formatting information and number style.
@@ -248,15 +248,15 @@ static float System::Convert::ToSingle(const String &value, Globalization::Numbe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert |
+| value | const [String](../../string/)& | The string to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information |
 
 ### Return Value
 
 The single-precision floating-point value equal to the number represented by the specified string
 
-## Convert::ToSingle(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Convert::ToSingle(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -265,7 +265,7 @@ The single-precision floating-point value equal to the number represented by the
 static float System::Convert::ToSingle(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Convert::ToSingle(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Convert::ToSingle(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -274,7 +274,7 @@ static float System::Convert::ToSingle(const String &value, Globalization::Numbe
 static float System::Convert::ToSingle(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Convert::ToSingle(const String\&, Globalization::NumberStyles, std::nullptr_t) method
+## Convert::ToSingle(const String&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -283,7 +283,7 @@ static float System::Convert::ToSingle(const String &value, Globalization::Numbe
 static float System::Convert::ToSingle(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
-## Convert::ToSingle(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
+## Convert::ToSingle(const SharedPtr\<Object\>&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified boxed value to single-precision floating-point value.
@@ -297,8 +297,8 @@ static float System::Convert::ToSingle(const SharedPtr<Object> &obj, const Share
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The string format to be used if the type of the boxed value is [String](../../string/) |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The string format to be used if the type of the boxed value is [String](../../string/) |
 
 ### Return Value
 

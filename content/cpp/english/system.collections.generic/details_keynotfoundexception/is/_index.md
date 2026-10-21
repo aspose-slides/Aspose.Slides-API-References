@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_KeyNotFoundException::Is() method"
 type: docs
 weight: 27
 url: /system.collections.generic/details_keynotfoundexception/is/
 ---
-## Details_KeyNotFoundException::Is(const System::TypeInfo\&) const method
+## Details_KeyNotFoundException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::Collections::Generic::Details_KeyNotFoundException::Is(const System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../../system/typeinfo/)\& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../../system/typeinfo/)& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/operatingsystem/operatingsystem/
 ---
-## OperatingSystem::OperatingSystem(PlatformID, const Version\&) constructor
+## OperatingSystem::OperatingSystem(PlatformID, const Version&) constructor
 
 
 Constructs an instance that represents an operating system specified as particular platform id and version.
@@ -21,9 +21,9 @@ System::OperatingSystem::OperatingSystem(PlatformID platform, const Version &ver
 | Parameter | Type | Description |
 | --- | --- | --- |
 | platform | [PlatformID](../../platformid/) | The platform identifier of the operating system to be represented by the object being constructed |
-| version | const [Version](../../version/)\& | The version of the operating system to be represented by the object being constructed |
+| version | const [Version](../../version/)& | The version of the operating system to be represented by the object being constructed |
 
-## OperatingSystem::OperatingSystem(PlatformID, const Version\&, const String\&) constructor
+## OperatingSystem::OperatingSystem(PlatformID, const Version&, const String&) constructor
 
 
 Constructs an instance that represents an operating system specified as particular platform id, version and service pack.
@@ -38,8 +38,8 @@ System::OperatingSystem::OperatingSystem(PlatformID platform, const Version &ver
 | Parameter | Type | Description |
 | --- | --- | --- |
 | platform | [PlatformID](../../platformid/) | The platform identifier of the operating system to be represented by the object being constructed |
-| version | const [Version](../../version/)\& | The version of the operating system to be represented by the object being constructed |
-| service_pack | const [String](../../string/)\& | The name of the service pack of the operating system to be represented by the object being constructed |
+| version | const [Version](../../version/)& | The version of the operating system to be represented by the object being constructed |
+| service_pack | const [String](../../string/)& | The name of the service pack of the operating system to be represented by the object being constructed |
 
 ## See Also
 

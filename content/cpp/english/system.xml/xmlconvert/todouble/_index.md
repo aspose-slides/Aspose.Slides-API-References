@@ -26,6 +26,15 @@ static double System::Xml::XmlConvert::ToDouble(String s)
 
 A [Double](../../../system/double/) equivalent of the string.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** is not in the correct format. |
+| OverflowException | **s** represents a number less than [Double::MinValue](../../../system/double/minvalue/) or greater than [Double::MaxValue](../../../system/double/maxvalue/). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

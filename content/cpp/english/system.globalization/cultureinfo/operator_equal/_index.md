@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "CultureInfo::operator=() method"
 type: docs
 weight: 430
 url: /system.globalization/cultureinfo/operator_equal/
 ---
-## CultureInfo::operator=(const CultureInfo\&) method
+## CultureInfo::operator=(const CultureInfo&) method
 
 
 

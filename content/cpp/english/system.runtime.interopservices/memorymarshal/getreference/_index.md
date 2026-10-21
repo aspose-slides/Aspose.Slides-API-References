@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.runtime.interopservices/memorymarshal/getreference/
 ---
-## MemoryMarshal::GetReference(const Span\<T\>\&) method
+## MemoryMarshal::GetReference(const Span\<T\>&) method
 
 
 Gets a reference to the first element of the specified span.
@@ -26,13 +26,13 @@ template<typename T> static T & System::Runtime::InteropServices::MemoryMarshal:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../../system/span/)\<T\>\& | The span to access. |
+| span | const [Span](../../../system/span/)\<T\>& | The span to access. |
 
 ### Return Value
 
 A reference to the first element of the span.
 
-## MemoryMarshal::GetReference(const ReadOnlySpan\<T\>\&) method
+## MemoryMarshal::GetReference(const ReadOnlySpan\<T\>&) method
 
 
 Gets a reference to the first element of the specified read-only span.
@@ -52,7 +52,7 @@ template<typename T> static T & System::Runtime::InteropServices::MemoryMarshal:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../../system/readonlyspan/)\<T\>\& | The read-only span to access. |
+| span | const [ReadOnlySpan](../../../system/readonlyspan/)\<T\>& | The read-only span to access. |
 
 ### Return Value
 

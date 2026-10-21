@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.threading/synchronizationcontext/setsynchronizationcontext/
 ---
-## SynchronizationContext::SetSynchronizationContext(const SharedPtr\<SynchronizationContext\>\&) method
+## SynchronizationContext::SetSynchronizationContext(const SharedPtr\<SynchronizationContext\>&) method
 
 
 Sets the synchronization context for the current thread.
@@ -20,7 +20,7 @@ static void System::Threading::SynchronizationContext::SetSynchronizationContext
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| syncContext | const [SharedPtr](../../../system/sharedptr/)\<[SynchronizationContext](../)\>\& | The synchronization context to set for the current thread. |
+| syncContext | const [SharedPtr](../../../system/sharedptr/)\<[SynchronizationContext](../)\>& | The synchronization context to set for the current thread. |
 ## Remarks
 
 

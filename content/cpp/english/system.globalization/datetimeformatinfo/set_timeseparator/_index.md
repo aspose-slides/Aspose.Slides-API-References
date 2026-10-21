@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.globalization/datetimeformatinfo/set_timeseparator/
 ---
-## DateTimeFormatInfo::set_TimeSeparator(const String\&) method
+## DateTimeFormatInfo::set_TimeSeparator(const String&) method
 
 
 Sets time separator.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_TimeSeparator(const String &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Time components separator character. |
+| value | const [String](../../../system/string/)& | Time components separator character. |
 
 ## See Also
 

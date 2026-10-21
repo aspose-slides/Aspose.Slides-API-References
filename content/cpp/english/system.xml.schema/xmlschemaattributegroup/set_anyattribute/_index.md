@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemaattributegroup/set_anyattribute/
 ---
-## XmlSchemaAttributeGroup::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
+## XmlSchemaAttributeGroup::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>&) method
 
 
 Sets the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) component of the attribute group.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttributeGroup::set_AnyAttribute(const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>& | The value to set. |
 
 ## See Also
 

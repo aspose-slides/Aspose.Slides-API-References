@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system/char/parse/
 ---
-## Char::Parse(const String\&) method
+## Char::Parse(const String&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.
@@ -20,7 +20,7 @@ static char_t System::Char::Parse(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
+| value | const [String](../../string/)& | The string to convert. |
 
 ### Return Value
 

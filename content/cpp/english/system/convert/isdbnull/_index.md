@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/convert/isdbnull/
 ---
-## Convert::IsDBNull(const T\&) method
+## Convert::IsDBNull(const T&) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ template<typename T> static std::enable_if_t<!IsSmartPtr<T>::value, bool> System
 ```
 
 
-## Convert::IsDBNull(const SharedPtr\<T\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Convert::IsDBNull(const SharedPtr\<T\>&) method
 
 
 NOT IMPLEMENTED Fake implementation, checks if value is nullptr.

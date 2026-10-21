@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartseries/get_secondpiesize/
 ## ChartSeries::get_SecondPieSize() method
 
 
-Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use [get_ParentSeriesGroup()](../get_parentseriesgroup/)->get(set)_SecondPieSize() read/write property for change value. Read-only **uint16_t**.
+Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use [get_ParentSeriesGroup()](../get_parentseriesgroup/)-\>get(set)_SecondPieSize() read/write property for change value. Read-only **uint16_t**.
 
 ```cpp
 uint16_t Aspose::Slides::Charts::ChartSeries::get_SecondPieSize() override
@@ -18,7 +18,7 @@ uint16_t Aspose::Slides::Charts::ChartSeries::get_SecondPieSize() override
 ## Remarks
 
 
-This is the projection of the property [get_ParentSeriesGroup()](../get_parentseriesgroup/)->get(set)_SecondPieSize(). 
+This is the projection of the property [get_ParentSeriesGroup()](../get_parentseriesgroup/)-\>get(set)_SecondPieSize(). 
 ## See Also
 
 * Class [ChartSeries](../)

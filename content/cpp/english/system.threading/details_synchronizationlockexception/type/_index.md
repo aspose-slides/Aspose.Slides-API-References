@@ -1,7 +1,7 @@
 ---
 title: Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_SynchronizationLockException::Type() method"
 type: docs
 weight: 1
 url: /system.threading/details_synchronizationlockexception/type/

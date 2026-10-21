@@ -1,12 +1,12 @@
 ---
 title: operator*()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KVPairIterator::operator*() method"
 type: docs
 weight: 14
 url: /system.collections.generic/kvpairiterator/operator_star/
 ---
-## KVPairIterator::operator*() const method
+## KVPairIterator::operator\*() const method
 
 
 

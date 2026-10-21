@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.xml.xsl/xsltransform/set_xmlresolver/
 ---
-## XslTransform::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XslTransform::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Sets the [XmlResolver](../../../system.xml/xmlresolver/) used to resolve external resources when the [XslTransform::Transform](../transform/) method is called.
@@ -20,7 +20,7 @@ void System::Xml::Xsl::XslTransform::set_XmlResolver(const SharedPtr<System::Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>& | The value to set. |
 
 ## See Also
 

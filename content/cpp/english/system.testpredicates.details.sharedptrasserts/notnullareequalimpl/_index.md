@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.testpredicates.details.sharedptrasserts/notnullareequalimpl/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char \*, const char \*, const T1&, const T2&, long long) function
 
 
 Equal-compares arrays or lists.
@@ -27,17 +27,17 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::BothArrayOrList<typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char \*, const char \*, const T1&, const T2&, long long) function
 
 
 Equal-compares IEnumerable instances.
@@ -58,17 +58,17 @@ template<typename T1,typename T2> std::enable_if<!TypeTraits::BothArrayOrList<ty
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, int32_t) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char \*, const char \*, const T1&, const T2&, int32_t) function
 
 
 Equal-compares unknown types using Equals method.
@@ -89,10 +89,10 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 
 ### Return Value
 

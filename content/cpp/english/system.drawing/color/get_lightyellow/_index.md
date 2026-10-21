@@ -1,7 +1,7 @@
 ---
 title: get_LightYellow()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFFE0.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFFFE0."
 type: docs
 weight: 1262
 url: /system.drawing/color/get_lightyellow/

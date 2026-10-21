@@ -1,7 +1,7 @@
 ---
 title: CachedEnumerable()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "CachedEnumerable::CachedEnumerable() constructor"
 type: docs
 weight: 1
 url: /system.linq.details/cachedenumerable/cachedenumerable/

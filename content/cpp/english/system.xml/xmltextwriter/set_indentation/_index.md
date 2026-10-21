@@ -22,6 +22,13 @@ void System::Xml::XmlTextWriter::set_Indentation(int32_t value)
 | --- | --- | --- |
 | value | **int32_t** | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | Setting **value** to a negative value. |
+
+
 ## See Also
 
 * Class [XmlTextWriter](../)

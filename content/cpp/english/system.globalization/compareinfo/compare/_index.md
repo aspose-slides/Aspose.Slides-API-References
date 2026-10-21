@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.globalization/compareinfo/compare/
 ---
-## CompareInfo::Compare(const String\&, const String\&) const method
+## CompareInfo::Compare(const String&, const String&) const method
 
 
 Compares strings. Not implemented.
@@ -20,14 +20,14 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| string1 | const [String](../../../system/string/)\& | LHS string. |
-| string2 | const [String](../../../system/string/)\& | RHS string. |
+| string1 | const [String](../../../system/string/)& | LHS string. |
+| string2 | const [String](../../../system/string/)& | RHS string. |
 
 ### Return Value
 
 Negative value if LHS string preceeds RHS one, zero if they match, positive value otherwise.
 
-## CompareInfo::Compare(const String\&, const String\&, CompareOptions) const method
+## CompareInfo::Compare(const String&, const String&, CompareOptions) const method
 
 
 Compares strings. Only Ordinal and OrdinalIgnoreCase modes are supported.
@@ -41,15 +41,15 @@ virtual int System::Globalization::CompareInfo::Compare(const String &a, const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [String](../../../system/string/)\& | LHS string. |
-| b | const [String](../../../system/string/)\& | RHS string. |
+| a | const [String](../../../system/string/)& | LHS string. |
+| b | const [String](../../../system/string/)& | RHS string. |
 | options | [CompareOptions](../../compareoptions/) | [String](../../../system/string/) comparison type. |
 
 ### Return Value
 
 Negative value if LHS string preceeds RHS one, zero if they match, positive value otherwise.
 
-## CompareInfo::Compare(const String\&, int, int, const String\&, int, int) const method
+## CompareInfo::Compare(const String&, int, int, const String&, int, int) const method
 
 
 Compares a section of one string with a section of second string. Not implemented.
@@ -63,10 +63,10 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| string1 | const [String](../../../system/string/)\& | First string. |
+| string1 | const [String](../../../system/string/)& | First string. |
 | offset1 | int | Start index of characters in **string1**. |
 | length1 | int | Number of characters in **string1** to compare. |
-| string2 | const [String](../../../system/string/)\& | Second string. |
+| string2 | const [String](../../../system/string/)& | Second string. |
 | offset2 | int | Start index of characters in **string2**. |
 | length2 | int | Number of characters in **string2** to compare. |
 
@@ -74,7 +74,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## CompareInfo::Compare(const String\&, int, const String\&, int, CompareOptions) const method
+## CompareInfo::Compare(const String&, int, const String&, int, CompareOptions) const method
 
 
 Compares the end section of one string with the end section of second string using string comparison methods. Not implemented.
@@ -88,9 +88,9 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| string1 | const [String](../../../system/string/)\& | First string. |
+| string1 | const [String](../../../system/string/)& | First string. |
 | offset1 | int | Start index of characters in **string1**. |
-| string2 | const [String](../../../system/string/)\& | Second string. |
+| string2 | const [String](../../../system/string/)& | Second string. |
 | offset2 | int | Start index of characters in **string2**. |
 | options | [CompareOptions](../../compareoptions/) | [String](../../../system/string/) comparison options. |
 
@@ -98,7 +98,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## CompareInfo::Compare(const String\&, int, const String\&, int) const method
+## CompareInfo::Compare(const String&, int, const String&, int) const method
 
 
 Compares the end section of one string with the end section of second string. Not implemented.
@@ -112,16 +112,16 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| string1 | const [String](../../../system/string/)\& | First string. |
+| string1 | const [String](../../../system/string/)& | First string. |
 | offset1 | int | Start index of characters in **string1**. |
-| string2 | const [String](../../../system/string/)\& | Second string. |
+| string2 | const [String](../../../system/string/)& | Second string. |
 | offset2 | int | Start index of characters in **string2**. |
 
 ### Return Value
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## CompareInfo::Compare(const String\&, int, int, const String\&, int, int, CompareOptions) const method
+## CompareInfo::Compare(const String&, int, int, const String&, int, int, CompareOptions) const method
 
 
 Compares a section of one string with a section of second string using string comparison methods. Not implemented.
@@ -135,10 +135,10 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| string1 | const [String](../../../system/string/)\& | First string. |
+| string1 | const [String](../../../system/string/)& | First string. |
 | offset1 | int | Start index of characters in **string1**. |
 | length1 | int | Number of characters in **string1** to compare. |
-| string2 | const [String](../../../system/string/)\& | Second string. |
+| string2 | const [String](../../../system/string/)& | Second string. |
 | offset2 | int | Start index of characters in **string2**. |
 | length2 | int | Number of characters in **string2** to compare. |
 | options | [CompareOptions](../../compareoptions/) | [String](../../../system/string/) comparison options. |

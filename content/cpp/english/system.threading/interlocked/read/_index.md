@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.threading/interlocked/read/
 ---
-## Interlocked::Read(int64_t\&) method
+## Interlocked::Read(int64_t&) method
 
 
 Returns a 64-bit value, loaded as an atomic operation.
@@ -20,7 +20,7 @@ static int64_t System::Threading::Interlocked::Read(int64_t &location1)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location1 | **int64_t**\& | The 64-bit value to be loaded. |
+| location1 | **int64_t**& | The 64-bit value to be loaded. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_Coral()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFF7F50.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFF7F50."
 type: docs
 weight: 222
 url: /system.drawing/pens/get_coral/

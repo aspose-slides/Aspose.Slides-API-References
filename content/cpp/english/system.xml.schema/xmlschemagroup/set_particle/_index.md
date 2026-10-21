@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemagroup/set_particle/
 ---
-## XmlSchemaGroup::set_Particle(const SharedPtr\<XmlSchemaGroupBase\>\&) method
+## XmlSchemaGroup::set_Particle(const SharedPtr\<XmlSchemaGroupBase\>&) method
 
 
 Sets one of the [XmlSchemaChoice](../../xmlschemachoice/), [XmlSchemaAll](../../xmlschemaall/), or [XmlSchemaSequence](../../xmlschemasequence/) classes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaGroup::set_Particle(const SharedPtr<XmlSchema
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaGroupBase](../../xmlschemagroupbase/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaGroupBase](../../xmlschemagroupbase/)\>& | The value to set. |
 
 ## See Also
 

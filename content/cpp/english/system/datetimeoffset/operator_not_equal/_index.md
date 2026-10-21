@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /system/datetimeoffset/operator_not_equal/
 ---
-## DateTimeOffset::operator!=(const DateTimeOffset\&) const method
+## DateTimeOffset::operator!=(const DateTimeOffset&) const method
 
 
 Determines if the current object and the specified [DateTimeOffset](../) object represent distinct date and time values.
@@ -20,7 +20,7 @@ bool System::DateTimeOffset::operator!=(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | The [DateTimeOffset](../) object to compare the current object with |
+| other | const [DateTimeOffset](../)& | The [DateTimeOffset](../) object to compare the current object with |
 
 ### Return Value
 

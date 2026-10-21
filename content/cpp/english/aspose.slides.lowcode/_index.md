@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::LowCode"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::LowCode namespace"
 type: docs
 weight: 144
 url: /aspose.slides.lowcode/

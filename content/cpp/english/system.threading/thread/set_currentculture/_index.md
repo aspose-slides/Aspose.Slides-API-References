@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.threading/thread/set_currentculture/
 ---
-## Thread::set_CurrentCulture(const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Thread::set_CurrentCulture(const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 Sets thread culture.
@@ -20,7 +20,7 @@ void System::Threading::Thread::set_CurrentCulture(const SharedPtr<Globalization
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ci | const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to be used by thread. |
+| ci | const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to be used by thread. |
 
 ## See Also
 

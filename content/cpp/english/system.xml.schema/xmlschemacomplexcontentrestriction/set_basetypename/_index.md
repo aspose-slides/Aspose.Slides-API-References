@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemacomplexcontentrestriction/set_basetypename/
 ---
-## XmlSchemaComplexContentRestriction::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaComplexContentRestriction::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of a complex type from which this type is derived by restriction.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexContentRestriction::set_BaseTypeName(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2328
 url: /system/is/
 ---
-## System::Is(const ExpressionT\&, ResultT\&) function
+## System::Is(const ExpressionT&, ResultT&) function
 
 
 Implements 'is' declaration pattern translation.
@@ -28,14 +28,14 @@ template<class PatternT,class ExpressionT,class ResultT> bool System::Is(const E
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const ExpressionT\& | expression which will be checked. |
-| result | ResultT\& | variable which will be assigned to checked type. |
+| left | const ExpressionT& | expression which will be checked. |
+| result | ResultT& | variable which will be assigned to checked type. |
 
 ### Return Value
 
 true if type check is successful, false otherwise.
 
-## System::Is(const ExpressionT\&, const ConstantT\&) function
+## System::Is(const ExpressionT&, const ConstantT&) function
 
 
 Implements 'is' constant pattern translation.
@@ -56,14 +56,14 @@ template<class ExpressionT,class ConstantT> std::enable_if_t<!std::is_base_of<De
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const ExpressionT\& | expression which will be checked. |
-| constant | const ConstantT\& | expression which will be compared with left one. |
+| left | const ExpressionT& | expression which will be checked. |
+| constant | const ConstantT& | expression which will be compared with left one. |
 
 ### Return Value
 
 true if type check is successful, false otherwise.
 
-## System::Is(const E\&, const A\&) function
+## System::Is(const E&, const A&) function
 
 
 Top-level matching function. Applies a pattern to a value.
@@ -84,8 +84,8 @@ template<typename A,typename E> std::enable_if_t<std::is_base_of<Details::Patter
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| e | const E\& | Value to match against. |
-| a | const A\& | Pattern to apply. |
+| e | const E& | Value to match against. |
+| a | const A& | Pattern to apply. |
 
 ### Return Value
 

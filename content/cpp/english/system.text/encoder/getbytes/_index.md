@@ -31,7 +31,7 @@ virtual int System::Text::Encoder::GetBytes(ArrayPtr<char_t> chars, int charInde
 
 Number of bytes written.
 
-## Encoder::GetBytes(const char_t *, int, uint8_t *, int, bool) method
+## Encoder::GetBytes(const char_t \*, int, uint8_t \*, int, bool) method
 
 
 Get the bytes that result from encoding a buffer.
@@ -45,9 +45,9 @@ virtual int System::Text::Encoder::GetBytes(const char_t *chars, int charCount, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters to encode. |
+| chars | const char_t \* | Characters to encode. |
 | charCount | int | Source array length. |
-| bytes | **uint8_t** * | Destination byte buffer. |
+| bytes | **uint8_t** \* | Destination byte buffer. |
 | byteCount | int | Destination buffer size. |
 | flush | **bool** | If true, cleans internal encoder state after calculation. |
 

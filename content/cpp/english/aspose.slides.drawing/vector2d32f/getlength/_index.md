@@ -16,10 +16,6 @@ double Aspose::Slides::Drawing::Vector2d32f::GetLength()
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Class [Vector2d32f](../)

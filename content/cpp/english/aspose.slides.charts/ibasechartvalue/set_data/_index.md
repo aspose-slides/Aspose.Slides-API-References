@@ -1,7 +1,7 @@
 ---
 title: set_Data()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IBaseChartValue::set_Data() method"
 type: docs
 weight: 40
 url: /aspose.slides.charts/ibasechartvalue/set_data/

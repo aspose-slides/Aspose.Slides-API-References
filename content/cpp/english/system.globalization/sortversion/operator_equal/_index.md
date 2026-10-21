@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SortVersion::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/sortversion/operator_equal/
 ---
-## SortVersion::operator=(const SortVersion\&) method
+## SortVersion::operator=(const SortVersion&) method
 
 
 

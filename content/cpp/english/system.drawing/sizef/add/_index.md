@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing/sizef/add/
 ---
-## SizeF::Add(const SizeF\&, const SizeF\&) method
+## SizeF::Add(const SizeF&, const SizeF&) method
 
 
 Returns a new [SizeF](../) object that is a sum of the specified [SizeF](../) objects, i.e. whose width value is equal to the sum of width values of the specified objects and height value is equal to the sum of height values of the specified objects.
@@ -20,8 +20,8 @@ static SizeF System::Drawing::SizeF::Add(const SizeF &size1, const SizeF &size2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size1 | const [SizeF](../)\& | The first operand |
-| size2 | const [SizeF](../)\& | The second operand |
+| size1 | const [SizeF](../)& | The first operand |
+| size2 | const [SizeF](../)& | The second operand |
 
 ### Return Value
 

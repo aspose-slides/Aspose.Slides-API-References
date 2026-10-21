@@ -20,6 +20,13 @@ System::SharedPtr<HttpResponseMessage> System::Net::Http::HttpResponseMessage::E
 
 The current instance.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| HttpRequestException | When the status code doesn't belong to 2xx. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

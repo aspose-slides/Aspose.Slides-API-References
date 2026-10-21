@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /system/uri/compare/
 ---
-## Uri::Compare(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&, UriComponents, UriFormat, StringComparison) method
+## Uri::Compare(const SharedPtr\<Uri\>&, const SharedPtr\<Uri\>&, UriComponents, UriFormat, StringComparison) method
 
 
 Compares the specified [Uri](../) objects using the specified comparison rules.
@@ -20,8 +20,8 @@ static int32_t System::Uri::Compare(const SharedPtr<Uri> &uri1, const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri1 | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The first comparand |
-| uri2 | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The second comparand |
+| uri1 | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The first comparand |
+| uri2 | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The second comparand |
 | partsToCompare | [UriComponents](../../uricomponents/) | Specifies the parts of **uri1** and **uri2** to compare |
 | compareFormat | [UriFormat](../../uriformat/) | Specifies the character escaping used when components of URIs are compared |
 | comparisonType | [StringComparison](../../stringcomparison/) | One of the StringComparison values |

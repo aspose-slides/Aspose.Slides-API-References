@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/empty/
 ---
-## Delegate< ReturnType(ArgumentTypes...)>::Empty() const method
+## Delegate\< ReturnType(ArgumentTypes...)\>::Empty() const method
 
 
 Determines if the current delegate object is empty, e.g. does not point to any entity.
@@ -22,6 +22,6 @@ True if current delegate object does not point to a function, a method of a func
 
 ## See Also
 
-* Class [Delegate< ReturnType(ArgumentTypes...)>](../)
+* Class [Delegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

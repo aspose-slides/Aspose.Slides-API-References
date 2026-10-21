@@ -1,7 +1,7 @@
 ---
 title: get_SkyBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF87CEEB.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF87CEEB."
 type: docs
 weight: 1613
 url: /system.drawing/pens/get_skyblue/

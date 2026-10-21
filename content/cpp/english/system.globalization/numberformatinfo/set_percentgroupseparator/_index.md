@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /system.globalization/numberformatinfo/set_percentgroupseparator/
 ---
-## NumberFormatInfo::set_PercentGroupSeparator(const String\&) method
+## NumberFormatInfo::set_PercentGroupSeparator(const String&) method
 
 
 Sets group separator in percent values.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PercentGroupSeparator(const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Group separator in percent values. |
+| value | const [String](../../../system/string/)& | Group separator in percent values. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.drawing/bitmap/lockbits/
 ---
-## Bitmap::LockBits(const Rectangle\&, Imaging::ImageLockMode, Imaging::PixelFormat) method
+## Bitmap::LockBits(const Rectangle&, Imaging::ImageLockMode, Imaging::PixelFormat) method
 
 
 Locks a [Bitmap](../) into system memory.
@@ -20,7 +20,7 @@ Imaging::BitmapDataPtr System::Drawing::Bitmap::LockBits(const Rectangle &rect, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | A rectangle that specifies the region of the image to lock |
+| rect | const [Rectangle](../../rectangle/)& | A rectangle that specifies the region of the image to lock |
 | flags | [Imaging::ImageLockMode](../../../system.drawing.imaging/imagelockmode/) | Specifies the access level to the bitmap |
 | format | [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/) | The data format of this bitmap |
 
@@ -28,7 +28,7 @@ Imaging::BitmapDataPtr System::Drawing::Bitmap::LockBits(const Rectangle &rect, 
 
 A shared pointer to a BitmapData object that contains information about the performed lock operation
 
-## Bitmap::LockBits(const Rectangle\&, Imaging::ImageLockMode, Imaging::PixelFormat, const Imaging::BitmapDataPtr\&) method
+## Bitmap::LockBits(const Rectangle&, Imaging::ImageLockMode, Imaging::PixelFormat, const Imaging::BitmapDataPtr&) method
 
 
 Locks a [Bitmap](../) into system memory.
@@ -42,10 +42,10 @@ Imaging::BitmapDataPtr System::Drawing::Bitmap::LockBits(const Rectangle &rect, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | A rectangle that specifies the region of the image to lock |
+| rect | const [Rectangle](../../rectangle/)& | A rectangle that specifies the region of the image to lock |
 | flags | [Imaging::ImageLockMode](../../../system.drawing.imaging/imagelockmode/) | Specifies the access level to the bitmap |
 | format | [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/) | The data format of this bitmap |
-| bitmap_data | const [Imaging::BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)\& | Contains information about the lock operation |
+| bitmap_data | const [Imaging::BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)& | Contains information about the lock operation |
 
 ### Return Value
 

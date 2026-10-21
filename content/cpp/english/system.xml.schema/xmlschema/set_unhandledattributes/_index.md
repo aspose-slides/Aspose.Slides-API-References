@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.xml.schema/xmlschema/set_unhandledattributes/
 ---
-## XmlSchema::set_UnhandledAttributes(const ArrayPtr\<SharedPtr\<XmlAttribute\>\>\&) method
+## XmlSchema::set_UnhandledAttributes(const ArrayPtr\<SharedPtr\<XmlAttribute\>\>&) method
 
 
 Sets the qualified attributes which do not belong to the schema target namespace.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchema::set_UnhandledAttributes(const ArrayPtr<Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../../system.xml/xmlattribute/)\>\>\& | The value to set. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../../system.xml/xmlattribute/)\>\>& | The value to set. |
 
 ## See Also
 

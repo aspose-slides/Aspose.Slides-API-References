@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.specialized/stringcollection/indexof/
 ---
-## StringCollection::IndexOf(const System::String\&) const method
+## StringCollection::IndexOf(const System::String&) const method
 
 
 Looks for specific string in container.
@@ -20,7 +20,7 @@ int System::Collections::Specialized::StringCollection::IndexOf(const System::St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::String](../../../system/string/)\& | [String](../../../system/string/) to look for. |
+| value | const [System::String](../../../system/string/)& | [String](../../../system/string/) to look for. |
 
 ### Return Value
 

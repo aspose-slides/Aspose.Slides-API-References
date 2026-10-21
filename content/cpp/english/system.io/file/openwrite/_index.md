@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.io/file/openwrite/
 ---
-## File::OpenWrite(const String\&) method
+## File::OpenWrite(const String&) method
 
 
 Opens the specified file for writing only, in 'OpenOrCreate' mode with no sharing.
@@ -20,7 +20,7 @@ static FileStreamPtr System::IO::File::OpenWrite(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to open |
+| path | const [String](../../../system/string/)& | The path of the file to open |
 
 ### Return Value
 

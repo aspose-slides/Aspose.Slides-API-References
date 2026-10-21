@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system/environment/getenvironmentvariablea/
 ---
-## Environment::GetEnvironmentVariableA(const String\&) method
+## Environment::GetEnvironmentVariableA(const String&) method
 
 
 Returns the value of the specified environment varibale associated with the current process.
@@ -20,7 +20,7 @@ static String System::Environment::GetEnvironmentVariableA(const String &variabl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| variable | const [String](../../string/)\& | The string containing the name of the variable to retrieve |
+| variable | const [String](../../string/)& | The string containing the name of the variable to retrieve |
 
 ### Return Value
 

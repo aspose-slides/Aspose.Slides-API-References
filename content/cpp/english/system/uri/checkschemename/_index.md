@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system/uri/checkschemename/
 ---
-## Uri::CheckSchemeName(const String\&) method
+## Uri::CheckSchemeName(const String&) method
 
 
 Determines if the specified scheme is valid.
@@ -20,7 +20,7 @@ static bool System::Uri::CheckSchemeName(const String &schemeName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemeName | const [String](../../string/)\& | The name of the scheme to test |
+| schemeName | const [String](../../string/)& | The name of the scheme to test |
 
 ### Return Value
 

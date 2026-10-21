@@ -18,7 +18,7 @@ virtual String System::Xml::XmlNode::get_LocalName()=0
 
 ### Return Value
 
-The name of the node with the prefix removed. For example, **LocalName** is **book** for the element **<bk:book>**.
+The name of the node with the prefix removed. For example, **LocalName** is **book** for the element **\<bk:book\>**.
 ## Remarks
 
 

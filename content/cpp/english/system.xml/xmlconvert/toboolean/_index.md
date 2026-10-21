@@ -26,6 +26,14 @@ static bool System::Xml::XmlConvert::ToBoolean(String s)
 
 A **[Boolean](../../../system/boolean/)** value, that is, **true** or **false**.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** does not represent a **[Boolean](../../../system/boolean/)** value. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

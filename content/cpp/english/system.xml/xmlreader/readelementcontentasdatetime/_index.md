@@ -20,6 +20,15 @@ virtual DateTime System::Xml::XmlReader::ReadElementContentAsDateTime()
 
 The element content as a [DateTime](../../../system/datetime/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a [DateTime](../../../system/datetime/) object. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+
+
 ## XmlReader::ReadElementContentAsDateTime(String, String) method
 
 
@@ -40,6 +49,16 @@ virtual DateTime System::Xml::XmlReader::ReadElementContentAsDateTime(String loc
 ### Return Value
 
 The element contents as a [DateTime](../../../system/datetime/) object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to the requested type. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

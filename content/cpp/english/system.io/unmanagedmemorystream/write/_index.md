@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.io/unmanagedmemorystream/write/
 ---
-## UnmanagedMemoryStream::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## UnmanagedMemoryStream::Write(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ virtual void System::IO::UnmanagedMemoryStream::Write(const ArrayPtr<uint8_t> &b
 ```
 
 
-## UnmanagedMemoryStream::Write(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## UnmanagedMemoryStream::Write(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 virtual void System::IO::UnmanagedMemoryStream::Write(const System::Details::ArrayView<uint8_t> &buffer, int32_t offset, int32_t count) override
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

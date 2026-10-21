@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.io/directory/getparent/
 ---
-## Directory::GetParent(const String\&) method
+## Directory::GetParent(const String&) method
 
 
 Returns a shared pointer to [DirectoryInfo](../../directoryinfo/) object representing the parent directory of the specified entity.
@@ -20,7 +20,7 @@ static DirectoryInfoPtr System::IO::Directory::GetParent(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to the entity whose parent is to be obtained |
+| path | const [String](../../../system/string/)& | The path to the entity whose parent is to be obtained |
 
 ### Return Value
 

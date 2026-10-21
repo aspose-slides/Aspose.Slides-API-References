@@ -22,6 +22,16 @@ virtual void System::Xml::XPath::XPathNavigator::SetTypedValue(SharedPtr<Object>
 | --- | --- | --- |
 | typedValue | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The new typed value of the node. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPathNavigator](../) does not support the type of the object specified. |
+| ArgumentNullException | The value specified cannot be **nullptr**. |
+| InvalidOperationException | The [XPathNavigator](../) is not positioned on an element or attribute node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

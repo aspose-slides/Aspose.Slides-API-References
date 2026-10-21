@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.io/memorystream/trygetbuffer/
 ---
-## MemoryStream::TryGetBuffer(ArraySegment\<uint8_t\>\&) method
+## MemoryStream::TryGetBuffer(ArraySegment\<uint8_t\>&) method
 
 
 Returns the array of unsigned bytes from which this stream was created.
@@ -20,7 +20,7 @@ bool System::IO::MemoryStream::TryGetBuffer(ArraySegment<uint8_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | [ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\& | byte array - out paramter. When this method returns true, the byte array segment from which this stream was created; when this method returns false, this parameter is set to default. |
+| buffer | [ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>& | byte array - out paramter. When this method returns true, the byte array segment from which this stream was created; when this method returns false, this parameter is set to default. |
 
 ### Return Value
 

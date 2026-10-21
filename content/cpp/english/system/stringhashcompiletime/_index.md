@@ -25,7 +25,7 @@ template<unsigned>class StringHashCompiletime
 
 | Method | Description |
 | --- | --- |
-| static void [Hash](./hash/)(**uint32_t**\&, int, const char_t *) | Generates a hash value from the specified c-string of the specified length. |
+| static void [Hash](./hash/)(**uint32_t**&, int, const char_t \*) | Generates a hash value from the specified c-string of the specified length. |
 
 ## See Also
 

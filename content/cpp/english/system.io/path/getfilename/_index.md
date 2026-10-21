@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.io/path/getfilename/
 ---
-## Path::GetFileName(const String\&) method
+## Path::GetFileName(const String&) method
 
 
 Returns the name of the file referenced by the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Path::GetFileName(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to a file |
+| path | const [String](../../../system/string/)& | A path to a file |
 
 ### Return Value
 

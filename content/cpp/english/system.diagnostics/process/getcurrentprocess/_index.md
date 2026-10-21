@@ -9,7 +9,7 @@ url: /system.diagnostics/process/getcurrentprocess/
 ## Process::GetCurrentProcess() method
 
 
-Gets information on current process. [Windows](../../../system.windows/) only.
+Gets information on current process. Windows only.
 
 ```cpp
 static SharedPtr<Process> System::Diagnostics::Process::GetCurrentProcess()

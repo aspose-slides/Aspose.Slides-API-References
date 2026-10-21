@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.globalization/numberformatinfo/set_negativesign/
 ---
-## NumberFormatInfo::set_NegativeSign(const String\&) method
+## NumberFormatInfo::set_NegativeSign(const String&) method
 
 
 Sets negative sign.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_NegativeSign(const String &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Negative sign. |
+| value | const [String](../../../system/string/)& | Negative sign. |
 
 ## See Also
 

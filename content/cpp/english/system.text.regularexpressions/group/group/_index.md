@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.text.regularexpressions/group/group/
 ---
-## Group::Group(const UStringPtr\&, int, int) constructor
+## Group::Group(const UStringPtr&, int, int) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::RegularExpressions::Group::Group(const UStringPtr &source, int ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [UStringPtr](../../ustringptr/)\& | Source string. |
+| source | const [UStringPtr](../../ustringptr/)& | Source string. |
 | index | int | Matching beginning index. |
 | length | int | [Match](../../match/) length. |
 

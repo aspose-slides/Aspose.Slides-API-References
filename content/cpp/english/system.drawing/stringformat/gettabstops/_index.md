@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.drawing/stringformat/gettabstops/
 ---
-## StringFormat::GetTabStops(float\&) const method
+## StringFormat::GetTabStops(float&) const method
 
 
 Returns the tab stops for the current [StringFormat](../) object.
@@ -20,7 +20,7 @@ ArrayPtr<float> System::Drawing::StringFormat::GetTabStops(float &first_tab_offs
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first_tab_offset | **float**\& | Output argumnt; Contains the number of spaces between the beginning of a text line and the first tab stop |
+| first_tab_offset | **float**& | Output argumnt; Contains the number of spaces between the beginning of a text line and the first tab stop |
 
 ### Return Value
 

@@ -20,6 +20,13 @@ bool System::Net::HttpWebRequest::get_UseDefaultCredentials() override
 
 The value that indicates if the 'Credential' property is equal to the 'DefaultCredentials' property.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotImplementedException](../../../system/notimplementedexception/) |  |
+
+
 ## See Also
 
 * Class [HttpWebRequest](../)

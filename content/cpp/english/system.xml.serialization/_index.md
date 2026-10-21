@@ -1,7 +1,7 @@
 ---
 title: "System::Xml::Serialization"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Xml::Serialization namespace"
 type: docs
 weight: 1171
 url: /system.xml.serialization/

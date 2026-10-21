@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.text/privatefontcollection/addfontfile/
 ---
-## PrivateFontCollection::AddFontFile(const String\&) method
+## PrivateFontCollection::AddFontFile(const String&) method
 
 
 Adds a font from the specified file to the collection.
@@ -20,7 +20,7 @@ void System::Drawing::Text::PrivateFontCollection::AddFontFile(const String &fil
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | A path to the file containing the font to add |
+| filename | const [String](../../../system/string/)& | A path to the file containing the font to add |
 
 ## See Also
 

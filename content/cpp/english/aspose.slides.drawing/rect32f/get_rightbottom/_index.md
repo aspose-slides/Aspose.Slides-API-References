@@ -1,7 +1,7 @@
 ---
 title: get_RightBottom()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rect32f::get_RightBottom() method"
 type: docs
 weight: 1
 url: /aspose.slides.drawing/rect32f/get_rightbottom/

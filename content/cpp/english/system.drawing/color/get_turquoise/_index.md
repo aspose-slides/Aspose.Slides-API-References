@@ -1,7 +1,7 @@
 ---
 title: get_Turquoise()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF40E0D0.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF40E0D0."
 type: docs
 weight: 2016
 url: /system.drawing/color/get_turquoise/

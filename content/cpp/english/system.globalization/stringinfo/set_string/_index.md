@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.globalization/stringinfo/set_string/
 ---
-## StringInfo::set_String(const String\&) method
+## StringInfo::set_String(const String&) method
 
 
 Sets the value of the [StringInfo](../) object.
@@ -20,7 +20,7 @@ void System::Globalization::StringInfo::set_String(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [String](../../../system/string/) value. |
+| value | const [String](../../../system/string/)& | [String](../../../system/string/) value. |
 
 ## See Also
 

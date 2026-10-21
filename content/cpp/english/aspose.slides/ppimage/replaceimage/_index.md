@@ -18,7 +18,7 @@ void Aspose::Slides::PPImage::ReplaceImage(System::ArrayPtr<uint8_t> newImageDat
 ## PPImage::ReplaceImage(System::SharedPtr\<Aspose::Slides::IImage\>) method
 
 
-Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte\[\]) instead
 
 ```cpp
 void Aspose::Slides::PPImage::ReplaceImage(System::SharedPtr<Aspose::Slides::IImage> newImage) override

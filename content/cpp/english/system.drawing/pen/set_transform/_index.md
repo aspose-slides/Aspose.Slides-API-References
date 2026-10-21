@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.drawing/pen/set_transform/
 ---
-## Pen::set_Transform(const SharedPtr\<Drawing2D::Matrix\>\&) method
+## Pen::set_Transform(const SharedPtr\<Drawing2D::Matrix\>&) method
 
 
 Sets a Matrix object that specifies the geometrical transformations for the pen represneted by the current object.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::set_Transform(const SharedPtr<Drawing2D::Matrix> &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\& | The value to set |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>& | The value to set |
 
 ## See Also
 

@@ -15,7 +15,7 @@ Writes line terminator characters to the stream.
 virtual void System::IO::TextWriter::WriteLine()
 ```
 
-## TextWriter::WriteLine(const SharedPtr\<Object\>\&) method
+## TextWriter::WriteLine(const SharedPtr\<Object\>&) method
 
 
 Writes the string representation of the specified object followed by the line-terminating characters to the stream.
@@ -29,7 +29,7 @@ virtual void System::IO::TextWriter::WriteLine(const SharedPtr<Object> &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object to write |
 
 ## TextWriter::WriteLine(bool) method
 
@@ -143,7 +143,7 @@ virtual void System::IO::TextWriter::WriteLine(float value)
 | --- | --- | --- |
 | value | **float** | The value to write |
 
-## TextWriter::WriteLine(const String\&) method
+## TextWriter::WriteLine(const String&) method
 
 
 Writes the specified string followed by the line-terminating characters to the stream.
@@ -157,7 +157,7 @@ virtual void System::IO::TextWriter::WriteLine(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The string to write |
+| value | const [String](../../../system/string/)& | The string to write |
 
 ## TextWriter::WriteLine(uint32_t) method
 
@@ -191,7 +191,7 @@ virtual void System::IO::TextWriter::WriteLine(uint64_t value)
 | --- | --- | --- |
 | value | **uint64_t** | The value to write |
 
-## TextWriter::WriteLine(const ArrayPtr\<char_t\>\&) method
+## TextWriter::WriteLine(const ArrayPtr\<char_t\>&) method
 
 
 Writes all characetrs from the specified array followed by the line-terminating characters to the stream.
@@ -205,9 +205,9 @@ virtual void System::IO::TextWriter::WriteLine(const ArrayPtr<char_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 
-## TextWriter::WriteLine(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## TextWriter::WriteLine(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array followed by the line-terminating characters to the stream.
@@ -221,11 +221,11 @@ virtual void System::IO::TextWriter::WriteLine(const ArrayPtr<char_t> &buffer, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>& | The array containing the characters to write |
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## TextWriter::WriteLine(const char_t *) method
+## TextWriter::WriteLine(const char_t \*) method
 
 
 Writes the specified c-string followed by the line-terminating characters to the stream.
@@ -239,9 +239,9 @@ virtual void System::IO::TextWriter::WriteLine(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to write |
+| value | const char_t \* | The c-string to write |
 
-## TextWriter::WriteLine(const TypeInfo\&) method
+## TextWriter::WriteLine(const TypeInfo&) method
 
 
 Writes the string representation of the specified [TypeInfo](../../../system/typeinfo/) object followed by the line-terminating characters to the stream.
@@ -255,9 +255,9 @@ virtual void System::IO::TextWriter::WriteLine(const TypeInfo &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [TypeInfo](../../../system/typeinfo/)\& | The object to write |
+| value | const [TypeInfo](../../../system/typeinfo/)& | The object to write |
 
-## TextWriter::WriteLine(const String\&, const TArgs\&...) method
+## TextWriter::WriteLine(const String&, const TArgs&...) method
 
 
 Writes the specified values formatted according to the specified format followed by the line-terminating characetrs to the stream.
@@ -277,8 +277,8 @@ template<class...> void System::IO::TextWriter::WriteLine(const String &format, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../../system/string/)\& | The string format |
-| args | const TArgs\&... | The values to write |
+| format | const [String](../../../system/string/)& | The string format |
+| args | const TArgs&... | The values to write |
 
 ## See Also
 

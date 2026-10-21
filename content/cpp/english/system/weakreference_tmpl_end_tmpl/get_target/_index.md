@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/weakreference_tmpl_end_tmpl/get_target/
 ---
-## WeakReference<>::get_Target() const method
+## WeakReference\<\>::get_Target() const method
 
 
 Gets the object (the target) referenced by the current WeakReference object.
@@ -24,6 +24,6 @@ const WeakPtr<Object> & System::WeakReference<>::get_Target() const
 
 * Class [WeakPtr](../../weakptr/)
 * Class [Object](../../object/)
-* Class [WeakReference<>](../)
+* Class [WeakReference\<\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

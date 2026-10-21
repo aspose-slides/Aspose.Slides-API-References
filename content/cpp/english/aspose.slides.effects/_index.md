@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Effects"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Effects namespace"
 type: docs
 weight: 66
 url: /aspose.slides.effects/

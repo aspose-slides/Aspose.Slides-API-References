@@ -16,6 +16,13 @@ virtual System::SharedPtr<IComment> Aspose::Slides::IComment::get_ParentComment(
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if setting the value leads to a circular reference |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

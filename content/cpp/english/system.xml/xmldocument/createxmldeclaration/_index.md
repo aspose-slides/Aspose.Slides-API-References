@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.xml/xmldocument/createxmldeclaration/
 ---
-## XmlDocument::CreateXmlDeclaration(const String\&, const String\&, const String\&) method
+## XmlDocument::CreateXmlDeclaration(const String&, const String&, const String&) method
 
 
 Creates an [XmlDeclaration](../../xmldeclaration/) node with the specified values.
@@ -20,13 +20,20 @@ virtual SharedPtr<XmlDeclaration> System::Xml::XmlDocument::CreateXmlDeclaration
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| version | const [String](../../../system/string/)\& | The version must be \"1.0\". |
-| encoding | const [String](../../../system/string/)\& | The value of the encoding attribute. This is the encoding that is used when you save the [XmlDocument](../) to a file or a stream; therefore, it must be set to a string supported by the [Text::Encoding](../../../system.text/encoding/) class, otherwise \"XmlDocument::Save(String)\" fails. If this is **nullptr** or [String::Empty](../../../system/string/empty/), the [XmlDocument::Save](../save/) method does not write an encoding attribute on the XML declaration and therefore the default encoding, UTF-8, is used. |
-| standalone | const [String](../../../system/string/)\& | The value must be either \"yes\" or \"no\". If this is **nullptr** or [String::Empty](../../../system/string/empty/), the [XmlDocument::Save](../save/) method does not write a standalone attribute on the XML declaration. |
+| version | const [String](../../../system/string/)& | The version must be "1.0". |
+| encoding | const [String](../../../system/string/)& | The value of the encoding attribute. This is the encoding that is used when you save the [XmlDocument](../) to a file or a stream; therefore, it must be set to a string supported by the [Text::Encoding](../../../system.text/encoding/) class, otherwise "XmlDocument::Save(String)" fails. If this is **nullptr** or [String::Empty](../../../system/string/empty/), the [XmlDocument::Save](../save/) method does not write an encoding attribute on the XML declaration and therefore the default encoding, UTF-8, is used. |
+| standalone | const [String](../../../system/string/)& | The value must be either "yes" or "no". If this is **nullptr** or [String::Empty](../../../system/string/empty/), the [XmlDocument::Save](../save/) method does not write a standalone attribute on the XML declaration. |
 
 ### Return Value
 
 The new [XmlDeclaration](../../xmldeclaration/) node.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The values of **version** or **standalone** are something other than the ones specified above. |
+
 ## Remarks
 
 

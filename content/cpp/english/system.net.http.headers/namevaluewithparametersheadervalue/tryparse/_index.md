@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.net.http.headers/namevaluewithparametersheadervalue/tryparse/
 ---
-## NameValueWithParametersHeaderValue::TryParse(String, System::SharedPtr\<NameValueWithParametersHeaderValue\>\&) method
+## NameValueWithParametersHeaderValue::TryParse(String, System::SharedPtr\<NameValueWithParametersHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [NameValueWithParametersHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueWithParametersHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueWithParametersHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.data/datarow/getchildrows/
 ---
-## DataRow::GetChildRows(const System::SharedPtr\<System::Data::DataRelation\>\&) method
+## DataRow::GetChildRows(const System::SharedPtr\<System::Data::DataRelation\>&) method
 
 
 Gets rows which are considered child through specified relation.
@@ -20,7 +20,7 @@ System::ArrayPtr<System::SharedPtr<System::Data::DataRow>> System::Data::DataRow
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| relation | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Data::DataRelation](../../datarelation/)\>\& | Relation object to specify parent row - child row relation. |
+| relation | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Data::DataRelation](../../datarelation/)\>& | Relation object to specify parent row - child row relation. |
 
 ### Return Value
 

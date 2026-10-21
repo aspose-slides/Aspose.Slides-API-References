@@ -1,7 +1,7 @@
 ---
 title: get_Chocolate()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFD2691E.
+description: "Returns the solid fill color whose hexadecimal value is #FFD2691E."
 type: docs
 weight: 196
 url: /system.drawing/brushes/get_chocolate/

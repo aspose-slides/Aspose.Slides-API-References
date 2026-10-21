@@ -1,7 +1,7 @@
 ---
 title: get_Windows()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::get_Windows() method"
 type: docs
 weight: 40
 url: /system.runtime.interopservices/osplatform/get_windows/

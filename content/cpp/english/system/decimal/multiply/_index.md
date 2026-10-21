@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /system/decimal/multiply/
 ---
-## Decimal::Multiply(const Decimal\&, const Decimal\&) method
+## Decimal::Multiply(const Decimal&, const Decimal&) method
 
 
 Multiplies two specified [Decimal](../) values.
@@ -20,8 +20,8 @@ static Decimal System::Decimal::Multiply(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | The multiplicand. |
-| d2 | const [Decimal](../)\& | The multiplier. |
+| d1 | const [Decimal](../)& | The multiplicand. |
+| d2 | const [Decimal](../)& | The multiplier. |
 
 ### Return Value
 

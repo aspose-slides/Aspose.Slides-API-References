@@ -20,13 +20,13 @@ void Aspose::Slides::Fonts::SetScriptFont(System::String script, System::String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| script | [System::String](../../../system/string/) | The BCP-47 script code (e.g., \"Arab\", \"Hebr\", \"Hans\") identifying the writing system. |
+| script | [System::String](../../../system/string/) | The BCP-47 script code (e.g., "Arab", "Hebr", "Hans") identifying the writing system. |
 | fontName | [System::String](../../../system/string/) | The name of the font to assign to the specified script. |
 ## Remarks
 
 
 
-This example shows how to set the font for the Arabic script to \"Segoe UI\": 
+This example shows how to set the font for the Arabic script to "Segoe UI": 
 ```cpp
 presentation->get_MasterTheme()->get_FontScheme()->get_Major()->SetScriptFont(u"Arab", u"Segoe UI");
 ```

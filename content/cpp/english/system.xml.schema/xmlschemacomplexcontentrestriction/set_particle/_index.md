@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemacomplexcontentrestriction/set_particle/
 ---
-## XmlSchemaComplexContentRestriction::set_Particle(const SharedPtr\<XmlSchemaParticle\>\&) method
+## XmlSchemaComplexContentRestriction::set_Particle(const SharedPtr\<XmlSchemaParticle\>&) method
 
 
 Sets one of the [XmlSchemaGroupRef](../../xmlschemagroupref/), [XmlSchemaChoice](../../xmlschemachoice/), [XmlSchemaAll](../../xmlschemaall/), or [XmlSchemaSequence](../../xmlschemasequence/) classes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexContentRestriction::set_Particle(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaParticle](../../xmlschemaparticle/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaParticle](../../xmlschemaparticle/)\>& | The value to set. |
 
 ## See Also
 

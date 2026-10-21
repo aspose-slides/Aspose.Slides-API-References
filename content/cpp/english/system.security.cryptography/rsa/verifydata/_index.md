@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.security.cryptography/rsa/verifydata/
 ---
-## RSA::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::VerifyData(const ByteArrayPtr&, const ByteArrayPtr&, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -20,12 +20,12 @@ bool System::Security::Cryptography::RSA::VerifyData(const ByteArrayPtr &data, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return true if signature is valid, otherwise - false. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return true if signature is valid, otherwise - false. |
 
-## RSA::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::VerifyData(const ByteArrayPtr&, int32_t, int32_t, const ByteArrayPtr&, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -39,14 +39,14 @@ bool System::Security::Cryptography::RSA::VerifyData(const ByteArrayPtr &data, i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to hash. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return true if signature is valid, otherwise - false. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return true if signature is valid, otherwise - false. |
 
-## RSA::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
+## RSA::VerifyData(const StreamPtr&, const ByteArrayPtr&, const HashAlgorithmName&, const SharedPtr\<RSASignaturePadding\>&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -60,10 +60,10 @@ bool System::Security::Cryptography::RSA::VerifyData(const StreamPtr &stream, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
-| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return true if signature is valid, otherwise - false. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
+| padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>& | Padding mode. return true if signature is valid, otherwise - false. |
 
 ## See Also
 

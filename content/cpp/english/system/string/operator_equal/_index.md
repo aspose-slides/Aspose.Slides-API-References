@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system/string/operator_equal/
 ---
-## String::operator=(const String\&) method
+## String::operator=(const String&) method
 
 
 Assignment operator.
@@ -20,13 +20,13 @@ String & System::String::operator=(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to copy. |
+| str | const [String](../)& | [String](../) to copy. |
 
 ### Return Value
 
 Self reference.
 
-## String::operator=(String\&&) method
+## String::operator=(String&&) method
 
 
 Move assignment operator.
@@ -40,7 +40,7 @@ String & System::String::operator=(String &&str) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | [String](../)\&& | [String](../) to move data from. |
+| str | [String](../)&& | [String](../) to move data from. |
 
 ### Return Value
 

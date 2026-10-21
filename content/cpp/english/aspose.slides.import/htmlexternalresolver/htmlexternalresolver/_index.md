@@ -1,7 +1,7 @@
 ---
 title: HtmlExternalResolver()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HtmlExternalResolver::HtmlExternalResolver() constructor"
 type: docs
 weight: 27
 url: /aspose.slides.import/htmlexternalresolver/htmlexternalresolver/

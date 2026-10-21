@@ -16,6 +16,13 @@ System::SharedPtr<IChartDataWorkbook> Aspose::Slides::Charts::ChartData::get_Cha
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the workbook format is not supported. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

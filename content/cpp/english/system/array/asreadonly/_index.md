@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /system/array/asreadonly/
 ---
-## Array::AsReadOnly(const SharedPtr\<Array\<T\>\>\&) method
+## Array::AsReadOnly(const SharedPtr\<Array\<T\>\>&) method
 
 
 Casts array to read only collection.

@@ -1,7 +1,7 @@
 ---
 title: Min()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Vector2d32f::Min() method"
 type: docs
 weight: 105
 url: /aspose.slides.drawing/vector2d32f/min/

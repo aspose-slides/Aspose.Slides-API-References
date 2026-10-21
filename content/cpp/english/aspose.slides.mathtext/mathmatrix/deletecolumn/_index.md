@@ -21,6 +21,14 @@ void Aspose::Slides::MathText::MathMatrix::DeleteColumn(int32_t columnIndex) ove
 | Parameter | Type | Description |
 | --- | --- | --- |
 | columnIndex | **int32_t** | The zero-based index of the column to delete. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | When you try to delete the last single column in the matrix |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | If columnIndex less than zero or greater or equal to the ColumnCount |
+
 ## Remarks
 
 

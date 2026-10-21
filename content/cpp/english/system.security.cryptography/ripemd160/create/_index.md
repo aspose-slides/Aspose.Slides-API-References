@@ -20,7 +20,7 @@ static SharedPtr<RIPEMD160> System::Security::Cryptography::RIPEMD160::Create()
 
 Newly created hasher instance.
 
-## RIPEMD160::Create(const String\&) method
+## RIPEMD160::Create(const String&) method
 
 
 Creates hash algorithm instance.
@@ -34,7 +34,7 @@ static SharedPtr<RIPEMD160> System::Security::Cryptography::RIPEMD160::Create(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algName | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.RIPEMD160\". |
+| algName | const [String](../../../system/string/)& | Must be "System.Security.Cryptography.RIPEMD160". |
 
 ### Return Value
 

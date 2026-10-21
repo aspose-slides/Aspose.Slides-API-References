@@ -19,7 +19,7 @@ class Unsafe
 
 | Method | Description |
 | --- | --- |
-| static void * [AsPointer](./aspointer/)(T\&) | Returns a pointer to the specified value. |
+| static void \* [AsPointer](./aspointer/)(T&) | Returns a pointer to the specified value. |
 | static **int32_t** [SizeOf](./sizeof/)() | Returns the size of the specified type. |
 ## Remarks
 

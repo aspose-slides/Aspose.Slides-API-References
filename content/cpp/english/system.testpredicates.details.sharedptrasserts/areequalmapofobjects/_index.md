@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.testpredicates.details.sharedptrasserts/areequalmapofobjects/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::AreEqualMapOfObjects(const T\&, const T\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreEqualMapOfObjects(const T&, const T&) function
 
 
 Equal-compares two maps using [System::Object::Equals](../../system/object/equals/) on elements.
@@ -26,8 +26,8 @@ template<typename T> bool System::TestPredicates::Details::SharedPtrAsserts::Are
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | const T\& | LHS map. |
-| rhs | const T\& | RHS map. |
+| lhs | const T& | LHS map. |
+| rhs | const T& | RHS map. |
 
 ### Return Value
 

@@ -26,7 +26,7 @@ template<typename T>class AssemblyTypeRegistration : public System::Reflection::
 | Method | Description |
 | --- | --- |
 |  [AssemblyTypeRegistration](./assemblytyperegistration/)() | Creates singleton, thus registering type in executing assembly. |
-|  [AssemblyTypeRegistration](./assemblytyperegistration/)(const [SharedPtr](../../system/sharedptr/)\<[Assembly](../assembly/)\>\&) | Creates singleton, thus registering type in the specified assembly. |
+|  [AssemblyTypeRegistration](./assemblytyperegistration/)(const [SharedPtr](../../system/sharedptr/)\<[Assembly](../assembly/)\>&) | Creates singleton, thus registering type in the specified assembly. |
 
 ## See Also
 

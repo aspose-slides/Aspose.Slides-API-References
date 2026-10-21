@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.text.regularexpressions/match/addcapture/
 ---
-## Match::AddCapture(const CapturePtr\&) method
+## Match::AddCapture(const CapturePtr&) method
 
 
 Adds capture into match.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::Match::AddCapture(const CapturePtr &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [CapturePtr](../../captureptr/)\& | Item to add. |
+| item | const [CapturePtr](../../captureptr/)& | Item to add. |
 
 ## See Also
 

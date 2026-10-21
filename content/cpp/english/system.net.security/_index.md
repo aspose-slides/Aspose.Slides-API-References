@@ -1,7 +1,7 @@
 ---
 title: "System::Net::Security"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Security namespace"
 type: docs
 weight: 729
 url: /system.net.security/

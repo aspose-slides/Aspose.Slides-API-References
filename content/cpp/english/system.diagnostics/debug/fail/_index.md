@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.diagnostics/debug/fail/
 ---
-## Debug::Fail(const String\&) method
+## Debug::Fail(const String&) method
 
 
 Send fail message.
@@ -20,7 +20,7 @@ static void System::Diagnostics::Debug::Fail(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Failure description. |
+| message | const [String](../../../system/string/)& | Failure description. |
 
 ## See Also
 

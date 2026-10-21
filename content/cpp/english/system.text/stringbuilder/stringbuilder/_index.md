@@ -31,7 +31,7 @@ System::Text::StringBuilder::StringBuilder(int capacity)
 | --- | --- | --- |
 | capacity | int | Initial string capacity. |
 
-## StringBuilder::StringBuilder(const String\&) constructor
+## StringBuilder::StringBuilder(const String&) constructor
 
 
 Constructor.
@@ -45,9 +45,9 @@ System::Text::StringBuilder::StringBuilder(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Initial value. |
+| str | const [String](../../../system/string/)& | Initial value. |
 
-## StringBuilder::StringBuilder(const String\&, int) constructor
+## StringBuilder::StringBuilder(const String&, int) constructor
 
 
 Constructor.
@@ -61,10 +61,10 @@ System::Text::StringBuilder::StringBuilder(const String &value, int capacity)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Initial value. |
+| value | const [String](../../../system/string/)& | Initial value. |
 | capacity | int | Initial string capacity. |
 
-## StringBuilder::StringBuilder(const String\&, int, int, int) constructor
+## StringBuilder::StringBuilder(const String&, int, int, int) constructor
 
 
 Constructor.
@@ -78,7 +78,7 @@ System::Text::StringBuilder::StringBuilder(const String &value, int startIndex, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Initial value. |
+| value | const [String](../../../system/string/)& | Initial value. |
 | startIndex | int | [Index](../../../system/index/) of initial value slice beginning. |
 | length | int | Initial value slice length. |
 | capacity | int | Initial string capacity. |

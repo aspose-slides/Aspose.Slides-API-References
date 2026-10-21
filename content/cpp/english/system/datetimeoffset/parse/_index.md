@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /system/datetimeoffset/parse/
 ---
-## DateTimeOffset::Parse(const String\&) method
+## DateTimeOffset::Parse(const String&) method
 
 
 Converts the specified string to [DateTimeOffset](../) equivalent.
@@ -20,13 +20,13 @@ static DateTimeOffset System::DateTimeOffset::Parse(const String &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
 
 ### Return Value
 
 [DateTimeOffset](../) that is equivalent to the **input**.
 
-## DateTimeOffset::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles) method
+## DateTimeOffset::Parse(const String&, const SharedPtr\<IFormatProvider\>&, Globalization::DateTimeStyles) method
 
 
 Converts the specified string to [DateTimeOffset](../) object using the specified format provider and formatting style.
@@ -40,8 +40,8 @@ static DateTimeOffset System::DateTimeOffset::Parse(const String &input, const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | [String](../../string/) to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| input | const [String](../../string/)& | [String](../../string/) to convert. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 | styles | [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/) | Date and time formatting styles. |
 
 ### Return Value

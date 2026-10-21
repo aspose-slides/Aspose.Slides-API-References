@@ -1,7 +1,7 @@
 ---
 title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Vector2d32f::IsNull() method"
 type: docs
 weight: 79
 url: /aspose.slides.drawing/vector2d32f/isnull/

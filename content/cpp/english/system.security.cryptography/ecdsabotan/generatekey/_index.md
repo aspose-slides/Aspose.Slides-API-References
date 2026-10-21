@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.security.cryptography/ecdsabotan/generatekey/
 ---
-## ECDsaBotan::GenerateKey(const ECCurve\&) method
+## ECDsaBotan::GenerateKey(const ECCurve&) method
 
 
 Generates a new public/private key pair for the specified curve.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::ECDsaBotan::GenerateKey(const ECCurve &curv
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curve | const [ECCurve](../../eccurve/)\& | Curve to use to generate the keys. |
+| curve | const [ECCurve](../../eccurve/)& | Curve to use to generate the keys. |
 
 ## See Also
 

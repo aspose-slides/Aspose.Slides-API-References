@@ -19,12 +19,12 @@ class TimerQueue
 
 | Method | Description |
 | --- | --- |
-| **bool** [Add](./add/)([Timer](../timer/) *) | Registers timer in queue. |
-| **bool** [Delete](./delete/)([Timer](../timer/) *) | Deletes timer from queue. |
-| static [TimerQueue](./)\& [GetInstance](./getinstance/)() | Implementation singleton. |
+| **bool** [Add](./add/)([Timer](../timer/) \*) | Registers timer in queue. |
+| **bool** [Delete](./delete/)([Timer](../timer/) \*) | Deletes timer from queue. |
+| static [TimerQueue](./)& [GetInstance](./getinstance/)() | Implementation singleton. |
 | static void [JoinWorkerThread](./joinworkerthread/)() | Joins worker thread. Waits infinitely if required. |
-| void [operator=](./operator_equal/)(const [TimerQueue](./)\&) | No copying. |
-|  [TimerQueue](./timerqueue/)(const [TimerQueue](./)\&) | No copying. |
+| void [operator=](./operator_equal/)(const [TimerQueue](./)&) | No copying. |
+|  [TimerQueue](./timerqueue/)(const [TimerQueue](./)&) | No copying. |
 ## See Also
 
 * Namespace [System::Threading](../)

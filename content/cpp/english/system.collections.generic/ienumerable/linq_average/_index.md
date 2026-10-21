@@ -20,7 +20,14 @@ Source System::Collections::Generic::IEnumerable<Source>::LINQ_Average()
 
 The average of the values in the sequence.
 
-## IEnumerable::LINQ_Average(const Func\<T, ResultType\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The source sequence is empty. |
+
+
+## IEnumerable::LINQ_Average(const Func\<T, ResultType\>&) method
 
 
 Computes the average of a sequence of values that are obtained by invoking a transform function on each element of the input sequence.
@@ -40,13 +47,20 @@ template<typename ResultType> ResultType System::Collections::Generic::IEnumerab
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, ResultType\>\& | A transform function to apply to each element. |
+| selector | const [Func](../../../system/func/)\<T, ResultType\>& | A transform function to apply to each element. |
 
 ### Return Value
 
 The average of the projected values.
 
-## IEnumerable::LINQ_Average(const Func\<Source, ResultType\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The source sequence is empty. |
+
+
+## IEnumerable::LINQ_Average(const Func\<Source, ResultType\>&) method
 
 
 

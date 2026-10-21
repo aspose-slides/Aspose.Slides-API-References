@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.stringextra/concat/
 ---
-## System::StringExtra::Concat(const ArrayPtr\<String\>\&) function
+## System::StringExtra::Concat(const ArrayPtr\<String\>&) function
 
 
 Concatenates string array.
@@ -20,13 +20,13 @@ String System::StringExtra::Concat(const ArrayPtr<String> &parts)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parts | const [ArrayPtr](../../system/arrayptr/)\<[String](../../system/string/)\>\& | [Array](../../system/array/) of strings to join. |
+| parts | const [ArrayPtr](../../system/arrayptr/)\<[String](../../system/string/)\>& | [Array](../../system/array/) of strings to join. |
 
 ### Return Value
 
 Joint string.
 
-## System::StringExtra::Concat(const String\&, const String\&) function
+## System::StringExtra::Concat(const String&, const String&) function
 
 
 Concatenates strings.
@@ -40,14 +40,14 @@ String System::StringExtra::Concat(const String &str0, const String &str1)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../../system/string/)\& | First string to concatenate. |
-| str1 | const [String](../../system/string/)\& | Second string to concatenate. |
+| str0 | const [String](../../system/string/)& | First string to concatenate. |
+| str1 | const [String](../../system/string/)& | Second string to concatenate. |
 
 ### Return Value
 
 Joint parameter strings.
 
-## System::StringExtra::Concat(const String\&, const String\&, const String\&) function
+## System::StringExtra::Concat(const String&, const String&, const String&) function
 
 
 Concatenates strings.
@@ -61,15 +61,15 @@ String System::StringExtra::Concat(const String &str0, const String &str1, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../../system/string/)\& | First string to concatenate. |
-| str1 | const [String](../../system/string/)\& | Second string to concatenate. |
-| str2 | const [String](../../system/string/)\& | Third string to concatenate. |
+| str0 | const [String](../../system/string/)& | First string to concatenate. |
+| str1 | const [String](../../system/string/)& | Second string to concatenate. |
+| str2 | const [String](../../system/string/)& | Third string to concatenate. |
 
 ### Return Value
 
 Joint parameter strings.
 
-## System::StringExtra::Concat(const String\&, const String\&, const String\&, const String\&) function
+## System::StringExtra::Concat(const String&, const String&, const String&, const String&) function
 
 
 Concatenates strings.
@@ -83,16 +83,59 @@ String System::StringExtra::Concat(const String &str0, const String &str1, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../../system/string/)\& | First string to concatenate. |
-| str1 | const [String](../../system/string/)\& | Second string to concatenate. |
-| str2 | const [String](../../system/string/)\& | Third string to concatenate. |
-| str3 | const [String](../../system/string/)\& | Fourth string to concatenate. |
+| str0 | const [String](../../system/string/)& | First string to concatenate. |
+| str1 | const [String](../../system/string/)& | Second string to concatenate. |
+| str2 | const [String](../../system/string/)& | Third string to concatenate. |
+| str3 | const [String](../../system/string/)& | Fourth string to concatenate. |
 
 ### Return Value
 
 Joint parameter strings.
 
-## System::StringExtra::Concat(const ArrayPtr\<T\>\&) function
+## System::StringExtra::Concat(const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) function
+
+
+Concatenates the string representations of two specified objects.
+
+```cpp
+String System::StringExtra::Concat(const SharedPtr<Object> &arg0, const SharedPtr<Object> &arg1)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The first object to concatenate. |
+| arg1 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The second object to concatenate |
+
+### Return Value
+
+The concatenated string representations of the values of arg0 and arg1.
+
+## System::StringExtra::Concat(const SharedPtr\<Object\>&, const SharedPtr\<Object\>&, const SharedPtr\<Object\>&) function
+
+
+Concatenates the string representations of three specified objects.
+
+```cpp
+String System::StringExtra::Concat(const SharedPtr<Object> &arg0, const SharedPtr<Object> &arg1, const SharedPtr<Object> &arg2)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The first object to concatenate. |
+| arg1 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The second object to concatenate |
+| arg2 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | The third object to concatenate |
+
+### Return Value
+
+The concatenated string representations of the values of arg0, arg1 and arg2.
+
+## System::StringExtra::Concat(const ArrayPtr\<T\>&) function
 
 
 Converts multiple objects to string and concatenates resulting strings. Specialization for [SmartPtr](../../system/smartptr/) types.
@@ -106,13 +149,13 @@ template<typename T> std::enable_if_t<IsSmartPtr<T>::value, String> System::Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | const [ArrayPtr](../../system/arrayptr/)\<T\>\& | [Object](../../system/object/) to convert and join. |
+| args | const [ArrayPtr](../../system/arrayptr/)\<T\>& | [Object](../../system/object/) to convert and join. |
 
 ### Return Value
 
 [String](../../system/string/) value joint from string representations of all objects passed.
 
-## System::StringExtra::Concat(const ArrayPtr\<T\>\&) function
+## System::StringExtra::Concat(const ArrayPtr\<T\>&) function
 
 
 Converts multiple objects to string and concatenates resulting strings. Specialization for arithmetic types.
@@ -126,13 +169,13 @@ template<typename T> std::enable_if_t<std::is_arithmetic<T>::value, String> Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | const [ArrayPtr](../../system/arrayptr/)\<T\>\& | [Object](../../system/object/) to convert and join. |
+| args | const [ArrayPtr](../../system/arrayptr/)\<T\>& | [Object](../../system/object/) to convert and join. |
 
 ### Return Value
 
 [String](../../system/string/) value joint from string representations of all objects passed.
 
-## System::StringExtra::Concat(const ArrayPtr\<T\>\&) function
+## System::StringExtra::Concat(const ArrayPtr\<T\>&) function
 
 
 Converts multiple objects to string and concatenates resulting strings. Specialization for structures and other value types.
@@ -146,7 +189,7 @@ template<typename T> std::enable_if_t<!IsSmartPtr<T>::value &&!std::is_arithmeti
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | const [ArrayPtr](../../system/arrayptr/)\<T\>\& | [Object](../../system/object/) to convert and join. |
+| args | const [ArrayPtr](../../system/arrayptr/)\<T\>& | [Object](../../system/object/) to convert and join. |
 
 ### Return Value
 
@@ -155,7 +198,9 @@ template<typename T> std::enable_if_t<!IsSmartPtr<T>::value &&!std::is_arithmeti
 ## See Also
 
 * Typedef [ArrayPtr](../../system/arrayptr/)
+* Typedef [SharedPtr](../../system/sharedptr/)
 * Class [String](../../system/string/)
+* Class [Object](../../system/object/)
 * Struct [IsSmartPtr](../../system/issmartptr/)
 * Namespace [System::StringExtra](../)
 * Library [Aspose.Slides](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/objectext/box/
 ---
-## ObjectExt::Box(const T\&) method
+## ObjectExt::Box(const T&) method
 
 
 Boxes value types for converting to [Object](../../object/). Implementation for enum types.
@@ -26,13 +26,13 @@ template<typename T> static std::enable_if<std::is_enum<T>::value, System::Smart
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Enum](../../enum/) value to box. |
+| value | const T& | [Enum](../../enum/) value to box. |
 
 ### Return Value
 
 Smart pointer to object keeping boxed value.
 
-## ObjectExt::Box(const T\&) method
+## ObjectExt::Box(const T&) method
 
 
 Boxes value types for converting to [Object](../../object/). Implementation for non-enum types.
@@ -52,13 +52,13 @@ template<typename T> static std::enable_if<!std::is_enum<T>::value &&!IsNullable
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | Value to box. |
+| value | const T& | Value to box. |
 
 ### Return Value
 
 Smart pointer to object keeping boxed value.
 
-## ObjectExt::Box(const T\&) method
+## ObjectExt::Box(const T&) method
 
 
 Boxes [Nullable](../../nullable/) types for converting to [Object](../../object/).
@@ -78,13 +78,13 @@ template<typename T> static std::enable_if<IsNullable<T>::value, System::SmartPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | Value to box. |
+| value | const T& | Value to box. |
 
 ### Return Value
 
 Smart pointer to object keeping boxed value.
 
-## ObjectExt::Box(const String\&) method
+## ObjectExt::Box(const String&) method
 
 
 Boxes string values.
@@ -98,7 +98,7 @@ SmartPtr<Object> System::ObjectExt::Box(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | Value to box. |
+| value | const [String](../../string/)& | Value to box. |
 
 ### Return Value
 

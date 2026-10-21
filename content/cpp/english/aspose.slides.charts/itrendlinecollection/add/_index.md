@@ -24,7 +24,7 @@ virtual System::SharedPtr<ITrendline> Aspose::Slides::Charts::ITrendlineCollecti
 
 ### Return Value
 
-New [Trendline](../../trendline/)[ITrendline](../../itrendline/)
+New [Trendline](../../trendline/) [ITrendline](../../itrendline/)
 
 ## See Also
 

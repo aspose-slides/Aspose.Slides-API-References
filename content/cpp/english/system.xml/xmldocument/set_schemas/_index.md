@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.xml/xmldocument/set_schemas/
 ---
-## XmlDocument::set_Schemas(const SharedPtr\<Schema::XmlSchemaSet\>\&) method
+## XmlDocument::set_Schemas(const SharedPtr\<Schema::XmlSchemaSet\>&) method
 
 
 Sets the XmlSchemaSet object associated with this [XmlDocument](../).
@@ -20,7 +20,7 @@ void System::Xml::XmlDocument::set_Schemas(const SharedPtr<Schema::XmlSchemaSet>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Schema::XmlSchemaSet](../../../system.xml.schema/xmlschemaset/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Schema::XmlSchemaSet](../../../system.xml.schema/xmlschemaset/)\>& | The value to set. |
 
 ## See Also
 

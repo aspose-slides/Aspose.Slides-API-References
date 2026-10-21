@@ -19,14 +19,14 @@ template<typename TKey,typename TValue>class KeyValuePair
 
 | Method | Description |
 | --- | --- |
-| const TKey\& [get_Key](./get_key/)() const | Gets key. |
-| const TValue\& [get_Value](./get_value/)() const | Gets value. |
+| const TKey& [get_Key](./get_key/)() const | Gets key. |
+| const TValue& [get_Value](./get_value/)() const | Gets value. |
 | int [GetHashCode](./gethashcode/)() const | Calculates key-value pair hash by xoring key's and value's hashes. |
 | **bool** [IsNull](./isnull/)() const | Always returns false. |
 |  [KeyValuePair](./keyvaluepair/)() | Null key-value pair initializer. |
-|  [KeyValuePair](./keyvaluepair/)(const TKey\&, const TValue\&) | Constructor. |
-|  [KeyValuePair](./keyvaluepair/)(const std::pair\<OtherK, OtherV\>\&) | Type conversion constructor. |
-| **bool** [operator<](./operator_less/)(const [KeyValuePair](./)\&) const | Patch for classes inherited from IComparer<KeyValuePair<TKey, TValue>>, doesn't compare anything. |
+|  [KeyValuePair](./keyvaluepair/)(const TKey&, const TValue&) | Constructor. |
+|  [KeyValuePair](./keyvaluepair/)(const std::pair\<OtherK, OtherV\>&) | Type conversion constructor. |
+| **bool** [operator\<](./operator_less/)(const [KeyValuePair](./)&) const | Patch for classes inherited from IComparer\<KeyValuePair\<TKey, TValue\>\>, doesn't compare anything. |
 | [String](../../system/string/) [ToString](./tostring/)() const | Converts key-value pair to string. |
 
 ## See Also

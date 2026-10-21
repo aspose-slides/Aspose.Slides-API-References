@@ -25,11 +25,19 @@ static System::SharedPtr<Aspose::Slides::ITable> Aspose::Slides::Import::ExcelWo
 | y | **float** | The Y coordinate for positioning the table. |
 | workbook | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Excel::IExcelDataWorkbook](../../../aspose.slides.excel/iexceldataworkbook/)\> | The [Excel](../../../aspose.slides.excel/) workbook. |
 | worksheetName | [System::String](../../../system/string/) | The name of the worksheet that contains the table. |
-| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, \"A1:D10\"). |
+| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, "A1:D10"). |
 
 ### Return Value
 
 The table that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null or empty, or when the specified worksheet or cell range is invalid. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the input data is in an unsupported format. |
+
 ## Remarks
 
 
@@ -60,11 +68,20 @@ static System::SharedPtr<Aspose::Slides::ITable> Aspose::Slides::Import::ExcelWo
 | y | **float** | The Y coordinate for positioning the table. |
 | workbookPath | [System::String](../../../system/string/) | The path to the [Excel](../../../aspose.slides.excel/) workbook file. |
 | worksheetName | [System::String](../../../system/string/) | The name of the worksheet that contains the table. |
-| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, \"A1:D10\"). |
+| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, "A1:D10"). |
 
 ### Return Value
 
 The table that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null or empty, or when the specified worksheet or cell range is invalid. |
+| [System::IO::IOException](../../../system.io/ioexception/) | Thrown when an I/O error occurs while accessing the workbook file. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the input data is in an unsupported format. |
+
 ## Remarks
 
 
@@ -95,11 +112,19 @@ static System::SharedPtr<Aspose::Slides::ITable> Aspose::Slides::Import::ExcelWo
 | y | **float** | The Y coordinate for positioning the table. |
 | workbookStream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | A stream containing the workbook data. |
 | worksheetName | [System::String](../../../system/string/) | The name of the worksheet that contains the table. |
-| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, \"A1:D10\"). |
+| cellRange | [System::String](../../../system/string/) | The cell range that defines the table (for example, "A1:D10"). |
 
 ### Return Value
 
 The table that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null or empty, or when the specified worksheet or cell range is invalid. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the input data is in an unsupported format. |
+
 ## Remarks
 
 

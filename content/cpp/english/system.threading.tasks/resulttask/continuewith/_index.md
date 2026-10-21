@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.threading.tasks/resulttask/continuewith/
 ---
-## ResultTask::ContinueWith(const Action\<RTaskPtr\<T\>\>\&) method
+## ResultTask::ContinueWith(const Action\<RTaskPtr\<T\>\>&) method
 
 
 Creates a continuation that executes when the result task completes.
@@ -20,7 +20,7 @@ TaskPtr System::Threading::Tasks::ResultTask<T>::ContinueWith(const Action<RTask
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| continuationAction | const [Action](../../../system/action/)\<[RTaskPtr](../../../system/rtaskptr/)\<T\>\>\& | Action to execute when this task completes, receiving this result task |
+| continuationAction | const [Action](../../../system/action/)\<[RTaskPtr](../../../system/rtaskptr/)\<T\>\>& | Action to execute when this task completes, receiving this result task |
 
 ### Return Value
 
@@ -31,7 +31,7 @@ TaskPtr A new task representing the continuation
 
 The continuation action receives this [ResultTask](../) to access the result value 
 
-## ResultTask::ContinueWith(const Func\<RTaskPtr\<T\>, TNewResult\>\&) method
+## ResultTask::ContinueWith(const Func\<RTaskPtr\<T\>, TNewResult\>&) method
 
 
 Creates a continuation that executes when the result task completes.
@@ -51,7 +51,7 @@ template<typename TNewResult> RTaskPtr<TNewResult> System::Threading::Tasks::Res
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| continuationFunction | const [Func](../../../system/func/)\<[RTaskPtr](../../../system/rtaskptr/)\<T\>, TNewResult\>\& | Function to get continuation result when this task completes, receiving this result task |
+| continuationFunction | const [Func](../../../system/func/)\<[RTaskPtr](../../../system/rtaskptr/)\<T\>, TNewResult\>& | Function to get continuation result when this task completes, receiving this result task |
 
 ### Return Value
 
@@ -62,7 +62,7 @@ RTaskPtr A new task representing the continuation
 
 The continuation function receives this [ResultTask](../) to access the result value 
 
-## ResultTask::ContinueWith(const Action\<TaskPtr\>\&) method
+## ResultTask::ContinueWith(const Action\<TaskPtr\>&) method
 
 
 Creates a continuation that executes when the task completes.
@@ -76,13 +76,13 @@ TaskPtr System::Threading::Tasks::Task::ContinueWith(const Action<TaskPtr> &cont
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| continuationAction | const [Action](../../../system/action/)\<[TaskPtr](../../../system/taskptr/)\>\& | Action to execute when this task completes |
+| continuationAction | const [Action](../../../system/action/)\<[TaskPtr](../../../system/taskptr/)\>& | Action to execute when this task completes |
 
 ### Return Value
 
 TaskPtr A new task representing the continuation
 
-## ResultTask::ContinueWith(const Func\<TaskPtr, TResult\>\&) method
+## ResultTask::ContinueWith(const Func\<TaskPtr, TResult\>&) method
 
 
 Creates a continuation that executes when the task completes.
@@ -102,7 +102,7 @@ template<typename TResult> RTaskPtr<TResult> System::Threading::Tasks::Task::Con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| continuationFunction | const [Func](../../../system/func/)\<[TaskPtr](../../../system/taskptr/), TResult\>\& | Function to get result when this task completes |
+| continuationFunction | const [Func](../../../system/func/)\<[TaskPtr](../../../system/taskptr/), TResult\>& | Function to get result when this task completes |
 
 ### Return Value
 

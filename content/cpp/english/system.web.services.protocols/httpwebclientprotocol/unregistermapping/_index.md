@@ -1,7 +1,7 @@
 ---
 title: UnregisterMapping()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HttpWebClientProtocol::UnregisterMapping() method"
 type: docs
 weight: 183
 url: /system.web.services.protocols/httpwebclientprotocol/unregistermapping/

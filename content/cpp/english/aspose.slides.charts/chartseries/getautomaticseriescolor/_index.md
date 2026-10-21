@@ -16,10 +16,6 @@ System::Drawing::Color Aspose::Slides::Charts::ChartSeries::GetAutomaticSeriesCo
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Class [Color](../../../system.drawing/color/)

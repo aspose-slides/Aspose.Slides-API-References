@@ -1,7 +1,7 @@
 ---
 title: Win32Exception
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Win32Exception typedef
 type: docs
 weight: 248
 url: /system.componentmodel/win32exception/

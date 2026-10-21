@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/stringwriter/stringwriter/
 ---
-## StringWriter::StringWriter(const System::SharedPtr\<Text::StringBuilder\>\&, const IFormatProviderPtr\&) constructor
+## StringWriter::StringWriter(const System::SharedPtr\<Text::StringBuilder\>&, const IFormatProviderPtr&) constructor
 
 
 Constructs a new instance of [StringWriter](../) using the specified StringBuilder and [IFormatProvider](../../../system/iformatprovider/).
@@ -20,10 +20,10 @@ System::IO::StringWriter::StringWriter(const System::SharedPtr<Text::StringBuild
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sb | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>\& | The StringBuilder object to be used by the [StringWriter](../) being constructed |
-| formatProvider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)\& | An [IFormatProvider](../../../system/iformatprovider/) object to be used by the object being constructed |
+| sb | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>& | The StringBuilder object to be used by the [StringWriter](../) being constructed |
+| formatProvider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)& | An [IFormatProvider](../../../system/iformatprovider/) object to be used by the object being constructed |
 
-## StringWriter::StringWriter(const System::SharedPtr\<Text::StringBuilder\>\&) constructor
+## StringWriter::StringWriter(const System::SharedPtr\<Text::StringBuilder\>&) constructor
 
 
 Constructs a new instance of [StringWriter](../) using the specified StringBuilder and [IFormatProvider](../../../system/iformatprovider/) from the current culture.
@@ -37,9 +37,9 @@ System::IO::StringWriter::StringWriter(const System::SharedPtr<Text::StringBuild
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sb | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>\& | The StringBuilder object to be used by the [StringWriter](../) being constructed |
+| sb | const [System::SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>& | The StringBuilder object to be used by the [StringWriter](../) being constructed |
 
-## StringWriter::StringWriter(const IFormatProviderPtr\&) constructor
+## StringWriter::StringWriter(const IFormatProviderPtr&) constructor
 
 
 Constructs a new instance of [StringWriter](../) using the specified [IFormatProvider](../../../system/iformatprovider/).
@@ -53,7 +53,7 @@ System::IO::StringWriter::StringWriter(const IFormatProviderPtr &formatProvider)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formatProvider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)\& | An [IFormatProvider](../../../system/iformatprovider/) object to be used by the object being constructed |
+| formatProvider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)& | An [IFormatProvider](../../../system/iformatprovider/) object to be used by the object being constructed |
 
 ## StringWriter::StringWriter() constructor
 

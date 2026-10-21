@@ -26,7 +26,7 @@ bool System::Xml::Schema::XmlSchemaSet::Contains(String targetNamespace)
 
 **true** if a schema with the specified target namespace URI is in the [XmlSchemaSet](../); otherwise, **false**.
 
-## XmlSchemaSet::Contains(const SharedPtr\<XmlSchema\>\&) method
+## XmlSchemaSet::Contains(const SharedPtr\<XmlSchema\>&) method
 
 
 Indicates whether the specified XML [Schema](../../) definition language (XSD) [XmlSchema](../../xmlschema/) object is in the [XmlSchemaSet](../).
@@ -40,11 +40,18 @@ bool System::Xml::Schema::XmlSchemaSet::Contains(const SharedPtr<XmlSchema> &sch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) object. |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) object. |
 
 ### Return Value
 
 **true** if the [XmlSchema](../../xmlschema/) object is in the [XmlSchemaSet](../); otherwise, **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlSchemaSet](../) passed as a parameter is **nullptr**. |
+
 
 ## See Also
 

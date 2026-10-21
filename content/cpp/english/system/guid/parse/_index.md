@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system/guid/parse/
 ---
-## Guid::Parse(const String\&) method
+## Guid::Parse(const String&) method
 
 
 Converts the specified string representation of a GUID into equivalent [Guid](../) object.
@@ -20,7 +20,7 @@ static Guid System::Guid::Parse(const String &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | The string containing the string representation of GUID |
+| input | const [String](../../string/)& | The string containing the string representation of GUID |
 
 ### Return Value
 

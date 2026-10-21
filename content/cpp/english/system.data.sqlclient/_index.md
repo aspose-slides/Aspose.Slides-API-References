@@ -1,7 +1,7 @@
 ---
 title: "System::Data::SqlClient"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Data::SqlClient namespace"
 type: docs
 weight: 469
 url: /system.data.sqlclient/

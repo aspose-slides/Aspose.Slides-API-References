@@ -9,7 +9,7 @@ url: /system.xml/xmltextreader/get_isemptyelement/
 ## XmlTextReader::get_IsEmptyElement() method
 
 
-Returns a value indicating whether the current node is an empty element (for example, **<MyElement/>**).
+Returns a value indicating whether the current node is an empty element (for example, **\<MyElement/\>**).
 
 ```cpp
 bool System::Xml::XmlTextReader::get_IsEmptyElement() override
@@ -18,7 +18,7 @@ bool System::Xml::XmlTextReader::get_IsEmptyElement() override
 
 ### Return Value
 
-**true** if the current node is an element ([XmlTextReader::get_NodeType](../get_nodetype/) value equals [XmlNodeType::Element](../../xmlnodetype/)) that ends with **/>**; otherwise, **false**.
+**true** if the current node is an element ([XmlTextReader::get_NodeType](../get_nodetype/) value equals [XmlNodeType::Element](../../xmlnodetype/)) that ends with **/\>**; otherwise, **false**.
 
 ## See Also
 

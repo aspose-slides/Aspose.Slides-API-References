@@ -20,8 +20,8 @@ enum EnvironmentVariableTarget
 | Name | Value | Description |
 | --- | --- | --- |
 | Process | 0 | [Environment](../environment/) block associated with the current process. |
-| User | 1 | Registry key HKEY_CURRENT_USER\[Environment](../environment/). |
-| Machine | 2 | Registry key HKEY_LOCAL_MACHINE\[System](../)\CurrentControlSet\Control\Session Manager\[Environment](../environment/). |
+| User | 1 | Registry key HKEY_CURRENT_USER\\[Environment](../environment/). |
+| Machine | 2 | Registry key HKEY_LOCAL_MACHINE\\[System](../)\\CurrentControlSet\\Control\\Session Manager\\[Environment](../environment/). |
 
 ## See Also
 

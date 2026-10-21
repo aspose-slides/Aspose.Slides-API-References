@@ -1,7 +1,7 @@
 ---
 title: Max()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Vector2d64d::Max() method"
 type: docs
 weight: 144
 url: /aspose.slides.drawing/vector2d64d/max/

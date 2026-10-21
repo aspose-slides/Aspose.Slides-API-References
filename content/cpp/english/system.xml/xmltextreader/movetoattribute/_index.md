@@ -63,6 +63,13 @@ void System::Xml::XmlTextReader::MoveToAttribute(int32_t i) override
 | --- | --- | --- |
 | i | **int32_t** | The index of the attribute. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | The **i** parameter is less than 0 or greater than or equal to [XmlTextReader::get_AttributeCount](../get_attributecount/) value. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

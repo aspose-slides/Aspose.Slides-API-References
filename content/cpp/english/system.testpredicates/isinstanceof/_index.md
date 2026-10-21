@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.testpredicates/isinstanceof/
 ---
-## System::TestPredicates::IsInstanceOf(const char *, const char *, const TypeInfo\&, const T\&) function
+## System::TestPredicates::IsInstanceOf(const char \*, const char \*, const TypeInfo&, const T&) function
 
 
 Is-instance-of-compares arguments for IsInstanceOf assertion translation.
@@ -26,10 +26,10 @@ template<typename T> testing::AssertionResult System::TestPredicates::IsInstance
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| typeInfo | const [TypeInfo](../../system/typeinfo/)\& | A typeInfo object that represents a type against which the type of **obj** is to be compared |
-| obj | const T\& | An object whose type to compare with the specified type |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| typeInfo | const [TypeInfo](../../system/typeinfo/)& | A typeInfo object that represents a type against which the type of **obj** is to be compared |
+| obj | const T& | An object whose type to compare with the specified type |
 
 ### Return Value
 

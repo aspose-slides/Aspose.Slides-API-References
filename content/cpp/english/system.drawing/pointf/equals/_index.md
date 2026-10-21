@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.drawing/pointf/equals/
 ---
-## PointF::Equals(const PointF\&) const method
+## PointF::Equals(const PointF&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same pair of X and Y coordinates values.
@@ -20,7 +20,7 @@ bool System::Drawing::PointF::Equals(const PointF &point) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../)\& | [PointF](../) The object to compare the current object with |
+| point | const [PointF](../)& | [PointF](../) The object to compare the current object with |
 
 ### Return Value
 

@@ -48,7 +48,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPie(int x, int y, int width, i
 | startAngle | **float** | Specifies the starting angle of the pie in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the pie |
 
-## GraphicsPath::AddPie(const Rectangle\&, float, float) method
+## GraphicsPath::AddPie(const Rectangle&, float, float) method
 
 
 Adds the specified outline of the pie shape to the path represented by the current object.
@@ -62,7 +62,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPie(const Rectangle &rect, flo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../../system.drawing/rectangle/)\& | The rectangle that bounds the ellipse from which the pie is drawn |
+| rect | const [Rectangle](../../../system.drawing/rectangle/)& | The rectangle that bounds the ellipse from which the pie is drawn |
 | startAngle | **float** | Specifies the starting angle of the pie in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the pie |
 

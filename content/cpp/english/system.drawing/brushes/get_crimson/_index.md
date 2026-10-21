@@ -1,7 +1,7 @@
 ---
 title: get_Crimson()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFDC143C.
+description: "Returns the solid fill color whose hexadecimal value is #FFDC143C."
 type: docs
 weight: 248
 url: /system.drawing/brushes/get_crimson/

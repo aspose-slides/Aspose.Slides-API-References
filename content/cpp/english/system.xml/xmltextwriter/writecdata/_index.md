@@ -22,6 +22,14 @@ void System::Xml::XmlTextWriter::WriteCData(String text) override
 | --- | --- | --- |
 | text | [String](../../../system/string/) | [Text](../../../system.text/) to place inside the CDATA block. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text would result in a non-well formed XML document. |
+| InvalidOperationException | The [XmlTextWriter::get_WriteState](../get_writestate/) value is [WriteState::Closed](../../writestate/). |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

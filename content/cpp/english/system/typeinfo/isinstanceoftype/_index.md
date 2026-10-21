@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system/typeinfo/isinstanceoftype/
 ---
-## TypeInfo::IsInstanceOfType(const SharedPtr\<Object\>\&) const method
+## TypeInfo::IsInstanceOfType(const SharedPtr\<Object\>&) const method
 
 
 Determines whether the specified object is an instance of the current type.
@@ -20,7 +20,7 @@ bool System::TypeInfo::IsInstanceOfType(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The object to compare with the current type |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The object to compare with the current type |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/multicastdelegate/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate() method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate() method
 
 
 Constructs an empty collection.
@@ -15,7 +15,7 @@ Constructs an empty collection.
 System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate()
 ```
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(std::nullptr_t) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(std::nullptr_t) method
 
 
 Equivalent to defalt constructor.
@@ -24,7 +24,7 @@ Equivalent to defalt constructor.
 System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(std::nullptr_t)
 ```
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(const MulticastDelegate\&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(const MulticastDelegate&) method
 
 
 Performs a shallow copy of the delegate collection.
@@ -38,9 +38,9 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| o | const MulticastDelegate\& | An instance of MulticastDelegate class to copy the collection of delegates from. |
+| o | const MulticastDelegate& | An instance of MulticastDelegate class to copy the collection of delegates from. |
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(MulticastDelegate\&&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(MulticastDelegate&&) method
 
 
 Moving constructor.
@@ -54,9 +54,9 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(Multi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| o | MulticastDelegate\&& | An instance of MulticastDelegate class to move the collection of delegates from. |
+| o | MulticastDelegate&& | An instance of MulticastDelegate class to move the collection of delegates from. |
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(Callback\&&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(Callback&&) method
 
 
 Constructs an instance and puts the specified delegate to the delegates collection.
@@ -70,9 +70,9 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(Callb
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| initial | [Callback](../callback/)\&& | A delegate to put to the delegate collection |
+| initial | [Callback](../callback/)&& | A delegate to put to the delegate collection |
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(T) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(T) method
 
 
 Constructs an instance and puts the specified value to the delegates collection.
@@ -94,7 +94,7 @@ template<class T,typename> System::MulticastDelegate<ReturnType(ArgumentTypes...
 | --- | --- | --- |
 | arg | T | A value to put to the delegate collection |
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(std::function\<ReturnType(ArgumentTypes...)>) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::MulticastDelegate(std::function\<ReturnType(ArgumentTypes...)\>) method
 
 
 Constructs an instance and puts the specified value to the delegates collection.
@@ -108,11 +108,11 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(std::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg | std::function\<ReturnType(ArgumentTypes...)> | A value to put to the delegate collection |
+| arg | std::function\<ReturnType(ArgumentTypes...)\> | A value to put to the delegate collection |
 
 ## See Also
 
 * Typedef [Callback](../callback/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

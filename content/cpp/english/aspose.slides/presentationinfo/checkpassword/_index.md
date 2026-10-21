@@ -25,6 +25,14 @@ bool Aspose::Slides::PresentationInfo::CheckPassword(System::String password) ov
 ### Return Value
 
 True if the presentation is protected with open password and the password is correct and false otherwise.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) |  |
+| [System::NotSupportedException](../../../system/notsupportedexception/) |  |
+
 ## Remarks
 
 

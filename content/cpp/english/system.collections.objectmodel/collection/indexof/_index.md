@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections.objectmodel/collection/indexof/
 ---
-## Collection::IndexOf(const T\&) const method
+## Collection::IndexOf(const T&) const method
 
 
 Looks for element in collection.
@@ -20,7 +20,7 @@ int System::Collections::ObjectModel::Collection<T>::IndexOf(const T &item) cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

@@ -26,7 +26,7 @@ static bool System::Char::IsSurrogate(char_t c)
 
 True if the specified character is a UTF-16 surrogate code unit, otherwise - false
 
-## Char::IsSurrogate(const String\&, int) method
+## Char::IsSurrogate(const String&, int) method
 
 
 Determines whether the character at the specified index in the specified string is UTF-16 surrogate code unit.
@@ -40,7 +40,7 @@ static bool System::Char::IsSurrogate(const String &s, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | A string |
+| s | const [String](../../string/)& | A string |
 | index | int | The index of the character in the specified string |
 
 ### Return Value

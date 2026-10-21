@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.printing/printdocument/set_documentname/
 ---
-## PrintDocument::set_DocumentName(const String\&) method
+## PrintDocument::set_DocumentName(const String&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Printing::PrintDocument::set_DocumentName(const String &name)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

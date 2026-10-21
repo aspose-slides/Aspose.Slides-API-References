@@ -1,7 +1,7 @@
 ---
 title: get_FileName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_FileLoadException::get_FileName() method"
 type: docs
 weight: 40
 url: /system.io/details_fileloadexception/get_filename/

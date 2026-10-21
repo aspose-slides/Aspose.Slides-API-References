@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /system/string/operator_readonlyspan_less_char16_t__greater/
 ---
-## String::operator ReadOnlySpan< char16_t >() const method
+## String::operator ReadOnlySpan\< char16_t \>() const method
 
 
 Converts string to read only span.

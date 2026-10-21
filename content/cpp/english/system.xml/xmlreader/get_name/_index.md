@@ -18,7 +18,7 @@ virtual String System::Xml::XmlReader::get_Name()
 
 ### Return Value
 
-The qualified name of the current node. For example, **Name** is **bk:book** for the element **<bk:book>**.
+The qualified name of the current node. For example, **Name** is **bk:book** for the element **\<bk:book\>**.
 ## Remarks
 
 
@@ -27,7 +27,7 @@ The name returned is dependent on the [XmlReader::get_NodeType](../get_nodetype/
 
 | Node type | Name |
 | --- | --- |
-| `[Attribute](../../../system/attribute/)`| The name of the attribute. |
+| `Attribute`| The name of the attribute. |
 | `DocumentType`| The document type name. |
 | `Element`| The tag name. |
 | `EntityReference`| The name of the entity referenced. |

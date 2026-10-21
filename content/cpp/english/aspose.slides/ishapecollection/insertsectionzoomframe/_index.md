@@ -30,10 +30,17 @@ virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::I
 ### Return Value
 
 The newly created [ISectionZoomFrame](../../isectionzoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
+
 ## Remarks
 
 
-This example demonstrates the creation and inserting a [Section](../../section/) Zoom object at the specified index of a collection (assume that there are at least two sections in the \"Presentation.pptx\" presentation): 
+This example demonstrates the creation and inserting a [Section](../../section/) Zoom object at the specified index of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation): 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 auto shapes = pres->get_Slides()->idx_get(0)->get_Shapes();
@@ -67,10 +74,17 @@ virtual System::SharedPtr<ISectionZoomFrame> Aspose::Slides::IShapeCollection::I
 ### Return Value
 
 The newly created [ISectionZoomFrame](../../isectionzoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
+
 ## Remarks
 
 
-This example demonstrates the creation and inserting a [Section](../../section/) Zoom object at the specified index of a collection (assume that there are at least two sections in the \"Presentation.pptx\" presentation): 
+This example demonstrates the creation and inserting a [Section](../../section/) Zoom object at the specified index of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation): 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 auto shapes = pres->get_Slides()->idx_get(0)->get_Shapes();

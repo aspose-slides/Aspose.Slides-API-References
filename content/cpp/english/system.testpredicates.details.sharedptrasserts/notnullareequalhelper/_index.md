@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.testpredicates.details.sharedptrasserts/notnullareequalhelper/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualHelper(const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualHelper(const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>&) function
 
 
 Equal-compares abstract collections.
@@ -26,8 +26,8 @@ template<typename T> bool System::TestPredicates::Details::SharedPtrAsserts::Not
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\& | RHS value. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>& | RHS value. |
 
 ### Return Value
 

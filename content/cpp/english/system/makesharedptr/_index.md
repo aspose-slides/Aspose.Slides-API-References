@@ -6,7 +6,7 @@ type: docs
 weight: 2926
 url: /system/makesharedptr/
 ---
-## System::MakeSharedPtr(X *) function
+## System::MakeSharedPtr(X \*) function
 
 
 Converts raw pointer to smart pointer.
@@ -26,13 +26,13 @@ template<class X> SmartPtr<X> System::MakeSharedPtr(X *p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | X * | Raw pointer to object. |
+| p | X \* | Raw pointer to object. |
 
 ### Return Value
 
 Shared smart pointer to object.
 
-## System::MakeSharedPtr(const X *) function
+## System::MakeSharedPtr(const X \*) function
 
 
 Converts raw pointer to smart pointer. Overload for const pointers. Useful e. g. when using 'this' variable in C# methods translated as const.
@@ -52,7 +52,7 @@ template<class X> SmartPtr<X> System::MakeSharedPtr(const X *p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | const X * | Raw pointer to object. |
+| p | const X \* | Raw pointer to object. |
 
 ### Return Value
 

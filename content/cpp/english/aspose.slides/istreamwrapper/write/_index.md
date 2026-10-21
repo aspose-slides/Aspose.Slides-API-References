@@ -20,7 +20,7 @@ virtual void Aspose::Slides::IStreamWrapper::Write(System::ArrayPtr<uint8_t> buf
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | An array of bytes **uint8_t**[] |
+| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | An array of bytes **uint8_t**\[\] |
 | offset | **int32_t** | The zero-based byte offset in buffer at which to begin copying bytes to the current stream **int32_t** |
 | count | **int32_t** | The number of bytes to be written to the current stream **int32_t** |
 

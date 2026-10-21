@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.memoryextensions/containsanyexceptinrange/
 ---
-## System::MemoryExtensions::ContainsAnyExceptInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExceptInRange(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Checks if a read-only span contains any element outside the specified range.
@@ -26,15 +26,15 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExceptInRange(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| lowInclusive | const T\& | The lower bound (inclusive) |
-| highInclusive | const T\& | The upper bound (inclusive) |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| lowInclusive | const T& | The lower bound (inclusive) |
+| highInclusive | const T& | The upper bound (inclusive) |
 
 ### Return Value
 
 true if any element outside the range is found, false otherwise
 
-## System::MemoryExtensions::ContainsAnyExceptInRange(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::ContainsAnyExceptInRange(const Span\<T\>&, const T&, const T&) function
 
 
 Checks if a mutable span contains any element outside the specified range.
@@ -54,9 +54,9 @@ template<typename T> bool System::MemoryExtensions::ContainsAnyExceptInRange(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
-| lowInclusive | const T\& | The lower bound (inclusive) |
-| highInclusive | const T\& | The upper bound (inclusive) |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span to search in |
+| lowInclusive | const T& | The lower bound (inclusive) |
+| highInclusive | const T& | The upper bound (inclusive) |
 
 ### Return Value
 

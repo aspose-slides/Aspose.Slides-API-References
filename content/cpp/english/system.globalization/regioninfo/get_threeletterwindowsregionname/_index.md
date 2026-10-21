@@ -9,7 +9,7 @@ url: /system.globalization/regioninfo/get_threeletterwindowsregionname/
 ## RegionInfo::get_ThreeLetterWindowsRegionName() const method
 
 
-Gets 3 letter [Windows](../../../system.windows/) region code.
+Gets 3 letter Windows region code.
 
 ```cpp
 virtual String System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName() const

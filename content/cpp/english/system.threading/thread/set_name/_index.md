@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.threading/thread/set_name/
 ---
-## Thread::set_Name(const System::String\&) method
+## Thread::set_Name(const System::String&) method
 
 
 Sets thread name.
@@ -20,7 +20,7 @@ void System::Threading::Thread::set_Name(const System::String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [System::String](../../../system/string/)\& | [Thread](../) name. |
+| name | const [System::String](../../../system/string/)& | [Thread](../) name. |
 
 ## See Also
 

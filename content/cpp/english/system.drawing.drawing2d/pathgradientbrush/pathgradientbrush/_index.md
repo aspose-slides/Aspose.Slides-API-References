@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.drawing2d/pathgradientbrush/pathgradientbrush/
 ---
-## PathGradientBrush::PathGradientBrush(const ArrayPtr\<PointF\>\&, WrapMode) constructor
+## PathGradientBrush::PathGradientBrush(const ArrayPtr\<PointF\>&, WrapMode) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -20,10 +20,10 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const ArrayPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | An array that contains vertices of the path |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | An array that contains vertices of the path |
 | wrapMode | [WrapMode](../../wrapmode/) | Specifies how the fills drawn by a brush represented by the object being created should be tiled |
 
-## PathGradientBrush::PathGradientBrush(const ArrayPtr\<Point\>\&, WrapMode) constructor
+## PathGradientBrush::PathGradientBrush(const ArrayPtr\<Point\>&, WrapMode) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -37,10 +37,10 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const ArrayPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array that contains vertices of the path |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | An array that contains vertices of the path |
 | wrapMode | [WrapMode](../../wrapmode/) | Specifies how the fills drawn by a brush represented by the object being created should be tiled |
 
-## PathGradientBrush::PathGradientBrush(const SharedPtr\<GraphicsPath\>\&) constructor
+## PathGradientBrush::PathGradientBrush(const SharedPtr\<GraphicsPath\>&) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -54,7 +54,7 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\& | A [GraphicsPath](../../graphicspath/) object that specifies a path filled by the object being created |
+| path | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>& | A [GraphicsPath](../../graphicspath/) object that specifies a path filled by the object being created |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/smartptrinfo/operator_less/
 ---
-## SmartPtrInfo::operator<(const SmartPtrInfo\&) const method
+## SmartPtrInfo::operator\<(const SmartPtrInfo&) const method
 
 
 Less-compares values of pointers referenced by two info objects.
@@ -20,7 +20,7 @@ bool System::SmartPtrInfo::operator<(const SmartPtrInfo &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [SmartPtrInfo](../)\& | Information on pointer to compare with. |
+| other | const [SmartPtrInfo](../)& | Information on pointer to compare with. |
 
 ### Return Value
 

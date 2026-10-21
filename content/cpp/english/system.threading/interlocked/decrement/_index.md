@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.threading/interlocked/decrement/
 ---
-## Interlocked::Decrement(int32_t\&) method
+## Interlocked::Decrement(int32_t&) method
 
 
 Decrements value atomically.
@@ -20,13 +20,13 @@ static int32_t System::Threading::Interlocked::Decrement(int32_t &location)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | **int32_t**\& | Variable reference to decrement. |
+| location | **int32_t**& | Variable reference to decrement. |
 
 ### Return Value
 
 Value of variable right after it was decremented.
 
-## Interlocked::Decrement(int64_t\&) method
+## Interlocked::Decrement(int64_t&) method
 
 
 Decrements value atomically.
@@ -40,7 +40,7 @@ static int64_t System::Threading::Interlocked::Decrement(int64_t &location)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | **int64_t**\& | Variable reference to decrement. |
+| location | **int64_t**& | Variable reference to decrement. |
 
 ### Return Value
 

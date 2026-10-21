@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.threading.tasks/task/set_function/
 ---
-## Task::set_Function(const FunctionT\&) method
+## Task::set_Function(const FunctionT&) method
 
 
 Sets the internal function to execute.

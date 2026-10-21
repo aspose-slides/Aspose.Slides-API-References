@@ -31,7 +31,7 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn)
 | --- | --- | --- |
 | dwTypeIn | int | Provider type code; ignored. |
 
-## CspParameters::CspParameters(int, const System::String\&) constructor
+## CspParameters::CspParameters(int, const System::String&) constructor
 
 
 Constructor.
@@ -46,9 +46,9 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn, const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dwTypeIn | int | Provider type code; ignored. |
-| strProviderNameIn | const [System::String](../../../system/string/)\& | Provider name; ignored. |
+| strProviderNameIn | const [System::String](../../../system/string/)& | Provider name; ignored. |
 
-## CspParameters::CspParameters(int, const System::String\&, const System::String\&) constructor
+## CspParameters::CspParameters(int, const System::String&, const System::String&) constructor
 
 
 Constructor.
@@ -63,8 +63,8 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn, const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dwTypeIn | int | Provider type code; ignored. |
-| strProviderNameIn | const [System::String](../../../system/string/)\& | Provider name; ignored. |
-| strContainerNameIn | const [System::String](../../../system/string/)\& | Container name; ignored. |
+| strProviderNameIn | const [System::String](../../../system/string/)& | Provider name; ignored. |
+| strContainerNameIn | const [System::String](../../../system/string/)& | Container name; ignored. |
 
 ## See Also
 

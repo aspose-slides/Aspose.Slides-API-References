@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.collections/bitarray/or/
 ---
-## BitArray::Or(const BitArrayPtr\&) method
+## BitArray::Or(const BitArrayPtr&) method
 
 
 Calculates bitwise 'or' between two BitSets.
@@ -20,7 +20,7 @@ BitArrayPtr System::Collections::BitArray::Or(const BitArrayPtr &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [BitArrayPtr](../../bitarrayptr/)\& | RHS operand. |
+| value | const [BitArrayPtr](../../bitarrayptr/)& | RHS operand. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.testpredicates.details.sharedptrasserts/areboxedvaluesequal/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::AreBoxedValuesEqual(const char *, const char *, const SharedPtr\<BoxedValueBase\>\&, const SharedPtr\<BoxedValueBase\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreBoxedValuesEqual(const char \*, const char \*, const SharedPtr\<BoxedValueBase\>&, const SharedPtr\<BoxedValueBase\>&) function
 
 
 Equal-compares two Boxed types.
@@ -20,10 +20,10 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::AreB
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>\& | LHS value. |
-| rhs | const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>& | LHS value. |
+| rhs | const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>& | RHS value. |
 
 ### Return Value
 

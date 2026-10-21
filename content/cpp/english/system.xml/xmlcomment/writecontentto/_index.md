@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml/xmlcomment/writecontentto/
 ---
-## XmlComment::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlComment::WriteContentTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves all the children of the node to the specified [XmlWriter](../../xmlwriter/). Because comment nodes do not have children, this method has no effect.
@@ -20,7 +20,7 @@ void System::Xml::XmlComment::WriteContentTo(const SharedPtr<XmlWriter> &w) over
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

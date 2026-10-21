@@ -23,6 +23,14 @@ virtual void System::Xml::XmlWriter::WriteAttributes(SharedPtr<XmlReader> reader
 | reader | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\> | The [XmlReader](../../xmlreader/) from which to copy the attributes. |
 | defattr | **bool** | **true** to copy the default attributes from the [XmlReader](../../xmlreader/); otherwise, **false**. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **reader** is **nullptr**. |
+| XmlException | The reader is not positioned on an **element**, **attribute** or [XmlDeclaration](../../xmldeclaration/) node. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

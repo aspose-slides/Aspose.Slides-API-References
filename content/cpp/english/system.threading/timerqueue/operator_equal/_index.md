@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.threading/timerqueue/operator_equal/
 ---
-## TimerQueue::operator=(const TimerQueue\&) method
+## TimerQueue::operator=(const TimerQueue&) method
 
 
 No copying.

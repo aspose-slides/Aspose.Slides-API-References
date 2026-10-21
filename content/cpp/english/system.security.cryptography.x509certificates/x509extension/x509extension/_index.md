@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography.x509certificates/x509extension/x509extension/
 ---
-## X509Extension::X509Extension(const SharedPtr\<AsnEncodedData\>\&, bool) constructor
+## X509Extension::X509Extension(const SharedPtr\<AsnEncodedData\>&, bool) constructor
 
 
 Constructor.
@@ -20,10 +20,10 @@ System::Security::Cryptography::X509Certificates::X509Extension::X509Extension(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoded_extension | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | Encoded data associated with certificate. |
+| encoded_extension | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>& | Encoded data associated with certificate. |
 | critical | **bool** | Criticality sign. |
 
-## X509Extension::X509Extension(const SharedPtr\<Oid\>\&, const ByteArrayPtr\&, bool) constructor
+## X509Extension::X509Extension(const SharedPtr\<Oid\>&, const ByteArrayPtr&, bool) constructor
 
 
 Constructor.
@@ -37,11 +37,11 @@ System::Security::Cryptography::X509Certificates::X509Extension::X509Extension(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../../system.security.cryptography/oid/)\>\& | [Object](../../../system/object/) identifier associated with extension. |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Raw data associated with certificate. |
+| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../../system.security.cryptography/oid/)\>& | [Object](../../../system/object/) identifier associated with extension. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Raw data associated with certificate. |
 | critical | **bool** | Criticality sign. |
 
-## X509Extension::X509Extension(const String\&, const ByteArrayPtr\&, bool) constructor
+## X509Extension::X509Extension(const String&, const ByteArrayPtr&, bool) constructor
 
 
 Constructor.
@@ -55,8 +55,8 @@ System::Security::Cryptography::X509Certificates::X509Extension::X509Extension(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [String](../../../system/string/)\& | [Object](../../../system/object/) identifier associated with extension. |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Raw data associated with certificate. |
+| oid | const [String](../../../system/string/)& | [Object](../../../system/object/) identifier associated with extension. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Raw data associated with certificate. |
 | critical | **bool** | Criticality sign. |
 
 ## See Also

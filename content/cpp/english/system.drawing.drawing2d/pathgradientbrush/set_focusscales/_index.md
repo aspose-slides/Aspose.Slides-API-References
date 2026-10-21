@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.drawing.drawing2d/pathgradientbrush/set_focusscales/
 ---
-## PathGradientBrush::set_FocusScales(const PointF\&) method
+## PathGradientBrush::set_FocusScales(const PointF&) method
 
 
 Sets the focus point for the gradient falloff.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathGradientBrush::set_FocusScales(const PointF
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [PointF](../../../system.drawing/pointf/)\& | The value to set |
+| value | const [PointF](../../../system.drawing/pointf/)& | The value to set |
 
 ## See Also
 

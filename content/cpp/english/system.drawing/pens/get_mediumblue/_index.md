@@ -1,7 +1,7 @@
 ---
 title: get_MediumBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF0000CD.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF0000CD."
 type: docs
 weight: 1080
 url: /system.drawing/pens/get_mediumblue/

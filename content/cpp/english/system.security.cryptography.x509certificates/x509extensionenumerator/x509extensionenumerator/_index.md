@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography.x509certificates/x509extensionenumerator/x509extensionenumerator/
 ---
-## X509ExtensionEnumerator::X509ExtensionEnumerator(const SharedPtr\<X509ExtensionCollection\>\&) constructor
+## X509ExtensionEnumerator::X509ExtensionEnumerator(const SharedPtr\<X509ExtensionCollection\>&) constructor
 
 
 Creates enumerator.
@@ -20,7 +20,7 @@ System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::X509E
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | const [SharedPtr](../../../system/sharedptr/)\<[X509ExtensionCollection](../../x509extensioncollection/)\>\& | Collection to iterate through. |
+| collection | const [SharedPtr](../../../system/sharedptr/)\<[X509ExtensionCollection](../../x509extensioncollection/)\>& | Collection to iterate through. |
 
 ## See Also
 

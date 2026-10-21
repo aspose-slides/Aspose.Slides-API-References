@@ -16,6 +16,13 @@ virtual void Aspose::Slides::Charts::IChartCategory::Remove()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if category is already removed from chart. |
+
+
 ## See Also
 
 * Class [IChartCategory](../)

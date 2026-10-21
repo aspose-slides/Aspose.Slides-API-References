@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.globalization/datetimeformatinfo/set_shorttimepattern/
 ---
-## DateTimeFormatInfo::set_ShortTimePattern(const String\&) method
+## DateTimeFormatInfo::set_ShortTimePattern(const String&) method
 
 
 Sets short time pattern.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_ShortTimePattern(const Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Format string. |
+| value | const [String](../../../system/string/)& | Format string. |
 
 ## See Also
 

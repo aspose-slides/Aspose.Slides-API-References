@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.drawing.imaging/imageattributes/getadjustedpalette/
 ---
-## ImageAttributes::GetAdjustedPalette(const SharedPtr\<ColorPalette\>\&, ColorAdjustType) method
+## ImageAttributes::GetAdjustedPalette(const SharedPtr\<ColorPalette\>&, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Imaging::ImageAttributes::GetAdjustedPalette(const SharedPtr<ColorPalette> &palette, ColorAdjustType type)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

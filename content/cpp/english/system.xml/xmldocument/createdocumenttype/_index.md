@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.xml/xmldocument/createdocumenttype/
 ---
-## XmlDocument::CreateDocumentType(const String\&, const String\&, const String\&, const String\&) method
+## XmlDocument::CreateDocumentType(const String&, const String&, const String&, const String&) method
 
 
 Returns a new [XmlDocumentType](../../xmldocumenttype/) object.
@@ -20,10 +20,10 @@ virtual SharedPtr<XmlDocumentType> System::Xml::XmlDocument::CreateDocumentType(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Name of the document type. |
-| publicId | const [String](../../../system/string/)\& | The public identifier of the document type or **nullptr**. You can specify a public URI and also a system identifier to identify the location of the external DTD subset. |
-| systemId | const [String](../../../system/string/)\& | The system identifier of the document type or **nullptr**. Specifies the URL of the file location for the external DTD subset. |
-| internalSubset | const [String](../../../system/string/)\& | The DTD internal subset of the document type or **nullptr**. |
+| name | const [String](../../../system/string/)& | Name of the document type. |
+| publicId | const [String](../../../system/string/)& | The public identifier of the document type or **nullptr**. You can specify a public URI and also a system identifier to identify the location of the external DTD subset. |
+| systemId | const [String](../../../system/string/)& | The system identifier of the document type or **nullptr**. Specifies the URL of the file location for the external DTD subset. |
+| internalSubset | const [String](../../../system/string/)& | The DTD internal subset of the document type or **nullptr**. |
 
 ### Return Value
 

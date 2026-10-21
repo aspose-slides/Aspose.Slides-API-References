@@ -9,7 +9,7 @@ url: /aspose.slides.animation/motioncmdpath/get_points/
 ## MotionCmdPath::get_Points() method
 
 
-Specifies points of command. Read [System::Drawing::PointF](../../../system.drawing/pointf/)[].
+Specifies points of command. Read [System::Drawing::PointF](../../../system.drawing/pointf/)\[\].
 
 ```cpp
 System::ArrayPtr<System::Drawing::PointF> Aspose::Slides::Animation::MotionCmdPath::get_Points() override

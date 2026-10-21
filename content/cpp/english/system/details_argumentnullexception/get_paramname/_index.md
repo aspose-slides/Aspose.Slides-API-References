@@ -1,7 +1,7 @@
 ---
 title: get_ParamName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ArgumentNullException::get_ParamName() method"
 type: docs
 weight: 40
 url: /system/details_argumentnullexception/get_paramname/

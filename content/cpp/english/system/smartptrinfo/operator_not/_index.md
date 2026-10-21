@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/smartptrinfo/operator_not/
 ---
-## SmartPtrInfo::operator!() const method
+## SmartPtrInfo::operator\!() const method
 
 
 Checks if info object does not point to non-null pointer.

@@ -1,7 +1,7 @@
 ---
 title: ExternalResourceResolver()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ExternalResourceResolver::ExternalResourceResolver() constructor"
 type: docs
 weight: 27
 url: /aspose.slides.import/externalresourceresolver/externalresourceresolver/

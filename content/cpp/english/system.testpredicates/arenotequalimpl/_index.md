@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.testpredicates/arenotequalimpl/
 ---
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const T1&, const T2&, long long) function
 
 
 Not-equal-compares values one or both of them being [Decimal](../../system/decimal/).
@@ -27,17 +27,17 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AnyOfDecimal<T1, T2
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const T&, const T&, long long) function
 
 
 Not-equal-compares two [System::String](../../system/string/) values, guarding against invoking a member function on a null [String](../../system/string/). Templated for the same deduction-based exclusion reasons as the AreEqualImpl [String](../../system/string/) overload above.
@@ -57,17 +57,17 @@ template<typename T> std::enable_if<std::is_same<T, System::String>::value, test
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T\& | LHS value. |
-| rhs | const T\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T& | LHS value. |
+| rhs | const T& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const T&, const T&, long long) function
 
 
 Not-equal-compares non-pointer types using Equals method provided.
@@ -87,17 +87,17 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, Sys
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T\& | LHS value. |
-| rhs | const T\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T& | LHS value. |
+| rhs | const T& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T\&, const T\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, T&, const T&, long long) function
 
 
 Not-equal-compares non-pointer types using Equals method provided.
@@ -117,17 +117,17 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&!std::is_same<T, Sys
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | T\& | LHS value. |
-| rhs | const T\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | T& | LHS value. |
+| rhs | const T& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const T&, const T&, long long) function
 
 
 Not-equal-compares non-pointer types using operator != provided.
@@ -147,17 +147,17 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&std::is_class<T>::va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T\& | LHS value. |
-| rhs | const T\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T& | LHS value. |
+| rhs | const T& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T, const System::SharedPtr\<Object\>\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, T, const System::SharedPtr\<Object\>&, long long) function
 
 
 Not-equal-compares boxable with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -177,17 +177,17 @@ template<typename T> std::enable_if<IsBoxable<T>::value, testing::AssertionResul
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
 | lhs | T | LHS value. |
-| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | RHS value. |
+| rhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const System::SharedPtr\<Object\>\&, T, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const System::SharedPtr\<Object\>&, T, long long) function
 
 
 Not-equal-compares boxable with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -207,9 +207,9 @@ template<typename T> std::enable_if<IsBoxable<T>::value, testing::AssertionResul
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& | LHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>& | LHS value. |
 | rhs | T | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
@@ -217,7 +217,7 @@ template<typename T> std::enable_if<IsBoxable<T>::value, testing::AssertionResul
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T, std::nullptr_t, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, T, std::nullptr_t, long long) function
 
 
 Not-equal-compares random type with nullptr.
@@ -237,8 +237,8 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
 | lhs | T | LHS value. |
 | s | std::nullptr_t | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
@@ -246,7 +246,7 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, std::nullptr_t, T, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, std::nullptr_t, T, long long) function
 
 
 Not-equal-compares random type with nullptr.
@@ -266,8 +266,8 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
 | rhs | std::nullptr_t | RHS value. |
 | s | T | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
@@ -275,7 +275,7 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, const T1&, const T2&, long long) function
 
 
 Equal-compares pointer types.
@@ -296,17 +296,17 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | const T1\& | LHS value. |
-| rhs | const T2\& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | const T1& | LHS value. |
+| rhs | const T2& | RHS value. |
 | s | long long | A service parameter that serves as a selector of the implementation of the function; the value of the parameter is ignored |
 
 ### Return Value
 
 gtest-styled assertion result.
 
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T1, T2, int) function
+## System::TestPredicates::AreNotEqualImpl(const char \*, const char \*, T1, T2, int) function
 
 
 Equal-compares random types using gtest altorithms.
@@ -327,8 +327,8 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
 | lhs | T1 | LHS value. |
 | rhs | T2 | RHS value. |
 

@@ -25,7 +25,7 @@ enum class AuthenticationSchemes
 | Ntlm | 4 | NTLM authentication. |
 | Basic | 8 | Basic authentication. |
 | Anonymous | 32768 | Anonymous authentication. |
-| IntegratedWindowsAuthentication | n/a | [Windows](../../system.windows/) authentication. |
+| IntegratedWindowsAuthentication | n/a | Windows authentication. |
 
 ## See Also
 

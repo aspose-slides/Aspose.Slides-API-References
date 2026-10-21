@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/globalizationextensions/getstringcomparer/
 ---
-## GlobalizationExtensions::GetStringComparer(const CompareInfoPtr\&, CompareOptions) method
+## GlobalizationExtensions::GetStringComparer(const CompareInfoPtr&, CompareOptions) method
 
 
 Gets [StringComparer](../../../system/stringcomparer/) object for the specified [CompareInfo](../../compareinfo/) object and specified string comparison rules.
@@ -20,7 +20,7 @@ static StringComparerPtr System::Globalization::GlobalizationExtensions::GetStri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compare_info | const [CompareInfoPtr](../../compareinfoptr/)\& | [CompareInfo](../../compareinfo/) object. |
+| compare_info | const [CompareInfoPtr](../../compareinfoptr/)& | [CompareInfo](../../compareinfo/) object. |
 | options | [CompareOptions](../../compareoptions/) | [String](../../../system/string/) comparison options. |
 
 ### Return Value

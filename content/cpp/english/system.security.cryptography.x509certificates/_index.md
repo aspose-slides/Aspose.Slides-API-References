@@ -1,7 +1,7 @@
 ---
 title: "System::Security::Cryptography::X509Certificates"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Cryptography::X509Certificates namespace"
 type: docs
 weight: 872
 url: /system.security.cryptography.x509certificates/

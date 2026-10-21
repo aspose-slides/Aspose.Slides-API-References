@@ -1,7 +1,7 @@
 ---
 title: get_MediumBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF0000CD.
+description: "Returns the solid fill color whose hexadecimal value is #FF0000CD."
 type: docs
 weight: 1067
 url: /system.drawing/brushes/get_mediumblue/

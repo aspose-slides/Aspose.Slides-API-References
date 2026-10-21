@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.generic/icollection/operator_equal/
 ---
-## ICollection::operator=(ICollection\&&) method
+## ICollection::operator=(ICollection&&) method
 
 
 Move assignment operator.
@@ -20,7 +20,7 @@ ICollection & System::Collections::Generic::ICollection<T>::operator=(ICollectio
 
 Reference to this.
 
-## ICollection::operator=(const ICollection\&) method
+## ICollection::operator=(const ICollection&) method
 
 
 Move assignment operator.

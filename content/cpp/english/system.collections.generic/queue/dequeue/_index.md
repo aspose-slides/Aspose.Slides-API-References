@@ -20,6 +20,13 @@ T System::Collections::Generic::Queue<T>::Dequeue()
 
 Popped item.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if the queue is empty. |
+
+
 ## See Also
 
 * Class [Queue](../)

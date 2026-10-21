@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.interopservices/nativelibrary/load/
 ---
-## NativeLibrary::Load(const String\&) method
+## NativeLibrary::Load(const String&) method
 
 
 Loads native dynamic library. Throws on error.
@@ -20,7 +20,7 @@ static IntPtr System::Runtime::InteropServices::NativeLibrary::Load(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| libraryPath | const [String](../../../system/string/)\& | Path to the library. |
+| libraryPath | const [String](../../../system/string/)& | Path to the library. |
 
 ### Return Value
 

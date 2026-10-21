@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.text.regularexpressions/regex/match/
 ---
-## Regex::Match(const String\&) method
+## Regex::Match(const String&) method
 
 
 Matches regex against string.
@@ -20,13 +20,13 @@ MatchPtr System::Text::RegularExpressions::Regex::Match(const String &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Target string. |
+| input | const [String](../../../system/string/)& | Target string. |
 
 ### Return Value
 
 [Match](../../match/) value containing match status and submatches.
 
-## Regex::Match(const String\&, int, int) method
+## Regex::Match(const String&, int, int) method
 
 
 Matches regex against string.
@@ -40,7 +40,7 @@ MatchPtr System::Text::RegularExpressions::Regex::Match(const String &input, int
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Target string. |
+| input | const [String](../../../system/string/)& | Target string. |
 | startat | int | Beginning index. |
 | length | int | Number of characters to look through (0 to look through the whole string). |
 
@@ -48,7 +48,7 @@ MatchPtr System::Text::RegularExpressions::Regex::Match(const String &input, int
 
 [Match](../../match/) value containing match status and submatches.
 
-## Regex::Match(const String\&, const String\&, RegexOptions, TimeSpan, int, int) method
+## Regex::Match(const String&, const String&, RegexOptions, TimeSpan, int, int) method
 
 
 Matches string and pattern.
@@ -62,8 +62,8 @@ static MatchPtr System::Text::RegularExpressions::Regex::Match(const String &inp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../../system/string/)\& | Input string. |
-| pattern | const [String](../../../system/string/)\& | Regexp pattern. |
+| input | const [String](../../../system/string/)& | Input string. |
+| pattern | const [String](../../../system/string/)& | Regexp pattern. |
 | options | [RegexOptions](../../regexoptions/) | Matching options. |
 | matchTimeout | [TimeSpan](../../../system/timespan/) | Timeout. |
 | startat | int | [Match](../../match/) beginning position. |

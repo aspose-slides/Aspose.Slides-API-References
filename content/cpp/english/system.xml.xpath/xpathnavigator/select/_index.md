@@ -26,6 +26,14 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::Select(
 
 An [XPathNodeIterator](../../xpathnodeiterator/) pointing to the selected node set.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression contains an error or its return type is not a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## XPathNavigator::Select(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
@@ -47,6 +55,14 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::Select(
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that points to the selected node set.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression contains an error or its return type is not a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## XPathNavigator::Select(SharedPtr\<XPathExpression\>) method
 
 
@@ -66,6 +82,14 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::Select(
 ### Return Value
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that points to the selected node set.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression contains an error or its return type is not a node set. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
 
 ## See Also
 

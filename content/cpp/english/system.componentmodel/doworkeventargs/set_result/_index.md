@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.componentmodel/doworkeventargs/set_result/
 ---
-## DoWorkEventArgs::set_Result(const SharedPtr\<System::Object\>\&) method
+## DoWorkEventArgs::set_Result(const SharedPtr\<System::Object\>&) method
 
 
 Sets Result property; not implemented.

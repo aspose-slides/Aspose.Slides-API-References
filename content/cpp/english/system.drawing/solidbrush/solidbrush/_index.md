@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/solidbrush/solidbrush/
 ---
-## SolidBrush::SolidBrush(const Color\&) constructor
+## SolidBrush::SolidBrush(const Color&) constructor
 
 
 Constructs a new [SolidBrush](../) object and initalizes it with the specified color.
@@ -20,7 +20,7 @@ System::Drawing::SolidBrush::SolidBrush(const Color &color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | const [Color](../../color/)\& | The color of the brush |
+| color | const [Color](../../color/)& | The color of the brush |
 
 ## See Also
 

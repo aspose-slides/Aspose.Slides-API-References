@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.testpredicates.typetraits/has_data_method_tmpl_system_collections_bitarray__void__end_tmpl/
 ---
-## has_data_method< System::Collections::BitArray, void > struct
+## has_data_method\< System::Collections::BitArray, void \> struct
 
 
 Specialization for BitArray type which provides boost type which is inaccessible there.

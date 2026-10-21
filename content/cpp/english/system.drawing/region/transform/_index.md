@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.drawing/region/transform/
 ---
-## Region::Transform(const SharedPtr\<Drawing2D::Matrix\>\&) method
+## Region::Transform(const SharedPtr\<Drawing2D::Matrix\>&) method
 
 
 Transforms this region by the specified matrix.
@@ -20,9 +20,9 @@ void System::Drawing::Region::Transform(const SharedPtr<Drawing2D::Matrix> &matr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\& | Transformation matrix |
+| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>& | Transformation matrix |
 
-## Region::Transform(const SkMatrix\&) method
+## Region::Transform(const SkMatrix&) method
 
 
 Transforms this region by the specified matrix.
@@ -36,7 +36,7 @@ void System::Drawing::Region::Transform(const SkMatrix &matrix)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const SkMatrix\& | Transformation matrix |
+| matrix | const SkMatrix& | Transformation matrix |
 
 ## See Also
 

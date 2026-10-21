@@ -21,13 +21,13 @@ class Marshal
 | --- | --- |
 | static IntPtr [AllocHGlobal](./allochglobal/)(**int32_t**) | Allocates unmanaged memory. |
 | static IntPtr [AllocHGlobal](./allochglobal/)(IntPtr) | Allocates unmanaged memory. |
-| static void [Copy](./copy/)(const IntPtr, container\&&, int, int) | Implements public static void Copy(IntPtr source, byte[] destination, int startIndex, int length) semantics. |
-| static void [Copy](./copy/)(const void *, container\&&, int, int) | Implements public static void Copy(IntPtr source, byte[] destination, int startIndex, int length) semantics. |
-| static void [Copy](./copy/)(const container\&, int, void *, int) | Implements public static void Copy(char[] source, int startIndex, IntPtr destination, int length). |
-| static void [Copy](./copy/)(const container\&, int, IntPtr, int) | Implements public static void Copy(char[] source, int startIndex, IntPtr destination, int length). |
+| static void [Copy](./copy/)(const IntPtr, container&&, int, int) | Implements public static void Copy(IntPtr source, byte\[\] destination, int startIndex, int length) semantics. |
+| static void [Copy](./copy/)(const void \*, container&&, int, int) | Implements public static void Copy(IntPtr source, byte\[\] destination, int startIndex, int length) semantics. |
+| static void [Copy](./copy/)(const container&, int, void \*, int) | Implements public static void Copy(char\[\] source, int startIndex, IntPtr destination, int length). |
+| static void [Copy](./copy/)(const container&, int, IntPtr, int) | Implements public static void Copy(char\[\] source, int startIndex, IntPtr destination, int length). |
 | static void [FreeHGlobal](./freehglobal/)(IntPtr) | Frees unmanaged memory. |
 | static TDelegate [GetDelegateForFunctionPointer](./getdelegateforfunctionpointer/)(IntPtr) | Converts an unmanaged function pointer to a delegate of a specified type. |
-| static **int32_t** [GetHRForException](./gethrforexception/)(const [System::Exception](../../system/exception/)\&) | Gets HResult from exception. |
+| static **int32_t** [GetHRForException](./gethrforexception/)(const [System::Exception](../../system/exception/)&) | Gets HResult from exception. |
 | static [String](../../system/string/) [PtrToStringAnsi](./ptrtostringansi/)(IntPtr) | Creates a managed [String](../../system/string/) from an unmanaged zero-terminated UTF8-string. |
 | static [String](../../system/string/) [PtrToStringAnsi](./ptrtostringansi/)(IntPtr, int) | Creates a managed [String](../../system/string/) from an unmanaged UTF8-string. |
 | static [String](../../system/string/) [PtrToStringAuto](./ptrtostringauto/)(IntPtr) | Creates a managed [String](../../system/string/) from an unmanaged zero-terminated string. |
@@ -40,11 +40,11 @@ class Marshal
 | static **int16_t** [ReadInt16](./readint16/)(IntPtr, int) | Reads short from memory. |
 | static **int32_t** [ReadInt32](./readint32/)(IntPtr, int) | Reads int from memory. |
 | static IntPtr [ReadIntPtr](./readintptr/)(IntPtr, int) | Reads IntPtr from memory. |
-| static IntPtr [SecureStringToGlobalAllocAnsi](./securestringtoglobalallocansi/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../../system.security/securestring/)\>\&) | Copies contents of specified secure string into unmanaged memory, converting into ANSI format. |
-| static IntPtr [SecureStringToGlobalAllocUnicode](./securestringtoglobalallocunicode/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../../system.security/securestring/)\>\&) | Copies contents of specified secure string into unmanaged memory. |
-| static IntPtr [StringToHGlobalAnsi](./stringtohglobalansi/)(const [String](../../system/string/)\&) | Copies the contents of a specified string into unmanaged memory. |
-| static IntPtr [StringToHGlobalAuto](./stringtohglobalauto/)(const [String](../../system/string/)\&) | Copies the contents of a specified string into unmanaged memory, converting to ANSI format if required. |
-| static IntPtr [StringToHGlobalUni](./stringtohglobaluni/)(const [String](../../system/string/)\&) | Copies the contents of a specified string into unmanaged memory. |
+| static IntPtr [SecureStringToGlobalAllocAnsi](./securestringtoglobalallocansi/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../../system.security/securestring/)\>&) | Copies contents of specified secure string into unmanaged memory, converting into ANSI format. |
+| static IntPtr [SecureStringToGlobalAllocUnicode](./securestringtoglobalallocunicode/)(const [SharedPtr](../../system/sharedptr/)\<[Security::SecureString](../../system.security/securestring/)\>&) | Copies contents of specified secure string into unmanaged memory. |
+| static IntPtr [StringToHGlobalAnsi](./stringtohglobalansi/)(const [String](../../system/string/)&) | Copies the contents of a specified string into unmanaged memory. |
+| static IntPtr [StringToHGlobalAuto](./stringtohglobalauto/)(const [String](../../system/string/)&) | Copies the contents of a specified string into unmanaged memory, converting to ANSI format if required. |
+| static IntPtr [StringToHGlobalUni](./stringtohglobaluni/)(const [String](../../system/string/)&) | Copies the contents of a specified string into unmanaged memory. |
 | static void [WriteByte](./writebyte/)(IntPtr, int, **uint8_t**) | Writes byte to memory. |
 | static void [WriteByte](./writebyte/)(IntPtr, **uint8_t**) | Writes byte to memory. |
 | static void [WriteInt16](./writeint16/)(IntPtr, int, **int16_t**) | Writes short to memory. |

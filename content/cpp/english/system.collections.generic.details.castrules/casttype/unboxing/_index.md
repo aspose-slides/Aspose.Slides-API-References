@@ -1,7 +1,7 @@
 ---
 title: Unboxing
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Unboxing field
 type: docs
 weight: 79
 url: /system.collections.generic.details.castrules/casttype/unboxing/

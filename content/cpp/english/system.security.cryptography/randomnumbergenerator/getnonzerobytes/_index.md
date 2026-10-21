@@ -38,7 +38,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetNonZeroBy
 | --- | --- | --- |
 | bytes | System::Details::ArrayView\<**uint8_t**\> | Bytes array view to fill. |
 
-## RandomNumberGenerator::GetNonZeroBytes(System::Details::StackArray\<uint8_t, N\>\&) method
+## RandomNumberGenerator::GetNonZeroBytes(System::Details::StackArray\<uint8_t, N\>&) method
 
 
 Fills existing stack array elements with random non-zero bytes.
@@ -52,7 +52,7 @@ template<std::size_t> void System::Security::Cryptography::RandomNumberGenerator
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | System::Details::StackArray\<**uint8_t**, N\>\& | Bytes stack array to fill. |
+| bytes | System::Details::StackArray\<**uint8_t**, N\>& | Bytes stack array to fill. |
 
 ## See Also
 

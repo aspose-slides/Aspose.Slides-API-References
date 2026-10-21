@@ -1,7 +1,7 @@
 ---
 title: ValueTaskAwaiter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTaskAwaiter::ValueTaskAwaiter() constructor"
 type: docs
 weight: 1
 url: /system.runtime.compilerservices/valuetaskawaiter/valuetaskawaiter/

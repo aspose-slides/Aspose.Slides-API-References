@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.io/path/getdirectoryname/
 ---
-## Path::GetDirectoryName(const String\&) method
+## Path::GetDirectoryName(const String&) method
 
 
 Returns the name of the directory referenced by the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Path::GetDirectoryName(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to a directory |
+| path | const [String](../../../system/string/)& | A path to a directory |
 
 ### Return Value
 

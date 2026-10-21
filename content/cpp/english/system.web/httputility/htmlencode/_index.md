@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.web/httputility/htmlencode/
 ---
-## HttpUtility::HtmlEncode(const String\&) method
+## HttpUtility::HtmlEncode(const String&) method
 
 
 Encodes Html fragment.
@@ -20,13 +20,13 @@ static String System::Web::HttpUtility::HtmlEncode(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Html fragment to encode. |
+| str | const [String](../../../system/string/)& | Html fragment to encode. |
 
 ### Return Value
 
 Encoded Html fragment.
 
-## HttpUtility::HtmlEncode(const SharedPtr\<Object\>\&) method
+## HttpUtility::HtmlEncode(const SharedPtr\<Object\>&) method
 
 
 Encodes Html fragment.
@@ -40,13 +40,13 @@ static String System::Web::HttpUtility::HtmlEncode(const SharedPtr<Object> &valu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | Html fragment to encode. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | Html fragment to encode. |
 
 ### Return Value
 
 Encoded Html fragment.
 
-## HttpUtility::HtmlEncode(const String\&, const SharedPtr\<IO::TextWriter\>\&) method
+## HttpUtility::HtmlEncode(const String&, const SharedPtr\<IO::TextWriter\>&) method
 
 
 Encodes Html fragment.
@@ -60,8 +60,8 @@ static void System::Web::HttpUtility::HtmlEncode(const String &str, const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Html fragment to encode. |
-| output | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | A TextWriter object for output. |
+| str | const [String](../../../system/string/)& | Html fragment to encode. |
+| output | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>& | A TextWriter object for output. |
 
 ## See Also
 

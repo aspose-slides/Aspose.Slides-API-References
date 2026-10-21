@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.interopservices/memorymarshal/asbytes/
 ---
-## MemoryMarshal::AsBytes(const Span\<T\>\&) method
+## MemoryMarshal::AsBytes(const Span\<T\>&) method
 
 
 Casts a [Span](../../../system/span/) of one primitive type T to [Span](../../../system/span/) of bytes.
@@ -26,7 +26,7 @@ template<typename T> static Span<uint8_t> System::Runtime::InteropServices::Memo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../../system/span/)\<T\>\& | The span to cast. |
+| span | const [Span](../../../system/span/)\<T\>& | The span to cast. |
 
 ### Return Value
 

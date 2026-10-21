@@ -26,6 +26,13 @@ static Aspose::Slides::Export::SaveFormat Aspose::Slides::Util::SlideUtil::ToSav
 
 The corresponding [Aspose::Slides::Export::SaveFormat](../../../aspose.slides.export/saveformat/) value.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) |  |
+
+
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.slides.export/saveformat/)

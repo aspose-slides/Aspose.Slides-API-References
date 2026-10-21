@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading/interlocked/increment/
 ---
-## Interlocked::Increment(int32_t\&) method
+## Interlocked::Increment(int32_t&) method
 
 
 Increments value atomically.
@@ -20,13 +20,13 @@ static int32_t System::Threading::Interlocked::Increment(int32_t &location)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | **int32_t**\& | Variable reference to increment. |
+| location | **int32_t**& | Variable reference to increment. |
 
 ### Return Value
 
 Value of variable right after it was incremented.
 
-## Interlocked::Increment(int64_t\&) method
+## Interlocked::Increment(int64_t&) method
 
 
 Increments value atomically.
@@ -40,7 +40,7 @@ static int64_t System::Threading::Interlocked::Increment(int64_t &location)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location | **int64_t**\& | Variable reference to increment. |
+| location | **int64_t**& | Variable reference to increment. |
 
 ### Return Value
 

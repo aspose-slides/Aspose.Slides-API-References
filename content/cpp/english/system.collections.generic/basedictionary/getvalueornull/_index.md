@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.collections.generic/basedictionary/getvalueornull/
 ---
-## BaseDictionary::GetValueOrNull(const key_t\&) const method
+## BaseDictionary::GetValueOrNull(const key_t&) const method
 
 
 Returns value if found; or **null** otherwise. Make sense only for reference types.

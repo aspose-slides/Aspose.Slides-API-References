@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml.schema/xmlschemacomplextype/set_contentmodel/
 ---
-## XmlSchemaComplexType::set_ContentModel(const SharedPtr\<XmlSchemaContentModel\>\&) method
+## XmlSchemaComplexType::set_ContentModel(const SharedPtr\<XmlSchemaContentModel\>&) method
 
 
 Sets the post-compilation [XmlSchemaContentModel](../../xmlschemacontentmodel/) of this complex type.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexType::set_ContentModel(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaContentModel](../../xmlschemacontentmodel/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaContentModel](../../xmlschemacontentmodel/)\>& | The value to set. |
 
 ## See Also
 

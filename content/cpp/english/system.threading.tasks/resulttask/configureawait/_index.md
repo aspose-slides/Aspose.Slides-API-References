@@ -24,7 +24,7 @@ Runtime::CompilerServices::ConfiguredResultTaskAwaitable<T> System::Threading::T
 
 ### Return Value
 
-Runtime::CompilerServices::ConfiguredResultTaskAwaitable<T> A configured awaitable for the result
+Runtime::CompilerServices::ConfiguredResultTaskAwaitable\<T\> A configured awaitable for the result
 ## Remarks
 
 

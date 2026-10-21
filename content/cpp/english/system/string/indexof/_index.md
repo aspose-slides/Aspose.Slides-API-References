@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /system/string/indexof/
 ---
-## String::IndexOf(const String\&, System::StringComparison) const method
+## String::IndexOf(const String&, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -20,7 +20,7 @@ int System::String::IndexOf(const String &str, System::StringComparison comparis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
 
 ### Return Value
@@ -70,7 +70,7 @@ int System::String::IndexOf(char_t c, int startIndex, int count) const
 
 [Index](../../index/) of first character position since startIndex or -1 if not found.
 
-## String::IndexOf(const String\&, int) const method
+## String::IndexOf(const String&, int) const method
 
 
 Substring forward lookup.
@@ -84,14 +84,14 @@ int System::String::IndexOf(const String &str, int startIndex=0) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 
 ### Return Value
 
 [Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## String::IndexOf(const String\&, int, System::StringComparison) const method
+## String::IndexOf(const String&, int, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -105,7 +105,7 @@ int System::String::IndexOf(const String &str, int startIndex, System::StringCom
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
 
@@ -113,7 +113,7 @@ int System::String::IndexOf(const String &str, int startIndex, System::StringCom
 
 [Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## String::IndexOf(const String\&, int, int, System::StringComparison) const method
+## String::IndexOf(const String&, int, int, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -127,7 +127,7 @@ int System::String::IndexOf(const String &value, int startIndex, int count, Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Substring to look for. |
+| value | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 | count | int | number of characters to look through. |
 | comparisonType | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
@@ -136,7 +136,7 @@ int System::String::IndexOf(const String &value, int startIndex, int count, Syst
 
 [Index](../../index/) of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## String::IndexOf(const String\&, int, int) const method
+## String::IndexOf(const String&, int, int) const method
 
 
 Substring forward lookup.
@@ -150,7 +150,7 @@ int System::String::IndexOf(const String &str, int startIndex, int count) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | Substring to look for. |
+| str | const [String](../)& | Substring to look for. |
 | startIndex | int | Position in source string to start lookup through. |
 | count | int | number of characters to look through. |
 

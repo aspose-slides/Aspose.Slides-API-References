@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.drawing.drawing2d/graphicspath/addbeziers/
 ---
-## GraphicsPath::AddBeziers(const ArrayPtr\<Point\>\&) method
+## GraphicsPath::AddBeziers(const ArrayPtr\<Point\>&) method
 
 
 Adds a sequence of connected cubic Bezier curves to the current figure.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBeziers(const ArrayPtr<Point> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array of [Point](../../../system.drawing/point/) structures that represents the points that define the curves |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | An array of [Point](../../../system.drawing/point/) structures that represents the points that define the curves |
 
-## GraphicsPath::AddBeziers(const ArrayPtr\<PointF\>\&) method
+## GraphicsPath::AddBeziers(const ArrayPtr\<PointF\>&) method
 
 
 Adds a sequence of connected cubic Bezier curves to the current figure.
@@ -36,7 +36,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBeziers(const ArrayPtr<PointF>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | An array of [PointF](../../../system.drawing/pointf/) structures that represents the points that define the curves |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | An array of [PointF](../../../system.drawing/pointf/) structures that represents the points that define the curves |
 
 ## See Also
 

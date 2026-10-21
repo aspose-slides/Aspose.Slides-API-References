@@ -16,6 +16,13 @@ void System::Drawing::Printing::PrintDocument::Print()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [PrintDocument](../)

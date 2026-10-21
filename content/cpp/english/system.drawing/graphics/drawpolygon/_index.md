@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.drawing/graphics/drawpolygon/
 ---
-## Graphics::DrawPolygon(const SharedPtr\<Pen\>\&, const ArrayPtr\<Point\>\&) method
+## Graphics::DrawPolygon(const SharedPtr\<Pen\>&, const ArrayPtr\<Point\>&) method
 
 
 Draws a polygon using the specified pen.
@@ -20,10 +20,10 @@ void System::Drawing::Graphics::DrawPolygon(const SharedPtr<Pen> &pen, const Arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the polygon |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | [Array](../../../system/array/) of vertices that defines the polygon |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the polygon |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>& | [Array](../../../system/array/) of vertices that defines the polygon |
 
-## Graphics::DrawPolygon(const SharedPtr\<Pen\>\&, const ArrayPtr\<PointF\>\&) method
+## Graphics::DrawPolygon(const SharedPtr\<Pen\>&, const ArrayPtr\<PointF\>&) method
 
 
 Draws a polygon using the specified pen.
@@ -37,8 +37,8 @@ void System::Drawing::Graphics::DrawPolygon(const SharedPtr<Pen> &pen, const Arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the polygon |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\& | [Array](../../../system/array/) of vertices that defines the polygon |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the polygon |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>& | [Array](../../../system/array/) of vertices that defines the polygon |
 
 ## See Also
 

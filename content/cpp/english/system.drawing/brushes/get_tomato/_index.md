@@ -1,7 +1,7 @@
 ---
 title: get_Tomato()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFF6347.
+description: "Returns the solid fill color whose hexadecimal value is #FFFF6347."
 type: docs
 weight: 1717
 url: /system.drawing/brushes/get_tomato/

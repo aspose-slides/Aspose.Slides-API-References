@@ -16,6 +16,13 @@ void System::Drawing::Graphics::CopyFromScreen(Point upperLeftSource, Point uppe
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::CopyFromScreen(int32_t, int32_t, int32_t, int32_t, Size, CopyPixelOperation) method
 
 
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::CopyFromScreen(int32_t sourceX, int32_t sourceY, int32_t destinationX, int32_t destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation=CopyPixelOperation::SourceCopy)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

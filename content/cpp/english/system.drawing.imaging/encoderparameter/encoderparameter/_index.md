@@ -15,7 +15,7 @@ Constructs a new instance of [EncoderParameter](../) class.
 System::Drawing::Imaging::EncoderParameter::EncoderParameter()
 ```
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, uint8_t, bool) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, uint8_t, bool) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -29,11 +29,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | value | **uint8_t** | An unsigend 8-bit integer value to be represted by the object being created |
 | undefined | **bool** | True if the **value** should be treated as having an undefined type, otherwise - false |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int16_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int16_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -47,10 +47,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | value | **int16_t** | A 16-bit integer value to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int64_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int64_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -64,10 +64,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | value | **int64_t** | A 64-bit integer value to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -81,10 +81,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | value | **int32_t** | A 32-bit integer value to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t, int32_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int32_t, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a fraction.
@@ -98,11 +98,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | numerator | **int32_t** | A numerator of the fraction to be represented by the object being created |
 | denominator | **int32_t** | A denominator of the fraction to be represented by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int64_t, int64_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int64_t, int64_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a range of integer values.
@@ -116,11 +116,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | rangebegin | **int64_t** | The smallest value in the range |
 | rangeend | **int64_t** | The largest value in the range |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t, int32_t, int32_t, int32_t) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int32_t, int32_t, int32_t, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a range of fractions.
@@ -134,13 +134,13 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | numerator1 | **int32_t** | A numerator of the smallest fraction in the range |
 | numerator2 | **int32_t** | A numerator of the largest fraction in the range |
 | demoninator1 | **int32_t** | A denominator of the smallest fraction in the range |
 | demoninator2 | **int32_t** | A denominator of the largest fraction in the range |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const String\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const String&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -154,10 +154,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| value | const [String](../../../system/string/)\& | A string to be represted by the object being created |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| value | const [String](../../../system/string/)& | A string to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<uint8_t\>\&, bool) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<uint8_t\>&, bool) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -171,11 +171,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | An array of unsigend 8-bit integer values to be represted by the object being created |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | An array of unsigend 8-bit integer values to be represted by the object being created |
 | undefined | **bool** | True if the values in **value** array should be treated as having an undefined type, otherwise - false |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int16_t\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<int16_t\>&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -189,10 +189,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**int16_t**\>\& | An array of 16-bit integer values to be represted by the object being created |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**int16_t**\>& | An array of 16-bit integer values to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int64_t\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<int64_t\>&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -206,10 +206,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An array of 64-bit integer values to be represted by the object being created |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>& | An array of 64-bit integer values to be represted by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<int32_t\>&, const ArrayPtr\<int32_t\>&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of fractions.
@@ -223,11 +223,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| numerator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array of numerators of the fractions to be represented by the object being created |
-| denominator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array of denominators of the fractions to be represented by the object being created |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| numerator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array of numerators of the fractions to be represented by the object being created |
+| denominator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array of denominators of the fractions to be represented by the object being created |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int64_t\>\&, const ArrayPtr\<int64_t\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<int64_t\>&, const ArrayPtr\<int64_t\>&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of ranges of integers.
@@ -241,11 +241,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| rangebegin | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An array that contains the smallest values of each range |
-| rangeend | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An arry that contains the largest values of each range |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| rangebegin | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>& | An array that contains the smallest values of each range |
+| rangeend | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>& | An arry that contains the largest values of each range |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, const ArrayPtr\<int32_t\>&, const ArrayPtr\<int32_t\>&, const ArrayPtr\<int32_t\>&, const ArrayPtr\<int32_t\>&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of ranges of fractions.
@@ -259,13 +259,13 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
-| numerator1 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains numerators of the smallest fractions of each range |
-| numerator2 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains numerators of the fractions fractions of each range |
-| denominator1 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains denominators of the smallest fractions of each range |
-| denominator2 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains denominators of the largest fractions of each range |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
+| numerator1 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array that contains numerators of the smallest fractions of each range |
+| numerator2 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array that contains numerators of the fractions fractions of each range |
+| denominator1 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array that contains denominators of the smallest fractions of each range |
+| denominator2 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>& | An array that contains denominators of the largest fractions of each range |
 
-## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int, EncoderParameterValueType, void *) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>&, int, EncoderParameterValueType, void \*) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents the specified number of values of the specified type which are read from the specified buffer.
@@ -279,10 +279,10 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
+| encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>& | Specifies the parameter category |
 | numberValues | int | Specifies the number of values |
 | type | [EncoderParameterValueType](../../encoderparametervaluetype/) | Specifies the type of values |
-| value | void * | A pointer to the buffer to read the values from |
+| value | void \* | A pointer to the buffer to read the values from |
 
 ## See Also
 

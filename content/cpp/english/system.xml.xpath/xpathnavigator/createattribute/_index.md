@@ -25,6 +25,14 @@ virtual void System::Xml::XPath::XPathNavigator::CreateAttribute(String prefix, 
 | namespaceURI | [String](../../../system/string/) | The namespace URI for the new attribute node (if any). |
 | value | [String](../../../system/string/) | The value of the new attribute node. If [String::Empty](../../../system/string/empty/) or **nullptr** are passed, an empty attribute node is created. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XPathNavigator](../) is not positioned on an element node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

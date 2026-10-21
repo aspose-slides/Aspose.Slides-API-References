@@ -9,7 +9,7 @@ url: /aspose.slides/icustomxmlpart/set_xmldata/
 ## ICustomXmlPart::set_XmlData(System::ArrayPtr\<uint8_t\>) method
 
 
-Sets xml data. Write **uint8_t**[].
+Sets xml data. Write **uint8_t**\[\].
 
 ```cpp
 virtual void Aspose::Slides::ICustomXmlPart::set_XmlData(System::ArrayPtr<uint8_t> value)=0

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/begininvoke/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::BeginInvoke(ArgumentTypes..., const AsyncCallback\&, const CallbackArgumentType\&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::BeginInvoke(ArgumentTypes..., const AsyncCallback&, const CallbackArgumentType&) method
 
 
 NOT IMPLEMENTED.
@@ -16,11 +16,18 @@ template<typename CallbackArgumentType> SharedPtr<IAsyncResult> System::Multicas
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
 * Typedef [AsyncCallback](../../asynccallback/)
 * Class [IAsyncResult](../../iasyncresult/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -26,6 +26,15 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::ReplaceRange(Sh
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to specify the replacement range.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XPathNavigator](../) specified is **nullptr**. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| InvalidOperationException | The last node to replace specified is not a valid sibling node of the current node. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

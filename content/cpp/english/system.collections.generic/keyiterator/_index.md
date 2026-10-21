@@ -26,12 +26,12 @@ template<typename Dict>class KeyIterator : public System::Details::NativeIterato
 
 | Method | Description |
 | --- | --- |
-| System::Details::VirtualizedIteratorBase\<typename Dict::map_t::key_type\> * [CloneIterator](./cloneiterator/)() const override | Clones current iterator. |
+| System::Details::VirtualizedIteratorBase\<typename Dict::map_t::key_type\> \* [CloneIterator](./cloneiterator/)() const override | Clones current iterator. |
 | void [DecrementIterator](./decrementiterator/)() override | Moves the iterator step back. |
 | void [IncrementIterator](./incrementiterator/)() override | Moves the iterator step forward. |
-|  [KeyIterator](./keyiterator/)(typename Dict::map_t::const_iterator\&&, typename Dict::map_t::const_iterator\&&) | Constructor. |
-|  [KeyIterator](./keyiterator/)(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) | Constructor. |
-|  [KeyIterator](./keyiterator/)([KeyIterator](./)\&&) | Move constructor. |
+|  [KeyIterator](./keyiterator/)(typename Dict::map_t::const_iterator&&, typename Dict::map_t::const_iterator&&) | Constructor. |
+|  [KeyIterator](./keyiterator/)(const typename Dict::map_t::const_iterator&, const typename Dict::map_t::const_iterator&) | Constructor. |
+|  [KeyIterator](./keyiterator/)([KeyIterator](./)&&) | Move constructor. |
 | void [ShiftIteratorBy](./shiftiteratorby/)(std::ptrdiff_t) override | Moves the iterator by the specified number of steps. |
 | virtual  [~KeyIterator](./~keyiterator/)() | Destructor. |
 

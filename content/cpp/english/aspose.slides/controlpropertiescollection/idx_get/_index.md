@@ -22,10 +22,6 @@ System::String Aspose::Slides::ControlPropertiesCollection::idx_get(System::Stri
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of property. |
 
-### Return Value
-
-
-
 ## See Also
 
 * Class [String](../../../system/string/)

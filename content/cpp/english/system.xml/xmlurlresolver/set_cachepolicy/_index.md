@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlurlresolver/set_cachepolicy/
 ---
-## XmlUrlResolver::set_CachePolicy(const SharedPtr\<Net::Cache::RequestCachePolicy\>\&) method
+## XmlUrlResolver::set_CachePolicy(const SharedPtr\<Net::Cache::RequestCachePolicy\>&) method
 
 
 Sets the cache policy for the underlying WebRequest object.
@@ -20,7 +20,7 @@ void System::Xml::XmlUrlResolver::set_CachePolicy(const SharedPtr<Net::Cache::Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Net::Cache::RequestCachePolicy](../../../system.net.cache/requestcachepolicy/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Net::Cache::RequestCachePolicy](../../../system.net.cache/requestcachepolicy/)\>& | The value to set. |
 
 ## See Also
 

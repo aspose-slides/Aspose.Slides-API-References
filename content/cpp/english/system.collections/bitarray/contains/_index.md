@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.collections/bitarray/contains/
 ---
-## BitArray::Contains(const bool\&) const method
+## BitArray::Contains(const bool&) const method
 
 
 Checks whether specific value is present in container. Not implemented.
@@ -20,7 +20,7 @@ bool System::Collections::BitArray::Contains(const bool &item) const override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const **bool**\& | Item to look for. |
+| item | const **bool**& | Item to look for. |
 
 ### Return Value
 

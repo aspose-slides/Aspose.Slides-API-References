@@ -18,7 +18,7 @@ static constexpr constexpr int System::Text::ASCIIEncoding::ASCII_CODE_PAGE
 ## Remarks
 
 
-Magic number used by [Windows](../../../system.windows/) for \"ASCII\". 
+Magic number used by Windows for "ASCII". 
 ## See Also
 
 * Class [ASCIIEncoding](../)

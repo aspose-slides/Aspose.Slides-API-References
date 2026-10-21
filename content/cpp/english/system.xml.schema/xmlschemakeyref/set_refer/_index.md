@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemakeyref/set_refer/
 ---
-## XmlSchemaKeyref::set_Refer(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaKeyref::set_Refer(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of the key that this constraint refers to in another simple or complex type.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaKeyref::set_Refer(const SharedPtr<XmlQualifie
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

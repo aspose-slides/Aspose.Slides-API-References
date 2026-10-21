@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.xml/xmldocument/createelement/
 ---
-## XmlDocument::CreateElement(const String\&) method
+## XmlDocument::CreateElement(const String&) method
 
 
 Creates an element with the specified name.
@@ -20,13 +20,13 @@ SharedPtr<XmlElement> System::Xml::XmlDocument::CreateElement(const String &name
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The qualified name of the element. If the name contains a colon then the [XmlNode::get_Prefix](../../xmlnode/get_prefix/) value reflects the part of the name preceding the colon and the [XmlDocument::get_LocalName](../get_localname/) value reflects the part of the name after the colon. The qualified name cannot include a prefix of **xmlns**. |
+| name | const [String](../../../system/string/)& | The qualified name of the element. If the name contains a colon then the [XmlNode::get_Prefix](../../xmlnode/get_prefix/) value reflects the part of the name preceding the colon and the [XmlDocument::get_LocalName](../get_localname/) value reflects the part of the name after the colon. The qualified name cannot include a prefix of **xmlns**. |
 
 ### Return Value
 
 The new [XmlElement](../../xmlelement/).
 
-## XmlDocument::CreateElement(const String\&, const String\&) method
+## XmlDocument::CreateElement(const String&, const String&) method
 
 
 Creates an [XmlElement](../../xmlelement/) with the qualified name and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -40,14 +40,14 @@ SharedPtr<XmlElement> System::Xml::XmlDocument::CreateElement(const String &qual
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| qualifiedName | const [String](../../../system/string/)\& | The qualified name of the element. If the name contains a colon then the [XmlNode::get_Prefix](../../xmlnode/get_prefix/) value will reflect the part of the name preceding the colon and the [XmlDocument::get_LocalName](../get_localname/) value will reflect the part of the name after the colon. The qualified name cannot include a prefix of **xmlns**. |
-| namespaceURI | const [String](../../../system/string/)\& | The namespace URI of the element. |
+| qualifiedName | const [String](../../../system/string/)& | The qualified name of the element. If the name contains a colon then the [XmlNode::get_Prefix](../../xmlnode/get_prefix/) value will reflect the part of the name preceding the colon and the [XmlDocument::get_LocalName](../get_localname/) value will reflect the part of the name after the colon. The qualified name cannot include a prefix of **xmlns**. |
+| namespaceURI | const [String](../../../system/string/)& | The namespace URI of the element. |
 
 ### Return Value
 
 The new [XmlElement](../../xmlelement/).
 
-## XmlDocument::CreateElement(const String\&, const String\&, const String\&) method
+## XmlDocument::CreateElement(const String&, const String&, const String&) method
 
 
 Creates an element with the specified [XmlNode::get_Prefix](../../xmlnode/get_prefix/), [XmlDocument::get_LocalName](../get_localname/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -61,9 +61,9 @@ virtual SharedPtr<XmlElement> System::Xml::XmlDocument::CreateElement(const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix of the new element (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
-| localName | const [String](../../../system/string/)\& | The local name of the new element. |
-| namespaceURI | const [String](../../../system/string/)\& | The namespace URI of the new element (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
+| prefix | const [String](../../../system/string/)& | The prefix of the new element (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
+| localName | const [String](../../../system/string/)& | The local name of the new element. |
+| namespaceURI | const [String](../../../system/string/)& | The namespace URI of the new element (if any). [String::Empty](../../../system/string/empty/) and **nullptr** are equivalent. |
 
 ### Return Value
 

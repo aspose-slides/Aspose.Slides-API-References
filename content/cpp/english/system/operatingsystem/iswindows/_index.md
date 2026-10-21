@@ -9,7 +9,7 @@ url: /system/operatingsystem/iswindows/
 ## OperatingSystem::IsWindows() method
 
 
-Indicates whether the current application is running on [Windows](../../../system.windows/).
+Indicates whether the current application is running on Windows.
 
 ```cpp
 static bool System::OperatingSystem::IsWindows()

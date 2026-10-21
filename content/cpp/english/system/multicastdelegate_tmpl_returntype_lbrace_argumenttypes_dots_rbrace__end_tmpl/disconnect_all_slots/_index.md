@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/disconnect_all_slots/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect_all_slots() method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::disconnect_all_slots() method
 
 
 Removes all delegates from the delegate collection.
@@ -23,6 +23,6 @@ A reference to the self
 ## See Also
 
 * Method [MulticastDelegate](../multicastdelegate/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

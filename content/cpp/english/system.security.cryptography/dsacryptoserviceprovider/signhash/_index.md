@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.security.cryptography/dsacryptoserviceprovider/signhash/
 ---
-## DSACryptoServiceProvider::SignHash(const ByteArrayPtr\&, const String\&) method
+## DSACryptoServiceProvider::SignHash(const ByteArrayPtr&, const String&) method
 
 
 Computes the signature of specified input value.
@@ -20,8 +20,8 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignHash(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash value of data to be signed. |
-| str | const [String](../../../system/string/)\& | Hash algorithm identifier used to create the hash. |
+| rgb_hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash value of data to be signed. |
+| str | const [String](../../../system/string/)& | Hash algorithm identifier used to create the hash. |
 
 ### Return Value
 

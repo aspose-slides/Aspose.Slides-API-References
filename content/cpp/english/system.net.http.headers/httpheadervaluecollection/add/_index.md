@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.net.http.headers/httpheadervaluecollection/add/
 ---
-## HttpHeaderValueCollection::Add(const T\&) method
+## HttpHeaderValueCollection::Add(const T&) method
 
 
 Adds element into collection.
@@ -20,7 +20,7 @@ void System::Net::Http::Headers::HttpHeaderValueCollection<T>::Add(const T &item
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | to add. |
+| item | const T& | to add. |
 
 ## See Also
 

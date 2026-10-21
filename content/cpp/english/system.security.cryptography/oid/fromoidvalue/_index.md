@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.security.cryptography/oid/fromoidvalue/
 ---
-## Oid::FromOidValue(const String\&, OidGroup) method
+## Oid::FromOidValue(const String&, OidGroup) method
 
 
 Create OID object from the specified OID value.
@@ -20,7 +20,7 @@ static SharedPtr<Oid> System::Security::Cryptography::Oid::FromOidValue(const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid_value | const [String](../../../system/string/)\& | OID value. |
+| oid_value | const [String](../../../system/string/)& | OID value. |
 | group | [OidGroup](../../oidgroup/) | OID group to search in. |
 
 ## See Also

@@ -1,12 +1,12 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::operator!=() method"
 type: docs
 weight: 92
 url: /system.runtime.interopservices/osplatform/operator_not_equal/
 ---
-## OSPlatform::operator!=(const OSPlatform\&) const method
+## OSPlatform::operator!=(const OSPlatform&) const method
 
 
 

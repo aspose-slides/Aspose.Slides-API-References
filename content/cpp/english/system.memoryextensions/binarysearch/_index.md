@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.memoryextensions/binarysearch/
 ---
-## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>\&, const TComparable\&) function
+## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>&, const TComparable&) function
 
 
 Performs binary search on a sorted span.
@@ -27,14 +27,14 @@ template<typename T,typename TComparable> int32_t System::MemoryExtensions::Bina
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sorted span to search |
-| comparable | const TComparable\& | The value to search for |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sorted span to search |
+| comparable | const TComparable& | The value to search for |
 
 ### Return Value
 
 [Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
-## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>\&, const T\&, const SharedPtr\<TComparer\>\&) function
+## System::MemoryExtensions::BinarySearch(const ReadOnlySpan\<T\>&, const T&, const SharedPtr\<TComparer\>&) function
 
 
 Performs binary search on a sorted span using a custom comparer.
@@ -55,15 +55,15 @@ template<typename T,typename TComparer> int32_t System::MemoryExtensions::Binary
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sorted span to search |
-| value | const T\& | The value to search for |
-| comparerPtr | const [SharedPtr](../../system/sharedptr/)\<TComparer\>\& | The comparer to use for comparisons |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sorted span to search |
+| value | const T& | The value to search for |
+| comparerPtr | const [SharedPtr](../../system/sharedptr/)\<TComparer\>& | The comparer to use for comparisons |
 
 ### Return Value
 
 [Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
-## System::MemoryExtensions::BinarySearch(const Span\<T\>\&, const TComparable\&) function
+## System::MemoryExtensions::BinarySearch(const Span\<T\>&, const TComparable&) function
 
 
 Performs binary search on a mutable sorted span.
@@ -84,14 +84,14 @@ template<typename T,typename TComparable> int32_t System::MemoryExtensions::Bina
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The sorted span to search |
-| comparable | const TComparable\& | The value to search for |
+| span | const [Span](../../system/span/)\<T\>& | The sorted span to search |
+| comparable | const TComparable& | The value to search for |
 
 ### Return Value
 
 [Index](../../system/index/) of the found element, or bitwise complement of the insertion point if not found
 
-## System::MemoryExtensions::BinarySearch(const Span\<T\>\&, const T\&, const SharedPtr\<TComparer\>\&) function
+## System::MemoryExtensions::BinarySearch(const Span\<T\>&, const T&, const SharedPtr\<TComparer\>&) function
 
 
 Performs binary search on a mutable sorted span using a custom comparer.
@@ -112,9 +112,9 @@ template<typename T,typename TComparer> int32_t System::MemoryExtensions::Binary
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The sorted span to search |
-| value | const T\& | The value to search for |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>\& | The comparer to use for comparisons |
+| span | const [Span](../../system/span/)\<T\>& | The sorted span to search |
+| value | const T& | The value to search for |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TComparer\>& | The comparer to use for comparisons |
 
 ### Return Value
 

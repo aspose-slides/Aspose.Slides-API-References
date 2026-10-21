@@ -19,12 +19,12 @@ class TypeInfoPtr
 
 | Method | Description |
 | --- | --- |
-|  [operator TypeInfo *](./operator_typeinfo__star/)() | Returns a raw pointer to the represented [TypeInfo](../typeinfo/) object. |
+|  [operator TypeInfo \*](./operator_typeinfo__star/)() | Returns a raw pointer to the represented [TypeInfo](../typeinfo/) object. |
 |  [TypeInfoPtr](./typeinfoptr/)() | Default constructor. |
-|  [TypeInfoPtr](./typeinfoptr/)(const std::type_info\&) | Constructor. |
-|  [TypeInfoPtr](./typeinfoptr/)(const char_t *, **uint32_t**) | Constructor. |
-|  [TypeInfoPtr](./typeinfoptr/)(const char_t *) | Constructor. |
-|  [TypeInfoPtr](./typeinfoptr/)(const [String](../string/)\&) | Constructor. |
+|  [TypeInfoPtr](./typeinfoptr/)(const std::type_info&) | Constructor. |
+|  [TypeInfoPtr](./typeinfoptr/)(const char_t \*, **uint32_t**) | Constructor. |
+|  [TypeInfoPtr](./typeinfoptr/)(const char_t \*) | Constructor. |
+|  [TypeInfoPtr](./typeinfoptr/)(const [String](../string/)&) | Constructor. |
 |  [~TypeInfoPtr](./~typeinfoptr/)() | Destructor. |
 ## See Also
 

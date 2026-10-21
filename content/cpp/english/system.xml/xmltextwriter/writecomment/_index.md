@@ -9,7 +9,7 @@ url: /system.xml/xmltextwriter/writecomment/
 ## XmlTextWriter::WriteComment(String) method
 
 
-Writes out a comment **** containing the specified text.
+Writes out a comment  containing the specified text.
 
 ```cpp
 void System::Xml::XmlTextWriter::WriteComment(String text) override
@@ -21,6 +21,14 @@ void System::Xml::XmlTextWriter::WriteComment(String text) override
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | [String](../../../system/string/) | [Text](../../../system.text/) to place inside the comment. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text would result in a non-well formed XML document. |
+| InvalidOperationException | The [XmlTextWriter::get_WriteState](../get_writestate/) value is [WriteState::Closed](../../writestate/). |
+
 
 ## See Also
 

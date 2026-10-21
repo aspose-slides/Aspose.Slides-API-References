@@ -1,7 +1,7 @@
 ---
 title: HttpRequestException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: HttpRequestException typedef
 type: docs
 weight: 209
 url: /system.net.http/httprequestexception/

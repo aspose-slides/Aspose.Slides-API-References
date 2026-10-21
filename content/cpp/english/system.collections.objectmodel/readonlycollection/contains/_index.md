@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.objectmodel/readonlycollection/contains/
 ---
-## ReadOnlyCollection::Contains(const T\&) const method
+## ReadOnlyCollection::Contains(const T&) const method
 
 
 Checks if container contains specific item.
@@ -20,7 +20,7 @@ virtual bool System::Collections::ObjectModel::ReadOnlyCollection<T>::Contains(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

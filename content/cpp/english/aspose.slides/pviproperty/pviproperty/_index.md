@@ -1,7 +1,7 @@
 ---
 title: PVIProperty()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "PVIProperty::PVIProperty() constructor"
 type: docs
 weight: 1
 url: /aspose.slides/pviproperty/pviproperty/

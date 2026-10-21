@@ -22,6 +22,13 @@ virtual void System::Security::Cryptography::SymmetricAlgorithm::set_BlockSize(i
 | --- | --- | --- |
 | value | int | Block size in bits. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| CryptographicException | If block size is not supported. |
+
+
 ## See Also
 
 * Class [SymmetricAlgorithm](../)

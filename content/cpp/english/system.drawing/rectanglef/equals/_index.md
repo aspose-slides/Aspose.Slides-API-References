@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.drawing/rectanglef/equals/
 ---
-## RectangleF::Equals(const RectangleF\&) const method
+## RectangleF::Equals(const RectangleF&) const method
 
 
 Determines if the rectangles represented by the current and the specified objects are identical.
@@ -20,7 +20,7 @@ bool System::Drawing::RectangleF::Equals(const RectangleF &rect) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../)\& | The [RectangleF](../) object to compare the current object with |
+| rect | const [RectangleF](../)& | The [RectangleF](../) object to compare the current object with |
 
 ### Return Value
 

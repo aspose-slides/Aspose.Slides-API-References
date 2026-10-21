@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system/environment/failfast/
 ---
-## Environment::FailFast(const String\&) method
+## Environment::FailFast(const String&) method
 
 
 Aborts the current process.
@@ -20,7 +20,7 @@ static void System::Environment::FailFast(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../string/)\& | IGNORED |
+| message | const [String](../../string/)& | IGNORED |
 
 ## See Also
 

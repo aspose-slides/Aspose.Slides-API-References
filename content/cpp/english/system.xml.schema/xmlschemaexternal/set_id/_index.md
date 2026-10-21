@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemaexternal/set_id/
 ---
-## XmlSchemaExternal::set_Id(const String\&) method
+## XmlSchemaExternal::set_Id(const String&) method
 
 
 Sets the string id.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaExternal::set_Id(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

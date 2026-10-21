@@ -15,7 +15,7 @@ Default constructor that creates null-Func.
 System::Func<Args>::Func()
 ```
 
-## Func::Func(T\&&) constructor
+## Func::Func(T&&) constructor
 
 
 Constructor that constructs [Func](../) object and assigns value (either actual callback or nullptr) to it.
@@ -35,9 +35,9 @@ template<typename T> System::Func<Args>::Func(T &&arg)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg | T\&& | Argument. |
+| arg | T&& | Argument. |
 
-## Func::Func(const Func\&) constructor
+## Func::Func(const Func&) constructor
 
 
 Copy constructor.
@@ -51,9 +51,9 @@ System::Func<Args>::Func(const Func &func)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| func | const [Func](../)\& | [Object](../../object/) to copy data from. |
+| func | const [Func](../)& | [Object](../../object/) to copy data from. |
 
-## Func::Func(Func\&&) constructor
+## Func::Func(Func&&) constructor
 
 
 Move constructor.
@@ -67,7 +67,7 @@ System::Func<Args>::Func(Func &&func) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| func | [Func](../)\&& | [Object](../../object/) to move data from. |
+| func | [Func](../)&& | [Object](../../object/) to move data from. |
 
 ## See Also
 

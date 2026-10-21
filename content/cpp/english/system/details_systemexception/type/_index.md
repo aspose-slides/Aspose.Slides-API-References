@@ -1,7 +1,7 @@
 ---
 title: Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_SystemException::Type() method"
 type: docs
 weight: 1
 url: /system/details_systemexception/type/

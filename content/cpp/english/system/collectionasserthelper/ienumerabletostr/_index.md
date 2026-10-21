@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/collectionasserthelper/ienumerabletostr/
 ---
-## CollectionAssertHelper::IEnumerableToStr(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T\>\>\&) method
+## CollectionAssertHelper::IEnumerableToStr(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T\>\>&) method
 
 
 Converts collection to string by joining string representations of elements.
@@ -26,7 +26,7 @@ template<typename T> static System::String System::CollectionAssertHelper::IEnum
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ie | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T\>\>\& | Collection to check. |
+| ie | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T\>\>& | Collection to check. |
 
 ### Return Value
 

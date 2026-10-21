@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/enumvaluesbase/getnames/
 ---
-## EnumValuesBase::GetNames(const TypeInfo\&) method
+## EnumValuesBase::GetNames(const TypeInfo&) method
 
 
 Retrieves an array of the names of the constants in a specified enumeration.
@@ -20,7 +20,7 @@ static ArrayPtr<String> System::EnumValuesBase::GetNames(const TypeInfo &type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | An enumeration type. |
+| type | const [TypeInfo](../../typeinfo/)& | An enumeration type. |
 
 ### Return Value
 

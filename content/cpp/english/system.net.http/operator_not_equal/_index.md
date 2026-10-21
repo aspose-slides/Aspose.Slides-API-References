@@ -1,7 +1,7 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Http::operator!=() function"
 type: docs
 weight: 170
 url: /system.net.http/operator_not_equal/

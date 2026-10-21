@@ -15,6 +15,13 @@ Throws a OperationCanceledException if cancellation has been requested.
 void System::Threading::CancellationToken::ThrowIfCancellationRequested() const
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| OperationCanceledException | if get_IsCancellationRequested is true. |
+
 ## Remarks
 
 

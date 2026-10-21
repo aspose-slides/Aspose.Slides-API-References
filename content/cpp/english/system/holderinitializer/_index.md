@@ -26,11 +26,11 @@ template<typename T,bool>class HolderInitializer
 
 | Method | Description |
 | --- | --- |
-| const T\& [Hold](./hold/)(const T\&) | Copies passed lvalue to holder, then return the holder reference Caller should use this method to hold passed value unconditionally. |
-|  [HolderInitializer](./holderinitializer/)(T\&) | Initializes holder reference with passed one. |
-| const T\& [HoldIfTemporary](./holdiftemporary/)(const T\&) | Returns reference to rvalue (const) |
-| const T\& [HoldIfTemporary](./holdiftemporary/)(T\&) | Returns reference to rvalue (non-const) |
-| const T\& [HoldIfTemporary](./holdiftemporary/)(T\&&) | Copies passed lvalue to holder, then return the holder reference. |
+| const T& [Hold](./hold/)(const T&) | Copies passed lvalue to holder, then return the holder reference Caller should use this method to hold passed value unconditionally. |
+|  [HolderInitializer](./holderinitializer/)(T&) | Initializes holder reference with passed one. |
+| const T& [HoldIfTemporary](./holdiftemporary/)(const T&) | Returns reference to rvalue (const) |
+| const T& [HoldIfTemporary](./holdiftemporary/)(T&) | Returns reference to rvalue (non-const) |
+| const T& [HoldIfTemporary](./holdiftemporary/)(T&&) | Copies passed lvalue to holder, then return the holder reference. |
 
 ## See Also
 

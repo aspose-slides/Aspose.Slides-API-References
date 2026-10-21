@@ -1,7 +1,7 @@
 ---
 title: "System::Windows::Forms"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Windows::Forms namespace"
 type: docs
 weight: 1119
 url: /system.windows.forms/
@@ -16,7 +16,7 @@ url: /system.windows.forms/
 | [Control](./control/) | Dummy class to make translated code that uses [Control](./control/) class compilable. Methods are not implemented. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Form](./form/) | Dummy class to make translated code that uses [Form](./form/) class compilable. Methods are not implemented. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [IButtonControl](./ibuttoncontrol/) | Dummy class to make translated code that uses [IButtonControl](./ibuttoncontrol/) interface compilable. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
-| [Screen](./screen/) | Provides information on displays. [Windows](../system.windows/) only. This is a singleton type with memory management done by access function(s). You should never create instances of it directly. |
+| [Screen](./screen/) | Provides information on displays. Windows only. This is a singleton type with memory management done by access function(s). You should never create instances of it directly. |
 ## Structures
 
 | Struct | Description |

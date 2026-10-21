@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading.tasks/resulttask/resulttask/
 ---
-## ResultTask::ResultTask(const Func\<T\>\&) constructor
+## ResultTask::ResultTask(const Func\<T\>&) constructor
 
 
 Constructs a [ResultTask](../) with a function that returns a value.
@@ -20,7 +20,7 @@ System::Threading::Tasks::ResultTask<T>::ResultTask(const Func<T> &function)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| function | const [Func](../../../system/func/)\<T\>\& | The function to execute asynchronously that returns a result |
+| function | const [Func](../../../system/func/)\<T\>& | The function to execute asynchronously that returns a result |
 
 ## ResultTask::ResultTask() constructor
 
@@ -35,7 +35,7 @@ System::Threading::Tasks::ResultTask<T>::ResultTask()
 
 
 Internal constructor for creating uninitialized result tasks 
-## ResultTask::ResultTask(const T\&) constructor
+## ResultTask::ResultTask(const T&) constructor
 
 
 Internal constructor for creating result tasks with specified result.

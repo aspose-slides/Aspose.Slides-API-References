@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.drawing/graphics/fillrectangles/
 ---
-## Graphics::FillRectangles(const SharedPtr\<Brush\>\&, const ArrayPtr\<Rectangle\>\&) method
+## Graphics::FillRectangles(const SharedPtr\<Brush\>&, const ArrayPtr\<Rectangle\>&) method
 
 
 Fills a series of rectangles using the specified brush.
@@ -20,10 +20,10 @@ void System::Drawing::Graphics::FillRectangles(const SharedPtr<Brush> &brush, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A brush to use when filling the rectangles |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\& | [Array](../../../system/array/) of rectangles to draw |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A brush to use when filling the rectangles |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>& | [Array](../../../system/array/) of rectangles to draw |
 
-## Graphics::FillRectangles(const SharedPtr\<Brush\>\&, const ArrayPtr\<RectangleF\>\&) method
+## Graphics::FillRectangles(const SharedPtr\<Brush\>&, const ArrayPtr\<RectangleF\>&) method
 
 
 Fills a series of rectangles using the specified brush.
@@ -37,8 +37,8 @@ void System::Drawing::Graphics::FillRectangles(const SharedPtr<Brush> &brush, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A brush to use when filling the rectangles |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>\& | [Array](../../../system/array/) of rectangles to draw |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A brush to use when filling the rectangles |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>& | [Array](../../../system/array/) of rectangles to draw |
 
 ## See Also
 

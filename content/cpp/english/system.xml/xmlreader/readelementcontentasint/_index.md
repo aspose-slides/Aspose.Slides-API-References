@@ -20,6 +20,14 @@ virtual int32_t System::Xml::XmlReader::ReadElementContentAsInt()
 
 The element content as a 32-bit signed integer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a 32-bit signed integer. |
+
+
 ## XmlReader::ReadElementContentAsInt(String, String) method
 
 
@@ -40,6 +48,16 @@ virtual int32_t System::Xml::XmlReader::ReadElementContentAsInt(String localName
 ### Return Value
 
 The element content as a 32-bit signed integer.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a 32-bit signed integer. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

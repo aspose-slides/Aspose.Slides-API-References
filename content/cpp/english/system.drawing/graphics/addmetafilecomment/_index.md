@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /system.drawing/graphics/addmetafilecomment/
 ---
-## Graphics::AddMetafileComment(const System::ArrayPtr\<uint8_t\>\&) method
+## Graphics::AddMetafileComment(const System::ArrayPtr\<uint8_t\>&) method
 
 
 NOT IMPLEMENTED.
@@ -14,6 +14,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::AddMetafileComment(const System::ArrayPtr<uint8_t> &data)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

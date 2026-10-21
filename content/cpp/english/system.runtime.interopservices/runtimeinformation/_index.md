@@ -1,7 +1,7 @@
 ---
 title: RuntimeInformation
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: RuntimeInformation struct
 type: docs
 weight: 79
 url: /system.runtime.interopservices/runtimeinformation/
@@ -19,7 +19,7 @@ class RuntimeInformation
 
 | Method | Description |
 | --- | --- |
-| static **bool** [IsOSPlatform](./isosplatform/)(const [OSPlatform](../osplatform/)\&) |  |
+| static **bool** [IsOSPlatform](./isosplatform/)(const [OSPlatform](../osplatform/)&) |  |
 ## See Also
 
 * Namespace [System::Runtime::InteropServices](../)

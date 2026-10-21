@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography/hmacsha1/hmacsha1/
 ---
-## HMACSHA1::HMACSHA1(const System::ArrayPtr\<uint8_t\>\&) constructor
+## HMACSHA1::HMACSHA1(const System::ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Security::Cryptography::HMACSHA1::HMACSHA1(const System::ArrayPtr<uint8_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Hasher key. |
+| key | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Hasher key. |
 
 ## See Also
 

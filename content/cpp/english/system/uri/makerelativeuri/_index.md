@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system/uri/makerelativeuri/
 ---
-## Uri::MakeRelativeUri(const SharedPtr\<Uri\>\&) method
+## Uri::MakeRelativeUri(const SharedPtr\<Uri\>&) method
 
 
 Determines the difference between URIs represented by the current and the specified [Uri](../) objects.
@@ -20,7 +20,7 @@ SharedPtr<Uri> System::Uri::MakeRelativeUri(const SharedPtr<Uri> &uri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The comparand |
+| uri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>& | The comparand |
 
 ### Return Value
 

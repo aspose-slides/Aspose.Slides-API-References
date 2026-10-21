@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.globalization/compareinfo/compareinfo/
 ---
-## CompareInfo::CompareInfo(const CompareInfo\&) constructor
+## CompareInfo::CompareInfo(const CompareInfo&) constructor
 
 
 RTTI information.

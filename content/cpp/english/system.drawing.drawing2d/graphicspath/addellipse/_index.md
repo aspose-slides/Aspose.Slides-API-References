@@ -44,7 +44,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(int x, int y, int widt
 | width | int | The width of the upper left corner of the rectangle that bounds the ellipse to add |
 | height | int | The height of the upper left corner of the rectangle that bounds the ellipse to add |
 
-## GraphicsPath::AddEllipse(const RectangleF\&) method
+## GraphicsPath::AddEllipse(const RectangleF&) method
 
 
 Adds the specified ellipse to the path represented by the current object.
@@ -58,9 +58,9 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(const RectangleF &rect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../../system.drawing/rectanglef/)\& | Specifies a rectangle that bounds the ellipse to add |
+| rect | const [RectangleF](../../../system.drawing/rectanglef/)& | Specifies a rectangle that bounds the ellipse to add |
 
-## GraphicsPath::AddEllipse(const Rectangle\&) method
+## GraphicsPath::AddEllipse(const Rectangle&) method
 
 
 Adds the specified ellipse to the path represented by the current object.
@@ -74,7 +74,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../../system.drawing/rectangle/)\& | Specifies a rectangle that bounds the ellipse to add |
+| rect | const [Rectangle](../../../system.drawing/rectangle/)& | Specifies a rectangle that bounds the ellipse to add |
 
 ## See Also
 

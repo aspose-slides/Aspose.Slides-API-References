@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/productinfoheadervalue/tryparse/
 ---
-## ProductInfoHeaderValue::TryParse(String, System::SharedPtr\<ProductInfoHeaderValue\>\&) method
+## ProductInfoHeaderValue::TryParse(String, System::SharedPtr\<ProductInfoHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [ProductInfoHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::ProductInfoHeaderValue::TryParse(String 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ProductInfoHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ProductInfoHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

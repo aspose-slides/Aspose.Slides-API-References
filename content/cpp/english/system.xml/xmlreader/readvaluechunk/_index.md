@@ -28,6 +28,17 @@ virtual int32_t System::Xml::XmlReader::ReadValueChunk(ArrayPtr<char16_t> buffer
 
 The number of characters read into the buffer. The value zero is returned when there is no more text content.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The current node does not have a value ([XmlReader::get_HasValue](../get_hasvalue/) is **false**). |
+| ArgumentNullException | The **buffer** value is **nullptr**. |
+| ArgumentOutOfRangeException | The index into the buffer, or index + count is larger than the allocated buffer size. |
+| NotSupportedException | The [XmlReader](../) implementation does not support this method. |
+| XmlException | The XML data is not well-formed. |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

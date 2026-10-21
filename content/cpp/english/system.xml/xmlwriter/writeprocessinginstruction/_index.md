@@ -9,7 +9,7 @@ url: /system.xml/xmlwriter/writeprocessinginstruction/
 ## XmlWriter::WriteProcessingInstruction(String, String) method
 
 
-When overridden in a derived class, writes out a processing instruction with a space between the name and text as follows: **<?name text?>**.
+When overridden in a derived class, writes out a processing instruction with a space between the name and text as follows: **\<?name text?\>**.
 
 ```cpp
 virtual void System::Xml::XmlWriter::WriteProcessingInstruction(String name, String text)=0
@@ -22,6 +22,13 @@ virtual void System::Xml::XmlWriter::WriteProcessingInstruction(String name, Str
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The name of the processing instruction. |
 | text | [String](../../../system/string/) | The text to include in the processing instruction. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text would result in a non-well formed XML document. **name** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 ## Remarks
 
 

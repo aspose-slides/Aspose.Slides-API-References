@@ -6,7 +6,7 @@ type: docs
 weight: 2796
 url: /system/ispositiveinfinity/
 ---
-## System::IsPositiveInfinity(const T\&) function
+## System::IsPositiveInfinity(const T&) function
 
 
 Determines if the specified value represents positive infinity.
@@ -26,7 +26,7 @@ template<typename T> bool System::IsPositiveInfinity(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to check |
+| value | const T& | The value to check |
 
 ### Return Value
 

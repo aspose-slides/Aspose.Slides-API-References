@@ -16,6 +16,13 @@ void System::Drawing::Drawing2D::LinearGradientBrush::SetSigmaBellShape(float fo
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [LinearGradientBrush](../)

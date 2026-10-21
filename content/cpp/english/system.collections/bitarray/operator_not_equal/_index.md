@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.collections/bitarray/operator_not_equal/
 ---
-## BitArray::operator!=(const BitArray\&) const method
+## BitArray::operator!=(const BitArray&) const method
 
 
 Bitwise comparison operator.
@@ -20,7 +20,7 @@ bool System::Collections::BitArray::operator!=(const BitArray &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [BitArray](../)\& | RHS operand. |
+| other | const [BitArray](../)& | RHS operand. |
 
 ### Return Value
 

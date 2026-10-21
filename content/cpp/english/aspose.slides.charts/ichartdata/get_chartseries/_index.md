@@ -16,6 +16,13 @@ virtual System::SharedPtr<IChartSeries> Aspose::Slides::Charts::IChartData::get_
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | *index*  is not a valid index in the [System::Collections::Generic::IList](../../../system.collections.generic/ilist/). |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

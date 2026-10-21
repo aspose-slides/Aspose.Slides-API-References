@@ -1,7 +1,7 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::operator!=() function"
 type: docs
 weight: 2081
 url: /system/operator_not_equal/
@@ -24,7 +24,7 @@ template<typename T> bool System::operator!=(ArraySegment<T> a, ArraySegment<T> 
 constexpr bool System::operator!=(std::nullptr_t, DateTime)
 ```
 
-## System::operator!=(std::nullptr_t, const DateTimeOffset\&) function
+## System::operator!=(std::nullptr_t, const DateTimeOffset&) function
 
 
 
@@ -33,7 +33,7 @@ constexpr bool System::operator!=(std::nullptr_t, DateTime)
 constexpr bool System::operator!=(std::nullptr_t, const DateTimeOffset &)
 ```
 
-## System::operator!=(std::nullptr_t, const Nullable\<T\>\&) function
+## System::operator!=(std::nullptr_t, const Nullable\<T\>&) function
 
 
 Determines if the specified [Nullable](../nullable/) object represents a value that is not equal to null.
@@ -53,7 +53,7 @@ template<typename T> bool System::operator!=(std::nullptr_t, const Nullable<T> &
 
 True if the specified object represents non-null value, false otherwise
 
-## System::operator!=(const T1\&, const Nullable\<T2\>\&) function
+## System::operator!=(const T1&, const Nullable\<T2\>&) function
 
 
 Determines if the specified value is not equal to the value represented by the specified [Nullable](../nullable/) object by applying [operator!=()](./) to these values.
@@ -74,14 +74,14 @@ template<typename T1,typename T2> std::enable_if<!IsNullable<T1>::value, bool>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| some | const T1\& | A constant reference to the value that is to be used as the first comparand |
-| other | const [Nullable](../nullable/)\<T2\>\& | A constant reference to the [Nullable](../nullable/) object the represented value of which is to be used as the second comparand |
+| some | const T1& | A constant reference to the value that is to be used as the first comparand |
+| other | const [Nullable](../nullable/)\<T2\>& | A constant reference to the [Nullable](../nullable/) object the represented value of which is to be used as the second comparand |
 
 ### Return Value
 
 True if the comparands are not equal, otherwise - false
 
-## System::operator!=(const SmartPtr\<X\>\&, const SmartPtr\<Y\>\&) function
+## System::operator!=(const SmartPtr\<X\>&, const SmartPtr\<Y\>&) function
 
 
 Non-equal-compares two smart pointers.
@@ -102,14 +102,14 @@ template<class X,class Y> bool System::operator!=(const SmartPtr<X> &x, const Sm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr](../smartptr/)\<X\>\& | First pointer to compare. |
-| y | const [SmartPtr](../smartptr/)\<Y\>\& | Second pointer to compare. |
+| x | const [SmartPtr](../smartptr/)\<X\>& | First pointer to compare. |
+| y | const [SmartPtr](../smartptr/)\<Y\>& | Second pointer to compare. |
 
 ### Return Value
 
 False if pointers match, true otherwise.
 
-## System::operator!=(SmartPtr\<X\> const\&, std::nullptr_t) function
+## System::operator!=(SmartPtr\<X\> const&, std::nullptr_t) function
 
 
 Checks if smart pointer is not null.
@@ -129,13 +129,13 @@ template<class X> bool System::operator!=(SmartPtr<X> const &x, std::nullptr_t)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr](../smartptr/)\<X\> const\& | Pointer to check. |
+| x | [SmartPtr](../smartptr/)\<X\> const& | Pointer to check. |
 
 ### Return Value
 
 False if pointer is null, true otherwise.
 
-## System::operator!=(std::nullptr_t, SmartPtr\<X\> const\&) function
+## System::operator!=(std::nullptr_t, SmartPtr\<X\> const&) function
 
 
 Checks if smart pointer is not null.
@@ -161,7 +161,7 @@ template<class X> bool System::operator!=(std::nullptr_t, SmartPtr<X> const &x)
 
 False if pointer is null, true otherwise.
 
-## System::operator!=(const SmartPtr\<X\>\&, const Y *) function
+## System::operator!=(const SmartPtr\<X\>&, const Y \*) function
 
 
 Inequality comparison smart pointer against simple (C) pointer.
@@ -182,14 +182,14 @@ template<class X,class Y> std::enable_if<std::is_base_of<Object, Y>::value &&det
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr](../smartptr/)\<X\>\& | smart pointer to compare (left). |
-| y | const Y * | pointer to compare (right). |
+| x | const [SmartPtr](../smartptr/)\<X\>& | smart pointer to compare (left). |
+| y | const Y \* | pointer to compare (right). |
 
 ### Return Value
 
 False if pointers match, true otherwise.
 
-## System::operator!=(const X *, const SmartPtr\<Y\>\&) function
+## System::operator!=(const X \*, const SmartPtr\<Y\>&) function
 
 
 Equality comparison smart pointer against simple (C) pointer.
@@ -210,14 +210,14 @@ template<class X,class Y> std::enable_if<std::is_base_of<Object, X>::value &&det
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const X * | pointer to compare (right). |
-| y | const [SmartPtr](../smartptr/)\<Y\>\& | smart pointer to compare (left). |
+| x | const X \* | pointer to compare (right). |
+| y | const [SmartPtr](../smartptr/)\<Y\>& | smart pointer to compare (left). |
 
 ### Return Value
 
 False if pointers match, true otherwise.
 
-## System::operator!=(Chars\&, const String\&) function
+## System::operator!=(Chars&, const String&) function
 
 
 [String](../string/) comparison.
@@ -237,14 +237,14 @@ template<class Chars,typename std::enable_if< IsStringLiteral< Chars, char_t >::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | Chars\& | [String](../string/) literal to compare. |
-| right | const [String](../string/)\& | [String](../string/) to compare. |
+| left | Chars& | [String](../string/) literal to compare. |
+| right | const [String](../string/)& | [String](../string/) to compare. |
 
 ### Return Value
 
 false if strings match, true otherwise.
 
-## System::operator!=(T\&, const String\&) function
+## System::operator!=(T&, const String&) function
 
 
 [String](../string/) comparison.
@@ -264,14 +264,14 @@ template<class T,typename std::enable_if< IsStringPointer< T, char_t >::value >:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | T\& | [String](../string/) pointer to compare. |
-| right | const [String](../string/)\& | [String](../string/) to compare. |
+| left | T& | [String](../string/) pointer to compare. |
+| right | const [String](../string/)& | [String](../string/) to compare. |
 
 ### Return Value
 
 false if strings match, true otherwise.
 
-## System::operator!=(const SharedPtr\<Object\>\&, const String\&) function
+## System::operator!=(const SharedPtr\<Object\>&, const String&) function
 
 
 [Object](../object/) and string comparison.
@@ -285,14 +285,14 @@ bool System::operator!=(const SharedPtr<Object> &left, const String &right)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\& | [Object](../object/) to convert to string and compare. |
-| right | const [String](../string/)\& | [String](../string/) to compare. |
+| left | const [SharedPtr](../sharedptr/)\<[Object](../object/)\>& | [Object](../object/) to convert to string and compare. |
+| right | const [String](../string/)& | [String](../string/) to compare. |
 
 ### Return Value
 
 false if object string representation equals to string, true otherwise.
 
-## System::operator!=(std::nullptr_t, const String\&) function
+## System::operator!=(std::nullptr_t, const String&) function
 
 
 Checks if string is null.
@@ -321,7 +321,7 @@ false if string is null, true otherwise.
 constexpr bool System::operator!=(std::nullptr_t, TimeSpan)
 ```
 
-## System::operator!=(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&) function
+## System::operator!=(const SharedPtr\<Uri\>&, const SharedPtr\<Uri\>&) function
 
 
 Determines if the URIs represented by the current and specified objects are not equal.
@@ -335,8 +335,8 @@ bool System::operator!=(const SharedPtr<Uri> &uri1, const SharedPtr<Uri> &uri2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri1 | const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>\& | The first [Uri](../uri/) object to compare |
-| uri2 | const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>\& | The second [Uri](../uri/) object to compare |
+| uri1 | const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>& | The first [Uri](../uri/) object to compare |
+| uri2 | const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>& | The second [Uri](../uri/) object to compare |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections/bitarray/add/
 ---
-## BitArray::Add(const bool\&) method
+## BitArray::Add(const bool&) method
 
 
 Adds value to the end of container.
@@ -20,7 +20,7 @@ void System::Collections::BitArray::Add(const bool &item) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const **bool**\& | Value to push. |
+| item | const **bool**& | Value to push. |
 
 ## See Also
 

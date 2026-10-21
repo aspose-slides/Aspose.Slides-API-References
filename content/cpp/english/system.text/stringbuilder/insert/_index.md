@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.text/stringbuilder/insert/
 ---
-## StringBuilder::Insert(int, const String\&) method
+## StringBuilder::Insert(int, const String&) method
 
 
 Inserts string into builder's fixed position.
@@ -21,13 +21,13 @@ StringBuilder * System::Text::StringBuilder::Insert(int startIndex, const String
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | Position to insert characters into. |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to insert. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to insert. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::Insert(int32_t, const String\&, int32_t) method
+## StringBuilder::Insert(int32_t, const String&, int32_t) method
 
 
 Inserts repeated string into builder's fixed position.
@@ -42,7 +42,7 @@ StringBuilder * System::Text::StringBuilder::Insert(int32_t index, const String 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | **int32_t** | Position to insert characters into. |
-| value | const [String](../../../system/string/)\& | [String](../../../system/string/) to insert. |
+| value | const [String](../../../system/string/)& | [String](../../../system/string/) to insert. |
 | count | **int32_t** | How many times to repeat **value** string. |
 
 ### Return Value
@@ -70,7 +70,7 @@ StringBuilder * System::Text::StringBuilder::Insert(int startIndex, char_t ch)
 
 This pointer.
 
-## StringBuilder::Insert(int, const System::ArrayPtr\<char_t\>\&, int, int) method
+## StringBuilder::Insert(int, const System::ArrayPtr\<char_t\>&, int, int) method
 
 
 Inserts characters into builder's fixed position.
@@ -85,7 +85,7 @@ StringBuilder * System::Text::StringBuilder::Insert(int index, const System::Arr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Position to insert characters into. |
-| chars | const [System::ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | [Array](../../../system/array/) to insert slice from. |
+| chars | const [System::ArrayPtr](../../../system/arrayptr/)\<char_t\>& | [Array](../../../system/array/) to insert slice from. |
 | startIndex | int | [Array](../../../system/array/) slice beginning index. |
 | charCount | int | [Array](../../../system/array/) slice length. |
 

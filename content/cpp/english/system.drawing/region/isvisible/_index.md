@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.drawing/region/isvisible/
 ---
-## Region::IsVisible(const Point\&) const method
+## Region::IsVisible(const Point&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object.
@@ -20,9 +20,9 @@ bool System::Drawing::Region::IsVisible(const Point &point) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../../point/)\& | The point to check |
+| point | const [Point](../../point/)& | The point to check |
 
-## Region::IsVisible(const PointF\&) const method
+## Region::IsVisible(const PointF&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object.
@@ -36,9 +36,9 @@ bool System::Drawing::Region::IsVisible(const PointF &point) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | The point to check |
+| point | const [PointF](../../pointf/)& | The point to check |
 
-## Region::IsVisible(const Rectangle\&) method
+## Region::IsVisible(const Rectangle&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object.
@@ -52,9 +52,9 @@ bool System::Drawing::Region::IsVisible(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | The rectangle to check |
+| rect | const [Rectangle](../../rectangle/)& | The rectangle to check |
 
-## Region::IsVisible(const RectangleF\&) method
+## Region::IsVisible(const RectangleF&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object.
@@ -68,9 +68,9 @@ bool System::Drawing::Region::IsVisible(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | The rectangle to check |
+| rect | const [RectangleF](../../rectanglef/)& | The rectangle to check |
 
-## Region::IsVisible(const Point\&, const SharedPtr\<Graphics\>\&) const method
+## Region::IsVisible(const Point&, const SharedPtr\<Graphics\>&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -84,10 +84,10 @@ bool System::Drawing::Region::IsVisible(const Point &point, const SharedPtr<Grap
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../../point/)\& | The point to check |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
+| point | const [Point](../../point/)& | The point to check |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The graphics context |
 
-## Region::IsVisible(const PointF\&, const SharedPtr\<Graphics\>\&) const method
+## Region::IsVisible(const PointF&, const SharedPtr\<Graphics\>&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -101,10 +101,10 @@ bool System::Drawing::Region::IsVisible(const PointF &point, const SharedPtr<Gra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | The point to check |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
+| point | const [PointF](../../pointf/)& | The point to check |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The graphics context |
 
-## Region::IsVisible(const Rectangle\&, const SharedPtr\<Graphics\>\&) method
+## Region::IsVisible(const Rectangle&, const SharedPtr\<Graphics\>&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object using the specified graphics.
@@ -118,10 +118,10 @@ bool System::Drawing::Region::IsVisible(const Rectangle &rect, const SharedPtr<G
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | The rectangle to check |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
+| rect | const [Rectangle](../../rectangle/)& | The rectangle to check |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The graphics context |
 
-## Region::IsVisible(const RectangleF\&, const SharedPtr\<Graphics\>\&) method
+## Region::IsVisible(const RectangleF&, const SharedPtr\<Graphics\>&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object using the specified graphics.
@@ -135,8 +135,8 @@ bool System::Drawing::Region::IsVisible(const RectangleF &rect, const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | The rectangle to check |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
+| rect | const [RectangleF](../../rectanglef/)& | The rectangle to check |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The graphics context |
 
 ## Region::IsVisible(float, float) const method
 
@@ -155,7 +155,7 @@ bool System::Drawing::Region::IsVisible(float x, float y) const
 | x | **float** | The X coordinate of the point to check |
 | y | **float** | The Y coordinate of the point to check |
 
-## Region::IsVisible(float, float, const SharedPtr\<Graphics\>\&) const method
+## Region::IsVisible(float, float, const SharedPtr\<Graphics\>&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -171,7 +171,7 @@ bool System::Drawing::Region::IsVisible(float x, float y, const SharedPtr<Graphi
 | --- | --- | --- |
 | x | **float** | The X coordinate of the point to check |
 | y | **float** | The Y coordinate of the point to check |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The graphics context |
 
 ## See Also
 

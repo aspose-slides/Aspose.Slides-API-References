@@ -20,6 +20,15 @@ virtual String System::Xml::XmlReader::ReadElementContentAsString()
 
 The element content as a [String](../../../system/string/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a [String](../../../system/string/) object. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+
+
 ## XmlReader::ReadElementContentAsString(String, String) method
 
 
@@ -40,6 +49,16 @@ virtual String System::Xml::XmlReader::ReadElementContentAsString(String localNa
 ### Return Value
 
 The element content as a [String](../../../system/string/) object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a [String](../../../system/string/) object. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

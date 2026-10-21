@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.drawing2d/regiondata/regiondata/
 ---
-## RegionData::RegionData(const ArrayPtr\<uint8_t\>\&) constructor
+## RegionData::RegionData(const ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructs a new instance of [RegionData](../) class and initializes it with the specified data.
@@ -20,7 +20,7 @@ System::Drawing::Drawing2D::RegionData::RegionData(const ArrayPtr<uint8_t> &data
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | A byte array containing data that defines a region |
+| data | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | A byte array containing data that defines a region |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic/idictionary/containskey/
 ---
-## IDictionary::ContainsKey(const TKey\&) const method
+## IDictionary::ContainsKey(const TKey&) const method
 
 
 Checks if container contains key.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::IDictionary<TKey, TValue>::ContainsKe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to look for. |
+| key | const TKey& | Key to look for. |
 
 ### Return Value
 

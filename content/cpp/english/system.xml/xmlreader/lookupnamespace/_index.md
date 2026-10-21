@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /system.xml/xmlreader/lookupnamespace/
 ---
-## XmlReader::LookupNamespace(const String\&) method
+## XmlReader::LookupNamespace(const String&) method
 
 
 When overridden in a derived class, resolves a namespace prefix in the current element's scope.
@@ -20,7 +20,7 @@ virtual String System::Xml::XmlReader::LookupNamespace(const String &prefix)=0
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass an empty string. |
 
 ### Return Value
 

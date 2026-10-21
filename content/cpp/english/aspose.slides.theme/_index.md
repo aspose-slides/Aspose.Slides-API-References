@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Theme"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Theme namespace"
 type: docs
 weight: 222
 url: /aspose.slides.theme/

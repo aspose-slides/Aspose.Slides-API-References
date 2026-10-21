@@ -6,10 +6,10 @@ type: docs
 weight: 1
 url: /system.runtime.interopservices/marshal/copy/
 ---
-## Marshal::Copy(const IntPtr, container\&&, int, int) method
+## Marshal::Copy(const IntPtr, container&&, int, int) method
 
 
-Implements public static void Copy(IntPtr source, byte[] destination, int startIndex, int length) semantics.
+Implements public static void Copy(IntPtr source, byte\[\] destination, int startIndex, int length) semantics.
 
 ```cpp
 template<typename container> static void System::Runtime::InteropServices::Marshal::Copy(const IntPtr source, container &&destination, int startIndex, int length)
@@ -27,14 +27,14 @@ template<typename container> static void System::Runtime::InteropServices::Marsh
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | const IntPtr | Source data pointer. |
-| destination | container\&& | Container to copy data into. |
+| destination | container&& | Container to copy data into. |
 | startIndex | int | Source start index. |
 | length | int | Number of elements to copy. |
 
-## Marshal::Copy(const void *, container\&&, int, int) method
+## Marshal::Copy(const void \*, container&&, int, int) method
 
 
-Implements public static void Copy(IntPtr source, byte[] destination, int startIndex, int length) semantics.
+Implements public static void Copy(IntPtr source, byte\[\] destination, int startIndex, int length) semantics.
 
 ```cpp
 template<typename container> static void System::Runtime::InteropServices::Marshal::Copy(const void *source, container &&destination, int startIndex, int length)
@@ -51,15 +51,15 @@ template<typename container> static void System::Runtime::InteropServices::Marsh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const void * | Source data pointer. |
-| destination | container\&& | Container to copy data into. |
+| source | const void \* | Source data pointer. |
+| destination | container&& | Container to copy data into. |
 | startIndex | int | Source start index. |
 | length | int | Number of elements to copy. |
 
-## Marshal::Copy(const container\&, int, void *, int) method
+## Marshal::Copy(const container&, int, void \*, int) method
 
 
-Implements public static void Copy(char[] source, int startIndex, IntPtr destination, int length).
+Implements public static void Copy(char\[\] source, int startIndex, IntPtr destination, int length).
 
 ```cpp
 template<typename container> static void System::Runtime::InteropServices::Marshal::Copy(const container &source, int startIndex, void *destination, int length)
@@ -76,15 +76,15 @@ template<typename container> static void System::Runtime::InteropServices::Marsh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const container\& | Source data pointer. |
+| source | const container& | Source data pointer. |
 | startIndex | int | Source start index. |
-| destination | void * | Destination data pointer. |
+| destination | void \* | Destination data pointer. |
 | length | int | Number of elements to copy. |
 
-## Marshal::Copy(const container\&, int, IntPtr, int) method
+## Marshal::Copy(const container&, int, IntPtr, int) method
 
 
-Implements public static void Copy(char[] source, int startIndex, IntPtr destination, int length).
+Implements public static void Copy(char\[\] source, int startIndex, IntPtr destination, int length).
 
 ```cpp
 template<typename container> static void System::Runtime::InteropServices::Marshal::Copy(const container &source, int startIndex, IntPtr destination, int length)
@@ -101,7 +101,7 @@ template<typename container> static void System::Runtime::InteropServices::Marsh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const container\& | Source data pointer. |
+| source | const container& | Source data pointer. |
 | startIndex | int | Source start index. |
 | destination | IntPtr | Destination data pointer. |
 | length | int | Number of elements to copy. |

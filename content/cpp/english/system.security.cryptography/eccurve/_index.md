@@ -19,9 +19,9 @@ class ECCurve
 
 | Method | Description |
 | --- | --- |
-| static [ECCurve](./) [CreateFromFriendlyName](./createfromfriendlyname/)(const [String](../../system/string/)\&) | Create a curve from the specified OID firendly name. |
-| static [ECCurve](./) [CreateFromOid](./createfromoid/)(const [SharedPtr](../../system/sharedptr/)\<[Oid](../oid/)\>\&) | Create a curve from the specified oid. |
-| static [ECCurve](./) [CreateFromValue](./createfromvalue/)(const [String](../../system/string/)\&) | Create a curve from the specified OID value. |
+| static [ECCurve](./) [CreateFromFriendlyName](./createfromfriendlyname/)(const [String](../../system/string/)&) | Create a curve from the specified OID firendly name. |
+| static [ECCurve](./) [CreateFromOid](./createfromoid/)(const [SharedPtr](../../system/sharedptr/)\<[Oid](../oid/)\>&) | Create a curve from the specified oid. |
+| static [ECCurve](./) [CreateFromValue](./createfromvalue/)(const [String](../../system/string/)&) | Create a curve from the specified OID value. |
 | **bool** [get_IsCharacteristic2](./get_ischaracteristic2/)() const |  |
 | **bool** [get_IsExplicit](./get_isexplicit/)() const |  |
 | **bool** [get_IsNamed](./get_isnamed/)() const |  |

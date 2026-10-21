@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.xml/xmlwritersettings/set_indentchars/
 ---
-## XmlWriterSettings::set_IndentChars(const String\&) method
+## XmlWriterSettings::set_IndentChars(const String&) method
 
 
 Sets the character string to use when indenting. This setting is used when the [XmlWriterSettings::set_Indent](../set_indent/) value is set to **true**.
@@ -20,7 +20,14 @@ void System::Xml::XmlWriterSettings::set_IndentChars(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **value** is **nullptr**. |
+
 
 ## See Also
 

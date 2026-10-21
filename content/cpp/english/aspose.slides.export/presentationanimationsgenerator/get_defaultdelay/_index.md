@@ -9,7 +9,7 @@ url: /aspose.slides.export/presentationanimationsgenerator/get_defaultdelay/
 ## PresentationAnimationsGenerator::get_DefaultDelay() const method
 
 
-Gets default delay time [ms].
+Gets default delay time \[ms\].
 
 ```cpp
 int32_t Aspose::Slides::Export::PresentationAnimationsGenerator::get_DefaultDelay() const

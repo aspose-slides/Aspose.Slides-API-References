@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.text.regularexpressions/match/addgroup/
 ---
-## Match::AddGroup(const GroupPtr\&) method
+## Match::AddGroup(const GroupPtr&) method
 
 
 Adds group into match.
@@ -20,7 +20,7 @@ void System::Text::RegularExpressions::Match::AddGroup(const GroupPtr &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [GroupPtr](../../groupptr/)\& | Item to add. |
+| item | const [GroupPtr](../../groupptr/)& | Item to add. |
 
 ## See Also
 

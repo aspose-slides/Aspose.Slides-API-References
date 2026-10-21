@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/is/
 ---
-## BoxedValue< ValueTuple< Args... > >::is() const method
+## BoxedValue\< ValueTuple\< Args... \> \>::is() const method
 
 
 Determines if the type of the boxed value represented by the current object is **V**.
@@ -28,6 +28,6 @@ True if the type of the boxed value represented by the current object is **V**, 
 
 ## See Also
 
-* Class [BoxedValue< ValueTuple< Args... > >](../)
+* Class [BoxedValue\< ValueTuple\< Args... \> \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

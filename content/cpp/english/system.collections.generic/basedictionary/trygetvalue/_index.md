@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.collections.generic/basedictionary/trygetvalue/
 ---
-## BaseDictionary::TryGetValue(const key_t\&, mapped_t\&) const method
+## BaseDictionary::TryGetValue(const key_t&, mapped_t&) const method
 
 
 Looks for keyed value and retreives it if found.
@@ -20,8 +20,8 @@ bool System::Collections::Generic::BaseDictionary<Map>::TryGetValue(const key_t 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to look for. |
-| value | mapped_t\& | Reference to store found value at. |
+| key | const key_t& | Key to look for. |
+| value | mapped_t& | Reference to store found value at. |
 
 ### Return Value
 

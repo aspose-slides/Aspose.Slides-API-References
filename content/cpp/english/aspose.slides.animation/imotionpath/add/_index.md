@@ -21,7 +21,7 @@ virtual System::SharedPtr<IMotionCmdPath> Aspose::Slides::Animation::IMotionPath
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [MotionCommandPathType](../../motioncommandpathtype/) | Type of command for animation motion effect behavior [MotionCommandPathType](../../motioncommandpathtype/) |
-| pts | [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\> | Points array [System::Drawing::PointF](../../../system.drawing/pointf/)[] |
+| pts | [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\> | Points array [System::Drawing::PointF](../../../system.drawing/pointf/)\[\] |
 | ptsType | [MotionPathPointsType](../../motionpathpointstype/) | Type of points in animation motion path [MotionPathPointsType](../../motionpathpointstype/) |
 | bRelativeCoord | **bool** | Indicates whether to use relative coordinates or not **bool** |
 

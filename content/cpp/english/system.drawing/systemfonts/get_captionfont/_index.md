@@ -16,6 +16,13 @@ static SharedPtr<Font> System::Drawing::SystemFonts::get_CaptionFont()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

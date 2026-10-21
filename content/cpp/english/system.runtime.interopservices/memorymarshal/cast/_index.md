@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.runtime.interopservices/memorymarshal/cast/
 ---
-## MemoryMarshal::Cast(const Span\<TFrom\>\&) method
+## MemoryMarshal::Cast(const Span\<TFrom\>&) method
 
 
 Casts a [Span](../../../system/span/) of one primitive type TFrom to another primitive type TTo.
@@ -27,7 +27,7 @@ template<typename TFrom,typename TTo> static Span<TTo> System::Runtime::InteropS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../../system/span/)\<TFrom\>\& | The span to cast. |
+| span | const [Span](../../../system/span/)\<TFrom\>& | The span to cast. |
 
 ### Return Value
 

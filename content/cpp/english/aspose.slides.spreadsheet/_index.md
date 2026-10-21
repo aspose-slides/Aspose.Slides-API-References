@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Spreadsheet"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Spreadsheet namespace"
 type: docs
 weight: 209
 url: /aspose.slides.spreadsheet/

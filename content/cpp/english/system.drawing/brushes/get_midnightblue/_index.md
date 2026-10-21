@@ -1,7 +1,7 @@
 ---
 title: get_MidnightBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF191970.
+description: "Returns the solid fill color whose hexadecimal value is #FF191970."
 type: docs
 weight: 1171
 url: /system.drawing/brushes/get_midnightblue/

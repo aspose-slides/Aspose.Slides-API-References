@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.threading/monitor/tryenter/
 ---
-## Monitor::TryEnter(const SharedPtr\<Object\>\&) method
+## Monitor::TryEnter(const SharedPtr\<Object\>&) method
 
 
 Attempts to acquire an exclusive lock on the specified object Not implemented.
@@ -16,7 +16,14 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj)
 ```
 
 
-## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, bool\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always. |
+
+
+## Monitor::TryEnter(const System::SharedPtr\<Object\>&, bool&) method
 
 
 Attempts to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.
@@ -25,7 +32,7 @@ Attempts to acquire an exclusive lock on the specified object, and atomically se
 static void System::Threading::Monitor::TryEnter(const System::SharedPtr<Object> &obj, bool &lockTaken)
 ```
 
-## Monitor::TryEnter(const SharedPtr\<Object\>\&, int32_t) method
+## Monitor::TryEnter(const SharedPtr\<Object\>&, int32_t) method
 
 
 Attempts, for the specified number of milliseconds, to acquire an exclusive lock on the specified object Not implemented.
@@ -35,7 +42,14 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj, i
 ```
 
 
-## Monitor::TryEnter(const SharedPtr\<Object\>\&, TimeSpan) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always. |
+
+
+## Monitor::TryEnter(const SharedPtr\<Object\>&, TimeSpan) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object Not implemented.
@@ -45,7 +59,14 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj, T
 ```
 
 
-## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, int32_t, bool\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always. |
+
+
+## Monitor::TryEnter(const System::SharedPtr\<Object\>&, int32_t, bool&) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.
@@ -54,7 +75,7 @@ Attempts, for the specified amount of time, to acquire an exclusive lock on the 
 static void System::Threading::Monitor::TryEnter(const System::SharedPtr<Object> &obj, int32_t millisecondsTimeout, bool &lockTaken)
 ```
 
-## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, TimeSpan, bool\&) method
+## Monitor::TryEnter(const System::SharedPtr\<Object\>&, TimeSpan, bool&) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.

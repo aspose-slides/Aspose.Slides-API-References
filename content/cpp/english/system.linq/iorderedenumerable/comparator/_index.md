@@ -1,7 +1,7 @@
 ---
 title: Comparator
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Comparator typedef
 type: docs
 weight: 40
 url: /system.linq/iorderedenumerable/comparator/

@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.xml/xmldocument/createprocessinginstruction/
 ---
-## XmlDocument::CreateProcessingInstruction(const String\&, const String\&) method
+## XmlDocument::CreateProcessingInstruction(const String&, const String&) method
 
 
 Creates an [XmlProcessingInstruction](../../xmlprocessinginstruction/) with the specified name and data.
@@ -20,8 +20,8 @@ virtual SharedPtr<XmlProcessingInstruction> System::Xml::XmlDocument::CreateProc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [String](../../../system/string/)\& | The name of the processing instruction. |
-| data | const [String](../../../system/string/)\& | The data for the processing instruction. |
+| target | const [String](../../../system/string/)& | The name of the processing instruction. |
+| data | const [String](../../../system/string/)& | The data for the processing instruction. |
 
 ### Return Value
 

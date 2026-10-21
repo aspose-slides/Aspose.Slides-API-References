@@ -34,7 +34,7 @@ template<typename InputType,typename OutputType> static ArrayPtr<OutputType> Sys
 
 A new array containing values of **OutputType** type equivalent to the values of **input_array**
 
-## Array::ConvertAll(ArrayPtr\<InputType\>, std::function\<OutputType(InputType)>) method
+## Array::ConvertAll(ArrayPtr\<InputType\>, std::function\<OutputType(InputType)\>) method
 
 
 Constructs a new [Array](../) object and fills it with elements of the specified array converted to **OutputType** type using the specified converter function object.
@@ -56,7 +56,7 @@ template<typename InputType,typename OutputType> static ArrayPtr<OutputType> Sys
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input_array | [ArrayPtr](../../arrayptr/)\<InputType\> | An [Array](../) object |
-| converter | std::function\<OutputType(InputType)> | A function object used to convert each element of the input array to equivalent values of **OutputType** type |
+| converter | std::function\<OutputType(InputType)\> | A function object used to convert each element of the input array to equivalent values of **OutputType** type |
 
 ### Return Value
 

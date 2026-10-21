@@ -1,7 +1,7 @@
 ---
 title: get_Orchid()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDA70D6.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDA70D6."
 type: docs
 weight: 1327
 url: /system.drawing/pens/get_orchid/

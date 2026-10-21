@@ -15,7 +15,7 @@ Constructor.
 System::ComponentModel::AsyncCompletedEventArgs::AsyncCompletedEventArgs()
 ```
 
-## AsyncCompletedEventArgs::AsyncCompletedEventArgs(const System::Exception\&, bool, const System::SharedPtr\<System::Object\>\&) constructor
+## AsyncCompletedEventArgs::AsyncCompletedEventArgs(const System::Exception&, bool, const System::SharedPtr\<System::Object\>&) constructor
 
 
 Initializes a new instance of the [System.ComponentModel.AsyncCompletedEventArgs](../) class.
@@ -29,9 +29,9 @@ System::ComponentModel::AsyncCompletedEventArgs::AsyncCompletedEventArgs(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| error | const [System::Exception](../../../system/exception/)\& | Any error that occurred during the asynchronous operation. |
+| error | const [System::Exception](../../../system/exception/)& | Any error that occurred during the asynchronous operation. |
 | canceled | **bool** | A value indicating whether the asynchronous operation was canceled. |
-| userState | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | The optional user-supplied state object passed to the [System.ComponentModel.BackgroundWorker.RunWorkerAsync](../../backgroundworker/runworkerasync/)([System.Object](../../../system/object/)) method. |
+| userState | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | The optional user-supplied state object passed to the [System.ComponentModel.BackgroundWorker.RunWorkerAsync](../../backgroundworker/runworkerasync/)([System.Object](../../../system/object/)) method. |
 
 ## See Also
 

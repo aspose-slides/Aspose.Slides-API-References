@@ -18,7 +18,7 @@ SharedPtr<XmlSchemaObject> System::Xml::Schema::Details_XmlSchemaException::get_
 
 ### Return Value
 
-A valid object instance represents a structural validation error in the XML [Schema](../../)[Object](../../../system/object/) Model (SOM).
+A valid object instance represents a structural validation error in the XML [Schema](../../) [Object](../../../system/object/) Model (SOM).
 
 ## See Also
 

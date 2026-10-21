@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/keyiterator/keyiterator/
 ---
-## KeyIterator::KeyIterator(typename Dict::map_t::const_iterator\&&, typename Dict::map_t::const_iterator\&&) constructor
+## KeyIterator::KeyIterator(typename Dict::map_t::const_iterator&&, typename Dict::map_t::const_iterator&&) constructor
 
 
 Constructor.
@@ -20,10 +20,10 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(typename Dict::map_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
-| end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
+| iterator | typename Dict::map_t::const_iterator&& | Iterator to hold. |
+| end | typename Dict::map_t::const_iterator&& | Iterator to the end of the container. |
 
-## KeyIterator::KeyIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
+## KeyIterator::KeyIterator(const typename Dict::map_t::const_iterator&, const typename Dict::map_t::const_iterator&) constructor
 
 
 Constructor.
@@ -37,10 +37,10 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(const typename Dict
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
-| end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
+| iterator | const typename Dict::map_t::const_iterator& | Iterator to hold. |
+| end | const typename Dict::map_t::const_iterator& | Iterator to the end of the container. |
 
-## KeyIterator::KeyIterator(KeyIterator\&&) constructor
+## KeyIterator::KeyIterator(KeyIterator&&) constructor
 
 
 Move constructor.
@@ -54,7 +54,7 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(KeyIterator &&other
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [KeyIterator](../)\&& | Iterator to move data from. |
+| other | [KeyIterator](../)&& | Iterator to move data from. |
 
 ## See Also
 

@@ -20,6 +20,14 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::CreateAttribute
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to create new attributes on the current element.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XPathNavigator](../) is not positioned on an element node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

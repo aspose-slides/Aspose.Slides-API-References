@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system/objectext/isboxedvalue/
 ---
-## ObjectExt::IsBoxedValue(const SmartPtr\<Object\>\&) method
+## ObjectExt::IsBoxedValue(const SmartPtr\<Object\>&) method
 
 
 Checks if object is a boxed value.
@@ -20,7 +20,7 @@ static bool System::ObjectExt::IsBoxedValue(const SmartPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to test for being boxed value. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to test for being boxed value. |
 
 ### Return Value
 

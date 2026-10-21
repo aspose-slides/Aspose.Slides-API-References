@@ -1,7 +1,7 @@
 ---
 title: X509VerificationFlags
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: X509VerificationFlags enum
 type: docs
 weight: 313
 url: /system.security.cryptography.x509certificates/x509verificationflags/

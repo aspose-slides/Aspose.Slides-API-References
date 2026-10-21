@@ -1,7 +1,7 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CellInvalidFormulaException typedef
 type: docs
 weight: 66
 url: /aspose.slides.spreadsheet/cellinvalidformulaexception/

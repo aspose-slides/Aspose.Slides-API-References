@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /system.globalization/cultureinfo/createspecificculture/
 ---
-## CultureInfo::CreateSpecificCulture(const String\&) method
+## CultureInfo::CreateSpecificCulture(const String&) method
 
 
 Creates culture by name.
@@ -20,7 +20,7 @@ static CultureInfoPtr System::Globalization::CultureInfo::CreateSpecificCulture(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Predefined culture name or existing culture object's name. |
+| name | const [String](../../../system/string/)& | Predefined culture name or existing culture object's name. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.xml.schema/xmlschemaset/remove/
 ---
-## XmlSchemaSet::Remove(const SharedPtr\<XmlSchema\>\&) method
+## XmlSchemaSet::Remove(const SharedPtr\<XmlSchema\>&) method
 
 
 Removes the specified XML [Schema](../../) definition language (XSD) schema from the [XmlSchemaSet](../).
@@ -20,11 +20,19 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Remove(const SharedPtr<X
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) object to remove from the [XmlSchemaSet](../). |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) object to remove from the [XmlSchemaSet](../). |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) object removed from the [XmlSchemaSet](../) or **nullptr** if the schema was not found in the [XmlSchemaSet](../).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | The schema is not a valid schema. |
+| ArgumentNullException | The [XmlSchema](../../xmlschema/) passed as a parameter is **nullptr**. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.collections.generic/list/binarysearch/
 ---
-## List::BinarySearch(const T\&) const method
+## List::BinarySearch(const T&) const method
 
 
 Looks for item in a sorted list.
@@ -20,13 +20,13 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 
 [Index](../../../system/index/) of the item in sorted list or complement of closest index.
 
-## List::BinarySearch(const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
+## List::BinarySearch(const T&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>&) const method
 
 
 Looks for item in a sorted list.
@@ -40,14 +40,14 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item, const Sha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) to use. |
+| item | const T& | Item to look for. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>& | [Comparer](../../comparer/) to use. |
 
 ### Return Value
 
 [Index](../../../system/index/) of the item in sorted list or complement of closest index.
 
-## List::BinarySearch(int, int, const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
+## List::BinarySearch(int, int, const T&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>&) const method
 
 
 Looks for item in a sorted list.
@@ -63,8 +63,8 @@ int System::Collections::Generic::List<T>::BinarySearch(int index, int count, co
 | --- | --- | --- |
 | index | int | [Range](../../../system/range/) beginning. |
 | count | int | [Range](../../../system/range/) size. |
-| item | const T\& | Item to look for. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) to use. |
+| item | const T& | Item to look for. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>& | [Comparer](../../comparer/) to use. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "RSAEncryptionPadding::Equals() method"
 type: docs
 weight: 118
 url: /system.security.cryptography/rsaencryptionpadding/equals/

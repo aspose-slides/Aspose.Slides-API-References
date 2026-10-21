@@ -15,7 +15,7 @@ Null key-value pair initializer.
 System::Collections::Generic::KeyValuePair<TKey, TValue>::KeyValuePair()
 ```
 
-## KeyValuePair::KeyValuePair(const TKey\&, const TValue\&) constructor
+## KeyValuePair::KeyValuePair(const TKey&, const TValue&) constructor
 
 
 Constructor.
@@ -29,10 +29,10 @@ System::Collections::Generic::KeyValuePair<TKey, TValue>::KeyValuePair(const TKe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key. |
-| value | const TValue\& | Value. |
+| key | const TKey& | Key. |
+| value | const TValue& | Value. |
 
-## KeyValuePair::KeyValuePair(const std::pair\<OtherK, OtherV\>\&) constructor
+## KeyValuePair::KeyValuePair(const std::pair\<OtherK, OtherV\>&) constructor
 
 
 Type conversion constructor.
@@ -53,7 +53,7 @@ template<typename OtherK,typename OtherV> System::Collections::Generic::KeyValue
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pair | const std::pair\<OtherK, OtherV\>\& | Pair value. |
+| pair | const std::pair\<OtherK, OtherV\>& | Pair value. |
 
 ## See Also
 

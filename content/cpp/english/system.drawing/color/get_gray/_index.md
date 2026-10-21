@@ -1,7 +1,7 @@
 ---
 title: get_Gray()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF808080.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF808080."
 type: docs
 weight: 937
 url: /system.drawing/color/get_gray/

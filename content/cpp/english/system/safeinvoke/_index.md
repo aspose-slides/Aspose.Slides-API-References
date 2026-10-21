@@ -6,7 +6,7 @@ type: docs
 weight: 2679
 url: /system/safeinvoke/
 ---
-## System::SafeInvoke(T0\&&, T1\&&) function
+## System::SafeInvoke(T0&&, T1&&) function
 
 
 Implementation of '?.' operator translation.
@@ -27,8 +27,8 @@ template<typename T0,typename T1> static auto System::SafeInvoke(T0 &&expr, T1 &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| expr | T0\&& | expression value. |
-| func | T1\&& | 'WhenTrue' expression bound to functor. |
+| expr | T0&& | expression value. |
+| func | T1&& | 'WhenTrue' expression bound to functor. |
 
 ### Return Value
 

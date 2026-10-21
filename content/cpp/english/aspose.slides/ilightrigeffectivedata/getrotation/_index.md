@@ -18,7 +18,7 @@ virtual System::ArrayPtr<float> Aspose::Slides::ILightRigEffectiveData::GetRotat
 
 ### Return Value
 
-Rotation coordinates as **float**[]
+Rotation coordinates as **float**\[\]
 
 ## See Also
 

@@ -15,7 +15,7 @@ Constructs a null-instance of [ExceptionWrapper](../) class that does not repres
 System::ExceptionWrapper<T>::ExceptionWrapper(std::nullptr_t)
 ```
 
-## ExceptionWrapper::ExceptionWrapper(const ExceptionPtr\&) constructor
+## ExceptionWrapper::ExceptionWrapper(const ExceptionPtr&) constructor
 
 
 Constructs a instance of [ExceptionWrapper](../) class that contains passed pointer.
@@ -29,9 +29,9 @@ System::ExceptionWrapper<T>::ExceptionWrapper(const ExceptionPtr &ptr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | const [ExceptionPtr](../../exceptionptr/)\& | Smart pointer to the instance of Exception class. |
+| ptr | const [ExceptionPtr](../../exceptionptr/)& | Smart pointer to the instance of Exception class. |
 
-## ExceptionWrapper::ExceptionWrapper(const ExceptionWrapper\&) constructor
+## ExceptionWrapper::ExceptionWrapper(const ExceptionWrapper&) constructor
 
 
 Copy constructor.
@@ -45,9 +45,9 @@ System::ExceptionWrapper<T>::ExceptionWrapper(const ExceptionWrapper &other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [ExceptionWrapper](../)\& | Other instance of wrapper class that must be copied. |
+| other | const [ExceptionWrapper](../)& | Other instance of wrapper class that must be copied. |
 
-## ExceptionWrapper::ExceptionWrapper(ExceptionWrapper\&&) constructor
+## ExceptionWrapper::ExceptionWrapper(ExceptionWrapper&&) constructor
 
 
 Move constructor.
@@ -61,9 +61,9 @@ System::ExceptionWrapper<T>::ExceptionWrapper(ExceptionWrapper &&other) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [ExceptionWrapper](../)\&& | Other instance of wrapper class that must be moved. |
+| other | [ExceptionWrapper](../)&& | Other instance of wrapper class that must be moved. |
 
-## ExceptionWrapper::ExceptionWrapper(Args\&&...) constructor
+## ExceptionWrapper::ExceptionWrapper(Args&&...) constructor
 
 
 Constructor that forwards parameters to the Exception class constructors and creates smart pointer that holds new Exception class instance.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/collectionasserthelper/collectionstomsg/
 ---
-## CollectionAssertHelper::CollectionsToMsg(const System::String\&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T1\>\>\&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T2\>\>\&) method
+## CollectionAssertHelper::CollectionsToMsg(const System::String&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T1\>\>&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T2\>\>&) method
 
 
 Serializes two collections for message representation.
@@ -27,9 +27,9 @@ template<typename T1,typename T2> static System::String System::CollectionAssert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extra_msg | const [System::String](../../string/)\& | A custom string which is inserted before the expected value in the resulting message |
-| expected | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T1\>\>\& | Expected collection. |
-| actual | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T2\>\>\& | Actual collection. |
+| extra_msg | const [System::String](../../string/)& | A custom string which is inserted before the expected value in the resulting message |
+| expected | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T1\>\>& | Expected collection. |
+| actual | const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T2\>\>& | Actual collection. |
 
 ### Return Value
 

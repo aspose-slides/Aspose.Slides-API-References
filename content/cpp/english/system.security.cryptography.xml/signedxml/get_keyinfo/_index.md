@@ -1,7 +1,7 @@
 ---
 title: get_KeyInfo()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::get_KeyInfo() method"
 type: docs
 weight: 105
 url: /system.security.cryptography.xml/signedxml/get_keyinfo/

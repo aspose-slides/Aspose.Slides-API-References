@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.globalization/numberformatinfo/set_positivesign/
 ---
-## NumberFormatInfo::set_PositiveSign(const String\&) method
+## NumberFormatInfo::set_PositiveSign(const String&) method
 
 
 Sets positive sign.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PositiveSign(const String &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Positive sign. |
+| value | const [String](../../../system/string/)& | Positive sign. |
 
 ## See Also
 

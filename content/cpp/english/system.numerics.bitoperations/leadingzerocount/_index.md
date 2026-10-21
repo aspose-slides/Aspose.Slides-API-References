@@ -1,7 +1,7 @@
 ---
 title: LeadingZeroCount()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Numerics::BitOperations::LeadingZeroCount() function"
 type: docs
 weight: 1
 url: /system.numerics.bitoperations/leadingzerocount/

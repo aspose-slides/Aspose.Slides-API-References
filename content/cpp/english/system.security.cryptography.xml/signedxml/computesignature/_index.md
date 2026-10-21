@@ -1,7 +1,7 @@
 ---
 title: ComputeSignature()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::ComputeSignature() method"
 type: docs
 weight: 222
 url: /system.security.cryptography.xml/signedxml/computesignature/

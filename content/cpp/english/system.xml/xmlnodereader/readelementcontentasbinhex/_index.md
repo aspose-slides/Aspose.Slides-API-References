@@ -28,6 +28,17 @@ int32_t System::Xml::XmlNodeReader::ReadElementContentAsBinHex(ArrayPtr<uint8_t>
 
 The number of bytes written to the buffer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **buffer** value is **nullptr**. |
+| InvalidOperationException | The current node is not an element node. |
+| ArgumentOutOfRangeException | The **index** into the buffer or **index** + **count** is larger than the allocated buffer size. |
+| XmlException | The element contains mixed content. |
+| FormatException | The content cannot be converted to the requested type. |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

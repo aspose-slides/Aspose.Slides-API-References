@@ -1,7 +1,7 @@
 ---
 title: EncoderFallbackException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: EncoderFallbackException typedef
 type: docs
 weight: 417
 url: /system.text/encoderfallbackexception/

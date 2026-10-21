@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading/monitor/enter/
 ---
-## Monitor::Enter(const SharedPtr\<Object\>\&) method
+## Monitor::Enter(const SharedPtr\<Object\>&) method
 
 
 Acquires an exclusive lock on a specified object.
@@ -20,9 +20,16 @@ static void System::Threading::Monitor::Enter(const SharedPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object on which to acquire the monitor lock. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object on which to acquire the monitor lock. |
 
-## Monitor::Enter(const System::SharedPtr\<Object\>\&, bool\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The obj parameter is null. |
+
+
+## Monitor::Enter(const System::SharedPtr\<Object\>&, bool&) method
 
 
 Acquires an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.

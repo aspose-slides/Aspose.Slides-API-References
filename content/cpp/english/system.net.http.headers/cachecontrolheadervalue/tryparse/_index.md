@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system.net.http.headers/cachecontrolheadervalue/tryparse/
 ---
-## CacheControlHeaderValue::TryParse(String, System::SharedPtr\<CacheControlHeaderValue\>\&) method
+## CacheControlHeaderValue::TryParse(String, System::SharedPtr\<CacheControlHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [CacheControlHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::CacheControlHeaderValue::TryParse(String
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

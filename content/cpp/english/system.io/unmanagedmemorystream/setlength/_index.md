@@ -16,6 +16,13 @@ virtual void System::IO::UnmanagedMemoryStream::SetLength(int64_t value) overrid
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [UnmanagedMemoryStream](../)

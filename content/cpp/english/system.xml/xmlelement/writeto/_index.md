@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.xml/xmlelement/writeto/
 ---
-## XmlElement::WriteTo(const SharedPtr\<XmlWriter\>\&) method
+## XmlElement::WriteTo(const SharedPtr\<XmlWriter\>&) method
 
 
 Saves the current node to the specified [XmlWriter](../../xmlwriter/).
@@ -20,7 +20,7 @@ void System::Xml::XmlElement::WriteTo(const SharedPtr<XmlWriter> &w) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>& | The [XmlWriter](../../xmlwriter/) to which you want to save. |
 
 ## See Also
 

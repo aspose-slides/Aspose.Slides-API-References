@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartdatacell/set_presetnumberformat/
 ## ChartDataCell::set_PresetNumberFormat(uint8_t) method
 
 
-Sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Write **uint8_t**.
+Sets the built-in display format of numbers and dates. Preset number must be in \[0..22\] or \[37..49\]. Write **uint8_t**.
 
 ```cpp
 void Aspose::Slides::Charts::ChartDataCell::set_PresetNumberFormat(uint8_t value) override

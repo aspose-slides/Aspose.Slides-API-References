@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.xml/xmlconvert/tosbyte/
 ---
-## XmlConvert::ToSByte(const String\&) method
+## XmlConvert::ToSByte(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [SByte](../../../system/sbyte/) equivalent.
@@ -20,11 +20,20 @@ static int8_t System::Xml::XmlConvert::ToSByte(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string to convert. |
+| s | const [String](../../../system/string/)& | The string to convert. |
 
 ### Return Value
 
 An **[SByte](../../../system/sbyte/)** equivalent of the string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **s** is **nullptr**. |
+| FormatException | **s** is not in the correct format. |
+| OverflowException | **s** represents a number less than [SByte::MinValue](../../../system/sbyte/minvalue/) or greater than [SByte::MaxValue](../../../system/sbyte/maxvalue/). |
+
 
 ## See Also
 

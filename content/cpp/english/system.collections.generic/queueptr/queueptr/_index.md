@@ -15,7 +15,7 @@ Constructs null pointer.
 System::Collections::Generic::QueuePtr<T>::QueuePtr()
 ```
 
-## QueuePtr::QueuePtr(const SharedPtr\<Queue\<T\>\>\&) constructor
+## QueuePtr::QueuePtr(const SharedPtr\<Queue\<T\>\>&) constructor
 
 
 Constructs pointer to specific queue.
@@ -29,7 +29,7 @@ System::Collections::Generic::QueuePtr<T>::QueuePtr(const SharedPtr<Queue<T>> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Queue](../../queue/)\<T\>\>\& | [Queue](../../queue/) to point to. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Queue](../../queue/)\<T\>\>& | [Queue](../../queue/) to point to. |
 
 ## See Also
 

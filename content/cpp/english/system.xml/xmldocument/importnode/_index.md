@@ -27,6 +27,13 @@ virtual SharedPtr<XmlNode> System::Xml::XmlDocument::ImportNode(SharedPtr<XmlNod
 
 The imported [XmlNode](../../xmlnode/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Calling this method on a node type which cannot be imported. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

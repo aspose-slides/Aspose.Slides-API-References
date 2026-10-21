@@ -1,7 +1,7 @@
 ---
 title: get_Plum()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFDDA0DD.
+description: "Returns the solid fill color whose hexadecimal value is #FFDDA0DD."
 type: docs
 weight: 1431
 url: /system.drawing/brushes/get_plum/

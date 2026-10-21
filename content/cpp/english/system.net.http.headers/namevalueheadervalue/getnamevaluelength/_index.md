@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.net.http.headers/namevalueheadervalue/getnamevaluelength/
 ---
-## NameValueHeaderValue::GetNameValueLength(String, int32_t, System::SharedPtr\<NameValueHeaderValue\>\&) method
+## NameValueHeaderValue::GetNameValueLength(String, int32_t, System::SharedPtr\<NameValueHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [NameValueHeaderValue](../) class.
@@ -22,13 +22,13 @@ static int32_t System::Net::Http::Headers::NameValueHeaderValue::GetNameValueLen
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 
 Returns the length of a parsed substring, otherwise 0.
 
-## NameValueHeaderValue::GetNameValueLength(String, int32_t, HeaderFunc\<System::SharedPtr\<NameValueHeaderValue\>\>, System::SharedPtr\<NameValueHeaderValue\>\&) method
+## NameValueHeaderValue::GetNameValueLength(String, int32_t, HeaderFunc\<System::SharedPtr\<NameValueHeaderValue\>\>, System::SharedPtr\<NameValueHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [NameValueHeaderValue](../) class.
@@ -45,7 +45,7 @@ static int32_t System::Net::Http::Headers::NameValueHeaderValue::GetNameValueLen
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
 | nameValueCreator | [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\> | A function that is used to create new instances of the [NameValueHeaderValue](../) class. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

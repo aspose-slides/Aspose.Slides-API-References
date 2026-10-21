@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::Equals() method"
 type: docs
 weight: 66
 url: /system.runtime.interopservices/osplatform/equals/

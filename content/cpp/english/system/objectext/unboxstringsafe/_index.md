@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/objectext/unboxstringsafe/
 ---
-## ObjectExt::UnboxStringSafe(const SmartPtr\<Object\>\&) method
+## ObjectExt::UnboxStringSafe(const SmartPtr\<Object\>&) method
 
 
 Unboxes string from boxed value.
@@ -20,11 +20,18 @@ static String System::ObjectExt::UnboxStringSafe(const SmartPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | Boxed string value. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | Boxed string value. |
 
 ### Return Value
 
 If **obj** is a boxed string, returns unboxed value, otherwise returns empty string.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| Nothing. |  |
+
 
 ## See Also
 

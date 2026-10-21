@@ -20,6 +20,14 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::InsertBefore()
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to create a new sibling node before the currently selected node.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The position of the [XPathNavigator](../) does not allow a new sibling node to be inserted before the current node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## XPathNavigator::InsertBefore(String) method
 
 
@@ -35,6 +43,16 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(String newSibling)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newSibling | [String](../../../system/string/) | The XML data string for the new sibling node. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The XML string parameter is **nullptr**. |
+| InvalidOperationException | The position of the [XPathNavigator](../) does not allow a new sibling node to be inserted before the current node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| XmlException | The XML string parameter is not well-formed. |
+
 
 ## XPathNavigator::InsertBefore(SharedPtr\<XmlReader\>) method
 
@@ -52,6 +70,17 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(SharedPtr<XmlReade
 | --- | --- | --- |
 | newSibling | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\> | An [XmlReader](../../../system.xml/xmlreader/) object positioned on the XML data for the new sibling node. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XmlReader](../../../system.xml/xmlreader/) object is in an error state or closed. |
+| ArgumentNullException | The [XmlReader](../../../system.xml/xmlreader/) object parameter is **nullptr**. |
+| InvalidOperationException | The position of the [XPathNavigator](../) does not allow a new sibling node to be inserted before the current node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| XmlException | The XML contents of the [XmlReader](../../../system.xml/xmlreader/) object parameter is not well-formed. |
+
+
 ## XPathNavigator::InsertBefore(SharedPtr\<XPathNavigator\>) method
 
 
@@ -67,6 +96,15 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(SharedPtr<XPathNav
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newSibling | [SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\> | An [XPathNavigator](../) object positioned on the node to add as the new sibling node. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XPathNavigator](../) object parameter is **nullptr**. |
+| InvalidOperationException | The position of the [XPathNavigator](../) does not allow a new sibling node to be inserted before the current node. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
 
 ## See Also
 

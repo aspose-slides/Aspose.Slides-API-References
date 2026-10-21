@@ -36,6 +36,13 @@ bool System::Drawing::Graphics::IsVisible(PointF point)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::IsVisible(Rectangle) method
 
 
@@ -44,6 +51,13 @@ NOT IMPLEMENTED.
 ```cpp
 bool System::Drawing::Graphics::IsVisible(Rectangle rect)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## Graphics::IsVisible(RectangleF) method
@@ -56,6 +70,13 @@ bool System::Drawing::Graphics::IsVisible(RectangleF rect)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::IsVisible(int32_t, int32_t) method
 
 
@@ -64,6 +85,13 @@ NOT IMPLEMENTED.
 ```cpp
 bool System::Drawing::Graphics::IsVisible(int32_t x, int32_t y)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## Graphics::IsVisible(float, float) method
@@ -76,6 +104,13 @@ bool System::Drawing::Graphics::IsVisible(float x, float y)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::IsVisible(float, float, float, float) method
 
 
@@ -86,6 +121,13 @@ bool System::Drawing::Graphics::IsVisible(float x, float y, float width, float h
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::IsVisible(int32_t, int32_t, int32_t, int32_t) method
 
 
@@ -94,6 +136,13 @@ NOT IMPLEMENTED.
 ```cpp
 bool System::Drawing::Graphics::IsVisible(int32_t x, int32_t y, int32_t width, int32_t height)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

@@ -3,10 +3,10 @@ title: ImplementsInterface< T, IComparable< T > >
 second_title: Aspose.Slides for C++ API Reference
 description: Template predicate that checks if boxed object should implement IComparable interface by itself.
 type: docs
-weight: 53
+weight: 79
 url: /system.boxedvaluedetail/implementsinterface_tmpl_t__icomparable_tmpl_t__end_tmpl__end_tmpl/
 ---
-## ImplementsInterface< T, IComparable< T > > struct
+## ImplementsInterface\< T, IComparable\< T \> \> struct
 
 
 Template predicate that checks if boxed object should implement [IComparable](../../system/icomparable/) interface by itself.

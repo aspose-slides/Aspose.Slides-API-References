@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/int32/parse/
 ---
-## Int32::Parse(const String\&) method
+## Int32::Parse(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 32-bit signed integer.
@@ -20,13 +20,13 @@ static int32_t System::Int32::Parse(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
+| value | const [String](../../string/)& | The string to convert. |
 
 ### Return Value
 
 The 32-bit signed integer equal to the number represented by the specified string.
 
-## Int32::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Int32::Parse(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 32-bit signed integer using the provided formatting information.
@@ -40,14 +40,14 @@ static int32_t System::Int32::Parse(const String &value, const SharedPtr<IFormat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information. |
+| value | const [String](../../string/)& | The string to convert. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information. |
 
 ### Return Value
 
 The 32-bit signed integer equal to the number represented by the specified string.
 
-## Int32::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Int32::Parse(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -56,7 +56,7 @@ The 32-bit signed integer equal to the number represented by the specified strin
 static int32_t System::Int32::Parse(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Int32::Parse(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Int32::Parse(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -65,7 +65,7 @@ static int32_t System::Int32::Parse(const String &value, const SharedPtr<Globali
 static int32_t System::Int32::Parse(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Int32::Parse(const String\&, std::nullptr_t) method
+## Int32::Parse(const String&, std::nullptr_t) method
 
 
 
@@ -74,7 +74,7 @@ static int32_t System::Int32::Parse(const String &value, const SharedPtr<Globali
 static int32_t System::Int32::Parse(const String &value, std::nullptr_t)
 ```
 
-## Int32::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Int32::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 32-bit signed integer using the provided formatting information and number style.
@@ -88,15 +88,15 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
+| value | const [String](../../string/)& | The string to convert. |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information. |
 
 ### Return Value
 
 The 32-bit signed integer equal to the number represented by the specified string.
 
-## Int32::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Int32::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -105,7 +105,7 @@ The 32-bit signed integer equal to the number represented by the specified strin
 static int32_t System::Int32::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Int32::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Int32::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -114,7 +114,7 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 static int32_t System::Int32::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Int32::Parse(const String\&, Globalization::NumberStyles, std::nullptr_t) method
+## Int32::Parse(const String&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -123,7 +123,7 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 static int32_t System::Int32::Parse(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
-## Int32::Parse(const ReadOnlySpan\<char16_t\>\&) method
+## Int32::Parse(const ReadOnlySpan\<char16_t\>&) method
 
 
 
@@ -132,7 +132,7 @@ static int32_t System::Int32::Parse(const String &value, Globalization::NumberSt
 static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span)
 ```
 
-## Int32::Parse(const ReadOnlySpan\<char16_t\>\&, std::nullptr_t) method
+## Int32::Parse(const ReadOnlySpan\<char16_t\>&, std::nullptr_t) method
 
 
 
@@ -141,7 +141,7 @@ static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span)
 static int32_t System::Int32::Parse(const ReadOnlySpan<char16_t> &span, std::nullptr_t)
 ```
 
-## Int32::Parse(const ReadOnlySpan\<char16_t\>\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Int32::Parse(const ReadOnlySpan\<char16_t\>&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 

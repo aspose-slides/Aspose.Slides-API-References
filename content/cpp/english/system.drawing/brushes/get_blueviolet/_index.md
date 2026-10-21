@@ -1,7 +1,7 @@
 ---
 title: get_BlueViolet()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF8A2BE2.
+description: "Returns the solid fill color whose hexadecimal value is #FF8A2BE2."
 type: docs
 weight: 131
 url: /system.drawing/brushes/get_blueviolet/

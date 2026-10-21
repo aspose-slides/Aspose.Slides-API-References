@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.objectmodel/collection/remove/
 ---
-## Collection::Remove(const T\&) method
+## Collection::Remove(const T&) method
 
 
 Removes specific item.
@@ -20,7 +20,7 @@ bool System::Collections::ObjectModel::Collection<T>::Remove(const T &item) over
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to remove. |
+| item | const T& | Item to remove. |
 
 ### Return Value
 

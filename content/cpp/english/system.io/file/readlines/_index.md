@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system.io/file/readlines/
 ---
-## File::ReadLines(const String\&, const EncodingPtr\&) method
+## File::ReadLines(const String&, const EncodingPtr&) method
 
 
 Reads the content of the specified text file line by line using the specified character encoding and returns enumerable collection of strings each of which represents a single line of the file's content.
@@ -20,8 +20,8 @@ static SharedPtr<Collections::Generic::IEnumerable<String>> System::IO::File::Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to read |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The path of the file to read |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ### Return Value
 

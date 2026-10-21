@@ -1,7 +1,7 @@
 ---
 title: EnumerableExt
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: EnumerableExt class
 type: docs
 weight: 183
 url: /system.collections.generic/enumerableext/

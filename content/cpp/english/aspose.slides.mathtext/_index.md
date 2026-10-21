@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::MathText"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::MathText namespace"
 type: docs
 weight: 157
 url: /aspose.slides.mathtext/
@@ -15,7 +15,7 @@ url: /aspose.slides.mathtext/
 | --- | --- |
 | [BaseScript](./basescript/) | Math script |
 | [IHasControlCharacterProperties](./ihascontrolcharacterproperties/) | [IMathElement](./imathelement/) with [Control](../aspose.slides/control/) Character Properties |
-| [IMathAccent](./imathaccent/) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: \\uD835\\uDC4E\\u0301 |
+| [IMathAccent](./imathaccent/) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: 𝑎́ |
 | [IMathAccentFactory](./imathaccentfactory/) | Allows to create a math accent |
 | [IMathArray](./imatharray/) | Specifies a vertical array of equations or any mathematical objects |
 | [IMathArrayFactory](./imatharrayfactory/) | Allows to create a math array |
@@ -26,9 +26,9 @@ url: /aspose.slides.mathtext/
 | [IMathBlockFactory](./imathblockfactory/) | Allows to create a math block |
 | [IMathBorderBox](./imathborderbox/) | Draws a rectangular or some other border around the [IMathElement](./imathelement/). |
 | [IMathBorderBoxFactory](./imathborderboxfactory/) | Allows to create a math border box |
-| [IMathBox](./imathbox/) | Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the \"==\" operator should be boxed to prevent line breaks. |
+| [IMathBox](./imathbox/) | Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the "==" operator should be boxed to prevent line breaks. |
 | [IMathBoxFactory](./imathboxfactory/) | Allows to create a math box |
-| [IMathDelimiter](./imathdelimiter/) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (\\uD835\\uDC652); [\\uD835\\uDC652|\\uD835\\uDC662] |
+| [IMathDelimiter](./imathdelimiter/) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (𝑥2); \[𝑥2\|𝑦2\] |
 | [IMathDelimiterFactory](./imathdelimiterfactory/) | Allows to create a math delimiter |
 | [IMathElement](./imathelement/) | Base interface of any mathematical element: fraction, mathmatical text, function, expression with multiple elements etc |
 | [IMathElementCollection](./imathelementcollection/) | Represents a collection of mathematical elements (MathElement). |
@@ -50,9 +50,9 @@ url: /aspose.slides.mathtext/
 | [IMathNaryOperatorProperties](./imathnaryoperatorproperties/) | Specifies properties of [IMathNaryOperator](./imathnaryoperator/) |
 | [IMathParagraph](./imathparagraph/) | Mathematical paragraph that is a container for mathematical blocks ([IMathBlock](./imathblock/)) |
 | [IMathParagraphFactory](./imathparagraphfactory/) | Allows to create a math paragraph |
-| [IMathPhantom](./imathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
+| [IMathPhantom](./imathphantom/) | Represents a phantom math object (\<m:phant\>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [IMathPortion](./imathportion/) | Represents a portion with mathematical context inside. |
-| [IMathRadical](./imathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is \\u221A\\uD835\\uDC65. |
+| [IMathRadical](./imathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is √𝑥. |
 | [IMathRadicalFactory](./imathradicalfactory/) | Allows to create math radical |
 | [IMathRightSubSuperscriptElement](./imathrightsubsuperscriptelement/) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base. |
 | [IMathRightSubSuperscriptElementFactory](./imathrightsubsuperscriptelementfactory/) | Allows to create [IMathRightSubSuperscriptElementFactory](./imathrightsubsuperscriptelementfactory/) |
@@ -60,7 +60,7 @@ url: /aspose.slides.mathtext/
 | [IMathSubscriptElementFactory](./imathsubscriptelementfactory/) | Allows to create [IMathSubscriptElement](./imathsubscriptelement/) |
 | [IMathSuperscriptElement](./imathsuperscriptelement/) | Specifies the superscript object, which consists of a base and a reduced-size superscript placed above and to the right |
 | [IMathSuperscriptElementFactory](./imathsuperscriptelementfactory/) | Allows to create [IMathSuperscriptElement](./imathsuperscriptelement/) |
-| [MathAccent](./mathaccent/) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: \\uD835\\uDC4E\\u0301 |
+| [MathAccent](./mathaccent/) | Specifies the accent function, consisting of a base and a combining diacritical mark Example: 𝑎́ |
 | [MathAccentFactory](./mathaccentfactory/) | Allows to create a math accent |
 | [MathArray](./matharray/) | Specifies a vertical array of equations or any mathematical objects |
 | [MathArrayFactory](./matharrayfactory/) | Allows to create a math array |
@@ -70,9 +70,9 @@ url: /aspose.slides.mathtext/
 | [MathBlockFactory](./mathblockfactory/) | Allows to create a math block |
 | [MathBorderBox](./mathborderbox/) | Draws a rectangular or some other border around the [IMathElement](./imathelement/). |
 | [MathBorderBoxFactory](./mathborderboxfactory/) | Allows to create a math border box |
-| [MathBox](./mathbox/) | Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the \"==\" operator should be boxed to prevent line breaks. |
+| [MathBox](./mathbox/) | Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the "==" operator should be boxed to prevent line breaks. |
 | [MathBoxFactory](./mathboxfactory/) | Allows to create a math box |
-| [MathDelimiter](./mathdelimiter/) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (\\uD835\\uDC652); [\\uD835\\uDC652|\\uD835\\uDC662] |
+| [MathDelimiter](./mathdelimiter/) | Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (𝑥2); \[𝑥2\|𝑦2\] |
 | [MathDelimiterFactory](./mathdelimiterfactory/) | Allows to create a math delimiter |
 | [MathElementBase](./mathelementbase/) | Base class for [IMathElement](./imathelement/) with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be [IMathElement](./imathelement/). |
 | [MathematicalText](./mathematicaltext/) | Mathematical text |
@@ -92,9 +92,9 @@ url: /aspose.slides.mathtext/
 | [MathNaryOperatorFactory](./mathnaryoperatorfactory/) | Allows to create [IMathNaryOperator](./imathnaryoperator/) |
 | [MathParagraph](./mathparagraph/) | Mathematical paragraph that is a container for mathematical blocks ([IMathBlock](./imathblock/)) |
 | [MathParagraphFactory](./mathparagraphfactory/) | Allows to create a math paragraph |
-| [MathPhantom](./mathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
+| [MathPhantom](./mathphantom/) | Represents a phantom math object (\<m:phant\>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [MathPortion](./mathportion/) | Represents a portion with mathematical context inside. |
-| [MathRadical](./mathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is \\u221A\\uD835\\uDC65. |
+| [MathRadical](./mathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is √𝑥. |
 | [MathRadicalFactory](./mathradicalfactory/) | Allows to create math radical |
 | [MathRightSubSuperscriptElement](./mathrightsubsuperscriptelement/) | Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the right of the base. |
 | [MathRightSubSuperscriptElementFactory](./mathrightsubsuperscriptelementfactory/) | Allows to create [IMathRightSubSuperscriptElementFactory](./imathrightsubsuperscriptelementfactory/) |

@@ -1,7 +1,7 @@
 ---
 title: SerializationException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SerializationException typedef
 type: docs
 weight: 79
 url: /system.runtime.serialization/serializationexception/

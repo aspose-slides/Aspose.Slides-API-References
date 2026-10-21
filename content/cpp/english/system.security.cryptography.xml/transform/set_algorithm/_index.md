@@ -1,7 +1,7 @@
 ---
 title: set_Algorithm()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::set_Algorithm() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/transform/set_algorithm/

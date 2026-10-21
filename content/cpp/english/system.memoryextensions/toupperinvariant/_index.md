@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /system.memoryextensions/toupperinvariant/
 ---
-## System::MemoryExtensions::ToUpperInvariant(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&) function
+## System::MemoryExtensions::ToUpperInvariant(const ReadOnlySpan\<char16_t\>&, Span\<char16_t\>&) function
 
 
 Converts characters to uppercase using invariant culture.
@@ -20,8 +20,8 @@ int32_t System::MemoryExtensions::ToUpperInvariant(const ReadOnlySpan<char16_t> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The source character span to convert |
-| destination | [Span](../../system/span/)\<char16_t\>\& | The destination span to store converted characters |
+| source | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The source character span to convert |
+| destination | [Span](../../system/span/)\<char16_t\>& | The destination span to store converted characters |
 
 ### Return Value
 

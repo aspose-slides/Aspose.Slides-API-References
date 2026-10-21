@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system/array/indexof/
 ---
-## Array::IndexOf(const T\&) const method
+## Array::IndexOf(const T&) const method
 
 
 Determines the index of the first occurrence of the specified item in the array.
@@ -20,13 +20,13 @@ virtual int System::Array<T>::IndexOf(const T &item) const override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item index of which is to be determined |
+| item | const T& | Item index of which is to be determined |
 
 ### Return Value
 
 [Index](../../index/) of the first occurrence of the specified item if the item is found, otherwise -1
 
-## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>&, const ValueType&) method
 
 
 Determines the index of the first occurrence of specified item in the array.
@@ -47,14 +47,14 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>\& | [Array](../) to search the specified item in |
-| value | const [ValueType](../valuetype/)\& | Item index of which is to be determined |
+| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>& | [Array](../) to search the specified item in |
+| value | const [ValueType](../valuetype/)& | Item index of which is to be determined |
 
 ### Return Value
 
 [Index](../../index/) of the first occurrence specified item if the item is found, otherwise -1
 
-## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>&, const ValueType&, int) method
 
 
 Determines the index of the first occurrence of the specified item in the array starting from the specified index.
@@ -75,15 +75,15 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>\& | [Array](../) to search the specified item in |
-| value | const [ValueType](../valuetype/)\& | Item index of which is to be determined |
+| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>& | [Array](../) to search the specified item in |
+| value | const [ValueType](../valuetype/)& | Item index of which is to be determined |
 | startIndex | int | [Index](../../index/) at which the search is started |
 
 ### Return Value
 
 [Index](../../index/) of the first occurrence of the specified item if the item is found, otherwise -1
 
-## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int, int) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>&, const ValueType&, int, int) method
 
 
 Determines the index of the first occurrence of the specified item in a range of items of the array specified by the start index and the number of elements in the range.
@@ -104,8 +104,8 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>\& | [Array](../) to search the specified item in |
-| value | const [ValueType](../valuetype/)\& | Item index of which is to be determined |
+| arr | const [ArrayPtr](../../arrayptr/)\<ArrayType\>& | [Array](../) to search the specified item in |
+| value | const [ValueType](../valuetype/)& | Item index of which is to be determined |
 | startIndex | int | [Index](../../index/) at which the search is started |
 | count | int | Number of elements of the range to search in |
 

@@ -16,6 +16,13 @@ void Aspose::Slides::Charts::ChartCategory::Remove() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if category is already removed from chart. |
+
+
 ## See Also
 
 * Class [ChartCategory](../)

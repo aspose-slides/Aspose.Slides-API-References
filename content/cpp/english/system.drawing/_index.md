@@ -1,7 +1,7 @@
 ---
 title: "System::Drawing"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Drawing namespace"
 type: docs
 weight: 495
 url: /system.drawing/
@@ -23,7 +23,7 @@ url: /system.drawing/
 | [FontConverter](./fontconverter/) | Converts [Font](./font/) objects from one data type to another. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [FontFamily](./fontfamily/) | Represents a group of type faces that share a similar basic design. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Graphics](./graphics/) | Represents a drawing surface. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
-| [Icon](./icon/) | Represents a [Windows](../system.windows/) icon. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [Icon](./icon/) | Represents a Windows icon. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Image](./image/) | A base class for [System::Drawing::Bitmap](./bitmap/) and System::Drawing::Metafile classes providing basic functionality. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [ImageConverter](./imageconverter/) | Converts [Image](./image/) objects from one data type to another. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [ImageFormatConverter](./imageformatconverter/) | Converts ImageFormat objects from one data type to another. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
@@ -38,23 +38,23 @@ url: /system.drawing/
 | [SizeF](./sizef/) | Represents a pair of single-precision floating point values that represent width and height of an image. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](../system/smartptr/) class to manage objects of this type. |
 | [SolidBrush](./solidbrush/) | Represents single-color brush. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [StringFormat](./stringformat/) | Encapsulates text layout information, display manipulations and OpenType features. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
-| [SystemColors](./systemcolors/) | Class that provide a set of precreated [Color](./color/) objects that represent colors of [Windows](../system.windows/) display elements. This is a static type with no instance services. You should never create instances of it by any means. |
-| [SystemFonts](./systemfonts/) | Provides a set of pre-created [Font](./font/) objects that represent fonts used to display text in [Windows](../system.windows/) display elements. This is a static type with no instance services. You should never create instances of it by any means. |
+| [SystemColors](./systemcolors/) | Class that provide a set of precreated [Color](./color/) objects that represent colors of Windows display elements. This is a static type with no instance services. You should never create instances of it by any means. |
+| [SystemFonts](./systemfonts/) | Provides a set of pre-created [Font](./font/) objects that represent fonts used to display text in Windows display elements. This is a static type with no instance services. You should never create instances of it by any means. |
 | [TextureBrush](./texturebrush/) | Represents a brush that uses an image to fill the interior of a shape. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 ## Functions
 
 | Function | Description |
 | --- | --- |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, [Color](./color/)) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, [Color](./color/)) | Insert data into the stream. |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [Point](./point/)\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [Point](./point/)\&) | Insert data into the stream. |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [PointF](./pointf/)\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [PointF](./pointf/)\&) | Insert data into the stream. |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [Rectangle](./rectangle/)\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [Rectangle](./rectangle/)\&) | Insert data into the stream. |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [RectangleF](./rectanglef/)\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [RectangleF](./rectanglef/)\&) | Insert data into the stream. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, [Color](./color/)) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, [Color](./color/)) | Insert data into the stream. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [Point](./point/)&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [Point](./point/)&) | Insert data into the stream. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [PointF](./pointf/)&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [PointF](./pointf/)&) | Insert data into the stream. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [Rectangle](./rectangle/)&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [Rectangle](./rectangle/)&) | Insert data into the stream. |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [RectangleF](./rectanglef/)&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [RectangleF](./rectanglef/)&) | Insert data into the stream. |
 ## Enums
 
 | Enum | Description |

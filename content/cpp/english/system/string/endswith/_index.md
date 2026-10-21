@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /system/string/endswith/
 ---
-## String::EndsWith(const String\&) const method
+## String::EndsWith(const String&) const method
 
 
 Checks if string ends with specified substring.
@@ -20,13 +20,13 @@ bool System::String::EndsWith(const String &value) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 
 ### Return Value
 
 true if string ends with specified substring, false otherwise.
 
-## String::EndsWith(const String\&, System::StringComparison) const method
+## String::EndsWith(const String&, System::StringComparison) const method
 
 
 Checks if string ends with specified substring.
@@ -40,14 +40,14 @@ bool System::String::EndsWith(const String &value, System::StringComparison comp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 | comparisonType | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode, see [System::StringComparison](../../stringcomparison/) for details. |
 
 ### Return Value
 
 true if string ends with specified substring, false otherwise.
 
-## String::EndsWith(const String\&, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
+## String::EndsWith(const String&, bool, const SharedPtr\<System::Globalization::CultureInfo\>&) const method
 
 
 Checks if string ends with specified substring.
@@ -61,9 +61,9 @@ bool System::String::EndsWith(const String &value, bool ignoreCase, const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../)\& | Lookup string. |
+| value | const [String](../)& | Lookup string. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
-| culture | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use while performing string comparison. |
+| culture | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use while performing string comparison. |
 
 ### Return Value
 

@@ -26,7 +26,7 @@ static bool System::Threading::ThreadPool::QueueUserWorkItem(WaitCallback callba
 
 Always returns true.
 
-## ThreadPool::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>\&) method
+## ThreadPool::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>&) method
 
 
 Puts work item into queue which is present with callback with no parameter.
@@ -41,7 +41,7 @@ static bool System::Threading::ThreadPool::QueueUserWorkItem(WaitCallback callba
 | Parameter | Type | Description |
 | --- | --- | --- |
 | callback | [WaitCallback](../../waitcallback/) | Callback function to be used as a job. |
-| state | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Job function parameter. |
+| state | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | Job function parameter. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemasimplecontentextension/set_anyattribute/
 ---
-## XmlSchemaSimpleContentExtension::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
+## XmlSchemaSimpleContentExtension::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>&) method
 
 
 Sets the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) to be used for the attribute value.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleContentExtension::set_AnyAttribute(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>& | The value to set. |
 
 ## See Also
 

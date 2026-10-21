@@ -1,7 +1,7 @@
 ---
 title: "System::Web"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Web namespace"
 type: docs
 weight: 1054
 url: /system.web/

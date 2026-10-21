@@ -1,7 +1,7 @@
 ---
 title: set_InclusiveNamespacesPrefixList()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigExcC14NTransform::set_InclusiveNamespacesPrefixList() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/xmldsigexcc14ntransform/set_inclusivenamespacesprefixlist/

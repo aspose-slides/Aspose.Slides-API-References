@@ -16,6 +16,13 @@ uint32_t Aspose::Slides::Connector::get_EndShapeConnectionSiteIndex() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when value is less than [get_EndShapeConnectedTo()](../get_endshapeconnectedto/)-\>[get_ConnectionSiteCount()](../../shape/get_connectionsitecount/) |
+
+
 ## See Also
 
 * Class [Connector](../)

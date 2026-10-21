@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.collections.specialized/stringcollection/remove/
 ---
-## StringCollection::Remove(const System::String\&) method
+## StringCollection::Remove(const System::String&) method
 
 
 Removes first occurrence of specified string.
@@ -20,7 +20,7 @@ void System::Collections::Specialized::StringCollection::Remove(const System::St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::String](../../../system/string/)\& | [String](../../../system/string/) to remove. |
+| value | const [System::String](../../../system/string/)& | [String](../../../system/string/) to remove. |
 
 ## See Also
 

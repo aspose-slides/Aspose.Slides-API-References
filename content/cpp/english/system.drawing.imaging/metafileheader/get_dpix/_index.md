@@ -16,6 +16,13 @@ float System::Drawing::Imaging::MetafileHeader::get_DpiX() const
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [MetafileHeader](../)

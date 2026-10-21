@@ -28,7 +28,7 @@ Creates empty set with specified capacity.
 System::Collections::Generic::HashSet<T>::HashSet(int capacity)
 ```
 
-## HashSet::HashSet(const SharedPtr\<IEqualityComparer\<T\>\>\&) constructor
+## HashSet::HashSet(const SharedPtr\<IEqualityComparer\<T\>\>&) constructor
 
 
 Creates empty set that uses the specified equality comparer.
@@ -42,9 +42,9 @@ System::Collections::Generic::HashSet<T>::HashSet(const SharedPtr<IEqualityCompa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | [Comparer](../../comparer/) object to associate with hashset. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>& | [Comparer](../../comparer/) object to associate with hashset. |
 
-## HashSet::HashSet(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
+## HashSet::HashSet(const SharedPtr\<IEnumerable\<T\>\>&) constructor
 
 
 Creates hashset based on enumerable values.

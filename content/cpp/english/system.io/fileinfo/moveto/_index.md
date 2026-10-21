@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.io/fileinfo/moveto/
 ---
-## FileInfo::MoveTo(const String\&) method
+## FileInfo::MoveTo(const String&) method
 
 
 Moves the file represented by the current object to the specified location.
@@ -20,7 +20,7 @@ void System::IO::FileInfo::MoveTo(const String &destFileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destFileName | const [String](../../../system/string/)\& | The destination file name |
+| destFileName | const [String](../../../system/string/)& | The destination file name |
 
 ## See Also
 

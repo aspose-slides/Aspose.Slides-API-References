@@ -1,12 +1,12 @@
 ---
 title: IOrderedEnumerable()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "IOrderedEnumerable::IOrderedEnumerable() constructor"
 type: docs
 weight: 1
 url: /system.linq/iorderedenumerable/iorderedenumerable/
 ---
-## IOrderedEnumerable::IOrderedEnumerable(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T\>\>\&, const Comparator\&) constructor
+## IOrderedEnumerable::IOrderedEnumerable(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T\>\>&, const Comparator&) constructor
 
 
 

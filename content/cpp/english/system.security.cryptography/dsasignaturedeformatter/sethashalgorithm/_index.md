@@ -16,6 +16,13 @@ void System::Security::Cryptography::DSASignatureDeformatter::SetHashAlgorithm(S
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

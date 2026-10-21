@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.diagnostics/stacktrace/operator_equal/
 ---
-## StackTrace::operator=(const StackTrace\&) const method
+## StackTrace::operator=(const StackTrace&) const method
 
 
 No assignment.

@@ -159,6 +159,13 @@ System::SharedPtr<IPPImage> Aspose::Slides::ImageCollection::AddImage(System::Sh
 
 Added image.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | When svgImage parameter is null. |
+
+
 ## See Also
 
 * Enum [LoadingStreamBehavior](../../loadingstreambehavior/)

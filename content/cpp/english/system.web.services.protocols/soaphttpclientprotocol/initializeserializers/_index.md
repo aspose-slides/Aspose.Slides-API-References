@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.web.services.protocols/soaphttpclientprotocol/initializeserializers/
 ---
-## SoapHttpClientProtocol::InitializeSerializers(const System::TypeInfo\&, System::SharedPtr\<System::Xml::Serialization::XmlSerializerImplementation\>, String) method
+## SoapHttpClientProtocol::InitializeSerializers(const System::TypeInfo&, System::SharedPtr\<System::Xml::Serialization::XmlSerializerImplementation\>, String) method
 
 
 Initializes the internal fields.

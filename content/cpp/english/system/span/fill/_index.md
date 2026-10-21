@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/span/fill/
 ---
-## Span::Fill(const T\&) const method
+## Span::Fill(const T&) const method
 
 
 Fills the span with the specified value.
@@ -20,7 +20,7 @@ void System::Span<T>::Fill(const T &value) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to assign to each element of the span. |
+| value | const T& | The value to assign to each element of the span. |
 
 ## See Also
 

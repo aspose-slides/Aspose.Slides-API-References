@@ -21,6 +21,13 @@ Aspose::Slides::MathText::MathDelimiter::MathDelimiter(System::SharedPtr<IMathEl
 | Parameter | Type | Description |
 | --- | --- | --- |
 | element | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | The base element to which the delimiter is applied. Can be null. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| T:System::InvalidOperationException | Throws then *element*  is a container for another elements, such as [MathBlock](../../mathblock/). In this case, you need to call a different constructor with IEnumerable argument. |
+
 ## Remarks
 
 

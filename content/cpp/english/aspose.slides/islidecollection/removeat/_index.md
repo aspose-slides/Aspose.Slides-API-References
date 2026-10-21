@@ -22,6 +22,13 @@ virtual void Aspose::Slides::ISlideCollection::RemoveAt(int32_t index)=0
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) |  |
+
+
 ## See Also
 
 * Class [ISlideCollection](../)

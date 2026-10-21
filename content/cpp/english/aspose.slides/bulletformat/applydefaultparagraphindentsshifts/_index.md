@@ -16,6 +16,13 @@ void Aspose::Slides::BulletFormat::ApplyDefaultParagraphIndentsShifts() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Calling this method doesn't matter and throw [System::InvalidOperationException](../../../system/invalidoperationexception/) in following cases: if parent formatted object is not a paragraph (for example calling ITextStyle-\>get_DefaultParagraphFormat()-\>get_Bullet()-\>[ApplyDefaultParagraphIndentsShifts()](./) will throw exception); or if paragraph wasn't added to any ITextFrame-\>get_Paragraphs() collection (add it first); |
+
+
 ## See Also
 
 * Class [BulletFormat](../)

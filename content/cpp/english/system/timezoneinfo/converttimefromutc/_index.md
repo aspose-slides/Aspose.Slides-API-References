@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/timezoneinfo/converttimefromutc/
 ---
-## TimeZoneInfo::ConvertTimeFromUtc(DateTime, const TimeZoneInfoPtr\&) method
+## TimeZoneInfo::ConvertTimeFromUtc(DateTime, const TimeZoneInfoPtr&) method
 
 
 Converts UTC-time to the time in a specified time zone.
@@ -21,7 +21,7 @@ static DateTime System::TimeZoneInfo::ConvertTimeFromUtc(DateTime date_time, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | date_time | [DateTime](../../datetime/) | Date and time to convert. |
-| destination_time_zone | const [TimeZoneInfoPtr](../../timezoneinfoptr/)\& | Destination time zone. |
+| destination_time_zone | const [TimeZoneInfoPtr](../../timezoneinfoptr/)& | Destination time zone. |
 
 ### Return Value
 

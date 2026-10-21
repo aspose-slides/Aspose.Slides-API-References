@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.globalization/stringinfo/parsecombiningcharacters/
 ---
-## StringInfo::ParseCombiningCharacters(const String\&) method
+## StringInfo::ParseCombiningCharacters(const String&) method
 
 
 Gets indexes of the base characters, high surrogates and control characters.
@@ -20,7 +20,7 @@ static ArrayPtr<int> System::Globalization::StringInfo::ParseCombiningCharacters
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Input string. |
+| str | const [String](../../../system/string/)& | Input string. |
 
 ### Return Value
 

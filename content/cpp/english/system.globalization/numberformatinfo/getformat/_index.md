@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /system.globalization/numberformatinfo/getformat/
 ---
-## NumberFormatInfo::GetFormat(const TypeInfo\&) method
+## NumberFormatInfo::GetFormat(const TypeInfo&) method
 
 
 Gets formatter of specific type.
@@ -20,7 +20,7 @@ SharedPtr<Object> System::Globalization::NumberFormatInfo::GetFormat(const TypeI
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format_type | const [TypeInfo](../../../system/typeinfo/)\& | Type of formatter to get; only [NumberFormatInfo](../) type is supported. |
+| format_type | const [TypeInfo](../../../system/typeinfo/)& | Type of formatter to get; only [NumberFormatInfo](../) type is supported. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.drawing.text/privatefontcollection/addfont/
 ---
-## PrivateFontCollection::AddFont(const System::ArrayPtr\<uint8_t\>\&, int) method
+## PrivateFontCollection::AddFont(const System::ArrayPtr\<uint8_t\>&, int) method
 
 
 Adds the specified font to the collection.
@@ -20,7 +20,7 @@ void System::Drawing::Text::PrivateFontCollection::AddFont(const System::ArrayPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | A byte array containing the font data |
+| data | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | A byte array containing the font data |
 | len | int | The size of the **data** buffer in bytes |
 
 ## See Also

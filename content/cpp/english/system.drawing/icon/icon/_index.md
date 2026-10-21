@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/icon/icon/
 ---
-## Icon::Icon(const String\&) constructor
+## Icon::Icon(const String&) constructor
 
 
 Constructs a new instance of [Icon](../) class that represents an icon from the specified file.
@@ -20,7 +20,7 @@ System::Drawing::Icon::Icon(const String &filename)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | A name of the file to load the icon from |
+| filename | const [String](../../../system/string/)& | A name of the file to load the icon from |
 
 ## See Also
 

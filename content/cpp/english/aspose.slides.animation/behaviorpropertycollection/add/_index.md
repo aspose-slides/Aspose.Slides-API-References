@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /aspose.slides.animation/behaviorpropertycollection/add/
 ---
-## BehaviorPropertyCollection::Add(const System::SharedPtr\<IBehaviorProperty\>\&) method
+## BehaviorPropertyCollection::Add(const System::SharedPtr\<IBehaviorProperty\>&) method
 
 
 Adds a new property to the collection.
@@ -20,9 +20,9 @@ void Aspose::Slides::Animation::BehaviorPropertyCollection::Add(const System::Sh
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | Property to add. |
+| item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>& | Property to add. |
 
-## BehaviorPropertyCollection::Add(const System::String\&) method
+## BehaviorPropertyCollection::Add(const System::String&) method
 
 
 Adds a new property to the collection.
@@ -36,7 +36,7 @@ void Aspose::Slides::Animation::BehaviorPropertyCollection::Add(const System::St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | const [System::String](../../../system/string/)\& | Value of the property to add. |
+| propertyValue | const [System::String](../../../system/string/)& | Value of the property to add. |
 
 ## See Also
 

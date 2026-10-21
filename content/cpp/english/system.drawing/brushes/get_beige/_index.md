@@ -1,7 +1,7 @@
 ---
 title: get_Beige()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF5F5DC.
+description: "Returns the solid fill color whose hexadecimal value is #FFF5F5DC."
 type: docs
 weight: 66
 url: /system.drawing/brushes/get_beige/

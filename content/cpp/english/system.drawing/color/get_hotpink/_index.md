@@ -1,7 +1,7 @@
 ---
 title: get_HotPink()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFF69B4.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFF69B4."
 type: docs
 weight: 989
 url: /system.drawing/color/get_hotpink/

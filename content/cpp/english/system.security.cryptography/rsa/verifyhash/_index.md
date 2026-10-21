@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.security.cryptography/rsa/verifyhash/
 ---
-## RSA::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName\&, SharedPtr\<RSASignaturePadding\>) method
+## RSA::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName&, SharedPtr\<RSASignaturePadding\>) method
 
 
 Verifies that the signature of the specified hash is valid.
@@ -22,7 +22,7 @@ virtual bool System::Security::Cryptography::RSA::VerifyHash(ByteArrayPtr hash, 
 | --- | --- | --- |
 | hash | [ByteArrayPtr](../../../system/bytearrayptr/) | Hash value of the signed data. |
 | signature | [ByteArrayPtr](../../../system/bytearrayptr/) | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. |
 | padding | [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\> | Padding mode. return true if signature is valid, otherwise - false. |
 
 ## See Also

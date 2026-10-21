@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections/bitarray/and/
 ---
-## BitArray::And(const BitArrayPtr\&) method
+## BitArray::And(const BitArrayPtr&) method
 
 
 Calculates bitwise 'and' between two BitSets.
@@ -20,7 +20,7 @@ BitArrayPtr System::Collections::BitArray::And(const BitArrayPtr &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [BitArrayPtr](../../bitarrayptr/)\& | RHS operand. |
+| value | const [BitArrayPtr](../../bitarrayptr/)& | RHS operand. |
 
 ### Return Value
 

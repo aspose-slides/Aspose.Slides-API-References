@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlSchemaSet](../) class.
 System::Xml::Schema::XmlSchemaSet::XmlSchemaSet()
 ```
 
-## XmlSchemaSet::XmlSchemaSet(const SharedPtr\<XmlNameTable\>\&) constructor
+## XmlSchemaSet::XmlSchemaSet(const SharedPtr\<XmlNameTable\>&) constructor
 
 
 Initializes a new instance of the [XmlSchemaSet](../) class with the specified [XmlNameTable](../../../system.xml/xmlnametable/).
@@ -29,7 +29,14 @@ System::Xml::Schema::XmlSchemaSet::XmlSchemaSet(const SharedPtr<XmlNameTable> &n
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>\& | The [XmlNameTable](../../../system.xml/xmlnametable/) object to use. |
+| nameTable | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>& | The [XmlNameTable](../../../system.xml/xmlnametable/) object to use. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlNameTable](../../../system.xml/xmlnametable/) object passed as a parameter is **nullptr**. |
+
 
 ## See Also
 

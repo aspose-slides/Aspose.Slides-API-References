@@ -1,7 +1,7 @@
 ---
 title: ResultValueTaskAwaiter
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ResultValueTaskAwaiter class
 type: docs
 weight: 79
 url: /system.runtime.compilerservices/resultvaluetaskawaiter/
@@ -21,7 +21,7 @@ template<typename T>class ResultValueTaskAwaiter
 | --- | --- |
 | **bool** [get_IsCompleted](./get_iscompleted/)() const |  |
 | T [GetResult](./getresult/)() const |  |
-| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)<>\&) |  |
+| void [OnCompleted](./oncompleted/)(const [Action](../../system/action/)\<\>&) |  |
 |  [ResultValueTaskAwaiter](./resultvaluetaskawaiter/)([Threading::Tasks::ResultValueTask](../../system.threading.tasks/resultvaluetask/)\<T\>) |  |
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.text/stringbuilder/appendformat/
 ---
-## StringBuilder::AppendFormat(const String\&, const TArgs\&...) method
+## StringBuilder::AppendFormat(const String&, const TArgs&...) method
 
 
 Appends formated string to builder.
@@ -26,14 +26,14 @@ template<class...> StringBuilder * System::Text::StringBuilder::AppendFormat(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../../system/string/)\& | Format string. |
-| args | const TArgs\&... | Arguments to insert into format string positions. |
+| format | const [String](../../../system/string/)& | Format string. |
+| args | const TArgs&... | Arguments to insert into format string positions. |
 
 ### Return Value
 
 This pointer.
 
-## StringBuilder::AppendFormat(const SharedPtr\<IFormatProvider\>\&, const String\&, const TArgs\&...) method
+## StringBuilder::AppendFormat(const SharedPtr\<IFormatProvider\>&, const String&, const TArgs&...) method
 
 
 Appends formated string to builder.
@@ -53,9 +53,9 @@ template<class...> StringBuilder * System::Text::StringBuilder::AppendFormat(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fp | const [SharedPtr](../../../system/sharedptr/)\<[IFormatProvider](../../../system/iformatprovider/)\>\& | Format provider; ignored. |
-| format | const [String](../../../system/string/)\& | Format string. |
-| args | const TArgs\&... | Arguments to insert into format string positions. |
+| fp | const [SharedPtr](../../../system/sharedptr/)\<[IFormatProvider](../../../system/iformatprovider/)\>& | Format provider; ignored. |
+| format | const [String](../../../system/string/)& | Format string. |
+| args | const TArgs&... | Arguments to insert into format string positions. |
 
 ### Return Value
 

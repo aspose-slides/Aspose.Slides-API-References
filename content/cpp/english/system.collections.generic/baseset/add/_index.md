@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.collections.generic/baseset/add/
 ---
-## BaseSet::Add(const T\&) method
+## BaseSet::Add(const T&) method
 
 
 Adds element into set.
@@ -20,7 +20,7 @@ void System::Collections::Generic::BaseSet<T, SET_T>::Add(const T &item) overrid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Element to add. |
+| item | const T& | Element to add. |
 
 ## See Also
 

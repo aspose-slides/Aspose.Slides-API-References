@@ -1,7 +1,7 @@
 ---
 title: Rect32f()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rect32f::Rect32f() constructor"
 type: docs
 weight: 14
 url: /aspose.slides.drawing/rect32f/rect32f/

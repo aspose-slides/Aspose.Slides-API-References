@@ -16,6 +16,13 @@ static System::SharedPtr<System::Drawing::Font> System::Windows::Forms::SystemIn
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

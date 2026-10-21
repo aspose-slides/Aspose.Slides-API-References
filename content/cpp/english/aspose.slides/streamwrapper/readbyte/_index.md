@@ -16,10 +16,6 @@ int32_t Aspose::Slides::StreamWrapper::ReadByte() override
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Class [StreamWrapper](../)

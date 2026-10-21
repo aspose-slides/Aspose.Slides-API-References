@@ -23,6 +23,14 @@ void System::Collections::Generic::List<T>::InsertRange(int index, IEnumerablePt
 | index | int | [Index](../../../system/index/) to insert data at. |
 | collection | [IEnumerablePtr](../ienumerableptr/) | Collection of elements to insert. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | if index is less than zero. |
+| ArgumentNullException | if collection is nullptr. |
+
+
 ## See Also
 
 * Typedef [IEnumerablePtr](../ienumerableptr/)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml.xsl/xsltargumentlist/removeextensionobject/
 ---
-## XsltArgumentList::RemoveExtensionObject(const String\&) method
+## XsltArgumentList::RemoveExtensionObject(const String&) method
 
 
 Removes the object with the namespace URI from the [XsltArgumentList](../).
@@ -20,7 +20,7 @@ SharedPtr<Object> System::Xml::Xsl::XsltArgumentList::RemoveExtensionObject(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI associated with the object to remove. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI associated with the object to remove. |
 
 ### Return Value
 

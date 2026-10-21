@@ -16,6 +16,13 @@ static SharedPtr<Graphics> System::Drawing::Graphics::FromHwndInternal(IntPtr hw
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

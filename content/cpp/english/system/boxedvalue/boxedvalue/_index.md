@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/boxedvalue/boxedvalue/
 ---
-## BoxedValue::BoxedValue(const T\&) constructor
+## BoxedValue::BoxedValue(const T&) constructor
 
 
 Constructs an object that represents the specified value boxed.
@@ -20,7 +20,7 @@ System::BoxedValue<T>::BoxedValue(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to be boxed |
+| value | const T& | The value to be boxed |
 
 ## See Also
 

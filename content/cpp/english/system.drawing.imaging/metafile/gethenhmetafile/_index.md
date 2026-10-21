@@ -16,6 +16,13 @@ IntPtr System::Drawing::Imaging::Metafile::GetHenhmetafile()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Metafile](../)

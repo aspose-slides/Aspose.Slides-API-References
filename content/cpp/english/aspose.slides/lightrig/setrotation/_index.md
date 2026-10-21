@@ -9,7 +9,7 @@ url: /aspose.slides/lightrig/setrotation/
 ## LightRig::SetRotation(float, float, float) method
 
 
-A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is std::numeric_limits<float>::quiet_NaN(), all rotation is undefined.
+A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is std::numeric_limits\<float\>::quiet_NaN(), all rotation is undefined.
 
 ```cpp
 void Aspose::Slides::LightRig::SetRotation(float latitude, float longitude, float revolution) override

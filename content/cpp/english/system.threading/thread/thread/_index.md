@@ -47,7 +47,7 @@ System::Threading::Thread::Thread(ParameterizedThreadStart thread_function)
 | --- | --- | --- |
 | thread_function | [ParameterizedThreadStart](../../parameterizedthreadstart/) | Function to be executed by thread. |
 
-## Thread::Thread(Thread\&) constructor
+## Thread::Thread(Thread&) constructor
 
 
 Copy constructor.
@@ -61,7 +61,7 @@ System::Threading::Thread::Thread(Thread &t)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| t | [Thread](../)\& | [Thread](../) to copy data from. |
+| t | [Thread](../)& | [Thread](../) to copy data from. |
 
 ## See Also
 

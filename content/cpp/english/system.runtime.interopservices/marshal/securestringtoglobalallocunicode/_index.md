@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.runtime.interopservices/marshal/securestringtoglobalallocunicode/
 ---
-## Marshal::SecureStringToGlobalAllocUnicode(const SharedPtr\<Security::SecureString\>\&) method
+## Marshal::SecureStringToGlobalAllocUnicode(const SharedPtr\<Security::SecureString\>&) method
 
 
 Copies contents of specified secure string into unmanaged memory.
@@ -20,7 +20,7 @@ static IntPtr System::Runtime::InteropServices::Marshal::SecureStringToGlobalAll
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [SharedPtr](../../../system/sharedptr/)\<[Security::SecureString](../../../system.security/securestring/)\>\& | Secure string. |
+| s | const [SharedPtr](../../../system/sharedptr/)\<[Security::SecureString](../../../system.security/securestring/)\>& | Secure string. |
 
 ### Return Value
 

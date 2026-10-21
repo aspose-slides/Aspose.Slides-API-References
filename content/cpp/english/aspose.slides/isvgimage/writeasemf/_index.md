@@ -21,6 +21,13 @@ virtual void Aspose::Slides::ISvgImage::WriteAsEmf(System::SharedPtr<System::IO:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Target stream |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Target stream is **null** |
+
 ## Remarks
 
 

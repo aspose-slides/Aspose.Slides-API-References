@@ -23,6 +23,14 @@ virtual void System::Xml::XmlWriter::WriteNode(SharedPtr<XmlReader> reader, bool
 | reader | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\> | The [XmlReader](../../xmlreader/) to read from. |
 | defattr | **bool** | **true** to copy the default attributes from the [XmlReader](../../xmlreader/); otherwise, **false**. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **reader** is **nullptr**. |
+| ArgumentException | **reader** contains invalid characters. |
+
+
 ## XmlWriter::WriteNode(SharedPtr\<XPath::XPathNavigator\>, bool) method
 
 
@@ -39,6 +47,13 @@ virtual void System::Xml::XmlWriter::WriteNode(SharedPtr<XPath::XPathNavigator> 
 | --- | --- | --- |
 | navigator | [SharedPtr](../../../system/sharedptr/)\<[XPath::XPathNavigator](../../../system.xml.xpath/xpathnavigator/)\> | The XPathNavigator to copy from. |
 | defattr | **bool** | **true** to copy the default attributes; otherwise, **false**. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **navigator** is **nullptr**. |
+
 
 ## See Also
 

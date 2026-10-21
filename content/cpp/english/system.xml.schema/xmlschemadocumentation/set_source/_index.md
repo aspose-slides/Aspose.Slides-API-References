@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemadocumentation/set_source/
 ---
-## XmlSchemaDocumentation::set_Source(const String\&) method
+## XmlSchemaDocumentation::set_Source(const String&) method
 
 
 Sets the Uniform Resource Identifier (URI) source of the information.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaDocumentation::set_Source(const String &value
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

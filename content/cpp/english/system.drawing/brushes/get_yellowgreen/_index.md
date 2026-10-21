@@ -1,7 +1,7 @@
 ---
 title: get_YellowGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF9ACD32.
+description: "Returns the solid fill color whose hexadecimal value is #FF9ACD32."
 type: docs
 weight: 1821
 url: /system.drawing/brushes/get_yellowgreen/

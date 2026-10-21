@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml/xmlconvert/verifynmtoken/
 ---
-## XmlConvert::VerifyNMTOKEN(const String\&) method
+## XmlConvert::VerifyNMTOKEN(const String&) method
 
 
 Verifies that the string is a valid NMTOKEN according to the W3C XML [Schema](../../../system.xml.schema/) Part2: Datatypes recommendation.
@@ -20,11 +20,19 @@ static String System::Xml::XmlConvert::VerifyNMTOKEN(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The string you wish to verify. |
+| name | const [String](../../../system/string/)& | The string you wish to verify. |
 
 ### Return Value
 
 The name token, if it is a valid NMTOKEN.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The string is not a valid name token. |
+| ArgumentNullException | **name** is **nullptr**. |
+
 
 ## See Also
 

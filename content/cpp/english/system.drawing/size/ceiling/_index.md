@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.drawing/size/ceiling/
 ---
-## Size::Ceiling(const SizeF\&) method
+## Size::Ceiling(const SizeF&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by rounding the [SizeF](../../sizef/) object's width and height values to the next higher integer values.
@@ -20,7 +20,7 @@ static Size System::Drawing::Size::Ceiling(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../../sizef/)\& | The [SizeF](../../sizef/) object to convert |
+| size | const [SizeF](../../sizef/)& | The [SizeF](../../sizef/) object to convert |
 
 ### Return Value
 

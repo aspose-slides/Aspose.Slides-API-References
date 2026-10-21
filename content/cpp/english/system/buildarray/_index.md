@@ -29,7 +29,7 @@ ObjectBuilder configured for array construction
 
 
 
-Creates a ArrayPtr<T> and returns a builder for it 
+Creates a ArrayPtr\<T\> and returns a builder for it 
 [Object](../object/) construction must be finished with [Get()](../get/) call 
 
 ## See Also

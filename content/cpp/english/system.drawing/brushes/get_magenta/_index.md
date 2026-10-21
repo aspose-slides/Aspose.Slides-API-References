@@ -1,7 +1,7 @@
 ---
 title: get_Magenta()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFF00FF.
+description: "Returns the solid fill color whose hexadecimal value is #FFFF00FF."
 type: docs
 weight: 1028
 url: /system.drawing/brushes/get_magenta/

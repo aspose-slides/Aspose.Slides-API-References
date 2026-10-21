@@ -17,6 +17,6 @@ using System::MulticastDelegate< ReturnType(ArgumentTypes...)>::Function =  Retu
 
 ## See Also
 
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CannotCombine2DAnd3DChartsException typedef
 type: docs
 weight: 1782
 url: /aspose.slides.charts/cannotcombine2dand3dchartsexception/

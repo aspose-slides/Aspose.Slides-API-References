@@ -1,7 +1,7 @@
 ---
 title: InvalidTimeZoneException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: InvalidTimeZoneException typedef
 type: docs
 weight: 3836
 url: /system/invalidtimezoneexception/

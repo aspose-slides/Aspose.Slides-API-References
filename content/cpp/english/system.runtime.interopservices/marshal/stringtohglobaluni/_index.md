@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.runtime.interopservices/marshal/stringtohglobaluni/
 ---
-## Marshal::StringToHGlobalUni(const String\&) method
+## Marshal::StringToHGlobalUni(const String&) method
 
 
 Copies the contents of a specified string into unmanaged memory.
@@ -20,7 +20,7 @@ static IntPtr System::Runtime::InteropServices::Marshal::StringToHGlobalUni(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | A string to be copied. |
+| s | const [String](../../../system/string/)& | A string to be copied. |
 
 ### Return Value
 

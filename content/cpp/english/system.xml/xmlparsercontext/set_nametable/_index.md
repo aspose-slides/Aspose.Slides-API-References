@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlparsercontext/set_nametable/
 ---
-## XmlParserContext::set_NameTable(const SharedPtr\<XmlNameTable\>\&) method
+## XmlParserContext::set_NameTable(const SharedPtr\<XmlNameTable\>&) method
 
 
 Sets the [XmlNameTable](../../xmlnametable/) used to atomize strings. For more information on atomized strings, see [XmlNameTable](../../xmlnametable/).
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_NameTable(const SharedPtr<XmlNameTable> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The value to set. |
 
 ## See Also
 

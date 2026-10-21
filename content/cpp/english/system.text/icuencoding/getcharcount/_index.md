@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.text/icuencoding/getcharcount/
 ---
-## ICUEncoding::GetCharCount(const uint8_t *, int) method
+## ICUEncoding::GetCharCount(const uint8_t \*, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -20,7 +20,7 @@ int System::Text::ICUEncoding::GetCharCount(const uint8_t *bytes, int count) ove
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const **uint8_t** * | Bytes to decode. |
+| bytes | const **uint8_t** \* | Bytes to decode. |
 | count | int | Bytes count. |
 
 ### Return Value
@@ -69,7 +69,7 @@ virtual int System::Text::Encoding::GetCharCount(ArrayPtr<uint8_t> bytes)
 
 Number of characters.
 
-## ICUEncoding::GetCharCount(const uint8_t *, int) method
+## ICUEncoding::GetCharCount(const uint8_t \*, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -83,7 +83,7 @@ virtual int System::Text::Encoding::GetCharCount(const uint8_t *bytes, int count
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const **uint8_t** * | Bytes to decode. |
+| bytes | const **uint8_t** \* | Bytes to decode. |
 | count | int | Bytes count. |
 
 ### Return Value

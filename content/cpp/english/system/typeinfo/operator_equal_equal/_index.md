@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system/typeinfo/operator_equal_equal/
 ---
-## TypeInfo::operator==(const TypeInfo\&) const method
+## TypeInfo::operator==(const TypeInfo&) const method
 
 
 Determines if the current and the specified [TypeInfo](../) objects are equal.
@@ -20,7 +20,7 @@ bool System::TypeInfo::operator==(const TypeInfo &info) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| info | const [TypeInfo](../)\& | The [TypeInfo](../) object to compare with |
+| info | const [TypeInfo](../)& | The [TypeInfo](../) object to compare with |
 
 ### Return Value
 

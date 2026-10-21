@@ -9,7 +9,7 @@ url: /system.threading.tasks/resultvaluetask/astask/
 ## ResultValueTask::AsTask() const method
 
 
-Converts this [ResultValueTask](../) to a shared pointer to ResultTask<T>.
+Converts this [ResultValueTask](../) to a shared pointer to ResultTask\<T\>.
 
 ```cpp
 RTaskPtr<T> System::Threading::Tasks::ResultValueTask<T>::AsTask() const
@@ -18,7 +18,7 @@ RTaskPtr<T> System::Threading::Tasks::ResultValueTask<T>::AsTask() const
 
 ### Return Value
 
-RTaskPtr<T> A shared pointer to a ResultTask<T> that represents this operation.
+RTaskPtr\<T\> A shared pointer to a ResultTask\<T\> that represents this operation.
 ## Remarks
 
 

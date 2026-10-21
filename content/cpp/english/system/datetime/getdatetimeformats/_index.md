@@ -31,7 +31,7 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(char_t format) const
 | --- | --- | --- |
 | format | char_t | Standard date and time format specifier. |
 
-## DateTime::GetDateTimeFormats(const SharedPtr\<IFormatProvider\>\&) const method
+## DateTime::GetDateTimeFormats(const SharedPtr\<IFormatProvider\>&) const method
 
 
 Returns array of strings where each element is the string representation of the current object formatted with one of the standard date and time format specifiers and the specified format provider.
@@ -45,9 +45,9 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(const SharedPtr<IFormatPro
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 
-## DateTime::GetDateTimeFormats(char_t, const SharedPtr\<IFormatProvider\>\&) const method
+## DateTime::GetDateTimeFormats(char_t, const SharedPtr\<IFormatProvider\>&) const method
 
 
 Returns array of strings where each element is the string representation of the current object formatted with the specified standard date and time format specifier and format provider.
@@ -62,7 +62,7 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(char_t format, const Share
 | Parameter | Type | Description |
 | --- | --- | --- |
 | format | char_t | Standard date and time format specifier. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider. |
 
 ## See Also
 

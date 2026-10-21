@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /system.drawing/graphics/enumeratemetafile/
 ---
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<PointF\>\&, Graphics::EnumerateMetafileProc) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, const ArrayPtr\<PointF\>&, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<Point\>\&, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, const ArrayPtr\<Point\>&, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -26,7 +33,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Point, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, Point, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -36,7 +50,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, PointF, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, PointF, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -46,7 +67,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Rectangle, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, Rectangle, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -56,7 +84,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, RectangleF, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, RectangleF, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -66,7 +101,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Point, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, Point, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -76,7 +118,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, PointF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, PointF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -86,7 +135,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<Point\>\&, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, const ArrayPtr\<Point\>&, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -96,7 +152,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<PointF\>\&, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, const ArrayPtr\<PointF\>&, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -106,7 +169,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Rectangle, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, Rectangle, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -116,7 +186,14 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, RectangleF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>&, RectangleF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -124,6 +201,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metafile> &metafile, RectangleF destRect, RectangleF srcRect, GraphicsUnit srcUnit, Graphics::EnumerateMetafileProc callback)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

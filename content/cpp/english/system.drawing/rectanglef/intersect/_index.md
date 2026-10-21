@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.drawing/rectanglef/intersect/
 ---
-## RectangleF::Intersect(const RectangleF\&) method
+## RectangleF::Intersect(const RectangleF&) method
 
 
 Replaces the rectangle represented by the current object with the rectangle that results from the its intersection with the rectangle represented by the specified object.
@@ -20,9 +20,9 @@ void System::Drawing::RectangleF::Intersect(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../)\& | The [RectangleF](../) object that represents the rectangle to intersect the rectangle represented by the current object with |
+| rect | const [RectangleF](../)& | The [RectangleF](../) object that represents the rectangle to intersect the rectangle represented by the current object with |
 
-## RectangleF::Intersect(const RectangleF\&, const RectangleF\&) method
+## RectangleF::Intersect(const RectangleF&, const RectangleF&) method
 
 
 Returns a rectangle that is a result of intersection of the specified rectangles.
@@ -36,8 +36,8 @@ static RectangleF System::Drawing::RectangleF::Intersect(const RectangleF &a, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [RectangleF](../)\& | The first rectangle to intersect |
-| b | const [RectangleF](../)\& | The second rectangle to intersect |
+| a | const [RectangleF](../)& | The first rectangle to intersect |
+| b | const [RectangleF](../)& | The second rectangle to intersect |
 
 ### Return Value
 

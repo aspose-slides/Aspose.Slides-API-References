@@ -22,10 +22,6 @@ virtual System::SharedPtr<IImageTransformOperation> Aspose::Slides::Effects::IIm
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

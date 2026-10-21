@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /aspose.slides/documentproperties/getcustompropertyvalue/
 ---
-## DocumentProperties::GetCustomPropertyValue(System::String, bool\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, bool&) method
 
 
 Gets a named boolean value from the custom properties.
@@ -21,9 +21,9 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
-| value | **bool**\& | Custom property value |
+| value | **bool**& | Custom property value |
 
-## DocumentProperties::GetCustomPropertyValue(System::String, int32_t\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, int32_t&) method
 
 
 Gets a named integer value from the custom properties.
@@ -38,9 +38,9 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
-| value | **int32_t**\& | Custom property value |
+| value | **int32_t**& | Custom property value |
 
-## DocumentProperties::GetCustomPropertyValue(System::String, System::DateTime\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, System::DateTime&) method
 
 
 Gets a named DateTime value from the custom properties.
@@ -55,9 +55,9 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
-| value | [System::DateTime](../../../system/datetime/)\& | Custom property value |
+| value | [System::DateTime](../../../system/datetime/)& | Custom property value |
 
-## DocumentProperties::GetCustomPropertyValue(System::String, System::String\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, System::String&) method
 
 
 Gets a named string value from the custom properties.
@@ -72,9 +72,9 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
-| value | [System::String](../../../system/string/)\& | Custom property value |
+| value | [System::String](../../../system/string/)& | Custom property value |
 
-## DocumentProperties::GetCustomPropertyValue(System::String, float\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, float&) method
 
 
 Gets a named float value from the custom properties.
@@ -89,9 +89,9 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
-| value | **float**\& | Custom property value |
+| value | **float**& | Custom property value |
 
-## DocumentProperties::GetCustomPropertyValue(System::String, double\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, double&) method
 
 
 Gets a named double value from the custom properties.
@@ -106,7 +106,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | [System::String](../../../system/string/) | Name of the custom property to get. |
-| value | **double**\& | Custom property value |
+| value | **double**& | Custom property value |
 
 ## See Also
 

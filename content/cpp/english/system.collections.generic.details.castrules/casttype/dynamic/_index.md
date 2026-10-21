@@ -1,7 +1,7 @@
 ---
 title: Dynamic
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Dynamic field
 type: docs
 weight: 27
 url: /system.collections.generic.details.castrules/casttype/dynamic/

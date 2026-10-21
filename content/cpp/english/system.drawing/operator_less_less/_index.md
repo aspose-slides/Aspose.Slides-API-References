@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.drawing/operator_less_less/
 ---
-## System::Drawing::operator<<(std::ostream\&, Color) function
+## System::Drawing::operator\<\<(std::ostream&, Color) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -20,14 +20,14 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, Color color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
+| stream | std::ostream& | Output stream to insert data to. |
 | color | [Color](../color/) | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::wostream\&, Color) function
+## System::Drawing::operator\<\<(std::wostream&, Color) function
 
 
 Insert data into the stream.
@@ -41,14 +41,14 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, Color color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
+| stream | std::wostream& | Output stream to insert data to. |
 | color | [Color](../color/) | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::ostream\&, const Point\&) function
+## System::Drawing::operator\<\<(std::ostream&, const Point&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -62,14 +62,14 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Point &po
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| point | const [Point](../point/)\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| point | const [Point](../point/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::wostream\&, const Point\&) function
+## System::Drawing::operator\<\<(std::wostream&, const Point&) function
 
 
 Insert data into the stream.
@@ -83,14 +83,14 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Point &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| point | const [Point](../point/)\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| point | const [Point](../point/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::ostream\&, const PointF\&) function
+## System::Drawing::operator\<\<(std::ostream&, const PointF&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -104,14 +104,14 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const PointF &p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| point | const [PointF](../pointf/)\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| point | const [PointF](../pointf/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::wostream\&, const PointF\&) function
+## System::Drawing::operator\<\<(std::wostream&, const PointF&) function
 
 
 Insert data into the stream.
@@ -125,14 +125,14 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const PointF 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| point | const [PointF](../pointf/)\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| point | const [PointF](../pointf/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::ostream\&, const Rectangle\&) function
+## System::Drawing::operator\<\<(std::ostream&, const Rectangle&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -146,14 +146,14 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Rectangle
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| rectangle | const [Rectangle](../rectangle/)\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| rectangle | const [Rectangle](../rectangle/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::wostream\&, const Rectangle\&) function
+## System::Drawing::operator\<\<(std::wostream&, const Rectangle&) function
 
 
 Insert data into the stream.
@@ -167,14 +167,14 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Rectang
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| rectangle | const [Rectangle](../rectangle/)\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| rectangle | const [Rectangle](../rectangle/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::ostream\&, const RectangleF\&) function
+## System::Drawing::operator\<\<(std::ostream&, const RectangleF&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -188,14 +188,14 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Rectangle
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::ostream\& | Output stream to insert data to. |
-| rectangle | const [RectangleF](../rectanglef/)\& | [Data](../../system.data/) to insert. |
+| stream | std::ostream& | Output stream to insert data to. |
+| rectangle | const [RectangleF](../rectanglef/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 
 **stream**.
 
-## System::Drawing::operator<<(std::wostream\&, const RectangleF\&) function
+## System::Drawing::operator\<\<(std::wostream&, const RectangleF&) function
 
 
 Insert data into the stream.
@@ -209,8 +209,8 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Rectang
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | std::wostream\& | Output stream to insert data to. |
-| rectangle | const [RectangleF](../rectanglef/)\& | [Data](../../system.data/) to insert. |
+| stream | std::wostream& | Output stream to insert data to. |
+| rectangle | const [RectangleF](../rectanglef/)& | [Data](../../system.data/) to insert. |
 
 ### Return Value
 

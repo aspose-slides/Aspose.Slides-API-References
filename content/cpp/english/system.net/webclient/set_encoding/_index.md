@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.net/webclient/set_encoding/
 ---
-## WebClient::set_Encoding(const SharedPtr\<Text::Encoding\>\&) method
+## WebClient::set_Encoding(const SharedPtr\<Text::Encoding\>&) method
 
 
 Sets the encoding used to download or upload strings.
@@ -20,7 +20,7 @@ void System::Net::WebClient::set_Encoding(const SharedPtr<Text::Encoding> &encod
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to set. |
+| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | The encoding to set. |
 
 ## See Also
 

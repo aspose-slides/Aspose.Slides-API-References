@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography.x509certificates/x509certificate2/set_privatekey/
 ---
-## X509Certificate2::set_PrivateKey(const SharedPtr\<AsymmetricAlgorithm\>\&) method
+## X509Certificate2::set_PrivateKey(const SharedPtr\<AsymmetricAlgorithm\>&) method
 
 
 Sets or clears private key associated with certificate.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::set_Pri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)\>\& | Private key object (or nullptr to unset). |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)\>& | Private key object (or nullptr to unset). |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2536
 url: /system/cast/
 ---
-## System::Cast(SmartPtr\<TFrom\> const\&) function
+## System::Cast(SmartPtr\<TFrom\> const&) function
 
 
 Performs cast on [SmartPtr](../smartptr/) objects.
@@ -27,11 +27,18 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TTo>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 ## See Also
 

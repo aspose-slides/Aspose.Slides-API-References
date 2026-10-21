@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.drawing.imaging/colormap/set_newcolor/
 ---
-## ColorMap::set_NewColor(const Color\&) method
+## ColorMap::set_NewColor(const Color&) method
 
 
 Sets the new [Color](../../../system.drawing/color/) object representing the color to which to convert.
@@ -20,7 +20,7 @@ void System::Drawing::Imaging::ColorMap::set_NewColor(const Color &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Color](../../../system.drawing/color/)\& | The value to set |
+| value | const [Color](../../../system.drawing/color/)& | The value to set |
 
 ## See Also
 

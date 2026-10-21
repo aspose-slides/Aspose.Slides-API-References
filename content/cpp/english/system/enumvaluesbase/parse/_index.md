@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/enumvaluesbase/parse/
 ---
-## EnumValuesBase::Parse(const TypeInfo\&, const String\&, bool) method
+## EnumValuesBase::Parse(const TypeInfo&, const String&, bool) method
 
 
 Returns an object that represents a value of enumeration constant of the specified enumeration type with the specified name.
@@ -20,8 +20,8 @@ static SharedPtr<Object> System::EnumValuesBase::Parse(const TypeInfo &type, con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | The [TypeInfo](../../typeinfo/) object representing the type of the enumeration value to return |
-| str | const [String](../../string/)\& | The name of the enum constant |
+| type | const [TypeInfo](../../typeinfo/)& | The [TypeInfo](../../typeinfo/) object representing the type of the enumeration value to return |
+| str | const [String](../../string/)& | The name of the enum constant |
 | ignoreCase | **bool** | Specifeis if the case should be ignored when interpreting the name of the enum constant |
 
 ### Return Value

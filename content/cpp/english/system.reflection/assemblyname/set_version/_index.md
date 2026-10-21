@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.reflection/assemblyname/set_version/
 ---
-## AssemblyName::set_Version(const Version\&) method
+## AssemblyName::set_Version(const Version&) method
 
 
 Sets assembly version.
@@ -20,7 +20,7 @@ void System::Reflection::AssemblyName::set_Version(const Version &version)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| version | const [Version](../../../system/version/)\& | [Assembly](../../assembly/) version. |
+| version | const [Version](../../../system/version/)& | [Assembly](../../assembly/) version. |
 
 ## See Also
 

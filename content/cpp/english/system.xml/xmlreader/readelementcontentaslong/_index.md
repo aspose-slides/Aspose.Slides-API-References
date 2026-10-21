@@ -20,6 +20,15 @@ virtual int64_t System::Xml::XmlReader::ReadElementContentAsLong()
 
 The element content as a 64-bit signed integer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a 64-bit signed integer. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+
+
 ## XmlReader::ReadElementContentAsLong(String, String) method
 
 
@@ -40,6 +49,16 @@ virtual int64_t System::Xml::XmlReader::ReadElementContentAsLong(String localNam
 ### Return Value
 
 The element content as a 64-bit signed integer.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The [XmlReader](../) is not positioned on an element. |
+| XmlException | The current element contains child elements. The element content cannot be converted to a 64-bit signed integer. |
+| ArgumentNullException | The method is called with **nullptr** arguments. |
+| ArgumentException | The specified local name and namespace URI do not match that of the current element being read. |
+
 
 ## See Also
 

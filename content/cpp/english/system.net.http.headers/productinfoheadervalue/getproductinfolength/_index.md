@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/productinfoheadervalue/getproductinfolength/
 ---
-## ProductInfoHeaderValue::GetProductInfoLength(String, int32_t, System::SharedPtr\<ProductInfoHeaderValue\>\&) method
+## ProductInfoHeaderValue::GetProductInfoLength(String, int32_t, System::SharedPtr\<ProductInfoHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [ProductInfoHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::ProductInfoHeaderValue::GetProductInf
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ProductInfoHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[ProductInfoHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

@@ -22,6 +22,13 @@ virtual void System::Xml::XmlWriter::WriteCData(String text)=0
 | --- | --- | --- |
 | text | [String](../../../system/string/) | The text to place inside the CDATA block. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The text would result in a non-well formed XML document. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

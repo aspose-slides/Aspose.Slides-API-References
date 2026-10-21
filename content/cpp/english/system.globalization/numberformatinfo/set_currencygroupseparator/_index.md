@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.globalization/numberformatinfo/set_currencygroupseparator/
 ---
-## NumberFormatInfo::set_CurrencyGroupSeparator(const String\&) method
+## NumberFormatInfo::set_CurrencyGroupSeparator(const String&) method
 
 
 Sets currency group separator.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Currency group separator. |
+| value | const [String](../../../system/string/)& | Currency group separator. |
 
 ## See Also
 

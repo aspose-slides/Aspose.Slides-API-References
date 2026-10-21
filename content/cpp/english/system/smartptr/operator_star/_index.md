@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system/smartptr/operator_star/
 ---
-## SmartPtr::operator*() const method
+## SmartPtr::operator\*() const method
 
 
 Gets reference to pointed object. Asserts that pointer is not null.

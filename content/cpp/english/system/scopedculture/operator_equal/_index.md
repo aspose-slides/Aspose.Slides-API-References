@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ScopedCulture::operator=() method"
 type: docs
 weight: 27
 url: /system/scopedculture/operator_equal/
 ---
-## ScopedCulture::operator=(const ScopedCulture\&) method
+## ScopedCulture::operator=(const ScopedCulture&) method
 
 
 

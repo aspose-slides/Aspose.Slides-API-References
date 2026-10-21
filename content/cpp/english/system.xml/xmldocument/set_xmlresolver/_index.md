@@ -22,6 +22,13 @@ virtual void System::Xml::XmlDocument::set_XmlResolver(SharedPtr<System::Xml::Xm
 | --- | --- | --- |
 | value | [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\> | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | This value is set to **nullptr** and an external DTD or entity is encountered. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

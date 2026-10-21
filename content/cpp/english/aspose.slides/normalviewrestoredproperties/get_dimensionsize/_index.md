@@ -16,6 +16,13 @@ float Aspose::Slides::NormalViewRestoredProperties::get_DimensionSize() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Throws when value less than 0 ar greater than 100. |
+
+
 ## See Also
 
 * Class [NormalViewRestoredProperties](../)

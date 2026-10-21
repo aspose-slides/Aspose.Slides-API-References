@@ -26,7 +26,7 @@ static int System::Globalization::CharUnicodeInfo::GetDecimalDigitValue(char16_t
 
 The decimal digit value or -1 if the specified character is not a decimal digit.
 
-## CharUnicodeInfo::GetDecimalDigitValue(const String\&, int) method
+## CharUnicodeInfo::GetDecimalDigitValue(const String&, int) method
 
 
 Gets decimal digit value of the character at the specified index of the string.
@@ -40,7 +40,7 @@ static int System::Globalization::CharUnicodeInfo::GetDecimalDigitValue(const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | The string containing unicode character. |
+| str | const [String](../../../system/string/)& | The string containing unicode character. |
 | index | int | The index of the unicode character. |
 
 ### Return Value

@@ -27,6 +27,14 @@ System::SharedPtr<ICaptions> Aspose::Slides::CaptionsCollection::Add(System::Str
 
 The added [ICaptions](../../icaptions/) instance.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if *filePath*  is **null**. |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if *filePath*  is empty. |
+
+
 ## CaptionsCollection::Add(System::String, System::SharedPtr\<System::IO::Stream\>) method
 
 
@@ -47,6 +55,14 @@ System::SharedPtr<ICaptions> Aspose::Slides::CaptionsCollection::Add(System::Str
 ### Return Value
 
 The added [ICaptions](../../icaptions/) instance.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if *stream*  is **null**. |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the input data is not in WebVTT format. |
+
 
 ## See Also
 

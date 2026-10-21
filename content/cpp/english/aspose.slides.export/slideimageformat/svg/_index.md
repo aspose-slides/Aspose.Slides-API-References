@@ -22,10 +22,6 @@ static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFor
 | --- | --- | --- |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[SVGOptions](../../svgoptions/)\> | Options for SVG export. |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

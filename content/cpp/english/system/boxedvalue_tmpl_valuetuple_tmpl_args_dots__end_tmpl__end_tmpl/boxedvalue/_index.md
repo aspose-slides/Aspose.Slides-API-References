@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/boxedvalue/
 ---
-## BoxedValue< ValueTuple< Args... > >::BoxedValue(const ValueT\&) method
+## BoxedValue\< ValueTuple\< Args... \> \>::BoxedValue(const ValueT&) method
 
 
 Constructs a [BoxedValue](../../boxedvalue/) object that represents the specified value boxed.
@@ -20,11 +20,11 @@ System::BoxedValue<ValueTuple<Args...>>::BoxedValue(const ValueT &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ValueT](../../valuetuple/)\& | A tuple to be boxed |
+| value | const [ValueT](../../valuetuple/)& | A tuple to be boxed |
 
 ## See Also
 
 * Class [ValueTuple](../../valuetuple/)
-* Class [BoxedValue< ValueTuple< Args... > >](../)
+* Class [BoxedValue\< ValueTuple\< Args... \> \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

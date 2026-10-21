@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /system.drawing/graphics/drawlines/
 ---
-## Graphics::DrawLines(const SharedPtr\<Pen\>\&, const System::ArrayPtr\<System::Drawing::Point\>\&) method
+## Graphics::DrawLines(const SharedPtr\<Pen\>&, const System::ArrayPtr\<System::Drawing::Point\>&) method
 
 
 Draws a series of line segments using the specified pen.
@@ -20,10 +20,10 @@ void System::Drawing::Graphics::DrawLines(const SharedPtr<Pen> &pen, const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the lines |
-| points | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::Point](../../point/)\>\& | [Array](../../../system/array/) of points to connect |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the lines |
+| points | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::Point](../../point/)\>& | [Array](../../../system/array/) of points to connect |
 
-## Graphics::DrawLines(const SharedPtr\<Pen\>\&, const System::ArrayPtr\<System::Drawing::PointF\>\&) method
+## Graphics::DrawLines(const SharedPtr\<Pen\>&, const System::ArrayPtr\<System::Drawing::PointF\>&) method
 
 
 Draws a series of line segments using the specified pen.
@@ -37,8 +37,8 @@ void System::Drawing::Graphics::DrawLines(const SharedPtr<Pen> &pen, const Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the lines |
-| points | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../pointf/)\>\& | [Array](../../../system/array/) of points to connect |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the lines |
+| points | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../pointf/)\>& | [Array](../../../system/array/) of points to connect |
 
 ## See Also
 

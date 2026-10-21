@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.drawing/point/subtract/
 ---
-## Point::Subtract(const Point\&, const Size\&) method
+## Point::Subtract(const Point&, const Size&) method
 
 
 Subtracts the width and height values of the specified [Size](../../size/) object from the X and Y coordinates values of the specified [Point](../) object correspondingly.
@@ -20,8 +20,8 @@ static Point System::Drawing::Point::Subtract(const Point &point, const Size &si
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../)\& | The point to translate |
-| size | const [Size](../../size/)\& | The [Size](../../size/) object that specifies the values to subtract from the coordinates values of the **point** |
+| point | const [Point](../)& | The point to translate |
+| size | const [Size](../../size/)& | The [Size](../../size/) object that specifies the values to subtract from the coordinates values of the **point** |
 
 ### Return Value
 

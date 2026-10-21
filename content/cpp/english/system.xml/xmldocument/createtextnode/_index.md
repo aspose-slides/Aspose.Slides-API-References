@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /system.xml/xmldocument/createtextnode/
 ---
-## XmlDocument::CreateTextNode(const String\&) method
+## XmlDocument::CreateTextNode(const String&) method
 
 
 Creates an [XmlText](../../xmltext/) with the specified text.
@@ -20,7 +20,7 @@ virtual SharedPtr<XmlText> System::Xml::XmlDocument::CreateTextNode(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [String](../../../system/string/)\& | The text for the [Text](../../../system.text/) node. |
+| text | const [String](../../../system/string/)& | The text for the [Text](../../../system.text/) node. |
 
 ### Return Value
 

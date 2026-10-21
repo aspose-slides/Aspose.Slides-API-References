@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.globalization/stringinfo/gettextelementenumerator/
 ---
-## StringInfo::GetTextElementEnumerator(const String\&) method
+## StringInfo::GetTextElementEnumerator(const String&) method
 
 
 Creates enumerator to iterate through string's characters.
@@ -20,13 +20,13 @@ static SharedPtr<TextElementEnumerator> System::Globalization::StringInfo::GetTe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to iterate through. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to iterate through. |
 
 ### Return Value
 
 Newly created enumerator.
 
-## StringInfo::GetTextElementEnumerator(const String\&, int) method
+## StringInfo::GetTextElementEnumerator(const String&, int) method
 
 
 Creates enumerator to iterate through string's characters starting at the specified index.
@@ -40,7 +40,7 @@ static SharedPtr<TextElementEnumerator> System::Globalization::StringInfo::GetTe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to iterate through. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to iterate through. |
 | index | int | Start index. |
 
 ### Return Value

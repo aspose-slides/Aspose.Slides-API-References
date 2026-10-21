@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.drawing/point/round/
 ---
-## Point::Round(const PointF\&) method
+## Point::Round(const PointF&) method
 
 
 Constructs a [Point](../) object from the specified [PointF](../../pointf/) object by rounding the [PointF](../../pointf/) object's X and Y coordinates values to the nearest integer values.
@@ -20,7 +20,7 @@ static Point System::Drawing::Point::Round(const PointF &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
+| point | const [PointF](../../pointf/)& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.drawing.drawing2d/pathgradientbrush/set_surroundcolors/
 ---
-## PathGradientBrush::set_SurroundColors(const ArrayPtr\<Color\>\&) method
+## PathGradientBrush::set_SurroundColors(const ArrayPtr\<Color\>&) method
 
 
 Sets colors that correspond to the points in the path this [PathGradientBrush](../) fills.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathGradientBrush::set_SurroundColors(const Arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[Color](../../../system.drawing/color/)\>\& | An array of colors to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[Color](../../../system.drawing/color/)\>& | An array of colors to set |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.xpath/xpathexpression/compile/
 ---
-## XPathExpression::Compile(const String\&) method
+## XPathExpression::Compile(const String&) method
 
 
 Compiles the [XPath](../../) expression specified and returns an [XPathExpression](../) object representing the [XPath](../../) expression.
@@ -20,13 +20,21 @@ static SharedPtr<XPathExpression> System::Xml::XPath::XPathExpression::Compile(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | An [XPath](../../) expression. |
+| xpath | const [String](../../../system/string/)& | An [XPath](../../) expression. |
 
 ### Return Value
 
 An [XPathExpression](../) object.
 
-## XPathExpression::Compile(const String\&, const SharedPtr\<IXmlNamespaceResolver\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression parameter is not a valid [XPath](../../) expression. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
+## XPathExpression::Compile(const String&, const SharedPtr\<IXmlNamespaceResolver\>&) method
 
 
 Compiles the specified [XPath](../../) expression, with the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified for namespace resolution, and returns an [XPathExpression](../) object that represents the [XPath](../../) expression.
@@ -40,12 +48,20 @@ static SharedPtr<XPathExpression> System::Xml::XPath::XPathExpression::Compile(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | const [String](../../../system/string/)\& | An [XPath](../../) expression. |
-| nsResolver | const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>\& | An object that implements the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) interface for namespace resolution. |
+| xpath | const [String](../../../system/string/)& | An [XPath](../../) expression. |
+| nsResolver | const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>& | An object that implements the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) interface for namespace resolution. |
 
 ### Return Value
 
 An [XPathExpression](../) object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XPath](../../) expression parameter is not a valid [XPath](../../) expression. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::DOM::Ole"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::DOM::Ole namespace"
 type: docs
 weight: 40
 url: /aspose.slides.dom.ole/

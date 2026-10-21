@@ -22,6 +22,13 @@ virtual void System::Globalization::CultureInfo::set_NumberFormat(NumberFormatIn
 | --- | --- | --- |
 | value | [NumberFormatInfoPtr](../../numberformatinfoptr/) | Number format information. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | If culture is read-only. |
+
+
 ## See Also
 
 * Typedef [NumberFormatInfoPtr](../../numberformatinfoptr/)

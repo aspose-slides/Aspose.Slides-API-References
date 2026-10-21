@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading/threadpoolimpl/queueuserworkitem/
 ---
-## ThreadPoolImpl::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>\&) method
+## ThreadPoolImpl::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>&) method
 
 
 Adds work item to queue.
@@ -21,7 +21,7 @@ bool System::Threading::ThreadPoolImpl::QueueUserWorkItem(WaitCallback callback,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | callback | [WaitCallback](../../waitcallback/) | Callback function to execute. |
-| state | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Callback function argument. |
+| state | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | Callback function argument. |
 
 ### Return Value
 

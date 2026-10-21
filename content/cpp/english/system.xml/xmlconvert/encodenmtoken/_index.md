@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlconvert/encodenmtoken/
 ---
-## XmlConvert::EncodeNmToken(const String\&) method
+## XmlConvert::EncodeNmToken(const String&) method
 
 
 Verifies the name is valid according to the XML specification.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::EncodeNmToken(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to be encoded. |
+| name | const [String](../../../system/string/)& | The name to be encoded. |
 
 ### Return Value
 

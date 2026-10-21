@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/testtools/isnullorempty/
 ---
-## TestTools::IsNullOrEmpty(const SharedPtr\<T\>\&) method
+## TestTools::IsNullOrEmpty(const SharedPtr\<T\>&) method
 
 
 Checks if collection is null or empty.
@@ -26,13 +26,13 @@ template<typename T> static bool System::TestTools::IsNullOrEmpty(const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| collection | const [SharedPtr](../../sharedptr/)\<T\>\& | Collection to check. |
+| collection | const [SharedPtr](../../sharedptr/)\<T\>& | Collection to check. |
 
 ### Return Value
 
 True if collection is null or has zero element count, false otherwise.
 
-## TestTools::IsNullOrEmpty(const System::String\&) method
+## TestTools::IsNullOrEmpty(const System::String&) method
 
 
 Checks if string is null or empty.
@@ -46,7 +46,7 @@ static bool System::TestTools::IsNullOrEmpty(const System::String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [System::String](../../string/)\& | [String](../../string/) to check. |
+| str | const [System::String](../../string/)& | [String](../../string/) to check. |
 
 ### Return Value
 

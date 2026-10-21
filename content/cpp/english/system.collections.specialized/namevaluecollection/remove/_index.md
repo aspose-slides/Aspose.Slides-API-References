@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.collections.specialized/namevaluecollection/remove/
 ---
-## NameValueCollection::Remove(const String\&) method
+## NameValueCollection::Remove(const String&) method
 
 
 Removes specific item.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Specialized::NameValueCollection::Remove(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [String](../../../system/string/)\& | Item to remove. |
+| item | const [String](../../../system/string/)& | Item to remove. |
 
 ### Return Value
 

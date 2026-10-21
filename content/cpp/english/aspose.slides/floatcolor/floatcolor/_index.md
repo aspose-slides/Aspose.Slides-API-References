@@ -1,7 +1,7 @@
 ---
 title: FloatColor()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FloatColor::FloatColor() constructor"
 type: docs
 weight: 14
 url: /aspose.slides/floatcolor/floatcolor/

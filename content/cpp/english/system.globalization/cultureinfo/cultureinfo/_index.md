@@ -42,7 +42,7 @@ System::Globalization::CultureInfo::CultureInfo(int culture, bool use_user_overr
 | culture | int | Culture identifier. |
 | use_user_override | **bool** | If true, use user-defined values instead of systems; PARAMETER IGNORED. |
 
-## CultureInfo::CultureInfo(const String\&) constructor
+## CultureInfo::CultureInfo(const String&) constructor
 
 
 Constructor.
@@ -56,9 +56,9 @@ System::Globalization::CultureInfo::CultureInfo(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Culture name. |
+| name | const [String](../../../system/string/)& | Culture name. |
 
-## CultureInfo::CultureInfo(const String\&, bool) constructor
+## CultureInfo::CultureInfo(const String&, bool) constructor
 
 
 Constructor.
@@ -72,7 +72,7 @@ System::Globalization::CultureInfo::CultureInfo(const String &name, bool use_use
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Culture name. |
+| name | const [String](../../../system/string/)& | Culture name. |
 | use_user_override | **bool** | If true, use user-defined values instead of systems; PARAMETER IGNORED. |
 
 ## CultureInfo::CultureInfo(std::nullptr_t) constructor

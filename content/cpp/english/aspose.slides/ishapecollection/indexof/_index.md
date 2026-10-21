@@ -24,7 +24,7 @@ virtual int32_t Aspose::Slides::IShapeCollection::IndexOf(System::SharedPtr<ISha
 
 ### Return Value
 
-The zero-based index of the first occurrence of the shape in the shape collection if found; otherwise, \\u20131.
+The zero-based index of the first occurrence of the shape in the shape collection if found; otherwise, –1.
 
 ## See Also
 

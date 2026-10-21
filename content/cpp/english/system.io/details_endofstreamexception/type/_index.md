@@ -1,7 +1,7 @@
 ---
 title: Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_EndOfStreamException::Type() method"
 type: docs
 weight: 1
 url: /system.io/details_endofstreamexception/type/

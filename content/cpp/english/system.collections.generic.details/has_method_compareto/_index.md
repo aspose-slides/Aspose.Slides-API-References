@@ -3,7 +3,7 @@ title: has_method_compareto
 second_title: Aspose.Slides for C++ API Reference
 description: "Checks whether CompareTo method exists in specified type. If so, inherits std::true_type, otherwise inherits std::false_type. Can be used in std::enable_if."
 type: docs
-weight: 170
+weight: 183
 url: /system.collections.generic.details/has_method_compareto/
 ---
 ## has_method_compareto struct

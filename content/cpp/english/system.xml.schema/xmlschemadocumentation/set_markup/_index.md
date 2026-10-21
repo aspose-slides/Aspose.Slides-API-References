@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemadocumentation/set_markup/
 ---
-## XmlSchemaDocumentation::set_Markup(const ArrayPtr\<SharedPtr\<XmlNode\>\>\&) method
+## XmlSchemaDocumentation::set_Markup(const ArrayPtr\<SharedPtr\<XmlNode\>\>&) method
 
 
 Sets an array of [XmlNode](../../../system.xml/xmlnode/) objects that represents the documentation child nodes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaDocumentation::set_Markup(const ArrayPtr<Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../../system.xml/xmlnode/)\>\>\& | The value to set. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../../system.xml/xmlnode/)\>\>& | The value to set. |
 
 ## See Also
 

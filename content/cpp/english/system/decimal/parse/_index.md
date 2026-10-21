@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system/decimal/parse/
 ---
-## Decimal::Parse(const String\&) method
+## Decimal::Parse(const String&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class.
@@ -20,13 +20,13 @@ static Decimal System::Decimal::Parse(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | The string representation of a number |
+| s | const [String](../../string/)& | The string representation of a number |
 
 ### Return Value
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string.
 
-## Decimal::Parse(const String\&, Globalization::NumberStyles) method
+## Decimal::Parse(const String&, Globalization::NumberStyles) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified style.
@@ -40,14 +40,14 @@ static Decimal System::Decimal::Parse(const String &s, Globalization::NumberStyl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | The string representation of a decimal value to convert |
+| s | const [String](../../string/)& | The string representation of a decimal value to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of the enumeration values that provides additional information about **s**, about style elements that may be present in **s**, or about the conversion from **s** to a [Decimal](../) object |
 
 ### Return Value
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string
 
-## Decimal::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Decimal::Parse(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified format provider.
@@ -61,14 +61,14 @@ static Decimal System::Decimal::Parse(const String &s, const SharedPtr<IFormatPr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | The string representation of a decimal value to convert |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider |
+| s | const [String](../../string/)& | The string representation of a decimal value to convert |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider |
 
 ### Return Value
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string
 
-## Decimal::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Decimal::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified style and format provider.
@@ -82,9 +82,9 @@ static Decimal System::Decimal::Parse(const String &s, Globalization::NumberStyl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../string/)\& | The string representation of a decimal value to convert |
+| s | const [String](../../string/)& | The string representation of a decimal value to convert |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of the enumeration values that provides additional information about **s**, about style elements that may be present in **s**, or about the conversion from **s** to a [Decimal](../) object |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | Format provider |
 
 ### Return Value
 

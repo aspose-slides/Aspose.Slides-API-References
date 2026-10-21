@@ -1,12 +1,12 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HashAlgorithmName::operator!=() method"
 type: docs
 weight: 196
 url: /system.security.cryptography/hashalgorithmname/operator_not_equal/
 ---
-## HashAlgorithmName::operator!=(const HashAlgorithmName\&) const method
+## HashAlgorithmName::operator!=(const HashAlgorithmName&) const method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /system.drawing/rectangle/truncate/
 ---
-## Rectangle::Truncate(const RectangleF\&) method
+## Rectangle::Truncate(const RectangleF&) method
 
 
 Constructs a [Rectangle](../) object from the specified [RectangleF](../../rectanglef/) object by truncating the [RectangleF](../../rectanglef/) object's location and size values to the next lower integer values.
@@ -20,7 +20,7 @@ static Rectangle System::Drawing::Rectangle::Truncate(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | The [RectangleF](../../rectanglef/) object to convert |
+| rect | const [RectangleF](../../rectanglef/)& | The [RectangleF](../../rectanglef/) object to convert |
 
 ### Return Value
 

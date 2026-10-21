@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /system.globalization/datetimeformatinfo/getera/
 ---
-## DateTimeFormatInfo::GetEra(const String\&) const method
+## DateTimeFormatInfo::GetEra(const String&) const method
 
 
 Gets era by name.
@@ -20,7 +20,7 @@ int System::Globalization::DateTimeFormatInfo::GetEra(const String &era_name) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| era_name | const [String](../../../system/string/)\& | Era name. |
+| era_name | const [String](../../../system/string/)& | Era name. |
 
 ### Return Value
 

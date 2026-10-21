@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.reflection/constructorinfo/invoke/
 ---
-## ConstructorInfo::Invoke(const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
+## ConstructorInfo::Invoke(const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>&) method
 
 
 Invokes the method or constructor represented by the current instance, using the specified parameters.
@@ -20,7 +20,7 @@ System::SharedPtr<System::Object> System::Reflection::ConstructorInfo::Invoke(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>\& | specified parameters (not supported) |
+| parameters | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>& | specified parameters (not supported) |
 
 ## See Also
 

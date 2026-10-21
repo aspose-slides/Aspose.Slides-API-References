@@ -9,7 +9,7 @@ url: /aspose.slides/iparagraphformateffectivedata/get_tabs/
 ## IParagraphFormatEffectiveData::get_Tabs() method
 
 
-Returns tabulations of a paragraph. Read-only [ITabEffectiveData](../../itabeffectivedata/)[].
+Returns tabulations of a paragraph. Read-only [ITabEffectiveData](../../itabeffectivedata/)\[\].
 
 ```cpp
 virtual System::ArrayPtr<System::SharedPtr<ITabEffectiveData>> Aspose::Slides::IParagraphFormatEffectiveData::get_Tabs()=0

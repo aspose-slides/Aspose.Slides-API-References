@@ -60,7 +60,7 @@ System::Version::Version(int major, int minor)
 | major | int | The major version number |
 | minor | int | The minor version numebr |
 
-## Version::Version(const String\&) constructor
+## Version::Version(const String&) constructor
 
 
 Constructs an instance that represent the version number represented as a string.
@@ -74,7 +74,7 @@ System::Version::Version(const String &version)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| version | const [String](../../string/)\& | The string containing a version number |
+| version | const [String](../../string/)& | The string containing a version number |
 
 ## Version::Version() constructor
 

@@ -15,7 +15,7 @@ Constructor. Uses default parameters.
 System::Security::Cryptography::ECDsaBotan::ECDsaBotan()
 ```
 
-## ECDsaBotan::ECDsaBotan(const ECParameters\&) constructor
+## ECDsaBotan::ECDsaBotan(const ECParameters&) constructor
 
 
 Constructor.
@@ -29,9 +29,9 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const ECParameters &param
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [ECParameters](../../ecparameters/)\& | Algorithm parameters. |
+| parameters | const [ECParameters](../../ecparameters/)& | Algorithm parameters. |
 
-## ECDsaBotan::ECDsaBotan(const ECCurve\&) constructor
+## ECDsaBotan::ECDsaBotan(const ECCurve&) constructor
 
 
 Constructor.
@@ -45,7 +45,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const ECCurve &curve)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curve | const [ECCurve](../../eccurve/)\& | Curve used to create the public/private key pair. |
+| curve | const [ECCurve](../../eccurve/)& | Curve used to create the public/private key pair. |
 
 ## ECDsaBotan::ECDsaBotan(int32_t) constructor
 
@@ -63,7 +63,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(int32_t key_size)
 | --- | --- | --- |
 | key_size | **int32_t** | Key size in bits. |
 
-## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PublicKey\&) constructor
+## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PublicKey&) constructor
 
 
 Constructor.
@@ -77,9 +77,9 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const Botan::ECDSA_Public
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const Botan::ECDSA_PublicKey\& | Botan public key. |
+| key | const Botan::ECDSA_PublicKey& | Botan public key. |
 
-## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PrivateKey\&) constructor
+## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PrivateKey&) constructor
 
 
 Constructor.
@@ -93,7 +93,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const Botan::ECDSA_Privat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const Botan::ECDSA_PrivateKey\& | Botan private key. |
+| key | const Botan::ECDSA_PrivateKey& | Botan private key. |
 
 ## See Also
 

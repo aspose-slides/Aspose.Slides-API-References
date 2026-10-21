@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /system.globalization/numberformatinfo/getinstance/
 ---
-## NumberFormatInfo::GetInstance(const IFormatProviderPtr\&) method
+## NumberFormatInfo::GetInstance(const IFormatProviderPtr&) method
 
 
 Gets formatter associated with format provider.
@@ -20,7 +20,7 @@ static NumberFormatInfoPtr System::Globalization::NumberFormatInfo::GetInstance(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)\& | Provider to get format for. |
+| provider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)& | Provider to get format for. |
 
 ### Return Value
 

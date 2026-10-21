@@ -6,7 +6,7 @@ type: docs
 weight: 2562
 url: /system/dynamiccast/
 ---
-## System::DynamicCast(const TFrom\&) function
+## System::DynamicCast(const TFrom&) function
 
 
 Performs dynamic cast on Exception objects.
@@ -27,16 +27,23 @@ template<typename TTo,typename TFrom> std::enable_if<IsExceptionWrapper<TFrom>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const TFrom\& | Source pointer. |
+| obj | const TFrom& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
+
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## System::DynamicCast(SmartPtr\<TFrom\> const\&) function
+## System::DynamicCast(SmartPtr\<TFrom\> const&) function
 
 
 Performs dynamic cast on [SmartPtr](../smartptr/) objects.
@@ -57,11 +64,18 @@ template<typename TTo,typename TFrom> std::enable_if<!std::is_enum<TTo>::value &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
@@ -93,6 +107,13 @@ template<typename TTo,typename TFrom> std::enable_if<std::is_enum<TTo>::value, T
 
 Unboxed enum value.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if obj is not a boxed enum. |
+
+
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
@@ -119,7 +140,7 @@ nullptr.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## System::DynamicCast(TFrom\&) function
+## System::DynamicCast(TFrom&) function
 
 
 Performs dynamic cast on non-pointer objects.
@@ -140,7 +161,7 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TFrom>:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | TFrom\& | Source object. |
+| obj | TFrom& | Source object. |
 
 ### Return Value
 
@@ -175,6 +196,13 @@ template<typename TTo,typename TFrom> std::enable_if<std::is_same<System::Object
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.

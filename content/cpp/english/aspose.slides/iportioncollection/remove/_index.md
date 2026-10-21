@@ -26,6 +26,13 @@ virtual bool Aspose::Slides::IPortionCollection::Remove(System::SharedPtr<IPorti
 
 true if *item*  was successfully removed from the [ICollection](../../../system.collections.generic/icollection/); otherwise, false. This method also returns false if *item*  is not found in the original [ICollection](../../../system.collections.generic/icollection/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| T:System::NotSupportedException | The [ICollection](../../../system.collections.generic/icollection/) is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

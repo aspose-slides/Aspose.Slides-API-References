@@ -1,7 +1,7 @@
 ---
 title: set_Data()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "DataObject::set_Data() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/dataobject/set_data/

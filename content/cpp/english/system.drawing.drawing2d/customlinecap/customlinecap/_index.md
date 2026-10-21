@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.drawing2d/customlinecap/customlinecap/
 ---
-## CustomLineCap::CustomLineCap(const SharedPtr\<GraphicsPath\>\&, const SharedPtr\<GraphicsPath\>\&, LineCap, float) constructor
+## CustomLineCap::CustomLineCap(const SharedPtr\<GraphicsPath\>&, const SharedPtr\<GraphicsPath\>&, LineCap, float) constructor
 
 
 Constructs a new instance of [CustomLineCap](../) class that represents a user-defined line cap with the specified properties.
@@ -20,8 +20,8 @@ System::Drawing::Drawing2D::CustomLineCap::CustomLineCap(const SharedPtr<Graphic
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fillPath | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\& | Specifies a fill for the custom cap |
-| strokePath | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\& | Specifies an outline of the custom cap |
+| fillPath | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>& | Specifies a fill for the custom cap |
+| strokePath | const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>& | Specifies an outline of the custom cap |
 | baseCap | [LineCap](../../linecap/) | The base line cap from which the custom cap is created |
 | baseInset | **float** | Specifies the distance between the line and the cap |
 

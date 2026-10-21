@@ -71,7 +71,7 @@ ArrayPtr<String> System::String::Split(char_t separatorA, char_t separatorB, Str
 
 [Array](../../array/) of substrings.
 
-## String::Split(const ArrayPtr\<char_t\>\&, StringSplitOptions) const method
+## String::Split(const ArrayPtr\<char_t\>&, StringSplitOptions) const method
 
 
 Splits string by one of characters specified.
@@ -85,14 +85,14 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<char_t> &separators, Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separators | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | [Array](../../array/) of separator characters. If empty, any whitespace character is considered a separator. |
+| separators | const [ArrayPtr](../../arrayptr/)\<char_t\>& | [Array](../../array/) of separator characters. If empty, any whitespace character is considered a separator. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 
 ### Return Value
 
 [Array](../../array/) of substrings.
 
-## String::Split(const ArrayPtr\<char_t\>\&, int32_t, StringSplitOptions) const method
+## String::Split(const ArrayPtr\<char_t\>&, int32_t, StringSplitOptions) const method
 
 
 Splits string by one of characters specified.
@@ -106,7 +106,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<char_t> &separators, int32
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separators | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | [Array](../../array/) of separator characters. If empty, any whitespace character is considered a separator. |
+| separators | const [ArrayPtr](../../arrayptr/)\<char_t\>& | [Array](../../array/) of separator characters. If empty, any whitespace character is considered a separator. |
 | count | **int32_t** | The maximum number of substrings to return. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 
@@ -114,7 +114,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<char_t> &separators, int32
 
 [Array](../../array/) of substrings.
 
-## String::Split(const String\&, StringSplitOptions) const method
+## String::Split(const String&, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -128,14 +128,14 @@ ArrayPtr<String> System::String::Split(const String &separator, StringSplitOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | Substring acting as separator. If empty, whitespace character acts as separator. |
+| separator | const [String](../)& | Substring acting as separator. If empty, whitespace character acts as separator. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 
 ### Return Value
 
 [Array](../../array/) of substrings.
 
-## String::Split(const String\&, int, StringSplitOptions) const method
+## String::Split(const String&, int, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -149,7 +149,7 @@ ArrayPtr<String> System::String::Split(const String &separator, int count, Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separator | const [String](../)\& | Substring acting as separator. If empty, whitespace character acts as separator. |
+| separator | const [String](../)& | Substring acting as separator. If empty, whitespace character acts as separator. |
 | count | int | Max number of elements in splits array. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 
@@ -157,7 +157,7 @@ ArrayPtr<String> System::String::Split(const String &separator, int count, Strin
 
 [Array](../../array/) of substrings.
 
-## String::Split(const ArrayPtr\<String\>\&, StringSplitOptions) const method
+## String::Split(const ArrayPtr\<String\>&, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -171,14 +171,14 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<String> &separators, Strin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separators | const [ArrayPtr](../../arrayptr/)\<[String](../)\>\& | [Array](../../array/) of separator strings. If empty, no splitting is done. |
+| separators | const [ArrayPtr](../../arrayptr/)\<[String](../)\>& | [Array](../../array/) of separator strings. If empty, no splitting is done. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 
 ### Return Value
 
 [Array](../../array/) of substrings.
 
-## String::Split(const ArrayPtr\<String\>\&, int, StringSplitOptions) const method
+## String::Split(const ArrayPtr\<String\>&, int, StringSplitOptions) const method
 
 
 Splits string by substring. Currently, only supports separators array of zero or one elements.
@@ -192,7 +192,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<String> &separators, int c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| separators | const [ArrayPtr](../../arrayptr/)\<[String](../)\>\& | [Array](../../array/) of separator strings. If empty, no splitting is done. |
+| separators | const [ArrayPtr](../../arrayptr/)\<[String](../)\>& | [Array](../../array/) of separator strings. If empty, no splitting is done. |
 | count | int | Max number of elements in splits array. |
 | opt | [StringSplitOptions](../../stringsplitoptions/) | Splitting options. |
 

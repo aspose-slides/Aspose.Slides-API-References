@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.text/icuencoding/getbytecount/
 ---
-## ICUEncoding::GetByteCount(const char_t *, int) method
+## ICUEncoding::GetByteCount(const char_t \*, int) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -20,7 +20,7 @@ int System::Text::ICUEncoding::GetByteCount(const char_t *chars, int count) over
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters buffer. |
+| chars | const char_t \* | Characters buffer. |
 | count | int | [Buffer](../../../system/buffer/) size. |
 
 ### Return Value
@@ -45,7 +45,7 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(System::Details::ArrayView<char_t> chars, int index, int count)
 ```
 
-## ICUEncoding::GetByteCount(const System::Details::StackArray\<char_t, N\>\&, int, int) method
+## ICUEncoding::GetByteCount(const System::Details::StackArray\<char_t, N\>&, int, int) method
 
 
 RTTI.
@@ -54,7 +54,7 @@ RTTI.
 template<std::size_t> int System::Text::Encoding::GetByteCount(const System::Details::StackArray<char_t, N> &chars, int index, int count)
 ```
 
-## ICUEncoding::GetByteCount(const String\&) method
+## ICUEncoding::GetByteCount(const String&) method
 
 
 RTTI.
@@ -72,7 +72,7 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars)
 ```
 
-## ICUEncoding::GetByteCount(const char_t *, int) method
+## ICUEncoding::GetByteCount(const char_t \*, int) method
 
 
 RTTI.

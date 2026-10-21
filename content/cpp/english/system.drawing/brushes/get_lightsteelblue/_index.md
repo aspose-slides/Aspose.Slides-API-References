@@ -1,7 +1,7 @@
 ---
 title: get_LightSteelBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFB0C4DE.
+description: "Returns the solid fill color whose hexadecimal value is #FFB0C4DE."
 type: docs
 weight: 963
 url: /system.drawing/brushes/get_lightsteelblue/

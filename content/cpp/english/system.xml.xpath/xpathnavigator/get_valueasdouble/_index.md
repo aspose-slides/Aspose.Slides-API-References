@@ -20,6 +20,14 @@ double System::Xml::XPath::XPathNavigator::get_ValueAsDouble() override
 
 The current node's value as a [Double](../../../system/double/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's string value cannot be converted to a [Double](../../../system/double/). |
+| InvalidCastException | The attempted cast to [Double](../../../system/double/) is not valid. |
+
+
 ## See Also
 
 * Class [XPathNavigator](../)

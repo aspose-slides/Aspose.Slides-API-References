@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates a new empty group shape and adds it to the end of the shape collection. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+description: Creates a new empty group shape and adds it to the end of the shape collection. The group’s frame will automatically adjust to fit any shapes added to it.
 type: docs
 weight: 352
 url: /aspose.slides/ishapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addgroupshape/
 ## IShapeCollection::AddGroupShape() method
 
 
-Creates a new empty group shape and adds it to the end of the shape collection. The group\\u2019s frame will automatically adjust to fit any shapes added to it.
+Creates a new empty group shape and adds it to the end of the shape collection. The group’s frame will automatically adjust to fit any shapes added to it.
 
 ```cpp
 virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGroupShape()=0
@@ -35,10 +35,10 @@ virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGrou
 | Parameter | Type | Description |
 | --- | --- | --- |
 | svgImage | [System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\> | The [ISvgImage](../../isvgimage/) containing vector content to convert into shapes. |
-| x | **float** | The x-coordinate of the group\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the group\\u2019s frame, in points. |
-| width | **float** | The width of the group\\u2019s frame, in points. |
-| height | **float** | The height of the group\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the group’s frame, in points. |
+| y | **float** | The y-coordinate of the group’s frame, in points. |
+| width | **float** | The width of the group’s frame, in points. |
+| height | **float** | The height of the group’s frame, in points. |
 
 ### Return Value
 

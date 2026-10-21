@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.runtime.compilerservices/unsafe/aspointer/
 ---
-## Unsafe::AsPointer(T\&) method
+## Unsafe::AsPointer(T&) method
 
 
 Returns a pointer to the specified value.
@@ -26,7 +26,7 @@ template<typename T> static void * System::Runtime::CompilerServices::Unsafe::As
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | T\& | The value to obtain a pointer for. |
+| value | T& | The value to obtain a pointer for. |
 
 ### Return Value
 

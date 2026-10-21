@@ -9,7 +9,7 @@ url: /system.drawing.imaging/imageformat/get_wmf/
 ## ImageFormat::get_Wmf() method
 
 
-Returns a shared pointer to an [ImageFormat](../) object that represents the [Windows](../../../system.windows/) metafile (WMF) image format.
+Returns a shared pointer to an [ImageFormat](../) object that represents the Windows metafile (WMF) image format.
 
 ```cpp
 static ImageFormatPtr System::Drawing::Imaging::ImageFormat::get_Wmf()

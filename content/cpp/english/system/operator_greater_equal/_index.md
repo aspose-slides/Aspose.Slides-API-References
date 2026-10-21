@@ -1,12 +1,12 @@
 ---
 title: operator>=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::operator>=() function"
 type: docs
 weight: 2159
 url: /system/operator_greater_equal/
 ---
-## System::operator>=(std::nullptr_t, DateTime) function
+## System::operator\>=(std::nullptr_t, DateTime) function
 
 
 
@@ -15,7 +15,7 @@ url: /system/operator_greater_equal/
 constexpr bool System::operator>=(std::nullptr_t, DateTime)
 ```
 
-## System::operator>=(std::nullptr_t, const DateTimeOffset\&) function
+## System::operator\>=(std::nullptr_t, const DateTimeOffset&) function
 
 
 
@@ -24,7 +24,7 @@ constexpr bool System::operator>=(std::nullptr_t, DateTime)
 constexpr bool System::operator>=(std::nullptr_t, const DateTimeOffset &)
 ```
 
-## System::operator>=(std::nullptr_t, const Nullable\<T\>\&) function
+## System::operator\>=(std::nullptr_t, const Nullable\<T\>&) function
 
 
 Always returns false.
@@ -33,10 +33,10 @@ Always returns false.
 template<typename T> bool System::operator>=(std::nullptr_t, const Nullable<T> &)
 ```
 
-## System::operator>=(const T1\&, const Nullable\<T2\>\&) function
+## System::operator\>=(const T1&, const Nullable\<T2\>&) function
 
 
-Determines if the specified value is greater or equal to the value represented by the specified [Nullable](../nullable/) object by applying [operator>=()](./) to these values.
+Determines if the specified value is greater or equal to the value represented by the specified [Nullable](../nullable/) object by applying [operator\>=()](./) to these values.
 
 ```cpp
 template<typename T1,typename T2> std::enable_if<!IsNullable<T1>::value, bool>::type System::operator>=(const T1 &some, const Nullable<T2> &other)
@@ -54,14 +54,14 @@ template<typename T1,typename T2> std::enable_if<!IsNullable<T1>::value, bool>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| some | const T1\& | A constant reference to the value that is to be used as the first comparand |
-| other | const [Nullable](../nullable/)\<T2\>\& | A constant reference to the [Nullable](../nullable/) object the represented value of which is to be used as the second comparand |
+| some | const T1& | A constant reference to the value that is to be used as the first comparand |
+| other | const [Nullable](../nullable/)\<T2\>& | A constant reference to the [Nullable](../nullable/) object the represented value of which is to be used as the second comparand |
 
 ### Return Value
 
 True if the first comparand is greater or equal than the second comparand, otherwise - false
 
-## System::operator>=(std::nullptr_t, TimeSpan) function
+## System::operator\>=(std::nullptr_t, TimeSpan) function
 
 
 

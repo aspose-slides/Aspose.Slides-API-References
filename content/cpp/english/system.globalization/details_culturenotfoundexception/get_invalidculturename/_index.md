@@ -1,7 +1,7 @@
 ---
 title: get_InvalidCultureName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_CultureNotFoundException::get_InvalidCultureName() method"
 type: docs
 weight: 14
 url: /system.globalization/details_culturenotfoundexception/get_invalidculturename/

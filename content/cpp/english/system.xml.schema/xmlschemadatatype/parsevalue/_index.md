@@ -28,6 +28,14 @@ virtual SharedPtr<Object> System::Xml::Schema::XmlSchemaDatatype::ParseValue(Str
 
 An [Object](../../../system/object/) that can be cast safely to the type returned by the [XmlSchemaDatatype::get_ValueType](../get_valuetype/) call.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The input value is not a valid instance of this W3C XML [Schema](../../) type. |
+| ArgumentNullException | The value to parse cannot be **nullptr**. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

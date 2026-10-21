@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.threading/monitor/exit/
 ---
-## Monitor::Exit(const SharedPtr\<Object\>\&) method
+## Monitor::Exit(const SharedPtr\<Object\>&) method
 
 
 Releases an exclusive lock on the specified object.
@@ -20,7 +20,15 @@ static void System::Threading::Monitor::Exit(const SharedPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object on which to release the lock. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object on which to release the lock. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The obj parameter is null. |
+| SynchronizationLockException | The current thread does not own the lock for the specified object. |
+
 
 ## See Also
 

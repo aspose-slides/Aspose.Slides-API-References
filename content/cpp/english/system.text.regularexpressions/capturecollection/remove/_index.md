@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.text.regularexpressions/capturecollection/remove/
 ---
-## CaptureCollection::Remove(const CapturePtr\&) method
+## CaptureCollection::Remove(const CapturePtr&) method
 
 
 Disables collection ammendment.
@@ -20,7 +20,7 @@ bool System::Text::RegularExpressions::CaptureCollection::Remove(const CapturePt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [CapturePtr](../../captureptr/)\& | Item to remove; ignored. |
+| item | const [CapturePtr](../../captureptr/)& | Item to remove; ignored. |
 
 ### Return Value
 

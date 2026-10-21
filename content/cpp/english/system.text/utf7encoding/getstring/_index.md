@@ -28,7 +28,7 @@ String System::Text::UTF7Encoding::GetString(ArrayPtr<uint8_t> bytes, int index,
 
 [String](../../../system/string/) of decoded characters.
 
-## UTF7Encoding::GetString(uint8_t *, int) method
+## UTF7Encoding::GetString(uint8_t \*, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -42,14 +42,14 @@ virtual String System::Text::Encoding::GetString(uint8_t *bytes, int byte_count)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | **uint8_t** * | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | **uint8_t** \* | [Buffer](../../../system/buffer/) to read bytes from. |
 | byte_count | int | Input buffer size. |
 
 ### Return Value
 
 [String](../../../system/string/) of decoded characters.
 
-## UTF7Encoding::GetString(const ReadOnlySpan\<uint8_t\>\&) method
+## UTF7Encoding::GetString(const ReadOnlySpan\<uint8_t\>&) method
 
 
 Decodes a buffer of bytes into a string.
@@ -63,7 +63,7 @@ String System::Text::Encoding::GetString(const ReadOnlySpan<uint8_t> &bytes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>\& | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | const [ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>& | [Buffer](../../../system/buffer/) to read bytes from. |
 
 ### Return Value
 
@@ -89,7 +89,7 @@ virtual String System::Text::Encoding::GetString(ArrayPtr<uint8_t> bytes)
 
 [String](../../../system/string/) of decoded characters.
 
-## UTF7Encoding::GetString(const System::Details::ArrayView\<uint8_t\>\&) method
+## UTF7Encoding::GetString(const System::Details::ArrayView\<uint8_t\>&) method
 
 
 Decodes a buffer of bytes into a string.
@@ -103,13 +103,13 @@ virtual String System::Text::Encoding::GetString(const System::Details::ArrayVie
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const System::Details::ArrayView\<**uint8_t**\>\& | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | const System::Details::ArrayView\<**uint8_t**\>& | [Buffer](../../../system/buffer/) to read bytes from. |
 
 ### Return Value
 
 [String](../../../system/string/) of decoded characters.
 
-## UTF7Encoding::GetString(System::Details::StackArray\<uint8_t, N\>\&) method
+## UTF7Encoding::GetString(System::Details::StackArray\<uint8_t, N\>&) method
 
 
 Decodes a buffer of bytes into a string.
@@ -123,7 +123,7 @@ template<std::size_t> String System::Text::Encoding::GetString(System::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | System::Details::StackArray\<**uint8_t**, N\>\& | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | System::Details::StackArray\<**uint8_t**, N\>& | [Buffer](../../../system/buffer/) to read bytes from. |
 
 ### Return Value
 
@@ -151,7 +151,7 @@ virtual String System::Text::Encoding::GetString(ArrayPtr<uint8_t> bytes, int in
 
 [String](../../../system/string/) of decoded characters.
 
-## UTF7Encoding::GetString(const System::Details::ArrayView\<uint8_t\>\&, int, int) method
+## UTF7Encoding::GetString(const System::Details::ArrayView\<uint8_t\>&, int, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -165,7 +165,7 @@ virtual String System::Text::Encoding::GetString(const System::Details::ArrayVie
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const System::Details::ArrayView\<**uint8_t**\>\& | [Buffer](../../../system/buffer/) to read bytes from. |
+| bytes | const System::Details::ArrayView\<**uint8_t**\>& | [Buffer](../../../system/buffer/) to read bytes from. |
 | index | int | Input buffer offset. |
 | count | int | Input buffer size. |
 

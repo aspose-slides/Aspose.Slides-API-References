@@ -16,6 +16,13 @@ virtual System::String Aspose::Slides::Charts::IChartDataCell::get_CustomNumberF
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if value is **null**. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

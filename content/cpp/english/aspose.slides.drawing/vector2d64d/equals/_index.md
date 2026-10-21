@@ -1,12 +1,12 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Vector2d64d::Equals() method"
 type: docs
 weight: 92
 url: /aspose.slides.drawing/vector2d64d/equals/
 ---
-## Vector2d64d::Equals(const Vector2d64d\&) method
+## Vector2d64d::Equals(const Vector2d64d&) method
 
 
 

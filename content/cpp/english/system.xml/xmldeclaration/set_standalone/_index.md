@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml/xmldeclaration/set_standalone/
 ---
-## XmlDeclaration::set_Standalone(const String\&) method
+## XmlDeclaration::set_Standalone(const String&) method
 
 
 Sets the value of the standalone attribute.
@@ -20,7 +20,7 @@ void System::Xml::XmlDeclaration::set_Standalone(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaidentityconstraint/set_name/
 ---
-## XmlSchemaIdentityConstraint::set_Name(const String\&) method
+## XmlSchemaIdentityConstraint::set_Name(const String&) method
 
 
 Sets the name of the identity constraint.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaIdentityConstraint::set_Name(const String &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

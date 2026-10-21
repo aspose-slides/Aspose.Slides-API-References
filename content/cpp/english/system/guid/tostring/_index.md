@@ -15,7 +15,7 @@ Converts the GUID represented by the current object to its string representation
 String System::Guid::ToString() const
 ```
 
-## Guid::ToString(const String\&) const method
+## Guid::ToString(const String&) const method
 
 
 Converts the GUID represented by the current object to its string representation using the specified string format.
@@ -29,13 +29,13 @@ String System::Guid::ToString(const String &format) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | The format to use |
+| format | const [String](../../string/)& | The format to use |
 
 ### Return Value
 
 The string representation of the GUID value represented by the current object
 
-## Guid::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## Guid::ToString(const String&, const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 Converts the GUID represented by the current object to its string representation using the specified string format and Culture.
@@ -49,8 +49,8 @@ String System::Guid::ToString(const String &format, const SharedPtr<Globalizatio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | The format to use |
-| culture | const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use |
+| format | const [String](../../string/)& | The format to use |
+| culture | const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use |
 
 ### Return Value
 

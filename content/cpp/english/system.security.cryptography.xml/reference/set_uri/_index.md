@@ -1,7 +1,7 @@
 ---
 title: set_Uri()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::set_Uri() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/reference/set_uri/

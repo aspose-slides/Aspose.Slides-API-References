@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.memoryextensions/compareto/
 ---
-## System::MemoryExtensions::CompareTo(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
+## System::MemoryExtensions::CompareTo(const ReadOnlySpan\<char16_t\>&, const ReadOnlySpan\<char16_t\>&, StringComparison) function
 
 
 Compares two character spans with specified string comparison rules.
@@ -20,13 +20,13 @@ int32_t System::MemoryExtensions::CompareTo(const ReadOnlySpan<char16_t> &span, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The first character span |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The second character span |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The first character span |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The second character span |
 | comparisonType | [StringComparison](../../system/stringcomparison/) | The type of string comparison to perform |
 
 ### Return Value
 
-Negative value if span < other, zero if equal, positive if span > other
+Negative value if span \< other, zero if equal, positive if span \> other
 
 ## See Also
 

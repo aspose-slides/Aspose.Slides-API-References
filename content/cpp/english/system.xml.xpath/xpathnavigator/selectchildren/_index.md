@@ -47,6 +47,13 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::SelectC
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that contains the selected nodes.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **nullptr** cannot be passed as a parameter. |
+
+
 ## See Also
 
 * Enum [XPathNodeType](../../xpathnodetype/)

@@ -16,6 +16,13 @@ System::SharedPtr<IComment> Aspose::Slides::Comment::get_ParentComment() overrid
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown when setting the value leads to a circular reference |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

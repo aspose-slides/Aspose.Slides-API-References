@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /system.drawing/graphics/multiplytransform/
 ---
-## Graphics::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>\&, Drawing2D::MatrixOrder) method
+## Graphics::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>&, Drawing2D::MatrixOrder) method
 
 
 Multiplies the world transformation matrix of the current [Graphics](../) object by the specified matrix.
@@ -20,7 +20,7 @@ void System::Drawing::Graphics::MultiplyTransform(const SharedPtr<Drawing2D::Mat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\& | The matrix to multiply the world transformation matrix of the current [Graphics](../) object by |
+| matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>& | The matrix to multiply the world transformation matrix of the current [Graphics](../) object by |
 | order | [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/) | The multiplication order |
 
 ## See Also

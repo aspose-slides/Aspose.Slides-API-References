@@ -15,7 +15,7 @@ Constructs a new instance of [ColorMatrix](../) class and initializes it with th
 System::Drawing::Imaging::ColorMatrix::ColorMatrix()
 ```
 
-## ColorMatrix::ColorMatrix(const System::ArrayPtr\<System::ArrayPtr\<float\>\>\&) constructor
+## ColorMatrix::ColorMatrix(const System::ArrayPtr\<System::ArrayPtr\<float\>\>&) constructor
 
 
 Constructs a new instance of [ColorMatrix](../) class and initializes it with the specified values.
@@ -29,7 +29,7 @@ System::Drawing::Imaging::ColorMatrix::ColorMatrix(const System::ArrayPtr<System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::ArrayPtr](../../../system/arrayptr/)\<**float**\>\>\& | A 2-dimensional array containing value ot initialize the matrix with |
+| matrix | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::ArrayPtr](../../../system/arrayptr/)\<**float**\>\>& | A 2-dimensional array containing value ot initialize the matrix with |
 
 ## See Also
 

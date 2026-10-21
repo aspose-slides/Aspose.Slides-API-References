@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.io/bufferedstream/bufferedstream/
 ---
-## BufferedStream::BufferedStream(const SharedPtr\<Stream\>\&) constructor
+## BufferedStream::BufferedStream(const SharedPtr\<Stream\>&) constructor
 
 
 Constructs an [BufferedStream](../) object that wraps the specified stream and uses a 4096 bytes long buffer.
@@ -20,9 +20,9 @@ System::IO::BufferedStream::BufferedStream(const SharedPtr<Stream> &stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying [Stream](../../stream/) object |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The underlying [Stream](../../stream/) object |
 
-## BufferedStream::BufferedStream(const SharedPtr\<Stream\>\&, int) constructor
+## BufferedStream::BufferedStream(const SharedPtr\<Stream\>&, int) constructor
 
 
 Constructs an [BufferedStream](../) object that wraps the specified stream and uses a buffer of the specified size.
@@ -36,7 +36,7 @@ System::IO::BufferedStream::BufferedStream(const SharedPtr<Stream> &stream, int 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying [Stream](../../stream/) object |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>& | The underlying [Stream](../../stream/) object |
 | bufferSize | int | The size of the buffer in bytes |
 
 ## See Also

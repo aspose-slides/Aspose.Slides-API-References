@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.xml/xmltextwriter/xmltextwriter/
 ---
-## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<Text::Encoding\>\&) constructor
+## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::Stream\>&, const SharedPtr\<Text::Encoding\>&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified stream and encoding.
@@ -20,10 +20,18 @@ System::Xml::XmlTextWriter::XmlTextWriter(const SharedPtr<IO::Stream> &w, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream to which you want to write. |
-| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to generate. If encoding is **nullptr** it writes out the stream as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The stream to which you want to write. |
+| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | The encoding to generate. If encoding is **nullptr** it writes out the stream as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
 
-## XmlTextWriter::XmlTextWriter(const String\&, const SharedPtr\<Text::Encoding\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The encoding is not supported or the stream cannot be written to. |
+| ArgumentNullException | **w** is **nullptr**. |
+
+
+## XmlTextWriter::XmlTextWriter(const String&, const SharedPtr\<Text::Encoding\>&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified file.
@@ -37,10 +45,22 @@ System::Xml::XmlTextWriter::XmlTextWriter(const String &filename, const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The filename to write to. If the file exists, it truncates it and overwrites it with the new content. |
-| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to generate. If encoding is **nullptr** it writes the file out as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
+| filename | const [String](../../../system/string/)& | The filename to write to. If the file exists, it truncates it and overwrites it with the new content. |
+| encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>& | The encoding to generate. If encoding is **nullptr** it writes the file out as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
 
-## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::TextWriter\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The encoding is not supported; the filename is empty, contains only white space, or contains one or more invalid characters. |
+| UnauthorizedAccessException | Access is denied. |
+| ArgumentNullException | The filename is **nullptr**. |
+| DirectoryNotFoundException | The directory to write to is not found. |
+| IOException | The filename includes an incorrect or invalid syntax for file name, directory name, or volume label syntax. |
+| SecurityException | The caller does not have the required permission. |
+
+
+## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::TextWriter\>&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified TextWriter.
@@ -54,7 +74,7 @@ System::Xml::XmlTextWriter::XmlTextWriter(const SharedPtr<IO::TextWriter> &w)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| w | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWriter to write to. It is assumed that the TextWriter is already set to the correct encoding. |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>& | The TextWriter to write to. It is assumed that the TextWriter is already set to the correct encoding. |
 
 ## See Also
 

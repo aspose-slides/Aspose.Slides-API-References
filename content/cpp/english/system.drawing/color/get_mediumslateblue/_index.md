@@ -1,7 +1,7 @@
 ---
 title: get_MediumSlateBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF7B68EE.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF7B68EE."
 type: docs
 weight: 1405
 url: /system.drawing/color/get_mediumslateblue/

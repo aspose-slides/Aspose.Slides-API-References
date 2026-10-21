@@ -1,12 +1,12 @@
 ---
 title: Create()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::Create() method"
 type: docs
 weight: 53
 url: /system.runtime.interopservices/osplatform/create/
 ---
-## OSPlatform::Create(const String\&) method
+## OSPlatform::Create(const String&) method
 
 
 

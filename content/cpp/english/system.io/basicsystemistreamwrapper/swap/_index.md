@@ -6,10 +6,10 @@ type: docs
 weight: 40
 url: /system.io/basicsystemistreamwrapper/swap/
 ---
-## BasicSystemIStreamWrapper::swap(BasicSystemIStreamWrapper\&) method
+## BasicSystemIStreamWrapper::swap(BasicSystemIStreamWrapper&) method
 
 
-Call to swap *this and **right**, if they are not equal.
+Call to swap \*this and **right**, if they are not equal.
 
 ```cpp
 void System::IO::BasicSystemIStreamWrapper<Elem, Traits>::swap(BasicSystemIStreamWrapper &right)
@@ -20,7 +20,7 @@ void System::IO::BasicSystemIStreamWrapper<Elem, Traits>::swap(BasicSystemIStrea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemIStreamWrapper](../)\& | Rvalue reference to object to be swap |
+| right | [BasicSystemIStreamWrapper](../)& | Rvalue reference to object to be swap |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2809
 url: /system/isnegativeinfinity/
 ---
-## System::IsNegativeInfinity(const T\&) function
+## System::IsNegativeInfinity(const T&) function
 
 
 Determines if the specified value represents negative infinity.
@@ -26,7 +26,7 @@ template<typename T> bool System::IsNegativeInfinity(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to check |
+| value | const T& | The value to check |
 
 ### Return Value
 

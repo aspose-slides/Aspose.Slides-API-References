@@ -1,7 +1,7 @@
 ---
 title: "System::Web::Services::Protocols"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Web::Services::Protocols namespace"
 type: docs
 weight: 1093
 url: /system.web.services.protocols/

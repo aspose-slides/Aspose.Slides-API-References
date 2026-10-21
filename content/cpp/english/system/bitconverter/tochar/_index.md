@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/bitconverter/tochar/
 ---
-## BitConverter::ToChar(const System::ArrayPtr\<uint8_t\>\&, int) method
+## BitConverter::ToChar(const System::ArrayPtr\<uint8_t\>&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to char_t value.
@@ -20,14 +20,14 @@ static char_t System::BitConverter::ToChar(const System::ArrayPtr<uint8_t> &valu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | [Array](../../array/) that contains bytes to convert |
+| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | [Array](../../array/) that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value
 
 char_t value resulting from conversion
 
-## BitConverter::ToChar(const System::Details::ArrayView\<uint8_t\>\&, int) method
+## BitConverter::ToChar(const System::Details::ArrayView\<uint8_t\>&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to char_t value.
@@ -41,7 +41,7 @@ static char_t System::BitConverter::ToChar(const System::Details::ArrayView<uint
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::Details::ArrayView\<**uint8_t**\>\& | ArrayView that contains bytes to convert |
+| value | const System::Details::ArrayView\<**uint8_t**\>& | ArrayView that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value

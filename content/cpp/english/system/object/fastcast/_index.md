@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system/object/fastcast/
 ---
-## Object::FastCast(const Details::FastRttiBase\&, void **) const method
+## Object::FastCast(const Details::FastRttiBase&, void \*\*) const method
 
 
 For internal purposes only.
@@ -20,8 +20,8 @@ virtual bool System::Object::FastCast(const Details::FastRttiBase &helper, void 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| helper | const Details::FastRttiBase\& | FastRttiBase structure specialized with a desired type. |
-| out_ptr | void ** | A pointer to a desired type if conversion is available. |
+| helper | const Details::FastRttiBase& | FastRttiBase structure specialized with a desired type. |
+| out_ptr | void \*\* | A pointer to a desired type if conversion is available. |
 
 ### Return Value
 

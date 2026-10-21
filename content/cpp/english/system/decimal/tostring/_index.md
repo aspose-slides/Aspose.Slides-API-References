@@ -15,7 +15,7 @@ Returns the string representation of the value represented by the object.
 String System::Decimal::ToString() const
 ```
 
-## Decimal::ToString(const SharedPtr\<IFormatProvider\>\&) const method
+## Decimal::ToString(const SharedPtr\<IFormatProvider\>&) const method
 
 
 Converts current object to string using the culture-specific format information.
@@ -29,13 +29,13 @@ String System::Decimal::ToString(const SharedPtr<IFormatProvider> &provider) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the current object.
 
-## Decimal::ToString(const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## Decimal::ToString(const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 
@@ -44,7 +44,7 @@ The string representation of the current object.
 String System::Decimal::ToString(const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## Decimal::ToString(const SharedPtr\<Globalization::NumberFormatInfo\>\&) const method
+## Decimal::ToString(const SharedPtr\<Globalization::NumberFormatInfo\>&) const method
 
 
 
@@ -53,7 +53,7 @@ String System::Decimal::ToString(const SharedPtr<Globalization::CultureInfo> &cu
 String System::Decimal::ToString(const SharedPtr<Globalization::NumberFormatInfo> &nfi) const
 ```
 
-## Decimal::ToString(const Decimal\&, std::nullptr_t) const method
+## Decimal::ToString(const Decimal&, std::nullptr_t) const method
 
 
 
@@ -62,7 +62,7 @@ String System::Decimal::ToString(const SharedPtr<Globalization::NumberFormatInfo
 String System::Decimal::ToString(const Decimal &value, std::nullptr_t) const
 ```
 
-## Decimal::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
+## Decimal::ToString(const String&, const SharedPtr\<IFormatProvider\>&) const method
 
 
 Converts current object to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -76,14 +76,14 @@ String System::Decimal::ToString(const String &format, const SharedPtr<IFormatPr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | The string format. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
+| format | const [String](../../string/)& | The string format. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | The [IFormatProvider](../../iformatprovider/) object providing the culture-specific format information. |
 
 ### Return Value
 
 The string representation of the current object.
 
-## Decimal::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## Decimal::ToString(const String&, const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 
@@ -92,7 +92,7 @@ The string representation of the current object.
 String System::Decimal::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## Decimal::ToString(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) const method
+## Decimal::ToString(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) const method
 
 
 
@@ -101,7 +101,7 @@ String System::Decimal::ToString(const String &format, const SharedPtr<Globaliza
 String System::Decimal::ToString(const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi) const
 ```
 
-## Decimal::ToString(const String\&, std::nullptr_t) const method
+## Decimal::ToString(const String&, std::nullptr_t) const method
 
 
 

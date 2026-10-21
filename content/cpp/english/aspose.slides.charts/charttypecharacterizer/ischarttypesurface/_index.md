@@ -9,7 +9,7 @@ url: /aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
 ## ChartTypeCharacterizer::IsChartTypeSurface(ChartType) method
 
 
-Return true if chartType is one of Surface subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see \"Change Chart Type\" dialog in PowerPoint): [ChartType::Surface3D](../../charttype/), [ChartType::WireframeSurface3D](../../charttype/), [ChartType::Contour](../../charttype/), [ChartType::WireframeContour](../../charttype/).
+Return true if chartType is one of Surface subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): [ChartType::Surface3D](../../charttype/), [ChartType::WireframeSurface3D](../../charttype/), [ChartType::Contour](../../charttype/), [ChartType::WireframeContour](../../charttype/).
 
 ```cpp
 static bool Aspose::Slides::Charts::ChartTypeCharacterizer::IsChartTypeSurface(ChartType chartType)

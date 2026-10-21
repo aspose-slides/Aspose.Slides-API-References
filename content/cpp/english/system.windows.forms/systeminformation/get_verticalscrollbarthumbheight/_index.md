@@ -16,6 +16,13 @@ static int System::Windows::Forms::SystemInformation::get_VerticalScrollBarThumb
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Struct [SystemInformation](../)

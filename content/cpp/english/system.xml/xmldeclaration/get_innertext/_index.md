@@ -18,7 +18,7 @@ String System::Xml::XmlDeclaration::get_InnerText() override
 
 ### Return Value
 
-The concatenated values of the [XmlDeclaration](../) (that is, everything between **<?xml** and **?>**).
+The concatenated values of the [XmlDeclaration](../) (that is, everything between **\<?xml** and **?\>**).
 
 ## See Also
 

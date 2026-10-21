@@ -6,10 +6,10 @@ type: docs
 weight: 2380
 url: /system/lequal/
 ---
-## System::LEqual(const ExpressionT\&, const ConstantT\&) function
+## System::LEqual(const ExpressionT&, const ConstantT&) function
 
 
-Implements '<=' relative pattern translation.
+Implements '\<=' relative pattern translation.
 
 ```cpp
 template<class ExpressionT,class ConstantT> bool System::LEqual(const ExpressionT &left, const ConstantT &constant)
@@ -27,8 +27,8 @@ template<class ExpressionT,class ConstantT> bool System::LEqual(const Expression
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const ExpressionT\& | expression which will be checked. |
-| constant | const ConstantT\& | expression which will be compared with left one. |
+| left | const ExpressionT& | expression which will be checked. |
+| constant | const ConstantT& | expression which will be compared with left one. |
 
 ### Return Value
 

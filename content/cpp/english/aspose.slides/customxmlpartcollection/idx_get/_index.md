@@ -26,6 +26,13 @@ System::SharedPtr<ICustomXmlPart> Aspose::Slides::CustomXmlPartCollection::idx_g
 
 The element at the specified index.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | index is less than 0.-or-index is equal to or greater than Count |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

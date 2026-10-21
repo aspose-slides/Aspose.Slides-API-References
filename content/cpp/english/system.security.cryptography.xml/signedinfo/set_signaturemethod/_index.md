@@ -1,7 +1,7 @@
 ---
 title: set_SignatureMethod()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedInfo::set_SignatureMethod() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/signedinfo/set_signaturemethod/

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system/guid/tryparse/
 ---
-## Guid::TryParse(const String\&, Guid\&) method
+## Guid::TryParse(const String&, Guid&) method
 
 
 Tries to convert the specified string into [Guid](../) object.
@@ -20,8 +20,8 @@ static bool System::Guid::TryParse(const String &input, Guid &g)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | The string to convert |
-| g | [Guid](../)\& | Output [Guid](../) object, if successful. |
+| input | const [String](../../string/)& | The string to convert |
+| g | [Guid](../)& | Output [Guid](../) object, if successful. |
 
 ### Return Value
 

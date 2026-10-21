@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /system.globalization/numberformatinfo/set_numbergroupsizes/
 ---
-## NumberFormatInfo::set_NumberGroupSizes(const ArrayPtr\<int\>\&) method
+## NumberFormatInfo::set_NumberGroupSizes(const ArrayPtr\<int\>&) method
 
 
 Sets numbers of digits per group.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_NumberGroupSizes(const ArrayPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<int\>\& | [Array](../../../system/array/) of digits per group, left to right; each element must be 1 to 9, last one can be 0 which means \"combine all\"; last element repeats. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<int\>& | [Array](../../../system/array/) of digits per group, left to right; each element must be 1 to 9, last one can be 0 which means "combine all"; last element repeats. |
 
 ## See Also
 

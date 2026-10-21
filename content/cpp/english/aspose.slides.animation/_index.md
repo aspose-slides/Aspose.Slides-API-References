@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Animation"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Animation namespace"
 type: docs
 weight: 14
 url: /aspose.slides.animation/

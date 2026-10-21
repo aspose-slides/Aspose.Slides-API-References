@@ -16,6 +16,13 @@ void Aspose::Slides::Comment::Remove() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown if comment is already removed |
+
+
 ## See Also
 
 * Class [Comment](../)

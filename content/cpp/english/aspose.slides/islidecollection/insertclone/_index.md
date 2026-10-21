@@ -30,7 +30,7 @@ Inserted slide.
 
 
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [InsertClone(int32_t, SharedPtr<ISlide>, SharedPtr<ILayoutSlide>)](./) or [InsertClone(int32_t, SharedPtr<ISlide>, SharedPtr<IMasterSlide>, bool)](./) for cloning slides and [IMasterSlideCollection::AddClone(SharedPtr<IMasterSlide>)](../../imasterslidecollection/addclone/) for cloning masters. 
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [InsertClone(int32_t, SharedPtr\<ISlide\>, SharedPtr\<ILayoutSlide\>)](./) or [InsertClone(int32_t, SharedPtr\<ISlide\>, SharedPtr\<IMasterSlide\>, bool)](./) for cloning slides and [IMasterSlideCollection::AddClone(SharedPtr\<IMasterSlide\>)](../../imasterslidecollection/addclone/) for cloning masters. 
 
 ## ISlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>, System::SharedPtr\<ILayoutSlide\>) method
 
@@ -76,6 +76,13 @@ virtual System::SharedPtr<ISlide> Aspose::Slides::ISlideCollection::InsertClone(
 ### Return Value
 
 Inserted slide.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if there is no appropriate layout in specified master and allowCloneMissingLayout is false. |
+
 
 ## See Also
 

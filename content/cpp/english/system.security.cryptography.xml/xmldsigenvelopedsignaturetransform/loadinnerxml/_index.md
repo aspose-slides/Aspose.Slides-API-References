@@ -1,7 +1,7 @@
 ---
 title: LoadInnerXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigEnvelopedSignatureTransform::LoadInnerXml() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/loadinnerxml/

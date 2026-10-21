@@ -15,7 +15,7 @@ Constructs empty regexp.
 System::Text::RegularExpressions::Regex::Regex()
 ```
 
-## Regex::Regex(const String\&) constructor
+## Regex::Regex(const String&) constructor
 
 
 Constructor.
@@ -29,9 +29,9 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../../system/string/)\& | C#-syntaxed pattern. |
+| pattern | const [String](../../../system/string/)& | C#-syntaxed pattern. |
 
-## Regex::Regex(const String\&, RegexOptions) constructor
+## Regex::Regex(const String&, RegexOptions) constructor
 
 
 Constructor.
@@ -45,10 +45,10 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern, RegexOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../../system/string/)\& | C#-syntaxed pattern. |
+| pattern | const [String](../../../system/string/)& | C#-syntaxed pattern. |
 | options | [RegexOptions](../../regexoptions/) | [Regex](../) matching options. |
 
-## Regex::Regex(const String\&, RegexOptions, TimeSpan) constructor
+## Regex::Regex(const String&, RegexOptions, TimeSpan) constructor
 
 
 Constructor.
@@ -62,7 +62,7 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern, RegexOptio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../../system/string/)\& | C#-syntaxed pattern. |
+| pattern | const [String](../../../system/string/)& | C#-syntaxed pattern. |
 | options | [RegexOptions](../../regexoptions/) | [Regex](../) matching options. |
 | matchTimeout | [TimeSpan](../../../system/timespan/) | Timeout to break matching. |
 

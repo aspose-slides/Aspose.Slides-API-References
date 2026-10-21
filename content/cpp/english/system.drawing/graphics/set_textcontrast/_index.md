@@ -16,6 +16,13 @@ void System::Drawing::Graphics::set_TextContrast(int32_t value)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Graphics](../)

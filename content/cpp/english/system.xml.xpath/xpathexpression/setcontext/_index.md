@@ -22,6 +22,13 @@ virtual void System::Xml::XPath::XPathExpression::SetContext(SharedPtr<XmlNamesp
 | --- | --- | --- |
 | nsManager | [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\> | An [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) object to use for namespace resolution. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) object parameter is not derived from the [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) class. |
+
+
 ## XPathExpression::SetContext(SharedPtr\<IXmlNamespaceResolver\>) method
 
 
@@ -37,6 +44,13 @@ virtual void System::Xml::XPath::XPathExpression::SetContext(SharedPtr<IXmlNames
 | Parameter | Type | Description |
 | --- | --- | --- |
 | nsResolver | [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\> | An object that implements the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) interface to use for namespace resolution. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XPathException | The [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object parameter is not derived from [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/). |
+
 
 ## See Also
 

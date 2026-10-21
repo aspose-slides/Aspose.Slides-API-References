@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.concurrent/concurrentdictionary/tryadd/
 ---
-## ConcurrentDictionary::TryAdd(const TKey\&, const TValue\&) method
+## ConcurrentDictionary::TryAdd(const TKey&, const TValue&) method
 
 
 Tries to add key/value pair into the dictionary.
@@ -20,8 +20,8 @@ bool System::Collections::Concurrent::ConcurrentDictionary<TKey, TValue>::TryAdd
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to add. |
-| value | const TValue\& | Value to add. |
+| key | const TKey& | Key to add. |
+| value | const TValue& | Value to add. |
 
 ### Return Value
 

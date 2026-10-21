@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.xml.schema/xmlschema/read/
 ---
-## XmlSchema::Read(const SharedPtr\<IO::TextReader\>\&, ValidationEventHandler) method
+## XmlSchema::Read(const SharedPtr\<IO::TextReader\>&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied [IO::TextReader](../../../system.io/textreader/).
@@ -20,14 +20,21 @@ static SharedPtr<XmlSchema> System::Xml::Schema::XmlSchema::Read(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The [IO::TextReader](../../../system.io/textreader/) containing the XML [Schema](../../) to read. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>& | The [IO::TextReader](../../../system.io/textreader/) containing the XML [Schema](../../) to read. |
 | validationEventHandler | [ValidationEventHandler](../../validationeventhandler/) | The validation event handler that receives information about the XML [Schema](../../) syntax errors. |
 
 ### Return Value
 
 The [XmlSchema](../) object representing the XML [Schema](../../).
 
-## XmlSchema::Read(const SharedPtr\<IO::Stream\>\&, ValidationEventHandler) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | An XmlSchemaException is raised if no ValidationEventHandler is specified. |
+
+
+## XmlSchema::Read(const SharedPtr\<IO::Stream\>&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied stream.
@@ -41,14 +48,21 @@ static SharedPtr<XmlSchema> System::Xml::Schema::XmlSchema::Read(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The supplied data stream. |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The supplied data stream. |
 | validationEventHandler | [ValidationEventHandler](../../validationeventhandler/) | The validation event handler that receives information about XML [Schema](../../) syntax errors. |
 
 ### Return Value
 
 The [XmlSchema](../) object representing the XML [Schema](../../).
 
-## XmlSchema::Read(const SharedPtr\<XmlReader\>\&, ValidationEventHandler) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | An XmlSchemaException is raised if no ValidationEventHandler is specified. |
+
+
+## XmlSchema::Read(const SharedPtr\<XmlReader\>&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied [XmlReader](../../../system.xml/xmlreader/).
@@ -62,12 +76,19 @@ static SharedPtr<XmlSchema> System::Xml::Schema::XmlSchema::Read(const SharedPtr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) containing the XML [Schema](../../) to read. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | The [XmlReader](../../../system.xml/xmlreader/) containing the XML [Schema](../../) to read. |
 | validationEventHandler | [ValidationEventHandler](../../validationeventhandler/) | The validation event handler that receives information about the XML [Schema](../../) syntax errors. |
 
 ### Return Value
 
 The [XmlSchema](../) object representing the XML [Schema](../../).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | An XmlSchemaException is raised if no ValidationEventHandler is specified. |
+
 
 ## See Also
 

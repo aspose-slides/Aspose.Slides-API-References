@@ -18,7 +18,7 @@ char16_t System::Xml::XmlTextReader::get_QuoteChar() override
 
 ### Return Value
 
-The quotation mark character (\" or ') used to enclose the value of an attribute node.
+The quotation mark character (" or ') used to enclose the value of an attribute node.
 
 ## See Also
 

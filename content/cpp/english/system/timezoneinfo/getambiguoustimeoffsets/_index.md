@@ -26,7 +26,7 @@ ArrayPtr<TimeSpan> System::TimeZoneInfo::GetAmbiguousTimeOffsets(DateTime date_t
 
 [Array](../../array/) of UTC dates and times.
 
-## TimeZoneInfo::GetAmbiguousTimeOffsets(const DateTimeOffset\&) const method
+## TimeZoneInfo::GetAmbiguousTimeOffsets(const DateTimeOffset&) const method
 
 
 Gets UTC dates and times that a specified date and time can be mapped to.
@@ -40,7 +40,7 @@ ArrayPtr<TimeSpan> System::TimeZoneInfo::GetAmbiguousTimeOffsets(const DateTimeO
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)\& | Date and time. |
+| date_time_offset | const [DateTimeOffset](../../datetimeoffset/)& | Date and time. |
 
 ### Return Value
 

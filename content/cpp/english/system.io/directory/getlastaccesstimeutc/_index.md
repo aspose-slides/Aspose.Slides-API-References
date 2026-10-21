@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.io/directory/getlastaccesstimeutc/
 ---
-## Directory::GetLastAccessTimeUtc(const String\&) method
+## Directory::GetLastAccessTimeUtc(const String&) method
 
 
 Returns the last access time of the specified entity as UTC time.
@@ -20,7 +20,7 @@ static DateTime System::IO::Directory::GetLastAccessTimeUtc(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last access time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose last access time to retrieve |
 
 ### Return Value
 

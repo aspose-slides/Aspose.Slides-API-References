@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Excel"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Excel namespace"
 type: docs
 weight: 79
 url: /aspose.slides.excel/

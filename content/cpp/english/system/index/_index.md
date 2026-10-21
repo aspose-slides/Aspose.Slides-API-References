@@ -19,7 +19,7 @@ class Index : public System::Details::BoxableObjectBase
 
 | Method | Description |
 | --- | --- |
-| **bool** [Equals](./equals/)(const [Index](./)\&) const | Determines whether the current instance and the specified [Index](./) represent the same position. |
+| **bool** [Equals](./equals/)(const [Index](./)&) const | Determines whether the current instance and the specified [Index](./) represent the same position. |
 | static constexpr [Index](./) [FromEnd](./fromend/)(**int32_t**) | Creates an [Index](./) that is relative to the end of the collection. |
 | static constexpr [Index](./) [get_End](./get_end/)() | Gets an [Index](./) object representing the end of a collection. |
 | constexpr **bool** [get_IsFromEnd](./get_isfromend/)() const | Gets a value that indicates whether the index is from the end. |

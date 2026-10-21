@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.text.regularexpressions/regex/unescape/
 ---
-## Regex::Unescape(const String\&) method
+## Regex::Unescape(const String&) method
 
 
 Unescapes special characters in string used as part of the pattern.
@@ -20,7 +20,7 @@ static String System::Text::RegularExpressions::Regex::Unescape(const String &st
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to unescape special characters in. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to unescape special characters in. |
 
 ### Return Value
 

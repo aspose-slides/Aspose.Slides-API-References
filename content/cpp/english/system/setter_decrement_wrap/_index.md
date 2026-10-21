@@ -6,7 +6,7 @@ type: docs
 weight: 2887
 url: /system/setter_decrement_wrap/
 ---
-## System::setter_decrement_wrap(T(*)(), void(*)(T)) function
+## System::setter_decrement_wrap(T(\*)(), void(\*)(T)) function
 
 
 Translator translates C#'s pre-decrement expressions targeting class' property that has setter and getter defined, into invocation of this function.
@@ -26,14 +26,14 @@ template<typename T> T System::setter_decrement_wrap(T(*pGetter)(), void(*pSette
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pGetter | T(*)() | Function pointer pointing to the property's getter free function |
-| pSetter | void(*)(T) | Function pointer pointing to the property's setter free function |
+| pGetter | T(\*)() | Function pointer pointing to the property's getter free function |
+| pSetter | void(\*)(T) | Function pointer pointing to the property's setter free function |
 
 ### Return Value
 
 The value of the property before incrementing
 
-## System::setter_decrement_wrap(Host *const, T(HostGet::*)(), void(HostSet::*)(T)) function
+## System::setter_decrement_wrap(Host \*const, T(HostGet::\*)(), void(HostSet::\*)(T)) function
 
 
 Translator translates C#'s pre-decrement expressions targeting instance's property that has setter and getter defined, into invocation of this function (overload for non-const getter).
@@ -56,15 +56,15 @@ template<typename T,typename Host,typename HostGet,typename HostSet> std::enable
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| host | Host *const | Instance to call getters and setters for. |
-| pGetter | T(HostGet::*)() | Function pointer pointing to the property's getter function |
-| pSetter | void(HostSet::*)(T) | Function pointer pointing to the property's setter function |
+| host | Host \*const | Instance to call getters and setters for. |
+| pGetter | T(HostGet::\*)() | Function pointer pointing to the property's getter function |
+| pSetter | void(HostSet::\*)(T) | Function pointer pointing to the property's setter function |
 
 ### Return Value
 
 The value of the property before incrementing
 
-## System::setter_decrement_wrap(Host *const, T(HostConstGet::*)() const, void(HostSet::*)(T)) function
+## System::setter_decrement_wrap(Host \*const, T(HostConstGet::\*)() const, void(HostSet::\*)(T)) function
 
 
 Translator translates C#'s pre-decrement expressions targeting instance's property that has setter and getter defined, into invocation of this function (overload for const getter).
@@ -87,9 +87,9 @@ template<typename T,typename Host,typename HostConstGet,typename HostSet> std::e
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| host | Host *const | Instance to call getters and setters for. |
-| pGetter | T(HostConstGet::*)() const | Function pointer pointing to the property's getter function |
-| pSetter | void(HostSet::*)(T) | Function pointer pointing to the property's setter function |
+| host | Host \*const | Instance to call getters and setters for. |
+| pGetter | T(HostConstGet::\*)() const | Function pointer pointing to the property's getter function |
+| pSetter | void(HostSet::\*)(T) | Function pointer pointing to the property's setter function |
 
 ### Return Value
 

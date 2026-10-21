@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.security.cryptography/cryptostream/write/
 ---
-## CryptoStream::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## CryptoStream::Write(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Writes data to stream.
@@ -20,11 +20,11 @@ void System::Security::Cryptography::CryptoStream::Write(const ArrayPtr<uint8_t>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Source data buffer. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Source data buffer. |
 | offset | **int32_t** | Offset in source buffer. |
 | count | **int32_t** | Number of bytes to write. |
 
-## CryptoStream::Write(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## CryptoStream::Write(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Writes data to stream.
@@ -38,7 +38,7 @@ void System::Security::Cryptography::CryptoStream::Write(const System::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | Source data buffer. |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | Source data buffer. |
 | offset | **int32_t** | Offset in source buffer. |
 | count | **int32_t** | Number of bytes to write. |
 

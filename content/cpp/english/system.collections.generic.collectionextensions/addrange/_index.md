@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic.collectionextensions/addrange/
 ---
-## System::Collections::Generic::CollectionExtensions::AddRange(const SharedPtr\<List\<T\>\>\&, const ReadOnlySpan\<T\>\&) function
+## System::Collections::Generic::CollectionExtensions::AddRange(const SharedPtr\<List\<T\>\>&, const ReadOnlySpan\<T\>&) function
 
 
 Adds all items from the source span to given list.

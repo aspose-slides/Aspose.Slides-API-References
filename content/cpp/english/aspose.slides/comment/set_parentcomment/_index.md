@@ -16,6 +16,13 @@ void Aspose::Slides::Comment::set_ParentComment(System::SharedPtr<IComment> valu
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxEditException | Thrown when setting the value leads to a circular reference |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

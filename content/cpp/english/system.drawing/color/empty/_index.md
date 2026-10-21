@@ -1,7 +1,7 @@
 ---
 title: Empty
 second_title: Aspose.Slides for C++ API Reference
-description: An \"empty\" instance of Color class i.e. an instance that does not represent any color.
+description: "An \"empty\" instance of Color class i.e. an instance that does not represent any color."
 type: docs
 weight: 2107
 url: /system.drawing/color/empty/
@@ -9,7 +9,7 @@ url: /system.drawing/color/empty/
 ## Empty field
 
 
-An \"empty\" instance of [Color](../) class i.e. an instance that does not represent any color.
+An "empty" instance of [Color](../) class i.e. an instance that does not represent any color.
 
 ```cpp
 static const Color System::Drawing::Color::Empty

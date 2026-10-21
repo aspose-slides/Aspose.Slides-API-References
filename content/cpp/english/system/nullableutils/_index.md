@@ -19,7 +19,7 @@ class NullableUtils
 
 | Method | Description |
 | --- | --- |
-| static const [System::TypeInfo](../typeinfo/)\& [GetUnderlyingType](./getunderlyingtype/)(const [System::TypeInfo](../typeinfo/)\&) | Returns the underlying type argument of the specified nullable type. |
+| static const [System::TypeInfo](../typeinfo/)& [GetUnderlyingType](./getunderlyingtype/)(const [System::TypeInfo](../typeinfo/)&) | Returns the underlying type argument of the specified nullable type. |
 ## See Also
 
 * Namespace [System](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.generic/basedictionary/add/
 ---
-## BaseDictionary::Add(const key_t\&, const mapped_t\&) method
+## BaseDictionary::Add(const key_t&, const mapped_t&) method
 
 
 Adds key-value pair into dictionary.
@@ -20,8 +20,15 @@ void System::Collections::Generic::BaseDictionary<Map>::Add(const key_t &key, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const key_t\& | Key to insert value for. |
-| value | const mapped_t\& | Value to insert. |
+| key | const key_t& | Key to insert value for. |
+| value | const mapped_t& | Value to insert. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | If key already exists. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.io/directory/setlastaccesstimeutc/
 ---
-## Directory::SetLastAccessTimeUtc(const String\&, DateTime) method
+## Directory::SetLastAccessTimeUtc(const String&, DateTime) method
 
 
 Sets the last access time of the specified entity as UTC time.
@@ -20,7 +20,7 @@ static void System::IO::Directory::SetLastAccessTimeUtc(const String &path, Date
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose last access time to set |
+| path | const [String](../../../system/string/)& | The entity whose last access time to set |
 | date | [DateTime](../../../system/datetime/) | A [DateTime](../../../system/datetime/) object representing the time to set as UTC time |
 
 ## See Also

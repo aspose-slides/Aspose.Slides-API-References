@@ -15,7 +15,7 @@ Constructs an empty array.
 System::Array<T>::Array()
 ```
 
-## Array::Array(int, const T\&) constructor
+## Array::Array(int, const T&) constructor
 
 
 Filling constructor.
@@ -30,9 +30,9 @@ System::Array<T>::Array(int count, const T &init=T())
 | Parameter | Type | Description |
 | --- | --- | --- |
 | count | int | Initial size of the array |
-| init | const T\& | The initial value used to fill the array with |
+| init | const T& | The initial value used to fill the array with |
 
-## Array::Array(typename std::enable_if\<std::is_arithmetic\<T\>::value\&&std::is_arithmetic\<ValueType\>::value\&&std::is_convertible\<ValueType, T\>::value, int\>::type, ValueType) constructor
+## Array::Array(typename std::enable_if\<std::is_arithmetic\<T\>::value&&std::is_arithmetic\<ValueType\>::value&&std::is_convertible\<ValueType, T\>::value, int\>::type, ValueType) constructor
 
 
 Filling constructor.
@@ -52,7 +52,7 @@ template<typename ValueType> System::Array<T>::Array(typename std::enable_if<std
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | typename std::enable_if\<std::is_arithmetic\<T\>::value\&&std::is_arithmetic\<[ValueType](../valuetype/)\>::value\&&std::is_convertible\<[ValueType](../valuetype/), T\>::value, int\>::type | Initial size of the array |
+| count | typename std::enable_if\<std::is_arithmetic\<T\>::value&&std::is_arithmetic\<[ValueType](../valuetype/)\>::value&&std::is_convertible\<[ValueType](../valuetype/), T\>::value, int\>::type | Initial size of the array |
 | init | [ValueType](../valuetype/) | The initial value used to fill the array with |
 
 ## Array::Array(int, const T) constructor
@@ -72,7 +72,7 @@ System::Array<T>::Array(int count, const T inits[])
 | count | int | Initial size of the array |
 | inits | const T | Values to fill the array with |
 
-## Array::Array(vector_t\&&) constructor
+## Array::Array(vector_t&&) constructor
 
 
 Move constructor.
@@ -86,9 +86,9 @@ System::Array<T>::Array(vector_t &&value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | **vector_t**\&& | std::vector, elements of which are acquired by the array |
+| value | **vector_t**&& | std::vector, elements of which are acquired by the array |
 
-## Array::Array(const vector_t\&) constructor
+## Array::Array(const vector_t&) constructor
 
 
 Copy constructor.
@@ -102,9 +102,9 @@ System::Array<T>::Array(const vector_t &assgn)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| assgn | const **vector_t**\& | std::vector to copy values from |
+| assgn | const **vector_t**& | std::vector to copy values from |
 
-## Array::Array(const std::vector\<Q\>\&) constructor
+## Array::Array(const std::vector\<Q\>&) constructor
 
 
 Constructs an [Array](../) object and fills it with values copied from an std::vector object whose values' type is the same as **T** but different from **UnderlyingType**.
@@ -124,9 +124,9 @@ template<typename Q,typename> System::Array<T>::Array(const std::vector<Q> &valu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const std::vector\<Q\>\& | std::vector to copy the values from |
+| value | const std::vector\<Q\>& | std::vector to copy the values from |
 
-## Array::Array(std::vector\<Q\>\&&) constructor
+## Array::Array(std::vector\<Q\>&&) constructor
 
 
 Constructs an [Array](../) object and fills it with values moved from an std::vector object whose values' type is the same as **T** but different from **UnderlyingType**.
@@ -146,7 +146,7 @@ template<typename Q,typename> System::Array<T>::Array(std::vector<Q> &&value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | std::vector\<Q\>\&& | std::vector to copy the values from |
+| value | std::vector\<Q\>&& | std::vector to copy the values from |
 
 ## Array::Array(std::initializer_list\<UnderlyingType\>) constructor
 
@@ -164,7 +164,7 @@ System::Array<T>::Array(std::initializer_list<UnderlyingType> init)
 | --- | --- | --- |
 | init | std::initializer_list\<[UnderlyingType](../underlyingtype/)\> | Initializer list containing elements to fill the array with |
 
-## Array::Array(const std::array\<UnderlyingType, InitArraySize\>\&) constructor
+## Array::Array(const std::array\<UnderlyingType, InitArraySize\>&) constructor
 
 
 Constructs an [Array](../) object and fills it with values from the specified array containing elements of **UnderlyingType** type.
@@ -184,7 +184,7 @@ template<std::size_t> System::Array<T>::Array(const std::array<UnderlyingType, I
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| init | const std::array\<[UnderlyingType](../underlyingtype/), InitArraySize\>\& | [Array](../) to copy into the array being constructed. |
+| init | const std::array\<[UnderlyingType](../underlyingtype/), InitArraySize\>& | [Array](../) to copy into the array being constructed. |
 
 ## Array::Array(std::initializer_list\<bool\>, int) constructor
 

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.security/securityelement/escape/
 ---
-## SecurityElement::Escape(const String\&) method
+## SecurityElement::Escape(const String&) method
 
 
 Escapes characters in XML string.
@@ -20,7 +20,7 @@ static String System::Security::SecurityElement::Escape(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | [String](../../../system/string/) to escape. |
+| str | const [String](../../../system/string/)& | [String](../../../system/string/) to escape. |
 
 ### Return Value
 

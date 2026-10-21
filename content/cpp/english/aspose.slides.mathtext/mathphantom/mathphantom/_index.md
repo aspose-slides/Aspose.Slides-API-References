@@ -25,7 +25,7 @@ Aspose::Slides::MathText::MathPhantom::MathPhantom(System::SharedPtr<IMathElemen
 
 
 
-The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element **<m:phant>**. 
+The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element **\<m:phant\>**. 
 
 Example: 
 ```cpp

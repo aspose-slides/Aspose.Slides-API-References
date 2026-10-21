@@ -22,6 +22,13 @@ virtual void System::Security::Cryptography::SymmetricAlgorithm::set_FeedbackSiz
 | --- | --- | --- |
 | value | int | Feedback size in bits. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| CryptographicException | If feedback size is not supported. |
+
+
 ## See Also
 
 * Class [SymmetricAlgorithm](../)

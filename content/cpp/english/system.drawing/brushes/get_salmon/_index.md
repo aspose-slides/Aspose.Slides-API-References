@@ -1,7 +1,7 @@
 ---
 title: get_Salmon()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFA8072.
+description: "Returns the solid fill color whose hexadecimal value is #FFFA8072."
 type: docs
 weight: 1522
 url: /system.drawing/brushes/get_salmon/

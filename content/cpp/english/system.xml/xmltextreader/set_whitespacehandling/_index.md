@@ -22,6 +22,14 @@ void System::Xml::XmlTextReader::set_WhitespaceHandling(System::Xml::WhitespaceH
 | --- | --- | --- |
 | value | [System::Xml::WhitespaceHandling](../../whitespacehandling/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | Invalid value specified. |
+| InvalidOperationException | Setting this value when the reader is closed ([XmlTextReader::get_ReadState](../get_readstate/) is [ReadState::Closed](../../readstate/)). |
+
+
 ## See Also
 
 * Enum [WhitespaceHandling](../../whitespacehandling/)

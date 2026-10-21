@@ -20,6 +20,14 @@ DateTime System::Xml::XPath::XPathNavigator::get_ValueAsDateTime() override
 
 The current node's value as a [DateTime](../../../system/datetime/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The current node's string value cannot be converted to a [DateTime](../../../system/datetime/). |
+| InvalidCastException | The attempted cast to [DateTime](../../../system/datetime/) is not valid. |
+
+
 ## See Also
 
 * Class [DateTime](../../../system/datetime/)

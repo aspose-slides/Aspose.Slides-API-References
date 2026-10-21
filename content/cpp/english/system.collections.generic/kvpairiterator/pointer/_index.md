@@ -1,7 +1,7 @@
 ---
 title: pointer
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: pointer typedef
 type: docs
 weight: 92
 url: /system.collections.generic/kvpairiterator/pointer/

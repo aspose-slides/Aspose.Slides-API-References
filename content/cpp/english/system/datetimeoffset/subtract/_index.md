@@ -26,7 +26,7 @@ DateTimeOffset System::DateTimeOffset::Subtract(TimeSpan value) const
 
 Result of operation.
 
-## DateTimeOffset::Subtract(const DateTimeOffset\&) const method
+## DateTimeOffset::Subtract(const DateTimeOffset&) const method
 
 
 Subtracts a specified [DateTimeOffset](../) value from the current object.
@@ -40,7 +40,7 @@ TimeSpan System::DateTimeOffset::Subtract(const DateTimeOffset &value) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [DateTimeOffset](../)\& | Value to subtract. |
+| value | const [DateTimeOffset](../)& | Value to subtract. |
 
 ### Return Value
 

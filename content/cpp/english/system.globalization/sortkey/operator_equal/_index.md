@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SortKey::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/sortkey/operator_equal/
 ---
-## SortKey::operator=(const SortKey\&) method
+## SortKey::operator=(const SortKey&) method
 
 
 

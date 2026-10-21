@@ -23,7 +23,7 @@ void System::Collections::Generic::List<T>::CopyTo(System::ArrayPtr<T> array, in
 | array | [System::ArrayPtr](../../../system/arrayptr/)\<T\> | Destination array. |
 | arrayIndex | int | Destination array starting index. |
 
-## List::CopyTo(const System::ArrayPtr\<T\>\&) method
+## List::CopyTo(const System::ArrayPtr\<T\>&) method
 
 
 Copies all elements into existing array elements.
@@ -37,9 +37,9 @@ void System::Collections::Generic::List<T>::CopyTo(const System::ArrayPtr<T> &ar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [System::ArrayPtr](../../../system/arrayptr/)\<T\>\& | [Array](../../../system/array/) to copy elements into. |
+| array | const [System::ArrayPtr](../../../system/arrayptr/)\<T\>& | [Array](../../../system/array/) to copy elements into. |
 
-## List::CopyTo(int, const System::ArrayPtr\<T\>\&, int, int) method
+## List::CopyTo(int, const System::ArrayPtr\<T\>&, int, int) method
 
 
 Copies elements starting from the specified index into existing array elements.
@@ -54,7 +54,7 @@ void System::Collections::Generic::List<T>::CopyTo(int index, const System::Arra
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | A 0-based index of the element in the list represented by the current object to start copying from |
-| array | const [System::ArrayPtr](../../../system/arrayptr/)\<T\>\& | [Array](../../../system/array/) to copy elements into. |
+| array | const [System::ArrayPtr](../../../system/arrayptr/)\<T\>& | [Array](../../../system/array/) to copy elements into. |
 | arrayIndex | int | Beginning position in desitnation array. |
 | count | int | Number of elements to copy. |
 

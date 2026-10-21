@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.resolvers/xmlpreloadedresolver/supportstype/
 ---
-## XmlPreloadedResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo\&) method
+## XmlPreloadedResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo&) method
 
 
 Determines whether the resolver supports other Types than just Stream.
@@ -21,11 +21,18 @@ bool System::Xml::Resolvers::XmlPreloadedResolver::SupportsType(SharedPtr<Uri> a
 | Parameter | Type | Description |
 | --- | --- | --- |
 | absoluteUri | [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The absolute URI to check. |
-| type | const [TypeInfo](../../../system/typeinfo/)\& | The Type to return. |
+| type | const [TypeInfo](../../../system/typeinfo/)& | The Type to return. |
 
 ### Return Value
 
 **true** if the Type is supported; otherwise, **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **uri** is **nullptr**. |
+
 
 ## See Also
 

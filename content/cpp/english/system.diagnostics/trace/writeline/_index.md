@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.diagnostics/trace/writeline/
 ---
-## Trace::WriteLine(const String\&) method
+## Trace::WriteLine(const String&) method
 
 
 Writes line to debugger trace.
@@ -20,7 +20,7 @@ static void System::Diagnostics::Trace::WriteLine(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Message to send to debugger. |
+| message | const [String](../../../system/string/)& | Message to send to debugger. |
 
 ## See Also
 

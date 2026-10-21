@@ -6,7 +6,7 @@ type: docs
 weight: 2614
 url: /system/forcestaticcast/
 ---
-## System::ForceStaticCast(SmartPtr\<TFrom\> const\&) function
+## System::ForceStaticCast(SmartPtr\<TFrom\> const&) function
 
 
 Performs real static cast on [SmartPtr](../smartptr/) objects.
@@ -27,7 +27,7 @@ template<typename TTo,typename TFrom> CastResult<TTo>::type System::ForceStaticC
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 

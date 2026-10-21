@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/ixmlnamespaceresolver/lookupprefix/
 ---
-## IXmlNamespaceResolver::LookupPrefix(const String\&) method
+## IXmlNamespaceResolver::LookupPrefix(const String&) method
 
 
 Returns the prefix that is mapped to the specified namespace URI.
@@ -20,7 +20,7 @@ virtual String System::Xml::IXmlNamespaceResolver::LookupPrefix(const String &na
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceName | const [String](../../../system/string/)\& | The namespace URI whose prefix you wish to find. |
+| namespaceName | const [String](../../../system/string/)& | The namespace URI whose prefix you wish to find. |
 
 ### Return Value
 

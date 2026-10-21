@@ -1,7 +1,7 @@
 ---
 title: get_LightPink()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFB6C1.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFB6C1."
 type: docs
 weight: 911
 url: /system.drawing/pens/get_lightpink/

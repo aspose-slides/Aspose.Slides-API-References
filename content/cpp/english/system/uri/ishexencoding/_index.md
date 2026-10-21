@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /system/uri/ishexencoding/
 ---
-## Uri::IsHexEncoding(const String\&, int32_t) method
+## Uri::IsHexEncoding(const String&, int32_t) method
 
 
 Determines if a character in the specified string at the specified position is hexadecimal encoded.
@@ -20,7 +20,7 @@ static bool System::Uri::IsHexEncoding(const String &pattern, int32_t index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../string/)\& | The string to check |
+| pattern | const [String](../../string/)& | The string to check |
 | index | **int32_t** | Zero-based position of the character to test |
 
 ### Return Value

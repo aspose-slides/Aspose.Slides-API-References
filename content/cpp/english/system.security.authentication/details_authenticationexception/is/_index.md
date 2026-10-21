@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_AuthenticationException::Is() method"
 type: docs
 weight: 27
 url: /system.security.authentication/details_authenticationexception/is/
 ---
-## Details_AuthenticationException::Is(const System::TypeInfo\&) const method
+## Details_AuthenticationException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::Security::Authentication::Details_AuthenticationException::Is(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../../system/typeinfo/)\& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../../system/typeinfo/)& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

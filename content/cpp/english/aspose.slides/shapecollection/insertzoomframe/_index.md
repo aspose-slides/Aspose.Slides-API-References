@@ -30,10 +30,17 @@ System::SharedPtr<IZoomFrame> Aspose::Slides::ShapeCollection::InsertZoomFrame(i
 ### Return Value
 
 The newly created [IZoomFrame](../../izoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced slide does not belong to the current presentation. |
+
 ## Remarks
 
 
-This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the \"Presentation.pptx\" presentation): 
+This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation): 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 System::SharedPtr<IZoomFrame> zoomFrame = pres->get_Slides()->idx_get(0)->get_Shapes()->InsertZoomFrame(2, 150.0f, 20.0f, 50.0f, 50.0f, pres->get_Slides()->idx_get(1));
@@ -65,10 +72,17 @@ System::SharedPtr<IZoomFrame> Aspose::Slides::ShapeCollection::InsertZoomFrame(i
 ### Return Value
 
 The newly created [IZoomFrame](../../izoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced slide does not belong to the current presentation. |
+
 ## Remarks
 
 
-This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the \"Presentation.pptx\" presentation): 
+This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation): 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 System::SharedPtr<IPPImage> image = pres->get_Images()->AddImage(System::Drawing::Image::FromFile(u"image.png"));

@@ -34,7 +34,7 @@ virtual System::SharedPtr<IStreamWrapper> Aspose::Slides::IStreamWrapperFactory:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Byte array **uint8_t**[] |
+| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Byte array **uint8_t**\[\] |
 
 ### Return Value
 

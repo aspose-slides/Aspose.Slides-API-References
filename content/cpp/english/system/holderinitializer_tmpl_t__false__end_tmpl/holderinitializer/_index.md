@@ -1,12 +1,12 @@
 ---
 title: HolderInitializer()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HolderInitializer< T, false >::HolderInitializer() method"
 type: docs
 weight: 1
 url: /system/holderinitializer_tmpl_t__false__end_tmpl/holderinitializer/
 ---
-## HolderInitializer< T, false >::HolderInitializer(T\&) method
+## HolderInitializer\< T, false \>::HolderInitializer(T&) method
 
 
 
@@ -17,6 +17,6 @@ System::HolderInitializer<T, false>::HolderInitializer(T &holder)
 
 ## See Also
 
-* Struct [HolderInitializer< T, false >](../)
+* Struct [HolderInitializer\< T, false \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

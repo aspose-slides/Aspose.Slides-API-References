@@ -1,7 +1,7 @@
 ---
 title: EnumeratorCastAdapter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "EnumeratorCastAdapter::EnumeratorCastAdapter() constructor"
 type: docs
 weight: 1
 url: /system.collections.generic.details/enumeratorcastadapter/enumeratorcastadapter/

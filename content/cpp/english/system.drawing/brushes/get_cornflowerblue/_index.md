@@ -1,7 +1,7 @@
 ---
 title: get_CornflowerBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF6495ED.
+description: "Returns the solid fill color whose hexadecimal value is #FF6495ED."
 type: docs
 weight: 222
 url: /system.drawing/brushes/get_cornflowerblue/

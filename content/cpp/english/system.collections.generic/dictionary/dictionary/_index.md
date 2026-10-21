@@ -15,7 +15,7 @@ Creates empty dictionary.
 System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary()
 ```
 
-## Dictionary::Dictionary(const map_t\&) constructor
+## Dictionary::Dictionary(const map_t&) constructor
 
 
 Copies data from map.
@@ -29,7 +29,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const map_t &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| map | const [map_t](../map_t/)\& | Map to copy data from. |
+| map | const [map_t](../map_t/)& | Map to copy data from. |
 
 ## Dictionary::Dictionary(int) constructor
 
@@ -47,7 +47,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(int capacity)
 | --- | --- | --- |
 | capacity | int | Capacity to allocate; ignored. |
 
-## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>&) constructor
 
 
 Copy constructor.
@@ -61,9 +61,9 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | [Dictionary](../) to copy data from. |
+| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>& | [Dictionary](../) to copy data from. |
 
-## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&, const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>&, const SharedPtr\<IEqualityComparer\<TKey\>\>&) constructor
 
 
 Copy constructor.
@@ -77,10 +77,10 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\& | [Comparer](../../comparer/) object to use. |
+| src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>& | Source dictionary. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>& | [Comparer](../../comparer/) object to use. |
 
-## Dictionary::Dictionary(const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IEqualityComparer\<TKey\>\>&) constructor
 
 
 Creates empty dictionary.
@@ -94,9 +94,9 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\& | [Comparer](../../comparer/) to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>& | [Comparer](../../comparer/) to use. |
 
-## Dictionary::Dictionary(int, const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(int, const SharedPtr\<IEqualityComparer\<TKey\>\>&) constructor
 
 
 Creates empty dictionary.
@@ -111,7 +111,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(int capacity,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | capacity | int | [Dictionary](../) capacity after creation; ignored. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\& | [Comparer](../../comparer/) to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>& | [Comparer](../../comparer/) to use. |
 
 ## See Also
 

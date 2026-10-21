@@ -20,6 +20,13 @@ virtual String System::Xml::XmlReader::ReadOuterXml()
 
 If the reader is positioned on an element or an attribute node, this method returns all the XML content, including markup, of the current node and all its children; otherwise, it returns an empty string.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The XML was not well-formed, or an error occurred while parsing the XML. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

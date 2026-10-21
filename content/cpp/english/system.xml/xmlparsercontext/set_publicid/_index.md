@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.xml/xmlparsercontext/set_publicid/
 ---
-## XmlParserContext::set_PublicId(const String\&) method
+## XmlParserContext::set_PublicId(const String&) method
 
 
 Sets the public identifier.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_PublicId(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

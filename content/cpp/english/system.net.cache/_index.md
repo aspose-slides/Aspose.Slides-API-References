@@ -1,7 +1,7 @@
 ---
 title: "System::Net::Cache"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Cache namespace"
 type: docs
 weight: 677
 url: /system.net.cache/

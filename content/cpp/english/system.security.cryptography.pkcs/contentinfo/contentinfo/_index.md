@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography.pkcs/contentinfo/contentinfo/
 ---
-## ContentInfo::ContentInfo(const System::ArrayPtr\<uint8_t\>\&) constructor
+## ContentInfo::ContentInfo(const System::ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Security::Cryptography::Pkcs::ContentInfo::ContentInfo(const System::Arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| content | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | [Data](../../../system.data/) to sign. |
+| content | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | [Data](../../../system.data/) to sign. |
 
 ## See Also
 

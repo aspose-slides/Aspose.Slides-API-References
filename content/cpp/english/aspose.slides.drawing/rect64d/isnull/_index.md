@@ -1,7 +1,7 @@
 ---
 title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rect64d::IsNull() method"
 type: docs
 weight: 27
 url: /aspose.slides.drawing/rect64d/isnull/

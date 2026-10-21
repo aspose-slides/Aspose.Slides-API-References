@@ -26,6 +26,14 @@ virtual System::SharedPtr<ICustomXmlPart> Aspose::Slides::ICustomXmlPartCollecti
 
 Created custom xml part.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | xmlData is **null**. |
+| [System::ArgumentException](../../../system/argumentexception/) | xmlData is empty or invalid. |
+
+
 ## ICustomXmlPartCollection::Add(System::String) method
 
 
@@ -46,6 +54,14 @@ virtual System::SharedPtr<ICustomXmlPart> Aspose::Slides::ICustomXmlPartCollecti
 
 Created custom xml part.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | xmlString is **null**. |
+| [System::ArgumentException](../../../system/argumentexception/) | xmlString is empty or xml-data is invalid. |
+
+
 ## ICustomXmlPartCollection::Add(System::SharedPtr\<System::IO::Stream\>) method
 
 
@@ -65,6 +81,14 @@ virtual System::SharedPtr<ICustomXmlPart> Aspose::Slides::ICustomXmlPartCollecti
 ### Return Value
 
 Created custom xml part.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | inputStream is **null**. |
+| [System::ArgumentException](../../../system/argumentexception/) | Data in inputStream is empty or Sinvalid. |
+
 
 ## See Also
 

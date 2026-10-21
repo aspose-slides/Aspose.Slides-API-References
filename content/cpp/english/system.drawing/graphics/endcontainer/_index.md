@@ -6,7 +6,7 @@ type: docs
 weight: 989
 url: /system.drawing/graphics/endcontainer/
 ---
-## Graphics::EndContainer(const SharedPtr\<Drawing2D::GraphicsContainer\>\&) method
+## Graphics::EndContainer(const SharedPtr\<Drawing2D::GraphicsContainer\>&) method
 
 
 Closes the current container and restores the state of this object from the state of saved container.
@@ -20,7 +20,7 @@ void System::Drawing::Graphics::EndContainer(const SharedPtr<Drawing2D::Graphics
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| container | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsContainer](../../../system.drawing.drawing2d/graphicscontainer/)\>\& | The container to restore the state from |
+| container | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsContainer](../../../system.drawing.drawing2d/graphicscontainer/)\>& | The container to restore the state from |
 
 ## See Also
 

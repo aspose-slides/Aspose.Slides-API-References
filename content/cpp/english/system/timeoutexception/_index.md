@@ -1,7 +1,7 @@
 ---
 title: TimeoutException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: TimeoutException typedef
 type: docs
 weight: 4148
 url: /system/timeoutexception/

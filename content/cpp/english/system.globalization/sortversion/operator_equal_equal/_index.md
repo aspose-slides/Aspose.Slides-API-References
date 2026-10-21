@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.globalization/sortversion/operator_equal_equal/
 ---
-## SortVersion::operator==(const SortVersion\&) method
+## SortVersion::operator==(const SortVersion&) method
 
 
 Checks if current [SortVersion](../) instance is equal to a specified [SortVersion](../) object.
@@ -20,7 +20,7 @@ bool System::Globalization::SortVersion::operator==(const SortVersion &other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [SortVersion](../)\& | The object to compare. |
+| other | const [SortVersion](../)& | The object to compare. |
 
 ### Return Value
 

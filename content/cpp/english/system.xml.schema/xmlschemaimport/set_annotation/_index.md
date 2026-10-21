@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemaimport/set_annotation/
 ---
-## XmlSchemaImport::set_Annotation(const SharedPtr\<XmlSchemaAnnotation\>\&) method
+## XmlSchemaImport::set_Annotation(const SharedPtr\<XmlSchemaAnnotation\>&) method
 
 
 Sets the **annotation** value.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaImport::set_Annotation(const SharedPtr<XmlSch
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnnotation](../../xmlschemaannotation/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnnotation](../../xmlschemaannotation/)\>& | The value to set. |
 
 ## See Also
 

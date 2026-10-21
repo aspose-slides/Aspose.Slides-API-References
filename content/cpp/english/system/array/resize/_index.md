@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /system/array/resize/
 ---
-## Array::Resize(ArrayPtr\<Type\>\&, int) method
+## Array::Resize(ArrayPtr\<Type\>&, int) method
 
 
 Changes the size of the specified array to the specified value or crates new array with specified size.
@@ -20,7 +20,7 @@ template<typename Type> static void System::Array<T>::Resize(ArrayPtr<Type> &arr
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | [Array](../) to resize. If **arr** is null-pointer, the new array will be created |
+| arr | [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | [Array](../) to resize. If **arr** is null-pointer, the new array will be created |
 | new_size | int | The new size of the array, or the size of the new array of **arr** is null |
 
 ## See Also

@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.drawing/graphics/fillellipse/
 ---
-## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, Rectangle) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>&, Rectangle) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -20,10 +20,10 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, Recta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | rect | [Rectangle](../../rectangle/) | The bounding rectangle that defines the ellipse to fill |
 
-## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, RectangleF) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>&, RectangleF) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -37,10 +37,10 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, Recta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | rect | [RectangleF](../../rectanglef/) | The bounding rectangle that defines the ellipse to fill |
 
-## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, int, int, int, int) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>&, int, int, int, int) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -54,13 +54,13 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, int x
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | x | int | The X coordinate of the upper left corner of the bounding rectangle |
 | y | int | The Y coordinate of the upper left corner of the bounding rectangle |
 | width | int | The width of the bounding rectangle |
 | height | int | The height of the bounding rectangle |
 
-## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, float, float, float, float) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>&, float, float, float, float) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -74,7 +74,7 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, float
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A [Brush](../../brush/) object to use for filling |
 | x | **float** | The X coordinate of the upper left corner of the bounding rectangle |
 | y | **float** | The Y coordinate of the upper left corner of the bounding rectangle |
 | width | **float** | The width of the bounding rectangle |

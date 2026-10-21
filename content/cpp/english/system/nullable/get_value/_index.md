@@ -20,6 +20,13 @@ T System::Nullable<T>::get_Value() const
 
 The value represented by the current object
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | If the current object does not represent any value |
+
+
 ## See Also
 
 * Class [Nullable](../)

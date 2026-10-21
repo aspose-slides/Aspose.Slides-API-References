@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system/decimal/operator_minus_equal/
 ---
-## Decimal::operator-=(const Decimal\&) method
+## Decimal::operator-=(const Decimal&) method
 
 
 Assigns to the current object a new value that is the result of subtraction of the value represented by the specified object from the value represented by the current object.
@@ -20,7 +20,7 @@ Decimal & System::Decimal::operator-=(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object representing the value to subtract |
+| d | const [Decimal](../)& | The [Decimal](../) object representing the value to subtract |
 
 ### Return Value
 

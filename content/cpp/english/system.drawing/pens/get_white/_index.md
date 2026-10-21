@@ -1,7 +1,7 @@
 ---
 title: get_White()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFFFFF.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFFFFF."
 type: docs
 weight: 1782
 url: /system.drawing/pens/get_white/

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.xml/xmlnodechangedeventargs/xmlnodechangedeventargs/
 ---
-## XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const SharedPtr\<XmlNode\>\&, const SharedPtr\<XmlNode\>\&, const SharedPtr\<XmlNode\>\&, const String\&, const String\&, XmlNodeChangedAction) constructor
+## XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const SharedPtr\<XmlNode\>&, const SharedPtr\<XmlNode\>&, const SharedPtr\<XmlNode\>&, const String&, const String&, XmlNodeChangedAction) constructor
 
 
 Initializes a new instance of the [XmlNodeChangedEventArgs](../) class.
@@ -20,11 +20,11 @@ System::Xml::XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const SharedPtr<Xm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\& | The [XmlNode](../../xmlnode/) that generated the event. |
-| oldParent | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\& | The old parent [XmlNode](../../xmlnode/) of the [XmlNode](../../xmlnode/) that generated the event. |
-| newParent | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\& | The new parent [XmlNode](../../xmlnode/) of the [XmlNode](../../xmlnode/) that generated the event. |
-| oldValue | const [String](../../../system/string/)\& | The old value of the [XmlNode](../../xmlnode/) that generated the event. |
-| newValue | const [String](../../../system/string/)\& | The new value of the [XmlNode](../../xmlnode/) that generated the event. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>& | The [XmlNode](../../xmlnode/) that generated the event. |
+| oldParent | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>& | The old parent [XmlNode](../../xmlnode/) of the [XmlNode](../../xmlnode/) that generated the event. |
+| newParent | const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>& | The new parent [XmlNode](../../xmlnode/) of the [XmlNode](../../xmlnode/) that generated the event. |
+| oldValue | const [String](../../../system/string/)& | The old value of the [XmlNode](../../xmlnode/) that generated the event. |
+| newValue | const [String](../../../system/string/)& | The new value of the [XmlNode](../../xmlnode/) that generated the event. |
 | action | [XmlNodeChangedAction](../../xmlnodechangedaction/) | The XmlNodeChangedAction. |
 
 ## See Also

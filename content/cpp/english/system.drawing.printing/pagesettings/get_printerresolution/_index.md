@@ -16,6 +16,13 @@ SharedPtr<PrinterResolution> System::Drawing::Printing::PageSettings::get_Printe
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

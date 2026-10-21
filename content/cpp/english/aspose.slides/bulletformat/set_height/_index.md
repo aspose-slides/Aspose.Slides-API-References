@@ -9,7 +9,7 @@ url: /aspose.slides/bulletformat/set_height/
 ## BulletFormat::set_Height(float) method
 
 
-Sets the bullet height of a paragraph with no inheritance. Value std::numeric_limits<float>::quiet_NaN() determines that bullet inherits height from the first portion in the paragraph. Write **float**.
+Sets the bullet height of a paragraph with no inheritance. Value std::numeric_limits\<float\>::quiet_NaN() determines that bullet inherits height from the first portion in the paragraph. Write **float**.
 
 ```cpp
 void Aspose::Slides::BulletFormat::set_Height(float value) override

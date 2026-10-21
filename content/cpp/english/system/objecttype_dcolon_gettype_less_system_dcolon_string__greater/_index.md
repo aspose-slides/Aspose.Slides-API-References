@@ -6,7 +6,7 @@ type: docs
 weight: 2692
 url: /system/objecttype_dcolon_gettype_less_system_dcolon_string__greater/
 ---
-## System::ObjectType::GetType< System::String >() function
+## System::ObjectType::GetType\< System::String \>() function
 
 
 Implements typeof() translation. Overload for [String](../string/).

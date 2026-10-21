@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.drawing/point/equals/
 ---
-## Point::Equals(const Point\&) const method
+## Point::Equals(const Point&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same pair of X and Y coordinates values.
@@ -20,7 +20,7 @@ bool System::Drawing::Point::Equals(const Point &point) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [Point](../)\& | [Point](../) The object to compare the current object with |
+| point | const [Point](../)& | [Point](../) The object to compare the current object with |
 
 ### Return Value
 

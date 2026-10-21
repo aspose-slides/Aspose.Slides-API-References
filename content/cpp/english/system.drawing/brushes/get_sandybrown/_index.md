@@ -1,7 +1,7 @@
 ---
 title: get_SandyBrown()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF4A460.
+description: "Returns the solid fill color whose hexadecimal value is #FFF4A460."
 type: docs
 weight: 1535
 url: /system.drawing/brushes/get_sandybrown/

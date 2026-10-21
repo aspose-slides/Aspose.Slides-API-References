@@ -16,6 +16,13 @@ void System::Drawing::Graphics::ReleaseHdc()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## Graphics::ReleaseHdc(IntPtr) method
 
 
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::ReleaseHdc(IntPtr hdc)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

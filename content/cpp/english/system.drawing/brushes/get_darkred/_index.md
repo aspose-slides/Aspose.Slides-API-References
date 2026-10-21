@@ -1,7 +1,7 @@
 ---
 title: get_DarkRed()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF8B0000.
+description: "Returns the solid fill color whose hexadecimal value is #FF8B0000."
 type: docs
 weight: 404
 url: /system.drawing/brushes/get_darkred/

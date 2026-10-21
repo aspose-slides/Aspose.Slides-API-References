@@ -1,7 +1,7 @@
 ---
 title: get_Message()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ExceptionWithFilename::get_Message() method"
 type: docs
 weight: 14
 url: /system/details_exceptionwithfilename/get_message/

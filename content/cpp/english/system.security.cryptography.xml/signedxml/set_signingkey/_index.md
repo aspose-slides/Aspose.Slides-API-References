@@ -1,7 +1,7 @@
 ---
 title: set_SigningKey()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::set_SigningKey() method"
 type: docs
 weight: 40
 url: /system.security.cryptography.xml/signedxml/set_signingkey/

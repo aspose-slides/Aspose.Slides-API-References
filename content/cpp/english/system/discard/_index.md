@@ -6,7 +6,7 @@ type: docs
 weight: 2263
 url: /system/discard/
 ---
-## System::Discard(T\&&) function
+## System::Discard(T&&) function
 
 
 Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument.

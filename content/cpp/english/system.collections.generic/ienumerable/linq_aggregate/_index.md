@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic/ienumerable/linq_aggregate/
 ---
-## IEnumerable::LINQ_Aggregate(const Func\<T, T, T\>\&) method
+## IEnumerable::LINQ_Aggregate(const Func\<T, T, T\>&) method
 
 
 Applies an accumulator function over a sequence.
@@ -20,7 +20,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_Aggregate(const Func<T, T, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| func | const [Func](../../../system/func/)\<T, T, T\>\& | An accumulator function to be invoked on each element. |
+| func | const [Func](../../../system/func/)\<T, T, T\>& | An accumulator function to be invoked on each element. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemasimpletype/set_content/
 ---
-## XmlSchemaSimpleType::set_Content(const SharedPtr\<XmlSchemaSimpleTypeContent\>\&) method
+## XmlSchemaSimpleType::set_Content(const SharedPtr\<XmlSchemaSimpleTypeContent\>&) method
 
 
 Sets one of [XmlSchemaSimpleTypeUnion](../../xmlschemasimpletypeunion/), [XmlSchemaSimpleTypeList](../../xmlschemasimpletypelist/), or [XmlSchemaSimpleTypeRestriction](../../xmlschemasimpletyperestriction/).
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleType::set_Content(const SharedPtr<XmlSc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleTypeContent](../../xmlschemasimpletypecontent/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleTypeContent](../../xmlschemasimpletypecontent/)\>& | The value to set. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/remove_empty_callbacks/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::remove_empty_callbacks() const method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::remove_empty_callbacks() const method
 
 
 Cleans out contained callbacks that are empty (not actually calling anything).
@@ -17,6 +17,6 @@ void System::MulticastDelegate<ReturnType(ArgumentTypes...)>::remove_empty_callb
 
 ## See Also
 
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

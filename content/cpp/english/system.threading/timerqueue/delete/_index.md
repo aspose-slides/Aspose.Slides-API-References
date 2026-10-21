@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.threading/timerqueue/delete/
 ---
-## TimerQueue::Delete(Timer *) method
+## TimerQueue::Delete(Timer \*) method
 
 
 Deletes timer from queue.
@@ -20,7 +20,7 @@ bool System::Threading::TimerQueue::Delete(Timer *timer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| timer | [Timer](../../timer/) * | [Timer](../../timer/) to delete. |
+| timer | [Timer](../../timer/) \* | [Timer](../../timer/) to delete. |
 
 ### Return Value
 

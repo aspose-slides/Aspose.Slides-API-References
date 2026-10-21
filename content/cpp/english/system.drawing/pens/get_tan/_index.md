@@ -1,7 +1,7 @@
 ---
 title: get_Tan()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFD2B48C.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFD2B48C."
 type: docs
 weight: 1691
 url: /system.drawing/pens/get_tan/

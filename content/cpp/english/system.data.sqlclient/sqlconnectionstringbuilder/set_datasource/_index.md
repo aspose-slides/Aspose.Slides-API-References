@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.data.sqlclient/sqlconnectionstringbuilder/set_datasource/
 ---
-## SqlConnectionStringBuilder::set_DataSource(const String\&) method
+## SqlConnectionStringBuilder::set_DataSource(const String&) method
 
 
 Gets data source (e. g. hostname and port).
@@ -20,7 +20,7 @@ void System::Data::SqlClient::SqlConnectionStringBuilder::set_DataSource(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Data](../../../system.data/) source string. |
+| value | const [String](../../../system/string/)& | [Data](../../../system.data/) source string. |
 
 ## See Also
 

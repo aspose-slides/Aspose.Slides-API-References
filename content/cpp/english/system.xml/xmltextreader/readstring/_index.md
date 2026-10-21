@@ -20,6 +20,14 @@ String System::Xml::XmlTextReader::ReadString() override
 
 The contents of the element or text node. This can be an empty string if the reader is positioned on something other than an element or text node, or if there is no more text content to return in the current context. **Note:** The text node can be either an element or an attribute text node.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error occurred while parsing the XML. |
+| InvalidOperationException | An invalid operation was attempted. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

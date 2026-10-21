@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /system/typeinfo/get_declaredmember/
 ---
-## TypeInfo::get_DeclaredMember(const String\&) const method
+## TypeInfo::get_DeclaredMember(const String&) const method
 
 
 Gets list of the members with specified name.
@@ -20,7 +20,7 @@ ArrayPtr<SharedPtr<System::Reflection::MemberInfo>> System::TypeInfo::get_Declar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | Name of the member to get. |
+| name | const [String](../../string/)& | Name of the member to get. |
 
 ### Return Value
 

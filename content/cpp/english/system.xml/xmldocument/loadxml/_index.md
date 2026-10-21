@@ -22,6 +22,13 @@ virtual void System::Xml::XmlDocument::LoadXml(String xml)
 | --- | --- | --- |
 | xml | [String](../../../system/string/) | [String](../../../system/string/) containing the XML document to load. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | There is a load or parse error in the XML. In this case, the document remains empty. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

@@ -16,6 +16,13 @@ void System::Security::Cryptography::DSASignatureFormatter::SetKey(SharedPtr<Asy
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

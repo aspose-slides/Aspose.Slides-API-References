@@ -1,7 +1,7 @@
 ---
 title: set_Type()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::set_Type() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/reference/set_type/

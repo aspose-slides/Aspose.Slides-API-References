@@ -19,16 +19,16 @@ class Range : public System::Details::BoxableObjectBase
 
 | Method | Description |
 | --- | --- |
-| static constexpr [Range](./) [EndAt](./endat/)(const [Index](../index/)\&) | Creates a range that begins at the start of the collection and ends at the specified end index. |
-| **bool** [Equals](./equals/)(const [Range](./)\&) const | Determines whether the current range is equal to the specified range. |
+| static constexpr [Range](./) [EndAt](./endat/)(const [Index](../index/)&) | Creates a range that begins at the start of the collection and ends at the specified end index. |
+| **bool** [Equals](./equals/)(const [Range](./)&) const | Determines whether the current range is equal to the specified range. |
 | static constexpr [Range](./) [get_All](./get_all/)() | Returns a [Range](./) that represents the whole collection. |
-| const [Index](../index/)\& [get_End](./get_end/)() const | Gets the End index. |
-| const [Index](../index/)\& [get_Start](./get_start/)() const | Gets the Start index. |
+| const [Index](../index/)& [get_End](./get_end/)() const | Gets the End index. |
+| const [Index](../index/)& [get_Start](./get_start/)() const | Gets the Start index. |
 | **int32_t** [GetHashCode](./gethashcode/)() const | Returns a hash code for the current range. |
 | [System::ValueTuple](../valuetuple/)\<**int32_t**, **int32_t**\> [GetOffsetAndLength](./getoffsetandlength/)(**int32_t**) const | Computes the zero-based start offset and length for the specified collection length. |
 | constexpr [Range](./range/)() | Constructs an empty range. |
-| constexpr [Range](./range/)(const [Index](../index/)\&, const [Index](../index/)\&) | Constructs a [Range](./) from the specified start and end indexes. |
-| static constexpr [Range](./) [StartAt](./startat/)(const [Index](../index/)\&) | Creates a range that begins at the specified start index and extends to the end of the collection. |
+| constexpr [Range](./range/)(const [Index](../index/)&, const [Index](../index/)&) | Constructs a [Range](./) from the specified start and end indexes. |
+| static constexpr [Range](./) [StartAt](./startat/)(const [Index](../index/)&) | Creates a range that begins at the specified start index and extends to the end of the collection. |
 ## See Also
 
 * Namespace [System](../)

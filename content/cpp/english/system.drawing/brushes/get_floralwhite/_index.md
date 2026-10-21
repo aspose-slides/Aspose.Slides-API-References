@@ -1,7 +1,7 @@
 ---
 title: get_FloralWhite()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFFAF0.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFFAF0."
 type: docs
 weight: 560
 url: /system.drawing/brushes/get_floralwhite/

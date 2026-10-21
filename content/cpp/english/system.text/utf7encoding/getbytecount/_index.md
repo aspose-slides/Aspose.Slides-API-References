@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.text/utf7encoding/getbytecount/
 ---
-## UTF7Encoding::GetByteCount(const char_t *, int) method
+## UTF7Encoding::GetByteCount(const char_t \*, int) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -20,7 +20,7 @@ int System::Text::UTF7Encoding::GetByteCount(const char_t *chars, int count) ove
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters buffer. |
+| chars | const char_t \* | Characters buffer. |
 | count | int | [Buffer](../../../system/buffer/) size. |
 
 ### Return Value
@@ -71,7 +71,7 @@ virtual int System::Text::Encoding::GetByteCount(System::Details::ArrayView<char
 
 Required buffer size.
 
-## UTF7Encoding::GetByteCount(const System::Details::StackArray\<char_t, N\>\&, int, int) method
+## UTF7Encoding::GetByteCount(const System::Details::StackArray\<char_t, N\>&, int, int) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -85,7 +85,7 @@ template<std::size_t> int System::Text::Encoding::GetByteCount(const System::Det
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const System::Details::StackArray\<char_t, N\>\& | Characters buffer. |
+| chars | const System::Details::StackArray\<char_t, N\>& | Characters buffer. |
 | index | int | Slice begin. |
 | count | int | Slice size. |
 
@@ -93,7 +93,7 @@ template<std::size_t> int System::Text::Encoding::GetByteCount(const System::Det
 
 Required buffer size.
 
-## UTF7Encoding::GetByteCount(const String\&) method
+## UTF7Encoding::GetByteCount(const String&) method
 
 
 Get the number of characters needed to encode a string.
@@ -107,7 +107,7 @@ virtual int System::Text::Encoding::GetByteCount(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | [String](../../../system/string/) to encode. |
+| s | const [String](../../../system/string/)& | [String](../../../system/string/) to encode. |
 
 ### Return Value
 
@@ -133,7 +133,7 @@ virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars)
 
 Required buffer size.
 
-## UTF7Encoding::GetByteCount(const char_t *, int) method
+## UTF7Encoding::GetByteCount(const char_t \*, int) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -147,7 +147,7 @@ virtual int System::Text::Encoding::GetByteCount(const char_t *chars, int count)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters buffer. |
+| chars | const char_t \* | Characters buffer. |
 | count | int | [Buffer](../../../system/buffer/) size. |
 
 ### Return Value

@@ -19,7 +19,7 @@ class FILETIME
 
 | Method | Description |
 | --- | --- |
-| **bool** [Equals](./equals/)(const [FILETIME](./)\&) const | Determines if the current object and the specified object are equal, i.e. represent the same file time. |
+| **bool** [Equals](./equals/)(const [FILETIME](./)&) const | Determines if the current object and the specified object are equal, i.e. represent the same file time. |
 ## See Also
 
 * Namespace [System::Runtime::InteropServices](../)

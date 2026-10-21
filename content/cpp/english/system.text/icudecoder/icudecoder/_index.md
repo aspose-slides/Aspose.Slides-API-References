@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text/icudecoder/icudecoder/
 ---
-## ICUDecoder::ICUDecoder(ICUEncoding *) constructor
+## ICUDecoder::ICUDecoder(ICUEncoding \*) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::ICUDecoder::ICUDecoder(ICUEncoding *encoding)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoding | [ICUEncoding](../../icuencoding/) * | [Encoding](../../encoding/) to copy parameters from. |
+| encoding | [ICUEncoding](../../icuencoding/) \* | [Encoding](../../encoding/) to copy parameters from. |
 
 ## See Also
 

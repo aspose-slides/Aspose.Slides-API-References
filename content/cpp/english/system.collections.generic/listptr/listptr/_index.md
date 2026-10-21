@@ -15,7 +15,7 @@ Initializes null-pointer.
 System::Collections::Generic::ListPtr<T>::ListPtr(std::nullptr_t=nullptr)
 ```
 
-## ListPtr::ListPtr(const SharedPtr\<List\<T\>\>\&) constructor
+## ListPtr::ListPtr(const SharedPtr\<List\<T\>\>&) constructor
 
 
 Initializes pointer to specified list.
@@ -29,7 +29,7 @@ System::Collections::Generic::ListPtr<T>::ListPtr(const SharedPtr<List<T>> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[List](../../list/)\<T\>\>\& | [List](../../list/) to point to. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[List](../../list/)\<T\>\>& | [List](../../list/) to point to. |
 
 ## See Also
 

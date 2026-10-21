@@ -1,7 +1,7 @@
 ---
 title: XmlDsigMinimalCanonicalizationUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigMinimalCanonicalizationUrl field
 type: docs
 weight: 261
 url: /system.security.cryptography.xml/signedxml/xmldsigminimalcanonicalizationurl/

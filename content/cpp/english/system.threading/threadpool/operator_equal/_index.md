@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.threading/threadpool/operator_equal/
 ---
-## ThreadPool::operator=(const ThreadPool\&) method
+## ThreadPool::operator=(const ThreadPool&) method
 
 
 No copying.

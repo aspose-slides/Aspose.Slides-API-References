@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml.xsl/xsltargumentlist/getextensionobject/
 ---
-## XsltArgumentList::GetExtensionObject(const String\&) method
+## XsltArgumentList::GetExtensionObject(const String&) method
 
 
 Returns the object associated with the given namespace.
@@ -20,7 +20,7 @@ SharedPtr<Object> System::Xml::Xsl::XsltArgumentList::GetExtensionObject(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the object. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the object. |
 
 ### Return Value
 

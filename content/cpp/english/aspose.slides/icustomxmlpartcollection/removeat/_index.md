@@ -22,6 +22,13 @@ virtual void Aspose::Slides::ICustomXmlPartCollection::RemoveAt(int32_t index)=0
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index of the element to remove. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | index is less than 0.-or-index is equal to or greater than Count |
+
+
 ## See Also
 
 * Class [ICustomXmlPartCollection](../)

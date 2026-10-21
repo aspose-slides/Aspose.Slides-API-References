@@ -27,7 +27,7 @@ bool System::Drawing::RectangleF::Contains(float x, float y)
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## RectangleF::Contains(const PointF\&) method
+## RectangleF::Contains(const PointF&) method
 
 
 Determines if the specified point is located within the rectangle represented by the current object.
@@ -41,13 +41,13 @@ bool System::Drawing::RectangleF::Contains(const PointF &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | A point to check |
+| point | const [PointF](../../pointf/)& | A point to check |
 
 ### Return Value
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## RectangleF::Contains(const RectangleF\&) method
+## RectangleF::Contains(const RectangleF&) method
 
 
 Determines if the specified rectangle is located within the rectangle represented by the current object.
@@ -61,7 +61,7 @@ bool System::Drawing::RectangleF::Contains(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../)\& | A rectangle to check |
+| rect | const [RectangleF](../)& | A rectangle to check |
 
 ### Return Value
 

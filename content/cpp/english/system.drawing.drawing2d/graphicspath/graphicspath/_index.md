@@ -22,7 +22,7 @@ System::Drawing::Drawing2D::GraphicsPath::GraphicsPath(FillMode fillMode=FillMod
 | --- | --- | --- |
 | fillMode | [FillMode](../../fillmode/) | Specifies how the interior of the closed path represented by the object being created should be filled |
 
-## GraphicsPath::GraphicsPath(const ArrayPtr\<Point\>\&, const ArrayPtr\<uint8_t\>\&, FillMode) constructor
+## GraphicsPath::GraphicsPath(const ArrayPtr\<Point\>&, const ArrayPtr\<uint8_t\>&, FillMode) constructor
 
 
 Constructs a new instance of [GraphicsPath](../) object that represents the specified path.
@@ -36,11 +36,11 @@ System::Drawing::Drawing2D::GraphicsPath::GraphicsPath(const ArrayPtr<Point> &pt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pts | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array containing the points that specify the path to be represented by the object being created |
-| types | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | An array containing the values tha specify the types of the corresponding points in **pts** array |
+| pts | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | An array containing the points that specify the path to be represented by the object being created |
+| types | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | An array containing the values tha specify the types of the corresponding points in **pts** array |
 | fillMode | [FillMode](../../fillmode/) | Specifies how the interior of the closed path represented by the object being created should be filled |
 
-## GraphicsPath::GraphicsPath(const ArrayPtr\<PointF\>\&, const ArrayPtr\<uint8_t\>\&, FillMode) constructor
+## GraphicsPath::GraphicsPath(const ArrayPtr\<PointF\>&, const ArrayPtr\<uint8_t\>&, FillMode) constructor
 
 
 Constructs a new instance of [GraphicsPath](../) object that represents the specified path.
@@ -54,11 +54,11 @@ System::Drawing::Drawing2D::GraphicsPath::GraphicsPath(const ArrayPtr<PointF> &p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pts | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | An array containing the points that specify the path to be represented by the object being created |
-| types | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | An array containing the values tha specify the types of the corresponding points in **pts** array |
+| pts | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | An array containing the points that specify the path to be represented by the object being created |
+| types | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | An array containing the values tha specify the types of the corresponding points in **pts** array |
 | fillMode | [FillMode](../../fillmode/) | Specifies how the interior of the closed path represented by the object being created should be filled |
 
-## GraphicsPath::GraphicsPath(const SkPath\&) constructor
+## GraphicsPath::GraphicsPath(const SkPath&) constructor
 
 
 

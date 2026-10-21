@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.threading/timerqueue/add/
 ---
-## TimerQueue::Add(Timer *) method
+## TimerQueue::Add(Timer \*) method
 
 
 Registers timer in queue.
@@ -20,7 +20,7 @@ bool System::Threading::TimerQueue::Add(Timer *timer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| timer | [Timer](../../timer/) * | [Timer](../../timer/) to register. |
+| timer | [Timer](../../timer/) \* | [Timer](../../timer/) to register. |
 
 ### Return Value
 

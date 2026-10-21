@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.generic/basedictionary/containsvalue/
 ---
-## BaseDictionary::ContainsValue(const mapped_t\&) method
+## BaseDictionary::ContainsValue(const mapped_t&) method
 
 
 Checks if value is present in dictionary. Uses operator == to compare values.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseDictionary<Map>::ContainsValue(const mapp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const mapped_t\& | Value to look for. |
+| value | const mapped_t& | Value to look for. |
 
 ### Return Value
 

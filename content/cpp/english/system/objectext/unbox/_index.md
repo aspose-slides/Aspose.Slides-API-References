@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/objectext/unbox/
 ---
-## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for enum types.
@@ -26,13 +26,13 @@ template<typename T> static std::enable_if<std::is_enum<T>::value, T>::type Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to unbox. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to unbox. |
 
 ### Return Value
 
 [Enum](../../enum/) value.
 
-## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for non-enum & non-nullable types.
@@ -52,13 +52,13 @@ template<class T> static std::enable_if<!std::is_enum<T>::value &&detail::has_op
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to unbox. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to unbox. |
 
 ### Return Value
 
 Unboxed value.
 
-## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for non-enum & non-nullable types.
@@ -78,7 +78,7 @@ template<class T> static std::enable_if<!std::is_enum<T>::value &&!detail::has_o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to unbox. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to unbox. |
 
 ### Return Value
 
@@ -138,7 +138,7 @@ template<class T,class E> static std::enable_if<std::is_enum<E>::value &&std::is
 
 Converted enum value.
 
-## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>&) method
 
 
 Unboxes string values.
@@ -152,7 +152,7 @@ String System::ObjectExt::Unbox(const SmartPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to unbox |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to unbox |
 
 ### Return Value
 

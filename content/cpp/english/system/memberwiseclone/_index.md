@@ -6,7 +6,7 @@ type: docs
 weight: 2627
 url: /system/memberwiseclone/
 ---
-## System::MemberwiseClone(T *) function
+## System::MemberwiseClone(T \*) function
 
 
 Performs memberwise cloning using copy constructor.
@@ -26,7 +26,7 @@ template<typename T> SmartPtr<Object> System::MemberwiseClone(T *ptr)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | T * | Pointer to the object to clone. |
+| ptr | T \* | Pointer to the object to clone. |
 
 ### Return Value
 

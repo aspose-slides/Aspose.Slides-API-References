@@ -1,7 +1,7 @@
 ---
 title: SetConfiguration()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HttpHeaders::SetConfiguration() method"
 type: docs
 weight: 144
 url: /system.net.http.headers/httpheaders/setconfiguration/

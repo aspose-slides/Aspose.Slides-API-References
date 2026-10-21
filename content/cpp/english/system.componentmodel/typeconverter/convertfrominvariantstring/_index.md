@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.componentmodel/typeconverter/convertfrominvariantstring/
 ---
-## TypeConverter::ConvertFromInvariantString(const System::String\&) method
+## TypeConverter::ConvertFromInvariantString(const System::String&) method
 
 
 Converts invariant string to object.
@@ -20,13 +20,13 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const [System::String](../../../system/string/)\& | Value to convert. |
+| text | const [System::String](../../../system/string/)& | Value to convert. |
 
 ### Return Value
 
 converted object.
 
-## TypeConverter::ConvertFromInvariantString(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::String\&) method
+## TypeConverter::ConvertFromInvariantString(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::String&) method
 
 
 Converts invariant string to object.
@@ -40,8 +40,8 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| text | const [System::String](../../../system/string/)\& | Value to convert. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| text | const [System::String](../../../system/string/)& | Value to convert. |
 
 ### Return Value
 

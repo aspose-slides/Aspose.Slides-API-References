@@ -15,7 +15,7 @@ Starts execution of a background operation.
 void System::ComponentModel::BackgroundWorker::RunWorkerAsync()
 ```
 
-## BackgroundWorker::RunWorkerAsync(const System::SharedPtr\<System::Object\>\&) method
+## BackgroundWorker::RunWorkerAsync(const System::SharedPtr\<System::Object\>&) method
 
 
 Starts execution of a background operation.
@@ -29,7 +29,7 @@ void System::ComponentModel::BackgroundWorker::RunWorkerAsync(const System::Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | A parameter for use by the background operation to be executed in the **System::ComponentModel::BackgroundWorker::DoWork** event handler. |
+| argument | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | A parameter for use by the background operation to be executed in the **System::ComponentModel::BackgroundWorker::DoWork** event handler. |
 
 ## See Also
 

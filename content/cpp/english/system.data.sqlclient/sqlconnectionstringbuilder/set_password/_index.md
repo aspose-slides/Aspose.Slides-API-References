@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.data.sqlclient/sqlconnectionstringbuilder/set_password/
 ---
-## SqlConnectionStringBuilder::set_Password(const String\&) method
+## SqlConnectionStringBuilder::set_Password(const String&) method
 
 
 Sets password to be used to connect to database.
@@ -20,7 +20,7 @@ void System::Data::SqlClient::SqlConnectionStringBuilder::set_Password(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Password string. |
+| value | const [String](../../../system/string/)& | Password string. |
 
 ## See Also
 

@@ -16,6 +16,13 @@ void System::Security::Cryptography::DSASignatureFormatter::SetHashAlgorithm(Str
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

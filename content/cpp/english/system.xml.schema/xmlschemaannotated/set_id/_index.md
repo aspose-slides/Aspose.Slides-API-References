@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaannotated/set_id/
 ---
-## XmlSchemaAnnotated::set_Id(const String\&) method
+## XmlSchemaAnnotated::set_Id(const String&) method
 
 
 Sets the string id.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAnnotated::set_Id(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

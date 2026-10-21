@@ -1,7 +1,7 @@
 ---
 title: "System::Runtime::CompilerServices"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Runtime::CompilerServices namespace"
 type: docs
 weight: 781
 url: /system.runtime.compilerservices/

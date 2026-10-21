@@ -26,7 +26,7 @@ String & System::String::operator+=(char_t c)
 
 self reference.
 
-## String::operator+=(const String\&) method
+## String::operator+=(const String&) method
 
 
 Concatenation assignment operator.
@@ -40,7 +40,7 @@ String & System::String::operator+=(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to add to the end of current string. |
+| str | const [String](../)& | [String](../) to add to the end of current string. |
 
 ### Return Value
 

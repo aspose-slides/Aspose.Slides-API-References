@@ -1,7 +1,7 @@
 ---
 title: get_Count()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfo::get_Count() method"
 type: docs
 weight: 1
 url: /system.security.cryptography.xml/keyinfo/get_count/

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.security.cryptography.x509certificates/x509certificate/import/
 ---
-## X509Certificate::Import(const String\&, const SecureStringPtr\&, X509KeyStorageFlags) method
+## X509Certificate::Import(const String&, const SecureStringPtr&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate file. NOT IMPLEMENTED.
@@ -20,11 +20,11 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The certificate file name. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | The password required to access the certificate data. |
+| filename | const [String](../../../system/string/)& | The certificate file name. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## X509Certificate::Import(const String\&, const String\&, X509KeyStorageFlags) method
+## X509Certificate::Import(const String&, const String&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate file. NOT IMPLEMENTED.
@@ -38,11 +38,11 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The certificate file name. |
-| password | const [String](../../../system/string/)\& | The password required to access the certificate data. |
+| filename | const [String](../../../system/string/)& | The certificate file name. |
+| password | const [String](../../../system/string/)& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## X509Certificate::Import(const ByteArrayPtr\&, const SecureStringPtr\&, X509KeyStorageFlags) method
+## X509Certificate::Import(const ByteArrayPtr&, const SecureStringPtr&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate data. NOT IMPLEMENTED.
@@ -56,11 +56,11 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | The X.509 certificate data. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | The password required to access the certificate data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | The X.509 certificate data. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## X509Certificate::Import(const ByteArrayPtr\&, const String\&, X509KeyStorageFlags) method
+## X509Certificate::Import(const ByteArrayPtr&, const String&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate data. NOT IMPLEMENTED.
@@ -74,11 +74,11 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | The certificate file name. |
-| password | const [String](../../../system/string/)\& | The password required to access the certificate data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | The certificate file name. |
+| password | const [String](../../../system/string/)& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## X509Certificate::Import(const String\&) method
+## X509Certificate::Import(const String&) method
 
 
 Imports information from the specified certificate file. NOT IMPLEMENTED.
@@ -92,9 +92,9 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | The certificate file name. |
+| filename | const [String](../../../system/string/)& | The certificate file name. |
 
-## X509Certificate::Import(const ByteArrayPtr\&) method
+## X509Certificate::Import(const ByteArrayPtr&) method
 
 
 Imports information from the specified certificate data. NOT IMPLEMENTED.
@@ -108,7 +108,7 @@ virtual void System::Security::Cryptography::X509Certificates::X509Certificate::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | The certificate file name. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | The certificate file name. |
 
 ## See Also
 

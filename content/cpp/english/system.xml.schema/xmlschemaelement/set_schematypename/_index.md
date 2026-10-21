@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.xml.schema/xmlschemaelement/set_schematypename/
 ---
-## XmlSchemaElement::set_SchemaTypeName(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaElement::set_SchemaTypeName(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Sets the name of a built-in data type defined in this schema or another schema indicated by the specified namespace.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaElement::set_SchemaTypeName(const SharedPtr<X
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The value to set. |
 
 ## See Also
 

@@ -24,7 +24,7 @@ Creates empty set with specified capacity.
 System::Collections::Generic::SortedSet<T>::SortedSet(int capacity)
 ```
 
-## SortedSet::SortedSet(const SharedPtr\<IComparer\<T\>\>\&) constructor
+## SortedSet::SortedSet(const SharedPtr\<IComparer\<T\>\>&) constructor
 
 
 Creates empty set that uses the specified equality comparer.
@@ -38,9 +38,9 @@ System::Collections::Generic::SortedSet<T>::SortedSet(const SharedPtr<IComparer<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) object to associate with [SortedSet](../). |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<T\>\>& | [Comparer](../../comparer/) object to associate with [SortedSet](../). |
 
-## SortedSet::SortedSet(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
+## SortedSet::SortedSet(const SharedPtr\<IEnumerable\<T\>\>&) constructor
 
 
 Creates [SortedSet](../) based on enumerable values.

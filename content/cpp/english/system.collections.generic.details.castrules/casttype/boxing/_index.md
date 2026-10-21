@@ -1,7 +1,7 @@
 ---
 title: Boxing
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Boxing field
 type: docs
 weight: 66
 url: /system.collections.generic.details.castrules/casttype/boxing/

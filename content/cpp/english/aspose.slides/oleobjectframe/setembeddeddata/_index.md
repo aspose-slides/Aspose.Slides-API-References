@@ -21,6 +21,13 @@ void Aspose::Slides::OleObjectFrame::SetEmbeddedData(System::SharedPtr<IOleEmbed
 | Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedData | [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\> | Embedded data [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/) |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | When embeddedData parameter is null. |
+
 ## Remarks
 
 

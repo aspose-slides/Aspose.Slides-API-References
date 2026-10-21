@@ -1,7 +1,7 @@
 ---
 title: Reference()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Reference::Reference() constructor"
 type: docs
 weight: 157
 url: /system.security.cryptography.xml/reference/reference/

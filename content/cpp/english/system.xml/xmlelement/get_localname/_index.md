@@ -18,7 +18,7 @@ String System::Xml::XmlElement::get_LocalName() override
 
 ### Return Value
 
-The name of the current node with the prefix removed. For example, **get_LocalName** value is **book** for the element **<bk:book>**.
+The name of the current node with the prefix removed. For example, **get_LocalName** value is **book** for the element **\<bk:book\>**.
 
 ## See Also
 

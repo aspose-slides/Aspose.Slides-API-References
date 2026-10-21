@@ -1,7 +1,7 @@
 ---
 title: XmlSchemaException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlSchemaException typedef
 type: docs
 weight: 1132
 url: /system.xml.schema/xmlschemaexception/

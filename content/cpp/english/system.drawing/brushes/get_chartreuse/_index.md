@@ -1,7 +1,7 @@
 ---
 title: get_Chartreuse()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF7FFF00.
+description: "Returns the solid fill color whose hexadecimal value is #FF7FFF00."
 type: docs
 weight: 183
 url: /system.drawing/brushes/get_chartreuse/

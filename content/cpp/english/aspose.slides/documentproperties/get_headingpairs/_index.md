@@ -9,7 +9,7 @@ url: /aspose.slides/documentproperties/get_headingpairs/
 ## DocumentProperties::get_HeadingPairs() method
 
 
-Indicates the grouping of document parts and the number of parts in each group. Read-only [System::ArrayPtr<System::SharedPtr<IHeadingPair>>](../../../system/arrayptr/).
+Indicates the grouping of document parts and the number of parts in each group. Read-only [System::ArrayPtr\<System::SharedPtr\<IHeadingPair\>\>](../../../system/arrayptr/).
 
 ```cpp
 System::ArrayPtr<System::SharedPtr<IHeadingPair>> Aspose::Slides::DocumentProperties::get_HeadingPairs() override

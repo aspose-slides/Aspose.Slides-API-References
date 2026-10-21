@@ -22,6 +22,13 @@ virtual void System::Xml::XPath::XPathNavigator::set_InnerXml(String value)
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The value cannot be set. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

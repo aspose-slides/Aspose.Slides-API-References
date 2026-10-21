@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ArraySegment::Equals() method"
 type: docs
 weight: 105
 url: /system/arraysegment/equals/

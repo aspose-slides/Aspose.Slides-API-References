@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemaset/set_compilationsettings/
 ---
-## XmlSchemaSet::set_CompilationSettings(const SharedPtr\<XmlSchemaCompilationSettings\>\&) method
+## XmlSchemaSet::set_CompilationSettings(const SharedPtr\<XmlSchemaCompilationSettings\>&) method
 
 
 Sets the [XmlSchemaCompilationSettings](../../xmlschemacompilationsettings/) for the [XmlSchemaSet](../).
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSet::set_CompilationSettings(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCompilationSettings](../../xmlschemacompilationsettings/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCompilationSettings](../../xmlschemacompilationsettings/)\>& | The value to set. |
 
 ## See Also
 

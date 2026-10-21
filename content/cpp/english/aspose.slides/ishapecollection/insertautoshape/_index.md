@@ -22,10 +22,10 @@ virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::InsertAu
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index at which to insert the new auto shape. |
 | shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to insert. |
-| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | **float** | The width of the shape\\u2019s frame, in points. |
-| height | **float** | The height of the shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 
 ### Return Value
 
@@ -47,10 +47,10 @@ virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::InsertAu
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index at which to insert the auto shape. |
 | shapeType | [ShapeType](../../shapetype/) | The [ShapeType](../../shapetype/) of the auto shape to insert. |
-| x | **float** | The x-coordinate of the shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the shape\\u2019s frame, in points. |
-| width | **float** | The width of the shape\\u2019s frame, in points. |
-| height | **float** | The height of the shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the shape’s frame, in points. |
+| y | **float** | The y-coordinate of the shape’s frame, in points. |
+| width | **float** | The width of the shape’s frame, in points. |
+| height | **float** | The height of the shape’s frame, in points. |
 | createFromTemplate | **bool** | True to apply default template styling (including a non-empty name, simple style, and centered text); false to create the shape with all properties set to their defaults. |
 
 ### Return Value

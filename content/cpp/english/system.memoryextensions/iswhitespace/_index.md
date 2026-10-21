@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system.memoryextensions/iswhitespace/
 ---
-## System::MemoryExtensions::IsWhiteSpace(const ReadOnlySpan\<char16_t\>\&) function
+## System::MemoryExtensions::IsWhiteSpace(const ReadOnlySpan\<char16_t\>&) function
 
 
 Checks if the entire span consists only of whitespace characters.
@@ -20,7 +20,7 @@ bool System::MemoryExtensions::IsWhiteSpace(const ReadOnlySpan<char16_t> &span)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to check for whitespace |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The span to check for whitespace |
 
 ### Return Value
 

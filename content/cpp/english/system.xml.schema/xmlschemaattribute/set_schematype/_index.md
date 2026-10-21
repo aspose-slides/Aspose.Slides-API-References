@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.xml.schema/xmlschemaattribute/set_schematype/
 ---
-## XmlSchemaAttribute::set_SchemaType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
+## XmlSchemaAttribute::set_SchemaType(const SharedPtr\<XmlSchemaSimpleType\>&) method
 
 
 Sets the attribute type to a simple type.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAttribute::set_SchemaType(const SharedPtr<Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>& | The value to set. |
 
 ## See Also
 

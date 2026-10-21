@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.globalization/datetimeformatinfo/set_longdatepattern/
 ---
-## DateTimeFormatInfo::set_LongDatePattern(const String\&) method
+## DateTimeFormatInfo::set_LongDatePattern(const String&) method
 
 
 Sets long date pattern.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_LongDatePattern(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Format string. |
+| value | const [String](../../../system/string/)& | Format string. |
 
 ## See Also
 

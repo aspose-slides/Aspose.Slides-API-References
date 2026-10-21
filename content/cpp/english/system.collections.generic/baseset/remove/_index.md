@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.collections.generic/baseset/remove/
 ---
-## BaseSet::Remove(const T\&) method
+## BaseSet::Remove(const T&) method
 
 
 Removes element from set.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::BaseSet<T, SET_T>::Remove(const T &item) over
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Element to remove. |
+| item | const T& | Element to remove. |
 
 ### Return Value
 

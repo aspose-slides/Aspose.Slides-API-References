@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.memoryextensions/lastindexofanyexcept/
 ---
-## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
 Finds the last occurrence of any element except three specified values within a span.
@@ -26,16 +26,16 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
-| value2 | const T\& | The third value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
+| value2 | const T& | The third value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>&, const T&, const T&, const T&) function
 
 
 Finds the last occurrence of any element except three specified values within a mutable span.
@@ -55,16 +55,16 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
-| value2 | const T\& | The third value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
+| value2 | const T& | The third value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any element except two specified values within a span.
@@ -84,15 +84,15 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>&, const T&, const T&) function
 
 
 Finds the last occurrence of any element except two specified values within a mutable span.
@@ -112,15 +112,15 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| value0 | const T\& | The first value to exclude |
-| value1 | const T\& | The second value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| value0 | const T& | The first value to exclude |
+| value1 | const T& | The second value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&) function
 
 
 Finds the last occurrence of any element except a specified value within a span.
@@ -140,14 +140,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| value | const T\& | The value to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| value | const T& | The value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>\&, const T\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>&, const T&) function
 
 
 Finds the last occurrence of any element except a specified value within a mutable span.
@@ -167,14 +167,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| value | const T\& | The value to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| value | const T& | The value to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the last occurrence of any element except values from a sequence within a span.
@@ -194,14 +194,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search within |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sequence of values to exclude |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search within |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sequence of values to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the last occurrence of any element except values from a sequence within a mutable span.
@@ -221,14 +221,14 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The sequence of values to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The sequence of values to exclude |
 
 ### Return Value
 
 The zero-based index of the last non-excluded element, or -1 if not found
 
-## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>\&, const Span\<T\>\&) function
+## System::MemoryExtensions::LastIndexOfAnyExcept(const Span\<T\>&, const Span\<T\>&) function
 
 
 Finds the last occurrence of any element except values from a mutable sequence within a mutable span.
@@ -248,8 +248,8 @@ template<typename T> int32_t System::MemoryExtensions::LastIndexOfAnyExcept(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search within |
-| values | const [Span](../../system/span/)\<T\>\& | The sequence of values to exclude |
+| span | const [Span](../../system/span/)\<T\>& | The span to search within |
+| values | const [Span](../../system/span/)\<T\>& | The sequence of values to exclude |
 
 ### Return Value
 

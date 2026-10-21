@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.xml/xmlwriter/writename/
 ---
-## XmlWriter::WriteName(const String\&) method
+## XmlWriter::WriteName(const String&) method
 
 
 When overridden in a derived class, writes out the specified name, ensuring it is a valid name according to the W3C XML 1.0 recommendation ([https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name](https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name)).
@@ -20,7 +20,14 @@ virtual void System::Xml::XmlWriter::WriteName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to write. |
+| name | const [String](../../../system/string/)& | The name to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **name** is not a valid XML name; or **name** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Mybase
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Mybase typedef
 type: docs
 weight: 79
 url: /system.io/basicsystemostreamwrapper/mybase/

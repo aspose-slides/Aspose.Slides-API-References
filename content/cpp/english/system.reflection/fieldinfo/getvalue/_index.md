@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.reflection/fieldinfo/getvalue/
 ---
-## FieldInfo::GetValue(const System::SharedPtr\<System::Object\>\&) method
+## FieldInfo::GetValue(const System::SharedPtr\<System::Object\>&) method
 
 
 Gets property value from specific object.
@@ -20,7 +20,7 @@ System::SharedPtr<System::Object> System::Reflection::FieldInfo::GetValue(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to read property from. |
+| obj | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to read property from. |
 
 ### Return Value
 

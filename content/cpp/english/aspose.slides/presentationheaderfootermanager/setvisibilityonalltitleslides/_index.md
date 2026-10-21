@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityOnAllTitleSlides()
 second_title: Aspose.Slides for C++ API Reference
-description: Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides \\u2013 slides based on first layout slide (regardless of type of this first layout).
+description: Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides – slides based on first layout slide (regardless of type of this first layout).
 type: docs
 weight: 92
 url: /aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/
@@ -9,7 +9,7 @@ url: /aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslide
 ## PresentationHeaderFooterManager::SetVisibilityOnAllTitleSlides(bool) method
 
 
-Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides \\u2013 slides based on first layout slide (regardless of type of this first layout).
+Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides – slides based on first layout slide (regardless of type of this first layout).
 
 ```cpp
 void Aspose::Slides::PresentationHeaderFooterManager::SetVisibilityOnAllTitleSlides(bool isVisible) override

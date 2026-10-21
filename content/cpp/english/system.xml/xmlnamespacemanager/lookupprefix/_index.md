@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml/xmlnamespacemanager/lookupprefix/
 ---
-## XmlNamespaceManager::LookupPrefix(const String\&) method
+## XmlNamespaceManager::LookupPrefix(const String&) method
 
 
 Finds the prefix declared for the given namespace URI.
@@ -20,7 +20,7 @@ String System::Xml::XmlNamespaceManager::LookupPrefix(const String &uri) overrid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [String](../../../system/string/)\& | The namespace to resolve for the prefix. |
+| uri | const [String](../../../system/string/)& | The namespace to resolve for the prefix. |
 
 ### Return Value
 

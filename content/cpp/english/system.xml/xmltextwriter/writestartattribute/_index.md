@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.xml/xmltextwriter/writestartattribute/
 ---
-## XmlTextWriter::WriteStartAttribute(const String\&, const String\&, const String\&) method
+## XmlTextWriter::WriteStartAttribute(const String&, const String&, const String&) method
 
 
 Writes the start of an attribute.
@@ -20,9 +20,16 @@ void System::Xml::XmlTextWriter::WriteStartAttribute(const String &prefix, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | **Namespace** prefix of the attribute. |
-| localName | const [String](../../../system/string/)\& | **LocalName** of the attribute. |
-| ns | const [String](../../../system/string/)\& | **NamespaceURI** of the attribute. |
+| prefix | const [String](../../../system/string/)& | **Namespace** prefix of the attribute. |
+| localName | const [String](../../../system/string/)& | **LocalName** of the attribute. |
+| ns | const [String](../../../system/string/)& | **NamespaceURI** of the attribute. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **localName** is either **nullptr** or [String::Empty](../../../system/string/empty/). |
+
 
 ## See Also
 

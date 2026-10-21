@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/guid/operator_equal/
 ---
-## Guid::operator=(const Guid\&) method
+## Guid::operator=(const Guid&) method
 
 
 Assigns to the current object the GUID value represented by the specified [Guid](../) object.
@@ -20,7 +20,7 @@ Guid & System::Guid::operator=(const Guid &guid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| guid | const [Guid](../)\& | The [Guid](../) object to copy the GUID value from |
+| guid | const [Guid](../)& | The [Guid](../) object to copy the GUID value from |
 
 ### Return Value
 

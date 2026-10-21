@@ -1,7 +1,7 @@
 ---
 title: SecurityException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SecurityException typedef
 type: docs
 weight: 53
 url: /system.security/securityexception/

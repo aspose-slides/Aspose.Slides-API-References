@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.drawing/region/getbounds/
 ---
-## Region::GetBounds(const SharedPtr\<Graphics\>\&) const method
+## Region::GetBounds(const SharedPtr\<Graphics\>&) const method
 
 
 Gets a [RectangleF](../../rectanglef/) structure that represents a rectangle that bounds this [Region](../) on the drawing surface of a [Graphics](../../graphics/) object.
@@ -20,7 +20,7 @@ RectangleF System::Drawing::Region::GetBounds(const SharedPtr<Graphics> &graphic
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The [Graphics](../../graphics/) on which this [Region](../) is drawn. |
+| graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>& | The [Graphics](../../graphics/) on which this [Region](../) is drawn. |
 
 ## See Also
 

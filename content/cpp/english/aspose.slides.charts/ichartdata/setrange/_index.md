@@ -20,7 +20,15 @@ virtual void Aspose::Slides::Charts::IChartData::SetRange(System::String formula
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formula | [System::String](../../../system/string/) | The cells data range formula. E.g: \"Sheet1!$A$1:$C$4\" , \"SomeSheetName!A1:B100\", \"Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5\". |
+| formula | [System::String](../../../system/string/) | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | formula is null. |
+| [System::ArgumentException](../../../system/argumentexception/) | formula has incorrect format. |
+
 
 ## See Also
 

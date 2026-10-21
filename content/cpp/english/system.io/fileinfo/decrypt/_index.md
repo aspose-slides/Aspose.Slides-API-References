@@ -16,6 +16,13 @@ void System::IO::FileInfo::Decrypt()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| IOException | Always |
+
+
 ## See Also
 
 * Class [FileInfo](../)

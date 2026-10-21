@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.threading.tasks/fromexception/
 ---
-## System::Threading::Tasks::FromException(const Exception\&) function
+## System::Threading::Tasks::FromException(const Exception&) function
 
 
 Creates a task that has completed with a specified exception.
@@ -20,13 +20,13 @@ TaskPtr System::Threading::Tasks::FromException(const Exception &exception)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exception | const [Exception](../../system/exception/)\& | The exception with which to complete the task. |
+| exception | const [Exception](../../system/exception/)& | The exception with which to complete the task. |
 
 ### Return Value
 
 A faulted task.
 
-## System::Threading::Tasks::FromException(const Exception\&) function
+## System::Threading::Tasks::FromException(const Exception&) function
 
 
 Creates a task that has completed with a specified exception and result type.
@@ -46,7 +46,7 @@ template<typename TResult> RTaskPtr<TResult> System::Threading::Tasks::FromExcep
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exception | const [Exception](../../system/exception/)\& | The exception with which to complete the task. |
+| exception | const [Exception](../../system/exception/)& | The exception with which to complete the task. |
 
 ### Return Value
 

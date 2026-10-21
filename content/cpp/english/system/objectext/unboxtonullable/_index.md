@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system/objectext/unboxtonullable/
 ---
-## ObjectExt::UnboxToNullable(const SmartPtr\<Object\>\&, bool) method
+## ObjectExt::UnboxToNullable(const SmartPtr\<Object\>&, bool) method
 
 
 Unboxes object to nullable type.
@@ -26,7 +26,7 @@ template<class T> static Nullable<T> System::ObjectExt::UnboxToNullable(const Sm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to unbox. |
+| obj | const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>& | [Object](../../object/) to unbox. |
 | safe | **bool** | If true, return nullptr on failure, otherwise throw InvalidCastException. |
 
 ### Return Value

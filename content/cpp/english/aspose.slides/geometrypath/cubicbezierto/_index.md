@@ -64,6 +64,13 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(System::Drawing::PointF point1,
 | point3 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
+
 ## GeometryPath::CubicBezierTo(float, float, float, float, float, float, uint32_t) method
 
 
@@ -85,6 +92,13 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(float x1, float y1, float x2, f
 | x3 | **float** | X coordinate of end point |
 | y3 | **float** | Y coordinate of end point |
 | index | **uint32_t** | Index of segment in PathData |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
 
 ## See Also
 

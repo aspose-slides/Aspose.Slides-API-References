@@ -20,6 +20,14 @@ virtual int64_t System::Xml::XmlReader::ReadContentAsLong()
 
 The text content as a 64-bit signed integer.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [XmlReader](../)

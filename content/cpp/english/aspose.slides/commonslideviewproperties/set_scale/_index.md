@@ -16,6 +16,13 @@ void Aspose::Slides::CommonSlideViewProperties::set_Scale(int32_t value) overrid
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Throws when value less than zero. |
+
+
 ## See Also
 
 * Class [CommonSlideViewProperties](../)

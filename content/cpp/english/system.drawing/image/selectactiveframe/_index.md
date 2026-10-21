@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.drawing/image/selectactiveframe/
 ---
-## Image::SelectActiveFrame(const Imaging::FrameDimensionPtr\&, int) method
+## Image::SelectActiveFrame(const Imaging::FrameDimensionPtr&, int) method
 
 
 Selects the specified frame.
@@ -20,7 +20,7 @@ int System::Drawing::Image::SelectActiveFrame(const Imaging::FrameDimensionPtr &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dimension | const [Imaging::FrameDimensionPtr](../../../system.drawing.imaging/framedimensionptr/)\& | The dimension of the frame to select |
+| dimension | const [Imaging::FrameDimensionPtr](../../../system.drawing.imaging/framedimensionptr/)& | The dimension of the frame to select |
 | frameIndex | int | The index of the frame to select returns Always 0 |
 
 ## See Also

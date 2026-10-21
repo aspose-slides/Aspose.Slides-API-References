@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /system.globalization/datetimeformatinfo/getinstance/
 ---
-## DateTimeFormatInfo::GetInstance(const IFormatProviderPtr\&) method
+## DateTimeFormatInfo::GetInstance(const IFormatProviderPtr&) method
 
 
 Gets formatter associated with format provider.
@@ -20,7 +20,7 @@ static DateTimeFormatInfoPtr System::Globalization::DateTimeFormatInfo::GetInsta
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)\& | Provider to get format for. |
+| provider | const [IFormatProviderPtr](../../../system/iformatproviderptr/)& | Provider to get format for. |
 
 ### Return Value
 

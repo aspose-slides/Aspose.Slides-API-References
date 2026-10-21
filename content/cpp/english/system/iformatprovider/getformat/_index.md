@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/iformatprovider/getformat/
 ---
-## IFormatProvider::GetFormat(const TypeInfo\&) method
+## IFormatProvider::GetFormat(const TypeInfo&) method
 
 
 Returns an object that provides formatting services for the specified type.
@@ -20,7 +20,7 @@ virtual SharedPtr<Object> System::IFormatProvider::GetFormat(const TypeInfo &for
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formatType | const [TypeInfo](../../typeinfo/)\& | The type for which formatting object is requested |
+| formatType | const [TypeInfo](../../typeinfo/)& | The type for which formatting object is requested |
 
 ### Return Value
 

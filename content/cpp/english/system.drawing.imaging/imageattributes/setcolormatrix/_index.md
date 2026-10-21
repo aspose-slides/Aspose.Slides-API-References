@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.drawing.imaging/imageattributes/setcolormatrix/
 ---
-## ImageAttributes::SetColorMatrix(const SharedPtr\<ColorMatrix\>\&, ColorMatrixFlag, ColorAdjustType) method
+## ImageAttributes::SetColorMatrix(const SharedPtr\<ColorMatrix\>&, ColorMatrixFlag, ColorAdjustType) method
 
 
 Sets the color-adjustment matrix.
@@ -20,7 +20,7 @@ void System::Drawing::Imaging::ImageAttributes::SetColorMatrix(const SharedPtr<C
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newColorMatrix | const [SharedPtr](../../../system/sharedptr/)\<[ColorMatrix](../../colormatrix/)\>\& | The color-adjustment matrix to set |
+| newColorMatrix | const [SharedPtr](../../../system/sharedptr/)\<[ColorMatrix](../../colormatrix/)\>& | The color-adjustment matrix to set |
 | mode | [ColorMatrixFlag](../../colormatrixflag/) | Specifies the type of image and color that will be affected by the color-adjustment matrix |
 | type | [ColorAdjustType](../../coloradjusttype/) | Specifies the type of objects for which the color-adjustment matrix is set |
 

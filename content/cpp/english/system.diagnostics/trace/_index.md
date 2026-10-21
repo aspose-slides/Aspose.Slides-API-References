@@ -20,7 +20,7 @@ class Trace
 | Method | Description |
 | --- | --- |
 | static void [Flush](./flush/)() | Flushes the output buffer, and causes buffered data to be written to the listeners. |
-| static void [WriteLine](./writeline/)(const [String](../../system/string/)\&) | Writes line to debugger trace. |
+| static void [WriteLine](./writeline/)(const [String](../../system/string/)&) | Writes line to debugger trace. |
 ## See Also
 
 * Namespace [System::Diagnostics](../)

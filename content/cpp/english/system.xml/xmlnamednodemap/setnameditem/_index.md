@@ -26,6 +26,13 @@ virtual SharedPtr<XmlNode> System::Xml::XmlNamedNodeMap::SetNamedItem(SharedPtr<
 
 If the **node** replaces an existing node with the same name, the old node is returned; otherwise, **nullptr** is returned.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **node** was created from a different [XmlDocument](../../xmldocument/) than the one that created the [XmlNamedNodeMap](../); or the [XmlNamedNodeMap](../) is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.security.cryptography/ecdsabotan/importparameters/
 ---
-## ECDsaBotan::ImportParameters(const ECParameters\&) method
+## ECDsaBotan::ImportParameters(const ECParameters&) method
 
 
 Imports all parameters from data structure.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::ECDsaBotan::ImportParameters(const ECParame
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | const [ECParameters](../../ecparameters/)\& | Structure to import parameters from. |
+| parameters | const [ECParameters](../../ecparameters/)& | Structure to import parameters from. |
 
 ## See Also
 

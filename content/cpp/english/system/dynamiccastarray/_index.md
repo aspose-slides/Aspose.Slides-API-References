@@ -6,7 +6,7 @@ type: docs
 weight: 3030
 url: /system/dynamiccastarray/
 ---
-## System::DynamicCastArray(const SharedPtr\<Array\<From\>\>\&) function
+## System::DynamicCastArray(const SharedPtr\<Array\<From\>\>&) function
 
 
 Performs casting of elements of the specified array to different type.
@@ -27,7 +27,7 @@ template<class To,class From> SharedPtr<Array<To>> System::DynamicCastArray(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| from | const [SharedPtr](../sharedptr/)\<[Array](../array/)\<From\>\>\& | Shared pointer to the array containing the elements to cast |
+| from | const [SharedPtr](../sharedptr/)\<[Array](../array/)\<From\>\>& | Shared pointer to the array containing the elements to cast |
 
 ### Return Value
 

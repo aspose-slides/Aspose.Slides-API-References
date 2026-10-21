@@ -1,7 +1,7 @@
 ---
 title: ToMargin32F()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Margin64d::ToMargin32F() method"
 type: docs
 weight: 27
 url: /aspose.slides.drawing/margin64d/tomargin32f/

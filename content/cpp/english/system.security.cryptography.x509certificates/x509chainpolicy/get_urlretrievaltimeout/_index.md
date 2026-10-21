@@ -1,7 +1,7 @@
 ---
 title: get_UrlRetrievalTimeout()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainPolicy::get_UrlRetrievalTimeout() method"
 type: docs
 weight: 105
 url: /system.security.cryptography.x509certificates/x509chainpolicy/get_urlretrievaltimeout/

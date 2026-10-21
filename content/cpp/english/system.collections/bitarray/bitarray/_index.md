@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections/bitarray/bitarray/
 ---
-## BitArray::BitArray(const bitset\&) constructor
+## BitArray::BitArray(const bitset&) constructor
 
 
 Copy constructor.
@@ -20,9 +20,9 @@ System::Collections::BitArray::BitArray(const bitset &bits)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bits | const [bitset](../bitset/)\& | Container to copy data from. |
+| bits | const [bitset](../bitset/)& | Container to copy data from. |
 
-## BitArray::BitArray(const BitArray\&) constructor
+## BitArray::BitArray(const BitArray&) constructor
 
 
 Copy constructor.
@@ -36,9 +36,9 @@ System::Collections::BitArray::BitArray(const BitArray &bits)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bits | const [BitArray](../)\& | Container to copy data from. |
+| bits | const [BitArray](../)& | Container to copy data from. |
 
-## BitArray::BitArray(const BitArrayPtr\&) constructor
+## BitArray::BitArray(const BitArrayPtr&) constructor
 
 
 Copy constructor.
@@ -52,9 +52,9 @@ System::Collections::BitArray::BitArray(const BitArrayPtr &array)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | const [BitArrayPtr](../../bitarrayptr/)\& | [BitArray](../) to copy data from. |
+| array | const [BitArrayPtr](../../bitarrayptr/)& | [BitArray](../) to copy data from. |
 
-## BitArray::BitArray(const System::ArrayPtr\<bool\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<bool\>&) constructor
 
 
 Copy constructor.
@@ -68,9 +68,9 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<bool> &values)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| values | const [System::ArrayPtr](../../../system/arrayptr/)\<**bool**\>\& | Container to elementwise copy data from. |
+| values | const [System::ArrayPtr](../../../system/arrayptr/)\<**bool**\>& | Container to elementwise copy data from. |
 
-## BitArray::BitArray(const System::ArrayPtr\<uint8_t\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<uint8_t\>&) constructor
 
 
 Copy constructor.
@@ -84,9 +84,9 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<uint8_t> &bytes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Container to bitwise copy data from. |
+| bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Container to bitwise copy data from. |
 
-## BitArray::BitArray(const System::ArrayPtr\<int\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<int\>&) constructor
 
 
 Copy constructor.
@@ -100,7 +100,7 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<int> &values)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| values | const [System::ArrayPtr](../../../system/arrayptr/)\<int\>\& | Container to bitwise copy data from. |
+| values | const [System::ArrayPtr](../../../system/arrayptr/)\<int\>& | Container to bitwise copy data from. |
 
 ## BitArray::BitArray(int, bool) constructor
 

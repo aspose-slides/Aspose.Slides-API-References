@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/console/write/
 ---
-## Console::Write(const SharedPtr\<T\>\&) method
+## Console::Write(const SharedPtr\<T\>&) method
 
 
 Outputs the string representation of the specified object to the standard output stream.
@@ -26,7 +26,7 @@ template<class T> static void System::Console::Write(const SharedPtr<T> &object)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| object | const [SharedPtr](../../sharedptr/)\<T\>\& | [Object](../../object/) to output |
+| object | const [SharedPtr](../../sharedptr/)\<T\>& | [Object](../../object/) to output |
 
 ## Console::Write(bool) method
 
@@ -60,7 +60,7 @@ static void System::Console::Write(char_t value)
 | --- | --- | --- |
 | value | char_t | The value to output |
 
-## Console::Write(const ArrayPtr\<char_t\>\&) method
+## Console::Write(const ArrayPtr\<char_t\>&) method
 
 
 Outputs the string representation of the specified character array to the standard output stream.
@@ -74,9 +74,9 @@ static void System::Console::Write(const ArrayPtr<char_t> &buffer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array to output |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The array to output |
 
-## Console::Write(const Decimal\&) method
+## Console::Write(const Decimal&) method
 
 
 Outputs the string representation of [Decimal](../../decimal/) value to the standard output stream.
@@ -90,7 +90,7 @@ static void System::Console::Write(const Decimal &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Decimal](../../decimal/)\& | The value to output |
+| value | const [Decimal](../../decimal/)& | The value to output |
 
 ## Console::Write(double) method
 
@@ -156,7 +156,7 @@ static void System::Console::Write(int64_t value)
 | --- | --- | --- |
 | value | **int64_t** | The value to output |
 
-## Console::Write(const String\&) method
+## Console::Write(const String&) method
 
 
 Outputs the specified string object to the standard output stream.
@@ -170,9 +170,9 @@ static void System::Console::Write(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string object to output |
+| value | const [String](../../string/)& | The string object to output |
 
-## Console::Write(const char_t *) method
+## Console::Write(const char_t \*) method
 
 
 Outputs the specified c-string to the standard output stream.
@@ -186,9 +186,9 @@ static void System::Console::Write(const char_t *value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to output |
+| value | const char_t \* | The c-string to output |
 
-## Console::Write(const TypeInfo\&) method
+## Console::Write(const TypeInfo&) method
 
 
 Outputs the string representation of [TypeInfo](../../typeinfo/) value to the standard output stream.
@@ -202,7 +202,7 @@ static void System::Console::Write(const TypeInfo &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [TypeInfo](../../typeinfo/)\& | The value to output |
+| value | const [TypeInfo](../../typeinfo/)& | The value to output |
 
 ## Console::Write(uint32_t) method
 
@@ -236,7 +236,7 @@ static void System::Console::Write(uint64_t value)
 | --- | --- | --- |
 | value | **uint64_t** | The value to output |
 
-## Console::Write(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## Console::Write(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Outputs the string representation of the specified range of the specified character array to the standard output stream.
@@ -250,11 +250,11 @@ static void System::Console::Write(const ArrayPtr<char_t> &buffer, int32_t index
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The character array |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The character array |
 | index | **int32_t** | The index in the array at which the range to output begins |
 | count | **int32_t** | The number of elements in the range to output |
 
-## Console::Write(const String\&, Args\&&...) method
+## Console::Write(const String&, Args&&...) method
 
 
 Outputs the string representation of the specified arguments formatted according to the specified format to the standard output stream.
@@ -274,10 +274,10 @@ template<class...> static void System::Console::Write(const String &format, Args
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | The string format |
-| args | Args\&&... | The values to output |
+| format | const [String](../../string/)& | The string format |
+| args | Args&&... | The values to output |
 
-## Console::Write(const char *) method
+## Console::Write(const char \*) method
 
 
 

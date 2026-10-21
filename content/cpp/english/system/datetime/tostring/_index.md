@@ -20,7 +20,7 @@ String System::DateTime::ToString() const
 
 The string representation of the value represented by the current object
 
-## DateTime::ToString(const String\&) const method
+## DateTime::ToString(const String&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format and formatting conventions defined by the current culture.
@@ -34,13 +34,13 @@ String System::DateTime::ToString(const String &format) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | A format string |
+| format | const [String](../../string/)& | A format string |
 
 ### Return Value
 
 The string representation of the value represented by the current object formatted according to format defined by **format** and the current culture.
 
-## DateTime::ToString(const SharedPtr\<IFormatProvider\>\&) const method
+## DateTime::ToString(const SharedPtr\<IFormatProvider\>&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format information.
@@ -54,13 +54,13 @@ String System::DateTime::ToString(const SharedPtr<IFormatProvider> &provider) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | An object representing the format information |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | An object representing the format information |
 
 ### Return Value
 
 The string representation of the value represented by the current object formatted according to format information provided by **formatProvider**.
 
-## DateTime::ToString(const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## DateTime::ToString(const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 
@@ -69,7 +69,7 @@ The string representation of the value represented by the current object formatt
 String System::DateTime::ToString(const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## DateTime::ToString(const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
+## DateTime::ToString(const SharedPtr\<Globalization::DateTimeFormatInfo\>&) const method
 
 
 
@@ -87,7 +87,7 @@ String System::DateTime::ToString(const SharedPtr<Globalization::DateTimeFormatI
 String System::DateTime::ToString(std::nullptr_t) const
 ```
 
-## DateTime::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
+## DateTime::ToString(const String&, const SharedPtr\<IFormatProvider\>&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format information.
@@ -101,14 +101,14 @@ String System::DateTime::ToString(const String &format, const SharedPtr<IFormatP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [String](../../string/)\& | A format string |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | An object representing the format information |
+| format | const [String](../../string/)& | A format string |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | An object representing the format information |
 
 ### Return Value
 
 The string representation of the value represented by the current object formatted according to format information provided by **provider** and format string **format**.
 
-## DateTime::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
+## DateTime::ToString(const String&, const SharedPtr\<Globalization::CultureInfo\>&) const method
 
 
 
@@ -117,7 +117,7 @@ The string representation of the value represented by the current object formatt
 String System::DateTime::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## DateTime::ToString(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
+## DateTime::ToString(const String&, const SharedPtr\<Globalization::DateTimeFormatInfo\>&) const method
 
 
 
@@ -126,7 +126,7 @@ String System::DateTime::ToString(const String &format, const SharedPtr<Globaliz
 String System::DateTime::ToString(const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi) const
 ```
 
-## DateTime::ToString(const String\&, std::nullptr_t) const method
+## DateTime::ToString(const String&, std::nullptr_t) const method
 
 
 

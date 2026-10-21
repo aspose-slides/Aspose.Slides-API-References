@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemaappinfo/set_markup/
 ---
-## XmlSchemaAppInfo::set_Markup(const ArrayPtr\<SharedPtr\<XmlNode\>\>\&) method
+## XmlSchemaAppInfo::set_Markup(const ArrayPtr\<SharedPtr\<XmlNode\>\>&) method
 
 
 Sets an array of [XmlNode](../../../system.xml/xmlnode/) objects that represents the **appinfo** child nodes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAppInfo::set_Markup(const ArrayPtr<SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../../system.xml/xmlnode/)\>\>\& | The value to set. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../../system.xml/xmlnode/)\>\>& | The value to set. |
 
 ## See Also
 

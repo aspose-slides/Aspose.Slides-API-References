@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.specialized/stringdictionary/idx_get/
 ---
-## StringDictionary::idx_get(const String\&) const method
+## StringDictionary::idx_get(const String&) const method
 
 
 Gets value at specific key.
@@ -20,7 +20,7 @@ virtual String System::Collections::Specialized::StringDictionary::idx_get(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const [String](../../../system/string/)\& | Key to look at. |
+| key | const [String](../../../system/string/)& | Key to look at. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/math/floor/
 ---
-## Math::Floor(const Decimal\&) method
+## Math::Floor(const Decimal&) method
 
 
 Returns the largest integral value that is less than or equal to the specified value.
@@ -20,7 +20,7 @@ static Decimal System::Math::Floor(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../../decimal/)\& | A decimal number |
+| d | const [Decimal](../../decimal/)& | A decimal number |
 
 ### Return Value
 

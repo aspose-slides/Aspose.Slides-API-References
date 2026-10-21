@@ -6,7 +6,7 @@ type: docs
 weight: 2848
 url: /system/setter_wrap/
 ---
-## System::setter_wrap(void(*)(T2), T) function
+## System::setter_wrap(void(\*)(T2), T) function
 
 
 Overload for static setter functions with type conversion.
@@ -27,14 +27,14 @@ template<typename T,typename T2> T System::setter_wrap(void(*pSetter)(T2), T val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pSetter | void(*)(T2) | Static setter function reference. |
+| pSetter | void(\*)(T2) | Static setter function reference. |
 | value | T | Value to set. |
 
 ### Return Value
 
 set value.
 
-## System::setter_wrap(Host *const, void(HostSet::*)(T2), T) function
+## System::setter_wrap(Host \*const, void(HostSet::\*)(T2), T) function
 
 
 Overload for instance setter functions with type conversion.
@@ -57,8 +57,8 @@ template<typename T,typename T2,typename Host,typename HostSet> std::enable_if<s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| host | Host *const | [Object](../object/) to call setter function for. |
-| pSetter | void(HostSet::*)(T2) | Setter function reference. |
+| host | Host \*const | [Object](../object/) to call setter function for. |
+| pSetter | void(HostSet::\*)(T2) | Setter function reference. |
 | value | T | Value to set. |
 
 ### Return Value

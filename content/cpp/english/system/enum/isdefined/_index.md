@@ -46,7 +46,7 @@ template<class T> static std::enable_if<std::is_convertible<T, UnderlyingType>::
 
 True if **value** is a member of enumeration **T**, otherwise - false
 
-## Enum::IsDefined(const String\&) method
+## Enum::IsDefined(const String&) method
 
 
 Determines if the value with the specified name is among members of enum **E**.
@@ -60,7 +60,7 @@ static bool System::Enum<E, Guard>::IsDefined(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | The name to check |
+| name | const [String](../../string/)& | The name to check |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_OSX()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::get_OSX() method"
 type: docs
 weight: 27
 url: /system.runtime.interopservices/osplatform/get_osx/

@@ -26,7 +26,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 An array of bytes that represents the current object.
 
-## X509Certificate::Export(X509ContentType, const SecureStringPtr\&) const method
+## X509Certificate::Export(X509ContentType, const SecureStringPtr&) const method
 
 
 Exports the current object to a byte array using the specified format. NOT IMPLEMENTED.
@@ -41,13 +41,13 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | content_type | [X509ContentType](../../x509contenttype/) | Specifies how to format the output data. |
-| password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | The password required to access certificate data. |
+| password | const [SecureStringPtr](../../../system.security/securestringptr/)& | The password required to access certificate data. |
 
 ### Return Value
 
 An array of bytes that represents the current object.
 
-## X509Certificate::Export(X509ContentType, const String\&) const method
+## X509Certificate::Export(X509ContentType, const String&) const method
 
 
 Exports the current object to a byte array using the specified format. NOT IMPLEMENTED.
@@ -62,7 +62,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | content_type | [X509ContentType](../../x509contenttype/) | Specifies how to format the output data. |
-| password | const [String](../../../system/string/)\& | The password required to access certificate data. |
+| password | const [String](../../../system/string/)& | The password required to access certificate data. |
 
 ### Return Value
 

@@ -15,7 +15,7 @@ Outputs the current line terminator to the output stream represented by the curr
 void System::ConsoleOutput::WriteLine() override
 ```
 
-## ConsoleOutput::WriteLine(const SharedPtr\<Object\>\&) method
+## ConsoleOutput::WriteLine(const SharedPtr\<Object\>&) method
 
 
 Outputs the string representation of the specified object followed by the current line terminator to the output stream represented by the current object.
@@ -29,7 +29,7 @@ void System::ConsoleOutput::WriteLine(const SharedPtr<Object> &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The object to output |
+| value | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The object to output |
 
 ## ConsoleOutput::WriteLine(bool) method
 
@@ -143,7 +143,7 @@ void System::ConsoleOutput::WriteLine(float value) override
 | --- | --- | --- |
 | value | **float** | The value to output |
 
-## ConsoleOutput::WriteLine(const String\&) method
+## ConsoleOutput::WriteLine(const String&) method
 
 
 Outputs the specified string object followed by the current line terminator to the output stream represented by the current object.
@@ -157,7 +157,7 @@ void System::ConsoleOutput::WriteLine(const String &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string object to output |
+| value | const [String](../../string/)& | The string object to output |
 
 ## ConsoleOutput::WriteLine(uint32_t) method
 
@@ -191,7 +191,7 @@ void System::ConsoleOutput::WriteLine(uint64_t value) override
 | --- | --- | --- |
 | value | **uint64_t** | The value to output |
 
-## ConsoleOutput::WriteLine(const ArrayPtr\<char_t\>\&) method
+## ConsoleOutput::WriteLine(const ArrayPtr\<char_t\>&) method
 
 
 Outputs the string representation of the specified character array followed by the current line terminator to the output stream represented by the current object.
@@ -205,9 +205,9 @@ void System::ConsoleOutput::WriteLine(const ArrayPtr<char_t> &buffer) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array to output |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The array to output |
 
-## ConsoleOutput::WriteLine(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## ConsoleOutput::WriteLine(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Outputs the string representation of a range of values of the specified character array followed by the current line terminator to the output stream represented by the current object.
@@ -221,11 +221,11 @@ void System::ConsoleOutput::WriteLine(const ArrayPtr<char_t> &buffer, int32_t in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array containing the values to output |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The array containing the values to output |
 | index | **int32_t** | The index at which the range of elements to output begins |
 | count | **int32_t** | The number of elements in the range of elements to output |
 
-## ConsoleOutput::WriteLine(const char_t *) method
+## ConsoleOutput::WriteLine(const char_t \*) method
 
 
 Outputs the specified c-string followed by the current line terminator to the output stream represented by the current object.
@@ -239,9 +239,9 @@ void System::ConsoleOutput::WriteLine(const char_t *value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to output |
+| value | const char_t \* | The c-string to output |
 
-## ConsoleOutput::WriteLine(const TypeInfo\&) method
+## ConsoleOutput::WriteLine(const TypeInfo&) method
 
 
 Outputs the string representation of the specified [TypeInfo](../../typeinfo/) object followed by the current line terminator to the output stream represented by the current object.
@@ -255,9 +255,9 @@ void System::ConsoleOutput::WriteLine(const TypeInfo &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [TypeInfo](../../typeinfo/)\& | The [TypeInfo](../../typeinfo/) object to output |
+| value | const [TypeInfo](../../typeinfo/)& | The [TypeInfo](../../typeinfo/) object to output |
 
-## ConsoleOutput::WriteLine(const char *) method
+## ConsoleOutput::WriteLine(const char \*) method
 
 
 

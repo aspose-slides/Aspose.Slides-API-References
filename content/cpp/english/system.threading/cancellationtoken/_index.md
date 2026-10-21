@@ -23,7 +23,7 @@ class CancellationToken : public System::Details::BoxableObjectBase
 | **bool** [get_CanBeCanceled](./get_canbecanceled/)() const | Gets whether this token is capable of being in the canceled state. |
 | **bool** [get_IsCancellationRequested](./get_iscancellationrequested/)() const | Gets whether cancellation has been requested for this token. |
 | static [CancellationToken](./) [get_None](./get_none/)() | Returns an empty [System::Threading::CancellationToken](./) value. |
-| [CancellationTokenRegistration](../cancellationtokenregistration/) [Register](./register/)(const [Action](../../system/action/)<>\&) const | Registers a callback that will be invoked when cancellation is requested. |
+| [CancellationTokenRegistration](../cancellationtokenregistration/) [Register](./register/)(const [Action](../../system/action/)\<\>&) const | Registers a callback that will be invoked when cancellation is requested. |
 | void [ThrowIfCancellationRequested](./throwifcancellationrequested/)() const | Throws a OperationCanceledException if cancellation has been requested. |
 ## Remarks
 

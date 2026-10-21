@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system/decimal/truncate/
 ---
-## Decimal::Truncate(const Decimal\&) method
+## Decimal::Truncate(const Decimal&) method
 
 
 Returns the [Decimal](../) object representing a value that has integral part equal to that of the value represented by the specified [Decimal](../) object of the with all fractional digits discarded.
@@ -20,7 +20,7 @@ static Decimal System::Decimal::Truncate(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | A decimal number |
+| d | const [Decimal](../)& | A decimal number |
 
 ### Return Value
 

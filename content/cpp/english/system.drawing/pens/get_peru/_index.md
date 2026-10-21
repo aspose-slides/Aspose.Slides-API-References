@@ -1,7 +1,7 @@
 ---
 title: get_Peru()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFCD853F.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFCD853F."
 type: docs
 weight: 1418
 url: /system.drawing/pens/get_peru/

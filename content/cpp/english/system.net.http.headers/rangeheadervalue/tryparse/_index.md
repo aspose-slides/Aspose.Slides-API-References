@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/rangeheadervalue/tryparse/
 ---
-## RangeHeaderValue::TryParse(String, System::SharedPtr\<RangeHeaderValue\>\&) method
+## RangeHeaderValue::TryParse(String, System::SharedPtr\<RangeHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [RangeHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::RangeHeaderValue::TryParse(String input,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

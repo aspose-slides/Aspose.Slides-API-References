@@ -22,6 +22,13 @@ void System::Xml::XmlTextWriter::set_Namespaces(bool value)
 | --- | --- | --- |
 | value | **bool** | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | You can only change this value when in the [WriteState::Start](../../writestate/) state. |
+
+
 ## See Also
 
 * Class [XmlTextWriter](../)

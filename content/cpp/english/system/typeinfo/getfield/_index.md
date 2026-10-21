@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /system/typeinfo/getfield/
 ---
-## TypeInfo::GetField(const System::String\&, System::Reflection::BindingFlags) const method
+## TypeInfo::GetField(const System::String&, System::Reflection::BindingFlags) const method
 
 
 Searches for the specified field, using the specified binding constraints.

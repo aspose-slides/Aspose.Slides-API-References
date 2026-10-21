@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /system.drawing/graphics/drawline/
 ---
-## Graphics::DrawLine(const SharedPtr\<Pen\>\&, Point, Point) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>&, Point, Point) method
 
 
 Draws the specified line using the specified pen.
@@ -20,11 +20,11 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, Point pt1, P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
 | pt1 | [Point](../../point/) | The first point defining the line to draw |
 | pt2 | [Point](../../point/) | The second point defining the line to draw |
 
-## Graphics::DrawLine(const SharedPtr\<Pen\>\&, PointF, PointF) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>&, PointF, PointF) method
 
 
 Draws the specified line using the specified pen.
@@ -38,11 +38,11 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, PointF pt1, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
 | pt1 | [PointF](../../pointf/) | The first point defining the line to draw |
 | pt2 | [PointF](../../pointf/) | The second point defining the line to draw |
 
-## Graphics::DrawLine(const SharedPtr\<Pen\>\&, int, int, int, int) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>&, int, int, int, int) method
 
 
 Draws the specified line using the specified pen.
@@ -56,13 +56,13 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, int x1, int 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
 | x1 | int | The X-coordinate of the first point defining the line to draw |
 | y1 | int | The Y-coordinate of the first point defining the line to draw |
 | x2 | int | The X-coordinate of the second point defining the line to draw |
 | y2 | int | The Y-coordinate of the second point defining the line to draw |
 
-## Graphics::DrawLine(const SharedPtr\<Pen\>\&, float, float, float, float) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>&, float, float, float, float) method
 
 
 Draws the specified line using the specified pen.
@@ -76,7 +76,7 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, float x1, fl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A [Pen](../../pen/) object that specifies graphical properties of the line to draw |
 | x1 | **float** | The X-coordinate of the first point defining the line to draw |
 | y1 | **float** | The Y-coordinate of the first point defining the line to draw |
 | x2 | **float** | The X-coordinate of the second point defining the line to draw |

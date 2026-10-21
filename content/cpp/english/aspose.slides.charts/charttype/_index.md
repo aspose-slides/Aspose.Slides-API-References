@@ -19,25 +19,25 @@ enum class ChartType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ClusteredColumn | 0 | Represents Clustered [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| StackedColumn | 1 | Represents Stacked [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| PercentsStackedColumn | 2 | Represents 100% Stacked [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| ClusteredColumn3D | 3 | Represents 3D Colustered [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| StackedColumn3D | 4 | Represents 3D Stacked [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| PercentsStackedColumn3D | 5 | Represents 3D 100% Stacked [Column](../../aspose.slides/column/)[Chart](../chart/). |
-| Column3D | 6 | Represents 3D [Column](../../aspose.slides/column/)[Chart](../chart/). |
+| ClusteredColumn | 0 | Represents Clustered [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| StackedColumn | 1 | Represents Stacked [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| PercentsStackedColumn | 2 | Represents 100% Stacked [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| ClusteredColumn3D | 3 | Represents 3D Colustered [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| StackedColumn3D | 4 | Represents 3D Stacked [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| PercentsStackedColumn3D | 5 | Represents 3D 100% Stacked [Column](../../aspose.slides/column/) [Chart](../chart/). |
+| Column3D | 6 | Represents 3D [Column](../../aspose.slides/column/) [Chart](../chart/). |
 | ClusteredCylinder | 7 | Represents Cylinder [Chart](../chart/). |
 | StackedCylinder | 8 | Represents Stacked Cylinder [Chart](../chart/). |
 | PercentsStackedCylinder | 9 | Represents 100% Stacked Cylinder [Chart](../chart/). |
-| Cylinder3D | 10 | Represents 3D Cylindrical [Column](../../aspose.slides/column/)[Chart](../chart/). |
+| Cylinder3D | 10 | Represents 3D Cylindrical [Column](../../aspose.slides/column/) [Chart](../chart/). |
 | ClusteredCone | 11 | Represents Cone [Chart](../chart/). |
 | StackedCone | 12 | Represents Stacked Cone [Chart](../chart/). |
 | PercentsStackedCone | 13 | Represents 100% Stacked Cone [Chart](../chart/). |
-| Cone3D | 14 | Represents 3D Conical [Column](../../aspose.slides/column/)[Chart](../chart/). |
+| Cone3D | 14 | Represents 3D Conical [Column](../../aspose.slides/column/) [Chart](../chart/). |
 | ClusteredPyramid | 15 | Represents Pyramid [Chart](../chart/). |
 | StackedPyramid | 16 | Represents Stacked Pyramid [Chart](../chart/). |
 | PercentsStackedPyramid | 17 | Represents 100% Stacked Pyramid [Chart](../chart/). |
-| Pyramid3D | 18 | Represents 3D Pyramid [Column](../../aspose.slides/column/)[Chart](../chart/). |
+| Pyramid3D | 18 | Represents 3D Pyramid [Column](../../aspose.slides/column/) [Chart](../chart/). |
 | Line | 19 | Represents Line [Chart](../chart/). |
 | StackedLine | 20 | Represents Stacked Line [Chart](../chart/). |
 | PercentsStackedLine | 21 | Represents 100% Stacked Line [Chart](../chart/). |

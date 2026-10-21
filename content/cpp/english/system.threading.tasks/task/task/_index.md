@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading.tasks/task/task/
 ---
-## Task::Task(const Action<>\&) constructor
+## Task::Task(const Action\<\>&) constructor
 
 
 Constructs a [Task](../) with an action to execute.
@@ -20,9 +20,9 @@ System::Threading::Tasks::Task::Task(const Action<> &action)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../../system/action/)<>\& | The action to execute asynchronously |
+| action | const [Action](../../../system/action/)\<\>& | The action to execute asynchronously |
 
-## Task::Task(const Action<>\&, const CancellationToken\&) constructor
+## Task::Task(const Action\<\>&, const CancellationToken&) constructor
 
 
 Constructs a [Task](../) with an action and cancellation token.
@@ -36,10 +36,10 @@ System::Threading::Tasks::Task::Task(const Action<> &action, const CancellationT
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../../system/action/)<>\& | The action to execute asynchronously |
-| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)\& | Token to monitor for cancellation requests |
+| action | const [Action](../../../system/action/)\<\>& | The action to execute asynchronously |
+| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)& | Token to monitor for cancellation requests |
 
-## Task::Task(const Action\<SharedPtr\<Object\>\>\&, const SharedPtr\<Object\>\&) constructor
+## Task::Task(const Action\<SharedPtr\<Object\>\>&, const SharedPtr\<Object\>&) constructor
 
 
 Constructs a [Task](../) with a stateful action and state object.
@@ -53,10 +53,10 @@ System::Threading::Tasks::Task::Task(const Action<SharedPtr<Object>> &action, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../../system/action/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\& | The action to execute (accepts state object) |
-| state | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | User-defined state object passed to the action |
+| action | const [Action](../../../system/action/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>& | The action to execute (accepts state object) |
+| state | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | User-defined state object passed to the action |
 
-## Task::Task(const Action\<SharedPtr\<Object\>\>\&, const SharedPtr\<Object\>\&, const CancellationToken\&) constructor
+## Task::Task(const Action\<SharedPtr\<Object\>\>&, const SharedPtr\<Object\>&, const CancellationToken&) constructor
 
 
 Constructs a [Task](../) with stateful action, state, and cancellation token.
@@ -70,9 +70,9 @@ System::Threading::Tasks::Task::Task(const Action<SharedPtr<Object>> &action, co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../../system/action/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\& | The action to execute (accepts state object) |
-| state | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | User-defined state object passed to the action |
-| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)\& | Token to monitor for cancellation requests |
+| action | const [Action](../../../system/action/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>& | The action to execute (accepts state object) |
+| state | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | User-defined state object passed to the action |
+| cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)& | Token to monitor for cancellation requests |
 
 ## Task::Task() constructor
 

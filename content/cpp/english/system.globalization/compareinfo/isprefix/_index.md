@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.globalization/compareinfo/isprefix/
 ---
-## CompareInfo::IsPrefix(const String\&, const String\&, CompareOptions) const method
+## CompareInfo::IsPrefix(const String&, const String&, CompareOptions) const method
 
 
 Checks if the specified string starts with the specified prefix using the specified compare options.
@@ -20,15 +20,15 @@ virtual bool System::Globalization::CompareInfo::IsPrefix(const String &source, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| prefix | const [String](../../../system/string/)\& | Prefix string. |
+| source | const [String](../../../system/string/)& | Source string. |
+| prefix | const [String](../../../system/string/)& | Prefix string. |
 | options | [CompareOptions](../../compareoptions/) | Compare options. |
 
 ### Return Value
 
 True if string starts with prefix; otherwise false.
 
-## CompareInfo::IsPrefix(const String\&, const String\&) const method
+## CompareInfo::IsPrefix(const String&, const String&) const method
 
 
 Checks if the specified string starts with the specified prefix.
@@ -42,8 +42,8 @@ virtual bool System::Globalization::CompareInfo::IsPrefix(const String &source, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [String](../../../system/string/)\& | Source string. |
-| prefix | const [String](../../../system/string/)\& | Prefix string. |
+| source | const [String](../../../system/string/)& | Source string. |
+| prefix | const [String](../../../system/string/)& | Prefix string. |
 
 ### Return Value
 

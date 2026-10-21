@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.diagnostics/processstartinfo/set_arguments/
 ---
-## ProcessStartInfo::set_Arguments(const String\&) method
+## ProcessStartInfo::set_Arguments(const String&) method
 
 
 Sets process arguments.
@@ -20,7 +20,7 @@ void System::Diagnostics::ProcessStartInfo::set_Arguments(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Process](../../process/) arguments. |
+| value | const [String](../../../system/string/)& | [Process](../../process/) arguments. |
 
 ## See Also
 

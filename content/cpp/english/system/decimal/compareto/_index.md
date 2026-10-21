@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system/decimal/compareto/
 ---
-## Decimal::CompareTo(const Decimal\&) const method
+## Decimal::CompareTo(const Decimal&) const method
 
 
 Determines if the value represented by the current object is less than, equal to or greater than the value represented by the specified object.
@@ -20,7 +20,7 @@ int System::Decimal::CompareTo(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The comparand |
+| d | const [Decimal](../)& | The comparand |
 
 ### Return Value
 

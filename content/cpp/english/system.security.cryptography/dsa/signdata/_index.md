@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.security.cryptography/dsa/signdata/
 ---
-## DSA::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## DSA::SignData(const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -20,10 +20,10 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../) signature for the input data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../) signature for the input data. |
 
-## DSA::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&) method
+## DSA::SignData(const ByteArrayPtr&, int32_t, int32_t, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -37,12 +37,12 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to use as input data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../) signature for the input data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../) signature for the input data. |
 
-## DSA::SignData(const StreamPtr\&, const HashAlgorithmName\&) method
+## DSA::SignData(const StreamPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm, and signs the result.
@@ -56,8 +56,8 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const StreamPtr &stre
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Binary stream. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../) signature for the input data. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Binary stream. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return [DSA](../) signature for the input data. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/collectionasserthelper/tofullmessage/
 ---
-## CollectionAssertHelper::ToFullMessage(const System::String\&) method
+## CollectionAssertHelper::ToFullMessage(const System::String&) method
 
 
 Formats string to be used as message text.
@@ -20,11 +20,11 @@ static System::String System::CollectionAssertHelper::ToFullMessage(const System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [System::String](../../string/)\& | [String](../../string/) to format. |
+| message | const [System::String](../../string/)& | [String](../../string/) to format. |
 
 ### Return Value
 
-[String](../../string/) prefixed with 'Message: ' text and replaced with '<empty>' if empty.
+[String](../../string/) prefixed with 'Message: ' text and replaced with '\<empty\>' if empty.
 
 ## See Also
 

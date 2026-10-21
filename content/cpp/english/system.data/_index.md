@@ -1,7 +1,7 @@
 ---
 title: "System::Data"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Data namespace"
 type: docs
 weight: 443
 url: /system.data/

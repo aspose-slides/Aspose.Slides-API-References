@@ -1,7 +1,7 @@
 ---
 title: GetIdElement()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::GetIdElement() method"
 type: docs
 weight: 235
 url: /system.security.cryptography.xml/signedxml/getidelement/

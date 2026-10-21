@@ -22,10 +22,6 @@ virtual System::SharedPtr<IMathElement> Aspose::Slides::MathText::IMathMatrix::i
 | --- | --- | --- |
 | row | **int32_t** | The zero-based index of the row to get item |
 | column | **int32_t** | The zero-based index of the column to get item |
-
-### Return Value
-
-
 ## Remarks
 
 

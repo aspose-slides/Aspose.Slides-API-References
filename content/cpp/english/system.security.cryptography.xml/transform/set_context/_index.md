@@ -1,7 +1,7 @@
 ---
 title: set_Context()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::set_Context() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/transform/set_context/

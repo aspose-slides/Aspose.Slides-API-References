@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.xml/xmlwriter/writeattributestring/
 ---
-## XmlWriter::WriteAttributeString(const String\&, const String\&, const String\&) method
+## XmlWriter::WriteAttributeString(const String&, const String&, const String&) method
 
 
 When overridden in a derived class, writes an attribute with the specified local name, namespace URI, and value.
@@ -20,11 +20,19 @@ void System::Xml::XmlWriter::WriteAttributeString(const String &localName, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute. |
-| ns | const [String](../../../system/string/)\& | The namespace URI to associate with the attribute. |
-| value | const [String](../../../system/string/)\& | The value of the attribute. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute. |
+| ns | const [String](../../../system/string/)& | The namespace URI to associate with the attribute. |
+| value | const [String](../../../system/string/)& | The value of the attribute. |
 
-## XmlWriter::WriteAttributeString(const String\&, const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The state of writer is not [WriteState::Element](../../writestate/) or writer is closed. |
+| ArgumentException | The **xml:space** or **xml:lang** attribute value is invalid. |
+
+
+## XmlWriter::WriteAttributeString(const String&, const String&) method
 
 
 When overridden in a derived class, writes out the attribute with the specified local name and value.
@@ -38,10 +46,18 @@ void System::Xml::XmlWriter::WriteAttributeString(const String &localName, const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute. |
-| value | const [String](../../../system/string/)\& | The value of the attribute. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute. |
+| value | const [String](../../../system/string/)& | The value of the attribute. |
 
-## XmlWriter::WriteAttributeString(const String\&, const String\&, const String\&, const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The state of writer is not [WriteState::Element](../../writestate/) or writer is closed. |
+| ArgumentException | The **xml:space** or **xml:lang** attribute value is invalid. |
+
+
+## XmlWriter::WriteAttributeString(const String&, const String&, const String&, const String&) method
 
 
 When overridden in a derived class, writes out the attribute with the specified prefix, local name, namespace URI, and value.
@@ -55,10 +71,19 @@ void System::Xml::XmlWriter::WriteAttributeString(const String &prefix, const St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The namespace prefix of the attribute. |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute. |
-| ns | const [String](../../../system/string/)\& | The namespace URI of the attribute. |
-| value | const [String](../../../system/string/)\& | The value of the attribute. |
+| prefix | const [String](../../../system/string/)& | The namespace prefix of the attribute. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute. |
+| ns | const [String](../../../system/string/)& | The namespace URI of the attribute. |
+| value | const [String](../../../system/string/)& | The value of the attribute. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The state of writer is not [WriteState::Element](../../writestate/) or writer is closed. |
+| ArgumentException | The **xml:space** or **xml:lang** attribute value is invalid. |
+| XmlException | The **localName** or **ns** is **nullptr**. |
+
 
 ## See Also
 

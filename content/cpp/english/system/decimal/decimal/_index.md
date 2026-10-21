@@ -175,7 +175,7 @@ System::Decimal::Decimal(double d)
 | --- | --- | --- |
 | d | **double** | The double-precision floating-point value to be represented by the [Decimal](../) object being constructed |
 
-## Decimal::Decimal(const std::string\&) constructor
+## Decimal::Decimal(const std::string&) constructor
 
 
 Constructs an instance that represents a value whose string representation is specified as an instance of std::string class.
@@ -204,7 +204,7 @@ System::Decimal::Decimal(int32_t lo, int32_t mid, int32_t hi, bool isNegative, u
 | isNegative | **bool** | Specifies if the value is negative |
 | scale | **uint8_t** | A power of 10 ranging from 0 to 28 |
 
-## Decimal::Decimal(const Decimal\&) constructor
+## Decimal::Decimal(const Decimal&) constructor
 
 
 Constructs an instance of [Decimal](../) class that represents the same number as the specified [Decimal](../) object.
@@ -218,9 +218,9 @@ System::Decimal::Decimal(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | A [Decimal](../) object to copy the value from |
+| d | const [Decimal](../)& | A [Decimal](../) object to copy the value from |
 
-## Decimal::Decimal(const ArrayPtr\<int32_t\>\&) constructor
+## Decimal::Decimal(const ArrayPtr\<int32_t\>&) constructor
 
 
 Constructs an instance of [Decimal](../) class from integer array containing a binary representation.
@@ -234,7 +234,7 @@ System::Decimal::Decimal(const ArrayPtr<int32_t> &bits)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bits | const [ArrayPtr](../../arrayptr/)\<**int32_t**\>\& | A integer array containing a binary representation. |
+| bits | const [ArrayPtr](../../arrayptr/)\<**int32_t**\>& | A integer array containing a binary representation. |
 
 ## Decimal::Decimal(std::nullptr_t) constructor
 
@@ -245,7 +245,7 @@ Always throws ArgumentNullException.
 System::Decimal::Decimal(std::nullptr_t bits)
 ```
 
-## Decimal::Decimal(const number_type\&) constructor
+## Decimal::Decimal(const number_type&) constructor
 
 
 Constructs an instance of [Decimal](../) class representing the specified value.
@@ -259,7 +259,7 @@ System::Decimal::Decimal(const number_type &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [number_type](../number_type/)\& | A constant reference to the value to be represented by the object being constructed |
+| value | const [number_type](../number_type/)& | A constant reference to the value to be represented by the object being constructed |
 
 ## See Also
 

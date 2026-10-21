@@ -1,12 +1,12 @@
 ---
 title: OnCompleted()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTaskAwaiter::OnCompleted() method"
 type: docs
 weight: 27
 url: /system.runtime.compilerservices/valuetaskawaiter/oncompleted/
 ---
-## ValueTaskAwaiter::OnCompleted(const Action<>\&) method
+## ValueTaskAwaiter::OnCompleted(const Action\<\>&) method
 
 
 

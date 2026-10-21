@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.security.cryptography.x509certificates/x509extensioncollection/idx_get/
 ---
-## X509ExtensionCollection::idx_get(const String\&) const method
+## X509ExtensionCollection::idx_get(const String&) const method
 
 
 Accessor. Not implemented.
@@ -20,7 +20,7 @@ SharedPtr<X509Extension> System::Security::Cryptography::X509Certificates::X509E
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const [String](../../../system/string/)\& | Key to get extension at. |
+| key | const [String](../../../system/string/)& | Key to get extension at. |
 
 ### Return Value
 

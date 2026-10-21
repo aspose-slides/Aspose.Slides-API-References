@@ -54,7 +54,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -68,7 +68,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The data to send. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The data to send. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes in the specified array starting from the 'offset' parameter. |
 | socketFlags | [SocketFlags](../../socketflags/) | The send behavior. |
@@ -124,7 +124,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -138,7 +138,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The data to send. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The data to send. |
 | size | **int32_t** | The number of bytes in the specified array. |
 | socketFlags | [SocketFlags](../../socketflags/) | The send behavior. |
 | remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\> | The remote endpoint. |
@@ -191,7 +191,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, SocketFlags, System::SharedPtr\<EndPoint\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>&, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -205,7 +205,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The data to send. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The data to send. |
 | socketFlags | [SocketFlags](../../socketflags/) | The send behavior. |
 | remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\> | The remote endpoint. |
 
@@ -255,7 +255,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, System::SharedPtr\<EndPoint\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>&, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -269,7 +269,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The data to send. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The data to send. |
 | remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\> | The remote endpoint. |
 
 ### Return Value

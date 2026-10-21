@@ -1,7 +1,7 @@
 ---
 title: "System::Security::Policy"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Policy namespace"
 type: docs
 weight: 911
 url: /system.security.policy/

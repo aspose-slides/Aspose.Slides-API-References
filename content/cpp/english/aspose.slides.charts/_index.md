@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Charts"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Charts namespace"
 type: docs
 weight: 27
 url: /aspose.slides.charts/
@@ -132,7 +132,7 @@ url: /aspose.slides.charts/
 | [ChartDataSourceType](./chartdatasourcetype/) | Represents a type of data source of the chart |
 | [ChartShapeType](./chartshapetype/) | Represents a shape of chart. |
 | [ChartType](./charttype/) | Represents a type of chart. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup/) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one [ChartSeriesGroup](./chartseriesgroup/). For example: [ChartType::PercentsStackedArea](./charttype/) series cannot be simultaneously with [ChartType::StackedArea](./charttype/) series in one [ChartSeriesGroup](./chartseriesgroup/). But two or more [ChartType::PercentsStackedArea](./charttype/) can be in one [ChartSeriesGroup](./chartseriesgroup/) simultaneously ([CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea](./combinableseriestypesgroup/)). And [ChartType::Line](./charttype/) series can be with [ChartType::LineWithMarkers](./charttype/) series simultaneously in one [CombinableSeriesTypesGroup::LineChart_Line](./combinableseriestypesgroup/)[ChartSeriesGroup](./chartseriesgroup/). |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup/) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one [ChartSeriesGroup](./chartseriesgroup/). For example: [ChartType::PercentsStackedArea](./charttype/) series cannot be simultaneously with [ChartType::StackedArea](./charttype/) series in one [ChartSeriesGroup](./chartseriesgroup/). But two or more [ChartType::PercentsStackedArea](./charttype/) can be in one [ChartSeriesGroup](./chartseriesgroup/) simultaneously ([CombinableSeriesTypesGroup::AreaChart_PercentsStackedArea](./combinableseriestypesgroup/)). And [ChartType::Line](./charttype/) series can be with [ChartType::LineWithMarkers](./charttype/) series simultaneously in one [CombinableSeriesTypesGroup::LineChart_Line](./combinableseriestypesgroup/) [ChartSeriesGroup](./chartseriesgroup/). |
 | [CrossesType](./crossestype/) | Determines where axis will cross. |
 | [DataSourceType](./datasourcetype/) | Data source types. |
 | [DisplayBlanksAsType](./displayblanksastype/) | Determines how missing data will be displayed. |

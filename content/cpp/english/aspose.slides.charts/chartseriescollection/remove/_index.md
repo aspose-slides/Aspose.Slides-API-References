@@ -22,6 +22,13 @@ void Aspose::Slides::Charts::ChartSeriesCollection::Remove(System::SharedPtr<ICh
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[IChartSeries](../../ichartseries/)\> | The value. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException ](../../../system/argumentexception/) | The value parameter was not found in the collection. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

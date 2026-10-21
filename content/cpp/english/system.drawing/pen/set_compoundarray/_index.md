@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.drawing/pen/set_compoundarray/
 ---
-## Pen::set_CompoundArray(const System::ArrayPtr\<float\>\&) method
+## Pen::set_CompoundArray(const System::ArrayPtr\<float\>&) method
 
 
 Sets an array of values that specifies a compound pen.
@@ -20,7 +20,7 @@ void System::Drawing::Pen::set_CompoundArray(const System::ArrayPtr<float> &valu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::ArrayPtr](../../../system/arrayptr/)\<**float**\>\& | The value to set |
+| value | const [System::ArrayPtr](../../../system/arrayptr/)\<**float**\>& | The value to set |
 
 ## See Also
 

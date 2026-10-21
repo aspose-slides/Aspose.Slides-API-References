@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ArgumentNullException::Is() method"
 type: docs
 weight: 27
 url: /system/details_argumentnullexception/is/
 ---
-## Details_ArgumentNullException::Is(const System::TypeInfo\&) const method
+## Details_ArgumentNullException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::Details_ArgumentNullException::Is(const System::TypeInfo &target) c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../typeinfo/)\& | [TypeInfo](../../typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../typeinfo/)& | [TypeInfo](../../typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

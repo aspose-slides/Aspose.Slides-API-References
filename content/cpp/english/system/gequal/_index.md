@@ -6,10 +6,10 @@ type: docs
 weight: 2393
 url: /system/gequal/
 ---
-## System::GEqual(const ExpressionT\&, const ConstantT\&) function
+## System::GEqual(const ExpressionT&, const ConstantT&) function
 
 
-Implements '>=' relative pattern translation.
+Implements '\>=' relative pattern translation.
 
 ```cpp
 template<class ExpressionT,class ConstantT> bool System::GEqual(const ExpressionT &left, const ConstantT &constant)
@@ -27,8 +27,8 @@ template<class ExpressionT,class ConstantT> bool System::GEqual(const Expression
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const ExpressionT\& | expression which will be checked. |
-| constant | const ConstantT\& | expression which will be compared with left one. |
+| left | const ExpressionT& | expression which will be checked. |
+| constant | const ConstantT& | expression which will be compared with left one. |
 
 ### Return Value
 

@@ -16,7 +16,14 @@ void System::Drawing::Graphics::ExcludeClip(Rectangle rect)
 ```
 
 
-## Graphics::ExcludeClip(const SharedPtr\<Region\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::ExcludeClip(const SharedPtr\<Region\>&) method
 
 
 NOT IMPLEMENTED.
@@ -24,6 +31,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::ExcludeClip(const SharedPtr<Region> &region)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

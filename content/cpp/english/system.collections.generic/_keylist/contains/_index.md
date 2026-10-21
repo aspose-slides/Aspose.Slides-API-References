@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/_keylist/contains/
 ---
-## _KeyList::Contains(const TKey\&) const method
+## _KeyList::Contains(const TKey&) const method
 
 
 Checks if specified key is present in collection.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::_KeyList<Dict>::Contains(const TKey &item) co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [TKey](../../_keycollection/tkey/)\& | Key to look for. |
+| item | const [TKey](../../_keycollection/tkey/)& | Key to look for. |
 
 ### Return Value
 

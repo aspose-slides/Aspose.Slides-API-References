@@ -23,10 +23,6 @@ static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFor
 | scale | **float** | The factor by which to scale the output image. |
 | imageFormat | [Aspose::Slides::ImageFormat](../../../aspose.slides/imageformat/) | The format of the resulting image (e.g., PNG, JPEG). |
 
-### Return Value
-
-
-
 ## See Also
 
 * Enum [ImageFormat](../../../aspose.slides/imageformat/)

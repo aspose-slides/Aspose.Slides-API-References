@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/unbox/
 ---
-## BoxedValue< ValueTuple< Args... > >::unbox() const method
+## BoxedValue\< ValueTuple\< Args... \> \>::unbox() const method
 
 
 Unboxes the boxed value.
@@ -23,6 +23,6 @@ A constant reference to the boxed value represented by the current object.
 ## See Also
 
 * Class [ValueTuple](../../valuetuple/)
-* Class [BoxedValue< ValueTuple< Args... > >](../)
+* Class [BoxedValue\< ValueTuple\< Args... \> \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

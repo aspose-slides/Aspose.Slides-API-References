@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/enumvaluesbase/getvalues/
 ---
-## EnumValuesBase::GetValues(const TypeInfo\&) method
+## EnumValuesBase::GetValues(const TypeInfo&) method
 
 
 Returns an array containing all values of the specified enumeration type.
@@ -20,7 +20,7 @@ static ArrayPtr<int64_t> System::EnumValuesBase::GetValues(const TypeInfo &type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | const [TypeInfo](../../typeinfo/)\& | The [TypeInfo](../../typeinfo/) object representing the type of the enumeration whose values to return |
+| type | const [TypeInfo](../../typeinfo/)& | The [TypeInfo](../../typeinfo/) object representing the type of the enumeration whose values to return |
 
 ### Return Value
 

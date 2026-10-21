@@ -18,7 +18,7 @@ static const SharedPtr<SynchronizationContext> & System::Threading::Synchronizat
 
 ### Return Value
 
-SharedPtr<SynchronizationContext> A shared pointer to the current thread's synchronization context.
+SharedPtr\<SynchronizationContext\> A shared pointer to the current thread's synchronization context.
 ## Remarks
 
 

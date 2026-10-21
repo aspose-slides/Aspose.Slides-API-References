@@ -1,7 +1,7 @@
 ---
 title: get_GhostWhite()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF8F8FF.
+description: "Returns the solid fill color whose hexadecimal value is #FFF8F8FF."
 type: docs
 weight: 612
 url: /system.drawing/brushes/get_ghostwhite/

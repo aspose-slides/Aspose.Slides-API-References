@@ -1,7 +1,7 @@
 ---
 title: get_Violet()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFEE82EE.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFEE82EE."
 type: docs
 weight: 1756
 url: /system.drawing/pens/get_violet/

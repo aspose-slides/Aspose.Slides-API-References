@@ -16,6 +16,13 @@ static void System::Console::Beep()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Console](../)

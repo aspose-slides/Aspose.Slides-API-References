@@ -1,7 +1,7 @@
 ---
 title: get_StatusInformation()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509ChainStatus::get_StatusInformation() method"
 type: docs
 weight: 27
 url: /system.security.cryptography.x509certificates/x509chainstatus/get_statusinformation/

@@ -20,12 +20,12 @@ class MulticastDelegateTypeInfo : public System::TypeInfoPtr
 | Method | Description |
 | --- | --- |
 |  [MulticastDelegateTypeInfo](./multicastdelegatetypeinfo/)() | Constructs an instance of [MulticastDelegateTypeInfo](./) class. |
-|  [operator TypeInfo *](../typeinfoptr/operator_typeinfo__star/)() | Returns a raw pointer to the represented [TypeInfo](../typeinfo/) object. |
+|  [operator TypeInfo \*](../typeinfoptr/operator_typeinfo__star/)() | Returns a raw pointer to the represented [TypeInfo](../typeinfo/) object. |
 |  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)() | Default constructor. |
-|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const std::type_info\&) | Constructor. |
-|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const char_t *, **uint32_t**) | Constructor. |
-|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const char_t *) | Constructor. |
-|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const [String](../string/)\&) | Constructor. |
+|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const std::type_info&) | Constructor. |
+|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const char_t \*, **uint32_t**) | Constructor. |
+|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const char_t \*) | Constructor. |
+|  [TypeInfoPtr](../typeinfoptr/typeinfoptr/)(const [String](../string/)&) | Constructor. |
 |  [~TypeInfoPtr](../typeinfoptr/~typeinfoptr/)() | Destructor. |
 ## See Also
 

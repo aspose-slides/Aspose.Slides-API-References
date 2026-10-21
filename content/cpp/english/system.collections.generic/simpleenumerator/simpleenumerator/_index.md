@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/simpleenumerator/simpleenumerator/
 ---
-## SimpleEnumerator::SimpleEnumerator(Object::ptr, Container\&) constructor
+## SimpleEnumerator::SimpleEnumerator(Object::ptr, Container&) constructor
 
 
 Creates simple iterator.
@@ -21,7 +21,7 @@ System::Collections::Generic::SimpleEnumerator<Container, Element>::SimpleEnumer
 | Parameter | Type | Description |
 | --- | --- | --- |
 | owner | [Object::ptr](../../../system/object/ptr/) | Owner object to hold while iterator lives. |
-| cont | Container\& | Container reference. |
+| cont | Container& | Container reference. |
 
 ## See Also
 

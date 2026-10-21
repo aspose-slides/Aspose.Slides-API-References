@@ -16,6 +16,13 @@ void System::Drawing::Printing::PaperSize::set_Width(int32_t value)
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | The System::Drawing::Printing::PaperSize::Kind property is not set to [System::Drawing::Printing::PaperKind::Custom](../../paperkind/). |
+
+
 ## See Also
 
 * Class [PaperSize](../)

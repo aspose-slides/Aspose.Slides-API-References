@@ -20,6 +20,14 @@ virtual bool System::Xml::XPath::XPathItem::get_ValueAsBoolean()=0
 
 The item's value as a [Boolean](../../../system/boolean/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The item's value is not in the correct format for the [Boolean](../../../system/boolean/) type. |
+| InvalidCastException | The attempted cast to [Boolean](../../../system/boolean/) is not valid. |
+
+
 ## See Also
 
 * Class [XPathItem](../)

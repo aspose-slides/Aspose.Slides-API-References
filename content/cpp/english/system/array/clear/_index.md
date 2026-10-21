@@ -16,7 +16,14 @@ virtual void System::Array<T>::Clear() override
 ```
 
 
-## Array::Clear(const ArrayPtr\<Type\>\&, int, int) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | always |
+
+
+## Array::Clear(const ArrayPtr\<Type\>&, int, int) method
 
 
 Replaces **count** values starting at the **startIndex** index in the specified array with default values.
@@ -36,7 +43,7 @@ template<typename Type> static void System::Array<T>::Clear(const ArrayPtr<Type>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Target array |
+| arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>& | Target array |
 | startIndex | int | [Index](../../index/) at which to start replacing the items |
 | count | int | The number of items to replace |
 

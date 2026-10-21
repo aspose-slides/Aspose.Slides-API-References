@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.xml.xpath/xpathdocument/xpathdocument/
 ---
-## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>\&) constructor
+## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified [XmlReader](../../../system.xml/xmlreader/) object.
@@ -20,9 +20,17 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<XmlReader> &rea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
 
-## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>\&, XmlSpace) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The [XmlReader](../../../system.xml/xmlreader/) object passed as a parameter is **nullptr**. |
+
+
+## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>&, XmlSpace) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified [XmlReader](../../../system.xml/xmlreader/) object with the specified white space handling.
@@ -36,10 +44,18 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<XmlReader> &rea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
 | space | [XmlSpace](../../../system.xml/xmlspace/) | An XmlSpace object. |
 
-## XPathDocument::XPathDocument(const SharedPtr\<IO::TextReader\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The [XmlReader](../../../system.xml/xmlreader/) object parameter or XmlSpace object parameter is **nullptr**. |
+
+
+## XPathDocument::XPathDocument(const SharedPtr\<IO::TextReader\>&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified TextReader object.
@@ -53,9 +69,17 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<IO::TextReader>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textReader | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader object that contains the XML data. |
+| textReader | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>& | The TextReader object that contains the XML data. |
 
-## XPathDocument::XPathDocument(const SharedPtr\<IO::Stream\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The TextReader object passed as a parameter is **nullptr**. |
+
+
+## XPathDocument::XPathDocument(const SharedPtr\<IO::Stream\>&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the specified Stream object.
@@ -69,9 +93,17 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<IO::Stream> &st
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The Stream object that contains the XML data. |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The Stream object that contains the XML data. |
 
-## XPathDocument::XPathDocument(const String\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The Stream object passed as a parameter is **nullptr**. |
+
+
+## XPathDocument::XPathDocument(const String&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the specified file.
@@ -85,9 +117,17 @@ System::Xml::XPath::XPathDocument::XPathDocument(const String &uri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [String](../../../system/string/)\& | The path of the file that contains the XML data. |
+| uri | const [String](../../../system/string/)& | The path of the file that contains the XML data. |
 
-## XPathDocument::XPathDocument(const String\&, XmlSpace) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The file path parameter is **nullptr**. |
+
+
+## XPathDocument::XPathDocument(const String&, XmlSpace) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the file specified with the white space handling specified.
@@ -101,8 +141,16 @@ System::Xml::XPath::XPathDocument::XPathDocument(const String &uri, XmlSpace spa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uri | const [String](../../../system/string/)\& | The path of the file that contains the XML data. |
+| uri | const [String](../../../system/string/)& | The path of the file that contains the XML data. |
 | space | [XmlSpace](../../../system.xml/xmlspace/) | An XmlSpace object. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | An error was encountered in the XML data. The [XPathDocument](../) remains empty. |
+| ArgumentNullException | The file path parameter or XmlSpace object parameter is **nullptr**. |
+
 
 ## See Also
 

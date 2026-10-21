@@ -60,6 +60,13 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(System::Drawing::PointF poi
 | point2 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
+
 ## GeometryPath::QuadraticBezierTo(float, float, float, float, uint32_t) method
 
 
@@ -79,6 +86,13 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(float x1, float y1, float x
 | x2 | **float** | X coordinate of end point |
 | y2 | **float** | Y coordinate of end point |
 | index | **uint32_t** | Index of segment in PathData |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | Segment index is out of PathData range |
+
 
 ## See Also
 

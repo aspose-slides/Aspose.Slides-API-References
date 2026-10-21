@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/objectext/gethashcode/
 ---
-## ObjectExt::GetHashCode(const T\&) method
+## ObjectExt::GetHashCode(const T&) method
 
 
 Implements [GetHashCode()](./) calls; works on both [Object](../../object/) subclasses and unrelated types.
@@ -26,7 +26,7 @@ template<typename T> static int System::ObjectExt::GetHashCode(const T &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Object](../../object/) to calculate hash code for. |
+| obj | const T& | [Object](../../object/) to calculate hash code for. |
 
 ### Return Value
 

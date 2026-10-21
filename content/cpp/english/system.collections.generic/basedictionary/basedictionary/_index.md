@@ -15,7 +15,7 @@ Creates empty data structure.
 System::Collections::Generic::BaseDictionary<Map>::BaseDictionary()
 ```
 
-## BaseDictionary::BaseDictionary(int, const Args\&...) constructor
+## BaseDictionary::BaseDictionary(int, const Args&...) constructor
 
 
 Forwarding constructor to push arguments into underlying map constructor.
@@ -37,7 +37,7 @@ template<class...> System::Collections::Generic::BaseDictionary<Map>::BaseDictio
 | --- | --- | --- |
 | args | int | Arguments to forward to underlying map. |
 
-## BaseDictionary::BaseDictionary(BaseType *, const Args\&...) constructor
+## BaseDictionary::BaseDictionary(BaseType \*, const Args&...) constructor
 
 
 Copying constructor.
@@ -57,10 +57,10 @@ template<class...> System::Collections::Generic::BaseDictionary<Map>::BaseDictio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | [BaseType](../basetype/) * | [Object](../../../system/object/) to copy data from. |
-| args | const Args\&... | Arguments to forward to underlying map constructor. |
+| src | [BaseType](../basetype/) \* | [Object](../../../system/object/) to copy data from. |
+| args | const Args&... | Arguments to forward to underlying map constructor. |
 
-## BaseDictionary::BaseDictionary(BaseType *) constructor
+## BaseDictionary::BaseDictionary(BaseType \*) constructor
 
 
 Copying constructor.
@@ -74,7 +74,7 @@ System::Collections::Generic::BaseDictionary<Map>::BaseDictionary(BaseType *src)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src | [BaseType](../basetype/) * | [Object](../../../system/object/) to copy data from. |
+| src | [BaseType](../basetype/) \* | [Object](../../../system/object/) to copy data from. |
 
 ## See Also
 

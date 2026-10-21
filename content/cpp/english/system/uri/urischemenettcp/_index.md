@@ -9,7 +9,7 @@ url: /system/uri/urischemenettcp/
 ## UriSchemeNetTcp field
 
 
-Specifies that the [Uri](../) is accessed through the NetTcp scheme used by [Windows](../../../system.windows/) Communication Foundation.
+Specifies that the [Uri](../) is accessed through the NetTcp scheme used by Windows Communication Foundation.
 
 ```cpp
 static const String System::Uri::UriSchemeNetTcp

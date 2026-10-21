@@ -1,7 +1,7 @@
 ---
 title: get_OutputTypes()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigC14NTransform::get_OutputTypes() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/xmldsigc14ntransform/get_outputtypes/

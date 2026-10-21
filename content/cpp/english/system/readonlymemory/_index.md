@@ -22,9 +22,9 @@ template<typename T>class ReadOnlyMemory : public System::Details::MemoryCore<T>
 | static [ReadOnlyMemory](./) [get_Empty](./get_empty/)() | Gets an empty [ReadOnlyMemory](./) instance. |
 | [ReadOnlySpan](../readonlyspan/)\<T\> [get_Span](./get_span/)() const | Gets a read-only span that represents the current memory. |
 | [ReadOnlyMemory](./) [Slice](./slice/)(**int32_t**, **int32_t**) const | Creates a slice of the current readonly memory. |
-| static [ReadOnlyMemory](./) [to_ReadOnlyMemory](./to_readonlymemory/)(const [ArrayPtr](../arrayptr/)\<T\>\&) | Creates a [ReadOnlyMemory](./) instance from the specified array. |
+| static [ReadOnlyMemory](./) [to_ReadOnlyMemory](./to_readonlymemory/)(const [ArrayPtr](../arrayptr/)\<T\>&) | Creates a [ReadOnlyMemory](./) instance from the specified array. |
 | std::enable_if\<std::is_same\<T1, char16_t\>::value, [String](../string/)\>::type [ToString](./tostring/)() const | Converts the character read-only memory to a string representation. |
-| std::enable_if<\!std::is_same\<T1, char16_t\>::value, [String](../string/)\>::type [ToString](./tostring/)() const | Converts the ordinary read-only memory to a string representation. |
+| std::enable_if\<!std::is_same\<T1, char16_t\>::value, [String](../string/)\>::type [ToString](./tostring/)() const | Converts the ordinary read-only memory to a string representation. |
 ## Remarks
 
 

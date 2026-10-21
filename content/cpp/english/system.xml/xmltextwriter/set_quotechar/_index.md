@@ -22,6 +22,13 @@ void System::Xml::XmlTextWriter::set_QuoteChar(char16_t value)
 | --- | --- | --- |
 | value | char16_t | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | Setting this value to something other than either a single or double quote. |
+
+
 ## See Also
 
 * Class [XmlTextWriter](../)

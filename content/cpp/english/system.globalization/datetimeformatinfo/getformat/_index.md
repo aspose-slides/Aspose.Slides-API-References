@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.globalization/datetimeformatinfo/getformat/
 ---
-## DateTimeFormatInfo::GetFormat(const TypeInfo\&) method
+## DateTimeFormatInfo::GetFormat(const TypeInfo&) method
 
 
 Gets formatter of specific type.
@@ -20,7 +20,7 @@ SharedPtr<Object> System::Globalization::DateTimeFormatInfo::GetFormat(const Typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format_type | const [TypeInfo](../../../system/typeinfo/)\& | Type of formatter to get; only [DateTimeFormatInfo](../) type is supported. |
+| format_type | const [TypeInfo](../../../system/typeinfo/)& | Type of formatter to get; only [DateTimeFormatInfo](../) type is supported. |
 
 ### Return Value
 

@@ -1,12 +1,12 @@
 ---
 title: TextElementEnumerator()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextElementEnumerator::TextElementEnumerator() constructor"
 type: docs
 weight: 1
 url: /system.globalization/textelementenumerator/textelementenumerator/
 ---
-## TextElementEnumerator::TextElementEnumerator(const TextElementEnumerator\&) constructor
+## TextElementEnumerator::TextElementEnumerator(const TextElementEnumerator&) constructor
 
 
 

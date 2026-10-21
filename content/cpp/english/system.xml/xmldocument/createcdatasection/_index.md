@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /system.xml/xmldocument/createcdatasection/
 ---
-## XmlDocument::CreateCDataSection(const String\&) method
+## XmlDocument::CreateCDataSection(const String&) method
 
 
 Creates an [XmlCDataSection](../../xmlcdatasection/) containing the specified data.
@@ -20,7 +20,7 @@ virtual SharedPtr<XmlCDataSection> System::Xml::XmlDocument::CreateCDataSection(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [String](../../../system/string/)\& | The content of the new [XmlCDataSection](../../xmlcdatasection/). |
+| data | const [String](../../../system/string/)& | The content of the new [XmlCDataSection](../../xmlcdatasection/). |
 
 ### Return Value
 

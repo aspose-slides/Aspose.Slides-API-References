@@ -22,10 +22,6 @@ System::SharedPtr<IPoint> Aspose::Slides::Animation::PointCollection::idx_get(in
 | --- | --- | --- |
 | index | **int32_t** |  |
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

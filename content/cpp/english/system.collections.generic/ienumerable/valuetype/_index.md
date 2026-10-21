@@ -1,7 +1,7 @@
 ---
 title: ValueType
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: ValueType typedef
 type: docs
 weight: 495
 url: /system.collections.generic/ienumerable/valuetype/

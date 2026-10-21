@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/_valuecollection/contains/
 ---
-## _ValueCollection::Contains(const TValue\&) const method
+## _ValueCollection::Contains(const TValue&) const method
 
 
 Checks if item is present in container.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::_ValueCollection<Dict>::Contains(const TValue
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const [TValue](../tvalue/)\& | Item to look for. |
+| item | const [TValue](../tvalue/)& | Item to look for. |
 
 ### Return Value
 

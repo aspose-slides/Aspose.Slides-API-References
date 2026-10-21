@@ -1,12 +1,12 @@
 ---
 title: Is()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ThreadAbortException::Is() method"
 type: docs
 weight: 27
 url: /system.threading/details_threadabortexception/is/
 ---
-## Details_ThreadAbortException::Is(const System::TypeInfo\&) const method
+## Details_ThreadAbortException::Is(const System::TypeInfo&) const method
 
 
 
@@ -20,7 +20,7 @@ bool System::Threading::Details_ThreadAbortException::Is(const System::TypeInfo 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | const [System::TypeInfo](../../../system/typeinfo/)\& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
+| target | const [System::TypeInfo](../../../system/typeinfo/)& | [TypeInfo](../../../system/typeinfo/) structure describing the type to test current object against. |
 
 ### Return Value
 

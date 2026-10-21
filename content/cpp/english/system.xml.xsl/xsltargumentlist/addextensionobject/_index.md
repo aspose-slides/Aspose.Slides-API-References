@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.xsl/xsltargumentlist/addextensionobject/
 ---
-## XsltArgumentList::AddExtensionObject(const String\&, const SharedPtr\<Object\>\&) method
+## XsltArgumentList::AddExtensionObject(const String&, const SharedPtr\<Object\>&) method
 
 
 Adds a new object to the [XsltArgumentList](../) and associates it with the namespace URI.
@@ -20,8 +20,16 @@ void System::Xml::Xsl::XsltArgumentList::AddExtensionObject(const String &namesp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI to associate with the object. To use the default namespace, specify an empty string. |
-| extension | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to add to the list. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI to associate with the object. To use the default namespace, specify an empty string. |
+| extension | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The object to add to the list. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **namespaceUri** is either **nullptr** or [http://www.w3.org/1999/XSL/Transform](http://www.w3.org/1999/XSL/Transform) The **namespaceUri** already has an extension object associated with it. |
+| SecurityException | The caller does not have sufficient permissions to call this method. |
+
 
 ## See Also
 

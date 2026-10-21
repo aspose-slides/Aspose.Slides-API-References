@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.drawing/size/round/
 ---
-## Size::Round(const SizeF\&) method
+## Size::Round(const SizeF&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by rounding the [SizeF](../../sizef/) object's width and height values to the nearest integer values.
@@ -20,7 +20,7 @@ static Size System::Drawing::Size::Round(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../../sizef/)\& | The [SizeF](../../sizef/) object to convert to construct [Size](../) object from |
+| size | const [SizeF](../../sizef/)& | The [SizeF](../../sizef/) object to convert to construct [Size](../) object from |
 
 ### Return Value
 

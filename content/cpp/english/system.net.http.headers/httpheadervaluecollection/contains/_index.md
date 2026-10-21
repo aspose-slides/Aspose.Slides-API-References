@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/httpheadervaluecollection/contains/
 ---
-## HttpHeaderValueCollection::Contains(const T\&) const method
+## HttpHeaderValueCollection::Contains(const T&) const method
 
 
 Checks if element is present in collection.
@@ -20,7 +20,7 @@ bool System::Net::Http::Headers::HttpHeaderValueCollection<T>::Contains(const T 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

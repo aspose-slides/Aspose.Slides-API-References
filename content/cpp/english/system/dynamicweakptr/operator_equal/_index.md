@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/dynamicweakptr/operator_equal/
 ---
-## DynamicWeakPtr::operator=(SmartPtr_\&&) method
+## DynamicWeakPtr::operator=(SmartPtr_&&) method
 
 
 Move-assigns smart pointer.
@@ -20,13 +20,13 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(Sma
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | [SmartPtr_](../smartptr_/)\&& | Pointer to move-assign value from. |
+| x | [SmartPtr_](../smartptr_/)&& | Pointer to move-assign value from. |
 
 ### Return Value
 
 Self reference.
 
-## DynamicWeakPtr::operator=(const SmartPtr_\&) method
+## DynamicWeakPtr::operator=(const SmartPtr_&) method
 
 
 Copy-assigns smart pointer.
@@ -40,13 +40,13 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr_](../smartptr_/)\& | Pointer to copy-assign value from. |
+| x | const [SmartPtr_](../smartptr_/)& | Pointer to copy-assign value from. |
 
 ### Return Value
 
 Self reference.
 
-## DynamicWeakPtr::operator=(const SmartPtr\<Q\>\&) method
+## DynamicWeakPtr::operator=(const SmartPtr\<Q\>&) method
 
 
 Copy-assigns smart pointer.
@@ -66,13 +66,13 @@ template<typename Q> DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weak
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const [SmartPtr](../../smartptr/)\<Q\>\& | Pointer to copy-assign value from. |
+| x | const [SmartPtr](../../smartptr/)\<Q\>& | Pointer to copy-assign value from. |
 
 ### Return Value
 
 Self reference.
 
-## DynamicWeakPtr::operator=(typename SmartPtr_::Pointee_ *) method
+## DynamicWeakPtr::operator=(typename SmartPtr_::Pointee_ \*) method
 
 
 Assigns smart pointer.
@@ -86,7 +86,7 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | typename [SmartPtr_::Pointee_](../../smartptr/pointee_/) * | Pointer value. |
+| p | typename [SmartPtr_::Pointee_](../../smartptr/pointee_/) \* | Pointer value. |
 
 ### Return Value
 

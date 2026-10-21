@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.security.cryptography/ecdsabotan/signhash/
 ---
-## ECDsaBotan::SignHash(const ByteArrayPtr\&) method
+## ECDsaBotan::SignHash(const ByteArrayPtr&) method
 
 
 Computes the signature of specified input value.
@@ -20,7 +20,7 @@ ByteArrayPtr System::Security::Cryptography::ECDsaBotan::SignHash(const ByteArra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hash | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Hash value of data to be signed. |
+| hash | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Hash value of data to be signed. |
 
 ### Return Value
 

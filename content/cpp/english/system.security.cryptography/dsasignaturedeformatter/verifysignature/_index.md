@@ -16,6 +16,13 @@ bool System::Security::Cryptography::DSASignatureDeformatter::VerifySignature(Ar
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException |  |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

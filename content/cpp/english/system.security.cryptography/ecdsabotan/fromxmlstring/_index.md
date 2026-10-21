@@ -22,7 +22,7 @@ void System::Security::Cryptography::ECDsaBotan::FromXmlString(String xml_string
 | --- | --- | --- |
 | xml_string | [String](../../../system/string/) | Parameters in XML format. |
 
-## ECDsaBotan::FromXmlString(const String\&, ECKeyXmlFormat) method
+## ECDsaBotan::FromXmlString(const String&, ECKeyXmlFormat) method
 
 
 Initializes object using XML-encoded parameters. Not implemented.
@@ -36,7 +36,7 @@ void System::Security::Cryptography::ECDsaBotan::FromXmlString(const String &xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| xml_string | const [String](../../../system/string/)\& | Parameters in XML format. |
+| xml_string | const [String](../../../system/string/)& | Parameters in XML format. |
 | format | [ECKeyXmlFormat](../../eckeyxmlformat/) | Format of the XML string. |
 
 ## See Also

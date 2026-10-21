@@ -32,7 +32,7 @@ System::Drawing::StringFormat::StringFormat(StringFormatFlags options, int32_t l
 | options | [StringFormatFlags](../../stringformatflags/) | A bitwise combination of StringFormatFlags enum value that specify the string format to be represented by the object being created |
 | language | **int32_t** | A language of the text |
 
-## StringFormat::StringFormat(const SharedPtr\<StringFormat\>\&) constructor
+## StringFormat::StringFormat(const SharedPtr\<StringFormat\>&) constructor
 
 
 Copy constructor.
@@ -46,7 +46,7 @@ System::Drawing::StringFormat::StringFormat(const SharedPtr<StringFormat> &forma
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | const [SharedPtr](../../../system/sharedptr/)\<[StringFormat](../)\>\& | A [StringFormat](../) object to copy from |
+| format | const [SharedPtr](../../../system/sharedptr/)\<[StringFormat](../)\>& | A [StringFormat](../) object to copy from |
 
 ## See Also
 

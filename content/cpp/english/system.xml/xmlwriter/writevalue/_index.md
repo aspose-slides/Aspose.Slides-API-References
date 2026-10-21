@@ -22,7 +22,16 @@ virtual void System::Xml::XmlWriter::WriteValue(SharedPtr<Object> value)
 | --- | --- | --- |
 | value | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The object value to write. |
 
-## XmlWriter::WriteValue(const String\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+| ArgumentNullException | The **value** is **nullptr**. |
+| InvalidOperationException | The writer is closed or in error state. |
+
+
+## XmlWriter::WriteValue(const String&) method
 
 
 Writes a [String](../../../system/string/) value.
@@ -36,7 +45,14 @@ virtual void System::Xml::XmlWriter::WriteValue(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The [String](../../../system/string/) value to write. |
+| value | const [String](../../../system/string/)& | The [String](../../../system/string/) value to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
 
 ## XmlWriter::WriteValue(bool) method
 
@@ -54,6 +70,13 @@ virtual void System::Xml::XmlWriter::WriteValue(bool value)
 | --- | --- | --- |
 | value | **bool** | The [Boolean](../../../system/boolean/) value to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
+
 ## XmlWriter::WriteValue(DateTime) method
 
 
@@ -69,6 +92,13 @@ virtual void System::Xml::XmlWriter::WriteValue(DateTime value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTime](../../../system/datetime/) | The [DateTime](../../../system/datetime/) value to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
 
 ## XmlWriter::WriteValue(DateTimeOffset) method
 
@@ -102,6 +132,13 @@ virtual void System::Xml::XmlWriter::WriteValue(double value)
 | --- | --- | --- |
 | value | **double** | The [Double](../../../system/double/) value to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
+
 ## XmlWriter::WriteValue(float) method
 
 
@@ -117,6 +154,13 @@ virtual void System::Xml::XmlWriter::WriteValue(float value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **float** | The single-precision floating-point number to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
 
 ## XmlWriter::WriteValue(Decimal) method
 
@@ -134,6 +178,13 @@ virtual void System::Xml::XmlWriter::WriteValue(Decimal value)
 | --- | --- | --- |
 | value | [Decimal](../../../system/decimal/) | The [Decimal](../../../system/decimal/) value to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
+
 ## XmlWriter::WriteValue(int32_t) method
 
 
@@ -150,6 +201,13 @@ virtual void System::Xml::XmlWriter::WriteValue(int32_t value)
 | --- | --- | --- |
 | value | **int32_t** | The [Int32](../../../system/int32/) value to write. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
+
 ## XmlWriter::WriteValue(int64_t) method
 
 
@@ -165,6 +223,13 @@ virtual void System::Xml::XmlWriter::WriteValue(int64_t value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | **int64_t** | The [Int64](../../../system/int64/) value to write. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | An invalid value was specified. |
+
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: get_UnderlyingObject()
 second_title: Aspose.Slides for C++ API Reference
-description: Used by XPathNavigator implementations which provide a \"virtualized\" XML view over a store, to provide access to underlying objects.
+description: "Used by XPathNavigator implementations which provide a \"virtualized\" XML view over a store, to provide access to underlying objects."
 type: docs
 weight: 235
 url: /system.xml.xpath/xpathnavigator/get_underlyingobject/
@@ -9,7 +9,7 @@ url: /system.xml.xpath/xpathnavigator/get_underlyingobject/
 ## XPathNavigator::get_UnderlyingObject() method
 
 
-Used by [XPathNavigator](../) implementations which provide a \"virtualized\" XML view over a store, to provide access to underlying objects.
+Used by [XPathNavigator](../) implementations which provide a "virtualized" XML view over a store, to provide access to underlying objects.
 
 ```cpp
 virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::get_UnderlyingObject()

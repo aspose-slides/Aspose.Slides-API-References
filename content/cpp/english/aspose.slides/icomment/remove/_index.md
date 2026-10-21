@@ -16,6 +16,13 @@ virtual void Aspose::Slides::IComment::Remove()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if comment is already removed |
+
+
 ## See Also
 
 * Class [IComment](../)

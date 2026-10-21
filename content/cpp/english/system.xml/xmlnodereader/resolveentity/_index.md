@@ -16,6 +16,13 @@ void System::Xml::XmlNodeReader::ResolveEntity() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The reader is not positioned on an **EntityReference** node. |
+
+
 ## See Also
 
 * Class [XmlNodeReader](../)

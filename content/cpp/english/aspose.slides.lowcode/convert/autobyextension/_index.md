@@ -22,6 +22,13 @@ static void Aspose::Slides::LowCode::Convert::AutoByExtension(System::String pre
 | --- | --- | --- |
 | presPath | [System::String](../../../system/string/) | Path of the input presentation |
 | outPath | [System::String](../../../system/string/) | Output path |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) |  |
+
 ## Remarks
 
 

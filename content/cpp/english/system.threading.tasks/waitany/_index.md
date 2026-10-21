@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.threading.tasks/waitany/
 ---
-## System::Threading::Tasks::WaitAny(const ArrayPtr\<TaskPtr\>\&, const CancellationToken\&) function
+## System::Threading::Tasks::WaitAny(const ArrayPtr\<TaskPtr\>&, const CancellationToken&) function
 
 
 Waits for any of the provided [Task](../task/) objects to complete execution.
@@ -20,14 +20,21 @@ int32_t System::Threading::Tasks::WaitAny(const ArrayPtr<TaskPtr> &tasks, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>\& | An array of [Task](../task/) instances on which to wait. |
-| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)\& | A [CancellationToken](../../system.threading/cancellationtoken/) to observe while waiting for the tasks to complete. |
+| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>& | An array of [Task](../task/) instances on which to wait. |
+| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)& | A [CancellationToken](../../system.threading/cancellationtoken/) to observe while waiting for the tasks to complete. |
 
 ### Return Value
 
 The index of the completed task in the tasks array.
 
-## System::Threading::Tasks::WaitAny(const ArrayPtr\<TaskPtr\>\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.OperationCanceledException](../../system/operationcanceledexception/) | if the cancellationToken is cancelled. |
+
+
+## System::Threading::Tasks::WaitAny(const ArrayPtr\<TaskPtr\>&) function
 
 
 Waits for any of the provided [Task](../task/) objects to complete execution.
@@ -41,7 +48,7 @@ int32_t System::Threading::Tasks::WaitAny(const ArrayPtr<TaskPtr> &tasks)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>\& | An array of [Task](../task/) instances on which to wait. |
+| tasks | const [ArrayPtr](../../system/arrayptr/)\<[TaskPtr](../../system/taskptr/)\>& | An array of [Task](../task/) instances on which to wait. |
 
 ### Return Value
 

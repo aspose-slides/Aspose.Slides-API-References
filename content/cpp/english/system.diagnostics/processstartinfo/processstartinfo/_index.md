@@ -15,7 +15,7 @@ Creates empty start info object.
 System::Diagnostics::ProcessStartInfo::ProcessStartInfo()
 ```
 
-## ProcessStartInfo::ProcessStartInfo(const String\&) constructor
+## ProcessStartInfo::ProcessStartInfo(const String&) constructor
 
 
 Creates start info object.
@@ -29,9 +29,9 @@ System::Diagnostics::ProcessStartInfo::ProcessStartInfo(const String &fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const [String](../../../system/string/)\& | File name or path. |
+| fileName | const [String](../../../system/string/)& | File name or path. |
 
-## ProcessStartInfo::ProcessStartInfo(const String\&, const String\&) constructor
+## ProcessStartInfo::ProcessStartInfo(const String&, const String&) constructor
 
 
 Creates start info object.
@@ -45,8 +45,8 @@ System::Diagnostics::ProcessStartInfo::ProcessStartInfo(const String &fileName, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const [String](../../../system/string/)\& | File name or path. |
-| arguments | const [String](../../../system/string/)\& | [Process](../../process/) arguments. |
+| fileName | const [String](../../../system/string/)& | File name or path. |
+| arguments | const [String](../../../system/string/)& | [Process](../../process/) arguments. |
 
 ## See Also
 

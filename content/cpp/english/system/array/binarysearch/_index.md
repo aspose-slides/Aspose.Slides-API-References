@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /system/array/binarysearch/
 ---
-## Array::BinarySearch(System::ArrayPtr\<T\>, const T\&) method
+## Array::BinarySearch(System::ArrayPtr\<T\>, const T&) method
 
 
 Performs binary search in the sorted array.
@@ -21,13 +21,13 @@ static int System::Array<T>::BinarySearch(System::ArrayPtr<T> arr, const T &item
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arr | [System::ArrayPtr](../../arrayptr/)\<T\> | Sorted array to perform search in |
-| item | const T\& | An item to search for |
+| item | const T& | An item to search for |
 
 ### Return Value
 
 [Index](../../index/) of the searched item if one is found, otherwise, a negative integer that is the bitwise complement of the index of the next item greater than searched item or, if there is no greater item, the bitwise complement of the number of elements in the array.
 
-## Array::BinarySearch(System::ArrayPtr\<T\>, const Y\&, const SharedPtr\<Collections::Generic::IComparer\<Z\>\>\&) method
+## Array::BinarySearch(System::ArrayPtr\<T\>, const Y&, const SharedPtr\<Collections::Generic::IComparer\<Z\>\>&) method
 
 
 NOT IMPLEMENTED.
@@ -35,6 +35,13 @@ NOT IMPLEMENTED.
 ```cpp
 template<typename Y,typename Z> static int System::Array<T>::BinarySearch(System::ArrayPtr<T> arr, const Y &item, const SharedPtr<Collections::Generic::IComparer<Z>> &comparer)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

@@ -1,7 +1,7 @@
 ---
 title: get_FreeBSD()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::get_FreeBSD() method"
 type: docs
 weight: 1
 url: /system.runtime.interopservices/osplatform/get_freebsd/

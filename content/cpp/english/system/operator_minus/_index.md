@@ -25,9 +25,9 @@ auto System::operator-(DayOfWeek a, DayOfWeek b)
 
 ### Return Value
 
-The number of days between weekdays **a** and **b**; the return value is a negative number if *goes* after ****
+The number of days between weekdays **a** and **b**; the return value is a negative number if *goes* after
 
-## System::operator-(const T\&, const Decimal\&) function
+## System::operator-(const T&, const Decimal&) function
 
 
 Returns a new instance of [Decimal](../decimal/) class that represents a value that is the result of subtraction of the value represented by the specified [Decimal](../decimal/) object from the specified value.
@@ -41,8 +41,8 @@ template<typename T,typename _> Decimal System::operator-(const T &x, const Deci
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | const T\& | The value to subtract from |
-| d | const [Decimal](../decimal/)\& | The [Decimal](../decimal/) object representing the subtracted value |
+| x | const T& | The value to subtract from |
+| d | const [Decimal](../decimal/)& | The [Decimal](../decimal/) object representing the subtracted value |
 
 ### Return Value
 
@@ -69,7 +69,7 @@ template<typename T> MulticastDelegate<T> System::operator-(MulticastDelegate<T>
 
 Returns a delegate that contains the callbacks of the left hand value, but without the right hand value ones.
 
-## System::operator-(const T1\&, const Nullable\<T2\>\&) function
+## System::operator-(const T1&, const Nullable\<T2\>&) function
 
 
 Subtracts non-nullable and nullable values.
@@ -90,8 +90,8 @@ template<typename T1,typename T2,typename> auto System::operator-(const T1 &some
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| some | const T1\& | Left operand. |
-| other | const [Nullable](../nullable/)\<T2\>\& | Right operand. |
+| some | const T1& | Left operand. |
+| other | const [Nullable](../nullable/)\<T2\>& | Right operand. |
 
 ### Return Value
 

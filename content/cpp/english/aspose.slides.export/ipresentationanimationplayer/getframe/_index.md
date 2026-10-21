@@ -16,10 +16,6 @@ virtual ASPOSE_SLIDES_LOCAL_API System::SharedPtr<IImage> Aspose::Slides::Export
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -20,6 +20,13 @@ virtual System::SharedPtr<IChartSeries> Aspose::Slides::Charts::IChartSeriesColl
 
 The element at the specified index.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | *index*  is not a valid index in the [IList](../../../system.collections.generic/ilist/). |
+
+
 
 
 

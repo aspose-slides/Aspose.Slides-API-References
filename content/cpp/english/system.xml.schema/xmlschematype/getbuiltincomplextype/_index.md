@@ -26,7 +26,7 @@ static SharedPtr<XmlSchemaComplexType> System::Xml::Schema::XmlSchemaType::GetBu
 
 The [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type.
 
-## XmlSchemaType::GetBuiltInComplexType(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaType::GetBuiltInComplexType(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Returns an [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type of the complex type specified by qualified name.
@@ -40,11 +40,18 @@ static SharedPtr<XmlSchemaComplexType> System::Xml::Schema::XmlSchemaType::GetBu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| qualifiedName | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the complex type. |
+| qualifiedName | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the complex type. |
 
 ### Return Value
 
 The [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) parameter is **nullptr**. |
+
 
 ## See Also
 

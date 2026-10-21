@@ -1,7 +1,7 @@
 ---
 title: ScaleEffect()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ScaleEffect::ScaleEffect() constructor"
 type: docs
 weight: 105
 url: /aspose.slides.animation/scaleeffect/scaleeffect/

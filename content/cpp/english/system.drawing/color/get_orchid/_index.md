@@ -1,7 +1,7 @@
 ---
 title: get_Orchid()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFDA70D6.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFDA70D6."
 type: docs
 weight: 1600
 url: /system.drawing/color/get_orchid/

@@ -1,7 +1,7 @@
 ---
 title: get_Khaki()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFF0E68C.
+description: "Returns the solid fill color whose hexadecimal value is #FFF0E68C."
 type: docs
 weight: 755
 url: /system.drawing/brushes/get_khaki/

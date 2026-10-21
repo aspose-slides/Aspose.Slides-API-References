@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /system/string/insert/
 ---
-## String::Insert(int, const String\&) const method
+## String::Insert(int, const String&) const method
 
 
 Inserts substring at specified position.
@@ -21,7 +21,7 @@ String System::String::Insert(int startIndex, const String &value) const
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | [Index](../../index/) in this string to start inserting from. |
-| value | const [String](../)\& | Insertion string. |
+| value | const [String](../)& | Insertion string. |
 
 ### Return Value
 

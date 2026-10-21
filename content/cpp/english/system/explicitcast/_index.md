@@ -6,7 +6,7 @@ type: docs
 weight: 2653
 url: /system/explicitcast/
 ---
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used when the source and the result types are the same.
@@ -27,13 +27,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used when simple constructor-like cast is needed.
@@ -54,13 +54,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for exception wrappers.
@@ -81,13 +81,20 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
+
+
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for casting object to exception.
@@ -108,16 +115,23 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
 
 
-Casts the source type to the result type using explicit cast. Used when the source and result both are smart pointers (without expicit SmartPtr<...> in result type).
+## System::ExplicitCast(const Source&) function
+
+
+Casts the source type to the result type using explicit cast. Used when the source and result both are smart pointers (without expicit SmartPtr\<...\> in result type).
 
 ```cpp
 template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::Pointer, typename CastResult<Result>::type> System::ExplicitCast(const Source &value)
@@ -135,11 +149,18 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
+
 
 ## System::ExplicitCast(Source) function
 
@@ -168,10 +189,17 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
 
 
-Casts the source type to the result type using explicit cast. Used when the source and result both are smart pointers (with expicit SmartPtr<...> in result type).
+## System::ExplicitCast(const Source&) function
+
+
+Casts the source type to the result type using explicit cast. Used when the source and result both are smart pointers (with expicit SmartPtr\<...\> in result type).
 
 ```cpp
 template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::PointerToPointer, Result> System::ExplicitCast(const Source &value)
@@ -189,13 +217,20 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
+
+
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for unboxing object to nullable.
@@ -216,13 +251,20 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
+
+
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used to box nullable.
@@ -243,13 +285,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for unboxing nullable object.
@@ -270,13 +312,20 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NullReferenceException](../nullreferenceexception/) | If value is empty. |
+
+
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for enum boxing.
@@ -297,13 +346,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for copying value types to heap when value type should be referenced as smart pointer (in generics constrained with interface type but specialized with structure implementing this interface).
@@ -324,13 +373,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for getting interfaces from value types.
@@ -351,13 +400,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for common boxing.
@@ -378,13 +427,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for [System::String](../string/) boxing.
@@ -405,13 +454,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for unboxing interfaces.
@@ -432,13 +481,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for common unboxing.
@@ -459,13 +508,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for nullptr casting.
@@ -486,13 +535,13 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
 
-## System::ExplicitCast(const Source\&) function
+## System::ExplicitCast(const Source&) function
 
 
 Casts the source type to the result type using explicit cast. Used for casting between arrays.
@@ -513,11 +562,18 @@ template<typename Result,typename Source> std::enable_if_t<Details::CastType<Sou
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const Source\& | [Object](../object/) to cast. |
+| value | const Source& | [Object](../object/) to cast. |
 
 ### Return Value
 
 The cast result.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidCastException](../invalidcastexception/) | If no cast available. |
+
 
 ## See Also
 

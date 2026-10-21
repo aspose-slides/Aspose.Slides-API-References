@@ -15,6 +15,13 @@ Specifies a human readable name for the sound of the transition. The [ISlideShow
 System::String Aspose::Slides::SlideShow::SlideShowTransition::get_SoundName() override
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| PptxException | When [ISlideShowTransition::set_Sound](../../../aspose.slides/islideshowtransition/set_sound/) is not assigned. |
+
 ## Remarks
 
 

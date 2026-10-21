@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/stringhashcompiletime/hash/
 ---
-## StringHashCompiletime::Hash(uint32_t\&, int, const char_t *) method
+## StringHashCompiletime::Hash(uint32_t&, int, const char_t \*) method
 
 
 Generates a hash value from the specified c-string of the specified length.
@@ -20,9 +20,9 @@ static void System::StringHashCompiletime<i>::Hash(uint32_t &hash, int strLen, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | **uint32_t**\& | A pointer to the beginning of the c-string. |
+| input | **uint32_t**& | A pointer to the beginning of the c-string. |
 | strLen | int | The length of the specified c-string |
-| hash | const char_t * | The output parameter, which contains the resulting hash value on method return |
+| hash | const char_t \* | The output parameter, which contains the resulting hash value on method return |
 
 ## See Also
 

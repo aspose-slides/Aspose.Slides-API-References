@@ -1,7 +1,7 @@
 ---
 title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Margin32f::IsNull() method"
 type: docs
 weight: 66
 url: /aspose.slides.drawing/margin32f/isnull/

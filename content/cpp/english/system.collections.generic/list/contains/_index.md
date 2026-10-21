@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.collections.generic/list/contains/
 ---
-## List::Contains(const T\&) const method
+## List::Contains(const T&) const method
 
 
 Checks if item is present in list.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::List<T>::Contains(const T &item) const overri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

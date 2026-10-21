@@ -1,7 +1,7 @@
 ---
 title: set_KeyInfo()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::set_KeyInfo() method"
 type: docs
 weight: 118
 url: /system.security.cryptography.xml/signedxml/set_keyinfo/

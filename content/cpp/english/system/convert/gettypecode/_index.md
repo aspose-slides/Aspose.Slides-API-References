@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system/convert/gettypecode/
 ---
-## Convert::GetTypeCode(const SharedPtr\<Object\>\&) method
+## Convert::GetTypeCode(const SharedPtr\<Object\>&) method
 
 
 Returns a TypeCode value representing the type of the specified boxed value.
@@ -20,7 +20,7 @@ static TypeCode System::Convert::GetTypeCode(const SharedPtr<Object> &obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The shared pointer to the object boxing the value the type of which is to be returned |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The shared pointer to the object boxing the value the type of which is to be returned |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_OliveDrab()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF6B8E23.
+description: "Returns the solid fill color whose hexadecimal value is #FF6B8E23."
 type: docs
 weight: 1275
 url: /system.drawing/brushes/get_olivedrab/

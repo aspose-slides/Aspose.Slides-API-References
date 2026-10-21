@@ -1,7 +1,7 @@
 ---
 title: get_LawnGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF7CFC00.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF7CFC00."
 type: docs
 weight: 1080
 url: /system.drawing/color/get_lawngreen/

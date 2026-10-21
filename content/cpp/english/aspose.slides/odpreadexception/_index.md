@@ -1,7 +1,7 @@
 ---
 title: OdpReadException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: OdpReadException typedef
 type: docs
 weight: 6813
 url: /aspose.slides/odpreadexception/

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.xml.schema/xmlschemaset/removerecursive/
 ---
-## XmlSchemaSet::RemoveRecursive(const SharedPtr\<XmlSchema\>\&) method
+## XmlSchemaSet::RemoveRecursive(const SharedPtr\<XmlSchema\>&) method
 
 
 Removes the specified XML [Schema](../../) definition language (XSD) schema and all the schemas it imports from the [XmlSchemaSet](../).
@@ -20,11 +20,18 @@ bool System::Xml::Schema::XmlSchemaSet::RemoveRecursive(const SharedPtr<XmlSchem
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemaToRemove | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) object to remove from the [XmlSchemaSet](../). |
+| schemaToRemove | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) object to remove from the [XmlSchemaSet](../). |
 
 ### Return Value
 
 **true** if the [XmlSchema](../../xmlschema/) object and all its imports were successfully removed; otherwise, **false**.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlSchema](../../xmlschema/) passed as a parameter is **nullptr**. |
+
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.drawing.imaging/encoderparameter/set_encoder/
 ---
-## EncoderParameter::set_Encoder(const EncoderPtr\&) method
+## EncoderParameter::set_Encoder(const EncoderPtr&) method
 
 
 Associates the specified [Encoder](../../encoder/) object with the current [EncoderParameter](../) object.
@@ -20,7 +20,7 @@ void System::Drawing::Imaging::EncoderParameter::set_Encoder(const EncoderPtr &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [EncoderPtr](../../encoderptr/)\& | The [Encoder](../../encoder/) object to associate the current [EncoderParameter](../) object with |
+| value | const [EncoderPtr](../../encoderptr/)& | The [Encoder](../../encoder/) object to associate the current [EncoderParameter](../) object with |
 
 ## See Also
 

@@ -1,12 +1,12 @@
 ---
 title: ConfiguredTaskAwaitable()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ConfiguredTaskAwaitable::ConfiguredTaskAwaitable() constructor"
 type: docs
 weight: 1
 url: /system.runtime.compilerservices/configuredtaskawaitable/configuredtaskawaitable/
 ---
-## ConfiguredTaskAwaitable::ConfiguredTaskAwaitable(const TaskPtr\&, bool) constructor
+## ConfiguredTaskAwaitable::ConfiguredTaskAwaitable(const TaskPtr&, bool) constructor
 
 
 

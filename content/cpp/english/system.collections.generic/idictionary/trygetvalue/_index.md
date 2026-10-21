@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.collections.generic/idictionary/trygetvalue/
 ---
-## IDictionary::TryGetValue(const TKey\&, TValue\&) const method
+## IDictionary::TryGetValue(const TKey&, TValue&) const method
 
 
 Looks for value and retreives it if found.
@@ -20,8 +20,8 @@ virtual bool System::Collections::Generic::IDictionary<TKey, TValue>::TryGetValu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to look for. |
-| value | TValue\& | Reference to store retreived value into. |
+| key | const TKey& | Key to look for. |
+| value | TValue& | Reference to store retreived value into. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_Black()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF000000.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF000000."
 type: docs
 weight: 105
 url: /system.drawing/pens/get_black/

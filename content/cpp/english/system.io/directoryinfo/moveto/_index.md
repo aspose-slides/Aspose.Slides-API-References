@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.io/directoryinfo/moveto/
 ---
-## DirectoryInfo::MoveTo(const String\&) method
+## DirectoryInfo::MoveTo(const String&) method
 
 
 Moves the directory represented by the current object and all its contentto the specified location.
@@ -20,7 +20,7 @@ void System::IO::DirectoryInfo::MoveTo(const String &destDirName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destDirName | const [String](../../../system/string/)\& | The new location |
+| destDirName | const [String](../../../system/string/)& | The new location |
 
 ## See Also
 

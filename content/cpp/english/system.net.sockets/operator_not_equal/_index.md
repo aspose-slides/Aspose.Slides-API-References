@@ -1,7 +1,7 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::Sockets::operator!=() function"
 type: docs
 weight: 118
 url: /system.net.sockets/operator_not_equal/

@@ -1,7 +1,7 @@
 ---
 title: Zero
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Zero field
 type: docs
 weight: 92
 url: /aspose.slides.drawing/margin32f/zero/

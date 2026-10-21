@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.io/basicsystemistreamwrapper/operator_equal/
 ---
-## BasicSystemIStreamWrapper::operator=(const BasicSystemIStreamWrapper\&) method
+## BasicSystemIStreamWrapper::operator=(const BasicSystemIStreamWrapper&) method
 
 
 Copy assignment operator. Deleted.
@@ -15,7 +15,7 @@ Copy assignment operator. Deleted.
 BasicSystemIStreamWrapper & System::IO::BasicSystemIStreamWrapper<Elem, Traits>::operator=(const BasicSystemIStreamWrapper &)=delete
 ```
 
-## BasicSystemIStreamWrapper::operator=(BasicSystemIStreamWrapper\&&) method
+## BasicSystemIStreamWrapper::operator=(BasicSystemIStreamWrapper&&) method
 
 
 Move assignment operator.
@@ -29,11 +29,11 @@ BasicSystemIStreamWrapper & System::IO::BasicSystemIStreamWrapper<Elem, Traits>:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| right | [BasicSystemIStreamWrapper](../)\&& | [Object](../../../system/object/) to be move |
+| right | [BasicSystemIStreamWrapper](../)&& | [Object](../../../system/object/) to be move |
 
 ### Return Value
 
-*this
+\*this
 
 ## See Also
 

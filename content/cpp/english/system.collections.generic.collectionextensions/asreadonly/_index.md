@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic.collectionextensions/asreadonly/
 ---
-## System::Collections::Generic::CollectionExtensions::AsReadOnly(const SharedPtr\<IList\<T\>\>\&) function
+## System::Collections::Generic::CollectionExtensions::AsReadOnly(const SharedPtr\<IList\<T\>\>&) function
 
 
 Wraps given list with read-only collection.

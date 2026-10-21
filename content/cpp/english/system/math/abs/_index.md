@@ -32,7 +32,7 @@ template<class T> static T System::Math::Abs(T value)
 
 The absolute value of **value**
 
-## Math::Abs(const Decimal\&) method
+## Math::Abs(const Decimal&) method
 
 
 Returns the absolute value of a value represented by the specified [Decimal](../../decimal/) object.
@@ -46,7 +46,7 @@ static Decimal System::Math::Abs(const Decimal &d)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../../decimal/)\& | A [Decimal](../../decimal/) object |
+| d | const [Decimal](../../decimal/)& | A [Decimal](../../decimal/) object |
 
 ### Return Value
 

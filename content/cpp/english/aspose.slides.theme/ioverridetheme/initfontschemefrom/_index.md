@@ -22,6 +22,14 @@ virtual void Aspose::Slides::Theme::IOverrideTheme::InitFontSchemeFrom(System::S
 | --- | --- | --- |
 | fontScheme | [System::SharedPtr](../../../system/sharedptr/)\<[IFontScheme](../../ifontscheme/)\> | Data to initialize from. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [FontScheme](../../fontscheme/) is already initialized (not null). |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if the fontScheme parameter is null. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

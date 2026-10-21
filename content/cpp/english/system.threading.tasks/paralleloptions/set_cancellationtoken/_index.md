@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.threading.tasks/paralleloptions/set_cancellationtoken/
 ---
-## ParallelOptions::set_CancellationToken(const CancellationToken\&) method
+## ParallelOptions::set_CancellationToken(const CancellationToken&) method
 
 
 Sets the [CancellationToken](../../../system.threading/cancellationtoken/) associated with this [ParallelOptions](../) instance.
@@ -20,7 +20,7 @@ void System::Threading::Tasks::ParallelOptions::set_CancellationToken(const Canc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [CancellationToken](../../../system.threading/cancellationtoken/)\& | The [CancellationToken](../../../system.threading/cancellationtoken/) to use for cancellation. |
+| value | const [CancellationToken](../../../system.threading/cancellationtoken/)& | The [CancellationToken](../../../system.threading/cancellationtoken/) to use for cancellation. |
 
 ## See Also
 

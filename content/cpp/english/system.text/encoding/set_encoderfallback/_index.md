@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.text/encoding/set_encoderfallback/
 ---
-## Encoding::set_EncoderFallback(const EncoderFallbackPtr\&) method
+## Encoding::set_EncoderFallback(const EncoderFallbackPtr&) method
 
 
 Sets encoder fallback.
@@ -20,7 +20,7 @@ void System::Text::Encoding::set_EncoderFallback(const EncoderFallbackPtr &value
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\& | [Encoder](../../encoder/) fallback object. |
+| value | const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)& | [Encoder](../../encoder/) fallback object. |
 
 ## See Also
 

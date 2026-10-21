@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.testpredicates/arenotequal/
 ---
-## System::TestPredicates::AreNotEqual(const char *, const char *, T1\&&, T2\&&) function
+## System::TestPredicates::AreNotEqual(const char \*, const char \*, T1&&, T2&&) function
 
 
 Not-equal-compares arguments for AreEqual assertion translation.
@@ -27,10 +27,10 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs_expr | const char * | LHS expression. |
-| rhs_expr | const char * | RHS expression. |
-| lhs | T1\&& | LHS value. |
-| rhs | T2\&& | RHS value. |
+| lhs_expr | const char \* | LHS expression. |
+| rhs_expr | const char \* | RHS expression. |
+| lhs | T1&& | LHS value. |
+| rhs | T2&& | RHS value. |
 
 ### Return Value
 

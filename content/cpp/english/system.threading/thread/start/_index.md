@@ -15,7 +15,7 @@ Starts thread using null argument object.
 void System::Threading::Thread::Start()
 ```
 
-## Thread::Start(const System::SharedPtr\<System::Object\>\&) method
+## Thread::Start(const System::SharedPtr\<System::Object\>&) method
 
 
 Starts thread.
@@ -29,7 +29,7 @@ void System::Threading::Thread::Start(const System::SharedPtr<System::Object> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| o | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to pass to thread function as argument. |
+| o | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to pass to thread function as argument. |
 
 ## See Also
 

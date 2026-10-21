@@ -1,7 +1,7 @@
 ---
 title: "System::Security::Cryptography"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Cryptography namespace"
 type: docs
 weight: 846
 url: /system.security.cryptography/
@@ -81,18 +81,18 @@ url: /system.security.cryptography/
 
 | Function | Description |
 | --- | --- |
-| constexpr **bool** [operator==](./operator_equal_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>\&, const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>\&) |  |
-| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>\&, const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>\&) |  |
-| constexpr **bool** [operator!=](./operator_not_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>\&, const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>\&) |  |
-| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>\&, const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>\&) |  |
-| constexpr **bool** [operator<](./operator_less/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| constexpr **bool** [operator<=](./operator_less_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| constexpr **bool** [operator>](./operator_greater/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| constexpr **bool** [operator>=](./operator_greater_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)\&) |  |
-| std::ostream\& [operator<<](./operator_less_less/)(std::ostream\&, const [HashAlgorithmName](./hashalgorithmname/)\&) | Insert data into the stream using UTF-8 encoding. |
-| std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [HashAlgorithmName](./hashalgorithmname/)\&) | Insert data into the stream. |
+| constexpr **bool** [operator==](./operator_equal_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>&, const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>&) |  |
+| **bool** [operator==](./operator_equal_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>&, const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>&) |  |
+| constexpr **bool** [operator!=](./operator_not_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>&, const [SharedPtr](../system/sharedptr/)\<[RSAEncryptionPadding](./rsaencryptionpadding/)\>&) |  |
+| **bool** [operator!=](./operator_not_equal/)(const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>&, const [SharedPtr](../system/sharedptr/)\<[RSASignaturePadding](./rsasignaturepadding/)\>&) |  |
+| constexpr **bool** [operator\<](./operator_less/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| constexpr **bool** [operator\<=](./operator_less_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| constexpr **bool** [operator\>](./operator_greater/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| constexpr **bool** [operator\>=](./operator_greater_equal/)(std::nullptr_t, const [HashAlgorithmName](./hashalgorithmname/)&) |  |
+| std::ostream& [operator\<\<](./operator_less_less/)(std::ostream&, const [HashAlgorithmName](./hashalgorithmname/)&) | Insert data into the stream using UTF-8 encoding. |
+| std::wostream& [operator\<\<](./operator_less_less/)(std::wostream&, const [HashAlgorithmName](./hashalgorithmname/)&) | Insert data into the stream. |
 ## Enums
 
 | Enum | Description |
@@ -102,7 +102,7 @@ url: /system.security.cryptography/
 | [CryptoStreamMode](./cryptostreammode/) | [CryptoStream](./cryptostream/) direction. |
 | [ECKeyXmlFormat](./eckeyxmlformat/) | XML format for elliptic curve keys. |
 | [KeyNumber](./keynumber/) | Key type. |
-| [OidGroup](./oidgroup/) | Identifies [Windows](../system.windows/) OID groups. |
+| [OidGroup](./oidgroup/) | Identifies Windows OID groups. |
 | [PaddingMode](./paddingmode/) | Defines how to treat messages that is shorter than block required by crypto operation.s. |
 | [RSAEncryptionPaddingMode](./rsaencryptionpaddingmode/) | Padding mode used with [RSA](./rsa/) encryption or decryption operations. |
 | [RSASignaturePaddingMode](./rsasignaturepaddingmode/) | Padding mode used with [RSA](./rsa/) signature creation or verification operations. |

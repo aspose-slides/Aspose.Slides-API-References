@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.threading/threadpool/threadpool/
 ---
-## ThreadPool::ThreadPool(const ThreadPool\&) constructor
+## ThreadPool::ThreadPool(const ThreadPool&) constructor
 
 
 No copying.

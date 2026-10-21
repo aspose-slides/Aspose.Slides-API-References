@@ -31,7 +31,14 @@ System::Collections::Generic::Queue<T>::Queue(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve. |
 
-## Queue::Queue(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | if capacity is less than zero. |
+
+
+## Queue::Queue(const SharedPtr\<IEnumerable\<T\>\>&) constructor
 
 
 Copy constructor.
@@ -45,7 +52,14 @@ System::Collections::Generic::Queue<T>::Queue(const SharedPtr<IEnumerable<T>> &i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| items | const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\& | Container to copy data from. |
+| items | const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>& | Container to copy data from. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | if items is nullptr. |
+
 
 ## See Also
 

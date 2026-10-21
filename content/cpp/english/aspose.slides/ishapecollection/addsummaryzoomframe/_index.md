@@ -28,12 +28,19 @@ virtual System::SharedPtr<ISummaryZoomFrame> Aspose::Slides::IShapeCollection::A
 ### Return Value
 
 The newly created [ISummaryZoomFrame](../../isummaryzoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if there are no sections in the presentation, or if the target slide does not belong to any section. |
+
 ## Remarks
 
 
 This method creates a Summary Zoom frame that aggregates summary links for all sections in the presentation. 
 
-This example demonstrates adding a Summary Zoom object to the end of a collection (assume that there are at least two sections in the \"Presentation.pptx\" presentation): 
+This example demonstrates adding a Summary Zoom object to the end of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation): 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 auto shapes = pres->get_Slides()->idx_get(0)->get_Shapes();

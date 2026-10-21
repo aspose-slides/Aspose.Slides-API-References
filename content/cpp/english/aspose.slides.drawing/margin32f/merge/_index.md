@@ -1,7 +1,7 @@
 ---
 title: Merge()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Margin32f::Merge() method"
 type: docs
 weight: 27
 url: /aspose.slides.drawing/margin32f/merge/

@@ -9,7 +9,7 @@ url: /system.text/utf7encoding/utf7_code_page/
 ## UTF7_CODE_PAGE field
 
 
-Magic number used by [Windows](../../../system.windows/) for UTF-7 codepage id.
+Magic number used by Windows for UTF-7 codepage id.
 
 ```cpp
 static constexpr constexpr int System::Text::UTF7Encoding::UTF7_CODE_PAGE

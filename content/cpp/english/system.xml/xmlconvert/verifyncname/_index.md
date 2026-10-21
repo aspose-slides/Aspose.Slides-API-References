@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml/xmlconvert/verifyncname/
 ---
-## XmlConvert::VerifyNCName(const String\&) method
+## XmlConvert::VerifyNCName(const String&) method
 
 
 Verifies that the name is a valid **NCName** according to the W3C Extended Markup Language recommendation. An **NCName** is a name that cannot contain a colon.
@@ -20,11 +20,19 @@ static String System::Xml::XmlConvert::VerifyNCName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to verify. |
+| name | const [String](../../../system/string/)& | The name to verify. |
 
 ### Return Value
 
 The name, if it is a valid NCName.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **name** is **nullptr** or [String::Empty](../../../system/string/empty/). |
+| XmlException | **name** is not a valid non-colon name. |
+
 
 ## See Also
 

@@ -16,6 +16,13 @@ virtual uint32_t Aspose::Slides::IConnector::get_EndShapeConnectionSiteIndex()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when value is less than [get_EndShapeConnectedTo()](../get_endshapeconnectedto/)-\>[get_ConnectionSiteCount()](../../ishape/get_connectionsitecount/) |
+
+
 ## See Also
 
 * Class [IConnector](../)

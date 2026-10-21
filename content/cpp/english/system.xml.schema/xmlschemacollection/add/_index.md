@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemacollection/add/
 ---
-## XmlSchemaCollection::Add(const String\&, const String\&) method
+## XmlSchemaCollection::Add(const String&, const String&) method
 
 
 Adds the schema located by the given URL into the schema collection.
@@ -20,14 +20,21 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ns | const [String](../../../system/string/)\& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
-| uri | const [String](../../../system/string/)\& | The URL that specifies the schema to load. |
+| ns | const [String](../../../system/string/)& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
+| uri | const [String](../../../system/string/)& | The URL that specifies the schema to load. |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## XmlSchemaCollection::Add(const String\&, const SharedPtr\<XmlReader\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The schema is not a valid schema. |
+
+
+## XmlSchemaCollection::Add(const String&, const SharedPtr\<XmlReader\>&) method
 
 
 Adds the schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the schema collection.
@@ -41,14 +48,21 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ns | const [String](../../../system/string/)\& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | [XmlReader](../../../system.xml/xmlreader/) containing the schema to add. |
+| ns | const [String](../../../system/string/)& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | [XmlReader](../../../system.xml/xmlreader/) containing the schema to add. |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## XmlSchemaCollection::Add(const String\&, const SharedPtr\<XmlReader\>\&, const SharedPtr\<System::Xml::XmlResolver\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The schema is not a valid schema. |
+
+
+## XmlSchemaCollection::Add(const String&, const SharedPtr\<XmlReader\>&, const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Adds the schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the schema collection. The specified [XmlResolver](../../../system.xml/xmlresolver/) is used to resolve any external resources.
@@ -62,15 +76,22 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ns | const [String](../../../system/string/)\& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
-| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | [XmlReader](../../../system.xml/xmlreader/) containing the schema to add. |
-| resolver | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\& | The [XmlResolver](../../../system.xml/xmlresolver/) used to resolve namespaces referenced in **include** and **import** elements or **x-schema** attribute (XDR schemas). If this is **nullptr**, external references are not resolved. |
+| ns | const [String](../../../system/string/)& | The namespace URI associated with the schema. For XML Schemas, this will typically be the **targetNamespace**. |
+| reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | [XmlReader](../../../system.xml/xmlreader/) containing the schema to add. |
+| resolver | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>& | The [XmlResolver](../../../system.xml/xmlresolver/) used to resolve namespaces referenced in **include** and **import** elements or **x-schema** attribute (XDR schemas). If this is **nullptr**, external references are not resolved. |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The schema is not a valid schema. |
+
+
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>&) method
 
 
 Adds the [XmlSchema](../../xmlschema/) to the collection.
@@ -84,13 +105,13 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) to add to the collection. |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) to add to the collection. |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) object.
 
-## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>\&, const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>&, const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Adds the [XmlSchema](../../xmlschema/) to the collection. The specified [XmlResolver](../../../system.xml/xmlresolver/) is used to resolve any external references.
@@ -104,14 +125,21 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) to add to the collection. |
-| resolver | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\& | The [XmlResolver](../../../system.xml/xmlresolver/) used to resolve namespaces referenced in **include** and **import** elements. If this is **nullptr**, external references are not resolved. |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) to add to the collection. |
+| resolver | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>& | The [XmlResolver](../../../system.xml/xmlresolver/) used to resolve namespaces referenced in **include** and **import** elements. If this is **nullptr**, external references are not resolved. |
 
 ### Return Value
 
 The [XmlSchema](../../xmlschema/) added to the schema collection.
 
-## XmlSchemaCollection::Add(const SharedPtr\<XmlSchemaCollection\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The schema is not a valid schema. |
+
+
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchemaCollection\>&) method
 
 
 Adds all the namespaces defined in the given collection (including their associated schemas) to this collection.
@@ -125,7 +153,7 @@ void System::Xml::Schema::XmlSchemaCollection::Add(const SharedPtr<XmlSchemaColl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCollection](../)\>\& | The [XmlSchemaCollection](../) you want to add to this collection. |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCollection](../)\>& | The [XmlSchemaCollection](../) you want to add to this collection. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: get_DarkCyan()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF008B8B.
+description: "Returns the solid fill color whose hexadecimal value is #FF008B8B."
 type: docs
 weight: 287
 url: /system.drawing/brushes/get_darkcyan/

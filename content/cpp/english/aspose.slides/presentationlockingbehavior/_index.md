@@ -25,7 +25,7 @@ enum class PresentationLockingBehavior
 ## Remarks
 
 
-The source is the parameter passed to the [IPresentation](../ipresentation/) constructor. In the example below, the source is the \"pres.pptx\" file: 
+The source is the parameter passed to the [IPresentation](../ipresentation/) constructor. In the example below, the source is the "pres.pptx" file: 
 
 
 ```cpp
@@ -37,7 +37,7 @@ loadOptions->get_BlobManagementOptions()->set_PresentationLockingBehavior(Presen
 ```
 
 
-For this example, the source (\"pres.pptx\" file) will be locked for a [IPresentation](../ipresentation/) instance lifetime, i.e. can't be changed or deleted by the other process. 
+For this example, the source ("pres.pptx" file) will be locked for a [IPresentation](../ipresentation/) instance lifetime, i.e. can't be changed or deleted by the other process. 
 ## See Also
 
 * Namespace [Aspose::Slides](../)

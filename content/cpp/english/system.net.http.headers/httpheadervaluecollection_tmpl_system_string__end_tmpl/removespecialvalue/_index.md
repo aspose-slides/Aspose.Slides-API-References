@@ -1,12 +1,12 @@
 ---
 title: RemoveSpecialValue()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "HttpHeaderValueCollection< System::String >::RemoveSpecialValue() method"
 type: docs
 weight: 196
 url: /system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/removespecialvalue/
 ---
-## HttpHeaderValueCollection< System::String >::RemoveSpecialValue() method
+## HttpHeaderValueCollection\< System::String \>::RemoveSpecialValue() method
 
 
 
@@ -17,6 +17,6 @@ void System::Net::Http::Headers::HttpHeaderValueCollection<System::String>::Remo
 
 ## See Also
 
-* Class [HttpHeaderValueCollection< System::String >](../)
+* Class [HttpHeaderValueCollection\< System::String \>](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

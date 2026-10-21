@@ -1,7 +1,7 @@
 ---
 title: InvalidDataException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: InvalidDataException typedef
 type: docs
 weight: 638
 url: /system.io/invaliddataexception/

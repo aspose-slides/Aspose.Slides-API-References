@@ -18,7 +18,7 @@ String System::Xml::XmlValidatingReader::get_LocalName() override
 
 ### Return Value
 
-The name of the current node with the prefix removed. For example, **LocalName** is **book** for the element **<bk:book>**. For node types that do not have a name (like **[Text](../../../system.text/)**, **Comment**, and so on), this method returns [String::Empty](../../../system/string/empty/).
+The name of the current node with the prefix removed. For example, **LocalName** is **book** for the element **\<bk:book\>**. For node types that do not have a name (like **[Text](../../../system.text/)**, **Comment**, and so on), this method returns [String::Empty](../../../system/string/empty/).
 
 ## See Also
 

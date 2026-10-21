@@ -16,6 +16,13 @@ float System::Drawing::Printing::PageSettings::get_HardMarginX()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [PageSettings](../)

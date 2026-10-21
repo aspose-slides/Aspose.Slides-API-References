@@ -6,7 +6,7 @@ type: docs
 weight: 2484
 url: /system/ref/
 ---
-## System::Ref(DynamicWeakPtr\<T, trunkMode, weakLeafs...\>\&) function
+## System::Ref(DynamicWeakPtr\<T, trunkMode, weakLeafs...\>&) function
 
 
 Creates reference to [DynamicWeakPtr](../dynamicweakptr/) object. Used by translator when passing function arguments by reference.
@@ -28,13 +28,13 @@ template<typename T,SmartPtrMode,unsigned int ...> DynamicWeakPtr<T, trunkMode, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ptr | [DynamicWeakPtr](../dynamicweakptr/)\<T, trunkMode, weakLeafs...\>\& | Smart pointer to create reference to. |
+| ptr | [DynamicWeakPtr](../dynamicweakptr/)\<T, trunkMode, weakLeafs...\>& | Smart pointer to create reference to. |
 
 ### Return Value
 
 Smart pointer reference.
 
-## System::Ref(T\&) function
+## System::Ref(T&) function
 
 
 Helper function to acquire references to objects. Used to guarantee that [System::DynamicWeakPtr](../dynamicweakptr/) updates referenced object after assignments.
@@ -54,7 +54,7 @@ template<typename T> T & System::Ref(T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | T\& | Value to create reference to. |
+| value | T& | Value to create reference to. |
 
 ### Return Value
 

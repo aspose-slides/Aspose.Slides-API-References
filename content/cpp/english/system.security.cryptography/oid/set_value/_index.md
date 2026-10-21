@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.security.cryptography/oid/set_value/
 ---
-## Oid::set_Value(const String\&) method
+## Oid::set_Value(const String&) method
 
 
 Sets object identifier string.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::Oid::set_Value(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Object](../../../system/object/) identifier. |
+| value | const [String](../../../system/string/)& | [Object](../../../system/object/) identifier. |
 
 ## See Also
 

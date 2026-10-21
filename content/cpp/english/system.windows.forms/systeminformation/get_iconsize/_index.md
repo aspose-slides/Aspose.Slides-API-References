@@ -16,6 +16,13 @@ static System::Drawing::Size System::Windows::Forms::SystemInformation::get_Icon
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Size](../../../system.drawing/size/)

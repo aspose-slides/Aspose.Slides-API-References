@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.drawing/region/exclude/
 ---
-## Region::Exclude(const RectangleF\&) method
+## Region::Exclude(const RectangleF&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified rectange from it.
@@ -20,9 +20,9 @@ void System::Drawing::Region::Exclude(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | A rectangle that defines a region to exclude |
+| rect | const [RectangleF](../../rectanglef/)& | A rectangle that defines a region to exclude |
 
-## Region::Exclude(const Rectangle\&) method
+## Region::Exclude(const Rectangle&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified rectange from it.
@@ -36,9 +36,9 @@ void System::Drawing::Region::Exclude(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | A rectangle that defines a region to exclude |
+| rect | const [Rectangle](../../rectangle/)& | A rectangle that defines a region to exclude |
 
-## Region::Exclude(const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
+## Region::Exclude(const SharedPtr\<Drawing2D::GraphicsPath\>&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified path from it.
@@ -52,9 +52,9 @@ void System::Drawing::Region::Exclude(const SharedPtr<Drawing2D::GraphicsPath> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A path that defines a region to exclude |
+| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>& | A path that defines a region to exclude |
 
-## Region::Exclude(const SharedPtr\<Region\>\&) method
+## Region::Exclude(const SharedPtr\<Region\>&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the specified region from it.
@@ -68,7 +68,7 @@ void System::Drawing::Region::Exclude(const SharedPtr<Region> &region)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>\& | A region to exclude |
+| region | const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>& | A region to exclude |
 
 ## See Also
 

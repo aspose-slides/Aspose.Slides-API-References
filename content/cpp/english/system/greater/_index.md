@@ -6,10 +6,10 @@ type: docs
 weight: 2367
 url: /system/greater/
 ---
-## System::Greater(const ExpressionT\&, const ConstantT\&) function
+## System::Greater(const ExpressionT&, const ConstantT&) function
 
 
-Implements '>' relative pattern translation.
+Implements '\>' relative pattern translation.
 
 ```cpp
 template<class ExpressionT,class ConstantT> bool System::Greater(const ExpressionT &left, const ConstantT &constant)
@@ -27,8 +27,8 @@ template<class ExpressionT,class ConstantT> bool System::Greater(const Expressio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | const ExpressionT\& | expression which will be checked. |
-| constant | const ConstantT\& | expression which will be compared with left one. |
+| left | const ExpressionT& | expression which will be checked. |
+| constant | const ConstantT& | expression which will be compared with left one. |
 
 ### Return Value
 

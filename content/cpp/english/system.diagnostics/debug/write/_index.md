@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.diagnostics/debug/write/
 ---
-## Debug::Write(const String\&) method
+## Debug::Write(const String&) method
 
 
 Writes string to debug interface.
@@ -20,9 +20,9 @@ static void System::Diagnostics::Debug::Write(const String &message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const [String](../../../system/string/)\& | Message to write. |
+| message | const [String](../../../system/string/)& | Message to write. |
 
-## Debug::Write(const char_t *) method
+## Debug::Write(const char_t \*) method
 
 
 Writes string to debug interface.
@@ -36,7 +36,7 @@ static void System::Diagnostics::Debug::Write(const char_t *message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | const char_t * | Message to write. |
+| message | const char_t \* | Message to write. |
 
 ## See Also
 

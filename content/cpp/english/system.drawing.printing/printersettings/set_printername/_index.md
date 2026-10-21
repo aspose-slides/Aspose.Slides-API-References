@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.printing/printersettings/set_printername/
 ---
-## PrinterSettings::set_PrinterName(const String\&) method
+## PrinterSettings::set_PrinterName(const String&) method
 
 
 NOT IMPLEMENTED.

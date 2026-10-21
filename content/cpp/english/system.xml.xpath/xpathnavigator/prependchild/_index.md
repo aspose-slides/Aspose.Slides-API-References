@@ -20,6 +20,14 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::PrependChild()
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to create a new child node at the beginning of the list of child nodes of the current node.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on does not allow a new child node to be prepended. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
+
 ## XPathNavigator::PrependChild(String) method
 
 
@@ -35,6 +43,16 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(String newChild)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newChild | [String](../../../system/string/) | The XML data string for the new child node. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The XML string parameter is **nullptr**. |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on does not allow a new child node to be prepended. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| XmlException | The XML string parameter is not well-formed. |
+
 
 ## XPathNavigator::PrependChild(SharedPtr\<XmlReader\>) method
 
@@ -52,6 +70,17 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(SharedPtr<XmlReade
 | --- | --- | --- |
 | newChild | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\> | An [XmlReader](../../../system.xml/xmlreader/) object positioned on the XML data for the new child node. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The [XmlReader](../../../system.xml/xmlreader/) object is in an error state or closed. |
+| ArgumentNullException | The [XmlReader](../../../system.xml/xmlreader/) object parameter is **nullptr**. |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on does not allow a new child node to be prepended. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+| XmlException | The XML contents of the [XmlReader](../../../system.xml/xmlreader/) object parameter is not well-formed. |
+
+
 ## XPathNavigator::PrependChild(SharedPtr\<XPathNavigator\>) method
 
 
@@ -67,6 +96,15 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(SharedPtr<XPathNav
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newChild | [SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\> | An [XPathNavigator](../) object positioned on the node to add as the new child node. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XPathNavigator](../) object parameter is **nullptr**. |
+| InvalidOperationException | The current node the [XPathNavigator](../) is positioned on does not allow a new child node to be prepended. |
+| NotSupportedException | The [XPathNavigator](../) does not support editing. |
+
 
 ## See Also
 

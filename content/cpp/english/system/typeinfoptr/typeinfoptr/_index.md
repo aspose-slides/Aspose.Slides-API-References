@@ -15,7 +15,7 @@ Default constructor.
 System::TypeInfoPtr::TypeInfoPtr()=default
 ```
 
-## TypeInfoPtr::TypeInfoPtr(const std::type_info\&) constructor
+## TypeInfoPtr::TypeInfoPtr(const std::type_info&) constructor
 
 
 Constructor.
@@ -29,9 +29,9 @@ System::TypeInfoPtr::TypeInfoPtr(const std::type_info &info)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| info | const std::type_info\& | Information about a type. |
+| info | const std::type_info& | Information about a type. |
 
-## TypeInfoPtr::TypeInfoPtr(const char_t *, uint32_t) constructor
+## TypeInfoPtr::TypeInfoPtr(const char_t \*, uint32_t) constructor
 
 
 Constructor.
@@ -45,10 +45,10 @@ System::TypeInfoPtr::TypeInfoPtr(const char_t *name, uint32_t hash)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const char_t * | Type name. |
+| name | const char_t \* | Type name. |
 | hash | **uint32_t** | Type name hash. |
 
-## TypeInfoPtr::TypeInfoPtr(const char_t *) constructor
+## TypeInfoPtr::TypeInfoPtr(const char_t \*) constructor
 
 
 Constructor.
@@ -62,9 +62,9 @@ System::TypeInfoPtr::TypeInfoPtr(const char_t *name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const char_t * | Type name. |
+| name | const char_t \* | Type name. |
 
-## TypeInfoPtr::TypeInfoPtr(const String\&) constructor
+## TypeInfoPtr::TypeInfoPtr(const String&) constructor
 
 
 Constructor.
@@ -78,7 +78,7 @@ System::TypeInfoPtr::TypeInfoPtr(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../string/)\& | Type name. |
+| name | const [String](../../string/)& | Type name. |
 
 ## See Also
 

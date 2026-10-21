@@ -18,7 +18,7 @@ String System::Xml::XmlParserContext::get_InternalSubset()
 
 ### Return Value
 
-The internal DTD subset. For example, this method returns everything between the square brackets **<!DOCTYPE doc [...]>**.
+The internal DTD subset. For example, this method returns everything between the square brackets **\<!DOCTYPE doc \[...\]\>**.
 
 ## See Also
 

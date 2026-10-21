@@ -16,10 +16,6 @@ System::ArrayPtr<System::SharedPtr<IMathElement>> Aspose::Slides::MathText::Math
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

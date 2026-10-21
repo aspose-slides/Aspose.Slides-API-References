@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.globalization/stringinfo/getnexttextelement/
 ---
-## StringInfo::GetNextTextElement(const String\&) method
+## StringInfo::GetNextTextElement(const String&) method
 
 
 Gets first element in the specified string.
@@ -20,13 +20,13 @@ static String System::Globalization::StringInfo::GetNextTextElement(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Input string. |
+| str | const [String](../../../system/string/)& | Input string. |
 
 ### Return Value
 
 First text element.
 
-## StringInfo::GetNextTextElement(const String\&, int) method
+## StringInfo::GetNextTextElement(const String&, int) method
 
 
 Gets element at the specified index of the specified string.
@@ -40,7 +40,7 @@ static String System::Globalization::StringInfo::GetNextTextElement(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | Input string. |
+| str | const [String](../../../system/string/)& | Input string. |
 | index | int | Start index. |
 
 ### Return Value

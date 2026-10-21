@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/retryconditionheadervalue/getretryconditionlength/
 ---
-## RetryConditionHeaderValue::GetRetryConditionLength(String, int32_t, System::SharedPtr\<Object\>\&) method
+## RetryConditionHeaderValue::GetRetryConditionLength(String, int32_t, System::SharedPtr\<Object\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [RetryConditionHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::RetryConditionHeaderValue::GetRetryCo
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

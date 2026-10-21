@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.componentmodel/typeconverter/convertfrom/
 ---
-## TypeConverter::ConvertFrom(const System::SharedPtr\<System::Object\>\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<System::Object\>&) method
 
 
 Converts objects.
@@ -20,13 +20,13 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
 
 ### Return Value
 
 converted object.
 
-## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::SharedPtr\<System::Globalization::CultureInfo\>&, const System::SharedPtr\<System::Object\>&) method
 
 
 Converts objects.
@@ -40,15 +40,15 @@ virtual System::SharedPtr<System::Object> System::ComponentModel::TypeConverter:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use when converting objects. |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | [Object](../../../system/object/) to convert. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use when converting objects. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | [Object](../../../system/object/) to convert. |
 
 ### Return Value
 
 converted object.
 
-## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::String\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::SharedPtr\<System::Globalization::CultureInfo\>&, const System::String&) method
 
 
 Converts string to object.
@@ -62,9 +62,9 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use when converting objects. |
-| value | const [System::String](../../../system/string/)\& | Value to convert. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use when converting objects. |
+| value | const [System::String](../../../system/string/)& | Value to convert. |
 
 ### Return Value
 

@@ -31,7 +31,7 @@ System::Collections::Specialized::BitVector32::BitVector32(int32_t data)
 | --- | --- | --- |
 | data | **int32_t** | internal data |
 
-## BitVector32::BitVector32(const BitVector32\&) constructor
+## BitVector32::BitVector32(const BitVector32&) constructor
 
 
 Initializes a new instance of the [BitVector32](../) structure with the information in the specified value.
@@ -45,7 +45,7 @@ System::Collections::Specialized::BitVector32::BitVector32(const BitVector32 &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [BitVector32](../)\& | other [BitVector32](../) object |
+| value | const [BitVector32](../)& | other [BitVector32](../) object |
 
 ## See Also
 

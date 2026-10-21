@@ -19,14 +19,14 @@ class Color
 
 | Method | Description |
 | --- | --- |
-|  [Color](./color/)() | Constructs an \"empty\" instance of [Color](./) class that does not represent any color. |
-| **bool** [Equals](./equals/)(const [Color](./)\&) const | Determines if the current and the specified [Color](./) objects represent the same color. |
+|  [Color](./color/)() | Constructs an "empty" instance of [Color](./) class that does not represent any color. |
+| **bool** [Equals](./equals/)(const [Color](./)&) const | Determines if the current and the specified [Color](./) objects represent the same color. |
 | static [Color](./) [FromArgb](./fromargb/)(int) | Constructs an instance of [Color](./) class that reprsents the specfied color. |
 | static [Color](./) [FromArgb](./fromargb/)(int, int, int, int) | Constructs an instance of [Color](./) class that reprsents the specfied color. |
 | static [Color](./) [FromArgb](./fromargb/)(int, int, int) | Constructs an instance of [Color](./) class that reprsents the specfied color with alpha component set to 0xFF. |
 | static [Color](./) [FromArgb](./fromargb/)(int, [Color](./)) | Constructs an instance of [Color](./) class that reprsents the specfied color. |
 | static [Color](./) [FromKnownColor](./fromknowncolor/)([KnownColor](../knowncolor/)) | Constructs an instance of [Color](./) class that represents the specified known color. |
-| static [Color](./) [FromName](./fromname/)(const [String](../../system/string/)\&) | Constructs an instance of [Color](./) class that represents a color with the specified name. |
+| static [Color](./) [FromName](./fromname/)(const [String](../../system/string/)&) | Constructs an instance of [Color](./) class that represents a color with the specified name. |
 | int [get_A](./get_a/)() const | Returns the value of the alpha component of the color represented by the current object. |
 | static [Color](./) [get_AliceBlue](./get_aliceblue/)() | Returns a color whose ARGB value in hexadecimal notation is #FFF0F8FF. |
 | static [Color](./) [get_AntiqueWhite](./get_antiquewhite/)() | Returns a color whose ARGB value in hexadecimal notation is #FFFAEBD7. |
@@ -87,7 +87,7 @@ class Color
 | static [Color](./) [get_HotPink](./get_hotpink/)() | Returns a color whose ARGB value in hexadecimal notation is #FFFF69B4. |
 | static [Color](./) [get_IndianRed](./get_indianred/)() | Returns a color whose ARGB value in hexadecimal notation is #FFCD5C5C. |
 | static [Color](./) [get_Indigo](./get_indigo/)() | Returns a color whose ARGB value in hexadecimal notation is #FF4B0082. |
-| **bool** [get_IsEmpty](./get_isempty/)() const | Returns a value that indicate if the current object is \"empty\" i.e. does not represent any color. |
+| **bool** [get_IsEmpty](./get_isempty/)() const | Returns a value that indicate if the current object is "empty" i.e. does not represent any color. |
 | **bool** [get_IsNamedColor](./get_isnamedcolor/)() const | Returns a value that determines whether the [Color](./) structure represents a named color or a member of the KnownColor enumeration. |
 | static [Color](./) [get_Ivory](./get_ivory/)() | Returns a color whose ARGB value in hexadecimal notation is #FFFFFFF0. |
 | static [Color](./) [get_Khaki](./get_khaki/)() | Returns a color whose ARGB value in hexadecimal notation is #FFF0E68C. |
@@ -180,17 +180,17 @@ class Color
 | **float** [GetHue](./gethue/)() | Returns the Hue-Saturation-Brightness (HSB) hue value, in degrees, for the color reprsented by the current object. |
 | **float** [GetSaturation](./getsaturation/)() | Returns the Hue-Saturation-Brightness (HSB) saturation for the color reprsented by the current object. |
 | **bool** [IsNull](./isnull/)() const | Always returns false. |
-| **bool** [operator!=](./operator_not_equal/)(const std::nullptr_t\&) const | Always returns true. |
-| **bool** [operator!=](./operator_not_equal/)(const [Color](./)\&) const | Determines if the current and the specified [Color](./) objects represent distinct colors. |
-| **bool** [operator==](./operator_equal_equal/)(const std::nullptr_t\&) const | Always returns false. |
-| **bool** [operator==](./operator_equal_equal/)(const [Color](./)\&) const | Determines if the current and the specified [Color](./) objects represent the same color. |
+| **bool** [operator!=](./operator_not_equal/)(const std::nullptr_t&) const | Always returns true. |
+| **bool** [operator!=](./operator_not_equal/)(const [Color](./)&) const | Determines if the current and the specified [Color](./) objects represent distinct colors. |
+| **bool** [operator==](./operator_equal_equal/)(const std::nullptr_t&) const | Always returns false. |
+| **bool** [operator==](./operator_equal_equal/)(const [Color](./)&) const | Determines if the current and the specified [Color](./) objects represent the same color. |
 | int [ToArgb](./toargb/)() const | Returns a 32-bit ARGB value of the color represented by the current object. |
 | [String](../../system/string/) [ToString](./tostring/)() const | Returns the string representation of the current object. |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| static [Empty](./empty/) | An \"empty\" instance of [Color](./) class i.e. an instance that does not represent any color. |
+| static [Empty](./empty/) | An "empty" instance of [Color](./) class i.e. an instance that does not represent any color. |
 ## See Also
 
 * Namespace [System::Drawing](../)

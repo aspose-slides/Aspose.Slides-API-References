@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/baseenumerator/baseenumerator/
 ---
-## BaseEnumerator::BaseEnumerator(const Object::ptr\&, Container\&) constructor
+## BaseEnumerator::BaseEnumerator(const Object::ptr&, Container&) constructor
 
 
 Initializes iterator.
@@ -20,8 +20,8 @@ System::Collections::Generic::BaseEnumerator<Container, Element>::BaseEnumerator
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| owner | const [Object::ptr](../../../system/object/ptr/)\& | Pointer to owner container. |
-| cont | Container\& | Actual container implementation reference. |
+| owner | const [Object::ptr](../../../system/object/ptr/)& | Pointer to owner container. |
+| cont | Container& | Actual container implementation reference. |
 
 ## See Also
 

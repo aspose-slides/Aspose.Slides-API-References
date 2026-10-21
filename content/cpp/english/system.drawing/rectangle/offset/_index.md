@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.drawing/rectangle/offset/
 ---
-## Rectangle::Offset(const Point\&) method
+## Rectangle::Offset(const Point&) method
 
 
 Offsets the position of the rectangle represented by the current object by the specified amounts.
@@ -20,7 +20,7 @@ void System::Drawing::Rectangle::Offset(const Point &pos)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pos | const [Point](../../point/)\& | The [Point](../../point/) object that specifies the amount by which the rectangle is offset; the point's X coordinat value specifies the amount to add to the X coordinate of the upper left corner of the rectangle and the point's Y coordinate specifies the amount to add to the Y coordinate of the upper left corner of the rectangle |
+| pos | const [Point](../../point/)& | The [Point](../../point/) object that specifies the amount by which the rectangle is offset; the point's X coordinat value specifies the amount to add to the X coordinate of the upper left corner of the rectangle and the point's Y coordinate specifies the amount to add to the Y coordinate of the upper left corner of the rectangle |
 
 ## Rectangle::Offset(int, int) method
 

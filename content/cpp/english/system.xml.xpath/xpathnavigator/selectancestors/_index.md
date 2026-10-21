@@ -49,6 +49,13 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::SelectA
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that contains the selected nodes. The returned nodes are in reverse document order.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | **nullptr** cannot be passed as a parameter. |
+
+
 ## See Also
 
 * Enum [XPathNodeType](../../xpathnodetype/)

@@ -1,12 +1,12 @@
 ---
 title: ResultTaskAwaiter()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ResultTaskAwaiter::ResultTaskAwaiter() constructor"
 type: docs
 weight: 1
 url: /system.runtime.compilerservices/resulttaskawaiter/resulttaskawaiter/
 ---
-## ResultTaskAwaiter::ResultTaskAwaiter(const RTaskPtr\<T\>\&) constructor
+## ResultTaskAwaiter::ResultTaskAwaiter(const RTaskPtr\<T\>&) constructor
 
 
 

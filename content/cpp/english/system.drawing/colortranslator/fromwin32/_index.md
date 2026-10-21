@@ -9,7 +9,7 @@ url: /system.drawing/colortranslator/fromwin32/
 ## ColorTranslator::FromWin32(int) method
 
 
-Converts the specified [Windows](../../../system.windows/) color to the equvivalent [Color](../../color/) object.
+Converts the specified Windows color to the equvivalent [Color](../../color/) object.
 
 ```cpp
 static Color System::Drawing::ColorTranslator::FromWin32(int win32_color)
@@ -20,11 +20,11 @@ static Color System::Drawing::ColorTranslator::FromWin32(int win32_color)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| win32_color | int | The [Windows](../../../system.windows/) color to convert |
+| win32_color | int | The Windows color to convert |
 
 ### Return Value
 
-A [Color](../../color/) object that represents the specified [Windows](../../../system.windows/) color
+A [Color](../../color/) object that represents the specified Windows color
 
 ## See Also
 

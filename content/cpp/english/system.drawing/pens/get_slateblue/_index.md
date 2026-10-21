@@ -1,7 +1,7 @@
 ---
 title: get_SlateBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF6A5ACD.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FF6A5ACD."
 type: docs
 weight: 1626
 url: /system.drawing/pens/get_slateblue/

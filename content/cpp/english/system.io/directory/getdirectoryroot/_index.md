@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.io/directory/getdirectoryroot/
 ---
-## Directory::GetDirectoryRoot(const String\&) method
+## Directory::GetDirectoryRoot(const String&) method
 
 
 Returns the root directory of the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Directory::GetDirectoryRoot(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path from which a root directory is to be obtained |
+| path | const [String](../../../system/string/)& | A path from which a root directory is to be obtained |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.net.http.headers/entitytagheadervalue/tryparse/
 ---
-## EntityTagHeaderValue::TryParse(String, System::SharedPtr\<EntityTagHeaderValue\>\&) method
+## EntityTagHeaderValue::TryParse(String, System::SharedPtr\<EntityTagHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [EntityTagHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::EntityTagHeaderValue::TryParse(String in
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.threading/interlocked/exchange/
 ---
-## Interlocked::Exchange(T\&, T) method
+## Interlocked::Exchange(T&, T) method
 
 
 Exchanges value on variable: stores new value and returns the value variable had immediately before storing.
@@ -26,14 +26,14 @@ template<typename T> static std::enable_if<IsSupportedInt<T>, T>::type System::T
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location1 | T\& | Variable reference to change. |
+| location1 | T& | Variable reference to change. |
 | value | T | Value to store. |
 
 ### Return Value
 
 Value of variable right before it was changed.
 
-## Interlocked::Exchange(T\&, T) method
+## Interlocked::Exchange(T&, T) method
 
 
 Exchanges value on variable: stores new value and returns the value variable had immediately before storing. Not implemented.
@@ -53,7 +53,7 @@ template<typename T> static std::enable_if<!IsSupportedInt<T>, T>::type System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| location1 | T\& | Variable reference to change. |
+| location1 | T& | Variable reference to change. |
 | value | T | Value to store. |
 
 ### Return Value

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.collections.generic/basedictionary/getvalueordefault/
 ---
-## BaseDictionary::GetValueOrDefault(const key_t\&) const method
+## BaseDictionary::GetValueOrDefault(const key_t&) const method
 
 
 Returns value if found; or **Value()** otherwise.
@@ -15,7 +15,7 @@ Returns value if found; or **Value()** otherwise.
 mapped_t System::Collections::Generic::BaseDictionary<Map>::GetValueOrDefault(const key_t &key) const override
 ```
 
-## BaseDictionary::GetValueOrDefault(const key_t\&, const mapped_t\&) const method
+## BaseDictionary::GetValueOrDefault(const key_t&, const mapped_t&) const method
 
 
 Returns value if found; or **defaultValue** otherwise.

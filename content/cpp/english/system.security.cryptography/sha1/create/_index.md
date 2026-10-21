@@ -20,7 +20,7 @@ static SharedPtr<SHA1> System::Security::Cryptography::SHA1::Create()
 
 Newly created hasher instance.
 
-## SHA1::Create(const String\&) method
+## SHA1::Create(const String&) method
 
 
 Creates hash algorithm instance.
@@ -34,7 +34,7 @@ static SharedPtr<SHA1> System::Security::Cryptography::SHA1::Create(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| algName | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.SHA1\". |
+| algName | const [String](../../../system/string/)& | Must be "System.Security.Cryptography.SHA1". |
 
 ### Return Value
 

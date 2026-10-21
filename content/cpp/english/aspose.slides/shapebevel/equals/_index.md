@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ShapeBevel::Equals() method"
 type: docs
 weight: 92
 url: /aspose.slides/shapebevel/equals/

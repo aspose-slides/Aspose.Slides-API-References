@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system/version/parse/
 ---
-## Version::Parse(const String\&) method
+## Version::Parse(const String&) method
 
 
 Converts the string representation of a version number into equivalent instance of [Version](../) class.
@@ -20,7 +20,7 @@ static Version System::Version::Parse(const String &input)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| input | const [String](../../string/)\& | A string containing the string representation of a version number |
+| input | const [String](../../string/)& | A string containing the string representation of a version number |
 
 ### Return Value
 

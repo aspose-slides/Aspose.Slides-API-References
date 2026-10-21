@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.componentmodel/doworkeventargs/doworkeventargs/
 ---
-## DoWorkEventArgs::DoWorkEventArgs(const SharedPtr\<System::Object\>\&) constructor
+## DoWorkEventArgs::DoWorkEventArgs(const SharedPtr\<System::Object\>&) constructor
 
 
 Constructs arguments instance.
@@ -20,7 +20,7 @@ System::ComponentModel::DoWorkEventArgs::DoWorkEventArgs(const SharedPtr<System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | const [SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Argument property initializer. |
+| argument | const [SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | Argument property initializer. |
 
 ## See Also
 

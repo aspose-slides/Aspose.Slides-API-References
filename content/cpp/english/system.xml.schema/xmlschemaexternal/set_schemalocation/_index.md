@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaexternal/set_schemalocation/
 ---
-## XmlSchemaExternal::set_SchemaLocation(const String\&) method
+## XmlSchemaExternal::set_SchemaLocation(const String&) method
 
 
 Sets the Uniform Resource Identifier (URI) location for the schema, which tells the schema processor where the schema physically resides.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaExternal::set_SchemaLocation(const String &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

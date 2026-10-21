@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml/xmlconvert/decodename/
 ---
-## XmlConvert::DecodeName(const String\&) method
+## XmlConvert::DecodeName(const String&) method
 
 
 Decodes a name. This method does the reverse of the XmlConvert::EncodeName(String) and XmlConvert::EncodeLocalName(String) methods.
@@ -20,7 +20,7 @@ static String System::Xml::XmlConvert::DecodeName(const String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name to be transformed. |
+| name | const [String](../../../system/string/)& | The name to be transformed. |
 
 ### Return Value
 

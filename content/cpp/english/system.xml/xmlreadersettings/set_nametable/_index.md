@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlreadersettings/set_nametable/
 ---
-## XmlReaderSettings::set_NameTable(const SharedPtr\<XmlNameTable\>\&) method
+## XmlReaderSettings::set_NameTable(const SharedPtr\<XmlNameTable\>&) method
 
 
 Sets the [XmlNameTable](../../xmlnametable/) used for atomized string comparisons.
@@ -20,7 +20,7 @@ void System::Xml::XmlReaderSettings::set_NameTable(const SharedPtr<XmlNameTable>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | The value to set. |
 
 ## See Also
 

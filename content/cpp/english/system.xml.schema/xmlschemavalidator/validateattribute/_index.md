@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.xml.schema/xmlschemavalidator/validateattribute/
 ---
-## XmlSchemaValidator::ValidateAttribute(const String\&, const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&) method
+## XmlSchemaValidator::ValidateAttribute(const String&, const String&, const String&, const SharedPtr\<XmlSchemaInfo\>&) method
 
 
 Validates the attribute name, namespace URI, and value in the current element context.
@@ -20,16 +20,25 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateAttribute(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute to validate. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the attribute to validate. |
-| attributeValue | const [String](../../../system/string/)\& | The value of the attribute to validate. |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the attribute. This parameter can be **nullptr**. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute to validate. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the attribute to validate. |
+| attributeValue | const [String](../../../system/string/)& | The value of the attribute to validate. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the attribute. This parameter can be **nullptr**. |
 
 ### Return Value
 
 The validated attribute's value.
 
-## XmlSchemaValidator::ValidateAttribute(const String\&, const String\&, XmlValueGetter, const SharedPtr\<XmlSchemaInfo\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The attribute is not valid in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateAttribute](./) method was not called in the correct sequence. For example, calling [XmlSchemaValidator::ValidateAttribute](./) after calling [XmlSchemaValidator::ValidateEndOfAttributes](../validateendofattributes/). |
+| ArgumentNullException | One or more of the parameters specified are **nullptr**. |
+
+
+## XmlSchemaValidator::ValidateAttribute(const String&, const String&, XmlValueGetter, const SharedPtr\<XmlSchemaInfo\>&) method
 
 
 Validates the attribute name, namespace URI, and value in the current element context.
@@ -43,14 +52,23 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateAttribute(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | const [String](../../../system/string/)\& | The local name of the attribute to validate. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the attribute to validate. |
+| localName | const [String](../../../system/string/)& | The local name of the attribute to validate. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI of the attribute to validate. |
 | attributeValue | [XmlValueGetter](../../xmlvaluegetter/) | An XmlValueGetter callback used to pass the attribute's value as a type compatible with the XML [Schema](../../) Definition Language (XSD) type of the attribute. |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the attribute. This parameter and can be **nullptr**. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the attribute. This parameter and can be **nullptr**. |
 
 ### Return Value
 
 The validated attribute's value.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | The attribute is not valid in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateAttribute](./) method was not called in the correct sequence. For example, calling [XmlSchemaValidator::ValidateAttribute](./) after calling [XmlSchemaValidator::ValidateEndOfAttributes](../validateendofattributes/). |
+| ArgumentNullException | One or more of the parameters specified are **nullptr**. |
+
 
 ## See Also
 

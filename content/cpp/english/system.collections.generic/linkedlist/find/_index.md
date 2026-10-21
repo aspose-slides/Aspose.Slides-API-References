@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.collections.generic/linkedlist/find/
 ---
-## LinkedList::Find(const T\&) const method
+## LinkedList::Find(const T&) const method
 
 
 Performs forward direction find of an **element** in the list.
@@ -20,7 +20,7 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::Find(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to find. |
+| element | const T& | Element to find. |
 
 ### Return Value
 

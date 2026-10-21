@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.collections.specialized/namevaluecollection/add/
 ---
-## NameValueCollection::Add(const String\&) method
+## NameValueCollection::Add(const String&) method
 
 
 Override [ICollection](../../../system.collections/icollection/) method - not implemented.
@@ -15,7 +15,7 @@ Override [ICollection](../../../system.collections/icollection/) method - not im
 virtual void System::Collections::Specialized::NameValueCollection::Add(const String &item) override
 ```
 
-## NameValueCollection::Add(const System::SharedPtr\<NameValueCollection\>\&) method
+## NameValueCollection::Add(const System::SharedPtr\<NameValueCollection\>&) method
 
 
 Copies the entries in the specified [NameValueCollection](../) to the current.
@@ -24,7 +24,7 @@ Copies the entries in the specified [NameValueCollection](../) to the current.
 void System::Collections::Specialized::NameValueCollection::Add(const System::SharedPtr<NameValueCollection> &c)
 ```
 
-## NameValueCollection::Add(const String\&, const String\&) method
+## NameValueCollection::Add(const String&, const String&) method
 
 
 Adds an entry with the specified name and value.

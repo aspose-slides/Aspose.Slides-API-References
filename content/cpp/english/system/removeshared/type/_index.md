@@ -1,7 +1,7 @@
 ---
 title: type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: type typedef
 type: docs
 weight: 1
 url: /system/removeshared/type/

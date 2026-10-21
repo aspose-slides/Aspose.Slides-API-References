@@ -1,7 +1,7 @@
 ---
 title: get_Sienna()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFA0522D.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFA0522D."
 type: docs
 weight: 1860
 url: /system.drawing/color/get_sienna/

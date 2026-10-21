@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.collections.concurrent/concurrentdictionary/add/
 ---
-## ConcurrentDictionary::Add(const TKey\&, const TValue\&) method
+## ConcurrentDictionary::Add(const TKey&, const TValue&) method
 
 
 Adds value into dictionary.
@@ -20,8 +20,8 @@ virtual void System::Collections::Concurrent::ConcurrentDictionary<TKey, TValue>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to add. |
-| value | const TValue\& | Value to add. |
+| key | const TKey& | Key to add. |
+| value | const TValue& | Value to add. |
 
 ## See Also
 

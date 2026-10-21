@@ -1,7 +1,7 @@
 ---
 title: Black
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Black field
 type: docs
 weight: 92
 url: /aspose.slides/floatcolor/black/

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.xml.schema/xmlschemavalidator/skiptoendelement/
 ---
-## XmlSchemaValidator::SkipToEndElement(const SharedPtr\<XmlSchemaInfo\>\&) method
+## XmlSchemaValidator::SkipToEndElement(const SharedPtr\<XmlSchemaInfo\>&) method
 
 
 Skips validation of the current element content and prepares the [XmlSchemaValidator](../) object to validate content in the parent element's context.
@@ -20,7 +20,14 @@ void System::Xml::Schema::XmlSchemaValidator::SkipToEndElement(const SharedPtr<X
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set if the current element content is successfully skipped. This parameter can be **nullptr**. |
+| schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set if the current element content is successfully skipped. This parameter can be **nullptr**. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The method was not called in the correct sequence. For example, calling [XmlSchemaValidator::SkipToEndElement](./) after calling [XmlSchemaValidator::SkipToEndElement](./). |
+
 
 ## See Also
 

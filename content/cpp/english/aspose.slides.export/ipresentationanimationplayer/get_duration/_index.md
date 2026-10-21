@@ -9,7 +9,7 @@ url: /aspose.slides.export/ipresentationanimationplayer/get_duration/
 ## IPresentationAnimationPlayer::get_Duration() method
 
 
-Get animation duration [ms]
+Get animation duration \[ms\]
 
 ```cpp
 virtual ASPOSE_SLIDES_LOCAL_API double Aspose::Slides::Export::IPresentationAnimationPlayer::get_Duration()=0

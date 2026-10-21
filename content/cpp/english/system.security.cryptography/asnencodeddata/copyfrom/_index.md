@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.security.cryptography/asnencodeddata/copyfrom/
 ---
-## AsnEncodedData::CopyFrom(const SharedPtr\<AsnEncodedData\>\&) method
+## AsnEncodedData::CopyFrom(const SharedPtr\<AsnEncodedData\>&) method
 
 
 Copies data from different object.
@@ -20,7 +20,7 @@ virtual void System::Security::Cryptography::AsnEncodedData::CopyFrom(const Shar
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>\& | [Object](../../../system/object/) to copy data from. |
+| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>& | [Object](../../../system/object/) to copy data from. |
 
 ## See Also
 

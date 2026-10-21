@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.io/directory/exists/
 ---
-## Directory::Exists(const String\&) method
+## Directory::Exists(const String&) method
 
 
 Determines if the specified path refers to existing directory.
@@ -20,7 +20,7 @@ static bool System::IO::Directory::Exists(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to check |
+| path | const [String](../../../system/string/)& | The path to check |
 
 ### Return Value
 

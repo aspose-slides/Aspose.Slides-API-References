@@ -15,11 +15,19 @@ Calculates all formulas in the workbook and updates corresponding cells values.
 virtual void Aspose::Slides::Charts::IChartDataWorkbook::CalculateFormulas()=0
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::Spreadsheet::CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception/) | Workbook contains formulas with a circular reference. |
+| [Aspose::Slides::Spreadsheet::CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception/) | [Cell](../../../aspose.slides/cell/) data is not supported. |
+
 ## Remarks
 
 
 
-Example shows how to assign a formula to the cell and to calculate a value. The value of the \"B4\" cell is getting set to 5. 
+Example shows how to assign a formula to the cell and to calculate a value. The value of the "B4" cell is getting set to 5. 
 ```cpp
 auto pres = System::MakeObject<Presentation>();
 

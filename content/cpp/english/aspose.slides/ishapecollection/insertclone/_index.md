@@ -22,10 +22,10 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::InsertClone(
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index at which to insert the cloned shape. |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The [IShape](../../ishape/) to clone. |
-| x | **float** | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the cloned shape\\u2019s frame, in points. |
-| width | **float** | The width of the cloned shape\\u2019s frame, in points. |
-| height | **float** | The height of the cloned shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
+| width | **float** | The width of the cloned shape’s frame, in points. |
+| height | **float** | The height of the cloned shape’s frame, in points. |
 
 ### Return Value
 
@@ -47,8 +47,8 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::InsertClone(
 | --- | --- | --- |
 | index | **int32_t** | The zero-based index at which to insert the cloned shape. |
 | sourceShape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | The [IShape](../../ishape/) to clone. |
-| x | **float** | The x-coordinate of the cloned shape\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the cloned shape\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the cloned shape’s frame, in points. |
+| y | **float** | The y-coordinate of the cloned shape’s frame, in points. |
 
 ### Return Value
 
@@ -57,7 +57,7 @@ The newly created [IShape](../../ishape/).
 ## IShapeCollection::InsertClone(int32_t, System::SharedPtr\<IShape\>) method
 
 
-Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The cloned shape retains the original\\u2019s position and size.
+Creates a copy of the specified shape and inserts it into the shape collection at the specified index. The cloned shape retains the original’s position and size.
 
 ```cpp
 virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::InsertClone(int32_t index, System::SharedPtr<IShape> sourceShape)=0

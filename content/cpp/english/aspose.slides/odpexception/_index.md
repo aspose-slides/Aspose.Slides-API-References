@@ -1,7 +1,7 @@
 ---
 title: OdpException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: OdpException typedef
 type: docs
 weight: 6800
 url: /aspose.slides/odpexception/

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.runtime.interopservices/memorymarshal/asmemory/
 ---
-## MemoryMarshal::AsMemory(const ReadOnlyMemory\<T\>\&) method
+## MemoryMarshal::AsMemory(const ReadOnlyMemory\<T\>&) method
 
 
 Casts a [ReadOnlyMemory](../../../system/readonlymemory/) to mutable [Memory](../../../system/memory/).
@@ -26,7 +26,7 @@ template<typename T> static Memory<T> System::Runtime::InteropServices::MemoryMa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| memory | const [ReadOnlyMemory](../../../system/readonlymemory/)\<T\>\& | The [ReadOnlyMemory](../../../system/readonlymemory/) to cast. |
+| memory | const [ReadOnlyMemory](../../../system/readonlymemory/)\<T\>& | The [ReadOnlyMemory](../../../system/readonlymemory/) to cast. |
 
 ### Return Value
 

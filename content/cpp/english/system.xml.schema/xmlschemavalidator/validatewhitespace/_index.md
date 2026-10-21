@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.xml.schema/xmlschemavalidator/validatewhitespace/
 ---
-## XmlSchemaValidator::ValidateWhitespace(const String\&) method
+## XmlSchemaValidator::ValidateWhitespace(const String&) method
 
 
 Validates whether the white space in the **string** specified is allowed in the current element context, and accumulates the white space for validation if the current element has simple content.
@@ -20,7 +20,15 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace(const String &e
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| elementValue | const [String](../../../system/string/)\& | A white space **string** to validate in the current element context. |
+| elementValue | const [String](../../../system/string/)& | A white space **string** to validate in the current element context. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | White space is not allowed in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateWhitespace](./) method was not called in the correct sequence. For example, if the [XmlSchemaValidator::ValidateWhitespace](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+
 
 ## XmlSchemaValidator::ValidateWhitespace(XmlValueGetter) method
 
@@ -37,6 +45,14 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace(XmlValueGetter 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | elementValue | [XmlValueGetter](../../xmlvaluegetter/) | An XmlValueGetter callback used to pass the white space value as a type compatible with the XML [Schema](../../) Definition Language (XSD) type of the attribute. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaValidationException | White space is not allowed in the current element context. |
+| InvalidOperationException | The [XmlSchemaValidator::ValidateWhitespace](./) method was not called in the correct sequence. For example, if the [XmlSchemaValidator::ValidateWhitespace](./) method is called after calling [XmlSchemaValidator::ValidateAttribute](../validateattribute/). |
+
 
 ## See Also
 

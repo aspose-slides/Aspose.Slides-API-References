@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextInfo::Equals() method"
 type: docs
 weight: 196
 url: /system.globalization/textinfo/equals/

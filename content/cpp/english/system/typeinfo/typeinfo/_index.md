@@ -24,7 +24,7 @@ Null object constructor (no type is set).
 System::TypeInfo::TypeInfo(std::nullptr_t)
 ```
 
-## TypeInfo::TypeInfo(const char_t *) constructor
+## TypeInfo::TypeInfo(const char_t \*) constructor
 
 
 Constructor.
@@ -38,9 +38,9 @@ System::TypeInfo::TypeInfo(const char_t *name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const char_t * | Type name. |
+| name | const char_t \* | Type name. |
 
-## TypeInfo::TypeInfo(const char_t *, uint32_t) constructor
+## TypeInfo::TypeInfo(const char_t \*, uint32_t) constructor
 
 
 Constructor.
@@ -54,10 +54,10 @@ System::TypeInfo::TypeInfo(const char_t *name, uint32_t hash)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const char_t * | Type name. |
+| name | const char_t \* | Type name. |
 | hash | **uint32_t** | Type name hash. |
 
-## TypeInfo::TypeInfo(const std::type_info\&) constructor
+## TypeInfo::TypeInfo(const std::type_info&) constructor
 
 
 Constructor.
@@ -71,7 +71,7 @@ System::TypeInfo::TypeInfo(const std::type_info &info)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| info | const std::type_info\& | Information about a type. |
+| info | const std::type_info& | Information about a type. |
 
 ## See Also
 

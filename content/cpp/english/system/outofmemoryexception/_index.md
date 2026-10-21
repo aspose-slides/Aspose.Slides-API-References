@@ -1,7 +1,7 @@
 ---
 title: OutOfMemoryException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: OutOfMemoryException typedef
 type: docs
 weight: 4018
 url: /system/outofmemoryexception/

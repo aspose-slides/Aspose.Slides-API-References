@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/mathdelimiter/get_separatorcharacter/
 ## MathDelimiter::get_SeparatorCharacter() method
 
 
-Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'.
+Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '\|'.
 
 ```cpp
 char16_t Aspose::Slides::MathText::MathDelimiter::get_SeparatorCharacter() override

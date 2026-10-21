@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /system/decimal/add/
 ---
-## Decimal::Add(const Decimal\&, const Decimal\&) method
+## Decimal::Add(const Decimal&, const Decimal&) method
 
 
 Adds two specified [Decimal](../) values.
@@ -20,8 +20,8 @@ static Decimal System::Decimal::Add(const Decimal &d1, const Decimal &d2)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d1 | const [Decimal](../)\& | First value. |
-| d2 | const [Decimal](../)\& | Second value. |
+| d1 | const [Decimal](../)& | First value. |
+| d2 | const [Decimal](../)& | Second value. |
 
 ### Return Value
 

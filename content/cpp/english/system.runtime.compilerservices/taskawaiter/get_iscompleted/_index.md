@@ -1,7 +1,7 @@
 ---
 title: get_IsCompleted()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TaskAwaiter::get_IsCompleted() method"
 type: docs
 weight: 14
 url: /system.runtime.compilerservices/taskawaiter/get_iscompleted/

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/disconnect/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(Callback) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::disconnect(Callback) method
 
 
 Removes the specified delegate from the delegate collection.
@@ -26,7 +26,7 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::dis
 
 A reference to the self
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MemberType ClassType::*, ClassType *) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::disconnect(MemberType ClassType::\*, ClassType \*) method
 
 
 Removes the specified non-static method of the specified object from the delegate collection.
@@ -47,14 +47,14 @@ template<class MemberType,class ClassType> MulticastDelegate & System::Multicast
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| member | MemberType ClassType::* | A pointer to the non-static method of the specified object |
-| obj | ClassType * | A pointer to an object member method of which is to be removed from the delegate collection |
+| member | MemberType ClassType::\* | A pointer to the non-static method of the specified object |
+| obj | ClassType \* | A pointer to an object member method of which is to be removed from the delegate collection |
 
 ### Return Value
 
 A reference to the self
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MemberType ClassType::*, const SharedPtr\<ClassType\>\&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::disconnect(MemberType ClassType::\*, const SharedPtr\<ClassType\>&) method
 
 
 Removes the specified non-static method of the specified object from the delegate collection.
@@ -75,14 +75,14 @@ template<class MemberType,class ClassType> MulticastDelegate & System::Multicast
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| member | MemberType ClassType::* | A pointer to the non-static method of the specified object |
-| obj | const [SharedPtr](../../sharedptr/)\<ClassType\>\& | A shared pointer to an object member method of which is to be removed from the delegate collection |
+| member | MemberType ClassType::\* | A pointer to the non-static method of the specified object |
+| obj | const [SharedPtr](../../sharedptr/)\<ClassType\>& | A shared pointer to an object member method of which is to be removed from the delegate collection |
 
 ### Return Value
 
 A reference to the self
 
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MulticastDelegate\&) method
+## MulticastDelegate\< ReturnType(ArgumentTypes...)\>::disconnect(MulticastDelegate&) method
 
 
 Removes the specified MulticastDelegate object from the delegate collection.
@@ -96,7 +96,7 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::dis
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [MulticastDelegate](../multicastdelegate/)\& | An instance of the MulticastDelegate class to remove from the delegate collection |
+| other | [MulticastDelegate](../multicastdelegate/)& | An instance of the MulticastDelegate class to remove from the delegate collection |
 
 ### Return Value
 
@@ -107,6 +107,6 @@ A reference to the self
 * Typedef [Callback](../callback/)
 * Typedef [SharedPtr](../../sharedptr/)
 * Method [MulticastDelegate](../multicastdelegate/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
+* Class [MulticastDelegate\< ReturnType(ArgumentTypes...)\>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: Reset()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Rfc2898DeriveBytes::Reset() method"
 type: docs
 weight: 27
 url: /system.security.cryptography/rfc2898derivebytes/reset/

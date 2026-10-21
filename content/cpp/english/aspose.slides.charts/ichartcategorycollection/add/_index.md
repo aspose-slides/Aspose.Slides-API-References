@@ -47,6 +47,13 @@ virtual System::SharedPtr<IChartCategory> Aspose::Slides::Charts::IChartCategory
 ### Return Value
 
 Added [IChartCategory](../../ichartcategory/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | if limit exceeded |
+
 ## Remarks
 
 

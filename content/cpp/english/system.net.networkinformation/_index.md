@@ -1,7 +1,7 @@
 ---
 title: "System::Net::NetworkInformation"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Net::NetworkInformation namespace"
 type: docs
 weight: 716
 url: /system.net.networkinformation/

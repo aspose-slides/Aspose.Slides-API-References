@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.globalization/numberformatinfo/set_numbergroupseparator/
 ---
-## NumberFormatInfo::set_NumberGroupSeparator(const String\&) method
+## NumberFormatInfo::set_NumberGroupSeparator(const String&) method
 
 
 Sets number group separator.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_NumberGroupSeparator(const Str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Group separator. |
+| value | const [String](../../../system/string/)& | Group separator. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /system.globalization/datetimeformatinfo/readonly/
 ---
-## DateTimeFormatInfo::ReadOnly(const DateTimeFormatInfoPtr\&) method
+## DateTimeFormatInfo::ReadOnly(const DateTimeFormatInfoPtr&) method
 
 
 Gets read-only version of formatter.
@@ -20,7 +20,7 @@ static DateTimeFormatInfoPtr System::Globalization::DateTimeFormatInfo::ReadOnly
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| info | const [DateTimeFormatInfoPtr](../../datetimeformatinfoptr/)\& | Formatter to get read-only version of. |
+| info | const [DateTimeFormatInfoPtr](../../datetimeformatinfoptr/)& | Formatter to get read-only version of. |
 
 ### Return Value
 

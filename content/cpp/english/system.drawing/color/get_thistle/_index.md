@@ -1,7 +1,7 @@
 ---
 title: get_Thistle()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFD8BFD8.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFD8BFD8."
 type: docs
 weight: 1990
 url: /system.drawing/color/get_thistle/

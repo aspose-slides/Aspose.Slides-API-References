@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.security.cryptography.x509certificates/x509certificate2/set_friendlyname/
 ---
-## X509Certificate2::set_FriendlyName(const String\&) method
+## X509Certificate2::set_FriendlyName(const String&) method
 
 
 Sets the certificate's friendly name.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::set_Fri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The certificate's friendly name. |
+| value | const [String](../../../system/string/)& | The certificate's friendly name. |
 
 ## See Also
 

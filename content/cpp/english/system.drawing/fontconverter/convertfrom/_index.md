@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing/fontconverter/convertfrom/
 ---
-## FontConverter::ConvertFrom(const System::SharedPtr\<ComponentModel::ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&) method
+## FontConverter::ConvertFrom(const System::SharedPtr\<ComponentModel::ITypeDescriptorContext\>&, const System::SharedPtr\<System::Globalization::CultureInfo\>&, const System::SharedPtr\<System::Object\>&) method
 
 
 Converts objects.
@@ -20,9 +20,9 @@ System::SharedPtr<System::Object> System::Drawing::FontConverter::ConvertFrom(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>\& | [Object](../../../system/object/) conversion context information. |
-| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use when converting objects. |
-| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | An object to convert. |
+| context | const [System::SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>& | [Object](../../../system/object/) conversion context information. |
+| culture | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use when converting objects. |
+| value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | An object to convert. |
 
 ### Return Value
 

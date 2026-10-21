@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml.schema/xmlschemaset/set_xmlresolver/
 ---
-## XmlSchemaSet::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XmlSchemaSet::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Sets the [XmlResolver](../../../system.xml/xmlresolver/) used to resolve namespaces or locations referenced in include and import elements of a schema.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSet::set_XmlResolver(const SharedPtr<System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>& | The value to set. |
 
 ## See Also
 

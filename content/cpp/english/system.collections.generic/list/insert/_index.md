@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.collections.generic/list/insert/
 ---
-## List::Insert(int, const T\&) method
+## List::Insert(int, const T&) method
 
 
 Inserts item at specified position.
@@ -21,7 +21,7 @@ void System::Collections::Generic::List<T>::Insert(int index, const T &item) ove
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | [Index](../../../system/index/) to insert item into. |
-| item | const T\& | Item to insert. |
+| item | const T& | Item to insert. |
 
 ## See Also
 

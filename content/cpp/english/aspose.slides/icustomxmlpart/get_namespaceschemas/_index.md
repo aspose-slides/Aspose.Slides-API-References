@@ -9,7 +9,7 @@ url: /aspose.slides/icustomxmlpart/get_namespaceschemas/
 ## ICustomXmlPart::get_NamespaceSchemas() method
 
 
-Returns the collection XML schemas that are associated with the custom XML part. Read-only [System::String](../../../system/string/)[].
+Returns the collection XML schemas that are associated with the custom XML part. Read-only [System::String](../../../system/string/)\[\].
 
 ```cpp
 virtual System::ArrayPtr<System::String> Aspose::Slides::ICustomXmlPart::get_NamespaceSchemas()=0

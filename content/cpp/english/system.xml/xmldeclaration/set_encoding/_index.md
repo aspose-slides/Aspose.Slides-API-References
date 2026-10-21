@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmldeclaration/set_encoding/
 ---
-## XmlDeclaration::set_Encoding(const String\&) method
+## XmlDeclaration::set_Encoding(const String&) method
 
 
 Sets the encoding level of the XML document.
@@ -20,7 +20,7 @@ void System::Xml::XmlDeclaration::set_Encoding(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

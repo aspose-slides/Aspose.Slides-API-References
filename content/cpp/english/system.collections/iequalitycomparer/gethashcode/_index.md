@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections/iequalitycomparer/gethashcode/
 ---
-## IEqualityComparer::GetHashCode(const SharedPtr\<Object\>\&) const method
+## IEqualityComparer::GetHashCode(const SharedPtr\<Object\>&) const method
 
 
 Gets hash code for some object.
@@ -20,7 +20,7 @@ virtual int System::Collections::IEqualityComparer::GetHashCode(const SharedPtr<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | [Object](../../../system/object/) to calculate hash code for. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | [Object](../../../system/object/) to calculate hash code for. |
 
 ### Return Value
 

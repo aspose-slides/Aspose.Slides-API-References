@@ -1,7 +1,7 @@
 ---
 title: "System::Xml::Resolvers"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Xml::Resolvers namespace"
 type: docs
 weight: 1145
 url: /system.xml.resolvers/

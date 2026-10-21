@@ -1,7 +1,7 @@
 ---
 title: get_LemonChiffon()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFACD.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFFFACD."
 type: docs
 weight: 1093
 url: /system.drawing/color/get_lemonchiffon/

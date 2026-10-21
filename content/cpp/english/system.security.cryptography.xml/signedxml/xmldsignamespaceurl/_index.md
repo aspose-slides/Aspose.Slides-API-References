@@ -1,7 +1,7 @@
 ---
 title: XmlDsigNamespaceUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlDsigNamespaceUrl field
 type: docs
 weight: 248
 url: /system.security.cryptography.xml/signedxml/xmldsignamespaceurl/

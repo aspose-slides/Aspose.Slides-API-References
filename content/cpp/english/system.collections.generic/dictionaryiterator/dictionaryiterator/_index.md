@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/dictionaryiterator/dictionaryiterator/
 ---
-## DictionaryIterator::DictionaryIterator(typename Dict::map_t::const_iterator\&&, typename Dict::map_t::const_iterator\&&) constructor
+## DictionaryIterator::DictionaryIterator(typename Dict::map_t::const_iterator&&, typename Dict::map_t::const_iterator&&) constructor
 
 
 Constructor.
@@ -20,10 +20,10 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(typen
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
-| end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
+| iterator | typename Dict::map_t::const_iterator&& | Iterator to hold. |
+| end | typename Dict::map_t::const_iterator&& | Iterator to the end of the container. |
 
-## DictionaryIterator::DictionaryIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
+## DictionaryIterator::DictionaryIterator(const typename Dict::map_t::const_iterator&, const typename Dict::map_t::const_iterator&) constructor
 
 
 Constructor.
@@ -37,10 +37,10 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
-| end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
+| iterator | const typename Dict::map_t::const_iterator& | Iterator to hold. |
+| end | const typename Dict::map_t::const_iterator& | Iterator to the end of the container. |
 
-## DictionaryIterator::DictionaryIterator(DictionaryIterator\&&) constructor
+## DictionaryIterator::DictionaryIterator(DictionaryIterator&&) constructor
 
 
 Move constructor.
@@ -54,7 +54,7 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(Dicti
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [DictionaryIterator](../)\&& | Iteratro to move data from. |
+| other | [DictionaryIterator](../)&& | Iteratro to move data from. |
 
 ## See Also
 

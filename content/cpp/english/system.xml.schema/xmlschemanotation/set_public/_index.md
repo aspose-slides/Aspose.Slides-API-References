@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemanotation/set_public/
 ---
-## XmlSchemaNotation::set_Public(const String\&) method
+## XmlSchemaNotation::set_Public(const String&) method
 
 
 Sets the **public** identifier.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaNotation::set_Public(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

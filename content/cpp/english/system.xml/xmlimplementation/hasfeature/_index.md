@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml/xmlimplementation/hasfeature/
 ---
-## XmlImplementation::HasFeature(const String\&, const String\&) method
+## XmlImplementation::HasFeature(const String&, const String&) method
 
 
 Tests if the Document [Object](../../../system/object/) Model (DOM) implementation implements a specific feature.
@@ -20,8 +20,8 @@ bool System::Xml::XmlImplementation::HasFeature(const String &strFeature, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strFeature | const [String](../../../system/string/)\& | The package name of the feature to test. This name is not case-sensitive. |
-| strVersion | const [String](../../../system/string/)\& | This is the version number of the package name to test. If the version is not specified (**nullptr**), supporting any version of the feature causes the method to return **true**. |
+| strFeature | const [String](../../../system/string/)& | The package name of the feature to test. This name is not case-sensitive. |
+| strVersion | const [String](../../../system/string/)& | This is the version number of the package name to test. If the version is not specified (**nullptr**), supporting any version of the feature causes the method to return **true**. |
 
 ### Return Value
 

@@ -15,7 +15,7 @@ Constructs a new instance of [Region](../) class.
 System::Drawing::Region::Region()
 ```
 
-## Region::Region(const RectangleF\&) constructor
+## Region::Region(const RectangleF&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified rectangle.
@@ -29,9 +29,9 @@ System::Drawing::Region::Region(const RectangleF &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [RectangleF](../../rectanglef/)\& | A rectangle that defines the region |
+| rect | const [RectangleF](../../rectanglef/)& | A rectangle that defines the region |
 
-## Region::Region(const Rectangle\&) constructor
+## Region::Region(const Rectangle&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified rectangle.
@@ -45,9 +45,9 @@ System::Drawing::Region::Region(const Rectangle &rect)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rect | const [Rectangle](../../rectangle/)\& | A rectangle that defines the region |
+| rect | const [Rectangle](../../rectangle/)& | A rectangle that defines the region |
 
-## Region::Region(const SharedPtr\<Drawing2D::GraphicsPath\>\&) constructor
+## Region::Region(const SharedPtr\<Drawing2D::GraphicsPath\>&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified path.
@@ -61,9 +61,9 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::GraphicsPath> &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A path that defines the region |
+| path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>& | A path that defines the region |
 
-## Region::Region(const SkPath\&) constructor
+## Region::Region(const SkPath&) constructor
 
 
 
@@ -72,7 +72,7 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::GraphicsPath> &path)
 System::Drawing::Region::Region(const SkPath &path)
 ```
 
-## Region::Region(const SharedPtr\<Drawing2D::RegionData\>\&) constructor
+## Region::Region(const SharedPtr\<Drawing2D::RegionData\>&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified RegionData object.
@@ -86,7 +86,7 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::RegionData> &region_d
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| region_data | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::RegionData](../../../system.drawing.drawing2d/regiondata/)\>\& | A RegionData object that defines the region |
+| region_data | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::RegionData](../../../system.drawing.drawing2d/regiondata/)\>& | A RegionData object that defines the region |
 
 ## See Also
 

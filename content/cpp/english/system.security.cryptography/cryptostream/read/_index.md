@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.security.cryptography/cryptostream/read/
 ---
-## CryptoStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
+## CryptoStream::Read(const ArrayPtr\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads data from stream.
@@ -20,7 +20,7 @@ int32_t System::Security::Cryptography::CryptoStream::Read(const ArrayPtr<uint8_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Destination data buffer. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Destination data buffer. |
 | offset | **int32_t** | Offset in destination buffer. |
 | count | **int32_t** | Number of bytes to read. |
 
@@ -28,7 +28,7 @@ int32_t System::Security::Cryptography::CryptoStream::Read(const ArrayPtr<uint8_
 
 Number of bytes being read actually.
 
-## CryptoStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
+## CryptoStream::Read(const System::Details::ArrayView\<uint8_t\>&, int32_t, int32_t) method
 
 
 Reads data from stream.
@@ -42,7 +42,7 @@ int32_t System::Security::Cryptography::CryptoStream::Read(const System::Details
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const System::Details::ArrayView\<**uint8_t**\>\& | Destination data buffer. |
+| buffer | const System::Details::ArrayView\<**uint8_t**\>& | Destination data buffer. |
 | offset | **int32_t** | Offset in destination buffer. |
 | count | **int32_t** | Number of bytes to read. |
 

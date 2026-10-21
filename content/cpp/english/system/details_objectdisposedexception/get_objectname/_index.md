@@ -1,7 +1,7 @@
 ---
 title: get_ObjectName()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Details_ObjectDisposedException::get_ObjectName() method"
 type: docs
 weight: 40
 url: /system/details_objectdisposedexception/get_objectname/

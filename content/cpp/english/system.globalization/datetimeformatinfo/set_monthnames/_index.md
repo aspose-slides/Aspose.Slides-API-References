@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system.globalization/datetimeformatinfo/set_monthnames/
 ---
-## DateTimeFormatInfo::set_MonthNames(const ArrayPtr\<String\>\&) method
+## DateTimeFormatInfo::set_MonthNames(const ArrayPtr\<String\>&) method
 
 
 Sets month names.
@@ -20,7 +20,7 @@ void System::Globalization::DateTimeFormatInfo::set_MonthNames(const ArrayPtr<St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\& | [Array](../../../system/array/) of month names, starting with January. |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>& | [Array](../../../system/array/) of month names, starting with January. |
 
 ## See Also
 

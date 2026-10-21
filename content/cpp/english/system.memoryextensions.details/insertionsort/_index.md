@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.memoryextensions.details/insertionsort/
 ---
-## System::MemoryExtensions::Details::InsertionSort(Span\<TKey\>\&, Span\<TValue\>\&, std::function\<int32_t(const TKey\&, const TKey\&)>) function
+## System::MemoryExtensions::Details::InsertionSort(Span\<TKey\>&, Span\<TValue\>&, std::function\<int32_t(const TKey&, const TKey&)\>) function
 
 
 Performs insertion sort on key-value pairs.
@@ -27,9 +27,9 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys to sort |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values to sort |
-| comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) function for keys |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys to sort |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values to sort |
+| comparer | std::function\<**int32_t**(const TKey&, const TKey&)\> | [Comparison](../../system/comparison/) function for keys |
 
 ## See Also
 

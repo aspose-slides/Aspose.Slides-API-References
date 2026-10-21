@@ -1,7 +1,7 @@
 ---
 title: get_IndianRed()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFCD5C5C.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFCD5C5C."
 type: docs
 weight: 729
 url: /system.drawing/pens/get_indianred/

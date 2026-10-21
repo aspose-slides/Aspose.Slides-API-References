@@ -26,6 +26,13 @@ virtual System::SharedPtr<ISmartArtNode> Aspose::Slides::SmartArt::ISmartArtNode
 
 Added node
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | position is less than 0. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -29,7 +29,7 @@ enum class SvgEvent
 | OnMouseMove | 7 | Occurs when the pointing device is moved while it is over an element. |
 | OnMouseOut | 8 | Occurs when the pointing device is moved away from an element. |
 | OnLoad | 9 | Occurs when the user agent has fully parsed the element and its descendants and all referrenced resurces, required to render it. |
-| OnUnload | 10 | Occurs when the [DOM](../../aspose.slides.dom/) implementation removes a document from a window or frame. Only applicable to outermost svg elements. |
+| OnUnload | 10 | Occurs when the DOM implementation removes a document from a window or frame. Only applicable to outermost svg elements. |
 | OnAbort | 11 | Occurs when page loading is stopped before an element has been allowed to load completely. |
 | OnError | 12 | Occurs when an element does not load properly or when an error occurs during script execution. |
 | OnResize | 13 | Occurs when a document view is being resized. Only applicable to outermost svg elements. |

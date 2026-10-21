@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml.schema/xmlschemacomplextype/set_particle/
 ---
-## XmlSchemaComplexType::set_Particle(const SharedPtr\<XmlSchemaParticle\>\&) method
+## XmlSchemaComplexType::set_Particle(const SharedPtr\<XmlSchemaParticle\>&) method
 
 
 Sets the compositor type as one of the [XmlSchemaGroupRef](../../xmlschemagroupref/), [XmlSchemaChoice](../../xmlschemachoice/), [XmlSchemaAll](../../xmlschemaall/), or [XmlSchemaSequence](../../xmlschemasequence/) classes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaComplexType::set_Particle(const SharedPtr<Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaParticle](../../xmlschemaparticle/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaParticle](../../xmlschemaparticle/)\>& | The value to set. |
 
 ## See Also
 

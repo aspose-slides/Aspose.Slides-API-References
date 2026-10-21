@@ -3,10 +3,10 @@ title: TryGetLast()
 second_title: Aspose.Slides for C++ API Reference
 description: Tries to get the last element of the collection.
 type: docs
-weight: 261
+weight: 274
 url: /system.collections.generic.details/trygetlast/
 ---
-## System::Collections::Generic::Details::TryGetLast(IEnumerable\<T\>\&, bool\&) function
+## System::Collections::Generic::Details::TryGetLast(IEnumerable\<T\>&, bool&) function
 
 
 Tries to get the last element of the collection.
@@ -26,8 +26,8 @@ template<typename T> T System::Collections::Generic::Details::TryGetLast(IEnumer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| enumerable | [IEnumerable](../../system.collections.generic/ienumerable/)\<T\>\& | The collection from which an element is to be acquired. |
-| found | **bool**\& | The output parameter. Returns true when the collection contains any element. Otherwise false is returned. |
+| enumerable | [IEnumerable](../../system.collections.generic/ienumerable/)\<T\>& | The collection from which an element is to be acquired. |
+| found | **bool**& | The output parameter. Returns true when the collection contains any element. Otherwise false is returned. |
 
 ### Return Value
 

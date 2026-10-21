@@ -6,10 +6,10 @@ type: docs
 weight: 183
 url: /system.memoryextensions/indexofanyexcept/
 ---
-## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&) function
 
 
-Finds the index of the first element that is not equal to the specified value in a ReadOnlySpan<T>
+Finds the index of the first element that is not equal to the specified value in a ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan<T> &span, const T &value)
@@ -26,17 +26,17 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value | const T\& | The value to exclude from the search |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value | const T& | The value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&) function
 
 
-Finds the index of the first element that is not equal to either of two specified values in a ReadOnlySpan<T>
+Finds the index of the first element that is not equal to either of two specified values in a ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan<T> &span, const T &value0, const T &value1)
@@ -53,18 +53,18 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude from the search |
-| value1 | const T\& | The second value to exclude from the search |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude from the search |
+| value1 | const T& | The second value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>&, const T&, const T&, const T&) function
 
 
-Finds the index of the first element that is not equal to any of three specified values in a ReadOnlySpan<T>
+Finds the index of the first element that is not equal to any of three specified values in a ReadOnlySpan\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan<T> &span, const T &value0, const T &value1, const T &value2)
@@ -81,19 +81,19 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude from the search |
-| value1 | const T\& | The second value to exclude from the search |
-| value2 | const T\& | The third value to exclude from the search |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude from the search |
+| value1 | const T& | The second value to exclude from the search |
+| value2 | const T& | The third value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>&, const T&) function
 
 
-Finds the index of the first element that is not equal to the specified value in a Span<T>
+Finds the index of the first element that is not equal to the specified value in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Span<T> &span, const T &value)
@@ -110,17 +110,17 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Sp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| value | const T\& | The value to exclude from the search |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| value | const T& | The value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>&, const T&, const T&) function
 
 
-Finds the index of the first element that is not equal to either of two specified values in a Span<T>
+Finds the index of the first element that is not equal to either of two specified values in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Span<T> &span, const T &value0, const T &value1)
@@ -137,18 +137,18 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Sp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude from the search |
-| value1 | const T\& | The second value to exclude from the search |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude from the search |
+| value1 | const T& | The second value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>\&, const T\&, const T\&, const T\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>&, const T&, const T&, const T&) function
 
 
-Finds the index of the first element that is not equal to any of three specified values in a Span<T>
+Finds the index of the first element that is not equal to any of three specified values in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Span<T> &span, const T &value0, const T &value1, const T &value2)
@@ -165,16 +165,16 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Sp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| value0 | const T\& | The first value to exclude from the search |
-| value1 | const T\& | The second value to exclude from the search |
-| value2 | const T\& | The third value to exclude from the search |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| value0 | const T& | The first value to exclude from the search |
+| value1 | const T& | The second value to exclude from the search |
+| value2 | const T& | The third value to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the index of the first element that is not equal to any value in a span of values.
@@ -194,17 +194,17 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span containing values to exclude from the search |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span containing values to exclude from the search |
 
 ### Return Value
 
 The zero-based index of the first non-matching element, or -1 if not found
 
-## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::IndexOfAnyExcept(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
-Finds the index of the first element that is not equal to any value in a span of values in a Span<T>
+Finds the index of the first element that is not equal to any value in a span of values in a Span\<T\>
 
 ```cpp
 template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Span<T> &span, const ReadOnlySpan<T> &values)
@@ -221,8 +221,8 @@ template<typename T> int32_t System::MemoryExtensions::IndexOfAnyExcept(const Sp
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The span to search in |
-| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The span containing values to exclude from the search |
+| span | const [Span](../../system/span/)\<T\>& | The span to search in |
+| values | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The span containing values to exclude from the search |
 
 ### Return Value
 

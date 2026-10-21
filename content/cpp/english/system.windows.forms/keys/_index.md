@@ -107,8 +107,8 @@ enum class Keys
 | X | 88 | X key. |
 | Y | 89 | Y key. |
 | Z | 90 | Z key. |
-| LWin | 91 | Left [Windows](../../system.windows/) key. |
-| RWin | 92 | Right [Windows](../../system.windows/) key. |
+| LWin | 91 | Left Windows key. |
+| RWin | 92 | Right Windows key. |
 | Apps | 93 | Applications key. |
 | Sleep | 95 | Sleep key. |
 | NumPad0 | 96 | Numpad 0 key. |

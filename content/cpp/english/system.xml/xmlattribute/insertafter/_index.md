@@ -27,6 +27,14 @@ SharedPtr<XmlNode> System::Xml::XmlAttribute::InsertAfter(SharedPtr<XmlNode> new
 
 The [XmlNode](../../xmlnode/) inserted.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | This node is of a type that does not allow child nodes of the type of the **newChild** node. The **newChild** is an ancestor of this node. |
+| ArgumentException | The **newChild** was created from a different document than the one that created this node. The **refChild** is not a child of this node. This node is read-only. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

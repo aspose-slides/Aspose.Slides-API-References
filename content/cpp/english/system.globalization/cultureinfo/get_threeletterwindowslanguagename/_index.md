@@ -9,7 +9,7 @@ url: /system.globalization/cultureinfo/get_threeletterwindowslanguagename/
 ## CultureInfo::get_ThreeLetterWindowsLanguageName() const method
 
 
-Gets three-letter code for language as defined in [Windows](../../../system.windows/) API.
+Gets three-letter code for language as defined in Windows API.
 
 ```cpp
 virtual String System::Globalization::CultureInfo::get_ThreeLetterWindowsLanguageName() const

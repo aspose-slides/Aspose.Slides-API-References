@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.security.cryptography/asnencodeddata/asnencodeddata/
 ---
-## AsnEncodedData::AsnEncodedData(const SharedPtr\<AsnEncodedData\>\&) constructor
+## AsnEncodedData::AsnEncodedData(const SharedPtr\<AsnEncodedData\>&) constructor
 
 
 Copy constructor.
@@ -20,9 +20,9 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const SharedPtr<A
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>\& | [Object](../../../system/object/) to copy data from. |
+| asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>& | [Object](../../../system/object/) to copy data from. |
 
-## AsnEncodedData::AsnEncodedData(const ByteArrayPtr\&) constructor
+## AsnEncodedData::AsnEncodedData(const ByteArrayPtr&) constructor
 
 
 Constructor.
@@ -36,9 +36,9 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const ByteArrayPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data in raw byte format. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Encoded data in raw byte format. |
 
-## AsnEncodedData::AsnEncodedData(const SharedPtr\<Oid\>\&, const ByteArrayPtr\&) constructor
+## AsnEncodedData::AsnEncodedData(const SharedPtr\<Oid\>&, const ByteArrayPtr&) constructor
 
 
 Constructor.
@@ -52,10 +52,10 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const SharedPtr<O
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>\& | [Object](../../../system/object/) identifier of encoded data. |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data in raw byte format. |
+| oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>& | [Object](../../../system/object/) identifier of encoded data. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Encoded data in raw byte format. |
 
-## AsnEncodedData::AsnEncodedData(const String\&, const ByteArrayPtr\&) constructor
+## AsnEncodedData::AsnEncodedData(const String&, const ByteArrayPtr&) constructor
 
 
 Constructor.
@@ -69,8 +69,8 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const String &oid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oid | const [String](../../../system/string/)\& | [Object](../../../system/object/) identifier of encoded data. |
-| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data in raw byte format. |
+| oid | const [String](../../../system/string/)& | [Object](../../../system/object/) identifier of encoded data. |
+| raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Encoded data in raw byte format. |
 
 ## See Also
 

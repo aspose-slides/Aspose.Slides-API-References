@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemavalidator/set_sourceuri/
 ---
-## XmlSchemaValidator::set_SourceUri(const SharedPtr\<Uri\>\&) method
+## XmlSchemaValidator::set_SourceUri(const SharedPtr\<Uri\>&) method
 
 
 Sets the source URI for the XML node being validated.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaValidator::set_SourceUri(const SharedPtr<Uri>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>& | The value to set. |
 
 ## See Also
 

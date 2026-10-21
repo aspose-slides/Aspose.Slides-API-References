@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/objectext/tostring/
 ---
-## ObjectExt::ToString(const char_t *) method
+## ObjectExt::ToString(const char_t \*) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -20,13 +20,13 @@ static String System::ObjectExt::ToString(const char_t *obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const char_t * | [String](../../string/) literal to convert to string. |
+| obj | const char_t \* | [String](../../string/) literal to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(const Nullable\<T\>\&) method
+## ObjectExt::ToString(const Nullable\<T\>&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -46,13 +46,13 @@ template<typename T> static String System::ObjectExt::ToString(const Nullable<T>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [Nullable](../../nullable/)\<T\>\& | [Nullable](../../nullable/) object to convert to string. |
+| obj | const [Nullable](../../nullable/)\<T\>& | [Nullable](../../nullable/) object to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(const T\&) method
+## ObjectExt::ToString(const T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -72,13 +72,13 @@ template<typename T> static std::enable_if<std::is_enum<T>::value, String>::type
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [Enum](../../enum/) value to convert to string. |
+| obj | const T& | [Enum](../../enum/) value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(const T\&) method
+## ObjectExt::ToString(const T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -98,13 +98,13 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value, String>::type S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | [SmartPtr](../../smartptr/) value to convert to string. |
+| obj | const T& | [SmartPtr](../../smartptr/) value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(T\&) method
+## ObjectExt::ToString(T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -124,13 +124,13 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value||std::is_pointer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | T\& | Smart pointer or [ExceptionWrapper](../../exceptionwrapper/) to convert to string. |
+| obj | T& | Smart pointer or [ExceptionWrapper](../../exceptionwrapper/) to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(T\&) method
+## ObjectExt::ToString(T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -150,13 +150,13 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&std::is_scala
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | T\& | Scalar value to convert to string. |
+| obj | T& | Scalar value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(T\&&) method
+## ObjectExt::ToString(T&&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -176,13 +176,13 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&std::is_scala
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | T\&& | Scalar value to convert to string. |
+| obj | T&& | Scalar value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(T\&) method
+## ObjectExt::ToString(T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -202,13 +202,13 @@ template<typename T> static std::enable_if<!IsExceptionWrapper<T>::value &&!IsSm
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | T\& | Structure value to convert to string. |
+| obj | T& | Structure value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(const T\&) method
+## ObjectExt::ToString(const T&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -228,13 +228,13 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&!std::is_scal
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const T\& | Structure value to convert to string. |
+| obj | const T& | Structure value to convert to string. |
 
 ### Return Value
 
 [String](../../string/) representation of **obj**.
 
-## ObjectExt::ToString(T\&&) method
+## ObjectExt::ToString(T&&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -254,7 +254,7 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&!std::is_scal
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | T\&& | Scalar value to convert to string. |
+| obj | T&& | Scalar value to convert to string. |
 
 ### Return Value
 

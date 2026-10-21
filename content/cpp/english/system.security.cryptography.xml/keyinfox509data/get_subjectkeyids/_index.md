@@ -1,7 +1,7 @@
 ---
 title: get_SubjectKeyIds()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::get_SubjectKeyIds() method"
 type: docs
 weight: 14
 url: /system.security.cryptography.xml/keyinfox509data/get_subjectkeyids/

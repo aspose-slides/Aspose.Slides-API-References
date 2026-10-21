@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/defaultboxedvalue/defaultboxedvalue/
 ---
-## DefaultBoxedValue::DefaultBoxedValue(const T\&) constructor
+## DefaultBoxedValue::DefaultBoxedValue(const T&) constructor
 
 
 Constructs a new instance of [DefaultBoxedValue](../) class that represents the specified value.
@@ -20,7 +20,7 @@ System::DefaultBoxedValue<T>::DefaultBoxedValue(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to box |
+| value | const T& | The value to box |
 
 ## See Also
 

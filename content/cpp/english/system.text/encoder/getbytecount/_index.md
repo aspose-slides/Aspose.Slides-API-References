@@ -29,7 +29,7 @@ virtual int System::Text::Encoder::GetByteCount(ArrayPtr<char_t> chars, int inde
 
 Number of bytes required to encode the buffer.
 
-## Encoder::GetByteCount(const char_t *, int, bool) method
+## Encoder::GetByteCount(const char_t \*, int, bool) method
 
 
 Gets the number of bytes needed to encode a buffer.
@@ -43,7 +43,7 @@ virtual int System::Text::Encoder::GetByteCount(const char_t *chars, int count, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chars | const char_t * | Characters to encode. |
+| chars | const char_t \* | Characters to encode. |
 | count | int | Number of characters to encode. |
 | flush | **bool** | If true, cleans internal encoder state after calculation. |
 

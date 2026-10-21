@@ -1,7 +1,7 @@
 ---
 title: pos_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: pos_type typedef
 type: docs
 weight: 209
 url: /system.io/stdiostreamwrapperbase/pos_type/

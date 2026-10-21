@@ -26,6 +26,13 @@ virtual EmbeddingLevel Aspose::Slides::IFontsManager::GetFontEmbeddingLevel(Syst
 ### Return Value
 
 The embedding level of the specified font.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown when *fontBytes*  is null. |
+
 ## Remarks
 
 

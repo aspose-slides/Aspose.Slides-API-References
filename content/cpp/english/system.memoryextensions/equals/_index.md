@@ -6,10 +6,10 @@ type: docs
 weight: 430
 url: /system.memoryextensions/equals/
 ---
-## System::MemoryExtensions::Equals(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
+## System::MemoryExtensions::Equals(const ReadOnlySpan\<char16_t\>&, const ReadOnlySpan\<char16_t\>&, StringComparison) function
 
 
-Compares two ReadOnlySpan<char16_t> for equality using StringComparison.
+Compares two ReadOnlySpan\<char16_t\> for equality using StringComparison.
 
 ```cpp
 bool System::MemoryExtensions::Equals(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &other, StringComparison comparisonType)
@@ -20,8 +20,8 @@ bool System::MemoryExtensions::Equals(const ReadOnlySpan<char16_t> &span, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The first span to compare |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The second span to compare |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The first span to compare |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>& | The second span to compare |
 | comparisonType | [StringComparison](../../system/stringcomparison/) | The string comparison type to use |
 
 ### Return Value

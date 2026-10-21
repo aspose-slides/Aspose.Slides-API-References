@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/bitconverter/toint16/
 ---
-## BitConverter::ToInt16(const System::ArrayPtr\<uint8_t\>\&, int) method
+## BitConverter::ToInt16(const System::ArrayPtr\<uint8_t\>&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to 16-bit integer value.
@@ -20,14 +20,14 @@ static int16_t System::BitConverter::ToInt16(const System::ArrayPtr<uint8_t> &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | [Array](../../array/) that contains bytes to convert |
+| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | [Array](../../array/) that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value
 
 16-bit integer value resulting from conversion
 
-## BitConverter::ToInt16(const System::Details::ArrayView\<uint8_t\>\&, int) method
+## BitConverter::ToInt16(const System::Details::ArrayView\<uint8_t\>&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to 16-bit integer value.
@@ -41,7 +41,7 @@ static int16_t System::BitConverter::ToInt16(const System::Details::ArrayView<ui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::Details::ArrayView\<**uint8_t**\>\& | ArrayView that contains bytes to convert |
+| value | const System::Details::ArrayView\<**uint8_t**\>& | ArrayView that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value

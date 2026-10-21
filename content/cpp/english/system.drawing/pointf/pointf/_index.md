@@ -32,7 +32,7 @@ System::Drawing::PointF::PointF(float x, float y)
 | x | **float** | The value of X coordinate |
 | y | **float** | The value of Y coordinate |
 
-## PointF::PointF(const SizeF\&) constructor
+## PointF::PointF(const SizeF&) constructor
 
 
 Constructs a new [PointF](../) object and initializes its X and Y coordinates values with the values of width and height of the specifide [SizeF](../../sizef/) object correspondingly.
@@ -46,7 +46,7 @@ System::Drawing::PointF::PointF(const SizeF &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [SizeF](../../sizef/)\& | A [SizeF](../../sizef/) object whose width and height values are used to initialize X and Y coordinates values of the [PointF](../) object being created |
+| size | const [SizeF](../../sizef/)& | A [SizeF](../../sizef/) object whose width and height values are used to initialize X and Y coordinates values of the [PointF](../) object being created |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.drawing/size/equals/
 ---
-## Size::Equals(const Size\&) const method
+## Size::Equals(const Size&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same pair of width and hegiht values.
@@ -20,7 +20,7 @@ bool System::Drawing::Size::Equals(const Size &size) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [Size](../)\& | The object to compare the current object with |
+| size | const [Size](../)& | The object to compare the current object with |
 
 ### Return Value
 

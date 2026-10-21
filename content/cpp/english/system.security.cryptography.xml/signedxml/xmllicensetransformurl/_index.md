@@ -1,7 +1,7 @@
 ---
 title: XmlLicenseTransformUrl
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XmlLicenseTransformUrl field
 type: docs
 weight: 547
 url: /system.security.cryptography.xml/signedxml/xmllicensetransformurl/

@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /system.net.http.headers/cachecontrolheadervalue/getcachecontrollength/
 ---
-## CacheControlHeaderValue::GetCacheControlLength(String, int32_t, System::SharedPtr\<CacheControlHeaderValue\>, System::SharedPtr\<CacheControlHeaderValue\>\&) method
+## CacheControlHeaderValue::GetCacheControlLength(String, int32_t, System::SharedPtr\<CacheControlHeaderValue\>, System::SharedPtr\<CacheControlHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [CacheControlHeaderValue](../) class.
@@ -23,7 +23,7 @@ static int32_t System::Net::Http::Headers::CacheControlHeaderValue::GetCacheCont
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
 | storeValue | [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\> | A value that must be added to the parsed object. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

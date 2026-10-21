@@ -6,7 +6,7 @@ type: docs
 weight: 2770
 url: /system/isnan/
 ---
-## System::IsNaN(const T\&) function
+## System::IsNaN(const T&) function
 
 
 Determines if the specified value is Not-A-Number value.
@@ -26,7 +26,7 @@ template<typename T> bool System::IsNaN(const T &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | The value to check |
+| value | const T& | The value to check |
 
 ### Return Value
 

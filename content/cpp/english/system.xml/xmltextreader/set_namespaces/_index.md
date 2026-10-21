@@ -22,6 +22,13 @@ void System::Xml::XmlTextReader::set_Namespaces(bool value)
 | --- | --- | --- |
 | value | **bool** | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Setting this value after a read operation has occurred ([XmlTextReader::get_ReadState](../get_readstate/) is not [ReadState::Initial](../../readstate/)). |
+
+
 ## See Also
 
 * Class [XmlTextReader](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.collections.concurrent/concurrentdictionary/remove/
 ---
-## ConcurrentDictionary::Remove(const TKey\&) method
+## ConcurrentDictionary::Remove(const TKey&) method
 
 
 Removes element from container.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Concurrent::ConcurrentDictionary<TKey, TValue>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to remove element at. |
+| key | const TKey& | Key to remove element at. |
 
 ### Return Value
 

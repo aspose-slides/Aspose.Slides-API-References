@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.memoryextensions.details/compare/
 ---
-## System::MemoryExtensions::Details::Compare(const SharedPtr\<T\>\&, const SharedPtr\<U\>\&) function
+## System::MemoryExtensions::Details::Compare(const SharedPtr\<T\>&, const SharedPtr\<U\>&) function
 
 
 Compares two smart pointers.
@@ -27,14 +27,14 @@ template<typename T,typename U> int32_t System::MemoryExtensions::Details::Compa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [SharedPtr](../../system/sharedptr/)\<T\>\& | First smart pointer |
-| b | const [SharedPtr](../../system/sharedptr/)\<U\>\& | Second smart pointer |
+| a | const [SharedPtr](../../system/sharedptr/)\<T\>& | First smart pointer |
+| b | const [SharedPtr](../../system/sharedptr/)\<U\>& | Second smart pointer |
 
 ### Return Value
 
-[Comparison](../../system/comparison/) result (0 if equal, -1 if a < b, 1 if a > b)
+[Comparison](../../system/comparison/) result (0 if equal, -1 if a \< b, 1 if a \> b)
 
-## System::MemoryExtensions::Details::Compare(const T\&, const T\&) function
+## System::MemoryExtensions::Details::Compare(const T&, const T&) function
 
 
 Compares two arithmetic values.
@@ -54,14 +54,14 @@ template<typename T> int32_t System::MemoryExtensions::Details::Compare(const T 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const T\& | First value |
-| b | const T\& | Second value |
+| a | const T& | First value |
+| b | const T& | Second value |
 
 ### Return Value
 
-[Comparison](../../system/comparison/) result (0 if equal, -1 if a < b, 1 if a > b)
+[Comparison](../../system/comparison/) result (0 if equal, -1 if a \< b, 1 if a \> b)
 
-## System::MemoryExtensions::Details::Compare(const SharedPtr\<T\>\&, const U\&) function
+## System::MemoryExtensions::Details::Compare(const SharedPtr\<T\>&, const U&) function
 
 
 Compares a smart pointer with a value.
@@ -82,12 +82,12 @@ template<typename T,typename U> int32_t System::MemoryExtensions::Details::Compa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [SharedPtr](../../system/sharedptr/)\<T\>\& | Smart pointer |
-| b | const U\& | Value |
+| a | const [SharedPtr](../../system/sharedptr/)\<T\>& | Smart pointer |
+| b | const U& | Value |
 
 ### Return Value
 
-[Comparison](../../system/comparison/) result (0 if equal, -1 if a < b, 1 if a > b)
+[Comparison](../../system/comparison/) result (0 if equal, -1 if a \< b, 1 if a \> b)
 
 ## See Also
 

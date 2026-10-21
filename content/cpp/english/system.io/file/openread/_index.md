@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.io/file/openread/
 ---
-## File::OpenRead(const String\&) method
+## File::OpenRead(const String&) method
 
 
 Opens the specified file for reading only, in 'Open' mode with shared access for reading.
@@ -20,7 +20,7 @@ static FileStreamPtr System::IO::File::OpenRead(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to open |
+| path | const [String](../../../system/string/)& | The path of the file to open |
 
 ### Return Value
 

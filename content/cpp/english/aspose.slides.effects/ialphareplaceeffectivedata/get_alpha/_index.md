@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ialphareplaceeffectivedata/get_alpha/
 ## IAlphaReplaceEffectiveData::get_Alpha() method
 
 
-Returns new alpha value in the interval [0..1] Read-only **float**.
+Returns new alpha value in the interval \[0..1\] Read-only **float**.
 
 ```cpp
 virtual float Aspose::Slides::Effects::IAlphaReplaceEffectiveData::get_Alpha()=0

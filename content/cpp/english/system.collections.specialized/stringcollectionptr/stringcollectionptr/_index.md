@@ -15,7 +15,7 @@ Constructs null pointer.
 System::Collections::Specialized::StringCollectionPtr::StringCollectionPtr()
 ```
 
-## StringCollectionPtr::StringCollectionPtr(const SharedPtr\<StringCollection\>\&) constructor
+## StringCollectionPtr::StringCollectionPtr(const SharedPtr\<StringCollection\>&) constructor
 
 
 Constructs pointer to specific collection.
@@ -29,7 +29,7 @@ System::Collections::Specialized::StringCollectionPtr::StringCollectionPtr(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[StringCollection](../../stringcollection/)\>\& | Collection to point to. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[StringCollection](../../stringcollection/)\>& | Collection to point to. |
 
 ## See Also
 

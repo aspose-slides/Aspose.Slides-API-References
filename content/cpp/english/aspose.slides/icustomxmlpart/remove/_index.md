@@ -16,6 +16,13 @@ virtual void Aspose::Slides::ICustomXmlPart::Remove()=0
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if xml part is already removed. |
+
+
 ## See Also
 
 * Class [ICustomXmlPart](../)

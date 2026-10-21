@@ -9,7 +9,7 @@ url: /aspose.slides/backdrop3dscene/get_anchorpoint/
 ## Backdrop3DScene::get_AnchorPoint() method
 
 
-Returns a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read **float**[].
+Returns a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read **float**\[\].
 
 ```cpp
 System::ArrayPtr<float> Aspose::Slides::Backdrop3DScene::get_AnchorPoint() override

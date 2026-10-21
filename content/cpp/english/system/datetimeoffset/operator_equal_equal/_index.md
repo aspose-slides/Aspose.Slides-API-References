@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /system/datetimeoffset/operator_equal_equal/
 ---
-## DateTimeOffset::operator==(const DateTimeOffset\&) const method
+## DateTimeOffset::operator==(const DateTimeOffset&) const method
 
 
 Determines if the current object and the specified [DateTimeOffset](../) object represent the same date and time value.
@@ -20,7 +20,7 @@ bool System::DateTimeOffset::operator==(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | The [DateTimeOffset](../) object to compare the current object with |
+| other | const [DateTimeOffset](../)& | The [DateTimeOffset](../) object to compare the current object with |
 
 ### Return Value
 

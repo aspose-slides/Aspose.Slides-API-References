@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/timespan/operator_equal/
 ---
-## TimeSpan::operator=(const TimeSpan\&) method
+## TimeSpan::operator=(const TimeSpan&) method
 
 
 Sets the time interval represented by the specified [TimeSpan](../) object to the current [TimeSpan](../) object.

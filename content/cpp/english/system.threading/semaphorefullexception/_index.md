@@ -1,7 +1,7 @@
 ---
 title: SemaphoreFullException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SemaphoreFullException typedef
 type: docs
 weight: 352
 url: /system.threading/semaphorefullexception/

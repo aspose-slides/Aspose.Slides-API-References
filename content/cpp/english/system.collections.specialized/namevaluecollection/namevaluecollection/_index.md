@@ -15,7 +15,7 @@ Initializes a new instance of the [NameValueCollection](../) class that is empty
 System::Collections::Specialized::NameValueCollection::NameValueCollection()
 ```
 
-## NameValueCollection::NameValueCollection(const System::SharedPtr\<NameValueCollection\>\&) constructor
+## NameValueCollection::NameValueCollection(const System::SharedPtr\<NameValueCollection\>&) constructor
 
 
 Copies the entries from the specified [NameValueCollection](../) to a new [NameValueCollection](../).

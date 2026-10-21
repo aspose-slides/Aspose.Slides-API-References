@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/idictionary/idx_get/
 ---
-## IDictionary::idx_get(const TKey\&) const method
+## IDictionary::idx_get(const TKey&) const method
 
 
 Getter function.
@@ -20,7 +20,7 @@ virtual TValue System::Collections::Generic::IDictionary<TKey, TValue>::idx_get(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Key to look for. |
+| key | const TKey& | Key to look for. |
 
 ### Return Value
 

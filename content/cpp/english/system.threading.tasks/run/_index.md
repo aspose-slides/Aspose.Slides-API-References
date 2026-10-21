@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.threading.tasks/run/
 ---
-## System::Threading::Tasks::Run(const Action<>\&) function
+## System::Threading::Tasks::Run(const Action\<\>&) function
 
 
 Queues the specified work to run on the thread pool and returns a [Task](../task/) handle for that work.
@@ -20,13 +20,13 @@ TaskPtr System::Threading::Tasks::Run(const Action<> &action)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../system/action/)<>\& | The work to execute asynchronously. |
+| action | const [Action](../../system/action/)\<\>& | The work to execute asynchronously. |
 
 ### Return Value
 
 A [Task](../task/) that represents the work queued to execute in the thread pool.
 
-## System::Threading::Tasks::Run(const Action<>\&, const CancellationToken\&) function
+## System::Threading::Tasks::Run(const Action\<\>&, const CancellationToken&) function
 
 
 Queues the specified work to run on the thread pool and returns a [Task](../task/) handle for that work.
@@ -40,14 +40,14 @@ TaskPtr System::Threading::Tasks::Run(const Action<> &action, const Cancellation
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| action | const [Action](../../system/action/)<>\& | The work to execute asynchronously. |
-| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)\& | A cancellation token that can be used to cancel the work if it has not yet started. |
+| action | const [Action](../../system/action/)\<\>& | The work to execute asynchronously. |
+| cancellationToken | const [CancellationToken](../../system.threading/cancellationtoken/)& | A cancellation token that can be used to cancel the work if it has not yet started. |
 
 ### Return Value
 
 A [Task](../task/) that represents the work queued to execute in the thread pool.
 
-## System::Threading::Tasks::Run(const Func\<TaskPtr\>\&) function
+## System::Threading::Tasks::Run(const Func\<TaskPtr\>&) function
 
 
 Queues the specified work to run on the thread pool and returns a proxy for the [Task](../task/) returned by the function.
@@ -61,16 +61,16 @@ TaskPtr System::Threading::Tasks::Run(const Func<TaskPtr> &function)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| function | const [Func](../../system/func/)\<[TaskPtr](../../system/taskptr/)\>\& | The work to execute asynchronously, which returns a [Task](../task/). |
+| function | const [Func](../../system/func/)\<[TaskPtr](../../system/taskptr/)\>& | The work to execute asynchronously, which returns a [Task](../task/). |
 
 ### Return Value
 
 A [Task](../task/) that represents a proxy for the [Task](../task/) returned by the function.
 
-## System::Threading::Tasks::Run(const Func\<TResult\>\&) function
+## System::Threading::Tasks::Run(const Func\<TResult\>&) function
 
 
-Queues the specified work to run on the thread pool and returns a Task<TResult> handle for that work.
+Queues the specified work to run on the thread pool and returns a Task\<TResult\> handle for that work.
 
 ```cpp
 template<typename TResult> RTaskPtr<TResult> System::Threading::Tasks::Run(const Func<TResult> &function)
@@ -87,11 +87,11 @@ template<typename TResult> RTaskPtr<TResult> System::Threading::Tasks::Run(const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| function | const [Func](../../system/func/)\<TResult\>\& | The work to execute asynchronously. |
+| function | const [Func](../../system/func/)\<TResult\>& | The work to execute asynchronously. |
 
 ### Return Value
 
-A Task<TResult> that represents the work queued to execute in the thread pool.
+A Task\<TResult\> that represents the work queued to execute in the thread pool.
 
 ## See Also
 

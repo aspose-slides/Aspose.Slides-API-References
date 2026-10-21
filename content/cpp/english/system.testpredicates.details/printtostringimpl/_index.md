@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.testpredicates.details/printtostringimpl/
 ---
-## System::TestPredicates::Details::PrintToStringImpl(const SharedPtr\<T\>\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const SharedPtr\<T\>&, long long) function
 
 
 Prints [System::Object](../../system/object/) subclass to string using ToString() method.
@@ -26,14 +26,14 @@ template<typename T> std::enable_if<System::Details::HasToString<T>::value, std:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../system/sharedptr/)\<T\>\& | Pointer to object to print. |
+| value | const [SharedPtr](../../system/sharedptr/)\<T\>& | Pointer to object to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
-[String](../../system/string/) representation of object passed or \"nullptr\", if **value** is null.
+[String](../../system/string/) representation of object passed or "nullptr", if **value** is null.
 
-## System::TestPredicates::Details::PrintToStringImpl(const WeakPtr\<T\>\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const WeakPtr\<T\>&, long long) function
 
 
 Prints [System::Object](../../system/object/) subclass to string using ToString() method.
@@ -53,14 +53,14 @@ template<typename T> std::enable_if<System::Details::HasToString<T>::value, std:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [WeakPtr](../../system/weakptr/)\<T\>\& | Pointer to object to print. |
+| value | const [WeakPtr](../../system/weakptr/)\<T\>& | Pointer to object to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
-[String](../../system/string/) representation of object passed or \"nullptr\", if **value** is null.
+[String](../../system/string/) representation of object passed or "nullptr", if **value** is null.
 
-## System::TestPredicates::Details::PrintToStringImpl(const T\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const T&, long long) function
 
 
 Prints object to string using ToString() method.
@@ -80,14 +80,14 @@ template<typename T> std::enable_if<!TypeTraits::has_print_to_method<T>::value &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 [String](../../system/string/) representation of object passed.
 
-## System::TestPredicates::Details::PrintToStringImpl(const T\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const T&, long long) function
 
 
 Prints object to string using PrintTo method.
@@ -107,14 +107,14 @@ template<typename T> std::enable_if<TypeTraits::has_print_to_method<T>::value &&
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 [String](../../system/string/) representation of object passed.
 
-## System::TestPredicates::Details::PrintToStringImpl(const T\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const T&, long long) function
 
 
 Prints object to string using PrintTo method.
@@ -134,14 +134,14 @@ template<typename T> std::enable_if<TypeTraits::has_print_to_method<T>::value &&
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 [String](../../system/string/) representation of object passed.
 
-## System::TestPredicates::Details::PrintToStringImpl(const std::pair\<T1, T2\>\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const std::pair\<T1, T2\>&, long long) function
 
 
 Prints pair to string.
@@ -162,14 +162,14 @@ template<typename T1,typename T2> std::string System::TestPredicates::Details::P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const std::pair\<T1, T2\>\& | [Object](../../system/object/) to print. |
+| value | const std::pair\<T1, T2\>& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 Joint string representations of both first and second pair components.
 
-## System::TestPredicates::Details::PrintToStringImpl(const Collections::Generic::KeyValuePair\<T1, T2\>\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const Collections::Generic::KeyValuePair\<T1, T2\>&, long long) function
 
 
 Prints pair to string.
@@ -190,14 +190,14 @@ template<typename T1,typename T2> std::string System::TestPredicates::Details::P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [Collections::Generic::KeyValuePair](../../system.collections.generic/keyvaluepair/)\<T1, T2\>\& | [Object](../../system/object/) to print. |
+| value | const [Collections::Generic::KeyValuePair](../../system.collections.generic/keyvaluepair/)\<T1, T2\>& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 Joint string representations of both first and second pair components.
 
-## System::TestPredicates::Details::PrintToStringImpl(const T\&, long long) function
+## System::TestPredicates::Details::PrintToStringImpl(const T&, long long) function
 
 
 Prints STL-style containers to string by printing their elements (not more than 32).
@@ -217,14 +217,14 @@ template<typename T> std::enable_if<TypeTraits::IsCppContainer<T>::value &&!std:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| container | const T\& | [Object](../../system/object/) to print. |
+| container | const T& | [Object](../../system/object/) to print. |
 | s | long long | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value
 
 Joint string representations of contained elements.
 
-## System::TestPredicates::Details::PrintToStringImpl(const T\&, int) function
+## System::TestPredicates::Details::PrintToStringImpl(const T&, int) function
 
 
 Prints other types to string by using gtest-provided functions.
@@ -244,7 +244,7 @@ template<typename T> std::string System::TestPredicates::Details::PrintToStringI
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../system/object/) to print. |
+| value | const T& | [Object](../../system/object/) to print. |
 | s | int | A service parameter which serves as a selector of function overload based on the type of this parameter; the value of the parameter is ignored |
 
 ### Return Value

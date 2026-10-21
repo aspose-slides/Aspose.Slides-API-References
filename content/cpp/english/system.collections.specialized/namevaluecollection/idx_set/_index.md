@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.collections.specialized/namevaluecollection/idx_set/
 ---
-## NameValueCollection::idx_set(const String\&, const String\&) method
+## NameValueCollection::idx_set(const String&, const String&) method
 
 
 Sets value of an entry.
@@ -20,8 +20,8 @@ void System::Collections::Specialized::NameValueCollection::idx_set(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | entry name. |
-| value | const [String](../../../system/string/)\& | Value to set at name. |
+| name | const [String](../../../system/string/)& | entry name. |
+| value | const [String](../../../system/string/)& | Value to set at name. |
 
 ## See Also
 

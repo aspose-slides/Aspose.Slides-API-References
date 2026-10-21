@@ -9,7 +9,7 @@ url: /aspose.slides.mathtext/mathparagraph/remove/
 ## MathParagraph::Remove(System::SharedPtr\<IMathBlock\>) method
 
 
-Removes the first occurrence of a specific object from the collection/>.
+Removes the first occurrence of a specific object from the collection/\>.
 
 ```cpp
 bool Aspose::Slides::MathText::MathParagraph::Remove(System::SharedPtr<IMathBlock> mathBlock) override
@@ -24,7 +24,7 @@ bool Aspose::Slides::MathText::MathParagraph::Remove(System::SharedPtr<IMathBloc
 
 ### Return Value
 
-true if *mathBlock*  was successfully removed from the collection; otherwise, false. This method also returns false if *mathBlock*  is not found in the original collection/>.
+true if *mathBlock*  was successfully removed from the collection; otherwise, false. This method also returns false if *mathBlock*  is not found in the original collection/\>.
 ## Remarks
 
 

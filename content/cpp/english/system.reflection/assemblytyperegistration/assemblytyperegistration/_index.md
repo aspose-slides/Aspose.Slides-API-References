@@ -15,7 +15,7 @@ Creates singleton, thus registering type in executing assembly.
 System::Reflection::AssemblyTypeRegistration<T>::AssemblyTypeRegistration()
 ```
 
-## AssemblyTypeRegistration::AssemblyTypeRegistration(const SharedPtr\<Assembly\>\&) constructor
+## AssemblyTypeRegistration::AssemblyTypeRegistration(const SharedPtr\<Assembly\>&) constructor
 
 
 Creates singleton, thus registering type in the specified assembly.

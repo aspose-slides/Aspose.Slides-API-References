@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.collections/bitarray/xor/
 ---
-## BitArray::Xor(const BitArrayPtr\&) method
+## BitArray::Xor(const BitArrayPtr&) method
 
 
 Calculates bitwise 'xor' between two BitSets.
@@ -20,7 +20,7 @@ BitArrayPtr System::Collections::BitArray::Xor(const BitArrayPtr &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [BitArrayPtr](../../bitarrayptr/)\& | RHS operand. |
+| value | const [BitArrayPtr](../../bitarrayptr/)& | RHS operand. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /system.drawing/graphics/drawrectangles/
 ---
-## Graphics::DrawRectangles(const SharedPtr\<Pen\>\&, const ArrayPtr\<Rectangle\>\&) method
+## Graphics::DrawRectangles(const SharedPtr\<Pen\>&, const ArrayPtr\<Rectangle\>&) method
 
 
 Draws a series of rectangles using the specified pen.
@@ -20,10 +20,10 @@ void System::Drawing::Graphics::DrawRectangles(const SharedPtr<Pen> &pen, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the rectangles |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\& | [Array](../../../system/array/) of rectangles to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the rectangles |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>& | [Array](../../../system/array/) of rectangles to draw |
 
-## Graphics::DrawRectangles(const SharedPtr\<Pen\>\&, const ArrayPtr\<RectangleF\>\&) method
+## Graphics::DrawRectangles(const SharedPtr\<Pen\>&, const ArrayPtr\<RectangleF\>&) method
 
 
 Draws a series of rectangles using the specified pen.
@@ -37,8 +37,8 @@ void System::Drawing::Graphics::DrawRectangles(const SharedPtr<Pen> &pen, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the rectangles |
-| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>\& | [Array](../../../system/array/) of rectangles to draw |
+| pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>& | A pen to use when drawing the rectangles |
+| rects | const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>& | [Array](../../../system/array/) of rectangles to draw |
 
 ## See Also
 

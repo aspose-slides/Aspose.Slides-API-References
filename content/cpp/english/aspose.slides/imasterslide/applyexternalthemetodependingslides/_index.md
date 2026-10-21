@@ -26,6 +26,13 @@ virtual System::SharedPtr<IMasterSlide> Aspose::Slides::IMasterSlide::ApplyExter
 
 New themed [MasterSlide](../../masterslide/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxReadException](../../pptxreadexception/) | When external theme cannot be applied. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

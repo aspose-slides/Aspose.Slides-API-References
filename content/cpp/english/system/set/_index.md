@@ -6,7 +6,7 @@ type: docs
 weight: 2406
 url: /system/set/
 ---
-## System::Set(ExpressionT\&, const ExpressionT\&) function
+## System::Set(ExpressionT&, const ExpressionT&) function
 
 
 Implements 'var' pattern translation.
@@ -26,8 +26,8 @@ template<class ExpressionT> bool System::Set(ExpressionT &var, const ExpressionT
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| var | ExpressionT\& | reference to variable to be initialized. |
-| value | const ExpressionT\& | value to be assigned to variable. |
+| var | ExpressionT& | reference to variable to be initialized. |
+| value | const ExpressionT& | value to be assigned to variable. |
 
 ### Return Value
 

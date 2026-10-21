@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /system.net.sockets/socket/receivefrom/
 ---
-## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -24,13 +24,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -48,13 +48,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -68,17 +68,17 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | offset | **int32_t** | The offset in bytes in the specified array. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -95,13 +95,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 | buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -118,13 +118,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 | buffer | System::Details::ArrayView\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -138,16 +138,16 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
 | size | **int32_t** | The number of bytes to receive that will be assigned to the specified byte array from the 'offset' index. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -163,13 +163,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 | --- | --- | --- |
 | buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -185,13 +185,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 | --- | --- | --- |
 | buffer | System::Details::ArrayView\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -207,13 +207,13 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 | --- | --- | --- |
 | buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array where the received data will be assigned. |
 | socketFlags | [SocketFlags](../../socketflags/) | The receive behavior. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -228,13 +228,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 | Parameter | Type | Description |
 | --- | --- | --- |
 | buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array where the received data will be assigned. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -249,13 +249,13 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 | Parameter | Type | Description |
 | --- | --- | --- |
 | buffer | System::Details::ArrayView\<**uint8_t**\> | The byte array where the received data will be assigned. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 
 The number of received bytes.
 
-## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, System::SharedPtr\<EndPoint\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>&, System::SharedPtr\<EndPoint\>&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -269,8 +269,8 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | System::Details::StackArray\<**uint8_t**, N\>\& | The byte array where the received data will be assigned. |
-| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\& | The remote endpoint. |
+| buffer | System::Details::StackArray\<**uint8_t**, N\>& | The byte array where the received data will be assigned. |
+| remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>& | The remote endpoint. |
 
 ### Return Value
 

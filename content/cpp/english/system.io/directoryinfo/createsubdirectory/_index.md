@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.io/directoryinfo/createsubdirectory/
 ---
-## DirectoryInfo::CreateSubdirectory(const String\&) method
+## DirectoryInfo::CreateSubdirectory(const String&) method
 
 
 Creates subdirectories on the specified path.
@@ -20,7 +20,7 @@ DirectoryInfoPtr System::IO::DirectoryInfo::CreateSubdirectory(const String &pat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The specified path |
+| path | const [String](../../../system/string/)& | The specified path |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /system/typeinfo/settemplparamtype/
 ---
-## TypeInfo::SetTemplParamType(const TypeInfo\&) method
+## TypeInfo::SetTemplParamType(const TypeInfo&) method
 
 
 Sets template parameter type descritor.
@@ -20,7 +20,7 @@ void System::TypeInfo::SetTemplParamType(const TypeInfo &templParam)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| templParam | const [TypeInfo](../)\& | Pointer to template parameter type descriptor to set. |
+| templParam | const [TypeInfo](../)& | Pointer to template parameter type descriptor to set. |
 
 ## See Also
 

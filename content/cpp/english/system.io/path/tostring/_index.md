@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.io/path/tostring/
 ---
-## Path::ToString(const boost::filesystem::path\&) method
+## Path::ToString(const boost::filesystem::path&) method
 
 
 Returns a string representation of the specified Boost's path object.
@@ -20,7 +20,7 @@ static String System::IO::Path::ToString(const boost::filesystem::path &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const boost::filesystem::path\& | The boost::filesystem::path object to convert to string |
+| path | const boost::filesystem::path& | The boost::filesystem::path object to convert to string |
 
 ### Return Value
 

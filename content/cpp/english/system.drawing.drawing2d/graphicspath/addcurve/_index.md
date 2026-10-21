@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system.drawing.drawing2d/graphicspath/addcurve/
 ---
-## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>\&, float) method
+## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>&, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -20,10 +20,10 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<PointF> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## GraphicsPath::AddCurve(const ArrayPtr\<Point\>\&, float) method
+## GraphicsPath::AddCurve(const ArrayPtr\<Point\>&, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -37,10 +37,10 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<Point> &p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>\&, int, int, float) method
+## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>&, int, int, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -54,12 +54,12 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<PointF> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | Points that specify the curve |
 | offset | int | The index of the point in **points** that is used as the staring poit of the curve |
 | number_of_segments | int | The number of segments used to draw the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## GraphicsPath::AddCurve(const ArrayPtr\<Point\>\&, int, int, float) method
+## GraphicsPath::AddCurve(const ArrayPtr\<Point\>&, int, int, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -73,7 +73,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<Point> &p
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | Points that specify the curve |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>& | Points that specify the curve |
 | offset | int | The index of the point in **points** that is used as the staring poit of the curve |
 | number_of_segments | int | The number of segments used to draw the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |

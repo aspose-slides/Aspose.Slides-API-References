@@ -1,7 +1,7 @@
 ---
 title: GetOutput()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "XmlDsigC14NTransform::GetOutput() method"
 type: docs
 weight: 66
 url: /system.security.cryptography.xml/xmldsigc14ntransform/getoutput/
@@ -15,7 +15,7 @@ url: /system.security.cryptography.xml/xmldsigc14ntransform/getoutput/
 SharedPtr<Object> System::Security::Cryptography::Xml::XmlDsigC14NTransform::GetOutput() override
 ```
 
-## XmlDsigC14NTransform::GetOutput(const TypeInfo\&) method
+## XmlDsigC14NTransform::GetOutput(const TypeInfo&) method
 
 
 

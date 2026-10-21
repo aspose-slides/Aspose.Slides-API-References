@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.xml.schema/xmlschemaset/add/
 ---
-## XmlSchemaSet::Add(String, const String\&) method
+## XmlSchemaSet::Add(String, const String&) method
 
 
 Adds the XML [Schema](../../) definition language (XSD) schema at the URL specified to the [XmlSchemaSet](../).
@@ -21,13 +21,21 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Add(String targetNamespa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | targetNamespace | [String](../../../system/string/) | The schema **targetNamespace** value, or **nullptr** to use the **targetNamespace** specified in the schema. |
-| schemaUri | const [String](../../../system/string/)\& | The URL that specifies the schema to load. |
+| schemaUri | const [String](../../../system/string/)& | The URL that specifies the schema to load. |
 
 ### Return Value
 
 An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is not valid and a ValidationEventHandler is specified, then **nullptr** is returned and the appropriate validation event is raised. Otherwise, an XmlSchemaException is thrown.
 
-## XmlSchemaSet::Add(String, const SharedPtr\<XmlReader\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | The schema is not valid. |
+| ArgumentNullException | The URL passed as a parameter is **nullptr** or [String::Empty](../../../system/string/empty/). |
+
+
+## XmlSchemaSet::Add(String, const SharedPtr\<XmlReader\>&) method
 
 
 Adds the XML [Schema](../../) definition language (XSD) schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the [XmlSchemaSet](../).
@@ -42,13 +50,21 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Add(String targetNamespa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | targetNamespace | [String](../../../system/string/) | The schema **targetNamespace** value, or **nullptr** to use the **targetNamespace** specified in the schema. |
-| schemaDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) object. |
+| schemaDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | The [XmlReader](../../../system.xml/xmlreader/) object. |
 
 ### Return Value
 
 An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is not valid and a ValidationEventHandler is specified, then **nullptr** is returned and the appropriate validation event is raised. Otherwise, an XmlSchemaException is thrown.
 
-## XmlSchemaSet::Add(const SharedPtr\<XmlSchemaSet\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | The schema is not valid. |
+| ArgumentNullException | The [XmlReader](../../../system.xml/xmlreader/) object passed as a parameter is **nullptr**. |
+
+
+## XmlSchemaSet::Add(const SharedPtr\<XmlSchemaSet\>&) method
 
 
 Adds all the XML [Schema](../../) definition language (XSD) schemas in the given [XmlSchemaSet](../) to the [XmlSchemaSet](../).
@@ -62,9 +78,17 @@ void System::Xml::Schema::XmlSchemaSet::Add(const SharedPtr<XmlSchemaSet> &schem
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schemas | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../)\>\& | The [XmlSchemaSet](../) object. |
+| schemas | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../)\>& | The [XmlSchemaSet](../) object. |
 
-## XmlSchemaSet::Add(const SharedPtr\<XmlSchema\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | A schema in the [XmlSchemaSet](../) is not valid. |
+| ArgumentNullException | The [XmlSchemaSet](../) object passed as a parameter is **nullptr**. |
+
+
+## XmlSchemaSet::Add(const SharedPtr\<XmlSchema\>&) method
 
 
 Adds the given [XmlSchema](../../xmlschema/) to the [XmlSchemaSet](../).
@@ -78,11 +102,19 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Add(const SharedPtr<XmlS
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\& | The [XmlSchema](../../xmlschema/) object to add to the [XmlSchemaSet](../). |
+| schema | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>& | The [XmlSchema](../../xmlschema/) object to add to the [XmlSchemaSet](../). |
 
 ### Return Value
 
 An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is not valid and a ValidationEventHandler is specified, then **nullptr** is returned and the appropriate validation event is raised. Otherwise, an XmlSchemaException is thrown.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlSchemaException | The schema is not valid. |
+| ArgumentNullException | The [XmlSchema](../../xmlschema/) object passed as a parameter is **nullptr**. |
+
 
 ## See Also
 

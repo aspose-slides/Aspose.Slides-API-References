@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartcategory/get_value/
 ## IChartCategory::get_Value() method
 
 
-If UseCell is true then this property represents [get_AsCell()](../get_ascell/)->get(set)_Value() property. If UseCell is false then this property represents AsLiteral property. Read [System::Object](../../../system/object/).
+If UseCell is true then this property represents [get_AsCell()](../get_ascell/)-\>get(set)_Value() property. If UseCell is false then this property represents AsLiteral property. Read [System::Object](../../../system/object/).
 
 ```cpp
 virtual System::SharedPtr<System::Object> Aspose::Slides::Charts::IChartCategory::get_Value()=0

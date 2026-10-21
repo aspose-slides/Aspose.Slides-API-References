@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.io/stdiostreamwrapperbase/operator_equal/
 ---
-## STDIOStreamWrapperBase::operator=(const STDIOStreamWrapperBase\&) method
+## STDIOStreamWrapperBase::operator=(const STDIOStreamWrapperBase&) method
 
 
 Copy assignment operator. Deleted.

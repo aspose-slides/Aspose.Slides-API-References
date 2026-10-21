@@ -1,7 +1,7 @@
 ---
 title: PdfImportOptions()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "PdfImportOptions::PdfImportOptions() constructor"
 type: docs
 weight: 27
 url: /aspose.slides.import/pdfimportoptions/pdfimportoptions/

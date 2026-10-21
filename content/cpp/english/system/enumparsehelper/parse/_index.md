@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/enumparsehelper/parse/
 ---
-## EnumParseHelper::Parse(const String\&, bool) method
+## EnumParseHelper::Parse(const String&, bool) method
 
 
 Converts the specfied string into equivalent enum constant value.
@@ -20,12 +20,19 @@ static E System::EnumParseHelper<E, G, Guard>::Parse(const String &str, bool ign
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | [String](../../string/) that is interpreted as containing the name of enum constant |
+| str | const [String](../../string/)& | [String](../../string/) that is interpreted as containing the name of enum constant |
 | ignoreCase | **bool** | Specifies if the case should be ignored when interpreting the string |
 
 ### Return Value
 
 The enumeration constant whose name is specified in **str**
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | If the enum constant with name specifed in **str** was not found aboung the members of enum **E**. |
+
 
 ## See Also
 

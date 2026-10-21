@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/exceptionwrapper/operator_minus_greater/
 ---
-## ExceptionWrapper::operator->() const method
+## ExceptionWrapper::operator-\>() const method
 
 
 Allows to access members of the Exception object.
@@ -19,6 +19,13 @@ T * System::ExceptionWrapper<T>::operator->() const
 ### Return Value
 
 Raw pointer to the Exception object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NullReferenceException](../../nullreferenceexception/) | if pointer is null. |
+
 
 ## See Also
 

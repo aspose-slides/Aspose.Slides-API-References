@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/rangeitemheadervalue/getrangeitemlength/
 ---
-## RangeItemHeaderValue::GetRangeItemLength(String, int32_t, System::SharedPtr\<RangeItemHeaderValue\>\&) method
+## RangeItemHeaderValue::GetRangeItemLength(String, int32_t, System::SharedPtr\<RangeItemHeaderValue\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [RangeItemHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::RangeItemHeaderValue::GetRangeItemLen
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeItemHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[RangeItemHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

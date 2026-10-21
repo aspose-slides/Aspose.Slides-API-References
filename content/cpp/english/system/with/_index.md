@@ -6,7 +6,7 @@ type: docs
 weight: 2640
 url: /system/with/
 ---
-## System::With(const SharedPtr\<T\>\&, const A\&) function
+## System::With(const SharedPtr\<T\>&, const A&) function
 
 
 Clones reference record and applies initializer functor to it.
@@ -27,14 +27,14 @@ template<typename T,typename A> SharedPtr<T> System::With(const SharedPtr<T> &re
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| record | const [SharedPtr](../sharedptr/)\<T\>\& | Shared pointer to the object to clone and initialize. |
-| initializer | const A\& | Initialization functor being applied to record clone. |
+| record | const [SharedPtr](../sharedptr/)\<T\>& | Shared pointer to the object to clone and initialize. |
+| initializer | const A& | Initialization functor being applied to record clone. |
 
 ### Return Value
 
 Shared pointer to cloned record.
 
-## System::With(const T\&, const A\&) function
+## System::With(const T&, const A&) function
 
 
 Copies struct record and applies initializer functor to it.
@@ -55,8 +55,8 @@ template<typename T,typename A> T System::With(const T &record, const A &initial
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| record | const T\& | Record to copy and initialize. |
-| initializer | const A\& | Initialization functor being applied to record copy. |
+| record | const T& | Record to copy and initialize. |
+| initializer | const A& | Initialization functor being applied to record copy. |
 
 ### Return Value
 

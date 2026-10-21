@@ -26,6 +26,14 @@ virtual SharedPtr<XPathExpression> System::Xml::XPath::XPathNavigator::Compile(S
 
 An [XPathExpression](../../xpathexpression/) object representing the [XPath](../../) expression.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **xpath** parameter contains an [XPath](../../) expression that is not valid. |
+| XPathException | The [XPath](../../) expression is not valid. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

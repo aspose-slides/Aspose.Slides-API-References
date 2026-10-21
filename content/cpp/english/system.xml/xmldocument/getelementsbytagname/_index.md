@@ -20,7 +20,7 @@ virtual SharedPtr<XmlNodeList> System::Xml::XmlDocument::GetElementsByTagName(St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | [String](../../../system/string/) | The qualified name to match. It is matched against the **get_Name** value of the matching node. The special value **\"*\"** matches all tags. |
+| name | [String](../../../system/string/) | The qualified name to match. It is matched against the **get_Name** value of the matching node. The special value **"\*"** matches all tags. |
 
 ### Return Value
 
@@ -40,7 +40,7 @@ virtual SharedPtr<XmlNodeList> System::Xml::XmlDocument::GetElementsByTagName(St
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| localName | [String](../../../system/string/) | The LocalName to match. The special value **\"*\"** matches all tags. |
+| localName | [String](../../../system/string/) | The LocalName to match. The special value **"\*"** matches all tags. |
 | namespaceURI | [String](../../../system/string/) | NamespaceURI to match. |
 
 ### Return Value

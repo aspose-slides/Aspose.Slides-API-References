@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.collections.generic/ienumerable/linq_select/
 ---
-## IEnumerable::LINQ_Select(const Func\<T, ResultType\>\&) method
+## IEnumerable::LINQ_Select(const Func\<T, ResultType\>&) method
 
 
 Transforms elements of a sequence.
@@ -26,13 +26,13 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, ResultType\>\& | A transform function. |
+| selector | const [Func](../../../system/func/)\<T, ResultType\>& | A transform function. |
 
 ### Return Value
 
 An [IEnumerable](../) that contains elements returned by the **selector** function.
 
-## IEnumerable::LINQ_Select(const Func\<T, int32_t, ResultType\>\&) method
+## IEnumerable::LINQ_Select(const Func\<T, int32_t, ResultType\>&) method
 
 
 Transforms each element of a sequence into a new form by incorporating the element's index.
@@ -52,13 +52,13 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| selector | const [Func](../../../system/func/)\<T, **int32_t**, ResultType\>\& | A transform function. |
+| selector | const [Func](../../../system/func/)\<T, **int32_t**, ResultType\>& | A transform function. |
 
 ### Return Value
 
 An [IEnumerable](../) that contains elements returned by the **selector** function.
 
-## IEnumerable::LINQ_Select(const Func\<Source, Result\>\&) method
+## IEnumerable::LINQ_Select(const Func\<Source, Result\>&) method
 
 
 
@@ -67,7 +67,7 @@ An [IEnumerable](../) that contains elements returned by the **selector** functi
 template<typename Result> SharedPtr<IEnumerable<Result>> System::Collections::Generic::IEnumerable<T>::LINQ_Select(const Func<Source, Result> &selector)
 ```
 
-## IEnumerable::LINQ_Select(const Func\<Source, int32_t, Result\>\&) method
+## IEnumerable::LINQ_Select(const Func\<Source, int32_t, Result\>&) method
 
 
 

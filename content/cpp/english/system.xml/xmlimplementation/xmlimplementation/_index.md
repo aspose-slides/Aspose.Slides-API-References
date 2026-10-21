@@ -15,7 +15,7 @@ Initializes a new instance of the [XmlImplementation](../) class.
 System::Xml::XmlImplementation::XmlImplementation()
 ```
 
-## XmlImplementation::XmlImplementation(const SharedPtr\<XmlNameTable\>\&) constructor
+## XmlImplementation::XmlImplementation(const SharedPtr\<XmlNameTable\>&) constructor
 
 
 Initializes a new instance of the [XmlImplementation](../) class with the [XmlNameTable](../../xmlnametable/) specified.
@@ -29,7 +29,7 @@ System::Xml::XmlImplementation::XmlImplementation(const SharedPtr<XmlNameTable> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | An [XmlNameTable](../../xmlnametable/) object. |
+| nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>& | An [XmlNameTable](../../xmlnametable/) object. |
 
 ## See Also
 

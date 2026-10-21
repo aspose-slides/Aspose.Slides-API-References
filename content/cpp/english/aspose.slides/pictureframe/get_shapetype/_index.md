@@ -1,7 +1,7 @@
 ---
 title: get_ShapeType()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "PictureFrame::get_ShapeType() method"
 type: docs
 weight: 14
 url: /aspose.slides/pictureframe/get_shapetype/

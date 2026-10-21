@@ -16,6 +16,13 @@ static bool System::Windows::Forms::SystemInformation::get_IsHotTrackingEnabled(
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Struct [SystemInformation](../)

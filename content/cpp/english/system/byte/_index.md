@@ -19,20 +19,20 @@ class Byte
 
 | Method | Description |
 | --- | --- |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer. |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>\&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information. |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>\&) |  |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>\&) |  |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, std::nullptr_t) |  |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>\&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information and number style. |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>\&) |  |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>\&) |  |
-| static **uint8_t** [Parse](./parse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), std::nullptr_t) |  |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, **uint8_t**\&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer. |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>\&, **uint8_t**\&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information and number style. |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>\&, **uint8_t**\&) |  |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>\&, **uint8_t**\&) |  |
-| static **bool** [TryParse](./tryparse/)(const [String](../string/)\&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), std::nullptr_t, **uint8_t**\&) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer. |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information. |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>&) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>&) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, std::nullptr_t) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information and number style. |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>&) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>&) |  |
+| static **uint8_t** [Parse](./parse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), std::nullptr_t) |  |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, **uint8_t**&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer. |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>&, **uint8_t**&) | Converts the specified string containing the string representation of a number to the equivalent 8-bit unsigned integer using the provided formatting information and number style. |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::CultureInfo](../../system.globalization/cultureinfo/)\>&, **uint8_t**&) |  |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), const [SharedPtr](../sharedptr/)\<[Globalization::NumberFormatInfo](../../system.globalization/numberformatinfo/)\>&, **uint8_t**&) |  |
+| static **bool** [TryParse](./tryparse/)(const [String](../string/)&, [Globalization::NumberStyles](../../system.globalization/numberstyles/), std::nullptr_t, **uint8_t**&) |  |
 ## Fields
 
 | Field | Description |

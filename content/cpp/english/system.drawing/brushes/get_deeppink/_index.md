@@ -1,7 +1,7 @@
 ---
 title: get_DeepPink()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFF1493.
+description: "Returns the solid fill color whose hexadecimal value is #FFFF1493."
 type: docs
 weight: 495
 url: /system.drawing/brushes/get_deeppink/

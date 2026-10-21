@@ -148,6 +148,13 @@ System::SharedPtr<IImage> Aspose::Slides::Slide::GetImage(System::SharedPtr<Expo
 
 Image object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions::BottomFull. |
+
+
 ## Slide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>) method
 
 
@@ -167,6 +174,13 @@ System::SharedPtr<IImage> Aspose::Slides::Slide::GetImage(System::SharedPtr<Expo
 ### Return Value
 
 Image object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions::BottomFull |
+
 
 ## Slide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
 
@@ -189,6 +203,13 @@ System::SharedPtr<IImage> Aspose::Slides::Slide::GetImage(System::SharedPtr<Expo
 ### Return Value
 
 Bitmap objects.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions::BottomFull |
+
 ## Remarks
 
 
@@ -237,6 +258,13 @@ System::SharedPtr<IImage> Aspose::Slides::Slide::GetImage(System::SharedPtr<Expo
 ### Return Value
 
 Image object.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions::BottomFull. |
+
 
 ## See Also
 

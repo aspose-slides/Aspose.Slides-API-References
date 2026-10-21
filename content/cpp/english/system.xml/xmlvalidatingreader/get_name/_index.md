@@ -18,7 +18,7 @@ String System::Xml::XmlValidatingReader::get_Name() override
 
 ### Return Value
 
-The qualified name of the current node. For example, **Name** is **bk:book** for the element **<bk:book>**.
+The qualified name of the current node. For example, **Name** is **bk:book** for the element **\<bk:book\>**.
 ## Remarks
 
 

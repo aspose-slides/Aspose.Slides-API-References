@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.security/securityelement/set_tag/
 ---
-## SecurityElement::set_Tag(const String\&) method
+## SecurityElement::set_Tag(const String&) method
 
 
 Sets tag name.
@@ -20,7 +20,7 @@ void System::Security::SecurityElement::set_Tag(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Tag name. |
+| value | const [String](../../../system/string/)& | Tag name. |
 
 ## See Also
 

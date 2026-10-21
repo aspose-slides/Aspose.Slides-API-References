@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.linq/iorderedenumerable/linq_thenby/
 ---
-## IOrderedEnumerable::LINQ_ThenBy(const Func\<T, Key\>\&) method
+## IOrderedEnumerable::LINQ_ThenBy(const Func\<T, Key\>&) method
 
 
 Performs a subsequent ordering of the elements in a sequence in ascending order according to a key.
@@ -26,13 +26,13 @@ template<typename Key> SharedPtr<IOrderedEnumerable<T>> System::Linq::IOrderedEn
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keySelector | const [Func](../../../system/func/)\<T, Key\>\& | A function to extract a key from each element. |
+| keySelector | const [Func](../../../system/func/)\<T, Key\>& | A function to extract a key from each element. |
 
 ### Return Value
 
 [System::Linq::IOrderedEnumerable](../) whose elements are sorted according to a key.
 
-## IOrderedEnumerable::LINQ_ThenBy(const Func\<Source, Key\>\&) method
+## IOrderedEnumerable::LINQ_ThenBy(const Func\<Source, Key\>&) method
 
 
 

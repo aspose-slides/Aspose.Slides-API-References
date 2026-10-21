@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.io/path/hasextension/
 ---
-## Path::HasExtension(const String\&) method
+## Path::HasExtension(const String&) method
 
 
 Determines if the specified path references a file with extension.
@@ -20,7 +20,7 @@ static bool System::IO::Path::HasExtension(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to check |
+| path | const [String](../../../system/string/)& | A path to check |
 
 ### Return Value
 

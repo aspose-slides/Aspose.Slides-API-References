@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /system/string/compare/
 ---
-## String::Compare(const String\&, int, const String\&, int, int, bool) method
+## String::Compare(const String&, int, const String&, int, int, bool) method
 
 
 Less-equal-greater-compares two substrings.
@@ -20,9 +20,9 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
+| strA | const [String](../)& | First string to compare. |
 | indexA | int | Beginning of first string substring. |
-| strB | const [String](../)\& | Second string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | indexB | int | Beginning of the second string substring. |
 | length | int | Number of characters to compare. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
@@ -31,7 +31,7 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## String::Compare(const String\&, int, const String\&, int, int, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) method
+## String::Compare(const String&, int, const String&, int, int, bool, const SharedPtr\<System::Globalization::CultureInfo\>&) method
 
 
 Less-equal-greater-compares two substrings.
@@ -45,19 +45,19 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
+| strA | const [String](../)& | First string to compare. |
 | indexA | int | Beginning of first string substring. |
-| strB | const [String](../)\& | Second string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | indexB | int | Beginning of the second string substring. |
 | length | int | Number of characters to compare. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
-| ci | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use for comparison. |
+| ci | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use for comparison. |
 
 ### Return Value
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## String::Compare(const String\&, const String\&, System::StringComparison) method
+## String::Compare(const String&, const String&, System::StringComparison) method
 
 
 Less-equal-greater-compares two strings.
@@ -71,15 +71,15 @@ static int System::String::Compare(const String &strA, const String &strB, Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
-| strB | const [String](../)\& | Second string to compare. |
+| strA | const [String](../)& | First string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
 
 ### Return Value
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## String::Compare(const String\&, int, const String\&, int, int, System::StringComparison) method
+## String::Compare(const String&, int, const String&, int, int, System::StringComparison) method
 
 
 Less-equal-greater-compares two strings.
@@ -93,9 +93,9 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
+| strA | const [String](../)& | First string to compare. |
 | indexA | int | Beginning of first string substring. |
-| strB | const [String](../)\& | Second string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | indexB | int | Beginning of the second string substring. |
 | length | int | Number of characters to compare. |
 | comparison_type | [System::StringComparison](../../stringcomparison/) | [Comparison](../../comparison/) mode. |
@@ -104,7 +104,7 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## String::Compare(const String\&, const String\&, bool) method
+## String::Compare(const String&, const String&, bool) method
 
 
 Less-equal-greater-compares two strings.
@@ -118,15 +118,15 @@ static int System::String::Compare(const String &strA, const String &strB, bool 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
-| strB | const [String](../)\& | Second string to compare. |
+| strA | const [String](../)& | First string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
 
 ### Return Value
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## String::Compare(const String\&, const String\&, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) method
+## String::Compare(const String&, const String&, bool, const SharedPtr\<System::Globalization::CultureInfo\>&) method
 
 
 Less-equal-greater-compares two strings.
@@ -140,10 +140,10 @@ static int System::String::Compare(const String &strA, const String &strB, bool 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| strA | const [String](../)\& | First string to compare. |
-| strB | const [String](../)\& | Second string to compare. |
+| strA | const [String](../)& | First string to compare. |
+| strB | const [String](../)& | Second string to compare. |
 | ignoreCase | **bool** | Specifies whether comparison is case-insensitive. |
-| ci | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\& | Culture to use for comparison. |
+| ci | const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>& | Culture to use for comparison. |
 
 ### Return Value
 

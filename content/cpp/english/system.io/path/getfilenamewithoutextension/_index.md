@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.io/path/getfilenamewithoutextension/
 ---
-## Path::GetFileNameWithoutExtension(const String\&) method
+## Path::GetFileNameWithoutExtension(const String&) method
 
 
 Returns the name without extension of the file referenced by the specified path.
@@ -20,7 +20,7 @@ static String System::IO::Path::GetFileNameWithoutExtension(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | A path to a file |
+| path | const [String](../../../system/string/)& | A path to a file |
 
 ### Return Value
 

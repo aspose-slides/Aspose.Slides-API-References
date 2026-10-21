@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaparticle/set_minoccursstring/
 ---
-## XmlSchemaParticle::set_MinOccursString(const String\&) method
+## XmlSchemaParticle::set_MinOccursString(const String&) method
 
 
 Sets the number as a string value. The minimum number of times the particle can occur.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaParticle::set_MinOccursString(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

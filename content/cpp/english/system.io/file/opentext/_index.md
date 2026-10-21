@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /system.io/file/opentext/
 ---
-## File::OpenText(const String\&, const EncodingPtr\&) method
+## File::OpenText(const String&, const EncodingPtr&) method
 
 
 Opens the specified existing file for reading text using UTF-8 encoding with no sharing.
@@ -20,8 +20,8 @@ static StreamReaderPtr System::IO::File::OpenText(const String &path, const Enco
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path of the file to open |
-| encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The character encoding to use |
+| path | const [String](../../../system/string/)& | The path of the file to open |
+| encoding | const [EncodingPtr](../../../system/encodingptr/)& | The character encoding to use |
 
 ### Return Value
 

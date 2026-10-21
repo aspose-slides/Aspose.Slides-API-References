@@ -286,6 +286,13 @@ void Aspose::Slides::Presentation::Save(System::SharedPtr<System::IO::Stream> st
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::NotSupportedException](../../../system/notsupportedexception/) | If you try to save encrypted file in none Office 2007-2010 format |
+
+
 ## Presentation::Save(System::SharedPtr\<Export::Xaml::IXamlOptions\>) method
 
 
@@ -334,6 +341,15 @@ void Aspose::Slides::Presentation::Save(System::String fname, System::ArrayPtr<i
 | fname | [System::String](../../../system/string/) | Path to the created file. |
 | slides | [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\> | Array with slide positions, starting from 1. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | When stream or slides parameter is null. |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | When slides parameter contains wrong page numbers. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
 
 ## Presentation::Save(System::String, System::ArrayPtr\<int32_t\>, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>) method
 
@@ -390,6 +406,15 @@ void Aspose::Slides::Presentation::Save(System::SharedPtr<System::IO::Stream> st
 | slides | [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\> | Array with slide positions, starting from 1. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | When stream or slides parameter is null. |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | When slides parameter contains wrong page numbers. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.xml.xpath/xpathnavigator/lookupprefix/
 ---
-## XPathNavigator::LookupPrefix(const String\&) method
+## XPathNavigator::LookupPrefix(const String&) method
 
 
 Returns the prefix declared for the specified namespace URI.
@@ -20,7 +20,7 @@ String System::Xml::XPath::XPathNavigator::LookupPrefix(const String &namespaceU
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceURI | const [String](../../../system/string/)\& | The namespace URI to resolve for the prefix. |
+| namespaceURI | const [String](../../../system/string/)& | The namespace URI to resolve for the prefix. |
 
 ### Return Value
 

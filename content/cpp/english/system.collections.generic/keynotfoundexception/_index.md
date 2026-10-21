@@ -1,9 +1,9 @@
 ---
 title: KeyNotFoundException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: KeyNotFoundException typedef
 type: docs
-weight: 729
+weight: 742
 url: /system.collections.generic/keynotfoundexception/
 ---
 ## KeyNotFoundException typedef

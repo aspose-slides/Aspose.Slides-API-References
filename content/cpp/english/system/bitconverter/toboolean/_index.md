@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/bitconverter/toboolean/
 ---
-## BitConverter::ToBoolean(const System::ArrayPtr\<uint8_t\>\&, int) method
+## BitConverter::ToBoolean(const System::ArrayPtr\<uint8_t\>&, int) method
 
 
 Converts one byte from the specified array starting at the specified index to boolean value.
@@ -20,14 +20,14 @@ static bool System::BitConverter::ToBoolean(const System::ArrayPtr<uint8_t> &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | [Array](../../array/) that contains bytes to convert |
+| value | const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>& | [Array](../../array/) that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value
 
 [Boolean](../../boolean/) value resulting from conversion
 
-## BitConverter::ToBoolean(const System::Details::ArrayView\<uint8_t\>\&, int) method
+## BitConverter::ToBoolean(const System::Details::ArrayView\<uint8_t\>&, int) method
 
 
 Converts one byte from the specified array starting at the specified index to boolean value.
@@ -41,7 +41,7 @@ static bool System::BitConverter::ToBoolean(const System::Details::ArrayView<uin
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::Details::ArrayView\<**uint8_t**\>\& | ArrayView that contains bytes to convert |
+| value | const System::Details::ArrayView\<**uint8_t**\>& | ArrayView that contains bytes to convert |
 | startIndex | int | [Index](../../index/) in the array at which to start taking bytes for conversion |
 
 ### Return Value

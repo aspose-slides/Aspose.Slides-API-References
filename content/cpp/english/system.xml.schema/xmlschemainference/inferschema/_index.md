@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml.schema/xmlschemainference/inferschema/
 ---
-## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>\&) method
+## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>&) method
 
 
 Infers an XML [Schema](../../) Definition Language (XSD) schema from the XML document contained in the [XmlReader](../../../system.xml/xmlreader/) object specified.
@@ -20,13 +20,21 @@ SharedPtr<XmlSchemaSet> System::Xml::Schema::XmlSchemaInference::InferSchema(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| instanceDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | An [XmlReader](../../../system.xml/xmlreader/) object containing the XML document to infer a schema from. |
+| instanceDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | An [XmlReader](../../../system.xml/xmlreader/) object containing the XML document to infer a schema from. |
 
 ### Return Value
 
 An [XmlSchemaSet](../../xmlschemaset/) object containing the inferred schemas.
 
-## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>\&, SharedPtr\<XmlSchemaSet\>) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The XML document is not well-formed. |
+| XmlSchemaInferenceException | The [XmlReader](../../../system.xml/xmlreader/) object is not positioned on the root node or on an element. An error occurs during the schema inference process. |
+
+
+## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>&, SharedPtr\<XmlSchemaSet\>) method
 
 
 Infers an XML [Schema](../../) Definition Language (XSD) schema from the XML document contained in the [XmlReader](../../../system.xml/xmlreader/) object specified, and refines the inferred schema using an existing schema in the [XmlSchemaSet](../../xmlschemaset/) object specified with the same target namespace.
@@ -40,12 +48,20 @@ SharedPtr<XmlSchemaSet> System::Xml::Schema::XmlSchemaInference::InferSchema(con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| instanceDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | An [XmlReader](../../../system.xml/xmlreader/) object containing the XML document to infer a schema from. |
+| instanceDocument | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>& | An [XmlReader](../../../system.xml/xmlreader/) object containing the XML document to infer a schema from. |
 | schemas | [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../../xmlschemaset/)\> | An [XmlSchemaSet](../../xmlschemaset/) object containing an existing schema used to refine the inferred schema. |
 
 ### Return Value
 
 An [XmlSchemaSet](../../xmlschemaset/) object containing the inferred schemas.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| XmlException | The XML document is not well-formed. |
+| XmlSchemaInferenceException | The [XmlReader](../../../system.xml/xmlreader/) object is not positioned on the root node or on an element. An error occurs during the schema inference process. |
+
 
 ## See Also
 

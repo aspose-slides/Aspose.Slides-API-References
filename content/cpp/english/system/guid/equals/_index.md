@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/guid/equals/
 ---
-## Guid::Equals(const Guid\&) const method
+## Guid::Equals(const Guid&) const method
 
 
 Determines if the GUIDs represented by the current and specified objects are equal.
@@ -20,7 +20,7 @@ bool System::Guid::Equals(const Guid &g) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| g | const [Guid](../)\& | The comparand |
+| g | const [Guid](../)& | The comparand |
 
 ### Return Value
 

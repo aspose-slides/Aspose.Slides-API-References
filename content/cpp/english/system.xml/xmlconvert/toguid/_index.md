@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system.xml/xmlconvert/toguid/
 ---
-## XmlConvert::ToGuid(const String\&) method
+## XmlConvert::ToGuid(const String&) method
 
 
 Converts the [String](../../../system/string/) to a [Guid](../../../system/guid/) equivalent.
@@ -20,7 +20,7 @@ static Guid System::Xml::XmlConvert::ToGuid(const String &s)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| s | const [String](../../../system/string/)\& | The string to convert. |
+| s | const [String](../../../system/string/)& | The string to convert. |
 
 ### Return Value
 

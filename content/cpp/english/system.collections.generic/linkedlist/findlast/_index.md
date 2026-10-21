@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.collections.generic/linkedlist/findlast/
 ---
-## LinkedList::FindLast(const T\&) const method
+## LinkedList::FindLast(const T&) const method
 
 
 Performs reverse direction find of an **element** in the list.
@@ -20,7 +20,7 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::FindLa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | const T\& | Element to find. |
+| element | const T& | Element to find. |
 
 ### Return Value
 

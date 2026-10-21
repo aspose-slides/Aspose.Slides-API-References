@@ -18,7 +18,14 @@ virtual System::String Aspose::Slides::Charts::IChartData::GetRange()=0
 
 ### Return Value
 
-Cells data range formula. E.g: \"Sheet1!$A$1:$C$4\"
+Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | [Chart](../../chart/) doesn't use workbook as a data source |
+
 ## Remarks
 
 

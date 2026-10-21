@@ -15,7 +15,7 @@ Converts value represented by current object to string.
 String System::Collections::Specialized::BitVector32::ToString() const
 ```
 
-## BitVector32::ToString(const BitVector32\&) method
+## BitVector32::ToString(const BitVector32&) method
 
 
 Converts value represented by value parameter to string.
@@ -29,7 +29,7 @@ static String System::Collections::Specialized::BitVector32::ToString(const BitV
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [BitVector32](../)\& | object to be converted |
+| value | const [BitVector32](../)& | object to be converted |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: "System::Xml::Schema"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Xml::Schema namespace"
 type: docs
 weight: 1158
 url: /system.xml.schema/
@@ -63,7 +63,7 @@ url: /system.xml.schema/
 | [XmlSchemaMinExclusiveFacet](./xmlschemaminexclusivefacet/) | Represents the **minExclusive** element from XML [Schema](./) as specified by the World Wide [Web](../system.web/) Consortium (W3C). This class can be used to specify a restriction on the minimum value of a **simpleType** element. The element value must be greater than the value of the **minExclusive** element. |
 | [XmlSchemaMinInclusiveFacet](./xmlschemamininclusivefacet/) | Represents the **minInclusive** element from XML [Schema](./) as specified by the World Wide [Web](../system.web/) Consortium (W3C). This class can be used to specify a restriction on the minimum value of a simpleType element. The element value must be greater than or equal to the value of the **minInclusive** element. |
 | [XmlSchemaMinLengthFacet](./xmlschemaminlengthfacet/) | Represents the **minLength** element from XML [Schema](./) as specified by the World Wide [Web](../system.web/) Consortium (W3C). This class can be used to specify a restriction on the minimum length of the data value of a **simpleType** element. The length must be greater than the value of the **minLength** element. |
-| [XmlSchemaNotation](./xmlschemanotation/) | Represents the **notation** element from XML [Schema](./) as specified by the World Wide [Web](../system.web/) Consortium (W3C). An XML [Schema](./)**notation** declaration is a reconstruction of **XML** 1.0 NOTATION declarations. The purpose of notations is to describe the format of non-XML data within an XML document. |
+| [XmlSchemaNotation](./xmlschemanotation/) | Represents the **notation** element from XML [Schema](./) as specified by the World Wide [Web](../system.web/) Consortium (W3C). An XML [Schema](./) **notation** declaration is a reconstruction of **XML** 1.0 NOTATION declarations. The purpose of notations is to describe the format of non-XML data within an XML document. |
 | [XmlSchemaNumericFacet](./xmlschemanumericfacet/) | A vase class for defining **numeric** facets. This class is the base class for numeric facet classes such as [XmlSchemaMinLengthFacet](./xmlschemaminlengthfacet/). |
 | [XmlSchemaObject](./xmlschemaobject/) | Represents the root class for the [Xml](../system.xml/) schema object model hierarchy and serves as a base class for classes such as the [XmlSchema](./xmlschema/) class. |
 | [XmlSchemaObjectCollection](./xmlschemaobjectcollection/) | A collection of XmlSchemaObjects. |

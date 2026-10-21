@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /system/string/concat/
 ---
-## String::Concat(const ArrayPtr\<String\>\&) method
+## String::Concat(const ArrayPtr\<String\>&) method
 
 
 Concatenates strings.
@@ -20,13 +20,13 @@ static String System::String::Concat(const ArrayPtr<String> &parts)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parts | const [ArrayPtr](../../arrayptr/)\<[String](../)\>\& | Strings to concatenate. |
+| parts | const [ArrayPtr](../../arrayptr/)\<[String](../)\>& | Strings to concatenate. |
 
 ### Return Value
 
 [String](../) containing concatenated strings.
 
-## String::Concat(const String\&, const String\&) method
+## String::Concat(const String&, const String&) method
 
 
 Concatenates strings.
@@ -40,14 +40,14 @@ static String System::String::Concat(const String &str0, const String &str1)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../)\& | First string to concatenate. |
-| str1 | const [String](../)\& | Second string to concatenate. |
+| str0 | const [String](../)& | First string to concatenate. |
+| str1 | const [String](../)& | Second string to concatenate. |
 
 ### Return Value
 
 [String](../) containing concatenated strings.
 
-## String::Concat(const String\&, const String\&, const String\&) method
+## String::Concat(const String&, const String&, const String&) method
 
 
 Concatenates strings.
@@ -61,15 +61,15 @@ static String System::String::Concat(const String &str0, const String &str1, con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../)\& | First string to concatenate. |
-| str1 | const [String](../)\& | Second string to concatenate. |
-| str2 | const [String](../)\& | Third string to concatenate. |
+| str0 | const [String](../)& | First string to concatenate. |
+| str1 | const [String](../)& | Second string to concatenate. |
+| str2 | const [String](../)& | Third string to concatenate. |
 
 ### Return Value
 
 [String](../) containing concatenated strings.
 
-## String::Concat(const String\&, const String\&, const String\&, const String\&) method
+## String::Concat(const String&, const String&, const String&, const String&) method
 
 
 Concatenates strings.
@@ -83,10 +83,10 @@ static String System::String::Concat(const String &str0, const String &str1, con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str0 | const [String](../)\& | First string to concatenate. |
-| str1 | const [String](../)\& | Second string to concatenate. |
-| str2 | const [String](../)\& | Third string to concatenate. |
-| str3 | const [String](../)\& | Fourth string to concatenate. |
+| str0 | const [String](../)& | First string to concatenate. |
+| str1 | const [String](../)& | Second string to concatenate. |
+| str2 | const [String](../)& | Third string to concatenate. |
+| str3 | const [String](../)& | Fourth string to concatenate. |
 
 ### Return Value
 

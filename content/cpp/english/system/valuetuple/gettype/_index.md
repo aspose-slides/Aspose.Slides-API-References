@@ -1,7 +1,7 @@
 ---
 title: GetType()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ValueTuple::GetType() method"
 type: docs
 weight: 66
 url: /system/valuetuple/gettype/

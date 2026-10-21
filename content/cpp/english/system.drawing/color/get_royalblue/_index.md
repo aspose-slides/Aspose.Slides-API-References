@@ -1,7 +1,7 @@
 ---
 title: get_RoyalBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF4169E1.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF4169E1."
 type: docs
 weight: 1782
 url: /system.drawing/color/get_royalblue/

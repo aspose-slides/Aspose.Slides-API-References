@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/range/startat/
 ---
-## Range::StartAt(const Index\&) method
+## Range::StartAt(const Index&) method
 
 
 Creates a range that begins at the specified start index and extends to the end of the collection.
@@ -20,7 +20,7 @@ static constexpr Range System::Range::StartAt(const Index &start) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| start | const [Index](../../index/)\& | The starting index of the range. |
+| start | const [Index](../../index/)& | The starting index of the range. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CellCircularReferenceException typedef
 type: docs
 weight: 53
 url: /aspose.slides.spreadsheet/cellcircularreferenceexception/

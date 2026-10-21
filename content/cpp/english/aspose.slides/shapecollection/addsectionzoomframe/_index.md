@@ -29,10 +29,17 @@ System::SharedPtr<ISectionZoomFrame> Aspose::Slides::ShapeCollection::AddSection
 ### Return Value
 
 The newly created [ISectionZoomFrame](../../isectionzoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
+
 ## Remarks
 
 
-This example demonstrates adding a [Section](../../section/) Zoom object to the end of a collection (assume that there are at least two sections in the \"Presentation.pptx\" presentation): 
+This example demonstrates adding a [Section](../../section/) Zoom object to the end of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation): 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 auto shapes = pres->get_Slides()->idx_get(0)->get_Shapes();
@@ -65,10 +72,17 @@ System::SharedPtr<ISectionZoomFrame> Aspose::Slides::ShapeCollection::AddSection
 ### Return Value
 
 The newly created [ISectionZoomFrame](../../isectionzoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
+
 ## Remarks
 
 
-This example demonstrates adding a [Section](../../section/) Zoom object to the end of a collection (assume that there are at least two sections in the \"Presentation.pptx\" presentation): 
+This example demonstrates adding a [Section](../../section/) Zoom object to the end of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation): 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 auto shapes = pres->get_Slides()->idx_get(0)->get_Shapes();

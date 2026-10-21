@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /system.collections.generic/list/sort/
 ---
-## List::Sort(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) method
+## List::Sort(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>&) method
 
 
 Sorts elements in the list.
@@ -20,7 +20,7 @@ void System::Collections::Generic::List<T>::Sort(const SharedPtr<System::Collect
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparator | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | Comparator to use. |
+| comparator | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>& | Comparator to use. |
 
 ## List::Sort() method
 

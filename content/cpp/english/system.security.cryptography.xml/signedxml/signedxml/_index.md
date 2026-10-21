@@ -1,7 +1,7 @@
 ---
 title: SignedXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::SignedXml() constructor"
 type: docs
 weight: 131
 url: /system.security.cryptography.xml/signedxml/signedxml/

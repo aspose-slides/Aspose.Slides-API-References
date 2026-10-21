@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.drawing.imaging/metafile/metafile/
 ---
-## Metafile::Metafile(const System::String\&) constructor
+## Metafile::Metafile(const System::String&) constructor
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ System::Drawing::Imaging::Metafile::Metafile(const System::String &filename)
 ```
 
 
-## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>&) constructor
 
 
 NOT IMPLEMENTED.
@@ -26,7 +33,14 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, EmfType) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>&, IntPtr, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -36,7 +50,14 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>&, IntPtr) constructor
 
 
 NOT IMPLEMENTED.
@@ -46,7 +67,14 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, Rectangle, MetafileFrameUnit, EmfType) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>&, IntPtr, Rectangle, MetafileFrameUnit, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -56,7 +84,14 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, RectangleF, MetafileFrameUnit, EmfType) constructor
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>&, IntPtr, RectangleF, MetafileFrameUnit, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -64,6 +99,13 @@ NOT IMPLEMENTED.
 ```cpp
 System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream> &stream, IntPtr hdc, RectangleF rect, MetafileFrameUnit frameUnit, EmfType type)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## Metafile::Metafile(IntPtr, EmfType) constructor
@@ -74,6 +116,13 @@ NOT IMPLEMENTED.
 ```cpp
 System::Drawing::Imaging::Metafile::Metafile(IntPtr, EmfType)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

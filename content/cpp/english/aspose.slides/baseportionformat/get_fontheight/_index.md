@@ -9,7 +9,7 @@ url: /aspose.slides/baseportionformat/get_fontheight/
 ## BasePortionFormat::get_FontHeight() method
 
 
-Returns the font height of a portion. **std::numeric_limits<float>::quiet_NaN()** means height is undefined and should be inherited from the Master. Read **float**.
+Returns the font height of a portion. **std::numeric_limits\<float\>::quiet_NaN()** means height is undefined and should be inherited from the Master. Read **float**.
 
 ```cpp
 float Aspose::Slides::BasePortionFormat::get_FontHeight() override

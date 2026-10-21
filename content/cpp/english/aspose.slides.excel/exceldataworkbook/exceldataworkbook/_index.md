@@ -22,6 +22,13 @@ Aspose::Slides::Excel::ExcelDataWorkbook::ExcelDataWorkbook(System::String fileP
 | --- | --- | --- |
 | filePath | [System::String](../../../system/string/) | The full path to the [Excel](../../) workbook file. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::IO::FileNotFoundException](../../../system.io/filenotfoundexception/) | Thrown when the specified file does not exist. |
+
+
 ## ExcelDataWorkbook::ExcelDataWorkbook(System::SharedPtr\<System::IO::Stream\>) constructor
 
 

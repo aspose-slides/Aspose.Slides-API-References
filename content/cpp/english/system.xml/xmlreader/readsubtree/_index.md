@@ -20,6 +20,13 @@ virtual SharedPtr<XmlReader> System::Xml::XmlReader::ReadSubtree()
 
 A new XML reader instance set to [ReadState::Initial](../../readstate/). Calling the [XmlReader::Read](../read/) method positions the new reader on the node that was current before the call to the [XmlReader::ReadSubtree](./) method.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | The XML reader isn't positioned on an element when this method is called. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

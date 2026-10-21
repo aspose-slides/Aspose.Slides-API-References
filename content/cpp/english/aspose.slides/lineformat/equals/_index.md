@@ -1,7 +1,7 @@
 ---
 title: Equals()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "LineFormat::Equals() method"
 type: docs
 weight: 404
 url: /aspose.slides/lineformat/equals/

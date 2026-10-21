@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml/xmlattributecollection/append/
 ---
-## XmlAttributeCollection::Append(const SharedPtr\<XmlAttribute\>\&) method
+## XmlAttributeCollection::Append(const SharedPtr\<XmlAttribute\>&) method
 
 
 Inserts the specified attribute as the last node in the collection.
@@ -20,11 +20,18 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::Append(const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\& | The attribute to insert. |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>& | The attribute to insert. |
 
 ### Return Value
 
 The [XmlAttribute](../../xmlattribute/) to append to the collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | **node** was created from a document different from the one that created this collection. |
+
 
 ## See Also
 

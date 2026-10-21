@@ -1,7 +1,7 @@
 ---
 title: get_Wheat()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFF5DEB3.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFF5DEB3."
 type: docs
 weight: 2042
 url: /system.drawing/color/get_wheat/

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.globalization/sortkey/compare/
 ---
-## SortKey::Compare(const SortKeyPtr\&, const SortKeyPtr\&) method
+## SortKey::Compare(const SortKeyPtr&, const SortKeyPtr&) method
 
 
 Compares two sort keys.
@@ -20,8 +20,8 @@ static int System::Globalization::SortKey::Compare(const SortKeyPtr &sortkey1, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sortkey1 | const [SortKeyPtr](../../sortkeyptr/)\& | First sort key. |
-| sortkey2 | const [SortKeyPtr](../../sortkeyptr/)\& | Second sort key. |
+| sortkey1 | const [SortKeyPtr](../../sortkeyptr/)& | First sort key. |
+| sortkey2 | const [SortKeyPtr](../../sortkeyptr/)& | Second sort key. |
 
 ### Return Value
 

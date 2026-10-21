@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.security.cryptography/eccurve/createfromvalue/
 ---
-## ECCurve::CreateFromValue(const String\&) method
+## ECCurve::CreateFromValue(const String&) method
 
 
 Create a curve from the specified OID value.

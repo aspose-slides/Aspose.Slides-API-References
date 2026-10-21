@@ -1,7 +1,7 @@
 ---
 title: SoapException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: SoapException typedef
 type: docs
 weight: 222
 url: /system.web.services.protocols/soapexception/

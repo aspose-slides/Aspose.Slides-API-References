@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/console/setout/
 ---
-## Console::SetOut(const SharedPtr\<System::IO::TextWriter\>\&) method
+## Console::SetOut(const SharedPtr\<System::IO::TextWriter\>&) method
 
 
 Assigns the specified object to the class' Out property.
@@ -20,7 +20,7 @@ static void System::Console::SetOut(const SharedPtr<System::IO::TextWriter> &val
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWrite object to assign to the Out property |
+| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextWriter](../../../system.io/textwriter/)\>& | The TextWrite object to assign to the Out property |
 
 ## See Also
 

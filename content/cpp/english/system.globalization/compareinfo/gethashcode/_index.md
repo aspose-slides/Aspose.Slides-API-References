@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.globalization/compareinfo/gethashcode/
 ---
-## CompareInfo::GetHashCode(const String\&, CompareOptions) const method
+## CompareInfo::GetHashCode(const String&, CompareOptions) const method
 
 
 Gets string hash code based on specified comparison options.
@@ -20,7 +20,7 @@ virtual int System::Globalization::CompareInfo::GetHashCode(const String &value,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Input string. |
+| value | const [String](../../../system/string/)& | Input string. |
 | options | [CompareOptions](../../compareoptions/) | [String](../../../system/string/) comparsion options. |
 
 ### Return Value

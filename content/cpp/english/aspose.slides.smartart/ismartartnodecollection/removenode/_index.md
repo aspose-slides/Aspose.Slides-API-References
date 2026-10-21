@@ -22,6 +22,13 @@ virtual void Aspose::Slides::SmartArt::ISmartArtNodeCollection::RemoveNode(int32
 | --- | --- | --- |
 | index | **int32_t** | Zero-based index of node |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | index is less than 0. -or- index is equal to or greater than siblings count. |
+
+
 ## ISmartArtNodeCollection::RemoveNode(System::SharedPtr\<ISmartArtNode\>) method
 
 

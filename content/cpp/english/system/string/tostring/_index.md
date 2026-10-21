@@ -20,7 +20,7 @@ String System::String::ToString() const
 
 Copy of current string. It is considered a null string if current string is a null string.
 
-## String::ToString(const SharedPtr\<IFormatProvider\>\&) const method
+## String::ToString(const SharedPtr\<IFormatProvider\>&) const method
 
 
 Wrapper for handling [String](../) class in contexts where [ToString()](./) is being called on value type objects.

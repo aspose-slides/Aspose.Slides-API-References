@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.reflection/memberinfo/addattribute/
 ---
-## MemberInfo::AddAttribute(const ObjectPtr\&) method
+## MemberInfo::AddAttribute(const ObjectPtr&) method
 
 
 Adds attribute to collection.
@@ -20,7 +20,7 @@ void System::Reflection::MemberInfo::AddAttribute(const ObjectPtr &attribute)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| attribute | const [ObjectPtr](../objectptr/)\& | [Attribute](../../../system/attribute/) to add to current member. |
+| attribute | const [ObjectPtr](../objectptr/)& | [Attribute](../../../system/attribute/) to add to current member. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/double/parse/
 ---
-## Double::Parse(const String\&) method
+## Double::Parse(const String&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value.
@@ -20,13 +20,13 @@ static double System::Double::Parse(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
+| value | const [String](../../string/)& | The string to convert. |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string.
 
-## Double::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
+## Double::Parse(const String&, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information.
@@ -40,14 +40,14 @@ static double System::Double::Parse(const String &value, const SharedPtr<IFormat
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information. |
+| value | const [String](../../string/)& | The string to convert. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information. |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string.
 
-## Double::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Double::Parse(const String&, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -56,7 +56,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Double::Parse(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Double::Parse(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Double::Parse(const String&, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -65,7 +65,7 @@ static double System::Double::Parse(const String &value, const SharedPtr<Globali
 static double System::Double::Parse(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Double::Parse(const String\&, std::nullptr_t) method
+## Double::Parse(const String&, std::nullptr_t) method
 
 
 
@@ -74,7 +74,7 @@ static double System::Double::Parse(const String &value, const SharedPtr<Globali
 static double System::Double::Parse(const String &value, std::nullptr_t)
 ```
 
-## Double::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
+## Double::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information and number style.
@@ -88,15 +88,15 @@ static double System::Double::Parse(const String &value, Globalization::NumberSt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string to convert. |
+| value | const [String](../../string/)& | The string to convert. |
 | styles | [Globalization::NumberStyles](../../../system.globalization/numberstyles/) | A bitwise combination of values of NumberStyles enum that specifies the permitted style of the string representation of a number. |
-| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | A pointer to an object that contains the string format information. |
+| provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>& | A pointer to an object that contains the string format information. |
 
 ### Return Value
 
 The double-precision floating-point value equal to the number represented by the specified string.
 
-## Double::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
+## Double::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>&) method
 
 
 
@@ -105,7 +105,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Double::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## Double::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
+## Double::Parse(const String&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>&) method
 
 
 
@@ -114,7 +114,7 @@ static double System::Double::Parse(const String &value, Globalization::NumberSt
 static double System::Double::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## Double::Parse(const String\&, Globalization::NumberStyles, std::nullptr_t) method
+## Double::Parse(const String&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 

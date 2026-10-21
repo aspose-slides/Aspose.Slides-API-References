@@ -1,12 +1,12 @@
 ---
 title: ConfiguredResultTaskAwaitable()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "ConfiguredResultTaskAwaitable::ConfiguredResultTaskAwaitable() constructor"
 type: docs
 weight: 1
 url: /system.runtime.compilerservices/configuredresulttaskawaitable/configuredresulttaskawaitable/
 ---
-## ConfiguredResultTaskAwaitable::ConfiguredResultTaskAwaitable(const RTaskPtr\<T\>\&, bool) constructor
+## ConfiguredResultTaskAwaitable::ConfiguredResultTaskAwaitable(const RTaskPtr\<T\>&, bool) constructor
 
 
 

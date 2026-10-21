@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /system.drawing/graphics/drawbezier/
 ---
-## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, const Point\&, const Point\&, const Point\&, const Point\&) method
+## Graphics::DrawBezier(const SharedPtr\<Pen\>&, const Point&, const Point&, const Point&, const Point&) method
 
 
 NOT IMPLEMENTED.
@@ -16,7 +16,14 @@ void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, const Poin
 ```
 
 
-## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, const PointF\&, const PointF\&, const PointF\&, const PointF\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::DrawBezier(const SharedPtr\<Pen\>&, const PointF&, const PointF&, const PointF&, const PointF&) method
 
 
 NOT IMPLEMENTED.
@@ -26,7 +33,14 @@ void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, const Poin
 ```
 
 
-## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, float, float, float, float, float, float, float, float) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
+## Graphics::DrawBezier(const SharedPtr\<Pen\>&, float, float, float, float, float, float, float, float) method
 
 
 NOT IMPLEMENTED.
@@ -34,6 +48,13 @@ NOT IMPLEMENTED.
 ```cpp
 void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
 
 
 ## See Also

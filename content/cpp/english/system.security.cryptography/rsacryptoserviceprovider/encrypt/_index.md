@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.security.cryptography/rsacryptoserviceprovider/encrypt/
 ---
-## RSACryptoServiceProvider::Encrypt(const ByteArrayPtr\&, bool) method
+## RSACryptoServiceProvider::Encrypt(const ByteArrayPtr&, bool) method
 
 
 Encrypts message. Not implemented.
@@ -20,7 +20,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::Encrypt(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rgb | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | [Data](../../../system.data/) to encrypt. |
+| rgb | const [ByteArrayPtr](../../../system/bytearrayptr/)& | [Data](../../../system.data/) to encrypt. |
 | use_oaep | **bool** | True to use OAEP padding, false to use PKCS#1 v1.5 padding. |
 
 ### Return Value

@@ -21,6 +21,14 @@ void Aspose::Slides::MathText::MathMatrix::DeleteRow(int32_t rowIndex) override
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rowIndex | **int32_t** | The zero-based index of the row to delete. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | When you try to delete the last single row in the matrix |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | If rowIndex less than zero or greater or equal to the RowCount |
+
 ## Remarks
 
 

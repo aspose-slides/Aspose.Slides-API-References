@@ -6,7 +6,7 @@ type: docs
 weight: 911
 url: /system/string/fromwcs/
 ---
-## String::FromWCS(const std::wstring\&) method
+## String::FromWCS(const std::wstring&) method
 
 
 Creates [String](../) from widestring.
@@ -20,7 +20,7 @@ static String System::String::FromWCS(const std::wstring &wcs)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wcs | const std::wstring\& | Widestring to convert into [String](../). |
+| wcs | const std::wstring& | Widestring to convert into [String](../). |
 
 ### Return Value
 

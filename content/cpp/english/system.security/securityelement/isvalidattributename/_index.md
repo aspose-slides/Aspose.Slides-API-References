@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /system.security/securityelement/isvalidattributename/
 ---
-## SecurityElement::IsValidAttributeName(const String\&) method
+## SecurityElement::IsValidAttributeName(const String&) method
 
 
 Checks if attribute name is valid.
@@ -20,7 +20,7 @@ static bool System::Security::SecurityElement::IsValidAttributeName(const String
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | Name to check. |
+| name | const [String](../../../system/string/)& | Name to check. |
 
 ### Return Value
 

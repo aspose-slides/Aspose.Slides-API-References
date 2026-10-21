@@ -6,7 +6,7 @@ type: docs
 weight: 2549
 url: /system/dynamiccast_noexcept/
 ---
-## System::DynamicCast_noexcept(const TFrom\&) function
+## System::DynamicCast_noexcept(const TFrom&) function
 
 
 Old obsolete casts. Will be removed in future versions.
@@ -27,7 +27,7 @@ template<typename TTo,typename TFrom> std::enable_if<IsExceptionWrapper<TFrom>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const TFrom\& | Source pointer. |
+| obj | const TFrom& | Source pointer. |
 
 ### Return Value
 
@@ -38,7 +38,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Performs dynamic cast on Exception objects. Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## System::DynamicCast_noexcept(SmartPtr\<TFrom\> const\&) function
+## System::DynamicCast_noexcept(SmartPtr\<TFrom\> const&) function
 
 
 Performs dynamic cast on [SmartPtr](../smartptr/) objects.
@@ -59,7 +59,7 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TTo>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 

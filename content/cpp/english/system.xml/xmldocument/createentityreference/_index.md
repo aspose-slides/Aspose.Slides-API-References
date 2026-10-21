@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /system.xml/xmldocument/createentityreference/
 ---
-## XmlDocument::CreateEntityReference(const String\&) method
+## XmlDocument::CreateEntityReference(const String&) method
 
 
 Creates an [XmlEntityReference](../../xmlentityreference/) with the specified name.
@@ -20,11 +20,18 @@ virtual SharedPtr<XmlEntityReference> System::Xml::XmlDocument::CreateEntityRefe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the entity reference. |
+| name | const [String](../../../system/string/)& | The name of the entity reference. |
 
 ### Return Value
 
 The new [XmlEntityReference](../../xmlentityreference/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The name is invalid (for example, names starting with '#' are invalid.) |
+
 
 ## See Also
 

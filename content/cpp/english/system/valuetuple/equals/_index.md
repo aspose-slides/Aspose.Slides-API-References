@@ -26,7 +26,7 @@ bool System::ValueTuple<Args>::Equals(SharedPtr<Object> obj)
 
 True if the current and the specified objects are identical, otherwise - false
 
-## ValueTuple::Equals(const ValueTuple\&) method
+## ValueTuple::Equals(const ValueTuple&) method
 
 
 

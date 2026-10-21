@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system/console/seterror/
 ---
-## Console::SetError(const SharedPtr\<System::IO::TextWriter\>\&) method
+## Console::SetError(const SharedPtr\<System::IO::TextWriter\>&) method
 
 
 Assigns the specified object to the class' Error property.
@@ -20,7 +20,7 @@ static void System::Console::SetError(const SharedPtr<System::IO::TextWriter> &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWrite object to assign to the Error property |
+| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextWriter](../../../system.io/textwriter/)\>& | The TextWrite object to assign to the Error property |
 
 ## See Also
 

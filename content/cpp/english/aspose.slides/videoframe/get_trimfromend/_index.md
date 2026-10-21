@@ -9,7 +9,7 @@ url: /aspose.slides/videoframe/get_trimfromend/
 ## VideoFrame::get_TrimFromEnd() method
 
 
-Trim end [ms]
+Trim end \[ms\]
 
 ```cpp
 float Aspose::Slides::VideoFrame::get_TrimFromEnd() override

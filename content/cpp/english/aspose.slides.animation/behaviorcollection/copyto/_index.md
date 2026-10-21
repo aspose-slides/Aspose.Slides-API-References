@@ -23,6 +23,15 @@ void Aspose::Slides::Animation::BehaviorCollection::CopyTo(System::ArrayPtr<Syst
 | array | [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IBehavior](../../ibehavior/)\>\> | The one-dimensional [System::Array](../../../system/array/) that is the destination of the elements copied from [ICollection](../../../system.collections.generic/icollection/). The [System::Array](../../../system/array/) must have zero-based indexing. |
 | arrayIndex | **int32_t** | The zero-based index in *array*  at which copying begins. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | *array*  is null. |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | *arrayIndex*  is less than 0. |
+| [System::ArgumentException](../../../system/argumentexception/) | The number of elements in the source [ICollection](../../../system.collections.generic/icollection/) is greater than the available space from *arrayIndex*  to the end of the destination *array* . |
+
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

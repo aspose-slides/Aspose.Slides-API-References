@@ -22,6 +22,13 @@ void System::Xml::XmlTextWriter::WriteWhitespace(String ws) override
 | --- | --- | --- |
 | ws | [String](../../../system/string/) | The string of white space characters. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The string contains non-white space characters. |
+
+
 ## See Also
 
 * Class [String](../../../system/string/)

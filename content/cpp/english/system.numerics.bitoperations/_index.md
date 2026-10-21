@@ -1,7 +1,7 @@
 ---
 title: "System::Numerics::BitOperations"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Numerics::BitOperations namespace"
 type: docs
 weight: 755
 url: /system.numerics.bitoperations/

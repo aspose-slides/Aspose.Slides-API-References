@@ -9,7 +9,7 @@ url: /aspose.slides/ilineformat/get_customdashpattern/
 ## ILineFormat::get_CustomDashPattern() method
 
 
-Returns the custom dash pattern. Read **float**[].
+Returns the custom dash pattern. Read **float**\[\].
 
 ```cpp
 virtual System::ArrayPtr<float> Aspose::Slides::ILineFormat::get_CustomDashPattern()=0

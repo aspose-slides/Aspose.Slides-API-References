@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.drawing.drawing2d/pathdata/set_points/
 ---
-## PathData::set_Points(const ArrayPtr\<PointF\>\&) method
+## PathData::set_Points(const ArrayPtr\<PointF\>&) method
 
 
 Sets an array containing the points that make up a path.
@@ -20,7 +20,7 @@ void System::Drawing::Drawing2D::PathData::set_Points(const ArrayPtr<PointF> &va
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | The array to set |
+| value | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>& | The array to set |
 
 ## See Also
 

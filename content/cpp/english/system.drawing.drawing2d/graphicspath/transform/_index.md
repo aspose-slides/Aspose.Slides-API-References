@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.drawing.drawing2d/graphicspath/transform/
 ---
-## GraphicsPath::Transform(const MatrixPtr\&) method
+## GraphicsPath::Transform(const MatrixPtr&) method
 
 
 Transforms the path represented by the current object by applying the specified transform matrix to it.
@@ -20,9 +20,9 @@ void System::Drawing::Drawing2D::GraphicsPath::Transform(const MatrixPtr &matrix
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| matrix | const [MatrixPtr](../../matrixptr/)\& | The transform matrix specifying the transformation |
+| matrix | const [MatrixPtr](../../matrixptr/)& | The transform matrix specifying the transformation |
 
-## GraphicsPath::Transform(const SkMatrix\&) method
+## GraphicsPath::Transform(const SkMatrix&) method
 
 
 

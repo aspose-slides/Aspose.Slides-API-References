@@ -15,7 +15,7 @@ Constructs adapter without any comparator available.
 System::Collections::Generic::ComparerAdapter<T>::ComparerAdapter()
 ```
 
-## ComparerAdapter::ComparerAdapter(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) constructor
+## ComparerAdapter::ComparerAdapter(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>&) constructor
 
 
 Constructs adapter.
@@ -29,7 +29,7 @@ System::Collections::Generic::ComparerAdapter<T>::ComparerAdapter(const SharedPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparator | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | Comparator object to use. |
+| comparator | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>& | Comparator object to use. |
 
 ## See Also
 

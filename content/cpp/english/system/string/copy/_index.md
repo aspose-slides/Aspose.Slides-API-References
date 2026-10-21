@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /system/string/copy/
 ---
-## String::Copy(const String\&) method
+## String::Copy(const String&) method
 
 
 Creates string copy.
@@ -20,7 +20,7 @@ static String System::String::Copy(const String &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to copy. |
+| str | const [String](../)& | [String](../) to copy. |
 
 ### Return Value
 

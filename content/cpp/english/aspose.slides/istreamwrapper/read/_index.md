@@ -20,7 +20,7 @@ virtual void Aspose::Slides::IStreamWrapper::Read(System::ArrayPtr<uint8_t> buff
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Sequence of bytes **uint8_t**[] |
+| buffer | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Sequence of bytes **uint8_t**\[\] |
 | offset | **int32_t** | Start reading position **int32_t** |
 | count | **int32_t** | Count bytes for reading **int32_t** |
 

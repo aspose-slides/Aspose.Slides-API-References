@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.threading.tasks/parallel/foreach/
 ---
-## Parallel::ForEach(const SharedPtr\<Collections::Generic::IEnumerable\<TSource\>\>\&, const SharedPtr\<ParallelOptions\>\&, const Action\<TSource\>\&) method
+## Parallel::ForEach(const SharedPtr\<Collections::Generic::IEnumerable\<TSource\>\>&, const SharedPtr\<ParallelOptions\>&, const Action\<TSource\>&) method
 
 
 Executes a foreach operation on an IEnumerable in which iterations may run in parallel.
@@ -26,19 +26,26 @@ template<typename TSource> static ParallelLoopResult System::Threading::Tasks::P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<TSource\>\>\& | An enumerable data source. |
-| parallelOptions | const [SharedPtr](../../../system/sharedptr/)\<[ParallelOptions](../../paralleloptions/)\>\& | An object that configures the behavior of this operation. |
-| body | const [Action](../../../system/action/)\<TSource\>\& | The delegate that is invoked once per iteration. |
+| source | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<TSource\>\>& | An enumerable data source. |
+| parallelOptions | const [SharedPtr](../../../system/sharedptr/)\<[ParallelOptions](../../paralleloptions/)\>& | An object that configures the behavior of this operation. |
+| body | const [Action](../../../system/action/)\<TSource\>& | The delegate that is invoked once per iteration. |
 
 ### Return Value
 
 A [ParallelLoopResult](../../parallelloopresult/) structure that contains information on what portion of the loop completed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.OperationCanceledException](../../../system/operationcanceledexception/) | if the [CancellationToken](../../../system.threading/cancellationtoken/) in parallelOptions is set. |
+
 ## Remarks
 
 
 
 This method partitions the source enumerable and executes the body delegate on multiple threads concurrently. 
-## Parallel::ForEach(const SharedPtr\<Collections::Generic::IEnumerable\<TSource\>\>\&, const Action\<TSource\>\&) method
+## Parallel::ForEach(const SharedPtr\<Collections::Generic::IEnumerable\<TSource\>\>&, const Action\<TSource\>&) method
 
 
 Executes a foreach operation on an IEnumerable in which iterations may run in parallel.
@@ -58,8 +65,8 @@ template<typename TSource> static ParallelLoopResult System::Threading::Tasks::P
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<TSource\>\>\& | An enumerable data source. |
-| body | const [Action](../../../system/action/)\<TSource\>\& | The delegate that is invoked once per iteration. |
+| source | const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<TSource\>\>& | An enumerable data source. |
+| body | const [Action](../../../system/action/)\<TSource\>& | The delegate that is invoked once per iteration. |
 
 ### Return Value
 

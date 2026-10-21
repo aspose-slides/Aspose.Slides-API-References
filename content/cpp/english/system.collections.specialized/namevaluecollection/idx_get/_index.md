@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.collections.specialized/namevaluecollection/idx_get/
 ---
-## NameValueCollection::idx_get(const String\&) method
+## NameValueCollection::idx_get(const String&) method
 
 
 Gets value at specified index.
@@ -20,7 +20,7 @@ String System::Collections::Specialized::NameValueCollection::idx_get(const Stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | entry name. |
+| name | const [String](../../../system/string/)& | entry name. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /system.xml/xmlparsercontext/set_doctypename/
 ---
-## XmlParserContext::set_DocTypeName(const String\&) method
+## XmlParserContext::set_DocTypeName(const String&) method
 
 
 Sets the name of the document type declaration.
@@ -20,7 +20,7 @@ void System::Xml::XmlParserContext::set_DocTypeName(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

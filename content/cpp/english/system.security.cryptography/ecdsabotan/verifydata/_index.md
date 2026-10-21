@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /system.security.cryptography/ecdsabotan/verifydata/
 ---
-## ECDsaBotan::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&) method
+## ECDsaBotan::VerifyData(const ByteArrayPtr&, const ByteArrayPtr&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -20,10 +20,10 @@ bool System::Security::Cryptography::ECDsaBotan::VerifyData(const ByteArrayPtr &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. return true if signature is valid, otherwise - false. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. return true if signature is valid, otherwise - false. |
 
-## ECDsaBotan::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&) method
+## ECDsaBotan::VerifyData(const ByteArrayPtr&, int32_t, int32_t, const ByteArrayPtr&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -37,12 +37,12 @@ bool System::Security::Cryptography::ECDsaBotan::VerifyData(const ByteArrayPtr &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to hash. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. return true if signature is valid, otherwise - false. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. return true if signature is valid, otherwise - false. |
 
-## ECDsaBotan::VerifyData(const StreamPtr\&, const ByteArrayPtr\&) method
+## ECDsaBotan::VerifyData(const StreamPtr&, const ByteArrayPtr&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -56,10 +56,10 @@ bool System::Security::Cryptography::ECDsaBotan::VerifyData(const StreamPtr &str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. return true if signature is valid, otherwise - false. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. return true if signature is valid, otherwise - false. |
 
-## ECDsaBotan::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## ECDsaBotan::VerifyData(const ByteArrayPtr&, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -73,11 +73,11 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## ECDsaBotan::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## ECDsaBotan::VerifyData(const ByteArrayPtr&, int32_t, int32_t, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -91,13 +91,13 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signed data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signed data. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to hash. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## ECDsaBotan::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## ECDsaBotan::VerifyData(const StreamPtr&, const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -111,9 +111,9 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const StreamPtr &stream, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Signed data. |
-| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Signed data. |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Signature data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
 ## See Also
 

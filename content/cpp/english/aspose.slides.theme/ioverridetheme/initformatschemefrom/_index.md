@@ -22,6 +22,14 @@ virtual void Aspose::Slides::Theme::IOverrideTheme::InitFormatSchemeFrom(System:
 | --- | --- | --- |
 | formatScheme | [System::SharedPtr](../../../system/sharedptr/)\<[IFormatScheme](../../iformatscheme/)\> | Data to initialize from. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [FormatScheme](../../formatscheme/) is already initialized (not null). |
+| [System::ArgumentNullException](../../../system/argumentnullexception/) | Thrown if the formatScheme parameter is null. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -1,7 +1,7 @@
 ---
 title: get_ColorFormat()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "MasterTheme::get_ColorFormat() method"
 type: docs
 weight: 79
 url: /aspose.slides.theme/mastertheme/get_colorformat/

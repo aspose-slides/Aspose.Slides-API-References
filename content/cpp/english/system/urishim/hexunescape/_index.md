@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/urishim/hexunescape/
 ---
-## UriShim::HexUnescape(const String\&, int32_t\&) method
+## UriShim::HexUnescape(const String&, int32_t&) method
 
 
 Converts character from escaped hex form.
@@ -20,8 +20,8 @@ static char16_t System::UriShim::HexUnescape(const String &pattern, int32_t &ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | const [String](../../string/)\& | [String](../../string/) to read escaped hex form from. |
-| index | **int32_t**\& | Offset in the given string. |
+| pattern | const [String](../../string/)& | [String](../../string/) to read escaped hex form from. |
+| index | **int32_t**& | Offset in the given string. |
 
 ### Return Value
 

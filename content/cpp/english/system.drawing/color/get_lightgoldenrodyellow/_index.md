@@ -1,7 +1,7 @@
 ---
 title: get_LightGoldenrodYellow()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFFAFAD2.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFFAFAD2."
 type: docs
 weight: 1145
 url: /system.drawing/color/get_lightgoldenrodyellow/

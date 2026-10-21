@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/stack/contains/
 ---
-## Stack::Contains(const T\&) const method
+## Stack::Contains(const T&) const method
 
 
 Checks if specific item is present in container; uses operator == for comparison.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::Stack<T>::Contains(const T &item) con
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to look for. |
+| item | const T& | Item to look for. |
 
 ### Return Value
 

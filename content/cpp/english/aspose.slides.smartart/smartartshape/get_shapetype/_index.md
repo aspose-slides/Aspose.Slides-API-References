@@ -16,6 +16,13 @@ Aspose::Slides::ShapeType Aspose::Slides::SmartArt::SmartArtShape::get_ShapeType
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when value is [ShapeType::NotDefined](../../../aspose.slides/shapetype/) or [ShapeType::Custom](../../../aspose.slides/shapetype/) |
+
+
 ## See Also
 
 * Enum [ShapeType](../../../aspose.slides/shapetype/)

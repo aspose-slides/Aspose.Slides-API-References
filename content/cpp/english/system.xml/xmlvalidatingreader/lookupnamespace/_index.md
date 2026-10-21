@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /system.xml/xmlvalidatingreader/lookupnamespace/
 ---
-## XmlValidatingReader::LookupNamespace(const String\&) method
+## XmlValidatingReader::LookupNamespace(const String&) method
 
 
 Resolves a namespace prefix in the current element's scope.
@@ -20,7 +20,7 @@ String System::Xml::XmlValidatingReader::LookupNamespace(const String &prefix) o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace Uniform Resource Identifier (URI) you want to resolve. To match the default namespace, pass an empty string. |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace Uniform Resource Identifier (URI) you want to resolve. To match the default namespace, pass an empty string. |
 
 ### Return Value
 

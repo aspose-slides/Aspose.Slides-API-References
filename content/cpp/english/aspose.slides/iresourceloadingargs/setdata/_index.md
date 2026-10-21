@@ -20,7 +20,7 @@ virtual void Aspose::Slides::IResourceLoadingArgs::SetData(System::ArrayPtr<uint
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Provided data of the resource **uint8_t**[] |
+| data | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Provided data of the resource **uint8_t**\[\] |
 
 ## See Also
 

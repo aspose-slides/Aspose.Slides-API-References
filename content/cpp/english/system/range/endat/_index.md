@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system/range/endat/
 ---
-## Range::EndAt(const Index\&) method
+## Range::EndAt(const Index&) method
 
 
 Creates a range that begins at the start of the collection and ends at the specified end index.
@@ -20,7 +20,7 @@ static constexpr Range System::Range::EndAt(const Index &end) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| end | const [Index](../../index/)\& | The ending index of the range. |
+| end | const [Index](../../index/)& | The ending index of the range. |
 
 ### Return Value
 

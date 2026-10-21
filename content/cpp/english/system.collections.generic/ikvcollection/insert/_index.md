@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.collections.generic/ikvcollection/insert/
 ---
-## IKVCollection::Insert(int, const T\&) method
+## IKVCollection::Insert(int, const T&) method
 
 
 Inserts item at specified position.
@@ -21,7 +21,7 @@ virtual void System::Collections::Generic::IKVCollection<T>::Insert(int index, c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Position to put item to. |
-| item | const T\& | Item to put at specified position. |
+| item | const T& | Item to put at specified position. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.net.http.headers/httpheadervaluecollection/remove/
 ---
-## HttpHeaderValueCollection::Remove(const T\&) method
+## HttpHeaderValueCollection::Remove(const T&) method
 
 
 Deletes element from collection.
@@ -20,7 +20,7 @@ bool System::Net::Http::Headers::HttpHeaderValueCollection<T>::Remove(const T &i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to remove. |
+| item | const T& | Item to remove. |
 
 ### Return Value
 

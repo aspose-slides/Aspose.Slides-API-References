@@ -45,6 +45,13 @@ int32_t Aspose::Slides::SensitivityLabelCollection::Add(System::SharedPtr<ISensi
 
 The index at which the [SensitivityLabel](../../sensitivitylabel/) was added.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when the sensitivity label with the same Id has already been added. |
+
+
 ## See Also
 
 * Enum [SensitivityLabelAssignmentType](../../sensitivitylabelassignmenttype/)

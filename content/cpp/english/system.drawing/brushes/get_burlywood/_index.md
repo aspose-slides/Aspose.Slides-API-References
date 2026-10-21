@@ -1,7 +1,7 @@
 ---
 title: get_BurlyWood()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFDEB887.
+description: "Returns the solid fill color whose hexadecimal value is #FFDEB887."
 type: docs
 weight: 157
 url: /system.drawing/brushes/get_burlywood/

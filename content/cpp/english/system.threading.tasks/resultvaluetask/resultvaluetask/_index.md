@@ -21,7 +21,7 @@ System::Threading::Tasks::ResultValueTask<T>::ResultValueTask()
 
 The task is not completed and contains no result. Attempting to get the result will throw an exception. 
 
-## ResultValueTask::ResultValueTask(const T\&) constructor
+## ResultValueTask::ResultValueTask(const T&) constructor
 
 
 Constructs a completed [ResultValueTask](../) with the specified result.
@@ -35,17 +35,17 @@ System::Threading::Tasks::ResultValueTask<T>::ResultValueTask(const T &result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| result | const T\& | The result value to wrap in a completed task. |
+| result | const T& | The result value to wrap in a completed task. |
 ## Remarks
 
 
 
 This creates a successfully completed task that immediately returns the value. 
 
-## ResultValueTask::ResultValueTask(const RTaskPtr\<T\>\&) constructor
+## ResultValueTask::ResultValueTask(const RTaskPtr\<T\>&) constructor
 
 
-Constructs a [ResultValueTask](../) from a shared pointer to a ResultTask<T>.
+Constructs a [ResultValueTask](../) from a shared pointer to a ResultTask\<T\>.
 
 ```cpp
 System::Threading::Tasks::ResultValueTask<T>::ResultValueTask(const RTaskPtr<T> &task)
@@ -56,7 +56,7 @@ System::Threading::Tasks::ResultValueTask<T>::ResultValueTask(const RTaskPtr<T> 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| task | const [RTaskPtr](../../../system/rtaskptr/)\<T\>\& | The task to wrap. Can be null for an empty task. |
+| task | const [RTaskPtr](../../../system/rtaskptr/)\<T\>& | The task to wrap. Can be null for an empty task. |
 ## Remarks
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text/icuencoding/icuencoding/
 ---
-## ICUEncoding::ICUEncoding(const Details::EncodingInfoInternal *) constructor
+## ICUEncoding::ICUEncoding(const Details::EncodingInfoInternal \*) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::ICUEncoding::ICUEncoding(const Details::EncodingInfoInternal *enco
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoding_info | const Details::EncodingInfoInternal * | [Encoding](../../encoding/) internal info. |
+| encoding_info | const Details::EncodingInfoInternal \* | [Encoding](../../encoding/) internal info. |
 
 ## See Also
 

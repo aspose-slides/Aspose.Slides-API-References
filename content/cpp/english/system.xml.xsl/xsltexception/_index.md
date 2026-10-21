@@ -1,7 +1,7 @@
 ---
 title: XsltException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: XsltException typedef
 type: docs
 weight: 144
 url: /system.xml.xsl/xsltexception/

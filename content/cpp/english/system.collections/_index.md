@@ -1,7 +1,7 @@
 ---
 title: "System::Collections"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Collections namespace"
 type: docs
 weight: 313
 url: /system.collections/

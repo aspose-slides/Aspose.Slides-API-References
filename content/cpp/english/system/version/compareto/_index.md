@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/version/compareto/
 ---
-## Version::CompareTo(const Version\&) const method
+## Version::CompareTo(const Version&) const method
 
 
 Compares the versions represented by the current object and the specified object.
@@ -20,7 +20,7 @@ int System::Version::CompareTo(const Version &ver) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ver | const [Version](../)\& | A [Version](../) object to compare with the current object |
+| ver | const [Version](../)& | A [Version](../) object to compare with the current object |
 
 ### Return Value
 

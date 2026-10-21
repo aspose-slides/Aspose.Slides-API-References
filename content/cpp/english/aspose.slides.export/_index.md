@@ -1,7 +1,7 @@
 ---
 title: "Aspose::Slides::Export"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Aspose::Slides::Export namespace"
 type: docs
 weight: 92
 url: /aspose.slides.export/
@@ -48,7 +48,7 @@ url: /aspose.slides.export/
 | [ISvgShape](./isvgshape/) | Represents options for SVG shape. |
 | [ISvgShapeAndTextFormattingController](./isvgshapeandtextformattingcontroller/) | Controls SVG shape and text generation. |
 | [ISvgShapeFormattingController](./isvgshapeformattingcontroller/) | Controls SVG shape generation. |
-| [ISvgTSpan](./isvgtspan/) | Represents options for SVG text portion (\"tspan\"). |
+| [ISvgTSpan](./isvgtspan/) | Represents options for SVG text portion ("tspan"). |
 | [ISwfOptions](./iswfoptions/) | Provides options that control how a presentation is saved in SWF format. |
 | [ITextToHtmlConversionOptions](./itexttohtmlconversionoptions/) | Options for extracting HTML from the Pptx text. |
 | [ITiffOptions](./itiffoptions/) | Provides options that control how a presentation is saved in TIFF format. |
@@ -69,7 +69,7 @@ url: /aspose.slides.export/
 | [SlideImageFormat](./slideimageformat/) | Determines format in which slide image will be saved for presentation to HTML export. |
 | [SVGOptions](./svgoptions/) | Represents an SVG options. |
 | [SvgShape](./svgshape/) | Represents options for SVG shape. |
-| [SvgTSpan](./svgtspan/) | Represents options for SVG text portion (\"tspan\"). |
+| [SvgTSpan](./svgtspan/) | Represents options for SVG text portion ("tspan"). |
 | [SwfOptions](./swfoptions/) | Provides options that control how a presentation is saved in Swf format. |
 | [TextToHtmlConversionOptions](./texttohtmlconversionoptions/) | Options for extracting HTML from the Pptx text. |
 | [TiffOptions](./tiffoptions/) | Provides options that control how a presentation is saved in TIFF format. |

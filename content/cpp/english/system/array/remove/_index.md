@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system/array/remove/
 ---
-## Array::Remove(const T\&) method
+## Array::Remove(const T&) method
 
 
 Not supported because the array represented by the current object is read-only.
@@ -14,6 +14,13 @@ Not supported because the array represented by the current object is read-only.
 ```cpp
 virtual bool System::Array<T>::Remove(const T &) override
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotSupportedException | always |
 
 
 ## See Also

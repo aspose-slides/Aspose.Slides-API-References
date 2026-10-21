@@ -1,7 +1,7 @@
 ---
 title: CheckSignature()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SignedXml::CheckSignature() method"
 type: docs
 weight: 196
 url: /system.security.cryptography.xml/signedxml/checksignature/

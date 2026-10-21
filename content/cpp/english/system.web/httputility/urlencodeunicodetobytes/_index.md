@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.web/httputility/urlencodeunicodetobytes/
 ---
-## HttpUtility::UrlEncodeUnicodeToBytes(const String\&) method
+## HttpUtility::UrlEncodeUnicodeToBytes(const String&) method
 
 
 Encodes URI fragment usign Unicode.
@@ -20,7 +20,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlEncodeUnicodeToByt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | URI fragment to encode. |
+| str | const [String](../../../system/string/)& | URI fragment to encode. |
 
 ### Return Value
 

@@ -21,7 +21,7 @@ enum class XPathResultType
 | --- | --- | --- |
 | Number | 0 | A numeric value. |
 | String | 1 | A [String](../../system/string/) value. |
-| Boolean | 2 | A [Boolean](../../system/boolean/)**true** or **false** value. |
+| Boolean | 2 | A [Boolean](../../system/boolean/) **true** or **false** value. |
 | NodeSet | 3 | A node collection. |
 | Navigator | n/a | A tree fragment. |
 | Any | 5 | Any of the [XPath](../) node types. |

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.security.cryptography/ecdsabotan/signdata/
 ---
-## ECDsaBotan::SignData(const ByteArrayPtr\&) method
+## ECDsaBotan::SignData(const ByteArrayPtr&) method
 
 
 Computes the hash value of the specified data array, and signs the result.
@@ -20,9 +20,9 @@ ByteArrayPtr System::Security::Cryptography::ECDsaBotan::SignData(const ByteArra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. return ECDSA signature for the input data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. return ECDSA signature for the input data. |
 
-## ECDsaBotan::SignData(const ByteArrayPtr\&, int32_t, int32_t) method
+## ECDsaBotan::SignData(const ByteArrayPtr&, int32_t, int32_t) method
 
 
 Computes the hash value of the specified data array, and signs the result.
@@ -36,11 +36,11 @@ ByteArrayPtr System::Security::Cryptography::ECDsaBotan::SignData(const ByteArra
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to use as input data. return ECDSA signature for the input data. |
 
-## ECDsaBotan::SignData(const StreamPtr\&) method
+## ECDsaBotan::SignData(const StreamPtr&) method
 
 
 Computes the hash value of the specified binary stream, and signs the result.
@@ -54,9 +54,9 @@ ByteArrayPtr System::Security::Cryptography::ECDsaBotan::SignData(const StreamPt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Binary stream. return ECDSA signature for the input data. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Binary stream. return ECDSA signature for the input data. |
 
-## ECDsaBotan::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&) method
+## ECDsaBotan::SignData(const ByteArrayPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -70,10 +70,10 @@ virtual ByteArrayPtr System::Security::Cryptography::ECDsa::SignData(const ByteA
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return ECDSA signature for the input data. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return ECDSA signature for the input data. |
 
-## ECDsaBotan::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&) method
+## ECDsaBotan::SignData(const ByteArrayPtr&, int32_t, int32_t, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -87,12 +87,12 @@ virtual ByteArrayPtr System::Security::Cryptography::ECDsa::SignData(const ByteA
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)& | Input data array. |
 | offset | **int32_t** | Offset in **data**. |
 | count | **int32_t** | Number of bytes to use as input data. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return ECDSA signature for the input data. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return ECDSA signature for the input data. |
 
-## ECDsaBotan::SignData(const StreamPtr\&, const HashAlgorithmName\&) method
+## ECDsaBotan::SignData(const StreamPtr&, const HashAlgorithmName&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm, and signs the result.
@@ -106,8 +106,8 @@ virtual ByteArrayPtr System::Security::Cryptography::ECDsa::SignData(const Strea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [StreamPtr](../../../system/streamptr/)\& | Binary stream. |
-| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return ECDSA signature for the input data. |
+| stream | const [StreamPtr](../../../system/streamptr/)& | Binary stream. |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)& | Hash algorithm. return ECDSA signature for the input data. |
 
 ## See Also
 

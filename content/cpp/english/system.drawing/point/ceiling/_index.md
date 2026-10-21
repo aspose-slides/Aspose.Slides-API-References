@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /system.drawing/point/ceiling/
 ---
-## Point::Ceiling(const PointF\&) method
+## Point::Ceiling(const PointF&) method
 
 
 Constructs a [Point](../) object from the specified [PointF](../../pointf/) object by rounding the [PointF](../../pointf/) object's X and Y coordinates values to the next higher integer values.
@@ -20,7 +20,7 @@ static Point System::Drawing::Point::Ceiling(const PointF &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
+| point | const [PointF](../../pointf/)& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
 
 ### Return Value
 

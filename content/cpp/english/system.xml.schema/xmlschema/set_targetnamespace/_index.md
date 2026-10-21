@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml.schema/xmlschema/set_targetnamespace/
 ---
-## XmlSchema::set_TargetNamespace(const String\&) method
+## XmlSchema::set_TargetNamespace(const String&) method
 
 
 Sets the Uniform Resource Identifier (URI) of the schema target namespace.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchema::set_TargetNamespace(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

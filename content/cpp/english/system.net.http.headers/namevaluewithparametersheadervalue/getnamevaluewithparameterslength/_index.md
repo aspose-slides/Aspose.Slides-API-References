@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/namevaluewithparametersheadervalue/getnamevaluewithparameterslength/
 ---
-## NameValueWithParametersHeaderValue::GetNameValueWithParametersLength(String, int32_t, System::SharedPtr\<Object\>\&) method
+## NameValueWithParametersHeaderValue::GetNameValueWithParametersLength(String, int32_t, System::SharedPtr\<Object\>&) method
 
 
 Converts a passed string from the specified index to an instance of the [NameValueWithParametersHeaderValue](../) class.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::NameValueWithParametersHeaderValue::G
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

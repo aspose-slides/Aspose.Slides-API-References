@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system/decimal/operator_less_equal/
 ---
-## Decimal::operator<=(const Decimal\&) const method
+## Decimal::operator\<=(const Decimal&) const method
 
 
 Determines if the value represented by the current object is less than or equal to the value represented by the specified object.
@@ -20,7 +20,7 @@ bool System::Decimal::operator<=(const Decimal &d) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| d | const [Decimal](../)\& | The [Decimal](../) object to compare the current object with |
+| d | const [Decimal](../)& | The [Decimal](../) object to compare the current object with |
 
 ### Return Value
 

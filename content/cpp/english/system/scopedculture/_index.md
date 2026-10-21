@@ -19,11 +19,11 @@ class ScopedCulture
 
 | Method | Description |
 | --- | --- |
-| const [Globalization::CultureInfo](../../system.globalization/cultureinfo/) * [operator->](./operator_minus_greater/)() const |  |
-| [Globalization::CultureInfo](../../system.globalization/cultureinfo/) * [operator->](./operator_minus_greater/)() |  |
-| [ScopedCulture](./)\& [operator=](./operator_equal/)(const [ScopedCulture](./)\&) |  |
-| explicit  [ScopedCulture](./scopedculture/)(const [String](../string/)\&) |  |
-|  [ScopedCulture](./scopedculture/)(const [ScopedCulture](./)\&) |  |
+| const [Globalization::CultureInfo](../../system.globalization/cultureinfo/) \* [operator-\>](./operator_minus_greater/)() const |  |
+| [Globalization::CultureInfo](../../system.globalization/cultureinfo/) \* [operator-\>](./operator_minus_greater/)() |  |
+| [ScopedCulture](./)& [operator=](./operator_equal/)(const [ScopedCulture](./)&) |  |
+| explicit  [ScopedCulture](./scopedculture/)(const [String](../string/)&) |  |
+|  [ScopedCulture](./scopedculture/)(const [ScopedCulture](./)&) |  |
 |  [~ScopedCulture](./~scopedculture/)() |  |
 ## See Also
 

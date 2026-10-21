@@ -9,7 +9,7 @@ url: /aspose.slides/ibaseportionformat/get_escapement/
 ## IBasePortionFormat::get_Escapement() method
 
 
-Returns the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **std::numeric_limits<float>::quiet_NaN()** means value is undefined and should be inherited from the Master. Read **float**.
+Returns the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **std::numeric_limits\<float\>::quiet_NaN()** means value is undefined and should be inherited from the Master. Read **float**.
 
 ```cpp
 virtual float Aspose::Slides::IBasePortionFormat::get_Escapement()=0

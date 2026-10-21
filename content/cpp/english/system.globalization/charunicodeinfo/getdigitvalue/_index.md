@@ -26,7 +26,7 @@ static int System::Globalization::CharUnicodeInfo::GetDigitValue(char16_t ch)
 
 The digit value or -1 if the specified character is not a digit.
 
-## CharUnicodeInfo::GetDigitValue(const String\&, int) method
+## CharUnicodeInfo::GetDigitValue(const String&, int) method
 
 
 Gets digit value of the character at the specified index of the string.
@@ -40,7 +40,7 @@ static int System::Globalization::CharUnicodeInfo::GetDigitValue(const String &s
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../../system/string/)\& | The string containing unicode character. |
+| str | const [String](../../../system/string/)& | The string containing unicode character. |
 | index | int | The index of the unicode character. |
 
 ### Return Value

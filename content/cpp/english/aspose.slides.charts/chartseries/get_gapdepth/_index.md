@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartseries/get_gapdepth/
 ## ChartSeries::get_GapDepth() method
 
 
-Returns the distance, as a percentage of the marker width, between the data series in a 3D chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use [get_ParentSeriesGroup()](../get_parentseriesgroup/)->get(set)_GapDepth() read/write property for change value. Read-only **int32_t**.
+Returns the distance, as a percentage of the marker width, between the data series in a 3D chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use [get_ParentSeriesGroup()](../get_parentseriesgroup/)-\>get(set)_GapDepth() read/write property for change value. Read-only **int32_t**.
 
 ```cpp
 int32_t Aspose::Slides::Charts::ChartSeries::get_GapDepth() override
@@ -18,7 +18,7 @@ int32_t Aspose::Slides::Charts::ChartSeries::get_GapDepth() override
 ## Remarks
 
 
-This is the projection of the property [get_ParentSeriesGroup()](../get_parentseriesgroup/)->get(set)_GapDepth(). 
+This is the projection of the property [get_ParentSeriesGroup()](../get_parentseriesgroup/)-\>get(set)_GapDepth(). 
 ## See Also
 
 * Class [ChartSeries](../)

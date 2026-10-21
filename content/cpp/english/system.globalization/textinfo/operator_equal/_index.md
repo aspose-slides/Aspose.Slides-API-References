@@ -1,12 +1,12 @@
 ---
 title: operator=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "TextInfo::operator=() method"
 type: docs
 weight: 14
 url: /system.globalization/textinfo/operator_equal/
 ---
-## TextInfo::operator=(const TextInfo\&) method
+## TextInfo::operator=(const TextInfo&) method
 
 
 

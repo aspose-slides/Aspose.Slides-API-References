@@ -9,7 +9,7 @@ url: /aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
 ## ChartTypeCharacterizer::IsChartTypeDoughnut(ChartType) method
 
 
-Return true if chartType is one of Doughnut subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see \"Change Chart Type\" dialog in PowerPoint): [ChartType::Doughnut](../../charttype/), [ChartType::ExplodedDoughnut](../../charttype/).
+Return true if chartType is one of Doughnut subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): [ChartType::Doughnut](../../charttype/), [ChartType::ExplodedDoughnut](../../charttype/).
 
 ```cpp
 static bool Aspose::Slides::Charts::ChartTypeCharacterizer::IsChartTypeDoughnut(ChartType chartType)

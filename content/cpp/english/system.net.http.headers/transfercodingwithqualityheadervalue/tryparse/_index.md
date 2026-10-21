@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.net.http.headers/transfercodingwithqualityheadervalue/tryparse/
 ---
-## TransferCodingWithQualityHeaderValue::TryParse(String, System::SharedPtr\<TransferCodingWithQualityHeaderValue\>\&) method
+## TransferCodingWithQualityHeaderValue::TryParse(String, System::SharedPtr\<TransferCodingWithQualityHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [TransferCodingWithQualityHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::Tr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingWithQualityHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingWithQualityHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

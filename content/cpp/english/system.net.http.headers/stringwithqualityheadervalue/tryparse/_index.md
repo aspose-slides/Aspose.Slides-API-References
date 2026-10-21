@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /system.net.http.headers/stringwithqualityheadervalue/tryparse/
 ---
-## StringWithQualityHeaderValue::TryParse(String, System::SharedPtr\<StringWithQualityHeaderValue\>\&) method
+## StringWithQualityHeaderValue::TryParse(String, System::SharedPtr\<StringWithQualityHeaderValue\>&) method
 
 
 Tries to convert a passed string to an instance of the [StringWithQualityHeaderValue](../) class.
@@ -21,7 +21,7 @@ static bool System::Net::Http::Headers::StringWithQualityHeaderValue::TryParse(S
 | Parameter | Type | Description |
 | --- | --- | --- |
 | input | [String](../../../system/string/) | A string to parse. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[StringWithQualityHeaderValue](../)\>\& | An instance where a parsed object will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[StringWithQualityHeaderValue](../)\>& | An instance where a parsed object will be assigned. |
 
 ### Return Value
 

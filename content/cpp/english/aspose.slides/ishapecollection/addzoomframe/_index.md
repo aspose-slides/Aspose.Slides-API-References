@@ -29,10 +29,17 @@ virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::AddZoomF
 ### Return Value
 
 The newly created [IZoomFrame](../../izoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced slide does not belong to the current presentation. |
+
 ## Remarks
 
 
-This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the \"Presentation.pptx\" presentation): 
+This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation): 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 
@@ -64,10 +71,17 @@ virtual System::SharedPtr<IZoomFrame> Aspose::Slides::IShapeCollection::AddZoomF
 ### Return Value
 
 The newly created [IZoomFrame](../../izoomframe/).
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown if the referenced slide does not belong to the current presentation. |
+
 ## Remarks
 
 
-This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the \"Presentation.pptx\" presentation): 
+This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation): 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 

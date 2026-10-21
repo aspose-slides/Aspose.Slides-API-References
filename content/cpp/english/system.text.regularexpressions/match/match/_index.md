@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.text.regularexpressions/match/match/
 ---
-## Match::Match(const UStringPtr\&, int, int) constructor
+## Match::Match(const UStringPtr&, int, int) constructor
 
 
 Constructor.
@@ -20,7 +20,7 @@ System::Text::RegularExpressions::Match::Match(const UStringPtr &source, int ind
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | const [UStringPtr](../../ustringptr/)\& | Source stirng. |
+| source | const [UStringPtr](../../ustringptr/)& | Source stirng. |
 | index | int | [Match](../) start index. |
 | length | int | [Match](../) length. |
 

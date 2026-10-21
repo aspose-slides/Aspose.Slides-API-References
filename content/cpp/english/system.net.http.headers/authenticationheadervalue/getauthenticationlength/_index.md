@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.net.http.headers/authenticationheadervalue/getauthenticationlength/
 ---
-## AuthenticationHeaderValue::GetAuthenticationLength(String, int32_t, System::SharedPtr\<Object\>\&) method
+## AuthenticationHeaderValue::GetAuthenticationLength(String, int32_t, System::SharedPtr\<Object\>&) method
 
 
 Parses the specified string and returns the last index of the string representation.
@@ -22,7 +22,7 @@ static int32_t System::Net::Http::Headers::AuthenticationHeaderValue::GetAuthent
 | --- | --- | --- |
 | input | [String](../../../system/string/) | The string that must be parsed. |
 | startIndex | **int32_t** | A start position for parsing. |
-| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The output parameter where a parsed value will be assigned. |
+| parsedValue | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>& | The output parameter where a parsed value will be assigned. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "BuildVersionInfo::BuildVersionInfo() constructor"
 type: docs
 weight: 53
 url: /aspose.slides/buildversioninfo/buildversioninfo/

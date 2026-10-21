@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.xsl.runtime/stringconcat/concat/
 ---
-## StringConcat::Concat(const String\&) method
+## StringConcat::Concat(const String&) method
 
 
 Concatenates a new string to the result.
@@ -20,7 +20,7 @@ void System::Xml::Xsl::Runtime::StringConcat::Concat(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | A **string** value to be concatenated to the result. |
+| value | const [String](../../../system/string/)& | A **string** value to be concatenated to the result. |
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: get_MediumSeaGreen()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FF3CB371.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FF3CB371."
 type: docs
 weight: 1392
 url: /system.drawing/color/get_mediumseagreen/

@@ -20,6 +20,15 @@ virtual int64_t System::Xml::XPath::XPathItem::get_ValueAsLong()=0
 
 The item's value as an [Int64](../../../system/int64/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The item's value is not in the correct format for the [Int64](../../../system/int64/) type. |
+| InvalidCastException | The attempted cast to [Int64](../../../system/int64/) is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
+
 ## See Also
 
 * Class [XPathItem](../)

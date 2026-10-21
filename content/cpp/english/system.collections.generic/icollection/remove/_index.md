@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/icollection/remove/
 ---
-## ICollection::Remove(const T\&) method
+## ICollection::Remove(const T&) method
 
 
 Deletes element from collection.
@@ -20,7 +20,7 @@ virtual bool System::Collections::Generic::ICollection<T>::Remove(const T &item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to remove. |
+| item | const T& | Item to remove. |
 
 ### Return Value
 

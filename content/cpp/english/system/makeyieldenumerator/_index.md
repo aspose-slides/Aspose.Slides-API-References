@@ -6,7 +6,7 @@ type: docs
 weight: 2458
 url: /system/makeyieldenumerator/
 ---
-## System::MakeYieldEnumerator(const Details::YieldFunction\<T\>\&) function
+## System::MakeYieldEnumerator(const Details::YieldFunction\<T\>&) function
 
 
 Creates an IEnumerator from a yield function.
@@ -26,7 +26,7 @@ template<typename T> SharedPtr<Collections::Generic::IEnumerator<T>> System::Mak
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fnc | const Details::YieldFunction\<T\>\& | The yield function to execute |
+| fnc | const Details::YieldFunction\<T\>& | The yield function to execute |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /system.io/file/getcreationtime/
 ---
-## File::GetCreationTime(const String\&) method
+## File::GetCreationTime(const String&) method
 
 
 Returns the creation time of the specified entity as local time.
@@ -20,7 +20,7 @@ static DateTime System::IO::File::GetCreationTime(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The entity whose creating time to retrieve |
+| path | const [String](../../../system/string/)& | The entity whose creating time to retrieve |
 
 ### Return Value
 

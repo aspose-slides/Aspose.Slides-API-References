@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.diagnostics/processstartinfo/set_workingdirectory/
 ---
-## ProcessStartInfo::set_WorkingDirectory(const String\&) method
+## ProcessStartInfo::set_WorkingDirectory(const String&) method
 
 
 Sets working directory of the process.
@@ -20,7 +20,7 @@ void System::Diagnostics::ProcessStartInfo::set_WorkingDirectory(const String &v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Process](../../process/) working directory path. |
+| value | const [String](../../../system/string/)& | [Process](../../process/) working directory path. |
 
 ## See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system/console/setin/
 ---
-## Console::SetIn(const SharedPtr\<System::IO::TextReader\>\&) method
+## Console::SetIn(const SharedPtr\<System::IO::TextReader\>&) method
 
 
 Sets the In property to the specified TextReader object.
@@ -20,7 +20,7 @@ static void System::Console::SetIn(const SharedPtr<System::IO::TextReader> &valu
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader object to assign to the In property |
+| value | const [SharedPtr](../../sharedptr/)\<[System::IO::TextReader](../../../system.io/textreader/)\>& | The TextReader object to assign to the In property |
 
 ## See Also
 

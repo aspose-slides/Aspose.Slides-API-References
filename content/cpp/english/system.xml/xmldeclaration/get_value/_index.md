@@ -18,7 +18,7 @@ String System::Xml::XmlDeclaration::get_Value() override
 
 ### Return Value
 
-The contents of the [XmlDeclaration](../) (that is, everything between **<?xml** and **?>**).
+The contents of the [XmlDeclaration](../) (that is, everything between **\<?xml** and **?\>**).
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: value_type
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: value_type typedef
 type: docs
 weight: 66
 url: /system.collections.generic/kvpairiterator/value_type/

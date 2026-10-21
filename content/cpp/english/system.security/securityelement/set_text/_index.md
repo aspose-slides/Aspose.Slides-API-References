@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /system.security/securityelement/set_text/
 ---
-## SecurityElement::set_Text(const String\&) method
+## SecurityElement::set_Text(const String&) method
 
 
 Sets tag inner text.
@@ -20,7 +20,7 @@ void System::Security::SecurityElement::set_Text(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Tag inner text. |
+| value | const [String](../../../system/string/)& | Tag inner text. |
 
 ## See Also
 

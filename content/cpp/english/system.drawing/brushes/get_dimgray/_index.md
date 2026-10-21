@@ -1,7 +1,7 @@
 ---
 title: get_DimGray()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF696969.
+description: "Returns the solid fill color whose hexadecimal value is #FF696969."
 type: docs
 weight: 521
 url: /system.drawing/brushes/get_dimgray/

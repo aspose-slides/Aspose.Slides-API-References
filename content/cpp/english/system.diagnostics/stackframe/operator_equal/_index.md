@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.diagnostics/stackframe/operator_equal/
 ---
-## StackFrame::operator=(const StackFrame\&) const method
+## StackFrame::operator=(const StackFrame&) const method
 
 
 No changing.

@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /system.globalization/numberformatinfo/set_positiveinfinitysymbol/
 ---
-## NumberFormatInfo::set_PositiveInfinitySymbol(const String\&) method
+## NumberFormatInfo::set_PositiveInfinitySymbol(const String&) method
 
 
 Sets positive infinity symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PositiveInfinitySymbol(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Positive infinity symbol. |
+| value | const [String](../../../system/string/)& | Positive infinity symbol. |
 
 ## See Also
 

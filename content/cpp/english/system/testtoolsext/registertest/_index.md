@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/testtoolsext/registertest/
 ---
-## TestToolsExt::RegisterTest(const char *, const char *, const char *) method
+## TestToolsExt::RegisterTest(const char \*, const char \*, const char \*) method
 
 
 Adds test information to registry.
@@ -20,9 +20,9 @@ static void System::TestToolsExt::RegisterTest(const char *name_space, const cha
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name_space | const char * | Namespace name. |
-| class_name | const char * | Class name. |
-| method_name | const char * | Method name. |
+| name_space | const char \* | Namespace name. |
+| class_name | const char \* | Class name. |
+| method_name | const char \* | Method name. |
 
 ## See Also
 

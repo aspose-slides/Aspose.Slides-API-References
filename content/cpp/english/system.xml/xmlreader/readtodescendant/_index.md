@@ -26,6 +26,13 @@ virtual bool System::Xml::XmlReader::ReadToDescendant(String name)
 
 **true** if a matching descendant element is found; otherwise **false**. If a matching child element is not found, the [XmlReader](../) is positioned on the end tag ([XmlReader::get_NodeType](../get_nodetype/) value is [XmlNodeType::EndElement](../../xmlnodetype/)) of the element. If the [XmlReader](../) is not positioned on an element when [XmlReader::ReadToDescendant(String)](./) was called, this method returns **false** and the position of the [XmlReader](../) is not changed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The parameter is an empty string. |
+
+
 ## XmlReader::ReadToDescendant(String, String) method
 
 
@@ -46,6 +53,13 @@ virtual bool System::Xml::XmlReader::ReadToDescendant(String localName, String n
 ### Return Value
 
 **true** if a matching descendant element is found; otherwise **false**. If a matching child element is not found, the [XmlReader](../) is positioned on the end tag ([XmlReader::get_NodeType](../get_nodetype/) value is [XmlNodeType::EndElement](../../xmlnodetype/)) of the element. If the [XmlReader](../) is not positioned on an element when [XmlReader::ReadToDescendant(String,String)](./) was called, this method returns **false** and the position of the [XmlReader](../) is not changed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | Both parameter values are **nullptr**. |
+
 
 ## See Also
 

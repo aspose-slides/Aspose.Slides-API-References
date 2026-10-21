@@ -18,7 +18,7 @@ virtual System::SharedPtr<IDataLabel> Aspose::Slides::Charts::IDataLabelCollecti
 ## Remarks
 
 
-Alternate way to access data label is:* SeriesEx.DataPoints[i].Label - manage label properties.
+Alternate way to access data label is:* SeriesEx.DataPoints\[i\].Label - manage label properties.
 
 
 ## See Also

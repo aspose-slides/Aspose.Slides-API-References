@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /system.net/webheadercollection/isrestricted/
 ---
-## WebHeaderCollection::IsRestricted(const String\&) method
+## WebHeaderCollection::IsRestricted(const String&) method
 
 
 Tests whether the specified HTTP header can be set for the request.
@@ -20,7 +20,7 @@ static bool System::Net::WebHeaderCollection::IsRestricted(const String &headerN
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| headerName | const [String](../../../system/string/)\& | The header name to test. |
+| headerName | const [String](../../../system/string/)& | The header name to test. |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml/xmlattributecollection/insertbefore/
 ---
-## XmlAttributeCollection::InsertBefore(const SharedPtr\<XmlAttribute\>\&, const SharedPtr\<XmlAttribute\>\&) method
+## XmlAttributeCollection::InsertBefore(const SharedPtr\<XmlAttribute\>&, const SharedPtr\<XmlAttribute\>&) method
 
 
 Inserts the specified attribute immediately before the specified reference attribute.
@@ -20,12 +20,19 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::InsertBefore(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newNode | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\& | The attribute to insert. |
-| refNode | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\& | The reference attribute. **newNode** is placed before the **refNode**. |
+| newNode | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>& | The attribute to insert. |
+| refNode | const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>& | The reference attribute. **newNode** is placed before the **refNode**. |
 
 ### Return Value
 
 The [XmlAttribute](../../xmlattribute/) to insert into the collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentException | The **newNode** was created from a document different from the one that created this collection. Or the **refNode** is not a member of this collection. |
+
 
 ## See Also
 

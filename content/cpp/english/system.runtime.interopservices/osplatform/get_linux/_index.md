@@ -1,7 +1,7 @@
 ---
 title: get_Linux()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "OSPlatform::get_Linux() method"
 type: docs
 weight: 14
 url: /system.runtime.interopservices/osplatform/get_linux/

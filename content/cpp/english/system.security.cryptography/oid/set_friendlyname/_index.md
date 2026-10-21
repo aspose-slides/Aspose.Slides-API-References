@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.security.cryptography/oid/set_friendlyname/
 ---
-## Oid::set_FriendlyName(const String\&) method
+## Oid::set_FriendlyName(const String&) method
 
 
 Sets user-friendly name of object.
@@ -20,7 +20,7 @@ void System::Security::Cryptography::Oid::set_FriendlyName(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | User-friendly object name. |
+| value | const [String](../../../system/string/)& | User-friendly object name. |
 
 ## See Also
 

@@ -20,6 +20,15 @@ virtual int32_t System::Xml::XPath::XPathItem::get_ValueAsInt()=0
 
 The item's value as an [Int32](../../../system/int32/).
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| FormatException | The item's value is not in the correct format for the [Int32](../../../system/int32/) type. |
+| InvalidCastException | The attempted cast to [Int32](../../../system/int32/) is not valid. |
+| OverflowException | The attempted cast resulted in an overflow. |
+
+
 ## See Also
 
 * Class [XPathItem](../)

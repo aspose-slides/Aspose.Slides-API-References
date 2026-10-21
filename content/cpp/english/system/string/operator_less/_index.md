@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /system/string/operator_less/
 ---
-## String::operator<(const String\&) const method
+## String::operator\<(const String&) const method
 
 
 Order-compares strings.
@@ -20,7 +20,7 @@ bool System::String::operator<(const String &str) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to compare current one to. |
+| str | const [String](../)& | [String](../) to compare current one to. |
 
 ### Return Value
 

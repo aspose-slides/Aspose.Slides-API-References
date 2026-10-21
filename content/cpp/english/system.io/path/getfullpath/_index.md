@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.io/path/getfullpath/
 ---
-## Path::GetFullPath(const String\&) method
+## Path::GetFullPath(const String&) method
 
 
 Converts the specified path into absolute path.
@@ -20,7 +20,7 @@ static String System::IO::Path::GetFullPath(const String &path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | const [String](../../../system/string/)\& | The path to convert |
+| path | const [String](../../../system/string/)& | The path to convert |
 
 ### Return Value
 

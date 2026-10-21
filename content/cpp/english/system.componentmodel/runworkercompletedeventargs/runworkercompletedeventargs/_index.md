@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.componentmodel/runworkercompletedeventargs/runworkercompletedeventargs/
 ---
-## RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs(const System::SharedPtr\<System::Object\>\&, const System::Exception\&, bool) constructor
+## RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs(const System::SharedPtr\<System::Object\>&, const System::Exception&, bool) constructor
 
 
 Constructor.
@@ -20,8 +20,8 @@ System::ComponentModel::RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| result | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | The result of an asynchronous operation. |
-| error | const [System::Exception](../../../system/exception/)\& | Any error that occurred during the asynchronous operation. |
+| result | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>& | The result of an asynchronous operation. |
+| error | const [System::Exception](../../../system/exception/)& | Any error that occurred during the asynchronous operation. |
 | canceled | **bool** | A value indicating whether the asynchronous operation was canceled. |
 
 ## See Also

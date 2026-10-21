@@ -1,7 +1,7 @@
 ---
 title: get_Transparent()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #00FFFFFF.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #00FFFFFF."
 type: docs
 weight: 1
 url: /system.drawing/pens/get_transparent/

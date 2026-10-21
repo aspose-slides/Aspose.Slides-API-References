@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemaidentityconstraint/set_selector/
 ---
-## XmlSchemaIdentityConstraint::set_Selector(const SharedPtr\<XmlSchemaXPath\>\&) method
+## XmlSchemaIdentityConstraint::set_Selector(const SharedPtr\<XmlSchemaXPath\>&) method
 
 
 Sets the [XPath](../../../system.xml.xpath/) expression **selector** element.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaIdentityConstraint::set_Selector(const Shared
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaXPath](../../xmlschemaxpath/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaXPath](../../xmlschemaxpath/)\>& | The value to set. |
 
 ## See Also
 

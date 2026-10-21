@@ -22,7 +22,7 @@ void System::ConsoleOutput::Write(bool value) override
 | --- | --- | --- |
 | value | **bool** | The value to output |
 
-## ConsoleOutput::Write(const SharedPtr\<Object\>\&) method
+## ConsoleOutput::Write(const SharedPtr\<Object\>&) method
 
 
 Outputs the string representation of the specified object to the output stream represented by the current object.
@@ -36,7 +36,7 @@ void System::ConsoleOutput::Write(const SharedPtr<Object> &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The object to output |
+| value | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The object to output |
 
 ## ConsoleOutput::Write(char_t) method
 
@@ -134,7 +134,7 @@ void System::ConsoleOutput::Write(float value) override
 | --- | --- | --- |
 | value | **float** | The value to output |
 
-## ConsoleOutput::Write(const String\&) method
+## ConsoleOutput::Write(const String&) method
 
 
 Outputs the specified string object to the output stream represented by the current object.
@@ -148,7 +148,7 @@ void System::ConsoleOutput::Write(const String &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../string/)\& | The string object to output |
+| value | const [String](../../string/)& | The string object to output |
 
 ## ConsoleOutput::Write(uint32_t) method
 
@@ -182,7 +182,7 @@ void System::ConsoleOutput::Write(uint64_t value) override
 | --- | --- | --- |
 | value | **uint64_t** | The value to output |
 
-## ConsoleOutput::Write(const ArrayPtr\<char_t\>\&) method
+## ConsoleOutput::Write(const ArrayPtr\<char_t\>&) method
 
 
 Outputs the string representation of the specified character array to the output stream represented by the current object.
@@ -196,9 +196,9 @@ void System::ConsoleOutput::Write(const ArrayPtr<char_t> &buffer) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array to output |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The array to output |
 
-## ConsoleOutput::Write(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
+## ConsoleOutput::Write(const ArrayPtr\<char_t\>&, int32_t, int32_t) method
 
 
 Outputs the string representation of a range of values of the specified character array to the output stream represented by the current object.
@@ -212,11 +212,11 @@ void System::ConsoleOutput::Write(const ArrayPtr<char_t> &buffer, int32_t index,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array containing the values to output |
+| buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>& | The array containing the values to output |
 | index | **int32_t** | The index at which the range of elements to output begins |
 | count | **int32_t** | The number of elements in the range of elements to output |
 
-## ConsoleOutput::Write(const char_t *) method
+## ConsoleOutput::Write(const char_t \*) method
 
 
 Outputs the specified c-string to the output stream represented by the current object.
@@ -230,9 +230,9 @@ void System::ConsoleOutput::Write(const char_t *value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const char_t * | The c-string to output |
+| value | const char_t \* | The c-string to output |
 
-## ConsoleOutput::Write(const TypeInfo\&) method
+## ConsoleOutput::Write(const TypeInfo&) method
 
 
 Outputs the string representation of the specified [TypeInfo](../../typeinfo/) object to the output stream represented by the current object.
@@ -246,9 +246,9 @@ void System::ConsoleOutput::Write(const TypeInfo &value) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [TypeInfo](../../typeinfo/)\& | The [TypeInfo](../../typeinfo/) object to output |
+| value | const [TypeInfo](../../typeinfo/)& | The [TypeInfo](../../typeinfo/) object to output |
 
-## ConsoleOutput::Write(const char *) method
+## ConsoleOutput::Write(const char \*) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2588
 url: /system/staticcast/
 ---
-## System::StaticCast(SmartPtr\<TFrom\> const\&) function
+## System::StaticCast(SmartPtr\<TFrom\> const&) function
 
 
 Performs static cast on [SmartPtr](../smartptr/) objects.
@@ -27,16 +27,23 @@ template<typename TTo,typename TFrom> std::enable_if<!IsExceptionWrapper<TTo>::v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [SmartPtr](../smartptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [SmartPtr](../smartptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
+
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## System::StaticCast(WeakPtr\<TFrom\> const\&) function
+## System::StaticCast(WeakPtr\<TFrom\> const&) function
 
 
 Performs static cast on [WeakPtr](../weakptr/) objects.
@@ -57,11 +64,18 @@ template<typename TTo,typename TFrom> CastResult<TTo>::type System::StaticCast(W
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | [WeakPtr](../weakptr/)\<TFrom\> const\& | Source pointer. |
+| obj | [WeakPtr](../weakptr/)\<TFrom\> const& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
@@ -107,7 +121,7 @@ Process cast from [String](../string/) to [String](../string/).
 template<typename TTo> std::enable_if<std::is_same<TTo, System::String>::value, TTo>::type System::StaticCast(TTo value)
 ```
 
-## System::StaticCast(const TFrom *) function
+## System::StaticCast(const TFrom \*) function
 
 
 Specialization for arithmetic types.
@@ -116,7 +130,7 @@ Specialization for arithmetic types.
 template<typename TTo,typename TFrom> std::enable_if<std::is_arithmetic<TFrom>::value, TTo>::type System::StaticCast(const TFrom *value)
 ```
 
-## System::StaticCast(const TFrom\&) function
+## System::StaticCast(const TFrom&) function
 
 
 Performs static cast on non-pointer objects.
@@ -137,16 +151,23 @@ template<typename TTo,typename TFrom> std::enable_if<!std::is_same<TFrom, System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const TFrom\& | Source object. |
+| obj | const TFrom& | Source object. |
 
 ### Return Value
 
 Cast result if cast is allowed.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
+
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## System::StaticCast(const TFrom\&) function
+## System::StaticCast(const TFrom&) function
 
 
 Performs static cast on Exception objects.
@@ -167,11 +188,18 @@ template<typename TTo,typename TFrom> std::enable_if<IsExceptionWrapper<TFrom>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const TFrom\& | Source pointer. |
+| obj | const TFrom& | Source pointer. |
 
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
@@ -202,6 +230,13 @@ template<typename TTo,typename TFrom> std::enable_if<std::is_same<System::Object
 ### Return Value
 
 Cast result if cast is allowed.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | if cast is not allowed. |
+
 
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.

@@ -6,7 +6,7 @@ type: docs
 weight: 2718
 url: /system/equals/
 ---
-## System::Equals(const TA\&, const TB\&) function
+## System::Equals(const TA&, const TB&) function
 
 
 Determines the equality of two values applying [operator==()](../operator_equal_equal/) to them.
@@ -27,8 +27,8 @@ template<typename TA,typename TB> bool System::Equals(const TA &a, const TB &b)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const TA\& | The first comparand |
-| b | const TB\& | The second comparand |
+| a | const TA& | The first comparand |
+| b | const TB& | The second comparand |
 
 ### Return Value
 

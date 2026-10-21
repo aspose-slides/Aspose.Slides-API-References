@@ -1,12 +1,12 @@
 ---
 title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Security::Cryptography::operator!=() function"
 type: docs
 weight: 794
 url: /system.security.cryptography/operator_not_equal/
 ---
-## System::Security::Cryptography::operator!=(std::nullptr_t, const HashAlgorithmName\&) function
+## System::Security::Cryptography::operator!=(std::nullptr_t, const HashAlgorithmName&) function
 
 
 
@@ -15,7 +15,7 @@ url: /system.security.cryptography/operator_not_equal/
 constexpr bool System::Security::Cryptography::operator!=(std::nullptr_t, const HashAlgorithmName &)
 ```
 
-## System::Security::Cryptography::operator!=(const SharedPtr\<RSAEncryptionPadding\>\&, const SharedPtr\<RSAEncryptionPadding\>\&) function
+## System::Security::Cryptography::operator!=(const SharedPtr\<RSAEncryptionPadding\>&, const SharedPtr\<RSAEncryptionPadding\>&) function
 
 
 
@@ -24,7 +24,7 @@ constexpr bool System::Security::Cryptography::operator!=(std::nullptr_t, const 
 bool System::Security::Cryptography::operator!=(const SharedPtr<RSAEncryptionPadding> &left, const SharedPtr<RSAEncryptionPadding> &right)
 ```
 
-## System::Security::Cryptography::operator!=(const SharedPtr\<RSASignaturePadding\>\&, const SharedPtr\<RSASignaturePadding\>\&) function
+## System::Security::Cryptography::operator!=(const SharedPtr\<RSASignaturePadding\>&, const SharedPtr\<RSASignaturePadding\>&) function
 
 
 

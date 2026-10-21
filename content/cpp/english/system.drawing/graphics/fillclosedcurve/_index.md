@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /system.drawing/graphics/fillclosedcurve/
 ---
-## Graphics::FillClosedCurve(const SharedPtr\<Brush\>\&, const ArrayPtr\<PointF\>\&, Drawing2D::FillMode, float) method
+## Graphics::FillClosedCurve(const SharedPtr\<Brush\>&, const ArrayPtr\<PointF\>&, Drawing2D::FillMode, float) method
 
 
 Draws a closed spline using the specified brush.
@@ -20,12 +20,12 @@ void System::Drawing::Graphics::FillClosedCurve(const SharedPtr<Brush> &brush, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A brush to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A brush to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | fillmode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | IGNORED |
 | tension | **float** | Value that specifies the tension of the spline |
 
-## Graphics::FillClosedCurve(const SharedPtr\<Brush\>\&, const ArrayPtr\<Point\>\&, Drawing2D::FillMode, float) method
+## Graphics::FillClosedCurve(const SharedPtr\<Brush\>&, const ArrayPtr\<Point\>&, Drawing2D::FillMode, float) method
 
 
 Draws a closed spline using the specified brush.
@@ -39,8 +39,8 @@ void System::Drawing::Graphics::FillClosedCurve(const SharedPtr<Brush> &brush, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A brush to use when drawing the spline |
-| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | [Array](../../../system/array/) of points that determines the spline |
+| brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>& | A brush to use when drawing the spline |
+| points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>& | [Array](../../../system/array/) of points that determines the spline |
 | fillmode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | IGNORED |
 | tension | **float** | Value that specifies the tension of the spline |
 

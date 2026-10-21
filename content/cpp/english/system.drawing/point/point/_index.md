@@ -32,7 +32,7 @@ System::Drawing::Point::Point(int x, int y)
 | x | int | The value of X coordinate |
 | y | int | The value of Y coordinate |
 
-## Point::Point(const Size\&) constructor
+## Point::Point(const Size&) constructor
 
 
 Constructs a new [Point](../) object and initializes its X and Y coordinates values with the values of width and height of the specifide [SizeF](../../sizef/) object correspondingly.
@@ -46,7 +46,7 @@ System::Drawing::Point::Point(const Size &size)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| size | const [Size](../../size/)\& | A [SizeF](../../sizef/) object whose width and height values are used to initialize X and Y coordinates values of the [Point](../) object being created |
+| size | const [Size](../../size/)& | A [SizeF](../../sizef/) object whose width and height values are used to initialize X and Y coordinates values of the [Point](../) object being created |
 
 ## Point::Point(int) constructor
 

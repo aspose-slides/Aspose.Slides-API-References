@@ -27,6 +27,13 @@ virtual System::SharedPtr<ICommentAuthor> Aspose::Slides::ICommentAuthorCollecti
 
 New [ICommentAuthor](../../icommentauthor/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Aspose::Slides::PptxEditException](../../pptxeditexception/) | Thrown if author with the same name and initials is already added. |
+
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

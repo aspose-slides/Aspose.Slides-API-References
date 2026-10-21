@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system.xml.schema/xmlschematype/getbuiltinsimpletype/
 ---
-## XmlSchemaType::GetBuiltInSimpleType(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaType::GetBuiltInSimpleType(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Returns an [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-in simple type of the simple type that is specified by the qualified name.
@@ -20,11 +20,18 @@ static SharedPtr<XmlSchemaSimpleType> System::Xml::Schema::XmlSchemaType::GetBui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| qualifiedName | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the simple type. |
+| qualifiedName | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the simple type. |
 
 ### Return Value
 
 The [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-in simple type.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) parameter is **nullptr**. |
+
 
 ## XmlSchemaType::GetBuiltInSimpleType(XmlTypeCode) method
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.testpredicates.details.sharedptrasserts/areequaldata/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1\&, const T2\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1&, const T2&) function
 
 
 Equal-compares two containers using [System::Object::Equals](../../system/object/equals/) on elements. Works for [SmartPtr](../../system/smartptr/) elements.
@@ -27,14 +27,14 @@ template<typename T1,typename T2> std::enable_if<System::IsSmartPtr<typenameT1::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | const T1\& | LHS container reference. |
-| rhs | const T2\& | RHS container reference. |
+| lhs | const T1& | LHS container reference. |
+| rhs | const T2& | RHS container reference. |
 
 ### Return Value
 
 True if contained elements and sizes match, false otherwise.
 
-## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1\&, const T2\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1&, const T2&) function
 
 
 Equal-compares two containers using operator == on elements. Works for non-SmartPtr elements.
@@ -55,14 +55,14 @@ template<typename T1,typename T2> std::enable_if<!System::IsSmartPtr<typenameT1:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | const T1\& | LHS container. |
-| rhs | const T2\& | RHS container. |
+| lhs | const T1& | LHS container. |
+| rhs | const T2& | RHS container. |
 
 ### Return Value
 
 True if contained elements and sizes match, false otherwise.
 
-## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T\&, const T\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T&, const T&) function
 
 
 Equal-compares two containers of identical type. Works for non-SmartPtr elements.
@@ -83,8 +83,8 @@ template<typename T> std::enable_if<!System::IsSmartPtr<typenameT::value_type>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| lhs | const T\& | LHS container. |
-| rhs | const T\& | RHS container. |
+| lhs | const T& | LHS container. |
+| rhs | const T& | RHS container. |
 
 ### Return Value
 

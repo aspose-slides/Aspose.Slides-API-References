@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.memoryextensions.details/swapifgreaterwithvalues/
 ---
-## System::MemoryExtensions::Details::SwapIfGreaterWithValues(Span\<TKey\>\&, Span\<TValue\>\&, std::function\<int32_t(const TKey\&, const TKey\&)>, int32_t, int32_t) function
+## System::MemoryExtensions::Details::SwapIfGreaterWithValues(Span\<TKey\>&, Span\<TValue\>&, std::function\<int32_t(const TKey&, const TKey&)\>, int32_t, int32_t) function
 
 
 Swaps key-value pairs if comparison condition is met.
@@ -27,9 +27,9 @@ template<typename TKey,typename TValue> void System::MemoryExtensions::Details::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| keys | [Span](../../system/span/)\<TKey\>\& | The span of keys |
-| values | [Span](../../system/span/)\<TValue\>\& | The span of values |
-| comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) function for keys |
+| keys | [Span](../../system/span/)\<TKey\>& | The span of keys |
+| values | [Span](../../system/span/)\<TValue\>& | The span of values |
+| comparer | std::function\<**int32_t**(const TKey&, const TKey&)\> | [Comparison](../../system/comparison/) function for keys |
 | i | **int32_t** | First index to compare |
 | j | **int32_t** | Second index to compare |
 

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.xml/xmlreadersettings/set_xmlresolver/
 ---
-## XmlReaderSettings::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XmlReaderSettings::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Sets the [XmlResolver](../../xmlresolver/) used to access external documents.
@@ -20,7 +20,7 @@ void System::Xml::XmlReaderSettings::set_XmlResolver(const SharedPtr<System::Xml
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>& | The value to set. |
 
 ## See Also
 

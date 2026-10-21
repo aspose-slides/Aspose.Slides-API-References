@@ -20,7 +20,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_FirstOrDefault()
 
 First element in the sequence or default-constructed value if the sequence is empty.
 
-## IEnumerable::LINQ_FirstOrDefault(std::function\<bool(T)>) method
+## IEnumerable::LINQ_FirstOrDefault(std::function\<bool(T)\>) method
 
 
 Returns the first element of the sequence that satisfies a condition or a default value if no such element is found.
@@ -34,7 +34,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_FirstOrDefault(std::functio
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | std::function\<**bool**(T)> | A function to test each element for a condition. |
+| predicate | std::function\<**bool**(T)\> | A function to test each element for a condition. |
 
 ### Return Value
 

@@ -26,7 +26,7 @@ constexpr bool System::TimeSpan::Equals(TimeSpan value) const
 
 True if the current object and the specified object represent the same time interval, otherwise - false
 
-## TimeSpan::Equals(const SharedPtr\<Object\>\&) const method
+## TimeSpan::Equals(const SharedPtr\<Object\>&) const method
 
 
 Determines if the time interval represented by the current object is equal to the time interval represented by the specified object.
@@ -40,7 +40,7 @@ bool System::TimeSpan::Equals(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | The [TimeSpan](../) object to compare the current object with |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | The [TimeSpan](../) object to compare the current object with |
 
 ### Return Value
 

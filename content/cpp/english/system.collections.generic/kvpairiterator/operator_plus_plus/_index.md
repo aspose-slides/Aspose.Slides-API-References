@@ -1,7 +1,7 @@
 ---
 title: operator++()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KVPairIterator::operator++() method"
 type: docs
 weight: 27
 url: /system.collections.generic/kvpairiterator/operator_plus_plus/

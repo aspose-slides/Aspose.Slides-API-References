@@ -31,6 +31,13 @@ static System::SharedPtr<Aspose::Slides::Charts::IChart> Aspose::Slides::Import:
 ### Return Value
 
 The chart that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null, empty, or if the chart cannot be found in the workbook. |
+
 ## Remarks
 
 
@@ -68,6 +75,13 @@ static System::SharedPtr<Aspose::Slides::Charts::IChart> Aspose::Slides::Import:
 ### Return Value
 
 The chart that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null, empty, or if the chart cannot be found in the workbook. |
+
 ## Remarks
 
 
@@ -112,6 +126,14 @@ static System::SharedPtr<Aspose::Slides::Charts::IChart> Aspose::Slides::Import:
 ### Return Value
 
 The chart that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null, empty, or if the chart cannot be found in the workbook. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the input data is in an unsupported format. |
+
 ## Remarks
 
 
@@ -149,6 +171,15 @@ static System::SharedPtr<Aspose::Slides::Charts::IChart> Aspose::Slides::Import:
 ### Return Value
 
 The chart that was added to the shape collection.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when any required parameter is null, empty, or if the chart cannot be found in the workbook. |
+| [System::IO::IOException](../../../system.io/ioexception/) | Thrown when an I/O error occurs while accessing the file. |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown when the input data is in an unsupported format. |
+
 ## Remarks
 
 

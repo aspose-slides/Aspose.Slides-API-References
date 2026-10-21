@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.text/encoding/convert/
 ---
-## Encoding::Convert(const EncodingPtr\&, const EncodingPtr\&, const ArrayPtr\<uint8_t\>\&) method
+## Encoding::Convert(const EncodingPtr&, const EncodingPtr&, const ArrayPtr\<uint8_t\>&) method
 
 
 Converts bytes between two encodings.
@@ -20,15 +20,15 @@ static ArrayPtr<uint8_t> System::Text::Encoding::Convert(const EncodingPtr &src_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_encoding | const [EncodingPtr](../../../system/encodingptr/)\& | Source encoding. |
-| dst_encoding | const [EncodingPtr](../../../system/encodingptr/)\& | Destination encoding. |
-| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Bytes to convert. |
+| src_encoding | const [EncodingPtr](../../../system/encodingptr/)& | Source encoding. |
+| dst_encoding | const [EncodingPtr](../../../system/encodingptr/)& | Destination encoding. |
+| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Bytes to convert. |
 
 ### Return Value
 
 Converted bytes.
 
-## Encoding::Convert(const EncodingPtr\&, const EncodingPtr\&, const ArrayPtr\<uint8_t\>\&, int, int) method
+## Encoding::Convert(const EncodingPtr&, const EncodingPtr&, const ArrayPtr\<uint8_t\>&, int, int) method
 
 
 Converts bytes between two encodings.
@@ -42,9 +42,9 @@ static ArrayPtr<uint8_t> System::Text::Encoding::Convert(const EncodingPtr &src_
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| src_encoding | const [EncodingPtr](../../../system/encodingptr/)\& | Source encoding. |
-| dst_encoding | const [EncodingPtr](../../../system/encodingptr/)\& | Destination encoding. |
-| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Bytes to convert. |
+| src_encoding | const [EncodingPtr](../../../system/encodingptr/)& | Source encoding. |
+| dst_encoding | const [EncodingPtr](../../../system/encodingptr/)& | Destination encoding. |
+| bytes | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Bytes to convert. |
 | index | int | Slice beginning. |
 | count | int | Slice size. |
 

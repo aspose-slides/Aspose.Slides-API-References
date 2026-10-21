@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system/memory/trycopyto/
 ---
-## Memory::TryCopyTo(const Memory\&) method
+## Memory::TryCopyTo(const Memory&) method
 
 
 Attempts to copy the contents of this memory to the destination memory.
@@ -20,7 +20,7 @@ bool System::Memory<T>::TryCopyTo(const Memory &destination)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | const [Memory](../)\& | The destination memory segment. |
+| destination | const [Memory](../)& | The destination memory segment. |
 
 ### Return Value
 

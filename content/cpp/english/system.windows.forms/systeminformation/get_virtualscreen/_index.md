@@ -16,6 +16,13 @@ static System::Drawing::Rectangle System::Windows::Forms::SystemInformation::get
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| NotImplementedException | Always |
+
+
 ## See Also
 
 * Class [Rectangle](../../../system.drawing/rectangle/)

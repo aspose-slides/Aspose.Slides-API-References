@@ -1,7 +1,7 @@
 ---
 title: SaveOptions()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SaveOptions::SaveOptions() constructor"
 type: docs
 weight: 131
 url: /aspose.slides.export/saveoptions/saveoptions/

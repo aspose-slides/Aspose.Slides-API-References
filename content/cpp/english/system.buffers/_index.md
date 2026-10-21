@@ -1,7 +1,7 @@
 ---
 title: "System::Buffers"
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "System::Buffers namespace"
 type: docs
 weight: 300
 url: /system.buffers/

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system/weakreference_tmpl_t__end_tmpl/trygettarget/
 ---
-## WeakReference< T >::TryGetTarget(const SmartPtr\<T\>\&) const method
+## WeakReference\< T \>::TryGetTarget(const SmartPtr\<T\>&) const method
 
 
 Gets the object (the target) referenced by the current WeakReference object.
@@ -20,7 +20,7 @@ bool System::WeakReference<T>::TryGetTarget(const SmartPtr<T> &data) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | const [SmartPtr](../../smartptr/)\<T\>\& | [Object](../../object/) referenced by the current WeakReference object. |
+| data | const [SmartPtr](../../smartptr/)\<T\>& | [Object](../../object/) referenced by the current WeakReference object. |
 
 ### Return Value
 
@@ -29,6 +29,6 @@ True if an operation succeded, false otherwise.
 ## See Also
 
 * Class [SmartPtr](../../smartptr/)
-* Class [WeakReference< T >](../)
+* Class [WeakReference\< T \>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.xml.schema/xmlschemaobjecttable/idx_get/
 ---
-## XmlSchemaObjectTable::idx_get(const SharedPtr\<XmlQualifiedName\>\&) method
+## XmlSchemaObjectTable::idx_get(const SharedPtr\<XmlQualifiedName\>&) method
 
 
 Returns the element in the [XmlSchemaObjectTable](../) specified by qualified name.
@@ -20,7 +20,7 @@ SharedPtr<XmlSchemaObject> System::Xml::Schema::XmlSchemaObjectTable::idx_get(co
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the element to return. |
+| name | const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>& | The [XmlQualifiedName](../../../system.xml/xmlqualifiedname/) of the element to return. |
 
 ### Return Value
 

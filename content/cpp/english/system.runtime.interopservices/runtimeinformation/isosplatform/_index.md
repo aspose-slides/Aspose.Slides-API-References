@@ -1,12 +1,12 @@
 ---
 title: IsOSPlatform()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "RuntimeInformation::IsOSPlatform() method"
 type: docs
 weight: 1
 url: /system.runtime.interopservices/runtimeinformation/isosplatform/
 ---
-## RuntimeInformation::IsOSPlatform(const OSPlatform\&) method
+## RuntimeInformation::IsOSPlatform(const OSPlatform&) method
 
 
 

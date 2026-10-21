@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.threading.tasks/resulttask/complete/
 ---
-## ResultTask::Complete(const T\&) method
+## ResultTask::Complete(const T&) method
 
 
 Sets the result value for the task and completes it.

@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /system/uri/unescapedatastring/
 ---
-## Uri::UnescapeDataString(const String\&) method
+## Uri::UnescapeDataString(const String&) method
 
 
 Unescapes the specified escaped string.
@@ -20,7 +20,7 @@ static String System::Uri::UnescapeDataString(const String &stringToUnescape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stringToUnescape | const [String](../../string/)\& | The string to unescape |
+| stringToUnescape | const [String](../../string/)& | The string to unescape |
 
 ### Return Value
 

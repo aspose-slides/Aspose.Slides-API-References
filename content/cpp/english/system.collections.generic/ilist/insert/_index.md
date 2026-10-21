@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.collections.generic/ilist/insert/
 ---
-## IList::Insert(int, const T\&) method
+## IList::Insert(int, const T&) method
 
 
 Inserts element into specified position, shifting other elements.
@@ -21,7 +21,7 @@ virtual void System::Collections::Generic::IList<T>::Insert(int index, const T &
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | [Index](../../../system/index/) to insert elements onto. |
-| item | const T\& | Item to insert at specified index. |
+| item | const T& | Item to insert at specified index. |
 
 ## See Also
 

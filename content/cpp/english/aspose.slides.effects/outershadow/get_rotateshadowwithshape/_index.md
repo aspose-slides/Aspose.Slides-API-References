@@ -1,7 +1,7 @@
 ---
 title: get_RotateShadowWithShape()
 second_title: Aspose.Slides for C++ API Reference
-description: Indicates whether the shadow rotates together with the shape. Default value \\u2013 true. Read bool.
+description: Indicates whether the shadow rotates together with the shape. Default value – true. Read bool.
 type: docs
 weight: 170
 url: /aspose.slides.effects/outershadow/get_rotateshadowwithshape/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/get_rotateshadowwithshape/
 ## OuterShadow::get_RotateShadowWithShape() method
 
 
-Indicates whether the shadow rotates together with the shape. Default value \\u2013 true. Read **bool**.
+Indicates whether the shadow rotates together with the shape. Default value – true. Read **bool**.
 
 ```cpp
 bool Aspose::Slides::Effects::OuterShadow::get_RotateShadowWithShape() override

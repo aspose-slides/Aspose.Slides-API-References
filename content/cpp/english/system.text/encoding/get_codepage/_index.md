@@ -9,7 +9,7 @@ url: /system.text/encoding/get_codepage/
 ## Encoding::get_CodePage() method
 
 
-Gets [Windows](../../../system.windows/) codepage ID.
+Gets Windows codepage ID.
 
 ```cpp
 virtual int System::Text::Encoding::get_CodePage()

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /system.text/stringbuilder/copyto/
 ---
-## StringBuilder::CopyTo(int, System::ArrayPtr\<char_t\> const\&, int, int) method
+## StringBuilder::CopyTo(int, System::ArrayPtr\<char_t\> const&, int, int) method
 
 
 Copies builder's data into existing array positions.
@@ -21,7 +21,7 @@ void System::Text::StringBuilder::CopyTo(int sourceIndex, System::ArrayPtr<char_
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceIndex | int | [Index](../../../system/index/) in builder to start copying from. |
-| destination | [System::ArrayPtr](../../../system/arrayptr/)\<char_t\> const\& | Destination array. |
+| destination | [System::ArrayPtr](../../../system/arrayptr/)\<char_t\> const& | Destination array. |
 | destinationIndex | int | [Index](../../../system/index/) in destination array to start insertion at. |
 | count | int | Number of characters to copy. |
 

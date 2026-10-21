@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.xml.schema/xmlschemavalidator/set_xmlresolver/
 ---
-## XmlSchemaValidator::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
+## XmlSchemaValidator::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>&) method
 
 
 Sets the [XmlResolver](../../../system.xml/xmlresolver/) object used to resolve **xs:import** and **xs:include** elements as well as **xsi:schemaLocation** and **xsi:noNamespaceSchemaLocation** attributes.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaValidator::set_XmlResolver(const SharedPtr<Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>& | The value to set. |
 
 ## See Also
 

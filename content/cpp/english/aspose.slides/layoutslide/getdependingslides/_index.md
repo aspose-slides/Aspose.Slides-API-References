@@ -16,10 +16,6 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::LayoutSlide::GetDepe
 ```
 
 
-### Return Value
-
-
-
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)

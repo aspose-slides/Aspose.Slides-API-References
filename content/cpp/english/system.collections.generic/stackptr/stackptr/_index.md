@@ -15,7 +15,7 @@ Constructs null pointer.
 System::Collections::Generic::StackPtr<T>::StackPtr()
 ```
 
-## StackPtr::StackPtr(const SharedPtr\<Stack\<T\>\>\&) constructor
+## StackPtr::StackPtr(const SharedPtr\<Stack\<T\>\>&) constructor
 
 
 Constructs pointer referencing specific stack.
@@ -29,7 +29,7 @@ System::Collections::Generic::StackPtr<T>::StackPtr(const SharedPtr<Stack<T>> &o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[Stack](../../stack/)\<T\>\>\& | [Stack](../../stack/) to refeence. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Stack](../../stack/)\<T\>\>& | [Stack](../../stack/) to refeence. |
 
 ## See Also
 

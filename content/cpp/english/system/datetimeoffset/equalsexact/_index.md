@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system/datetimeoffset/equalsexact/
 ---
-## DateTimeOffset::EqualsExact(const DateTimeOffset\&) const method
+## DateTimeOffset::EqualsExact(const DateTimeOffset&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point and has the same offset.
@@ -20,13 +20,13 @@ bool System::DateTimeOffset::EqualsExact(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | [Object](../../object/) to compare. |
+| other | const [DateTimeOffset](../)& | [Object](../../object/) to compare. |
 
 ### Return Value
 
 true if current object is exact equal to **other**, otherwise - false.
 
-## DateTimeOffset::EqualsExact(const SharedPtr\<Object\>\&) const method
+## DateTimeOffset::EqualsExact(const SharedPtr\<Object\>&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point and has the same offset.
@@ -40,7 +40,7 @@ bool System::DateTimeOffset::EqualsExact(const SharedPtr<Object> &obj) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\& | [Object](../../object/) to compare. |
+| obj | const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>& | [Object](../../object/) to compare. |
 
 ### Return Value
 

@@ -1,7 +1,7 @@
 ---
 title: get_Snow()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FFFFFAFA.
+description: "Returns the solid fill color whose hexadecimal value is #FFFFFAFA."
 type: docs
 weight: 1639
 url: /system.drawing/brushes/get_snow/

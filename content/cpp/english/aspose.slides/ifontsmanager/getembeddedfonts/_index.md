@@ -18,7 +18,7 @@ virtual System::ArrayPtr<System::SharedPtr<IFontData>> Aspose::Slides::IFontsMan
 
 ### Return Value
 
-Embedded fonts [IFontData](../../ifontdata/)[]
+Embedded fonts [IFontData](../../ifontdata/)\[\]
 
 ## See Also
 

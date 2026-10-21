@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /aspose.slides.animation/ibehaviorpropertycollection/indexof/
 ---
-## IBehaviorPropertyCollection::IndexOf(const System::String\&) const method
+## IBehaviorPropertyCollection::IndexOf(const System::String&) const method
 
 
 Determines the index of a specific item by property value in the [IList](../../../system.collections.generic/ilist/).
@@ -20,7 +20,7 @@ virtual int32_t Aspose::Slides::Animation::IBehaviorPropertyCollection::IndexOf(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | const [System::String](../../../system/string/)\& | value of the property |
+| propertyValue | const [System::String](../../../system/string/)& | value of the property |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.xsl/xsltargumentlist/getparam/
 ---
-## XsltArgumentList::GetParam(const String\&, const String\&) method
+## XsltArgumentList::GetParam(const String&, const String&) method
 
 
 Returns the parameter associated with the namespace qualified name.
@@ -20,8 +20,8 @@ SharedPtr<Object> System::Xml::Xsl::XsltArgumentList::GetParam(const String &nam
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the parameter. [XsltArgumentList](../) does not check to ensure the name passed is a valid local name; however, the name cannot be **nullptr**. |
-| namespaceUri | const [String](../../../system/string/)\& | The namespace URI associated with the parameter. |
+| name | const [String](../../../system/string/)& | The name of the parameter. [XsltArgumentList](../) does not check to ensure the name passed is a valid local name; however, the name cannot be **nullptr**. |
+| namespaceUri | const [String](../../../system/string/)& | The namespace URI associated with the parameter. |
 
 ### Return Value
 

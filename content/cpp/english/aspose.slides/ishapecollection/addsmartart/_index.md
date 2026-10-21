@@ -20,10 +20,10 @@ virtual System::SharedPtr<SmartArt::ISmartArt> Aspose::Slides::IShapeCollection:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | **float** | The x-coordinate of the diagram\\u2019s frame, in points. |
-| y | **float** | The y-coordinate of the diagram\\u2019s frame, in points. |
-| width | **float** | The width of the diagram\\u2019s frame, in points. |
-| height | **float** | The height of the diagram\\u2019s frame, in points. |
+| x | **float** | The x-coordinate of the diagram’s frame, in points. |
+| y | **float** | The y-coordinate of the diagram’s frame, in points. |
+| width | **float** | The width of the diagram’s frame, in points. |
+| height | **float** | The height of the diagram’s frame, in points. |
 | layoutType | [SmartArt::SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/) | The [SmartArt](../../../aspose.slides.smartart/) layout type. |
 
 ### Return Value

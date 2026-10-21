@@ -16,6 +16,13 @@ void Aspose::Slides::Connector::set_StartShapeConnectionSiteIndex(uint32_t value
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when value is less than [get_StartShapeConnectedTo()](../get_startshapeconnectedto/)-\>[get_ConnectionSiteCount()](../../shape/get_connectionsitecount/) |
+
+
 ## See Also
 
 * Class [Connector](../)

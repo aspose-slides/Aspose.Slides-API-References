@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /system.xml/xmlnamespacemanager/lookupnamespace/
 ---
-## XmlNamespaceManager::LookupNamespace(const String\&) method
+## XmlNamespaceManager::LookupNamespace(const String&) method
 
 
 Returns the namespace URI for the specified prefix.
@@ -20,7 +20,7 @@ String System::Xml::XmlNamespaceManager::LookupNamespace(const String &prefix) o
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| prefix | const [String](../../../system/string/)\& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass [String::Empty](../../../system/string/empty/). |
+| prefix | const [String](../../../system/string/)& | The prefix whose namespace URI you want to resolve. To match the default namespace, pass [String::Empty](../../../system/string/empty/). |
 
 ### Return Value
 

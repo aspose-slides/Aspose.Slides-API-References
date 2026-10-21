@@ -1,7 +1,7 @@
 ---
 title: GetXml()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "KeyInfoX509Data::GetXml() method"
 type: docs
 weight: 131
 url: /system.security.cryptography.xml/keyinfox509data/getxml/

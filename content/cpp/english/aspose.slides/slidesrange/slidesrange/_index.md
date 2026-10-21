@@ -1,7 +1,7 @@
 ---
 title: SlidesRange()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "SlidesRange::SlidesRange() constructor"
 type: docs
 weight: 53
 url: /aspose.slides/slidesrange/slidesrange/

@@ -1,7 +1,7 @@
 ---
 title: get_Navy()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF000080.
+description: "Returns the solid fill color whose hexadecimal value is #FF000080."
 type: docs
 weight: 1236
 url: /system.drawing/brushes/get_navy/

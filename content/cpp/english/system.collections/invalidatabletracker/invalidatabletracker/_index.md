@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections/invalidatabletracker/invalidatabletracker/
 ---
-## InvalidatableTracker::InvalidatableTracker(Invalidatable *) constructor
+## InvalidatableTracker::InvalidatableTracker(Invalidatable \*) constructor
 
 
 Constructs a tracker object.
@@ -20,7 +20,7 @@ System::Collections::InvalidatableTracker::InvalidatableTracker(Invalidatable *i
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| invalidator | [Invalidatable](../../invalidatable/) * | A [Invalidatable](../../invalidatable/) object, that is needed to be tracked |
+| invalidator | [Invalidatable](../../invalidatable/) \* | A [Invalidatable](../../invalidatable/) object, that is needed to be tracked |
 
 ## See Also
 

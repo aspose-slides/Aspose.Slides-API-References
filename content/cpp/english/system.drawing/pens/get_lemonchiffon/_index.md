@@ -1,7 +1,7 @@
 ---
 title: get_LemonChiffon()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFFACD.
+description: "Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFFFFACD."
 type: docs
 weight: 820
 url: /system.drawing/pens/get_lemonchiffon/

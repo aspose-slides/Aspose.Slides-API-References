@@ -1,7 +1,7 @@
 ---
 title: get_AliceBlue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns a color whose ARGB value in hexadecimal notation is #FFF0F8FF.
+description: "Returns a color whose ARGB value in hexadecimal notation is #FFF0F8FF."
 type: docs
 weight: 287
 url: /system.drawing/color/get_aliceblue/

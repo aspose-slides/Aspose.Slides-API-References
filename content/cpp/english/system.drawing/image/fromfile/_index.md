@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.drawing/image/fromfile/
 ---
-## Image::FromFile(const String\&, bool) method
+## Image::FromFile(const String&, bool) method
 
 
 Creates an [Image](../) object from the specified file.
@@ -20,7 +20,7 @@ static SharedPtr<Image> System::Drawing::Image::FromFile(const String &filename,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | const [String](../../../system/string/)\& | A name of the file that contains image data |
+| filename | const [String](../../../system/string/)& | A name of the file that contains image data |
 | use_embedded_color_management | **bool** | IGNORED |
 
 ### Return Value

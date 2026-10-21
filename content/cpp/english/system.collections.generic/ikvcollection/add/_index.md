@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /system.collections.generic/ikvcollection/add/
 ---
-## IKVCollection::Add(const T\&) method
+## IKVCollection::Add(const T&) method
 
 
 Adds item to container.
@@ -20,7 +20,7 @@ virtual void System::Collections::Generic::IKVCollection<T>::Add(const T &item) 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to add to container. |
+| item | const T& | Item to add to container. |
 
 ## See Also
 

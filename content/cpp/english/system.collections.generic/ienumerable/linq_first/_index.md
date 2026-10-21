@@ -20,7 +20,14 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_First()
 
 First element in the sequence.
 
-## IEnumerable::LINQ_First(const Func\<T, bool\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | Source sequence is empty. |
+
+
+## IEnumerable::LINQ_First(const Func\<T, bool\>&) method
 
 
 Returns the first element of a sequence that satisfy the specified condition.
@@ -34,11 +41,18 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_First(const Func<T, bool> &
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| predicate | const [Func](../../../system/func/)\<T, **bool**\>\& | A function to test each element for a condition. |
+| predicate | const [Func](../../../system/func/)\<T, **bool**\>& | A function to test each element for a condition. |
 
 ### Return Value
 
 First element in the sequence that satisfy the specified condition.
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidOperationException | No element satisfy the specified condition. |
+
 
 ## See Also
 

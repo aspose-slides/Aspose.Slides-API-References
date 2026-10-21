@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.xml.schema/xmlschemaany/set_namespace/
 ---
-## XmlSchemaAny::set_Namespace(const String\&) method
+## XmlSchemaAny::set_Namespace(const String&) method
 
 
 Sets the namespaces containing the elements that can be used.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaAny::set_Namespace(const String &value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | The value to set. |
+| value | const [String](../../../system/string/)& | The value to set. |
 
 ## See Also
 

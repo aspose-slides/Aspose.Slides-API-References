@@ -22,6 +22,13 @@ void System::Xml::XmlValidatingReader::set_EntityHandling(System::Xml::EntityHan
 | --- | --- | --- |
 | value | [System::Xml::EntityHandling](../../entityhandling/) | The value to set. |
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentOutOfRangeException | Invalid value was specified. |
+
+
 ## See Also
 
 * Enum [EntityHandling](../../entityhandling/)

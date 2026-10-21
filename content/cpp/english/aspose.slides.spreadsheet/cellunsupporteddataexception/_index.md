@@ -1,7 +1,7 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CellUnsupportedDataException typedef
 type: docs
 weight: 92
 url: /aspose.slides.spreadsheet/cellunsupporteddataexception/

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /system/string/operator_plus/
 ---
-## String::operator+(const String\&) const method
+## String::operator+(const String&) const method
 
 
 [String](../) concatenation operator.
@@ -20,13 +20,13 @@ String System::String::operator+(const String &str) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../)\& | [String](../) to add to the end of current one. |
+| str | const [String](../)& | [String](../) to add to the end of current one. |
 
 ### Return Value
 
 Concatenated string.
 
-## String::operator+(const T\&) const method
+## String::operator+(const T&) const method
 
 
 [String](../) concatenation with string literal or character string pointer.
@@ -46,7 +46,7 @@ template<typename T,std::enable_if_t< IsStringLiteral< T, char_t >::value > *> S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg | const T\& | Entity to concatenate with current string. |
+| arg | const T& | Entity to concatenate with current string. |
 
 ### Return Value
 
@@ -152,7 +152,7 @@ String System::String::operator+(int64_t v) const
 
 [String](../) concatenation result.
 
-## String::operator+(const T\&) const method
+## String::operator+(const T&) const method
 
 
 Adds reference type object string representation to the end of the string.
@@ -172,13 +172,13 @@ template<typename T,std::enable_if_t< IsSmartPtr< T >::value > *> String System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../object/) to convert to string using [ToString()](../tostring/) call and to add to current string. |
+| value | const T& | [Object](../../object/) to convert to string using [ToString()](../tostring/) call and to add to current string. |
 
 ### Return Value
 
 [String](../) concatenation result.
 
-## String::operator+(const T\&) const method
+## String::operator+(const T&) const method
 
 
 Adds value type object string representation to the end of the string.
@@ -198,7 +198,7 @@ template<typename T,std::enable_if_t<!IsSmartPtr< T >::value &&!std::is_scalar< 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const T\& | [Object](../../object/) to convert to string using [ToString()](../tostring/) call and to add to current string. |
+| value | const T& | [Object](../../object/) to convert to string using [ToString()](../tostring/) call and to add to current string. |
 
 ### Return Value
 

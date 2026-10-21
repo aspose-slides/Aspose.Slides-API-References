@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.concurrent/concurrentdictionary/idx_set/
 ---
-## ConcurrentDictionary::idx_set(const TKey\&, TValue) method
+## ConcurrentDictionary::idx_set(const TKey&, TValue) method
 
 
 Sets element at specific position.
@@ -20,7 +20,7 @@ virtual void System::Collections::Concurrent::ConcurrentDictionary<TKey, TValue>
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const TKey\& | Position to set element at. |
+| key | const TKey& | Position to set element at. |
 | value | TValue | Value to set at specific position. |
 
 ## See Also

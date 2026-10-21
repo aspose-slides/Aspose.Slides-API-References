@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /system.drawing/point/truncate/
 ---
-## Point::Truncate(const PointF\&) method
+## Point::Truncate(const PointF&) method
 
 
 Constructs a [Point](../) object from the specified [PointF](../../pointf/) object by truncating the [PointF](../../pointf/) object's X and Y coordinates values to the next lower integer values.
@@ -20,7 +20,7 @@ static Point System::Drawing::Point::Truncate(const PointF &point)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| point | const [PointF](../../pointf/)\& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
+| point | const [PointF](../../pointf/)& | The [PointF](../../pointf/) object to construct a [Point](../) object from |
 
 ### Return Value
 

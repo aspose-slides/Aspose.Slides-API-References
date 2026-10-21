@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system.collections.generic/linkedlist/addafter/
 ---
-## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>\&, const T\&) method
+## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>&, const T&) method
 
 
 Adds **element** after **node** of the list.
@@ -20,14 +20,14 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddAft
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | Node after which to insert |
-| element | const T\& | Element to add |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | Node after which to insert |
+| element | const T& | Element to add |
 
 ### Return Value
 
 New node.
 
-## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>\&, const SharedPtr\<LinkedListNode\<T\>\>\&) method
+## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>&, const SharedPtr\<LinkedListNode\<T\>\>&) method
 
 
 Adds **newNode** after **node** of the list.
@@ -41,8 +41,8 @@ void System::Collections::Generic::LinkedList<T>::AddAfter(const SharedPtr<Linke
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | Node after which to insert |
-| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\& | New node to add |
+| node | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | Node after which to insert |
+| newNode | const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>& | New node to add |
 
 ## See Also
 

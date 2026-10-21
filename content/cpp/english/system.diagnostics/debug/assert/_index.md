@@ -22,7 +22,7 @@ static void System::Diagnostics::Debug::Assert(bool condition)
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
 
-## Debug::Assert(bool, const String\&) method
+## Debug::Assert(bool, const String&) method
 
 
 Assert condition and send information on failure.
@@ -37,9 +37,9 @@ static void System::Diagnostics::Debug::Assert(bool condition, const String &mes
 | Parameter | Type | Description |
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
-| message | const [String](../../../system/string/)\& | Message to populate on assertion failure. |
+| message | const [String](../../../system/string/)& | Message to populate on assertion failure. |
 
-## Debug::Assert(bool, const char *) method
+## Debug::Assert(bool, const char \*) method
 
 
 Assert condition and send information on failure.
@@ -54,9 +54,9 @@ static void System::Diagnostics::Debug::Assert(bool condition, const char *messa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
-| message | const char * | Message to populate on assertion failure. |
+| message | const char \* | Message to populate on assertion failure. |
 
-## Debug::Assert(bool, const String\&, const String\&) method
+## Debug::Assert(bool, const String&, const String&) method
 
 
 Assert condition and send information on failure.
@@ -71,8 +71,8 @@ static void System::Diagnostics::Debug::Assert(bool condition, const String &mes
 | Parameter | Type | Description |
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
-| message | const [String](../../../system/string/)\& | Message to populate on assertion failure. |
-| detailMessage | const [String](../../../system/string/)\& | Detailed message to populate on assertion failure. |
+| message | const [String](../../../system/string/)& | Message to populate on assertion failure. |
+| detailMessage | const [String](../../../system/string/)& | Detailed message to populate on assertion failure. |
 
 ## See Also
 

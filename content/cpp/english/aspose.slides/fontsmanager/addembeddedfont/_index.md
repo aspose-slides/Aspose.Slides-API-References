@@ -15,6 +15,13 @@ Adds the embedded font
 void Aspose::Slides::FontsManager::AddEmbeddedFont(System::SharedPtr<Aspose::Slides::IFontData> fontData, Aspose::Slides::Export::EmbedFontCharacters embedFontRule) override
 ```
 
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | An ArgumentException can be thrown if font data is null or this font is already embedded |
+
 ## Remarks
 
 
@@ -28,6 +35,13 @@ Adds the embedded font
 ```cpp
 void Aspose::Slides::FontsManager::AddEmbeddedFont(System::ArrayPtr<uint8_t> fontData, Aspose::Slides::Export::EmbedFontCharacters embedFontRule) override
 ```
+
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | An ArgumentException can be thrown if font data is null or this font is already embedded |
 
 ## Remarks
 

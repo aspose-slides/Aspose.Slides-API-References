@@ -1,7 +1,7 @@
 ---
 title: get_DarkOrchid()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns the solid fill color whose hexadecimal value is #FF9932CC.
+description: "Returns the solid fill color whose hexadecimal value is #FF9932CC."
 type: docs
 weight: 391
 url: /system.drawing/brushes/get_darkorchid/

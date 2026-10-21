@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /system.globalization/numberformatinfo/set_percentdecimalseparator/
 ---
-## NumberFormatInfo::set_PercentDecimalSeparator(const String\&) method
+## NumberFormatInfo::set_PercentDecimalSeparator(const String&) method
 
 
 Sets decimal separator in percent values.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_PercentDecimalSeparator(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | [Decimal](../../../system/decimal/) separator in percent values. |
+| value | const [String](../../../system/string/)& | [Decimal](../../../system/decimal/) separator in percent values. |
 
 ## See Also
 

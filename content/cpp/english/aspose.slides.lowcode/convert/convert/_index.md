@@ -1,7 +1,7 @@
 ---
 title: Convert()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Convert::Convert() constructor"
 type: docs
 weight: 79
 url: /aspose.slides.lowcode/convert/convert/

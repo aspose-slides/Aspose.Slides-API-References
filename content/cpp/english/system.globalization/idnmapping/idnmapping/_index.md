@@ -19,7 +19,7 @@ System::Globalization::IdnMapping::IdnMapping()
 
 
 Constructor. 
-## IdnMapping::IdnMapping(const IdnMapping\&) constructor
+## IdnMapping::IdnMapping(const IdnMapping&) constructor
 
 
 

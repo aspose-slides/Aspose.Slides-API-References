@@ -16,6 +16,13 @@ virtual uint32_t Aspose::Slides::IConnector::get_StartShapeConnectionSiteIndex()
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Thrown when value is less than [get_StartShapeConnectedTo()](../get_startshapeconnectedto/)-\>[get_ConnectionSiteCount()](../../ishape/get_connectionsitecount/) |
+
+
 ## See Also
 
 * Class [IConnector](../)

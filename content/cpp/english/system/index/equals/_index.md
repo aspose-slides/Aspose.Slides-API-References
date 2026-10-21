@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /system/index/equals/
 ---
-## Index::Equals(const Index\&) const method
+## Index::Equals(const Index&) const method
 
 
 Determines whether the current instance and the specified [Index](../) represent the same position.
@@ -20,7 +20,7 @@ bool System::Index::Equals(const Index &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [Index](../)\& | The index to compare with. |
+| other | const [Index](../)& | The index to compare with. |
 
 ### Return Value
 

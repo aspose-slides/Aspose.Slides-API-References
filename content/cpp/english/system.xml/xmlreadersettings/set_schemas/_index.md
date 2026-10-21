@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /system.xml/xmlreadersettings/set_schemas/
 ---
-## XmlReaderSettings::set_Schemas(const SharedPtr\<Schema::XmlSchemaSet\>\&) method
+## XmlReaderSettings::set_Schemas(const SharedPtr\<Schema::XmlSchemaSet\>&) method
 
 
 Sets the XmlSchemaSet to use when performing schema validation.
@@ -20,7 +20,7 @@ void System::Xml::XmlReaderSettings::set_Schemas(const SharedPtr<Schema::XmlSche
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[Schema::XmlSchemaSet](../../../system.xml.schema/xmlschemaset/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[Schema::XmlSchemaSet](../../../system.xml.schema/xmlschemaset/)\>& | The value to set. |
 
 ## See Also
 

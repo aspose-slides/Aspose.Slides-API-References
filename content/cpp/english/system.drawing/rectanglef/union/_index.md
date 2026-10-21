@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /system.drawing/rectanglef/union/
 ---
-## RectangleF::Union(const RectangleF\&, const RectangleF\&) method
+## RectangleF::Union(const RectangleF&, const RectangleF&) method
 
 
 Returns a rectangle that is a result of union of the specified rectangles.
@@ -20,8 +20,8 @@ static RectangleF System::Drawing::RectangleF::Union(const RectangleF &a, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [RectangleF](../)\& | The first rectangle to union |
-| b | const [RectangleF](../)\& | The second rectangle to union |
+| a | const [RectangleF](../)& | The first rectangle to union |
+| b | const [RectangleF](../)& | The second rectangle to union |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.componentmodel/enumconverter/canconvertfrom/
 ---
-## EnumConverter::CanConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::TypeInfo\&) method
+## EnumConverter::CanConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>&, const System::TypeInfo&) method
 
 
 Checks if types are convertible; not implemented.

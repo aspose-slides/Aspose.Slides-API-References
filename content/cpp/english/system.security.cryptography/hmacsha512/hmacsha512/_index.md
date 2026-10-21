@@ -15,7 +15,7 @@ Constructor.
 System::Security::Cryptography::HMACSHA512::HMACSHA512()
 ```
 
-## HMACSHA512::HMACSHA512(const System::ArrayPtr\<uint8_t\>\&) constructor
+## HMACSHA512::HMACSHA512(const System::ArrayPtr\<uint8_t\>&) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Security::Cryptography::HMACSHA512::HMACSHA512(const System::ArrayPtr<ui
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Hasher key. |
+| key | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Hasher key. |
 
 ## See Also
 

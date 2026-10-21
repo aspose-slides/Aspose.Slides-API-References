@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /system.globalization/numberformatinfo/set_negativeinfinitysymbol/
 ---
-## NumberFormatInfo::set_NegativeInfinitySymbol(const String\&) method
+## NumberFormatInfo::set_NegativeInfinitySymbol(const String&) method
 
 
 Sets negative infinity symbol.
@@ -20,7 +20,7 @@ void System::Globalization::NumberFormatInfo::set_NegativeInfinitySymbol(const S
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [String](../../../system/string/)\& | Negative infinity symbol. |
+| value | const [String](../../../system/string/)& | Negative infinity symbol. |
 
 ## See Also
 

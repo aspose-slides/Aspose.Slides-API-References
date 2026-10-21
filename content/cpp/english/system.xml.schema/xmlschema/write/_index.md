@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /system.xml.schema/xmlschema/write/
 ---
-## XmlSchema::Write(const SharedPtr\<IO::Stream\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::Stream\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied data stream.
@@ -20,9 +20,9 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::Stream> &stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The supplied data stream. |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The supplied data stream. |
 
-## XmlSchema::Write(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::Stream\>&, const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied Stream using the [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) specified.
@@ -36,10 +36,10 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::Stream> &stream, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The supplied data stream. |
-| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>& | The supplied data stream. |
+| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
 
-## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied [IO::TextWriter](../../../system.io/textwriter/).
@@ -53,9 +53,9 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::TextWriter> &writ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
+| writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
 
-## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>&, const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied TextWriter.
@@ -69,10 +69,10 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::TextWriter> &writ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
-| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
+| writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
+| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
 
-## XmlSchema::Write(const SharedPtr\<XmlWriter\>\&) method
+## XmlSchema::Write(const SharedPtr\<XmlWriter\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied [XmlWriter](../../../system.xml/xmlwriter/).
@@ -86,9 +86,16 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<XmlWriter> &writer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| writer | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to write to. |
+| writer | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>& | The [XmlWriter](../../../system.xml/xmlwriter/) to write to. |
 
-## XmlSchema::Write(const SharedPtr\<XmlWriter\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| ArgumentNullException | The **writer** parameter is null. |
+
+
+## XmlSchema::Write(const SharedPtr\<XmlWriter\>&, const SharedPtr\<XmlNamespaceManager\>&) method
 
 
 Writes the XML [Schema](../../) to the supplied [XmlWriter](../../../system.xml/xmlwriter/).
@@ -102,8 +109,8 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<XmlWriter> &writer, c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| writer | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to write to. |
-| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
+| writer | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>& | The [XmlWriter](../../../system.xml/xmlwriter/) to write to. |
+| namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
 
 ## See Also
 

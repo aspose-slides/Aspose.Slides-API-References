@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /system.drawing/image/fromstream/
 ---
-## Image::FromStream(const SharedPtr\<System::IO::Stream\>\&, bool, bool) method
+## Image::FromStream(const SharedPtr\<System::IO::Stream\>&, bool, bool) method
 
 
 Creates an [Image](../) object from the specified stream.
@@ -20,7 +20,7 @@ static SharedPtr<Image> System::Drawing::Image::FromStream(const SharedPtr<Syste
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\& | A stream that contains image data |
+| stream | const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>& | A stream that contains image data |
 | use_embedded_color_management | **bool** | IGNORED |
 | validate_image_data | **bool** | IGNORED |
 

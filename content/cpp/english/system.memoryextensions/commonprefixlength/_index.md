@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.memoryextensions/commonprefixlength/
 ---
-## System::MemoryExtensions::CommonPrefixLength(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the length of the common prefix between two spans.
@@ -26,14 +26,14 @@ template<typename T> int32_t System::MemoryExtensions::CommonPrefixLength(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The first span |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The second span |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The first span |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The second span |
 
 ### Return Value
 
 The number of matching elements at the beginning of both spans
 
-## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>\&, const ReadOnlySpan\<T\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>&, const ReadOnlySpan\<T\>&) function
 
 
 Finds the length of the common prefix between a mutable span and a read-only span.
@@ -53,14 +53,14 @@ template<typename T> int32_t System::MemoryExtensions::CommonPrefixLength(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The read-only span |
 
 ### Return Value
 
 The number of matching elements at the beginning of both spans
 
-## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>\&, const Span\<T\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>&, const Span\<T\>&) function
 
 
 Finds the length of the common prefix between two mutable spans.
@@ -80,14 +80,14 @@ template<typename T> int32_t System::MemoryExtensions::CommonPrefixLength(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The first mutable span |
-| other | const [Span](../../system/span/)\<T\>\& | The second mutable span |
+| span | const [Span](../../system/span/)\<T\>& | The first mutable span |
+| other | const [Span](../../system/span/)\<T\>& | The second mutable span |
 
 ### Return Value
 
 The number of matching elements at the beginning of both spans
 
-## System::MemoryExtensions::CommonPrefixLength(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&, const SharedPtr\<TEqualityComparer\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const ReadOnlySpan\<T\>&, const ReadOnlySpan\<T\>&, const SharedPtr\<TEqualityComparer\>&) function
 
 
 Finds the length of the common prefix between two spans using a custom equality comparer.
@@ -108,15 +108,15 @@ template<typename T,typename TEqualityComparer> int32_t System::MemoryExtensions
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The first span |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The second span |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>\& | The equality comparer to use for element comparison |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The first span |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The second span |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>& | The equality comparer to use for element comparison |
 
 ### Return Value
 
 The number of matching elements at the beginning of both spans
 
-## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>\&, const ReadOnlySpan\<T\>\&, const SharedPtr\<TEqualityComparer\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>&, const ReadOnlySpan\<T\>&, const SharedPtr\<TEqualityComparer\>&) function
 
 
 Finds the length of the common prefix between a mutable span and a read-only span using a custom equality comparer.
@@ -137,15 +137,15 @@ template<typename T,typename TEqualityComparer> int32_t System::MemoryExtensions
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The mutable span |
-| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>\& | The read-only span |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>\& | The equality comparer to use for element comparison |
+| span | const [Span](../../system/span/)\<T\>& | The mutable span |
+| other | const [ReadOnlySpan](../../system/readonlyspan/)\<T\>& | The read-only span |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>& | The equality comparer to use for element comparison |
 
 ### Return Value
 
 The number of matching elements at the beginning of both spans
 
-## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>\&, const Span\<T\>\&, const SharedPtr\<TEqualityComparer\>\&) function
+## System::MemoryExtensions::CommonPrefixLength(const Span\<T\>&, const Span\<T\>&, const SharedPtr\<TEqualityComparer\>&) function
 
 
 Finds the length of the common prefix between two mutable spans using a custom equality comparer.
@@ -166,9 +166,9 @@ template<typename T,typename TEqualityComparer> int32_t System::MemoryExtensions
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| span | const [Span](../../system/span/)\<T\>\& | The first mutable span |
-| other | const [Span](../../system/span/)\<T\>\& | The second mutable span |
-| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>\& | The equality comparer to use for element comparison |
+| span | const [Span](../../system/span/)\<T\>& | The first mutable span |
+| other | const [Span](../../system/span/)\<T\>& | The second mutable span |
+| comparer | const [SharedPtr](../../system/sharedptr/)\<TEqualityComparer\>& | The equality comparer to use for element comparison |
 
 ### Return Value
 

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /system.globalization/idnmapping/getascii/
 ---
-## IdnMapping::GetAscii(const String\&) const method
+## IdnMapping::GetAscii(const String&) const method
 
 
 [Convert](../../../system/convert/) unicode domain name to ascii equivalent.
@@ -20,13 +20,13 @@ String System::Globalization::IdnMapping::GetAscii(const String &unicode) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unicode | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| unicode | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 
 ### Return Value
 
 Ascii equivalent of unicode string.
 
-## IdnMapping::GetAscii(const String\&, int) const method
+## IdnMapping::GetAscii(const String&, int) const method
 
 
 [Convert](../../../system/convert/) unicode domain name to ascii equivalent.
@@ -40,14 +40,14 @@ String System::Globalization::IdnMapping::GetAscii(const String &unicode, int in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unicode | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| unicode | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 | index | int | Start index of the substring to convert |
 
 ### Return Value
 
 Ascii equivalent of unicode string.
 
-## IdnMapping::GetAscii(const String\&, int, int) const method
+## IdnMapping::GetAscii(const String&, int, int) const method
 
 
 [Convert](../../../system/convert/) unicode domain name to ascii equivalent.
@@ -61,7 +61,7 @@ String System::Globalization::IdnMapping::GetAscii(const String &unicode, int in
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unicode | const [String](../../../system/string/)\& | [String](../../../system/string/) to convert. |
+| unicode | const [String](../../../system/string/)& | [String](../../../system/string/) to convert. |
 | index | int | Start index of the substring to convert |
 | count | int | Number of characters to convert. |
 

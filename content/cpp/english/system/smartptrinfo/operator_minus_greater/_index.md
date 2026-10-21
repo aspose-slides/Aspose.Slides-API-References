@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system/smartptrinfo/operator_minus_greater/
 ---
-## SmartPtrInfo::operator->() const method
+## SmartPtrInfo::operator-\>() const method
 
 
 Allows to call methods of [Object](../../object/) pointed by the referenced pointer.

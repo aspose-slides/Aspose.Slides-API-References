@@ -20,6 +20,14 @@ virtual DateTime System::Xml::XmlReader::ReadContentAsDateTime()
 
 The text content as a [DateTime](../../../system/datetime/) object.
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| InvalidCastException | The attempted cast is not valid. |
+| FormatException | The string format is not valid. |
+
+
 ## See Also
 
 * Class [DateTime](../../../system/datetime/)

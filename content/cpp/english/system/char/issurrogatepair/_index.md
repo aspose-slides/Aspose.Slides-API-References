@@ -27,7 +27,7 @@ static bool System::Char::IsSurrogatePair(char_t highSurrogate, char_t lowSurrog
 
 True if the specified characters form a surrogate pair, otherwise - false
 
-## Char::IsSurrogatePair(const String\&, int) method
+## Char::IsSurrogatePair(const String&, int) method
 
 
 Determines whether two consequent characters in the specified character buffer are a surrogate pair.
@@ -41,7 +41,7 @@ static bool System::Char::IsSurrogatePair(const String &str, int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const [String](../../string/)\& | A string |
+| str | const [String](../../string/)& | A string |
 | index | int | A zero based index in the specified buffer at which the character sequence to test begins |
 
 ### Return Value

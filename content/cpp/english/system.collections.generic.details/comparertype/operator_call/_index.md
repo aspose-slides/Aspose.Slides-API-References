@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic.details/comparertype/operator_call/
 ---
-## ComparerType::operator()(const Q\&, const Q\&) const method
+## ComparerType::operator()(const Q&, const Q&) const method
 
 
 Compares value types implementing [IComparable](../../../system/icomparable/) interface.
@@ -26,14 +26,14 @@ template<typename Q> std::enable_if<std::is_base_of<System::IComparable<Q>, Q>::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const Q\& | LHS value. |
-| b | const Q\& | RHS value. |
+| a | const Q& | LHS value. |
+| b | const Q& | RHS value. |
 
 ### Return Value
 
 True if **a** is considered less than **b**, false otherwise.
 
-## ComparerType::operator()(const Q\&, const Q\&) const method
+## ComparerType::operator()(const Q&, const Q&) const method
 
 
 Compares primitive value types and objects not implementing [IComparable](../../../system/icomparable/) interface.
@@ -53,14 +53,14 @@ template<typename Q> std::enable_if<!(std::is_base_of<IComparable<Q>, Q>::value|
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const Q\& | LHS value. |
-| b | const Q\& | RHS value. |
+| a | const Q& | LHS value. |
+| b | const Q& | RHS value. |
 
 ### Return Value
 
 True if **a** is considered less than **b**, false otherwise.
 
-## ComparerType::operator()(const Q\&, const Q\&) const method
+## ComparerType::operator()(const Q&, const Q&) const method
 
 
 Compares floating point types.
@@ -80,8 +80,8 @@ template<typename Q> std::enable_if<std::is_floating_point<Q>::value, bool>::typ
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const Q\& | LHS value. |
-| b | const Q\& | RHS value. |
+| a | const Q& | LHS value. |
+| b | const Q& | RHS value. |
 
 ### Return Value
 

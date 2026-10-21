@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /system.xml.schema/xmlschemasimplecontentrestriction/set_basetype/
 ---
-## XmlSchemaSimpleContentRestriction::set_BaseType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
+## XmlSchemaSimpleContentRestriction::set_BaseType(const SharedPtr\<XmlSchemaSimpleType\>&) method
 
 
 Sets the simple type base value.
@@ -20,7 +20,7 @@ void System::Xml::Schema::XmlSchemaSimpleContentRestriction::set_BaseType(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\& | The value to set. |
+| value | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>& | The value to set. |
 
 ## See Also
 

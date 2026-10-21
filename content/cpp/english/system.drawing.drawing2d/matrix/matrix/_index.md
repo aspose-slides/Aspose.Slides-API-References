@@ -36,7 +36,7 @@ System::Drawing::Drawing2D::Matrix::Matrix(float m11, float m12, float m21, floa
 | dx | **float** | The value of the 3-rd row 1-st column |
 | dy | **float** | The value of the 3-rd row 2-nd column |
 
-## Matrix::Matrix(const Rectangle\&, const ArrayPtr\<Point\>\&) constructor
+## Matrix::Matrix(const Rectangle&, const ArrayPtr\<Point\>&) constructor
 
 
 Constructs a new instance of the [Matrix](../) class to the geometric transform defined by the specified rectangle and array of points.
@@ -45,7 +45,7 @@ Constructs a new instance of the [Matrix](../) class to the geometric transform 
 System::Drawing::Drawing2D::Matrix::Matrix(const Rectangle &rect, const ArrayPtr<Point> &plgpts)
 ```
 
-## Matrix::Matrix(const RectangleF\&, const ArrayPtr\<PointF\>\&) constructor
+## Matrix::Matrix(const RectangleF&, const ArrayPtr\<PointF\>&) constructor
 
 
 Constructs a new instance of the [Matrix](../) class to the geometric transform defined by the specified rectangle and array of points.

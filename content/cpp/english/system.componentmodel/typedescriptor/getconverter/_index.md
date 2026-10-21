@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.componentmodel/typedescriptor/getconverter/
 ---
-## TypeDescriptor::GetConverter(const TypeInfo\&) method
+## TypeDescriptor::GetConverter(const TypeInfo&) method
 
 
 RTTI information.

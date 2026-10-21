@@ -26,7 +26,7 @@ DateTimeOffset System::DateTimeOffset::operator-(TimeSpan value) const
 
 A new instance of the [DateTimeOffset](../) class representing the date and time value which is the result of subtraction of **value** from the value represented by the current object.
 
-## DateTimeOffset::operator-(const DateTimeOffset\&) const method
+## DateTimeOffset::operator-(const DateTimeOffset&) const method
 
 
 Returns an instance of [TimeSpan](../../timespan/) class that represents the time interval between the date and time values represented by the current and the specified objects.
@@ -40,7 +40,7 @@ TimeSpan System::DateTimeOffset::operator-(const DateTimeOffset &other) const
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | const [DateTimeOffset](../)\& | An instance of [DateTime](../../datetime/) class that marks one end of the interval to be calculated |
+| other | const [DateTimeOffset](../)& | An instance of [DateTime](../../datetime/) class that marks one end of the interval to be calculated |
 
 ### Return Value
 

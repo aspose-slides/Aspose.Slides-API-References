@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /system.collections.specialized/namevaluecollection/get/
 ---
-## NameValueCollection::Get(const String\&) method
+## NameValueCollection::Get(const String&) method
 
 
 Gets the values associated with the specified key.

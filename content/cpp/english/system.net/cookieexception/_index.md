@@ -1,7 +1,7 @@
 ---
 title: CookieException
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: CookieException typedef
 type: docs
 weight: 677
 url: /system.net/cookieexception/

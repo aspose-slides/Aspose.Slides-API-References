@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic.details/comparertype_tmpl_sharedptr_tmpl_t__end_tmpl__end_tmpl/operator_call/
 ---
-## ComparerType< SharedPtr< T > >::operator()(const System::SharedPtr\<Q\>\&, const System::SharedPtr\<Q\>\&) const method
+## ComparerType\< SharedPtr\< T \> \>::operator()(const System::SharedPtr\<Q\>&, const System::SharedPtr\<Q\>&) const method
 
 
 Compares pointer types implementing [IComparable](../../../system/icomparable/) interface.
@@ -26,14 +26,14 @@ template<typename Q> std::enable_if<std::is_base_of<System::IComparable<System::
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>\& | LHS value. |
-| b | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>\& | RHS value. |
+| a | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>& | LHS value. |
+| b | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>& | RHS value. |
 
 ### Return Value
 
 True if **a** is considered less than **b**, false otherwise.
 
-## ComparerType< SharedPtr< T > >::operator()(const System::SharedPtr\<Q\>\&, const System::SharedPtr\<Q\>\&) const method
+## ComparerType\< SharedPtr\< T \> \>::operator()(const System::SharedPtr\<Q\>&, const System::SharedPtr\<Q\>&) const method
 
 
 Compares pointer types not implementing [IComparable](../../../system/icomparable/) interface.
@@ -53,8 +53,8 @@ template<typename Q> std::enable_if<!(std::is_base_of<System::IComparable<System
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| a | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>\& | LHS value. |
-| b | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>\& | RHS value. |
+| a | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>& | LHS value. |
+| b | const [System::SharedPtr](../../../system/sharedptr/)\<Q\>& | RHS value. |
 
 ### Return Value
 
@@ -65,6 +65,6 @@ True if **a** is considered less than **b**, false otherwise.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IComparable](../../../system/icomparable/)
 * Struct [has_method_compareto_shared_ptr](../../has_method_compareto_shared_ptr/)
-* Struct [ComparerType< SharedPtr< T > >](../)
+* Struct [ComparerType\< SharedPtr\< T \> \>](../)
 * Namespace [System::Collections::Generic::Details](../../)
 * Library [Aspose.Slides](../../../)

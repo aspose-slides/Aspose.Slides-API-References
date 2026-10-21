@@ -1,7 +1,7 @@
 ---
 title: set_Id()
 second_title: Aspose.Slides for C++ API Reference
-description: Gets \"tspan\" element id
+description: "Gets \"tspan\" element id"
 type: docs
 weight: 14
 url: /aspose.slides.export/svgtspan/set_id/
@@ -9,7 +9,7 @@ url: /aspose.slides.export/svgtspan/set_id/
 ## SvgTSpan::set_Id(System::String) method
 
 
-Gets \"tspan\" element id
+Gets "tspan" element id
 
 ```cpp
 void Aspose::Slides::Export::SvgTSpan::set_Id(System::String value) override

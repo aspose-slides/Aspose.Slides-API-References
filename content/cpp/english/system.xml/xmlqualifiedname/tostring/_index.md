@@ -20,7 +20,7 @@ String System::Xml::XmlQualifiedName::ToString() const override
 
 The string value of the [XmlQualifiedName](../) in the format of **namespace:localname**. If the object does not have a namespace defined, this method returns just the local name.
 
-## XmlQualifiedName::ToString(const String\&, const String\&) method
+## XmlQualifiedName::ToString(const String&, const String&) method
 
 
 Returns the string value of the [XmlQualifiedName](../).
@@ -34,8 +34,8 @@ static String System::Xml::XmlQualifiedName::ToString(const String &name, const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const [String](../../../system/string/)\& | The name of the object. |
-| ns | const [String](../../../system/string/)\& | The namespace of the object. |
+| name | const [String](../../../system/string/)& | The name of the object. |
+| ns | const [String](../../../system/string/)& | The namespace of the object. |
 
 ### Return Value
 

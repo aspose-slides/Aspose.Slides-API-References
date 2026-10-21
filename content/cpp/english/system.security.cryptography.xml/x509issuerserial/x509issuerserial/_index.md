@@ -1,7 +1,7 @@
 ---
 title: X509IssuerSerial()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "X509IssuerSerial::X509IssuerSerial() constructor"
 type: docs
 weight: 53
 url: /system.security.cryptography.xml/x509issuerserial/x509issuerserial/

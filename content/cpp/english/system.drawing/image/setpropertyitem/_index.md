@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /system.drawing/image/setpropertyitem/
 ---
-## Image::SetPropertyItem(const SharedPtr\<Imaging::PropertyItem\>\&) method
+## Image::SetPropertyItem(const SharedPtr\<Imaging::PropertyItem\>&) method
 
 
 Sets the specified property item for this image.
@@ -20,7 +20,7 @@ void System::Drawing::Image::SetPropertyItem(const SharedPtr<Imaging::PropertyIt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propitem | const [SharedPtr](../../../system/sharedptr/)\<[Imaging::PropertyItem](../../../system.drawing.imaging/propertyitem/)\>\& | The PropertyItem to set. |
+| propitem | const [SharedPtr](../../../system/sharedptr/)\<[Imaging::PropertyItem](../../../system.drawing.imaging/propertyitem/)\>& | The PropertyItem to set. |
 
 ## See Also
 

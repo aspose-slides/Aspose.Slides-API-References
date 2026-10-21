@@ -15,7 +15,7 @@ Null pointer constructor.
 System::Security::Cryptography::X509Certificates::X509ExtensionCollectionPtr::X509ExtensionCollectionPtr()=default
 ```
 
-## X509ExtensionCollectionPtr::X509ExtensionCollectionPtr(const SharedPtr\<X509ExtensionCollection\>\&) constructor
+## X509ExtensionCollectionPtr::X509ExtensionCollectionPtr(const SharedPtr\<X509ExtensionCollection\>&) constructor
 
 
 Constructor.
@@ -29,7 +29,7 @@ System::Security::Cryptography::X509Certificates::X509ExtensionCollectionPtr::X5
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | const [SharedPtr](../../../system/sharedptr/)\<[X509ExtensionCollection](../../x509extensioncollection/)\>\& | Certificate collection to point to. |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[X509ExtensionCollection](../../x509extensioncollection/)\>& | Certificate collection to point to. |
 
 ## See Also
 

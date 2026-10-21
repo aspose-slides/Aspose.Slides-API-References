@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /system.security.cryptography/hmacsha512/computehash/
 ---
-## HMACSHA512::ComputeHash(const ArrayPtr\<uint8_t\>\&) method
+## HMACSHA512::ComputeHash(const ArrayPtr\<uint8_t\>&) method
 
 
 Calculates [HMAC](../../hmac/).
@@ -20,7 +20,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HMACSHA512::ComputeHash(const 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Source buffer. |
+| buffer | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>& | Source buffer. |
 
 ### Return Value
 

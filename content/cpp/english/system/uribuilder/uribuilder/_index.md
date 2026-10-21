@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system/uribuilder/uribuilder/
 ---
-## UriBuilder::UriBuilder(const String\&) constructor
+## UriBuilder::UriBuilder(const String&) constructor
 
 
 Constructs a [UriBuilder](../) object that represents that represents the specified URI.
@@ -15,7 +15,7 @@ Constructs a [UriBuilder](../) object that represents that represents the specif
 System::UriBuilder::UriBuilder(const String &uri)
 ```
 
-## UriBuilder::UriBuilder(const SharedPtr\<Uri\>\&) constructor
+## UriBuilder::UriBuilder(const SharedPtr\<Uri\>&) constructor
 
 
 Constructs a [UriBuilder](../) object that represents that represents the specified URI.

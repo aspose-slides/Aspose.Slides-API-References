@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /system/objectext/coalesceassign/
 ---
-## ObjectExt::CoalesceAssign(T0\&, T1) method
+## ObjectExt::CoalesceAssign(T0&, T1) method
 
 
 Implementation of '??=' operator translation.
@@ -27,7 +27,7 @@ template<typename T0,typename T1> static auto System::ObjectExt::CoalesceAssign(
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | T0\& | LHS value. |
+| value | T0& | LHS value. |
 | func | T1 | RHS expression. |
 
 ### Return Value

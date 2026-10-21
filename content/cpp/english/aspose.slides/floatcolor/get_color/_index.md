@@ -1,7 +1,7 @@
 ---
 title: get_Color()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "FloatColor::get_Color() method"
 type: docs
 weight: 1
 url: /aspose.slides/floatcolor/get_color/

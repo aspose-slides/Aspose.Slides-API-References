@@ -73,7 +73,7 @@ System::Console::WriteLine(System::ObjectExt::ToString(cell->get_Value()));
 ## ExcelDataWorkbook::GetCell(int32_t, System::String) method
 
 
-Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., \"B2\").
+Retrieves a cell from the specified worksheet using its index and Excel-style cell name (e.g., "B2").
 
 ```cpp
 System::SharedPtr<IExcelDataCell> Aspose::Slides::Excel::ExcelDataWorkbook::GetCell(int32_t worksheetIndex, System::String cellName) override
@@ -85,7 +85,7 @@ System::SharedPtr<IExcelDataCell> Aspose::Slides::Excel::ExcelDataWorkbook::GetC
 | Parameter | Type | Description |
 | --- | --- | --- |
 | worksheetIndex | **int32_t** | Zero-based index of the worksheet. |
-| cellName | [System::String](../../../system/string/) | The Excel-style cell reference (e.g., \"A1\", \"C5\"). |
+| cellName | [System::String](../../../system/string/) | The Excel-style cell reference (e.g., "A1", "C5"). |
 
 ### Return Value
 
@@ -104,7 +104,7 @@ System::Console::WriteLine(System::ObjectExt::ToString(cell->get_Value()));
 ## ExcelDataWorkbook::GetCell(System::String, System::String) method
 
 
-Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., \"B2\").
+Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2").
 
 ```cpp
 System::SharedPtr<IExcelDataCell> Aspose::Slides::Excel::ExcelDataWorkbook::GetCell(System::String worksheetName, System::String cellName) override
@@ -116,7 +116,7 @@ System::SharedPtr<IExcelDataCell> Aspose::Slides::Excel::ExcelDataWorkbook::GetC
 | Parameter | Type | Description |
 | --- | --- | --- |
 | worksheetName | [System::String](../../../system/string/) | The name of the worksheet. |
-| cellName | [System::String](../../../system/string/) | The Excel-style cell reference (e.g., \"A1\", \"C5\"). |
+| cellName | [System::String](../../../system/string/) | The Excel-style cell reference (e.g., "A1", "C5"). |
 
 ### Return Value
 

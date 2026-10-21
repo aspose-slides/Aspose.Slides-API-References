@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /system.collections.generic/list/remove/
 ---
-## List::Remove(const T\&) method
+## List::Remove(const T&) method
 
 
 Removes first instance of specific item from list.
@@ -20,7 +20,7 @@ bool System::Collections::Generic::List<T>::Remove(const T &item) override
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | const T\& | Item to remove. |
+| item | const T& | Item to remove. |
 
 ### Return Value
 

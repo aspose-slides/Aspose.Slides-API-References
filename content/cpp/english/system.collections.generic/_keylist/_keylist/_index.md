@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /system.collections.generic/_keylist/_keylist/
 ---
-## _KeyList::_KeyList(const typename Dict::Ptr\&) constructor
+## _KeyList::_KeyList(const typename Dict::Ptr&) constructor
 
 
 Initializes collection referencing specified dictionary.
@@ -20,7 +20,7 @@ System::Collections::Generic::_KeyList<Dict>::_KeyList(const typename Dict::Ptr 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dict | const typename Dict::Ptr\& | [Dictionary](../../dictionary/) to reference. |
+| dict | const typename Dict::Ptr& | [Dictionary](../../dictionary/) to reference. |
 
 ## See Also
 

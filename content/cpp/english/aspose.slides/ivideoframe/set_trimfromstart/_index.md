@@ -9,7 +9,7 @@ url: /aspose.slides/ivideoframe/set_trimfromstart/
 ## IVideoFrame::set_TrimFromStart(float) method
 
 
-Trim start [ms]
+Trim start \[ms\]
 
 ```cpp
 virtual void Aspose::Slides::IVideoFrame::set_TrimFromStart(float value)=0

@@ -1,7 +1,7 @@
 ---
 title: set_Resolver()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: "Transform::set_Resolver() method"
 type: docs
 weight: 144
 url: /system.security.cryptography.xml/transform/set_resolver/

@@ -16,6 +16,13 @@ void Aspose::Slides::Theme::OverrideTheme::InitFormatScheme() override
 ```
 
 
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::InvalidOperationException](../../../system/invalidoperationexception/) | Thrown if the [FormatScheme](../../formatscheme/) is already initialized (not null). |
+
+
 ## See Also
 
 * Class [OverrideTheme](../)

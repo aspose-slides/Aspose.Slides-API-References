@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /aspose.slides.charts/piesplitcustompointcollection/remove/
 ---
-## PieSplitCustomPointCollection::Remove(const System::SharedPtr\<IChartDataPoint\>\&) method
+## PieSplitCustomPointCollection::Remove(const System::SharedPtr\<IChartDataPoint\>&) method
 
 
 Removes item from collection.
@@ -20,7 +20,7 @@ bool Aspose::Slides::Charts::PieSplitCustomPointCollection::Remove(const System:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataPoint | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\& | Data point remove to. |
+| dataPoint | const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>& | Data point remove to. |
 
 ### Return Value
 
@@ -41,6 +41,14 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Remove(int32_t dataP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dataPointIndex | **int32_t** | Index of data point in parent series points collection. |
+
+### Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System::ArgumentException](../../../system/argumentexception/) | Point with the given index was not found. |
+| [System::ArgumentOutOfRangeException](../../../system/argumentoutofrangeexception/) | *dataPointIndex*  is negative. |
+
 
 ## See Also
 
