@@ -1,0 +1,68 @@
+# Master workflow to trigger all staging BunnyCDN workflows
+
+name: All Staging Workflows (BunnyCDN)
+
+# Controls when the action will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  trigger-all-staging:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger family-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: family-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger androidjava-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: androidjava-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger cpp-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cpp-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger java-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: java-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger net-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: net-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger nodejs-java-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: nodejs-java-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger php-java-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: php-java-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-java-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-java-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-net-staging-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-net-staging-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
