@@ -1,0 +1,24 @@
+---
+title: get_LightCyan()
+second_title: Aspose.Slides for C++ API 參考
+description: 傳回一個寬度為 1，且其 ARGB 顏色（十六進位表示）值為 #FFE0FFFF 的 Pen 物件。
+type: docs
+weight: 859
+url: /zh-hant/system.drawing/pens/get_lightcyan/
+---
+## Pens::get_LightCyan() 方法
+
+
+傳回一個寬度為 1，且其 ARGB 顏色（十六進位表示）值為 #FFE0FFFF 的 [Pen](../../pen/) 物件。
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_LightCyan()
+```
+
+## 另請參閱
+
+* 型別別名 [SharedPtr](../../../system/sharedptr/)
+* 類別 [Pen](../../pen/)
+* 類別 [Pens](../)
+* 命名空間 [System::Drawing](../../)
+* 函式庫 [Aspose.Slides](../../../)

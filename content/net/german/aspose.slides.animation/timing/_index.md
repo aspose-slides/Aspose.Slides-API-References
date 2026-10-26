@@ -1,42 +1,41 @@
----  
+---
 title: Timing
-second_title: Aspose.Sildes für .NET API Referenz  
-description: Repräsentiert die Animationszeit.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt das Timing einer Animation dar.
 type: docs
-weight: 760  
+weight: 840
 url: /de/aspose.slides.animation/timing/
----  
+---
+## Timing-Klasse
 
-## Timing-Klasse  
+Represents animation timing.
 
-Repräsentiert die Animationszeit.  
+```csharp
+public class Timing : ITiming
+```
 
-```csharp  
-public class Timing : ITiming  
-```  
+## Eigenschaften
 
-## Eigenschaften  
+| Name | Beschreibung |
+| --- | --- |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Beschreibt den Prozentsatz des Beschleunigungsverhaltens über die Dauer. Lesen/Schreiben Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Beschreibt, ob die Animation nach dem Abspielen in Vorwärtsrichtung automatisch in umgekehrter Richtung wiedergegeben wird. Lesen/Schreiben Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Beschreibt den Prozentsatz des Verzögerungs-Verhaltens über die Dauer. Lesen/Schreiben Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Beschreibt die Dauer des Animationseffekts. Lesen/Schreiben Single. |
+| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Beschreibt, wie oft der Effekt wiederholt werden soll. Lesen/Schreiben Single. |
+| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Beschreibt, wie oft der Effekt wiederholt werden soll. Lesen/Schreiben Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lesen/Schreiben Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Dieses Attribut gibt an, ob der Effekt bis zum nächsten Klick wiederholt wird. Lesen/Schreiben Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Lesen/Schreiben [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Dieses Attribut gibt an, ob der Effekt nach dem Abspielen zurückgespult wird. Lesen/Schreiben Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Gibt den Prozentsatz an, um den die Zeitbeschleunigung (oder -verlangsamung) erfolgt. Lesen/Schreiben Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Beschreibt die Verzögerungszeit nach dem Auslöser. Lesen/Schreiben Single. |
+| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Beschreibt den Auslösertyp. Lesen/Schreiben [`EffectTriggerType`](../effecttriggertype). |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Beschreibt den Prozentsatz der Dauer des Beschleunigungseffekts. Lese-/Schreibzugriff Single. |  
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Beschreibt, ob die Animation automatisch rückwärts abgespielt werden soll, nachdem sie vorwärts abgespielt wurde. Lese-/Schreibzugriff Boolean. |  
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Beschreibt den Prozentsatz der Dauer des Verzögerungseffekts. Lese-/Schreibzugriff Single. |  
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Beschreibt die Dauer des Animationseffekts. Lese-/Schreibzugriff Single. |  
-| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Beschreibt, wie oft der Effekt wiederholt werden soll. Lese-/Schreibzugriff Single. |  
-| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Beschreibt die Anzahl der Wiederholungen des Effekts. Lese-/Schreibzugriff Single. |  
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Dieses Attribut gibt an, ob der Effekt bis zum Ende der Folie wiederholt wird. Lese-/Schreibzugriff Boolean. |  
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Dieses Attribut gibt an, ob der Effekt bis zum nächsten Klick wiederholt wird. Lese-/Schreibzugriff Boolean. |  
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Lese-/Schreibzugriff [`EffectRestartType`](../effectrestarttype). |  
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Dieses Attribut gibt an, ob der Effekt zurückgespult wird, wenn das Abspielen abgeschlossen ist. Lese-/Schreibzugriff Boolean. |  
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Gibt den Prozentsatz an, um den die Zeit beschleunigt (oder verlangsamt) werden soll. Lese-/Schreibzugriff Single. |  
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Beschreibt die Verzögerungszeit nach dem Trigger. Lese-/Schreibzugriff Single. |  
-| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Beschreibt den Triggertyp. Lese-/Schreibzugriff [`EffectTriggerType`](../effecttriggertype). |  
+### Siehe auch
 
-### Siehe auch  
+* Schnittstelle [ITiming](../itiming)
+* Namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)
+* Assembly [Aspose.Slides](../../)
 
-* Schnittstelle [ITiming](../itiming)  
-* Namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)  
-* Assembly [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

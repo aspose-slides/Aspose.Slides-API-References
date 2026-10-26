@@ -25,23 +25,8 @@ Represents arguments of the PresentationPlayer.FrameTick event.
 >              final int[] frameNumber = {0};
 >              player.setFrameTick(new PresentationPlayer.FrameTick() {
 >                  public void invoke(PresentationPlayer sender, FrameTickEventArgs args) {
->                      FileOutputStream fos = null;
->                      try {
->                          fos = new FileOutputStream(String.format("frame_%d.png", frameNumber[0]++));
->                          args.getFrame().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->                      } catch (IOException e) {
->                          throw new RuntimeException(e);
->                      } finally {
->                          if (fos != null) {
->                              try {
->                                  fos.close();
->                              } catch (IOException e) {
->                                  e.printStackTrace();
->                              }
->                          }
->                      }
->                  }
->              });
+>                      args.getFrame().save(String.format("frame_%d.png", frameNumber[0]++));
+>              }});
 >              animationsGenerator.run(pres.getSlides());
 >          } finally {
 >              if (player != null) player.dispose();
@@ -71,7 +56,7 @@ Get the presentation player
 [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 ### getFrame() {#getFrame--}
 ```
-public final Bitmap getFrame()
+public final IImage getFrame()
 ```
 
 
@@ -89,23 +74,8 @@ Get the current [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 >              final int[] frameNumber = {0};
 >              player.setFrameTick(new PresentationPlayer.FrameTick() {
 >                  public void invoke(PresentationPlayer sender, FrameTickEventArgs args) {
->                      FileOutputStream fos = null;
->                      try {
->                          fos = new FileOutputStream(String.format("frame_%d.png", frameNumber[0]++));
->                          args.getFrame().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->                      } catch (IOException e) {
->                          throw new RuntimeException(e);
->                      } finally {
->                          if (fos != null) {
->                              try {
->                                  fos.close();
->                              } catch (IOException e) {
->                                  e.printStackTrace();
->                              }
->                          }
->                      }
->                  }
->              });
+>                      args.getFrame().save(String.format("frame_%d.png", frameNumber[0]++));
+>              }});
 >              animationsGenerator.run(pres.getSlides());
 >          } finally {
 >              if (player != null) player.dispose();
@@ -119,4 +89,4 @@ Get the current [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 > ```
 
 **Returns:**
-android.graphics.Bitmap
+[IImage](../../com.aspose.slides/iimage)

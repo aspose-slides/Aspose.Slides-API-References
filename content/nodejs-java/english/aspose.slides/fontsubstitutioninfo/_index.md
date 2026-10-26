@@ -24,7 +24,7 @@ url: /aspose.slides/fontsubstitutioninfo/
 | originFontName | String | Source font name in presentation String |
 | substFontName | String | Replacement font name for the original font String |
 
- **Result:**
+ **Returns:**
 FontSubstitutionInfo
 
 
@@ -37,7 +37,7 @@ FontSubstitutionInfo
 | --- | --- |
 | getOriginalFontName () | Indicates source font name in presentation. Read-only String |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -50,7 +50,7 @@ String
 | --- | --- |
 | getSubstitutedFontName () | Indicates the replacement font name for the original font. Read-only String |
 
- **Result:**
+ **Returns:**
 String
 
 

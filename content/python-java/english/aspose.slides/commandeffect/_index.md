@@ -17,34 +17,8 @@ url: /aspose.slides/commandeffect/
 | --- | --- |
 | CommandEffect() | Creates new instance. |
 
- **Result:**
+ **Returns:**
 CommandEffect
-
-
----
-
-
-### getAccumulate {#getAccumulate}
-
-| Name | Description |
-| --- | --- |
-| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
- **Result:**
-byte
-
-
----
-
-
-### getAdditive {#getAdditive}
-
-| Name | Description |
-| --- | --- |
-| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
-
- **Result:**
-int
 
 
 ---
@@ -56,31 +30,8 @@ int
 | --- | --- |
 | getCommandString() | Defines command string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getProperties {#getProperties}
-
-| Name | Description |
-| --- | --- |
-| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
-
- **Result:**
-[BehaviorPropertyCollection](../behaviorpropertycollection)
 
 
 ---
@@ -92,21 +43,8 @@ String
 | --- | --- |
 | getShapeTarget() | Defines shape target of command effect. Read/write IShape. |
 
- **Result:**
-[SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
-
-
----
-
-
-### getTiming {#getTiming}
-
-| Name | Description |
-| --- | --- |
-| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
-
- **Result:**
-[Timing](../timing)
+ **Returns:**
+[ZoomObject](../zoomobject), [AudioFrame](../audioframe), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Shape](../shape), [SmartArt](../smartart), [SectionZoomFrame](../sectionzoomframe), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [Ink](../ink), [SummaryZoomSection](../summaryzoomsection), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [Connector](../connector), [LegacyDiagram](../legacydiagram), [GroupShape](../groupshape), [InkActions](../inkactions), [Table](../table), [OleObjectFrame](../oleobjectframe), [PictureFrame](../pictureframe)
 
 
 ---
@@ -118,28 +56,8 @@ String
 | --- | --- |
 | getType() | Defines command effect type of behavior. Read/write CommandEffectType. |
 
- **Result:**
+ **Returns:**
 byte
-
-
----
-
-
-### setAccumulate {#setAccumulate}
-
-| Name | Description |
-| --- | --- |
-| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
-
----
-
-
-### setAdditive {#setAdditive}
-
-| Name | Description |
-| --- | --- |
-| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -159,17 +77,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -189,27 +97,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -229,37 +117,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
-
-
----
-
-
-### setShapeTarget {#setShapeTarget}
-
-| Name | Description |
-| --- | --- |
-| setShapeTarget([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -279,7 +137,27 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -299,7 +177,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -309,7 +187,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -319,7 +197,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([GeometryShape](../geometryshape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -329,7 +207,27 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
@@ -349,17 +247,47 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setShapeTarget([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
+| setShapeTarget([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---
 
 
-### setTiming {#setTiming}
+### setShapeTarget {#setShapeTarget}
 
 | Name | Description |
 | --- | --- |
-| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
+| setShapeTarget([InkActions](../inkactions)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+### setShapeTarget {#setShapeTarget}
+
+| Name | Description |
+| --- | --- |
+| setShapeTarget([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
 
 
 ---

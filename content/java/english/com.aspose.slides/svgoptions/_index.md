@@ -25,6 +25,7 @@ Represents an SVG options.
 
 | Method | Description |
 | --- | --- |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 | [getUseFrameSize()](#getUseFrameSize--) | Determines whether the text frame will be included in a rendering area or not. |
 | [setUseFrameSize(boolean value)](#setUseFrameSize-boolean-) | Determines whether the text frame will be included in a rendering area or not. |
 | [getUseFrameRotation()](#getUseFrameRotation--) | Determines whether to perform the specified rotation of the shape when rendering or not. |
@@ -52,6 +53,8 @@ Represents an SVG options.
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getExternalFontsHandling()](#getExternalFontsHandling--) | Determines a way of handling externally loaded fonts. |
 | [setExternalFontsHandling(int value)](#setExternalFontsHandling-int-) | Determines a way of handling externally loaded fonts. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 ### SVGOptions() {#SVGOptions--}
 ```
 public SVGOptions()
@@ -77,6 +80,16 @@ Initializes a new instance of the SVGOptions class specifying the link embedding
 
 Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources. |
 
+### getInkOptions() {#getInkOptions--}
+```
+public final IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)
 ### getUseFrameSize() {#getUseFrameSize--}
 ```
 public final boolean getUseFrameSize()
@@ -382,4 +395,61 @@ Determines a way of handling externally loaded fonts. Read/write [SvgExternalFon
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public final boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      SVGOptions options = new SVGOptions();
+>      options.setDisableFontLigatures(true);
+> 
+>      FileOutputStream fileStream = new FileOutputStream("slide-0.svg");
+>      pres.getSlides().get_Item(0).writeAsSvg(fileStream);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public final void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      SVGOptions options = new SVGOptions();
+>      options.setDisableFontLigatures(true);
+> 
+>      FileOutputStream fileStream = new FileOutputStream("slide-0.svg");
+>      pres.getSlides().get_Item(0).writeAsSvg(fileStream);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

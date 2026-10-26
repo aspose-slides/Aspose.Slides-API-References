@@ -1,0 +1,24 @@
+---
+title: color property
+second_title: Référence API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides/igradientstopeffectivedata/color/
+weight: 10
+---
+## color propriété
+Renvoie la color du point d'arrêt du dégradé.
+Lecture seule [`Color`](/slides/python-net/fr/aspose.slides/color).
+
+### Définition:
+```python
+@property
+def color(self):
+    ...
+```
+
+### Voir aussi
+* classe [`IGradientStopEffectiveData`](/slides/python-net/fr/aspose.slides/igradientstopeffectivedata)
+* classe [`Color`](/slides/python-net/fr/aspose.slides/color)
+* module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

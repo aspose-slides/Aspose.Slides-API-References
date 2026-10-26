@@ -1,0 +1,22 @@
+---
+title: get_ShadowColor()
+second_title: Riferimento API di Aspose.Slides per C++
+description: "Colore dell'ombra. Solo lettura System::Drawing::Color."
+type: docs
+weight: 40
+url: /it/aspose.slides.effects/ioutershadoweffectivedata/get_shadowcolor/
+---
+## IOuterShadowEffectiveData::get_ShadowColor() metodo
+
+Colore dell'ombra. Solo lettura [System::Drawing::Color](../../../system.drawing/color/).
+
+```cpp
+virtual System::Drawing::Color Aspose::Slides::Effects::IOuterShadowEffectiveData::get_ShadowColor()=0
+```
+
+## Vedi anche
+
+* Classe [Color](../../../system.drawing/color/)
+* Classe [IOuterShadowEffectiveData](../)
+* Spazio dei nomi [Aspose::Slides::Effects](../../)
+* Libreria [Aspose.Slides](../../../)

@@ -1,15 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui détient le comportement des espaces réservés des diapositives de remise maîtresses, y compris l'espace réservé pour l'en-tête.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés de diapositive principale de support, y compris l'espace réservé d'en-tête.
 type: docs
-weight: 7740
+weight: 7990
 url: /fr/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
+## MasterHandoutSlideHeaderFooterManager classe
 
-## MasterHandoutSlideHeaderFooterManager class
-
-Représente le gestionnaire qui détient le comportement des espaces réservés des diapositives de remise maîtresses, y compris l'espace réservé pour l'en-tête.
+Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -20,28 +19,28 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 | Nom | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient une valeur indiquant qu'un espace réservé pour la date et l'heure est présent. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient une valeur indiquant qu'un espace réservé pour le pied de page est présent. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtient une valeur indiquant qu'un espace réservé pour l'en-tête est présent. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient une valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de date-heure est présent. Lecture booléenne. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de pied de page est présent. Lecture booléenne. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé d'en-tête est présent. Lecture booléenne. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de numéro de page est présent. Lecture booléenne. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l'espace réservé pour la date et l'heure de la diapositive. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé pour la date et l'heure de la diapositive. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l'espace réservé pour le pied de page de la diapositive. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé pour le pied de page de la diapositive. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte de l'espace réservé pour l'en-tête de la diapositive. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Change la visibilité de l'espace réservé pour l'en-tête de la diapositive. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé pour le numéro de page de la diapositive. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l'espace réservé de date-heure de la diapositive. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifie la visibilité de l'espace réservé de date-heure de la diapositive. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l'espace réservé de pied de page de la diapositive. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Modifie la visibilité de l'espace réservé de pied de page de la diapositive. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte de l'espace réservé d'en-tête de la diapositive. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Modifie la visibilité de l'espace réservé d'en-tête de la diapositive. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifie la visibilité de l'espace réservé de numéro de page de la diapositive. |
 
 ### Voir aussi
 
-* class [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* interface [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* interface [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

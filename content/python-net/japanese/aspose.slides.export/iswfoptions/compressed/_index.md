@@ -1,0 +1,28 @@
+---
+title: compressed property
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.export/iswfoptions/compressed/
+weight: 20
+---
+## 圧縮プロパティ
+生成されたSWFドキュメントが圧縮されるかどうかを指定します。
+            デフォルトは `true` です。
+
+### 定義:
+```python
+@property
+def compressed(self):
+    ...
+
+@compressed.setter
+def compressed(self, value):
+    ...
+```
+
+
+### 参照
+* クラス [`ISwfOptions`](/slides/python-net/ja/aspose.slides.export/iswfoptions)
+* モジュール [`aspose.slides.export`](/slides/python-net/ja/aspose.slides.export)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

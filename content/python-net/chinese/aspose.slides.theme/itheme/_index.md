@@ -1,0 +1,31 @@
+---
+title: ITheme class
+second_title: Aspose.Slides for Python via .NET API 参考
+description: 
+type: docs
+url: /zh/aspose.slides.theme/itheme/
+---
+## ITheme 类
+
+表示一个主题。
+
+ITheme 类型公开以下成员：
+
+## 属性
+
+| 属性 | 描述 |
+| :- | :- |
+| [`color_scheme`](/slides/python-net/zh/aspose.slides.theme/itheme/color_scheme/) | 返回颜色方案。<br/>只读 [`IColorScheme`](/slides/python-net/zh/aspose.slides.theme/icolorscheme)。 |
+| [`font_scheme`](/slides/python-net/zh/aspose.slides.theme/itheme/font_scheme/) | 返回字体方案。<br/>只读 [`IFontScheme`](/slides/python-net/zh/aspose.slides.theme/ifontscheme)。 |
+| [`format_scheme`](/slides/python-net/zh/aspose.slides.theme/itheme/format_scheme/) | 返回形状格式方案。<br/>只读 [`IFormatScheme`](/slides/python-net/zh/aspose.slides.theme/iformatscheme)。 |
+| [`presentation`](/slides/python-net/zh/aspose.slides.theme/itheme/presentation/) |  |
+
+## 方法
+
+| 方法 | 描述 |
+| :- | :- |
+| [`get_effective(self)`](/slides/python-net/zh/aspose.slides.theme/itheme/get_effective/#) | 获取应用继承后的有效主题数据。 |
+
+### 另请参见
+* 模块 [`aspose.slides.theme`](/slides/python-net/zh/aspose.slides.theme)
+* 库 [`Aspose.Slides`](/slides/python-net)

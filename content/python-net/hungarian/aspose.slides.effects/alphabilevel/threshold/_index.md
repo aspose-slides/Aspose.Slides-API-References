@@ -1,0 +1,28 @@
+---
+title: threshold property
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+description: 
+type: docs
+url: /hu/aspose.slides.effects/alphabilevel/threshold/
+weight: 60
+---
+## threshold tulajdonság
+Visszaadja a hatás threshold értékét.
+            Olvasás/írás **float**.
+
+### Definíció:
+```python
+@property
+def threshold(self):
+    ...
+
+@threshold.setter
+def threshold(self, value):
+    ...
+```
+
+
+### Lásd még
+* osztály [`AlphaBiLevel`](/slides/python-net/hu/aspose.slides.effects/alphabilevel)
+* modul [`aspose.slides.effects`](/slides/python-net/hu/aspose.slides.effects)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

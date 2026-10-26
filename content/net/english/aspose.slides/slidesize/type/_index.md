@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the type of slide size. Assigning any value except Custom will change Sizeaspose.slides/slidesize/size accordingly but will keep Orientationaspose.slides/slidesize/orientation intact. Read/write SlideSizeTypeaspose.slides/slidesizetype.
+description: Gets the slide size type.
 type: docs
 weight: 30
 url: /aspose.slides/slidesize/type/
@@ -9,11 +9,15 @@ url: /aspose.slides/slidesize/type/
 
 ## SlideSize.Type property
 
-Returns or sets the type of slide size. Assigning any value except Custom will change [`Size`](../size) accordingly, but will keep [`Orientation`](../orientation) intact. Read/write [`SlideSizeType`](../../slidesizetype).
+Gets the slide size type.
 
 ```csharp
 public SlideSizeType Type { get; }
 ```
+
+### Remarks
+
+Assigning any value other than Custom adjusts the [`Size`](../size) according to the predefined dimensions, while retaining the current [`Orientation`](../orientation).
 
 ### See Also
 

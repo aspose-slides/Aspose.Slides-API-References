@@ -24,7 +24,7 @@ url: /aspose.slides/softedge/
 | --- | --- | --- |
 | obj | Object | The SoftEdge to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective() | Gets effective Soft Edge effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 SoftEdgeEffectiveData
 
 
@@ -60,7 +60,7 @@ SoftEdgeEffectiveData
 | --- | --- |
 | getRadius() | Specifies the radius of blur to apply to the edges. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -73,7 +73,7 @@ double
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -86,7 +86,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

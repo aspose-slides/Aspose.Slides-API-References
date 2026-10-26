@@ -1,0 +1,31 @@
+---
+title: Type()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: 
+type: docs
+weight: 1
+url: /hi/system/details_executionengineexception/type/
+---
+## विवरण_ExecutionEngineException::Type() मेथड
+
+
+
+
+```cpp
+static const System::TypeInfo & System::Details_ExecutionEngineException::Type()
+```
+
+
+### रिटर्न वैल्यू
+
+वर्तमान प्रकार के बारे में जानकारी।
+## टिप्पणियाँ
+
+
+वर्तमान प्रकार के बारे में जानकारी लौटाता है। 
+## संबंधित देखें
+
+* क्लास [TypeInfo](../../typeinfo/)
+* क्लास [Details_ExecutionEngineException](../)
+* नेमस्पेस [System](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

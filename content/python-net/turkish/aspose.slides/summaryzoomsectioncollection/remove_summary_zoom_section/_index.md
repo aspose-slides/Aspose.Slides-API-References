@@ -1,0 +1,29 @@
+---
+title: remove_summary_zoom_section method
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides/summaryzoomsectioncollection/remove_summary_zoom_section/
+weight: 50
+---
+## remove_summary_zoom_section(self, section) {#isection}
+Özet Yakınlaştırma Bölümü nesnesini koleksiyondan kaldırır.
+
+
+```python
+def remove_summary_zoom_section(self, section):
+    ...
+```
+
+
+| Parametre | Tür | Açıklama |
+| :- | :- | :- |
+| section | [`ISection`](/slides/python-net/tr/aspose.slides/isection) | Özet Yakınlaştırma Bölümü öğesinin kaldırılacağı bölüm [`ISection`](/slides/python-net/tr/aspose.slides/isection). |
+
+
+
+### Ayrıca Bakınız
+* sınıf [`ISection`](/slides/python-net/tr/aspose.slides/isection)
+* sınıf [`SummaryZoomSectionCollection`](/slides/python-net/tr/aspose.slides/summaryzoomsectioncollection)
+* modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,23 @@
+---
+title: idx_get()
+second_title: Aspose.Slides for C++ API Referansı
+description: Belirtilen indeksteki öğeyi alır.
+type: docs
+weight: 1
+url: /tr/aspose.slides.vba/ivbareferencecollection/idx_get/
+---
+## IVbaReferenceCollection::idx_get(int32_t) metod
+
+Belirtilen indeksdeki öğeyi alır.
+
+```cpp
+virtual System::SharedPtr<IVbaReference> Aspose::Slides::Vba::IVbaReferenceCollection::idx_get(int32_t index)=0
+```
+
+## Bakınız
+
+* Tip Tanımı [SharedPtr](../../../system/sharedptr/)
+* Sınıf [IVbaReference](../../ivbareference/)
+* Sınıf [IVbaReferenceCollection](../)
+* Ad Alanı [Aspose::Slides::Vba](../../)
+* Kütüphane [Aspose.Slides](../../../)

@@ -1,15 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente un clip audio sur une diapositive.
 type: docs
-weight: 5030
+weight: 5230
 url: /fr/aspose.slides/iaudioframe/
 ---
+## IAudioFrame interface
 
-## Interface IAudioFrame
-
-Représente un clip audio sur une diapositive.
+Represents an audio clip on a slide.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -19,30 +18,31 @@ public interface IAudioFrame : IPictureFrame
 
 | Nom | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Permet d'obtenir l'interface de base IPictureFrame. Lecture seule [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Retourne ou définit un index de dernière piste. Lecture/écriture Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Retourne ou définit un temps de dernière piste. Lecture/écriture Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Retourne ou définit un index de première piste. Lecture/écriture Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Retourne ou définit un temps de première piste. Lecture/écriture Int32. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Détermine si un son est intégré à une présentation. Lecture seule Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Retourne ou définit un objet audio intégré. Lecture/écriture [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Spécifie la durée en millisecondes pour le fondu d'entrée initial du média. Lecture/écriture Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Spécifie la durée en millisecondes pour le fondu de sortie final du média. Lecture/écriture Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Détermine si un AudioFrame est caché. Lecture/écriture Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Retourne ou définit le nom d'un fichier audio qui est lié à un AudioFrame. Lecture/écriture String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Détermine si un audio est joué à travers les diapositives. Lecture/écriture Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Détermine si un audio est en boucle. Lecture/écriture Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Retourne ou définit le mode de lecture audio. Lecture/écriture [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Détermine si un audio est automatiquement rembobiné au début après lecture. Lecture/écriture Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Spécifie la durée à retirer de la fin du média lors de la lecture, en millisecondes. Lecture/écriture Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Spécifie la durée à retirer du début du média lors de la lecture, en millisecondes. Lecture/écriture Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Retourne ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Retourne ou définit le volume audio en pourcentage. Lecture/écriture Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Permet d'obtenir l'interface de base IPictureFrame. Lecture seule [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Renvoie ou définit l'index de la dernière piste. Lecture/écriture Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Renvoie ou définit le temps de la dernière piste. Lecture/écriture Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Renvoie ou définit l'index de la piste de départ. Lecture/écriture Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Renvoie ou définit le temps de la piste de départ. Lecture/écriture Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Obtient la collection de sous-titres fermés associés à la trame audio. Cette propriété est en lecture seule et renvoie un [`ICaptionsCollection`](../icaptionscollection) contenant toutes les pistes de sous-titres. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Détermine si un son est intégré à une présentation. Lecture seule Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Renvoie ou définit l'objet audio intégré. Lecture/écriture [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Spécifie la durée temporelle du fondu d'entrée initial du média en millisecondes. Lecture/écriture Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Spécifie la durée temporelle du fondu de sortie final du média en millisecondes. Lecture/écriture Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Détermine si un AudioFrame est masqué. Lecture/écriture Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Renvoie ou définit le nom d'un fichier audio lié à un AudioFrame. Lecture/écriture String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Détermine si un audio est lu sur toutes les diapositives. Lecture/écriture Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Détermine si un audio est en boucle. Lecture/écriture Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Renvoie ou définit le mode de lecture audio. Lecture/écriture [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Détermine si un audio est automatiquement rembobiné au début après lecture. Lecture/écriture Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Spécifie la durée temporelle à supprimer de la fin du média pendant la lecture, en millisecondes. Lecture/écriture Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Spécifie la durée temporelle à supprimer du début du média pendant la lecture, en millisecondes. Lecture/écriture Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Renvoie ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Renvoie ou définit le volume audio en pourcentage. Lecture/écriture Single. |
 
 ### Voir aussi
 
-* interface [IPictureFrame](../ipictureframe)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [IPictureFrame](../ipictureframe)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

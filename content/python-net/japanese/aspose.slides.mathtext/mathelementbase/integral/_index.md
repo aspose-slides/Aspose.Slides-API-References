@@ -1,0 +1,127 @@
+---
+title: integral method
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.mathtext/mathelementbase/integral/
+weight: 80
+---
+## integral(self, integral_type) {#mathintegraltypes}
+リミットなしで積分を取得します
+
+### 戻り値
+
+型 [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator) の新しいインスタンス
+
+
+
+```python
+def integral(self, integral_type):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| integral_type | [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes) | Integral type |
+
+
+## integral(self, integral_type, lower_limit, upper_limit) {#mathintegraltypes-imathelement-imathelement}
+積分を取得します
+
+### 戻り値
+
+型 [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator) の新しいインスタンス
+
+
+
+```python
+def integral(self, integral_type, lower_limit, upper_limit):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| integral_type | [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes) | Integral type |
+| lower_limit | [`IMathElement`](/slides/python-net/ja/aspose.slides.mathtext/imathelement) | Lower limit of integral |
+| upper_limit | [`IMathElement`](/slides/python-net/ja/aspose.slides.mathtext/imathelement) | Upper limit of integral |
+
+
+## integral(self, integral_type, lower_limit, upper_limit) {#mathintegraltypes-str-str}
+積分を取得します
+
+### 戻り値
+
+型 [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator) の新しいインスタンス
+
+
+
+```python
+def integral(self, integral_type, lower_limit, upper_limit):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| integral_type | [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes) | Integral type |
+| lower_limit | **str** | Lower limit of integral |
+| upper_limit | **str** | Upper limit of integral |
+
+
+## integral(self, integral_type, lower_limit, upper_limit, limit_locations) {#mathintegraltypes-imathelement-imathelement-mathlimitlocations}
+積分を取得します
+
+### 戻り値
+
+型 [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator) の新しいインスタンス
+
+
+
+```python
+def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| integral_type | [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes) | Integral type |
+| lower_limit | [`IMathElement`](/slides/python-net/ja/aspose.slides.mathtext/imathelement) | Lower limit of integral |
+| upper_limit | [`IMathElement`](/slides/python-net/ja/aspose.slides.mathtext/imathelement) | Upper limit of integral |
+| limit_locations | [`MathLimitLocations`](/slides/python-net/ja/aspose.slides.mathtext/mathlimitlocations) | location of limits |
+
+
+## integral(self, integral_type, lower_limit, upper_limit, limit_locations) {#mathintegraltypes-str-str-mathlimitlocations}
+積分を取得します
+
+### 戻り値
+
+型 [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator) の新しいインスタンス
+
+
+
+```python
+def integral(self, integral_type, lower_limit, upper_limit, limit_locations):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| integral_type | [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes) | Integral type |
+| lower_limit | **str** | Lower limit of integral |
+| upper_limit | **str** | Upper limit of integral |
+| limit_locations | [`MathLimitLocations`](/slides/python-net/ja/aspose.slides.mathtext/mathlimitlocations) | location of limits |
+
+
+
+### 参照
+* クラス [`IMathElement`](/slides/python-net/ja/aspose.slides.mathtext/imathelement)
+* クラス [`IMathNaryOperator`](/slides/python-net/ja/aspose.slides.mathtext/imathnaryoperator)
+* クラス [`MathElementBase`](/slides/python-net/ja/aspose.slides.mathtext/mathelementbase)
+* 列挙型 [`MathIntegralTypes`](/slides/python-net/ja/aspose.slides.mathtext/mathintegraltypes)
+* 列挙型 [`MathLimitLocations`](/slides/python-net/ja/aspose.slides.mathtext/mathlimitlocations)
+* モジュール [`aspose.slides.mathtext`](/slides/python-net/ja/aspose.slides.mathtext)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

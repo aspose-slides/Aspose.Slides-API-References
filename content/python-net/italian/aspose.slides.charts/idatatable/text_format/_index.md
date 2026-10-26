@@ -1,0 +1,21 @@
+---
+title: text_format property
+second_title: Aspose.Slides per Python via .NET Riferimento API
+description: 
+type: docs
+url: /it/aspose.slides.charts/idatatable/text_format/
+weight: 130
+---
+## text_format proprietà
+### Definizione:
+```python
+@property
+def text_format(self):
+    ...
+```
+
+
+### Vedi anche
+* classe [`IDataTable`](/slides/python-net/it/aspose.slides.charts/idatatable)
+* modulo [`aspose.slides.charts`](/slides/python-net/it/aspose.slides.charts)
+* libreria [`Aspose.Slides`](/slides/python-net)

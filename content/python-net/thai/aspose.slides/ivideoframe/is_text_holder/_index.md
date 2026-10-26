@@ -1,0 +1,21 @@
+---
+title: is_text_holder property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/ivideoframe/is_text_holder/
+weight: 360
+---
+## is_text_holder คุณสมบัติ
+### การกำหนด:
+```python
+@property
+def is_text_holder(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IVideoFrame`](/slides/python-net/th/aspose.slides/ivideoframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

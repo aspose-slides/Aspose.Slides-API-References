@@ -37,6 +37,19 @@ String
 ---
 
 
+### getGradientStyle {#getGradientStyle}
+
+| Name | Description |
+| --- | --- |
+| getGradientStyle () | Returns or sets the visual style of the gradient. Read/write GradientStyle. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getProgressCallback {#getProgressCallback}
 
 | Name | Description |
@@ -45,6 +58,19 @@ String
 
  **Returns:**
 IProgressCallback
+
+
+---
+
+
+### getSkipJavaScriptLinks {#getSkipJavaScriptLinks}
+
+| Name | Description |
+| --- | --- |
+| getSkipJavaScriptLinks () | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false. When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving. When this property is set to false, all hyperlinks will be saved. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -76,11 +102,37 @@ void
 ---
 
 
+### setGradientStyle {#setGradientStyle}
+
+| Name | Description |
+| --- | --- |
+| setGradientStyle (int) | Returns or sets the visual style of the gradient. Read/write GradientStyle. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setProgressCallback {#setProgressCallback}
 
 | Name | Description |
 | --- | --- |
 | setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSkipJavaScriptLinks {#setSkipJavaScriptLinks}
+
+| Name | Description |
+| --- | --- |
+| setSkipJavaScriptLinks (boolean) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false. When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving. When this property is set to false, all hyperlinks will be saved. |
 
  **Returns:**
 void

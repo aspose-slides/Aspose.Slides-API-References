@@ -1,0 +1,29 @@
+---
+title: get_cell_collection method
+second_title: Aspose.Slides for Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.charts/chartdataworkbook/get_cell_collection/
+weight: 40
+---
+## get_cell_collection(self, formula, skip_hidden_cells) {#str-bool}
+सेलों का सेट प्राप्त करता है।
+
+```python
+def get_cell_collection(self, formula, skip_hidden_cells):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| formula | **str** | Excel फ़ॉर्मूला जैसे "Sheet1!$A$2:$A$5". |
+| skip_hidden_cells | **bool** | यदि true हो तो मेथड छिपे हुए सेल्स के बिना संग्रह वापस करता है। |
+
+
+
+### देखें
+* क्लास [`ChartDataWorkbook`](/slides/python-net/hi/aspose.slides.charts/chartdataworkbook)
+* क्लास [`IChartCellCollection`](/slides/python-net/hi/aspose.slides.charts/ichartcellcollection)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

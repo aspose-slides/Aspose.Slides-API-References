@@ -1,0 +1,92 @@
+---
+title: "System::Globalization"
+second_title: Aspose.Slides pro C++ API Reference
+description: 
+type: docs
+weight: 547
+url: /cs/system.globalization/
+---
+## Třídy
+
+| Třída | Popis |
+| --- | --- |
+| [Calendar](./calendar/) | [Calendar](./calendar/) který definuje, jak jsou data zpracovávána, počítána, formátována atd. Operace nastavení jsou povoleny pouze u objektů, které nejsou pouze pro čtení. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [CharUnicodeInfo](./charunicodeinfo/) | Získává informace o Unicode znaku. |
+| [ChineseLunisolarCalendar](./chineselunisolarcalendar/) | Čínský lunisolární kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [CompareInfo](./compareinfo/) | Provádí porovnání řetězců s ohledem na kulturu. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [CultureInfo](./cultureinfo/) | Kolekce hodnot a algoritmů specifických pro kulturu. Operace nastavení jsou povoleny pouze u objektů, které nejsou pouze pro čtení. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [DateTimeFormatInfo](./datetimeformatinfo/) | Sada parametrů formátování data a času. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [DaylightTime](./daylighttime/) | Období letního času. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [Details_CultureNotFoundException](./details_culturenotfoundexception/) | CultureNotFoundException je vyhozena, když je učiněn pokus vytvořit kulturu, která není dostupná. Nikdy nevytvářejte instance této třídy ručně. Použijte místo toho třídu CultureNotFoundException. Nikdy nezabaluje instance třídy CultureNotFoundException do [System::SmartPtr](../system/smartptr/). |
+| [EastAsianLunisolarCalendar](./eastasianlunisolarcalendar/) | Východoasijský lunisolární kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [GlobalizationExtensions](./globalizationextensions/) | [Globalization](./) související metody. |
+| [GregorianCalendar](./gregoriancalendar/) | Gregoriánský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [HebrewCalendar](./hebrewcalendar/) | Hebrejský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [HijriCalendar](./hijricalendar/) | Hidžský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [IdnMapping](./idnmapping/) | [IdnMapping](./idnmapping/) používaný k mapování jmen na Punycode. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [JapaneseCalendar](./japanesecalendar/) | Japonský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [JapaneseLunisolarCalendar](./japaneselunisolarcalendar/) | Japonský lunisolární kalendář. Neimplementováno. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [JulianCalendar](./juliancalendar/) | Juliánský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [KoreanCalendar](./koreancalendar/) | Korejský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [KoreanLunisolarCalendar](./koreanlunisolarcalendar/) | Korejský lunisolární kalendář. Neimplementováno. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [NumberFormatInfo](./numberformatinfo/) | Uchovává informace o tom, jak formátovat čísla. Operace nastavení jsou povoleny pouze u objektů, které nejsou pouze pro čtení. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [PersianCalendar](./persiancalendar/) | Perský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [RegionInfo](./regioninfo/) | Poskytuje informace o regionu. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [SortKey](./sortkey/) | Mapování řetězce na jeho řadicí klíč. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [SortVersion](./sortversion/) | Poskytuje informace o verzi Unicode používané k porovnání a řazení řetězců. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [StringInfo](./stringinfo/) | Rozdělovač pro iteraci přes části řetězce. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [TaiwanCalendar](./taiwancalendar/) | Tchaj-wanský kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [TaiwanLunisolarCalendar](./taiwanlunisolarcalendar/) | Tchaj-wanský lunisolární kalendář. Neimplementováno. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [TextElementEnumerator](./textelementenumerator/) | Enumerator pro iteraci přes prvky řetězce (znaky). Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [TextInfo](./textinfo/) | Definuje lokální specifické textové vlastnosti. Operace nastavení jsou povoleny pouze u objektů, které nejsou pouze pro čtení. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [ThaiBuddhistCalendar](./thaibuddhistcalendar/) | Thajský buddhistický kalendář. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+| [UmAlQuraCalendar](./umalquracalendar/) | Kalendář Um Al Qura. Neimplementováno. Objektům této třídy by mělo být alokováno pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku nebo pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním assertions. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkcím jako argument. |
+
+## Výčty
+
+| Výčet | Popis |
+| --- | --- |
+| [CalendarAlgorithmType](./calendaralgorithmtype/) | [Calendar](./calendar/) typ. |
+| [CalendarWeekRule](./calendarweekrule/) | Jak určit první týden roku. |
+| [CompareOptions](./compareoptions/) | Možnosti porovnání [String](../system/string/). |
+| [CultureTypes](./culturetypes/) | Položky bitmasky kategorií kultur. |
+| [DateTimeStyles](./datetimestyles/) | Definuje možnosti formátování data a času. Bitové příznaky. |
+| [DigitShapes](./digitshapes/) | Určuje zobrazení číslic. |
+| [GregorianCalendarTypes](./gregoriancalendartypes/) | Typy gregoriánských kalendářů. |
+| [NumberStyles](./numberstyles/) | Povolený styl čísel při parsování. |
+| [TimeSpanStyles](./timespanstyles/) | Určuje možnosti formátování, které přizpůsobují parsování řetězců pro metody, které převádějí řetězcovou reprezentaci časového intervalu na objekt Timespan. |
+| [UnicodeCategory](./unicodecategory/) | Kategorie unicode znaku. |
+
+## Typedefy
+
+| Typedef | Popis |
+| --- | --- |
+| [CultureNotFoundException](./culturenotfoundexception/) |  |
+| [CalendarPtr](./calendarptr/) | [Calendar](./calendar/) typ ukazatele. |
+| [ChineseLunisolarCalendarPtr](./chineselunisolarcalendarptr/) | [ChineseLunisolarCalendar](./chineselunisolarcalendar/) typ ukazatele. |
+| [CompareInfoPtr](./compareinfoptr/) | [CompareInfo](./compareinfo/) typ ukazatele. |
+| [CultureInfoPtr](./cultureinfoptr/) | [CultureInfo](./cultureinfo/) typ ukazatele. |
+| [DateTimeFormatInfoPtr](./datetimeformatinfoptr/) | [DateTimeFormatInfo](./datetimeformatinfo/) info ukazatel. |
+| [DaylightTimePtr](./daylighttimeptr/) | [DaylightTime](./daylighttime/) typ ukazatele. |
+| [EastAsianLunisolarCalendarPtr](./eastasianlunisolarcalendarptr/) | [EastAsianLunisolarCalendar](./eastasianlunisolarcalendar/) typ ukazatele. |
+| [GregorianCalendarPtr](./gregoriancalendarptr/) | [GregorianCalendar](./gregoriancalendar/) typ ukazatele. |
+| [HebrewCalendarPtr](./hebrewcalendarptr/) | [HebrewCalendar](./hebrewcalendar/) typ ukazatele. |
+| [HijriCalendarPtr](./hijricalendarptr/) | [HijriCalendar](./hijricalendar/) typ ukazatele. |
+| [IdnMappingPtr](./idnmappingptr/) | [IdnMapping](./idnmapping/) typ ukazatele. |
+| [JapaneseCalendarPtr](./japanesecalendarptr/) | [JapaneseCalendar](./japanesecalendar/) typ ukazatele. |
+| [JapaneseLunisolarCalendarPtr](./japaneselunisolarcalendarptr/) | [JapaneseLunisolarCalendar](./japaneselunisolarcalendar/) typ ukazatele. |
+| [JulianCalendarPtr](./juliancalendarptr/) | [JulianCalendar](./juliancalendar/) typ ukazatele. |
+| [KoreanCalendarPtr](./koreancalendarptr/) | [KoreanCalendar](./koreancalendar/) typ ukazatele. |
+| [KoreanLunisolarCalendarPtr](./koreanlunisolarcalendarptr/) | [KoreanLunisolarCalendar](./koreanlunisolarcalendar/) typ ukazatele. |
+| [NumberFormatInfoPtr](./numberformatinfoptr/) | [NumberFormatInfo](./numberformatinfo/) ukazatel. |
+| [PersianCalendarPtr](./persiancalendarptr/) | [PersianCalendar](./persiancalendar/) typ ukazatele. |
+| [RegionInfoPtr](./regioninfoptr/) | [RegionInfo](./regioninfo/) typ ukazatele. |
+| [SortKeyPtr](./sortkeyptr/) | [SortKey](./sortkey/) typ ukazatele. |
+| [SortVersionPtr](./sortversionptr/) | [SortVersion](./sortversion/) typ ukazatele. |
+| [StringInfoPtr](./stringinfoptr/) | [StringInfo](./stringinfo/) typ ukazatele. |
+| [TaiwanCalendarPtr](./taiwancalendarptr/) | [TaiwanCalendar](./taiwancalendar/) typ ukazatele. |
+| [TaiwanLunisolarCalendarPtr](./taiwanlunisolarcalendarptr/) | [TaiwanLunisolarCalendar](./taiwanlunisolarcalendar/) typ ukazatele. |
+| [TextElementEnumeratorPtr](./textelementenumeratorptr/) | [TextElementEnumerator](./textelementenumerator/) typ ukazatele. |
+| [TextInfoPtr](./textinfoptr/) | [TextInfo](./textinfo/) typ ukazatele. |
+| [ThaiBuddhistCalendarPtr](./thaibuddhistcalendarptr/) | [ThaiBuddhistCalendar](./thaibuddhistcalendar/) typ ukazatele. |
+| [UmAlQuraCalendarPtr](./umalquracalendarptr/) | [UmAlQuraCalendar](./umalquracalendar/) typ ukazatele. |

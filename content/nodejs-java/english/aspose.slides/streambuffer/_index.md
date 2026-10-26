@@ -15,7 +15,7 @@ url: /aspose.slides/streambuffer/
 | --- | --- |
 | StreamBuffer() |  |
 
- **Result:**
+ **Returns:**
 StreamBuffer
 
 
@@ -28,7 +28,7 @@ StreamBuffer
 | --- | --- |
 | StreamBuffer(int) |  |
 
- **Result:**
+ **Returns:**
 StreamBuffer
 
 
@@ -41,7 +41,7 @@ StreamBuffer
 | --- | --- |
 | read (int) |  |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -64,7 +64,7 @@ byte
 | --- | --- |
 | toInputStream () |  |
 
- **Result:**
+ **Returns:**
 InputStream
 
 

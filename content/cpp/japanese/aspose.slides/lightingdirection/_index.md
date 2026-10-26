@@ -1,0 +1,35 @@
+---
+title: LightingDirection
+second_title: Aspose.Slides for C++ API リファレンス
+description: 光の方向を定義する定数です。
+type: docs
+weight: 5942
+url: /ja/aspose.slides/lightingdirection/
+---
+## LightingDirection 列挙体
+
+
+光の方向を定義する定数です。
+
+```cpp
+enum class LightingDirection
+```
+
+### 値
+
+| 名前 | 値 | 説明 |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| TopLeft | 0 |  |
+| Top | 1 |  |
+| TopRight | 2 |  |
+| Right | 3 |  |
+| BottomRight | 4 |  |
+| Bottom | 5 |  |
+| BottomLeft | 6 |  |
+| Left | 7 |  |
+
+## 参照
+
+* 名前空間 [Aspose::Slides](../)
+* ライブラリ [Aspose.Slides](../../)

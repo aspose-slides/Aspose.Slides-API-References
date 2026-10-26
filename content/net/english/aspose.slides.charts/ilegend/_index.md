@@ -3,7 +3,7 @@ title: ILegend
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents charts legend properties.
 type: docs
-weight: 2050
+weight: 2130
 url: /aspose.slides.charts/ilegend/
 ---
 
@@ -12,7 +12,7 @@ url: /aspose.slides.charts/ilegend/
 Represents chart's legend properties.
 
 ```csharp
-public interface ILegend : IFormattedTextContainer, ILayoutable
+public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 ```
 
 ## Properties
@@ -28,6 +28,7 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 ### See Also
 
+* interface [IActualLayout](../iactuallayout)
 * interface [IFormattedTextContainer](../iformattedtextcontainer)
 * interface [ILayoutable](../ilayoutable)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

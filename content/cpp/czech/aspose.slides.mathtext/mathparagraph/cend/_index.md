@@ -1,0 +1,28 @@
+---
+title: cend()
+second_title: Aspose.Slides pro C++ API Reference
+description: Získá iterátor ukazující těsně za posledním const-kvalifikovaným prvkem (pokud existuje) kolekce.
+type: docs
+weight: 235
+url: /cs/aspose.slides.mathtext/mathparagraph/cend/
+---
+## MathParagraph::cend() const metoda
+
+
+Získá iterátor ukazující těsně za posledním const-kvalifikovaným prvkem (pokud existuje) kolekce.
+
+```cpp
+const_iterator Aspose::Slides::MathText::MathParagraph::cend() const noexcept
+```
+
+
+### Návratová hodnota
+
+Iterátor ukazující těsně za posledním const-kvalifikovaným prvkem (pokud existuje) kolekce
+
+## Viz také
+
+* Typedef [const_iterator](../const_iterator/)
+* Třída [MathParagraph](../)
+* Jmenný prostor [Aspose::Slides::MathText](../../)
+* Knihovna [Aspose.Slides](../../../)

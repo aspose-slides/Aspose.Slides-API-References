@@ -1,0 +1,24 @@
+---
+title: is_no_effects property
+second_title: Справочник API Aspose.Slides для Python через .NET
+description: 
+type: docs
+url: /ru/aspose.slides/ieffectformat/is_no_effects/
+weight: 230
+---
+## is_no_effects свойство
+Возвращает true, если все эффекты отключены (как только создано, объект EffectFormat по умолчанию).
+            Только для чтения **bool**.
+
+### Определение:
+```python
+@property
+def is_no_effects(self):
+    ...
+```
+
+
+### См. также
+* класс [`IEffectFormat`](/slides/python-net/ru/aspose.slides/ieffectformat)
+* модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
+* библиотека [`Aspose.Slides`](/slides/python-net)

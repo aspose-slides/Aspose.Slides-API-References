@@ -3,7 +3,7 @@ title: ShowMasterShapes
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write Boolean.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides/masterslide/showmastershapes/
 ---
 

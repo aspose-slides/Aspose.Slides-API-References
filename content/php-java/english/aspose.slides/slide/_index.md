@@ -108,7 +108,7 @@ IImage
 
 | Error | Condition |
 | --- | --- |
- | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+ | InvalidOperationException | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ---
@@ -186,7 +186,7 @@ IImage
 
 | Error | Condition |
 | --- | --- |
- | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+ | InvalidOperationException | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ---
@@ -254,7 +254,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| getSlideNumber () | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Returns:**
 int
@@ -270,162 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail (float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail () | Returns a Thumbnail Image object (20% of real size). |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail Bitmap object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff image object with specified parameters. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [TiffOptions](../tiffoptions) | Tiff options. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
 
 
 ---
@@ -458,87 +303,6 @@ void
 | Error | Condition |
 | --- | --- |
  | PptxEditException | Thrown if slide is already removed from presentation. |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-| graphics | Graphics2D | The object where to render to. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-| graphics | Graphics2D | The object where to render to. |
-| scaleX | float | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
-| scaleY | float | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
-
-
----
-
-
-### renderToGraphics {#renderToGraphics}
-
-| Name | Description |
-| --- | --- |
-| renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Rendering options. |
-| graphics | Graphics2D | The object where to render to. |
-| renderingSize | Dimension | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
-
- **Returns:**
-void
-
- **Exception**
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ---
@@ -600,10 +364,35 @@ void
 
 | Name | Description |
 | --- | --- |
-| setSlideNumber (int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| setSlideNumber (int) | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Returns:**
 void
+
+
+---
+
+
+### writeAsEmf {#writeAsEmf}
+
+| Name | Description |
+| --- | --- |
+| writeAsEmf (OutputStream) | Saves the slide content as an EMF file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | Target stream is {@code null} |
 
 
 ---
@@ -613,7 +402,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeAsSvg (OutputStream) | Saves content of slide as SVG file. |
+| writeAsSvg (OutputStream) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 
@@ -632,7 +421,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeAsSvg (OutputStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| writeAsSvg (OutputStream, [SVGOptions](../svgoptions)) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 

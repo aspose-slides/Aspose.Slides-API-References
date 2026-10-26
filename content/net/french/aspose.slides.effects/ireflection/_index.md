@@ -1,48 +1,47 @@
----  
+---
 title: IReflection
-second_title: Référence API Aspose.Slides pour .NET  
-description: Représente un effet de reflet.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un effet de réflexion.
 type: docs
-weight: 3380  
+weight: 3500
 url: /fr/aspose.slides.effects/ireflection/
----  
+---
+## IReflection interface
 
-## Interface IReflection  
+Représente un effet de réflexion.
 
-Représente un effet de reflet.  
+```csharp
+public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
+    IImageTransformOperation
+```
 
-```csharp  
-public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,  
-    IImageTransformOperation  
-```  
+## Propriétés
 
-## Propriétés  
+| Nom | Description |
+| --- | --- |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Rayon du flou. Lecture/écriture Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Direction de la réflexion. Lecture/écriture Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Distance de la réflexion. Lecture/écriture Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Spécifie la position finale (le long de la rampe de dégradé alpha) de la valeur alpha finale (pourcentages). Lecture/écriture Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Opacité finale de la réflexion. (pourcentages). Lecture/écriture Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Spécifie la direction pour décaler la réflexion. (angle). Lecture/écriture Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Alignement du rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Spécifie si la réflexion doit pivoter avec la forme lorsque la forme est pivotée. Lecture/écriture Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Spécifie le facteur d'échelle horizontal, un facteur négatif provoque un retournement. (pourcentages) Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Spécifie le facteur d'échelle vertical, un facteur négatif provoque un retournement. (pourcentages) Lecture/écriture Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Spécifie l'angle d'inclinaison horizontal. Lecture/écriture Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Spécifie l'angle d'inclinaison vertical. Lecture/écriture Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Spécifie la position de départ (le long de la rampe de dégradé alpha) de la valeur alpha de départ (pourcentages). Lecture/écriture Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Opacité de départ de la réflexion. (pourcentages). Lecture/écriture Single. |
 
-| Nom | Description |  
-| --- | --- |  
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |  
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |  
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |  
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Direction du reflet. Lecture/écriture Simple. |  
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Distance du reflet. Lecture/écriture Double. |  
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Spécifie la position de fin (le long de la rampe de dégradé alpha) de la valeur alpha finale (pourcentage). Lecture/écriture Simple. |  
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Opacité de reflet finale. (pourcentage). Lecture/écriture Simple. |  
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Spécifie la direction à décaler le reflet. (angle). Lecture/écriture Simple. |  
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Alignement du rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |  
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Spécifie si le reflet doit tourner avec la forme si la forme est tournée. Lecture/écriture Booléen. |  
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Spécifie le facteur d'échelle horizontal, une échelle négative provoque un retournement. (pourcentage) Lecture/écriture Double. |  
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Spécifie le facteur d'échelle vertical, une échelle négative provoque un retournement. (pourcentage) Lecture/écriture Double. |  
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Spécifie l'angle de déformation horizontal. Lecture/écriture Double. |  
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Spécifie l'angle de déformation vertical. Lecture/écriture Double. |  
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Spécifie la position de départ (le long de la rampe de dégradé alpha) de la valeur alpha de départ (pourcentage). Lecture/écriture Simple. |  
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Opacité de reflet de départ. (pourcentage). Lecture/écriture Simple. |  
+### Voir aussi
 
-### Voir aussi  
-
-* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)  
-* interface [IReflectionEffectiveData](../ireflectioneffectivedata)  
-* interface [IImageTransformOperation](../iimagetransformoperation)  
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)  
-* assembly [Aspose.Slides](../../)  
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [IReflectionEffectiveData](../ireflectioneffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
+* espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

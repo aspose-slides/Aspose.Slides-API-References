@@ -17,7 +17,7 @@ url: /aspose.slides/geometrypath/
 | --- | --- |
 | GeometryPath() | Creates instance of GeometryPath |
 
- **Result:**
+ **Returns:**
 GeometryPath
 
 
@@ -151,7 +151,7 @@ GeometryPath
 | --- | --- |
 | getFillMode() | Sets fill mode |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -164,7 +164,7 @@ byte
 | --- | --- |
 | getPathData() | Returns geometry path of GeometryShape as an array of path segments. |
 
- **Result:**
+ **Returns:**
 [PathSegment](../pathsegment)
 
 
@@ -177,7 +177,7 @@ byte
 | --- | --- |
 | getStroke() | Sets stroke appearance |
 
- **Result:**
+ **Returns:**
 boolean
 
 

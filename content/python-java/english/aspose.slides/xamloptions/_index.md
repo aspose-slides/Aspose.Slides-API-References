@@ -17,21 +17,8 @@ url: /aspose.slides/xamloptions/
 | --- | --- |
 | XamlOptions() | Creates the XamlOptions instance. |
 
- **Result:**
+ **Returns:**
 XamlOptions
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
-String
 
 
 ---
@@ -43,7 +30,7 @@ String
 | --- | --- |
 | getExportHiddenSlides() | Determines whether hidden slides will be exported. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -56,44 +43,8 @@ boolean
 | --- | --- |
 | getOutputSaver() | Represents an implementation of IOutputSaver interface. |
 
- **Result:**
+ **Returns:**
 XamlOutputSaver
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -114,26 +65,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setOutputSaver([IXamlOutputSaver](../ixamloutputsaver)) | Represents an implementation of IOutputSaver interface. |
-
-
----
-
-
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

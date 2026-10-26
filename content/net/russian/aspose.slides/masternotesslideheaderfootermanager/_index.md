@@ -1,54 +1,53 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет менеджер, который управляет поведением подвала слайдов заметок мастера, временных меток, номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты-времени и номера страницы мастер-слайда заметок, а также всех дочерних заполнителей. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от мастер-слайда заметок.
 type: docs
-weight: 7770
+weight: 8020
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/
 ---
+## MasterNotesSlideHeaderFooterManager класс
 
-## MasterNotesSlideHeaderFooterManager class
-
-Представляет менеджер, который управляет поведением подвала слайдов заметок мастера, временных меток, номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера.
+Представляет менеджер, который управляет поведением нижнего колонтитула слайда заметок мастера, заполнителей даты-времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
     IMasterNotesSlideHeaderFooterManager
 ```
 
-## Properties
+## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на то, что заполнителем временной метки является присутствующим. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее на то, что заполнителем подвала является присутствующим. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Получает значение, указывающее на то, что заполнителем заголовка является присутствующим. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее на то, что заполнителем номера страницы является присутствующим. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Возвращает значение, указывающее, что заполнитель даты и времени присутствует. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Возвращает значение, указывающее, что заполнитель нижнего колонтитула присутствует. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Возвращает значение, указывающее, что заполнитель верхнего колонтитула присутствует. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Возвращает значение, указывающее, что заполнитель номера страницы присутствует. ReadBoolean. |
 
-## Methods
+## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст для заполнителя временной метки слайда мастера и всех дочерних заполнителей временной метки. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителя временной метки слайда мастера и всех дочерних заполнителей временной метки. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст для заполнителя временной метки слайда. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя временной метки слайда. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст для заполнителя подвала слайда мастера и всех дочерних заполнителей подвала. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя подвала слайда мастера и всех дочерних заполнителей подвала. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст для заполнителя подвала слайда. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя подвала слайда. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Устанавливает текст для заполнителя заголовка слайда заметок мастера и всех дочерних заполнителей заголовка. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Изменяет видимость заполнителя заголовка слайда заметок мастера и всех дочерних заполнителей заголовка. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Устанавливает текст для заполнителя заголовка слайда. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Изменяет видимость заполнителя заголовка слайда. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда мастера и всех дочерних заполнителей номера страницы. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда заметок мастера. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст в заполнитель даты и времени главного слайда и во все дочерние заполнители даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст в заполнитель даты и времени слайда. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст в заполнитель нижнего колонтитула главного слайда и во все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула главного слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст в заполнитель нижнего колонтитула слайда. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Устанавливает текст в заполнитель верхнего колонтитула главного слайда заметок и во все дочерние заполнители верхнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Изменяет видимость заполнителя верхнего колонтитула главного слайда заметок и всех дочерних заполнителей верхнего колонтитула. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Устанавливает текст в заполнитель верхнего колонтитула слайда. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Изменяет видимость заполнителя верхнего колонтитула слайда. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы главного слайда и всех дочерних заполнителей номера страницы. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда. |
 
-### See Also
+### См. также
 
-* class [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* interface [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* класс [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* интерфейс [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
+* пространство имен [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

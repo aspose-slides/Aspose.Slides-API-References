@@ -1,0 +1,32 @@
+---
+title: interpret_mask_op_as_opacity property
+second_title: Aspose.Slides لبرمجة Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.export/inkoptions/interpret_mask_op_as_opacity/
+weight: 20
+---
+## interpret_mask_op_as_opacity خاصية
+يستخدم عملية ROP أو Opacity لتصميم الفرشاة.
+
+
+### ملاحظات
+
+القيمة الافتراضية هي true.
+
+### التعريف:
+```python
+@property
+def interpret_mask_op_as_opacity(self):
+    ...
+
+@interpret_mask_op_as_opacity.setter
+def interpret_mask_op_as_opacity(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`InkOptions`](/slides/python-net/ar/aspose.slides.export/inkoptions)
+* وحدة [`aspose.slides.export`](/slides/python-net/ar/aspose.slides.export)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

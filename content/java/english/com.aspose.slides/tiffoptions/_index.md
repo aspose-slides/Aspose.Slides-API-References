@@ -39,8 +39,9 @@ Provides options that control how a presentation is saved in TIFF format.
 >      TiffOptions opts = new TiffOptions();
 >      // Setting compression type
 >      opts.setCompressionType(TiffCompressionTypes.Default);
->      INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
 >      notesOptions.setNotesPosition(NotesPositions.BottomFull);
+>      opts.setSlidesLayoutOptions(notesOptions);
 >      // Compression Types
 >      // Default - Specifies the default compression scheme (LZW).
 >      // None - Specifies no compression.
@@ -49,7 +50,7 @@ Provides options that control how a presentation is saved in TIFF format.
 >      // LZW
 >      // RLE
 >      // Depth depends on the compression type and cannot be set manually.
->      // Resolution unit  is always equal to â\u20ac\u01532â\u20ac? (dots per inch)
+>      // Resolution unit  is always equal to 2 (dots per inch)
 >      // Setting image DPI
 >      opts.setDpiX(200);
 >      opts.setDpiY(100);
@@ -91,7 +92,7 @@ Provides options that control how a presentation is saved in TIFF format.
 
 | Method | Description |
 | --- | --- |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getImageSize()](#getImageSize--) | Specifies size of a generated TIFF image. |
@@ -104,6 +105,10 @@ Provides options that control how a presentation is saved in TIFF format.
 | [setCompressionType(int value)](#setCompressionType-int-) | Specifies the compression type. |
 | [getPixelFormat()](#getPixelFormat--) | Specifies the pixel format for the generated images. |
 | [setPixelFormat(int value)](#setPixelFormat-int-) | Specifies the pixel format for the generated images. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getBwConversionMode()](#getBwConversionMode--) | Specifies the algorithm for converting a color image into a black and white image. |
+| [setBwConversionMode(int value)](#setBwConversionMode-int-) | Specifies the algorithm for converting a color image into a black and white image. |
 ### TiffOptions() {#TiffOptions--}
 ```
 public TiffOptions()
@@ -112,16 +117,16 @@ public TiffOptions()
 
 Default constructor.
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+### getInkOptions() {#getInkOptions--}
 ```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+public final IInkOptions getInkOptions()
 ```
 
 
-Provides options that control how notes and comments is placed in exported document.
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
 
 **Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+[IInkOptions](../../com.aspose.slides/iinkoptions)
 ### getShowHiddenSlides() {#getShowHiddenSlides--}
 ```
 public final boolean getShowHiddenSlides()
@@ -254,6 +259,116 @@ public final void setPixelFormat(int value)
 
 
 Specifies the pixel format for the generated images. Read/write [ImagePixelFormat](../../com.aspose.slides/imagepixelformat).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public final ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      TiffOptions options = new TiffOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.tiff", SaveFormat.Tiff, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      TiffOptions options = new TiffOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.tiff", SaveFormat.Tiff, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
+### getBwConversionMode() {#getBwConversionMode--}
+```
+public final int getBwConversionMode()
+```
+
+
+Specifies the algorithm for converting a color image into a black and white image. This option will applied only if  CompressionType (\#getCompressionType.getCompressionType/\#setCompressionType(int).setCompressionType(int)) is set to [TiffCompressionTypes.CCITT4](../../com.aspose.slides/tiffcompressiontypes\#CCITT4) or [TiffCompressionTypes.CCITT3](../../com.aspose.slides/tiffcompressiontypes\#CCITT3) Read/write [BlackWhiteConversionMode](../../com.aspose.slides/blackwhiteconversionmode). Default is [BlackWhiteConversionMode.Default](../../com.aspose.slides/blackwhiteconversionmode\#Default).
+
+--------------------
+
+> ```
+> TiffOptions tiffOptions = new TiffOptions();
+>  tiffOptions.setCompressionType(TiffCompressionTypes.CCITT4);
+>  tiffOptions.setBwConversionMode(BlackWhiteConversionMode.Dithering);
+>  Presentation presentation = new Presentation();
+>  try {
+>      presentation.save(tiffFilePath, SaveFormat.Tiff, tiffOptions);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setBwConversionMode(int value) {#setBwConversionMode-int-}
+```
+public final void setBwConversionMode(int value)
+```
+
+
+Specifies the algorithm for converting a color image into a black and white image. This option will applied only if  CompressionType (\#getCompressionType.getCompressionType/\#setCompressionType(int).setCompressionType(int)) is set to [TiffCompressionTypes.CCITT4](../../com.aspose.slides/tiffcompressiontypes\#CCITT4) or [TiffCompressionTypes.CCITT3](../../com.aspose.slides/tiffcompressiontypes\#CCITT3) Read/write [BlackWhiteConversionMode](../../com.aspose.slides/blackwhiteconversionmode). Default is [BlackWhiteConversionMode.Default](../../com.aspose.slides/blackwhiteconversionmode\#Default).
+
+--------------------
+
+> ```
+> TiffOptions tiffOptions = new TiffOptions();
+>  tiffOptions.setCompressionType(TiffCompressionTypes.CCITT4);
+>  tiffOptions.setBwConversionMode(BlackWhiteConversionMode.Dithering);
+>  Presentation presentation = new Presentation();
+>  try {
+>      presentation.save(tiffFilePath, SaveFormat.Tiff, tiffOptions);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

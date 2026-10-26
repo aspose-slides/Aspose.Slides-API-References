@@ -1,0 +1,55 @@
+---
+title: set_sub_superscript_on_the_right method
+second_title: Odnośnik API Aspose.Slides dla Pythona przez .NET
+description: 
+type: docs
+url: /pl/aspose.slides.mathtext/mathfunction/set_sub_superscript_on_the_right/
+weight: 160
+---
+## set_sub_superscript_on_the_right(self, subscript, superscript) {#imathelement-imathelement}
+Tworzy indeks dolny i indeks górny po prawej
+
+### Zwraca
+Nowy element matematyczny typu [`IMathRightSubSuperscriptElement`](/slides/python-net/pl/aspose.slides.mathtext/imathrightsubsuperscriptelement)
+
+
+
+```python
+def set_sub_superscript_on_the_right(self, subscript, superscript):
+    ...
+```
+
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| subscript | [`IMathElement`](/slides/python-net/pl/aspose.slides.mathtext/imathelement) | Indeks dolny (niższy indeks po prawej) |
+| superscript | [`IMathElement`](/slides/python-net/pl/aspose.slides.mathtext/imathelement) | Indeks górny (wyższy indeks po prawej) |
+
+
+## set_sub_superscript_on_the_right(self, subscript, superscript) {#str-str}
+Tworzy indeks dolny i indeks górny po prawej
+
+### Zwraca
+Nowy element matematyczny typu [`IMathRightSubSuperscriptElement`](/slides/python-net/pl/aspose.slides.mathtext/imathrightsubsuperscriptelement)
+
+
+
+```python
+def set_sub_superscript_on_the_right(self, subscript, superscript):
+    ...
+```
+
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| subscript | **str** | Indeks dolny (niższy indeks po prawej) |
+| superscript | **str** | Indeks górny (wyższy indeks po prawej) |
+
+
+
+### Zobacz również
+* klasa [`IMathElement`](/slides/python-net/pl/aspose.slides.mathtext/imathelement)
+* klasa [`IMathRightSubSuperscriptElement`](/slides/python-net/pl/aspose.slides.mathtext/imathrightsubsuperscriptelement)
+* klasa [`MathFunction`](/slides/python-net/pl/aspose.slides.mathtext/mathfunction)
+* moduł [`aspose.slides.mathtext`](/slides/python-net/pl/aspose.slides.mathtext)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

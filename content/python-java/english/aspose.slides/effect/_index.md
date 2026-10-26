@@ -15,9 +15,9 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationColor() | Defined an after animation color for effect. Read/write IColorFormat. |
+| getAfterAnimationColor() | Defines an after animation color for effect. Read/write IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -28,9 +28,22 @@ url: /aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
-| getAfterAnimationType() | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| getAfterAnimationType() | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
- **Result:**
+ **Returns:**
+int
+
+
+---
+
+
+### getAnimateTextType {#getAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| getAnimateTextType() | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
+
+ **Returns:**
 int
 
 
@@ -43,8 +56,21 @@ int
 | --- | --- |
 | getBehaviors() | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
- **Result:**
+ **Returns:**
 [BehaviorCollection](../behaviorcollection)
+
+
+---
+
+
+### getDelayBetweenTextParts {#getDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| getDelayBetweenTextParts() | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
+
+ **Returns:**
+float
 
 
 ---
@@ -56,7 +82,7 @@ int
 | --- | --- |
 | getPresetClassType() | Defines class of effect. Read/write EffectPresetClassType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -69,7 +95,7 @@ int
 | --- | --- |
 | getSequence() | Returns a sequence for an effect. Read-only ISequence. |
 
- **Result:**
+ **Returns:**
 [Sequence](../sequence)
 
 
@@ -82,7 +108,7 @@ int
 | --- | --- |
 | getSound() | Defined embedded sound for effect. Read/write IAudio. |
 
- **Result:**
+ **Returns:**
 [Audio](../audio)
 
 
@@ -95,7 +121,7 @@ int
 | --- | --- |
 | getStopPreviousSound() | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -108,7 +134,7 @@ boolean
 | --- | --- |
 | getSubtype() | Defines subtype of effect. Read/write EffectSubtype. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -121,8 +147,8 @@ int
 | --- | --- |
 | getTargetShape() | Returns target shape for effect. Read-only IShape. |
 
- **Result:**
-[SummaryZoomSection](../summaryzoomsection), [AutoShape](../autoshape), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [GeometryShape](../geometryshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Ink](../ink), [Chart](../chart), [GroupShape](../groupshape), [Table](../table), [SectionZoomFrame](../sectionzoomframe), [Shape](../shape), [LegacyDiagram](../legacydiagram), [Connector](../connector)
+ **Returns:**
+[ZoomObject](../zoomobject), [AudioFrame](../audioframe), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Shape](../shape), [SmartArt](../smartart), [SectionZoomFrame](../sectionzoomframe), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [Ink](../ink), [SummaryZoomSection](../summaryzoomsection), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [Connector](../connector), [LegacyDiagram](../legacydiagram), [GroupShape](../groupshape), [InkActions](../inkactions), [Table](../table), [OleObjectFrame](../oleobjectframe), [PictureFrame](../pictureframe)
 
 
 ---
@@ -134,7 +160,7 @@ int
 | --- | --- |
 | getTextAnimation() | TextAnimation Read-only ITextAnimation. |
 
- **Result:**
+ **Returns:**
 [TextAnimation](../textanimation)
 
 
@@ -147,7 +173,7 @@ int
 | --- | --- |
 | getTiming() | Defines timing value for effect. Read/write ITiming. |
 
- **Result:**
+ **Returns:**
 [Timing](../timing)
 
 
@@ -160,7 +186,7 @@ int
 | --- | --- |
 | getType() | Defines type of effect. Read/write EffectType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -171,7 +197,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationColor([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
+| setAfterAnimationColor([ColorFormat](../colorformat)) | Defines an after animation color for effect. Read/write IColorFormat. |
 
 
 ---
@@ -181,7 +207,17 @@ int
 
 | Name | Description |
 | --- | --- |
-| setAfterAnimationType(int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+| setAfterAnimationType(int) | Defines an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
+
+
+---
+
+
+### setAnimateTextType {#setAnimateTextType}
+
+| Name | Description |
+| --- | --- |
+| setAnimateTextType(int) | Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write AnimateTextType( #getAnimateTextType/ #setAnimateTextType(int)). |
 
 
 ---
@@ -192,6 +228,16 @@ int
 | Name | Description |
 | --- | --- |
 | setBehaviors([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+
+
+---
+
+
+### setDelayBetweenTextParts {#setDelayBetweenTextParts}
+
+| Name | Description |
+| --- | --- |
+| setDelayBetweenTextParts(float) | Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write float. |
 
 
 ---

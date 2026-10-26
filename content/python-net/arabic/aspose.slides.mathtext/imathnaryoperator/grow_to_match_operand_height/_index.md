@@ -1,0 +1,25 @@
+---
+title: grow_to_match_operand_height property
+second_title: Aspose.Slides لبايثون عبر .NET API مرجع
+description: 
+type: docs
+url: /ar/aspose.slides.mathtext/imathnaryoperator/grow_to_match_operand_height/
+weight: 260
+---
+## grow_to_match_operand_height خاصية
+### التعريف:
+```python
+@property
+def grow_to_match_operand_height(self):
+    ...
+
+@grow_to_match_operand_height.setter
+def grow_to_match_operand_height(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`IMathNaryOperator`](/slides/python-net/ar/aspose.slides.mathtext/imathnaryoperator)
+* وحدة [`aspose.slides.mathtext`](/slides/python-net/ar/aspose.slides.mathtext)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

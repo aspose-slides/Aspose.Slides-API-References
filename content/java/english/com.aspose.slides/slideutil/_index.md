@@ -23,7 +23,7 @@ Offer methods which help to search shapes and text in a presentation.
 | --- | --- |
 | [findShape(IPresentation pres, String altText)](#findShape-com.aspose.slides.IPresentation-java.lang.String-) | Find shape by alternative text in a PPTX presentation. |
 | [findShape(IBaseSlide slide, String altText)](#findShape-com.aspose.slides.IBaseSlide-java.lang.String-) | Find shape by alternative text on a slide in a PPTX presentation. |
-| [alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes)](#alignShapes-int-boolean-com.aspose.slides.IShapeCollection-) | Changes the placement of all shapes in the collection. |
+| [findShapesByPlaceholderType(IBaseSlide slide, byte placeholderType)](#findShapesByPlaceholderType-com.aspose.slides.IBaseSlide-byte-) | Searches for all shapes on the specified slide that match the given placeholder type. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide)](#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-) | Changes the placement of all shapes on the slide. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide, int[] shapeIndexes)](#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-int---) | Changes the placement of selected shapes on the slide. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IGroupShape groupShape)](#alignShapes-int-boolean-com.aspose.slides.IGroupShape-) | Changes the placement of all shapes within group shape. |
@@ -31,7 +31,9 @@ Offer methods which help to search shapes and text in a presentation.
 | [findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace)](#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) | Finds and replaces text in presentation with given format |
 | [findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format)](#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-com.aspose.slides.PortionFormat-) | Finds and replaces text in presentation with given format |
 | [getAllTextBoxes(IBaseSlide slide)](#getAllTextBoxes-com.aspose.slides.IBaseSlide-) | Returns all text frames on a slide in a PPTX presentation. |
+| [getTextBoxesContainsText(IBaseSlide slide, String text, boolean checkPlaceholderText)](#getTextBoxesContainsText-com.aspose.slides.IBaseSlide-java.lang.String-boolean-) | Returns all text frames on the specified slide that contain the given text. |
 | [getAllTextFrames(IPresentation pres, boolean withMasters)](#getAllTextFrames-com.aspose.slides.IPresentation-boolean-) | Returns all text frames in a PPTX presentation. |
+| [toSaveFormat(int format)](#toSaveFormat-int-) | Converts a source file format to the corresponding [SaveFormat](../../com.aspose.slides/saveformat). |
 ### SlideUtil() {#SlideUtil--}
 ```
 public SlideUtil()
@@ -70,34 +72,22 @@ Find shape by alternative text on a slide in a PPTX presentation.
 
 **Returns:**
 [IShape](../../com.aspose.slides/ishape) - Shape or null.
-### alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes) {#alignShapes-int-boolean-com.aspose.slides.IShapeCollection-}
+### findShapesByPlaceholderType(IBaseSlide slide, byte placeholderType) {#findShapesByPlaceholderType-com.aspose.slides.IBaseSlide-byte-}
 ```
-public static void alignShapes(int alignmentType, boolean alignToSlide, IShapeCollection shapes)
+public static IShape[] findShapesByPlaceholderType(IBaseSlide slide, byte placeholderType)
 ```
 
 
-Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("pres.pptx");
->  try {
->      SlideUtil.alignShapes(ShapesAlignmentType.AlignBottom, true, pres.getSlides().get_Item(0).getShapes());
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
+Searches for all shapes on the specified slide that match the given placeholder type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges |
-| shapes | [IShapeCollection](../../com.aspose.slides/ishapecollection) | Shapes collection to be aligned |
+| slide | [IBaseSlide](../../com.aspose.slides/ibaseslide) | The slide to search for shapes. |
+| placeholderType | byte | The type of placeholder to filter shapes by. |
 
+**Returns:**
+com.aspose.slides.IShape[] - An array of [IShape](../../com.aspose.slides/ishape) objects that match the specified placeholder type.
 ### alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide) {#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-}
 ```
 public static void alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide)
@@ -253,7 +243,7 @@ Finds and replaces text in presentation with given format
 | presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Scanned presentation. |
 | withMasters | boolean | Determines whether master slides should be scanned. |
 | find | java.lang.String | String value to find. |
-| replace | java.lang.String | String value to replace. |
+| replace | java.lang.String | String value to replace. character of the found string |
 
 ### findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format) {#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-com.aspose.slides.PortionFormat-}
 ```
@@ -305,6 +295,23 @@ Returns all text frames on a slide in a PPTX presentation.
 
 **Returns:**
 com.aspose.slides.ITextFrame[] - Array of [TextFrame](../../com.aspose.slides/textframe) objects.
+### getTextBoxesContainsText(IBaseSlide slide, String text, boolean checkPlaceholderText) {#getTextBoxesContainsText-com.aspose.slides.IBaseSlide-java.lang.String-boolean-}
+```
+public static ITextFrame[] getTextBoxesContainsText(IBaseSlide slide, String text, boolean checkPlaceholderText)
+```
+
+
+Returns all text frames on the specified slide that contain the given text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | [IBaseSlide](../../com.aspose.slides/ibaseslide) | The slide to search. |
+| text | java.lang.String | The text to search for within text frames. |
+| checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
+
+**Returns:**
+com.aspose.slides.ITextFrame[] - An array of [ITextFrame](../../com.aspose.slides/itextframe) objects that contain the specified text.
 ### getAllTextFrames(IPresentation pres, boolean withMasters) {#getAllTextFrames-com.aspose.slides.IPresentation-boolean-}
 ```
 public static ITextFrame[] getAllTextFrames(IPresentation pres, boolean withMasters)
@@ -321,3 +328,18 @@ Returns all text frames in a PPTX presentation.
 
 **Returns:**
 com.aspose.slides.ITextFrame[] - Array of [TextFrame](../../com.aspose.slides/textframe) objects.
+### toSaveFormat(int format) {#toSaveFormat-int-}
+```
+public static int toSaveFormat(int format)
+```
+
+
+Converts a source file format to the corresponding [SaveFormat](../../com.aspose.slides/saveformat).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | int | The source file format. |
+
+**Returns:**
+int - The corresponding [SaveFormat](../../com.aspose.slides/saveformat) value.

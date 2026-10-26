@@ -1,0 +1,42 @@
+---
+title: "System::Security::Cryptography::X509Certificates"
+second_title: Referência da API Aspose.Slides para C++
+description: 
+type: docs
+weight: 859
+url: /pt/system.security.cryptography.x509certificates/
+---
+## Classes
+
+| Classe | Descrição |
+| --- | --- |
+| [PublicKey](./publickey/) | Representa as informações da chave pública de um certificado X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre encerre esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X500DistinguishedName](./x500distinguishedname/) | Representa o nome distinto de um certificado X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509Certificate](./x509certificate/) | Certificado X.509 v.3. Certificados criptografados não são suportados. Apenas a flag [X509KeyStorageFlags::DefaultKeySet](./x509keystorageflags/) é suportada. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509Certificate2](./x509certificate2/) | Representa um certificado X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509Certificate2Collection](./x509certificate2collection/) | Coleção de objetos de certificado X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509Certificate2CollectionPtr](./x509certificate2collectionptr/) | Ponteiro para coleção de certificados X509. Este tipo é um ponteiro para gerenciar a exclusão de outro objeto. Deve ser alocado na pilha e passado às funções por valor ou por referência constante. |
+| [X509CertificateCollection](./x509certificatecollection/) | Coleção de objetos de certificado X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509CertificateCollectionPtr](./x509certificatecollectionptr/) | Ponteiro para coleção de certificados X509. Este tipo é um ponteiro para gerenciar a exclusão de outro objeto. Deve ser alocado na pilha e passado às funções por valor ou por referência constante. |
+| [X509Chain](./x509chain/) | Representa a cadeia de certificados X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509ChainPolicy](./x509chainpolicy/) | A política de cadeia que será aplicada ao construir uma cadeia de certificados X509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509ChainStatus](./x509chainstatus/) | Armazena o status da cadeia X509 e informações de erro. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509Extension](./x509extension/) | Objeto de extensão para manter informações extras associadas ao certificado X.509. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509ExtensionCollection](./x509extensioncollection/) | Coleção de objetos de extensão. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509ExtensionCollectionPtr](./x509extensioncollectionptr/) | Ponteiro para coleção de extensões X509. Este tipo é um ponteiro para gerenciar a exclusão de outro objeto. Deve ser alocado na pilha e passado às funções por valor ou por referência constante. |
+| [X509ExtensionEnumerator](./x509extensionenumerator/) | Enumerador para percorrer a coleção de extensões. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+| [X509KeyUsageExtension](./x509keyusageextension/) | Objeto de extensão para manter informações extras sobre o uso de uma chave. Objetos desta classe devem ser alocados apenas usando a função [System::MakeObject()](../system/makeobject/). Nunca crie instâncias deste tipo na pilha ou usando operator new, pois isso resultará em erros de tempo de execução e/ou falhas de asserção. Sempre envolva esta classe em um ponteiro [System::SmartPtr](../system/smartptr/) e use esse ponteiro para passá-lo às funções como argumento. |
+
+## Enumerações
+
+| Enumeração | Descrição |
+| --- | --- |
+| [X500DistinguishedNameFlags](./x500distinguishednameflags/) | Regras de formatação do nome distinto de certificado X509. |
+| [X509ChainStatusFlags](./x509chainstatusflags/) |  |
+| [X509ContentType](./x509contenttype/) | Formato do certificado X.509. |
+| [X509IncludeOption](./x509includeoption/) | Especifica quais certificados na cadeia devem ser incluídos. |
+| [X509KeyStorageFlags](./x509keystorageflags/) | Define como armazenar a chave. |
+| [X509KeyUsageFlags](./x509keyusageflags/) | Define como a chave do certificado pode ser usada. |
+| [X509NameType](./x509nametype/) | Tipo de nome contido em certificado X.509 que se relaciona ao emissor ou ao sujeito do certificado. |
+| [X509RevocationFlag](./x509revocationflag/) |  |
+| [X509VerificationFlags](./x509verificationflags/) |  |

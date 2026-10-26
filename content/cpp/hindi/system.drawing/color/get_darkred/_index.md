@@ -1,0 +1,22 @@
+---
+title: get_DarkRed()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: एक रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FF8B0000 है।
+type: docs
+weight: 690
+url: /hi/system.drawing/color/get_darkred/
+---
+## Color::get_DarkRed() विधि
+
+
+एक रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FF8B0000 है।
+
+```cpp
+static Color System::Drawing::Color::get_DarkRed()
+```
+
+## संबंधित देखें
+
+* वर्ग [Color](../)
+* नामस्थान [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

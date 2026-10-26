@@ -75,7 +75,7 @@ url: /aspose.slides/behaviorpropertycollection/
 | --- | --- | --- |
 | item | [BehaviorProperty](../behaviorproperty) | The property to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -94,7 +94,7 @@ boolean
 | --- | --- | --- |
 | propertyValue | String | Value of the property to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -107,7 +107,7 @@ boolean
 | --- | --- |
 | containsItem([BehaviorProperty](../behaviorproperty)) |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -159,7 +159,7 @@ boolean
 | --- | --- | --- |
 | index | int | Index of a property to return. |
 
- **Result:**
+ **Returns:**
 [BehaviorProperty](../behaviorproperty)
 
 
@@ -178,7 +178,7 @@ boolean
 | --- | --- | --- |
 | item | [BehaviorProperty](../behaviorproperty) | The object to locate in the List. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -197,7 +197,7 @@ int
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -210,7 +210,7 @@ int
 | --- | --- |
 | indexOfItem([BehaviorProperty](../behaviorproperty)) |  |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -267,7 +267,7 @@ int
 | --- | --- |
 | isReadOnly() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -280,7 +280,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -293,7 +293,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -312,7 +312,7 @@ boolean
 | --- | --- | --- |
 | item | [BehaviorProperty](../behaviorproperty) | Property to remove. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -331,7 +331,7 @@ boolean
 | --- | --- | --- |
 | propertyValue | String | Value of the property to remove. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -360,7 +360,7 @@ boolean
 | --- | --- |
 | removeItem([BehaviorProperty](../behaviorproperty)) |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -389,7 +389,7 @@ boolean
 | --- | --- |
 | size() | Returns the number of properties stored in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

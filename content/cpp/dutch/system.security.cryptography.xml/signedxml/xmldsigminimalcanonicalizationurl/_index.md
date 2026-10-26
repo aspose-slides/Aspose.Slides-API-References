@@ -1,0 +1,22 @@
+---
+title: XmlDsigMinimalCanonicalizationUrl
+second_title: Aspose.Slides voor C++ API-referentie
+description: 
+type: docs
+weight: 261
+url: /nl/system.security.cryptography.xml/signedxml/xmldsigminimalcanonicalizationurl/
+---
+## XmlDsigMinimalCanonicalizationUrl veld
+
+
+
+
+```cpp
+static const String System::Security::Cryptography::Xml::SignedXml::XmlDsigMinimalCanonicalizationUrl
+```
+
+## Zie ook
+
+* Klasse [SignedXml](../)
+* Naamruimte [System::Security::Cryptography::Xml](../../)
+* Bibliotheek [Aspose.Slides](../../../)

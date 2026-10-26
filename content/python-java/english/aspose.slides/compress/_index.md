@@ -17,7 +17,7 @@ url: /aspose.slides/compress/
 | --- | --- |
 | Compress() |  |
 
- **Result:**
+ **Returns:**
 Compress
 
 

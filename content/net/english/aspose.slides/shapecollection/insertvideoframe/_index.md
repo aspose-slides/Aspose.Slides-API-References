@@ -1,7 +1,7 @@
 ---
 title: InsertVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new video frame and inserts it to a collection at the specified index.
+description: Creates a new video frame and inserts it into the shape collection at the specified index.
 type: docs
 weight: 400
 url: /aspose.slides/shapecollection/insertvideoframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/insertvideoframe/
 
 ## ShapeCollection.InsertVideoFrame method
 
-Creates a new video frame and inserts it to a collection at the specified index.
+Creates a new video frame and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 
@@ -18,16 +18,16 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which video frame should be inserted. |
-| x | Single | X coordinate of a new video frame. |
-| y | Single | Y coordinate of a new video frame. |
-| width | Single | Width of a new video frame. |
-| height | Single | Height of a new video frame. |
-| fname | String | Video file name. |
+| index | Int32 | The zero-based index at which to insert the video frame. |
+| x | Single | The x-coordinate of the new video frame, in points. |
+| y | Single | The y-coordinate of the new video frame, in points. |
+| width | Single | The width of the new video frame, in points. |
+| height | Single | The height of the new video frame, in points. |
+| fname | String | The path or name of the video file to embed. |
 
 ### Return Value
 
-Created VideoFrame object.
+The newly created [`IVideoFrame`](../../ivideoframe).
 
 ### See Also
 

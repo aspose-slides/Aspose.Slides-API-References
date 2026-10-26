@@ -1,0 +1,25 @@
+---
+title: name property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
+description: 
+type: docs
+url: /hi/aspose.slides/igroupshape/name/
+weight: 280
+---
+## name गुण
+### परिभाषा:
+```python
+@property
+def name(self):
+    ...
+
+@name.setter
+def name(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IGroupShape`](/slides/python-net/hi/aspose.slides/igroupshape)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

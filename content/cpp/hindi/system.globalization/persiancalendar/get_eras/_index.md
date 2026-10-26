@@ -1,0 +1,26 @@
+---
+title: get_Eras()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: कैलेंडर में मौजूद युगों की सूची प्राप्त करता है।
+type: docs
+weight: 53
+url: /hi/system.globalization/persiancalendar/get_eras/
+---
+## PersianCalendar::get_Eras() const विधि
+
+कैलेंडर में मौजूद युगों की सूची प्राप्त करता है।
+
+```cpp
+ArrayPtr<int> System::Globalization::PersianCalendar::get_Eras() const override
+```
+
+### रिटर्न मान
+
+[Array](../../../system/array/) युग संख्याओं को परिभाषित करने वाले संख्याओं का।
+
+## देखें
+
+* टाइपडिफ [ArrayPtr](../../../system/arrayptr/)
+* क्लास [PersianCalendar](../)
+* नेमस्पेस [System::Globalization](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

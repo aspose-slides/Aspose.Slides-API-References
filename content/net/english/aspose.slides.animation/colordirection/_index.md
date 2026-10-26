@@ -3,7 +3,7 @@ title: ColorDirection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents color direction for color effect behavior.
 type: docs
-weight: 140
+weight: 220
 url: /aspose.slides.animation/colordirection/
 ---
 

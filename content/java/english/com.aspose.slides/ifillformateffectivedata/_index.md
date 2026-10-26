@@ -22,6 +22,7 @@ This interface is used together with the [IFillFormat](../../com.aspose.slides/i
 | --- | --- |
 | [getFillType()](#getFillType--) | Returns the type of filling. |
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the fill color. |
+| [getSolidFillSchemeColor()](#getSolidFillSchemeColor--) | Gets the fill color defined by a color scheme. |
 | [getGradientFormat()](#getGradientFormat--) | Returns the gradient fill format. |
 | [getPatternFormat()](#getPatternFormat--) | Returns the pattern fill format. |
 | [getPictureFillFormat()](#getPictureFillFormat--) | Returns the picture fill format. |
@@ -46,6 +47,16 @@ Returns the fill color. Read-only java.awt.Color.
 
 **Returns:**
 java.awt.Color
+### getSolidFillSchemeColor() {#getSolidFillSchemeColor--}
+```
+public abstract int getSolidFillSchemeColor()
+```
+
+
+Gets the fill color defined by a color scheme. The [SchemeColor.NotDefined](../../com.aspose.slides/schemecolor\#NotDefined) value indicates that the  SolidFillColor (\#getSolidFillColor.getSolidFillColor) is not a scheme color. Read-only [SchemeColor](../../com.aspose.slides/schemecolor).
+
+**Returns:**
+int
 ### getGradientFormat() {#getGradientFormat--}
 ```
 public abstract IGradientFormatEffectiveData getGradientFormat()

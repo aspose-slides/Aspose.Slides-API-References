@@ -1,0 +1,28 @@
+---
+title: highlight_click property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/ihyperlink/highlight_click/
+weight: 60
+---
+## highlight_click ویژگی
+Determines whether the hyperlink should be highlighted on click.
+            خواندن/نوشتن **bool**.
+
+### تعریف:
+```python
+@property
+def highlight_click(self):
+    ...
+
+@highlight_click.setter
+def highlight_click(self, value):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`IHyperlink`](/slides/python-net/fa/aspose.slides/ihyperlink)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

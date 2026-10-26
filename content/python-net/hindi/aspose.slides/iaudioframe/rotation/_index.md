@@ -1,0 +1,25 @@
+---
+title: rotation property
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/iaudioframe/rotation/
+weight: 590
+---
+## रोटेशन गुण
+### परिभाषा:
+```python
+@property
+def rotation(self):
+    ...
+
+@rotation.setter
+def rotation(self, value):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IAudioFrame`](/slides/python-net/hi/aspose.slides/iaudioframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

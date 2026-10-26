@@ -246,3 +246,28 @@ byte
 ---
 
 
+### writeAsEmf {#writeAsEmf}
+
+| Name | Description |
+| --- | --- |
+| writeAsEmf (OutputStream) | Saves the SVG image as an EMF file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | Target stream is null |
+
+
+---
+
+

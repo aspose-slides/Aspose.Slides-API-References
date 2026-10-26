@@ -1,0 +1,22 @@
+---
+title: set_SizeLocked()
+second_title: Справочник API Aspose.Slides для C++
+description: Определяет, запрещено ли изменение размера этой фигуры. Запишите bool.
+type: docs
+weight: 144
+url: /ru/aspose.slides/autoshapelock/set_sizelocked/
+---
+## AutoShapeLock::set_SizeLocked(bool) метод
+
+
+Определяет, запрещено ли изменение размера этой фигуры. Запишите **bool**.
+
+```cpp
+void Aspose::Slides::AutoShapeLock::set_SizeLocked(bool value) override
+```
+
+## См. также
+
+* Класс [AutoShapeLock](../)
+* Пространство имён [Aspose::Slides](../../)
+* Библиотека [Aspose.Slides](../../../)

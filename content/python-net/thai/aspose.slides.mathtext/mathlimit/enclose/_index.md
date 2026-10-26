@@ -1,0 +1,51 @@
+---
+title: enclose method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.mathtext/mathlimit/enclose/
+weight: 50
+---
+## enclose(self) {#}
+ล้อมรอบองค์ประกอบคณิตศาสตร์ด้วยวงเล็บ
+
+### ผลลัพธ์
+
+องค์ประกอบคณิตศาสตร์ประเภท [`IMathDelimiter`](/slides/python-net/th/aspose.slides.mathtext/imathdelimiter) ที่รวมวงเล็บ
+
+
+
+```python
+def enclose(self):
+    ...
+```
+
+
+
+## enclose(self, beginning_character, ending_character) {#char-char}
+ล้อมรอบองค์ประกอบคณิตศาสตร์ด้วยอักขระที่ระบุเช่นวงเล็บหรืออักขระอื่นเป็นกรอบ
+
+### ผลลัพธ์
+
+องค์ประกอบคณิตศาสตร์ประเภท [`IMathDelimiter`](/slides/python-net/th/aspose.slides.mathtext/imathdelimiter) ที่รวมอักขระที่ระบุเป็นกรอบ
+
+
+
+```python
+def enclose(self, beginning_character, ending_character):
+    ...
+```
+
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| :- | :- | :- |
+| beginning_character | **char** | อักขระเริ่มต้น (โดยปกติคือวงเล็บซ้าย) |
+| ending_character | **char** | อักขระสิ้นสุด (โดยปกติคือวงเล็บขวา) |
+
+
+
+### ดูเพิ่มเติม
+* คลาส [`IMathDelimiter`](/slides/python-net/th/aspose.slides.mathtext/imathdelimiter)
+* คลาส [`MathLimit`](/slides/python-net/th/aspose.slides.mathtext/mathlimit)
+* โมดูล [`aspose.slides.mathtext`](/slides/python-net/th/aspose.slides.mathtext)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

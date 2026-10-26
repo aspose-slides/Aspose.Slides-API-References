@@ -1,0 +1,161 @@
+---
+title: SmartArtLayoutType
+second_title: Referensi API Aspose.Slides untuk C++
+description: Mewakili tipe tata letak diagram SmartArt.
+type: docs
+weight: 157
+url: /id/aspose.slides.smartart/smartartlayouttype/
+---
+## SmartArtLayoutType enum
+
+Mewakili jenis tata letak dari diagram [SmartArt](../smartart/).
+
+```cpp
+enum class SmartArtLayoutType
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| AccentProcess | 0 | Gunakan untuk menunjukkan progresi, garis waktu, atau langkah berurutan dalam tugas, proses, atau alur kerja. Cocok untuk mengilustrasikan teks Level 1 dan Level 2. |
+| AccentedPicture | 1 | Gunakan untuk menampilkan ide foto utama dengan ide terkait di sampingnya. Teks Level 1 teratas muncul di atas gambar utama. Teks yang sesuai untuk bentuk Level 1 lainnya muncul di samping gambar lingkaran kecil. Tata letak ini juga bekerja baik tanpa teks. |
+| AlternatingFlow | 2 | Gunakan untuk menampilkan kelompok informasi atau langkah berurutan dalam tugas, proses, atau alur kerja. Menekankan interaksi atau hubungan antar kelompok informasi. |
+| AlternatingHexagons | 3 | Gunakan untuk menggambarkan rangkaian ide yang saling terhubung. Teks Level 1 muncul di dalam heksagon. Teks Level 2 muncul di luar bentuk. |
+| AlternatingPictureBlocks | 4 | Gunakan untuk menampilkan rangkaian gambar dari atas ke bawah. Teks muncul bergantian di kanan atau kiri gambar. |
+| AlternatingPictureCircles | 5 | Gunakan untuk menampilkan sekumpulan gambar dengan teks. Teks yang sesuai muncul di lingkaran pusat dengan gambar bergantian dari kiri ke kanan. |
+| ArrowRibbon | 6 | Gunakan untuk menampilkan konsep terkait atau kontras dengan beberapa keterkaitan, seperti gaya yang berlawanan. Dua baris pertama teks Level 1 digunakan untuk teks pada panah. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| AscendingPictureAccentProcess | 7 | Gunakan untuk menampilkan rangkaian gambar naik dengan teks deskriptif. Paling cocok dengan teks kecil. |
+| Balance | 8 | Gunakan untuk membandingkan atau menunjukkan hubungan antara dua ide. Setiap dari dua baris pertama teks Level 1 sesuai dengan teks di bagian atas satu sisi titik pusat. Menekankan teks Level 2, yang terbatas pada empat bentuk di setiap sisi titik pusat. Keseimbangan condong ke sisi dengan bentuk Level 2 terbanyak. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BasicBendingProcess | 9 | Gunakan untuk menunjukkan progresi atau langkah berurutan dalam tugas, proses, atau alur kerja. Memaksimalkan ruang tampilan horizontal dan vertikal untuk bentuk. |
+| BasicBlockList | 10 | Gunakan untuk menampilkan blok informasi yang tidak berurutan atau dikelompokkan. Memaksimalkan ruang tampilan horizontal dan vertikal untuk bentuk. |
+| BasicChevronProcess | 11 | Gunakan untuk menunjukkan progresi; garis waktu; langkah berurutan dalam tugas, proses, atau alur kerja; atau untuk menekankan gerakan atau arah. Teks Level 1 muncul di dalam bentuk panah sementara teks Level 2 muncul di bawah bentuk panah. |
+| BasicCycle | 12 | Gunakan untuk menggambarkan urutan berkelanjutan tahap, tugas, atau peristiwa dalam aliran melingkar. Menekankan tahap atau langkah daripada panah atau aliran penghubung. Paling cocok dengan hanya teks Level 1. |
+| BasicMatrix | 13 | Gunakan untuk menunjukkan hubungan komponen dengan keseluruhan dalam kuadran. Empat baris pertama teks Level 1 muncul di kuadran. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BasicPie | 14 | Gunakan untuk menunjukkan bagaimana bagian individu membentuk keseluruhan. Tujuh baris pertama teks Level 1 sesuai dengan bentuk irisan atau pai yang terdistribusi merata. Bentuk teks Level 1 teratas muncul di luar sisa pai untuk penekanan. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BasicProcess | 15 | Gunakan untuk menunjukkan progresi atau langkah berurutan dalam tugas, proses, atau alur kerja. |
+| BasicPyramid | 16 | Gunakan untuk menunjukkan hubungan proporsional, saling terhubung, atau hierarkis dengan komponen terbesar di bawah dan menyempit ke atas. Teks Level 1 muncul di segmen piramida dan teks Level 2 muncul di bentuk di samping setiap segmen. |
+| BasicRadial | 17 | Gunakan untuk menunjukkan hubungan ke ide pusat dalam siklus. Baris pertama teks Level 1 sesuai dengan bentuk pusat, dan teks Level 2-nya sesuai dengan bentuk melingkar di sekitarnya. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BasicTarget | 18 | Gunakan untuk menunjukkan penahanan, gradasi, atau hubungan hierarkis. Lima baris pertama teks Level 1 terkait dengan sebuah lingkaran. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BasicTimeline | 19 | Gunakan untuk menunjukkan langkah berurutan dalam tugas, proses, atau alur kerja, atau untuk menampilkan informasi garis waktu. Berfungsi baik dengan teks Level 1 dan Level 2. |
+| BasicVenn | 20 | Gunakan untuk menunjukkan hubungan yang tumpang tindih atau saling terhubung. Tujuh baris pertama teks Level 1 sesuai dengan sebuah lingkaran. Jika ada empat baris atau lebih sedikit teks Level 1, teks berada di dalam lingkaran. Jika lebih dari empat baris, teks berada di luar lingkaran. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| BendingPictureAccentList | 21 | Gunakan untuk menampilkan blok informasi yang tidak berurutan atau dikelompokkan. Bentuk lingkaran kecil dirancang untuk memuat gambar. Berfungsi baik untuk mengilustrasikan teks Level 1 dan Level 2. Memaksimalkan ruang tampilan horizontal dan vertikal untuk bentuk. |
+| BendingPictureBlocks | 22 | Gunakan untuk menampilkan rangkaian gambar. Kotak yang menutupi sudut bawah dapat memuat teks kecil. |
+| BendingPictureCaption | 23 | Gunakan untuk menampilkan rangkaian gambar berurutan. Kotak yang menutupi sudut bawah dapat memuat teks kecil. |
+| BendingPictureCaptionList | 24 | Gunakan untuk menampilkan rangkaian gambar. Judul dan deskripsi muncul dalam bentuk keterangan di bawah setiap gambar. |
+| BendingPictureSemiTransparentText | 25 | Gunakan untuk menampilkan rangkaian gambar. Kotak setengah transparan menutupi bagian bawah gambar dan memuat semua tingkat teks. |
+| BlockCycle | 26 | Gunakan untuk menggambarkan urutan berkelanjutan tahap, tugas, atau peristiwa dalam aliran melingkar. Menekankan tahap atau langkah daripada panah atau aliran penghubung. |
+| BubblePictureList | 27 | Gunakan untuk menampilkan rangkaian gambar. Dapat memuat hingga delapan gambar Level 1. Teks dan gambar yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. Paling cocok dengan teks sedikit. |
+| CaptionedPictures | 28 | Gunakan untuk menampilkan gambar dengan beberapa tingkat teks. Paling cocok dengan teks Level 1 sedikit dan teks Level 2 sedang. |
+| ChevronList | 29 | Gunakan untuk menunjukkan progresi melalui beberapa proses yang membentuk alur kerja keseluruhan. Juga berfungsi untuk mengilustrasikan proses kontras. Teks Level 1 sesuai dengan bentuk panah pertama di sebelah kiri, sementara teks Level 2 sesuai dengan sub-langkah horizontal untuk setiap bentuk yang memuat teks Level 1. |
+| CircleAccentTimeline | 30 | Gunakan untuk menampilkan rangkaian peristiwa atau informasi garis waktu. Teks Level 1 muncul di sebelah bentuk lingkaran besar. Teks Level 2 muncul di sebelah bentuk lingkaran kecil. |
+| CircleArrowProcess | 31 | Gunakan untuk menampilkan item berurutan dengan teks pendukung untuk setiap item. Diagram ini paling cocok dengan teks Level 1 sedikit. |
+| CirclePictureHierarchy | 32 | Gunakan untuk menampilkan informasi hierarkis atau hubungan pelaporan dalam organisasi. Gambar muncul dalam lingkaran dan teks yang sesuai muncul di samping gambar. |
+| CircleRelationship | 33 | Gunakan untuk menampilkan hubungan ke atau dari ide pusat. Teks Level 2 ditambahkan secara tidak berurutan dan terbatas pada lima item. Hanya boleh ada satu item Level 1. |
+| CircularBendingProcess | 34 | Gunakan untuk menampilkan urutan panjang atau tidak linier langkah dalam tugas, proses, atau alur kerja. Paling cocok dengan hanya teks Level 1. Memaksimalkan ruang tampilan horizontal dan vertikal untuk bentuk. |
+| CircularPictureCallout | 35 | Gunakan untuk menampilkan ide pusat dan sub-ide atau item terkait. Teks untuk gambar pertama menutupi bagian bawah gambar. Teks yang sesuai untuk bentuk Level 1 lainnya muncul di samping gambar lingkaran kecil. Diagram ini juga berfungsi baik tanpa teks. |
+| ClosedChevronProcess | 36 | Gunakan untuk menunjukkan progresi, garis waktu, atau langkah berurutan dalam tugas, proses, atau alur kerja, atau untuk menekankan gerakan atau arah. Dapat digunakan untuk menekankan informasi pada bentuk awal. Paling cocok dengan hanya teks Level 1. |
+| ContinuousArrowProcess | 37 | Gunakan untuk menampilkan garis waktu atau langkah berurutan dalam tugas, proses, atau alur kerja. Paling cocok dengan teks Level 1 karena setiap baris teks Level 1 muncul di dalam bentuk panah. Teks Level 2 muncul di luar bentuk panah. |
+| ContinuousBlockProcess | 38 | Gunakan untuk menunjukkan progresi atau langkah berurutan dalam tugas, proses, atau alur kerja. Paling cocok dengan teks Level 1 dan Level 2 minimal. |
+| ContinuousCycle | 39 | Gunakan untuk menggambarkan urutan berkelanjutan tahap, tugas, atau peristiwa dalam aliran melingkar. Menekankan koneksi antara semua komponen. Paling cocok dengan hanya teks Level 1. |
+| ContinuousPictureList | 40 | Gunakan untuk menampilkan kelompok informasi yang saling terhubung. Bentuk lingkaran dirancang untuk memuat gambar. |
+| ConvergingArrows | 41 | Gunakan untuk menampilkan ide atau konsep yang berkumpul ke titik pusat. Paling cocok dengan hanya teks Level 1. |
+| ConvergingRadial | 42 | Gunakan untuk menampilkan hubungan konsep atau komponen ke ide pusat dalam siklus. Baris pertama teks Level 1 sesuai dengan bentuk lingkaran pusat dan baris teks Level 2 sesuai dengan bentuk persegi panjang di sekitarnya. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| CounterbalanceArrows | 43 | Gunakan untuk menampilkan dua ide atau konsep yang berlawanan. Setiap dari dua baris pertama teks Level 1 sesuai dengan sebuah panah dan bekerja baik dengan teks Level 2. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| CycleMatrix | 44 | Gunakan untuk menampilkan hubungan ke ide pusat dalam progresi siklik. Empat baris pertama teks Level 1 sesuai dengan bentuk irisan atau pai, dan teks Level 2 muncul dalam bentuk persegi panjang di samping irisan atau pai. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| DescendingBlockList | 45 | Gunakan untuk menampilkan kelompok ide terkait atau daftar informasi. Bentuk teks menurun secara berurutan, dan teks Level 1 ditampilkan secara vertikal. |
+| DescendingProcess | 46 | Gunakan untuk menampilkan rangkaian peristiwa menurun. Teks Level 1 pertama berada di atas panah, dan teks Level 1 terakhir ditampilkan di bagian bawah panah. Hanya tujuh item Level 1 pertama yang muncul. Paling cocok dengan teks kecil hingga sedang. |
+| DetailedProcess | 47 | Gunakan dengan banyak teks Level 2 untuk menunjukkan progresi melalui tahap. |
+| DivergingArrows | 48 | Gunakan untuk menampilkan ide atau konsep yang berkembang ke luar dari sumber pusat. Paling cocok dengan hanya teks Level 1. |
+| DivergingRadial | 49 | Gunakan untuk menampilkan hubungan ke ide pusat dalam siklus. Baris pertama teks Level 1 sesuai dengan bentuk lingkaran pusat. Menekankan lingkaran di sekitar daripada ide pusat. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| Equation | 50 | Gunakan untuk menampilkan langkah berurutan atau tugas yang menggambarkan rencana atau hasil. Baris terakhir teks Level 1 muncul setelah tanda sama dengan (=). Paling cocok dengan hanya teks Level 1. |
+| FramedTextPicture | 51 | Gunakan untuk menampilkan gambar dengan teks Level 1 yang sesuai ditampilkan dalam bingkai. |
+| Funnel | 52 | Gunakan untuk menampilkan penyaringan informasi atau cara bagian-bagian bergabung menjadi satu keseluruhan. Menekankan hasil akhir. Dapat memuat hingga empat baris teks Level 1; baris keempat muncul di bawah corong dan baris lainnya sesuai dengan bentuk lingkaran. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| Gear | 53 | Gunakan untuk menampilkan ide yang saling mengunci. Tiga baris pertama teks Level 1 sesuai dengan bentuk roda gigi, dan teks Level 2 yang bersesuaian muncul dalam persegi panjang di samping bentuk roda gigi. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia bila Anda mengganti tata letak. |
+| GridMatrix | 54 | Gunakan untuk menampilkan penempatan konsep pada dua sumbu. Menekankan komponen individu daripada keseluruhan. Empat baris pertama teks Level 1 muncul di kuadran. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| GroupedList | 55 | Gunakan untuk menampilkan grup dan sub-grup informasi, atau langkah dan sub-langkah dalam tugas, proses, atau alur kerja. Teks Level 1 sesuai dengan bentuk horizontal tingkat atas, dan teks Level 2 sesuai dengan sub-langkah vertikal di bawah setiap bentuk tingkat atas yang terkait. Cocok untuk menekankan sub-grup atau sub-langkah, informasi hierarkis, atau beberapa daftar informasi. |
+| HalfCircleOrganizationChart | 56 | Gunakan untuk menampilkan informasi hierarkis atau hubungan pelaporan dalam sebuah organisasi. Bentuk asisten dan tata letak gantung Org Chart tersedia dengan tata letak ini. |
+| HexagonCluster | 57 | Gunakan untuk menampilkan gambar dengan teks deskriptif yang terkait. Heksagon kecil menunjukkan pasangan gambar dan teks. Terbaik untuk teks dalam jumlah kecil. |
+| Hierarchy | 58 | Gunakan untuk menampilkan hubungan hierarkis yang berkembang dari atas ke bawah. |
+| HierarchyList | 59 | Gunakan untuk menampilkan hubungan hierarkis yang berkembang melintasi grup. Juga dapat digunakan untuk mengelompokkan atau membuat daftar informasi. |
+| HorizontalBulletList | 60 | Gunakan untuk menampilkan daftar informasi yang tidak berurutan atau dikelompokkan. Cocok untuk teks dalam jumlah besar. Semua teks memiliki tingkat penekanan yang sama, dan arah tidak tersirat. |
+| HorizontalHierarchy | 61 | Gunakan untuk menampilkan hubungan hierarkis yang berkembang secara horizontal. Cocok untuk pohon keputusan. |
+| HorizontalLabeledHierarchy | 62 | Gunakan untuk menampilkan hubungan hierarkis yang berkembang secara horizontal dan dikelompokkan secara hierarkis. Menekankan judul atau teks level 1. Baris pertama teks Level 1 muncul dalam bentuk di awal hierarki, dan baris kedua serta semua baris berikutnya dari teks Level 1 muncul di bagian atas persegi panjang tinggi. |
+| HorizontalMultiLevelHierarchy | 63 | Gunakan untuk menampilkan banyak informasi hierarkis yang berkembang secara horizontal. Puncak hierarki ditampilkan secara vertikal. Tata letak ini mendukung banyak tingkat dalam hierarki. |
+| HorizontalOrganizationChart | 64 | Gunakan untuk menampilkan informasi hierarkis secara horizontal atau hubungan pelaporan dalam sebuah organisasi. Bentuk asisten dan tata letak gantung Org Chart tersedia dengan tata letak ini. |
+| HorizontalPictureList | 65 | Gunakan untuk menampilkan informasi yang tidak berurutan atau dikelompokkan dengan penekanan pada gambar terkait. Bentuk di bagian atas dirancang untuk menampung gambar. |
+| IncreasingArrowsProcess | 66 | Gunakan untuk menampilkan langkah berurutan dan tumpang tindih dalam sebuah proses. Dibatasi hingga lima item Level 1. Level 2 dapat berisi teks dalam jumlah besar. |
+| IncreasingCircleProcess | 67 | Gunakan untuk menampilkan serangkaian langkah, dengan interior lingkaran bertambah pada setiap langkah. Dibatasi hingga tujuh langkah Level 1 namun item Level 2 tidak terbatas. Cocok untuk teks Level 2 dalam jumlah besar. |
+| InvertedPyramid | 68 | Gunakan untuk menampilkan hubungan proporsional, saling terkait, atau hierarkis dengan komponen terbesar di atas dan menyempit ke bawah. Teks Level 1 muncul dalam segmen piramida dan teks Level 2 muncul dalam bentuk di samping setiap segmen. |
+| LabeledHierarchy | 69 | Gunakan untuk menampilkan hubungan hierarkis yang berkembang dari atas ke bawah dan dikelompokkan secara hierarkis. Menekankan judul atau teks level 1. Baris pertama teks Level 1 muncul dalam bentuk di awal hierarki, dan semua baris berikutnya dari teks Level 1 muncul di sebelah kiri persegi panjang panjang. |
+| LinearVenn | 70 | Gunakan untuk menampilkan hubungan tumpang tindih dalam urutan. Terbaik hanya dengan teks Level 1. |
+| LinedList | 71 | Gunakan untuk menampilkan teks dalam jumlah besar yang dibagi menjadi kategori dan subkategori. Cocok untuk teks dengan beberapa tingkat. Teks pada tingkat yang sama dipisahkan oleh garis. |
+| MultidirectionalCycle | 72 | Gunakan untuk merepresentasikan urutan berkelanjutan tahap, tugas, atau peristiwa yang dapat terjadi dalam arah apa pun. |
+| NameandTitleOrganizationChart | 73 | Gunakan untuk menampilkan informasi hierarkis atau hubungan pelaporan dalam sebuah organisasi. Untuk memasukkan teks ke dalam kotak judul, ketik langsung pada bentuk persegi panjang yang lebih kecil. Bentuk asisten dan tata letak gantung Org Chart tersedia dengan tata letak ini. |
+| NestedTarget | 74 | Gunakan untuk menampilkan hubungan kontainer. Setiap tiga baris pertama teks Level 1 sesuai dengan teks kiri atas dalam bentuk, dan teks Level 2 sesuai dengan bentuk yang lebih kecil. Terbaik dengan sedikit baris teks Level 2. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| NondirectionalCycle | 75 | Gunakan untuk merepresentasikan urutan berkelanjutan tahap, tugas, atau peristiwa dalam aliran melingkar. Setiap bentuk memiliki tingkat penting yang sama. Cocok ketika arah tidak perlu ditunjukkan. |
+| OpposingArrows | 76 | Gunakan untuk menampilkan dua ide yang berlawanan, atau ide yang menyebar dari titik pusat. Setiap dua baris pertama teks Level 1 sesuai dengan sebuah panah. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| OpposingIdeas | 77 | Gunakan untuk menampilkan dua ide yang berlawanan atau kontras. Dapat memiliki satu atau dua item Level 1. Setiap teks Level 1 dapat berisi banyak sub-tingkat. Cocok untuk teks dalam jumlah besar. |
+| OrganizationChart | 78 | Gunakan untuk menampilkan informasi hierarkis atau hubungan pelaporan dalam sebuah organisasi. Bentuk asisten dan tata letak gantung Org Chart tersedia dengan tata letak ini. |
+| PhasedProcess | 79 | Gunakan untuk menampilkan tiga fase proses. Dibatasi hingga tiga item Level 1. Dua item Level 1 pertama masing-masing dapat berisi empat item Level 2, dan item Level 1 ketiga dapat berisi jumlah tak terbatas item Level 2. Terbaik untuk teks dalam jumlah kecil. |
+| PictureAccentBlocks | 80 | Gunakan untuk menampilkan sekumpulan gambar dalam blok yang dimulai dari sudut. Teks yang sesuai ditampilkan secara vertikal. Cocok sebagai aksen pada slide judul atau sub-judul atau untuk pemisah bagian dokumen. |
+| PictureAccentList | 81 | Gunakan untuk menampilkan informasi yang dikelompokkan atau terkait. Bentuk kecil di sudut atas dirancang untuk menampung gambar. Menekankan teks Level 2 dibandingkan teks Level 1, dan merupakan pilihan bagus untuk teks Level 2 dalam jumlah besar. |
+| PictureAccentProcess | 82 | Gunakan untuk menampilkan langkah berurutan dalam tugas, proses, atau alur kerja. Bentuk persegi panjang di latar belakang dirancang untuk menampung gambar. |
+| PictureCaptionList | 83 | Gunakan untuk menampilkan blok informasi yang tidak berurutan atau dikelompokkan. Bentuk di bagian atas dirancang untuk menampung gambar dan gambar ditekankan dibandingkan teks. Cocok untuk gambar dengan caption teks singkat. |
+| PictureGrid | 84 | Gunakan untuk menampilkan gambar yang disusun dalam grid persegi. Terbaik dengan sedikit teks Level 1 yang muncul di atas gambar. |
+| PictureLineup | 85 | Gunakan untuk menampilkan serangkaian gambar bersebelahan. Teks Level 1 menutupi bagian atas gambar. Teks Level 2 muncul di bawah gambar. |
+| PictureStrips | 86 | Gunakan untuk menampilkan serangkaian gambar dari atas ke bawah dengan teks Level 1 di samping masing-masing. |
+| PieProcess | 87 | Gunakan untuk menampilkan langkah dalam proses dengan setiap irisan pai meningkat dalam ukuran hingga tujuh bentuk. Teks Level 1 ditampilkan secara vertikal. |
+| PlusandMinus | 88 | Gunakan untuk menampilkan kelebihan dan kekurangan dua ide. Setiap teks Level 1 dapat berisi banyak sub-tingkat. Cocok untuk teks dalam jumlah besar. Dibatasi hingga dua item Level 1. |
+| ProcessArrows | 89 | Gunakan untuk menampilkan informasi yang menggambarkan proses atau alur kerja. Teks Level 1 muncul dalam bentuk melingkar dan teks Level 2 muncul dalam bentuk panah. Terbaik untuk teks minimal dan menekankan gerakan atau arah. |
+| ProcessList | 90 | Gunakan untuk menampilkan beberapa grup informasi atau langkah dan sub-langkah dalam tugas, proses, atau alur kerja. Teks Level 1 sesuai dengan bentuk horizontal atas, dan teks Level 2 sesuai dengan sub-langkah vertikal di bawah setiap bentuk tingkat atas yang terkait. |
+| PyramidList | 91 | Gunakan untuk menampilkan hubungan proporsional, saling terkait, atau hierarkis. Teks muncul dalam bentuk persegi panjang di atas latar belakang piramida. |
+| RadialCluster | 92 | Gunakan untuk menampilkan data yang berhubungan dengan ide atau tema pusat. Teks Level 1 atas muncul di tengah. Teks Level 2 muncul dalam bentuk di sekeliling. Dapat berisi hingga tujuh bentuk Level 2. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. Terbaik dengan sedikit teks. |
+| RadialCycle | 93 | Gunakan untuk menampilkan hubungan ke ide pusat. Menekankan baik informasi dalam lingkaran pusat maupun bagaimana informasi dalam cincin lingkaran luar berkontribusi pada ide pusat. Baris pertama teks Level 1 sesuai dengan lingkaran pusat, dan teks Level 2-nya sesuai dengan cincin lingkaran luar. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| RadialList | 94 | Gunakan untuk menampilkan hubungan ke ide pusat dalam siklus. Bentuk tengah dapat berisi gambar. Teks Level 1 muncul dalam lingkaran kecil dan teks Level 2 yang terkait muncul di samping lingkaran kecil. |
+| RadialVenn | 95 | Gunakan untuk menampilkan baik hubungan tumpang tindih maupun hubungan ke ide pusat dalam siklus. Baris pertama teks Level 1 sesuai dengan bentuk pusat dan baris teks Level 2 sesuai dengan bentuk lingkaran di sekeliling. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| RandomToResultProcess | 96 | Gunakan untuk menampilkan, melalui serangkaian langkah, bagaimana beberapa ide kacau dapat menghasilkan tujuan atau ide yang terpadu. Mendukung banyak item teks Level 1, namun bentuk Level 1 pertama dan terakhir yang sesuai bersifat tetap. Terbaik dengan sedikit teks Level 1 dan teks Level 2 sedang. |
+| RepeatingBendingProcess | 97 | Gunakan untuk menampilkan progresi atau langkah berurutan dalam tugas, proses, atau alur kerja. Mengoptimalkan ruang tampilan horizontal dan vertikal untuk bentuk. |
+| ReverseList | 98 | Gunakan untuk beralih antara dua item. Hanya dua item teks pertama yang ditampilkan, dan setiap item dapat berisi teks dalam jumlah besar. Cocok untuk menampilkan perubahan antara dua item atau pergeseran urutan. |
+| SegmentedCycle | 99 | Gunakan untuk menampilkan progresi atau urutan tahap, tugas, atau peristiwa dalam aliran melingkar. Menekankan bagian yang saling terkait. Setiap tujuh baris pertama teks Level 1 sesuai dengan irisan atau bentuk pai. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| SegmentedProcess | 100 | Gunakan untuk menampilkan progresi atau langkah berurutan dalam tugas, proses, atau alur kerja. Menekankan teks Level 2, karena setiap baris muncul dalam bentuk terpisah. |
+| SegmentedPyramid | 101 | Gunakan untuk menampilkan hubungan kontainer, proporsional, atau saling terkait. Sembilan baris pertama teks Level 1 muncul dalam bentuk segitiga. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. Terbaik hanya dengan teks Level 1. |
+| SnapshotPictureList | 102 | Gunakan untuk menampilkan gambar dengan teks penjelas. Teks Level 2 dapat menampilkan daftar informasi. Cocok dengan teks dalam jumlah besar. |
+| SpiralPicture | 103 | Gunakan untuk menampilkan serangkaian hingga lima gambar dengan caption Level 1 yang berspiral menuju pusat. |
+| SquareAccentList | 104 | Gunakan untuk menampilkan daftar informasi yang dibagi menjadi kategori. Teks Level 2 muncul di samping bentuk kotak kecil. Cocok untuk teks Level 2 dalam jumlah besar. |
+| StackedList | 105 | Gunakan untuk menampilkan grup informasi atau langkah dalam tugas, proses, atau alur kerja. Bentuk melingkar berisi teks Level 1, dan persegi panjang yang bersesuaian berisi teks Level 2. Cocok untuk banyak detail dan teks Level 1 minimal. |
+| StackedVenn | 106 | Gunakan untuk menampilkan hubungan tumpang tindih. Pilihan yang baik untuk menekankan pertumbuhan atau gradasi. Terbaik hanya dengan teks Level 1. Tujuh baris pertama teks Level 1 sesuai dengan bentuk melingkar. Teks yang tidak digunakan tidak muncul, tetapi tetap tersedia jika Anda beralih tata letak. |
+| StaggeredProcess | 107 | Gunakan untuk menampilkan progres ke bawah melalui tahap-tahap. Setiap dari lima baris pertama teks Level 1 sesuai dengan sebuah persegi panjang. Teks yang tidak terpakai tidak ditampilkan, tetapi tetap tersedia jika Anda mengubah tata letak. |
+| StepDownProcess | 108 | Gunakan untuk menampilkan proses turun dengan beberapa langkah dan sub-langkah. Bekerja paling baik dengan teks dalam jumlah sedikit. |
+| StepUpProcess | 109 | Gunakan untuk menampilkan serangkaian langkah naik atau daftar informasi. |
+| SubStepProcess | 110 | Gunakan untuk menampilkan proses multi-langkah dengan sub-langkah di antara setiap contoh teks Level 1. Bekerja paling baik dengan teks dalam jumlah sedikit dan terbatas pada tujuh langkah Level 1. Setiap langkah Level 1 dapat memiliki sub-langkah tak terbatas. |
+| TableHierarchy | 111 | Gunakan untuk menampilkan kelompok informasi yang dibangun dari atas ke bawah, serta hierarki dalam setiap kelompok. Tata letak ini tidak berisi garis penghubung. |
+| TableList | 112 | Gunakan untuk menampilkan informasi yang dikelompokkan atau terkait dengan nilai yang sama. Baris pertama teks Level 1 sesuai dengan bentuk atas dan teks Level 2-nya digunakan untuk daftar berikutnya. |
+| TargetList | 113 | Gunakan untuk menampilkan informasi yang saling terkait atau tumpang tindih. Setiap dari tujuh baris pertama teks Level 1 muncul dalam bentuk persegi panjang. Teks yang tidak terpakai tidak ditampilkan, tetapi tetap tersedia jika Anda mengubah tata letak. Bekerja baik dengan teks Level 1 maupun Level 2. |
+| TextCycle | 114 | Gunakan untuk merepresentasikan urutan berkelanjutan dari tahap, tugas, atau acara dalam alur melingkar. Menekankan panah atau aliran daripada tahap atau langkah. Bekerja paling baik hanya dengan teks Level 1. |
+| TitlePictureLineup | 115 | Gunakan untuk menampilkan rangkaian gambar yang masing-masing memiliki judul dan deskripsi sendiri. Teks Level 1 muncul di kotak di atas gambar. Teks Level 2 muncul di bawah gambar. |
+| TitledMatrix | 116 | Gunakan untuk menampilkan hubungan empat kuadran dengan keseluruhan. Baris pertama teks Level 1 sesuai dengan bentuk pusat, dan empat baris pertama teks Level 2 muncul di kuadran. Teks yang tidak terpakai tidak ditampilkan, tetapi tetap tersedia jika Anda mengubah tata letak. |
+| TitledPictureAccentList | 117 | Gunakan untuk menampilkan daftar informasi dengan gambar aksen untuk setiap teks Level 2. Teks Level 1 ditampilkan dalam kotak terpisah di bagian atas daftar. |
+| TitledPictureBlocks | 118 | Gunakan untuk menampilkan rangkaian gambar. Teks Level 1 muncul di atas setiap gambar. Teks Level 2 muncul di samping dan sedikit tumpang tindih setiap gambar. |
+| TrapezoidList | 119 | Gunakan untuk menampilkan informasi yang dikelompokkan atau terkait dengan nilai yang sama. Bekerja baik dengan teks dalam jumlah besar. |
+| UpwardArrow | 120 | Gunakan untuk menampilkan progres atau langkah yang mengarah ke atas dalam tugas, proses, atau alur kerja. Setiap dari lima baris pertama teks Level 1 sesuai dengan titik pada panah. Bekerja paling baik dengan teks minimal. Teks yang tidak terpakai tidak ditampilkan, tetapi tetap tersedia jika Anda mengubah tata letak. |
+| VerticalAccentList | 121 | Gunakan untuk menampilkan daftar informasi. Teks Level 2 muncul dalam bentuk persegi panjang di atas chevron vertikal. Menekankan teks Level 2 dibandingkan teks Level 1, dan merupakan pilihan yang baik untuk teks Level 2 dalam jumlah sedang. |
+| VerticalArrowList | 122 | Gunakan untuk menampilkan progres atau langkah berurutan dalam tugas, proses, atau alur kerja yang bergerak menuju tujuan bersama. Bekerja baik untuk daftar berpoin informasi. |
+| VerticalBendingProcess | 123 | Gunakan untuk menampilkan progres atau langkah berurutan dalam tugas, proses, atau alur kerja. Memaksimalkan ruang tampilan horizontal dan vertikal untuk bentuk. Menekankan hubungan antar bentuk lebih daripada arah atau gerakan. |
+| VerticalBlockList | 124 | Gunakan untuk menampilkan grup informasi atau langkah dalam tugas, proses, atau alur kerja. Bekerja baik dengan teks Level 2 dalam jumlah besar. Pilihan yang baik untuk teks dengan poin utama dan beberapa sub-poin. |
+| VerticalBoxList | 125 | Gunakan untuk menampilkan beberapa grup informasi, khususnya grup dengan teks Level 2 dalam jumlah besar. Pilihan yang baik untuk daftar berpoin informasi. |
+| VerticalBulletList | 126 | Gunakan untuk menampilkan blok informasi non-sekuensial atau dikelompokkan. Bekerja baik untuk daftar dengan judul panjang atau informasi tingkat atas. |
+| VerticalChevronList | 127 | Gunakan untuk menampilkan progres atau langkah berurutan dalam tugas, proses, atau alur kerja, atau untuk menekankan gerakan atau arah. Menekankan teks Level 2 dibandingkan teks Level 1, dan merupakan pilihan yang baik untuk teks Level 2 dalam jumlah besar. |
+| VerticalCircleList | 128 | Gunakan untuk menampilkan data berurutan atau dikelompokkan. Bekerja paling baik untuk teks Level 1, yang ditampilkan di samping bentuk lingkaran besar. Tingkat teks yang lebih rendah dipisahkan dengan bentuk lingkaran yang lebih kecil. |
+| VerticalCurvedList | 129 | Gunakan untuk menampilkan daftar melengkung informasi. Untuk menambahkan gambar ke bentuk lingkaran aksen, terapkan isian gambar. |
+| VerticalEquation | 130 | Gunakan untuk menampilkan langkah berurutan atau tugas yang menggambarkan rencana atau hasil. Baris terakhir teks Level 1 muncul setelah panah. Bekerja paling baik hanya dengan teks Level 1. |
+| VerticalPictureAccentList | 131 | Gunakan untuk menampilkan blok informasi non-sekuensial atau dikelompokkan. Lingkaran kecil dirancang untuk menampung gambar. |
+| VerticalPictureList | 132 | Gunakan untuk menampilkan blok informasi non-sekuensial atau dikelompokkan. Bentuk kecil di sebelah kiri dirancang untuk menampung gambar. |
+| VerticalProcess | 133 | Gunakan untuk menampilkan progres atau langkah berurutan dalam tugas, proses, atau alur kerja dari atas ke bawah. Bekerja paling baik dengan teks Level 1, karena ruang vertikal terbatas. |
+| Custom | 134 | Mewakili diagram [SmartArt](../smartart/) dengan templat tata letak khusus |
+| PictureOrganizationChart | 135 | Gunakan untuk menampilkan informasi hierarki atau hubungan pelaporan dalam organisasi, dengan gambar yang sesuai. Bentuk asisten dan tata letak Org Chart gantung tersedia dengan tata letak ini. |
+
+## Lihat Juga
+
+* Ruang Nama [Aspose::Slides::SmartArt](../)
+* Perpustakaan [Aspose.Slides](../../)

@@ -1,0 +1,21 @@
+---
+title: const_iterator
+second_title: Aspose.Slides for C++ एपीआई संदर्भ
+description: कॉन्स्ट इटररेटर प्रकार।
+type: docs
+weight: 209
+url: /hi/aspose.slides.smartart/smartartshapecollection/const_iterator/
+---
+## const_iterator typedef
+
+कॉन्स्ट इटररेटर प्रकार।
+
+```cpp
+using Aspose::Slides::SmartArt::SmartArtShapeCollection::const_iterator =  typename iterator_holder_type::const_iterator
+```
+
+## संबंधित देखें
+
+* क्लास [SmartArtShapeCollection](../)
+* नेमस्पेस [Aspose::Slides::SmartArt](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

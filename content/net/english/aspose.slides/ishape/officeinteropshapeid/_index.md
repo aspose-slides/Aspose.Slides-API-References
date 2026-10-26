@@ -1,7 +1,7 @@
 ---
 title: OfficeInteropShapeId
 second_title: Aspose.Sildes for .NET API Reference
-description: Gets unique shape identifier in slide scope. Read-only UInt32. See also UniqueIdaspose.slides/ishape/uniqueid for getting unique shape identifier in presentation scope.
+description: Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only UInt32. See also UniqueIdaspose.slides/ishape/uniqueid.
 type: docs
 weight: 180
 url: /aspose.slides/ishape/officeinteropshapeid/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishape/officeinteropshapeid/
 
 ## IShape.OfficeInteropShapeId property
 
-Gets unique shape identifier in slide scope. Read-only UInt32. See also [`UniqueId`](../uniqueid) for getting unique shape identifier in presentation scope.
+Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only UInt32. See also [`UniqueId`](../uniqueid).
 
 ```csharp
 public uint OfficeInteropShapeId { get; }

@@ -1,15 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes for .NET API Reference
-description: 通过COM接口创建演示文稿
+second_title: Aspose.Sildes .NET API 参考
+description: 允许通过 COM 接口创建演示文稿
 type: docs
-weight: 9330
+weight: 9600
 url: /zh/aspose.slides/presentationfactory/
 ---
+## PresentationFactory 类
 
-## PresentationFactory class
-
-通过COM接口创建演示文稿
+允许通过 COM 接口创建演示文稿
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -25,25 +24,25 @@ public class PresentationFactory : IPresentationFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | 演示文稿工厂静态实例。 只读 [`PresentationFactory`](../presentationfactory)。 |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | PresentationFactory 静态实例。只读 [`PresentationFactory`](../presentationfactory)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | 创建新演示文稿。 |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 使用附加加载选项创建新演示文稿 |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 从流创建新的 PresentationInfo 对象并将演示文稿绑定到它。 获取指定流中演示文稿的信息。 |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 从文件创建新的 PresentationInfo 对象并将演示文稿绑定到它。 |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 从幻灯片中检索原始文本 |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 从幻灯片中检索原始文本 |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 从幻灯片中检索原始文本 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | 从字节数组读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | 从流读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | 从文件读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 使用附加加载选项从字节数组读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 使用附加加载选项从流读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 使用附加加载选项从文件读取现有演示文稿 |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | 创建新的演示文稿。 |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 使用额外的加载选项创建新的演示文稿 |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 从流创建 PresentationInfo 对象并将演示文稿绑定到该对象。获取指定流中演示文稿的信息。 |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 从文件创建 PresentationInfo 对象并将演示文稿绑定到该对象。 |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 从幻灯片检索原始文本 |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 从幻灯片检索原始文本 |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 从幻灯片检索原始文本 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | 从数组读取已有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | 从流读取已有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | 从文件读取已有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 使用额外的加载选项从数组读取已有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 使用额外的加载选项从流读取已有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 使用额外的加载选项从流读取已有演示文稿 |
 
 ### 示例
 
@@ -68,7 +67,7 @@ IDocumentProperties props = info.ReadDocumentProperties();
 Console.WriteLine(props.CreatedTime);
 Console.WriteLine(props.Subject);
 Console.WriteLine(props.Title);
-// ..
+// …
 ```
 
 以下示例演示如何更新演示文稿的属性。
@@ -81,10 +80,10 @@ props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### 另请参阅
+### 另请参见
 
-* interface [IPresentationFactory](../ipresentationfactory)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* 接口 [IPresentationFactory](../ipresentationfactory)
+* 命名空间 [Aspose.Slides](../../aspose.slides)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

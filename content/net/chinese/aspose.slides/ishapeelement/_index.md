@@ -1,12 +1,11 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes .NET API 参考
 description: 表示具有相同轮廓和填充属性的形状的一部分。
 type: docs
-weight: 6770
+weight: 6990
 url: /zh/aspose.slides/ishapeelement/
 ---
-
 ## IShapeElement 接口
 
 表示具有相同轮廓和填充属性的形状的一部分。
@@ -15,7 +14,7 @@ url: /zh/aspose.slides/ishapeelement/
 public interface IShapeElement
 ```
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

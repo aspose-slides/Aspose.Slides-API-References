@@ -24,7 +24,7 @@ url: /aspose.slides/rowcollection/
 | templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
- **Result:**
+ **Returns:**
 [Row](../row)
 
 
@@ -37,7 +37,7 @@ url: /aspose.slides/rowcollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -50,7 +50,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the row at the specified index. Read-only Row. |
 
- **Result:**
+ **Returns:**
 [Row](../row)
 
 
@@ -71,7 +71,7 @@ Object
 | templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
- **Result:**
+ **Returns:**
 [Row](../row)
 
 
@@ -84,7 +84,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -97,7 +97,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -110,7 +110,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of rows actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

@@ -1,0 +1,24 @@
+---
+title: get_InkOptions()
+second_title: Aspose.Slides för C++ API-referens
+description: Tillhandahåller alternativ som styr utseendet på Ink-objekt i exporterat dokument. Skrivskyddad IInkOptions
+type: docs
+weight: 443
+url: /sv/aspose.slides.export/ipdfoptions/get_inkoptions/
+---
+## IPdfOptions::get_InkOptions() metod
+
+
+Tillhandahåller alternativ som styr utseendet på [Ink](../../../aspose.slides.ink/)-objekt i exporterat dokument. Skrivskyddad [IInkOptions](../../iinkoptions/)
+
+```cpp
+virtual System::SharedPtr<IInkOptions> Aspose::Slides::Export::IPdfOptions::get_InkOptions()=0
+```
+
+## Se även
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klass [IInkOptions](../../iinkoptions/)
+* Klass [IPdfOptions](../)
+* Namnrymd [Aspose::Slides::Export](../../)
+* Bibliotek [Aspose.Slides](../../../)

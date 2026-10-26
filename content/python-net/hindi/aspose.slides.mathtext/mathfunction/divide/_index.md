@@ -1,0 +1,94 @@
+---
+title: divide method
+second_title: Aspose.Slides के लिये Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/mathfunction/divide/
+weight: 40
+---
+## divide(self, denominator) {#imathelement}
+इस अंशांक को लेकर और निर्दिष्ट हर के साथ एक भिन्न बनाता है
+
+### Returns
+नया भिन्न
+
+
+
+```python
+def divide(self, denominator):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| denominator | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) | हर |
+
+
+## divide(self, denominator) {#str}
+इस अंशांक को लेकर और निर्दिष्ट हर के साथ एक भिन्न बनाता है
+
+### Returns
+नया भिन्न
+
+
+
+```python
+def divide(self, denominator):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| denominator | **str** | हर |
+
+
+## divide(self, denominator, fraction_type) {#imathelement-mathfractiontypes}
+निर्दिष्ट प्रकार के साथ इस अंशांक को लेकर और निर्दिष्ट हर के साथ एक भिन्न बनाता है
+
+### Returns
+नया भिन्न
+
+
+
+```python
+def divide(self, denominator, fraction_type):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| denominator | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) | हर |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathfractiontypes) | भिन्न प्रकार: Bar, NoBar, Skewed, Linear |
+
+
+## divide(self, denominator, fraction_type) {#str-mathfractiontypes}
+निर्दिष्ट प्रकार के साथ इस अंशांक को लेकर और निर्दिष्ट हर के साथ एक भिन्न बनाता है
+
+### Returns
+नया भिन्न
+
+
+
+```python
+def divide(self, denominator, fraction_type):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| denominator | **str** | हर |
+| fraction_type | [`MathFractionTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathfractiontypes) | भिन्न प्रकार: Bar, NoBar, Skewed, Linear |
+
+
+
+### देखें
+* क्लास [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement)
+* क्लास [`IMathFraction`](/slides/python-net/hi/aspose.slides.mathtext/imathfraction)
+* enumeration [`MathFractionTypes`](/slides/python-net/hi/aspose.slides.mathtext/mathfractiontypes)
+* क्लास [`MathFunction`](/slides/python-net/hi/aspose.slides.mathtext/mathfunction)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

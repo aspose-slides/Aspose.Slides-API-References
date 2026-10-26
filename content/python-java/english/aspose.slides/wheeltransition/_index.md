@@ -17,7 +17,7 @@ url: /aspose.slides/wheeltransition/
 | --- | --- |
 | getSpokes() | Number spokes of wheel transition. Read/write long. |
 
- **Result:**
+ **Returns:**
 long
 
 

@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes the first occurrence of a specific object from the ICollection.
 type: docs
-weight: 260
+weight: 270
 url: /aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
 

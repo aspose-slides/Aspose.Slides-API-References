@@ -17,7 +17,7 @@ url: /aspose.slides/textinheritancelimit/
 | Name | Value | Description |
 | --- | --- | --- |
 [All](#All) | 0 | Inherit all text properties. |
-[TextBox](#TextBox) | 1 | Inherit only from TextFrameEx's style. |
+[TextBox](#TextBox) | 1 | Inherit only from TextFrame's style. |
 [ParagraphOnly](#ParagraphOnly) | 2 | Use only properties defined for paragraph. |
 
 
@@ -30,7 +30,7 @@ Inherit all text properties.
 ---
 
 ### TextBox {#TextBox}
-Inherit only from TextFrameEx's style.
+Inherit only from TextFrame's style.
 
 ---
 

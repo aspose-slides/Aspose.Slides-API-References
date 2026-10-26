@@ -6,9 +6,9 @@ type: docs
 url: /com.aspose.slides/ilegend/
 ---
 **All Implemented Interfaces:**
-[com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IFormattedTextContainer](../../com.aspose.slides/iformattedtextcontainer)
+[com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IFormattedTextContainer](../../com.aspose.slides/iformattedtextcontainer), [com.aspose.slides.IActualLayout](../../com.aspose.slides/iactuallayout)
 ```
-public interface ILegend extends ILayoutable, IFormattedTextContainer
+public interface ILegend extends ILayoutable, IFormattedTextContainer, IActualLayout
 ```
 
 Represents chart's legend properties.

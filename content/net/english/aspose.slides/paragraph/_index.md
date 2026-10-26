@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 9010
+weight: 9280
 url: /aspose.slides/paragraph/
 ---
 
@@ -35,6 +35,8 @@ public sealed class Paragraph : IParagraph
 
 | Name | Description |
 | --- | --- |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Returns an image of the paragraph. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Returns an image of the paragraph with the specified scale. |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Get number of lines in a paragraph. |
 | [GetRect](../../aspose.slides/paragraph/getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Joins runs with same formatting. |

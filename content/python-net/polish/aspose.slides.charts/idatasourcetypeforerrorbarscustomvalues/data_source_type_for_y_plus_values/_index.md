@@ -1,0 +1,28 @@
+---
+title: data_source_type_for_y_plus_values property
+second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
+description: 
+type: docs
+url: /pl/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/data_source_type_for_y_plus_values/
+weight: 40
+---
+## data_source_type_for_y_plus_values właściwość
+Określa, czy AsCell lub AsLiteralString lub AsLiteralDouble właściwość jest aktualna w obiekcie YPlus właściwość punktów danych dla niestandardowych wartości pasków błędów. Inaczej mówiąc określa typ wartości właściwości ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Odczyt/zapis [`DataSourceType`](/slides/python-net/pl/aspose.slides.charts/datasourcetype).
+
+### Definicja:
+```python
+@property
+def data_source_type_for_y_plus_values(self):
+    ...
+
+@data_source_type_for_y_plus_values.setter
+def data_source_type_for_y_plus_values(self, value):
+    ...
+```
+
+
+### Zobacz także
+* wyliczenie [`DataSourceType`](/slides/python-net/pl/aspose.slides.charts/datasourcetype)
+* klasa [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/pl/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues)
+* moduł [`aspose.slides.charts`](/slides/python-net/pl/aspose.slides.charts)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

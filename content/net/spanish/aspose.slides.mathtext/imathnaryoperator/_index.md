@@ -1,29 +1,28 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes para .NET API Reference
-description: Especifica un objeto matemático N-ario, como la Suma y la Integral. Consiste en un operador, una base o operando, y límites superior e inferior opcionales. Ejemplos de operadores N-arios son Suma, Unión, Intersección, Integral
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Especifica un objeto matemático N-ario como Summation e Integral. Consiste en un operador, una base o operando y límites superiores e inferiores opcionales. Ejemplos de operadores N-arios son Summation, Union, Intersection e Integral
 type: docs
-weight: 8110
+weight: 8360
 url: /es/aspose.slides.mathtext/imathnaryoperator/
 ---
+## IMathNaryOperator interfaz
 
-## IMathNaryOperator interface
-
-Especifica un objeto matemático N-ario, como la Suma y la Integral. Consiste en un operador, una base (o operando), y límites superior e inferior opcionales. Ejemplos de operadores N-arios son: Suma, Unión, Intersección, Integral
+Especifica un objeto matemático N-ario, como Summation e Integral. Consiste en un operador, una base (u operando) y límites superiores e inferiores opcionales. Ejemplos de operadores N-arios son: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 ```
 
-## Properties
+## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Permite obtener la interfaz base IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
-| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Argumento base |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral, establece el límite inferior |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Especifica un argumento de superíndice que, por ejemplo, en el caso de una integral, establece el límite superior |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Permite obtener la interfaz base IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Argumento base |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral, establece el límite inferior |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Especifica un argumento de superíndice que, por ejemplo, en el caso de una integral, establece el límite superior |
 
 ### Ejemplos
 
@@ -34,7 +33,7 @@ Ejemplo:
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IMathElement](../imathelement)
 * interfaz [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

@@ -1,15 +1,14 @@
 ---
 title: ColorFormat
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa un color utilizado en una presentación.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un color usado en una presentación.
 type: docs
-weight: 2430
+weight: 2520
 url: /es/aspose.slides/colorformat/
 ---
-
 ## Clase ColorFormat
 
-Representa un color utilizado en una presentación.
+Representa un color usado en una presentación.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -19,37 +18,37 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Devuelve o establece el componente azul de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece colores RGB y elimina todas las transformaciones de color. Lectura/escritura Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Devuelve la colección de transformaciones de color aplicadas a un color. Solo lectura [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Devuelve o establece el método de definición del color. Lectura/escritura [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Devuelve o establece el componente azul de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Devuelve o establece el componente verde de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | Devuelve o establece el componente verde de un color. Se ignoran todas las transformaciones de color. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Devuelve o establece el componente de matiz de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Devuelve o establece el componente de luminancia de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Devuelve o establece el preset de color. Lectura/escritura [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Devuelve o establece el componente de saturación de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Devuelve o establece el color identificado por un esquema de color. Lectura/escritura [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Devuelve o establece el color identificado por la tabla de colores del sistema. Lectura/escritura [`SystemColor`](../systemcolor). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Devuelve o establece el componente azul de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece los colores RGB y elimina todas las transformaciones de color. Lectura/escritura Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Devuelve la colección de transformaciones de color aplicadas a un color. Solo lectura [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Devuelve o establece el método de definición de color. Lectura/escritura [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Devuelve o establece el componente azul de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Devuelve o establece el componente verde de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Devuelve o establece el componente rojo de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | Devuelve o establece el componente verde de un color. Todas las transformaciones de color se ignoran. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Devuelve o establece el componente matiz de un color en representación HSL. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Devuelve o establece el componente luminancia de un color en representación HSL. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Devuelve o establece el preset de color. Lectura/escritura [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Devuelve o establece el componente rojo de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Devuelve o establece el componente saturación de un color en representación HSL. Todas las transformaciones de color se ignoran. Lectura/escritura Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Devuelve o establece el color identificado por un esquema de color. Lectura/escritura [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Devuelve o establece el color identificado por la tabla de colores del sistema. Lectura/escritura [`SystemColor`](../systemcolor). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Copia el formato de color de "color". |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | Verifica la igualdad con el objeto especificado. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Devuelve el código hash. |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Copia el formato de color desde "color". |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | Verifica la igualdad con el objeto especificado. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Devuelve el código hash. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Devuelve una cadena que representa el formato de color actual. |
 
 ### Ver también
 
-* clase [PVIObject](../pviobject)
-* interfaz [IColorFormat](../icolorformat)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* clase [PVIObject](../pviobject)
+* interfaz [IColorFormat](../icolorformat)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

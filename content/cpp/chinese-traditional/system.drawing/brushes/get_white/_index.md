@@ -1,0 +1,24 @@
+---
+title: get_White()
+second_title: Aspose.Slides for C++ API 參考手冊
+description: 傳回十六進位值為 #FFFFFFFF 的純色填充顏色。
+type: docs
+weight: 1782
+url: /zh-hant/system.drawing/brushes/get_white/
+---
+## Brushes::get_White() 方法
+
+
+返回十六進位值為 #FFFFFFFF 的純色填充顏色。
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_White()
+```
+
+## 參見
+
+* 類型別名 [SharedPtr](../../../system/sharedptr/)
+* 類別 [Brush](../../brush/)
+* 類別 [Brushes](../)
+* 命名空間 [System::Drawing](../../)
+* 函式庫 [Aspose.Slides](../../../)

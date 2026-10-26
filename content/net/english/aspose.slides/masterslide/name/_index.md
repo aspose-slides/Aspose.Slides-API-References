@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the name of a master slide. Read/write String.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides/masterslide/name/
 ---
 

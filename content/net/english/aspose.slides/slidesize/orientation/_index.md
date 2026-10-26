@@ -1,7 +1,7 @@
 ---
 title: Orientation
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the slide orientation. Changing this value will swap slides dimensions. Read/write SlideOrientationaspose.slides/slideorientation.
+description: Gets or sets the slide orientation.
 type: docs
 weight: 10
 url: /aspose.slides/slidesize/orientation/
@@ -9,11 +9,15 @@ url: /aspose.slides/slidesize/orientation/
 
 ## SlideSize.Orientation property
 
-Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../../slideorientation).
+Gets or sets the slide orientation.
 
 ```csharp
 public SlideOrientation Orientation { get; set; }
 ```
+
+### Remarks
+
+Changing this value swaps the slide’s width and height.
 
 ### See Also
 

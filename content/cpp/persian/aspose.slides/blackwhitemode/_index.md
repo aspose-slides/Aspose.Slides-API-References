@@ -1,0 +1,37 @@
+---
+title: BlackWhiteMode
+second_title: مرجع API Aspose.Slides برای C++
+description: تعیین می‌کند شکل رنگی چگونه به سیاه و سفید تبدیل شود.
+type: docs
+weight: 5682
+url: /fa/aspose.slides/blackwhitemode/
+---
+## BlackWhiteMode enum
+
+تعیین می‌کند شکل رنگی چگونه به سیاه و سفید تبدیل شود.
+
+```cpp
+enum class BlackWhiteMode : int8_t
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 | ویژگی تنظیم نشده است |
+| Color | 0 | شی با رنگ‌بندی معمولی رندر می‌شود |
+| Automatic | 1 | شی با رنگ‌بندی خودکار رندر می‌شود |
+| Gray | 2 | شی با رنگ‌بندی خاکستری رندر می‌شود |
+| LightGray | 3 | شی با رنگ‌بندی خاکستری روشن رندر می‌شود |
+| InverseGray | 4 | شی با رنگ‌بندی خاکستری معکوس رندر می‌شود |
+| GrayWhite | 5 | شی با رنگ‌بندی خاکستری و سفید رندر می‌شود |
+| BlackGray | 6 | شی با رنگ‌بندی سیاه و خاکستری رندر می‌شود |
+| BlackWhite | 7 | شی با رنگ‌بندی سیاه و سفید رندر می‌شود |
+| Black | 8 | شی فقط با رنگ سیاه رندر می‌شود |
+| White | 9 | شی با رنگ سفید رندر می‌شود |
+| Hidden | 10 | شی رندر نمی‌شود |
+
+## See Also
+
+* فضای نام [Aspose::Slides](../)
+* کتابخانه [Aspose.Slides](../../)

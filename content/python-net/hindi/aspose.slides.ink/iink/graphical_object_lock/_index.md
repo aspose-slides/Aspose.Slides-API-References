@@ -1,0 +1,21 @@
+---
+title: graphical_object_lock property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.ink/iink/graphical_object_lock/
+weight: 190
+---
+## graphical_object_lock गुण
+### परिभाषा:
+```python
+@property
+def graphical_object_lock(self):
+    ...
+```
+
+
+### संबंधित देखें
+* वर्ग [`IInk`](/slides/python-net/hi/aspose.slides.ink/iink)
+* मॉड्यूल [`aspose.slides.ink`](/slides/python-net/hi/aspose.slides.ink)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

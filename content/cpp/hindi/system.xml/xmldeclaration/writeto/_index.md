@@ -1,0 +1,31 @@
+---
+title: WriteTo()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्दिष्ट XmlWriter में नोड को सहेजता है।
+type: docs
+weight: 170
+url: /hi/system.xml/xmldeclaration/writeto/
+---
+## XmlDeclaration::WriteTo(const SharedPtr\<XmlWriter\>\&) विधि
+
+
+नोड को निर्दिष्ट [XmlWriter](../../xmlwriter/) में सहेजता है।
+
+```cpp
+void System::Xml::XmlDeclaration::WriteTo(const SharedPtr<XmlWriter> &w) override
+```
+
+
+### आर्ग्यूमेंट्स
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | वह [XmlWriter](../../xmlwriter/) जिसमें आप सहेजना चाहते हैं। |
+
+## संबंधित देखें
+
+* टाइपडिफ [SharedPtr](../../../system/sharedptr/)
+* क्लास [XmlWriter](../../xmlwriter/)
+* क्लास [XmlDeclaration](../)
+* नेमस्पेस [System::Xml](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

@@ -17,21 +17,8 @@ url: /aspose.slides/xpsoptions/
 | --- | --- |
 | XpsOptions() | Default constructor. |
 
- **Result:**
+ **Returns:**
 XpsOptions
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
-String
 
 
 ---
@@ -43,21 +30,8 @@ String
 | --- | --- |
 | getDrawSlidesFrame() | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
 
 
 ---
@@ -69,7 +43,7 @@ IProgressCallback
 | --- | --- |
 | getSaveMetafilesAsPng() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,31 +56,8 @@ boolean
 | --- | --- |
 | getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -117,16 +68,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setDrawSlidesFrame(boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
-
-
----
-
-
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
 
 
 ---
@@ -147,16 +88,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

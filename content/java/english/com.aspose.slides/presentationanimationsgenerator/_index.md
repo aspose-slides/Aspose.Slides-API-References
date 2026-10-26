@@ -76,7 +76,7 @@ Creates a new instance of the [PresentationAnimationsGenerator](../../com.aspose
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presentation | [Presentation](../../com.aspose.slides/presentation) | The frame size will be set with accordance to the ([Presentation.getSlideSize](../../com.aspose.slides/presentation\#getSlideSize)) |
+| presentation | [Presentation](../../com.aspose.slides/presentation) | The frame size will be set with accordance to the [Presentation.getSlideSize](../../com.aspose.slides/presentation\#getSlideSize) |
 
 ### PresentationAnimationsGenerator(Dimension frameSize) {#PresentationAnimationsGenerator-java.awt.Dimension-}
 ```

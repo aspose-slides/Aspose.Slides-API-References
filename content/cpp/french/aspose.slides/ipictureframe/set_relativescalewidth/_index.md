@@ -1,0 +1,22 @@
+---
+title: set_RelativeScaleWidth()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Définit l'échelle de la largeur (relative à la taille originale de l'image) du cadre d'image. La valeur 1.0 correspond à 100 %. Écrire float.
+type: docs
+weight: 66
+url: /fr/aspose.slides/ipictureframe/set_relativescalewidth/
+---
+## IPictureFrame::set_RelativeScaleWidth(float) méthode
+
+
+Définit l'échelle de la largeur (relative à la taille originale de l'image) du cadre d'image. La valeur 1.0 correspond à 100 %. Écrire **float**.
+
+```cpp
+virtual void Aspose::Slides::IPictureFrame::set_RelativeScaleWidth(float value)=0
+```
+
+## Voir aussi
+
+* Classe [IPictureFrame](../)
+* Espace de noms [Aspose::Slides](../../)
+* Bibliothèque [Aspose.Slides](../../../)

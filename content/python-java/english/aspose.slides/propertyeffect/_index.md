@@ -17,34 +17,8 @@ url: /aspose.slides/propertyeffect/
 | --- | --- |
 | PropertyEffect() |  |
 
- **Result:**
+ **Returns:**
 PropertyEffect
-
-
----
-
-
-### getAccumulate {#getAccumulate}
-
-| Name | Description |
-| --- | --- |
-| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
- **Result:**
-byte
-
-
----
-
-
-### getAdditive {#getAdditive}
-
-| Name | Description |
-| --- | --- |
-| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
-
- **Result:**
-int
 
 
 ---
@@ -56,7 +30,7 @@ int
 | --- | --- |
 | getBy() | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +43,7 @@ String
 | --- | --- |
 | getCalcMode() | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,18 +56,8 @@ int
 | --- | --- |
 | getFrom() | Specifies the starting value of the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -105,34 +69,8 @@ String
 | --- | --- |
 | getPoints() | Specifies the points of the animation. Read/write IPointCollection. |
 
- **Result:**
+ **Returns:**
 [PointCollection](../pointcollection)
-
-
----
-
-
-### getProperties {#getProperties}
-
-| Name | Description |
-| --- | --- |
-| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
-
- **Result:**
-[BehaviorPropertyCollection](../behaviorpropertycollection)
-
-
----
-
-
-### getTiming {#getTiming}
-
-| Name | Description |
-| --- | --- |
-| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
-
- **Result:**
-[Timing](../timing)
 
 
 ---
@@ -144,7 +82,7 @@ String
 | --- | --- |
 | getTo() | Specifies the ending value for the animation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -157,28 +95,8 @@ String
 | --- | --- |
 | getValueType() | Specifies the type of a property value. Read/write PropertyValueType. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### setAccumulate {#setAccumulate}
-
-| Name | Description |
-| --- | --- |
-| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
-
----
-
-
-### setAdditive {#setAdditive}
-
-| Name | Description |
-| --- | --- |
-| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -219,16 +137,6 @@ int
 | Name | Description |
 | --- | --- |
 | setPoints([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
-
-
----
-
-
-### setTiming {#setTiming}
-
-| Name | Description |
-| --- | --- |
-| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
 
 
 ---

@@ -1,13 +1,12 @@
 ---
 title: Convert
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示一组旨在转换 Presentationaspose.slides/aspose.slides/presentation 的方法。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示一组用于转换 Presentation../aspose.slides/presentation 的方法。
 type: docs
-weight: 7640
+weight: 7880
 url: /zh/aspose.slides.lowcode/convert/
 ---
-
-## Convert class
+## Convert 类
 
 表示一组旨在转换 [`Presentation`](../../aspose.slides/presentation) 的方法。
 
@@ -17,24 +16,32 @@ public static class Convert
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 使用传递的输出路径扩展名来确定所需的导出格式，从而转换 [`Presentation`](../../aspose.slides/presentation)。 |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 使用传入的输出路径扩展名来确定所需的导出格式，从而转换 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 将输入演示文稿转换为一组 TIFF 格式的图像。如果输出文件名为 "myPath/myFilename.tiff"，则结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 使用自定义选项将输入演示文稿转换为 TIFF 格式。如果输出文件名为 "myPath/myFilename.tiff" 且 *multipage* 为 `false`，则结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。否则，如果 *multipage* 为 `true`，结果将是一个多页的 "myPath/myFilename.tiff" 文档。 |
 
 ## 其他成员
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | 回调将在每个 [`Slide`](../../aspose.slides/slide) 上被调用，期望返回输出路径。 |
 
 ### 示例
 
@@ -42,9 +49,9 @@ public static class Convert
 Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### 另请参阅
+### 另见
 
-* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* assembly [Aspose.Slides](../../)
+* 命名空间 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

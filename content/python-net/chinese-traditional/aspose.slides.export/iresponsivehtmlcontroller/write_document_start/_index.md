@@ -1,0 +1,31 @@
+---
+title: write_document_start method
+second_title: Aspose.Slides 適用於 Python 的 .NET API 參考
+description: 
+type: docs
+url: /zh-hant/aspose.slides.export/iresponsivehtmlcontroller/write_document_start/
+weight: 20
+---
+## write_document_start(self, generator, presentation) {#ihtmlgenerator-ipresentation}
+
+
+
+```python
+def write_document_start(self, generator, presentation):
+    ...
+```
+
+
+| 參數 | 類型 | 說明 |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/zh-hant/aspose.slides.export/ihtmlgenerator) |  |
+| presentation | [`IPresentation`](/slides/python-net/zh-hant/aspose.slides/ipresentation) |  |
+
+
+
+### 另見
+* 類別 [`IHtmlGenerator`](/slides/python-net/zh-hant/aspose.slides.export/ihtmlgenerator)
+* 類別 [`IPresentation`](/slides/python-net/zh-hant/aspose.slides/ipresentation)
+* 類別 [`IResponsiveHtmlController`](/slides/python-net/zh-hant/aspose.slides.export/iresponsivehtmlcontroller)
+* 模組 [`aspose.slides.export`](/slides/python-net/zh-hant/aspose.slides.export)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

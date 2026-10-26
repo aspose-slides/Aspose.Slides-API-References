@@ -1,0 +1,29 @@
+---
+title: orientation property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/drawingguide/orientation/
+weight: 20
+---
+## orientation คุณสมบัติ
+คืนค่า หรือ ตั้งค่า orientation ของคู่มือการวาด.
+            อ่าน/เขียน [`Orientation`](/slides/python-net/th/aspose.slides/orientation).
+
+### คำนิยาม:
+```python
+@property
+def orientation(self):
+    ...
+
+@orientation.setter
+def orientation(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`DrawingGuide`](/slides/python-net/th/aspose.slides/drawingguide)
+* enumeration [`Orientation`](/slides/python-net/th/aspose.slides/orientation)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

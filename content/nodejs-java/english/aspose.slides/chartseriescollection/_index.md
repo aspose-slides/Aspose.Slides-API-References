@@ -23,7 +23,7 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- | --- |
 | type | int | Type of series |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/chartseriescollection/
 | cellWithSeriesName | [ChartDataCell](../chartdatacell) | Cell which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -63,7 +63,7 @@ url: /aspose.slides/chartseriescollection/
 | cellsWithSeriesName | [ChartCellCollection](../chartcellcollection) | Cells which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -83,7 +83,7 @@ url: /aspose.slides/chartseriescollection/
 | name | String | Series name. |
 | type | int | Type set type of series |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -106,7 +106,7 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -119,7 +119,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
  **Error**
@@ -144,7 +144,7 @@ Object
 | --- | --- | --- |
 | value | [ChartSeries](../chartseries) | Chart series value. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -157,7 +157,7 @@ int
 | --- | --- |
 | insert (int, int) | Creates new chart series and inserts it into the collection. |
 
- **Result:**
+ **Returns:**
 [ChartSeries](../chartseries)
 
 
@@ -170,7 +170,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -183,7 +183,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -196,7 +196,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -247,7 +247,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

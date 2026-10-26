@@ -27,34 +27,8 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getColorScheme() | Returns the color scheme. Read-only IColorScheme. |
 
- **Result:**
+ **Returns:**
 [ColorScheme](../colorscheme)
-
-
----
-
-
-### getColorScheme {#getColorScheme}
-
-| Name | Description |
-| --- | --- |
-| getColorScheme() | Returns the color scheme. Read-only IColorScheme. |
-
- **Result:**
-[ColorScheme](../colorscheme)
-
-
----
-
-
-### getEffective {#getEffective}
-
-| Name | Description |
-| --- | --- |
-| getEffective() | Gets effective theme data with the inheritance applied. |
-
- **Result:**
-ThemeEffectiveData
 
 
 ---
@@ -66,20 +40,7 @@ ThemeEffectiveData
 | --- | --- |
 | getFontScheme() | Returns the font scheme. Read-only IFontScheme. |
 
- **Result:**
-[FontScheme](../fontscheme)
-
-
----
-
-
-### getFontScheme {#getFontScheme}
-
-| Name | Description |
-| --- | --- |
-| getFontScheme() | Returns the font scheme. Read-only IFontScheme. |
-
- **Result:**
+ **Returns:**
 [FontScheme](../fontscheme)
 
 
@@ -92,54 +53,8 @@ ThemeEffectiveData
 | --- | --- |
 | getFormatScheme() | Returns the shape format scheme. Read-only IFormatScheme. |
 
- **Result:**
+ **Returns:**
 [FormatScheme](../formatscheme)
-
-
----
-
-
-### getFormatScheme {#getFormatScheme}
-
-| Name | Description |
-| --- | --- |
-| getFormatScheme() | Returns the shape format scheme. Read-only IFormatScheme. |
-
- **Result:**
-[FormatScheme](../formatscheme)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() | Returns the parent presentation. Read-only IPresentation. |
-
- **Result:**
-[Presentation](../presentation)
 
 
 ---
@@ -151,20 +66,7 @@ ThemeEffectiveData
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -339,7 +241,7 @@ long
 | --- | --- |
 | isEmpty() | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

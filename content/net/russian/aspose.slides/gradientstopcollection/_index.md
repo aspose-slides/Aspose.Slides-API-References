@@ -1,15 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет собой коллекцию градиентных остановок.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию градиентных остановок.
 type: docs
-weight: 4830
+weight: 5030
 url: /ru/aspose.slides/gradientstopcollection/
 ---
+## GradientStopCollection класс
 
-## Класс GradientStopCollection
-
-Представляет собой коллекцию градиентных остановок.
+Представляет коллекцию градиентных остановок.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -17,36 +16,36 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Возвращает количество градиентных остановок в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Возвращает градиентную остановку по индексу. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Возвращает количество градиентных остановок в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Возвращает градиентную остановку по индексу. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Создает новую градиентную остановку и добавляет ее в конец коллекции. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Удаляет все градиентные остановки из коллекции. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэширования. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Создает новую градиентную остановку и вставляет её в указанном индексе в коллекцию. |
 | [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Удаляет градиентную остановку по указанному индексу. |
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [IGradientStopCollection](../igradientstopcollection)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* класс [PVIObject](../pviobject)
+* интерфейс [IGradientStopCollection](../igradientstopcollection)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

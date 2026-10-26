@@ -1,0 +1,29 @@
+---
+title: progress_callback property
+second_title: Aspose.Slides a Pythonhoz a .NET API referenciája
+description: 
+type: docs
+url: /hu/aspose.slides.export/svgoptions/progress_callback/
+weight: 160
+---
+## progress_callback tulajdonság
+Egy visszahívási objektum, amely a százalékos előrehaladás-frissítéseket menti.
+            Lásd [`IProgressCallback`](/slides/python-net/hu/aspose.slides/iprogresscallback).
+
+### Definíció:
+```python
+@property
+def progress_callback(self):
+    ...
+
+@progress_callback.setter
+def progress_callback(self, value):
+    ...
+```
+
+
+### Lásd még
+* osztály [`IProgressCallback`](/slides/python-net/hu/aspose.slides/iprogresscallback)
+* osztály [`SVGOptions`](/slides/python-net/hu/aspose.slides.export/svgoptions)
+* modul [`aspose.slides.export`](/slides/python-net/hu/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -24,7 +24,7 @@ url: /aspose.slides/sectioncollection/
 | name | String | Name of the section |
 | index | int | Index of new section. |
 
- **Result:**
+ **Returns:**
 [Section](../section)
 
 
@@ -44,7 +44,7 @@ url: /aspose.slides/sectioncollection/
 | name | String | Name of the section |
 | startedFromSlide | [Slide](../slide) | First slide of section |
 
- **Result:**
+ **Returns:**
 [Section](../section)
 
 
@@ -63,7 +63,7 @@ url: /aspose.slides/sectioncollection/
 | --- | --- | --- |
 | name | String | Name of the section |
 
- **Result:**
+ **Returns:**
 [Section](../section)
 
 
@@ -86,7 +86,7 @@ url: /aspose.slides/sectioncollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -99,7 +99,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only ISection. |
 
- **Result:**
+ **Returns:**
 [Section](../section)
 
 
@@ -118,7 +118,7 @@ Object
 | --- | --- | --- |
 | section | [Section](../section) | Section to find. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -131,7 +131,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -144,7 +144,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -157,7 +157,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -219,7 +219,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

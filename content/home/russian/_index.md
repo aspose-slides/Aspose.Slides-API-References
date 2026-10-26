@@ -20,6 +20,7 @@ Aspose.Slides for .NET — это API управления Microsoft PowerPoint�
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.Slides для .NET](/slides/ru/net/)
+- [Учебные пособия по Aspose.Slides для .NET API](/tutorials/slides/ru/net/)
 
 ## Aspose.Slides для Java
 
@@ -34,6 +35,7 @@ Aspose.Slides for Java — это API управления Microsoft PowerPoint�
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по API Aspose.Slides для Java](/slides/java/)
+- [Учебные пособия по Aspose.Slides для Java API](/tutorials/slides/ru/java/)
 
 ## Aspose.Slides для C++
 

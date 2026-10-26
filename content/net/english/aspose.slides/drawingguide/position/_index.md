@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets position of the drawing guide in points from the top left corner of the slide. Read/write Single.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/drawingguide/position/
 ---
 

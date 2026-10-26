@@ -56,6 +56,20 @@ Represents properties of a presentation.
 | [setContentType(String value)](#setContentType-java.lang.String-) | Returns or sets the content type of a presentation. |
 | [getHyperlinkBase()](#getHyperlinkBase--) | Returns or sets the HyperlinkBase document property. |
 | [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Returns or sets the HyperlinkBase document property. |
+| [getScaleCrop()](#getScaleCrop--) | Indicates the display mode of the document thumbnail. |
+| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | Indicates the display mode of the document thumbnail. |
+| [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
+| [getHyperlinksChanged()](#getHyperlinksChanged--) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [setHyperlinksChanged(boolean value)](#setHyperlinksChanged-boolean-) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [getSlides()](#getSlides--) | Specifies the total number of slides in a presentation document. |
+| [getHiddenSlides()](#getHiddenSlides--) | Specifies the number of hidden slides in a presentation document. |
+| [getNotes()](#getNotes--) | Specifies the number of slides in a presentation containing notes. |
+| [getParagraphs()](#getParagraphs--) | Specifies the total number of paragraphs found in a document if applicable. |
+| [getWords()](#getWords--) | Specifies the total number of words contained in a document. |
+| [getMultimediaClips()](#getMultimediaClips--) | Specifies the total number of sound or video clips that are present in the document. |
+| [getTitlesOfParts()](#getTitlesOfParts--) | Specifies the title of each document part. |
+| [getHeadingPairs()](#getHeadingPairs--) | Indicates the grouping of document parts and the number of parts in each group. |
 | [getCountOfCustomProperties()](#getCountOfCustomProperties--) | Returns the number of custom properties actually contained in a collection. |
 | [getCustomPropertyName(int index)](#getCustomPropertyName-int-) | Return a custom property name at the specified index. |
 | [removeCustomProperty(String name)](#removeCustomProperty-java.lang.String-) | Remove a custom property associated with a specified name. |
@@ -76,6 +90,7 @@ Represents properties of a presentation.
 | [setCustomPropertyValue(String name, String value)](#setCustomPropertyValue-java.lang.String-java.lang.String-) | Sets a named string custom property. |
 | [setCustomPropertyValue(String name, float value)](#setCustomPropertyValue-java.lang.String-float-) | Sets a named float custom property. |
 | [setCustomPropertyValue(String name, double value)](#setCustomPropertyValue-java.lang.String-double-) | Sets a named double custom property. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 ### getAppVersion() {#getAppVersion--}
 ```
 public abstract String getAppVersion()
@@ -83,6 +98,10 @@ public abstract String getAppVersion()
 
 
 Returns the app version. Read-only String.
+
+--------------------
+
+The content of this element shall be in the form XX.YYYY, where X and Y represent numerical values; otherwise, the document shall be considered non-conformant. Aspose.Slides represents its version in the format XX.YY.ZZ, where: XX - major version YY - minor version ZZ - patch version For example, the value 23.0105 means Aspose.Slides version 23.1.5.
 
 **Returns:**
 java.lang.String
@@ -569,6 +588,155 @@ Returns or sets the HyperlinkBase document property. Read/write String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getScaleCrop() {#getScaleCrop--}
+```
+public abstract boolean getScaleCrop()
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Returns:**
+boolean
+### setScaleCrop(boolean value) {#setScaleCrop-boolean-}
+```
+public abstract void setScaleCrop(boolean value)
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getLinksUpToDate() {#getLinksUpToDate--}
+```
+public abstract boolean getLinksUpToDate()
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Returns:**
+boolean
+### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean-}
+```
+public abstract void setLinksUpToDate(boolean value)
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getHyperlinksChanged() {#getHyperlinksChanged--}
+```
+public abstract boolean getHyperlinksChanged()
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Returns:**
+boolean
+### setHyperlinksChanged(boolean value) {#setHyperlinksChanged-boolean-}
+```
+public abstract void setHyperlinksChanged(boolean value)
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getSlides() {#getSlides--}
+```
+public abstract int getSlides()
+```
+
+
+Specifies the total number of slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getHiddenSlides() {#getHiddenSlides--}
+```
+public abstract int getHiddenSlides()
+```
+
+
+Specifies the number of hidden slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getNotes() {#getNotes--}
+```
+public abstract int getNotes()
+```
+
+
+Specifies the number of slides in a presentation containing notes. Read-only int.
+
+**Returns:**
+int
+### getParagraphs() {#getParagraphs--}
+```
+public abstract int getParagraphs()
+```
+
+
+Specifies the total number of paragraphs found in a document if applicable. Read-only int.
+
+**Returns:**
+int
+### getWords() {#getWords--}
+```
+public abstract int getWords()
+```
+
+
+Specifies the total number of words contained in a document. Read-only int.
+
+**Returns:**
+int
+### getMultimediaClips() {#getMultimediaClips--}
+```
+public abstract int getMultimediaClips()
+```
+
+
+Specifies the total number of sound or video clips that are present in the document. Read-only int.
+
+**Returns:**
+int
+### getTitlesOfParts() {#getTitlesOfParts--}
+```
+public abstract String[] getTitlesOfParts()
+```
+
+
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[].
+
+**Returns:**
+java.lang.String[]
+### getHeadingPairs() {#getHeadingPairs--}
+```
+public abstract IHeadingPair[] getHeadingPairs()
+```
+
+
+Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[].
+
+**Returns:**
+com.aspose.slides.IHeadingPair[]
 ### getCountOfCustomProperties() {#getCountOfCustomProperties--}
 ```
 public abstract int getCountOfCustomProperties()
@@ -608,7 +776,7 @@ Remove a custom property associated with a specified name.
 | name | java.lang.String | Name of a custom property to remove. |
 
 **Returns:**
-boolean - Return true if a property was removed, false overwise.
+boolean - Return true if a property was removed, false otherwise.
 ### containsCustomProperty(String name) {#containsCustomProperty-java.lang.String-}
 ```
 public abstract boolean containsCustomProperty(String name)
@@ -623,7 +791,7 @@ Check presents of a custom property with a specified name.
 | name | java.lang.String | Name of a custom property to check. |
 
 **Returns:**
-boolean - Return true if property exists, false overwise.
+boolean - Return true if property exists, false otherwise.
 ### get_Item(String name) {#get-Item-java.lang.String-}
 ```
 public abstract Object get_Item(String name)
@@ -845,3 +1013,36 @@ Sets a named double custom property.
 | name | java.lang.String | Name of the custom property to set |
 | value | double | Custom property value |
 
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public abstract ISensitivityLabel[] getSensitivityLabels()
+```
+
+
+Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata).
+
+--------------------
+
+> ```
+> The following code shows how to move the sensitivity labels information from the custom document properties 
+>   to the modern SensitivityLabels collection:
+>   
+>  Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      // Get sensitivity labels from the custom document properties
+>      ISensitivityLabel[] mipSensitivityLabels = pres.getDocumentProperties().getSensitivityLabels();
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+>      for (ISensitivityLabel sensitivityLabel : mipSensitivityLabels)
+>      {
+>          // Add label to the collection
+>          // Here you can add a check for the validity of the label information (the label is available, etc)
+>          sensitivityLabels.add(sensitivityLabel);
+>      }
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+com.aspose.slides.ISensitivityLabel[]

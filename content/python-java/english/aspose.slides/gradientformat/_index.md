@@ -17,7 +17,7 @@ url: /aspose.slides/gradientformat/
 | --- | --- |
 | getGradientDirection() | Returns or sets the style of a gradient. Read/write GradientDirection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getGradientShape() | Returns or sets the shape of a gradient. Read/write GradientShape. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getGradientStops() | Returns the collection of gradient stops. Read-only IGradientStopCollection. |
 
- **Result:**
+ **Returns:**
 [GradientStopCollection](../gradientstopcollection)
 
 
@@ -56,7 +56,7 @@ byte
 | --- | --- |
 | getLinearGradientAngle() | Returns or sets the angle of a gradient. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -69,64 +69,8 @@ float
 | --- | --- |
 | getLinearGradientScaled() | Determines whether a gradient is scaled. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -138,7 +82,7 @@ BaseSlide
 | --- | --- |
 | getTileFlip() | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -151,20 +95,7 @@ int
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

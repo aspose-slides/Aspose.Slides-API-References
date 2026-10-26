@@ -1,13 +1,12 @@
 ---
 title: Control
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个 ActiveX 控件。
 type: docs
-weight: 2600
+weight: 2690
 url: /zh/aspose.slides/control/
 ---
-
-## Control class
+## Control 类
 
 表示一个 ActiveX 控件。
 
@@ -19,15 +18,15 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | 名称 | 描述 |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | 指定在使用 PersistStream、PersistStreamInit 或 PersistStorage 方法时 ActiveX 控件的持久化。 |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类 ID。只读 Guid。 |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | 返回或设置控件的框架。读写 [`IShapeFrame`](../ishapeframe)。 |
-| [Name](../../aspose.slides/control/name) { get; set; } | 获取或设置此控件的名称。读写字符串。 |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | 获取用于存储 ActiveX 控件属性的方法。只读 [`PersistenceType`](../persistencetype)。 |
-| [Properties](../../aspose.slides/control/properties) { get; } | 返回 ActiveX 属性的集合。注意：Aspose.Slides 仅支持基于 XML 的 ActiveX 属性。如果属性以二进制格式存储，则此属性将返回 null。只读 [`IControlPropertiesCollection`](../icontrolpropertiescollection)。 |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | 返回控件图像填充属性对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | 指定 ActiveX 控件的持久性，当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时。 |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类标识。只读 Guid。 |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | 返回或设置控件的框架。读/写 [`IShapeFrame`](../ishapeframe)。 |
+| [Name](../../aspose.slides/control/name) { get; set; } | 获取或设置此控件的名称。读/写 String。 |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | 获取用于存储 ActiveX 控件属性的方法。只读 [`PersistenceType`](../persistencetype)。 |
+| [Properties](../../aspose.slides/control/properties) { get; } | 返回 ActiveX 属性的集合。注意：Aspose.Slides 仅支持基于 XML 的 ActiveX 属性。如果属性以二进制格式存储，此属性将返回 null。只读 [`IControlPropertiesCollection`](../icontrolpropertiescollection)。 |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | 返回 Control 图像填充属性对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
 
-### 另请参见
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [ControlCollection](../controlcollection)

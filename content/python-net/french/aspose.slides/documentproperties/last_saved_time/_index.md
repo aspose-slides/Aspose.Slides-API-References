@@ -1,0 +1,31 @@
+---
+title: last_saved_time property
+second_title: Référence API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides/documentproperties/last_saved_time/
+weight: 290
+---
+## last_saved_time propriété
+Renvoie la date à laquelle une présentation a été modifiée pour la dernière fois.
+            Les valeurs sont en UTC.
+            Lecture seule dans le cas de Presentation.DocumentProperties (car il sera mis à jour en interne pendant le processus d'enregistrement de l'objet IPresentation). 
+            Peut être modifié via l'instance DocumentProperties renvoyée par la méthode [`IPresentationInfo.read_document_properties`](/slides/python-net/fr/aspose.slides/ipresentationinfo/read_document_properties)
+            Veuillez consulter l'exemple dans le résumé de la méthode **Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slide**.
+
+### Définition:
+```python
+@property
+def last_saved_time(self):
+    ...
+
+@last_saved_time.setter
+def last_saved_time(self, value):
+    ...
+```
+
+
+### Voir aussi
+* classe [`DocumentProperties`](/slides/python-net/fr/aspose.slides/documentproperties)
+* module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

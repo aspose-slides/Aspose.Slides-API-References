@@ -3,7 +3,7 @@ title: GetConsumptionCredit
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets consumption credit
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/metered/getconsumptioncredit/
 ---
 

@@ -20,6 +20,7 @@ Represents a layout slide.
 | Method | Description |
 | --- | --- |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns HeaderFooter manager of the layout slide. |
+| [getPlaceholderManager()](#getPlaceholderManager--) | Returns the placeholder manager of the layout slide. |
 | [getMasterSlide()](#getMasterSlide--) | Returns or sets the master slide for a layout. |
 | [setMasterSlide(IMasterSlide value)](#setMasterSlide-com.aspose.slides.IMasterSlide-) | Returns or sets the master slide for a layout. |
 | [remove()](#remove--) | Removes layout from presentation. |
@@ -29,6 +30,7 @@ Represents a layout slide.
 | [hasDependingSlides()](#hasDependingSlides--) | Returns true if there exists at least one slide that depends on this layout slide. |
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
+| [getDrawingGuides()](#getDrawingGuides--) | Returns a collection of drawing guides for the layout slide. |
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final ILayoutSlideHeaderFooterManager getHeaderFooterManager()
@@ -39,6 +41,16 @@ Returns HeaderFooter manager of the layout slide. Read-only [ILayoutSlideHeaderF
 
 **Returns:**
 [ILayoutSlideHeaderFooterManager](../../com.aspose.slides/ilayoutslideheaderfootermanager)
+### getPlaceholderManager() {#getPlaceholderManager--}
+```
+public final ILayoutPlaceholderManager getPlaceholderManager()
+```
+
+
+Returns the placeholder manager of the layout slide. Read-only [ILayoutPlaceholderManager](../../com.aspose.slides/ilayoutplaceholdermanager).
+
+**Returns:**
+[ILayoutPlaceholderManager](../../com.aspose.slides/ilayoutplaceholdermanager)
 ### getMasterSlide() {#getMasterSlide--}
 ```
 public final IMasterSlide getMasterSlide()
@@ -106,7 +118,7 @@ public final boolean hasDependingSlides()
 ```
 
 
-Returns true if there exists at least one slide that depends on this layout slide. Read-only boolean.
+Returns true if there exists at least one slide that depends on this layout slide. Read-only  boolean .
 
 **Returns:**
 boolean
@@ -116,7 +128,7 @@ public boolean getShowMasterShapes()
 ```
 
 
-Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean.
+Specifies if shapes on the master slide should be shown on slides or not. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -126,10 +138,37 @@ public void setShowMasterShapes(boolean value)
 ```
 
 
-Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean.
+Specifies if shapes on the master slide should be shown on slides or not. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
+### getDrawingGuides() {#getDrawingGuides--}
+```
+public final IDrawingGuidesCollection getDrawingGuides()
+```
+
+
+Returns a collection of drawing guides for the layout slide. Read-only [IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      SizeF slideSize = pres.getSlideSize().getSize();
+> 
+>      IDrawingGuidesCollection guides = pres.getLayoutSlides().get_Item(0).getDrawingGuides();
+>      // Adding the new vertical drawing guide to the left of the slide center
+>      guides.add(Orientation.Vertical, (float)slideSize.getWidth() / 2 - 20f);
+> 
+>      pres.save("LayoutDrawingGuides_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)

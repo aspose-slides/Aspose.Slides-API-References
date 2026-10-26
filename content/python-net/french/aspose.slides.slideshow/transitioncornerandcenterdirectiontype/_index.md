@@ -1,0 +1,27 @@
+---
+title: TransitionCornerAndCenterDirectionType enumeration
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
+---
+## TransitionCornerAndCenterDirectionType énumération
+
+Spécifie une direction limitée aux coins et au centre.
+
+Le type TransitionCornerAndCenterDirectionType expose les membres suivants :
+
+## Champs
+
+| Champ | Description |
+| :- | :- |
+| LEFT_DOWN |  |
+| LEFT_UP |  |
+| RIGHT_DOWN |  |
+| RIGHT_UP |  |
+| CENTER |  |
+
+
+### Voir aussi
+* module [`aspose.slides.slideshow`](/slides/python-net/fr/aspose.slides.slideshow)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

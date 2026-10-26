@@ -17,8 +17,8 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getShape () | Returns a shape associated with the comment. Read-only IShape. |
 
- **Result:**
-[LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
+ **Returns:**
+[AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [GroupShape](../groupshape), [Connector](../connector), [GraphicalObject](../graphicalobject), [Ink](../ink), [InkActions](../inkactions), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [Table](../table), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe)
 
 
 ---
@@ -30,7 +30,7 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getStatus () | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getTextSelectionLength () | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getTextSelectionStart () | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
 

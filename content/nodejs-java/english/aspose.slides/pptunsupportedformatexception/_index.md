@@ -17,7 +17,7 @@ url: /aspose.slides/pptunsupportedformatexception/
 | --- | --- |
 | PptUnsupportedFormatException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptUnsupportedFormatException
 
 
@@ -36,7 +36,7 @@ PptUnsupportedFormatException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptUnsupportedFormatException
 
 
@@ -56,7 +56,7 @@ PptUnsupportedFormatException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 PptUnsupportedFormatException
 
 

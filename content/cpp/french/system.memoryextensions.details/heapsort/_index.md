@@ -1,0 +1,38 @@
+---
+title: HeapSort()
+second_title: Référence API Aspose.Slides pour C++
+description: Effectue un tri par tas sur des paires clé-valeur.
+type: docs
+weight: 79
+url: /fr/system.memoryextensions.details/heapsort/
+---
+## System::MemoryExtensions::Details::HeapSort(Span\<TKey\>\&, Span\<TValue\>\&, std::function\<int32_t(const TKey\&, const TKey\&)>) fonction
+
+
+Effectue un tri par tas sur des paires clé-valeur.
+
+```cpp
+template<typename TKey,typename TValue> void System::MemoryExtensions::Details::HeapSort(Span<TKey> &keys, Span<TValue> &values, std::function<int32_t(const TKey &, const TKey &)> comparer)
+```
+
+
+### Paramètres de modèle
+
+| Parameter | Description |
+| --- | --- |
+| TKey | Le type des clés |
+| TValue | Le type des valeurs |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| keys | [Span](../../system/span/)\<TKey\>\& | La tranche de clés à trier |
+| values | [Span](../../system/span/)\<TValue\>\& | La tranche de valeurs à trier |
+| comparer | std::function\<**int32_t**(const TKey\&, const TKey\&)> | [Comparison](../../system/comparison/) fonction pour les clés |
+
+## Voir aussi
+
+* Classe [Span](../../system/span/)
+* Espace de noms [System::MemoryExtensions::Details](../)
+* Bibliothèque [Aspose.Slides](../../)

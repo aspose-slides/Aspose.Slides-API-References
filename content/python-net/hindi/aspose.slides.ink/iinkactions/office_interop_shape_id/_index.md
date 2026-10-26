@@ -1,0 +1,21 @@
+---
+title: office_interop_shape_id property
+second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.ink/iinkactions/office_interop_shape_id/
+weight: 300
+---
+## office_interop_shape_id गुण
+### परिभाषा:
+```python
+@property
+def office_interop_shape_id(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IInkActions`](/slides/python-net/hi/aspose.slides.ink/iinkactions)
+* मॉड्यूल [`aspose.slides.ink`](/slides/python-net/hi/aspose.slides.ink)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

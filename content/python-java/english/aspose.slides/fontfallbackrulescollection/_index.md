@@ -17,7 +17,7 @@ url: /aspose.slides/fontfallbackrulescollection/
 | --- | --- |
 | FontFallBackRulesCollection() |  |
 
- **Result:**
+ **Returns:**
 FontFallBackRulesCollection
 
 
@@ -46,7 +46,7 @@ FontFallBackRulesCollection
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -59,7 +59,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the rule at the specified index. Read-only IFontFallBackRule. |
 
- **Result:**
+ **Returns:**
 [FontFallBackRule](../fontfallbackrule)
 
 
@@ -72,7 +72,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -85,7 +85,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -98,7 +98,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -127,7 +127,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of rules actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

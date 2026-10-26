@@ -17,7 +17,7 @@ url: /aspose.slides/filtereffect/
 | --- | --- |
 | FilterEffect() | Default function. |
 
- **Result:**
+ **Returns:**
 FilterEffect
 
 
@@ -30,7 +30,7 @@ FilterEffect
 | --- | --- |
 | getReveal () | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getSubtype () | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getType () | Represents type of filter effect. Read/write FilterEffectType. |
 
- **Result:**
+ **Returns:**
 int
 
 

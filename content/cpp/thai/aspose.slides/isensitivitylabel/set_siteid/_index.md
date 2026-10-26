@@ -1,0 +1,22 @@
+---
+title: set_SiteId()
+second_title: Aspose.Slides สำหรับ C++ อ้างอิง API
+description: "ตั้งค่าตัวระบุไซต์ของ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความละเอียดซึ่งอธิบายป้ายความละเอียด. เขียน System::Guid."
+type: docs
+weight: 40
+url: /th/aspose.slides/isensitivitylabel/set_siteid/
+---
+## ISensitivityLabel::set_SiteId(System::Guid) เมธอด
+
+ตั้งค่าตัวระบุไซต์ของ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความละเอียดซึ่งอธิบายป้ายความละเอียด. เขียน [System::Guid](../../../system/guid/).
+
+```cpp
+virtual void Aspose::Slides::ISensitivityLabel::set_SiteId(System::Guid value)=0
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [Guid](../../../system/guid/)
+* คลาส [ISensitivityLabel](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

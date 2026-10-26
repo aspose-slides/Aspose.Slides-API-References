@@ -1,0 +1,51 @@
+---
+title: set_text_format method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/column/set_text_format/
+weight: 10
+---
+## set_text_format(self, source) {#iportionformat}
+परिभाषित भाग फ़ॉर्मेट गुणों को सभी कॉलम कोशिकाओं के भागों पर सेट करता है।
+
+```python
+def set_text_format(self, source):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| source | [`IPortionFormat`](/slides/python-net/hi/aspose.slides/iportionformat) | IPortionFormat ऑब्जेक्ट आवश्यक गुणों के साथ सेट किया गया है। |
+
+## set_text_format(self, source) {#iparagraphformat}
+परिभाषित पैराग्राफ फ़ॉर्मेट गुणों को सभी कॉलम कोशिकाओं के पैराग्राफ पर सेट करता है।
+
+```python
+def set_text_format(self, source):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| source | [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat) | IParagraphFormat ऑब्जेक्ट आवश्यक गुणों के साथ सेट किया गया है। |
+
+## set_text_format(self, source) {#itextframeformat}
+परिभाषित टेक्स्ट फ्रेम फ़ॉर्मेट गुणों को सभी कॉलम कोशिकाओं के टेक्स्ट फ्रेम पर सेट करता है।
+
+```python
+def set_text_format(self, source):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| source | [`ITextFrameFormat`](/slides/python-net/hi/aspose.slides/itextframeformat) | ITextFrameFormat ऑब्जेक्ट आवश्यक गुणों के साथ सेट किया गया है। |
+
+### संबंधित देखें
+* क्लास [`Column`](/slides/python-net/hi/aspose.slides/column)
+* क्लास [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat)
+* क्लास [`IPortionFormat`](/slides/python-net/hi/aspose.slides/iportionformat)
+* क्लास [`ITextFrameFormat`](/slides/python-net/hi/aspose.slides/itextframeformat)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

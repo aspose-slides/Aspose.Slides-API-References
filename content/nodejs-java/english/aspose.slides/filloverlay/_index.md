@@ -24,7 +24,7 @@ url: /aspose.slides/filloverlay/
 | --- | --- | --- |
 | obj | Object | The FillOverlay to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getBlend () | FillBlendMode. Read/write FillBlendMode. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -50,7 +50,7 @@ int
 | --- | --- |
 | getEffective () | Gets effective Fill Overlay effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 FillOverlayEffectiveData
 
 
@@ -63,7 +63,7 @@ FillOverlayEffectiveData
 | --- | --- |
 | getFillFormat () | Fill format. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -76,7 +76,7 @@ FillOverlayEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -89,7 +89,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

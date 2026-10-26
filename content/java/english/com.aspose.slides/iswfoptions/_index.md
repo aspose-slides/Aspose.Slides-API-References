@@ -46,7 +46,8 @@ Provides options that control how a presentation is saved in SWF format.
 | [setLogoLink(String value)](#setLogoLink-java.lang.String-) | Gets or sets the full hyperlink address for a logo. |
 | [getJpegQuality()](#getJpegQuality--) | Specifies the quality of JPEG images. |
 | [setJpegQuality(int value)](#setJpegQuality-int-) | Specifies the quality of JPEG images. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getCompressed() {#getCompressed--}
 ```
 public abstract boolean getCompressed()
@@ -392,13 +393,64 @@ Specifies the quality of JPEG images. Default is 95.
 | --- | --- | --- |
 | value | int |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-Provides options that control how notes and comments is placed in exported document.
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). This property doesn't support assigning objects of type [HandoutLayoutingOptions](../../com.aspose.slides/handoutlayoutingoptions)
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+>      notesOptions.setCommentsPosition(CommentsPositions.Right);
+> 
+>      SwfOptions options = new SwfOptions();
+>      options.setSlidesLayoutOptions(notesOptions);
+> 
+>      pres.save("pres.swf", SaveFormat.Swf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). This property doesn't support assigning objects of type [HandoutLayoutingOptions](../../com.aspose.slides/handoutlayoutingoptions)
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+>      notesOptions.setCommentsPosition(CommentsPositions.Right);
+> 
+>      SwfOptions options = new SwfOptions();
+>      options.setSlidesLayoutOptions(notesOptions);
+> 
+>      pres.save("pres.swf", SaveFormat.Swf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+

@@ -17,34 +17,8 @@ url: /aspose.slides/rotationeffect/
 | --- | --- |
 | RotationEffect() |  |
 
- **Result:**
+ **Returns:**
 RotationEffect
-
-
----
-
-
-### getAccumulate {#getAccumulate}
-
-| Name | Description |
-| --- | --- |
-| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
- **Result:**
-byte
-
-
----
-
-
-### getAdditive {#getAdditive}
-
-| Name | Description |
-| --- | --- |
-| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
-
- **Result:**
-int
 
 
 ---
@@ -56,7 +30,7 @@ int
 | --- | --- |
 | getBy() | Describes the relative offset value for the animation. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -69,44 +43,8 @@ float
 | --- | --- |
 | getFrom() | Describes the starting value for the animation. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getProperties {#getProperties}
-
-| Name | Description |
-| --- | --- |
-| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
-
- **Result:**
-[BehaviorPropertyCollection](../behaviorpropertycollection)
-
-
----
-
-
-### getTiming {#getTiming}
-
-| Name | Description |
-| --- | --- |
-| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
-
- **Result:**
-[Timing](../timing)
 
 
 ---
@@ -118,28 +56,8 @@ float
 | --- | --- |
 | getTo() | Describes the ending value for the animation. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
-
-
----
-
-
-### setAccumulate {#setAccumulate}
-
-| Name | Description |
-| --- | --- |
-| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
-
----
-
-
-### setAdditive {#setAdditive}
-
-| Name | Description |
-| --- | --- |
-| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -160,16 +78,6 @@ float
 | Name | Description |
 | --- | --- |
 | setFrom(float) | Describes the starting value for the animation. Read/write float. |
-
-
----
-
-
-### setTiming {#setTiming}
-
-| Name | Description |
-| --- | --- |
-| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
 
 
 ---

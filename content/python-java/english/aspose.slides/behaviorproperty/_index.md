@@ -25,7 +25,7 @@ url: /aspose.slides/behaviorproperty/
 | --- | --- | --- |
 | obj | Object | Object to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getExtrusionAutoRotationCenter() | Represents 'extrusion.autorotationcenter' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -51,7 +51,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionBackDepth() | Represents 'extrusion.backdepth' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -64,7 +64,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionColor() | Represents 'extrusion.color' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -77,7 +77,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionColorMode() | Represents 'extrusion.colormode' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -90,7 +90,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionForeDepth() | Represents 'extrusion.foredepth' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -103,7 +103,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionLockRotationCenter() | Represents 'extrusion.lockrotationcenter' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -116,7 +116,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionOn() | Represents 'extrusion.on' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -129,7 +129,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionOrientationAngle() | Represents 'extrusion.orientationangle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -142,7 +142,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionOrientationX() | Represents 'extrusion.orientation.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -155,7 +155,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionOrientationY() | Represents 'extrusion.orientation.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -168,7 +168,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionOrientationZ() | Represents 'extrusion.orientation.z' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -181,7 +181,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionPlane() | Represents 'extrusion.plane' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -194,7 +194,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRender() | Represents 'extrusion.render' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -207,7 +207,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRotationAngleX() | Represents 'extrusion.rotationangle.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -220,7 +220,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRotationAngleY() | Represents 'extrusion.rotationangle.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -233,7 +233,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRotationCenterX() | Represents 'extrusion.rotationcenter.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -246,7 +246,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRotationCenterY() | Represents 'extrusion.rotationcenter.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -259,7 +259,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionRotationCenterZ() | Represents 'extrusion.rotationcenter.z' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -272,7 +272,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionSkewAmt() | Represents 'extrusion.skewamt' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -285,7 +285,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionSkewAngle() | Represents 'extrusion.skewangle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -298,7 +298,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionType() | Represents 'extrusion.type' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -311,7 +311,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionViewPointOriginX() | Represents 'extrusion.viewpointorigin.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -324,7 +324,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionViewPointOriginY() | Represents 'extrusion.viewpointorigin.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -337,7 +337,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionViewPointX() | Represents 'extrusion.viewpoint.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -350,7 +350,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionViewPointY() | Represents 'extrusion.viewpoint.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -363,7 +363,7 @@ BehaviorProperty
 | --- | --- |
 | getExtrusionViewPointZ() | Represents 'extrusion.viewpoint.z' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -376,7 +376,7 @@ BehaviorProperty
 | --- | --- |
 | getFillAngle() | Represents 'fill.angle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -389,7 +389,7 @@ BehaviorProperty
 | --- | --- |
 | getFillColor() | Represents 'fillcolor' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -402,7 +402,7 @@ BehaviorProperty
 | --- | --- |
 | getFillColor2() | Represents 'fill.color2' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -415,7 +415,7 @@ BehaviorProperty
 | --- | --- |
 | getFillFocus() | Represents 'fill.focus' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -428,7 +428,7 @@ BehaviorProperty
 | --- | --- |
 | getFillFocusPositionX() | Represents 'fill.focusposition.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -441,7 +441,7 @@ BehaviorProperty
 | --- | --- |
 | getFillFocusPositionY() | Represents 'fill.focusposition.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -454,7 +454,7 @@ BehaviorProperty
 | --- | --- |
 | getFillFocusSizeX() | Represents 'fill.focussize.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -467,7 +467,7 @@ BehaviorProperty
 | --- | --- |
 | getFillFocusSizeY() | Represents 'fill.focussize.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -480,7 +480,7 @@ BehaviorProperty
 | --- | --- |
 | getFillMethod() | Represents 'fill.method' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -493,7 +493,7 @@ BehaviorProperty
 | --- | --- |
 | getFillOn() | Represents 'fill.on' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -506,7 +506,7 @@ BehaviorProperty
 | --- | --- |
 | getFillOpacity() | Represents 'fill.opacity' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -519,7 +519,7 @@ BehaviorProperty
 | --- | --- |
 | getFillOpacity2() | Represents 'fill.opacity2' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -532,7 +532,7 @@ BehaviorProperty
 | --- | --- |
 | getFillType() | Represents 'fill.type' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -545,7 +545,7 @@ BehaviorProperty
 | --- | --- |
 | getFill_Color() | Represents 'fill.color' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -558,7 +558,7 @@ BehaviorProperty
 | --- | --- |
 | getImage() | Represents 'image' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -571,7 +571,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataBlacklevel() | Represents 'imageData.blacklevel' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -584,7 +584,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataChromakey() | Represents 'imageData.chromakey' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -597,7 +597,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataCropBottom() | Represents 'imageData.cropBottom' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -610,7 +610,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataCropLeft() | Represents 'imageData.cropLeft' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -623,7 +623,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataCropRight() | Represents 'imageData.cropRight' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -636,7 +636,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataCropTop() | Represents 'imageData.cropTop' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -649,7 +649,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataGain() | Represents 'imageData.gain' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -662,7 +662,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataGamma() | Represents 'imageData.gamma' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -675,7 +675,7 @@ BehaviorProperty
 | --- | --- |
 | getImageDataGrayscale() | Represents 'imageData.grayscale' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -694,7 +694,7 @@ BehaviorProperty
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -707,7 +707,7 @@ BehaviorProperty
 | --- | --- |
 | getPptC() | Represents 'ppt_c' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -720,7 +720,7 @@ BehaviorProperty
 | --- | --- |
 | getPptH() | Represents 'ppt_h' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -733,7 +733,7 @@ BehaviorProperty
 | --- | --- |
 | getPptR() | Represents 'ppt_r' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -746,7 +746,7 @@ BehaviorProperty
 | --- | --- |
 | getPptW() | Represents 'ppt_w' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -759,7 +759,7 @@ BehaviorProperty
 | --- | --- |
 | getPptX() | Represents 'ppt_x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -772,7 +772,7 @@ BehaviorProperty
 | --- | --- |
 | getPptY() | Represents 'ppt_y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -785,7 +785,7 @@ BehaviorProperty
 | --- | --- |
 | getR() | Represents 'r' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -798,7 +798,7 @@ BehaviorProperty
 | --- | --- |
 | getScaleX() | Represents 'ScaleX' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -811,7 +811,7 @@ BehaviorProperty
 | --- | --- |
 | getScaleY() | Represents 'ScaleY' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -824,7 +824,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowColor() | Represents 'shadow.color' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -837,7 +837,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowColor2() | Represents 'shadow.color2' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -850,7 +850,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixPerspectiveX() | Represents 'shadow.matrix.perspectiveX' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -863,7 +863,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixPerspectiveY() | Represents 'shadow.matrix.perspectiveY' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -876,7 +876,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixXtoX() | Represents 'shadow.matrix.xtox' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -889,7 +889,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixXtoY() | Represents 'shadow.matrix.xtoy' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -902,7 +902,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixYtoX() | Represents 'shadow.matrix.ytox' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -915,7 +915,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowMatrixYtoY() | Represents 'shadow.matrix.ytoy' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -928,7 +928,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOffset2X() | Represents 'shadow.offset2.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -941,7 +941,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOffset2Y() | Represents 'shadow.offset2.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -954,7 +954,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOffsetX() | Represents 'shadow.offset.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -967,7 +967,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOffsetY() | Represents 'shadow.offset.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -980,7 +980,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOn() | Represents 'shadow.on' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -993,7 +993,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOpacity() | Represents 'shadow.opacity' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1006,7 +1006,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOriginX() | Represents 'shadow.origin.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1019,7 +1019,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowOriginY() | Represents 'shadow.origin.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1032,7 +1032,7 @@ BehaviorProperty
 | --- | --- |
 | getShadowType() | Represents 'shadow.type' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1045,7 +1045,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixPerspectiveX() | Represents 'skew.matrix.perspectiveX' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1058,7 +1058,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixPerspectiveY() | Represents 'skew.matrix.perspectiveY' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1071,7 +1071,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixXtoX() | Represents 'skew.matrix.xtox' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1084,7 +1084,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixXtoY() | Represents 'skew.matrix.xtoy' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1097,7 +1097,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixYtoX() | Represents 'skew.matrix.ytox' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1110,7 +1110,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewMatrixYtoY() | Represents 'skew.matrix.ytoy' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1123,7 +1123,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewOffsetX() | Represents 'skew.offset.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1136,7 +1136,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewOffsetY() | Represents 'skew.offset.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1149,7 +1149,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewOn() | Represents 'skew.on' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1162,7 +1162,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewOriginX() | Represents 'skew.origin.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1175,7 +1175,7 @@ BehaviorProperty
 | --- | --- |
 | getSkewOriginY() | Represents 'skew.origin.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1188,7 +1188,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeColor() | Represents 'stroke.color' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1201,7 +1201,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeColor2() | Represents 'stroke.color2' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1214,7 +1214,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeDashStyle() | Represents 'stroke.dashstyle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1227,7 +1227,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeEndArrow() | Represents 'stroke.endArrow' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1240,7 +1240,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeEndArrowLength() | Represents 'stroke.endArrowLength' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1253,7 +1253,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeEndArrowWidth() | Represents 'stroke.endArrowWidth' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1266,7 +1266,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeFillType() | Represents 'stroke.filltype' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1279,7 +1279,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeImageSizeX() | Represents 'stroke.imagesize.x' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1292,7 +1292,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeImageSizeY() | Represents 'stroke.imagesize.y' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1305,7 +1305,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeLineStyle() | Represents 'stroke.linestyle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1318,7 +1318,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeOn() | Represents 'stroke.on' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1331,7 +1331,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeOpacity() | Represents 'stroke.opacity' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1344,7 +1344,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeSrc() | Represents 'stroke.src' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1357,7 +1357,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeStartArrow() | Represents 'stroke.startArrow' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1370,7 +1370,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeStartArrowLength() | Represents 'stroke.startArrowLength' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1383,7 +1383,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeStartArrowWidth() | Represents 'stroke.startArrowWidth' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1396,7 +1396,7 @@ BehaviorProperty
 | --- | --- |
 | getStrokeWeight() | Represents 'stroke.weight' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1409,7 +1409,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleColor() | Represents 'style.color' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1422,7 +1422,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleFontFamily() | Represents 'style.fontFamily' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1435,7 +1435,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleFontSize() | Represents 'style.fontSize' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1448,7 +1448,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleFontStyle() | Represents 'style.fontStyle' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1461,7 +1461,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleFontWeight() | Represents 'style.fontWeight' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1474,7 +1474,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleOpacity() | Represents 'style.opacity' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1487,7 +1487,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleRotation() | Represents 'style.rotation' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1500,7 +1500,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleSRotation() | Represents 'style.sRotation' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1513,7 +1513,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextDecorationLineThrough() | Represents 'style.textDecorationLineThrough' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1526,7 +1526,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextDecorationUnderline() | Represents 'style.textDecorationUnderline' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1539,7 +1539,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextEffectEmboss() | Represents 'style.textEffectEmboss' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1552,7 +1552,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextEffectOutline() | Represents 'style.textEffectOutline' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1565,7 +1565,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextShadow() | Represents 'style.textShadow' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1578,7 +1578,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleTextTransform() | Represents 'style.textTransform' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1591,7 +1591,7 @@ BehaviorProperty
 | --- | --- |
 | getStyleVisibility() | Represents 'style.visibility' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1604,7 +1604,7 @@ BehaviorProperty
 | --- | --- |
 | getValue() | Value of the property |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -1617,7 +1617,7 @@ String
 | --- | --- |
 | getXShear() | Represents 'xshear' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1630,7 +1630,7 @@ BehaviorProperty
 | --- | --- |
 | getYShear() | Represents 'yshear' property |
 
- **Result:**
+ **Returns:**
 BehaviorProperty
 
 
@@ -1643,7 +1643,7 @@ BehaviorProperty
 | --- | --- |
 | hashCode() | Calculates and returns hach code based on the ( #getValue) property |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -1656,7 +1656,7 @@ int
 | --- | --- |
 | isCustom() | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 
- **Result:**
+ **Returns:**
 boolean
 
 

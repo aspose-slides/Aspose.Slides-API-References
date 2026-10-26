@@ -34,25 +34,6 @@ url: /aspose.slides/videocollection/
 
 | Name | Description |
 | --- | --- |
-| addVideo (InputStream) | Creates and adds a video to a presentation from stream. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| stream | InputStream | Stream to add video file from. |
-
- **Returns:**
-[Video](../video)
-
-
----
-
-
-### addVideo {#addVideo}
-
-| Name | Description |
-| --- | --- |
 | addVideo (InputStream, int) | Creates and adds a video to a presentation from stream. |
 
  **Parameters:**

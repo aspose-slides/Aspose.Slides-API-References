@@ -1,0 +1,117 @@
+---
+title: Ink
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Représente un objet d'encre sur une diapositive.
+type: docs
+weight: 53
+url: /fr/aspose.slides.ink/ink/
+---
+## Classe Ink
+
+Représente un objet d'encre sur une diapositive.
+
+```cpp
+class Ink : public Aspose::Slides::GraphicalObject,
+            public Aspose::Slides::Ink::IInk
+```
+
+## Méthodes
+
+| Method | Description |
+| --- | --- |
+| [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\> [AddPlaceholder](../../aspose.slides/shape/addplaceholder/)([System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\>) override | Ajoute un nouveau espace réservé s'il n'en existe pas et définit les propriétés de l'espace réservé sur un spécifié. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compare les objets en utilisant la sémantique [Object.Equals](../../system/object/equals/) de C#. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compare les objets de type référence dans le style C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compare les objets de type valeur dans le style C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Émule la comparaison en virgule flottante de style C# où deux NaN sont considérés égaux bien que, selon IEC 60559:1989, NaN ne soit égal à aucune valeur, y compris NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Émule la comparaison en virgule flottante de style C# où deux NaN sont considérés égaux bien que, selon IEC 60559:1989, NaN ne soit égal à aucune valeur, y compris NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | À des fins internes uniquement. |
+| [System::String](../../system/string/) [get_AlternativeText](../../aspose.slides/shape/get_alternativetext/)() override | Renvoie le texte alternatif associé à une forme. Lire [System::String](../../system/string/). |
+| [System::String](../../system/string/) [get_AlternativeTextTitle](../../aspose.slides/shape/get_alternativetexttitle/)() override | Renvoie le titre du texte alternatif associé à une forme. Lire [System::String](../../system/string/). |
+| [Aspose::Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/) [get_BlackWhiteMode](../../aspose.slides/shape/get_blackwhitemode/)() override | La propriété spécifie comment une forme sera rendue en mode d'affichage noir et blanc. Lire [Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/). |
+| **int32_t** [get_ConnectionSiteCount](../../aspose.slides/shape/get_connectionsitecount/)() override | Renvoie le nombre de points de connexion sur la forme. Lecture seule **int32_t**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[ICustomData](../../aspose.slides/icustomdata/)\> [get_CustomData](../../aspose.slides/shape/get_customdata/)() override | Renvoie les données personnalisées de la forme. Lecture seule [ICustomData](../../aspose.slides/icustomdata/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../../aspose.slides/ieffectformat/)\> [get_EffectFormat](../../aspose.slides/shape/get_effectformat/)() override | Renvoie l'objet [EffectFormat](../../aspose.slides/effectformat/) qui contient les effets de pixel appliqués à une forme. Remarque : peut renvoyer null pour certains types de formes qui n'ont pas de propriétés d'effet. Lecture seule [IEffectFormat](../../aspose.slides/ieffectformat/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../../aspose.slides/ifillformat/)\> [get_FillFormat](../../aspose.slides/shape/get_fillformat/)() override | Renvoie l'objet [FillFormat](../../aspose.slides/fillformat/) qui contient les propriétés de formatage du remplissage pour une forme. Remarque : peut renvoyer null pour certains types de formes qui n'ont pas de propriétés de remplissage. Lecture seule [IFillFormat](../../aspose.slides/ifillformat/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\> [get_Frame](../../aspose.slides/shape/get_frame/)() override | Renvoie les propriétés du cadre de la forme. Lire [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IGraphicalObjectLock](../../aspose.slides/igraphicalobjectlock/)\> [get_GraphicalObjectLock](../../aspose.slides/graphicalobject/get_graphicalobjectlock/)() override | Renvoie les verrous de la forme. Lecture seule [IGraphicalObjectLock](../../aspose.slides/igraphicalobjectlock/). |
+| **float** [get_Height](../../aspose.slides/shape/get_height/)() override | Obtient la hauteur de la forme, mesurée en points. Lire **float**. |
+| **bool** [get_Hidden](../../aspose.slides/shape/get_hidden/)() override | Détermine si la forme est masquée. Lire **bool**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkClick](../../aspose.slides/shape/get_hyperlinkclick/)() override | Renvoie le lien hypertexte défini pour le clic de souris. Lire [IHyperlink](../../aspose.slides/ihyperlink/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/)\> [get_HyperlinkManager](../../aspose.slides/shape/get_hyperlinkmanager/)() override | Renvoie le gestionnaire de liens hypertexte. Lecture seule [IHyperlinkManager](../../aspose.slides/ihyperlinkmanager/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\> [get_HyperlinkMouseOver](../../aspose.slides/shape/get_hyperlinkmouseover/)() override | Renvoie le lien hypertexte défini pour le survol de la souris. Lire [IHyperlink](../../aspose.slides/ihyperlink/). |
+| static [System::SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[InkEffectType](../inkeffecttype/), [System::SharedPtr](../../system/sharedptr/)\<[IImage](../../aspose.slides/iimage/)\>\>\> [get_InkEffectImages](./get_inkeffectimages/)() | Obtient la collection d'images personnalisées utilisées pour simuler les effets visuels des pinceaux d'encre. Ces images sont utilisées lors du rendu de l'encre avec des valeurs [InkEffectType](../inkeffecttype/) spécifiques, telles que Galaxy, Rainbow, etc. En fournissant vos propres images, vous pouvez contrôler l'apparence de chaque effet d'encre. |
+| **bool** [get_IsDecorative](../../aspose.slides/shape/get_isdecorative/)() override | Obtient l'option 'Mark as decorative' Lecture/écriture **bool**. |
+| **bool** [get_IsGrouped](../../aspose.slides/shape/get_isgrouped/)() override | Détermine si la forme est groupée. Lecture seule **bool**. |
+| **bool** [get_IsTextHolder](../../aspose.slides/shape/get_istextholder/)() override | Détermine si la forme est TextHolder_PPT. Lecture seule **bool**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../../aspose.slides/ilineformat/)\> [get_LineFormat](../../aspose.slides/shape/get_lineformat/)() override | Renvoie l'objet [LineFormat](../../aspose.slides/lineformat/) qui contient les propriétés de formatage des lignes pour une forme. Remarque : peut renvoyer null pour certains types de formes qui n'ont pas de propriétés de ligne. Lecture seule [ILineFormat](../../aspose.slides/ilineformat/). |
+| [System::String](../../system/string/) [get_Name](../../aspose.slides/shape/get_name/)() override | Renvoie le nom d'une forme. Ne doit pas être nul. Utilisez une chaîne vide si nécessaire. Lire [System::String](../../system/string/). |
+| **uint32_t** [get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/)() override | Renvoie un identifiant unique au niveau de la diapositive qui reste constant pendant la durée de vie de la forme et permet à PowerPoint ou au code d'interopérence de référencer de façon fiable la forme depuis n'importe où dans le document. Lecture seule **uint32_t**. Voir aussi [Shape::get_UniqueId](../../aspose.slides/shape/get_uniqueid/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../../aspose.slides/igroupshape/)\> [get_ParentGroup](../../aspose.slides/shape/get_parentgroup/)() override | Renvoie l'objet parent [GroupShape](../../aspose.slides/groupshape/) si la forme est groupée. Sinon renvoie null. Lecture seule [IGroupShape](../../aspose.slides/igroupshape/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../../aspose.slides/iplaceholder/)\> [get_Placeholder](../../aspose.slides/shape/get_placeholder/)() override | Renvoie l'espace réservé d'une forme. Renvoie null si la forme n'a pas d'espace réservé. Lecture seule [IPlaceholder](../../aspose.slides/iplaceholder/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../../aspose.slides/ipresentation/)\> [get_Presentation](../../aspose.slides/shape/get_presentation/)() override | Renvoie la présentation parent d'une diapositive. Lecture seule [IPresentation](../../aspose.slides/ipresentation/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\> [get_RawFrame](../../aspose.slides/shape/get_rawframe/)() override | Renvoie les propriétés brutes du cadre de la forme. Lire [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| **float** [get_Rotation](../../aspose.slides/shape/get_rotation/)() override | Renvoie le nombre de degrés de rotation de la forme spécifiée autour de l'axe z. Une valeur positive indique une rotation horaire ; une valeur négative indique une rotation anti-horaire. Lire **float**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IBaseShapeLock](../../aspose.slides/ibaseshapelock/)\> [get_ShapeLock](../../aspose.slides/shape/get_shapelock/)() override | Renvoie les verrous de la forme. Lecture seule [IBaseShapeLock](../../aspose.slides/ibaseshapelock/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../../aspose.slides/ibaseslide/)\> [get_Slide](../../aspose.slides/shape/get_slide/)() override | Renvoie la diapositive parent d'une forme. Lecture seule [IBaseSlide](../../aspose.slides/ibaseslide/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../../aspose.slides/ithreedformat/)\> [get_ThreeDFormat](../../aspose.slides/shape/get_threedformat/)() override | Renvoie l'objet [ThreeDFormat](../../aspose.slides/threedformat/) qui contient les propriétés d'effet 3D pour une forme. Remarque : peut renvoyer null pour certains types de formes qui n'ont pas de propriétés 3D. Lecture seule [IThreeDFormat](../../aspose.slides/ithreedformat/). |
+| [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IInkTrace](../iinktrace/)\>\> [get_Traces](./get_traces/)() override | Obtient tous les traces contenant dans l'élément [IInk](../iink/) [IInkTrace](../iinktrace/). Lecture seule. |
+| **uint32_t** [get_UniqueId](../../aspose.slides/shape/get_uniqueid/)() override | Renvoie un identifiant interne, au niveau de la présentation, destiné à être utilisé par les modules complémentaires ou autre code. Puisque cette valeur peut être réassignée par l'utilisateur ou programmée, elle ne doit pas être considérée comme une clé unique persistante. Lecture seule **uint32_t**. Voir aussi [Shape::get_OfficeInteropShapeId](../../aspose.slides/shape/get_officeinteropshapeid/). |
+| **float** [get_Width](../../aspose.slides/shape/get_width/)() override | Obtient la largeur de la forme, mesurée en points. Lire **float**. |
+| **float** [get_X](../../aspose.slides/shape/get_x/)() override | Obtient la coordonnée x du coin supérieur gauche de la forme, mesurée en points. Lire **float**. |
+| **float** [get_Y](../../aspose.slides/shape/get_y/)() override | Obtient la coordonnée y du coin supérieur gauche de la forme, mesurée en points. Lire **float**. |
+| **int32_t** [get_ZOrderPosition](../../aspose.slides/shape/get_zorderposition/)() override | Renvoie la position d'une forme dans l'ordre Z. Shapes[0] renvoie la forme à l'arrière de l'ordre Z, et Shapes[Shapes.Count - 1] renvoie la forme à l'avant de l'ordre Z. Lecture seule **int32_t**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IShape](../../aspose.slides/ishape/)\> [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder/)() override | Renvoie une forme d'espace réservé de base (forme provenant de la disposition et/ou de la diapositive maîtresse dont la forme actuelle hérite). |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Obtient la structure de données du compteur de références associée à l'objet. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analogue de la méthode C# [Object.GetHashCode()](../../system/object/gethashcode/). Permet le hachage d'objets personnalisés. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../../aspose.slides/iimage/)\> [GetImage](../../aspose.slides/shape/getimage/)() override | Renvoie la vignette de la forme. Le type de limites de vignette de forme [ShapeThumbnailBounds::Shape](../../aspose.slides/shapethumbnailbounds/) est utilisé par défaut. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../../aspose.slides/iimage/)\> [GetImage](../../aspose.slides/shape/getimage/)([ShapeThumbnailBounds](../../aspose.slides/shapethumbnailbounds/), **float**, **float**) override | Renvoie la vignette de la forme. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Obtient le type réel de l'objet. Analogue de l'appel C# [System.Object.GetType()](../../system/object/gettype/). |
+| [System::Drawing::RectangleF](../../system.drawing/rectanglef/) [GetVisualBounds](../../aspose.slides/shape/getvisualbounds/)() | Obtient les limites visuelles de la forme calculées à partir de son contenu rendu. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Vérifie si l'objet représente une instance du type décrit par targetType. Analogue de l'opérateur C# 'is'. |
+| void [Lock](../../system/object/lock/)() | Implémente le verrouillage de l'instruction C# lock(). Appelez directement ou utilisez l'objet sentinelle [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analogue de la méthode C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Permet le clonage de types personnalisés. |
+|  [Object](../../system/object/object/)() | Crée l'objet. Initialise toutes les structures de données internes. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Constructeur de copie. Ne copie réellement rien, il initialise juste un nouvel objet et permet la construction de copies de sous-classes. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Opérateur d'affectation. Ne copie réellement rien, il initialise juste un nouvel objet et permet la construction de copies de sous-classes. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compare les objets par référence. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compare les objets par référence. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Compare par référence un objet de type valeur avec nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Spécialisation de [Object::ReferenceEquals](../../system/object/referenceequals/) pour le cas d'une chaîne et nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Spécialisation de [Object::ReferenceEquals](../../system/object/referenceequals/) pour le cas de chaînes. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Diminue le compteur de références partagées de la valeur spécifiée. |
+| void [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder/)() override | Définit que cette forme n'est pas un espace réservé. |
+| void [set_AlternativeText](../../aspose.slides/shape/set_alternativetext/)([System::String](../../system/string/)) override | Définit le texte alternatif associé à une forme. Écrire [System::String](../../system/string/). |
+| void [set_AlternativeTextTitle](../../aspose.slides/shape/set_alternativetexttitle/)([System::String](../../system/string/)) override | Définit le titre du texte alternatif associé à une forme. Écrire [System::String](../../system/string/). |
+| void [set_BlackWhiteMode](../../aspose.slides/shape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/)) override | La propriété spécifie comment une forme sera rendue en mode d'affichage noir et blanc. Écrire [Slides::BlackWhiteMode](../../aspose.slides/blackwhitemode/). |
+| void [set_Frame](../../aspose.slides/shape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\>) override | Définit les propriétés du cadre de la forme. Écrire [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| void [set_Height](../../aspose.slides/shape/set_height/)(**float**) override | Définit la hauteur de la forme, mesurée en points. Écrire **float**. |
+| void [set_Hidden](../../aspose.slides/shape/set_hidden/)(**bool**) override | Détermine si la forme est masquée. Écrire **bool**. |
+| void [set_HyperlinkClick](../../aspose.slides/shape/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Définit le lien hypertexte défini pour le clic de souris. Écrire [IHyperlink](../../aspose.slides/ihyperlink/). |
+| void [set_HyperlinkMouseOver](../../aspose.slides/shape/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../../aspose.slides/ihyperlink/)\>) override | Définit le lien hypertexte défini pour le survol de la souris. Écrire [IHyperlink](../../aspose.slides/ihyperlink/). |
+| void [set_IsDecorative](../../aspose.slides/shape/set_isdecorative/)(**bool**) override | Définit l'option 'Mark as decorative' Lecture/écriture **bool**. |
+| void [set_Name](../../aspose.slides/shape/set_name/)([System::String](../../system/string/)) override | Définit le nom d'une forme. Ne doit pas être nul. Utilisez une chaîne vide si nécessaire. Écrire [System::String](../../system/string/). |
+| void [set_RawFrame](../../aspose.slides/shape/set_rawframe/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../../aspose.slides/ishapeframe/)\>) override | Définit les propriétés brutes du cadre de la forme. Écrire [IShapeFrame](../../aspose.slides/ishapeframe/). |
+| void [set_Rotation](../../aspose.slides/shape/set_rotation/)(**float**) override | Définit le nombre de degrés de rotation de la forme spécifiée autour de l'axe z. Une valeur positive indique une rotation horaire ; une valeur négative indique une rotation anti-horaire. Écrire **float**. |
+| void [set_Width](../../aspose.slides/shape/set_width/)(**float**) override | Définit la largeur de la forme, mesurée en points. Écrire **float**. |
+| void [set_X](../../aspose.slides/shape/set_x/)(**float**) override | Définit la coordonnée x du coin supérieur gauche de la forme, mesurée en points. Écrire **float**. |
+| void [set_Y](../../aspose.slides/shape/set_y/)(**float**) override | Définit la coordonnée y du coin supérieur gauche de la forme, mesurée en points. Écrire **float**. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Définit le n-ième argument de modèle comme un pointeur faible (plutôt que partagé). Permet de basculer les pointeurs dans les conteneurs en mode faible. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Obtient la valeur actuelle du compteur de références partagées. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Incrémente le compteur de références partagées. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Décrémente et renvoie le compteur de références partagées. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analogue de la méthode C# [Object.ToString()](../../system/object/tostring/). Permet de convertir des objets personnalisés en chaîne. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implémente la construction C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Implémente le déverrouillage de l'instruction C# lock(). Appelez directement ou utilisez l'objet sentinelle [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Incrémente le compteur de références faibles. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Décrémente le compteur de références faibles. Ne doit pas être appelé directement ; utilisez plutôt des pointeurs intelligents ou ThisProtector. |
+| void [WriteAsSvg](../../aspose.slides/shape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) override | Enregistre le contenu de [Shape](../../aspose.slides/shape/) en fichier SVG. |
+| void [WriteAsSvg](../../aspose.slides/shape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [System::SharedPtr](../../system/sharedptr/)\<[Export::ISVGOptions](../../aspose.slides.export/isvgoptions/)\>) override | Enregistre le contenu de [Shape](../../aspose.slides/shape/) en fichier SVG. |
+| virtual  [~Object](../../system/object/~object/)() | Détruit l'objet. Libère toutes les structures de données internes. |
+
+## Voir aussi
+
+* Classe [GraphicalObject](../../aspose.slides/graphicalobject/)
+* Classe [IInk](../iink/)
+* Espace de noms [Aspose::Slides::Ink](../)
+* Bibliothèque [Aspose.Slides](../../)

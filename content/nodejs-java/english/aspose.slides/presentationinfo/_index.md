@@ -23,7 +23,7 @@ url: /aspose.slides/presentationinfo/
 | --- | --- | --- |
 | password | String | The password to check. When the password is null or empty, this function returns false. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -48,7 +48,7 @@ boolean
 | --- | --- | --- |
 | password | String | The password to check. 1. You should check the ( #isWriteProtected) property before calling this function. 2. When password is null or empty, this function returns false. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -67,7 +67,7 @@ boolean
 | --- | --- |
 | getLoadFormat () | Gets format of the binded presentation. Read-only LoadFormat. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -80,7 +80,7 @@ int
 | --- | --- |
 | isEncrypted () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -93,7 +93,7 @@ boolean
 | --- | --- |
 | isPasswordProtected () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -106,7 +106,7 @@ boolean
 | --- | --- |
 | isWriteProtected () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -119,7 +119,7 @@ byte
 | --- | --- |
 | readDocumentProperties () | Gets document properties of binded presentation. |
 
- **Result:**
+ **Returns:**
 [DocumentProperties](../documentproperties)
 
 

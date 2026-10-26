@@ -17,7 +17,7 @@ url: /aspose.slides/storage/
 | --- | --- |
 | Storage() |  |
 
- **Result:**
+ **Returns:**
 Storage
 
 
@@ -36,7 +36,7 @@ Storage
 | --- | --- | --- |
 | key | String | Key of the value. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -55,7 +55,7 @@ boolean
 | --- | --- | --- |
 | key | String | Key of the value. |
 
- **Result:**
+ **Returns:**
 TValue
 
 

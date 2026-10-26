@@ -1,13 +1,12 @@
 ---
 title: TableStylePreset
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les styles de tableau intégrés.
 type: docs
-weight: 10570
+weight: 10880
 url: /fr/aspose.slides/tablestylepreset/
 ---
-
-## Énumération TableStylePreset
+## TableStylePreset enumeration
 
 Représente les styles de tableau intégrés.
 
@@ -19,48 +18,48 @@ public enum TableStylePreset
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Custom | `-1` | Le tableau a un style personnalisé. Ceci est une valeur en lecture seule. |
-| None | `0` | Pas de style. |
+| Custom | `-1` | Table a un style personnalisé. Il s'agit d'une valeur en lecture seule. |
+| None | `0` | Aucun style. |
 | MediumStyle2Accent1 | `1` | Style moyen 2 - Accent 1. |
 | MediumStyle2 | `2` | Style moyen 2. |
-| NoStyleNoGrid | `3` | Pas de style, pas de grille. |
+| NoStyleNoGrid | `3` | Aucun style, aucune grille. |
 | ThemedStyle1Accent1 | `4` | Style thématique 1 - Accent 1. |
 | ThemedStyle1Accent2 | `5` | Style thématique 1 - Accent 2. |
 | ThemedStyle1Accent3 | `6` | Style thématique 1 - Accent 3. |
 | ThemedStyle1Accent4 | `7` | Style thématique 1 - Accent 4. |
 | ThemedStyle1Accent5 | `8` | Style thématique 1 - Accent 5. |
 | ThemedStyle1Accent6 | `9` | Style thématique 1 - Accent 6. |
-| NoStyleTableGrid | `10` | Pas de style, grille de tableau. |
+| NoStyleTableGrid | `10` | Aucun style, grille du tableau. |
 | ThemedStyle2Accent1 | `11` | Style thématique 2 - Accent 1. |
 | ThemedStyle2Accent2 | `12` | Style thématique 2 - Accent 2. |
 | ThemedStyle2Accent3 | `13` | Style thématique 2 - Accent 3. |
 | ThemedStyle2Accent4 | `14` | Style thématique 2 - Accent 4. |
 | ThemedStyle2Accent5 | `15` | Style thématique 2 - Accent 5. |
 | ThemedStyle2Accent6 | `16` | Style thématique 2 - Accent 6. |
-| LightStyle1 | `17` | Style léger 1 |
-| LightStyle1Accent1 | `18` | Style léger 1 - Accent 1. |
-| LightStyle1Accent2 | `19` | Style léger 1 - Accent 2. |
-| LightStyle1Accent3 | `20` | Style léger 1 - Accent 3. |
-| LightStyle1Accent4 | `21` | Style léger 1 - Accent 4. |
-| LightStyle2Accent5 | `22` | Style léger 2 - Accent 5. |
-| LightStyle1Accent6 | `23` | Style léger 1 - Accent 6. |
-| LightStyle2 | `24` | Style léger 2. |
-| LightStyle2Accent1 | `25` | Style léger 2 - Accent 1. |
-| LightStyle2Accent2 | `26` | Style léger 2 - Accent 2. |
-| LightStyle2Accent3 | `27` | Style léger 2 - Accent 3. |
+| LightStyle1 | `17` | Style clair 1 |
+| LightStyle1Accent1 | `18` | Style clair 1 - Accent 1. |
+| LightStyle1Accent2 | `19` | Style clair 1 - Accent 2. |
+| LightStyle1Accent3 | `20` | Style clair 1 - Accent 3. |
+| LightStyle1Accent4 | `21` | Style clair 1 - Accent 4. |
+| LightStyle2Accent5 | `22` | Style clair 2 - Accent 5. |
+| LightStyle1Accent6 | `23` | Style clair 1 - Accent 6. |
+| LightStyle2 | `24` | Style clair 2. |
+| LightStyle2Accent1 | `25` | Style clair 2 - Accent 1. |
+| LightStyle2Accent2 | `26` | Style clair 2 - Accent 2. |
+| LightStyle2Accent3 | `27` | Style clair 2 - Accent 3. |
 | MediumStyle2Accent3 | `28` | Style moyen 2 - Accent 3. |
 | MediumStyle2Accent4 | `29` | Style moyen 2 - Accent 4. |
 | MediumStyle2Accent5 | `30` | Style moyen 2 - Accent 5. |
-| LightStyle2Accent6 | `31` | Style léger 2 - Accent 6. |
-| LightStyle2Accent4 | `32` | Style léger 2 - Accent 4. |
-| LightStyle3 | `33` | Style léger 3. |
-| LightStyle3Accent1 | `34` | Style léger 3 - Accent 1. |
+| LightStyle2Accent6 | `31` | Style clair 2 - Accent 6. |
+| LightStyle2Accent4 | `32` | Style clair 2 - Accent 4. |
+| LightStyle3 | `33` | Style clair 3. |
+| LightStyle3Accent1 | `34` | Style clair 3 - Accent 1. |
 | MediumStyle2Accent2 | `35` | Style moyen 2 - Accent 2. |
-| LightStyle3Accent2 | `36` | Style léger 3 - Accent 2. |
-| LightStyle3Accent3 | `37` | Style léger 3 - Accent 3. |
-| LightStyle3Accent4 | `38` | Style léger 3 - Accent 4. |
-| LightStyle3Accent5 | `39` | Style léger 3 - Accent 5. |
-| LightStyle3Accent6 | `40` | Style léger 3 - Accent 6. |
+| LightStyle3Accent2 | `36` | Style clair 3 - Accent 2. |
+| LightStyle3Accent3 | `37` | Style clair 3 - Accent 3. |
+| LightStyle3Accent4 | `38` | Style clair 3 - Accent 4. |
+| LightStyle3Accent5 | `39` | Style clair 3 - Accent 5. |
+| LightStyle3Accent6 | `40` | Style clair 3 - Accent 6. |
 | MediumStyle1 | `41` | Style moyen 1. |
 | MediumStyle1Accent1 | `42` | Style moyen 1 - Accent 1. |
 | MediumStyle1Accent2 | `43` | Style moyen 1 - Accent 2. |
@@ -94,11 +93,11 @@ public enum TableStylePreset
 | DarkStyle2Accent1Accent2 | `71` | Style sombre 2 - Accent 1/Accent 2. |
 | DarkStyle2Accent3Accent4 | `72` | Style sombre 2 - Accent 3/Accent 4. |
 | DarkStyle2Accent5Accent6 | `73` | Style sombre 2 - Accent 5/Accent 6. |
-| LightStyle1Accent5 | `74` | Style léger 1 - Accent 5. |
+| LightStyle1Accent5 | `74` | Style clair 1 - Accent 5. |
 
 ### Voir aussi
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

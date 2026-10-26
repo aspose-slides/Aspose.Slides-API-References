@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: ประเภทขององค์ประกอบเสมือน
+type: docs
+weight: 261
+url: /th/aspose.slides/fontfallbackrulescollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+ประเภทขององค์ประกอบเสมือน
+
+```cpp
+using Aspose::Slides::FontFallBackRulesCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [FontFallBackRulesCollection](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

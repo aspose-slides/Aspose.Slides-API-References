@@ -1,0 +1,24 @@
+---
+title: disable_blur_effect method
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/effectformat/disable_blur_effect/
+weight: 10
+---
+## disable_blur_effect(self) {#}
+ブラー効果を無効にします。
+
+
+```python
+def disable_blur_effect(self):
+    ...
+```
+
+
+
+
+### 参照
+* クラス [`EffectFormat`](/slides/python-net/ja/aspose.slides/effectformat)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

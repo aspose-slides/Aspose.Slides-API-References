@@ -17,7 +17,7 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getBackColor () | Returns the background pattern color. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getForeColor () | Returns the foreground pattern color. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -43,18 +43,18 @@ url: /aspose.slides/patternformat/
 | --- | --- |
 | getPatternStyle () | Returns or sets the pattern style. Read/write PatternStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
 ---
 
 
-### getTileImage {#getTileImage}
+### getTile {#getTile}
 
 | Name | Description |
 | --- | --- |
-| getTileImage (Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| getTile (Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
  **Parameters:**
 
@@ -63,27 +63,27 @@ byte
 | background | Color | The background java.awt.Color for the pattern. |
 | foreground | Color | The foreground java.awt.Color for the pattern. |
 
- **Result:**
-BufferedImage
+ **Returns:**
+SlidesImage
 
 
 ---
 
 
-### getTileImage {#getTileImage}
+### getTile {#getTile}
 
 | Name | Description |
 | --- | --- |
-| getTileImage (Color) | Creates a tile image for the pattern fill. |
+| getTile (Color) | Creates a tile image for the pattern fill. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| styleColor | Color | The default java.awt.Color |
 
- **Result:**
-BufferedImage
+ **Returns:**
+SlidesImage
 
 
 ---
@@ -95,7 +95,7 @@ BufferedImage
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 

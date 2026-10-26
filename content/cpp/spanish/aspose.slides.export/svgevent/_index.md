@@ -1,0 +1,44 @@
+---
+title: SvgEvent
+second_title: Referencia de la API de Aspose.Slides para C++
+description: Representa opciones para la forma SVG.
+type: docs
+weight: 1067
+url: /es/aspose.slides.export/svgevent/
+---
+## SvgEvent enum
+
+Representa opciones para la forma SVG.
+
+```cpp
+enum class SvgEvent
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| OnFocusIn | 0 | Ocurre cuando un elemento recibe el foco, como cuando un texto se selecciona. |
+| OnFocusOut | 1 | Ocurre cuando un elemento pierde el foco, como cuando un texto se deselecciona. |
+| OnActivate | 2 | Ocurre cuando un elemento se activa, por ejemplo, mediante un clic del ratón o una pulsación de tecla. |
+| OnClick | 3 | Ocurre cuando se hace clic con el botón del dispositivo apuntador sobre un elemento. |
+| OnMouseDown | 4 | Ocurre cuando se presiona el botón del dispositivo apuntador sobre un elemento. |
+| OnMouseUp | 5 | Ocurre cuando se suelta el botón del dispositivo apuntador sobre un elemento. |
+| OnMouseOver | 6 | Ocurre cuando el dispositivo apuntador se mueve sobre un elemento. |
+| OnMouseMove | 7 | Ocurre cuando el dispositivo apuntador se mueve mientras está sobre un elemento. |
+| OnMouseOut | 8 | Ocurre cuando el dispositivo apuntador se aleja de un elemento. |
+| OnLoad | 9 | Ocurre cuando el agente de usuario ha analizado completamente el elemento y sus descendientes y todos los recursos referenciados, necesarios para renderizarlo. |
+| OnUnload | 10 | Ocurre cuando la implementación [DOM](../../aspose.slides.dom/) elimina un documento de una ventana o marco. Sólo aplicable a los elementos svg más externos. |
+| OnAbort | 11 | Ocurre cuando la carga de la página se detiene antes de que un elemento haya podido cargarse completamente. |
+| OnError | 12 | Ocurre cuando un elemento no se carga correctamente o cuando se produce un error durante la ejecución del script. |
+| OnResize | 13 | Ocurre cuando la vista del documento está siendo redimensionada. Sólo aplicable a los elementos svg más externos. |
+| OnScroll | 14 | Ocurre cuando la vista del documento se desplaza a lo largo del eje X o Y o ambos. Sólo aplicable a los elementos svg más externos. |
+| OnZoom | 15 | Ocurre cuando se cambia el nivel de zoom de la vista del documento. Sólo aplicable a los elementos svg más externos. |
+| OnBegin | 16 | Ocurre cuando un elemento de animación comienza. |
+| OnEnd | 17 | Ocurre cuando un elemento de animación termina. |
+| OnRepeat | 18 | Ocurre cuando un elemento de animación se repite. |
+
+## Ver también
+
+* Espacio de nombres [Aspose::Slides::Export](../)
+* Biblioteca [Aspose.Slides](../../)

@@ -62,7 +62,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 ---
 
-## AddImage(MemoryStream) {#addimage_5}
+## AddImage(MemoryStream) {#addimage_4}
 
 Add an image to a presentation from stream.
 
@@ -91,7 +91,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## AddImage(Stream) {#addimage_6}
+## AddImage(Stream) {#addimage_5}
 
 Add an image to a presentation from stream.
 
@@ -120,7 +120,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
 Creates and adds an image to a presentation from stream.
 

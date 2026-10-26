@@ -1,0 +1,21 @@
+---
+title: virtualized_iterator_element
+second_title: مرجع API Aspose.Slides برای C++
+description: نوع عنصر مجازی‌سازی‌شده.
+type: docs
+weight: 326
+url: /fa/aspose.slides/commentauthorcollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+نوع عنصر مجازی‌سازی‌شده.
+
+```cpp
+using Aspose::Slides::CommentAuthorCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## موارد مرتبط
+
+* کلاس [CommentAuthorCollection](../)
+* فضای نام [Aspose::Slides](../../)
+* کتابخانه [Aspose.Slides](../../../)

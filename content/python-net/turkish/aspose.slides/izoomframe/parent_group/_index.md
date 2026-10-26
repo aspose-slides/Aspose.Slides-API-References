@@ -1,0 +1,21 @@
+---
+title: parent_group property
+second_title: Aspose.Slides, Python için .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides/izoomframe/parent_group/
+weight: 330
+---
+## parent_group özelliği
+### Tanım:
+```python
+@property
+def parent_group(self):
+    ...
+```
+
+
+### Ayrıca Bakınız
+* sınıf [`IZoomFrame`](/slides/python-net/tr/aspose.slides/izoomframe)
+* modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

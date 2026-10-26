@@ -100,7 +100,9 @@ Provides options that control how a presentation is saved in Pdf format.
 
 | Method | Description |
 | --- | --- |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getTextCompression()](#getTextCompression--) | Specifies compression type to be used for all textual content in the document. |
@@ -113,6 +115,8 @@ Provides options that control how a presentation is saved in Pdf format.
 | [setAdditionalCommonFontFamilies(String[] value)](#setAdditionalCommonFontFamilies-java.lang.String---) | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. |
 | [getEmbedFullFonts()](#getEmbedFullFonts--) | Determines if all characters of font should be embedded or only used subset. |
 | [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean-) | Determines if all characters of font should be embedded or only used subset. |
+| [getRasterizeUnsupportedFontStyles()](#getRasterizeUnsupportedFontStyles--) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. |
+| [setRasterizeUnsupportedFontStyles(boolean value)](#setRasterizeUnsupportedFontStyles-boolean-) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. |
 | [getJpegQuality()](#getJpegQuality--) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
 | [setJpegQuality(byte value)](#setJpegQuality-byte-) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
 | [getCompliance()](#getCompliance--) | Desired conformance level for generated PDF document. |
@@ -131,6 +135,8 @@ Provides options that control how a presentation is saved in Pdf format.
 | [setImageTransparentColor(Integer value)](#setImageTransparentColor-java.lang.Integer-) | Gets or sets the image transparent color. |
 | [getApplyImageTransparent()](#getApplyImageTransparent--) | Applies the specified transparent color to an image if true. |
 | [setApplyImageTransparent(boolean value)](#setApplyImageTransparent-boolean-) | Applies the specified transparent color to an image if true. |
+| [getIncludeOleData()](#getIncludeOleData--) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. |
+| [setIncludeOleData(boolean value)](#setIncludeOleData-boolean-) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
@@ -139,16 +145,75 @@ public PdfOptions()
 
 Default constructor.
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-Provides options that control how notes and comments is placed in exported document.
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
+### getInkOptions() {#getInkOptions--}
+```
+public final IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)
 ### getShowHiddenSlides() {#getShowHiddenSlides--}
 ```
 public final boolean getShowHiddenSlides()
@@ -317,6 +382,37 @@ public final void setEmbedFullFonts(boolean value)
 
 
 Determines if all characters of font should be embedded or only used subset. Read/write boolean.
+
+--------------------
+
+Default is **false**.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getRasterizeUnsupportedFontStyles() {#getRasterizeUnsupportedFontStyles--}
+```
+public final boolean getRasterizeUnsupportedFontStyles()
+```
+
+
+Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean.
+
+--------------------
+
+Default is **false**.
+
+**Returns:**
+boolean
+### setRasterizeUnsupportedFontStyles(boolean value) {#setRasterizeUnsupportedFontStyles-boolean-}
+```
+public final void setRasterizeUnsupportedFontStyles(boolean value)
+```
+
+
+Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write boolean.
 
 --------------------
 
@@ -618,6 +714,67 @@ public final void setApplyImageTransparent(boolean value)
 
 
 Applies the specified transparent color to an image if true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getIncludeOleData() {#getIncludeOleData--}
+```
+public final boolean getIncludeOleData()
+```
+
+
+True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      options.setIncludeOleData(true);
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
+
+**Returns:**
+boolean
+### setIncludeOleData(boolean value) {#setIncludeOleData-boolean-}
+```
+public final void setIncludeOleData(boolean value)
+```
+
+
+True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      options.setIncludeOleData(true);
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,0 +1,27 @@
+---
+title: number_format_of_y_values property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.charts/ichartseries/number_format_of_y_values/
+weight: 290
+---
+## number_format_of_y_values คุณสมบัติ
+คืนค่า หรือกำหนดรูปแบบตัวเลขสำหรับค่าของ y ในชุดข้อมูล.
+            อ่าน/เขียน **str**.
+
+### คำนิยาม:
+```python
+@property
+def number_format_of_y_values(self):
+    ...
+
+@number_format_of_y_values.setter
+def number_format_of_y_values(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`IChartSeries`](/slides/python-net/th/aspose.slides.charts/ichartseries)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

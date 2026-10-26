@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator
+second_title: Aspose.Slides para C++ Referencia de API
+description: Tipo virtualizado.
+type: docs
+weight: 638
+url: /es/aspose.slides.charts/chartdatapointcollection/virtualized_iterator/
+---
+## virtualized_iterator typedef
+
+
+Tipo virtualizado.
+
+```cpp
+using Aspose::Slides::Charts::ChartDataPointCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+```
+
+## Ver también
+
+* Clase [ChartDataPointCollection](../)
+* Espacio de nombres [Aspose::Slides::Charts](../../)
+* Biblioteca [Aspose.Slides](../../../)

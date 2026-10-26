@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides för C++ API-referens
+description: Virtualiserad elementtyp.
+type: docs
+weight: 339
+url: /sv/aspose.slides.charts/chartcategorycollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+Virtualiserad elementtyp.
+
+```cpp
+using Aspose::Slides::Charts::ChartCategoryCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## Se också
+
+* Klass [ChartCategoryCollection](../)
+* Namnrymd [Aspose::Slides::Charts](../../)
+* Bibliotek [Aspose.Slides](../../../)

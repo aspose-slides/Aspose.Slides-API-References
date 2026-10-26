@@ -1,13 +1,12 @@
 ---
 title: ISequence
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa una colección de secuencias de efectos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de efectos de secuencia.
 type: docs
-weight: 510
+weight: 590
 url: /es/aspose.slides.animation/isequence/
 ---
-
-## Interfaz ISequence
+## ISequence interfaz
 
 Representa una secuencia (colección de efectos).
 
@@ -19,31 +18,31 @@ public interface ISequence : IEnumerable<IEffect>
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Permite obtener la interfaz básica IEnumerable. Solo lectura IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Devuelve el número de efectos en una secuencia. Solo lectura Int32. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | Devuelve un efecto en el índice especificado. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Devuelve o establece el objetivo de forma para una secuencia INTERACTIVA. Si la secuencia no es interactiva, devuelve null. Lectura/escritura [`IShape`](../../aspose.slides/ishape). |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Permite obtener la interfaz base IEnumerable. IEnumerable de solo lectura. |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Devuelve el número de efectos en una secuencia. Int32 de solo lectura. |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | Devuelve un efecto en el índice especificado. |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Devuelve o establece el objetivo de forma para la secuencia INTERACTIVE. Si la secuencia no es interactiva, devuelve null. Lectura/escritura [`IShape`](../../aspose.slides/ishape). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Agrega un nuevo efecto de animación para el párrafo al final de la secuencia. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Agrega un nuevo efecto al final de la secuencia. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Agrega un nuevo efecto de animación de gráfico para categoría o serie al final de la secuencia. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Agrega un nuevo efecto de animación de gráfico para elementos en categoría o serie al final de la secuencia. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Añade un nuevo efecto de animación para el párrafo al final de la secuencia. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Añade un nuevo efecto al final de la secuencia. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Añade el nuevo efecto de animación de gráfico para la categoría o serie al final de la secuencia. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Añade el nuevo efecto de animación de gráfico para los elementos en la categoría o serie al final de la secuencia. |
 | [Clear](../../aspose.slides.animation/isequence/clear)() | Elimina todos los efectos de una colección. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Devuelve la cantidad de efectos para la forma especificada. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Devuelve un arreglo de efectos para el párrafo especificado. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Devuelve un arreglo de efectos para la forma especificada. |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Devuelve el recuento de efectos para la forma especificada. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Devuelve una matriz de efectos para el párrafo especificado. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Devuelve una matriz de efectos para la forma especificada. |
 | [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Elimina el efecto especificado de una colección. |
 | [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Elimina un efecto de una colección. |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Elimina el efecto para la forma especificada. |
 
-### Véase también
+### Ver también
 
-* interfaz [IEffect](../ieffect)
-* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblado [Aspose.Slides](../../)
+* interfaz [IEffect](../ieffect)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -27,7 +27,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getColorScheme () | Returns the color scheme. Read-only IColorScheme. |
 
- **Result:**
+ **Returns:**
 [ColorScheme](../colorscheme)
 
 
@@ -40,7 +40,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getFontScheme () | Returns the font scheme. Read-only IFontScheme. |
 
- **Result:**
+ **Returns:**
 [FontScheme](../fontscheme)
 
 
@@ -53,7 +53,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getFormatScheme () | Returns the shape format scheme. Read-only IFormatScheme. |
 
- **Result:**
+ **Returns:**
 [FormatScheme](../formatscheme)
 
 
@@ -66,7 +66,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -241,7 +241,7 @@ long
 | --- | --- |
 | isEmpty () | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

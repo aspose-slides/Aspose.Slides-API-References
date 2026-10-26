@@ -1,13 +1,12 @@
 ---
 title: Column
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une colonne dans un tableau.
 type: docs
-weight: 2500
+weight: 2590
 url: /fr/aspose.slides/column/
 ---
-
-## Classe Column
+## Column classe
 
 Représente une colonne dans un tableau.
 
@@ -19,30 +18,30 @@ public sealed class Column : CellCollection, IColumn
 
 | Nom | Description |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Renvoie l'objet ColumnFormat qui contient des propriétés de formatage pour cette colonne. Lecture seule [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Renvoie le nombre de cellules dans une collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Renvoie une cellule par sa position. Lecture seule [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Renvoie la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Renvoie la diapositive parente d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
-| [Width](../../aspose.slides/column/width) { get; set; } | Renvoie ou définit la largeur d'une colonne. Lecture/écriture Double. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Renvoie l'objet ColumnFormat qui contient les propriétés de mise en forme pour cette colonne. Lecture seule [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Renvoie le nombre de cellules dans une collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Renvoie une cellule par sa position. Lecture seule [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Renvoie la présentation parent d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Renvoie la diapositive parent d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [Width](../../aspose.slides/column/width) { get; set; } | Renvoie ou définit la largeur d'une colonne. Lecture/écriture Double. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes des cellules de colonne. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions des cellules de colonne. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de colonne. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe spécifiées pour les paragraphes de toutes les cellules de colonne. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion spécifiées pour les portions de toutes les cellules de colonne. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte spécifiées pour les cadres de texte de toutes les cellules de colonne. |
 
 ### Voir aussi
 
-* classe [CellCollection](../cellcollection)
-* interface [IColumn](../icolumn)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [CellCollection](../cellcollection)
+* interface [IColumn](../icolumn)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

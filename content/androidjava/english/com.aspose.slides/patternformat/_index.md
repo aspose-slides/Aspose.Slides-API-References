@@ -24,8 +24,8 @@ Represents a pattern to fill a shape.
 | [setPatternStyle(byte value)](#setPatternStyle-byte-) | Returns or sets the pattern style. |
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
-| [getTileImage(Integer background, Integer foreground)](#getTileImage-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
-| [getTileImage(Integer styleColor)](#getTileImage-java.lang.Integer-) | Creates a tile image for the pattern fill. |
+| [getTile(Integer background, Integer foreground)](#getTile-java.lang.Integer-java.lang.Integer-) | Creates a tile image for the pattern fill with a specified colors. |
+| [getTile(Integer styleColor)](#getTile-java.lang.Integer-) | Creates a tile image for the pattern fill. |
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -79,9 +79,9 @@ Returns the background pattern color. Read-only [IColorFormat](../../com.aspose.
 
 **Returns:**
 [IColorFormat](../../com.aspose.slides/icolorformat)
-### getTileImage(Integer background, Integer foreground) {#getTileImage-java.lang.Integer-java.lang.Integer-}
+### getTile(Integer background, Integer foreground) {#getTile-java.lang.Integer-java.lang.Integer-}
 ```
-public final Bitmap getTileImage(Integer background, Integer foreground)
+public final IImage getTile(Integer background, Integer foreground)
 ```
 
 
@@ -94,10 +94,10 @@ Creates a tile image for the pattern fill with a specified colors.
 | foreground | java.lang.Integer | The foreground java.lang.Integer for the pattern. |
 
 **Returns:**
-android.graphics.Bitmap - Tile android.graphics.Bitmap.
-### getTileImage(Integer styleColor) {#getTileImage-java.lang.Integer-}
+[IImage](../../com.aspose.slides/iimage) - Tile [IImage](../../com.aspose.slides/iimage).
+### getTile(Integer styleColor) {#getTile-java.lang.Integer-}
 ```
-public final Bitmap getTileImage(Integer styleColor)
+public final IImage getTile(Integer styleColor)
 ```
 
 
@@ -106,7 +106,7 @@ Creates a tile image for the pattern fill.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| styleColor | java.lang.Integer | The default java.lang.Integer, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| styleColor | java.lang.Integer | The default java.lang.Integer |
 
 **Returns:**
-android.graphics.Bitmap - Tile android.graphics.Bitmap.
+[IImage](../../com.aspose.slides/iimage) - Tile [IImage](../../com.aspose.slides/iimage).

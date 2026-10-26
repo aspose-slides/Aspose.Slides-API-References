@@ -3,7 +3,7 @@ title: RefreshThumbnail
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the presentation thumbnail will be refreshed. Read/write Boolean. Default value is true.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.export/pptxoptions/refreshthumbnail/
 ---
 

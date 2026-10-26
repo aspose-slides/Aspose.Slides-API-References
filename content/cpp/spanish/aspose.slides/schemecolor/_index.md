@@ -1,0 +1,43 @@
+---
+title: SchemeColor
+second_title: Referencia de la API de Aspose.Slides para C++
+description: Representa colores en un esquema de colores.
+type: docs
+weight: 6293
+url: /es/aspose.slides/schemecolor/
+---
+## SchemeColor enumeración
+
+Representa colores en un esquema de colores.
+
+```cpp
+enum class SchemeColor
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| NotDefined | -1 | El esquema de colores no está definido. |
+| Background1 | 0 |  |
+| Text1 | 1 |  |
+| Background2 | 2 |  |
+| Text2 | 3 |  |
+| Accent1 | 4 |  |
+| Accent2 | 5 |  |
+| Accent3 | 6 |  |
+| Accent4 | 7 |  |
+| Accent5 | 8 |  |
+| Accent6 | 9 |  |
+| Hyperlink | 10 |  |
+| FollowedHyperlink | 11 |  |
+| StyleColor | 12 |  |
+| Dark1 | 13 |  |
+| Light1 | 14 |  |
+| Dark2 | 15 |  |
+| Light2 | 16 |  |
+
+## Ver también
+
+* Espacio de nombres [Aspose::Slides](../)
+* Biblioteca [Aspose.Slides](../../)

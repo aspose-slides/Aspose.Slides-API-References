@@ -24,7 +24,7 @@ url: /aspose.slides/coloroperationcollection/
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
- **Result:**
+ **Returns:**
 [ColorOperation](../coloroperation)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- | --- |
 | operation | int | Operation type. |
 
- **Result:**
+ **Returns:**
 [ColorOperation](../coloroperation)
 
 
@@ -66,7 +66,7 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | cloneT () | Clones current object |
 
- **Result:**
+ **Returns:**
 [ColorOperationCollection](../coloroperationcollection)
 
 
@@ -79,7 +79,7 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | deepClone () | Creates a copy of a ColorOperationCollection collection. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -92,7 +92,7 @@ Object
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -105,7 +105,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
- **Result:**
+ **Returns:**
 [ColorOperation](../coloroperation)
 
 
@@ -126,7 +126,7 @@ Object
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
- **Result:**
+ **Returns:**
 [ColorOperation](../coloroperation)
 
 
@@ -146,7 +146,7 @@ Object
 | position | int | The index at which the operation will be inserted. |
 | operation | int | Operation type. |
 
- **Result:**
+ **Returns:**
 [ColorOperation](../coloroperation)
 
 
@@ -159,7 +159,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -172,7 +172,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -185,7 +185,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -224,7 +224,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of operations in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

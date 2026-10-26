@@ -17,7 +17,7 @@ url: /aspose.slides/xamloptions/
 | --- | --- |
 | XamlOptions() | Creates the XamlOptions instance. |
 
- **Result:**
+ **Returns:**
 XamlOptions
 
 
@@ -30,7 +30,7 @@ XamlOptions
 | --- | --- |
 | getExportHiddenSlides () | Determines whether hidden slides will be exported. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getOutputSaver () | Represents an implementation of IOutputSaver interface. |
 
- **Result:**
+ **Returns:**
 XamlOutputSaver
 
 

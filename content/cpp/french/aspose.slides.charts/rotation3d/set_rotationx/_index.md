@@ -1,0 +1,21 @@
+---
+title: set_RotationX()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Définit le degré de rotation autour de l'axe X, c.-à-d. dans la direction Y pour les graphiques 3D (entre -90 et 90 degrés). La propriété correspond à l'élément 21.2.2.157 rotX (X Rotation) dans ECMA-376 et à l'option \"Y Rotation\" dans PowerPoint 2007+. Écrire int8_t.
+type: docs
+weight: 14
+url: /fr/aspose.slides.charts/rotation3d/set_rotationx/
+---
+## Rotation3D::set_RotationX(int8_t) méthode
+
+Définit le degré de rotation autour de l'axe X, c.-à-d. dans la direction Y pour les graphiques 3D (entre -90 et 90 degrés). La propriété correspond à l'élément 21.2.2.157 rotX (X Rotation) dans ECMA-376 et à l'option \"Y Rotation\" dans PowerPoint 2007+. Écrivez **int8_t**.
+
+```cpp
+void Aspose::Slides::Charts::Rotation3D::set_RotationX(int8_t value) override
+```
+
+## Voir aussi
+
+* Classe [Rotation3D](../)
+* Espace de noms [Aspose::Slides::Charts](../../)
+* Bibliothèque [Aspose.Slides](../../../)

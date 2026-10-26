@@ -1,44 +1,43 @@
----  
+---
 title: SmartArtNode
-second_title: Référence de l'API Aspose.Slides pour .NET  
-description: Représente un nœud d'un objet SmartArt
+second_title: "Référence de l'API Aspose.Sildes pour .NET"
+description: "Représente un nœud d'un objet SmartArt"
 type: docs
-weight: 10320  
+weight: 10630
 url: /fr/aspose.slides.smartart/smartartnode/
----  
+---
+## SmartArtNode classe
 
-## Classe SmartArtNode  
+Représente un nœud d'un objet SmartArt
 
-Représente un nœud d'un objet SmartArt  
+```csharp
+public sealed class SmartArtNode : ISmartArtNode
+```
 
-```csharp  
-public sealed class SmartArtNode : ISmartArtNode  
-```  
+## Propriétés
 
-## Propriétés  
+| Nom | Description |
+| --- | --- |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Renvoie l'objet FillFormat qui contient les propriétés de format de remplissage pour le puce d'un nœud. Remarque : peut renvoyer null pour certains types de mise en page SmartArt qui ne fournissent pas de puces pour les nœuds. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Renvoie les collections de tous les nœuds enfants du nœud actuel. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Renvoie ou définit le nœud comme assistant. Read/write Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Renvoie true si ce nœud est un nœud masqué dans le modèle de données. Read-only Boolean. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Renvoie le niveau d’imbrication du nœud. Read-only Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Renvoie ou définit le type de mise en page du organigramme associé au nœud actuel. Read/write [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Renvoie ou définit la position basée sur zéro du nœud parmi les nœuds frères. Read/write Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Renvoie les collections de toutes les formes associées au nœud. Read-only [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Renvoie le cadre de texte du nœud. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
 
-| Nom | Description |  
-| --- | --- |  
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Renvoie l'objet FillFormat qui contient les propriétés de formatage de remplissage pour un point de nœud. Remarque : peut renvoyer null pour certains types de mise en page SmartArt qui ne fournissent pas de points pour les nœuds. Lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |  
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Renvoie les collections de tous les nœuds enfants du nœud actuel. Lecture seule [`ISmartArtNodeCollection`](../ismartartnodecollection). |  
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Renvoie ou définit le nœud en tant qu'assistant. Lecture/écriture Booléen. |  
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Renvoie true si ce nœud est un nœud caché dans le modèle de données. Lecture seule Booléen. |  
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Renvoie le niveau d'imbrication du nœud. Lecture seule Int32. |  
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Renvoie ou définit le type de mise en page de l'organigramme associé au nœud actuel. Lecture/écriture [`OrganizationChartLayoutType`](../organizationchartlayouttype). |  
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Renvoie ou définit la position basée sur zéro du nœud parmi les nœuds frères. Lecture/écriture Int32. |  
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Renvoie les collections de toutes les formes associées au nœud. Lecture seule [`ISmartArtShapeCollection`](../ismartartshapecollection). |  
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Renvoie le cadre de texte du nœud. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |  
+## Méthodes
 
-## Méthodes  
+| Nom | Description |
+| --- | --- |
+| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Supprime le nœud actuel. |
 
-| Nom | Description |  
-| --- | --- |  
-| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Supprime le nœud actuel. |  
+### Voir aussi
 
-### Voir aussi  
-
-* interface [ISmartArtNode](../ismartartnode)  
-* namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)  
-* assembly [Aspose.Slides](../../)  
+* interface [ISmartArtNode](../ismartartnode)
+* espace de noms [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

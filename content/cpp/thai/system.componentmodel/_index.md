@@ -1,0 +1,38 @@
+---
+title: "System::ComponentModel"
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ C++
+description: 
+type: docs
+weight: 404
+url: /th/system.componentmodel/
+---
+## คลาส
+
+| คลาส | คำอธิบาย |
+| --- | --- |
+| [AsyncCompletedEventArgs](./asynccompletedeventargs/) | ตัวอย่างของคลาสนี้จะถูกส่งเป็นอาร์กิวเมนต์ให้กับตัวมอบหมาย AsyncCompletedEventHandler. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [BackgroundWorker](./backgroundworker/) | ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [CancelEventArgs](./canceleventargs/) | อาร์กิวเมนต์ของเหตุการณ์ที่ยกเลิกได้. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [Component](./component/) | คลาสจำลองเพื่อทำให้โค้ดที่แปลโดยใช้คลาส [Component](./component/) คอมไพล์ได้. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [Container](./container/) | คลาสจำลองเพื่อให้โค้ดที่แปลโดยใช้คลาส [Container](./container/) ทำงานได้. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [Details_InvalidEnumArgumentException](./details_invalidenumargumentexception/) |  |
+| [Details_Win32Exception](./details_win32exception/) | ทำให้เกิดข้อยกเว้นสำหรับรหัสข้อผิดพลาด Win32. อย่าสร้างอินสแตนซ์ของคลาสนี้ด้วยตนเอง. ใช้คลาส Win32Exception แทน. อย่าห่ออินสแตนซ์ของคลาส Win32Exception เข้าไปใน [System::SmartPtr](../system/smartptr/). |
+| [DoWorkEventArgs](./doworkeventargs/) | อาร์กิวเมนต์ของเหตุการณ์ DoWork. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [EnumConverter](./enumconverter/) | คลาสจำลองสำหรับโค้ดที่แปลโดยใช้ EnumConverter ให้คอมไพล์ได้. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [IComponent](./icomponent/) | คลาสจำลองสำหรับโค้ดที่ใช้ IComponent เพื่อให้คอมไพล์หลังจากแปล. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [IContainer](./icontainer/) | อินเทอร์เฟซจำลองสำหรับโค้ดที่ใช้ IContainer เพื่อให้คอมไพล์. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [ITypeDescriptorContext](./itypedescriptorcontext/) | อินเทอร์เฟซจำลองสำหรับโค้ดที่ใช้ ITypeDescriptorContext เพื่อให้คอมไพล์. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [ProgressChangedEventArgs](./progresschangedeventargs/) | ตัวอย่างของคลาสนี้จะถูกส่งเป็นอาร์กิวเมนต์ให้กับตัวมอบหมาย ProgressChangedEventHandler. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [PropertyChangedEventArgs](./propertychangedeventargs/) | อาร์กิวเมนต์ของเหตุการณ์ PropertyChanged. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [RunWorkerCompletedEventArgs](./runworkercompletedeventargs/) | ตัวอย่างของคลาสนี้จะถูกส่งเป็นอาร์กิวเมนต์ให้กับตัวมอบหมาย RunWorkerCompletedEventHandler. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [TypeConverter](./typeconverter/) | คลาสที่จัดการการแปลงประเภทในโมเดลคอมโพเนนต์. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+| [TypeDescriptor](./typedescriptor/) | คลาสจำลองสำหรับโค้ดที่ใช้ TypeDescriptor ให้คอมไพล์ได้หลังจากแปล. ควรจัดสรรอ็อบเจกต์ของคลาสนี้โดยใช้ฟังก์ชัน [System::MakeObject()](../system/makeobject/) เท่านั้น. อย่าสร้างอินสแตนซ์ของประเภทนี้บนสแตกหรือใช้ operator new เพราะจะทำให้เกิดข้อผิดพลาดเวลารันและ/หรือข้อบกพร่องการตรวจสอบ. ควรห่อคลาสนี้ไว้ในพอยเตอร์ [System::SmartPtr](../system/smartptr/) และใช้พอยเตอร์นี้ส่งต่อให้ฟังก์ชันเป็นอาร์กิวเมนต์. |
+
+## ชนิดนิยาม
+
+| ชนิดนิยาม | คำอธิบาย |
+| --- | --- |
+| [DoWorkEventHandler](./doworkeventhandler/) | ประเภทตัวจัดการสำหรับจัดการเหตุการณ์ DoWork. |
+| [PropertyChangedEventHandler](./propertychangedeventhandler/) | ประเภทตัวจัดการสำหรับจัดการเหตุการณ์ PropertyChanged. |
+| [Win32Exception](./win32exception/) |  |
+| [InvalidEnumArgumentException](./invalidenumargumentexception/) |  |

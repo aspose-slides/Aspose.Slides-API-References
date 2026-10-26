@@ -141,6 +141,19 @@ Color
 ---
 
 
+### getIncludeOleData {#getIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| getIncludeOleData () | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getInkOptions {#getInkOptions}
 
 | Name | Description |
@@ -162,19 +175,6 @@ Color
 
  **Returns:**
 byte
-
-
----
-
-
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -380,6 +380,19 @@ void
 | Name | Description |
 | --- | --- |
 | setImageTransparentColor (Color) | Gets or sets the image transparent color. Value: The color of the image transparent. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setIncludeOleData {#setIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| setIncludeOleData (boolean) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
 
  **Returns:**
 void

@@ -17,7 +17,7 @@ url: /aspose.slides/documentproperties/
 | --- | --- |
 | DocumentProperties() | Initializes new instance of class DocumentProperties. |
 
- **Result:**
+ **Returns:**
 DocumentProperties
 
 
@@ -50,7 +50,7 @@ DocumentProperties
 | --- | --- |
 | cloneT() | Clones current object |
 
- **Result:**
+ **Returns:**
 [DocumentProperties](../documentproperties)
 
 
@@ -69,7 +69,7 @@ DocumentProperties
 | --- | --- | --- |
 | name | String | Name of a custom property to check. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | deepClone() | Clones current object |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -95,7 +95,7 @@ Object
 | --- | --- |
 | getAppVersion() | Returns the app version. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -108,7 +108,7 @@ String
 | --- | --- |
 | getApplicationTemplate() | Returns or sets the template of a application. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -121,7 +121,7 @@ String
 | --- | --- |
 | getAuthor() | Returns or sets the author of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -134,7 +134,7 @@ String
 | --- | --- |
 | getCategory() | Returns or sets the category of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -147,7 +147,7 @@ String
 | --- | --- |
 | getComments() | Returns or sets the comments of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -160,7 +160,7 @@ String
 | --- | --- |
 | getCompany() | Returns or sets the company property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -173,7 +173,7 @@ String
 | --- | --- |
 | getContentStatus() | Returns or sets the content status of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -186,7 +186,7 @@ String
 | --- | --- |
 | getContentType() | Returns or sets the content type of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -199,7 +199,7 @@ String
 | --- | --- |
 | getCountOfCustomProperties() | Returns the number of custom properties actually contained in a collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -212,7 +212,7 @@ int
 | --- | --- |
 | getCreatedTime() | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -231,14 +231,14 @@ Date
 | --- | --- | --- |
 | index | int | The zero-based index of a custom property to get. |
 
- **Result:**
+ **Returns:**
 String
 
  **Error**
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.ArgumentOutOfRangeException | Index is less than zero. Index is equal to or greater than Count. |
+ | ArgumentOutOfRangeException | Index is less than zero. Index is equal to or greater than Count. |
 
 
 ---
@@ -346,14 +346,53 @@ String
 ---
 
 
+### getHeadingPairs {#getHeadingPairs}
+
+| Name | Description |
+| --- | --- |
+| getHeadingPairs() | Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[]. |
+
+ **Returns:**
+[HeadingPair](../headingpair)
+
+
+---
+
+
+### getHiddenSlides {#getHiddenSlides}
+
+| Name | Description |
+| --- | --- |
+| getHiddenSlides() | Returns the number of hidden slides in a presentation document. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getHyperlinkBase {#getHyperlinkBase}
 
 | Name | Description |
 | --- | --- |
 | getHyperlinkBase() | Returns or sets the HyperlinkBase document property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
+
+
+---
+
+
+### getHyperlinksChanged {#getHyperlinksChanged}
+
+| Name | Description |
+| --- | --- |
+| getHyperlinksChanged() | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -365,7 +404,7 @@ String
 | --- | --- |
 | getKeywords() | Returns or sets the keywords of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -378,7 +417,7 @@ String
 | --- | --- |
 | getLastPrinted() | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
 
- **Result:**
+ **Returns:**
 Date
 
 
@@ -391,7 +430,7 @@ Date
 | --- | --- |
 | getLastSavedBy() | Returns or sets the name of a last person who modified a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -404,8 +443,21 @@ String
 | --- | --- |
 | getLastSavedTime() | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary. |
 
- **Result:**
+ **Returns:**
 Date
+
+
+---
+
+
+### getLinksUpToDate {#getLinksUpToDate}
+
+| Name | Description |
+| --- | --- |
+| getLinksUpToDate() | Indicates whether hyperlinks in a document are up-to-date. Set this element to true to indicate that hyperlinks are updated. Set this element to false to indicate that hyperlinks are outdated. Read/write boolean. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -417,8 +469,21 @@ Date
 | --- | --- |
 | getManager() | Returns or sets the manager property. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
+
+
+---
+
+
+### getMultimediaClips {#getMultimediaClips}
+
+| Name | Description |
+| --- | --- |
+| getMultimediaClips() | Returns the total number of sound or video clips that are present in the document. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -430,8 +495,34 @@ String
 | --- | --- |
 | getNameOfApplication() | Returns or sets the name of the application. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
+
+
+---
+
+
+### getNotes {#getNotes}
+
+| Name | Description |
+| --- | --- |
+| getNotes() | Returns the number of slides in a presentation containing notes. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getParagraphs {#getParagraphs}
+
+| Name | Description |
+| --- | --- |
+| getParagraphs() | Returns the total number of paragraphs found in a document if applicable. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -443,7 +534,7 @@ String
 | --- | --- |
 | getPresentationFormat() | Returns or sets the intended format of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -456,8 +547,34 @@ String
 | --- | --- |
 | getRevisionNumber() | Returns or sets the presentation revision number. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
+
+
+---
+
+
+### getScaleCrop {#getScaleCrop}
+
+| Name | Description |
+| --- | --- |
+| getScaleCrop() | Indicates the display mode of the document thumbnail. Set this element to true to enable scaling of the document thumbnail to the display. Set this element to false to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### getSensitivityLabels {#getSensitivityLabels}
+
+| Name | Description |
+| --- | --- |
+| getSensitivityLabels() | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
+
+ **Returns:**
+[SensitivityLabel](../sensitivitylabel)
 
 
 ---
@@ -469,8 +586,21 @@ int
 | --- | --- |
 | getSharedDoc() | Determines whether the presentation is shared between multiple people. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
+
+
+---
+
+
+### getSlides {#getSlides}
+
+| Name | Description |
+| --- | --- |
+| getSlides() | Returns the total number of slides in a presentation document. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -482,7 +612,7 @@ boolean
 | --- | --- |
 | getSubject() | Returns or sets the subject of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -495,7 +625,20 @@ String
 | --- | --- |
 | getTitle() | Returns or sets the title of a presentation. Read/write String. |
 
- **Result:**
+ **Returns:**
+String
+
+
+---
+
+
+### getTitlesOfParts {#getTitlesOfParts}
+
+| Name | Description |
+| --- | --- |
+| getTitlesOfParts() | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[]. |
+
+ **Returns:**
 String
 
 
@@ -508,8 +651,21 @@ String
 | --- | --- |
 | getTotalEditingTime() | Total editing time of a presentation. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
+
+
+---
+
+
+### getWords {#getWords}
+
+| Name | Description |
+| --- | --- |
+| getWords() | Returns the total number of words contained in a document. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -521,7 +677,7 @@ double
 | --- | --- |
 | get_Item(String) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -540,7 +696,7 @@ Object
 | --- | --- | --- |
 | name | String | Name of a custom property to remove. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -739,6 +895,16 @@ boolean
 ---
 
 
+### setHyperlinksChanged {#setHyperlinksChanged}
+
+| Name | Description |
+| --- | --- |
+| setHyperlinksChanged(boolean) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean. |
+
+
+---
+
+
 ### setKeywords {#setKeywords}
 
 | Name | Description |
@@ -779,6 +945,16 @@ boolean
 ---
 
 
+### setLinksUpToDate {#setLinksUpToDate}
+
+| Name | Description |
+| --- | --- |
+| setLinksUpToDate(boolean) | Indicates whether hyperlinks in a document are up-to-date. Set this element to true to indicate that hyperlinks are updated. Set this element to false to indicate that hyperlinks are outdated. Read/write boolean. |
+
+
+---
+
+
 ### setManager {#setManager}
 
 | Name | Description |
@@ -814,6 +990,16 @@ boolean
 | Name | Description |
 | --- | --- |
 | setRevisionNumber(int) | Returns or sets the presentation revision number. Read/write int. |
+
+
+---
+
+
+### setScaleCrop {#setScaleCrop}
+
+| Name | Description |
+| --- | --- |
+| setScaleCrop(boolean) | Indicates the display mode of the document thumbnail. Set this element to true to enable scaling of the document thumbnail to the display. Set this element to false to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean. |
 
 
 ---

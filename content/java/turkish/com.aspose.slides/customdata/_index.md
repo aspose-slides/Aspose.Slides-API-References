@@ -1,0 +1,54 @@
+---
+title: CustomData
+second_title: Aspose.Slides için Java API Referansı
+description: Özel veri için kapsayıcıyı temsil eder.
+type: docs
+url: /tr/com.aspose.slides/customdata/
+---
+**Kalıtım:**
+java.lang.Object
+
+**Tüm Uygulanan Arabirimler:**
+[com.aspose.slides.ICustomData](../../com.aspose.slides/icustomdata), com.aspose.slides.IDOMObject
+```
+public class CustomData implements ICustomData, IDOMObject
+```
+
+Özel veri için kapsayıcıyı temsil eder.
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [getTags()](#getTags--) | Müşteri Veri Etiketleri koleksiyonunu döndürür. |
+| [getCustomXmlParts()](#getCustomXmlParts--) | Özel xml parçaları koleksiyonunu döndürür. |
+| [getParent_Immediate()](#getParent-Immediate--) |  |
+### getTags() {#getTags--}
+```
+public final ITagCollection getTags()
+```
+
+
+Müşteri Veri Etiketleri koleksiyonunu döndürür. Yalnızca okuma [ITagCollection](../../com.aspose.slides/itagcollection).
+
+**Döndürür:**
+[ITagCollection](../../com.aspose.slides/itagcollection)
+### getCustomXmlParts() {#getCustomXmlParts--}
+```
+public final ICustomXmlPartCollection getCustomXmlParts()
+```
+
+
+Özel xml parçaları koleksiyonunu döndürür. Yalnızca okuma [ICustomXmlPartCollection](../../com.aspose.slides/icustomxmlpartcollection).
+
+**Döndürür:**
+[ICustomXmlPartCollection](../../com.aspose.slides/icustomxmlpartcollection)
+### getParent_Immediate() {#getParent-Immediate--}
+```
+public final IDOMObject getParent_Immediate()
+```
+
+
+Parent_Immediate nesnesini döndürür. Yalnızca okuma IDOMObject.
+
+**Döndürür:**
+com.aspose.slides.IDOMObject

@@ -19,7 +19,7 @@ url: /aspose.slides/stringchartvalue/
 | --- | --- |
 | getAsCells() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
- **Result:**
+ **Returns:**
 [ChartCellCollection](../chartcellcollection)
 
 
@@ -32,7 +32,7 @@ url: /aspose.slides/stringchartvalue/
 | --- | --- |
 | getAsLiteralString() | Returns or sets value as literal string. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -45,7 +45,7 @@ String
 | --- | --- |
 | getCellsAddressInWorkbook() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -58,44 +58,8 @@ String
 | --- | --- |
 | getData() | Returns or sets Data object. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
-
-
----
-
-
-### getData {#getData}
-
-| Name | Description |
-| --- | --- |
-| getData() | Data. Read/write Object. |
-
- **Result:**
-Object
-
-
----
-
-
-### getDataSourceType {#getDataSourceType}
-
-| Name | Description |
-| --- | --- |
-| getDataSourceType() | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
-
- **Result:**
-int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -131,26 +95,6 @@ int
 ---
 
 
-### setData {#setData}
-
-| Name | Description |
-| --- | --- |
-| setData(Object) | Data. Read/write Object. |
-
-
----
-
-
-### setDataSourceType {#setDataSourceType}
-
-| Name | Description |
-| --- | --- |
-| setDataSourceType(int) | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceType. For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. |
-
-
----
-
-
 ### setFromOneCell {#setFromOneCell}
 
 | Name | Description |
@@ -173,7 +117,7 @@ int
 | --- | --- |
 | toString() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
- **Result:**
+ **Returns:**
 String
 
 

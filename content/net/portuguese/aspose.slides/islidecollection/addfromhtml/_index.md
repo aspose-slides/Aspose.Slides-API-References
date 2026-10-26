@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes para .NET Referência da API
+description: Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+type: docs
+weight: 40
+url: /pt/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlText | String | Html a ser adicionado. |
+| resolver | IExternalResourceResolver | Um objeto de retorno de chamada usado para buscar objetos externos. Se este parâmetro for nulo, todos os objetos externos serão ignorados. |
+| uri | String | Um URI do HTML especificado. Usado para resolver links relativos. |
+
+### Valor de Retorno
+
+Slides adicionados.
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlText | String | Html a ser adicionado. |
+
+### Valor de Retorno
+
+Slides adicionados
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlReader | TextReader | Objeto TextReader que será usado como fonte de um arquivo HTML. |
+| resolver | IExternalResourceResolver | Um objeto de retorno de chamada usado para buscar objetos externos. Se este parâmetro for nulo, todos os objetos externos serão ignorados. |
+| uri | String | Um URI do HTML especificado. Usado para resolver links relativos. |
+
+### Valor de Retorno
+
+Slides adicionados.
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlReader | TextReader | Objeto TextReader que será usado como fonte de um arquivo HTML. |
+
+### Valor de Retorno
+
+Slides adicionados
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlStream | Stream | Objeto Stream que será usado como fonte de um arquivo HTML. |
+| resolver | IExternalResourceResolver | Um objeto de retorno de chamada usado para buscar objetos externos. Se este parâmetro for nulo, todos os objetos externos serão ignorados. |
+| uri | String | Um URI do HTML especificado. Usado para resolver links relativos. |
+
+### Valor de Retorno
+
+Slides adicionados.
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+Cria slides a partir de texto HTML e os adiciona ao final da coleção.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| htmlStream | Stream | Objeto Stream que será usado como fonte de um arquivo HTML. |
+
+### Valor de Retorno
+
+Slides adicionados
+
+### Ver Também
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

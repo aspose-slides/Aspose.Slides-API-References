@@ -1,0 +1,24 @@
+---
+title: get_LimeGreen()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: वापस देता है ठोस भराव रंग जिसका हेक्साडेसिमल मान #FF32CD32 है।
+type: docs
+weight: 1002
+url: /hi/system.drawing/brushes/get_limegreen/
+---
+## Brushes::get_LimeGreen() विधि
+
+
+वापस देता है ठोस भराव रंग जिसका हेक्साडेसिमल मान #FF32CD32 है।
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_LimeGreen()
+```
+
+## संबंधित देखें
+
+* टाइपडिफ़ [SharedPtr](../../../system/sharedptr/)
+* क्लास [Brush](../../brush/)
+* क्लास [Brushes](../)
+* नामस्थान [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

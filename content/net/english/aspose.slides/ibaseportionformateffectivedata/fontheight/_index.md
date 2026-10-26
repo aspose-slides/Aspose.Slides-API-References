@@ -1,7 +1,7 @@
 ---
 title: FontHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the font height of a portion. Read-only Single.
+description: Returns the font height of the text portion in points. Read-only Single.
 type: docs
 weight: 80
 url: /aspose.slides/ibaseportionformateffectivedata/fontheight/
@@ -9,7 +9,7 @@ url: /aspose.slides/ibaseportionformateffectivedata/fontheight/
 
 ## IBasePortionFormatEffectiveData.FontHeight property
 
-Returns the font height of a portion. Read-only Single.
+Returns the font height of the text portion, in points. Read-only Single.
 
 ```csharp
 public float FontHeight { get; }

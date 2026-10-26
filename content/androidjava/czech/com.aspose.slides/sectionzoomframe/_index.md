@@ -1,0 +1,71 @@
+---
+title: SectionZoomFrame
+second_title: Aspose.Slides pro Android pomocí Java API Reference
+description: Reprezentuje objekt Section Zoom na snímku.
+type: docs
+url: /cs/com.aspose.slides/sectionzoomframe/
+---
+**Dědičnost:**
+java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject), [com.aspose.slides.ZoomObject](../../com.aspose.slides/zoomobject)
+
+**Všechny implementované rozhraní:**
+[com.aspose.slides.ISectionZoomFrame](../../com.aspose.slides/isectionzoomframe)
+```
+public class SectionZoomFrame extends ZoomObject implements ISectionZoomFrame
+```
+
+Reprezentuje objekt Section Zoom na snímku.
+## Metody
+
+| Metoda | Popis |
+| --- | --- |
+| [getTargetSection()](#getTargetSection--) | Získá nebo nastaví objekt sekce, na který odkazuje objekt Section Zoom. |
+| [setTargetSection(ISection value)](#setTargetSection-com.aspose.slides.ISection-) | Získá nebo nastaví objekt sekce, na který odkazuje objekt Section Zoom. |
+### getTargetSection() {#getTargetSection--}
+```
+public final ISection getTargetSection()
+```
+
+Získá nebo nastaví objekt sekce, na který odkazuje objekt Section Zoom. Čtení/zápis [ISection](../../com.aspose.slides/isection).
+
+--------------------
+
+> ```
+> Next example demonstrates changing target section and creates new image for the section zoom object:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISectionZoomFrame sectionZoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1));
+>      sectionZoomFrame.setTargetSection(pres.getSections().get_Item(2));
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Vrací:**
+[ISection](../../com.aspose.slides/isection)
+### setTargetSection(ISection value) {#setTargetSection-com.aspose.slides.ISection-}
+```
+public final void setTargetSection(ISection value)
+```
+
+Získá nebo nastaví objekt sekce, na který odkazuje objekt Section Zoom. Čtení/zápis [ISection](../../com.aspose.slides/isection).
+
+--------------------
+
+> ```
+> Next example demonstrates changing target section and creates new image for the section zoom object:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISectionZoomFrame sectionZoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1));
+>      sectionZoomFrame.setTargetSection(pres.getSections().get_Item(2));
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parametry:**
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| value | [ISection](../../com.aspose.slides/isection) |  |

@@ -1,0 +1,66 @@
+---
+title: VerifyData()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्दिष्ट डेटा के हस्ताक्षर की वैधता की पुष्टि करता है।
+type: docs
+weight: 105
+url: /hi/system.security.cryptography/ecdsa/verifydata/
+---
+## ECDsa::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) मेथड
+
+निर्दिष्ट डेटा की हस्ताक्षर वैध है या नहीं, यह सत्यापित करता है।
+
+```cpp
+bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data, const ByteArrayPtr &signature, const HashAlgorithmName &hash_algorithm)
+```
+
+### आर्ग्युमेंट्स
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | हस्ताक्षरित डेटा। |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | हस्ताक्षर डेटा। |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | हैश एल्गोरिदम। यदि हस्ताक्षर वैध है तो true लौटाएँ, अन्यथा false। |
+
+## ECDsa::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&) मेथड
+
+निर्दिष्ट डेटा की हस्ताक्षर वैध है या नहीं, यह सत्यापित करता है।
+
+```cpp
+bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data, int32_t offset, int32_t count, const ByteArrayPtr &signature, const HashAlgorithmName &hash_algorithm)
+```
+
+### आर्ग्युमेंट्स
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | हस्ताक्षरित डेटा। |
+| offset | **int32_t** | डेटा में ऑफ़सेट। |
+| count | **int32_t** | हैश करने के लिए बाइट्स की संख्या। |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | हस्ताक्षर डेटा। |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | हैश एल्गोरिदम। यदि हस्ताक्षर वैध है तो true लौटाएँ, अन्यथा false। |
+
+## ECDsa::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) मेथड
+
+निर्दिष्ट बाइनरी स्ट्रीम की हस्ताक्षर वैध है या नहीं, यह सत्यापित करता है।
+
+```cpp
+bool System::Security::Cryptography::ECDsa::VerifyData(const StreamPtr &stream, const ByteArrayPtr &signature, const HashAlgorithmName &hash_algorithm)
+```
+
+### आर्ग्युमेंट्स
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| stream | const [StreamPtr](../../../system/streamptr/)\& | हस्ताक्षरित डेटा। |
+| signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | हस्ताक्षर डेटा। |
+| hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | हैश एल्गोरिदम। यदि हस्ताक्षर वैध है तो true लौटाएँ, अन्यथा false। |
+
+## संबंधित देखें
+
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Typedef [StreamPtr](../../../system/streamptr/)
+* Class [ECDsa](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
+* Namespace [System::Security::Cryptography](../../)
+* Library [Aspose.Slides](../../../)

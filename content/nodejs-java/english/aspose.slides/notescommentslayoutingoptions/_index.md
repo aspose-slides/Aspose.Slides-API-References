@@ -17,7 +17,7 @@ url: /aspose.slides/notescommentslayoutingoptions/
 | --- | --- |
 | NotesCommentsLayoutingOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 NotesCommentsLayoutingOptions
 
 
@@ -28,9 +28,9 @@ NotesCommentsLayoutingOptions
 
 | Name | Description |
 | --- | --- |
-| getCommentsAreaColor () | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is java.awt.Color#BLUE. |
+| getCommentsAreaColor () | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is Color.SkyBlue. |
 
- **Result:**
+ **Returns:**
 Color
 
 
@@ -43,7 +43,7 @@ Color
 | --- | --- |
 | getCommentsAreaWidth () | Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right). Minimal and default value is 150. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -54,9 +54,9 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCommentsPosition () | Gets or sets the position of the comments on the page. Default is CommentsPositions#None. |
+| getCommentsPosition () | Gets or sets the position of the comments on the page. Default is CommentsPositions.None. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -67,9 +67,9 @@ int
 
 | Name | Description |
 | --- | --- |
-| getNotesPosition () | Gets or sets the position of the notes on the page. Default is NotesPositions#None. |
+| getNotesPosition () | Gets or sets the position of the notes on the page. Default is NotesPositions.None. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getShowCommentsByNoAuthor () | Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed). Default value is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -93,7 +93,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCommentsAreaColor (Color) | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is java.awt.Color#BLUE. |
+| setCommentsAreaColor (Color) | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is Color.SkyBlue. |
 
 
 ---
@@ -113,7 +113,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCommentsPosition (int) | Gets or sets the position of the comments on the page. Default is CommentsPositions#None. |
+| setCommentsPosition (int) | Gets or sets the position of the comments on the page. Default is CommentsPositions.None. |
 
 
 ---
@@ -123,7 +123,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNotesPosition (int) | Gets or sets the position of the notes on the page. Default is NotesPositions#None. |
+| setNotesPosition (int) | Gets or sets the position of the notes on the page. Default is NotesPositions.None. |
 
 
 ---

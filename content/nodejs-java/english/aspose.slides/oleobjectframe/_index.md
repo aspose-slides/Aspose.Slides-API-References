@@ -17,7 +17,7 @@ url: /aspose.slides/oleobjectframe/
 | --- | --- |
 | getEmbeddedData () | Gets or sets information about OLE embedded data. Read/write IOleEmbeddedDataInfo. |
 
- **Result:**
+ **Returns:**
 [OleEmbeddedDataInfo](../oleembeddeddatainfo)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/oleobjectframe/
 | --- | --- |
 | getEmbeddedFileLabel () | Returns the file name of embedded OLE object |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getEmbeddedFileName () | Returns the path of embedded OLE object |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -56,7 +56,7 @@ String
 | --- | --- |
 | getLinkFileName () | Returns the full path to a linked file. Short file name will be used. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getLinkPathLong () | Returns the full path to a linked file. Long file name will be used. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getLinkPathRelative () | Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. In the Ppt presentations, some Ole object links may have a relative representation. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -95,7 +95,7 @@ String
 | --- | --- |
 | getObjectName () | Returns or sets the name of an object. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -108,7 +108,7 @@ String
 | --- | --- |
 | getObjectProgId () | Returns the ProgID of an object. Read only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -121,7 +121,7 @@ String
 | --- | --- |
 | getSubstitutePictureFormat () | Returns OleObject image fill properties object. Read-only IPictureFillFormat. |
 
- **Result:**
+ **Returns:**
 [PictureFillFormat](../picturefillformat)
 
 
@@ -134,7 +134,7 @@ String
 | --- | --- |
 | getSubstitutePictureTitle () | Returns or sets the title for OleObject icon. Read/write String. When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -147,7 +147,7 @@ String
 | --- | --- |
 | getUpdateAutomatic () | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -160,7 +160,7 @@ boolean
 | --- | --- |
 | isObjectIcon () | Determines whether an object is visible as icon. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -173,7 +173,7 @@ boolean
 | --- | --- |
 | isObjectLink () | Determines whether an object is linked to external file. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

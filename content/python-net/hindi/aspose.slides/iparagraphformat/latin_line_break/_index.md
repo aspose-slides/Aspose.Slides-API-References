@@ -1,0 +1,28 @@
+---
+title: latin_line_break property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/iparagraphformat/latin_line_break/
+weight: 110
+---
+## latin_line_break गुण
+निर्धारित करता है कि पैराग्राफ में लैटिन लाइन ब्रेक का उपयोग किया जाता है या नहीं। कोई विरासत लागू नहीं की गई।
+            पढ़ें/लिखें [`NullableBool`](/slides/python-net/hi/aspose.slides/nullablebool).
+
+### परिभाषा:
+```python
+@property
+def latin_line_break(self):
+    ...
+
+@latin_line_break.setter
+def latin_line_break(self, value):
+    ...
+```
+
+### संबंधित
+* क्लास [`IParagraphFormat`](/slides/python-net/hi/aspose.slides/iparagraphformat)
+* एन्यूमरेशन [`NullableBool`](/slides/python-net/hi/aspose.slides/nullablebool)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -17,7 +17,7 @@ url: /aspose.slides/seteffect/
 | --- | --- |
 | SetEffect() |  |
 
- **Result:**
+ **Returns:**
 SetEffect
 
 
@@ -30,7 +30,7 @@ SetEffect
 | --- | --- |
 | getTo () | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 

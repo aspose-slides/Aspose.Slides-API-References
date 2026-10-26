@@ -39,6 +39,8 @@ Allows to specify additional options (such as format or default font) when loadi
 | [setSpreadsheetOptions(ISpreadsheetOptions value)](#setSpreadsheetOptions-com.aspose.slides.ISpreadsheetOptions-) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [getDefaultTextLanguage()](#getDefaultTextLanguage--) | Returns or sets the default language for presentation text. |
 | [setDefaultTextLanguage(String value)](#setDefaultTextLanguage-java.lang.String-) | Returns or sets the default language for presentation text. |
+| [getDeleteEmbeddedBinaryObjects()](#getDeleteEmbeddedBinaryObjects--) | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. |
+| [setDeleteEmbeddedBinaryObjects(boolean value)](#setDeleteEmbeddedBinaryObjects-boolean-) | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. |
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public abstract int getLoadFormat()
@@ -397,4 +399,81 @@ Returns or sets the default language for presentation text. Read/write String.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getDeleteEmbeddedBinaryObjects() {#getDeleteEmbeddedBinaryObjects--}
+```
+public abstract boolean getDeleteEmbeddedBinaryObjects()
+```
+
+
+Determines if Aspose.Slides will delete all embedded binary objects while presentation loading.
+
+The types of the embedded binary objects:
+
+ *  
+ *  
+ *  
+
+Read/write  boolean .
+
+--------------------
+
+> ```
+> The following example shows how to load the presentation without any embedded binary objects.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDeleteEmbeddedBinaryObjects(true);
+>  Presentation pres = new Presentation("pres.ppt", loadOptions);
+>  try {
+>      pres.save("output_WithoutBinaryObjects.ppt", SaveFormat.Ppt);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
+
+**Returns:**
+boolean
+### setDeleteEmbeddedBinaryObjects(boolean value) {#setDeleteEmbeddedBinaryObjects-boolean-}
+```
+public abstract void setDeleteEmbeddedBinaryObjects(boolean value)
+```
+
+
+Determines if Aspose.Slides will delete all embedded binary objects while presentation loading.
+
+The types of the embedded binary objects:
+
+ *  
+ *  
+ *  
+
+Read/write  boolean .
+
+--------------------
+
+> ```
+> The following example shows how to load the presentation without any embedded binary objects.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDeleteEmbeddedBinaryObjects(true);
+>  Presentation pres = new Presentation("pres.ppt", loadOptions);
+>  try {
+>      pres.save("output_WithoutBinaryObjects.ppt", SaveFormat.Ppt);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

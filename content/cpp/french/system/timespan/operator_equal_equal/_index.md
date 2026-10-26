@@ -1,0 +1,42 @@
+---
+title: operator==()
+second_title: Référence API Aspose.Slides pour C++
+description: Détermine si l'intervalle de temps représenté par l'objet actuel est égal à l'intervalle de temps représenté par l'objet spécifié.
+type: docs
+weight: 352
+url: /fr/system/timespan/operator_equal_equal/
+---
+## TimeSpan::operator==(TimeSpan) const méthode
+
+
+Détermine si l'intervalle de temps représenté par l'objet actuel est égal à l'intervalle de temps représenté par l'objet spécifié.
+
+```cpp
+constexpr bool System::TimeSpan::operator==(TimeSpan value) const
+```
+
+
+### Arguments
+
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| value | [TimeSpan](../) | L'objet [TimeSpan](../) avec lequel comparer l'objet actuel |
+
+### Valeur de retour
+
+True si l'objet actuel et l'objet spécifié représentent le même intervalle de temps, sinon - false
+
+## TimeSpan::operator==(std::nullptr_t) const méthode
+
+
+
+
+```cpp
+constexpr bool System::TimeSpan::operator==(std::nullptr_t) const
+```
+
+## Voir aussi
+
+* Classe [TimeSpan](../)
+* Espace de noms [System](../../)
+* Bibliothèque [Aspose.Slides](../../../)

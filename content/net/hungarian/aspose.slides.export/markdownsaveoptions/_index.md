@@ -1,0 +1,71 @@
+---
+title: MarkdownSaveOptions
+second_title: Aspose.Sildes .NET API referencia
+description: Azokat a beállításokat képviseli, amelyek szabályozzák, hogyan kell a bemutatót markdown formátumba menteni.
+type: docs
+weight: 4250
+url: /hu/aspose.slides.export/markdownsaveoptions/
+---
+## MarkdownSaveOptions osztály
+
+Olyan beállításokat képviseli, amelyek szabályozzák, hogyan kell a bemutatót markdown formátumba menteni.
+
+```csharp
+public class MarkdownSaveOptions : SaveOptions
+```
+
+## Konstruktorok
+
+| Név | Leírás |
+| --- | --- |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
+
+## Tulajdonságok
+
+| Név | Leírás |
+| --- | --- |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Meghatározza az alap elérési utat, ahol a forrásokkal rendelkező dokumentum lesz mentve. Alapértelmezett az alkalmazás aktuális könyvtára. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a forrás betűtípus hiánya esetén használt betűtípust. Olvasás/írás String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Megadja a bemutató konvertálásához használandó markdown specifikációt. Alapértelmezett a `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Megadja a bemutató konvertálásához használandó markdown specifikációt. Alapértelmezett a `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradient vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Megadja a képek mentéséhez használandó mappa nevét. Alapértelmezett a `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Megadja, hogy a generált dokumentumban milyen új sor karakterek legyenek: \\r (Macintosh), \\n (Unix) vagy \\r\\n (Windows). Alapértelmezett a `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel, amely a mentés előrehaladását százalékban jelzi. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Ha `true`-ra van állítva, eltávolítja az üres vagy csak szóközöket tartalmazó sorokat a végső Markdown kimenetből. Alapértelmezett a `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Megadja, hogy a generált dokumentumban megjelenjenek-e a megjegyzések. Alapértelmezett a `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentumban legyenek-e rejtett diák. Alapértelmezett a `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Megadja, hogy a generált dokumentumban megjelenjen-e az egyes diák száma. Alapértelmezett a `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a bemutató mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Visszaadja vagy beállítja a Markdown kimenetben a diaszám-fejlécekhez használt formátumkarakterláncot. A formátumnak tartalmaznia kell a "{0}" helyettesítőt, amely exportáláskor a dia indexével lesz helyettesítve. Példa: "# Slide {0}" eredménye "# Slide 1", "# Slide 2" stb. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+
+### Példák
+
+Példa:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+    {
+        ShowHiddenSlides = true,
+        ShowSlideNumber = true,
+        Flavor = Flavor.Github,
+        ExportType = MarkdownExportType.Sequential,
+        NewLineType = NewLineType.Windows
+    };
+    
+    pres.Save("doc.md", new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, SaveFormat.Md, markdownSaveOptions);
+}
+```
+
+### Lásd még
+
+* osztály [SaveOptions](../saveoptions)
+* névtér [Aspose.Slides.Export](../../aspose.slides.export)
+* összeállítás [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,0 +1,23 @@
+---
+title: get_MediumBlue()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 16진수 값이 #FF0000CD인 단색 채우기 색상을 반환합니다.
+type: docs
+weight: 1067
+url: /ko/system.drawing/brushes/get_mediumblue/
+---
+## Brushes::get_MediumBlue() 메서드
+
+16진수 값이 #FF0000CD인 단색 채우기 색상을 반환합니다.
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_MediumBlue()
+```
+
+## 관련 항목
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* 클래스 [Brush](../../brush/)
+* 클래스 [Brushes](../)
+* 네임스페이스 [System::Drawing](../../)
+* 라이브러리 [Aspose.Slides](../../../)

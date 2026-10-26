@@ -23,7 +23,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 | --- | --- | --- |
 | section | [Section](../section) | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
 
- **Result:**
+ **Returns:**
 [SummaryZoomSection](../summaryzoomsection)
 
  **Error**
@@ -46,16 +46,6 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getSummarySection {#getSummarySection}
 
 | Name | Description |
@@ -68,7 +58,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 | --- | --- | --- |
 | section | [Section](../section) | Section to find ISection |
 
- **Result:**
+ **Returns:**
 [SummaryZoomSection](../summaryzoomsection)
 
 
@@ -81,7 +71,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -94,7 +84,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only ISummaryZoomSection. |
 
- **Result:**
+ **Returns:**
 [SummaryZoomSection](../summaryzoomsection)
 
 
@@ -113,7 +103,7 @@ Object
 | --- | --- | --- |
 | summaryZoomSection | [SummaryZoomSection](../summaryzoomsection) | SummaryZoomSection object to find ISummaryZoomSection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -126,7 +116,7 @@ int
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -139,7 +129,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -152,7 +142,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -181,7 +171,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

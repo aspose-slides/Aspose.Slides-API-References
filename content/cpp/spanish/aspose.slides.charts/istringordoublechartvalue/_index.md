@@ -1,0 +1,68 @@
+---
+title: IStringOrDoubleChartValue
+second_title: Referencia de API de Aspose.Slides para C++
+description: "Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal."
+type: docs
+weight: 1210
+url: /es/aspose.slides.charts/istringordoublechartvalue/
+---
+## IStringOrDoubleChartValue clase
+
+Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
+
+```cpp
+class IStringOrDoubleChartValue : public Aspose::Slides::Charts::ISingleCellChartValue
+```
+
+## Métodos
+
+| Método | Descripción |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compara objetos usando la semántica de C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compara objetos de tipo referencia al estilo de C#. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compara objetos de tipo valor al estilo de C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emula la comparación de punto flotante al estilo C# donde dos NaN se consideran iguales aunque, según IEC 60559:1989, NaN no es igual a ningún valor, incluido NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emula la comparación de punto flotante al estilo C# donde dos NaN se consideran iguales aunque, según IEC 60559:1989, NaN no es igual a ningún valor, incluido NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Solo para uso interno. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IChartDataCell](../ichartdatacell/)\> [get_AsCell](../isinglecellchartvalue/get_ascell/)() | Devuelve la celda de datos del gráfico. Leer [IChartDataCell](../ichartdatacell/). |
+| virtual **double** [get_AsLiteralDouble](./get_asliteraldouble/)() | Devuelve el doble literal si la propiedad DataSourceType es [DataSourceType::DoubleLiterals](../datasourcetype/). Leer **double**. |
+| virtual [System::String](../../system/string/) [get_AsLiteralString](./get_asliteralstring/)() | Devuelve la cadena literal si la propiedad DataSourceType es [DataSourceType::StringLiterals](../datasourcetype/). Leer [System::String](../../system/string/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\> [get_Data](../ibasechartvalue/get_data/)() |  |
+| virtual [Aspose::Slides::Charts::DataSourceType](../datasourcetype/) [get_DataSourceType](../ibasechartvalue/get_datasourcetype/)() | Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble está activa. En otras palabras, especifica el tipo de valor de la propiedad Data. Esta propiedad es solo de lectura. Para cambiar el valor de esta propiedad puedes usar una de las propiedades ChartDataPointCollection.DataSourceTypeFor<...>. Leer [DataSourceType](../datasourcetype/). |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Obtiene la estructura de datos del contador de referencias asociada al objeto. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Análogo al método [Object.GetHashCode()](../../system/object/gethashcode/) de C#. Permite generar hash de objetos personalizados. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Obtiene el tipo real del objeto. Análogo a la llamada [System.Object.GetType()](../../system/object/gettype/) de C#. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Comprueba si el objeto representa una instancia del tipo descrito por targetType. Análogo al operador 'is' de C#. |
+| void [Lock](../../system/object/lock/)() | Implementa el bloqueo de la instrucción lock() de C#. Llámalo directamente o usa el objeto centinela [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Análogo al método [Object.MemberwiseClone()](../../system/object/memberwiseclone/) de C#. Permite clonar tipos personalizados. |
+|  [Object](../../system/object/object/)() | Crea el objeto. Inicializa todas las estructuras de datos internas. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Constructor de copia. Realmente no copia nada, solo inicializa un nuevo objeto y permite la construcción de copias de subclases. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Operador de asignación. Realmente no copia nada, solo inicializa un nuevo objeto y permite la construcción de copias de subclases. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compara objetos por referencia. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compara objetos por referencia. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Compara por referencia objetos de tipo valor con nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Especialización de [Object::ReferenceEquals](../../system/object/referenceequals/) para el caso de cadena y nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Especialización de [Object::ReferenceEquals](../../system/object/referenceequals/) para el caso de cadenas. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Disminuye el contador de referencias compartidas en el valor especificado. |
+| virtual void [set_AsCell](../isinglecellchartvalue/set_ascell/)([System::SharedPtr](../../system/sharedptr/)\<[IChartDataCell](../ichartdatacell/)\>) | Establece la celda de datos del gráfico. Escribir [IChartDataCell](../ichartdatacell/). |
+| virtual void [set_AsLiteralDouble](./set_asliteraldouble/)(**double**) | Establece el doble literal si la propiedad DataSourceType es [DataSourceType::DoubleLiterals](../datasourcetype/). Escribir **double**. |
+| virtual void [set_AsLiteralString](./set_asliteralstring/)([System::String](../../system/string/)) | Establece la cadena literal si la propiedad DataSourceType es [DataSourceType::StringLiterals](../datasourcetype/). Escribir [System::String](../../system/string/). |
+| virtual void [set_Data](../ibasechartvalue/set_data/)([System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) |  |
+| virtual void [set_DataSourceType](../ibasechartvalue/set_datasourcetype/)([Aspose::Slides::Charts::DataSourceType](../datasourcetype/)) | Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble está activa. En otras palabras, especifica el tipo de valor de la propiedad Data. Esta propiedad es solo de lectura. Para cambiar el valor de esta propiedad puedes usar una de las propiedades ChartDataPointCollection.DataSourceTypeFor<...>. Escribir [DataSourceType](../datasourcetype/). |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Establece el n-ésimo argumento de plantilla como un puntero weak (en lugar de shared). Permite cambiar los punteros en contenedores al modo weak. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Obtiene el valor actual del contador de referencias compartidas. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Incrementa el contador de referencias compartidas. No debería llamarse directamente; en su lugar, usa punteros inteligentes o ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrementa y devuelve el contador de referencias compartidas. No debería llamarse directamente; en su lugar, usa punteros inteligentes o ThisProtector. |
+| virtual **double** [ToDouble](./todouble/)() | Convierte el valor a doble. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Análogo al método [Object.ToString()](../../system/object/tostring/) de C#. Permite convertir objetos personalizados a cadena. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implementa la construcción typeof([System.Object](../../system/object/)) de C#. |
+| void [Unlock](../../system/object/unlock/)() | Implementa el desbloqueo de la instrucción lock() de C#. Llámalo directamente o usa el objeto centinela [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Incrementa el contador de referencias weak. No debería llamarse directamente; en su lugar, usa punteros inteligentes o ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrementa el contador de referencias weak. No debería llamarse directamente; en su lugar, usa punteros inteligentes o ThisProtector. |
+| virtual  [~Object](../../system/object/~object/)() | Destruye el objeto. Libera todas las estructuras de datos internas. |
+
+## Ver también
+
+* Clase [ISingleCellChartValue](../isinglecellchartvalue/)
+* Espacio de nombres [Aspose::Slides::Charts](../)
+* Biblioteca [Aspose.Slides](../../)

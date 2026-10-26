@@ -1,0 +1,198 @@
+---
+title: IExcelDataWorkbook
+second_title: Aspose.Slides for Java API Reference
+description: Represents a workbook that provides access to Excel data for general use.
+type: docs
+url: /pt/com.aspose.slides/iexceldataworkbook/
+---```
+public interface IExcelDataWorkbook
+```
+
+Representa uma pasta de trabalho que fornece acesso a dados do Excel para uso geral.
+## Métodos
+
+| Método | Descrição |
+| --- | --- |
+| [getCells(String formula, boolean skipHiddenCells)](#getCells-java.lang.String-boolean-) | Recupera uma coleção de células da pasta de trabalho que correspondem à fórmula especificada. |
+| [getCell(int worksheetIndex, int row, int column)](#getCell-int-int-int-) | Recupera uma célula da planilha especificada usando seu índice e coordenadas da célula. |
+| [getCell(String worksheetName, int row, int column)](#getCell-java.lang.String-int-int-) | Recupera uma célula da planilha especificada usando seu nome e coordenadas da célula. |
+| [getCell(int worksheetIndex, String cellName)](#getCell-int-java.lang.String-) | Recupera uma célula da planilha especificada usando seu índice e nome de célula no estilo Excel (ex., "B2"). |
+| [getCell(String worksheetName, String cellName)](#getCell-java.lang.String-java.lang.String-) | Recupera uma célula da planilha especificada usando o nome de célula no estilo Excel (ex., "B2"). |
+| [getChartsFromWorksheet(String worksheetName)](#getChartsFromWorksheet-java.lang.String-) | Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho Excel. |
+| [getWorksheetNames()](#getWorksheetNames--) | Recupera os nomes de todas as planilhas contidas na pasta de trabalho Excel. |
+### getCells(String formula, boolean skipHiddenCells) {#getCells-java.lang.String-boolean-}
+```
+public abstract System.Collections.Generic.List<IExcelDataCell> getCells(String formula, boolean skipHiddenCells)
+```
+
+Recupera uma coleção de células da pasta de trabalho que correspondem à fórmula especificada.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  List<IExcelDataCell> cells = wb.getCells("Sheet1!A2:A6", false);
+>  System.out.println(cells.size()); //Saída: 5
+>  ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| formula | java.lang.String | Uma fórmula ou expressão de intervalo (ex., "Sheet1!A1:B3") usada para identificar as células alvo. |
+| skipHiddenCells | boolean | Se verdadeiro, células ocultas (ex., em linhas ou colunas ocultas) serão excluídas do resultado. |
+
+**Retorna:**
+com.aspose.ms.System.Collections.Generic.List<com.aspose.slides.IExcelDataCell> - Uma lista somente leitura de células que correspondem à fórmula especificada.
+### getCell(int worksheetIndex, int row, int column) {#getCell-int-int-int-}
+```
+public abstract IExcelDataCell getCell(int worksheetIndex, int row, int column)
+```
+
+Recupera uma célula da planilha especificada usando seu índice e coordenadas da célula.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  IExcelDataCell cell = wb.getCell(1, 1, 1);
+>  System.out.println(cell.getValue().toString());
+>  ```
+
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| worksheetIndex | int | Índice baseado em zero da planilha. |
+| row | int | Índice de linha baseado em zero da célula. |
+| column | int | Índice de coluna baseado em zero da célula. |
+
+**Retorna:**
+[IExcelDataCell](../../com.aspose.slides/iexceldatacell) - A célula na localização especificada.
+### getCell(String worksheetName, int row, int column) {#getCell-java.lang.String-int-int-}
+```
+public abstract IExcelDataCell getCell(String worksheetName, int row, int column)
+```
+
+Recupera uma célula da planilha especificada usando seu nome e coordenadas da célula.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  IExcelDataCell cell = wb.getCell("Sheet1", 1, 1);
+>  System.out.println(cell.getValue().toString());
+>  ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| worksheetName | java.lang.String | O nome da planilha. |
+| row | int | Índice de linha baseado em zero da célula. |
+| column | int | Índice de coluna baseado em zero da célula. |
+
+**Retorna:**
+[IExcelDataCell](../../com.aspose.slides/iexceldatacell) - A célula na localização especificada.
+### getCell(int worksheetIndex, String cellName) {#getCell-int-java.lang.String-}
+```
+public abstract IExcelDataCell getCell(int worksheetIndex, String cellName)
+```
+
+Recupera uma célula da planilha especificada usando seu índice e nome de célula no estilo Excel (ex., "B2").
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  IExcelDataCell cell = wb.getCell(1, "B2");
+>  System.out.println(cell.getValue().toString());
+>  ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| worksheetIndex | int | Índice baseado em zero da planilha. |
+| cellName | java.lang.String | A referência de célula no estilo Excel (ex., "A1", "C5"). |
+
+**Retorna:**
+[IExcelDataCell](../../com.aspose.slides/iexceldatacell) - A célula na localização especificada.
+### getCell(String worksheetName, String cellName) {#getCell-java.lang.String-java.lang.String-}
+```
+public abstract IExcelDataCell getCell(String worksheetName, String cellName)
+```
+
+Recupera uma célula da planilha especificada usando o nome de célula no estilo Excel (ex., "B2").
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  IExcelDataCell cell = wb.getCell("Sheet1", "B2");
+>  System.out.println(cell.getValue().toString());
+> ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| worksheetName | java.lang.String | O nome da planilha. |
+| cellName | java.lang.String | A referência de célula no estilo Excel (ex., "A1", "C5"). |
+
+**Retorna:**
+[IExcelDataCell](../../com.aspose.slides/iexceldatacell) - A célula na localização especificada.
+### getChartsFromWorksheet(String worksheetName) {#getChartsFromWorksheet-java.lang.String-}
+```
+public abstract System.Collections.Generic.Dictionary<Integer,String> getChartsFromWorksheet(String worksheetName)
+```
+
+Recupera um dicionário contendo os índices e nomes de todos os gráficos na planilha especificada de uma pasta de trabalho Excel.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  Dictionary.Enumerator<Integer, String> sheetCharts = wb.getChartsFromWorksheet("worksheetName").iterator();
+>  while (sheetCharts.hasNext())
+>  {
+>      KeyValuePair<Integer, String> chart = sheetCharts.next();
+>      System.out.println(chart.getKey() + " : " + chart.getValue());
+>  }
+> ```
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| worksheetName | java.lang.String | O nome da planilha a ser pesquisada por gráficos. |
+
+**Retorna:**
+com.aspose.ms.System.Collections.Generic.Dictionary<java.lang.Integer,java.lang.String> - Um dicionário onde a chave é o índice do gráfico e o valor é o nome do gráfico.
+### getWorksheetNames() {#getWorksheetNames--}
+```
+public abstract System.Collections.Generic.List<String> getWorksheetNames()
+```
+
+Recupera os nomes de todas as planilhas contidas na pasta de trabalho Excel.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  List<String> sheetNames = wb.getWorksheetNames();
+>  for (String name : sheetNames)
+>      System.out.println(name);
+> ```
+
+**Retorna:**
+com.aspose.ms.System.Collections.Generic.List<java.lang.String> - Uma lista de nomes de planilhas

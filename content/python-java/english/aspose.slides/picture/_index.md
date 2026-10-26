@@ -23,7 +23,7 @@ url: /aspose.slides/picture/
 | --- | --- | --- |
 | obj | Object | Object to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getImage() | Returns or sets the embedded image. Read/write IPPImage. |
 
- **Result:**
+ **Returns:**
 [PPImage](../ppimage)
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getImageTransform() | Returns the collection of image transform effects. Read-only IImageTransformOperationCollection. |
 
- **Result:**
+ **Returns:**
 [ImageTransformOperationCollection](../imagetransformoperationcollection)
 
 
@@ -62,7 +62,7 @@ boolean
 | --- | --- |
 | getLinkPathLong() | Returns of sets linked image's URL. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -85,7 +85,7 @@ String
 | --- | --- |
 | getPresentation() | Returns the presentation. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -98,8 +98,8 @@ String
 | --- | --- |
 | getSlide() | Returns the parent slide of a picture. Read-only IBaseSlide. |
 
- **Result:**
-[Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
+ **Returns:**
+[LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---
@@ -111,7 +111,7 @@ String
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -124,7 +124,7 @@ long
 | --- | --- |
 | hashCode() | Returns hash. |
 
- **Result:**
+ **Returns:**
 int
 
 

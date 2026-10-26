@@ -1,0 +1,24 @@
+---
+title: remove_placeholder method
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
+description: 
+type: docs
+url: /es/aspose.slides/zoomframe/remove_placeholder/
+weight: 50
+---
+## remove_placeholder(self) {#}
+Define que esta forma no es un marcador de posición.
+
+
+```python
+def remove_placeholder(self):
+    ...
+```
+
+
+
+
+### Ver también
+* clase [`ZoomFrame`](/slides/python-net/es/aspose.slides/zoomframe)
+* módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,155 @@
+---
+title: MotionPath
+second_title: Java API Referansı aracılığıyla Android için Aspose.Slides
+description: Hareket yolunu temsil eder.
+type: docs
+url: /tr/com.aspose.slides/motionpath/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IMotionPath](../../com.aspose.slides/imotionpath)
+```
+public class MotionPath implements IMotionPath
+```
+
+Hareket yolunu temsil eder.
+## Yapıcılar
+
+| Yapıcı | Açıklama |
+| --- | --- |
+| [MotionPath()](#MotionPath--) |  |
+## Yöntemler
+
+| Yöntem | Açıklama |
+| --- | --- |
+| [add(int type, PointF[] pts, int ptsType, boolean bRelativeCoord)](#add-int-android.graphics.PointF---int-boolean-) | Add new command to path |
+| [getCount()](#getCount--) | Returns the number of paths in the collection. |
+| [insert(int index, int type, PointF[] pts, int ptsType, boolean bRelativeCoord)](#insert-int-int-android.graphics.PointF---int-boolean-) | Insert new command to path |
+| [clear()](#clear--) | Removes all commands from the collection. |
+| [remove(IMotionCmdPath item)](#remove-com.aspose.slides.IMotionCmdPath-) | Removes specified commans from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a command at the specified index. |
+| [get_Item(int index)](#get-Item-int-) | Returns a command at the specified index. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
+| [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
+### MotionPath() {#MotionPath--}
+```
+public MotionPath()
+```
+
+
+### add(int type, PointF[] pts, int ptsType, boolean bRelativeCoord) {#add-int-android.graphics.PointF---int-boolean-}
+```
+public final IMotionCmdPath add(int type, PointF[] pts, int ptsType, boolean bRelativeCoord)
+```
+
+
+Yola yeni bir komut ekler
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| type | int | [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
+| pts | android.graphics.PointF[] | Array of points |
+| ptsType | int | [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
+| bRelativeCoord | boolean | Relative coordinates boolean |
+
+**Döndürür:**
+[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath)
+### getCount() {#getCount--}
+```
+public final int getCount()
+```
+
+
+Koleksiyondaki yol sayısını döndürür. Salt-okunur int.
+
+**Döndürür:**
+int
+### insert(int index, int type, PointF[] pts, int ptsType, boolean bRelativeCoord) {#insert-int-int-android.graphics.PointF---int-boolean-}
+```
+public final void insert(int index, int type, PointF[] pts, int ptsType, boolean bRelativeCoord)
+```
+
+
+Yola yeni bir komut ekler
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| index | int | The zero-based index at which item should be inserted. |
+| type | int | [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
+| pts | android.graphics.PointF[] | Array of points |
+| ptsType | int | [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
+| bRelativeCoord | boolean | Relative coordinates boolean |
+
+### clear() {#clear--}
+```
+public final void clear()
+```
+
+
+Koleksiyondaki tüm komutları kaldırır.
+
+### remove(IMotionCmdPath item) {#remove-com.aspose.slides.IMotionCmdPath-}
+```
+public final void remove(IMotionCmdPath item)
+```
+
+
+Koleksiyondan belirtilen komutları kaldırır.
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| item | [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) | Motion path to remove. |
+
+### removeAt(int index) {#removeAt-int-}
+```
+public final void removeAt(int index)
+```
+
+
+Belirtilen dizindeki bir komutu kaldırır.
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| index | int | Index of a command that should be deleted. |
+
+### get_Item(int index) {#get-Item-int-}
+```
+public final IMotionCmdPath get_Item(int index)
+```
+
+
+Belirtilen dizindeki bir komutu döndürür.
+
+**Parametreler:**
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| index | int | Index of element. |
+
+**Döndürür:**
+[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - The [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) object.
+### iterator() {#iterator--}
+```
+public final System.Collections.Generic.IGenericEnumerator<IMotionCmdPath> iterator()
+```
+
+
+Koleksiyondan geçerek bir yineleyici döndürür.
+
+**Döndürür:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IMotionCmdPath> - A IGenericEnumerator that can be used to iterate through the collection.
+### iteratorJava() {#iteratorJava--}
+```
+public final System.Collections.Generic.IGenericEnumerator<IMotionCmdPath> iteratorJava()
+```
+
+
+Koleksiyonun tamamı için bir java yineleyici döndürür.
+
+**Döndürür:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IMotionCmdPath> - An java.util.Iterator for the entire collection.

@@ -1,0 +1,23 @@
+---
+title: shadow_matrix_xto_x property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.animation/behaviorproperty/shadow_matrix_xto_x/
+weight: 660
+---
+## shadow_matrix_xto_x eigenschap
+Stelt de eigenschap 'shadow.matrix.xtox' voor
+
+### Definitie:
+```python
+@property
+def shadow_matrix_xto_x(self):
+    ...
+```
+
+
+### Zie ook
+* klasse [`BehaviorProperty`](/slides/python-net/nl/aspose.slides.animation/behaviorproperty)
+* module [`aspose.slides.animation`](/slides/python-net/nl/aspose.slides.animation)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

@@ -17,7 +17,7 @@ url: /aspose.slides/column/
 | --- | --- |
 | getColumnFormat () | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
 
- **Result:**
+ **Returns:**
 [ColumnFormat](../columnformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/column/
 | --- | --- |
 | getWidth () | Returns or sets the width of a column. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 

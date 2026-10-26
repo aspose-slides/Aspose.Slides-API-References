@@ -20,6 +20,7 @@ Aspose.Slides for .NET is a Microsoft PowerPoint® management API that enables .
 
 These are links to some useful resources:
 - [Aspose.Slides for .NET API Reference](/slides/net/)
+- [Aspose.Slides for .NET API Tutorials](/tutorials/slides/net/)
 
 ## Aspose.Slides for Java
 
@@ -34,6 +35,7 @@ Aspose.Slides for Java is a Microsoft PowerPoint® management API that enables J
 These are links to useful resources:
 
 - [Aspose.Slides for Java API Reference](/slides/java/)
+- [Aspose.Slides for Java API Tutorials](/tutorials/slides/java/)
 
 ## Aspose.Slides for C++
 
@@ -91,7 +93,6 @@ These are links to useful resources:
 
 - [Aspose.Slides for PHP via Java API Reference](/slides/php-java/)
 
-
 ## Aspose.Slides for Node.js via Java
 
 {{% alert color="primary" %}} 
@@ -105,3 +106,17 @@ Aspose.Slides for Node.js via Java is a class library that enables your applicat
 These are links to useful resources:
 
 - [Aspose.Slides for Node.js via Java API Reference](/slides/nodejs-java/)
+
+## Aspose.Slides for Python via Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides for Python via Java Product Logo](aspose_slides-for-python.png)
+
+Aspose.Slides for Python via Java is a class library that enables your applications to read and write PowerPoint® documents without using Microsoft PowerPoint®. Aspose.Slides for Python via Java is the first and only component that provides the functionality to manage PowerPoint® documents. Aspose.Slides for Python via Java provides a lot of key features such as managing text, shapes, tables & animations, adding audio and video to slides, previewing slides, exporting slides to SVG, PDF format and more.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+
+- [Aspose.Slides for Python via Java API Reference](/slides/python-java/)

@@ -1,0 +1,113 @@
+---
+title: IMathBlock
+second_title: Aspose.Slides for Android via Java API 参考
+description: 指定一个位于 MathParagraph 中并单独占据一行的数学文本实例。
+type: docs
+url: /zh/com.aspose.slides/imathblock/
+---
+**所有实现的接口：**
+[com.aspose.slides.IMathElementCollection](../../com.aspose.slides/imathelementcollection), [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)
+```
+public interface IMathBlock extends IMathElementCollection, IMathElement
+```
+
+指定一个数学文本实例，该实例位于 MathParagraph 中并单独占据一行。所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式，都由 math block 表示。
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathBlock mathBlock = new MathBlock();
+> ```
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [delimit(char separatorCharacter)](#delimit-char-) | Delimits all child elements with separator character (without the brackets) |
+| [enclose(char beginningCharacter, char endingCharacter, char separatorCharacter)](#enclose-char-char-char-) | Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character |
+| [joinBlock(IMathBlock other)](#joinBlock-com.aspose.slides.IMathBlock-) | Joins another mathematical block with this one |
+| [writeAsMathMl(OutputStream stream)](#writeAsMathMl-java.io.OutputStream-) | Saves content of this [IMathBlock](../../com.aspose.slides/imathblock) as MathML |
+### delimit(char separatorCharacter) {#delimit-char-}
+```
+public abstract IMathDelimiter delimit(char separatorCharacter)
+```
+
+Delimits all child elements with separator character (without the brackets)
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathBlock mathBlock = new MathematicalText("x").join("y");
+>  IMathDelimiter delimiterElement = mathBlock.delimit('|');
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| separatorCharacter | char | Character used as a separator |
+
+**Returns:**
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - Instance of IMathDelimiter element
+### enclose(char beginningCharacter, char endingCharacter, char separatorCharacter) {#enclose-char-char-char-}
+```
+public abstract IMathDelimiter enclose(char beginningCharacter, char endingCharacter, char separatorCharacter)
+```
+
+Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathBlock mathBlock = new MathematicalText("x").join("y");
+>  IMathDelimiter delimiterElement = mathBlock.enclose('{', '}', '%');
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| beginningCharacter | char | Beginning character (usually left bracket) |
+| endingCharacter | char | Ending character (usually right bracket) |
+| separatorCharacter | char | Separator character |
+
+**Returns:**
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes specified characters as framing and delimiter
+### joinBlock(IMathBlock other) {#joinBlock-com.aspose.slides.IMathBlock-}
+```
+public abstract IMathBlock joinBlock(IMathBlock other)
+```
+
+Joins another mathematical block with this one
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathBlock block1 = new MathSuperscriptElement(new MathematicalText("c"), new MathematicalText("2")).join(new MathematicalText("="));
+>  IMathBlock block2 = new MathSuperscriptElement(new MathematicalText("a"), new MathematicalText("2")).join(new MathematicalText("+"))
+>  .join(new MathSuperscriptElement(new MathematicalText("b"), new MathematicalText("2")));
+>  IMathBlock block3 = block1.joinBlock(block2);
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [IMathBlock](../../com.aspose.slides/imathblock) | The joining block |
+
+**Returns:**
+[IMathBlock](../../com.aspose.slides/imathblock) - this mathematical block after joining
+### writeAsMathMl(OutputStream stream) {#writeAsMathMl-java.io.OutputStream-}
+```
+public abstract void writeAsMathMl(OutputStream stream)
+
+将此 [IMathBlock](../../com.aspose.slides/imathblock) 的内容保存为 MathML
+
+**参数：**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | java.io.OutputStream | 目标流 |

@@ -1,0 +1,72 @@
+---
+title: XPathExpression
+second_title: مرجع API Aspose.Slides برای C++
+description: یک کلاس نوعی که یک عبارت XPath کامپایل‌شده را نمایندگی می‌کند.
+type: docs
+weight: 40
+url: /fa/system.xml.xpath/xpathexpression/
+---
+## XPathExpression کلاس
+
+Provides a typed class that represents a compiled [XPath](../) expression.
+
+```cpp
+class XPathExpression : public System::Object
+```
+
+## متدها
+
+| Method | Description |
+| --- | --- |
+| virtual void [AddSort](./addsort/)([SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>, [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IComparer](../../system.collections.generic/icomparer/)\<[SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\>\>) | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، گره‌های انتخاب‌شده توسط عبارت [XPath](../) را بر اساس شیء IComparer مشخص‌شده مرتب می‌کند. |
+| virtual void [AddSort](./addsort/)([SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>, [XmlSortOrder](../xmlsortorder/), [XmlCaseOrder](../xmlcaseorder/), [String](../../system/string/), [XmlDataType](../xmldatatype/)) | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، گره‌های انتخاب‌شده توسط عبارت [XPath](../) را بر اساس پارامترهای ارائه‌شده مرتب می‌کند. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[XPathExpression](./)\> [Clone](./clone/)() | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، یک clone از این [XPathExpression](./) را برمی‌گرداند. |
+| static [SharedPtr](../../system/sharedptr/)\<[XPathExpression](./)\> [Compile](./compile/)(const [String](../../system/string/)\&) | عبارت [XPath](../) مشخص‌شده را کامپایل می‌کند و یک شیء [XPathExpression](./) که نمایانگر عبارت [XPath](../) است را برمی‌گرداند. |
+| static [SharedPtr](../../system/sharedptr/)\<[XPathExpression](./)\> [Compile](./compile/)(const [String](../../system/string/)\&, const [SharedPtr](../../system/sharedptr/)\<[IXmlNamespaceResolver](../../system.xml/ixmlnamespaceresolver/)\>\&) | عبارت [XPath](../) مشخص‌شده را با شیء [IXmlNamespaceResolver](../../system.xml/ixmlnamespaceresolver/) برای حل‌کردن فضای نام کامپایل می‌کند و یک شیء [XPathExpression](./) که نمایانگر عبارت [XPath](../) است را برمی‌گرداند. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | اشیاء را با استفاده از معناشناسی C# [Object.Equals](../../system/object/equals/) مقایسه می‌کند. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | اشیاء از نوع reference را به سبک C# مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | اشیاء از نوع value را به سبک C# مقایسه می‌کند. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | مقایسه نقطه‌ی شناور به سبک C# را شبیه‌سازی می‌کند که در آن دو NaN برابر در نظر گرفته می‌شوند، حتی اگر طبق IEC 60559:1989 NaN با هیچ مقداری، از جمله NaN، برابر نباشد. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | مقایسه نقطه‌ی شناور به سبک C# را شبیه‌سازی می‌کند که در آن دو NaN برابر در نظر گرفته می‌شوند، حتی اگر طبق IEC 60559:1989 NaN با هیچ مقداری، از جمله NaN، برابر نباشد. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | فقط برای مقاصد داخلی. |
+| virtual [String](../../system/string/) [get_Expression](./get_expression/)() | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، یک نمایندگی **string** از [XPathExpression](./) را می‌گیرد. |
+| virtual [XPathResultType](../xpathresulttype/) [get_ReturnType](./get_returntype/)() | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، نوع نتیجه‌ی عبارت [XPath](../) را به دست می‌آورد. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | ساختار داده‌ی شمارنده‌ی مرجع مرتبط با شیء را به‌دست می‌آورد. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | معادل روش C# [Object.GetHashCode()](../../system/object/gethashcode/). امکان هش‌کردن اشیاء سفارشی را فراهم می‌کند. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | نوع واقعی شیء را می‌گیرد. معادل فراخوانی C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | بررسی می‌کند که آیا شیء نمایانگر نمونه‌ای از نوع توصیف‌شده توسط targetType است یا خیر. معادل عملگر 'is' در C#. |
+| void [Lock](../../system/object/lock/)() | اجرای قفل‌گذاری دستور lock() در C# را پیاده‌سازی می‌کند. به‌صورت مستقیم فراخوانی کنید یا از شیء sentry [LockContext](../../system/lockcontext/) استفاده کنید. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | معادل روش C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). امکان کلون‌کردن انواع سفارشی را فراهم می‌کند. |
+|  [Object](../../system/object/object/)() | شیء را ایجاد می‌کند. تمام ساختارهای داده داخلی را مقداردهی اولیه می‌کند. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | سازنده کپی. در واقع چیزی کپی نمی‌کند، فقط شیء جدید را مقداردهی می‌کند و امکان ساخت کپی از زیرکلاس‌ها را فراهم می‌کند. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | اپراتور انتساب. در واقع چیزی کپی نمی‌کند، فقط شیء جدید را مقداردهی می‌کند و امکان ساخت کپی از زیرکلاس‌ها را فراهم می‌کند. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | اشیاء را بر اساس مرجع مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | اشیاء را بر اساس مرجع مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | مقایسه مرجع‌وار شیء از نوع value با nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | تخصیص ویژه [Object::ReferenceEquals](../../system/object/referenceequals/) برای حالت رشته و nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | تخصیص ویژه [Object::ReferenceEquals](../../system/object/referenceequals/) برای حالت رشته‌ها. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | تعداد مرجع مشترک را به مقدار مشخص‌شده کاهش می‌دهد. |
+| virtual void [SetContext](./setcontext/)([SharedPtr](../../system/sharedptr/)\<[XmlNamespaceManager](../../system.xml/xmlnamespacemanager/)\>) | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، شیء [XmlNamespaceManager](../../system.xml/xmlnamespacemanager/) را برای حل‌کردن فضای نام مشخص می‌کند. |
+| virtual void [SetContext](./setcontext/)([SharedPtr](../../system/sharedptr/)\<[IXmlNamespaceResolver](../../system.xml/ixmlnamespaceresolver/)\>) | هنگامی که در یک کلاس مشتق‌شده بازنویسی شود، شیء [IXmlNamespaceResolver](../../system.xml/ixmlnamespaceresolver/) را برای حل‌کردن فضای نام مشخص می‌کند. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | آرگومان n'th قالب را به یک Weak pointer (به‌جای shared) تنظیم می‌کند. امکان تغییر اشاره‌گرها در کانتینرها به حالت Weak را فراهم می‌کند. |
+| int [SharedCount](../../system/object/sharedcount/)() const | مقدار فعلی شمارنده مرجع مشترک را می‌گیرد. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | شمارنده مرجع مشترک را افزایش می‌دهد. نباید مستقیماً فراخوانی شود؛ به‌جای آن، از smart pointers یا ThisProtector استفاده کنید. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | شمارنده مرجع مشترک را کاهش داده و مقدار آن را برمی‌گرداند. نباید مستقیماً فراخوانی شود؛ به‌جای آن، از smart pointers یا ThisProtector استفاده کنید. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | معادل روش C# [Object.ToString()](../../system/object/tostring/). امکان تبدیل اشیاء سفارشی به string را فراهم می‌کند. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | قالب typeof([System.Object](../../system/object/)) در C# را پیاده‌سازی می‌کند. |
+| void [Unlock](../../system/object/unlock/)() | اجرای باز کردن قفل دستور lock() در C# را پیاده‌سازی می‌کند. به‌صورت مستقیم فراخوانی کنید یا از شیء sentry [LockContext](../../system/lockcontext/) استفاده کنید. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | شمارنده مرجع Weak را افزایش می‌دهد. نباید مستقیماً فراخوانی شود؛ به‌جای آن، از smart pointers یا ThisProtector استفاده کنید. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | شمارنده مرجع Weak را کاهش می‌دهد. نباید مستقیماً فراخوانی شود؛ به‌جای آن، از smart pointers یا ThisProtector استفاده کنید. |
+| virtual  [~Object](../../system/object/~object/)() | شیء را نابود می‌کند. تمام ساختارهای داده داخلی را آزاد می‌کند. |
+
+## تعاریف نوع
+
+| Typedef | Description |
+| --- | --- |
+| [Ptr](./ptr/) | یک نام مستعار برای shared pointer به یک نمونه از این کلاس. |
+
+## موارد مرتبط
+
+* کلاس [Object](../../system/object/)
+* فضای‌نام [System::Xml::XPath](../)
+* کتابخانه [Aspose.Slides](../../)

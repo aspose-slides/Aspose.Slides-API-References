@@ -1,51 +1,50 @@
----  
+---
 title: Trendline
-second_title: Aspose.Slides für .NET API Referenz  
-description: Klasse repräsentiert Trendlinie von Diagrammserien
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Klasse repräsentiert die Trendlinie einer Diagrammserie
 type: docs
-weight: 2390  
+weight: 2470
 url: /de/aspose.slides.charts/trendline/
----  
+---
+## Trendline Klasse
 
-## Trendline-Klasse  
+Klasse repräsentiert die Trendlinie einer Diagrammserie
 
-Klasse repräsentiert die Trendlinie der Diagrammserien  
+```csharp
+public class Trendline : DomObject<TrendlineCollection>, ITrendline
+```
 
-```csharp  
-public class Trendline : DomObject<TrendlineCollection>, ITrendline  
-```  
+## Eigenschaften
 
-## Eigenschaften  
+| Name | Beschreibung |
+| --- | --- |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie vor den Daten der trenden Serie verlängert. In Streu- und Nicht-Streu-Diagrammen darf der Wert jeder nichtnegative Wert sein. Lesen/Schreiben Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Gibt an, dass die Gleichung für die Trendlinie im Diagramm angezeigt wird (im selben Beschriftungsfeld wie der Rsquaredvalue). Lesen/Schreiben Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm angezeigt wird (im selben Beschriftungsfeld wie die Gleichung). Lesen/Schreiben Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Stellt das Format der Trendlinie dar. Lesen/Schreiben [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie nach den Daten der trenden Serie verlängert. In Streu- und Nicht-Streu-Diagrammen darf der Wert jeder nichtnegative Wert sein. Lesen/Schreiben Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Gibt den Wert an, an dem die Trendlinie die y-Achse schneidet. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lesen/Schreiben Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Gibt die Ordnung der polynomialen Trendlinie an. Für andere Trendlinientypen wird dieser Wert ignoriert. Der Wert muss zwischen 2 und 6 liegen. Lesen/Schreiben Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Gibt den Zeitraum der Trendlinie für eine gleitende Mittelwert-Trendlinie an. Für andere Trendlinienvarianten wird dieser Wert ignoriert. Der Wert muss zwischen 2 und 255 liegen. Lesen/Schreiben Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Stellt den Legendeintrag dar, der mit dieser Trendlinie verknüpft ist. Nur lesbar [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Kann reich formatieren Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch erzeugten Text des Datenetiketts. Automatisch erzeugter Text des Datenetiketts bedeutet Text, der von den Eigenschaften ShowSeriesName, ShowValue, … verwaltet wird und mit der TextFormatManager.TextFormat-Eigenschaft formatiert ist. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Liest oder schreibt den Namen der Trendlinie. Lesen/Schreiben String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Liest oder schreibt den Typ der Trendlinie. Lesen/Schreiben [`TrendlineType`](../trendlinetype). |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie vor den Daten der Serie, die getrendet wird, erweitert. In Streu- und Nicht-Streudiagrammen muss der Wert ein nicht negatives Wert sein. Lese-/Schreibzugriff Double. |  
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur Lesezugriff [`IChart`](../ichart). |  
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Gibt an, dass die Gleichung für die Trendlinie im Diagramm angezeigt wird (im selben Label wie der Rsquared-Wert). Lese-/Schreibzugriff Boolean. |  
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Gibt an, dass der R-quadrat-Wert der Trendlinie im Diagramm angezeigt wird (im selben Label wie die Gleichung). Lese-/Schreibzugriff Boolean. |  
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Repräsentiert das Format der Trendlinie. Lese-/Schreibzugriff [`IFormat`](../iformat). |  
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Gibt die Anzahl der Kategorien (oder Einheiten in einem Streudiagramm) an, die die Trendlinie nach den Daten der Serie, die getrendet wird, erweitert. In Streu- und Nicht-Streudiagrammen muss der Wert ein nicht negatives Wert sein. Lese-/Schreibzugriff Double. |  
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Gibt den Wert an, bei dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Typ der Trendlinie exp, linear oder poly ist. Lese-/Schreibzugriff Double. |  
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Gibt die Ordnung der polynomialen Trendlinie an. Sie wird für andere Trendlinientypen ignoriert. Der Wert muss zwischen 2 und 6 liegen. Lese-/Schreibzugriff Byte. |  
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Gibt den Zeitraum der Trendlinie für eine gleitende Durchschnittstrendlinie an. Sie wird für andere Varianten der Trendlinie ignoriert. Der Wert muss zwischen 2 und 255 liegen. Lese-/Schreibzugriff Byte. |  
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Repräsentiert den Legenden-Eintrag, der mit dieser Trendlinie verwandt ist. Nur Lesezugriff [`ILegendEntryProperties`](../ilegendentryproperties). |  
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Gibt das Textformat zurück. Nur Lesezugriff [`IChartTextFormat`](../icharttextformat). |  
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, wird dieser formatierte Textwert den automatisch generierten Text des Datenetiketts überschreiben. Automatisch generierter Text des Datenetiketts bedeutet den Text, der durch ShowSeriesName, ShowValue, ... Eigenschaften verwaltet wird und mit der Eigenschaft TextFormatManager.TextFormat formatiert ist. Nur Lesezugriff [`ITextFrame`](../../aspose.slides/itextframe). |  
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Gibt den Namen der Trendlinie zurück oder setzt ihn. Lese-/Schreibzugriff String. |  
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Gibt den Typ der Trendlinie zurück oder setzt ihn. Lese-/Schreibzugriff [`TrendlineType`](../trendlinetype). |  
+## Methoden
 
-## Methoden  
+| Name | Beschreibung |
+| --- | --- |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert es einfach seinen Text. |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird einfach sein Text geändert. |  
+### Siehe auch
 
-### Siehe auch  
-
-* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)  
-* Klasse [TrendlineCollection](../trendlinecollection)  
-* Schnittstelle [ITrendline](../itrendline)  
-* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)  
-* Assembly [Aspose.Slides](../../)  
+* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* Klasse [TrendlineCollection](../trendlinecollection)
+* Schnittstelle [ITrendline](../itrendline)
+* Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

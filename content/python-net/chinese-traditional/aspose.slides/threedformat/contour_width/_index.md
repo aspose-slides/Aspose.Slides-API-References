@@ -1,0 +1,28 @@
+---
+title: contour_width property
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides/threedformat/contour_width/
+weight: 80
+---
+## contour_width 屬性
+返回或設定 3D 輪廓的寬度。
+            可讀寫 **float**.
+
+### 定義:
+```python
+@property
+def contour_width(self):
+    ...
+
+@contour_width.setter
+def contour_width(self, value):
+    ...
+```
+
+
+### 另請參閱
+* 類別 [`ThreeDFormat`](/slides/python-net/zh-hant/aspose.slides/threedformat)
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

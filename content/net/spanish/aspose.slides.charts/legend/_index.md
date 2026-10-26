@@ -3,10 +3,9 @@ title: Legend
 second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa las propiedades de la leyenda de los gráficos.
 type: docs
-weight: 2200
+weight: 2280
 url: /es/aspose.slides.charts/legend/
 ---
-
 ## Clase Legend
 
 Representa las propiedades de la leyenda del gráfico.
@@ -19,25 +18,29 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Inferior. Solo lectura Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Devuelve el gráfico. Solo lectura [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Obtiene las entradas de la leyenda. Solo lectura [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Devuelve el formato de una leyenda. Solo lectura [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Devuelve o establece la altura de una leyenda como un fracción de la altura del gráfico. Lectura/escritura Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Determina si otros elementos del gráfico pueden sobreponerse a la leyenda. Lectura/escritura Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Width, Height anulan el efecto de esta propiedad. Lectura/escritura [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Derecho. Solo lectura Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Devuelve o establece el ancho de una leyenda como un fracción del ancho del gráfico. Lectura/escritura Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Devuelve o establece la coordenada x de una leyenda como un fracción del ancho del gráfico. Lectura/escritura Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Devuelve o establece la coordenada y de una leyenda como un fracción de la altura del gráfico. Lectura/escritura Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Especifica la parte superior real del elemento del gráfico relativa a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Inferior. Solo lectura Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Devuelve el gráfico. Solo lectura [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Obtiene las entradas de la leyenda. Solo lectura [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Devuelve el formato de una leyenda. Solo lectura [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Devuelve o establece la altura de una leyenda como una fracción de la altura del gráfico. Lectura/Escritura Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Determina si se permite que otros elementos del gráfico se superpongan a la leyenda. Lectura/Escritura Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Width, Heigt sobrescriben el efecto de esta propiedad. Lectura/Escritura [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Derecha. Solo lectura Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Devuelve o establece el ancho de una leyenda como una fracción del ancho del gráfico. Lectura/Escritura Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Devuelve o establece la coordenada x de una leyenda como una fracción del ancho del gráfico. Lectura/Escritura Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Devuelve o establece la coordenada y de una leyenda como una fracción de la altura del gráfico. Lectura/Escritura Single. |
 
-### Ver También
+### Ver también
 
-* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* clase [Chart](../chart)
-* interfaz [ILegend](../ilegend)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* clase [Chart](../chart)
+* interfaz [ILegend](../ilegend)
+* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

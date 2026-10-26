@@ -20,6 +20,8 @@ Presentation wide view properties.
 | [getSlideViewProperties()](#getSlideViewProperties--) | Specifies common view properties associated with the slide view mode. |
 | [getNotesViewProperties()](#getNotesViewProperties--) | Specifies common view properties associated with the notes view mode. |
 | [getNormalViewProperties()](#getNormalViewProperties--) | Represents normal view properties. |
+| [getGridSpacing()](#getGridSpacing--) | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. |
+| [setGridSpacing(float value)](#setGridSpacing-float-) | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. |
 ### getLastView() {#getLastView--}
 ```
 public abstract int getLastView()
@@ -96,3 +98,62 @@ Represents normal view properties. The normal view consists of three content reg
 
 **Returns:**
 [INormalViewProperties](../../com.aspose.slides/inormalviewproperties)
+### getGridSpacing() {#getGridSpacing--}
+```
+public abstract float getGridSpacing()
+```
+
+
+Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float.
+
+--------------------
+
+> ```
+> The following sample code shows how to change the grid spacing in a PowerPoint presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      pres.getViewProperties().setGridSpacing(72f);
+>      pres.save("GridSpacing_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+The grid spacing value must be a positive number. The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points).
+
+**Returns:**
+float
+### setGridSpacing(float value) {#setGridSpacing-float-}
+```
+public abstract void setGridSpacing(float value)
+```
+
+
+Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float.
+
+--------------------
+
+> ```
+> The following sample code shows how to change the grid spacing in a PowerPoint presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      pres.getViewProperties().setGridSpacing(72f);
+>      pres.save("GridSpacing_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+The grid spacing value must be a positive number. The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+

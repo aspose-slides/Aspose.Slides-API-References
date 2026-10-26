@@ -1,0 +1,30 @@
+---
+title: get_FractionType()
+second_title: مرجع API Aspose.Slides برای C++
+description: "نوع کسر پیش‌فرض: Bar"
+type: docs
+weight: 1
+url: /fa/aspose.slides.mathtext/imathfraction/get_fractiontype/
+---
+## IMathFraction::get_FractionType() متد
+
+نوع کسر پیش‌فرض: Bar
+
+```cpp
+virtual MathFractionTypes Aspose::Slides::MathText::IMathFraction::get_FractionType()=0
+```
+
+## توضیحات
+
+مثال:
+```cpp
+auto mathFraction = System::MakeObject<MathematicalText>(u"x")->Divide(u"y");
+mathFraction->set_FractionType(MathFractionTypes::Linear);
+```
+
+## مراجع
+
+* Enum [MathFractionTypes](../../mathfractiontypes/)
+* کلاس [IMathFraction](../)
+* فضای‌نام [Aspose::Slides::MathText](../../)
+* کتابخانه [Aspose.Slides](../../../)

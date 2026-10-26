@@ -1,51 +1,50 @@
 ---
 title: Reflection
-second_title: Aspose.Slides for .NET API Reference
-description: 表示一个反射效果。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示一个 Reflection 效果。
 type: docs
-weight: 3520
+weight: 3640
 url: /zh/aspose.slides.effects/reflection/
 ---
+## Reflection 类
 
-## Reflection class
-
-表示一个反射效果。
+表示一个 Reflection 效果。
 
 ```csharp
 public sealed class Reflection : IReflection
 ```
 
-## Properties
+## 属性
 
-| Name | Description |
+| 名称 | 说明 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | 模糊半径。可读写 Double。 |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | 反射的方向。可读写 Single。 |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | 反射的距离。可读写 Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | 指定结束 alpha 值（百分比）的结束位置（沿 alpha 渐变坡道）。可读写 Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | 结束反射不透明度（百分比）。可读写 Single。 |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | 指定偏移反射的方向（角度）。可读写 Single。 |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | 矩形对齐。可读写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | 指定反射在形状旋转时是否应随形状旋转。可读写 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | 指定水平缩放因子，负缩放会导致翻转（百分比）。可读写 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | 指定垂直缩放因子，负缩放会导致翻转（百分比）。可读写 Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | 指定水平倾斜角度。可读写 Double。 |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | 指定垂直倾斜角度。可读写 Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | 指定起始 alpha 值（百分比）的起始位置（沿 alpha 渐变坡道）。可读写 Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | 起始反射不透明度（百分比）。可读写 Single。 |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | 模糊半径。读/写 Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Reflection 的方向。读/写 Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Reflection 的距离。读/写 Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | 指定结束位置（沿 alpha 渐变坡度）的结束 alpha 值（百分比）。读/写 Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | 结束 Reflection 不透明度。（百分比）。读/写 Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | 指定偏移 Reflection 的方向。（角度）。读/写 Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | 矩形对齐方式。读/写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | 指定当形状旋转时，Reflection 是否随形状一起旋转。读/写 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | 指定水平缩放因子，负数缩放会导致翻转。（百分比）读/写 Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | 指定垂直缩放因子，负数缩放会导致翻转。（百分比）读/写 Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | 指定水平倾斜角度。读/写 Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | 指定垂直倾斜角度。读/写 Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | 指定起始位置（沿 alpha 渐变坡度）的起始 alpha 值（百分比）。读/写 Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | 起始 Reflection 不透明度。（百分比）。读/写 Single. |
 
-## Methods
+## 方法
 
-| Name | Description |
+| 名称 | 说明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | 确定指定的 [`Reflection`](../reflection) 是否等于当前的 [`Reflection`](../reflection)。 |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | 获取带有应用继承的有效反射效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | 作为特定类型的哈希函数。 |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | 确定指定的 [`Reflection`](../reflection) 是否等于当前的 [`Reflection`](../reflection). |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | 获取应用继承后的有效 Reflection 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### See Also
+### 另见
 
-* interface [IReflection](../ireflection)
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* 接口 [IReflection](../ireflection)
+* 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

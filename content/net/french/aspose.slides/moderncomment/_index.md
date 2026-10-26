@@ -1,13 +1,12 @@
 ---
 title: ModernComment
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un commentaire sur une diapositive.
 type: docs
-weight: 8820
+weight: 9090
 url: /fr/aspose.slides/moderncomment/
 ---
-
-## Classe ModernComment
+## ModernComment classe
 
 Représente un commentaire sur une diapositive.
 
@@ -19,22 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Nom | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Renvoie l'auteur d'un commentaire. Lecture seule [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Renvoie ou définit l'heure de création d'un commentaire. Définir cette propriété à MinValue signifie qu'aucune heure de commentaire n'est définie. Lecture/écriture DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtient ou définit le commentaire parent. Lecture/écriture [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Renvoie ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Renvoie une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Renvoie ou définit la diapositive parent d'un commentaire. Lecture seule [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Obtient ou définit le statut du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtient ou définit la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtient ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Renvoie l'auteur d'un commentaire. Lecture seule [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Renvoie ou définit l'heure de création d'un commentaire. Définir cette propriété à MinValue signifie qu'aucune heure de commentaire n'est définie. Lecture/écriture DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtient ou définit le commentaire parent. Lecture/écriture [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Renvoie ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Renvoie une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Renvoie ou définit la diapositive parente d'un commentaire. Lecture seule [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Obtient ou définit l'état du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtient ou définit la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à une AutoShape. Lecture/écriture Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtient ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à une AutoShape. Lecture/écriture Int32. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Supprime le commentaire et toutes ses réponses de la collection parent. |
+| [Remove](../../aspose.slides/comment/remove)() | Supprime le commentaire et toutes ses réponses de la collection parente. |
 
 ### Exemples
 
@@ -51,9 +50,9 @@ using (Presentation pres = new Presentation())
 
 ### Voir aussi
 
-* classe [Comment](../comment)
-* interface [IModernComment](../imoderncomment)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [Comment](../comment)
+* interface [IModernComment](../imoderncomment)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,0 +1,95 @@
+---
+title: aspose.slides.effects
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.effects/
+---
+Περιέχει κλάσεις για εργασία με διάφορα εφέ σε παρουσιάσεις Microsoft PowerPoint.
+## Κλάσεις
+
+| Class | Description |
+| :- | :- |
+| [`AlphaBiLevel`](/slides/python-net/el/aspose.slides.effects/alphabilevel/) | Αναπαριστά ένα Alpha Bi-Level εφέ.<br/>            Alpha (Opacity) values less than the threshold are changed to 0 (πλήρως διαφανές) and<br/>            alpha values greater than or equal to the threshold are changed to 100% (πλήρως αδιαφανές). |
+| [`AlphaCeiling`](/slides/python-net/el/aspose.slides.effects/alphaceiling/) | Αναπαριστά ένα Alpha Ceiling εφέ.<br/>            Alpha (opacity) values greater than zero are changed to 100%.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς αδιαφανές γίνεται πλήρως αδιαφανές. |
+| [`AlphaFloor`](/slides/python-net/el/aspose.slides.effects/alphafloor/) | Αναπαριστά ένα Alpha Floor εφέ.<br/>            Alpha (opacity) values less than 100% are changed to zero.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς διαφανές γίνεται πλήρως διαφανές. |
+| [`AlphaInverse`](/slides/python-net/el/aspose.slides.effects/alphainverse/) | Αναπαριστά ένα Alpha Inverse εφέ.<br/>            Alpha (opacity) values are inverted by subtracting from 100%. |
+| [`AlphaModulate`](/slides/python-net/el/aspose.slides.effects/alphamodulate/) | Αναπαριστά ένα Alpha Modulate εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage.<br/>            The effect container specifies an effect containing alpha values to modulate. |
+| [`AlphaModulateFixed`](/slides/python-net/el/aspose.slides.effects/alphamodulatefixed/) | Αναπαριστά ένα Alpha Modulate Fixed εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage. |
+| [`AlphaReplace`](/slides/python-net/el/aspose.slides.effects/alphareplace/) | Αναπαριστά ένα Alpha Replace εφέ.<br/>            Effect alpha (opacity) values are replaced by a fixed alpha. |
+| [`BiLevel`](/slides/python-net/el/aspose.slides.effects/bilevel/) | Αναπαριστά ένα Bi-Level (black/white) εφέ.<br/>            Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο.<br/>            Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή ορίζονται σε λευκό.<br/>            Οι τιμές alpha του εφέ δεν επηρεάζονται από αυτό το εφέ. |
+| [`Blur`](/slides/python-net/el/aspose.slides.effects/blur/) | Αναπαριστά ένα Blur εφέ που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένου του γεμίσματος.<br/>            Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του alpha, επηρεάζονται. |
+| [`BrightnessContrast`](/slides/python-net/el/aspose.slides.effects/brightnesscontrast/) | Αναπαριστά ένα BrightnessContrast εφέ.<br/>            Ρυθμίζει τη φωτεινότητα και την αντίθεση |
+| [`ColorChange`](/slides/python-net/el/aspose.slides.effects/colorchange/) | Αναπαριστά ένα Color Change εφέ.<br/>            Οι περιπτώσεις του FromColor αντικαθίστανται με περιπτώσεις του ToColor. |
+| [`ColorReplace`](/slides/python-net/el/aspose.slides.effects/colorreplace/) | Αναπαριστά ένα Color Replacement εφέ.<br/>            Όλα τα χρώματα του εφέ αλλάζουν σε ένα σταθερό χρώμα.<br/>            Οι τιμές Alpha δεν επηρεάζονται. |
+| [`Duotone`](/slides/python-net/el/aspose.slides.effects/duotone/) | Αναπαριστά ένα Duotone εφέ.<br/>            Για κάθε pixel, συνδυάζει τα Color1 και Color2 μέσω μιας γραμμικής παρεμβολής<br/>            για να καθορίσει το νέο χρώμα για εκείνο το pixel. |
+| [`EffectFactory`](/slides/python-net/el/aspose.slides.effects/effectfactory/) | Επιτρέπει τη δημιουργία εφέ |
+| [`FillOverlay`](/slides/python-net/el/aspose.slides.effects/filloverlay/) | Αναπαριστά ένα Fill Overlay εφέ. Ένα fill overlay μπορεί να χρησιμοποιηθεί για να καθορίσει<br/>            ένα πρόσθετο γέμισμα για ένα αντικείμενο και να συνδυάσει τα δύο γεμίσματα. |
+| [`Glow`](/slides/python-net/el/aspose.slides.effects/glow/) | Αναπαριστά ένα Glow εφέ, στο οποίο μια θολή περιγράμμιση χρώματος <br/>            προστίθεται έξω από τις άκρες του αντικειμένου. |
+| [`GrayScale`](/slides/python-net/el/aspose.slides.effects/grayscale/) | Αναπαριστά ένα Gray Scale εφέ. Μετατρέπει όλες τις τιμές χρώματος του εφέ σε μια απόχρωση του γκρι,<br/>            που αντιστοιχεί στη φωτεινότητά τους. Οι τιμές alpha (opacity) του εφέ δεν επηρεάζονται. |
+| [`HSL`](/slides/python-net/el/aspose.slides.effects/hsl/) | Αναπαριστά ένα Hue/Saturation/Luminance εφέ.<br/>            Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν ξεχωριστά σε σχέση με την τρέχουσα τιμή τους. |
+| [`IAlphaBiLevel`](/slides/python-net/el/aspose.slides.effects/ialphabilevel/) | Αναπαριστά ένα Alpha Bi-Level εφέ.<br/>            Alpha (Opacity) values less than the threshold are changed to 0 (πλήρως διαφανές) and<br/>            alpha values greater than or equal to the threshold are changed to 100% (πλήρως αδιαφανές). |
+| [`IAlphaBiLevelEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphabileveleffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Bi-Level εφέ.<br/>            Alpha (Opacity) values less than the threshold are changed to 0 (πλήρως διαφανές) and<br/>            alpha values greater than or equal to the threshold are changed to 100% (πλήρως αδιαφανές). |
+| [`IAlphaCeiling`](/slides/python-net/el/aspose.slides.effects/ialphaceiling/) | Αναπαριστά ένα Alpha Ceiling εφέ.<br/>            Alpha (opacity) values greater than zero are changed to 100%.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς αδιαφανές γίνεται πλήρως αδιαφανές. |
+| [`IAlphaCeilingEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphaceilingeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Ceiling εφέ.<br/>            Alpha (opacity) values greater than zero are changed to 100%.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς αδιαφανές γίνεται πλήρως αδιαφανές. |
+| [`IAlphaFloor`](/slides/python-net/el/aspose.slides.effects/ialphafloor/) | Αναπαριστά ένα Alpha Floor εφέ.<br/>            Alpha (opacity) values less than 100% are changed to zero.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς διαφανές γίνεται πλήρως διαφανές. |
+| [`IAlphaFloorEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphaflooreffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Floor εφέ.<br/>            Alpha (opacity) values less than 100% are changed to zero.<br/>            Με άλλα λόγια, οτιδήποτε μερικώς διαφανές γίνεται πλήρως διαφανές. |
+| [`IAlphaInverse`](/slides/python-net/el/aspose.slides.effects/ialphainverse/) | Αναπαριστά ένα Alpha Inverse εφέ.<br/>            Alpha (opacity) values are inverted by subtracting from 100%. |
+| [`IAlphaInverseEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphainverseeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Inverse εφέ.<br/>            Alpha (opacity) values are inverted by subtracting from 100%. |
+| [`IAlphaModulate`](/slides/python-net/el/aspose.slides.effects/ialphamodulate/) | Αναπαριστά ένα Alpha Modulate εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage.<br/>            The effect container specifies an effect containing alpha values to modulate. |
+| [`IAlphaModulateEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphamodulateeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Modulate εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage.<br/>            The effect container specifies an effect containing alpha values to modulate. |
+| [`IAlphaModulateFixed`](/slides/python-net/el/aspose.slides.effects/ialphamodulatefixed/) | Αναπαριστά ένα Alpha Modulate Fixed εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage. |
+| [`IAlphaModulateFixedEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphamodulatefixedeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Modulate Fixed εφέ.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage. |
+| [`IAlphaReplace`](/slides/python-net/el/aspose.slides.effects/ialphareplace/) | Αναπαριστά τη βασική διεπαφή IImageTransformOperation. |
+| [`IAlphaReplaceEffectiveData`](/slides/python-net/el/aspose.slides.effects/ialphareplaceeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Alpha Replace εφέ.<br/>            Effect alpha (opacity) values are replaced by a fixed alpha. |
+| [`IBiLevel`](/slides/python-net/el/aspose.slides.effects/ibilevel/) | Αναπαριστά τη βασική διεπαφή IImageTransformOperation. |
+| [`IBiLevelEffectiveData`](/slides/python-net/el/aspose.slides.effects/ibileveleffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Bi-Level (black/white) εφέ.<br/>            Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο.<br/>            Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή ορίζονται σε λευκό.<br/>            Οι τιμές alpha του εφέ δεν επηρεάζονται από αυτό το εφέ. |
+| [`IBlur`](/slides/python-net/el/aspose.slides.effects/iblur/) | Αναπαριστά ένα Blur εφέ που εφαρμόζεται σε ολόκληρο το σχήμα, συμπεριλαμβανομένου του γεμίσματος.<br/>            Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του alpha, επηρεάζονται. |
+| [`IBlurEffectiveData`](/slides/python-net/el/aspose.slides.effects/iblureffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Blur εφέ.<br/>            Όλα τα κανάλια χρώματος, συμπεριλαμβανομένου του alpha, επηρεάζονται. |
+| [`IBrightnessContrast`](/slides/python-net/el/aspose.slides.effects/ibrightnesscontrast/) | Αναπαριστά ένα BrightnessContrast εφέ.<br/>            Ρυθμίζει τη φωτεινότητα και την αντίθεση |
+| [`IBrightnessContrastEffectiveData`](/slides/python-net/el/aspose.slides.effects/ibrightnesscontrasteffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα BrightnessContrast εφέ.<br/>            Ρυθμίζει τη φωτεινότητα και την αντίθεση |
+| [`IColorChange`](/slides/python-net/el/aspose.slides.effects/icolorchange/) | Αναπαριστά ένα Color Change εφέ.<br/>            Οι περιπτώσεις του FromColor αντικαθίστανται με περιπτώσεις του ToColor. |
+| [`IColorChangeEffectiveData`](/slides/python-net/el/aspose.slides.effects/icolorchangeeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Color Change εφέ.<br/>            Οι περιπτώσεις του FromColor αντικαθίστανται με περιπτώσεις του ToColor. |
+| [`IColorReplace`](/slides/python-net/el/aspose.slides.effects/icolorreplace/) | Αναπαριστά ένα Color Replacement εφέ. |
+| [`IColorReplaceEffectiveData`](/slides/python-net/el/aspose.slides.effects/icolorreplaceeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Color Replacement εφέ.<br/>            Όλα τα χρώματα του εφέ αλλάζουν σε ένα σταθερό χρώμα.<br/>            Οι τιμές Alpha δεν επηρεάζονται. |
+| [`IDuotone`](/slides/python-net/el/aspose.slides.effects/iduotone/) | Αναπαριστά ένα Duotone εφέ. |
+| [`IDuotoneEffectiveData`](/slides/python-net/el/aspose.slides.effects/iduotoneeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Duotone εφέ.<br/>            Για κάθε pixel, συνδυάζει τα clr1 και clr2 μέσω μιας γραμμικής παρεμβολής<br/>            για να καθορίσει το νέο χρώμα για το pixel. |
+| [`IEffectEffectiveData`](/slides/python-net/el/aspose.slides.effects/ieffecteffectivedata/) | Βασική κλάση για αμετάβλητα αντικείμενα, που αναπαριστούν εφέ. |
+| [`IEffectFactory`](/slides/python-net/el/aspose.slides.effects/ieffectfactory/) | Επιτρέπει τη δημιουργία στιγμιοτύπων εφέ |
+| [`IFillOverlay`](/slides/python-net/el/aspose.slides.effects/ifilloverlay/) | Αναπαριστά ένα Fill Overlay εφέ. Ένα fill overlay μπορεί να χρησιμοποιηθεί για να καθορίσει<br/>            ένα πρόσθετο γέμισμα για ένα αντικείμενο και να συνδυάσει τα δύο γεμίσματα. |
+| [`IFillOverlayEffectiveData`](/slides/python-net/el/aspose.slides.effects/ifilloverlayeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Fill Overlay εφέ. Ένα fill overlay μπορεί να χρησιμοποιηθεί για να καθορίσει ένα πρόσθετο γέμισμα για ένα αντικείμενο και να συνδυάσει τα δύο γεμίσματα. |
+| [`IGlow`](/slides/python-net/el/aspose.slides.effects/iglow/) | Αναπαριστά ένα Glow εφέ, στο οποίο μια θολή περιγράμμιση χρώματος <br/>            προστίθεται έξω από τις άκρες του αντικειμένου. |
+| [`IGlowEffectiveData`](/slides/python-net/el/aspose.slides.effects/igloweffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Glow εφέ, στο οποίο μια θολή περιγράμμιση χρώματος <br/>            προστίθεται έξω από τις άκρες του αντικειμένου. |
+| [`IGrayScale`](/slides/python-net/el/aspose.slides.effects/igrayscale/) | Αναπαριστά τη διεπαφή IImageTransformOperation. |
+| [`IGrayScaleEffectiveData`](/slides/python-net/el/aspose.slides.effects/igrayscaleeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Gray Scale εφέ. Μετατρέπει όλες τις τιμές χρώματος του εφέ σε μια απόχρωση του γκρι,<br/>            που αντιστοιχεί στη φωτεινότητά τους. Οι τιμές alpha (opacity) του εφέ δεν επηρεάζονται. |
+| [`IHSL`](/slides/python-net/el/aspose.slides.effects/ihsl/) | Αναπαριστά ένα Hue/Saturation/Luminance εφέ.<br/>            Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν ξεχωριστά σε σχέση με την τρέχουσα τιμή τους. |
+| [`IHSLEffectiveData`](/slides/python-net/el/aspose.slides.effects/ihsleffectivedata/) | Αναπαριστά ένα Hue/Saturation/Luminance εφέ.<br/>            Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν ξεχωριστά σε σχέση με την τρέχουσα τιμή τους. |
+| [`IImageTransformOCollectionEffectiveData`](/slides/python-net/el/aspose.slides.effects/iimagetransformocollectioneffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά μια readonly συλλογή αποτελεσματικών μετασχηματισμών εικόνας. |
+| [`IImageTransformOperation`](/slides/python-net/el/aspose.slides.effects/iimagetransformoperation/) | Αναπαριστά ένα αφηρημένο εφέ μετασχηματισμού εικόνας. |
+| [`IImageTransformOperationCollection`](/slides/python-net/el/aspose.slides.effects/iimagetransformoperationcollection/) | Αναπαριστά μια συλλογή εφέ που εφαρμόζονται σε μια εικόνα. |
+| [`IImageTransformOperationFactory`](/slides/python-net/el/aspose.slides.effects/iimagetransformoperationfactory/) | Επιτρέπει τη δημιουργία στιγμιοτύπων εφέ εικόνας |
+| [`IInnerShadow`](/slides/python-net/el/aspose.slides.effects/iinnershadow/) | Αναπαριστά ένα inner shadow εφέ. |
+| [`IInnerShadowEffectiveData`](/slides/python-net/el/aspose.slides.effects/iinnershadoweffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα inner shadow εφέ. |
+| [`ILuminance`](/slides/python-net/el/aspose.slides.effects/iluminance/) | Αναπαριστά ένα Luminance εφέ.<br/>            Η φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα προς το λευκό ή το μαύρο.<br/>            Η αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά μεταξύ τους. |
+| [`ILuminanceEffectiveData`](/slides/python-net/el/aspose.slides.effects/iluminanceeffectivedata/) | Αναπαριστά ένα Luminance εφέ.<br/>            Η φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα προς το λευκό ή το μαύρο.<br/>            Η αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά μεταξύ τους. |
+| [`IOuterShadow`](/slides/python-net/el/aspose.slides.effects/ioutershadow/) | Αναπαριστά ένα Outer Shadow εφέ. |
+| [`IOuterShadowEffectiveData`](/slides/python-net/el/aspose.slides.effects/ioutershadoweffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Outer Shadow εφέ. |
+| [`IPresetShadow`](/slides/python-net/el/aspose.slides.effects/ipresetshadow/) | Αναπαριστά ένα Preset Shadow εφέ. |
+| [`IPresetShadowEffectiveData`](/slides/python-net/el/aspose.slides.effects/ipresetshadoweffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Preset Shadow εφέ. |
+| [`IReflection`](/slides/python-net/el/aspose.slides.effects/ireflection/) | Αναπαριστά ένα reflection εφέ. |
+| [`IReflectionEffectiveData`](/slides/python-net/el/aspose.slides.effects/ireflectioneffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Reflection εφέ. |
+| [`ISoftEdge`](/slides/python-net/el/aspose.slides.effects/isoftedge/) | Αναπαριστά ένα Soft Edge εφέ. <br/>            Οι άκρες του σχήματος είναι θολές, ενώ το γέμισμα δεν επηρεάζεται. |
+| [`ISoftEdgeEffectiveData`](/slides/python-net/el/aspose.slides.effects/isoftedgeeffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα soft edge εφέ. <br/>            Οι άκρες του σχήματος είναι θολές, ενώ το γέμισμα δεν επηρεάζεται. |
+| [`ITint`](/slides/python-net/el/aspose.slides.effects/itint/) | Αναπαριστά ένα Tint εφέ.<br/>            Μετατοπίζει τις τιμές χρώματος του εφέ προς/από την απόχρωση κατά το καθορισμένο ποσό. |
+| [`ITintEffectiveData`](/slides/python-net/el/aspose.slides.effects/itinteffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά ένα Tint εφέ.<br/>            Μετατοπίζει τις τιμές χρώματος του εφέ προς/από την απόχρωση κατά το καθορισμένο ποσό. |
+| [`ImageTransformOCollectionEffectiveData`](/slides/python-net/el/aspose.slides.effects/imagetransformocollectioneffectivedata/) | Αμετάβλητο αντικείμενο που αναπαριστά μια readonly συλλογή αποτελεσματικών μετασχηματισμών εικόνας. |
+| [`ImageTransformOperation`](/slides/python-net/el/aspose.slides.effects/imagetransformoperation/) | Αναπαριστά ένα αφηρημένο εφέ μετασχηματισμού εικόνας. |
+| [`ImageTransformOperationCollection`](/slides/python-net/el/aspose.slides.effects/imagetransformoperationcollection/) | Αναπαριστά μια συλλογή εφέ που εφαρμόζονται σε μια εικόνα. |
+| [`ImageTransformOperationFactory`](/slides/python-net/el/aspose.slides.effects/imagetransformoperationfactory/) | Επιτρέπει τη δημιουργία λειτουργιών μετασχηματισμού εικόνας |
+| [`InnerShadow`](/slides/python-net/el/aspose.slides.effects/innershadow/) | Αναπαριστά ένα Inner Shadow εφέ. |
+| [`Luminance`](/slides/python-net/el/aspose.slides.effects/luminance/) | Αναπαριστά ένα Luminance εφέ.<br/>            Η φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα προς το λευκό ή το μαύρο.<br/>            Η αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά μεταξύ τους. |
+| [`OuterShadow`](/slides/python-net/el/aspose.slides.effects/outershadow/) | Αναπαριστά ένα Outer Shadow εφέ. |
+| [`PresetShadow`](/slides/python-net/el/aspose.slides.effects/presetshadow/) | Αναπαριστά ένα Preset Shadow εφέ. |
+| [`Reflection`](/slides/python-net/el/aspose.slides.effects/reflection/) | Αναπαριστά ένα Reflection εφέ. |
+| [`SoftEdge`](/slides/python-net/el/aspose.slides.effects/softedge/) | Αναπαριστά ένα soft edge εφέ. <br/>            Οι άκρες του σχήματος είναι θολές, ενώ το γέμισμα δεν επηρεάζεται. |
+| [`Tint`](/slides/python-net/el/aspose.slides.effects/tint/) | Αναπαριστά ένα Tint εφέ.<br/>            Μετατοπίζει τις τιμές χρώματος του εφέ προς/από την απόχρωση κατά το καθορισμένο ποσό. |

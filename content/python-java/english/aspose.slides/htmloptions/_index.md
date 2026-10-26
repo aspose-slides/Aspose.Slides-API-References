@@ -23,7 +23,7 @@ url: /aspose.slides/htmloptions/
 | --- | --- | --- |
 | linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback object which controls saving project. |
 
- **Result:**
+ **Returns:**
 HtmlOptions
 
 
@@ -36,21 +36,8 @@ HtmlOptions
 | --- | --- |
 | HtmlOptions() | Creates a new HtmlOptions object for saving into single HTML file. |
 
- **Result:**
+ **Returns:**
 HtmlOptions
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
-String
 
 
 ---
@@ -62,7 +49,20 @@ String
 | --- | --- |
 | getDeletePicturesCroppedAreas() | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
- **Result:**
+ **Returns:**
+boolean
+
+
+---
+
+
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures() | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
 boolean
 
 
@@ -75,8 +75,21 @@ boolean
 | --- | --- |
 | getHtmlFormatter() | Returns or sets HTML template. Read/write IHtmlFormatter. |
 
- **Result:**
+ **Returns:**
 [HtmlFormatter](../htmlformatter)
+
+
+---
+
+
+### getInkOptions {#getInkOptions}
+
+| Name | Description |
+| --- | --- |
+| getInkOptions() | Provides options that control the look of Ink objects in exported document. Read-only IInkOptions |
+
+ **Returns:**
+[InkOptions](../inkoptions)
 
 
 ---
@@ -88,21 +101,8 @@ boolean
 | --- | --- |
 | getJpegQuality() | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write byte. Has effect only when a document contains JPEG images. Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. The default value is 95. |
 
- **Result:**
+ **Returns:**
 byte
-
-
----
-
-
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting() | Provides options that control how notes and comments is placed in exported document. |
-
- **Result:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -114,21 +114,8 @@ byte
 | --- | --- |
 | getPicturesCompression() | Represents the pictures compression level |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
 
 
 ---
@@ -140,7 +127,7 @@ IProgressCallback
 | --- | --- |
 | getShowHiddenSlides() | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -153,8 +140,21 @@ boolean
 | --- | --- |
 | getSlideImageFormat() | Returns or sets slide image format options. Read/write ISlideImageFormat. |
 
- **Result:**
+ **Returns:**
 [SlideImageFormat](../slideimageformat)
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions() | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -166,31 +166,8 @@ boolean
 | --- | --- |
 | getSvgResponsiveLayout() | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
 
 
 ---
@@ -201,6 +178,16 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setDeletePicturesCroppedAreas(boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+
+
+---
+
+
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures(boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
 
 ---
@@ -236,16 +223,6 @@ IWarningCallback
 ---
 
 
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
 ### setShowHiddenSlides {#setShowHiddenSlides}
 
 | Name | Description |
@@ -266,21 +243,31 @@ IWarningCallback
 ---
 
 
-### setSvgResponsiveLayout {#setSvgResponsiveLayout}
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
 
 | Name | Description |
 | --- | --- |
-| setSvgResponsiveLayout(boolean) | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write boolean. |
+| setSlidesLayoutOptions([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---
 
 
-### setWarningCallback {#setWarningCallback}
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setSlidesLayoutOptions([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+
+---
+
+
+### setSvgResponsiveLayout {#setSvgResponsiveLayout}
+
+| Name | Description |
+| --- | --- |
+| setSvgResponsiveLayout(boolean) | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write boolean. |
 
 
 ---

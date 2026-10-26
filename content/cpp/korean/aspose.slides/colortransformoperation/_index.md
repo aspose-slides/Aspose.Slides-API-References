@@ -1,0 +1,53 @@
+---
+title: ColorTransformOperation
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 색 변환 작업을 정의합니다.
+type: docs
+weight: 5747
+url: /ko/aspose.slides/colortransformoperation/
+---
+## ColorTransformOperation 열거형
+
+Defines color transform operation.
+
+```cpp
+enum class ColorTransformOperation
+```
+
+### 값
+
+| 이름 | 값 | 설명 |
+| --- | --- | --- |
+| Tint | 0 | 색상에 색조를 적용합니다. 매개변수는 0(원본 색)와 1(흰색) 사이의 값입니다. |
+| Shade | 1 | 색상을 단색화합니다. 매개변수는 0(원본 색)와 1(검은색) 사이의 값입니다. |
+| Complement | 2 | 색상을 RGB 보색으로 변경합니다. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Inverse | 3 | 색상을 반전된 색으로 변경합니다. r = 1 - r; g = 1 - g; b = 1 - b; |
+| Grayscale | 4 | 색상을 동일한 명도(gray)로 회색으로 변경합니다. 매개변수는 무시됩니다. |
+| SetAlpha | 5 | 색상의 알파 구성 요소를 정의합니다. 매개변수는 0(투명)과 1(불투명) 사이의 값입니다. |
+| AddAlpha | 6 | 매개변수 값을 색상의 알파 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplyAlpha | 7 | 알파 구성 요소에 매개변수 값을 곱합니다. |
+| SetHue | 8 | 색상의 색상 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 360 사이의 값입니다. |
+| AddHue | 9 | 매개변수 값을 색상의 색상 구성 요소에 더합니다. 매개변수는 -360과 360 사이의 값입니다. |
+| MultiplyHue | 10 | 색상 구성 요소에 매개변수 값을 곱합니다. |
+| SetSaturation | 11 | 색상의 채도 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 1 사이의 값입니다. |
+| AddSaturation | 12 | 매개변수 값을 색상의 채도 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplySaturation | 13 | 채도 구성 요소에 매개변수 값을 곱합니다. |
+| SetLuminance | 14 | 색상의 휘도 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 1 사이의 값입니다. |
+| AddLuminance | 15 | 매개변수 값을 색상의 휘도 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplyLuminance | 16 | 휘도 구성 요소에 매개변수 값을 곱합니다. |
+| SetRed | 17 | 색상의 빨간색 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 1 사이의 값입니다. |
+| AddRed | 18 | 매개변수 값을 색상의 빨간색 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplyRed | 19 | 빨간색 구성 요소에 매개변수를 곱합니다. |
+| SetGreen | 20 | 색상의 녹색 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 1 사이의 값입니다. |
+| AddGreen | 21 | 매개변수를 색상의 녹색 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplyGreen | 22 | 녹색 구성 요소에 매개변수 값을 곱합니다. |
+| SetBlue | 23 | 색상의 파란색 구성 요소를 매개변수 값으로 변경합니다. 매개변수는 0과 360 사이의 값입니다. |
+| AddBlue | 24 | 매개변수 값을 색상의 파란색 구성 요소에 더합니다. 매개변수는 -1과 1 사이의 값입니다. |
+| MultiplyBlue | 25 | 파란색 구성 요소에 매개변수 값을 곱합니다. |
+| Gamma | 26 | 감마 보정. 매개변수는 무시됩니다. |
+| InverseGamma | 27 | 역감마 보정. 매개변수는 무시됩니다. |
+
+## 참조
+
+* 네임스페이스 [Aspose::Slides](../)
+* 라이브러리 [Aspose.Slides](../../)

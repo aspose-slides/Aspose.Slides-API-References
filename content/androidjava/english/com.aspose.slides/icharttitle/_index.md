@@ -6,9 +6,9 @@ type: docs
 url: /com.aspose.slides/icharttitle/
 ---
 **All Implemented Interfaces:**
-[com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IOverridableText](../../com.aspose.slides/ioverridabletext)
+[com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IOverridableText](../../com.aspose.slides/ioverridabletext), [com.aspose.slides.IActualLayout](../../com.aspose.slides/iactuallayout)
 ```
-public interface IChartTitle extends ILayoutable, IOverridableText
+public interface IChartTitle extends ILayoutable, IOverridableText, IActualLayout
 ```
 
 Represents chart title properties.

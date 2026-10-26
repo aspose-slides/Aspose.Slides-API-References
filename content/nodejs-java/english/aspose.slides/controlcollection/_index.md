@@ -27,7 +27,7 @@ url: /aspose.slides/controlcollection/
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
 
- **Result:**
+ **Returns:**
 [Control](../control)
 
 
@@ -50,7 +50,7 @@ url: /aspose.slides/controlcollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -69,7 +69,7 @@ Object
 | --- | --- | --- |
 | index | int | Index of a control. |
 
- **Result:**
+ **Returns:**
 [Control](../control)
 
 
@@ -82,7 +82,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -153,7 +153,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

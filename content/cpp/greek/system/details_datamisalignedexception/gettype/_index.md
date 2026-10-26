@@ -1,0 +1,28 @@
+---
+title: GetType()
+second_title: Aspose.Slides για C++ API Αναφορά
+description: Λαμβάνει τον πραγματικό τύπο του αντικειμένου. Αντιστοιχία της κλήσης C# System.Object.GetType().
+type: docs
+weight: 14
+url: /el/system/details_datamisalignedexception/gettype/
+---
+## Λεπτομέρειες_DataMisalignedException::GetType() const μέθοδος
+
+
+Λαμβάνει τον πραγματικό τύπο του αντικειμένου. Αντιστοιχία της κλήσης C# [System.Object.GetType()](../../object/gettype/).
+
+```cpp
+const System::TypeInfo & System::Details_DataMisalignedException::GetType() const override
+```
+
+
+### Τιμή Επιστροφής
+
+[TypeInfo](../../typeinfo/) αντικείμενο που περιγράφει τον τελικό τύπο.
+
+## Δείτε επίσης
+
+* Κλάση [TypeInfo](../../typeinfo/)
+* Κλάση [Details_DataMisalignedException](../)
+* Χώρος ονομάτων [System](../../)
+* Βιβλιοθήκη [Aspose.Slides](../../../)

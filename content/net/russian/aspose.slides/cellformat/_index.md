@@ -1,13 +1,12 @@
 ---
 title: CellFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет формат ячейки таблицы.
 type: docs
-weight: 1070
+weight: 1150
 url: /ru/aspose.slides/cellformat/
 ---
-
-## CellFormat class
+## CellFormat класс
 
 Представляет формат ячейки таблицы.
 
@@ -17,31 +16,31 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Возвращает объект свойств нижней границы линии. Только для чтения [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Возвращает объект свойств диагональной линии сверху слева вниз направо. Только для чтения [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Возвращает объект свойств диагональной линии снизу слева вверх направо. Только для чтения [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Возвращает объект свойств левой границы линии. Только для чтения [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Возвращает объект свойств правой границы линии. Только для чтения [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Возвращает объект свойств верхней границы линии. Только для чтения [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Возвращает объект свойств заливки ячейки. Только для чтения [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Получает или устанавливает прозрачность цвета заливки. Чтение/запись Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Возвращает объект свойств линии нижней границы. Только для чтения [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Возвращает объект свойств диагональной линии от верхнего левого к нижнему правому. Только для чтения [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Возвращает объект свойств диагональной линии от нижнего левого к верхнему правому. Только для чтения [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Возвращает объект свойств линии левой границы. Только для чтения [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Возвращает объект свойств линии правой границы. Только для чтения [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Возвращает объект свойств линии верхней границы. Только для чтения [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Возвращает объект свойств заливки ячейки. Только для чтения [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Получает или задает прозрачность цвета заливки. Чтение/запись Single. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Получает эффективные свойства форматирования ячейки таблицы с применением наследования и стилей таблицы. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Получает эффективные свойства форматирования ячейки таблицы с учётом наследования и применённых стилей таблицы. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэша. |
 
 ### См. также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [ICellFormat](../icellformat)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* класс [PVIObject](../pviobject)
+* интерфейс [ICellFormat](../icellformat)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

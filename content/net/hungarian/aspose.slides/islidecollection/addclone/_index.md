@@ -1,0 +1,147 @@
+---
+title: AddClone
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Másolatot ad egy megadott diáról a gyűjtemény végéhez.
+type: docs
+weight: 20
+url: /hu/aspose.slides/islidecollection/addclone/
+---
+## AddClone(ISlide) {#addclone}
+
+A megadott dia másolatát adja hozzá a gyűjtemény végéhez.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+
+### Visszatérési érték
+
+New slide.
+
+### Megjegyzés
+
+Amikor egy diát különböző bemutatók között klónozunk, a dia mesteroldala is klónozható. Egy belső nyilvántartást használnak az automatikusan klónozott mesterek nyomon követésére, hogy megakadályozzák ugyanazon mesterdia több példányának létrehozását. A mesterdiák manuális klónozását sem akadályozzák, sem regisztrálják. Ha nagyobb irányítást kíván a klónozási folyamat felett, használja a [`AddClone`](../addclone) vagy [`AddClone`](../addclone) diákok klónozásához, a [`AddClone`](../../igloballayoutslidecollection/addclone) vagy [`AddClone`](../../igloballayoutslidecollection/addclone) elrendezések klónozásához és a [`AddClone`](../../imasterslidecollection/addclone) mesterek klónozásához.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ISection) {#addclone_3}
+
+A megadott dia másolatát adja hozzá a megadott szakasz végéhez.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ISection section)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| section | ISection | Section for a new slide. |
+
+### Visszatérési érték
+
+New slide.
+
+### Kivételek
+
+| kivétel | feltétel |
+| --- | --- |
+| ArgumentNullException |  |
+| [PptxEditException](../../pptxeditexception) |  |
+
+### Példák
+
+```csharp
+[C#]
+using (IPresentation presentation = new Presentation())
+{
+    presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
+    presentation.Sections.AddSection("Section 1", presentation.Slides[0]);
+    
+    ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
+    presentation.Slides.AddClone(presentation.Slides[0], section2);
+    
+    // Most a második szakasz tartalmaz egy másolatot az első diáról.
+}
+```
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ISection](../../isection)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ILayoutSlide) {#addclone_1}
+
+A megadott dia másolatát adja hozzá a gyűjtemény végéhez.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| destLayout | ILayoutSlide | Layout slide for a new slide. |
+
+### Visszatérési érték
+
+New slide.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ILayoutSlide](../../ilayoutslide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
+
+A megadott forrásdia másolatát adja hozzá a gyűjtemény végéhez. A megfelelő elrendezés automatikusan ki lesz választva a megadott mesterből (a megfelelő elrendezés az a elrendezés, amelynek típusa vagy neve megegyezik a forrásdia elrendezésével). Ha nincs megfelelő elrendezés, akkor a forrásdia elrendezése lesz klónozva (ha az allowCloneMissingLayout értéke true), vagy PptxEditException lesz dobva (ha az allowCloneMissingLayout értéke false).
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| destMaster | IMasterSlide | Master slide for a new slide. |
+| allowCloneMissingLayout | Boolean | Ha nincs megfelelő elrendezés a megadott mesterben, akkor a forrásdia elrendezése lesz klónozva (ha az allowCloneMissingLayout értéke true), vagy PptxEditException lesz dobva (ha az allowCloneMissingLayout értéke false). |
+
+### Visszatérési érték
+
+New slide.
+
+### Kivételek
+
+| kivétel | feltétel |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Dobja, ha nincs megfelelő elrendezés a megadott mesterben és az allowCloneMissingLayout értéke false. |
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [IMasterSlide](../../imasterslide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

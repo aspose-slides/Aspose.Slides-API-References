@@ -3,7 +3,7 @@ title: IsMeteredLicensed
 second_title: Aspose.Sildes for .NET API Reference
 description: Check whether metered is licensed
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides/metered/ismeteredlicensed/
 ---
 

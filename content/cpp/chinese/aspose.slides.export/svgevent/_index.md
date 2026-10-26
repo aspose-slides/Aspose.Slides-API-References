@@ -1,0 +1,44 @@
+---
+title: SvgEvent
+second_title: Aspose.Slides for C++ API 参考
+description: 表示 SVG 形状的选项。
+type: docs
+weight: 1067
+url: /zh/aspose.slides.export/svgevent/
+---
+## SvgEvent 枚举
+
+表示 SVG 形状的选项。
+
+```cpp
+enum class SvgEvent
+```
+
+### 值
+
+| 名称 | 值 | 描述 |
+| --- | --- | --- |
+| OnFocusIn | 0 | 当元素获得焦点时触发，例如文本被选中时。 |
+| OnFocusOut | 1 | 当元素失去焦点时触发，例如文本被取消选中时。 |
+| OnActivate | 2 | 当元素被激活时触发，例如通过鼠标点击或键盘按下。 |
+| OnClick | 3 | 当指针设备按钮在元素上被点击时触发。 |
+| OnMouseDown | 4 | 当指针设备按钮在元素上被按下时触发。 |
+| OnMouseUp | 5 | 当指针设备按钮在元素上被释放时触发。 |
+| OnMouseOver | 6 | 当指针设备移动到元素上时触发。 |
+| OnMouseMove | 7 | 当指针设备在元素上移动时触发。 |
+| OnMouseOut | 8 | 当指针设备移出元素时触发。 |
+| OnLoad | 9 | 当用户代理完全解析元素及其后代和所有引用资源后触发，需要渲染该元素。 |
+| OnUnload | 10 | 当 [DOM](../../aspose.slides.dom/) 实现从窗口或框架中移除文档时触发。仅适用于最外层的 svg 元素。 |
+| OnAbort | 11 | 当页面加载在元素完全加载之前被停止时触发。 |
+| OnError | 12 | 当元素未能正确加载或脚本执行期间出现错误时触发。 |
+| OnResize | 13 | 当文档视图大小被调整时触发。仅适用于最外层的 svg 元素。 |
+| OnScroll | 14 | 当文档视图在 X、Y 或两轴上移动时触发。仅适用于最外层的 svg 元素。 |
+| OnZoom | 15 | 当文档视图的缩放级别被改变时触发。仅适用于最外层的 svg 元素。 |
+| OnBegin | 16 | 当动画元素开始时触发。 |
+| OnEnd | 17 | 当动画元素结束时触发。 |
+| OnRepeat | 18 | 当动画元素重复时触发。 |
+
+## 参见
+
+* 命名空间 [Aspose::Slides::Export](../)
+* 库 [Aspose.Slides](../../)

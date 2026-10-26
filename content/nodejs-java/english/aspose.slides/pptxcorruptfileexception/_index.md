@@ -17,7 +17,7 @@ url: /aspose.slides/pptxcorruptfileexception/
 | --- | --- |
 | PptxCorruptFileException() | Default function. |
 
- **Result:**
+ **Returns:**
 PptxCorruptFileException
 
 
@@ -36,7 +36,7 @@ PptxCorruptFileException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 PptxCorruptFileException
 
 
@@ -56,7 +56,7 @@ PptxCorruptFileException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 PptxCorruptFileException
 
 

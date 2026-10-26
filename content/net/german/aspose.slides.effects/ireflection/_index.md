@@ -1,13 +1,12 @@
 ---
 title: IReflection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Reflexionseffekt dar.
 type: docs
-weight: 3380
+weight: 3500
 url: /de/aspose.slides.effects/ireflection/
 ---
-
-## IReflection-Schnittstelle
+## IReflection Schnittstelle
 
 Stellt einen Reflexionseffekt dar.
 
@@ -20,29 +19,29 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Unschärferadius. Lese-/Schreibzugriff Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Richtung der Reflexion. Lese-/Schreibzugriff Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Entfernung der Reflexion. Lese-/Schreibzugriff Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Gibt die Endposition (entlang des Alpha-Gradientenverlaufs) des End-Alpha-Wertes (Prozentsatz) an. Lese-/Schreibzugriff Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | End-Reflexionsopazität. (Prozentsatz). Lese-/Schreibzugriff Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Gibt die Richtung an, in die die Reflexion versetzt werden soll. (Winkel). Lese-/Schreibzugriff Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rechteckausrichtung. Lese-/Schreibzugriff [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Gibt an, ob sich die Reflexion mit der Form drehen sollte, wenn die Form gedreht wird. Lese-/Schreibzugriff Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung bewirkt eine Spiegelung. (Prozentsatz) Lese-/Schreibzugriff Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung bewirkt eine Spiegelung. (Prozentsatz) Lese-/Schreibzugriff Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Gibt den horizontalen Schiefwinkel an. Lese-/Schreibzugriff Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Gibt den vertikalen Schiefwinkel an. Lese-/Schreibzugriff Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Gibt die Startposition (entlang des Alpha-Gradientenverlaufs) des Start-Alpha-Wertes (Prozentsatz) an. Lese-/Schreibzugriff Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Anfangs-Reflexionsopazität. (Prozentsatz). Lese-/Schreibzugriff Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen des Basis-IAccessiblePVIObject-Interface. Schreibgeschützt [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen des Basis-IImageTransformOperation-Interface. Schreibgeschützt [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Unschärferadius. Lese/Schreib Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Richtung der Reflexion. Lese/Schreib Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Abstand der Reflexion. Lese/Schreib Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Gibt die Endposition (entlang der Alpha-Verlaufsrampe) des End-Alpha-Werts (Prozente) an. Lese/Schreib Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Ende-Reflexions-Opazität. (Prozente). Lese/Schreib Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Gibt die Richtung zum Versetzen der Reflexion an. (Winkel). Lese/Schreib Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rechteckausrichtung. Lese/Schreib [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Gibt an, ob die Reflexion mit der Form rotieren soll, wenn die Form rotiert wird. Lese/Schreib Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung führt zu einer Spiegelung. (Prozente) Lese/Schreib Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung führt zu einer Spiegelung. (Prozente) Lese/Schreib Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Gibt den horizontalen Schrägwinkel an. Lese/Schreib Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Gibt den vertikalen Schrägwinkel an. Lese/Schreib Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Gibt die Startposition (entlang der Alpha-Verlaufsrampe) des Start-Alpha-Werts (Prozente) an. Lese/Schreib Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Start-Reflexions-Opazität. (Prozente). Lese/Schreib Single. |
 
 ### Siehe auch
 
-* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* Schnittstelle [IReflectionEffectiveData](../ireflectioneffectivedata)
-* Schnittstelle [IImageTransformOperation](../iimagetransformoperation)
-* Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* Schnittstelle [IReflectionEffectiveData](../ireflectioneffectivedata)
+* Schnittstelle [IImageTransformOperation](../iimagetransformoperation)
+* Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

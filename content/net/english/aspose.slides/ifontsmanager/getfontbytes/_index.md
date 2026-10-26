@@ -12,13 +12,13 @@ url: /aspose.slides/ifontsmanager/getfontbytes/
 Retrieves the byte array representing the font data for a specified font style and font data.
 
 ```csharp
-public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
+public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | IFontData | The font data object containing the information about the font [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyle | The style of the font for which the data is to be retrieved FontStyle. |
+| fontStyle | FontStyleType | The style of the font for which the data is to be retrieved [`FontStyleType`](../../fontstyletype). |
 
 ### Return Value
 
@@ -34,13 +34,14 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
     // Get the byte array representing the regular style of the first font in the presentation
-    byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyle.Regular);
+    byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
 
 ### See Also
 
 * interface [IFontData](../../ifontdata)
+* enum [FontStyleType](../../fontstyletype)
 * interface [IFontsManager](../../ifontsmanager)
 * namespace [Aspose.Slides](../../ifontsmanager)
 * assembly [Aspose.Slides](../../../)

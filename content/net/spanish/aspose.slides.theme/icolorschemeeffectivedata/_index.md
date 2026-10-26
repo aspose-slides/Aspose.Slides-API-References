@@ -1,15 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene propiedades del esquema de color efectivo.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene propiedades efectivas del esquema de color.
 type: docs
-weight: 10850
+weight: 11160
 url: /es/aspose.slides.theme/icolorschemeeffectivedata/
 ---
+## IColorSchemeEffectiveData interfaz
 
-## Interfaz IColorSchemeEffectiveData
-
-Objeto inmutable que contiene propiedades del esquema de color efectivo.
+Objeto inmutable que contiene propiedades efectivas del esquema de color.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -19,27 +18,27 @@ public interface IColorSchemeEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Primer color de acento en el esquema. Color de solo lectura. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Segundo color de acento en el esquema. Color de solo lectura. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Tercer color de acento en el esquema. Color de solo lectura. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Cuarto color de acento en el esquema. Color de solo lectura. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Quinto color de acento en el esquema. Color de solo lectura. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Sexto color de acento en el esquema. Color de solo lectura. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Primer color oscuro en el esquema. Color de solo lectura. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Segundo color oscuro en el esquema. Color de solo lectura. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Color para los hiperenlaces visitados. Color de solo lectura. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Color para los hiperenlaces. Color de solo lectura. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Obtiene el elemento en el índice especificado. Color de solo lectura. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Primer color claro en el esquema. Color de solo lectura. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Segundo color claro en el esquema. Color de solo lectura. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Primer color de acento en el esquema. Solo lectura Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Segundo color de acento en el esquema. Solo lectura Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Tercer color de acento en el esquema. Solo lectura Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Cuarto color de acento en el esquema. Solo lectura Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Quinto color de acento en el esquema. Solo lectura Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Sexto color de acento en el esquema. Solo lectura Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Primer color oscuro en el esquema. Solo lectura Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Segundo color oscuro en el esquema. Solo lectura Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Color para los hipervínculos visitados. Solo lectura Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Color para los hipervínculos. Solo lectura Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Primer color claro en el esquema. Solo lectura Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Segundo color claro en el esquema. Solo lectura Color. |
 
 ### Observaciones
 
 Esta clase se utiliza como parte de [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Véase también
+### Ver también
 
-* espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)
-* ensamblaje [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

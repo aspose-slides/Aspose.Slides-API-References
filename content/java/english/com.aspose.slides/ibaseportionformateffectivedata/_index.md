@@ -30,7 +30,7 @@ Base interface for immutable objects which contain effective text portion format
 | [getSmartTagClean()](#getSmartTagClean--) | Determines whether the smart tag should be cleaned. |
 | [isHardUnderlineLine()](#isHardUnderlineLine--) | Determines whether the underline style has own LineFormat properties or inherits it from the LineFormat properties of the text. |
 | [isHardUnderlineFill()](#isHardUnderlineFill--) | Determines whether the underline style has own FillFormat properties or inherits it from the FillFormat properties of the text. |
-| [getFontHeight()](#getFontHeight--) | Returns the font height of a portion. |
+| [getFontHeight()](#getFontHeight--) | Returns the font height of the text portion, in points. |
 | [getLatinFont()](#getLatinFont--) | Returns the Latin font info. |
 | [getEastAsianFont()](#getEastAsianFont--) | Returns the East Asian font info. |
 | [getComplexScriptFont()](#getComplexScriptFont--) | Returns the complex script font info. |
@@ -39,7 +39,7 @@ Base interface for immutable objects which contain effective text portion format
 | [getKerningMinimalSize()](#getKerningMinimalSize--) | Returns the minimal font size, for which kerning should be switched on. |
 | [getLanguageId()](#getLanguageId--) | Returns the Id of a language. |
 | [getAlternativeLanguageId()](#getAlternativeLanguageId--) | Returns the Id of an alternative language. |
-| [getSpacing()](#getSpacing--) | Returns the intercharacter spacing increment. |
+| [getSpacing()](#getSpacing--) | Returns the intercharacter spacing increment, in points. |
 ### getLineFormat() {#getLineFormat--}
 ```
 public abstract ILineFormatEffectiveData getLineFormat()
@@ -216,7 +216,7 @@ public abstract float getFontHeight()
 ```
 
 
-Returns the font height of a portion. Read-only float.
+Returns the font height of the text portion, in points. Read-only float.
 
 **Returns:**
 float
@@ -306,7 +306,7 @@ public abstract float getSpacing()
 ```
 
 
-Returns the intercharacter spacing increment. Read-only float.
+Returns the intercharacter spacing increment, in points. Read-only float.
 
 **Returns:**
 float

@@ -1,0 +1,25 @@
+---
+title: proof_disabled property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description:
+type: docs
+url: /fa/aspose.slides/iportionformat/proof_disabled/
+weight: 270
+---
+## proof_disabled ویژگی
+### تعریف:
+```python
+@property
+def proof_disabled(self):
+    ...
+
+@proof_disabled.setter
+def proof_disabled(self, value):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`IPortionFormat`](/slides/python-net/fa/aspose.slides/iportionformat)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,27 @@
+---
+title: blur_radius property
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides.effects/iinnershadow/blur_radius/
+weight: 30
+---
+## blur_radius خاصية
+نقطة الضبابية.
+            قراءة/كتابة **float**.
+
+### التعريف:
+```python
+@property
+def blur_radius(self):
+    ...
+
+@blur_radius.setter
+def blur_radius(self, value):
+    ...
+```
+
+### انظر أيضًا
+* فئة [`IInnerShadow`](/slides/python-net/ar/aspose.slides.effects/iinnershadow)
+* وحدة [`aspose.slides.effects`](/slides/python-net/ar/aspose.slides.effects)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

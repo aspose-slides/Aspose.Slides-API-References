@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
+description: Creates a new empty group shape and adds it to the end of the shape collection. The groups frame will automatically adjust to fit any shapes added to it.
 type: docs
 weight: 130
 url: /aspose.slides/shapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
+Creates a new empty group shape and adds it to the end of the shape collection. The group’s frame will automatically adjust to fit any shapes added to it.
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -17,7 +17,7 @@ public IGroupShape AddGroupShape()
 
 ### Return Value
 
-Created GroupShape object.
+The newly created [`IGroupShape`](../../igroupshape).
 
 ### Examples
 
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation())
 
 ## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
-Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection.
+Creates a new group shape, converts the specified SVG image into individual shapes, and adds the resulting group to the end of the shape collection.
 
 ```csharp
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
@@ -65,15 +65,15 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
-| x | Single | The X coordinate for the left side of the shape group frame. |
-| y | Single | The Y coordinate for the top side of the shape group frame. |
-| width | Single | The width of the group of the shape group frame. |
-| height | Single | The height of a group of the shape group frame. |
+| svgImage | ISvgImage | The [`ISvgImage`](../../isvgimage) containing vector content to convert into shapes. |
+| x | Single | The x-coordinate of the group’s frame, in points. |
+| y | Single | The y-coordinate of the group’s frame, in points. |
+| width | Single | The width of the group’s frame, in points. |
+| height | Single | The height of the group’s frame, in points. |
 
 ### Return Value
 
-Created GroupShape object.
+The newly created [`IGroupShape`](../../igroupshape).
 
 ### See Also
 

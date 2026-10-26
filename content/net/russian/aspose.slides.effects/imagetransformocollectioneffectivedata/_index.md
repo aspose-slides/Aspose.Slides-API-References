@@ -1,15 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Невз изменяемый объект, представляющий собой только для чтения коллекцию эффективных эффектов преобразования изображений.
+second_title: Aspose.Sildes для .NET справочник API
+description: Неизменяемый объект, представляющий только для чтения коллекцию эффективных эффектов преобразования изображения.
 type: docs
-weight: 3440
+weight: 3560
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
+## ImageTransformOCollectionEffectiveData класс
 
-## Класс ImageTransformOCollectionEffectiveData
-
-Невз изменяемый объект, представляющий собой только для чтения коллекцию эффективных эффектов преобразования изображений.
+Неизменяемый объект, представляющий только для чтения коллекцию эффективных эффектов преобразования изображения.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -17,36 +16,36 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Конструктор по умолчанию. |
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Возвращает количество эффектов изображения в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Возвращает элемент по индексу. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Возвращает количество эффектов изображения в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Возвращает элемент по индексу. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Служит хэш-функцией для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблицы. |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Служит хеш-функцией для определённого типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### Примечания
 
-Название IImageTransformOperationCollectionEffectiveData укорочено до IImageTransformOCollectionEffectiveData из-за ограничения длины имен COM, не превышающей 39.
+Имя IImageTransformOperationCollectionEffectiveData усечено до IImageTransformOCollectionEffectiveData, потому что длина имен COM не может превышать 39 символов.
 
 ### См. также
 
-* интерфейс [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
-* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
+* пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

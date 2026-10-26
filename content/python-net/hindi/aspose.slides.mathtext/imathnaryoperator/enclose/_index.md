@@ -1,0 +1,41 @@
+---
+title: enclose method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/imathnaryoperator/enclose/
+weight: 40
+---
+## enclose(self) {#}
+
+
+
+```python
+def enclose(self):
+    ...
+```
+
+
+
+## enclose(self, beginning_character, ending_character) {#char-char}
+
+
+
+```python
+def enclose(self, beginning_character, ending_character):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| beginning_character | **char** |  |
+| ending_character | **char** |  |
+
+
+
+### और देखें
+* क्लास [`IMathDelimiter`](/slides/python-net/hi/aspose.slides.mathtext/imathdelimiter)
+* क्लास [`IMathNaryOperator`](/slides/python-net/hi/aspose.slides.mathtext/imathnaryoperator)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

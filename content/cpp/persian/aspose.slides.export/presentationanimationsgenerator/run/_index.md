@@ -1,0 +1,77 @@
+---
+title: Run()
+second_title: Aspose.Slides برای C++ مرجع API
+description: تولید رویدادهای انیمیشن برای هر اسلاید.
+type: docs
+weight: 92
+url: /fa/aspose.slides.export/presentationanimationsgenerator/run/
+---
+## PresentationAnimationsGenerator::Run(System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<ISlide\>\>\>) متد
+
+تولید رویدادهای انیمیشن را برای هر اسلاید اجرا می‌کند.
+
+```cpp
+void Aspose::Slides::Export::PresentationAnimationsGenerator::Run(System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<ISlide>>> slides)
+```
+
+## توضیحات
+
+```cpp
+auto presentation = System::MakeObject<Presentation>(u"animated.pptx");
+
+auto animationsGenerator = System::MakeObject<PresentationAnimationsGenerator>(presentation->get_SlideSize()->get_Size().ToSize());
+auto player = System::MakeObject<PresentationPlayer>(animationsGenerator, 33);
+
+animationsGenerator->NewAnimation.connect(static_cast<std::function<void(System::SharedPtr<IPresentationAnimationPlayer>)>>(
+    [](System::SharedPtr<IPresentationAnimationPlayer> animationPlayer) -> void
+{
+    // پردازش انیمیشن جدید
+}));
+
+player->FrameTick.connect(static_cast<std::function<void(System::SharedPtr<PresentationPlayer>, System::SharedPtr<FrameTickEventArgs>)>>(
+    [](System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args) -> void
+{
+    // پردازش تیک فریم در انیمیشن جدید
+}));
+
+animationsGenerator->Run(presentation->get_Slides());
+```
+
+
+
+
+## PresentationAnimationsGenerator::Run(System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<ISlide\>\>\>, int32_t, PresentationPlayer::FrameTickHandler) متد
+
+تولید رویدادهای انیمیشن را برای هر اسلاید اجرا می‌کند.
+
+```cpp
+void Aspose::Slides::Export::PresentationAnimationsGenerator::Run(System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<ISlide>>> slides, int32_t fps, PresentationPlayer::FrameTickHandler onFrame)
+```
+
+## توضیحات
+
+```cpp
+auto presentation = System::MakeObject<Presentation>(u"animated.pptx");
+
+auto animationsGenerator = System::MakeObject<PresentationAnimationsGenerator>(presentation->get_SlideSize()->get_Size().ToSize());
+
+animationsGenerator->Run(presentation->get_Slides(), 33, static_cast<PresentationPlayer::FrameTickHandler>(static_cast<std::function<void(System::SharedPtr<PresentationPlayer>, System::SharedPtr<FrameTickEventArgs>)>>(
+    [](System::SharedPtr<PresentationPlayer> sender, System::SharedPtr<FrameTickEventArgs> args) -> void
+{
+    sender->FrameTick.connect(static_cast<std::function<void(System::SharedPtr<PresentationPlayer>, System::SharedPtr<FrameTickEventArgs>)>>(
+        [](System::SharedPtr<PresentationPlayer> sender2, System::SharedPtr<FrameTickEventArgs> args2) -> void
+    {
+        args2->GetFrame()->Save(System::String::Format(u"frame_{0}.png", sender2->get_FrameIndex()));
+    }));
+}));
+```
+
+## همچنین ببینید
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [FrameTickHandler](../../presentationplayer/frametickhandler/)
+* کلاس [IEnumerable](../../../system.collections.generic/ienumerable/)
+* کلاس [ISlide](../../../aspose.slides/islide/)
+* کلاس [PresentationAnimationsGenerator](../)
+* فضای‌نام [Aspose::Slides::Export](../../)
+* کتابخانه [Aspose.Slides](../../../)

@@ -1,0 +1,29 @@
+---
+title: slides_layout_options property
+second_title: Aspose.Slides para Python via .NET Referência de API
+description: 
+type: docs
+url: /pt/aspose.slides.export/iswfoptions/slides_layout_options/
+weight: 190
+---
+## slides_layout_options propriedade
+Obtém ou define o modo como os slides são colocados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](/slides/python-net/pt/aspose.slides.export/islideslayoutoptions).
+            Esta propriedade não suporta a atribuição de objetos do tipo `Aspose.Slides.Export.HandoutLayoutingOptions`
+
+### Definição:
+```python
+@property
+def slides_layout_options(self):
+    ...
+
+@slides_layout_options.setter
+def slides_layout_options(self, value):
+    ...
+```
+
+
+### Veja Também
+* classe [`ISlidesLayoutOptions`](/slides/python-net/pt/aspose.slides.export/islideslayoutoptions)
+* classe [`ISwfOptions`](/slides/python-net/pt/aspose.slides.export/iswfoptions)
+* módulo [`aspose.slides.export`](/slides/python-net/pt/aspose.slides.export)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

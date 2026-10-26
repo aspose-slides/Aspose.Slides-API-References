@@ -1,40 +1,39 @@
----  
+---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes для справочника API .NET  
-description: Представляет менеджер, который хранит поведение заголовка и колонтитула слайдов, дату-время, номер страницы и все дочерние заполнители. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет менеджер, который управляет поведением плейсхолдеров футера главного слайда, даты и времени, номера страницы и всех дочерних плейсхолдеров. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда.
 type: docs
-weight: 6240  
+weight: 6440
 url: /ru/aspose.slides/imasterslideheaderfootermanager/
----  
+---
+## IMasterSlideHeaderFooterManager интерфейс
 
-## Интерфейс IMasterSlideHeaderFooterManager  
+Представляет менеджер, который управляет поведением футера главного слайда, плейсхолдеров даты и времени, номеров страниц и всех дочерних плейсхолдеров. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда.
 
-Представляет менеджер, который хранит поведение колонтитула мастер-слайда, дату-время, заполнители номера страницы и все дочерние заполнители. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда.  
+```csharp
+public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
+```
 
-```csharp  
-public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager  
-```  
+## Свойства
 
-## Свойства  
+| Имя | Описание |
+| --- | --- |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Возвращает интерфейс IBaseSlideHeaderFooterManager. |
 
-| Название | Описание |  
-| --- | --- |  
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Возвращает интерфейс IBaseSlideHeaderFooterManager. |  
+## Методы
 
-## Методы  
+| Имя | Описание |
+| --- | --- |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст в плейсхолдер даты и времени главного слайда и во все дочерние плейсхолдеры даты и времени. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость плейсхолдера даты и времени главного слайда и всех дочерних плейсхолдеров даты и времени. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст в плейсхолдер футера главного слайда и во все дочерние плейсхолдеры футера. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость плейсхолдера футера главного слайда и всех дочерних плейсхолдеров футера. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость плейсхолдера номера страницы главного слайда и всех дочерних плейсхолдеров номера страницы. Дочерние плейсхолдеры означают, что плейсхолдеры находятся на зависимых слайдах макетов и зависимых слайдах. Зависимые слайды макетов и слайды используют и зависят от главного слайда. |
 
-| Название | Описание |  
-| --- | --- |  
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст для заполнителя даты-времени мастер-слайда и всех дочерних заполнителей даты-времени. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |  
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителя даты-времени мастер-слайда и всех дочерних заполнителей даты-времени. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |  
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст для заполнителя колонтитула мастер-слайда и всех дочерних заполнителей колонтитула. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |  
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя колонтитула мастер-слайда и всех дочерних заполнителей колонтитула. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |  
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы мастер-слайда и всех дочерних заполнителей номера страницы. Дочерние заполнители - это заполнители, которые содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |  
+### См. также
 
-### Также смотрите  
+* интерфейс [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
-* интерфейс [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)  
-* пространство имен [Aspose.Slides](../../aspose.slides)  
-* сборка [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

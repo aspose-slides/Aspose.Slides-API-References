@@ -1,28 +1,27 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Sildes for .NET API Reference
-description: 传递给方法的 Stream 被视为二进制大对象 BLOB（请参见 IBlobManagementOptions../iblobmanagementoptions 描述）。此枚举的值标识在传递 Stream 到方法时应该如何处理它。根据需求，可以做出不同的决策以提供最有效的行为。
+second_title: Aspose.Sildes for .NET API 参考
+description: 传递给方法的 Stream 被视为二进制大对象（BLOB），请参见 IBlobManagementOptions./iblobmanagementoptions 描述。此枚举的值标识在将 Stream 传递给方法时应如何处理它。根据需求，可做出不同的决定以提供最高效的行为。
 type: docs
-weight: 7610
+weight: 7850
 url: /zh/aspose.slides/loadingstreambehavior/
 ---
+## LoadingStreamBehavior 枚举
 
-## LoadingStreamBehavior enumeration
-
-传递给方法的 Stream 被视为二进制大对象 (BLOB)（请参见 [`IBlobManagementOptions`](../iblobmanagementoptions) 描述）。此枚举的值标识在传递 Stream 到方法时应该如何处理它。根据需求，可以做出不同的决策以提供最有效的行为。
+传递给方法的 Stream 被视为二进制大对象 (BLOB)（参见 [`IBlobManagementOptions`](../iblobmanagementoptions) 描述）。此枚举的值标识在将 Stream 传递给方法时应如何处理它。根据需求，可以做出不同的决定以提供最高效的行为。
 
 ```csharp
 public enum LoadingStreamBehavior
 ```
 
-### 值
+### 枚举值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Stream 将被读取到末尾，然后释放 - 即可以保证此 Stream 在将来不会被 [`IPresentation`](../ipresentation) 实例使用。客户代码可以关闭此 Stream，或以其他任何方式使用它。 |
-| KeepLocked | `1` | Stream 将被锁定在 [`IPresentation`](../ipresentation) 对象内部，即 Stream 的所有权将被转移。[`IPresentation`](../ipresentation) 对象将在其自身被处理时负责正确处理 Stream。当您需要序列化一个大的 BLOB 文件（例如，大视频或音频 - 请参见 [`IBlobManagementOptions`](../iblobmanagementoptions) 描述）并想要防止将该文件加载到内存或其他性能问题时，这种行为非常有用。您可以打开该文件的 FileStream 并将其传递给方法，选择 KeepLocked LoadingStreamBehavior。 |
+| ReadStreamAndRelease | `0` | 流将被读取至末尾，然后释放——即保证未来此流不会被 [`IPresentation`](../ipresentation) 实例使用。它可以由客户端代码关闭或以其他任何方式使用。 |
+| KeepLocked | `1` | 流将被锁定在 [`IPresentation`](../ipresentation) 对象内部，即流的所有权将被转移。[`IPresentation`](../ipresentation) 对象将在自身被释放时负责正确地释放该流。当需要序列化大型 BLOB 文件（例如大型视频或音频——参见 [`IBlobManagementOptions`](../iblobmanagementoptions) 描述）且希望防止将该文件加载到内存或其他性能问题时，此行为极其有用。您可以仅打开该文件的 FileStream 并传递给方法，选择 KeepLocked LoadingStreamBehavior。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

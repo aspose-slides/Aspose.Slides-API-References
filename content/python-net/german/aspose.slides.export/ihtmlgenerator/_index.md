@@ -1,0 +1,41 @@
+---
+title: IHtmlGenerator class
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides.export/ihtmlgenerator/
+---
+## IHtmlGenerator Klasse
+
+HTML-Generator.
+
+Der Typ IHtmlGenerator stellt die folgenden Mitglieder bereit:
+
+## Eigenschaften
+
+| Eigenschaft | Beschreibung |
+| :- | :- |
+| [`slide_image_size`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/slide_image_size/) | Gibt die Größe des Folienbildes zurück.<br/>            Nur lesbar [`SizeF`](/slides/python-net/de/aspose.slides/sizef). |
+| [`slide_image_size_unit`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/slide_image_size_unit/) | Gibt die Einheit zurück, in der die Folienbildgröße angegeben ist.<br/>            Nur lesbar [`SvgCoordinateUnit`](/slides/python-net/de/aspose.slides.export/svgcoordinateunit). |
+| [`slide_image_size_unit_code`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/slide_image_size_unit_code/) | Gibt einen CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist.<br/>            Nur lesbar **str**. |
+| [`previous_slide_index`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/previous_slide_index/) | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird.<br/>            Nur lesbar **int**. |
+| [`slide_index`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/slide_index/) | Gibt den Index der aktuell rendernden Folie zurück.<br/>            Nur lesbar **int**. |
+| [`next_slide_index`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/next_slide_index/) | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn gerade die letzte Folie gerendert wird.<br/>            Nur lesbar **int**. |
+
+## Methoden
+
+| Methode | Beschreibung |
+| :- | :- |
+| [`add_html(self, html)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_html/#str) | Fügt formatierten HTML-Text hinzu. |
+| [`add_html(self, html)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_html/#listchar) | Fügt formatierten HTML-Text hinzu. |
+| [`add_html(self, html, start_index, length)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_html/#listchar-int-int) | Fügt formatierten HTML-Text hinzu. |
+| [`add_text(self, text)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_text/#str) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten.<br/>            Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [`add_text(self, text)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_text/#listchar) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten.<br/>            Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [`add_text(self, text, start_index, length)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_text/#listchar-int-int) | Fügt Klartext zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten.<br/>            Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [`add_attribute_value(self, value)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_attribute_value/#str) | Quotiert den Attributwert und fügt ihn zur HTML-Datei hinzu. |
+| [`add_attribute_value(self, value)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar) | Quotiert den Attributwert und fügt ihn zur HTML-Datei hinzu. |
+| [`add_attribute_value(self, value, start_index, length)`](/slides/python-net/de/aspose.slides.export/ihtmlgenerator/add_attribute_value/#listchar-int-int) | Quotiert den Attributwert und fügt ihn zur HTML-Datei hinzu. |
+
+### Siehe auch
+* Modul [`aspose.slides.export`](/slides/python-net/de/aspose.slides.export)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

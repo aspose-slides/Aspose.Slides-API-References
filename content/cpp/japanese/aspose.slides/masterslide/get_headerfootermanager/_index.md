@@ -1,0 +1,23 @@
+---
+title: get_HeaderFooterManager()
+second_title: Aspose.Slides for C++ API リファレンス
+description: マスタースライドの HeaderFooter マネージャーを返します。読み取り専用 IMasterSlideHeaderFooterManager.
+type: docs
+weight: 1
+url: /ja/aspose.slides/masterslide/get_headerfootermanager/
+---
+## MasterSlide::get_HeaderFooterManager() メソッド
+
+マスタースライドの HeaderFooter マネージャーを返します。読み取り専用 [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager/)。
+
+```cpp
+System::SharedPtr<IMasterSlideHeaderFooterManager> Aspose::Slides::MasterSlide::get_HeaderFooterManager() override
+```
+
+## 参照
+
+* 型定義 [SharedPtr](../../../system/sharedptr/)
+* クラス [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager/)
+* クラス [MasterSlide](../)
+* 名前空間 [Aspose::Slides](../../)
+* ライブラリ [Aspose.Slides](../../../)

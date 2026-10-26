@@ -33,7 +33,7 @@ url: /aspose.slides/masterthememanager/
 | --- | --- |
 | createThemeEffective() | Returns the theme object. |
 
- **Result:**
+ **Returns:**
 ThemeEffectiveData
 
 
@@ -46,18 +46,8 @@ ThemeEffectiveData
 | --- | --- |
 | getOverrideTheme() | Returns the overriding theme object. Read/write IMasterTheme. |
 
- **Result:**
+ **Returns:**
 [MasterTheme](../mastertheme)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -69,7 +59,7 @@ ThemeEffectiveData
 | --- | --- |
 | isOverrideThemeEnabled() | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

@@ -1,0 +1,29 @@
+---
+title: find_shape_by_alt_text method
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides/imasterslide/find_shape_by_alt_text/
+weight: 40
+---
+## find_shape_by_alt_text(self, alt_text) {#str}
+
+
+
+```python
+def find_shape_by_alt_text(self, alt_text):
+    ...
+```
+
+
+| 參數 | 類型 | 說明 |
+| :- | :- | :- |
+| alt_text | **str** |  |
+
+
+
+### 另見
+* 類別 [`IMasterSlide`](/slides/python-net/zh-hant/aspose.slides/imasterslide)
+* 類別 [`IShape`](/slides/python-net/zh-hant/aspose.slides/ishape)
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

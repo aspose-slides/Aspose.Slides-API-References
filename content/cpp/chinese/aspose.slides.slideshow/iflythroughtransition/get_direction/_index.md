@@ -1,0 +1,23 @@
+---
+title: get_Direction()
+second_title: Aspose.Slides for C++ API 参考
+description: 过渡的方向。阅读 TransitionInOutDirectionType.
+type: docs
+weight: 1
+url: /zh/aspose.slides.slideshow/iflythroughtransition/get_direction/
+---
+## IFlyThroughTransition::get_Direction() 方法
+
+
+过渡的方向。阅读 [TransitionInOutDirectionType](../../transitioninoutdirectiontype/)。
+
+```cpp
+virtual TransitionInOutDirectionType Aspose::Slides::SlideShow::IFlyThroughTransition::get_Direction()=0
+```
+
+## 另请参见
+
+* 枚举 [TransitionInOutDirectionType](../../transitioninoutdirectiontype/)
+* 类 [IFlyThroughTransition](../)
+* 命名空间 [Aspose::Slides::SlideShow](../../)
+* 库 [Aspose.Slides](../../../)

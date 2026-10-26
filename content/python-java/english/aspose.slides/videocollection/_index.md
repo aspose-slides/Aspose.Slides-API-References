@@ -23,26 +23,7 @@ url: /aspose.slides/videocollection/
 | --- | --- | --- |
 | video | [Video](../video) | Source video. |
 
- **Result:**
-[Video](../video)
-
-
----
-
-
-### addVideoFromBytes  {#addVideoFromBytes }
-
-| Name | Description |
-| --- | --- |
-| addVideoFromBytes (Bytes[]) | Creates and adds a video to a presentation from stream. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| stream | Bytes[] | Stream to add video file from. |
-
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -62,7 +43,7 @@ url: /aspose.slides/videocollection/
 | stream | Bytes[] | Stream to add video file from. |
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -81,18 +62,8 @@ url: /aspose.slides/videocollection/
 | --- | --- | --- |
 | videoData | byte[] | Video bytes. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -104,7 +75,7 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -117,7 +88,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only IVideo. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -130,7 +101,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -143,7 +114,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -156,7 +127,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -169,7 +140,7 @@ boolean
 | --- | --- |
 | size() | Returns a number of video files in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

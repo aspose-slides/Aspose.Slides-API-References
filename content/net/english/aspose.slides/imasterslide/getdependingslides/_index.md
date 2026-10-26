@@ -3,7 +3,7 @@ title: GetDependingSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns an array with all slides which depend on this master slide.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/imasterslide/getdependingslides/
 ---
 

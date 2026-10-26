@@ -1,0 +1,20 @@
+---
+title: slide property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.charts/ilayoutable/slide/
+weight: 90
+---
+## คุณสมบัติสไลด์
+### คำอธิบาย:
+```python
+@property
+def slide(self):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`ILayoutable`](/slides/python-net/th/aspose.slides.charts/ilayoutable)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

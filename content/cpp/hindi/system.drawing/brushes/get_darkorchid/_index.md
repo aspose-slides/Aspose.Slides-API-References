@@ -1,0 +1,23 @@
+---
+title: get_DarkOrchid()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: वापस करता है ठोस भराव रंग जिसका हैक्साडेसिमल मान #FF9932CC है।
+type: docs
+weight: 391
+url: /hi/system.drawing/brushes/get_darkorchid/
+---
+## Brushes::get_DarkOrchid() विधि
+
+वापस करता है ठोस भराव रंग जिसका हैक्साडेसिमल मान #FF9932CC है।
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_DarkOrchid()
+```
+
+## संबंधित देखें
+
+* टाइपडिफ [SharedPtr](../../../system/sharedptr/)
+* क्लास [Brush](../../brush/)
+* क्लास [Brushes](../)
+* नामस्थान [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

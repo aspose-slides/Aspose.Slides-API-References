@@ -1,15 +1,14 @@
 ---
 title: Effect
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un effet d'animation.
 type: docs
-weight: 200
+weight: 280
 url: /fr/aspose.slides.animation/effect/
 ---
+## Effect classe
 
-## Classe Effect
-
-Représente un effet d'animation.
+Represents animation effect.
 
 ```csharp
 public class Effect : IEffect
@@ -17,27 +16,27 @@ public class Effect : IEffect
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Définit une couleur après animation pour l'effet. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Définit un type d'animation après pour l'effet. Lecture/écriture [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Définit un type d'animation de texte pour l'effet. Le texte de la forme peut être animé par lettre, par mot ou tout à la fois. Lecture/écriture [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Renvoie une collection de comportements pour l'effet. Lecture/écriture [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Définit un délai entre les parties de texte animées (mots ou lettres). Une valeur positive spécifie le pourcentage de la durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Définit la classe de l'effet. Lecture/écriture [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Renvoie une séquence pour un effet. Lecture seule [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Définit le son intégré pour l'effet. Lecture/écriture [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Cet attribut spécifie si l'effet d'animation arrête le son précédent. Lecture/écriture Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Définit le sous-type de l'effet. Lecture/écriture [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Renvoie la forme cible pour l'effet. Lecture seule [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Lecture seule [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Définit la valeur de synchronisation pour l'effet. Lecture/écriture [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Définit le type d'effet. Lecture/écriture [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Définit une couleur après l'animation pour l'effet. Lecture/écriture [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Définit un type après animation pour l'effet. Lecture/écriture [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Définit un type d'animation du texte pour l'effet. Le texte de la forme peut être animé par lettre, par mot ou en une fois. Lecture/écriture [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Renvoie la collection de comportements pour l'effet. Lecture/écriture [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Définit un délai entre les parties du texte animé (mots ou lettres). Une valeur positive indique le pourcentage de la durée de l'effet. Une valeur négative indique le délai en secondes. Lecture/écriture Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Définit la classe de l'effet. Lecture/écriture [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Renvoie une séquence pour un effet. Lecture seule [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Définit le son intégré pour l'effet. Lecture/écriture [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Cet attribut indique si l'effet d'animation arrête le son précédent. Lecture/écriture Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Définit le sous-type de l'effet. Lecture/écriture [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Renvoie la forme cible pour l'effet. Lecture seule [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Lecture seule [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Définit la valeur de synchronisation pour l'effet. Lecture/écriture [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Définit le type de l'effet. Lecture/écriture [`EffectType`](../effecttype). |
 
-### Voir Aussi
+### Voir aussi
 
-* interface [IEffect](../ieffect)
-* espace de noms [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* interface [IEffect](../ieffect)
+* espace de noms [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

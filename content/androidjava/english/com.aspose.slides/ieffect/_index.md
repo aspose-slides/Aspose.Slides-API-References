@@ -34,6 +34,10 @@ Represents animation effect.
 | [setAfterAnimationType(int value)](#setAfterAnimationType-int-) | Defined an after animation type for effect. |
 | [getAfterAnimationColor()](#getAfterAnimationColor--) | Defined an after animation color for effect. |
 | [setAfterAnimationColor(IColorFormat value)](#setAfterAnimationColor-com.aspose.slides.IColorFormat-) | Defined an after animation color for effect. |
+| [getAnimateTextType()](#getAnimateTextType--) | Defines an animate text type for effect. |
+| [setAnimateTextType(int value)](#setAnimateTextType-int-) | Defines an animate text type for effect. |
+| [getDelayBetweenTextParts()](#getDelayBetweenTextParts--) | Defines a delay between animated text parts (words or letters). |
+| [setDelayBetweenTextParts(float value)](#setDelayBetweenTextParts-float-) | Defines a delay between animated text parts (words or letters). |
 ### getSequence() {#getSequence--}
 ```
 public abstract ISequence getSequence()
@@ -424,4 +428,116 @@ Defined an after animation color for effect. Read/write [IColorFormat](../../com
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IColorFormat](../../com.aspose.slides/icolorformat) |  |
+
+### getAnimateTextType() {#getAnimateTextType--}
+```
+public abstract int getAnimateTextType()
+```
+
+
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By letter"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByLetter);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setAnimateTextType(int value) {#setAnimateTextType-int-}
+```
+public abstract void setAnimateTextType(int value)
+```
+
+
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By letter"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByLetter);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getDelayBetweenTextParts() {#getDelayBetweenTextParts--}
+```
+public abstract float getDelayBetweenTextParts()
+```
+
+
+Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By word"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByWord);
+> 
+>      // Set the delay between animated text parts to 20% of effect duration.
+>      firstSlideEffect.setDelayBetweenTextParts(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setDelayBetweenTextParts(float value) {#setDelayBetweenTextParts-float-}
+```
+public abstract void setDelayBetweenTextParts(float value)
+```
+
+
+Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By word"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByWord);
+> 
+>      // Set the delay between animated text parts to 20% of effect duration.
+>      firstSlideEffect.setDelayBetweenTextParts(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 

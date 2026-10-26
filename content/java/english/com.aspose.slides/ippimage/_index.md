@@ -14,12 +14,13 @@ Represents an image in a presentation.
 | Method | Description |
 | --- | --- |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an image's data. |
-| [getSystemImage()](#getSystemImage--) | Returns the copy of an image of the System.Drawing.Image type. |
+| [getImage()](#getImage--) | Returns the copy of an image. |
 | [getSvgImage()](#getSvgImage--) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
+| [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image. |
-| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in \#getBinaryData.getBinaryData. |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
 | [getHeight()](#getHeight--) | Returns a height of an image. |
 | [getX()](#getX--) | Returns a X-offset of an image. |
@@ -34,16 +35,16 @@ Returns the copy of an image's data. Read-only byte[].
 
 **Returns:**
 byte[]
-### getSystemImage() {#getSystemImage--}
+### getImage() {#getImage--}
 ```
-public abstract BufferedImage getSystemImage()
+public abstract IImage getImage()
 ```
 
 
-Returns the copy of an image of the System.Drawing.Image type. Read-only BufferedImage.
+Returns the copy of an image. Read-only \#getImage.getImage.
 
 **Returns:**
-java.awt.image.BufferedImage
+[IImage](../../com.aspose.slides/iimage)
 ### getSvgImage() {#getSvgImage--}
 ```
 public abstract ISvgImage getSvgImage()
@@ -88,6 +89,19 @@ Replaces image data.
 | --- | --- | --- |
 | newImageData | byte[] | The new image's data. |
 
+### replaceImage(IImage newImage) {#replaceImage-com.aspose.slides.IImage-}
+```
+public abstract void replaceImage(IImage newImage)
+```
+
+
+Replaces image. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | [IImage](../../com.aspose.slides/iimage) | The new image. |
+
 ### replaceImage(IPPImage newImage) {#replaceImage-com.aspose.slides.IPPImage-}
 ```
 public abstract void replaceImage(IPPImage newImage)
@@ -107,7 +121,7 @@ public abstract String getContentType()
 ```
 
 
-Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). Read-only String.
+Returns a MIME type of an image, encoded in \#getBinaryData.getBinaryData. Read-only String.
 
 **Returns:**
 java.lang.String

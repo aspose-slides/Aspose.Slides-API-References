@@ -1,15 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет менеджер, который позволяет добавлять заполнители на слайд макета.
+second_title: Aspose.Sildes для .NET – справочник API
+description: Представляет менеджер, который позволяет добавлять заполнители в слайд макета.
 type: docs
-weight: 7390
+weight: 7630
 url: /ru/aspose.slides/layoutplaceholdermanager/
 ---
+## LayoutPlaceholderManager класс
 
-## Класс LayoutPlaceholderManager
-
-Представляет менеджер, который позволяет добавлять заполнители на слайд макета.
+Представляет менеджер, который позволяет добавлять заполнители в слайд макета.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -17,23 +16,23 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания графика. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания контента, такого как изображение, таблица, медиа или текст. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания медиа-объекта. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания онлайн-изображения. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания изображения. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания диаграммы SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания таблицы. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания текстового контента. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания контента, такого как изображение, таблица, медиа или текст в вертикальном направлении. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Добавляет новую фигуру-заполнитель на слайд макета для удержания текстового контента в вертикальном направлении. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения диаграммы. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения содержимого, такого как изображение, таблица, медиа или текст. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения медиа-объекта. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения онлайн-изображения. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения изображения. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения диаграммы SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения таблицы. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения текстового содержимого. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения содержимого, такого как изображение, таблица, медиа или текст, в вертикальном направлении. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Добавляет новую форму заполнителя в слайд макета для размещения текстового содержимого в вертикальном направлении. |
 
-### Смотрите также
+### См. также
 
-* интерфейс [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -17,7 +17,7 @@ url: /aspose.slides/odpexception/
 | --- | --- |
 | OdpException() | Default function |
 
- **Result:**
+ **Returns:**
 OdpException
 
 
@@ -36,7 +36,7 @@ OdpException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 OdpException
 
 
@@ -56,7 +56,7 @@ OdpException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 OdpException
 
 

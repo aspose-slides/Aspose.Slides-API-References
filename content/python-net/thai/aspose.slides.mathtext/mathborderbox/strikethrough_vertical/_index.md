@@ -1,0 +1,26 @@
+---
+title: strikethrough_vertical property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.mathtext/mathborderbox/strikethrough_vertical/
+weight: 330
+---
+## strikethrough_vertical คุณสมบัติ
+Strikethrough Vertical (default is false) - ระบุสถานะที่ซ่อนหรือแสดงของเส้นขีดฆติแนวตั้ง.
+
+### คำนิยาม:
+```python
+@property
+def strikethrough_vertical(self):
+    ...
+
+@strikethrough_vertical.setter
+def strikethrough_vertical(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`MathBorderBox`](/slides/python-net/th/aspose.slides.mathtext/mathborderbox)
+* โมดูล [`aspose.slides.mathtext`](/slides/python-net/th/aspose.slides.mathtext)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

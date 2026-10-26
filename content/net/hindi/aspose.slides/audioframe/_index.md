@@ -1,0 +1,132 @@
+---
+title: AudioFrame
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: स्लाइड पर एक ऑडियो क्लिप का प्रतिनिधित्व करता है।
+type: docs
+weight: 870
+url: /hi/aspose.slides/audioframe/
+---
+## AudioFrame क्लास
+
+स्लाइड पर एक ऑडियो क्लिप का प्रतिनिधित्व करता है।
+
+```csharp
+public class AudioFrame : PictureFrame, IAudioFrame
+```
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | आकार के समायोजन मानों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | आकार से जुड़ा वैकल्पिक टेक्स्ट लौटाता या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | आकार से जुड़े वैकल्पिक टेक्स्ट का शीर्षक लौटाता या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [AudioCdEndTrack](../../aspose.slides/audioframe/audiocdendtrack) { get; set; } | अंतिम ट्रैक सूचकांक लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/audioframe/audiocdendtracktime) { get; set; } | अंतिम ट्रैक समय लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [AudioCdStartTrack](../../aspose.slides/audioframe/audiocdstarttrack) { get; set; } | आरंभ ट्रैक सूचकांक लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/audioframe/audiocdstarttracktime) { get; set; } | आरंभ ट्रैक समय लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | गुण निर्दिष्ट करता है कि आकार काला-श्वेत प्रदर्शन मोड में कैसे प्रस्तुत होगा। पढ़ने/लिखने योग्य [`BlackWhiteMode`](../blackwhitemode). |
+| [CaptionTracks](../../aspose.slides/audioframe/captiontracks) { get; } | ऑडियो फ्रेम से जुड़ी बंद कैप्शन का संग्रह प्राप्त करता है। यह गुण केवल-पढ़ने योग्य है और सभी कैप्शन ट्रैक्स को सम्मिलित करने वाला [`ICaptionsCollection`](../icaptionscollection) लौटाता है। |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | आकार पर कनेक्शन साइटों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | आकार के कस्टम डेटा को लौटाता है। केवल-पढ़ने योग्य [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | आकार पर लागू पिक्सेल प्रभावों को सम्मिलित करने वाले EffectFormat ऑब्जेक्ट को लौटाता है। नोट: उन कुछ आकारों के लिए जो इफ़ेक्ट गुण नहीं रखते, null लौटाया जा सकता है। केवल-पढ़ने योग्य [`IEffectFormat`](../ieffectformat). |
+| [Embedded](../../aspose.slides/audioframe/embedded) { get; } | निर्धारित करता है कि क्या ध्वनि प्रस्तुति में एम्बेडेड है। केवल-पढ़ने योग्य Boolean. |
+| [EmbeddedAudio](../../aspose.slides/audioframe/embeddedaudio) { get; set; } | एम्बेडेड ऑडियो ऑब्जेक्ट लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/audioframe/fadeinduration) { get; set; } | मीडिया के प्रारंभिक फ़ेड-इन की समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single. |
+| [FadeOutDuration](../../aspose.slides/audioframe/fadeoutduration) { get; set; } | मीडिया के समाप्ति फ़ेड-आउट की समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single. |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | आकार के लिए भराव फॉर्मेटिंग गुणों को सम्मिलित करने वाले FillFormat ऑब्जेक्ट को लौटाता है। नोट: उन कुछ आकारों के लिए जो भराव गुण नहीं रखते, null लौटाया जा सकता है। केवल-पढ़ने योग्य [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | आकार फ्रेम की गुणों को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IShapeFrame`](../ishapeframe). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | आकार की ऊँचाई को प्राप्त या सेट करता है, पॉइंट में मापा गया। पढ़ने/लिखने योग्य Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | निर्धारित करता है कि आकार छिपा है या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [HideAtShowing](../../aspose.slides/audioframe/hideatshowing) { get; set; } | निर्धारित करता है कि AudioFrame छिपा है या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | माउस क्लिक के लिए निर्धारित हाइपरलिंक को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | हाइپرलिंक मैनेजर को लौटाता है। केवल-पढ़ने योग्य [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | माउस ओवर के लिए निर्धारित हाइपरलिंक को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IHyperlink`](../ihyperlink). |
+| [IsCameo](../../aspose.slides/pictureframe/iscameo) { get; } | निर्धारित करता है कि PictureFrame Cameo ऑब्जेक्ट है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | 'Mark as decorative' विकल्प को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | निर्धारित करता है कि आकार समूहित है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | निर्धारित करता है कि आकार TextHolder_PPT है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | आकार के लिए रेखा फॉर्मेटिंग गुणों को सम्मिलित करने वाले LineFormat ऑब्जेक्ट को लौटाता है। नोट: उन कुछ आकारों के लिए जो रेखा गुण नहीं रखते, null लौटाया जा सकता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
+| [LinkPathLong](../../aspose.slides/audioframe/linkpathlong) { get; set; } | AudioFrame से जुड़ी ऑडियो फ़ाइल का नाम लौटाता या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [Name](../../aspose.slides/shape/name) { get; set; } | आकार का नाम लौटाता या सेट करता है। यह null नहीं होना चाहिए। आवश्यक होने पर खाली स्ट्रिंग मान का उपयोग करें। पढ़ने/लिखने योग्य String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | आकार के जीवनकाल में स्थिर रहने वाला और PowerPoint या इंटरऑप कोड को दस्तावेज़ में कहीं भी आकार को विश्वसनीय रूप से संदर्भित करने की अनुमति देने वाला स्लाइड-स्कोप्ड अद्वितीय पहचानकर्ता लौटाता है। केवल-पढ़ने योग्य UInt32। देखें [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | यदि आकार समूहित है तो पैरेंट GroupShape ऑब्जेक्ट लौटाता है। अन्यथा null लौटाता है। केवल-पढ़ने योग्य [`IGroupShape`](../igroupshape). |
+| [PictureFormat](../../aspose.slides/pictureframe/pictureformat) { get; } | पिक्चर फ्रेम के लिए PictureFillFormat ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/pictureframe/pictureframelock) { get; } | आकार के लॉक लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | आकार के लिए प्लेसहोल्डर लौटाता है। यदि आकार में प्लेसहोल्डर नहीं है तो null लौटाता है। केवल-पढ़ने योग्य [`IPlaceholder`](../iplaceholder). |
+| [PlayAcrossSlides](../../aspose.slides/audioframe/playacrossslides) { get; set; } | निर्धारित करता है कि ऑडियो स्लाइडों के बीच बज रहा है या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [PlayLoopMode](../../aspose.slides/audioframe/playloopmode) { get; set; } | निर्धारित करता है कि ऑडियो लूप किया गया है या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [PlayMode](../../aspose.slides/audioframe/playmode) { get; set; } | ऑडियो प्ले मोड लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | स्लाइड की पैरेंट प्रस्तुति को लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | रॉ आकार फ्रेम के गुण लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IShapeFrame`](../ishapeframe). |
+| [RelativeScaleHeight](../../aspose.slides/pictureframe/relativescaleheight) { get; set; } | पिक्चर फ्रेम की ऊँचाई (मूल चित्र आकार के सापेक्ष) का स्केल लौटाता या सेट करता है। मान 1.0 का अर्थ 100% है। पढ़ने/लिखने योग्य Single. |
+| [RelativeScaleWidth](../../aspose.slides/pictureframe/relativescalewidth) { get; set; } | पिक्चर फ्रेम की चौड़ाई (मूल चित्र आकार के सापेक्ष) का स्केल लौटाता या सेट करता है। मान 1.0 का अर्थ 100% है। पढ़ने/लिखने योग्य Single. |
+| [RewindAudio](../../aspose.slides/audioframe/rewindaudio) { get; set; } | निर्धारित करता है कि प्ले होने के बाद ऑडियो स्वचालित रूप से शुरू में फिर से घूमेगा या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | निर्दिष्ट आकार को z-अक्ष के चारों ओर घुमाए गए डिग्री की संख्या लौटाता या सेट करता है। सकारात्मक मान घड़ी की दिशा में घूर्णन दर्शाता है; नकारात्मक मान घड़ी के विपरीत दिशा में घूर्णन दर्शाता है। पढ़ने/लिखने योग्य Single. |
+| [ShapeLock](../../aspose.slides/pictureframe/shapelock) { get; } | आकार के लॉक लौटाता है। केवल-पढ़ने योग्य [`IPictureFrameLock`](../ipictureframelock). (2 गुण) |
+| [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | आकार के स्टाइल ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IShapeStyle`](../ishapestyle). |
+| override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | PictureFrame के लिए AutoShape प्रकार को लौटाता या सेट करता है। सेट [`ShapeType`](../shapetype) में सभी अनुमत आइटम हैं, सिवाय सभी प्रकार की लाइनों के: |
+| [Slide](../../aspose.slides/shape/slide) { get; } | आकार की पैरेंट स्लाइड को लौटाता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | आकार के 3D इफ़ेक्ट गुणों को सम्मिलित करने वाले ThreeDFormat ऑब्जेक्ट को लौटाता है। नोट: उन कुछ आकारों के लिए जो 3D गुण नहीं रखते, null लौटाया जा सकता है। केवल-पढ़ने योग्य [`IThreeDFormat`](../ithreedformat). |
+| [TrimFromEnd](../../aspose.slides/audioframe/trimfromend) { get; set; } | प्लेबैक के दौरान मीडिया के अंत से हटाई जाने वाली समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single. |
+| [TrimFromStart](../../aspose.slides/audioframe/trimfromstart) { get; set; } | प्लेबैक के दौरान मीडिया की शुरुआत से हटाई जाने वाली समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single. |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | ऐड-इन्स या अन्य कोड द्वारा उपयोग के लिए अभिप्रेत एक आंतरिक, प्रस्तुति-स्कोप्ड पहचानकर्ता लौटाता है। क्योंकि इस मान को उपयोगकर्ता या प्रोग्रामेटिक रूप से पुनः असाइन किया जा सकता है, इसे स्थायी अद्वितीय कुंजी के रूप में नहीं माना जाना चाहिए। केवल-पढ़ने योग्य UInt32। देखें [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [Volume](../../aspose.slides/audioframe/volume) { get; set; } | ऑडियो वॉल्यूम को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/audioframe/volumevalue) { get; set; } | ऑडियो वॉल्यूम को प्रतिशत में लौटाता या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | आकार की चौड़ाई को प्राप्त या सेट करता है, पॉइंट में मापा गया। पढ़ने/लिखने योग्य Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | आकार के ऊपर-बाएँ कोने के x-निर्देशांक को प्राप्त या सेट करता है, पॉइंट में मापा गया। पढ़ने/लिखने योग्य Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | आकार के ऊपर-बाएँ कोने के y-निर्देशांक को प्राप्त या सेट करता है, पॉइंट में मापा गया। पढ़ने/लिखने योग्य Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | जेड-ऑर्डर में आकार की स्थिति लौटाता है। Shapes[0] जेड-ऑर्डर के पीछे वाले आकार को लौटाता है, और Shapes[Shapes.Count - 1] जेड-ऑर्डर के सामने वाले आकार को लौटाता है। केवल-पढ़ने योग्य Int32. |
+
+## विधियां
+
+| नाम | विवरण |
+| --- | --- |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | यदि कोई प्लेसहोल्डर नहीं है तो नया प्लेसहोल्डर जोड़ता है और निर्दिष्ट एक के लिए प्लेसहोल्डर गुण सेट करता है। |
+| [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | आकार के तत्वों की सरणी बनाता और लौटाता है। |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | बेसिक प्लेसहोल्डर आकार लौटाता है (विंडो लेआउट और/या मास्टर स्लाइड से आकार जिसमें वर्तमान आकार विरासत में मिला है)। यदि वर्तमान आकार विरासत में नहीं मिला तो null लौटाया जाता है। |
+| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | ज्यामिति आकार के पथ की कॉपी लौटाता है। निर्देशांक आकार के बाएँ शीर्ष कोने के सापेक्ष होते हैं। |
+| [GetImage](../../aspose.slides/shape/getimage)() | आकार थंबनेल लौटाता है। डिफ़ॉल्ट रूप से ShapeThumbnailBounds.Shape आकार थंबनेल बाउंड्स प्रकार उपयोग किया जाता है। |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | आकार थंबनेल लौटाता है। |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | आकार की दृश्य सीमा को प्राप्त करता है जो उसके प्रस्तुत सामग्री से गणना की गई है। |
+| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | परिभाषित करता है कि यह आकार प्लेसहोल्डर नहीं है। |
+| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | आकार ज्यामिति को [`IGeometryPath`](../igeometrypath) ऑब्जेक्ट से अद्यतन करता है। निर्देशांक आकार के बाएँ शीर्ष कोने के सापेक्ष होने चाहिए। आकार के प्रकार ([`ShapeType`](../geometryshape/shapetype)) को कस्टम में बदलता है। |
+| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | आकार ज्यामिति को [`IGeometryPath`](../igeometrypath) की सरणी से अद्यतन करता है। निर्देशांक आकार के बाएँ शीर्ष कोने के सापेक्ष होने चाहिए। आकार के प्रकार ([`ShapeType`](../geometryshape/shapetype)) को कस्टम में बदलता है। |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Shape की सामग्री को SVG फ़ाइल के रूप में सहेजता है। |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Shape की सामग्री को SVG फ़ाइल के रूप में सहेजता है। |
+
+### उदाहरण
+
+निम्नलिखित उदाहरण दिखाते हैं कि ऑडियो प्ले विकल्पों को कैसे बदलें।
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("AudioFrameEmbed_out.pptx"))
+{
+    // AudioFrame आकार प्राप्त करता है
+    AudioFrame audioFrame = (AudioFrame)pres.Slides[0].Shapes[0];
+    // प्ले मोड को क्लिक पर चलाने के लिए सेट करता है
+    audioFrame.PlayMode = AudioPlayModePreset.OnClick;
+    // वॉल्यूम को Low पर सेट करता है
+    audioFrame.Volume = AudioVolumeMode.Low;
+    // ऑडियो को स्लाइड्स के बीच चलाने के लिए सेट करता है
+    audioFrame.PlayAcrossSlides = true;
+    // ऑडियो के लिए लूप को अक्षम करता है
+    audioFrame.PlayLoopMode = false;
+    // स्लाइड शो के दौरान AudioFrame को छुपाता है
+    audioFrame.HideAtShowing = true;
+    // प्ले होने के बाद ऑडियो को शुरू में रीवाइंड करता है
+    audioFrame.RewindAudio = true;
+    // PowerPoint फ़ाइल को डिस्क पर सहेजता है
+    pres.Save("AudioFrameEmbed_changed.pptx", SaveFormat.Pptx);
+}
+```
+
+### देखें
+
+* क्लास [PictureFrame](../pictureframe)
+* इंटरफ़ेस [IAudioFrame](../iaudioframe)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,0 +1,25 @@
+---
+title: get_effective method
+second_title: Aspose.Slides a Python számára .NET API referencia
+description: 
+type: docs
+url: /hu/aspose.slides.effects/ihsl/get_effective/
+weight: 10
+---
+## get_effective(self) {#}
+
+
+
+```python
+def get_effective(self):
+    ...
+```
+
+
+
+
+### Lásd még
+* osztály [`IHSL`](/slides/python-net/hu/aspose.slides.effects/ihsl)
+* osztály [`IHSLEffectiveData`](/slides/python-net/hu/aspose.slides.effects/ihsleffectivedata)
+* modul [`aspose.slides.effects`](/slides/python-net/hu/aspose.slides.effects)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

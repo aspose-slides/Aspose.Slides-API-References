@@ -1,0 +1,32 @@
+---
+title: set_geometry_paths method
+second_title: Aspose.Slides Python के लिये .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.smartart/smartartshape/set_geometry_paths/
+weight: 90
+---
+## set_geometry_paths(self, geometry_paths) {#listigeometrypath}
+शेप की ज्योमेट्री को [`IGeometryPath`](/slides/python-net/hi/aspose.slides/igeometrypath) की एरे से अपडेट करता है। कोऑर्डिनेट्स को शेप के बाएँ शीर्ष कोने के सापेक्ष होना चाहिए। ([`GeometryShape.shape_type`](/slides/python-net/hi/aspose.slides/geometryshape/shape_type)) के प्रकार को [`ShapeType.CUSTOM`](/slides/python-net/hi/aspose.slides/shapetype/CUSTOM) में बदलता है।
+
+```python
+def set_geometry_paths(self, geometry_paths):
+    ...
+```
+
+| परामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| geometry_paths | **List[IGeometryPath]** | एरे ज्योमेट्री पाथ्स |
+
+### अपवाद
+
+| अपवाद | विवरण |
+| :- | :- |
+| **RuntimeError(Proxy error(ArgumentException))** | कोई पाथ नहीं मिला |
+| **RuntimeError(Proxy error(ArgumentException))** | खाली पाथ |
+
+### देखें
+* क्लास [`IGeometryPath`](/slides/python-net/hi/aspose.slides/igeometrypath)
+* क्लास [`SmartArtShape`](/slides/python-net/hi/aspose.slides.smartart/smartartshape)
+* मॉड्यूल [`aspose.slides.smartart`](/slides/python-net/hi/aspose.slides.smartart)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

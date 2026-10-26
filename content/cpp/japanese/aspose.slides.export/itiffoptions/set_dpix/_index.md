@@ -1,0 +1,21 @@
+---
+title: set_DpiX()
+second_title: Aspose.Slides for C++ API リファレンス
+description: 水平方向の解像度（ドット毎インチ）を指定します。uint32_t を書き込みます。
+type: docs
+weight: 40
+url: /ja/aspose.slides.export/itiffoptions/set_dpix/
+---
+## ITiffOptions::set_DpiX(uint32_t) メソッド
+
+水平方向の解像度（ドット毎インチ）を指定します。**uint32_t** を書き込みます。
+
+```cpp
+virtual void Aspose::Slides::Export::ITiffOptions::set_DpiX(uint32_t value)=0
+```
+
+## 参照
+
+* クラス [ITiffOptions](../)
+* 名前空間 [Aspose::Slides::Export](../../)
+* ライブラリ [Aspose.Slides](../../../)

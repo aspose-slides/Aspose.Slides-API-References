@@ -1,0 +1,25 @@
+---
+title: MoveNext()
+second_title: Aspose.Slides for C++ API リファレンス
+description: 列挙子を次の要素に移動します。以前に要素が参照されていなかった場合、利用可能な最初の要素を参照として設定します。コンテナの末端に達した場合、何もしません。
+type: docs
+weight: 27
+url: /ja/system.collections.generic.details/enumeratoroftypeadapter/movenext/
+---
+## EnumeratorOfTypeAdapter::MoveNext() メソッド
+
+列挙子を次の要素に移動します。以前に要素が参照されていない場合、利用可能な最初の要素を参照に設定します。コンテナの末尾に達した場合、何もしません。
+
+```cpp
+bool System::Collections::Generic::Details::EnumeratorOfTypeAdapter<Source, Result>::MoveNext() override
+```
+
+### 戻り値
+
+呼び出し後に要素が利用可能な場合は True、そうでない場合は false。
+
+## 参照
+
+* クラス [EnumeratorOfTypeAdapter](../)
+* 名前空間 [System::Collections::Generic::Details](../../)
+* ライブラリ [Aspose.Slides](../../../)

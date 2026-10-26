@@ -1,0 +1,23 @@
+---
+title: get_InfoText()
+second_title: Aspose.Slides for C++ API リファレンス
+description: ToolTip のテキストの色を表す Color オブジェクトを返します。
+type: docs
+weight: 313
+url: /ja/system.drawing/systemcolors/get_infotext/
+---
+## SystemColors::get_InfoText() メソッド
+
+
+[Color](../../color/) オブジェクトを返します。このオブジェクトは ToolTip のテキストの色を表します。
+
+```cpp
+static Color System::Drawing::SystemColors::get_InfoText()
+```
+
+## 参照
+
+* クラス [Color](../../color/)
+* クラス [SystemColors](../)
+* 名前空間 [System::Drawing](../../)
+* ライブラリ [Aspose.Slides](../../../)

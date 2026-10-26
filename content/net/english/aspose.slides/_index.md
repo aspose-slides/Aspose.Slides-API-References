@@ -174,9 +174,11 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [SectionCollection](./sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](./sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](./sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](./sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelCollection](./sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [Shape](./shape) | Represents a shape on a slide. |
 | [ShapeBevel](./shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](./shapecollection) | Represents a collection of a shapes. |
+| [ShapeCollection](./shapecollection) | Represents a collection of shapes. |
 | [ShapeElement](./shapeelement) | Represents a part of shape with same outline and fill properties. |
 | [ShapeFrame](./shapeframe) | Represents shape frame's properties. |
 | [ShapeStyle](./shapestyle) | Represent shape's style reference. |
@@ -186,7 +188,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [SlideHeaderFooterManager](./slideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [SlideShowSettings](./slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowType](./slideshowtype) | Base slide show settings. Ancestors represent types of the slide show: [`PresentedBySpeaker`](../aspose.slides/presentedbyspeaker) Presented by a speaker (full screen) [`BrowsedByIndividual`](../aspose.slides/browsedbyindividual) Browsed by individual (window) [`BrowsedAtKiosk`](../aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
-| [SlideSize](./slidesize) | Represents a size of slide. |
+| [SlideSize](./slidesize) | Represents the size and orientation of a slide. |
 | [SlidesRange](./slidesrange) | Slides range |
 | [SpreadsheetOptions](./spreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [StreamWrapper](./streamwrapper) | Aspose.IO.Stream wrapper for COM interface. |
@@ -392,10 +394,12 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ISectionCollection](./isectioncollection) | Represents a collection of sections. |
 | [ISectionSlideCollection](./isectionslidecollection) | Represents a collection of a slides in the section. |
 | [ISectionZoomFrame](./isectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [ISensitivityLabel](./isensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [ISensitivityLabelCollection](./isensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [IShape](./ishape) | Represents a shape on a slide. |
 | [IShapeBevel](./ishapebevel) | Represents properties of shape's main face relief. |
 | [IShapeBevelEffectiveData](./ishapebeveleffectivedata) | Immutable object which contains effective shape's face relief properties. |
-| [IShapeCollection](./ishapecollection) | Represents a collection of a shapes. |
+| [IShapeCollection](./ishapecollection) | Represents a collection of shapes. |
 | [IShapeElement](./ishapeelement) | Represents a part of shape with same outline and fill properties. |
 | [IShapeFrame](./ishapeframe) | Represents shape frame's properties. |
 | [IShapeStyle](./ishapestyle) | Represent shape's style reference. |
@@ -406,7 +410,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ISlideComponent](./islidecomponent) | Represents a component of a slide. |
 | [ISlideHeaderFooterManager](./islideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [ISlideShowTransition](./islideshowtransition) | Represents slide show transition. |
-| [ISlideSize](./islidesize) | Represents a size of slide. |
+| [ISlideSize](./islidesize) | Represents the size and orientation of a slide. |
 | [ISlidesPicture](./islidespicture) | Represents a picture in a presentation. |
 | [ISlideText](./islidetext) | Represents the text extracted from the slide |
 | [ISpreadsheetOptions](./ispreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
@@ -460,6 +464,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
 | [FontAlignment](./fontalignment) | Represents vertical font alignment. |
 | [FontCollectionIndex](./fontcollectionindex) | Represents font's index in a collection. |
+| [FontStyleType](./fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
 | [GradientDirection](./gradientdirection) | Represents the gradient style. |
 | [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
@@ -499,6 +504,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |
 | [ResourceLoadingAction](./resourceloadingaction) | Specifies the mode of external resource loading. |
 | [SchemeColor](./schemecolor) | Represents colors in a color scheme. |
+| [SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelContentType](./sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [ShapeAdjustmentType](./shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeElementFillSource](./shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](./shapeelementstrokesource) | Represents how shape element should be drawn. |

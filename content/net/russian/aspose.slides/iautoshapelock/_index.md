@@ -1,15 +1,14 @@
 ---
 title: IAutoShapeLock
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, какие операции отключены для родительского AutoshapeEx.
+second_title: Aspose.Sildes для .NET справочник API
+description: Определяет, какие операции отключены у родительского AutoshapeEx.
 type: docs
-weight: 5050
+weight: 5250
 url: /ru/aspose.slides/iautoshapelock/
 ---
+## IAutoShapeLock интерфейс
 
-## Интерфейс IAutoShapeLock
-
-Определяет, какие операции отключены для родительского AutoshapeEx.
+Определяет, какие операции отключены у родительского AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -19,23 +18,23 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Читаемое и записываемое логическое значение. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение стрелок. Читаемое и записываемое логическое значение. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Определяет, необходимо ли сохранять соотношение сторон при изменении размера. Читаемое и записываемое логическое значение. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой фигуры. Читаемое и записываемое логическое значение. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Читаемое и записываемое логическое значение. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Читаемое и записываемое логическое значение. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Читаемое и записываемое логическое значение. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Читаемое и записываемое логическое значение. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа фигуры. Читаемое и записываемое логическое значение. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Читаемое и записываемое логическое значение. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Читаемое и записываемое логическое значение. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений регулировки. Чтение/запись Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение стрелок. Чтение/запись Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой фигуры. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение/запись Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/запись Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/запись Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Чтение/запись Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа фигуры. Чтение/запись Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размеров этой фигуры. Чтение/запись Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
-* интерфейс [IBaseShapeLock](../ibaseshapelock)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IBaseShapeLock](../ibaseshapelock)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

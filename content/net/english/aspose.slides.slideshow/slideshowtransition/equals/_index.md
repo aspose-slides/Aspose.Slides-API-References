@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the two SlideShowTransition instances are equal. Read/write Boolean.
 type: docs
-weight: 120
+weight: 130
 url: /aspose.slides.slideshow/slideshowtransition/equals/
 ---
 

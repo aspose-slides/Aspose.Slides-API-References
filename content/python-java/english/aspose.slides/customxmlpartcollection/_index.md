@@ -23,7 +23,7 @@ url: /aspose.slides/customxmlpartcollection/
 | --- | --- | --- |
 | xmlString | String | The xml string of new part to be added. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPart](../customxmlpart)
 
  **Error**
@@ -48,7 +48,7 @@ url: /aspose.slides/customxmlpartcollection/
 | --- | --- | --- |
 | xmlData | byte[] | The xml data of new part to be added. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPart](../customxmlpart)
 
  **Error**
@@ -73,7 +73,7 @@ url: /aspose.slides/customxmlpartcollection/
 | --- | --- | --- |
 | inputStream | Bytes[] | The inputStream with xml data of new part to be added. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPart](../customxmlpart)
 
  **Error**
@@ -102,7 +102,7 @@ url: /aspose.slides/customxmlpartcollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -121,7 +121,7 @@ Object
 | --- | --- | --- |
 | index | int | The zero-based index of the element to get. |
 
- **Result:**
+ **Returns:**
 [CustomXmlPart](../customxmlpart)
 
  **Error**
@@ -140,7 +140,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -153,7 +153,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -166,7 +166,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -185,7 +185,7 @@ boolean
 | --- | --- | --- |
 | item | [CustomXmlPart](../customxmlpart) | The custom xml part to remove. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -226,7 +226,7 @@ boolean
 | --- | --- |
 | size() | Returns count of custom xml parts in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

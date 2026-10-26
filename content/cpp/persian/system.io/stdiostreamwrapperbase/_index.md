@@ -1,0 +1,117 @@
+---
+title: STDIOStreamWrapperBase
+second_title: "مرجع API Aspose.Slides برای C++"
+description: "نمایش‌دهنده یک کلاس پایه برای پوشش‌های شبیه System.IO.Stream است. اشیای این کلاس باید فقط با استفاده از تابع System::MakeObject() تخصیص داده شوند. هرگز نمونه‌ای از این نوع را روی پشته یا با استفاده از عملگر new ایجاد نکنید، زیرا منجر به خطاهای زمان اجرا و/یا خطاهای اعتبارسنجی می‌شود. همیشه این کلاس را در یک اشاره‌گر System::SmartPtr بپیچید و از این اشاره‌گر برای ارسال به توابع به عنوان آرگومان استفاده کنید."
+type: docs
+weight: 352
+url: /fa/system.io/stdiostreamwrapperbase/
+---
+## STDIOStreamWrapperBase کلاس
+
+نمایش‌دهنده یک کلاس پایه برای پوشش‌های شبیه [System.IO.Stream](../stream/) است. اشیای این کلاس باید فقط با استفاده از تابع [System::MakeObject()](../../system/makeobject/) تخصیص داده شوند. هرگز نمونه‌ای از این نوع را روی پشته یا با استفاده از عملگر new ایجاد نکنید، زیرا منجر به خطاهای زمان اجرا و/ یا اشکالات استنتاج می‌شود. همیشه این کلاس را در یک اشاره‌گر [System::SmartPtr](../../system/smartptr/) بپیچید و از این اشاره‌گر برای ارسال به توابع به عنوان آرگومان استفاده کنید.
+
+```cpp
+template<typename T,typename>class STDIOStreamWrapperBase : public System::IO::Stream
+```
+
+## متدها
+
+| Method | Description |
+| --- | --- |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::IAsyncResult](../../system/iasyncresult/)\> [BeginRead](../stream/beginread/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, int, int, [System::AsyncCallback](../../system/asynccallback/), [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) | یک عملیات خواندن ناهمزمان را آغاز می‌کند. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::IAsyncResult](../../system/iasyncresult/)\> [BeginWrite](../stream/beginwrite/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>, int, int, [System::AsyncCallback](../../system/asynccallback/), [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) | یک عملیات نوشتن ناهمزمان را آغاز می‌کند. |
+| virtual void [Close](../stream/close/)() | جریان را می‌بندد. |
+| void [CopyTo](../stream/copyto/)(const [SharedPtr](../../system/sharedptr/)\<[Stream](../stream/)\>\&) | بایت‌ها را به جریان مشخص‌شده کپی می‌کند. |
+| void [CopyTo](../stream/copyto/)(const [SharedPtr](../../system/sharedptr/)\<[Stream](../stream/)\>\&, **int32_t**) | بایت‌ها را به جریان مشخص‌شده کپی می‌کند، با استفاده از اندازه بافر مشخص‌شده. |
+| void [Dispose](../stream/dispose/)() override | تمام منابع مورد استفاده توسط شیء فعلی را آزاد می‌کند و جریان را می‌بندد. |
+| virtual int [EndRead](../stream/endread/)([System::SharedPtr](../../system/sharedptr/)\<[System::IAsyncResult](../../system/iasyncresult/)\>) | تا تکمیل عملیات خواندن ناهمزمان مشخص‌شده صبر می‌کند. |
+| virtual void [EndWrite](../stream/endwrite/)([System::SharedPtr](../../system/sharedptr/)\<[System::IAsyncResult](../../system/iasyncresult/)\>) | یک عملیات نوشتن ناهمزمان را خاتمه می‌دهد. تا تکمیل عملیات نوشتن ناهمزمان مشخص‌شده صبر می‌کند. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | اشیاء را با استفاده از semantics C# [Object.Equals](../../system/object/equals/) مقایسه می‌کند. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | اشیاء نوع ارجاعی را به سبک C# مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | اشیاء نوع مقدار را به سبک C# مقایسه می‌کند. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | مقایسه شناور به سبک C# را شبیه‌سازی می‌کند که در آن دو NaN برابر در نظر گرفته می‌شوند حتی اگر طبق IEC 60559:1989 NaN برابر با هیچ مقداری، از جمله NaN، نباشد. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | مقایسه شناور به سبک C# را شبیه‌سازی می‌کند که در آن دو NaN برابر در نظر گرفته می‌شوند حتی اگر طبق IEC 60559:1989 NaN برابر با هیچ مقداری، از جمله NaN، نباشد. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | فقط برای مقاصد داخلی. |
+| virtual void [Flush](../stream/flush/)() | بافرهای این جریان را پاک می‌کند و تمام داده‌های بافرشده را به ذخیره‌سازی زیرین می‌نویسد. |
+| virtual [TaskPtr](../../system/taskptr/) [FlushAsync](../stream/flushasync/)(const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) | به‌صورت ناهمزمان تمام بافرهای این جریان را پاک می‌کند، باعث می‌شود هر داده بافرشده‌ای به دستگاه زیرین نوشته شود و درخواست‌های لغو را نظارت می‌کند. |
+| [TaskPtr](../../system/taskptr/) [FlushAsync](../stream/flushasync/)() | به‌صورت ناهمزمان تمام بافرهای این جریان را پاک می‌کند، باعث می‌شود هر داده بافرشده‌ای به دستگاه زیرین نوشته شود و درخواست‌های لغو را نظارت می‌کند. |
+| **bool** [get_CanRead](./get_canread/)() const override | تشخیص می‌دهد آیا جریان از خواندن پشتیبانی می‌کند. |
+| **bool** [get_CanSeek](./get_canseek/)() const override | تشخیص می‌دهد آیا جریان از جستجو پشتیبانی می‌کند. |
+| virtual **bool** [get_CanTimeout](../stream/get_cantimeout/)() const | مقداری را دریافت می‌کند که تعیین می‌کند آیا جریان جاری می‌تواند زمان‌سرب شود یا خیر. |
+| **bool** [get_CanWrite](./get_canwrite/)() const override | تشخیص می‌دهد آیا جریان از نوشتن پشتیبانی می‌کند. |
+| **int64_t** [get_Length](./get_length/)() const override | طول جریان را برمی‌گرداند. |
+| **int64_t** [get_Position](./get_position/)() const override | موقعیت فعلی جریان را برمی‌گرداند. |
+| virtual int [get_ReadTimeout](../stream/get_readtimeout/)() const | مقداری را به میلی‌ثانیه دریافت می‌کند که تعیین می‌کند جریان چه مدت سعی می‌کند قبل از زمان‌سربی بخواند. |
+| virtual int [get_WriteTimeout](../stream/get_writetimeout/)() const | مقداری را به میلی‌ثانیه دریافت می‌کند که تعیین می‌کند جریان چه مدت سعی می‌کند قبل از زمان‌سربی بنویسد. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | ساختار داده شمارشگر مرجع مرتبط با شیء را دریافت می‌کند. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | معادل متد C# [Object.GetHashCode()](../../system/object/gethashcode/). امکان هش‌گذاری اشیای سفارشی را فراهم می‌کند. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | نوع واقعی شیء را دریافت می‌کند. معادل فراخوانی C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | بررسی می‌کند آیا شیء نمایانگر یک نمونه از نوع توصیف‌شده توسط targetType است. معادل عملگر C# 'is' است. |
+| void [Lock](../../system/object/lock/)() | قفل‌گذاری با استفاده از عبارت lock() در C# را پیاده‌سازی می‌کند. مستقیماً فراخوانی کنید یا از شیء [LockContext](../../system/lockcontext/) استفاده کنید. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | معادل متد C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). امکان تکثیر انواع سفارشی را فراهم می‌کند. |
+|  [Object](../../system/object/object/)() | شیء را ایجاد می‌کند. تمام ساختارهای داده داخلی را مقداردهی اولیه می‌کند. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | سازندهٔ کپی. در واقع چیزی را کپی نمی‌کند، فقط شیء جدید را مقداردهی اولیه می‌کند و امکان ساخت کپی زیرکلاس‌ها را فراهم می‌کند. |
+| [STDIOStreamWrapperBase](./)\& [operator=](./operator_equal/)(const [STDIOStreamWrapperBase](./)\&) | اپراتور انتساب کپی. حذف شده. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | اپراتور انتساب. در واقع چیزی را کپی نمی‌کند، فقط شیء جدید را مقداردهی اولیه می‌کند و امکان ساخت کپی زیرکلاس‌ها را فراهم می‌کند. |
+| virtual **int32_t** [Read](../stream/read/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | تعداد بایت مشخص‌شده را از جریان می‌خواند و آنها را در آرایهٔ بایت مشخص شده می‌نویسد. |
+| virtual **int32_t** [Read](../stream/read/)(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) | تعداد بایت مشخص‌شده را از جریان می‌خواند و آنها را در آرایهٔ بایت مشخص شده می‌نویسد. |
+| **int32_t** [Read](../stream/read/)(const System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**) | تعداد بایت مشخص‌شده را از جریان می‌خواند و آنها را در آرایهٔ بایت مشخص شده می‌نویسد. |
+| virtual **int32_t** [Read](../stream/read/)(const [System::Span](../../system/span/)\<**uint8_t**\>\&) | تعداد بایت مشخص‌شده را از جریان می‌خواند و آنها را در بازهٔ بایت مشخص شده می‌نویسد. |
+| virtual [RTaskPtr](../../system/rtaskptr/)\<**int32_t**\> [ReadAsync](../stream/readasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**, const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) | به‌صورت ناهمزمان دنباله‌ای از بایت‌ها را از جریان جاری می‌خواند، موقعیت داخل جریان را به تعداد بایت‌های خوانده‌شده پیش می‌برد و درخواست‌های لغو را نظارت می‌کند. |
+| [RTaskPtr](../../system/rtaskptr/)\<**int32_t**\> [ReadAsync](../stream/readasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | به‌صورت ناهمزمان دنباله‌ای از بایت‌ها را از جریان جاری می‌خواند، موقعیت داخل جریان را به تعداد بایت‌های خوانده‌شده پیش می‌برد و درخواست‌های لغو را نظارت می‌کند. |
+| virtual int [ReadByte](../stream/readbyte/)() | یک بایت تک از جریان می‌خواند و مقدار عدد صحیح 32 بیتی معادل مقدار بایت خوانده‌شده را برمی‌گرداند. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | اشیاء را بر پایهٔ مرجع مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | اشیاء را بر پایهٔ مرجع مقایسه می‌کند. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | شیء نوع مقداری را با nullptr به‌صورت مرجعی مقایسه می‌کند. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | تخصص [Object::ReferenceEquals](../../system/object/referenceequals/) برای حالت رشته و nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | تخصص [Object::ReferenceEquals](../../system/object/referenceequals/) برای حالت رشته‌ها. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | تعداد شمارشگر مرجع مشترک را به مقدار مشخص‌شده کاهش می‌دهد. |
+|  [RTTI_INFO_TEMPLATE_CLASS](./rtti_info_template_class/)([ThisType](./thistype/), [ThisTypeBaseTypesInfo](./thistypebasetypesinfo/)) | اطلاعات RTTI. |
+| **int64_t** [Seek](./seek/)(**int64_t**, [SeekOrigin](../seekorigin/)) override | موقعیت جریان نمایان‌شده توسط شیء جاری را تنظیم می‌کند. |
+| void [set_Position](./set_position/)(**int64_t**) override | موقعیت جریان را تنظیم می‌کند. |
+| virtual void [set_ReadTimeout](../stream/set_readtimeout/)(int) | مقداری را تنظیم می‌کند که تعیین می‌کند آیا جریان جاری می‌تواند زمان‌سرب شود یا نه. |
+| virtual void [set_WriteTimeout](../stream/set_writetimeout/)(int) | مقداری به میلی‌ثانیه تنظیم می‌کند که تعیین می‌کند جریان چه مدت سعی می‌کند قبل از زمان‌سربی بخواند. |
+| virtual void [SetLength](../stream/setlength/)(**int64_t**) | طول جریان نمایان‌شده توسط شیء جاری را تنظیم می‌کند. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | آرگومان nام قالب را به یک اشاره‌گر ضعیف (به‌جای مشترک) تنظیم می‌کند. امکان تغییر اشاره‌گرها در محفظه‌ها به حالت ضعیف را فراهم می‌سازد. |
+| int [SharedCount](../../system/object/sharedcount/)() const | مقدار فعلی شمارشگر مرجع مشترک را دریافت می‌کند. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | شمارشگر مرجع مشترک را افزایش می‌دهد. نباید مستقیماً فراخوانی شود؛ در عوض، از اشاره‌گرهای هوشمند یا ThisProtector استفاده کنید. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | شمارشگر مرجع مشترک را کاهش می‌دهد و برمی‌گرداند. نباید مستقیماً فراخوانی شود؛ در عوض، از اشاره‌گرهای هوشمند یا ThisProtector استفاده کنید. |
+|  [STDIOStreamWrapperBase](./stdiostreamwrapperbase/)(const [STDIOStreamWrapperBase](./)\&) | سازندهٔ کپی. حذف شده. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | معادل متد C# [Object.ToString()](../../system/object/tostring/). امکان تبدیل اشیای سفارشی به رشته را فراهم می‌کند. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | ساختار typeof([System.Object](../../system/object/)) در C# را پیاده‌سازی می‌کند. |
+| void [Unlock](../../system/object/unlock/)() | قفل‌گذاری با استفاده از عبارت lock() در C# را باز می‌کند. مستقیماً فراخوانی کنید یا از شیء [LockContext](../../system/lockcontext/) استفاده کنید. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | شمارشگر مرجع ضعیف را افزایش می‌دهد. نباید مستقیماً فراخوانی شود؛ در عوض، از اشاره‌گرهای هوشمند یا ThisProtector استفاده کنید. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | شمارشگر مرجع ضعیف را کاهش می‌دهد. نباید مستقیماً فراخوانی شود؛ در عوض، از اشاره‌گرهای هوشمند یا ThisProtector استفاده کنید. |
+| virtual void [Write](../stream/write/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | بخش مشخص‌شده‌ای از بایت‌ها را از آرایهٔ بایت مشخص‌شده به جریان می‌نویسد. |
+| virtual void [Write](../stream/write/)(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) | بخش مشخص‌شده‌ای از بایت‌ها را از آرایهٔ بایت مشخص‌شده به جریان می‌نویسد. |
+| void [Write](../stream/write/)(const System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**) | بخش مشخص‌شده‌ای از بایت‌ها را از آرایهٔ بایت مشخص‌شده به جریان می‌نویسد. |
+| virtual void [Write](../stream/write/)(const [System::ReadOnlySpan](../../system/readonlyspan/)\<**uint8_t**\>\&) | بخش مشخص‌شده‌ای از بایت‌ها را از بازهٔ بایت مشخص‌شده به جریان می‌نویسد. |
+| virtual [TaskPtr](../../system/taskptr/) [WriteAsync](../stream/writeasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**, const [Threading::CancellationToken](../../system.threading/cancellationtoken/)\&) | به‌صورت ناهمزمان دنباله‌ای از بایت‌ها را به جریان جاری می‌نویسد، موقعیت فعلی داخل این جریان را به تعداد بایت‌های نوشته‌شده پیش می‌برد و درخواست‌های لغو را نظارت می‌کند. |
+| [TaskPtr](../../system/taskptr/) [WriteAsync](../stream/writeasync/)(const [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) | به‌صورت ناهمزمان دنباله‌ای از بایت‌ها را به جریان جاری می‌نویسد، موقعیت فعلی داخل این جریان را به تعداد بایت‌های نوشته‌شده پیش می‌برد و درخواست‌های لغو را نظارت می‌کند. |
+| virtual void [WriteByte](../stream/writebyte/)(**uint8_t**) | مقدار صحیح بدون علامت 8 بیتی مشخص‌شده را به جریان می‌نویسد. |
+| virtual  [~Object](../../system/object/~object/)() | شیء را از بین می‌برد. تمام ساختارهای داده داخلی را آزاد می‌کند. |
+
+## فیلدها
+
+| Field | Description |
+| --- | --- |
+| static [Null](../stream/null/) | جریانی بدون ذخیره‌سازی زیرین. |
+
+## تعریف‌گونه‌ها
+
+| Typedef | Description |
+| --- | --- |
+| [ThisType](./thistype/) |  |
+| [BaseType](./basetype/) |  |
+| [ThisTypeBaseTypesInfo](./thistypebasetypesinfo/) |  |
+| [char_type](./char_type/) |  |
+| [traits_type](./traits_type/) |  |
+| [int_type](./int_type/) |  |
+| [pos_type](./pos_type/) |  |
+| [off_type](./off_type/) |  |
+
+## موارد مرتبط
+
+* کلاس [Stream](../stream/)
+* فضای‌نام [System::IO](../)
+* کتابخانه [Aspose.Slides](../../)

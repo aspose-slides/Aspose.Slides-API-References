@@ -1,0 +1,24 @@
+---
+title: direction property
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides.effects/iinnershadoweffectivedata/direction/
+weight: 30
+---
+## direction egenskap
+Riktning av skugga.
+            Skrivskyddad **float**.
+
+### Definition:
+```python
+@property
+def direction(self):
+    ...
+```
+
+
+### Se också
+* klass [`IInnerShadowEffectiveData`](/slides/python-net/sv/aspose.slides.effects/iinnershadoweffectivedata)
+* modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

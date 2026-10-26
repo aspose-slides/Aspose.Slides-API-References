@@ -1,0 +1,29 @@
+---
+title: set_Matrix00()
+second_title: Aspose.Slides for C++ API 参考
+description: 在第0行第0列设置一个值。
+type: docs
+weight: 53
+url: /zh/system.drawing.imaging/colormatrix/set_matrix00/
+---
+## ColorMatrix::set_Matrix00(float) 方法
+
+
+在第0行第0列设置一个值。
+
+```cpp
+void System::Drawing::Imaging::ColorMatrix::set_Matrix00(float value)
+```
+
+
+### 参数
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | **float** | 要设置的值 |
+
+## 另见
+
+* 类 [ColorMatrix](../)
+* 命名空间 [System::Drawing::Imaging](../../)
+* 库 [Aspose.Slides](../../../)

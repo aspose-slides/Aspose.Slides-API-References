@@ -1,0 +1,21 @@
+---
+title: const_iterator
+second_title: Aspose.Slides C++ API 參考
+description: 常量迭代器類型。
+type: docs
+weight: 248
+url: /zh-hant/aspose.slides.effects/imagetransformocollectioneffectivedata/const_iterator/
+---
+## const_iterator typedef
+
+常量迭代器類型。
+
+```cpp
+using Aspose::Slides::Effects::ImageTransformOCollectionEffectiveData::const_iterator =  typename iterator_holder_type::const_iterator
+```
+
+## 另請參閱
+
+* 類別 [ImageTransformOCollectionEffectiveData](../)
+* 命名空間 [Aspose::Slides::Effects](../../)
+* 函式庫 [Aspose.Slides](../../../)

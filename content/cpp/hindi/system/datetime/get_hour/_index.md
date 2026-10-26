@@ -1,0 +1,21 @@
+---
+title: get_Hour()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: वर्तमान ऑब्जेक्ट द्वारा प्रतिनिधित्व किए गए तिथि और समय मान के घंटे घटक को लौटाता है।
+type: docs
+weight: 144
+url: /hi/system/datetime/get_hour/
+---
+## DateTime::get_Hour() const विधि
+
+वर्तमान ऑब्जेक्ट द्वारा दर्शाए गए तिथि और समय मान के घंटे घटक को लौटाता है।
+
+```cpp
+constexpr int System::DateTime::get_Hour() const
+```
+
+## संबंधित देखें
+
+* क्लास [DateTime](../)
+* नेमस्पेस [System](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

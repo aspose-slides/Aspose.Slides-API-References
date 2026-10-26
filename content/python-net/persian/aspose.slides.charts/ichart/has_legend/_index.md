@@ -1,0 +1,28 @@
+---
+title: has_legend property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.charts/ichart/has_legend/
+weight: 340
+---
+## has_legend property
+مشخص می‌کند آیا نمودار دارای قاب است یا خیر.
+            خواندنی/نوشتنی **bool**.
+
+### تعریف:
+```python
+@property
+def has_legend(self):
+    ...
+
+@has_legend.setter
+def has_legend(self, value):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`IChart`](/slides/python-net/fa/aspose.slides.charts/ichart)
+* ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

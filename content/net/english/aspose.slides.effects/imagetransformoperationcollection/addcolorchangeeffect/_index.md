@@ -3,7 +3,7 @@ title: AddColorChangeEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Adds the new Color Change effect to the end of a collection.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect/
 ---
 

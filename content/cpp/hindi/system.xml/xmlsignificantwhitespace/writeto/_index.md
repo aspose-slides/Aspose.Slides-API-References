@@ -1,0 +1,29 @@
+---
+title: WriteTo()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्दिष्ट XmlWriter में नोड को सहेजता है।
+type: docs
+weight: 92
+url: /hi/system.xml/xmlsignificantwhitespace/writeto/
+---
+## XmlSignificantWhitespace::WriteTo(const SharedPtr\<XmlWriter\>\&) विधि
+
+निर्दिष्ट [XmlWriter](../../xmlwriter/) में नोड को सहेजता है।
+
+```cpp
+void System::Xml::XmlSignificantWhitespace::WriteTo(const SharedPtr<XmlWriter> &w) override
+```
+
+### आर्ग्युमेंट्स
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| w | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\& | वह [XmlWriter](../../xmlwriter/) जिसे आप सहेजना चाहते हैं। |
+
+## और देखें
+
+* टाइपडिफ [SharedPtr](../../../system/sharedptr/)
+* क्लास [XmlWriter](../../xmlwriter/)
+* क्लास [XmlSignificantWhitespace](../)
+* नेमस्पेस [System::Xml](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

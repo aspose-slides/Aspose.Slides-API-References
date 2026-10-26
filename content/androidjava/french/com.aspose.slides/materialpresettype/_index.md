@@ -1,0 +1,159 @@
+---
+title: MaterialPresetType
+second_title: Référence API Java d'Aspose.Slides pour Android
+description: Constantes qui définissent le matériau de la forme.
+type: docs
+url: /fr/com.aspose.slides/materialpresettype/
+---
+**Héritage:**  
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class MaterialPresetType extends System.Enum
+```
+
+Constantes qui définissent le matériau de la forme.
+## Champs
+
+| Champ | Description |
+| --- | --- |
+| [NotDefined](#NotDefined) |  |
+| [Clear](#Clear) |  |
+| [DkEdge](#DkEdge) |  |
+| [Flat](#Flat) |  |
+| [LegacyMatte](#LegacyMatte) |  |
+| [LegacyMetal](#LegacyMetal) |  |
+| [LegacyPlastic](#LegacyPlastic) |  |
+| [LegacyWireframe](#LegacyWireframe) |  |
+| [Matte](#Matte) |  |
+| [Metal](#Metal) |  |
+| [Plastic](#Plastic) |  |
+| [Powder](#Powder) |  |
+| [SoftEdge](#SoftEdge) |  |
+| [Softmetal](#Softmetal) |  |
+| [TranslucentPowder](#TranslucentPowder) |  |
+| [WarmMatte](#WarmMatte) |  |
+
+### NotDefined {#NotDefined}
+```
+public static final int NotDefined
+```
+
+
+
+
+### Clear {#Clear}
+```
+public static final int Clear
+```
+
+
+
+
+### DkEdge {#DkEdge}
+```
+public static final int DkEdge
+```
+
+
+
+
+### Flat {#Flat}
+```
+public static final int Flat
+```
+
+
+
+
+### LegacyMatte {#LegacyMatte}
+```
+public static final int LegacyMatte
+```
+
+
+
+
+### LegacyMetal {#LegacyMetal}
+```
+public static final int LegacyMetal
+```
+
+
+
+
+### LegacyPlastic {#LegacyPlastic}
+```
+public static final int LegacyPlastic
+```
+
+
+
+
+### LegacyWireframe {#LegacyWireframe}
+```
+public static final int LegacyWireframe
+```
+
+
+
+
+### Matte {#Matte}
+```
+public static final int Matte
+```
+
+
+
+
+### Metal {#Metal}
+```
+public static final int Metal
+```
+
+
+
+
+### Plastic {#Plastic}
+```
+public static final int Plastic
+```
+
+
+
+
+### Powder {#Powder}
+```
+public static final int Powder
+```
+
+
+
+
+### SoftEdge {#SoftEdge}
+```
+public static final int SoftEdge
+```
+
+
+
+
+### Softmetal {#Softmetal}
+```
+public static final int Softmetal
+```
+
+
+
+
+### TranslucentPowder {#TranslucentPowder}
+```
+public static final int TranslucentPowder
+```
+
+
+
+
+### WarmMatte {#WarmMatte}
+```
+public static final int WarmMatte
+```

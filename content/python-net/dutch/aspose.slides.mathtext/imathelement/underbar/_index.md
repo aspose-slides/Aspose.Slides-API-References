@@ -1,0 +1,30 @@
+---
+title: underbar method
+second_title: Aspose.Slides voor Python via .NET API Referentie
+description: 
+type: docs
+url: /nl/aspose.slides.mathtext/imathelement/underbar/
+weight: 220
+---
+## underbar(self) {#}
+Plaatst een balk aan de onderkant van dit element
+
+### Retourwaarde
+
+Nieuwe instantie van type [`IMathBar`](/slides/python-net/nl/aspose.slides.mathtext/imathbar)
+
+
+
+```python
+def underbar(self):
+    ...
+```
+
+
+
+
+### Zie ook
+* klasse [`IMathBar`](/slides/python-net/nl/aspose.slides.mathtext/imathbar)
+* klasse [`IMathElement`](/slides/python-net/nl/aspose.slides.mathtext/imathelement)
+* module [`aspose.slides.mathtext`](/slides/python-net/nl/aspose.slides.mathtext)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

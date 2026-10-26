@@ -25,11 +25,15 @@ Represents a HTML exporting options.
 
 | Method | Description |
 | --- | --- |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getHtmlFormatter()](#getHtmlFormatter--) | Returns or sets HTML template. |
 | [setHtmlFormatter(IHtmlFormatter value)](#setHtmlFormatter-com.aspose.slides.IHtmlFormatter-) | Returns or sets HTML template. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [getSlideImageFormat()](#getSlideImageFormat--) | Returns or sets slide image format options. |
 | [setSlideImageFormat(ISlideImageFormat value)](#setSlideImageFormat-com.aspose.slides.ISlideImageFormat-) | Returns or sets slide image format options. |
 | [getJpegQuality()](#getJpegQuality--) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
@@ -61,16 +65,75 @@ public HtmlOptions()
 
 Creates a new HtmlOptions object for saving into single HTML file.
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+public final ISlidesLayoutOptions getSlidesLayoutOptions()
 ```
 
 
-Provides options that control how notes and comments is placed in exported document.
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
+### getInkOptions() {#getInkOptions--}
+```
+public final IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)
 ### getShowHiddenSlides() {#getShowHiddenSlides--}
 ```
 public final boolean getShowHiddenSlides()
@@ -116,6 +179,59 @@ Returns or sets HTML template. Read/write [IHtmlFormatter](../../com.aspose.slid
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IHtmlFormatter](../../com.aspose.slides/ihtmlformatter) |  |
+
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public final boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public final void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getSlideImageFormat() {#getSlideImageFormat--}
 ```

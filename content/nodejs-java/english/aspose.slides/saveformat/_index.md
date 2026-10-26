@@ -36,6 +36,7 @@ url: /aspose.slides/saveformat/
 [Gif](#Gif) | 22 | Save presentation in GIF format. |
 [Html5](#Html5) | 23 | Save presentation in HTML format using new HTML5 templating system. |
 [Md](#Md) | 24 | Save presentation in Markdown format |
+[Xml](#Xml) | 25 | Save presentation in PowerPoint XML Presentation format. |
 
 
 ---
@@ -138,6 +139,11 @@ Save presentation in HTML format using new HTML5 templating system.
 
 ### Md {#Md}
 Save presentation in Markdown format
+
+---
+
+### Xml {#Xml}
+Save presentation in PowerPoint XML Presentation format.
 
 ---
 

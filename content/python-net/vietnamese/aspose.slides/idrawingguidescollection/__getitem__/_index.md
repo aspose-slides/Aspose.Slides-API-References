@@ -1,0 +1,20 @@
+---
+title: IDrawingGuidesCollection indexer
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides/idrawingguidescollection/__getitem__/
+weight: 40
+---
+## IDrawingGuidesCollection trình chỉ mục
+## Trình chỉ mục
+
+| Tên | Mô tả |
+| :- | :- |
+| index |  |
+
+
+### Xem thêm
+* lớp [`IDrawingGuidesCollection`](/slides/python-net/vi/aspose.slides/idrawingguidescollection)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -22,7 +22,6 @@ Represents a collection of Video objects.
 | [size()](#size--) | Returns a number of video files in the collection. |
 | [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [addVideo(IVideo video)](#addVideo-com.aspose.slides.IVideo-) | Adds a copy of an video file from an another presentation. |
-| [addVideo(InputStream stream)](#addVideo-java.io.InputStream-) | Creates and adds a video to a presentation from stream. |
 | [addVideo(InputStream stream, int loadingStreamBehavior)](#addVideo-java.io.InputStream-int-) | Creates and adds a video to a presentation from stream. |
 | [addVideo(byte[] videoData)](#addVideo-byte---) | Creates and adds a video to a presentation from byte array. |
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies videos to specified array starting from specified index. |
@@ -70,21 +69,6 @@ Adds a copy of an video file from an another presentation.
 
 **Returns:**
 [IVideo](../../com.aspose.slides/ivideo) - Added video.
-### addVideo(InputStream stream) {#addVideo-java.io.InputStream-}
-```
-public final IVideo addVideo(InputStream stream)
-```
-
-
-Creates and adds a video to a presentation from stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | Stream to add video file from. |
-
-**Returns:**
-[IVideo](../../com.aspose.slides/ivideo) - Added [Video](../../com.aspose.slides/video).
 ### addVideo(InputStream stream, int loadingStreamBehavior) {#addVideo-java.io.InputStream-int-}
 ```
 public final IVideo addVideo(InputStream stream, int loadingStreamBehavior)

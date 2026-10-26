@@ -1,0 +1,31 @@
+---
+title: write_document_end method
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/videoplayerhtmlcontroller/write_document_end/
+weight: 60
+---
+## write_document_end(self, generator, presentation) {#ihtmlgenerator-ipresentation}
+
+
+
+```python
+def write_document_end(self, generator, presentation):
+    ...
+```
+
+
+| परामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/hi/aspose.slides.export/ihtmlgenerator) |  |
+| presentation | [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation) |  |
+
+
+
+### संबंधित देखें
+* क्लास [`IHtmlGenerator`](/slides/python-net/hi/aspose.slides.export/ihtmlgenerator)
+* क्लास [`IPresentation`](/slides/python-net/hi/aspose.slides/ipresentation)
+* क्लास [`VideoPlayerHtmlController`](/slides/python-net/hi/aspose.slides.export/videoplayerhtmlcontroller)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

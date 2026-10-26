@@ -1,0 +1,172 @@
+---
+title: GetImages
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày.
+type: docs
+weight: 310
+url: /vi/aspose.slides/ipresentation/getimages/
+---
+## GetImages(IRenderingOptions) {#getimages}
+
+Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Trả về các đối tượng Thumbnail Bitmap cho các slide đã chỉ định của bản trình bày.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+| slides | Int32[] | Mảng chứa vị trí slide, bắt đầu từ 1. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày với tỷ lệ tùy chỉnh.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+| scaleX | Single | Giá trị dùng để thu phóng Thumbnail này theo hướng trục x. |
+| scaleY | Single | Giá trị dùng để thu phóng Thumbnail này theo hướng trục y. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Trả về các đối tượng Thumbnail Image cho các slide đã chỉ định của bản trình bày với tỷ lệ tùy chỉnh.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+| slides | Int32[] | Mảng chứa vị trí slide, bắt đầu từ 1. |
+| scaleX | Single | Giá trị dùng để thu phóng Thumbnail này theo hướng trục x. |
+| scaleY | Single | Giá trị dùng để thu phóng Thumbnail này theo hướng trục y. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Trả về các đối tượng Thumbnail Image cho tất cả các slide của bản trình bày với kích thước được chỉ định.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+| imageSize | Size | Kích thước của Image cần tạo. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Trả về các đối tượng Thumbnail Image cho các slide đã chỉ định của bản trình bày với kích thước được chỉ định.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| options | IRenderingOptions | Các tùy chọn render. |
+| slides | Int32[] | Mảng chứa vị trí slide, bắt đầu từ 1. |
+| imageSize | Size | Kích thước của Image cần tạo. |
+
+### Giá trị trả về
+
+Các đối tượng Bitmap.
+
+### Xem thêm
+
+* giao diện [IImage](../../iimage)
+* giao diện [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* giao diện [IPresentation](../../ipresentation)
+* không gian tên [Aspose.Slides](../../ipresentation)
+* tập hợp [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

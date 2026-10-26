@@ -18,7 +18,7 @@ url: /aspose.slides/fieldtype/
 | --- | --- |
 | FieldType(String) | Initializes a new instance of FieldType class. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -37,7 +37,7 @@ FieldType
 | --- | --- | --- |
 | obj | Object | Field to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -50,7 +50,7 @@ boolean
 | --- | --- |
 | getDateTime() | Current date and time in default date time format for the rendering application. Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -63,7 +63,7 @@ FieldType
 | --- | --- |
 | getDateTime1() | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -76,7 +76,7 @@ FieldType
 | --- | --- |
 | getDateTime10() | Current date and time in a tenth predefined format (hh:mm for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -89,7 +89,7 @@ FieldType
 | --- | --- |
 | getDateTime11() | Current date and time in a eleventh predefined format (hh:mm:ss for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -102,7 +102,7 @@ FieldType
 | --- | --- |
 | getDateTime12() | Current date and time in a twelfth predefined format (hh:mm AM/PM for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -115,7 +115,7 @@ FieldType
 | --- | --- |
 | getDateTime13() | Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -128,7 +128,7 @@ FieldType
 | --- | --- |
 | getDateTime2() | Current date and time in a second predefined format (Day, Month DD, YYYY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -141,7 +141,7 @@ FieldType
 | --- | --- |
 | getDateTime3() | Current date and time in a third predefined format (DD Month YYYY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -154,7 +154,7 @@ FieldType
 | --- | --- |
 | getDateTime4() | Current date and time in a fourth predefined format (Month DD, YYYY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -167,7 +167,7 @@ FieldType
 | --- | --- |
 | getDateTime5() | Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -180,7 +180,7 @@ FieldType
 | --- | --- |
 | getDateTime6() | Current date and time in a sixth predefined format (Month YY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -193,7 +193,7 @@ FieldType
 | --- | --- |
 | getDateTime7() | Current date and time in a seventh predefined format (Mon-YY for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -206,7 +206,7 @@ FieldType
 | --- | --- |
 | getDateTime8() | Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -219,7 +219,7 @@ FieldType
 | --- | --- |
 | getDateTime9() | Current date and time in a ninth predefined format (MM/DD/YYYY hh:mm:ss AM/PM for english). Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -232,7 +232,7 @@ FieldType
 | --- | --- |
 | getFooter() | Slide's footer. Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -245,7 +245,7 @@ FieldType
 | --- | --- |
 | getHeader() | Slide's header. Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -258,7 +258,7 @@ FieldType
 | --- | --- |
 | getInternalString() | Returns the internal name of this FieldType object. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -271,7 +271,7 @@ String
 | --- | --- |
 | getSlideNumber() | Current slide's number. Read-only FieldType. |
 
- **Result:**
+ **Returns:**
 FieldType
 
 
@@ -284,7 +284,7 @@ FieldType
 | --- | --- |
 | hashCode() | Returns hashcode for this object. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -304,7 +304,7 @@ int
 | a | [FieldType](../fieldtype) | First FieldType to compare. |
 | b | [FieldType](../fieldtype) | Second FieldType to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -324,7 +324,7 @@ boolean
 | a | [FieldType](../fieldtype) | First FieldType to compare. |
 | b | [FieldType](../fieldtype) | Second FieldType to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

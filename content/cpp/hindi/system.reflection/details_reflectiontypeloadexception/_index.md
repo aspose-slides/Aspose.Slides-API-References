@@ -1,0 +1,66 @@
+---
+title: Details_ReflectionTypeLoadException
+second_title: Aspose.Slides for C++ API संदर्भ
+description: "ReflectionTypeLoadException को Module.GetTypes मेथड द्वारा थ्रो किया जाता है यदि किसी मॉड्यूल की कोई भी क्लास लोड नहीं हो पाती। इस क्लास के इंस्टेंस को मैन्युअली कभी न बनाएं। इसके बजाय ReflectionTypeLoadException क्लास का उपयोग करें। ReflectionTypeLoadException क्लास के इंस्टेंस को कभी भी System::SmartPtr में रैप न करें।"
+type: docs
+weight: 66
+url: /hi/system.reflection/details_reflectiontypeloadexception/
+---
+## Details_ReflectionTypeLoadException वर्ग
+
+ReflectionTypeLoadException को Module.GetTypes मेथड द्वारा तब थ्रो किया जाता है जब किसी मॉड्यूल में स्थित किसी भी वर्ग को लोड करने में विफलता हो। इस वर्ग के इंस्टेंस को मैन्युअली न बनाएँ। इसके बजाय ReflectionTypeLoadException वर्ग का उपयोग करें। ReflectionTypeLoadException वर्ग के इंस्टेंस को कभी भी [System::SmartPtr](../../system/smartptr/) में न रैप करें।
+
+```cpp
+class Details_ReflectionTypeLoadException : public System::Details_Exception
+```
+
+## विधियाँ
+
+| मेथड | विवरण |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | ऑब्जेक्ट्स की तुलना C# [Object.Equals](../../system/object/equals/) सेमेंटिक्स का उपयोग करके करता है। |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# शैली में रेफ़रेंस टाइप ऑब्जेक्ट्स की तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# शैली में वैल्यू टाइप ऑब्जेक्ट्स की तुलना करता है। |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | C#-शैली के फ्लोटिंग पॉइंट तुलना का अनुकरण करता है जहाँ दो NaN को बराबर माना जाता है, जबकि IEC 60559:1989 के अनुसार NaN किसी भी मान के बराबर नहीं होता, यहाँ तक कि NaN के भी नहीं। |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | C#-शैली के फ्लोटिंग पॉइंट तुलना का अनुकरण करता है जहाँ दो NaN को बराबर माना जाता है, जबकि IEC 60559:1989 के अनुसार NaN किसी भी मान के बराबर नहीं होता, यहाँ तक कि NaN के भी नहीं। |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | केवल आंतरिक प्रयोजनों के लिए। |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>, [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\>\> [get_Data](../../system/details_exception/get_data/)() | कस्टम अपवाद डेटा के साथ डिक्शनरी लौटाता है। |
+| **int32_t** [get_HResult](../../system/details_exception/get_hresult/)() const | एक 32-बिट पूर्णांक मान लौटाता है जो वर्तमान ऑब्जेक्ट द्वारा दर्शाए गए अपवाद से जुड़ा HRESULT कोड है। |
+| virtual [ExceptionWrapper](../../system/exceptionwrapper/)\<[Details_Exception](../../system/details_exception/)\> [get_InnerException](../../system/details_exception/get_innerexception/)() const | आंतरिक अपवाद को दर्शाने वाले ऑब्जेक्ट का रेफ़रेंस लौटाता है। |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::Exception](../../system/exception/)\> [get_LoaderExceptions](./get_loaderexceptions/)() const | इस अपवाद का कारण बनने वाले अपवादों को लौटाता है। |
+| virtual [String](../../system/string/) [get_Message](../../system/details_exception/get_message/)() const | त्रुटि विवरण वाली स्ट्रिंग लौटाता है। |
+| virtual [String](../../system/string/) [get_StackTrace](../../system/details_exception/get_stacktrace/)() const | स्टैक ट्रेस वाली स्ट्रिंग लौटाता है। |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::TypeInfo](../../system/typeinfo/)\> [get_Types](./get_types/)() const | अपवाद के कारणों की टाइप जानकारी लौटाता है। |
+| virtual [ExceptionWrapper](../../system/exceptionwrapper/)\<[Details_Exception](../../system/details_exception/)\> [GetBaseException](../../system/details_exception/getbaseexception/)() const | सबसे आंतरिक अपवाद को दर्शाने वाले Exception ऑब्जेक्ट की कॉपी लौटाता है। |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | ऑब्जेक्ट से जुड़े रेफ़रेंस काउंटर डेटा स्ट्रक्चर प्राप्त करता है। |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | C# [Object.GetHashCode()](../../system/object/gethashcode/) मेथड का समानांतर। कस्टम ऑब्जेक्ट्स का हैशिंग सक्षम करता है। |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | ऑब्जेक्ट का वास्तविक टाइप प्राप्त करता है। C# [System.Object.GetType()](../../system/object/gettype/) कॉल का समानांतर। |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | जाँचता है कि ऑब्जेक्ट targetType द्वारा वर्णित टाइप का इंस्टेंस है या नहीं। C# 'is' ऑपरेटर का समानांतर। |
+| void [Lock](../../system/object/lock/)() | C# lock() स्टेटमेंट की लॉकिंग को लागू करता है। सीधे कॉल करें या [LockContext](../../system/lockcontext/) सेंट्री ऑब्जेक्ट का उपयोग करें। |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) मेथड का समानांतर। कस्टम टाइप्स की क्लोनिंग सक्षम करता है। |
+|  [Object](../../system/object/object/)() | ऑब्जेक्ट बनाता है। सभी आंतरिक डेटा स्ट्रक्चर को इनिशियलाइज़ करता है। |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | कॉपी कॉन्स्ट्रक्टर। वास्तव में कुछ भी कॉपी नहीं करता, केवल नया ऑब्जेक्ट इनिशियलाइज़ करता है और सबक्लासेज़ की कॉपी कन्स्ट्रक्शन सक्षम करता है। |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | असाइनमेंट ऑपरेटर। वास्तव में कुछ भी कॉपी नहीं करता, केवल नया ऑब्जेक्ट इनिशियलाइज़ करता है और सबक्लासेज़ की कॉपी कन्स्ट्रक्शन सक्षम करता है। |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | ऑब्जेक्ट्स की रेफ़रेंस द्वारा तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | ऑब्जेक्ट्स की रेफ़रेंस द्वारा तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | वैल्यू टाइप ऑब्जेक्ट की nullptr से रेफ़रेंस तुलना करता है। |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | [Object::ReferenceEquals](../../system/object/referenceequals/) का स्ट्रिंग और nullptr केस के लिए विशेषीकरण। |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | [Object::ReferenceEquals](../../system/object/referenceequals/) का स्ट्रिंग्स केस के लिए विशेषीकरण। |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | निर्दिष्ट मान द्वारा शेयर्ड रेफ़रेंस काउंट को घटाता है। |
+| void [set_HResult](../../system/details_exception/set_hresult/)(**int32_t**) | HRESULT सेट करता है, जो एक कोडेड संख्यात्मक मान है और विशिष्ट अपवाद को सौंपा जाता है। |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | nवें टेम्प्लेट आर्ग्यूमेंट को वीक पॉइंटर सेट करता है (शेयर्ड के बजाय)। कंटेनरों में पॉइंटर्स को वीक मोड में बदलने की अनुमति देता है। |
+| int [SharedCount](../../system/object/sharedcount/)() const | शेयर्ड रेफ़रेंस काउंटर का वर्तमान मान प्राप्त करता है। |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | शेयर्ड रेफ़रेंस काउंट को इन्क्रीमेंट करता है। सीधे कॉल नहीं करना चाहिए; इसके बजाय, स्मार्ट पॉइंटर्स या ThisProtector का उपयोग करें। |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | शेयर्ड रेफ़रेंस काउंट को घटाता है और लौटाता है। सीधे कॉल नहीं करना चाहिए; इसके बजाय, स्मार्ट पॉइंटर्स या ThisProtector का उपयोग करें। |
+| [String](../../system/string/) [ToString](../../system/details_exception/tostring/)() const override | वर्तमान ऑब्जेक्ट का स्ट्रिंग प्रतिनिधित्व लौटाता है। |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | C# typeof([System.Object](../../system/object/)) कंस्ट्रक्ट को लागू करता है। |
+| void [Unlock](../../system/object/unlock/)() | C# lock() स्टेटमेंट की अनलॉकिंग को लागू करता है। सीधे कॉल करें या [LockContext](../../system/lockcontext/) सेंट्री ऑब्जेक्ट का उपयोग करें। |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | वीक रेफ़रेंस काउंट को इन्क्रीमेंट करता है। सीधे कॉल नहीं करना चाहिए; इसके बजाय, स्मार्ट पॉइंटर्स या ThisProtector का उपयोग करें। |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | वीक रेफ़रेंस काउंट को घटाता है। सीधे कॉल नहीं करना चाहिए; इसके बजाय, स्मार्ट पॉइंटर्स या ThisProtector का उपयोग करें। |
+| virtual const char * [what](../../system/details_exception/what/)() const | [what()](../../system/details_exception/what/) मेथड को लागू करता है जिसे [ExceptionWrapper](../../system/exceptionwrapper/) वर्ग द्वारा कॉल किया जाता है। इस तथ्य के बावजूद कि यह वर्ग std::exception से विरासत में नहीं मिला है, डेराइव्ड क्लासेज़ प्रोटेक्टेड/प्राइवेट सदस्य का उपयोग करके अपना लॉजिक लागू कर सकते हैं। इस मेथड की इम्प्लीमेंटेशन को [ExceptionWrapper](../../system/exceptionwrapper/) में ले जाने से वह लॉजिक टूट सकता है। |
+| virtual  [~Object](../../system/object/~object/)() | ऑब्जेक्ट को नष्ट करता है। सभी आंतरिक डेटा स्ट्रक्चर को मुक्त करता है। |
+## देखें
+
+* वर्ग [Details_Exception](../../system/details_exception/)
+* नेमस्पेस [System::Reflection](../)
+* लाइब्रेरी [Aspose.Slides](../../)

@@ -1,0 +1,21 @@
+---
+title: slide property
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/ilegacydiagram/slide/
+weight: 390
+---
+## स्लाइड गुण
+### परिभाषा:
+```python
+@property
+def slide(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`ILegacyDiagram`](/slides/python-net/hi/aspose.slides/ilegacydiagram)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

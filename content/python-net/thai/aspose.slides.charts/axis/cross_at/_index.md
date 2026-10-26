@@ -1,0 +1,27 @@
+---
+title: cross_at property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.charts/axis/cross_at/
+weight: 180
+---
+## cross_at คุณสมบัติ
+แสดงจุดบนแกนที่แกนตั้งฉากตัดผ่านมัน.
+อ่าน/เขียน **float**.
+
+### คำนิยาม:
+```python
+@property
+def cross_at(self):
+    ...
+
+@cross_at.setter
+def cross_at(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`Axis`](/slides/python-net/th/aspose.slides.charts/axis)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

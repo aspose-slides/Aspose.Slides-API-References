@@ -1,0 +1,35 @@
+---
+title: is_series_uses_y_value_coordinate method
+second_title: Aspose.Slides para Python via .NET Referência da API
+description: 
+type: docs
+url: /pt/aspose.slides.charts/charttypecharacterizer/is_series_uses_y_value_coordinate/
+weight: 210
+---
+## is_series_uses_y_value_coordinate(series_type) {#charttype}
+Retorna se o tipo de série especificado usa coordenadas de valor Y.
+
+### Retorno
+
+Verdadeiro se usar, caso contrário falso.
+
+
+
+```python
+@staticmethod
+def is_series_uses_y_value_coordinate(series_type):
+    ...
+```
+
+
+| Parâmetro | Tipo | Descrição |
+| :- | :- | :- |
+| series_type | [`ChartType`](/slides/python-net/pt/aspose.slides.charts/charttype) | Tipo de série. |
+
+
+
+### Veja Também
+* enumeração [`ChartType`](/slides/python-net/pt/aspose.slides.charts/charttype)
+* classe [`ChartTypeCharacterizer`](/slides/python-net/pt/aspose.slides.charts/charttypecharacterizer)
+* módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

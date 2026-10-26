@@ -1,0 +1,21 @@
+---
+title: presentation property
+second_title: Aspose.Slides для Python через .NET API Reference
+description: 
+type: docs
+url: /ru/aspose.slides.effects/imagetransformoperationcollection/presentation/
+weight: 230
+---
+## свойство presentation
+### Определение:
+```python
+@property
+def presentation(self):
+    ...
+```
+
+
+### Смотрите также
+* класс [`ImageTransformOperationCollection`](/slides/python-net/ru/aspose.slides.effects/imagetransformoperationcollection)
+* модуль [`aspose.slides.effects`](/slides/python-net/ru/aspose.slides.effects)
+* библиотека [`Aspose.Slides`](/slides/python-net)

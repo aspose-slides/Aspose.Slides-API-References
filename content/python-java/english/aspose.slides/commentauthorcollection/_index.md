@@ -24,8 +24,14 @@ url: /aspose.slides/commentauthorcollection/
 | name | String | Name of a new author. |
 | initials | String | Initials of a new author. |
 
- **Result:**
+ **Returns:**
 [CommentAuthor](../commentauthor)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if author with the same name and initials is already added. |
 
 
 ---
@@ -53,7 +59,7 @@ url: /aspose.slides/commentauthorcollection/
 | --- | --- | --- |
 | name | String | Name of an author to find. |
 
- **Result:**
+ **Returns:**
 [CommentAuthor](../commentauthor)
 
 
@@ -73,18 +79,8 @@ url: /aspose.slides/commentauthorcollection/
 | name | String | Name of an author to find. |
 | initials | String | Initials of an author to find. |
 
- **Result:**
+ **Returns:**
 [CommentAuthor](../commentauthor)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -96,7 +92,7 @@ url: /aspose.slides/commentauthorcollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -109,7 +105,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only ICommentAuthor. |
 
- **Result:**
+ **Returns:**
 [CommentAuthor](../commentauthor)
 
 
@@ -122,7 +118,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -135,7 +131,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -148,7 +144,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -205,7 +201,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -218,7 +214,7 @@ int
 | --- | --- |
 | toArray() | Creates and returns an array with all authors. |
 
- **Result:**
+ **Returns:**
 [CommentAuthor](../commentauthor)
 
 

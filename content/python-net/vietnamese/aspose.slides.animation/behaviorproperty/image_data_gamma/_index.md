@@ -1,0 +1,23 @@
+---
+title: image_data_gamma property
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+description: 
+type: docs
+url: /vi/aspose.slides.animation/behaviorproperty/image_data_gamma/
+weight: 500
+---
+## image_data_gamma thuộc tính
+Đại diện cho thuộc tính 'imageData.gamma'
+
+### Định nghĩa:
+```python
+@property
+def image_data_gamma(self):
+    ...
+```
+
+
+### Xem Thêm
+* lớp [`BehaviorProperty`](/slides/python-net/vi/aspose.slides.animation/behaviorproperty)
+* module [`aspose.slides.animation`](/slides/python-net/vi/aspose.slides.animation)
+* thư viện [`Aspose.Slides`](/slides/python-net)

@@ -11,13 +11,26 @@ url: /aspose.slides/commonslideviewproperties/
 
  Represents common slide view properties.
  
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides() | Returns the collection of the drawing guides. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getScale {#getScale}
 
 | Name | Description |
 | --- | --- |
 | getScale() | Specifies the view scaling ratio in percentages. Read/write int. |
 
- **Result:**
+ **Returns:**
 int
 
  **Error**
@@ -36,7 +49,7 @@ int
 | --- | --- |
 | getVariableScale() | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

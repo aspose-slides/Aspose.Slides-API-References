@@ -24,7 +24,7 @@ url: /aspose.slides/alphainverse/
 | --- | --- | --- |
 | obj | Object | The AlphaInverse to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Inverse effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaInverseEffectiveData
 
 
@@ -50,7 +50,7 @@ AlphaInverseEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -63,7 +63,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

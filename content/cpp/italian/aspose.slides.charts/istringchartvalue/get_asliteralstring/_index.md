@@ -1,0 +1,22 @@
+---
+title: get_AsLiteralString()
+second_title: Riferimento API di Aspose.Slides per C++
+description: "Restituisce la stringa letterale se la proprietà DataSourceType è DataSourceType::StringLiterals. Leggi System::String."
+type: docs
+weight: 1
+url: /it/aspose.slides.charts/istringchartvalue/get_asliteralstring/
+---
+## IStringChartValue::get_AsLiteralString() metodo
+
+Restituisce la stringa letterale se la proprietà DataSourceType è [DataSourceType::StringLiterals](../../datasourcetype/). Leggi [System::String](../../../system/string/).
+
+```cpp
+virtual System::String Aspose::Slides::Charts::IStringChartValue::get_AsLiteralString()=0
+```
+
+## Vedi anche
+
+* Classe [String](../../../system/string/)
+* Classe [IStringChartValue](../)
+* Spazio dei nomi [Aspose::Slides::Charts](../../)
+* Libreria [Aspose.Slides](../../../)

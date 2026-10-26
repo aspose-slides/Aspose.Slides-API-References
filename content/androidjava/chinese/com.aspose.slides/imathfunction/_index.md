@@ -1,0 +1,63 @@
+---
+title: IMathFunction
+second_title: Aspose.Slides for Android via Java API 参考
+description: 指定一个参数的函数。
+type: docs
+url: /zh/com.aspose.slides/imathfunction/
+---
+**已实现的所有接口:**
+[com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)
+```
+public interface IMathFunction extends IMathElement
+```
+
+指定一个参数的函数。
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathFunction sinX = new MathematicalText("sin").function("x");
+> ```
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getName()](#getName--) | Function name For example, function names are sin and cos |
+| [getBase()](#getBase--) | Function Argument |
+### getName() {#getName--}
+```
+public abstract IMathElement getName()
+```
+
+Function name For example, function names are sin and cos
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathFunction func = new MathematicalText("sin").function("x");
+>  IMathElement funcName = func.getName();
+>  ```
+
+**Returns:**
+[IMathElement](../../com.aspose.slides/imathelement)
+### getBase() {#getBase--}
+```
+public abstract IMathElement getBase()
+
+Function Argument
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IMathFunction func = new MathematicalText("sin").function("x");
+>  IMathElement base = func.getBase();
+>  ```
+
+**返回值:**
+[IMathElement](../../com.aspose.slides/imathelement)

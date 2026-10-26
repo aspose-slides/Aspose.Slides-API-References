@@ -17,7 +17,7 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- |
 | addNode() | Add new smart art node or sub node. |
 
- **Result:**
+ **Returns:**
 [SmartArtNode](../smartartnode)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- | --- |
 | position | int | Zero-base node position |
 
- **Result:**
+ **Returns:**
 [SmartArtNode](../smartartnode)
 
  **Error**
@@ -55,7 +55,7 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -74,7 +74,7 @@ Object
 | --- | --- | --- |
 | index | int | The zero-based index of the element |
 
- **Result:**
+ **Returns:**
 [SmartArtNode](../smartartnode)
 
 
@@ -87,7 +87,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -100,7 +100,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -113,7 +113,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -164,7 +164,7 @@ boolean
 | --- | --- |
 | size() | Returns count of nodes in collection Read-only int Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

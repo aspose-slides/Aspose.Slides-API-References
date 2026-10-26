@@ -1,15 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui contient le comportement des espaces réservés de pied de page de la diapositive maîtresse, de date-heure, de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente le gestionnaire qui contient le comportement des caractères de remplacement du pied de page, de la date-heure, du numéro de page de la diapositive maître et de tous les caractères de remplacement enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 type: docs
-weight: 6240
+weight: 6440
 url: /fr/aspose.slides/imasterslideheaderfootermanager/
 ---
+## IMasterSlideHeaderFooterManager interface
 
-## Interface IMasterSlideHeaderFooterManager
-
-Représente le gestionnaire qui contient le comportement des espaces réservés de pied de page de la diapositive maîtresse, de date-heure, de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
+Représente le gestionnaire qui contient le comportement des caractères de remplacement du pied de page, de la date-heure et du numéro de page de la diapositive maître, ainsi que de tous les caractères de remplacement enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -19,22 +18,22 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Renvoie l'interface IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retourne l'interface IBaseSlideHeaderFooterManager. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte de l'espace réservé de date-heure de la diapositive maîtresse et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Change la visibilité de l'espace réservé de date-heure de la diapositive maîtresse et de tous les espaces réservés de date-heure enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte de l'espace réservé de pied de page de la diapositive maîtresse et de tous les espaces réservés de pied de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive maîtresse et de tous les espaces réservés de pied de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Change la visibilité de l'espace réservé de numéro de page de la diapositive maîtresse et de tous les espaces réservés de numéro de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte du caractère de remplacement de date-heure de la diapositive maître et de tous les caractères de remplacement de date-heure enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Modifie la visibilité du caractère de remplacement de date-heure de la diapositive maître et de tous les caractères de remplacement de date-heure enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte du caractère de remplacement du pied de page de la diapositive maître et de tous les caractères de remplacement du pied de page enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Modifie la visibilité du caractère de remplacement du pied de page de la diapositive maître et de tous les caractères de remplacement du pied de page enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Modifie la visibilité du caractère de remplacement du numéro de page de la diapositive maître et de tous les caractères de remplacement du numéro de page enfants. Les caractères de remplacement enfants désignent les caractères de remplacement contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître. |
 
 ### Voir aussi
 
-* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

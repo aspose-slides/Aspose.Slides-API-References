@@ -24,6 +24,19 @@ url: /aspose.slides/layoutslide/
 ---
 
 
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the layout slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
@@ -63,6 +76,19 @@ byte
 ---
 
 
+### getPlaceholderManager {#getPlaceholderManager}
+
+| Name | Description |
+| --- | --- |
+| getPlaceholderManager () | Returns the placeholder manager of the layout slide. Read-only ILayoutPlaceholderManager. |
+
+ **Returns:**
+[LayoutPlaceholderManager](../layoutplaceholdermanager)
+
+
+---
+
+
 ### getShowMasterShapes {#getShowMasterShapes}
 
 | Name | Description |
@@ -83,7 +109,7 @@ boolean
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
 
 
 ---

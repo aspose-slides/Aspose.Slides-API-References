@@ -17,7 +17,7 @@ Represents collection of PPImage.
 | Method | Description |
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Returns image by its index. |
-| [addImage(Bitmap image)](#addImage-android.graphics.Bitmap-) | Add an image to a presentation. |
+| [addImage(IImage image)](#addImage-com.aspose.slides.IImage-) | Add an image to a presentation. |
 | [addImage(InputStream stream)](#addImage-java.io.InputStream-) | Add an image to a presentation from stream. |
 | [addImage(InputStream stream, int loadingStreamBehavior)](#addImage-java.io.InputStream-int-) | Creates and adds an image to a presentation from stream. |
 | [addImage(byte[] buffer)](#addImage-byte---) | Adds an image to a presentation from specified buffer. |
@@ -38,9 +38,9 @@ Returns image by its index.
 
 **Returns:**
 [IPPImage](../../com.aspose.slides/ippimage) - Image.
-### addImage(Bitmap image) {#addImage-android.graphics.Bitmap-}
+### addImage(IImage image) {#addImage-com.aspose.slides.IImage-}
 ```
-public abstract IPPImage addImage(Bitmap image)
+public abstract IPPImage addImage(IImage image)
 ```
 
 
@@ -49,7 +49,7 @@ Add an image to a presentation.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | android.graphics.Bitmap | Image to add.
+| image | [IImage](../../com.aspose.slides/iimage) | Image to add.
 
 --------------------
 

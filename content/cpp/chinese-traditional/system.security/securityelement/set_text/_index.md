@@ -1,0 +1,30 @@
+---
+title: set_Text()
+second_title: Aspose.Slides for C++ API 參考文件
+description: 設定標籤的內部文字。
+type: docs
+weight: 105
+url: /zh-hant/system.security/securityelement/set_text/
+---
+## SecurityElement::set_Text(const String\&) 方法
+
+
+設定標籤的內部文字。
+
+```cpp
+void System::Security::SecurityElement::set_Text(const String &value)
+```
+
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| value | const [String](../../../system/string/)\& | 標籤的內部文字。 |
+
+## 另見
+
+* 類別 [String](../../../system/string/)
+* 類別 [SecurityElement](../)
+* 命名空間 [System::Security](../../)
+* 函式庫 [Aspose.Slides](../../../)

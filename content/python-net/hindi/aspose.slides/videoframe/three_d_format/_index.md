@@ -1,0 +1,26 @@
+---
+title: three_d_format property
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/videoframe/three_d_format/
+weight: 590
+---
+## three_d_format प्रॉपर्टी
+एक shape के लिए 3d इफ़ेक्ट प्रॉपर्टीज़ वाला ThreeDFormat ऑब्जेक्ट लौटाता है।
+            नोट: कुछ प्रकार के shapes जिनमें 3d प्रॉपर्टी नहीं होती है, के लिए None लौट सकता है।
+            केवल-पठनीय [`IThreeDFormat`](/slides/python-net/hi/aspose.slides/ithreedformat)।
+
+### परिभाषा:
+```python
+@property
+def three_d_format(self):
+    ...
+```
+
+
+### संबंधित
+* क्लास [`IThreeDFormat`](/slides/python-net/hi/aspose.slides/ithreedformat)
+* क्लास [`VideoFrame`](/slides/python-net/hi/aspose.slides/videoframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

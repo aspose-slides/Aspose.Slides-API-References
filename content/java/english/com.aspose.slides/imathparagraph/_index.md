@@ -29,6 +29,7 @@ Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 | [getJustification()](#getJustification--) | Paragraph Justification Default value: CenteredAsGroup |
 | [setJustification(int value)](#setJustification-int-) | Paragraph Justification Default value: CenteredAsGroup |
 | [writeAsMathMl(OutputStream stream)](#writeAsMathMl-java.io.OutputStream-) | Saves content of this [IMathParagraph](../../com.aspose.slides/imathparagraph) as MathML |
+| [toLatex()](#toLatex--) | Gets mathematical equation in LaTeX format |
 ### getJustification() {#getJustification--}
 ```
 public abstract int getJustification()
@@ -85,3 +86,24 @@ Saves content of this [IMathParagraph](../../com.aspose.slides/imathparagraph) a
 | --- | --- | --- |
 | stream | java.io.OutputStream | Target stream |
 
+### toLatex() {#toLatex--}
+```
+public abstract String toLatex()
+```
+
+
+Gets mathematical equation in LaTeX format
+
+--------------------
+
+> ```
+> Example:
+>  
+>  IAutoShape shape = slide.getShapes().addMathShape(x, y, width, height);
+>  IMathParagraph mathParagraph = ((MathPortion)shape.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)).getMathParagraph();
+>  mathParagraph.add(new MathematicalText("a").join("+").join(new MathematicalText("b").join("=").join(new MathematicalText("c"))));
+>  String mathLatex = mathParagraph.toLatex();
+> ```
+
+**Returns:**
+java.lang.String

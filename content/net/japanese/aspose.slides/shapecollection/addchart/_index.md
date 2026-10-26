@@ -1,0 +1,137 @@
+---
+title: AddChart
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 新しいチャートを作成し、サンプル系列データと設定で初期化し、シェイプ コレクションの末尾に追加します。
+type: docs
+weight: 100
+url: /ja/aspose.slides/shapecollection/addchart/
+---
+## AddChart(ChartType, float, float, float, float) {#addchart}
+
+新しいチャートを作成し、サンプル系列データと設定で初期化し、シェイプ コレクションの末尾に追加します。
+
+```csharp
+public IChart AddChart(ChartType type, float x, float y, float width, float height)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| type | ChartType | 追加するチャートのタイプ。 |
+| x | Single | 新しいチャートの X 座標（ポイント）。 |
+| y | Single | 新しいチャートの Y 座標（ポイント）。 |
+| width | Single | チャートの幅（ポイント）。 |
+| height | Single | チャートの高さ（ポイント）。 |
+
+### 戻り値
+
+新しく作成された [`IChart`](../../../aspose.slides.charts/ichart)。
+
+### 例
+
+以下の例は PowerPoint プレゼンテーションで Chart を作成する方法を示しています。
+
+```csharp
+[C#]
+// PPTX ファイルを表す Presentation クラスのインスタンスを作成します
+using(Presentation pres = new Presentation()) {
+  // 最初のスライドにアクセスします
+  ISlide sld = pres.Slides[0];
+  // デフォルト データを持つチャートを追加します
+  IChart chart = sld.Shapes.AddChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
+  // チャートのタイトルを設定します
+  chart.ChartTitle.AddTextFrameForOverriding("Sample Title");
+  chart.ChartTitle.TextFrameForOverriding.TextFrameFormat.CenterText = NullableBool.True;
+  chart.ChartTitle.Height = 20;
+  chart.HasTitle = true;
+  // 最初の系列が値を表示するように設定します
+  chart.ChartData.Series[0].Labels.DefaultDataLabelFormat.ShowValue = true;
+  // チャート データ シートのインデックスを設定します
+  int defaultWorksheetIndex = 0;
+  // チャート データ ワークシートを取得します
+  IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+  // デフォルトで生成された系列とカテゴリを削除します
+  chart.ChartData.Series.Clear();
+  chart.ChartData.Categories.Clear();
+  int s = chart.ChartData.Series.Count;
+  s = chart.ChartData.Categories.Count;
+  // 新しい系列を追加します
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.Type);
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.Type);
+  // 新しいカテゴリを追加します
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
+  // 最初のチャート系列を取得します
+  IChartSeries series = chart.ChartData.Series[0];
+  // 系列データを入力します
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 20));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 50));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 30));
+  // 系列の塗りつぶし色を設定します
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Red;
+  // 2 番目のチャート系列を取得します
+  series = chart.ChartData.Series[1];
+  // 系列データを入力します
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 2, 30));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 2, 10));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 2, 60));
+  // 系列の塗りつぶし色を設定します
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Green;
+  // 最初のラベルがカテゴリ名を表示するように設定します
+  IDataLabel lbl = series.DataPoints[0].Label;
+  lbl.DataLabelFormat.ShowCategoryName = true;
+  lbl = series.DataPoints[1].Label;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  // 3 番目のラベルに値を表示するように系列を設定します
+  lbl = series.DataPoints[2].Label;
+  lbl.DataLabelFormat.ShowValue = true;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  lbl.DataLabelFormat.Separator = "/";
+  // PPTX ファイルをディスクに保存します
+  pres.Save("AsposeChart_out.pptx", SaveFormat.Pptx);
+}
+```
+
+### 参照
+
+* インターフェイス [IChart](../../../aspose.slides.charts/ichart)
+* 列挙体 [ChartType](../../../aspose.slides.charts/charttype)
+* クラス [ShapeCollection](../../shapecollection)
+* 名前空間 [Aspose.Slides](../../shapecollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
+
+新しいチャートを作成し、サンプル系列データと設定で初期化し、シェイプ コレクションの末尾に追加します。
+
+```csharp
+public IChart AddChart(ChartType type, float x, float y, float width, float height, 
+    bool initWithSample)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| type | ChartType | 追加するチャートのタイプ。 |
+| x | Single | 新しいチャートの X 座標（ポイント）。 |
+| y | Single | 新しいチャートの Y 座標（ポイント）。 |
+| width | Single | チャートの幅（ポイント）。 |
+| height | Single | チャートの高さ（ポイント）。 |
+| initWithSample | Boolean | True は新しいチャートをサンプル系列データと設定で初期化します。false は系列なしで最小限の設定のみでチャートを作成し、作成が速くなります。 |
+
+### 戻り値
+
+新しく作成された [`IChart`](../../../aspose.slides.charts/ichart)。
+
+### 参照
+
+* インターフェイス [IChart](../../../aspose.slides.charts/ichart)
+* 列挙体 [ChartType](../../../aspose.slides.charts/charttype)
+* クラス [ShapeCollection](../../shapecollection)
+* 名前空間 [Aspose.Slides](../../shapecollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

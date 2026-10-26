@@ -1,15 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Objeto inmutable que contiene propiedades efectivas de formato de línea.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene propiedades de formato de línea efectivas.
 type: docs
-weight: 6120
+weight: 6320
 url: /es/aspose.slides/ilineformateffectivedata/
 ---
+## ILineFormatEffectiveData interfaz
 
-## Interfaz ILineFormatEffectiveData
-
-Objeto inmutable que contiene propiedades efectivas de formato de línea.
+Objeto inmutable que contiene propiedades de formato de línea efectivas.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,38 +18,38 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Devuelve la alineación de la línea. Solo lectura [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Permite obtener la interfaz base ILineParamSource. Solo lectura [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Devuelve la longitud de la punta de flecha al principio de una línea. Solo lectura [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Devuelve el estilo de la punta de flecha al principio de una línea. Solo lectura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Devuelve el ancho de la punta de flecha al principio de una línea. Solo lectura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Devuelve el estilo del extremo de la línea. Solo lectura [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Devuelve el patrón de guiones personalizado. Solo lectura Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Devuelve el estilo de guiones de la línea. Solo lectura [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Devuelve la longitud de la punta de flecha al final de una línea. Solo lectura [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Devuelve el estilo de la punta de flecha al final de una línea. Solo lectura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Devuelve el ancho de la punta de flecha al final de una línea. Solo lectura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Devuelve el formato de relleno de una línea. Solo lectura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Devuelve el estilo de unión de las líneas. Solo lectura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Devuelve el límite de corte de una línea. Solo lectura Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Devuelve el formato de boceto de una línea. Solo lectura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Devuelve el estilo de la línea. Solo lectura [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Devuelve el ancho de una línea. Solo lectura Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Devuelve la alineación de la línea. Sólo lectura [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Permite obtener la interfaz base ILineParamSource. Sólo lectura [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Devuelve la longitud de la punta de flecha al inicio de una línea. Sólo lectura [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Devuelve el estilo de la punta de flecha al inicio de una línea. Sólo lectura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Devuelve el ancho de la punta de flecha al inicio de una línea. Sólo lectura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Devuelve el estilo de la terminación de línea. Sólo lectura [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Devuelve el patrón de guiones personalizado. Sólo lectura Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Devuelve el estilo de guiones de la línea. Sólo lectura [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Devuelve la longitud de la punta de flecha al final de una línea. Sólo lectura [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Devuelve el estilo de la punta de flecha al final de una línea. Sólo lectura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Devuelve el ancho de la punta de flecha al final de una línea. Sólo lectura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Devuelve el formato de relleno de una línea. Sólo lectura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Devuelve el estilo de unión de líneas. Sólo lectura [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Devuelve el límite de inglete de una línea. Sólo lectura Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Devuelve el formato de boceto de una línea. Sólo lectura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Devuelve el estilo de línea. Sólo lectura [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Devuelve el ancho de una línea. Sólo lectura Double. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Determina si las dos instancias de ILineFormatEffectiveData son iguales. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Determina si las dos instancias ILineFormatEffectiveData son iguales. |
 
-### Notas
+### Observaciones
 
-Esta interfaz se utiliza junto con la interfaz [`ILineFormat`](../ilineformat) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se utiliza junto con la interfaz [`ILineFormat`](../ilineformat) para devolver valores de formato efectivos con la herencia aplicada.
 
 ### Ver también
 
-* interfaz [ILineParamSource](../ilineparamsource)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* interfaz [ILineParamSource](../ilineparamsource)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

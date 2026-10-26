@@ -1,0 +1,66 @@
+---
+title: Aspose.Slides.Theme
+second_title: Aspose.Sildes dla dokumentacji API .NET
+description: Zawiera klasy umożliwiające pracę z różnymi typami motywów.
+type: docs
+weight: 180
+url: /pl/aspose.slides.theme/
+---
+Zawiera klasy umożliwiające pracę z różnymi typami motywów.
+
+## Klasy
+
+| Klasa | Opis |
+| --- | --- |
+| [BaseOverrideThemeManager](./baseoverridethememanager) | Klasa bazowa dla klas zapewniających dostęp do różnych typów nadpisanych motywów. |
+| [BaseThemeManager](./basethememanager) | Klasa bazowa dla klas zapewniających dostęp do różnych typów motywów. |
+| [ChartThemeManager](./chartthememanager) | Zapewnia dostęp do nadpisanego motywu wykresu. |
+| [ColorScheme](./colorscheme) | Przechowuje kolory zdefiniowane w motywie. |
+| [EffectStyle](./effectstyle) | Reprezentuje styl efektu. |
+| [EffectStyleCollection](./effectstylecollection) | Reprezentuje kolekcję stylów efektów. |
+| [ExtraColorScheme](./extracolorscheme) | Reprezentuje dodatkowy schemat kolorów, który może być przypisany do slajdu. |
+| [ExtraColorSchemeCollection](./extracolorschemecollection) | Reprezentuje kolekcję dodatkowych schematów kolorów. |
+| [FillFormatCollection](./fillformatcollection) | Reprezentuje kolekcję stylów wypełnień. |
+| [FontScheme](./fontscheme) | Przechowuje czcionki zdefiniowane w motywie. |
+| [FormatScheme](./formatscheme) | Przechowuje formaty kształtów zdefiniowane w motywie. |
+| [LayoutSlideThemeManager](./layoutslidethememanager) | Zapewnia dostęp do nadpisanego motywu układu slajdu. |
+| [LineFormatCollection](./lineformatcollection) | Reprezentuje kolekcję stylów linii. |
+| [MasterTheme](./mastertheme) | Reprezentuje motyw główny. |
+| [MasterThemeManager](./masterthememanager) | Zapewnia dostęp do głównego motywu prezentacji. |
+| [NotesSlideThemeManager](./notesslidethememanager) | Zapewnia dostęp do nadpisanego motywu slajdu notatek. |
+| [OverrideTheme](./overridetheme) | Reprezentuje nadpisujący motyw. |
+| [SlideThemeManager](./slidethememanager) | Zapewnia dostęp do nadpisanego motywu slajdu. |
+| [Theme](./theme) | Reprezentuje motyw. |
+
+## Interfejsy
+
+| Interfejs | Opis |
+| --- | --- |
+| [IColorScheme](./icolorscheme) | Przechowuje kolory zdefiniowane w motywie. |
+| [IColorSchemeEffectiveData](./icolorschemeeffectivedata) | Niezmienny obiekt, który zawiera właściwości skutecznego schematu kolorów. |
+| [IEffectStyle](./ieffectstyle) | Reprezentuje styl efektu. |
+| [IEffectStyleCollection](./ieffectstylecollection) | Reprezentuje kolekcję stylów efektów. |
+| [IEffectStyleCollectionEffectiveData](./ieffectstylecollectioneffectivedata) | Niezmienny obiekt reprezentujący tylko do odczytu kolekcję skutecznych stylów efektów. |
+| [IEffectStyleEffectiveData](./ieffectstyleeffectivedata) | Niezmienny obiekt, który zawiera właściwości skutecznego stylu efektu. |
+| [IExtraColorScheme](./iextracolorscheme) | Reprezentuje dodatkowy schemat kolorów, który może być przypisany do slajdu. |
+| [IExtraColorSchemeCollection](./iextracolorschemecollection) | Reprezentuje kolekcję dodatkowych schematów kolorów. |
+| [IFillFormatCollection](./ifillformatcollection) | Reprezentuje kolekcję stylów wypełnień. |
+| [IFillFormatCollectionEffectiveData](./ifillformatcollectioneffectivedata) | Niezmienny obiekt reprezentujący tylko do odczytu kolekcję skutecznych formatów wypełnień. |
+| [IFontScheme](./ifontscheme) | Przechowuje czcionki zdefiniowane w motywie. |
+| [IFontSchemeEffectiveData](./ifontschemeeffectivedata) | Niezmienny obiekt, który zawiera właściwości skutecznego schematu czcionek. |
+| [IFormatScheme](./iformatscheme) | Przechowuje formaty kształtów zdefiniowane w motywie. |
+| [IFormatSchemeEffectiveData](./iformatschemeeffectivedata) | Niezmienny obiekt, który zawiera właściwości skutecznego schematu formatów. |
+| [ILineFormatCollection](./ilineformatcollection) | Reprezentuje kolekcję stylów linii. |
+| [ILineFormatCollectionEffectiveData](./ilineformatcollectioneffectivedata) | Niezmienny obiekt reprezentujący tylko do odczytu kolekcję skutecznych formatów linii. |
+| [IMasterTheme](./imastertheme) | Reprezentuje motyw główny. |
+| [IMasterThemeable](./imasterthemeable) | Reprezentuje menedżera motywu głównego. |
+| [IMasterThemeManager](./imasterthememanager) | Zapewnia dostęp do głównego motywu prezentacji. |
+| [IOverrideTheme](./ioverridetheme) | Reprezentuje nadpisujący motyw. |
+| [IOverrideThemeable](./ioverridethemeable) | Reprezentuje menedżera nadpisującego motywu. |
+| [IOverrideThemeManager](./ioverridethememanager) | Zapewnia dostęp do różnych typów nadpisanych motywów. |
+| [ITheme](./itheme) | Reprezentuje motyw. |
+| [IThemeable](./ithemeable) | Reprezentuje obiekty, które mogą być tematyzowane przy użyciu [`ITheme`](../aspose.slides.theme/itheme). |
+| [IThemeEffectiveData](./ithemeeffectivedata) | Niezmienny obiekt, który zawiera skuteczne własności motywu. |
+| [IThemeManager](./ithememanager) | Reprezentuje własności motywu. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

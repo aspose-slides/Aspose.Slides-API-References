@@ -1,0 +1,23 @@
+---
+title: base property
+second_title: Aspose.Slides Pythonhoz a .NET API Referencia
+description: 
+type: docs
+url: /hu/aspose.slides.mathtext/imathradical/base/
+weight: 240
+---
+## alap tulajdonság
+Alap argumentum
+
+### Definíció:
+```python
+@property
+def base(self):
+    ...
+```
+
+
+### Lásd még
+* osztály [`IMathRadical`](/slides/python-net/hu/aspose.slides.mathtext/imathradical)
+* modul [`aspose.slides.mathtext`](/slides/python-net/hu/aspose.slides.mathtext)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,29 @@
+---
+title: operator!=()
+second_title: Aspose.Slides C++ API-referencia
+description: 
+type: docs
+weight: 5617
+url: /hu/aspose.slides/operator_not_equal/
+---
+## Aspose::Slides::operator!=(System::SharedPtr\<FieldType\>, System::SharedPtr\<FieldType\>) függvény
+
+
+```cpp
+bool Aspose::Slides::operator!=(System::SharedPtr<FieldType> a, System::SharedPtr<FieldType> b)
+```
+
+## Aspose::Slides::operator!=(System::SharedPtr\<Hyperlink\>, System::SharedPtr\<Hyperlink\>) függvény
+
+
+```cpp
+bool Aspose::Slides::operator!=(System::SharedPtr<Hyperlink> hlink1, System::SharedPtr<Hyperlink> hlink2)
+```
+
+## Lásd még
+
+* Típusdefiníció [SharedPtr](../../system/sharedptr/)
+* Osztály [FieldType](../fieldtype/)
+* Osztály [Hyperlink](../hyperlink/)
+* Névtér [Aspose::Slides](../)
+* Könyvtár [Aspose.Slides](../../)

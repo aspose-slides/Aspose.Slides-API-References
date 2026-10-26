@@ -3,7 +3,7 @@ title: TrimFromEnd
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the time duration to be removed from the end of the media during playback in milliseconds. Read/write Single.
 type: docs
-weight: 150
+weight: 160
 url: /aspose.slides/audioframe/trimfromend/
 ---
 

@@ -3,7 +3,7 @@ title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the master slide for a layout. Read/write IMasterSlideaspose.slides/imasterslide.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/layoutslide/masterslide/
 ---
 

@@ -1,15 +1,14 @@
 ---
 title: Column
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет столбец в таблице.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Представляет колонку в таблице.
 type: docs
-weight: 2500
+weight: 2590
 url: /ru/aspose.slides/column/
 ---
+## Column класс
 
-## Column class
-
-Представляет столбец в таблице.
+Представляет колонку в таблице.
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -17,32 +16,32 @@ public sealed class Column : CellCollection, IColumn
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасный для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительскую презентацию для CellCollection. Только для чтения [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд для CellCollection. Только для чтения [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
-| [Width](../../aspose.slides/column/width) { get; set; } | Возвращает или задаёт ширину столбца. Чтение/запись Double. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этой колонки. Только для чтения [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительскую презентацию CellCollection. Только для чтения [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корневой объект синхронизации. Только для чтения Object. |
+| [Width](../../aspose.slides/column/width) { get; set; } | Возвращает или задаёт ширину колонки. Чтение/запись Double. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Задает заданные свойства форматирования абзаца для всех абзацев ячеек столбца. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Задает заданные свойства форматирования порции для всех порций ячеек столбца. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Задает заданные свойства форматирования текстовых рамок для всех текстовых рамок ячеек столбца. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Устанавливает определённые свойства формата абзаца для всех абзацев ячеек колонки. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Устанавливает определённые свойства формата фрагмента для всех фрагментов ячеек колонки. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает определённые свойства формата текстового фрейма для всех текстовых фреймов ячеек колонки. |
 
 ### См. также
 
-* класс [CellCollection](../cellcollection)
-* интерфейс [IColumn](../icolumn)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* класс [CellCollection](../cellcollection)
+* интерфейс [IColumn](../icolumn)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

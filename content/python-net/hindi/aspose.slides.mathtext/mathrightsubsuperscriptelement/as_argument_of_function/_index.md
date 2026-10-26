@@ -1,0 +1,93 @@
+---
+title: as_argument_of_function method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.mathtext/mathrightsubsuperscriptelement/as_argument_of_function/
+weight: 30
+---
+## as_argument_of_function(self, function_name) {#imathelement}
+इस उदाहरण का उपयोग करके निर्दिष्ट फ़ंक्शन को तर्क के रूप में लेता है
+
+### Returns
+नई गणितीय तत्व प्रकार [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| function_name | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) | फ़ंक्शन नाम |
+
+## as_argument_of_function(self, function_name) {#str}
+इस उदाहरण का उपयोग करके निर्दिष्ट फ़ंक्शन को तर्क के रूप में लेता है
+
+### Returns
+नई गणितीय तत्व प्रकार [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| function_name | **str** | फ़ंक्शन नाम |
+
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
+इस उदाहरण का उपयोग करके निर्दिष्ट फ़ंक्शन को तर्क के रूप में लेता है
+
+### Returns
+नई गणितीय तत्व प्रकार [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/hi/aspose.slides.mathtext/mathfunctionsofoneargument) | एक तर्क वाले सामान्य फ़ंक्शन प्रकार में से एक |
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
+इस उदाहरण का उपयोग करके निर्दिष्ट फ़ंक्शन को तर्क के रूप में लेता है और निर्दिष्ट अतिरिक्त तर्क प्रदान करता है
+
+### Returns
+नई गणितीय तत्व प्रकार [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/hi/aspose.slides.mathtext/mathfunctionsoftwoarguments) | दो तर्क वाले सामान्य फ़ंक्शन प्रकार में से एक: Log, Lim, Min, Max |
+| additional_argument | [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement) | फ़ंक्शन प्रकार के आधार पर अतिरिक्त तर्क |
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
+इस उदाहरण का उपयोग करके निर्दिष्ट फ़ंक्शन को तर्क के रूप में लेता है और निर्दिष्ट अतिरिक्त तर्क प्रदान करता है
+
+### Returns
+नई गणितीय तत्व प्रकार [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/hi/aspose.slides.mathtext/mathfunctionsoftwoarguments) | दो तर्क वाले सामान्य फ़ंक्शन प्रकार में से एक: Log, Lim, Min, Max |
+| additional_argument | **str** | फ़ंक्शन प्रकार के आधार पर अतिरिक्त तर्क |
+
+### See Also
+* वर्ग [`IMathElement`](/slides/python-net/hi/aspose.slides.mathtext/imathelement)
+* वर्ग [`IMathFunction`](/slides/python-net/hi/aspose.slides.mathtext/imathfunction)
+* एन्यूमरेशन [`MathFunctionsOfOneArgument`](/slides/python-net/hi/aspose.slides.mathtext/mathfunctionsofoneargument)
+* एन्यूमरेशन [`MathFunctionsOfTwoArguments`](/slides/python-net/hi/aspose.slides.mathtext/mathfunctionsoftwoarguments)
+* वर्ग [`MathRightSubSuperscriptElement`](/slides/python-net/hi/aspose.slides.mathtext/mathrightsubsuperscriptelement)
+* मॉड्यूल [`aspose.slides.mathtext`](/slides/python-net/hi/aspose.slides.mathtext)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

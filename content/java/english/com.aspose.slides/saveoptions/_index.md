@@ -30,6 +30,10 @@ Abstract class with options that control how a presentation is saved.
 | [setProgressCallback(IProgressCallback value)](#setProgressCallback-com.aspose.slides.IProgressCallback-) | Represents a callback object for saving progress updates in percentage. |
 | [getDefaultRegularFont()](#getDefaultRegularFont--) | Returns or sets font used in case source font is not found. |
 | [setDefaultRegularFont(String value)](#setDefaultRegularFont-java.lang.String-) | Returns or sets font used in case source font is not found. |
+| [getGradientStyle()](#getGradientStyle--) | Returns or sets the visual style of the gradient. |
+| [setGradientStyle(int value)](#setGradientStyle-int-) | Returns or sets the visual style of the gradient. |
+| [getSkipJavaScriptLinks()](#getSkipJavaScriptLinks--) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. |
+| [setSkipJavaScriptLinks(boolean value)](#setSkipJavaScriptLinks-boolean-) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
@@ -142,4 +146,92 @@ Returns or sets font used in case source font is not found. Read-write String.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getGradientStyle() {#getGradientStyle--}
+```
+public final int getGradientStyle()
+```
+
+
+Returns or sets the visual style of the gradient. Read/write [GradientStyle](../../com.aspose.slides/gradientstyle).
+
+**Returns:**
+int
+### setGradientStyle(int value) {#setGradientStyle-int-}
+```
+public final void setGradientStyle(int value)
+```
+
+
+Returns or sets the visual style of the gradient. Read/write [GradientStyle](../../com.aspose.slides/gradientstyle).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getSkipJavaScriptLinks() {#getSkipJavaScriptLinks--}
+```
+public final boolean getSkipJavaScriptLinks()
+```
+
+
+Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      HtmlOptions htmlOptions = new HtmlOptions();
+>      htmlOptions.setSkipJavaScriptLinks(true);
+>      pres.save("result_without_JavaScript_links.html", SaveFormat.Html, htmlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving.
+
+When this property is set to false, all hyperlinks will be saved.
+
+**Returns:**
+boolean
+### setSkipJavaScriptLinks(boolean value) {#setSkipJavaScriptLinks-boolean-}
+```
+public final void setSkipJavaScriptLinks(boolean value)
+```
+
+
+Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      HtmlOptions htmlOptions = new HtmlOptions();
+>      htmlOptions.setSkipJavaScriptLinks(true);
+>      pres.save("result_without_JavaScript_links.html", SaveFormat.Html, htmlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving.
+
+When this property is set to false, all hyperlinks will be saved.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

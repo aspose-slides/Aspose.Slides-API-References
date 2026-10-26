@@ -17,7 +17,7 @@ url: /aspose.slides/tabcollection/
 | --- | --- |
 | add(double, int) | Adds a Tab to the collection. |
 
- **Result:**
+ **Returns:**
 [Tab](../tab)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/tabcollection/
 | --- | --- | --- |
 | value | [Tab](../tab) | The Tab object to be added at the end of the collection. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -65,7 +65,7 @@ int
 | --- | --- | --- |
 | obj | Object | The TabsEx to compare with the current TabsEx. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -78,7 +78,7 @@ boolean
 | --- | --- |
 | getSyncRoot() | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -91,7 +91,7 @@ Object
 | --- | --- |
 | get_Item(int) | Gets the element at the specified index. Read-only Tab. |
 
- **Result:**
+ **Returns:**
 [Tab](../tab)
 
 
@@ -104,7 +104,7 @@ Object
 | --- | --- |
 | isSynchronized() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -117,7 +117,7 @@ boolean
 | --- | --- |
 | iterator() | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -130,7 +130,7 @@ boolean
 | --- | --- |
 | iteratorJava() | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -159,7 +159,7 @@ boolean
 | --- | --- |
 | size() | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

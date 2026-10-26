@@ -33,7 +33,7 @@ New instance of a [`IImageWrapper`](../../iimagewrapper)
 
 ---
 
-## CreateImageWrapper(Stream) {#createimagewrapper_2}
+## CreateImageWrapper(Stream) {#createimagewrapper_1}
 
 Initializes a new instance of the ImageWrapper class from the specified data stream.
 
@@ -58,7 +58,7 @@ New instance of a [`IImageWrapper`](../../iimagewrapper)
 
 ---
 
-## CreateImageWrapper(string) {#createimagewrapper_3}
+## CreateImageWrapper(string) {#createimagewrapper_2}
 
 Initializes a new instance of the ImageWrapper class from the specified file.
 

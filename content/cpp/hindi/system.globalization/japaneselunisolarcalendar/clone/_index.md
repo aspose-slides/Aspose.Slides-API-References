@@ -1,0 +1,24 @@
+---
+title: Clone()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: वर्तमान ऑब्जेक्ट की एक कॉपी बनाता है और उसके लिए एक साझा पॉइंटर लौटाता है।
+type: docs
+weight: 118
+url: /hi/system.globalization/japaneselunisolarcalendar/clone/
+---
+## JapaneseLunisolarCalendar::Clone() मेथड
+
+
+वर्तमान ऑब्जेक्ट की एक कॉपी बनाता है और उसके लिए एक साझा पॉइंटर लौटाता है।
+
+```cpp
+SharedPtr<Object> System::Globalization::JapaneseLunisolarCalendar::Clone() override
+```
+
+## देखें भी
+
+* टाइपडिफ [SharedPtr](../../../system/sharedptr/)
+* क्लास [Object](../../../system/object/)
+* क्लास [JapaneseLunisolarCalendar](../)
+* नेमस्पेस [System::Globalization](../../)
+* लाइब्ररी [Aspose.Slides](../../../)

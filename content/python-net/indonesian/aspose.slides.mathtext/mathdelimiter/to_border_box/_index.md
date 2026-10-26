@@ -1,0 +1,57 @@
+---
+title: to_border_box method
+second_title: Referensi API Aspose.Slides untuk Python via .NET
+description: 
+type: docs
+url: /id/aspose.slides.mathtext/mathdelimiter/to_border_box/
+weight: 210
+---
+## to_border_box(self) {#}
+Menempatkan elemen ini dalam border-box
+
+### Mengembalikan
+
+Border-box dengan elemen ini ditempatkan di dalamnya
+
+
+
+```python
+def to_border_box(self):
+    ...
+```
+
+
+
+## to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right) {#bool-bool-bool-bool-bool-bool-bool-bool}
+Menempatkan elemen ini dalam border-box
+
+### Mengembalikan
+
+Border-box dengan elemen ini ditempatkan di dalamnya
+
+
+
+```python
+def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right):
+    ...
+```
+
+
+| Parameter | Tipe | Deskripsi |
+| :- | :- | :- |
+| hide_top | **bool** | Sembunyikan Tepian Atas |
+| hide_bottom | **bool** | Sembunyikan Tepian Bawah |
+| hide_left | **bool** | Sembunyikan Tepian Kiri |
+| hide_right | **bool** | Sembunyikan Tepian Kanan |
+| strikethrough_horizontal | **bool** | Garis Coret Horizontal Border Box |
+| strikethrough_vertical | **bool** | Garis Coret Vertikal Border Box |
+| strikethrough_bottom_left_to_top_right | **bool** | Garis Coret Border Box dari Kiri-Bawah ke Kanan-Atas |
+| strikethrough_top_left_to_bottom_right | **bool** | Garis Coret Border Box dari Kiri-Atas ke Kanan-Bawah |
+
+
+
+### Lihat Juga
+* kelas [`IMathBorderBox`](/slides/python-net/id/aspose.slides.mathtext/imathborderbox)
+* kelas [`MathDelimiter`](/slides/python-net/id/aspose.slides.mathtext/mathdelimiter)
+* modul [`aspose.slides.mathtext`](/slides/python-net/id/aspose.slides.mathtext)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

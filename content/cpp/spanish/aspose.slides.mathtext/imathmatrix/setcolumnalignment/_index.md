@@ -1,0 +1,36 @@
+---
+title: SetColumnAlignment()
+second_title: Referencia de API de Aspose.Slides para C++
+description: Establece la alineación horizontal de la columna especificada
+type: docs
+weight: 248
+url: /es/aspose.slides.mathtext/imathmatrix/setcolumnalignment/
+---
+## IMathMatrix::SetColumnAlignment(int32_t, MathHorizontalAlignment) método
+
+Establece la alineación horizontal de la columna especificada
+
+```cpp
+virtual void Aspose::Slides::MathText::IMathMatrix::SetColumnAlignment(int32_t columnIndex, MathHorizontalAlignment val)=0
+```
+
+### Argumentos
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| columnIndex | **int32_t** | Índice de columna basado en cero |
+| val | [MathHorizontalAlignment](../../mathhorizontalalignment/) | Nuevo valor de la alineación horizontal de la columna especificada |
+## Observaciones
+
+Ejemplo: 
+```cpp
+auto matrix = System::MakeObject<MathMatrix>(2, 3);
+matrix->SetColumnAlignment(0, MathHorizontalAlignment::Left);
+```
+
+## Ver también
+
+* Enumeración [MathHorizontalAlignment](../../mathhorizontalalignment/)
+* Clase [IMathMatrix](../)
+* Espacio de nombres [Aspose::Slides::MathText](../../)
+* Biblioteca [Aspose.Slides](../../../)

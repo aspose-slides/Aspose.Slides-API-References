@@ -1,15 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Textstil-Eigenschaften enthält.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das wirksame Textstileigenschaften enthält.
 type: docs
-weight: 7100
+weight: 7320
 url: /de/aspose.slides/itextstyleeffectivedata/
 ---
+## ITextStyleEffectiveData Schnittstelle
 
-## ITextStyleEffectiveData-Schnittstelle
-
-Unveränderliches Objekt, das effektive Textstil-Eigenschaften enthält.
+Unveränderliches Objekt, das die wirksamen Textstileigenschaften enthält.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -19,17 +18,17 @@ public interface ITextStyleEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Gibt die effektiven Standardabsatz-Eigenschaften zurück. Nur gelesen [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Gibt die wirksamen Standard-Absatz-Eigenschaften zurück. Nur lesbar [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Gibt das Niveau des effektiven Stils zurück. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Gibt die Ebene des wirksamen Stils zurück. |
 
 ### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`ITextStyle`](../itextstyle) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ITextStyle`](../itextstyle) Schnittstelle verwendet, um wirksame Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 ### Siehe auch
 

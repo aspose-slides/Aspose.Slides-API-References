@@ -1,0 +1,41 @@
+---
+title: IMasterNotesSlideHeaderFooterManager
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Vertegenwoordigt de manager die het gedrag van de voettekst-datum-tijd-paginanummer-plaatsaanduidingen van de master-notitieslide en alle onderliggende plaatsaanduidingen beheert. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
+type: docs
+weight: 6400
+url: /nl/aspose.slides/imasternotesslideheaderfootermanager/
+---
+## IMasterNotesSlideHeaderFooterManager interface
+
+Vertegenwoordigt de manager die het gedrag van de voettekst, datum-tijd- en paginanummer-plaatsaanduidingen van de master-notitieslide en alle onderliggende plaatsaanduidingen beheert. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide.
+
+```csharp
+public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
+```
+
+## Eigenschappen
+
+| Naam | Beschrijving |
+| --- | --- |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retourneert IBaseHandoutNotesSlideHeaderFooterManag interface. |
+
+## Methoden
+
+| Naam | Beschrijving |
+| --- | --- |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de datum-tijd-plaatsaanduiding van de master-notitieslide en alle onderliggende datum-tijd-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-plaatsaanduiding van de master-notitieslide en alle onderliggende datum-tijd-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de voettekst-plaatsaanduiding van de master-notitieslide en alle onderliggende voettekst-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduiding van de master-notitieslide en alle onderliggende voettekst-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Stelt de tekst in voor de kop-plaatsaanduiding van de master-notitieslide en alle onderliggende kop-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Wijzigt de zichtbaarheid van de kop-plaatsaanduiding van de master-notitieslide en alle onderliggende kop-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduiding van de master-notitieslide en alle onderliggende paginanummer-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke notitieslides. Afhankelijke notitieslides gebruiken en zijn afhankelijk van de master-notitieslide. |
+
+### Zie ook
+
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

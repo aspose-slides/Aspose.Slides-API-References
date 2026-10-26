@@ -1,0 +1,92 @@
+---
+title: "System::Globalization"
+second_title: Aspose.Slides için C++ API Referansı
+description: 
+type: docs
+weight: 547
+url: /tr/system.globalization/
+---
+## Sınıflar
+
+| Sınıf | Açıklama |
+| --- | --- |
+| [Calendar](./calendar/) | [Calendar](./calendar/) tarihlerinin nasıl işleneceğini, hesaplanacağını, biçimlendirileceğini vb. tanımlar. Ayarlama işlemleri yalnızca salt okunur olmayan nesnelerde etkindir. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [CharUnicodeInfo](./charunicodeinfo/) | Unicode karakteri hakkında bilgi alır. |
+| [ChineseLunisolarCalendar](./chineselunisolarcalendar/) | Çin lunisolar takvimi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [CompareInfo](./compareinfo/) | Kültüre duyarlı dize karşılaştırması yapar. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [CultureInfo](./cultureinfo/) | Kültüre özgü değerlerin ve algoritmaların koleksiyonu. Ayarlama işlemleri yalnızca salt okunur olmayan nesnelerde etkindir. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [DateTimeFormatInfo](./datetimeformatinfo/) | Tarih ve saat biçimlendirme parametrelerinin kümesi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [DaylightTime](./daylighttime/) | Yaz saati uygulamasının dönemi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [Details_CultureNotFoundException](./details_culturenotfoundexception/) | CultureNotFoundException, mevcut olmayan bir kültür oluşturulmaya çalışıldığında fırlatılır. Bu sınıfın örnekleri asla manuel olarak oluşturulmamalıdır. Bunun yerine CultureNotFoundException sınıfı kullanılmalıdır. CultureNotFoundException sınıfı örnekleri [System::SmartPtr](../system/smartptr/) içine sarılmamalıdır. |
+| [EastAsianLunisolarCalendar](./eastasianlunisolarcalendar/) | Doğu Asya lunisolar takvimi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [GlobalizationExtensions](./globalizationextensions/) | [Globalization](./) ilgili yöntemler. |
+| [GregorianCalendar](./gregoriancalendar/) | Gregoryen takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [HebrewCalendar](./hebrewcalendar/) | İbranî takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [HijriCalendar](./hijricalendar/) | Hicri takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [IdnMapping](./idnmapping/) | [IdnMapping](./idnmapping/) isimleri Punycode'a eşlemek için kullanılır. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [JapaneseCalendar](./japanesecalendar/) | Japon takvimi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [JapaneseLunisolarCalendar](./japaneselunisolarcalendar/) | Japon lunisolar takvimi. Uygulanmadı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [JulianCalendar](./juliancalendar/) | Jülyen takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [KoreanCalendar](./koreancalendar/) | Kore takvimi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [KoreanLunisolarCalendar](./koreanlunisolarcalendar/) | Kore lunisolar takvimi. Uygulanmadı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [NumberFormatInfo](./numberformatinfo/) | Sayıların nasıl biçimlendirileceği hakkında bilgi tutar. Ayarlama işlemleri yalnızca salt okunur olmayan nesnelerde etkindir. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [PersianCalendar](./persiancalendar/) | Fars takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [RegionInfo](./regioninfo/) | Bölge hakkında bilgi sağlar. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [SortKey](./sortkey/) | Bir dizeyi sıralama anahtarına eşleme. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [SortVersion](./sortversion/) | Dize karşılaştırma ve sıralama için kullanılan Unicode sürümü hakkında bilgi sağlar. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [StringInfo](./stringinfo/) | Dize parçaları arasında yineleme yapmak için ayırıcı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [TaiwanCalendar](./taiwancalendar/) | Tayvan takvimi. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [TaiwanLunisolarCalendar](./taiwanlunisolarcalendar/) | Tayvan lunisolar takvimi. Uygulanmadı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [TextElementEnumerator](./textelementenumerator/) | Dize öğeleri (karakterler) arasında yineleme yapmak için sayıcı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [TextInfo](./textinfo/) | Yerel ayara özgü metin özelliklerini tanımlar. Ayarlama işlemleri yalnızca salt okunur olmayan nesnelerde etkindir. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [ThaiBuddhistCalendar](./thaibuddhistcalendar/) | Tayland Budist takvim. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+| [UmAlQuraCalendar](./umalquracalendar/) | Um Al Qura takvimi. Uygulanmadı. Bu sınıfın nesneleri yalnızca [System::MakeObject()](../system/makeobject/) işlevi kullanılarak ayrılmalıdır. Bu tür bir örnek asla yığında veya new operatörüyle oluşturulmamalıdır, çünkü çalışma zamanı hatalarına ve/veya doğrulama hatalarına yol açar. Bu sınıf her zaman [System::SmartPtr](../system/smartptr/) işaretçisine sarılmalı ve bu işaretçi fonksiyonlara argüman olarak geçirilmelidir. |
+
+## Enumlar
+
+| Enum | Açıklama |
+| --- | --- |
+| [CalendarAlgorithmType](./calendaralgorithmtype/) | [Calendar](./calendar/) türü. |
+| [CalendarWeekRule](./calendarweekrule/) | Yılın ilk haftasını nasıl belirleyeceği. |
+| [CompareOptions](./compareoptions/) | [String](../system/string/) karşılaştırma seçenekleri. |
+| [CultureTypes](./culturetypes/) | Kültür kategorileri bitmask girdileri. |
+| [DateTimeStyles](./datetimestyles/) | Tarih ve saat biçimlendirme seçeneklerini tanımlar. Bit bayraklar. |
+| [DigitShapes](./digitshapes/) | Rakamların gösterimini belirler. |
+| [GregorianCalendarTypes](./gregoriancalendartypes/) | Gregoryen takvim tipleri. |
+| [NumberStyles](./numberstyles/) | Ayrıştırma sırasında izin verilen sayı biçimi. |
+| [TimeSpanStyles](./timespanstyles/) | Zaman aralığını Timespan nesnesine dönüştüren yöntemler için dize ayrıştırmayı özelleştiren biçimlendirme seçeneklerini belirtir. |
+| [UnicodeCategory](./unicodecategory/) | Unicode karakter kategorisi. |
+
+## Typedefler
+
+| Typedef | Açıklama |
+| --- | --- |
+| [CultureNotFoundException](./culturenotfoundexception/) |  |
+| [CalendarPtr](./calendarptr/) | [Calendar](./calendar/) işaretçi türü. |
+| [ChineseLunisolarCalendarPtr](./chineselunisolarcalendarptr/) | [ChineseLunisolarCalendar](./chineselunisolarcalendar/) işaretçi türü. |
+| [CompareInfoPtr](./compareinfoptr/) | [CompareInfo](./compareinfo/) işaretçi türü. |
+| [CultureInfoPtr](./cultureinfoptr/) | [CultureInfo](./cultureinfo/) işaretçi türü. |
+| [DateTimeFormatInfoPtr](./datetimeformatinfoptr/) | [DateTimeFormatInfo](./datetimeformatinfo/) bilgi işaretçisi. |
+| [DaylightTimePtr](./daylighttimeptr/) | [DaylightTime](./daylighttime/) işaretçi türü. |
+| [EastAsianLunisolarCalendarPtr](./eastasianlunisolarcalendarptr/) | [EastAsianLunisolarCalendar](./eastasianlunisolarcalendar/) işaretçi türü. |
+| [GregorianCalendarPtr](./gregoriancalendarptr/) | [GregorianCalendar](./gregoriancalendar/) işaretçi türü. |
+| [HebrewCalendarPtr](./hebrewcalendarptr/) | [HebrewCalendar](./hebrewcalendar/) işaretçi türü. |
+| [HijriCalendarPtr](./hijricalendarptr/) | [HijriCalendar](./hijricalendar/) işaretçi türü. |
+| [IdnMappingPtr](./idnmappingptr/) | [IdnMapping](./idnmapping/) işaretçi türü. |
+| [JapaneseCalendarPtr](./japanesecalendarptr/) | [JapaneseCalendar](./japanesecalendar/) işaretçi türü. |
+| [JapaneseLunisolarCalendarPtr](./japaneselunisolarcalendarptr/) | [JapaneseLunisolarCalendar](./japaneselunisolarcalendar/) işaretçi türü. |
+| [JulianCalendarPtr](./juliancalendarptr/) | [JulianCalendar](./juliancalendar/) işaretçi türü. |
+| [KoreanCalendarPtr](./koreancalendarptr/) | [KoreanCalendar](./koreancalendar/) işaretçi türü. |
+| [KoreanLunisolarCalendarPtr](./koreanlunisolarcalendarptr/) | [KoreanLunisolarCalendar](./koreanlunisolarcalendar/) işaretçi türü. |
+| [NumberFormatInfoPtr](./numberformatinfoptr/) | [NumberFormatInfo](./numberformatinfo/) işaretçi. |
+| [PersianCalendarPtr](./persiancalendarptr/) | [PersianCalendar](./persiancalendar/) işaretçi türü. |
+| [RegionInfoPtr](./regioninfoptr/) | [RegionInfo](./regioninfo/) işaretçi türü. |
+| [SortKeyPtr](./sortkeyptr/) | [SortKey](./sortkey/) işaretçi türü. |
+| [SortVersionPtr](./sortversionptr/) | [SortVersion](./sortversion/) işaretçi türü. |
+| [StringInfoPtr](./stringinfoptr/) | [StringInfo](./stringinfo/) işaretçi türü. |
+| [TaiwanCalendarPtr](./taiwancalendarptr/) | [TaiwanCalendar](./taiwancalendar/) işaretçi türü. |
+| [TaiwanLunisolarCalendarPtr](./taiwanlunisolarcalendarptr/) | [TaiwanLunisolarCalendar](./taiwanlunisolarcalendar/) işaretçi türü. |
+| [TextElementEnumeratorPtr](./textelementenumeratorptr/) | [TextElementEnumerator](./textelementenumerator/) işaretçi türü. |
+| [TextInfoPtr](./textinfoptr/) | [TextInfo](./textinfo/) işaretçi türü. |
+| [ThaiBuddhistCalendarPtr](./thaibuddhistcalendarptr/) | [ThaiBuddhistCalendar](./thaibuddhistcalendar/) işaretçi türü. |
+| [UmAlQuraCalendarPtr](./umalquracalendarptr/) | [UmAlQuraCalendar](./umalquracalendar/) işaretçi türü. |

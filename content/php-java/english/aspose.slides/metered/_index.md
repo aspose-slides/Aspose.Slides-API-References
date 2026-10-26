@@ -48,6 +48,19 @@ double
 ---
 
 
+### isMeteredLicensed {#isMeteredLicensed}
+
+| Name | Description |
+| --- | --- |
+| isMeteredLicensed () | Check whether metered is licensed |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### setMeteredKey {#setMeteredKey}
 
 | Name | Description |

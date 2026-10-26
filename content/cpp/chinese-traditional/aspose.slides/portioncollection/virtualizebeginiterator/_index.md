@@ -1,0 +1,30 @@
+---
+title: virtualizeBeginIterator()
+second_title: Aspose.Slides C++ API 參考
+description: 取得指向集合中第一個元素（若存在）的迭代器。
+type: docs
+weight: 222
+url: /zh-hant/aspose.slides/portioncollection/virtualizebeginiterator/
+---
+## PortionCollection::virtualizeBeginIterator() 方法
+
+
+取得指向集合中第一個元素（若存在）的迭代器。
+
+```cpp
+virtualized_iterator * Aspose::Slides::PortionCollection::virtualizeBeginIterator() override
+```
+
+
+### 返回值
+
+指向集合中第一個元素（若存在）的迭代器，提供對容器第一個元素的迭代器實作。 
+
+新建立的迭代器物件。
+
+## 另見
+
+* 型別定義 [virtualized_iterator](../virtualized_iterator/)
+* 類別 [PortionCollection](../)
+* 命名空間 [Aspose::Slides](../../)
+* 函式庫 [Aspose.Slides](../../../)

@@ -17,7 +17,7 @@ url: /aspose.slides/formatfactory/
 | --- | --- |
 | FormatFactory() |  |
 
- **Result:**
+ **Returns:**
 FormatFactory
 
 
@@ -30,7 +30,7 @@ FormatFactory
 | --- | --- |
 | createParagraphFormat () | Creates new IParagraphFormat. |
 
- **Result:**
+ **Returns:**
 [ParagraphFormat](../paragraphformat)
 
 
@@ -43,7 +43,7 @@ FormatFactory
 | --- | --- |
 | createPortionFormat () | Creates new IPortionFormat. |
 
- **Result:**
+ **Returns:**
 [PortionFormat](../portionformat)
 
 
@@ -56,7 +56,7 @@ FormatFactory
 | --- | --- |
 | createTextFrameFormat () | Creates new ITextFrameFormat. |
 
- **Result:**
+ **Returns:**
 [TextFrameFormat](../textframeformat)
 
 
@@ -69,7 +69,7 @@ FormatFactory
 | --- | --- |
 | getInstance () | Format factory static instance. Read-only FormatFactory. |
 
- **Result:**
+ **Returns:**
 FormatFactory
 
 

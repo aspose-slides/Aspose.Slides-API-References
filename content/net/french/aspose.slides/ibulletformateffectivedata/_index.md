@@ -1,15 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Slides pour .NET Référence API
-description: Objet immuable qui contient des propriétés de formatage de puces de paragraphe effectif.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Objet immuable qui contient les propriétés de formatage effectif des puces de paragraphe.
 type: docs
-weight: 5200
+weight: 5400
 url: /fr/aspose.slides/ibulletformateffectivedata/
 ---
+## IBulletFormatEffectiveData interface
 
-## Interface IBulletFormatEffectiveData
-
-Objet immuable qui contient des propriétés de formatage de puces de paragraphe effectif.
+Objet immuable qui contient les propriétés de formatage effectif des puces de paragraphe.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -19,16 +18,16 @@ public interface IBulletFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Retourne la valeur de puce réelle pour le paragraphe parent. Chaîne en lecture seule. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Retourne le caractère de puce d'un paragraphe. Char en lecture seule. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Retourne le format de remplissage de puce d'un paragraphe. [`IFillFormatEffectiveData`](../ifillformateffectivedata) en lecture seule. |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Retourne la police de puce d'un paragraphe. [`IFontData`](../ifontdata) en lecture seule. |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Retourne la hauteur de puce d'un paragraphe. Single en lecture seule. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Détermine si la puce a sa propre couleur ou l'hérite de la première portion du paragraphe. Retourne **true** si la puce a sa propre couleur et **false** si la puce hérite de la couleur de la première portion dans le paragraphe. Boolean en lecture seule. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Détermine si la puce a sa propre police ou l'hérite de la première portion du paragraphe. Retourne **true** si la puce a sa propre police et **true** si la puce hérite de la police de la première portion dans le paragraphe. Boolean en lecture seule. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Retourne le premier numéro utilisé pour le groupe de puces numérotées. Int16 en lecture seule. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Retourne le style d'une puce numérotée. [`NumberedBulletStyle`](../numberedbulletstyle) en lecture seule. |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Retourne le type de puce d'un paragraphe. [`BulletType`](../bullettype) en lecture seule. |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Renvoie la valeur réelle de la puce pour le paragraphe parent. Lecture seule String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Renvoie le caractère de la puce d'un paragraphe. Lecture seule Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Renvoie le format de remplissage de la puce d'un paragraphe. Lecture seule [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Renvoie la police de la puce d'un paragraphe. Lecture seule [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Renvoie la hauteur de la puce d'un paragraphe. Lecture seule Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Détermine si la puce possède sa propre couleur ou l'hérite de la première portion du paragraphe. Renvoie **true** si la puce possède sa propre couleur et **false** si la puce hérite de la couleur de la première portion du paragraphe. Lecture seule Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Détermine si la puce possède sa propre police ou l'hérite de la première portion du paragraphe. Renvoie **true** si la puce possède sa propre police et **true** si la puce hérite de la police de la première portion du paragraphe. Lecture seule Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Renvoie le premier numéro utilisé pour le groupe de puces numérotées. Lecture seule Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Renvoie le style d'une puce numérotée. Lecture seule [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Renvoie le type de puce d'un paragraphe. Lecture seule [`BulletType`](../bullettype). |
 
 ### Remarques
 
@@ -36,7 +35,7 @@ Cette interface est utilisée comme partie de [`IParagraphFormatEffectiveData`](
 
 ### Voir aussi
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

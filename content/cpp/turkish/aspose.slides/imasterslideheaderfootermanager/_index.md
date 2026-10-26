@@ -1,0 +1,70 @@
+---
+title: IMasterSlideHeaderFooterManager
+second_title: Aspose.Slides for C++ API Referansı
+description: Master slayt altbilgi, tarih-saat ve sayfa numarası yer tutucuları ile tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytlarında ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır.
+type: docs
+weight: 2952
+url: /tr/aspose.slides/imasterslideheaderfootermanager/
+---
+## IMasterSlideHeaderFooterManager sınıf
+
+
+Master slayt altbilgi, tarih-saat, sayfa numarası yer tutucuları ve tüm alt yer tutucuların davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır.
+
+```cpp
+class IMasterSlideHeaderFooterManager : public virtual Aspose::Slides::IBaseSlideHeaderFooterManager
+```
+
+## Yöntemler
+
+| Method | Açıklama |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | C# [Object.Equals](../../system/object/equals/) sözdizimini kullanarak nesneleri karşılaştırır. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# stilinde başvuru türü nesnelerini karşılaştırır. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# stilinde değer türü nesnelerini karşılaştırır. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | C#-stili kayan nokta karşılaştırmasını taklit eder; iki NaN, IEC 60559:1989’a göre NaN’ın hiçbir değere, NaN dahil, eşit olmaması gerektiği halde eşit kabul edilir. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | C#-stili çift nokta karşılaştırmasını taklit eder; iki NaN, IEC 60559:1989’a göre NaN’ın hiçbir değere, NaN dahil, eşit olmaması gerektiği halde eşit kabul edilir. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Yalnızca dahili amaçlar için. |
+| virtual **bool** [get_IsDateTimeVisible](../ibaseslideheaderfootermanager/get_isdatetimevisible/)() | Bir tarih-saat yer tutucusunun var olduğunu gösteren değeri alır. Oku**bool**. |
+| virtual **bool** [get_IsFooterVisible](../ibaseslideheaderfootermanager/get_isfootervisible/)() | Bir altbilgi yer tutucusunun var olduğunu gösteren değeri alır. Oku **bool**. |
+| virtual **bool** [get_IsSlideNumberVisible](../ibaseslideheaderfootermanager/get_isslidenumbervisible/)() | Bir sayfa numarası yer tutucusunun var olduğunu gösteren değeri alır. Oku**bool**. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Nesneyle ilişkili referans sayacı veri yapısını alır. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | C# [Object.GetHashCode()](../../system/object/gethashcode/) metodunun analoğu. Özel nesnelerin hash'lenmesini sağlar. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Nesnenin gerçek tipini alır. C# [System.Object.GetType()](../../system/object/gettype/) çağrısının analoğu. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Nesnenin targetType tarafından tanımlanan tipin bir örneği olup olmadığını denetler. C# 'is' operatörünün analoğu. |
+| void [Lock](../../system/object/lock/)() | C# lock() ifadesinin kilitlemesini uygular. Doğrudan çağırın veya [LockContext](../../system/lockcontext/) bekçi nesnesini kullanın. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) metodunun analoğu. Özel tiplerin klonlanmasını sağlar. |
+|  [Object](../../system/object/object/)() | Nesneyi oluşturur. Tüm dahili veri yapılarını başlatır. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Kopya yapıcı. Aslında hiçbir şey kopyalamaz; yalnızca yeni nesneyi başlatır ve türev sınıfların kopya yapımını mümkün kılar. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Atama operatörü. Aslında hiçbir şey kopyalamaz; yalnızca yeni nesneyi başlatır ve türev sınıfların kopya yapımını mümkün kılar. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Nesneleri referansla karşılaştırır. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Nesneleri referansla karşılaştırır. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Değer türü nesneyi nullptr ile referans olarak karşılaştırır. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | [Object::ReferenceEquals](../../system/object/referenceequals/)'ün dize ve nullptr durumu için özelleştirmesi. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | [Object::ReferenceEquals](../../system/object/referenceequals/)'ün dize durumları için özelleştirmesi. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Paylaşılan referans sayacını belirtilen değer kadar azaltır. |
+| virtual void [SetDateTimeAndChildDateTimesText](./setdatetimeandchilddatetimestext/)([System::String](../../system/string/)) | Metni master slayt tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır. |
+| virtual void [SetDateTimeAndChildDateTimesVisibility](./setdatetimeandchilddatetimesvisibility/)(**bool**) | Master slayt tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır. |
+| virtual void [SetDateTimeText](../ibaseslideheaderfootermanager/setdatetimetext/)([System::String](../../system/string/)) | Slayt tarih-saat yer tutucusuna metin ayarlar. |
+| virtual void [SetDateTimeVisibility](../ibaseslideheaderfootermanager/setdatetimevisibility/)(**bool**) | Slayt tarih-saat yer tutucusunun görünürlüğünü değiştirir. |
+| virtual void [SetFooterAndChildFootersText](./setfooterandchildfooterstext/)([System::String](../../system/string/)) | Metni master slayt altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır. |
+| virtual void [SetFooterAndChildFootersVisibility](./setfooterandchildfootersvisibility/)(**bool**) | Master slayt altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır. |
+| virtual void [SetFooterText](../ibaseslideheaderfootermanager/setfootertext/)([System::String](../../system/string/)) | Slayt altbilgi yer tutucusuna metin ayarlar. |
+| virtual void [SetFooterVisibility](../ibaseslideheaderfootermanager/setfootervisibility/)(**bool**) | Slayt altbilgi yer tutucusunun görünürlüğünü değiştirir. |
+| virtual void [SetSlideNumberAndChildSlideNumbersVisibility](./setslidenumberandchildslidenumbersvisibility/)(**bool**) | Master slayt sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar, master slaytı kullanır ve ona bağlıdır. |
+| virtual void [SetSlideNumberVisibility](../ibaseslideheaderfootermanager/setslidenumbervisibility/)(**bool**) | Slayt sayfa numarası yer tutucusunun görünürlüğünü değiştirir. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | n'inci şablon argümanını ortak değil zayıf göstergeç olarak ayarlar. Kapsayıcılardaki göstergeçleri zayıf moda geçişe izin verir. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Paylaşılan referans sayacının mevcut değerini alır. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Paylaşılan referans sayacını artırır. Doğrudan çağrılmamalıdır; bunun yerine akıllı göstergeçler veya ThisProtector kullanılmalıdır. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Paylaşılan referans sayacını azaltır ve değerini döndürür. Doğrudan çağrılmamalıdır; bunun yerine akıllı göstergeçler veya ThisProtector kullanılmalıdır. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | C# [Object.ToString()](../../system/object/tostring/) metodunun analoğu. Özel nesnelerin stringe dönüştürülmesini sağlar. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | C# typeof([System.Object](../../system/object/)) yapısını uygular. |
+| void [Unlock](../../system/object/unlock/)() | C# lock() ifadesinin kilidini açar. Doğrudan çağırın veya [LockContext](../../system/lockcontext/) bekçi nesnesini kullanın. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Zayıf referans sayacını artırır. Doğrudan çağrılmamalıdır; bunun yerine akıllı göstergeçler veya ThisProtector kullanılmalıdır. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Zayıf referans sayacını azaltır. Doğrudan çağrılmamalıdır; bunun yerine akıllı göstergeçler veya ThisProtector kullanılmalıdır. |
+| virtual  [~Object](../../system/object/~object/)() | Nesneyi yok eder. Tüm dahili veri yapılarını serbest bırakır. |
+## Ayrıca Bakınız
+
+* Sınıf [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager/)
+* İsim uzayı [Aspose::Slides](../)
+* Kütüphane [Aspose.Slides](../../)

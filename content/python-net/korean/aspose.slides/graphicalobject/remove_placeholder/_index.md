@@ -1,0 +1,22 @@
+---
+title: remove_placeholder method
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides/graphicalobject/remove_placeholder/
+weight: 50
+---
+## remove_placeholder(self) {#}
+이 도형이 자리 표시자가 아니라는 것을 정의합니다.
+
+
+```python
+def remove_placeholder(self):
+    ...
+```
+
+
+### 관련 항목
+* 클래스 [`GraphicalObject`](/slides/python-net/ko/aspose.slides/graphicalobject)
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

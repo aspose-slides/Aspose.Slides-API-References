@@ -17,7 +17,7 @@ url: /aspose.slides/point/
 | --- | --- |
 | Point() | Default constructor. |
 
- **Result:**
+ **Returns:**
 Point
 
 
@@ -38,7 +38,7 @@ Point
 | value | Object | Point value. |
 | formula | String | Formula. |
 
- **Result:**
+ **Returns:**
 Point
 
 
@@ -49,9 +49,9 @@ Point
 
 | Name | Description |
 | --- | --- |
-| getFormula() | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| getFormula() | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: &#39+&#39, &#39-&#39, &#39*&#39, &#39/&#39, &#39^&#39, &#39%&#39 (mod) Constants: &#39pi&#39 &#39e&#39 Conditional operators: &#39abs&#39, &#39min&#39, &#39max&#39, &#39&#63&#39 (if) Comparison operators: &#39==&#39, &#39&gt;=&#39, &#39&#39, &#39&#33&#61&#39, &#39&#33&#39 Trigonometric operators: &#39sin()&#39, &#39cos()&#39, &#39tan()&#39, &#39asin()&#39, &#39acos()&#39, &#39atan()&#39 Natural logarithm &#39ln()&#39 Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -64,7 +64,7 @@ String
 | --- | --- |
 | getTime() | Represents time value. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -77,7 +77,7 @@ float
 | --- | --- |
 | getValue() | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -88,7 +88,7 @@ Object
 
 | Name | Description |
 | --- | --- |
-| setFormula(String) | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| setFormula(String) | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: &#39+&#39, &#39-&#39, &#39*&#39, &#39/&#39, &#39^&#39, &#39%&#39 (mod) Constants: &#39pi&#39 &#39e&#39 Conditional operators: &#39abs&#39, &#39min&#39, &#39max&#39, &#39&#63&#39 (if) Comparison operators: &#39==&#39, &#39&gt;=&#39, &#39&#39, &#39&#33&#61&#39, &#39&#33&#39 Trigonometric operators: &#39sin()&#39, &#39cos()&#39, &#39tan()&#39, &#39asin()&#39, &#39acos()&#39, &#39atan()&#39 Natural logarithm &#39ln()&#39 Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
 
 
 ---

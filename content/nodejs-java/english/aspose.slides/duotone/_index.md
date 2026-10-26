@@ -25,7 +25,7 @@ url: /aspose.slides/duotone/
 | --- | --- | --- |
 | obj | Object | The Duotone to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getColor1 () | Returns target color format for dark pixels. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -51,7 +51,7 @@ boolean
 | --- | --- |
 | getColor2 () | Returns target color format for light pixels. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -64,7 +64,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Duotone effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 DuotoneEffectiveData
 
 
@@ -77,7 +77,7 @@ DuotoneEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -90,7 +90,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

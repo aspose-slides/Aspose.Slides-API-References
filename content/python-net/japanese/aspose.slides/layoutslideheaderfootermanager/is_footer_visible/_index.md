@@ -1,0 +1,24 @@
+---
+title: is_footer_visible property
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/layoutslideheaderfootermanager/is_footer_visible/
+weight: 140
+---
+## is_footer_visible プロパティ
+フッター プレースホルダーが存在することを示す値を取得します。
+            読み取り **bool**。
+
+### 定義:
+```python
+@property
+def is_footer_visible(self):
+    ...
+```
+
+
+### 関連項目
+* クラス [`LayoutSlideHeaderFooterManager`](/slides/python-net/ja/aspose.slides/layoutslideheaderfootermanager)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

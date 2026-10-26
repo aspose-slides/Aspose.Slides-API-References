@@ -17,7 +17,7 @@ url: /aspose.slides/lineformat/
 | --- | --- |
 | equals(Object) |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- | --- |
 | lineFormat | [LineFormat](../lineformat) | The LineFormat to compare with the current LineFormat. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getAlignment() | Returns or sets the line alignment. Read/write LineAlignment. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -62,7 +62,7 @@ byte
 | --- | --- |
 | getBeginArrowheadLength() | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -75,7 +75,7 @@ byte
 | --- | --- |
 | getBeginArrowheadStyle() | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -88,7 +88,7 @@ byte
 | --- | --- |
 | getBeginArrowheadWidth() | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -101,7 +101,7 @@ byte
 | --- | --- |
 | getCapStyle() | Returns or sets the line cap style. Read/write LineCapStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -114,7 +114,7 @@ byte
 | --- | --- |
 | getCustomDashPattern() | Returns or sets the custom dash pattern. Read/write float[]. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -127,7 +127,7 @@ float
 | --- | --- |
 | getDashStyle() | Returns or sets the line dash style. Read/write LineDashStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -140,7 +140,7 @@ byte
 | --- | --- |
 | getEffective() | Gets effective line formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 LineFormatEffectiveData
 
 
@@ -153,7 +153,7 @@ LineFormatEffectiveData
 | --- | --- |
 | getEndArrowheadLength() | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -166,7 +166,7 @@ byte
 | --- | --- |
 | getEndArrowheadStyle() | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -179,7 +179,7 @@ byte
 | --- | --- |
 | getEndArrowheadWidth() | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -192,7 +192,7 @@ byte
 | --- | --- |
 | getFillFormat() | Returns the fill format of a line. Read-only ILineFillFormat. |
 
- **Result:**
+ **Returns:**
 [LineFillFormat](../linefillformat)
 
 
@@ -205,7 +205,7 @@ byte
 | --- | --- |
 | getJoinStyle() | Returns or sets the lines join style. Read/write LineJoinStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -218,51 +218,8 @@ byte
 | --- | --- |
 | getMiterLimit() | Returns or sets the miter limit of a line. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -274,21 +231,8 @@ Presentation
 | --- | --- |
 | getSketchFormat() | Returns the sketch format of a line. Read-only ILineFillFormat. |
 
- **Result:**
+ **Returns:**
 [SketchFormat](../sketchformat)
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -300,7 +244,7 @@ BaseSlide
 | --- | --- |
 | getStyle() | Returns or sets the line style. Read/write LineStyle. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -313,20 +257,7 @@ byte
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -339,7 +270,7 @@ long
 | --- | --- |
 | getWidth() | Returns or sets the width of a line. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -352,7 +283,7 @@ double
 | --- | --- |
 | isFormatNotDefined() | Returns true if line format is not defined (as just created, default). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

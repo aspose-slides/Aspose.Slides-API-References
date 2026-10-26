@@ -1,15 +1,14 @@
 ---
 title: BulletFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa las propiedades de formato de viñetas en un párrafo.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa las propiedades de formato de viñetas del párrafo.
 type: docs
-weight: 990
+weight: 1070
 url: /es/aspose.slides/bulletformat/
 ---
+## BulletFormat clase
 
-## Clase BulletFormat
-
-Representa las propiedades de formato de viñetas en un párrafo.
+Representa las propiedades de formato de viñetas del párrafo.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -19,30 +18,32 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Devuelve o establece el carácter de viñeta de un párrafo sin herencia. Lectura/escritura Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Devuelve el formato de color de una viñeta de un párrafo sin herencia. Solo lectura [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Devuelve o establece la fuente de viñeta de un párrafo sin herencia. Lectura/escritura [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Devuelve o establece la altura de la viñeta de un párrafo sin herencia. El valor float.NaN determina que la viñeta hereda la altura de la primera porción en el párrafo. Lectura/escritura Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Determina si la viñeta tiene su propio color o lo hereda de la primera porción en el párrafo. **NullableBool.True** si la viñeta tiene su propio color y **NullableBool.False** si la viñeta hereda el color de la primera porción en el párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Determina si la viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. **NullableBool.True** si la viñeta tiene su propia fuente y **NullableBool.False** si la viñeta hereda la fuente de la primera porción en el párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Devuelve o establece el primer número que se utiliza para el grupo de viñetas numeradas sin herencia. Lectura/escritura Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Devuelve o establece el estilo de una viñeta numerada sin herencia. Lectura/escritura [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lectura [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Devuelve o establece el tipo de viñeta de un párrafo sin herencia. Lectura/escritura [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Devuelve o establece el carácter de viñeta de un párrafo sin herencia. Lectura/escritura Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Devuelve el formato de color de una viñeta de un párrafo sin herencia. Solo lectura [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Devuelve o establece la fuente de la viñeta de un párrafo sin herencia. Lectura/escritura [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Devuelve o establece la altura de la viñeta de un párrafo sin herencia. El valor float.NaN determina que la viñeta hereda la altura de la primera porción en el párrafo. Lectura/escritura Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Determina si la viñeta tiene color propio o lo hereda de la primera porción del párrafo. **NullableBool.True** si la viñeta tiene color propio y **NullableBool.False** si la viñeta hereda el color de la primera porción del párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Determina si la viñeta tiene fuente propia o la hereda de la primera porción del párrafo. **NullableBool.True** si la viñeta tiene fuente propia y **NullableBool.False** si la viñeta hereda la fuente de la primera porción del párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Devuelve o establece el primer número que se usa para el grupo de viñetas numeradas sin herencia. Lectura/escritura Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Devuelve o establece el estilo de una viñeta numerada sin herencia. Lectura/escritura [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Devuelve la imagen usada como viñeta en un párrafo sin herencia. Solo lectura [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Devuelve o establece el tipo de viñeta de un párrafo sin herencia. Lectura/escritura [`BulletType`](../bullettype). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Establece desplazamientos predeterminados no cero para el sangrado efectivo del párrafo y MarginLeft cuando las viñetas están habilitadas (como lo hace PowerPoint si habilita las viñetas/numeración en el párrafo). Si las viñetas están deshabilitadas, entonces simplemente restablece el sangrado del párrafo y MarginLeft (como lo hace PowerPoint si desactiva las viñetas/numeración en el párrafo). Los desplazamientos de sangrado se aplican con respecto al contexto actual de la viñeta - IBulletFormat.Type, .NumberedBulletStyle y FontHeight de la primera porción. Los desplazamientos de sangrado no cero se aplican al sangrado efectivo y MarginLeft del párrafo actual (hacen que los valores resultantes sean valores locales). |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Establece desplazamientos predeterminados distintos de cero para el sangrado (Indent) y el margen izquierdo (MarginLeft) efectivos del párrafo cuando las viñetas están habilitadas (como PowerPoint lo hace al habilitar viñetas/numeración de párrafo). Si las viñetas están deshabilitadas, simplemente restablece el sangrado y el margen izquierdo del párrafo (como PowerPoint lo hace al deshabilitar viñetas/numeración de párrafo). Los desplazamientos de sangrado se aplican respecto al contexto actual de la viñeta: IBulletFormat.Type, .NumberedBulletStyle y FontHeight de la primera porción. Los desplazamientos de sangrado distintos de cero se aplican al sangrado y margen izquierdo efectivos del párrafo actual (haciendo que los valores resultantes sean valores locales). |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Obtiene los datos de formato de viñeta efectivos con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
 
-### También Visto
+### Ver también
 
-* clase [PVIObject](../pviobject)
-* interfaz [IBulletFormat](../ibulletformat)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* clase [PVIObject](../pviobject)
+* interfaz [IBulletFormat](../ibulletformat)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

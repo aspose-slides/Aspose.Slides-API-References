@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Text format. Read-only IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 90
+weight: 130
 url: /aspose.slides.charts/legend/textformat/
 ---
 

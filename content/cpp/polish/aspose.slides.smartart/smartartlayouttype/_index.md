@@ -1,0 +1,162 @@
+---
+title: SmartArtLayoutType
+second_title: Referencja API Aspose.Slides dla C++
+description: Reprezentuje typ układu diagramu SmartArt.
+type: docs
+weight: 157
+url: /pl/aspose.slides.smartart/smartartlayouttype/
+---
+## SmartArtLayoutType enum
+
+
+Represents layout type of a [SmartArt](../smartart/) diagram.
+
+```cpp
+enum class SmartArtLayoutType
+```
+
+### Wartości
+
+| Nazwa | Wartość | Opis |
+| --- | --- | --- |
+| AccentProcess | 0 | Używany do przedstawienia postępu, osi czasu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Dobrze sprawdza się przy ilustrowaniu zarówno tekstu poziomu 1, jak i poziomu 2. |
+| AccentedPicture | 1 | Używany do przedstawienia centralnej, fotograficznej koncepcji z powiązanymi pomysłami po bokach. Górny tekst poziomu 1 pojawia się nad centralnym obrazem. Odpowiedni tekst dla innych kształtów poziomu 1 pojawia się obok małych okrągłych obrazków. Ten układ działa również dobrze bez tekstu. |
+| AlternatingFlow | 2 | Używany do przedstawienia grup informacji lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Podkreśla interakcję lub powiązania między grupami informacji. |
+| AlternatingHexagons | 3 | Używany do przedstawienia serii powiązanych ze sobą pomysłów. Tekst poziomu 1 pojawia się wewnątrz sześciokątów. Tekst poziomu 2 pojawia się na zewnątrz kształtów. |
+| AlternatingPictureBlocks | 4 | Używany do przedstawienia serii obrazów od góry do dołu. Tekst pojawia się naprzemiennie po prawej lub lewej stronie obrazu. |
+| AlternatingPictureCircles | 5 | Używany do przedstawienia zestawu obrazów z tekstem. Odpowiedni tekst pojawia się w centralnych okręgach, a obrazy naprzemiennie od lewej do prawej. |
+| ArrowRibbon | 6 | Używany do pokazania powiązanych lub kontrastujących koncepcji z pewnym połączeniem, np. przeciwstawnych sił. Pierwsze dwie linie tekstu poziomu 1 są używane jako tekst w strzałkach. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| AscendingPictureAccentProcess | 7 | Używany do przedstawienia rosnącej serii obrazów z opisowym tekstem. Najlepiej sprawdza się przy niewielkiej ilości tekstu. |
+| Balance | 8 | Używany do porównania lub pokazania związku między dwiema koncepcjami. Każda z pierwszych dwóch linii tekstu poziomu 1 odpowiada tekstowi u góry jednej strony punktu centralnego. Podkreśla tekst poziomu 2, który jest ograniczony do czterech kształtów po każdej stronie punktu centralnego. Równowaga przechyla się na stronę z większą liczbą kształtów zawierających tekst poziomu 2. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BasicBendingProcess | 9 | Używany do przedstawienia postępu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. |
+| BasicBlockList | 10 | Używany do przedstawienia niekolejnych lub grupowanych bloków informacji. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. |
+| BasicChevronProcess | 11 | Używany do przedstawienia postępu; osi czasu; kolejnych kroków w zadaniu, procesie lub przepływie pracy; lub podkreślenia ruchu lub kierunku. Tekst poziomu 1 pojawia się wewnątrz kształtu strzałki, podczas gdy tekst poziomu 2 pojawia się pod kształtami strzałek. |
+| BasicCycle | 12 | Używany do przedstawienia ciągłej sekwencji etapów, zadań lub wydarzeń w obiegu kołowym. Podkreśla etapy lub kroki, a nie łączące strzałki czy przepływ. Najlepiej sprawdza się przy tekście poziomu 1. |
+| BasicMatrix | 13 | Używany do pokazania związku komponentów z całością w kwadrantach. Pierwsze cztery linie tekstu poziomu 1 pojawiają się w kwadrantach. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BasicPie | 14 | Używany do pokazania, jak poszczególne części tworzą całość. Pierwsze siedem linii tekstu poziomu 1 odpowiada równomiernie rozmieszczonym kawałkom lub kształtom koła. Górny kształt tekstu poziomu 1 pojawia się na zewnątrz reszty koła w celu podkreślenia. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BasicProcess | 15 | Używany do przedstawienia postępu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. |
+| BasicPyramid | 16 | Używany do przedstawienia proporcjonalnych, powiązanych lub hierarchicznych relacji, przy największym elemencie na dole i zwężaniu się w górę. Tekst poziomu 1 pojawia się w segmentach piramidy, a tekst poziomu 2 w kształtach obok każdego segmentu. |
+| BasicRadial | 17 | Używany do pokazania związku z centralną ideą w cyklu. Pierwsza linia tekstu poziomu 1 odpowiada centralnemu kształtowi, a jej tekst poziomu 2 odpowiada otaczającym go okrągłym kształtom. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BasicTarget | 18 | Używany do pokazania zawartości, stopniowania lub relacji hierarchicznych. Pierwsze pięć linii tekstu poziomu 1 jest powiązanych z okręgiem. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BasicTimeline | 19 | Używany do przedstawienia kolejnych kroków w zadaniu, procesie lub przepływie pracy lub do pokazania informacji w formie osi czasu. Dobrze sprawdza się zarówno z tekstem poziomu 1, jak i poziomu 2. |
+| BasicVenn | 20 | Używany do pokazania nakładających się lub powiązanych ze sobą relacji. Pierwsze siedem linii tekstu poziomu 1 odpowiada okręgowi. Jeśli jest cztery lub mniej linii tekstu poziomu 1, tekst znajduje się wewnątrz okręgów. Jeśli jest więcej niż cztery linie, tekst jest na zewnątrz okręgów. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| BendingPictureAccentList | 21 | Używany do przedstawienia niekolejnych lub grupowanych bloków informacji. Małe okrągłe kształty służą do zawierania obrazów. Dobrze sprawdza się przy ilustrowaniu zarówno tekstu poziomu 1, jak i poziomu 2. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. |
+| BendingPictureBlocks | 22 | Używany do przedstawienia serii obrazów. Pole obejmujące dolny róg może zawierać niewielkie ilości tekstu. |
+| BendingPictureCaption | 23 | Używany do przedstawienia kolejnej serii obrazów. Pole obejmujące dolny róg może zawierać niewielkie ilości tekstu. |
+| BendingPictureCaptionList | 24 | Używany do przedstawienia serii obrazów. Tytuł i opis pojawiają się w dymku pod każdym obrazem. |
+| BendingPictureSemiTransparentText | 25 | Używany do przedstawienia serii obrazów. Półprzezroczyste pole pokrywa dolną część obrazu i zawiera wszystkie poziomy tekstu. |
+| BlockCycle | 26 | Używany do przedstawienia ciągłej sekwencji etapów, zadań lub wydarzeń w obiegu kołowym. Podkreśla etapy lub kroki, a nie łączące strzałki czy przepływ. |
+| BubblePictureList | 27 | Używany do przedstawienia serii obrazów. Może zawierać do ośmiu obrazów poziomu 1. Nieużywany tekst i obrazy nie są wyświetlane, ale pozostają dostępne po zmianie układu. Najlepiej sprawdza się przy niewielkich ilościach tekstu. |
+| CaptionedPictures | 28 | Używany do przedstawienia obrazów z wieloma poziomami tekstu. Najlepiej sprawdza się przy niewielkiej ilości tekstu poziomu 1 i średniej ilości tekstu poziomu 2. |
+| ChevronList | 29 | Używany do przedstawienia postępu przez kilka procesów tworzących ogólny przepływ pracy. Działa również przy ilustrowaniu kontrastowych procesów. Tekst poziomu 1 odpowiada pierwszemu kształtowi strzałki po lewej, natomiast tekst poziomu 2 odpowiada poziomym podetapom dla każdego kształtu zawierającego tekst poziomu 1. |
+| CircleAccentTimeline | 30 | Używany do przedstawienia serii wydarzeń lub informacji w postaci osi czasu. Tekst poziomu 1 pojawia się obok większych okrągłych kształtów. Tekst poziomu 2 pojawia się obok mniejszych okrągłych kształtów. |
+| CircleArrowProcess | 31 | Używany do przedstawienia kolejnych elementów z tekstem pomocniczym dla każdego z nich. Ten diagram najlepiej sprawdza się przy niewielkiej ilości tekstu poziomu 1. |
+| CirclePictureHierarchy | 32 | Używany do przedstawienia informacji hierarchicznych lub relacji raportowania w organizacji. Obrazy pojawiają się w okręgach, a odpowiadający tekst obok obrazów. |
+| CircleRelationship | 33 | Używany do pokazania związku z centralną ideą lub od niej. Tekst poziomu 2 jest dodawany niekolejnie i ograniczony do pięciu elementów. Może istnieć tylko jeden element poziomu 1. |
+| CircularBendingProcess | 34 | Używany do przedstawienia długiej lub nieliniowej sekwencji lub kroków w zadaniu, procesie lub przepływie pracy. Najlepiej sprawdza się przy tekście poziomu 1. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. |
+| CircularPictureCallout | 35 | Używany do przedstawienia centralnej idei oraz podidei lub powiązanych elementów. Tekst dla pierwszego obrazu obejmuje dolną część obrazu. Odpowiedni tekst dla innych kształtów poziomu 1 pojawia się obok małych okrągłych obrazów. Ten diagram dobrze działa również bez tekstu. |
+| ClosedChevronProcess | 36 | Używany do przedstawienia postępu, osi czasu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy, lub do podkreślenia ruchu lub kierunku. Może być użyty do podkreślenia informacji w kształcie początkowym. Najlepiej sprawdza się przy tekście poziomu 1. |
+| ContinuousArrowProcess | 37 | Używany do przedstawienia osi czasu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Najlepiej sprawdza się przy tekście poziomu 1, ponieważ każda linia tekstu poziomu 1 pojawia się wewnątrz kształtu strzałki. Tekst poziomu 2 pojawia się na zewnątrz kształtu strzałki. |
+| ContinuousBlockProcess | 38 | Używany do przedstawienia postępu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Najlepiej sprawdza się przy minimalnym tekście poziomu 1 i poziomu 2. |
+| ContinuousCycle | 39 | Używany do przedstawienia ciągłej sekwencji etapów, zadań lub wydarzeń w obiegu kołowym. Podkreśla połączenie między wszystkimi komponentami. Najlepiej sprawdza się przy tekście poziomu 1. |
+| ContinuousPictureList | 40 | Używany do przedstawienia grup powiązanych informacji. Okrągłe kształty są przeznaczone do zawierania obrazów. |
+| ConvergingArrows | 41 | Używany do przedstawienia pomysłów lub koncepcji zbieżnych w centralnym punkcie. Najlepiej sprawdza się przy tekście poziomu 1. |
+| ConvergingRadial | 42 | Używany do pokazania relacji koncepcji lub komponentów do centralnej idei w cyklu. Pierwsza linia tekstu poziomu 1 odpowiada centralnemu okrągłemu kształtowi, a linie tekstu poziomu 2 odpowiadają otaczającym prostokątnym kształtom. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| CounterbalanceArrows | 43 | Używany do pokazania dwóch przeciwstawnych pomysłów lub koncepcji. Każda z pierwszych dwóch linii tekstu poziomu 1 odpowiada strzałce i dobrze współgra z tekstem poziomu 2. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| CycleMatrix | 44 | Używany do pokazania związku z centralną ideą w cyklicznej progresji. Każda z pierwszych czterech linii tekstu poziomu 1 odpowiada kawałkowi lub kształtowi koła, a tekst poziomu 2 pojawia się w prostokątnym kształcie obok tego kawałka lub kształtu koła. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| DescendingBlockList | 45 | Używany do przedstawienia grup powiązanych pomysłów lub list informacji. Kształty tekstowe zmniejszają się wysokością kolejno, a tekst poziomu 1 wyświetlany jest pionowo. |
+| DescendingProcess | 46 | Używany do przedstawienia malejącej serii wydarzeń. Pierwszy tekst poziomu 1 znajduje się na szczycie strzałki, a ostatni tekst poziomu 1 wyświetlany jest na dole strzałki. Pokazywane jest tylko pierwsze siedem elementów poziomu 1. Najlepiej sprawdza się przy małych do średnich ilościach tekstu. |
+| DetailedProcess | 47 | Używany z dużą ilością tekstu poziomu 2 do przedstawienia postępu przez etapy. |
+| DivergingArrows | 48 | Używany do przedstawienia pomysłów lub koncepcji wychodzących od centralnego źródła. Najlepiej sprawdza się przy tekście poziomu 1. |
+| DivergingRadial | 49 | Używany do pokazania relacji do centralnej idei w cyklu. Pierwsza linia tekstu poziomu 1 odpowiada centralnemu okrągłemu kształtowi. Podkreśla otaczające okręgi zamiast centralnej idei. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| Equation | 50 | Używany do przedstawienia kolejnych kroków lub zadań, które opisują plan lub rezultat. Ostatnia linia tekstu poziomu 1 pojawia się po znaku równości (=). Najlepiej sprawdza się przy tekście poziomu 1. |
+| FramedTextPicture | 51 | Używany do przedstawienia obrazów z odpowiadającym im tekstem poziomu 1 wyświetlanym w ramce. |
+| Funnel | 52 | Używany do pokazania filtrowania informacji lub sposobu, w jaki części łączą się w całość. Podkreśla ostateczny wynik. Może zawierać do czterech linii tekstu poziomu 1; ostatnia z tych czterech linii pojawia się pod lejkiem, a pozostałe linie odpowiadają okrągłemu kształtowi. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| Gear | 53 | Używany do przedstawienia współzależnych pomysłów. Każda z pierwszych trzech linii tekstu poziomu 1 odpowiada kształtowi koła zębatego, a odpowiadający mu tekst poziomu 2 pojawia się w prostokątach obok tego kształtu. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| GridMatrix | 54 | Użyj do pokazania rozmieszczenia koncepcji wzdłuż dwóch osi. Podkreśla poszczególne elementy, a nie całość. Pierwsze cztery wiersze tekstu Level 1 pojawiają się w ćwiartkach. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| GroupedList | 55 | Użyj do prezentacji grup i podgrup informacji, albo kroków i podkroków w zadaniu, procesie lub przepływie pracy. Tekst Level 1 odpowiada poziomym kształtom najwyższego poziomu, a tekst Level 2 odpowiada pionowym podkrokom pod każdym powiązanym kształtem najwyższego poziomu. Dobrze sprawdza się przy podkreślaniu podgrup lub podkroków, informacji hierarchicznych lub wielu list informacji. |
+| HalfCircleOrganizationChart | 56 | Użyj do przedstawienia informacji hierarchicznych lub relacji raportowania w organizacji. Dostępne są kształty asystenta oraz układy zawieszania wykresu organizacyjnego. |
+| HexagonCluster | 57 | Użyj do wyświetlania obrazów wraz z opisującym je tekstem. Małe sześciokąty wskazują parę obraz-tekst. Najlepiej sprawdza się przy niewielkiej ilości tekstu. |
+| Hierarchy | 58 | Użyj do przedstawienia relacji hierarchicznych postępujących od góry do dołu. |
+| HierarchyList | 59 | Użyj do przedstawienia relacji hierarchicznych rozwijających się pomiędzy grupami. Może być również używany do grupowania lub listowania informacji. |
+| HorizontalBulletList | 60 | Użyj do wyświetlania niesekwencyjnych lub grupowanych list informacji. Dobrze sprawdza się przy dużej ilości tekstu. Wszystki tekst ma ten sam poziom wyróżnienia i nie sugeruje kierunku. |
+| HorizontalHierarchy | 61 | Użyj do przedstawienia relacji hierarchicznych rozwijających się w poziomie. Dobrze nadaje się do drzew decyzyjnych. |
+| HorizontalLabeledHierarchy | 62 | Użyj do przedstawienia relacji hierarchicznych rozwijających się w poziomie i grupowanych hierarchicznie. Podkreśla nagłówek lub tekst poziomu 1. Pierwszy wiersz tekstu Level 1 pojawia się w kształcie na początku hierarchii, a drugi i wszystkie kolejne wiersze tekstu Level 1 pojawiają się u góry wysokich prostokątów. |
+| HorizontalMultiLevelHierarchy | 63 | Użyj do prezentacji dużej ilości informacji hierarchicznych rozwijających się w poziomie. Góra hierarchii jest wyświetlana pionowo. Ten układ obsługuje wiele poziomów w hierarchii. |
+| HorizontalOrganizationChart | 64 | Użyj do przedstawienia informacji hierarchicznych w poziomie lub relacji raportowania w organizacji. Dostępne są kształt asystenta oraz układy zawieszania wykresu organizacyjnego. |
+| HorizontalPictureList | 65 | Użyj do wyświetlania niesekwencyjnych lub grupowanych informacji z naciskiem na powiązane obrazy. Górne kształty zostały zaprojektowane do przechowywania obrazów. |
+| IncreasingArrowsProcess | 66 | Użyj do przedstawienia kolejnych i nakładających się kroków w procesie. Ograniczone do pięciu elementów Level 1. Level 2 może zawierać dużą ilość tekstu. |
+| IncreasingCircleProcess | 67 | Użyj do przedstawienia serii kroków, przy czym wnętrze koła rośnie z każdym krokiem. Ograniczone do siedmiu kroków Level 1, ale nieograniczone elementy Level 2. Dobrze sprawdza się przy dużej ilości tekstu Level 2. |
+| InvertedPyramid | 68 | Użyj do pokazania proporcjonalnych, połączonych lub hierarchicznych relacji, gdzie największy komponent znajduje się na górze i zwęża się w dół. Tekst Level 1 pojawia się w segmentach piramidy, a tekst Level 2 w kształtach obok każdego segmentu. |
+| LabeledHierarchy | 69 | Użyj do przedstawienia relacji hierarchicznych rozwijających się od góry do dołu i grupowanych hierarchicznie. Podkreśla nagłówek lub tekst poziomu 1. Pierwszy wiersz tekstu Level 1 pojawia się w kształcie na początku hierarchii, a wszystkie kolejne wiersze tekstu Level 1 pojawiają się po lewej stronie długich prostokątów. |
+| LinearVenn | 70 | Użyj do przedstawienia nakładających się relacji w kolejności. Najlepiej sprawdza się przy samym tekście Level 1. |
+| LinedList | 71 | Użyj do wyświetlania dużej ilości tekstu podzielonego na kategorie i podkategorie. Dobrze sprawdza się przy wielu poziomach tekstu. Tekst na tym samym poziomie jest oddzielony liniami. |
+| MultidirectionalCycle | 72 | Użyj do przedstawienia ciągłej sekwencji etapów, zadań lub wydarzeń, które mogą występować w dowolnym kierunku. |
+| NameandTitleOrganizationChart | 73 | Użyj do przedstawienia informacji hierarchicznych lub relacji raportowania w organizacji. Aby wpisać tekst w polu tytułu, wpisz bezpośrednio w mniejszym prostokątnym kształcie. Dostępne są kształt asystenta oraz układy zawieszania wykresu organizacyjnego. |
+| NestedTarget | 74 | Użyj do pokazania relacji zawierania. Każdy z pierwszych trzech wierszy tekstu Level 1 odpowiada lewemu górnemu tekstowi w kształtach, a tekst Level 2 odpowiada mniejszym kształtom. Najlepiej sprawdza się przy minimalnej liczbie wierszy Level 2. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| NondirectionalCycle | 75 | Użyj do przedstawienia ciągłej sekwencji etapów, zadań lub wydarzeń w przepływie kołowym. Każdy kształt ma ten sam poziom ważności. Dobrze sprawdza się, gdy nie trzeba wskazywać kierunku. |
+| OpposingArrows | 76 | Użyj do pokazania dwóch przeciwstawnych pomysłów lub pomysłów odchodzących od centralnego punktu. Każdy z pierwszych dwóch wierszy tekstu Level 1 odpowiada strzałce. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| OpposingIdeas | 77 | Użyj do przedstawienia dwóch przeciwstawnych lub kontrastujących pomysłów. Może mieć jeden lub dwa elementy Level 1. Każdy tekst Level 1 może zawierać wiele podpoziomów. Dobrze sprawdza się przy dużej ilości tekstu. |
+| OrganizationChart | 78 | Użyj do przedstawienia informacji hierarchicznych lub relacji raportowania w organizacji. Dostępne są kształt asystenta oraz układy zawieszania wykresu organizacyjnego. |
+| PhasedProcess | 79 | Użyj do przedstawienia trzech faz procesu. Ograniczone do trzech elementów Level 1. Dwa pierwsze elementy Level 1 mogą zawierać po cztery elementy Level 2, a trzeci element Level 1 może zawierać nieograniczoną liczbę elementów Level 2. Najlepiej sprawdza się przy małej ilości tekstu. |
+| PictureAccentBlocks | 80 | Użyj do pokazania grupy obrazów w blokach zaczynających się od narożnika. Odpowiedni tekst wyświetla się pionowo. Dobrze sprawdza się jako akcent na slajdach tytułowych lub podtytułowych oraz jako podział sekcji dokumentu. |
+| PictureAccentList | 81 | Użyj do wyświetlania grupowanych lub powiązanych informacji. Małe kształty w górnych narożnikach są przeznaczone do przechowywania obrazów. Podkreśla tekst Level 2 ponad tekstem Level 1 i jest dobrym wyborem przy dużej ilości tekstu Level 2. |
+| PictureAccentProcess | 82 | Użyj do przedstawienia kolejnych kroków w zadaniu, procesie lub przepływie pracy. Prostokątne kształty w tle są przeznaczone do przechowywania obrazów. |
+| PictureCaptionList | 83 | Użyj do wyświetlania niesekwencyjnych lub grupowanych bloków informacji. Górne kształty są przeznaczone do przechowywania obrazów, a obrazy są podkreślane ponad tekstem. Dobrze sprawdza się przy obrazach z krótkimi podpisami tekstowymi. |
+| PictureGrid | 84 | Użyj do wyświetlania obrazów ułożonych w kwadratowej siatce. Najlepiej przy małej ilości tekstu Level 1, który pojawia się nad obrazem. |
+| PictureLineup | 85 | Użyj do wyświetlenia serii obrazów obok siebie. Tekst Level 1 znajduje się na górze obrazu. Tekst Level 2 pojawia się pod obrazem. |
+| PictureStrips | 86 | Użyj do wyświetlenia serii obrazów od góry do dołu z tekstem Level 1 obok każdego. |
+| PieProcess | 87 | Użyj do pokazania kroków w procesie, gdzie każdy wycinek koła rośnie w rozmiarze aż do siedmiu kształtów. Tekst Level 1 wyświetlany jest pionowo. |
+| PlusandMinus | 88 | Użyj do przedstawienia zalet i wad dwóch pomysłów. Każdy tekst Level 1 może zawierać wiele podpoziomów. Dobrze sprawdza się przy dużej ilości tekstu. Ograniczone do dwóch elementów Level 1. |
+| ProcessArrows | 89 | Użyj do wyświetlania informacji ilustrujących proces lub przepływ pracy. Tekst Level 1 pojawia się w kołowych kształtach, a tekst Level 2 w kształtach strzałek. Najlepiej sprawdza się przy minimalnym tekście i podkreśleniu ruchu lub kierunku. |
+| ProcessList | 90 | Użyj do wyświetlania wielu grup informacji lub kroków i podkroków w zadaniu, procesie lub przepływie pracy. Tekst Level 1 odpowiada górnym poziomym kształtom, a tekst Level 2 odpowiada pionowym podkrokom pod każdym powiązanym kształtem najwyższego poziomu. |
+| PyramidList | 91 | Użyj do pokazania proporcjonalnych, połączonych lub hierarchicznych relacji. Tekst pojawia się w prostokątnych kształtach na tle piramidy. |
+| RadialCluster | 92 | Użyj do przedstawienia danych odnoszących się do centralnej koncepcji lub tematu. Górny tekst Level 1 pojawia się w centrum. Tekst Level 2 pojawia się w otaczających kształtach. Może zawierać do siedmiu kształtów Level 2. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. Najlepiej sprawdza się przy małej ilości tekstu. |
+| RadialCycle | 93 | Użyj do przedstawienia relacji do centralnej koncepcji. Podkreśla zarówno informacje w centralnym kole, jak i to, jak informacje w zewnętrznym pierścieniu kół przyczyniają się do centralnej idei. Pierwszy wiersz tekstu Level 1 odpowiada centralnemu kółu, a jego tekst Level 2 odpowiada zewnętrznemu pierścieniowi kół. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| RadialList | 94 | Użyj do pokazania relacji do centralnej koncepcji w cyklu. Centralny kształt może zawierać obraz. Tekst Level 1 pojawia się w mniejszych kółach, a powiązany tekst Level 2 pojawia się obok mniejszych kół. |
+| RadialVenn | 95 | Użyj do pokazania zarówno nakładających się relacji, jak i relacji do centralnej koncepcji w cyklu. Pierwszy wiersz tekstu Level 1 odpowiada centralnemu kształtowi, a wiersze tekstu Level 2 odpowiadają otaczającym kształtom kołowym. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| RandomToResultProcess | 96 | Użyj, aby przy pomocy serii kroków, pokazać, jak kilka chaotycznych pomysłów może doprowadzić do jednolitego celu lub idei. Obsługuje wiele elementów tekstu Level 1, ale pierwsze i ostatnie kształty odpowiadające Level 1 są stałe. Najlepiej sprawdza się przy małej ilości tekstu Level 1 i średniej ilości tekstu Level 2. |
+| RepeatingBendingProcess | 97 | Użyj do przedstawienia postępu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. |
+| ReverseList | 98 | Użyj do zmiany pomiędzy dwoma elementami. Wyświetlane są tylko pierwsze dwa elementy tekstu, a każdy element może zawierać dużą ilość tekstu. Dobrze sprawdza się przy pokazywaniu zmiany między dwoma elementami lub przesunięcia kolejności. |
+| SegmentedCycle | 99 | Użyj do pokazania postępu lub sekwencji etapów, zadań lub wydarzeń w przepływie kołowym. Podkreśla połączone elementy. Każdy z pierwszych siedmiu wierszy tekstu Level 1 odpowiada segmentowi lub wycinkowi koła. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| SegmentedProcess | 100 | Użyj do przedstawienia postępu lub kolejnych kroków w zadaniu, procesie lub przepływie pracy. Podkreśla tekst Level 2, ponieważ każdy wiersz pojawia się w osobnym kształcie. |
+| SegmentedPyramid | 101 | Użyj do pokazania relacji zawierania, proporcjonalnych lub połączonych. Pierwsze dziewięć wierszy tekstu Level 1 pojawia się w trójkątnych kształtach. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. Najlepiej sprawdza się przy samym tekście Level 1. |
+| SnapshotPictureList | 102 | Użyj do wyświetlenia obrazów z tekstem wyjaśniającym. Tekst Level 2 może wyświetlać listy informacji. Dobrze sprawdza się przy dużej ilości tekstu. |
+| SpiralPicture | 103 | Użyj do przedstawienia serii do pięciu obrazów z odpowiadającymi im podpisami Level 1, które spiraluje w kierunku środka. |
+| SquareAccentList | 104 | Użyj do wyświetlenia list informacji podzielonych na kategorie. Tekst Level 2 pojawia się obok małego kwadratowego kształtu. Dobrze sprawdza się przy dużej ilości tekstu Level 2. |
+| StackedList | 105 | Użyj do prezentacji grup informacji lub kroków w zadaniu, procesie lub przepływie pracy. Kształty kołowe zawierają tekst Level 1, a odpowiadające prostokąty zawierają tekst Level 2. Dobrze sprawdza się przy licznych szczegółach i minimalnym tekście Level 1. |
+| StackedVenn | 106 | Użyj do pokazania nakładających się relacji. Dobry wybór do podkreślenia wzrostu lub stopniowania. Najlepiej sprawdza się przy samym tekście Level 1. Pierwsze siedem wierszy tekstu Level 1 odpowiada kołowemu kształtowi. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| StaggeredProcess | 107 | Użyj, aby pokazać postęp w dół przez etapy. Każda z pierwszych pięciu linii tekstu poziomu 1 odpowiada prostokątowi. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| StepDownProcess | 108 | Użyj, aby pokazać proces schodzący w dół z wieloma krokami i podkrokami. Działa najlepiej przy małej ilości tekstu. |
+| StepUpProcess | 109 | Użyj, aby pokazać rosnącą serię kroków lub listy informacji. |
+| SubStepProcess | 110 | Użyj, aby pokazać proces wielokrokowy z podkrokami pomiędzy każdą instancją tekstu poziomu 1. Działa najlepiej przy małej ilości tekstu i jest ograniczony do siedmiu kroków poziomu 1. Każdy krok poziomu 1 może mieć nieograniczoną liczbę podkroków. |
+| TableHierarchy | 111 | Użyj, aby pokazać grupy informacji budowane od góry do dołu oraz hierarchie w obrębie każdej grupy. Ten układ nie zawiera linii łączących. |
+| TableList | 112 | Użyj, aby pokazać pogrupowane lub powiązane informacje o równej wartości. Pierwsza linia tekstu poziomu 1 odpowiada górnemu kształtowi, a jej tekst poziomu 2 jest używany w kolejnych listach. |
+| TargetList | 113 | Użyj, aby pokazać wzajemnie powiązane lub nakładające się informacje. Każda z pierwszych siedmiu linii tekstu poziomu 1 pojawia się w prostokątnym kształcie. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. Działa dobrze zarówno z tekstem poziomu 1, jak i poziomu 2. |
+| TextCycle | 114 | Użyj, aby przedstawić ciągły ciąg etapów, zadań lub zdarzeń w obiegu kołowym. Podkreśla strzałki lub przepływ, a nie etapy czy kroki. Działa najlepiej wyłącznie z tekstem poziomu 1. |
+| TitlePictureLineup | 115 | Użyj, aby pokazać serię obrazów, z których każdy ma własny tytuł i opis. Tekst poziomu 1 pojawia się w ramce nad obrazem. Tekst poziomu 2 pojawia się pod obrazem. |
+| TitledMatrix | 116 | Użyj, aby pokazać zależności czterech kwadrantów względem całości. Pierwsza linia tekstu poziomu 1 odpowiada centralnemu kształtowi, a pierwsze cztery linie tekstu poziomu 2 pojawiają się w kwadrantach. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| TitledPictureAccentList | 117 | Użyj, aby pokazać listy informacji z akcentowym obrazem dla każdego tekstu poziomu 2. Tekst poziomu 1 wyświetlany jest w oddzielnej ramce na górze listy. |
+| TitledPictureBlocks | 118 | Użyj, aby pokazać serię obrazów. Tekst poziomu 1 pojawia się nad każdym obrazem. Tekst poziomu 2 pojawia się z boku i lekko nakłada się na każdy obraz. |
+| TrapezoidList | 119 | Użyj, aby pokazać pogrupowane lub powiązane informacje o równej wartości. Działa dobrze przy dużych objętościach tekstu. |
+| UpwardArrow | 120 | Użyj, aby pokazać postęp lub kroki rosnące w górę w zadaniu, procesie lub przepływie pracy. Każda z pierwszych pięciu linii tekstu poziomu 1 odpowiada punktowi na strzałce. Działa najlepiej przy minimalnej ilości tekstu. Nieużywany tekst nie jest wyświetlany, ale pozostaje dostępny po zmianie układu. |
+| VerticalAccentList | 121 | Użyj, aby pokazać listy informacji. Tekst poziomu 2 pojawia się w prostokątnych kształtach nad pionowymi klinami. Podkreśla tekst poziomu 2 nad tekstem poziomu 1 i jest dobrym wyborem przy średniej ilości tekstu poziomu 2. |
+| VerticalArrowList | 122 | Użyj, aby pokazać postęp lub kolejne kroki w zadaniu, procesie lub przepływie pracy, dążące do wspólnego celu. Działa dobrze dla list wypunktowanych. |
+| VerticalBendingProcess | 123 | Użyj, aby pokazać postęp lub kolejne kroki w zadaniu, procesie lub przepływie pracy. Maksymalizuje zarówno poziomą, jak i pionową przestrzeń wyświetlania kształtów. Kładzie większy nacisk na wzajemne powiązania między kształtami niż na kierunek czy ruch. |
+| VerticalBlockList | 124 | Użyj, aby pokazać grupy informacji lub kroki w zadaniu, procesie lub przepływie pracy. Działa dobrze przy dużych ilościach tekstu poziomu 2. Dobry wybór dla tekstu z głównym punktem i wieloma podpunktami. |
+| VerticalBoxList | 125 | Użyj, aby pokazać kilka grup informacji, szczególnie grupy z dużą ilością tekstu poziomu 2. Dobry wybór dla list wypunktowanych. |
+| VerticalBulletList | 126 | Użyj, aby pokazać niekolejność lub pogrupowane bloki informacji. Działa dobrze dla list z długimi nagłówkami lub informacjami najwyższego poziomu. |
+| VerticalChevronList | 127 | Użyj, aby pokazać postęp lub kolejno kroki w zadaniu, procesie lub przepływie pracy, lub podkreślić ruch lub kierunek. Podkreśla tekst poziomu 2 nad tekstem poziomu 1 i jest dobrym wyborem przy dużych ilościach tekstu poziomu 2. |
+| VerticalCircleList | 128 | Użyj, aby pokazać dane sekwencyjne lub pogrupowane. Działa najlepiej z tekstem poziomu 1, który wyświetlany jest obok dużego okrągłego kształtu. Niższe poziomy tekstu są oddzielone mniejszymi okrągłymi kształtami. |
+| VerticalCurvedList | 129 | Użyj, aby pokazać zakrzywioną listę informacji. Aby dodać obrazy do akcentowych kształtów okręgów, zastosuj wypełnienie obrazem. |
+| VerticalEquation | 130 | Użyj, aby pokazać kolejno kroki lub zadania przedstawiające plan lub wynik. Ostatnia linia tekstu poziomu 1 pojawia się po strzałce. Działa najlepiej wyłącznie z tekstem poziomu 1. |
+| VerticalPictureAccentList | 131 | Użyj, aby pokazać niekolejność lub pogrupowane bloki informacji. Małe okręgi są przeznaczone do umieszczania w nich obrazów. |
+| VerticalPictureList | 132 | Użyj, aby pokazać niekolejność lub pogrupowane bloki informacji. Małe kształty po lewej stronie są przeznaczone do umieszczania w nich obrazów. |
+| VerticalProcess | 133 | Użyj, aby pokazać postęp lub kolejno kroki w zadaniu, procesie lub przepływie pracy od góry do dołu. Działa najlepiej z tekstem poziomu 1, ponieważ przestrzeń pionowa jest ograniczona. |
+| Custom | 134 | Reprezentuje diagram [SmartArt](../smartart/) z niestandardowym szablonem układu |
+| PictureOrganizationChart | 135 | Użyj, aby pokazać informacje hierarchiczne lub relacje raportowania w organizacji, wraz z odpowiednimi obrazami. Kształt asystenta i układy wiszącego diagramu organizacyjnego są dostępne w tym układzie. |
+
+## Zobacz także
+
+* Przestrzeń nazw [Aspose::Slides::SmartArt](../)
+* Biblioteka [Aspose.Slides](../../)

@@ -1,0 +1,24 @@
+---
+title: get_children method
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides.mathtext/mathblock/get_children/
+weight: 120
+---
+## get_children(self) {#}
+Ruft Kind-Elemente ab
+
+
+```python
+def get_children(self):
+    ...
+```
+
+
+
+
+### Siehe auch
+* Klasse [`MathBlock`](/slides/python-net/de/aspose.slides.mathtext/mathblock)
+* Modul [`aspose.slides.mathtext`](/slides/python-net/de/aspose.slides.mathtext)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

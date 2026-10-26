@@ -1,0 +1,28 @@
+---
+title: get_NodeType()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: वर्तमान नोड का प्रकार लौटाता है।
+type: docs
+weight: 1
+url: /hi/system.xml/xmlnodereader/get_nodetype/
+---
+## XmlNodeReader::get_NodeType() मेथड
+
+
+वर्तमान नोड का प्रकार लौटाता है।
+
+```cpp
+XmlNodeType System::Xml::XmlNodeReader::get_NodeType() override
+```
+
+
+### वापसी मान
+
+वर्तमान नोड के प्रकार का प्रतिनिधित्व करने वाले XmlNodeType मूल्यों में से एक।
+
+## संबंधित देखें
+
+* एन्यूम [XmlNodeType](../../xmlnodetype/)
+* क्लास [XmlNodeReader](../)
+* नामस्थान [System::Xml](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

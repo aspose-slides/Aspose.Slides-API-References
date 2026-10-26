@@ -1,15 +1,14 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет параметры экспорта в HTML.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет параметры экспорта HTML.
 type: docs
-weight: 3720
+weight: 3890
 url: /ru/aspose.slides.export/htmloptions/
 ---
+## HtmlOptions класс
 
-## HtmlOptions class
-
-Представляет параметры экспорта в HTML.
+Представляет параметры экспорта HTML.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -17,36 +16,36 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## Конструкторы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Создает новый объект HtmlOptions для сохранения в один HTML файл. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Создает новый объект HtmlOptions, указывая коллбек. |
+| [HtmlOptions](htmloptions#constructor)() | Создаёт новый объект HtmlOptions для сохранения в один HTML-файл. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Создаёт новый объект HtmlOptions, задавая обратный вызов. |
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Читаемый и записываемый тип String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Булев флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false - они будут сериализованы в документе (что может привести к увеличению размера файла). |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отрисован без использования лигатур. При установке в `true`, лигатуры будут отключены в отрисованном выводе. По умолчанию это свойство установлено в `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемый и записываемый тип [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или устанавливает HTML-шаблон. Читаемый и записываемый тип [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или устанавливает значение, определяющее качество изображений JPEG внутри PDF документа. Читаемый и записываемый тип Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления информации о процессе сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый и записываемый тип Boolean. Значение по умолчанию **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или устанавливает параметры формата изображений слайдов. Читаемый и записываемый тип [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты ширины и высоты из контейнера svg - это сделает макет отзывчивым. False - в противном случае. Читаемый и записываемый тип Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемый и записываемый тип [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задаёт шрифт, используемый, если исходный шрифт не найден. Чтение/запись String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены; если false, они будут сериализованы в документе (что может привести к увеличению размера файла). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Получает или задаёт значение, указывающее, отображается ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию свойство установлено в `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задаёт визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или задаёт шаблон HTML. Чтение/запись [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Предоставляет параметры, контролирующие внешний вид объектов Ink в экспортируемом документе. Только чтение [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или задаёт значение, определяющее качество JPEG-изображений в документе PDF. Чтение/запись Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в сгенерированный документ. По умолчанию `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропустить гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или задаёт параметры формата изображения слайда. Чтение/запись [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Получает или задаёт режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | true, чтобы исключить атрибуты width и height из контейнера svg — это сделает макет адаптивным. false — в противном случае. Чтение/запись Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задаёт объект, получающий предупреждения и решающий, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### См. также
 
-* класс [SaveOptions](../saveoptions)
-* интерфейс [IHtmlOptions](../ihtmloptions)
-* пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
-* сборка [Aspose.Slides](../../)
+* класс [SaveOptions](../saveoptions)
+* интерфейс [IHtmlOptions](../ihtmloptions)
+* пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

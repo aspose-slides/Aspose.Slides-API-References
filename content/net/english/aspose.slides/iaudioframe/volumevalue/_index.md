@@ -3,7 +3,7 @@ title: VolumeValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the audio volume in percents. Read/write Single.
 type: docs
-weight: 190
+weight: 200
 url: /aspose.slides/iaudioframe/volumevalue/
 ---
 

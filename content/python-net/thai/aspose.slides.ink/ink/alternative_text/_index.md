@@ -1,0 +1,28 @@
+---
+title: alternative_text property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.ink/ink/alternative_text/
+weight: 90
+---
+## alternative_text คุณสมบัติ
+Returns or sets the alternative text associated with a shape.
+            Read/write **str**.
+
+### Definition:
+```python
+@property
+def alternative_text(self):
+    ...
+
+@alternative_text.setter
+def alternative_text(self, value):
+    ...
+```
+
+
+### See Also
+* class [`Ink`](/slides/python-net/th/aspose.slides.ink/ink)
+* module [`aspose.slides.ink`](/slides/python-net/th/aspose.slides.ink)
+* library [`Aspose.Slides`](/slides/python-net)

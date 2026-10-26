@@ -1,0 +1,121 @@
+---
+title: VbaReferenceCollection
+second_title: Aspose.Slides para Android via Referência de API Java
+description: Representa uma coleção de referências de um Projeto VBA.
+type: docs
+url: /pt/com.aspose.slides/vbareferencecollection/
+---
+**Herança:**
+java.lang.Object
+
+**Todas as Interfaces Implementadas:**
+[com.aspose.slides.IVbaReferenceCollection](../../com.aspose.slides/ivbareferencecollection)
+```
+public class VbaReferenceCollection implements IVbaReferenceCollection
+```
+
+Representa uma coleção de referências de um projeto VBA.
+## Métodos
+
+| Método | Descrição |
+| --- | --- |
+| [size()](#size--) | Obtém o número de elementos realmente contidos na coleção. |
+| [add(IVbaReference value)](#add-com.aspose.slides.IVbaReference-) | Adiciona a nova referência à coleção de referências. |
+| [get_Item(int index)](#get-Item-int-) | Obtém o elemento no índice especificado. |
+| [iterator()](#iterator--) | Retorna um enumerador que itera pela coleção. |
+| [iteratorJava()](#iteratorJava--) | Retorna um iterador java para a coleção inteira. |
+| [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copia todos os elementos da coleção para o array especificado. |
+| [isSynchronized()](#isSynchronized--) | Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). |
+| [getSyncRoot()](#getSyncRoot--) | Retorna uma raiz de sincronização. |
+### size() {#size--}
+```
+public final int size()
+```
+
+
+Obtém o número de elementos realmente contidos na coleção. Somente leitura int.
+
+**Retorna:**
+int
+### add(IVbaReference value) {#add-com.aspose.slides.IVbaReference-}
+```
+public final void add(IVbaReference value)
+```
+
+
+Adiciona a nova referência à coleção de referências.
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| value | [IVbaReference](../../com.aspose.slides/ivbareference) |  |
+
+### get_Item(int index) {#get-Item-int-}
+```
+public final IVbaReference get_Item(int index)
+```
+
+
+Obtém o elemento no índice especificado.
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| index | int |  |
+
+**Retorna:**
+[IVbaReference](../../com.aspose.slides/ivbareference)
+### iterator() {#iterator--}
+```
+public final System.Collections.Generic.IGenericEnumerator<IVbaReference> iterator()
+```
+
+
+Retorna um enumerador que itera pela coleção.
+
+**Retorna:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IVbaReference> - Um IGenericEnumerator que pode ser usado para iterar pela coleção.
+### iteratorJava() {#iteratorJava--}
+```
+public final System.Collections.Generic.IGenericEnumerator<IVbaReference> iteratorJava()
+```
+
+
+Retorna um iterador java para a coleção inteira.
+
+**Retorna:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.slides.IVbaReference> - Um java.util.Iterator para a coleção inteira.
+### copyTo(System.Array array, int index) {#copyTo-com.aspose.ms.System.Array-int-}
+```
+public final void copyTo(System.Array array, int index)
+```
+
+
+Copia todos os elementos da coleção para o array especificado.
+
+**Parâmetros:**
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| array | com.aspose.ms.System.Array | Array de destino. |
+| index | int | Índice inicial no array de destino. |
+
+### isSynchronized() {#isSynchronized--}
+```
+public final boolean isSynchronized()
+```
+
+
+Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). Somente leitura boolean.
+
+**Retorna:**
+boolean
+### getSyncRoot() {#getSyncRoot--}
+```
+public final Object getSyncRoot()
+```
+
+
+Retorna uma raiz de sincronização. Somente leitura Object.
+
+**Retorna:**
+java.lang.Object

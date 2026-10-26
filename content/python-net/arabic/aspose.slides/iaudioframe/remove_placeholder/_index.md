@@ -1,0 +1,25 @@
+---
+title: remove_placeholder method
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/iaudioframe/remove_placeholder/
+weight: 60
+---
+## remove_placeholder(self) {#}
+
+
+
+
+```python
+def remove_placeholder(self):
+    ...
+```
+
+
+
+
+### انظر أيضًا
+* الفئة [`IAudioFrame`](/slides/python-net/ar/aspose.slides/iaudioframe)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

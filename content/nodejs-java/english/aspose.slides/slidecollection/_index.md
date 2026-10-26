@@ -23,7 +23,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/slidecollection/
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | section | [Section](../section) | Section for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -69,7 +69,7 @@ url: /aspose.slides/slidecollection/
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -90,7 +90,7 @@ url: /aspose.slides/slidecollection/
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -115,7 +115,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -136,7 +136,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -157,7 +157,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -176,7 +176,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | htmlText | String | Html to add. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -197,9 +197,9 @@ url: /aspose.slides/slidecollection/
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -220,9 +220,9 @@ url: /aspose.slides/slidecollection/
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -241,9 +241,9 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | slidecollection | SlideCollection  | link to self |
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -262,7 +262,27 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | path | String | A path to the PDF document |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### addFromPdf {#addFromPdf}
+
+| Name | Description |
+| --- | --- |
+| addFromPdf (String, [PdfImportOptions](../pdfimportoptions)) | Creates slides from the PDF document and adds them to the end of the collection considering the pdf import options. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
+| pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -281,9 +301,31 @@ url: /aspose.slides/slidecollection/
 | --- | --- | --- |
 | slidecollection | SlideCollection  | link to self |
 | pdfStream | ReadStream | A stream which will be used as a source of the PDF document |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### addFromPdfFromStream  {#addFromPdfFromStream }
+
+| Name | Description |
+| --- | --- |
+| addFromPdfFromStream  (SlideCollection, ReadStream, [PdfImportOptions](../pdfimportoptions), Function) | Creates slides from the PDF document and adds them to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| pdfStream | ReadStream | A stream which will be used as a source of the PDF document |
+| pdfImportOptions | [PdfImportOptions](../pdfimportoptions) | Options for pdf import |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -296,7 +338,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -309,7 +351,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only Slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -328,7 +370,7 @@ Object
 | --- | --- | --- |
 | slide | [Slide](../slide) | Slide to find. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -348,7 +390,7 @@ int
 | index | int | Index of new slide. |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #insertClone(int,ISlide,ILayoutSlide) or #insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -369,7 +411,7 @@ int
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -391,7 +433,7 @@ int
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
  **Error**
@@ -417,7 +459,7 @@ int
 | index | int | Index of a new slide. |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -439,7 +481,7 @@ int
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -461,7 +503,53 @@ int
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml (int, String, [ExternalResourceResolver](../externalresourceresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml (int, String, [HtmlExternalResolver](../htmlexternalresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -481,7 +569,28 @@ int
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml (int, String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -503,9 +612,9 @@ int
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -527,9 +636,59 @@ int
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream,  [ExternalResourceResolver](../externalresourceresolver), String, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream, [HtmlExternalResolver](../htmlexternalresolver),  String, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -549,9 +708,32 @@ int
 | slidecollection | SlideCollection  | link to self |
 | index | int | Position to insert. |
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
 [Slide](../slide)
 
 
@@ -564,7 +746,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -577,7 +759,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -590,7 +772,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -675,7 +857,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -688,7 +870,7 @@ int
 | --- | --- |
 | toArray () | Creates and returns an array with all slides in it. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 
@@ -708,7 +890,7 @@ int
 | startIndex | int | An index of a first slide to add. |
 | count | int | A number of slides to add. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 

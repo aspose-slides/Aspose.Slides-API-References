@@ -1,0 +1,60 @@
+---
+title: ShapeAdjustmentType
+second_title: Referência da API Aspose.Slides para C++
+description: Especifica diferentes tipos de valores de ajuste de forma.
+type: docs
+weight: 6332
+url: /pt/aspose.slides/shapeadjustmenttype/
+---
+## ShapeAdjustmentType enum
+
+Especifica diferentes tipos de valores de ajuste de forma.
+
+```cpp
+enum class ShapeAdjustmentType
+```
+
+### Valores
+
+| Nome | Valor | Descrição |
+| --- | --- | --- |
+| Custom | 0 | Tipo personalizado (ajuste desconhecido) |
+| CornerSize | 1 | Controla o tamanho dos cantos. |
+| LeftUpCorner | 2 | Controla o canto superior esquerdo. |
+| RightUpCorner | 3 | Controla o canto superior direito. |
+| UpCorners | 4 | Controla os cantos superiores. |
+| DownCorners | 5 | Controla os cantos inferiores. |
+| Thickness | 6 | Controla a espessura da figura. |
+| ArrowTailThickness | 7 | Controla a espessura da cauda da seta. |
+| ArrowheadLength | 8 | Controla o comprimento da ponteira da seta. |
+| ArrowheadWidth | 9 | Controla a largura da ponteira da seta. |
+| Radius | 10 | Controla o tamanho do raio da forma ou de sua parte. |
+| Depth | 11 | Controla a profundidade dos dentes da engrenagem ou o efeito chanfro. |
+| ShapePartOffset | 12 | Controla o deslocamento de uma parte da figura em relação à outra. |
+| Angle | 13 | Controla o ângulo da figura ou de sua parte. |
+| StartAngle | 14 | Ângulo inicial para formas de torta e arco. |
+| EndAngle | 15 | Ângulo final para formas de torta e arco. |
+| StartPointX | 16 | Controla a posição X do ponto inicial da chamada. |
+| StartPointY | 17 | Controla a posição Y do ponto inicial da chamada. |
+| ConnectorPoint1X | 18 | Controla a posição horizontal do ponto de ajuste do ângulo da chamada. |
+| ConnectorPoint1Y | 19 | Controla a posição vertical do ponto de ajuste do ângulo da chamada. |
+| ConnectorPoint2X | 20 | Controla a posição horizontal do ponto de ajuste do ângulo da chamada. |
+| ConnectorPoint2Y | 21 | Controla a posição vertical do ponto de ajuste do ângulo da chamada. |
+| ConnectorBendPositionX | 22 | Controla a posição horizontal da curva no conector. |
+| ConnectorBendPositionY | 23 | Controla a posição vertical da curva no conector. |
+| AttachY | 24 | Controla o ponto de fixação vertical da figura. |
+| AttachX | 25 | Controla o ponto de fixação horizontal da figura. |
+| CalloutHeight | 26 | Controla o tamanho vertical da chamada. |
+| CalloutWidth | 27 | Controla o tamanho horizontal da chamada. |
+| CalloutSize | 28 | Controla o tamanho da chamada. |
+| Curvature | 29 | Curvatura de um dobrado, chaves, seta curva ou forma. |
+| HorizontalThickness | 30 | Controla a espessura horizontal da forma de canto. |
+| VerticalThickness | 31 | Controla a espessura vertical da forma de canto. |
+| VerticalSize | 32 | Controla o tamanho vertical da forma. |
+| HorizontalSize | 33 | Controla o tamanho horizontal da forma. |
+| Top | 34 | Controla o lado superior de uma forma. |
+
+## Veja Também
+
+* Espaço de nomes [Aspose::Slides](../)
+* Biblioteca [Aspose.Slides](../../)

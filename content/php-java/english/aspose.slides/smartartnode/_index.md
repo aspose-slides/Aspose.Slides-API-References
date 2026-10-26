@@ -99,7 +99,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getTextFrame () | Returns or sets text of the node. Read-only ITextFrame. |
+| getTextFrame () | Returns text frame of the node. Read-only ITextFrame. |
 
  **Returns:**
 [TextFrame](../textframe)

@@ -1,0 +1,36 @@
+---
+title: add_hsl_effect method
+second_title: Aspose.Slides для Python через .NET — справочник API
+description: 
+type: docs
+url: /ru/aspose.slides.effects/iimagetransformoperationcollection/add_hsl_effect/
+weight: 160
+---
+## add_hsl_effect(self, hue, saturation, luminance) {#float-float-float}
+Добавляет новый эффект Hue/Saturation/Luminance в конец коллекции.
+
+### Возвращаемое значение
+
+Индекс нового эффекта изображения в коллекции.
+
+
+
+```python
+def add_hsl_effect(self, hue, saturation, luminance):
+    ...
+```
+
+
+| Параметр | Тип | Описание |
+| :- | :- | :- |
+| hue | **float** | Количество градусов, на которое изменяется hue. |
+| saturation | **float** | Процент, на который изменяется saturation. |
+| luminance | **float** | Процент, на который изменяется luminance. |
+
+
+
+### См. также
+* класс [`IHSL`](/slides/python-net/ru/aspose.slides.effects/ihsl)
+* класс [`IImageTransformOperationCollection`](/slides/python-net/ru/aspose.slides.effects/iimagetransformoperationcollection)
+* модуль [`aspose.slides.effects`](/slides/python-net/ru/aspose.slides.effects)
+* библиотека [`Aspose.Slides`](/slides/python-net)

@@ -16,11 +16,11 @@ url: /aspose.slides/buildversioninfo/
 
 | Name | Value | Description |
 | --- | --- | --- |
-[ProductMinor](#ProductMinor) | 8 | Minor version number. |
-[ProductMajor](#ProductMajor) | 23 | Major version number. |
-[AssemblyVersion](#AssemblyVersion) | 23.8 | Version of Aspose.Slides assembly. |
-[FileVersion](#FileVersion) | 23.8 | Version of assembly file. |
-[Product](#Product) | Aspose.Slides for PHP via Java | Product name of Aspose.Slides |
+[ProductMinor](#ProductMinor) | 6 | Minor version number. |
+[ProductMajor](#ProductMajor) | 26 | Major version number. |
+[AssemblyVersion](#AssemblyVersion) | 26.6 | Version of Aspose.Slides assembly. |
+[FileVersion](#FileVersion) | 26.6 | Version of assembly file. |
+[Product](#Product) | Aspose.Slides for Python via Java | Product name of Aspose.Slides |
 
 
 ---
@@ -58,7 +58,7 @@ Product name of Aspose.Slides
 | --- | --- |
 | BuildVersionInfo() |  |
 
- **Result:**
+ **Returns:**
 BuildVersionInfo
 
 

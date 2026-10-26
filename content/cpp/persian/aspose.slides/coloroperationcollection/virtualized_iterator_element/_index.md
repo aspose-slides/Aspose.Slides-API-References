@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator_element
+second_title: مرجع API Aspose.Slides برای C++
+description: نوع عنصر مجازی‌سازی شده.
+type: docs
+weight: 313
+url: /fa/aspose.slides/coloroperationcollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+
+نوع عنصر مجازی‌سازی شده.
+
+```cpp
+using Aspose::Slides::ColorOperationCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## موارد مرتبط
+
+* کلاس [ColorOperationCollection](../)
+* فضای نام [Aspose::Slides](../../)
+* کتابخانه [Aspose.Slides](../../../)

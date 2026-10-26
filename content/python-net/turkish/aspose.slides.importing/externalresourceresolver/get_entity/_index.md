@@ -1,0 +1,33 @@
+---
+title: get_entity method
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.importing/externalresourceresolver/get_entity/
+weight: 20
+---
+## get_entity(self, absolute_uri) {#str}
+Bir URI'yi gerçek kaynağı içeren bir nesneye eşler.
+
+### Dönüş
+
+Bir **io.RawIOBase** nesnesi veya kaynak akışa alınamıyorsa None.
+
+
+
+```python
+def get_entity(self, absolute_uri):
+    ...
+```
+
+
+| Parametre | Tür | Açıklama |
+| :- | :- | :- |
+| absolute_uri | **str** | Nesneye giden mutlak URI. |
+
+
+
+### Ayrıca Bakınız
+* sınıf [`ExternalResourceResolver`](/slides/python-net/tr/aspose.slides.importing/externalresourceresolver)
+* modül [`aspose.slides.importing`](/slides/python-net/tr/aspose.slides.importing)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

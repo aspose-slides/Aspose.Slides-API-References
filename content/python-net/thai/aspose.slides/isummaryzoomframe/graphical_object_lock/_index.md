@@ -1,0 +1,21 @@
+---
+title: graphical_object_lock property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides/isummaryzoomframe/graphical_object_lock/
+weight: 190
+---
+## graphical_object_lock คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def graphical_object_lock(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`ISummaryZoomFrame`](/slides/python-net/th/aspose.slides/isummaryzoomframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,35 @@
+---
+title: ImageFormat
+second_title: Aspose.Slides a C++ API-referencia
+description: A kép fájlformátumát jelöli.
+type: docs
+weight: 6709
+url: /hu/aspose.slides/imageformat/
+---
+## ImageFormat enum
+
+A kép fájlformátumát jelöli.
+
+```cpp
+enum class ImageFormat
+```
+
+### Értékek
+
+| Név | Érték | Leírás |
+| --- | --- | --- |
+| MemoryBmp | 0 | A memóriában lévő bitmap formátumát jelöli. |
+| Bmp | 1 | A bitmap (BMP) képfájl formátumát jelöli. |
+| Emf | 2 | A bővített metafájl (EMF) képfájl formátumát jelöli. |
+| Wmf | 3 | A Windows metafájl (WMF) képfájl formátumát jelöli. |
+| Gif | 4 | A Graphics Interchange Format (GIF) képfájl formátumát jelöli. |
+| Jpeg | 5 | A Joint Photographic Experts Group (JPEG) képfájl formátumát jelöli. |
+| Png | 6 | A W3C Portable Network Graphics (PNG) képfájl formátumát jelöli. |
+| Tiff | 7 | A Tagged Image File Format (TIFF) képfájl formátumát jelöli. |
+| Exif | 8 | A Exchangeable Image File (Exif) formátumot jelöli. |
+| Icon | 9 | A Windows ikon képfájl formátumát jelöli. |
+
+## Lásd még
+
+* Névtér [Aspose::Slides](../)
+* Könyvtár [Aspose.Slides](../../)

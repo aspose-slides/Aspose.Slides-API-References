@@ -1,0 +1,59 @@
+---
+title: IChartCategoryLevelsManager
+second_title: Aspose.Slides for Java API Reference
+description: Managed container of the values of the chart category levels.
+type: docs
+url: /hi/com.aspose.slides/ichartcategorylevelsmanager/
+---```
+public interface IChartCategoryLevelsManager
+```
+
+चार्ट श्रेणी स्तरों के मानों का प्रबंधित कंटेनर।
+## विधियाँ
+
+| विधि | विवरण |
+| --- | --- |
+| [get_Item(int level)](#get-Item-int-) | परिभाषित स्तर के लिए IChartDataCell ऑब्जेक्ट लौटाता है। |
+| [setGroupingItem(int level, Object value)](#setGroupingItem-int-java.lang.Object-) | परिभाषित स्तर के लिए समूहबद्ध आइटम सेट करता है। |
+| [deleteGroupingItem(int level)](#deleteGroupingItem-int-) | परिभाषित स्तर के लिए समूहबद्ध आइटम हटाता है। |
+### get_Item(int level) {#get-Item-int-}
+```
+public abstract IChartDataCell get_Item(int level)
+```
+
+
+परिभाषित स्तर के लिए IChartDataCell ऑब्जेक्ट लौटाता है।
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| level | int |  |
+
+**रिटर्न:**
+[IChartDataCell](../../com.aspose.slides/ichartdatacell)
+### setGroupingItem(int level, Object value) {#setGroupingItem-int-java.lang.Object-}
+```
+public abstract void setGroupingItem(int level, Object value)
+```
+
+
+परिभाषित स्तर के लिए समूहबद्ध आइटम सेट करता है।
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| level | int | श्रेणी स्तर int |
+| value | java.lang.Object | समूहबद्ध आइटम ऑब्जेक्ट |
+
+### deleteGroupingItem(int level) {#deleteGroupingItem-int-}
+```
+public abstract void deleteGroupingItem(int level)
+```
+
+
+परिभाषित स्तर के लिए समूहबद्ध आइटम हटाता है।
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| level | int | श्रेणी स्तर int |

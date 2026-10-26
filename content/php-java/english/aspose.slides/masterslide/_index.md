@@ -62,6 +62,19 @@ url: /aspose.slides/masterslide/
 ---
 
 
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the master slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |

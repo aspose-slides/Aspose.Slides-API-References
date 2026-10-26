@@ -1,0 +1,25 @@
+---
+title: color_scheme property
+second_title: Aspose.Slides for Python via .NET API 참조
+description: 
+type: docs
+url: /ko/aspose.slides.theme/theme/color_scheme/
+weight: 30
+---
+## color_scheme 속성
+색 구성표를 반환합니다.
+            읽기 전용 [`IColorScheme`](/slides/python-net/ko/aspose.slides.theme/icolorscheme).
+
+### 정의:
+```python
+@property
+def color_scheme(self):
+    ...
+```
+
+
+### 참조
+* 클래스 [`IColorScheme`](/slides/python-net/ko/aspose.slides.theme/icolorscheme)
+* 클래스 [`Theme`](/slides/python-net/ko/aspose.slides.theme/theme)
+* 모듈 [`aspose.slides.theme`](/slides/python-net/ko/aspose.slides.theme)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

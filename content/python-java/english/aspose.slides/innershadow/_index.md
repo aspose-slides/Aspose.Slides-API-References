@@ -23,7 +23,7 @@ url: /aspose.slides/innershadow/
 | --- | --- | --- |
 | obj | Object | The InnerShadow to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getBlurRadius() | Blur radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -49,7 +49,7 @@ double
 | --- | --- |
 | getDirection() | Direction of shadow. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | getDistance() | Distance of shadow. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | getEffective() | Gets effective Inner Shadow effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 InnerShadowEffectiveData
 
 
@@ -98,7 +98,7 @@ InnerShadowEffectiveData
 | --- | --- |
 | getShadowColor() | Color of shadow. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -111,7 +111,7 @@ InnerShadowEffectiveData
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -124,7 +124,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

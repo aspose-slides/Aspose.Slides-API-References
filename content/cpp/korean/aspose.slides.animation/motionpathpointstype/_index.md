@@ -1,0 +1,34 @@
+---
+title: MotionPathPointsType
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 애니메이션 모션 경로에서 포인트 유형을 나타냅니다.
+type: docs
+weight: 924
+url: /ko/aspose.slides.animation/motionpathpointstype/
+---
+## MotionPathPointsType 열거형
+
+애니메이션 모션 경로에서 포인트 유형을 나타냅니다.
+
+```cpp
+enum class MotionPathPointsType
+```
+
+### 값
+
+| 이름 | 값 | 설명 |
+| --- | --- | --- |
+| None | 0 |  |
+| Auto | 1 |  |
+| Corner | 2 |  |
+| Straight | 3 |  |
+| Smooth | 4 |  |
+| CurveAuto | 5 |  |
+| CurveCorner | 6 |  |
+| CurveStraight | 7 |  |
+| CurveSmooth | 8 |  |
+
+## 참조
+
+* 네임스페이스 [Aspose::Slides::Animation](../)
+* 라이브러리 [Aspose.Slides](../../)

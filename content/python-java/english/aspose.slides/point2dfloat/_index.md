@@ -15,7 +15,7 @@ url: /aspose.slides/point2dfloat/
 | --- | --- |
 | Point2DFloat() |  |
 
- **Result:**
+ **Returns:**
 Point2DFloat
 
 
@@ -28,142 +28,8 @@ Point2DFloat
 | --- | --- |
 | Point2DFloat(float, float) |  |
 
- **Result:**
+ **Returns:**
 Point2DFloat
-
-
----
-
-
-### distance {#distance}
-
-| Name | Description |
-| --- | --- |
-| distance(double, double, double, double) |  |
-
- **Result:**
-double
-
-
----
-
-
-### distance {#distance}
-
-| Name | Description |
-| --- | --- |
-| distance(double, double) |  |
-
- **Result:**
-double
-
-
----
-
-
-### distance {#distance}
-
-| Name | Description |
-| --- | --- |
-| distance(Point2D) |  |
-
- **Result:**
-double
-
-
----
-
-
-### distanceSq {#distanceSq}
-
-| Name | Description |
-| --- | --- |
-| distanceSq(double, double, double, double) |  |
-
- **Result:**
-double
-
-
----
-
-
-### distanceSq {#distanceSq}
-
-| Name | Description |
-| --- | --- |
-| distanceSq(double, double) |  |
-
- **Result:**
-double
-
-
----
-
-
-### distanceSq {#distanceSq}
-
-| Name | Description |
-| --- | --- |
-| distanceSq(Point2D) |  |
-
- **Result:**
-double
-
-
----
-
-
-### getX {#getX}
-
-| Name | Description |
-| --- | --- |
-| getX() |  |
-
- **Result:**
-double
-
-
----
-
-
-### getY {#getY}
-
-| Name | Description |
-| --- | --- |
-| getY() |  |
-
- **Result:**
-double
-
-
----
-
-
-### setLocation {#setLocation}
-
-| Name | Description |
-| --- | --- |
-| setLocation(float, float) |  |
-
-
----
-
-
-### setLocation {#setLocation}
-
-| Name | Description |
-| --- | --- |
-| setLocation(double, double) |  |
-
-
----
-
-
-### setLocation {#setLocation}
-
-| Name | Description |
-| --- | --- |
-| setLocation(Point2D) |  |
 
 
 ---

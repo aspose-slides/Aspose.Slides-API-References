@@ -20,7 +20,7 @@ url: /aspose.slides/portionformat/
 | --- | --- |
 | PortionFormat() | Initializes a new instance of PortionFormat class. |
 
- **Result:**
+ **Returns:**
 PortionFormat
 
 
@@ -33,7 +33,7 @@ PortionFormat
 | --- | --- |
 | getBookmarkId () | Returns or sets bookmark identifier. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -46,7 +46,7 @@ String
 | --- | --- |
 | getEffective () | Gets effective portion formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 PortionFormatEffectiveData
 
 
@@ -59,7 +59,7 @@ PortionFormatEffectiveData
 | --- | --- |
 | getHyperlinkClick () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -72,7 +72,7 @@ PortionFormatEffectiveData
 | --- | --- |
 | getHyperlinkManager () | Hyperlinks manager. Read-only IHyperlinkManager. |
 
- **Result:**
+ **Returns:**
 [HyperlinkManager](../hyperlinkmanager)
 
 
@@ -85,7 +85,7 @@ PortionFormatEffectiveData
 | --- | --- |
 | getHyperlinkMouseOver () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -98,7 +98,7 @@ PortionFormatEffectiveData
 | --- | --- |
 | getSmartTagClean () | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

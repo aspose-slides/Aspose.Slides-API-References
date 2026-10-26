@@ -17,7 +17,7 @@ url: /aspose.slides/motioncmdpath/
 | --- | --- |
 | getCommandType () | Specifies command type. Read/write MotionCommandPathType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +30,7 @@ int
 | --- | --- |
 | getPoints () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
 
 
@@ -43,7 +43,7 @@ Point2D.Float
 | --- | --- |
 | getPointsType () | Specifies command points type Read/write MotionPathPointsType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | isRelative () | Determine command coordinates relative or not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

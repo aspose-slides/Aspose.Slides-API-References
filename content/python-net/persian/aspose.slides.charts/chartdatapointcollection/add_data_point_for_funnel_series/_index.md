@@ -1,0 +1,37 @@
+---
+title: add_data_point_for_funnel_series method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.charts/chartdatapointcollection/add_data_point_for_funnel_series/
+weight: 60
+---
+## add_data_point_for_funnel_series(self, value) {#ichartdatacell}
+Creates the new data point and adds it to the end of collection.
+            Applicable for series which chart type is Funnel.
+
+نقطه داده جدید را ایجاد می‌کند و به انتهای مجموعه اضافه می‌نماید.
+            برای سری‌هایی که نوع نمودارشان Funnel است قابل استفاده است.
+
+### بازگشت
+
+نقطه داده جدید.
+
+
+
+```python
+def add_data_point_for_funnel_series(self, value):
+    ...
+```
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| value | [`IChartDataCell`](/slides/python-net/fa/aspose.slides.charts/ichartdatacell) | مقدار نقطه داده |
+
+
+### موارد مرتبط
+* کلاس [`ChartDataPointCollection`](/slides/python-net/fa/aspose.slides.charts/chartdatapointcollection)
+* کلاس [`IChartDataCell`](/slides/python-net/fa/aspose.slides.charts/ichartdatacell)
+* کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)
+* ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

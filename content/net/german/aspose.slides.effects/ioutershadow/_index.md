@@ -1,13 +1,12 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen äußeren Schatteneffekt dar.
 type: docs
-weight: 3340
+weight: 3460
 url: /de/aspose.slides.effects/ioutershadow/
 ---
-
-## IOuterShadow-Schnittstelle
+## IOuterShadow Schnittstelle
 
 Stellt einen äußeren Schatteneffekt dar.
 
@@ -20,25 +19,25 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Unschärferadius. Lese-/Schreibzugriff Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Richtung des Schattens. Lese-/Schreibzugriff Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Entfernung des Schattens. Lese-/Schreibzugriff Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rechteckausrichtung. Lese-/Schreibzugriff [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Gibt an, ob der Schatten mit der Form rotieren soll, wenn die Form gedreht wird. Lese-/Schreibzugriff Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehr. Lese-/Schreibzugriff Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehr. Lese-/Schreibzugriff Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Farbe des Schattens. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Gibt den horizontalen Schrägstellungswinkel (in Grad) an. Lese-/Schreibzugriff Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Gibt den vertikalen Schrägstellungswinkel (in Grad) an. Lese-/Schreibzugriff Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Unschärferadius, in Punkten. Standardwert – 0 pt. Lesen/Schreiben Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Richtung des Schattens, in Grad. Standardwert – 0 ° (links-nach-rechts). Lesen/Schreiben Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Abstand des Schattens vom Objekt, in Punkten. Standardwert – 0 pt. Lesen/Schreiben Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rechteckausrichtung. Standardwert – Bottom. Lesen/Schreiben [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Gibt an, ob der Schatten zusammen mit der Form rotiert. Standardwert – true. Lesen/Schreiben Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Horizontaler Skalierungsfaktor, in Prozent der Originalgröße. Negative Skalierung verursacht eine Spiegelung. Standardwert – 100 %. Lesen/Schreiben Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Vertikaler Skalierungsfaktor, in Prozent der Originalgröße. Negative Skalierung verursacht eine Spiegelung. Standardwert – 100 %. Lesen/Schreiben Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Farbe des Schattens. Standardwert – automatisches Schwarz (themenabhängig). Nur-Lese [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Horizontaler Schrägwinkel, in Grad. Standardwert – 0 °. Lesen/Schreiben Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Vertikaler Schrägwinkel, in Grad. Standardwert – 0 °. Lesen/Schreiben Double. |
 
 ### Siehe auch
 
-* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* Schnittstelle [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
-* Schnittstelle [IImageTransformOperation](../iimagetransformoperation)
-* Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* Schnittstelle [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
+* Schnittstelle [IImageTransformOperation](../iimagetransformoperation)
+* Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

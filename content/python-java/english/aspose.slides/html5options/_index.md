@@ -17,7 +17,7 @@ url: /aspose.slides/html5options/
 | --- | --- |
 | Html5Options() | Default constructor. |
 
- **Result:**
+ **Returns:**
 Html5Options
 
 
@@ -30,7 +30,7 @@ Html5Options
 | --- | --- |
 | getAnimateShapes() | Returns or sets shapes animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,21 +43,21 @@ boolean
 | --- | --- |
 | getAnimateTransitions() | Returns or sets transitions animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
 ---
 
 
-### getDefaultRegularFont {#getDefaultRegularFont}
+### getDisableFontLigatures {#getDisableFontLigatures}
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
+| getDisableFontLigatures() | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
- **Result:**
-String
+ **Returns:**
+boolean
 
 
 ---
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getEmbedImages() | Returns or sets images embedding option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,34 +82,21 @@ boolean
 | --- | --- |
 | getOutputPath() | Determines where external resources should be stored. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
 ---
 
 
-### getProgressCallback {#getProgressCallback}
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getSlidesLayoutOptions() | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
- **Result:**
-IProgressCallback
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
+ **Returns:**
+[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -135,11 +122,11 @@ IWarningCallback
 ---
 
 
-### setDefaultRegularFont {#setDefaultRegularFont}
+### setDisableFontLigatures {#setDisableFontLigatures}
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDisableFontLigatures(boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
 
 ---
@@ -165,21 +152,21 @@ IWarningCallback
 ---
 
 
-### setProgressCallback {#setProgressCallback}
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setSlidesLayoutOptions([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---
 
 
-### setWarningCallback {#setWarningCallback}
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
 
 | Name | Description |
 | --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setSlidesLayoutOptions([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---

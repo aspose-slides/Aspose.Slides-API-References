@@ -1,0 +1,29 @@
+---
+title: minor_tick_mark property
+second_title: Referência da API Aspose.Slides para Python via .NET
+description: 
+type: docs
+url: /pt/aspose.slides.charts/axis/minor_tick_mark/
+weight: 460
+---
+## minor_tick_mark propriedade
+Representa o tipo de marca de escala menor para o eixo especificado.
+             Leitura/gravação [`TickMarkType`](/slides/python-net/pt/aspose.slides.charts/tickmarktype).
+
+### Definição:
+```python
+@property
+def minor_tick_mark(self):
+    ...
+
+@minor_tick_mark.setter
+def minor_tick_mark(self, value):
+    ...
+```
+
+
+### Veja Também
+* classe [`Axis`](/slides/python-net/pt/aspose.slides.charts/axis)
+* enumeração [`TickMarkType`](/slides/python-net/pt/aspose.slides.charts/tickmarktype)
+* módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

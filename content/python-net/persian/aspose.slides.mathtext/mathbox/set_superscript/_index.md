@@ -1,0 +1,55 @@
+---
+title: set_superscript method
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
+description: 
+type: docs
+url: /fa/aspose.slides.mathtext/mathbox/set_superscript/
+weight: 180
+---
+## set_superscript(self, superscript) {#imathelement}
+ایجاد نمای فوق‌نویس
+
+### بازگشت
+
+عنصر ریاضی جدید از نوع [`IMathSuperscriptElement`](/slides/python-net/fa/aspose.slides.mathtext/imathsuperscriptelement)
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| superscript | [`IMathElement`](/slides/python-net/fa/aspose.slides.mathtext/imathelement) | فوق‌نویس (نمای بالایی در سمت راست) |
+
+
+## set_superscript(self, superscript) {#str}
+ایجاد نمای فوق‌نویس
+
+### بازگشت
+
+عنصر ریاضی جدید از نوع [`IMathSuperscriptElement`](/slides/python-net/fa/aspose.slides.mathtext/imathsuperscriptelement)
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| پارامتر | نوع | توضیح |
+| :- | :- | :- |
+| superscript | **str** | فوق‌نویس (نمای بالایی در سمت راست) |
+
+
+
+### موارد مرتبط
+* کلاس [`IMathElement`](/slides/python-net/fa/aspose.slides.mathtext/imathelement)
+* کلاس [`IMathSuperscriptElement`](/slides/python-net/fa/aspose.slides.mathtext/imathsuperscriptelement)
+* کلاس [`MathBox`](/slides/python-net/fa/aspose.slides.mathtext/mathbox)
+* ماژول [`aspose.slides.mathtext`](/slides/python-net/fa/aspose.slides.mathtext)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

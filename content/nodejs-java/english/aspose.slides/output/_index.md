@@ -25,7 +25,7 @@ url: /aspose.slides/output/
 | templateKey | String | The key of the template used for context object transformation before output. |
 | contextObject | TContextObject | Context object. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -45,7 +45,7 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | image | [PPImage](../ppimage) | Image to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -56,16 +56,16 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, BufferedImage) | Adds an output element for the image. |
+| add (String, [IImage](../iimage)) | Adds an output element for the image. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| image | BufferedImage | Image to output. |
+| image | [IImage](../iimage) | Image to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -85,7 +85,7 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | video | [Video](../video) | Video to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -96,17 +96,37 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, [FontData](../fontdata), int) | Adds an output element for the font. |
+| add (String, [Audio](../audio)) | Adds an output element for the audio. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| fontData | [FontData](../fontdata) | Font to output. |
-| fontStyle | int | Font style. |
+| audio | [Audio](../audio) | Audio to output. |
 
- **Result:**
+ **Returns:**
+[OutputFile](../outputfile)
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add (String, [FontData](../fontdata), int) | Creates and adds an output file element for the specified font. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | The file path where the font output will be saved. |
+| fontData | [FontData](../fontdata) | The font data to be written to the output. |
+| fontStyle | int | The style of the font (e.g., Regular, Bold, Italic). |
+
+ **Returns:**
 [OutputFile](../outputfile)
 
 
@@ -126,8 +146,25 @@ url: /aspose.slides/output/
 | path | String | Output path. |
 | textContent | String | Content to output. |
 
- **Result:**
+ **Returns:**
 [OutputFile](../outputfile)
+
+
+---
+
+
+### bindResource {#bindResource}
+
+| Name | Description |
+| --- | --- |
+| bindResource ([OutputFile](../outputfile), Object) | Binds resource to output file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| outputFile | [OutputFile](../outputfile) | Output file. |
+| obj | Object | Resource object. |
 
 
 ---
@@ -145,7 +182,7 @@ url: /aspose.slides/output/
 | --- | --- | --- |
 | obj | Object | Resource object. |
 
- **Result:**
+ **Returns:**
 String
 
 

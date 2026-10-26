@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns parent GroupShape object for a shapes collection. Read-only IGroupShapeaspose.slides/igroupshape.
+description: Gets the parent group shape object for the shapes collection. Read-only IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 20
 url: /aspose.slides/ishapecollection/parentgroup/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/parentgroup/
 
 ## IShapeCollection.ParentGroup property
 
-Returns parent GroupShape object for a shapes collection. Read-only [`IGroupShape`](../../igroupshape).
+Gets the parent group shape object for the shapes collection. Read-only [`IGroupShape`](../../igroupshape).
 
 ```csharp
 public IGroupShape ParentGroup { get; }

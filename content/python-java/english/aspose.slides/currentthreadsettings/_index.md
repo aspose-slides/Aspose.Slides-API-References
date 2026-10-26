@@ -15,7 +15,7 @@ Auxiliary class that allows to define default Locale for current thread
 | --- | --- |
 | CurrentThreadSettings() |  |
 
- **Result:**
+ **Returns:**
 CurrentThreadSettings
 
 
@@ -28,7 +28,7 @@ CurrentThreadSettings
 | --- | --- |
 | getLocale() | Returns default Locale for current thread. |
 
- **Result:**
+ **Returns:**
 Locale
 
 

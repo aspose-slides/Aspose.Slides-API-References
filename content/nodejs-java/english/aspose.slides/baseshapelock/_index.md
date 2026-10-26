@@ -17,7 +17,7 @@ url: /aspose.slides/baseshapelock/
 | --- | --- |
 | getNoLocks () | Return true if all lock-flags are disabled. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

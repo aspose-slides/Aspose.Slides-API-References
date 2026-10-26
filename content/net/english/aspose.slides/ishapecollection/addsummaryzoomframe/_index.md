@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new Summary Zoom object to the end of a collection.
+description: Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 type: docs
 weight: 160
 url: /aspose.slides/ishapecollection/addsummaryzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addsummaryzoomframe/
 
 ## IShapeCollection.AddSummaryZoomFrame method
 
-Adds a new Summary Zoom object to the end of a collection.
+Creates a new Summary Zoom frame and adds it to the end of the shape collection.
 
 ```csharp
 public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, float height)
@@ -17,24 +17,24 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new Section Zoom frame Single. |
-| y | Single | Y coordinate of a new Section Zoom frame Single. |
-| width | Single | Width of a new Section Zoom frame Single. |
-| height | Single | Height of a new Section Zoom frame Single. |
+| x | Single | The x-coordinate of the new Summary Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Summary Zoom frame, in points. |
+| width | Single | The width of the new Summary Zoom frame, in points. |
+| height | Single | The height of the new Summary Zoom frame, in points. |
 
 ### Return Value
 
-Created Summary Zoom object [`ISummaryZoomFrame`](../../isummaryzoomframe).
+The newly created [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | There are no sections in the presentation, or the target slide does not belong to any section. |
+| [PptxEditException](../../pptxeditexception) | Thrown if there are no sections in the presentation, or if the target slide does not belong to any section. |
 
 ### Remarks
 
-This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation.
+This method creates a Summary Zoom frame that aggregates summary links for all sections in the presentation.
 
 ### Examples
 

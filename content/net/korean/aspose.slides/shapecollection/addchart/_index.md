@@ -1,0 +1,137 @@
+---
+title: AddChart
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 새 차트를 생성하고 샘플 시리즈 데이터와 설정으로 초기화한 뒤, 도형 컬렉션의 끝에 추가합니다.
+type: docs
+weight: 100
+url: /ko/aspose.slides/shapecollection/addchart/
+---
+## AddChart(ChartType, float, float, float, float) {#addchart}
+
+새 차트를 만들고 샘플 시리즈 데이터와 설정을 초기화한 후, 도형 컬렉션의 끝에 추가합니다.
+
+```csharp
+public IChart AddChart(ChartType type, float x, float y, float width, float height)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | 추가할 차트의 유형. |
+| x | Single | 새 차트의 x 좌표(포인트 단위). |
+| y | Single | 새 차트의 y 좌표(포인트 단위). |
+| width | Single | 차트의 너비(포인트 단위). |
+| height | Single | 차트의 높이(포인트 단위). |
+
+### 반환 값
+
+새로 만든 [`IChart`](../../../aspose.slides.charts/ichart).
+
+### 예제
+
+다음 예제에서는 PowerPoint 프레젠테이션에서 차트를 만드는 방법을 보여줍니다.
+
+```csharp
+[C#]
+// PPTX 파일을 나타내는 Presentation 클래스를 인스턴스화합니다
+using(Presentation pres = new Presentation()) {
+  // 첫 번째 슬라이드에 접근합니다
+  ISlide sld = pres.Slides[0];
+  // 기본 데이터가 포함된 차트를 추가합니다
+  IChart chart = sld.Shapes.AddChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
+  // 차트 제목을 설정합니다
+  chart.ChartTitle.AddTextFrameForOverriding("Sample Title");
+  chart.ChartTitle.TextFrameForOverriding.TextFrameFormat.CenterText = NullableBool.True;
+  chart.ChartTitle.Height = 20;
+  chart.HasTitle = true;
+  // 첫 번째 시리즈에 값을 표시하도록 설정합니다
+  chart.ChartData.Series[0].Labels.DefaultDataLabelFormat.ShowValue = true;
+  // 차트 데이터 시트의 인덱스를 설정합니다
+  int defaultWorksheetIndex = 0;
+  // 차트 데이터 워크시트를 가져옵니다
+  IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+  // 기본으로 생성된 시리즈와 카테고리를 삭제합니다
+  chart.ChartData.Series.Clear();
+  chart.ChartData.Categories.Clear();
+  int s = chart.ChartData.Series.Count;
+  s = chart.ChartData.Categories.Count;
+  // 새 시리즈를 추가합니다
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.Type);
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.Type);
+  // 새 카테고리를 추가합니다
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
+  // 첫 번째 차트 시리즈를 가져옵니다
+  IChartSeries series = chart.ChartData.Series[0];
+  // 시리즈 데이터를 채웁니다
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 20));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 50));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 30));
+  // 시리즈의 채우기 색을 설정합니다
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Red;
+  // 두 번째 차트 시리즈를 가져옵니다
+  series = chart.ChartData.Series[1];
+  // 시리즈 데이터를 채웁니다
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 2, 30));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 2, 10));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 2, 60));
+  // 시리즈의 채우기 색을 설정합니다
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Green;
+  // 첫 번째 레이블에 카테고리 이름을 표시하도록 설정합니다
+  IDataLabel lbl = series.DataPoints[0].Label;
+  lbl.DataLabelFormat.ShowCategoryName = true;
+  lbl = series.DataPoints[1].Label;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  // 세 번째 레이블에 값을 표시하도록 시리즈를 설정합니다
+  lbl = series.DataPoints[2].Label;
+  lbl.DataLabelFormat.ShowValue = true;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  lbl.DataLabelFormat.Separator = "/";
+  // PPTX 파일을 디스크에 저장합니다
+  pres.Save("AsposeChart_out.pptx", SaveFormat.Pptx);
+}
+```
+
+### 참조
+
+* 인터페이스 [IChart](../../../aspose.slides.charts/ichart)
+* 열거형 [ChartType](../../../aspose.slides.charts/charttype)
+* 클래스 [ShapeCollection](../../shapecollection)
+* 네임스페이스 [Aspose.Slides](../../shapecollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
+
+새 차트를 만들고 샘플 시리즈 데이터와 설정을 초기화한 후, 도형 컬렉션의 끝에 추가합니다.
+
+```csharp
+public IChart AddChart(ChartType type, float x, float y, float width, float height, 
+    bool initWithSample)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | 추가할 차트의 유형. |
+| x | Single | 새 차트의 x 좌표(포인트 단위). |
+| y | Single | 새 차트의 y 좌표(포인트 단위). |
+| width | Single | 차트의 너비(포인트 단위). |
+| height | Single | 차트의 높이(포인트 단위). |
+| initWithSample | Boolean | 새 차트를 샘플 시리즈 데이터와 설정으로 초기화하려면 true; 시리즈 없이 최소 설정만으로 차트를 만들면 더 빠르게 생성되며, 이를 위해 false를 사용합니다. |
+
+### 반환 값
+
+새로 만든 [`IChart`](../../../aspose.slides.charts/ichart).
+
+### 참조
+
+* 인터페이스 [IChart](../../../aspose.slides.charts/ichart)
+* 열거형 [ChartType](../../../aspose.slides.charts/charttype)
+* 클래스 [ShapeCollection](../../shapecollection)
+* 네임스페이스 [Aspose.Slides](../../shapecollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

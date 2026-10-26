@@ -1,0 +1,28 @@
+---
+title: perspective property
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
+description: 
+type: docs
+url: /es/aspose.slides.charts/irotation3d/perspective/
+weight: 30
+---
+## perspective propiedad
+Devuelve o establece el valor perspective (ángulo de campo de visión) para gráficos 3D (entre 0 y 100).
+            Ignorado si el valor de la propiedad RightAngleAxes es true.
+            Lectura/escritura **int**.
+
+### Definición:
+```python
+@property
+def perspective(self):
+    ...
+
+@perspective.setter
+def perspective(self, value):
+    ...
+```
+
+### Ver también
+* clase [`IRotation3D`](/slides/python-net/es/aspose.slides.charts/irotation3d)
+* módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

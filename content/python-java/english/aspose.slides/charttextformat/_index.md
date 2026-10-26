@@ -49,7 +49,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getParagraphFormat() | ParagraphFormat. Read-only IChartParagraphFormat. |
 
- **Result:**
+ **Returns:**
 [ParagraphFormat](../paragraphformat)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getPortionFormat() | PortionFormat. Read-only IChartPortionFormat. |
 
- **Result:**
+ **Returns:**
 [ChartPortionFormat](../chartportionformat)
 
 
@@ -75,7 +75,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getTextBlockFormat() | TextBlockFormat. Read-only IChartTextBlockFormat. |
 
- **Result:**
+ **Returns:**
 [TextFrameFormat](../textframeformat)
 
 

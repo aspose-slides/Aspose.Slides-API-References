@@ -1,0 +1,92 @@
+---
+title: IDrawingGuide
+second_title: Aspose.Slides for Android via Java API Reference
+description: Represents an adjustable drawing guide.
+type: docs
+url: /vi/com.aspose.slides/idrawingguide/
+---
+```
+public interface IDrawingGuide
+```
+
+Represents an adjustable drawing guide.
+## Phương thức
+
+| Phương thức | Mô tả |
+| --- | --- |
+| [getOrientation()](#getOrientation--) | Trả về hoặc đặt hướng của hướng dẫn vẽ. |
+| [setOrientation(byte value)](#setOrientation-byte-) | Trả về hoặc đặt hướng của hướng dẫn vẽ. |
+| [getPosition()](#getPosition--) | Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide. |
+| [setPosition(float value)](#setPosition-float-) | Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide. |
+| [getColor()](#getColor--) | Trả về hoặc đặt màu của hướng dẫn vẽ. |
+| [setColor(Integer value)](#setColor-java.lang.Integer-) | Trả về hoặc đặt màu của hướng dẫn vẽ. |
+### getOrientation() {#getOrientation--}
+```
+public abstract byte getOrientation()
+```
+
+Trả về hoặc đặt hướng của hướng dẫn vẽ. Đọc/ghi [Orientation](../../com.aspose.slides/orientation).
+
+**Trả về:**
+byte
+### setOrientation(byte value) {#setOrientation-byte-}
+```
+public abstract void setOrientation(byte value)
+```
+
+Trả về hoặc đặt hướng của hướng dẫn vẽ. Đọc/ghi [Orientation](../../com.aspose.slides/orientation).
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | byte |  |
+
+### getPosition() {#getPosition--}
+```
+public abstract float getPosition()
+```
+
+Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide. Đọc/ghi float.
+
+--------------------
+
+Giá trị điển hình nằm trong khoảng từ 0 đến chiều cao slide đối với hướng dẫn ngang và từ 0 đến chiều rộng slide đối với hướng dẫn dọc.
+
+**Trả về:**
+float
+### setPosition(float value) {#setPosition-float-}
+```
+public abstract void setPosition(float value)
+```
+
+Trả về hoặc đặt vị trí của hướng dẫn vẽ tính bằng điểm từ góc trên, trái của slide. Đọc/ghi float.
+
+--------------------
+
+Giá trị điển hình nằm trong khoảng từ 0 đến chiều cao slide đối với hướng dẫn ngang và từ 0 đến chiều rộng slide đối với hướng dẫn dọc.
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | float |  |
+
+### getColor() {#getColor--}
+```
+public abstract Integer getColor()
+```
+
+Trả về hoặc đặt màu của hướng dẫn vẽ. Đọc/ghi java.lang.Integer.
+
+**Trả về:**
+java.lang.Integer
+### setColor(Integer value) {#setColor-java.lang.Integer-}
+```
+public abstract void setColor(Integer value)
+```
+
+Trả về hoặc đặt màu của hướng dẫn vẽ. Đọc/ghi java.lang.Integer.
+
+**Tham số:**
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| value | java.lang.Integer |  |

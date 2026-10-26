@@ -1,0 +1,85 @@
+---
+title: GroupCollectionPtr
+second_title: อ้างอิง API Aspose.Slides สำหรับ C++
+description: ตัวชี้คอลเลกชันกลุ่ม. ชนิดนี้เป็นตัวชี้ที่ใช้จัดการการลบของอ็อบเจ็กต์อื่น. ควรจัดสรรบนสแตกและส่งต่อให้ฟังก์ชันโดยค่า หรือโดยการอ้างอิงคอนสท์.
+type: docs
+weight: 53
+url: /th/system.text.regularexpressions/groupcollectionptr/
+---
+## GroupCollectionPtr คลาส
+
+
+[Group](../group/) ตัวชี้คอลเลกชัน. ชนิดนี้เป็นตัวชี้ที่ใช้จัดการการลบของอ็อบเจ็กต์อื่น. ควรจัดสรรบนสแตกและส่งต่อให้ฟังก์ชันโดยค่า หรือโดยการอ้างอิงคอนสท์.
+
+```cpp
+class GroupCollectionPtr : public System::SmartPtr<GroupCollection>
+```
+
+## เมธอด
+
+| Method | Description |
+| --- | --- |
+| auto [begin](../../system/smartptr/begin/)() | ตัวเข้าถึงสำหรับเมธอด [begin()](../../system/smartptr/begin/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [begin()](../../system/smartptr/begin/). |
+| auto [begin](../../system/smartptr/begin/)() const | ตัวเข้าถึงสำหรับเมธอด [begin()](../../system/smartptr/begin/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [begin()](../../system/smartptr/begin/). |
+| std::enable_if_t\<std::is_same\<Y, T\>::value, [SmartPtr](../../system/smartptr/)\<Y\>\> [Cast](../../system/smartptr/cast/)() const | แปลงตัวชี้เป็นประเภทของมันเอง. |
+| std::enable_if_t<\!std::is_same\<Y, T\>::value\&&std::is_base_of\<Y, T\>::value, [SmartPtr](../../system/smartptr/)\<Y\>\> [Cast](../../system/smartptr/cast/)() const | แปลงตัวชี้เป็นประเภทฐานโดยใช้ static_cast. |
+| std::enable_if_t\<Check::value\&&\!std::is_same\<Y, T\>::value\&&\!std::is_base_of\<Y, T\>::value, [SmartPtr](../../system/smartptr/)\<Y\>\> [Cast](../../system/smartptr/cast/)() const | แปลงตัวชี้เป็นประเภทที่สืบทอดโดยใช้ dynamic_cast. |
+| std::enable_if_t<\!Check::value\&&\!std::is_same\<Y, T\>::value\&&\!std::is_base_of\<Y, T\>::value, [SmartPtr](../../system/smartptr/)\<Y\>\> [Cast](../../system/smartptr/cast/)() const | แปลงตัวชี้เป็นประเภทที่สืบทอดโดยใช้ dynamic_cast. |
+| auto [cbegin](../../system/smartptr/cbegin/)() const | ตัวเข้าถึงสำหรับเมธอด [cbegin()](../../system/smartptr/cbegin/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [cbegin()](../../system/smartptr/cbegin/). |
+| auto [cend](../../system/smartptr/cend/)() const | ตัวเข้าถึงสำหรับเมธอด [cend()](../../system/smartptr/cend/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [cend()](../../system/smartptr/cend/). |
+| [SmartPtr](../../system/smartptr/)\<Y\> [const_pointer_cast](../../system/smartptr/const_pointer_cast/)() const | แปลงตัวชี้เป็นประเภทอื่นโดยใช้ const_cast กับอ็อบเจ็กต์ที่ชี้. |
+| [SmartPtr](../../system/smartptr/)\<Y\> [dynamic_pointer_cast](../../system/smartptr/dynamic_pointer_cast/)() const | แปลงตัวชี้เป็นประเภทอื่นโดยใช้ dynamic_cast กับอ็อบเจ็กต์ที่ชี้. |
+| auto [end](../../system/smartptr/end/)() | ตัวเข้าถึงสำหรับเมธอด [end()](../../system/smartptr/end/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [end()](../../system/smartptr/end/). |
+| auto [end](../../system/smartptr/end/)() const | ตัวเข้าถึงสำหรับเมธอด [end()](../../system/smartptr/end/) ของคอลเลกชันพื้นฐาน จะคอมไพล์เท่านั้นเมื่อ SmartPtr_ เป็นประเภทที่ทำพิเศษที่มีเมธอด [end()](../../system/smartptr/end/). |
+| [Pointee_](../../system/smartptr/pointee_/) * [get](../../system/smartptr/get/)() const | รับอ็อบเจ็กต์ที่ชี้. |
+| [SmartPtrMode](../../system/smartptrmode/) [get_Mode](../../system/smartptr/get_mode/)() const | รับโหมดของตัวชี้. |
+| [Pointee_](../../system/smartptr/pointee_/) * [get_shared](../../system/smartptr/get_shared/)() const | รับอ็อบเจ็กต์ที่ชี้ แต่ตรวจสอบว่าตัวชี้อยู่ในโหมด shared. |
+| int [get_shared_count](../../system/smartptr/get_shared_count/)() const | รับจำนวนตัวชี้ shared ที่มีต่ออ็อบเจ็กต์ที่อ้างถึง รวมถึงตัวปัจจุบัน ตรวจสอบว่าตัวชี้ปัจจุบันอยู่ในโหมด shared. |
+| int [GetHashCode](../../system/smartptr/gethashcode/)() const | เรียก [GetHashCode()](../../system/smartptr/gethashcode/) บนอ็อบเจ็กต์ที่ชี้. |
+| T * [GetObjectNotNull](../../system/smartptr/getobjectnotnull/)() const | รับอ็อบเจ็กต์ที่อ้างถึงในขณะนี้ (ถ้ามี) หรือโยนข้อยกเว้น. |
+| [Object](../../system/object/) * [GetObjectOrNull](../../system/smartptr/getobjectornull/)() const | รับอ็อบเจ็กต์ที่ชี้ (ถ้ามี) หรือ nullptr. เหมือนกับ [get()](../../system/smartptr/get/). |
+| [Object](../../system/object/) * [GetObjectOwner](../../system/smartptr/getobjectowner/)() const | รับอ็อบเจ็กต์ที่อ้างถึง. |
+| [Pointee_](../../system/smartptr/pointee_/) * [GetPointer](../../system/smartptr/getpointer/)() const | รับอ็อบเจ็กต์ที่ชี้ (ถ้ามี) หรือ nullptr. เหมือนกับ [get()](../../system/smartptr/get/). |
+|  [GroupCollectionPtr](./groupcollectionptr/)() | คอนสตรักเตอร์ตัวชี้ null. |
+|  [GroupCollectionPtr](./groupcollectionptr/)(const [SharedPtr](../../system/sharedptr/)\<[GroupCollection](../groupcollection/)\>\&) | คอนสตรักเตอร์แปลงประเภท. |
+| **bool** [Is](../../system/smartptr/is/)(const [System::TypeInfo](../../system/typeinfo/)\&) const | ตรวจสอบว่าวัตถุที่ชี้เป็นประเภทเฉพาะหรือประเภทลูกของมัน ตามหลักการของ C# 'is'. |
+| **bool** [IsAliasingPtr](../../system/smartptr/isaliasingptr/)() const | ตรวจสอบว่าตัวชี้ชี้ไปยังอ็อบเจ็กต์อื่นที่ไม่ได้เป็นของมัน (สร้างโดยคอนสตรักเตอร์ aliasing). |
+| **bool** [IsShared](../../system/smartptr/isshared/)() const | ตรวจสอบว่าตัวชี้อยู่ในโหมด shared. |
+| **bool** [IsWeak](../../system/smartptr/isweak/)() const | ตรวจสอบว่าตัวชี้อยู่ในโหมด weak. |
+| explicit  [operator bool](../../system/smartptr/operator_bool/)() const | ตรวจสอบว่าตัวชี้ไม่เป็น null. |
+| **bool** [operator!](../../system/smartptr/operator_not/)() const | ตรวจสอบว่าตัวชี้เป็น null. |
+| [Pointee_](../../system/smartptr/pointee_/)\& [operator*](../../system/smartptr/operator_star/)() const | รับการอ้างอิงของอ็อบเจ็กต์ที่ชี้ ตรวจสอบว่าตัวชี้ไม่เป็น null. |
+| [Pointee_](../../system/smartptr/pointee_/) * [operator->](../../system/smartptr/operator_minus_greater/)() const | อนุญาตให้เข้าถึงสมาชิกของอ็อบเจ็กต์ที่อ้างถึง. |
+| **bool** [operator<](../../system/smartptr/operator_less/)(Y *) const | ให้พฤติกรรมการเปรียบเทียบแบบ less สำหรับคลาส [SmartPtr](../../system/smartptr/). |
+| **bool** [operator<](../../system/smartptr/operator_less/)([SmartPtr](../../system/smartptr/)\<Y\> const\&) const | ให้พฤติกรรมการเปรียบเทียบแบบ less สำหรับคลาส [SmartPtr](../../system/smartptr/). |
+| [SmartPtr_](../../system/smartptr/smartptr_/)\& [operator=](../../system/smartptr/operator_equal/)([SmartPtr_](../../system/smartptr/smartptr_/)\&&) | ย้ายการกำหนดค่าให้กับอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/). x จะไม่สามารถใช้ได้ต่อ. |
+| [SmartPtr_](../../system/smartptr/smartptr_/)\& [operator=](../../system/smartptr/operator_equal/)(const [SmartPtr_](../../system/smartptr/smartptr_/)\&) | กำหนดค่าแบบคัดลอกให้กับอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/). |
+| [SmartPtr_](../../system/smartptr/smartptr_/)\& [operator=](../../system/smartptr/operator_equal/)(const [SmartPtr](../../system/smartptr/)\<Q\>\&) | กำหนดค่าแบบคัดลอกให้กับอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) ทำการแปลงประเภทที่จำเป็น. |
+| [SmartPtr_](../../system/smartptr/smartptr_/)\& [operator=](../../system/smartptr/operator_equal/)([Pointee_](../../system/smartptr/pointee_/) *) | กำหนดตัวชี้ดิบให้กับอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/). |
+| [SmartPtr_](../../system/smartptr/smartptr_/)\& [operator=](../../system/smartptr/operator_equal/)(std::nullptr_t) | ตั้งค่าตัวชี้เป็น nullptr. |
+| **bool** [operator==](../../system/smartptr/operator_equal_equal/)(std::nullptr_t) const | ตรวจสอบว่าตัวชี้ชี้ไปที่ nullptr. |
+| [GroupPtr](../groupptr/) [operator[]](./operator[]/)(size_t) const | ตัวเข้าถึง [Group](../group/). |
+| [SmartPtr_](../../system/smartptr/smartptr_/) [RemoveAliasing](../../system/smartptr/removealiasing/)() const | ลบการอัลไอซิ่ง (ที่สร้างโดยคอนสตรักเตอร์อัลไอซิ่ง) จากตัวชี้ ทำให้แน่ใจว่ามันจัดการ (ถ้าเป็น shared) หรือทำการติดตาม (ถ้าเป็น weak) ออบเจ็กต์เดียวกันที่มันชี้ไป. |
+| void [reset](../../system/smartptr/reset/)([Pointee_](../../system/smartptr/pointee_/) *) | ตั้งค่าอ็อบเจ็กต์ที่ชี้. |
+| void [reset](../../system/smartptr/reset/)() | ทำให้ตัวชี้ชี้ไปที่ nullptr. |
+| void [set_Mode](../../system/smartptr/set_mode/)([SmartPtrMode](../../system/smartptrmode/)) | ตั้งค่าโหมดของตัวชี้ อาจทำให้จำนวนการอ้างอิงของอ็อบเจ็กต์ที่อ้างถึงเปลี่ยนแปลง. |
+| void [SetContainedTemplateWeakPtr](../../system/smartptr/setcontainedtemplateweakptr/)(**uint32_t**) const | เรียกเมธอด SetTemplateWeakPtr() บนอ็อบเจ็กต์ที่ชี้ (ถ้ามี). |
+|  [SmartPtr](../../system/smartptr/smartptr/)([SmartPtrMode](../../system/smartptrmode/)) | สร้างอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) ด้วยโหมดที่ต้องการ. |
+|  [SmartPtr](../../system/smartptr/smartptr/)(std::nullptr_t, [SmartPtrMode](../../system/smartptrmode/)) | สร้างอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) ที่เป็น null-pointer ด้วยโหมดที่ต้องการ. |
+|  [SmartPtr](../../system/smartptr/smartptr/)([Pointee_](../../system/smartptr/pointee_/) *, [SmartPtrMode](../../system/smartptrmode/)) | สร้าง [SmartPtr](../../system/smartptr/) ที่ชี้ไปยังอ็อบเจ็กต์ที่ระบุ หรือแปลงตัวชี้ดิบเป็น [SmartPtr](../../system/smartptr/). |
+|  [SmartPtr](../../system/smartptr/smartptr/)(const [SmartPtr_](../../system/smartptr/smartptr_/)\&, [SmartPtrMode](../../system/smartptrmode/)) | สร้างอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) แบบคัดลอก ทั้งสองตัวชี้จะชี้ไปยังอ็อบเจ็กต์เดียวกันหลังจากนั้น. |
+|  [SmartPtr](../../system/smartptr/smartptr/)(const [SmartPtr](../../system/smartptr/)\<Q\>\&, [SmartPtrMode](../../system/smartptrmode/)) | สร้างอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) แบบคัดลอก ทั้งสองตัวชี้จะชี้ไปยังอ็อบเจ็กต์เดียวกันหลังจากนั้น ทำการแปลงประเภทหากอนุญาต. |
+|  [SmartPtr](../../system/smartptr/smartptr/)([SmartPtr_](../../system/smartptr/smartptr_/)\&&, [SmartPtrMode](../../system/smartptrmode/)) | สร้างอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) แบบย้าย ประสิทธิผลคือสลับสองตัวชี้ หากทั้งสองอยู่ในโหมดเดียวกัน x อาจไม่สามารถใช้งานได้หลังการเรียก. |
+| explicit  [SmartPtr](../../system/smartptr/smartptr/)(const [SmartPtr](../../system/smartptr/)\<[Array](../../system/array/)\<Y\>\>\&, [SmartPtrMode](../../system/smartptrmode/)) | แปลงประเภทของอาร์เรย์ที่อ้างถึงโดยสร้างอาร์เรย์ใหม่ของประเภทอื่น มีประโยชน์เมื่อใน C# มีการแคสต์อาร์เรย์ที่ไม่รองรับใน C++. |
+| explicit  [SmartPtr](../../system/smartptr/smartptr/)(const Y\&) | เริ่มต้นอาร์เรย์ว่าง ใช้เพื่อแปลบางโครงสร้างโค้ด C#. |
+|  [SmartPtr](../../system/smartptr/smartptr/)(const [SmartPtr](../../system/smartptr/)\<P\>\&, [Pointee_](../../system/smartptr/pointee_/) *, [SmartPtrMode](../../system/smartptrmode/)) | สร้าง [SmartPtr](../../system/smartptr/) ที่แชร์ข้อมูลความเป็นเจ้าของกับค่าตั้งต้นของ ptr แต่ถือ pointer p ที่ไม่เกี่ยวข้องและไม่มีการจัดการ. |
+| [SmartPtr](../../system/smartptr/)\<Y\> [static_pointer_cast](../../system/smartptr/static_pointer_cast/)() const | แปลงตัวชี้เป็นประเภทอื่นโดยใช้ static_cast กับอ็อบเจ็กต์ที่ชี้. |
+| [SmartPtr](../../system/smartptr/)\<[Object](../../system/object/)\> [ToObjectPtr](../../system/smartptr/toobjectptr/)() const | แปลงประเภทตัวชี้ใด ๆ ให้เป็นตัวชี้ไปยัง [Object](../../system/object/) ไม่จำเป็นต้องให้ประเภท Pointee_ สมบูรณ์. |
+| static const [System::TypeInfo](../../system/typeinfo/)\& [Type](../../system/smartptr/type/)() | ทางลัดเพื่อรับอ็อบเจ็กต์ [System::TypeInfo](../../system/typeinfo/) สำหรับประเภท Pointee_. |
+|  [~SmartPtr](../../system/smartptr/~smartptr/)() | ทำลายอ็อบเจ็กต์ [SmartPtr](../../system/smartptr/) หากจำเป็นจะลดตัวนับการอ้างอิงของอ็อบเจ็กต์ที่ชี้และลบอ็อบเจ็กต์. |
+
+## ดูเพิ่มเติม
+
+* คลาส [SmartPtr](../../system/smartptr/)
+* เนมสเปซ [System::Text::RegularExpressions](../)
+* ไลบรารี [Aspose.Slides](../../)

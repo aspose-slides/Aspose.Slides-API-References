@@ -11,13 +11,26 @@ url: /aspose.slides/masterhandoutslide/
 
  Represents master slide for handouts.
  
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the master handout slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the master handout slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager)
 
 
@@ -30,7 +43,7 @@ url: /aspose.slides/masterhandoutslide/
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
@@ -49,7 +62,7 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the theme manager. Read-only IMasterThemeManager. |
 
- **Result:**
+ **Returns:**
 [MasterThemeManager](../masterthememanager)
 
 

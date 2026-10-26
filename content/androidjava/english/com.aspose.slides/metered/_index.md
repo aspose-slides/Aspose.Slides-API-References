@@ -24,6 +24,7 @@ Provides methods to set metered key.
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private key. |
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
 | [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit |
+| [isMeteredLicensed()](#isMeteredLicensed--) | Check whether metered is licensed |
 ### Metered() {#Metered--}
 ```
 public Metered()
@@ -66,3 +67,13 @@ Gets consumption credit
 
 **Returns:**
 double - consumption quantity
+### isMeteredLicensed() {#isMeteredLicensed--}
+```
+public static boolean isMeteredLicensed()
+```
+
+
+Check whether metered is licensed
+
+**Returns:**
+boolean - True or false

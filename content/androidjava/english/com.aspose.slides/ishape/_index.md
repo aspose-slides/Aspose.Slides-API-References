@@ -29,31 +29,33 @@ Represents a shape on a slide.
 | [getThreeDFormat()](#getThreeDFormat--) | Returns the ThreeDFormat object that contains line formatting properties for a shape. |
 | [getEffectFormat()](#getEffectFormat--) | Returns the EffectFormat object which contains pixel effects applied to a shape. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
-| [getThumbnail()](#getThumbnail--) | Returns shape thumbnail. |
-| [getThumbnail(int bounds, float scaleX, float scaleY)](#getThumbnail-int-float-float-) | Returns shape thumbnail. |
+| [getImage()](#getImage--) | Returns shape thumbnail. |
+| [getImage(int bounds, float scaleX, float scaleY)](#getImage-int-float-float-) | Returns shape thumbnail. |
 | [getHidden()](#getHidden--) | Determines whether the shape is hidden. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Determines whether the shape is hidden. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
 | [getConnectionSiteCount()](#getConnectionSiteCount--) | Returns the number of connection sites on the shape. |
 | [getRotation()](#getRotation--) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
 | [setRotation(float value)](#setRotation-float-) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
-| [getX()](#getX--) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [setX(float value)](#setX-float-) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [getY()](#getY--) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [setY(float value)](#setY-float-) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [getWidth()](#getWidth--) | Returns or sets the width of the shape. |
-| [setWidth(float value)](#setWidth-float-) | Returns or sets the width of the shape. |
-| [getHeight()](#getHeight--) | Returns or sets the height of the shape. |
-| [setHeight(float value)](#setHeight-float-) | Returns or sets the height of the shape. |
+| [getX()](#getX--) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [setX(float value)](#setX-float-) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [getY()](#getY--) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [setY(float value)](#setY-float-) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [getWidth()](#getWidth--) | Gets or sets the width of the shape, measured in points. |
+| [setWidth(float value)](#setWidth-float-) | Gets or sets the width of the shape, measured in points. |
+| [getHeight()](#getHeight--) | Gets or sets the height of the shape, measured in points. |
+| [setHeight(float value)](#setHeight-float-) | Gets or sets the height of the shape, measured in points. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the alternative text associated with a shape. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the alternative text associated with a shape. |
 | [getAlternativeTextTitle()](#getAlternativeTextTitle--) | Returns or sets the title of alternative text associated with a shape. |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | Returns or sets the title of alternative text associated with a shape. |
 | [getName()](#getName--) | Returns or sets the name of a shape. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of a shape. |
+| [isDecorative()](#isDecorative--) | Gets or sets 'Mark as decorative' option Reed/write boolean. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Gets or sets 'Mark as decorative' option Reed/write boolean. |
 | [getShapeLock()](#getShapeLock--) | Returns shape's locks. |
-| [getUniqueId()](#getUniqueId--) | Gets unique shape identifier in presentation scope. |
-| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Gets unique shape identifier in slide scope. |
+| [getUniqueId()](#getUniqueId--) | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. |
+| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. |
 | [isGrouped()](#isGrouped--) | Determines whether the shape is grouped. |
 | [getBlackWhiteMode()](#getBlackWhiteMode--) | Property specifies how a shape will render in black-and-white display mode.. |
 | [setBlackWhiteMode(byte value)](#setBlackWhiteMode-byte-) | Property specifies how a shape will render in black-and-white display mode.. |
@@ -125,7 +127,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));
@@ -159,9 +161,9 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 >      shapes.insertTable(...);
 >      shapes.insertVideoFrame(...);
 >  }
->  //But IShape.RawFrame frame properties can be undefined. This make sence when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
+>  But IShape.RawFrame frame properties can be undefined. This make sense when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
 >  IShape shape = ...; // shape is linked to placeholder
->  shape.setRawFrame(new ShapeFrame(Float.NaN, Float.NaN, 100, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0)); // now shape inherits x, y, height, flipH, flipV values form placeholder and overrides width=100 and rotationAngle=0.{code}
+>  shape.setRawFrame(new ShapeFrame(Float.NaN, Float.NaN, 100, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0)); // now shape inherits x, y, height, flipH, flipV values form placeholder and overrides width=100 and rotationAngle=0.
 > ```
 
 **Returns:**
@@ -177,7 +179,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));
@@ -211,9 +213,9 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 >      shapes.insertTable(...);
 >      shapes.insertVideoFrame(...);
 >  }
->  //But IShape.RawFrame frame properties can be undefined. This make sence when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
+>  But IShape.RawFrame frame properties can be undefined. This make sense when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
 >  IShape shape = ...; // shape is linked to placeholder
->  shape.setRawFrame(new ShapeFrame(Float.NaN, Float.NaN, 100, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0)); // now shape inherits x, y, height, flipH, flipV values form placeholder and overrides width=100 and rotationAngle=0.{code}
+>  shape.setRawFrame(new ShapeFrame(Float.NaN, Float.NaN, 100, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0)); // now shape inherits x, y, height, flipH, flipV values form placeholder and overrides width=100 and rotationAngle=0.
 > ```
 
 **Parameters:**
@@ -292,19 +294,19 @@ Returns the FillFormat object that contains fill formatting properties for a sha
 
 **Returns:**
 [IFillFormat](../../com.aspose.slides/ifillformat)
-### getThumbnail() {#getThumbnail--}
+### getImage() {#getImage--}
 ```
-public abstract Bitmap getThumbnail()
+public abstract IImage getImage()
 ```
 
 
 Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 
 **Returns:**
-android.graphics.Bitmap - Shape thumbnail.
-### getThumbnail(int bounds, float scaleX, float scaleY) {#getThumbnail-int-float-float-}
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail.
+### getImage(int bounds, float scaleX, float scaleY) {#getImage-int-float-float-}
 ```
-public abstract Bitmap getThumbnail(int bounds, float scaleX, float scaleY)
+public abstract IImage getImage(int bounds, float scaleX, float scaleY)
 ```
 
 
@@ -318,7 +320,7 @@ Returns shape thumbnail.
 | scaleY | float | Y scale |
 
 **Returns:**
-android.graphics.Bitmap - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 ### getHidden() {#getHidden--}
 ```
 public abstract boolean getHidden()
@@ -399,11 +401,11 @@ public abstract float getX()
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float.
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -413,11 +415,11 @@ public abstract void setX(float value)
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float.
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -430,11 +432,11 @@ public abstract float getY()
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float.
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -444,11 +446,11 @@ public abstract void setY(float value)
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float.
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,11 +463,11 @@ public abstract float getWidth()
 ```
 
 
-Returns or sets the width of the shape. Read/write float.
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -475,11 +477,11 @@ public abstract void setWidth(float value)
 ```
 
 
-Returns or sets the width of the shape. Read/write float.
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,11 +494,11 @@ public abstract float getHeight()
 ```
 
 
-Returns or sets the height of the shape. Read/write float.
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -506,11 +508,11 @@ public abstract void setHeight(float value)
 ```
 
 
-Returns or sets the height of the shape. Read/write float.
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -586,6 +588,51 @@ Returns or sets the name of a shape. Read/write String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### isDecorative() {#isDecorative--}
+```
+public abstract boolean isDecorative()
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write boolean.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public abstract void setDecorative(boolean value)
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write boolean.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getShapeLock() {#getShapeLock--}
 ```
 public abstract IBaseShapeLock getShapeLock()
@@ -602,7 +649,7 @@ public abstract long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId.getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId.
 
 **Returns:**
 long
@@ -612,7 +659,7 @@ public abstract long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId.getUniqueId) for getting unique shape identifier in presentation scope.
+Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only long. See also \#getUniqueId.getUniqueId.
 
 **Returns:**
 long
@@ -626,7 +673,7 @@ Determines whether the shape is grouped. Read-only boolean.
 
 --------------------
 
-Property (\#getParentGroup.getParentGroup) returns parent GroupShape object if shape is grouped.
+Property \#getParentGroup.getParentGroup returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -663,7 +710,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property (\#isGrouped.isGrouped) determines whether the shape is grouped.
+Property \#isGrouped.isGrouped determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)
@@ -710,7 +757,7 @@ Returns a basic placeholder shape (shape from the layout and/or master slide tha
 >  try {
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IShape shape = slide.getShapes().get_Item(0);
->      IEffect[] shapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(shape);
+>      IEffect[] shapeEffects = slide.getTimeline().getMainSequence().getEffectsByShape(shape);
 >      IShape layoutShape = shape.getBasePlaceholder();
 >      IEffect[] layoutShapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(layoutShape);
 >      IShape masterShape = layoutShape.getBasePlaceholder();

@@ -1,0 +1,25 @@
+---
+title: unique_id property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.ink/inkactions/unique_id/
+weight: 400
+---
+## unique_id özelliği
+Returns an internal, presentation-scoped identifier intended for use by add-ins or other code.
+Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key.
+Read-only **int**.
+Ayrıca bakınız [`Shape.office_interop_shape_id`](/slides/python-net/tr/aspose.slides/shape/office_interop_shape_id).
+
+### Tanım:
+```python
+@property
+def unique_id(self):
+    ...
+```
+
+### Ayrıca bakınız
+* sınıf [`InkActions`](/slides/python-net/tr/aspose.slides.ink/inkactions)
+* modül [`aspose.slides.ink`](/slides/python-net/tr/aspose.slides.ink)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

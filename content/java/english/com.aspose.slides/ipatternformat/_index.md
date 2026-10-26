@@ -17,8 +17,8 @@ Represents a pattern to fill a shape.
 | [setPatternStyle(byte value)](#setPatternStyle-byte-) | Returns or sets the pattern style. |
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
-| [getTileImage(Color background, Color foreground)](#getTileImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
-| [getTileImage(Color styleColor)](#getTileImage-java.awt.Color-) | Creates a tile image for the pattern fill. |
+| [getTile(Color background, Color foreground)](#getTile-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
+| [getTile(Color styleColor)](#getTile-java.awt.Color-) | Creates a tile image for the pattern fill. |
 ### getPatternStyle() {#getPatternStyle--}
 ```
 public abstract byte getPatternStyle()
@@ -62,9 +62,9 @@ Returns the background pattern color. Read-only [IColorFormat](../../com.aspose.
 
 **Returns:**
 [IColorFormat](../../com.aspose.slides/icolorformat)
-### getTileImage(Color background, Color foreground) {#getTileImage-java.awt.Color-java.awt.Color-}
+### getTile(Color background, Color foreground) {#getTile-java.awt.Color-java.awt.Color-}
 ```
-public abstract BufferedImage getTileImage(Color background, Color foreground)
+public abstract IImage getTile(Color background, Color foreground)
 ```
 
 
@@ -77,10 +77,10 @@ Creates a tile image for the pattern fill with a specified colors.
 | foreground | java.awt.Color | The foreground java.awt.Color for the pattern. |
 
 **Returns:**
-java.awt.image.BufferedImage - Tile java.awt.image.BufferedImage.
-### getTileImage(Color styleColor) {#getTileImage-java.awt.Color-}
+[IImage](../../com.aspose.slides/iimage) - Tile java.awt.image.BufferedImage.
+### getTile(Color styleColor) {#getTile-java.awt.Color-}
 ```
-public abstract BufferedImage getTileImage(Color styleColor)
+public abstract IImage getTile(Color styleColor)
 ```
 
 
@@ -92,4 +92,4 @@ Creates a tile image for the pattern fill.
 | styleColor | java.awt.Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 **Returns:**
-java.awt.image.BufferedImage - Tile java.awt.image.BufferedImage.
+[IImage](../../com.aspose.slides/iimage) - Tile java.awt.image.BufferedImage.

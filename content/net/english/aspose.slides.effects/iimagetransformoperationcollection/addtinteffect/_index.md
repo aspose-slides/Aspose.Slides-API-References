@@ -3,7 +3,7 @@ title: AddTintEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Adds the new Tint effect to the end of a collection.
 type: docs
-weight: 190
+weight: 200
 url: /aspose.slides.effects/iimagetransformoperationcollection/addtinteffect/
 ---
 

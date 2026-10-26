@@ -3,7 +3,7 @@ title: ExternalWorkbookPath
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents external workbook path if data source is external null otherwise
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides.charts/ichartdata/externalworkbookpath/
 ---
 

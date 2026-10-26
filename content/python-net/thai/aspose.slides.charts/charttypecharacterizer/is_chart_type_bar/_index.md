@@ -1,0 +1,46 @@
+---
+title: is_chart_type_bar method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.charts/charttypecharacterizer/is_chart_type_bar/
+weight: 60
+---
+## is_chart_type_bar(chart_type) {#charttype}
+คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Bar.
+            ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint (ดู "Change Chart Type" dialog ใน PowerPoint):
+            [`ChartType.CLUSTERED_BAR`](/slides/python-net/th/aspose.slides.charts/charttype/CLUSTERED_BAR),
+            [`ChartType.CLUSTERED_BAR_3D`](/slides/python-net/th/aspose.slides.charts/charttype/CLUSTERED_BAR_3D),
+            [`ChartType.PERCENTS_STACKED_BAR`](/slides/python-net/th/aspose.slides.charts/charttype/PERCENTS_STACKED_BAR),
+            [`ChartType.PERCENTS_STACKED_BAR_3D`](/slides/python-net/th/aspose.slides.charts/charttype/PERCENTS_STACKED_BAR_3D),
+            [`ChartType.STACKED_BAR`](/slides/python-net/th/aspose.slides.charts/charttype/STACKED_BAR),
+            [`ChartType.STACKED_BAR_3D`](/slides/python-net/th/aspose.slides.charts/charttype/STACKED_BAR_3D),
+            [`ChartType.CLUSTERED_HORIZONTAL_CONE`](/slides/python-net/th/aspose.slides.charts/charttype/CLUSTERED_HORIZONTAL_CONE),
+            [`ChartType.CLUSTERED_HORIZONTAL_CYLINDER`](/slides/python-net/th/aspose.slides.charts/charttype/CLUSTERED_HORIZONTAL_CYLINDER),
+            [`ChartType.CLUSTERED_HORIZONTAL_PYRAMID`](/slides/python-net/th/aspose.slides.charts/charttype/CLUSTERED_HORIZONTAL_PYRAMID),
+            [`ChartType.STACKED_HORIZONTAL_CONE`](/slides/python-net/th/aspose.slides.charts/charttype/STACKED_HORIZONTAL_CONE),
+            [`ChartType.STACKED_HORIZONTAL_CYLINDER`](/slides/python-net/th/aspose.slides.charts/charttype/STACKED_HORIZONTAL_CYLINDER),
+            [`ChartType.STACKED_HORIZONTAL_PYRAMID`](/slides/python-net/th/aspose.slides.charts/charttype/STACKED_HORIZONTAL_PYRAMID),
+            [`ChartType.PERCENTS_STACKED_HORIZONTAL_CONE`](/slides/python-net/th/aspose.slides.charts/charttype/PERCENTS_STACKED_HORIZONTAL_CONE),
+            [`ChartType.PERCENTS_STACKED_HORIZONTAL_CYLINDER`](/slides/python-net/th/aspose.slides.charts/charttype/PERCENTS_STACKED_HORIZONTAL_CYLINDER),
+            [`ChartType.PERCENTS_STACKED_HORIZONTAL_PYRAMID`](/slides/python-net/th/aspose.slides.charts/charttype/PERCENTS_STACKED_HORIZONTAL_PYRAMID).
+
+
+```python
+@staticmethod
+def is_chart_type_bar(chart_type):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| chart_type | [`ChartType`](/slides/python-net/th/aspose.slides.charts/charttype) |  |
+
+
+
+### ดูเพิ่มเติม
+* enumeration [`ChartType`](/slides/python-net/th/aspose.slides.charts/charttype)
+* คลาส [`ChartTypeCharacterizer`](/slides/python-net/th/aspose.slides.charts/charttypecharacterizer)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

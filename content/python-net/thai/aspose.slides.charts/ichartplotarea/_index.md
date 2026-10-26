@@ -1,0 +1,36 @@
+---
+title: IChartPlotArea class
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides.charts/ichartplotarea/
+---
+## IChartPlotArea คลาส
+
+แสดงคุณสมบัติของชื่อแผนภูมิ
+
+IChartPlotArea type เปิดเผยสมาชิกต่อไปนี้:
+
+## คุณสมบัติ
+
+| Property | Description |
+| :- | :- |
+| [`format`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/format/) | Returns the format of a plot area.<br/>Read-only [`IFormat`](/slides/python-net/th/aspose.slides.charts/iformat). |
+| [`layout_target_type`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/layout_target_type/) | If layout of the plot area defined manually this property specifies whether <br/>to layout the plot area by its inside (not including axis and axis labels) or outside<br/> (including axis and axis labels).<br/>Read/write [`IChartPlotArea.layout_target_type`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/layout_target_type). |
+| [`x`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/x/) |  |
+| [`y`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/y/) |  |
+| [`width`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/width/) |  |
+| [`height`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/height/) |  |
+| [`right`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/right/) |  |
+| [`bottom`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/bottom/) |  |
+| [`chart`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/chart/) |  |
+| [`slide`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/slide/) |  |
+| [`presentation`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/presentation/) |  |
+| [`actual_x`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/actual_x/) |  |
+| [`actual_y`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/actual_y/) |  |
+| [`actual_width`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/actual_width/) |  |
+| [`actual_height`](/slides/python-net/th/aspose.slides.charts/ichartplotarea/actual_height/) |  |
+
+### ดูเพิ่มเติม
+* module [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

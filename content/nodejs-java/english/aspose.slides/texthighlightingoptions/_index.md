@@ -17,7 +17,7 @@ url: /aspose.slides/texthighlightingoptions/
 | --- | --- |
 | TextHighlightingOptions() | Creates new default text highlighting options. |
 
- **Result:**
+ **Returns:**
 TextHighlightingOptions
 
 
@@ -30,7 +30,7 @@ TextHighlightingOptions
 | --- | --- |
 | getCaseSensitive () | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getWholeWordsOnly () | Set true to match only whole words, false - otherwise. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

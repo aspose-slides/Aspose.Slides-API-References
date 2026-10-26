@@ -1,0 +1,21 @@
+---
+title: effect_format property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.charts/ichartportionformat/effect_format/
+weight: 50
+---
+## effect_format คุณสมบัติ
+### คำนิยาม:
+```python
+@property
+def effect_format(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IChartPortionFormat`](/slides/python-net/th/aspose.slides.charts/ichartportionformat)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

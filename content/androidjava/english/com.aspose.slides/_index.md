@@ -20,7 +20,9 @@ url: /com.aspose.slides/
 | [AlphaModulate](../com.aspose.slides/alphamodulate) | Represents an Alpha Modulate effect. |
 | [AlphaModulateFixed](../com.aspose.slides/alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. |
 | [AlphaReplace](../com.aspose.slides/alphareplace) | Represents and Alpha Replace effect. |
+| [AnimateTextType](../com.aspose.slides/animatetexttype) | Represents the animate text type of an animation effect. |
 | [AnimationTimeLine](../com.aspose.slides/animationtimeline) | Represents timeline of animation. |
+| [AsposeAIWebClient](../com.aspose.slides/asposeaiwebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to Aspose's own LLM. |
 | [AsposeLicenseException](../com.aspose.slides/asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](../com.aspose.slides/audio) | Represents an embedded audio file. |
 | [AudioCollection](../com.aspose.slides/audiocollection) | Represents a collection of embedded audio files. |
@@ -57,9 +59,11 @@ url: /com.aspose.slides/
 | [BehaviorPropertyCollection](../com.aspose.slides/behaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [BevelPresetType](../com.aspose.slides/bevelpresettype) | Constants which define 3D bevel of shape. |
 | [BiLevel](../com.aspose.slides/bilevel) | Represents a Bi-Level (black/white) effect. |
+| [BlackWhiteConversionMode](../com.aspose.slides/blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
 | [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](../com.aspose.slides/blur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
+| [BrightnessContrast](../com.aspose.slides/brightnesscontrast) | Represents a BrightnessContrast effect. |
 | [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | Browsed at a kiosk (full screen) |
 | [BrowsedByIndividual](../com.aspose.slides/browsedbyindividual) | Browsed by individual (window) |
 | [BubbleSizeRepresentationType](../com.aspose.slides/bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
@@ -70,6 +74,8 @@ url: /com.aspose.slides/
 | [Camera](../com.aspose.slides/camera) | Represents Camera. |
 | [CameraPresetType](../com.aspose.slides/camerapresettype) | Constants which define camera preset type. |
 | [CannotCombine2DAnd3DChartsException](../com.aspose.slides/cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
+| [Captions](../com.aspose.slides/captions) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](../com.aspose.slides/captionscollection) | Represents a collection of the closed captions. |
 | [CategoryAxisType](../com.aspose.slides/categoryaxistype) | Represents a type of a category axis. |
 | [Cell](../com.aspose.slides/cell) | Represents a cell of a table. |
 | [CellCircularReferenceException](../com.aspose.slides/cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
@@ -134,6 +140,7 @@ url: /com.aspose.slides/
 | [CommentsPositions](../com.aspose.slides/commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](../com.aspose.slides/commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](../com.aspose.slides/compress) | Represents a group of methods intended to compress [Presentation](../com.aspose.slides/presentation). |
+| [CompressionLevel](../com.aspose.slides/compressionlevel) | Specifies ZIP compression levels for OpenXML file. |
 | [Conformance](../com.aspose.slides/conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](../com.aspose.slides/connector) | Represents a connector. |
 | [ConnectorLock](../com.aspose.slides/connectorlock) | Determines which operations are disabled on the parent Connector. |
@@ -161,6 +168,8 @@ url: /com.aspose.slides/
 | [DocumentProperties](../com.aspose.slides/documentproperties) | Represents properties of a presentation. |
 | [DomObject<TParent>](../com.aspose.slides/domobject) | Base DOM object |
 | [DoubleChartValue](../com.aspose.slides/doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
+| [DrawingGuide](../com.aspose.slides/drawingguide) | Represents an adjustable drawing guide. |
+| [DrawingGuidesCollection](../com.aspose.slides/drawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [Duotone](../com.aspose.slides/duotone) | Represents a Duotone effect. |
 | [Effect](../com.aspose.slides/effect) | Represents animation effect. |
 | [EffectChartMajorGroupingType](../com.aspose.slides/effectchartmajorgroupingtype) | Represents the type of an animation effect for chart's element. |
@@ -180,11 +189,15 @@ url: /com.aspose.slides/
 | [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters) | Represents the rule to use for adding new embedding font into [IPresentation](../com.aspose.slides/ipresentation) |
 | [EmbeddedEotFontsHtmlController](../com.aspose.slides/embeddedeotfontshtmlcontroller) | The formatting controller class to use for fonts embedding in EOT format |
 | [EmbeddedWoffFontsHtmlController](../com.aspose.slides/embeddedwofffontshtmlcontroller) | The formatting controller class to use for fonts embedding in WOFF format |
+| [EmbeddingLevel](../com.aspose.slides/embeddinglevel) | Represents the licensing rights for embedding the font. |
 | [EmptyTransition](../com.aspose.slides/emptytransition) | Empty slide transition effect. |
 | [ErrorBarType](../com.aspose.slides/errorbartype) | Represents type of error bar |
 | [ErrorBarValueType](../com.aspose.slides/errorbarvaluetype) | Represents type of error bar value |
 | [ErrorBarsCustomValues](../com.aspose.slides/errorbarscustomvalues) | Specifies the errors bar values. |
 | [ErrorBarsFormat](../com.aspose.slides/errorbarsformat) | Represents error bars of chart series. |
+| [ExcelDataCell](../com.aspose.slides/exceldatacell) | Represents a single cell in an Excel workbook. |
+| [ExcelDataWorkbook](../com.aspose.slides/exceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
+| [ExcelWorkbookImporter](../com.aspose.slides/excelworkbookimporter) | Provides functionality for importing content from an Excel workbook into a presentation. |
 | [ExternalResourceResolver](../com.aspose.slides/externalresourceresolver) | Callback class used to resolve external resources during Html, Svg documents import. |
 | [ExtraColorScheme](../com.aspose.slides/extracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [ExtraColorSchemeCollection](../com.aspose.slides/extracolorschemecollection) | Represents a collection of additional color schemes. |
@@ -209,6 +222,7 @@ url: /com.aspose.slides/
 | [FontFallBackRulesCollection](../com.aspose.slides/fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](../com.aspose.slides/fontscheme) | Stores theme-defined fonts. |
 | [FontSources](../com.aspose.slides/fontsources) | Provides file and memory sources for external fonts. |
+| [FontStyleType](../com.aspose.slides/fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |
@@ -234,12 +248,17 @@ url: /com.aspose.slides/
 | [GradientStopCollection](../com.aspose.slides/gradientstopcollection) | Represnts a collection of gradient stops. |
 | [GradientStopCollectionEffectiveData](../com.aspose.slides/gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
 | [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
+| [GradientStyle](../com.aspose.slides/gradientstyle) | Represents the available gradient styles. |
 | [GraphicalObject](../com.aspose.slides/graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](../com.aspose.slides/graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](../com.aspose.slides/grayscale) | Represents a Gray Scale effect. |
 | [GroupShape](../com.aspose.slides/groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](../com.aspose.slides/groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
+| [HandleRepeatedSpaces](../com.aspose.slides/handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
+| [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
+| [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
+| [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
 | [Html5Options](../com.aspose.slides/html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
 | [HtmlFormatter](../com.aspose.slides/htmlformatter) | Represents HTML file template. |
@@ -251,18 +270,26 @@ url: /com.aspose.slides/
 | [HyperlinkManager](../com.aspose.slides/hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](../com.aspose.slides/hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](../com.aspose.slides/imagecollection) | Represents collection of PPImage. |
+| [ImageFormat](../com.aspose.slides/imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](../com.aspose.slides/imagepixelformat) | Specifies the pixel format for the generated images. |
 | [ImageTransformOCollectionEffectiveData](../com.aspose.slides/imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [ImageTransformOperation](../com.aspose.slides/imagetransformoperation) | Represents abstract image transformation effect. |
 | [ImageTransformOperationCollection](../com.aspose.slides/imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
 | [ImageTransformOperationFactory](../com.aspose.slides/imagetransformoperationfactory) | Allows to create image transform operations |
+| [Images](../com.aspose.slides/images) | Methods to instantiate and work with [IImage](../com.aspose.slides/iimage). |
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
+| [InkActions](../com.aspose.slides/inkactions) | Represents the root of ink actions. |
+| [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
+| [InkEffectType](../com.aspose.slides/inkeffecttype) | Specifies a set of predefined visual effects for ink rendering. |
+| [InkOptions](../com.aspose.slides/inkoptions) | Provides options that control the look of Ink objects in exported document. |
+| [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
 | [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
 | [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | Represents the source of [InterruptionToken](../com.aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
+| [LayoutPlaceholderManager](../com.aspose.slides/layoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [LayoutSlide](../com.aspose.slides/layoutslide) | Represents a layout slide. |
 | [LayoutSlideCollection](../com.aspose.slides/layoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [LayoutSlideHeaderFooterManager](../com.aspose.slides/layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
@@ -350,6 +377,7 @@ url: /com.aspose.slides/
 | [MathNaryOperatorTypes](../com.aspose.slides/mathnaryoperatortypes) | Nary operator IMathNaryOperator types (excluding integrals) For integrals [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) |
 | [MathParagraph](../com.aspose.slides/mathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [MathParagraphFactory](../com.aspose.slides/mathparagraphfactory) | Allows to create a math paragraph |
+| [MathPhantom](../com.aspose.slides/mathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
 | [MathPortion](../com.aspose.slides/mathportion) | Represents a portion with mathematical context inside. |
 | [MathRadical](../com.aspose.slides/mathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
 | [MathRadicalFactory](../com.aspose.slides/mathradicalfactory) | Allows to create math radical |
@@ -365,6 +393,7 @@ url: /com.aspose.slides/
 | [MathVerticalAlignment](../com.aspose.slides/mathverticalalignment) | Vertical Alignment |
 | [MathematicalText](../com.aspose.slides/mathematicaltext) | Mathematical text |
 | [MathematicalTextFactory](../com.aspose.slides/mathematicaltextfactory) | Allows to create a MathematicalText element |
+| [Merger](../com.aspose.slides/merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 | [Metered](../com.aspose.slides/metered) | Provides methods to set metered key. |
 | [ModernComment](../com.aspose.slides/moderncomment) | Represents a comment on a slide. |
 | [ModernCommentStatus](../com.aspose.slides/moderncommentstatus) | Represents the status of a modern comment. |
@@ -394,6 +423,8 @@ url: /com.aspose.slides/
 | [OdpReadException](../com.aspose.slides/odpreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [OleEmbeddedDataInfo](../com.aspose.slides/oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | [OleObjectFrame](../com.aspose.slides/oleobjectframe) | Represents an OLE object on a slide. |
+| [OpenAICompatibleWebClient](../com.aspose.slides/openaicompatiblewebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to an OpenAI-compatible LLM provider at a specified base URL. |
+| [OpenAIWebClient](../com.aspose.slides/openaiwebclient) | A built-in [IAIWebClient](../com.aspose.slides/iaiwebclient) implementation that connects to the OpenAI API. |
 | [OptionalBlackTransition](../com.aspose.slides/optionalblacktransition) | Optional black slide transition effect. |
 | [OrganizationChartLayoutType](../com.aspose.slides/organizationchartlayouttype) | Represents formatting type the child nodes in an organization chart |
 | [Orientation](../com.aspose.slides/orientation) | Represents the orientation of a shape. |
@@ -416,6 +447,7 @@ url: /com.aspose.slides/
 | [PatternStyle](../com.aspose.slides/patternstyle) | Represents the pattern style. |
 | [PdfAccessPermissions](../com.aspose.slides/pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
 | [PdfCompliance](../com.aspose.slides/pdfcompliance) | Constants which define the PDF standards compliance level. |
+| [PdfImportOptions](../com.aspose.slides/pdfimportoptions) | Represents the PDF import options |
 | [PdfOptions](../com.aspose.slides/pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PdfTextCompression](../com.aspose.slides/pdftextcompression) | Constants which define the type of a compression applied to all content in the PDF file except images. |
 | [PersistenceType](../com.aspose.slides/persistencetype) | Specifies the method used to store properties of the ActiveX control. |
@@ -451,6 +483,7 @@ url: /com.aspose.slides/
 | [PptxUnsupportedFormatException](../com.aspose.slides/pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](../com.aspose.slides/presentation) | Represents a Microsoft PowerPoint presentation. |
 | [PresentationAnimationsGenerator](../com.aspose.slides/presentationanimationsgenerator) | Represents a generator of the animations in the [Presentation](../com.aspose.slides/presentation). |
+| [PresentationContentAmountType](../com.aspose.slides/presentationcontentamounttype) | Specifies the amount of content included in the generated presentation, influencing both the number of slides and the level of detail per slide. |
 | [PresentationFactory](../com.aspose.slides/presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](../com.aspose.slides/presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](../com.aspose.slides/presentationinfo) | Information about presentation file |
@@ -489,12 +522,17 @@ url: /com.aspose.slides/
 | [SectionCollection](../com.aspose.slides/sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](../com.aspose.slides/sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](../com.aspose.slides/sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](../com.aspose.slides/sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelAssignmentType](../com.aspose.slides/sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelCollection](../com.aspose.slides/sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
+| [SensitivityLabelContentType](../com.aspose.slides/sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [Sequence](../com.aspose.slides/sequence) | Represents sequence (collection of effects). |
 | [SequenceCollection](../com.aspose.slides/sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](../com.aspose.slides/seteffect) | Represents a set effect for an animation behavior. |
 | [Shape](../com.aspose.slides/shape) | Represents a shape on a slide. |
+| [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](../com.aspose.slides/shapebevel) | Contains the properties of shape's main face relief. |
-| [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of a shapes. |
+| [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of shapes. |
 | [ShapeElement](../com.aspose.slides/shapeelement) | Represents a part of shape with same outline and fill properties. |
 | [ShapeElementFillSource](../com.aspose.slides/shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](../com.aspose.slides/shapeelementstrokesource) | Represents how shape element should be drawn. |
@@ -516,11 +554,13 @@ url: /com.aspose.slides/
 | [SlideShowSettings](../com.aspose.slides/slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](../com.aspose.slides/slideshowtransition) | Represents slide show transition. |
 | [SlideShowType](../com.aspose.slides/slideshowtype) | Base slide show settings. |
-| [SlideSize](../com.aspose.slides/slidesize) | Represents a size of slide. |
+| [SlideSize](../com.aspose.slides/slidesize) | Represents the size and orientation of a slide. |
 | [SlideSizeScaleType](../com.aspose.slides/slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](../com.aspose.slides/slidesizetype) | Represents the slide size preset. |
 | [SlideThemeManager](../com.aspose.slides/slidethememanager) | Provides access to slide theme overriden. |
 | [SlideUtil](../com.aspose.slides/slideutil) | Offer methods which help to search shapes and text in a presentation. |
+| [SlidesAIAgent](../com.aspose.slides/slidesaiagent) | Provides AI-powered features for processing presentations. |
+| [SlidesAIAgentException](../com.aspose.slides/slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
 | [SlidesRange](../com.aspose.slides/slidesrange) | Slides range |
 | [SmartArt](../com.aspose.slides/smartart) | Represents a SmartArt diagram |
 | [SmartArtColorType](../com.aspose.slides/smartartcolortype) | Represents color scheme of a SmartArt diagram. |
@@ -570,6 +610,7 @@ url: /com.aspose.slides/
 | [TextFrameFormat](../com.aspose.slides/textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](../com.aspose.slides/texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](../com.aspose.slides/textinheritancelimit) | Controls the depth of the text properties inheritance. |
+| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [TextShapeType](../com.aspose.slides/textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](../com.aspose.slides/textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](../com.aspose.slides/textstyle) | This class contains the text style formatting properties. |
@@ -623,8 +664,10 @@ url: /com.aspose.slides/
 | [WebDocument](../com.aspose.slides/webdocument) | Represents a transition form of the presentation for saving into a web format. |
 | [WebDocumentOptions](../com.aspose.slides/webdocumentoptions) | Represents an options set for [WebDocument](../com.aspose.slides/webdocument) saving. |
 | [WheelTransition](../com.aspose.slides/wheeltransition) | Wheel slide transition effect. |
+| [WorkbookType](../com.aspose.slides/workbooktype) | Specifies the type of Open XML workbook file. |
 | [XamlOptions](../com.aspose.slides/xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](../com.aspose.slides/xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
+| [Zip64Mode](../com.aspose.slides/zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. |
 | [ZoomFrame](../com.aspose.slides/zoomframe) | Represents a Slide Zoom object in a slide. |
 | [ZoomImageType](../com.aspose.slides/zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |
 | [ZoomLayout](../com.aspose.slides/zoomlayout) | Specifies the summary zoom layout. |
@@ -634,6 +677,8 @@ url: /com.aspose.slides/
 
 | Interface | Description |
 | --- | --- |
+| [IAIConversation](../com.aspose.slides/iaiconversation) | Represents a conversation instance. |
+| [IAIWebClient](../com.aspose.slides/iaiwebclient) | AI Web client interface. |
 | [IAccessiblePVIObject<T>](../com.aspose.slides/iaccessiblepviobject) | Represents a type that can return corresponding effective data with the inheritance applied. |
 | [IActualLayout](../com.aspose.slides/iactuallayout) | Specifies actual position of a chart element. |
 | [IAdjustValue](../com.aspose.slides/iadjustvalue) | Represents a geometry shape's adjustment value. |
@@ -683,11 +728,15 @@ url: /com.aspose.slides/
 | [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) | A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. |
 | [IBlur](../com.aspose.slides/iblur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
 | [IBlurEffectiveData](../com.aspose.slides/iblureffectivedata) | Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. |
+| [IBrightnessContrast](../com.aspose.slides/ibrightnesscontrast) | Represents a BrightnessContrast effect. |
+| [IBrightnessContrastEffectiveData](../com.aspose.slides/ibrightnesscontrasteffectivedata) | Immutable object which represents a BrightnessContrast effect. |
 | [IBulkTextFormattable](../com.aspose.slides/ibulktextformattable) | Represents an object with possibility of bulk setting child text elements' formats. |
 | [IBulletFormat](../com.aspose.slides/ibulletformat) | Represents paragraph bullet formatting properties. |
 | [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [ICamera](../com.aspose.slides/icamera) | Represents Camera. |
 | [ICameraEffectiveData](../com.aspose.slides/icameraeffectivedata) | Immutable object which contains effective camera properties. |
+| [ICaptions](../com.aspose.slides/icaptions) | Represents the WebVTT closed captions. |
+| [ICaptionsCollection](../com.aspose.slides/icaptionscollection) | Represents a collection of the closed captions. |
 | [ICell](../com.aspose.slides/icell) | Represents a cell in a table. |
 | [ICellCollection](../com.aspose.slides/icellcollection) | Represents a collection of cells. |
 | [ICellFormat](../com.aspose.slides/icellformat) | Represents format of a table cell. |
@@ -759,6 +808,8 @@ url: /com.aspose.slides/
 | [IDigitalSignatureCollection](../com.aspose.slides/idigitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
 | [IDocumentProperties](../com.aspose.slides/idocumentproperties) | Represents properties of a presentation. |
 | [IDoubleChartValue](../com.aspose.slides/idoublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
+| [IDrawingGuide](../com.aspose.slides/idrawingguide) | Represents an adjustable drawing guide. |
+| [IDrawingGuidesCollection](../com.aspose.slides/idrawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [IDuotone](../com.aspose.slides/iduotone) | Represents a Duotone effect. |
 | [IDuotoneEffectiveData](../com.aspose.slides/iduotoneeffectivedata) | Immutable object which represents a Duotone effect. |
 | [IEffect](../com.aspose.slides/ieffect) | Represents animation effect. |
@@ -777,6 +828,8 @@ url: /com.aspose.slides/
 | [IEmptyTransition](../com.aspose.slides/iemptytransition) | Empty slide transition effect. |
 | [IErrorBarsCustomValues](../com.aspose.slides/ierrorbarscustomvalues) | Specifies the errors bar values. |
 | [IErrorBarsFormat](../com.aspose.slides/ierrorbarsformat) | Represents error bars of chart series. |
+| [IExcelDataCell](../com.aspose.slides/iexceldatacell) | Represents a single cell in an Excel workbook. |
+| [IExcelDataWorkbook](../com.aspose.slides/iexceldataworkbook) | Represents a workbook that provides access to Excel data for general use. |
 | [IExternalResourceResolver](../com.aspose.slides/iexternalresourceresolver) | Callback interface used to resolve external resources during Html, Svg documents import. |
 | [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) | Represents an additional color scheme which can be assigned to a slide. |
 | [IExtraColorSchemeCollection](../com.aspose.slides/iextracolorschemecollection) | Represents a collection of additional color schemes. |
@@ -790,6 +843,7 @@ url: /com.aspose.slides/
 | [IFillOverlayEffectiveData](../com.aspose.slides/ifilloverlayeffectivedata) | Immutable object which represents a Fill Overlay effect. |
 | [IFillParamSource](../com.aspose.slides/ifillparamsource) | Auxiliary fill parameters interface. |
 | [IFilterEffect](../com.aspose.slides/ifiltereffect) | Represent filter effect of behavior. |
+| [IFindResultCallback](../com.aspose.slides/ifindresultcallback) | Callback interface used to getting search text result. |
 | [IFlyThroughTransition](../com.aspose.slides/iflythroughtransition) | Fly-through slide transition effect. |
 | [IFontData](../com.aspose.slides/ifontdata) | Represents a font definition. |
 | [IFontDataFactory](../com.aspose.slides/ifontdatafactory) | FontData factory interface |
@@ -832,6 +886,7 @@ url: /com.aspose.slides/
 | [IGroupShapeLock](../com.aspose.slides/igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [IHSL](../com.aspose.slides/ihsl) | Represents a Hue/Saturation/Luminance effect. |
 | [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata) | Represents a Hue/Saturation/Luminance effect. |
+| [IHeadingPair](../com.aspose.slides/iheadingpair) | Represents a 'Heading pair' property of the document. |
 | [IHtml5Options](../com.aspose.slides/ihtml5options) | Represents a HTML5 exporting options. |
 | [IHtmlExternalResolver](../com.aspose.slides/ihtmlexternalresolver) | Callback interface used by HTML import routine to obtain referrenced objects such as images. |
 | [IHtmlFormatter](../com.aspose.slides/ihtmlformatter) | Represents HTML file template. |
@@ -842,6 +897,7 @@ url: /com.aspose.slides/
 | [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| [IImage](../com.aspose.slides/iimage) | Represents a raster or vector image. |
 | [IImageCollection](../com.aspose.slides/iimagecollection) | Represents collection of PPImage. |
 | [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | Represents abstract image transformation effect. |
@@ -849,11 +905,16 @@ url: /com.aspose.slides/
 | [IImageTransformOperationFactory](../com.aspose.slides/iimagetransformoperationfactory) | Allows to create image effects' instances |
 | [IInOutTransition](../com.aspose.slides/iinouttransition) | In-Out slide transition effect. |
 | [IInk](../com.aspose.slides/iink) | Represents an ink object on a slide. |
+| [IInkActions](../com.aspose.slides/iinkactions) | Represents an ink object on a slide. |
+| [IInkBrush](../com.aspose.slides/iinkbrush) | Represents trace brush. |
+| [IInkOptions](../com.aspose.slides/iinkoptions) | Provides options that control the look of Ink objects in exported document. |
+| [IInkTrace](../com.aspose.slides/iinktrace) | Represents handwritten line in an Ink object. |
 | [IInnerShadow](../com.aspose.slides/iinnershadow) | Represents a inner shadow effect. |
 | [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](../com.aspose.slides/iinterruptiontokensource) | Represents the source of [IInterruptionToken](../com.aspose.slides/iinterruptiontoken). |
 | [IKnownIssueWarningInfo](../com.aspose.slides/iknownissuewarninginfo) | Represents a warning about known issue which won't be fixed in the near future. |
+| [ILayoutPlaceholderManager](../com.aspose.slides/ilayoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [ILayoutSlide](../com.aspose.slides/ilayoutslide) | Represents a layout slide. |
 | [ILayoutSlideCollection](../com.aspose.slides/ilayoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [ILayoutSlideHeaderFooterManager](../com.aspose.slides/ilayoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
@@ -924,6 +985,7 @@ url: /com.aspose.slides/
 | [IMathNaryOperatorProperties](../com.aspose.slides/imathnaryoperatorproperties) | Specifies properties of IMathNaryOperator |
 | [IMathParagraph](../com.aspose.slides/imathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [IMathParagraphFactory](../com.aspose.slides/imathparagraphfactory) | Allows to create a math paragraph |
+| [IMathPhantom](../com.aspose.slides/imathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
 | [IMathPortion](../com.aspose.slides/imathportion) | Represents a portion with mathematical context inside. |
 | [IMathRadical](../com.aspose.slides/imathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
 | [IMathRadicalFactory](../com.aspose.slides/imathradicalfactory) | Allows to create math radical |
@@ -945,7 +1007,6 @@ url: /com.aspose.slides/
 | [INormalViewProperties](../com.aspose.slides/inormalviewproperties) | Represents normal view properties. |
 | [INormalViewRestoredProperties](../com.aspose.slides/inormalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [INotImplementedWarningInfo](../com.aspose.slides/inotimplementedwarninginfo) | Represents a warning about known not implemented feature which won't be implemented in the near future. |
-| [INotesCommentsLayoutingOptions](../com.aspose.slides/inotescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [INotesSize](../com.aspose.slides/inotessize) | Represents a size of notes slide. |
 | [INotesSlide](../com.aspose.slides/inotesslide) | Represents a notes slide in a presentation. |
 | [INotesSlideHeaderFooterManager](../com.aspose.slides/inotesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
@@ -1024,13 +1085,15 @@ url: /com.aspose.slides/
 | [ISectionCollection](../com.aspose.slides/isectioncollection) | Represents a collection of sections. |
 | [ISectionSlideCollection](../com.aspose.slides/isectionslidecollection) | Represents a collection of a slides in the section. |
 | [ISectionZoomFrame](../com.aspose.slides/isectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [ISensitivityLabel](../com.aspose.slides/isensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [ISensitivityLabelCollection](../com.aspose.slides/isensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [ISequence](../com.aspose.slides/isequence) | Represents sequence (collection of effects). |
 | [ISequenceCollection](../com.aspose.slides/isequencecollection) | Represents collection of interactive sequences. |
 | [ISetEffect](../com.aspose.slides/iseteffect) | Represents a set effect for an animation behavior. |
 | [IShape](../com.aspose.slides/ishape) | Represents a shape on a slide. |
 | [IShapeBevel](../com.aspose.slides/ishapebevel) | Represents properties of shape's main face relief. |
 | [IShapeBevelEffectiveData](../com.aspose.slides/ishapebeveleffectivedata) | Immutable object which contains effective shape's face relief properties. |
-| [IShapeCollection](../com.aspose.slides/ishapecollection) | Represents a collection of a shapes. |
+| [IShapeCollection](../com.aspose.slides/ishapecollection) | Represents a collection of shapes. |
 | [IShapeElement](../com.aspose.slides/ishapeelement) | Represents a part of shape with same outline and fill properties. |
 | [IShapeFrame](../com.aspose.slides/ishapeframe) | Represents shape frame's properties. |
 | [IShapeStyle](../com.aspose.slides/ishapestyle) | Represent shape's style reference. |
@@ -1045,8 +1108,9 @@ url: /com.aspose.slides/
 | [ISlideHeaderFooterManager](../com.aspose.slides/islideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [ISlideImageFormat](../com.aspose.slides/islideimageformat) | Determines format in which slide image will be saved for presentation to HTML export. |
 | [ISlideShowTransition](../com.aspose.slides/islideshowtransition) | Represents slide show transition. |
-| [ISlideSize](../com.aspose.slides/islidesize) | Represents a size of slide. |
+| [ISlideSize](../com.aspose.slides/islidesize) | Represents the size and orientation of a slide. |
 | [ISlideText](../com.aspose.slides/islidetext) | Represents the text extracted from the slide |
+| [ISlidesLayoutOptions](../com.aspose.slides/islideslayoutoptions) | Represents the presentation layout mode for export. |
 | [ISlidesPicture](../com.aspose.slides/islidespicture) | Represents a picture in a presentation. |
 | [ISmartArt](../com.aspose.slides/ismartart) | Represents a SmartArt diagram. |
 | [ISmartArtNode](../com.aspose.slides/ismartartnode) | Represents node of a SmartArt diagram. |
@@ -1083,6 +1147,7 @@ url: /com.aspose.slides/
 | [ITextFrameFormat](../com.aspose.slides/itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
 | [ITextHighlightingOptions](../com.aspose.slides/itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [ITextStyle](../com.aspose.slides/itextstyle) | Text style formatting properties. |
 | [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
 | [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |

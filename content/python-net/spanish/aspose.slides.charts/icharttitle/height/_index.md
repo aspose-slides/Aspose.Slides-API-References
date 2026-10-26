@@ -1,0 +1,25 @@
+---
+title: height property
+second_title: Aspose.Slides para Python vía .NET Referencia de API
+description: 
+type: docs
+url: /es/aspose.slides.charts/icharttitle/height/
+weight: 140
+---
+## height propiedad
+### Definición:
+```python
+@property
+def height(self):
+    ...
+
+@height.setter
+def height(self, value):
+    ...
+```
+
+
+### Ver también
+* clase [`IChartTitle`](/slides/python-net/es/aspose.slides.charts/icharttitle)
+* módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)

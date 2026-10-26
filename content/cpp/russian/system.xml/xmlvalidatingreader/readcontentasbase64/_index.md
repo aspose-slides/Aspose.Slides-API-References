@@ -1,0 +1,34 @@
+---
+title: ReadContentAsBase64()
+second_title: Aspose.Slides для C++ справочник API
+description: Считывает содержимое и возвращает бинарные байты, декодированные из Base64.
+type: docs
+weight: 573
+url: /ru/system.xml/xmlvalidatingreader/readcontentasbase64/
+---
+## XmlValidatingReader::ReadContentAsBase64(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
+
+Считывает содержимое и возвращает бинарные байты, декодированные из Base64.
+
+```cpp
+int32_t System::Xml::XmlValidatingReader::ReadContentAsBase64(ArrayPtr<uint8_t> buffer, int32_t index, int32_t count) override
+```
+
+### Аргументы
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| buffer | [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Буфер, в который копируется полученный текст. Это значение не может быть **nullptr**. |
+| index | **int32_t** | Смещение в буфере, с которого начинать копировать результат. |
+| count | **int32_t** | Максимальное количество байтов для копирования в буфер. Фактическое количество скопированных байтов возвращается этим методом. |
+
+### Возвращаемое значение
+
+Количество байтов, записанных в буфер.
+
+## См. также
+
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Класс [XmlValidatingReader](../)
+* Пространство имён [System::Xml](../../)
+* Библиотека [Aspose.Slides](../../../)

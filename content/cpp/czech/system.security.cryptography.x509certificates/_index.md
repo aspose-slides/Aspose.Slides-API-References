@@ -1,0 +1,41 @@
+---
+title: "System::Security::Cryptography::X509Certificates"
+second_title: Aspose.Slides pro C++ API Reference
+description: 
+type: docs
+weight: 859
+url: /cs/system.security.cryptography.x509certificates/
+---
+## Třídy
+
+| Třída | Popis |
+| --- | --- |
+| [PublicKey](./publickey/) | Representuje veřejné klíčové informace certifikátu X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X500DistinguishedName](./x500distinguishedname/) | Representuje rozlišený název certifikátu X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509Certificate](./x509certificate/) | Certifikát X.509 v.3. Šifrované certifikáty nejsou podporovány. Je podporován pouze příznak [X509KeyStorageFlags::DefaultKeySet](./x509keystorageflags/). Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509Certificate2](./x509certificate2/) | Representuje certifikát X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509Certificate2Collection](./x509certificate2collection/) | Kolekce objektů certifikátů X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509Certificate2CollectionPtr](./x509certificate2collectionptr/) | Ukazatel na kolekci certifikátů X509. Tento typ je ukazatelem pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako const reference. |
+| [X509CertificateCollection](./x509certificatecollection/) | Kolekce objektů certifikátů X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509CertificateCollectionPtr](./x509certificatecollectionptr/) | Ukazatel na kolekci certifikátů X509. Tento typ je ukazatelem pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako const reference. |
+| [X509Chain](./x509chain/) | Representuje řetězec certifikátů X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509ChainPolicy](./x509chainpolicy/) | Politika řetězce, která bude použita při vytváření řetězce certifikátů X509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509ChainStatus](./x509chainstatus/) | Ukládá stav řetězce X509 a informace o chybách. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509Extension](./x509extension/) | Rozšiřující objekt pro uchování dodatečných informací spojených s certifikátem X.509. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509ExtensionCollection](./x509extensioncollection/) | Kolekce rozšiřujících objektů. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509ExtensionCollectionPtr](./x509extensioncollectionptr/) | Ukazatel na kolekci rozšíření X509. Tento typ je ukazatelem pro správu mazání jiných objektů. Měl by být alokován na zásobníku a předáván funkcím buď hodnotou, nebo jako const reference. |
+| [X509ExtensionEnumerator](./x509extensionenumerator/) | Výčtový objekt pro iteraci přes kolekci rozšíření. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+| [X509KeyUsageExtension](./x509keyusageextension/) | Rozšiřující objekt pro uchování dodatečných informací o použití klíče. Objektů této třídy by měly být alokovány pouze pomocí funkce [System::MakeObject()](../system/makeobject/). Nikdy nevytvářejte instanci tohoto typu na zásobníku ani pomocí operátoru new, protože to povede k chybám za běhu a/nebo selháním aserce. Vždy zabalte tuto třídu do ukazatele [System::SmartPtr](../system/smartptr/) a použijte tento ukazatel k předání funkci jako argument. |
+## Výčty
+
+| Výčet | Popis |
+| --- | --- |
+| [X500DistinguishedNameFlags](./x500distinguishednameflags/) | Pravidla formátování rozlišených názvů certifikátu X509. |
+| [X509ChainStatusFlags](./x509chainstatusflags/) |  |
+| [X509ContentType](./x509contenttype/) | Formát certifikátu X.509. |
+| [X509IncludeOption](./x509includeoption/) | Určuje, které certifikáty v řetězci zahrnout. |
+| [X509KeyStorageFlags](./x509keystorageflags/) | Definuje, jak uložit klíč. |
+| [X509KeyUsageFlags](./x509keyusageflags/) | Definuje, jak může být klíč certifikátu použit. |
+| [X509NameType](./x509nametype/) | Typ názvu obsaženého v certifikátu X.509, který se vztahuje buď k emitentovi, nebo k subjektu certifikátu. |
+| [X509RevocationFlag](./x509revocationflag/) |  |
+| [X509VerificationFlags](./x509verificationflags/) |  |

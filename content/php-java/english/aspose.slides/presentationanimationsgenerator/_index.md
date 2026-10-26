@@ -21,7 +21,7 @@ url: /aspose.slides/presentationanimationsgenerator/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
+| presentation | [Presentation](../presentation) | The frame size will be set with accordance to the Presentation#getSlideSize |
 
  **Returns:**
 PresentationAnimationsGenerator

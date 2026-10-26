@@ -1,0 +1,21 @@
+---
+title: effect_format property
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+description: 
+type: docs
+url: /es/aspose.slides.ink/iinkactions/effect_format/
+weight: 160
+---
+## effect_format propiedad
+### Definición:
+```python
+@property
+def effect_format(self):
+    ...
+```
+
+
+### Ver también
+* clase [`IInkActions`](/slides/python-net/es/aspose.slides.ink/iinkactions)
+* módulo [`aspose.slides.ink`](/slides/python-net/es/aspose.slides.ink)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

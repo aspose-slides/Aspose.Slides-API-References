@@ -1,0 +1,20 @@
+---
+title: DigitalSignatureCollection indexer
+second_title: Aspose.Slides für Python via .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/digitalsignaturecollection/__getitem__/
+weight: 40
+---
+## DigitalSignatureCollection indexer
+## Indexer
+
+| Name | Beschreibung |
+| :- | :- |
+| index |  |
+
+
+### Siehe auch
+* Klasse [`DigitalSignatureCollection`](/slides/python-net/de/aspose.slides/digitalsignaturecollection)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

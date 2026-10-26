@@ -1,7 +1,7 @@
 ---
 title: AddZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new Zoom object to the end of a collection.
+description: Creates a new Zoom frame and adds it to the end of the shape collection.
 type: docs
 weight: 190
 url: /aspose.slides/ishapecollection/addzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addzoomframe/
 
 ## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
-Adds a new Zoom object to the end of a collection.
+Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ```csharp
 public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide)
@@ -17,21 +17,21 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new Zoom frame Single. |
-| y | Single | Y coordinate of a new Zoom frame Single. |
-| width | Single | Width of a new Zoom frame Single. |
-| height | Single | Height of a new Zoom frame Single. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| x | Single | The x-coordinate of the new Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Zoom frame, in points. |
+| width | Single | The width of the new Zoom frame, in points. |
+| height | Single | The height of the new Zoom frame, in points. |
+| slide | ISlide | The [`ISlide`](../../islide) referenced by the Zoom frame; must belong to this presentation. |
 
 ### Return Value
 
-Created Zoom object [`IZoomFrame`](../../izoomframe).
+The newly created [`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced slide does not belong to the current presentation. |
+| ArgumentException | Thrown if the referenced slide does not belong to the current presentation. |
 
 ### Examples
 
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddZoomFrame(float, float, float, float, ISlide, IPPImage) {#addzoomframe_1}
 
-Adds a new Zoom object to the end of a collection.
+Creates a new Zoom frame and adds it to the end of the shape collection.
 
 ```csharp
 public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide, 
@@ -66,22 +66,22 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new Zoom frame Single. |
-| y | Single | Y coordinate of a new Zoom frame Single. |
-| width | Single | Width of a new Zoom frame Single. |
-| height | Single | Height of a new Zoom frame Single. |
-| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| x | Single | The x-coordinate of the new Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Zoom frame, in points. |
+| width | Single | The width of the new Zoom frame, in points. |
+| height | Single | The height of the new Zoom frame, in points. |
+| slide | ISlide | The [`ISlide`](../../islide) referenced by the Zoom frame; must belong to this presentation. |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage). |
 
 ### Return Value
 
-Created Zoom object [`IZoomFrame`](../../izoomframe).
+The newly created [`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced slide does not belong to the current presentation. |
+| ArgumentException | Thrown if the referenced slide does not belong to the current presentation. |
 
 ### Examples
 

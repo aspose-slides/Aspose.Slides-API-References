@@ -1,0 +1,28 @@
+---
+title: virtualizeBeginConstIterator()
+second_title: Referensi API Aspose.Slides untuk C++
+description: Mendapatkan iterator yang menunjuk ke elemen pertama (jika ada) dari instance koleksi yang bertanda const.
+type: docs
+weight: 170
+url: /id/aspose.slides/drawingguidescollection/virtualizebeginconstiterator/
+---
+## DrawingGuidesCollection::virtualizeBeginConstIterator() const metode
+
+Mendapatkan iterator yang menunjuk ke elemen pertama (jika ada) dari instance koleksi yang bertanda const.
+
+```cpp
+virtualized_iterator * Aspose::Slides::DrawingGuidesCollection::virtualizeBeginConstIterator() const override
+```
+
+### Nilai Kembali
+
+Iterator yang menunjuk ke elemen pertama (jika ada) dari instance koleksi yang bertanda const. Menyediakan implementasi iterator const ke elemen pertama kontainer.
+
+Objek iterator yang baru dibuat.
+
+## Lihat Juga
+
+* Typedef [virtualized_iterator](../virtualized_iterator/)
+* Kelas [DrawingGuidesCollection](../)
+* Ruang Nama [Aspose::Slides](../../)
+* Perpustakaan [Aspose.Slides](../../../)

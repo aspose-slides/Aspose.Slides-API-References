@@ -1,15 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示SVG选项。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 SVG 选项。
 type: docs
-weight: 3890
+weight: 4060
 url: /zh/aspose.slides.export/isvgoptions/
 ---
-
 ## ISVGOptions 接口
 
-表示SVG选项。
+表示 SVG 选项。
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -19,26 +18,26 @@ public interface ISVGOptions : ISaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | 返回ISaveOptions接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | 一个布尔标志，指示裁剪的部分是否保留为文档的一部分。如果为true，裁剪的部分将被移除；如果为false，它们将被序列化到文档中（这可能导致文件变大）。读/写布尔值。 |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | 确定SVG中是否禁用3D文本。读/写布尔值。 |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下渲染。当设置为`true`时，连字将在渲染输出中被禁用。默认情况下，此属性设置为`false`。 |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | 禁用从角落X和从中心的渐变分割。读/写布尔值。 |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1缺乏为标记定义内边距的能力。Aspose.Slides SVG写入引擎对此问题有解决方法：它裁剪带箭头的线的末端，以防止线与标记重叠。此选项关闭这种行为。读/写布尔值。 |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | 确定外部加载字体的处理方式。读/写 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | 提供控制导出文档中Ink对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | 确定JPEG编码质量。读/写Int32。 |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | 返回或设置图元文件栅格化的最低分辨率限制。读/写Int32。 |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | 表示图片压缩级别。读/写 [`PicturesCompression`](./picturescompression)。 |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | 返回和设置一个回调接口，允许用户控制形状转换。读/写 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | 确定在渲染时是否执行指定的形状旋转。读/写布尔值。默认值为true。 |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | 确定文本框是否包含在渲染区域中。读/写布尔值。默认值为false。 |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | 确定幻灯片上的文本是否将作为图形保存。读/写布尔值。 |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | 布尔标志指示裁剪的部分是否保留在文档中。若为 true，裁剪的部分将被移除；若为 false，它们将序列化到文档中（这可能导致文件更大）。读/写 Boolean。 |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | 确定在 SVG 中是否禁用 3D 文本。读/写 Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | 禁用对 FromCornerX 和 FromCenter 梯度的拆分。读/写 Boolean。 |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 缺少为标记定义 inset 的能力。Aspose.Slides SVG 写入引擎对此问题有解决办法：它会裁剪带箭头的线段末端，使线段不与标记重叠。此选项可关闭此行为。读/写 Boolean。 |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | 确定外部加载字体的处理方式。读/写 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | 确定 JPEG 编码质量。读/写 Int32。 |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | 获取或设置元文件光栅化的最低分辨率限制。读/写 Int32。 |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | 表示图片压缩级别。读/写 [`PicturesCompression`](./picturescompression)。 |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | 获取并设置回调接口，允许用户控制形状转换。读/写 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | 确定在渲染时是否对形状执行指定的旋转。读/写 Boolean。默认值为 true。 |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | 确定文本框是否会包含在渲染区域内。读/写 Boolean。默认值为 false。 |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | 确定幻灯片上的文本是否会保存为图形。读/写 Boolean。 |
 
-### 另请参见
+### 参见
 
-* 接口 [ISaveOptions](../isaveoptions)
-* 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
-* 程序集 [Aspose.Slides](../../)
+* 接口 [ISaveOptions](../isaveoptions)
+* 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

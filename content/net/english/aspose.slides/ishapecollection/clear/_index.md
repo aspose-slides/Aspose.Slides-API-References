@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: Removes all shapes from the collection.
+description: Removes all shapes from the shape collection.
 type: docs
 weight: 200
 url: /aspose.slides/ishapecollection/clear/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/clear/
 
 ## IShapeCollection.Clear method
 
-Removes all shapes from the collection.
+Removes all shapes from the shape collection.
 
 ```csharp
 public void Clear()

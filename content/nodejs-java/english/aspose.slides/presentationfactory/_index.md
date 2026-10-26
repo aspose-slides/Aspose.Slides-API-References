@@ -17,7 +17,7 @@ url: /aspose.slides/presentationfactory/
 | --- | --- |
 | PresentationFactory() |  |
 
- **Result:**
+ **Returns:**
 PresentationFactory
 
 
@@ -30,7 +30,7 @@ PresentationFactory
 | --- | --- |
 | createPresentation () | Creates new presentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -49,7 +49,7 @@ PresentationFactory
 | --- | --- | --- |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -62,7 +62,7 @@ PresentationFactory
 | --- | --- |
 | getInstance () | Presentation factory static instance. Read-only PresentationFactory. |
 
- **Result:**
+ **Returns:**
 PresentationFactory
 
 
@@ -81,7 +81,7 @@ PresentationFactory
 | --- | --- | --- |
 | file | String | Presentation file. |
 
- **Result:**
+ **Returns:**
 [PresentationInfo](../presentationinfo)
 
 
@@ -100,9 +100,9 @@ PresentationFactory
 | --- | --- | --- |
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Presentation stream. |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [PresentationInfo](../presentationinfo)
 
 
@@ -122,7 +122,7 @@ PresentationFactory
 | file | String | Input file |
 | mode | int | Extraction mode |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -142,9 +142,9 @@ PresentationFactory
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Input stream |
 | mode | int | Extraction mode |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -165,9 +165,9 @@ PresentationFactory
 | stream | ReadStream | Input stream |
 | mode | int | Extraction mode |
 | options | [LoadOptions](../loadoptions) | Load options |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [PresentationText](../presentationtext)
 
 
@@ -186,7 +186,7 @@ PresentationFactory
 | --- | --- | --- |
 | data | byte[] | Array to read |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -206,7 +206,7 @@ PresentationFactory
 | data | byte[] | Array to read |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -225,9 +225,9 @@ PresentationFactory
 | --- | --- | --- |
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Input stream to read |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -247,9 +247,9 @@ PresentationFactory
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Input stream to read |
 | options | [LoadOptions](../loadoptions) | Load options |
-| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -268,7 +268,7 @@ PresentationFactory
 | --- | --- | --- |
 | file | String | File name |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -288,7 +288,7 @@ PresentationFactory
 | file | String | File name |
 | options | [LoadOptions](../loadoptions) | Load options |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 

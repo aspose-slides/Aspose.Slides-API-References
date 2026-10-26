@@ -17,7 +17,7 @@ url: /aspose.slides/pointcollection/
 | --- | --- |
 | PointCollection() |  |
 
- **Result:**
+ **Returns:**
 PointCollection
 
 
@@ -30,7 +30,7 @@ PointCollection
 | --- | --- |
 | getCount () | Returns the number of points in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -49,7 +49,7 @@ int
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result:**
+ **Returns:**
 [Point](../point)
 
 
@@ -62,7 +62,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -75,7 +75,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 

@@ -1,0 +1,29 @@
+---
+title: rotate_with_shape property
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+description: 
+type: docs
+url: /fa/aspose.slides/fillformat/rotate_with_shape/
+weight: 90
+---
+## rotate_with_shape خاصیت
+مشخص می‌کند که آیا پر کردن باید همراه با شکل چرخانده شود.
+قابل خواندن/نوشتن [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool).
+
+### تعریف:
+```python
+@property
+def rotate_with_shape(self):
+    ...
+
+@rotate_with_shape.setter
+def rotate_with_shape(self, value):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`FillFormat`](/slides/python-net/fa/aspose.slides/fillformat)
+* شمارش [`NullableBool`](/slides/python-net/fa/aspose.slides/nullablebool)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

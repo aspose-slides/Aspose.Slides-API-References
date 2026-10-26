@@ -1,0 +1,23 @@
+---
+title: skew_matrix_perspective_x property
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides.animation/behaviorproperty/skew_matrix_perspective_x/
+weight: 790
+---
+## skew_matrix_perspective_x 屬性
+表示 'skew.matrix.perspectiveX' 屬性
+
+### 定義:
+```python
+@property
+def skew_matrix_perspective_x(self):
+    ...
+```
+
+
+### 另見
+* 類別 [`BehaviorProperty`](/slides/python-net/zh-hant/aspose.slides.animation/behaviorproperty)
+* 模組 [`aspose.slides.animation`](/slides/python-net/zh-hant/aspose.slides.animation)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

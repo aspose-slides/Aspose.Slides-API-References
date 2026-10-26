@@ -71,7 +71,7 @@ url: /aspose.slides/piesplitcustompointcollection/
 | --- | --- | --- |
 | item | [ChartDataPoint](../chartdatapoint) | The object to locate in the IGenericCollection. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -107,7 +107,7 @@ boolean
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -126,7 +126,7 @@ Object
 | --- | --- | --- |
 | index | int | Index. |
 
- **Result:**
+ **Returns:**
 [ChartDataPoint](../chartdatapoint)
 
 
@@ -139,7 +139,7 @@ Object
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -152,7 +152,7 @@ boolean
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -165,7 +165,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -178,7 +178,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -219,7 +219,7 @@ boolean
 | --- | --- | --- |
 | dataPoint | [ChartDataPoint](../chartdatapoint) | Data point remove to. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -232,7 +232,7 @@ boolean
 | --- | --- |
 | size () | Returns or sets the count of chart data points. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 

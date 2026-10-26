@@ -56,6 +56,19 @@ boolean
 ---
 
 
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getHtmlFormatter {#getHtmlFormatter}
 
 | Name | Description |
@@ -90,19 +103,6 @@ boolean
 
  **Returns:**
 byte
-
-
----
-
-
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -178,6 +178,19 @@ boolean
 | Name | Description |
 | --- | --- |
 | setDeletePicturesCroppedAreas (boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
  **Returns:**
 void

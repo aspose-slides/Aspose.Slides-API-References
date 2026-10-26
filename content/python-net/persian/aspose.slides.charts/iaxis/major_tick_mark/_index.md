@@ -1,0 +1,29 @@
+---
+title: major_tick_mark property
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.charts/iaxis/major_tick_mark/
+weight: 400
+---
+## major_tick_mark ویژگی
+نمایش می‌دهد نوع علامت تیک اصلی برای محور مشخص شده.
+             خواندنی/نوشتنی [`TickMarkType`](/slides/python-net/fa/aspose.slides.charts/tickmarktype).
+
+### تعریف:
+```python
+@property
+def major_tick_mark(self):
+    ...
+
+@major_tick_mark.setter
+def major_tick_mark(self, value):
+    ...
+```
+
+
+### موارد مرتبط
+* کلاس [`IAxis`](/slides/python-net/fa/aspose.slides.charts/iaxis)
+* enumeration [`TickMarkType`](/slides/python-net/fa/aspose.slides.charts/tickmarktype)
+* ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

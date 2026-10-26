@@ -1,0 +1,46 @@
+---
+title: function method
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides.mathtext/mathbar/function/
+weight: 60
+---
+## function(self, function_argument) {#imathelement}
+Nimmt eine Funktion eines Arguments, wobei diese Instanz als Funktionsname verwendet wird
+
+### Rückgabewert
+
+Neues Mathelement vom Typ [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| function_argument | [`IMathElement`](/slides/python-net/de/aspose.slides.mathtext/imathelement) | Ein Argument der Funktion |
+
+## function(self, function_argument) {#str}
+Nimmt eine Funktion eines Arguments, wobei diese Instanz als Funktionsname verwendet wird
+
+### Rückgabewert
+
+Neues Mathelement vom Typ [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+
+```python
+def function(self, function_argument):
+    ...
+```
+
+| Parameter | Typ | Beschreibung |
+| :- | :- | :- |
+| function_argument | **str** | Ein Argument der Funktion |
+
+### Siehe auch
+* class [`IMathElement`](/slides/python-net/de/aspose.slides.mathtext/imathelement)
+* class [`IMathFunction`](/slides/python-net/de/aspose.slides.mathtext/imathfunction)
+* class [`MathBar`](/slides/python-net/de/aspose.slides.mathtext/mathbar)
+* module [`aspose.slides.mathtext`](/slides/python-net/de/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)

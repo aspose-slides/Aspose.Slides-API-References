@@ -1,0 +1,55 @@
+---
+title: PptxReadException
+second_title: Aspose.Slides dla Androida za pośrednictwem dokumentacji Java API
+description: Reprezentuje wyjątek, który jest wyrzucany przy błędach odczytu prezentacji.
+type: docs
+url: /pl/com.aspose.slides/pptxreadexception/
+---
+**Dziedziczenie:**
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception), [com.aspose.slides.PptxException](../../com.aspose.slides/pptxexception)
+```
+public class PptxReadException extends PptxException
+```
+
+Reprezentuje wyjątek, który jest wyrzucany przy błędach odczytu prezentacji.
+## Konstruktory
+
+| Konstruktor | Opis |
+| --- | --- |
+| [PptxReadException()](#PptxReadException--) | Default constructor. |
+| [PptxReadException(String message)](#PptxReadException-java.lang.String-) | Constructor allowing a message to be added to this exception. |
+| [PptxReadException(String message, RuntimeException exception)](#PptxReadException-java.lang.String-java.lang.RuntimeException-) | Constructor for an exception containing a message and an embedded exception. |
+### PptxReadException() {#PptxReadException--}
+```
+public PptxReadException()
+```
+
+
+Konstruktor domyślny.
+
+### PptxReadException(String message) {#PptxReadException-java.lang.String-}
+```
+public PptxReadException(String message)
+```
+
+
+Konstruktor umożliwiający dodanie wiadomości do tego wyjątku.
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| message | java.lang.String | message |
+
+### PptxReadException(String message, RuntimeException exception) {#PptxReadException-java.lang.String-java.lang.RuntimeException-}
+```
+public PptxReadException(String message, RuntimeException exception)
+```
+
+
+Konstruktor dla wyjątku zawierającego wiadomość i wbudowany wyjątek.
+
+**Parametry:**
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| message | java.lang.String | message |
+| exception | java.lang.RuntimeException | original exception |

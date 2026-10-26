@@ -1,0 +1,25 @@
+---
+title: text_format property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description:
+type: docs
+url: /th/aspose.slides.charts/axis/text_format/
+weight: 570
+---
+## text_format คุณสมบัติ
+Represents format of text.
+             อ่านอย่างเดียว [`IChartTextFormat`](/slides/python-net/th/aspose.slides.charts/icharttextformat).
+
+### คำนิยาม:
+```python
+@property
+def text_format(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`Axis`](/slides/python-net/th/aspose.slides.charts/axis)
+* คลาส [`IChartTextFormat`](/slides/python-net/th/aspose.slides.charts/icharttextformat)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

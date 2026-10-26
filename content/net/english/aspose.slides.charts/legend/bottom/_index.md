@@ -3,7 +3,7 @@ title: Bottom
 second_title: Aspose.Sildes for .NET API Reference
 description: Bottom. Read-only Single.
 type: docs
-weight: 10
+weight: 50
 url: /aspose.slides.charts/legend/bottom/
 ---
 

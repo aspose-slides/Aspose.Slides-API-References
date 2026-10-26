@@ -1,7 +1,7 @@
 ---
 title: AddTemplate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a template to the collection.
 type: docs
 weight: 10
 url: /aspose.slides.export.web/input/addtemplate/
@@ -9,9 +9,16 @@ url: /aspose.slides.export.web/input/addtemplate/
 
 ## Input.AddTemplate&lt;TContextObject&gt; method
 
+Adds a template to the collection.
+
 ```csharp
 public void AddTemplate<TContextObject>(string key, string path)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the template in the collection. |
+| path | String | Path to the template file. |
 
 ### See Also
 

@@ -17,7 +17,7 @@ url: /aspose.slides/animationtimeline/
 | --- | --- |
 | getInteractiveSequences() | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only ISequenceCollection. |
 
- **Result:**
+ **Returns:**
 [SequenceCollection](../sequencecollection)
 
 
@@ -30,18 +30,8 @@ url: /aspose.slides/animationtimeline/
 | --- | --- |
 | getMainSequence() | Returns main sequence which may contain only main effects collection. Read-only ISequence. |
 
- **Result:**
+ **Returns:**
 [Sequence](../sequence)
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -53,7 +43,7 @@ url: /aspose.slides/animationtimeline/
 | --- | --- |
 | getTextAnimationCollection() | Returns collection of text animations. Read-only ITextAnimationCollection. |
 
- **Result:**
+ **Returns:**
 [TextAnimationCollection](../textanimationcollection)
 
 

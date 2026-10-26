@@ -1,15 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет OLE-объект на слайде.
+second_title: Aspose.Sildes для .NET — справочник API
+description: Представляет объект OLE на слайде.
 type: docs
-weight: 6340
+weight: 6540
 url: /ru/aspose.slides/ioleobjectframe/
 ---
+## IOleObjectFrame интерфейс
 
-## Интерфейс IOleObjectFrame
-
-Представляет OLE-объект на слайде.
+Represents an OLE object on a slide.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -19,20 +18,20 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Получает информацию о встроенных данных OLE. Только для чтения [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Возвращает имя файла встроенного OLE-объекта |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Возвращает путь к встроенному OLE-объекту |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Определяет, виден ли объект в виде значка. Чтение/запись Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Определяет, связан ли объект с внешним файлом. Только для чтения Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Возвращает полный путь к связанному файлу. Будет использоваться короткое имя файла. Только для чтения String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Возвращает полный путь к связанному файлу. Будет использоваться длинное имя файла. Чтение/запись String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Возвращает относительный путь к связанному файлу, если он присутствует, в противном случае возвращает пустую строку. Только для чтения String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Возвращает или задает имя объекта. Чтение/запись String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Возвращает ProgID объекта. Только для чтения String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Возвращает объект свойств заливки изображения OleObject. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Возвращает или задает заголовок для значка OleObject. Чтение/запись String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Определяет, обновляется ли связанный встроенный объект автоматически при открытии или печати презентации. Чтение/запись Boolean. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Получает информацию о встроенных данных OLE. Только для чтения [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Возвращает имя файла встроенного OLE-объекта |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Возвращает путь к встроенному OLE-объекту |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Определяет, отображается ли объект как значок. Чтение/запись Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Определяет, связан ли объект с внешним файлом. Только для чтения Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Возвращает полный путь к связанному файлу. Будет использовано короткое имя файла. Только для чтения String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Возвращает полный путь к связанному файлу. Будет использовано полное имя файла. Чтение/запись String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Возвращает относительный путь к связанному файлу, если он существует, иначе возвращает пустую строку. Только для чтения String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Возвращает или задает имя объекта. Чтение/запись String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Возвращает ProgID объекта. Только для чтения String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Возвращает объект свойств заливки изображения OleObject. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Возвращает или задает заголовок значка OleObject. Чтение/запись String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Определяет, будет ли связанный встроенный объект автоматически обновляться при открытии или печати презентации. Чтение/запись Boolean. |
 
 ## Методы
 
@@ -40,10 +39,10 @@ public interface IOleObjectFrame : IGraphicalObject
 | --- | --- |
 | [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Устанавливает информацию о встроенных данных OLE. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IGraphicalObject](../igraphicalobject)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IGraphicalObject](../igraphicalobject)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,0 +1,30 @@
+---
+title: get_effective method
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides.effects/grayscale/get_effective/
+weight: 10
+---
+## get_effective(self) {#}
+รับข้อมูลเอฟเฟกต์ระดับสีเทาที่มีการใช้การสืบทอด
+
+### ผลลัพธ์
+
+หนึ่ง [`IGrayScaleEffectiveData`](/slides/python-net/th/aspose.slides.effects/igrayscaleeffectivedata).
+
+
+
+```python
+def get_effective(self):
+    ...
+```
+
+
+
+
+### ดูเพิ่มเติม
+* คลาส [`GrayScale`](/slides/python-net/th/aspose.slides.effects/grayscale)
+* คลาส [`IGrayScaleEffectiveData`](/slides/python-net/th/aspose.slides.effects/igrayscaleeffectivedata)
+* โมดูล [`aspose.slides.effects`](/slides/python-net/th/aspose.slides.effects)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

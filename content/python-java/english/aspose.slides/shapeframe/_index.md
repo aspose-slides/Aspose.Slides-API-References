@@ -29,7 +29,7 @@ url: /aspose.slides/shapeframe/
 | flipV | byte | True if a frame flipped vertivally. |
 | rotationAngle | float | Number of degrees a frame is rotated. |
 
- **Result:**
+ **Returns:**
 ShapeFrame
 
 
@@ -42,7 +42,7 @@ ShapeFrame
 | --- | --- |
 | cloneT() | Clones. |
 
- **Result:**
+ **Returns:**
 [ShapeFrame](../shapeframe)
 
 
@@ -55,7 +55,7 @@ ShapeFrame
 | --- | --- |
 | deepClone() | Clones |
 
- **Result:**
+ **Returns:**
 Object
 
 
@@ -74,7 +74,7 @@ Object
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -93,7 +93,7 @@ boolean
 | --- | --- | --- |
 | value | [ShapeFrame](../shapeframe) | The ShapeFRameEx to compare with this instance. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -106,7 +106,7 @@ boolean
 | --- | --- |
 | getCenterX() | Returns the X coordinate of a frame's center. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -119,7 +119,7 @@ float
 | --- | --- |
 | getCenterY() | Returns the Y coordinate of a frame's center. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -132,7 +132,7 @@ float
 | --- | --- |
 | getFlipH() | Determines whether a frame is flipped horizontally. Read-only NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -145,7 +145,7 @@ byte
 | --- | --- |
 | getFlipV() | Determines whether a frame is flipped vertically. Read-only NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -158,7 +158,7 @@ byte
 | --- | --- |
 | getHeight() | Returns the height of a frame. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -171,7 +171,7 @@ float
 | --- | --- |
 | getRectangle() | Returns the coordinates of a frame. Read-only java.awt.geom.Rectangle2D.Float. |
 
- **Result:**
+ **Returns:**
 Rectangle2D.Float
 
 
@@ -184,7 +184,7 @@ Rectangle2D.Float
 | --- | --- |
 | getRotation() | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -197,7 +197,7 @@ float
 | --- | --- |
 | getWidth() | Returns the width of a frame. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -210,7 +210,7 @@ float
 | --- | --- |
 | getX() | Returns the X coordinate of the upper-left corner of a frame. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -223,7 +223,7 @@ float
 | --- | --- |
 | getY() | Returns the Y coordinate of the upper-left corner of a frame. Read-only float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -236,7 +236,7 @@ float
 | --- | --- |
 | hashCode() |  |
 
- **Result:**
+ **Returns:**
 int
 
 

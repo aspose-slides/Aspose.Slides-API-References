@@ -1,0 +1,25 @@
+---
+title: hidden property
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/ipictureframe/hidden/
+weight: 250
+---
+## गुप्त गुण
+### परिभाषा:
+```python
+@property
+def hidden(self):
+    ...
+
+@hidden.setter
+def hidden(self, value):
+    ...
+```
+
+
+### देखें
+* क्लास [`IPictureFrame`](/slides/python-net/hi/aspose.slides/ipictureframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

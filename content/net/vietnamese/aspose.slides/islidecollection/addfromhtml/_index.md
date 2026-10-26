@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+type: docs
+weight: 40
+url: /vi/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlText | String | Html để thêm. |
+| resolver | IExternalResourceResolver | Đối tượng callback được sử dụng để lấy các đối tượng bên ngoài. Nếu tham số này là null, tất cả các đối tượng bên ngoài sẽ bị bỏ qua. |
+| uri | String | URI của HTML được chỉ định. Được dùng để giải quyết các liên kết tương đối. |
+
+### Giá trị trả về
+
+Các slide đã được thêm.
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlText | String | Html để thêm. |
+
+### Giá trị trả về
+
+Các slide đã được thêm
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlReader | TextReader | Đối tượng TextReader sẽ được sử dụng làm nguồn của tệp HTML. |
+| resolver | IExternalResourceResolver | Đối tượng callback được sử dụng để lấy các đối tượng bên ngoài. Nếu tham số này là null, tất cả các đối tượng bên ngoài sẽ bị bỏ qua. |
+| uri | String | URI của HTML được chỉ định. Được dùng để giải quyết các liên kết tương đối. |
+
+### Giá trị trả về
+
+Các slide đã được thêm.
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlReader | TextReader | Đối tượng TextReader sẽ được sử dụng làm nguồn của tệp HTML. |
+
+### Giá trị trả về
+
+Các slide đã được thêm
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlStream | Stream | Đối tượng Stream sẽ được sử dụng làm nguồn của tệp HTML. |
+| resolver | IExternalResourceResolver | Đối tượng callback được sử dụng để lấy các đối tượng bên ngoài. Nếu tham số này là null, tất cả các đối tượng bên ngoài sẽ bị bỏ qua. |
+| uri | String | URI của HTML được chỉ định. Được dùng để giải quyết các liên kết tương đối. |
+
+### Giá trị trả về
+
+Các slide đã được thêm.
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+Tạo các slide từ văn bản HTML và thêm chúng vào cuối bộ sưu tập.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| htmlStream | Stream | Đối tượng Stream sẽ được sử dụng làm nguồn của tệp HTML. |
+
+### Giá trị trả về
+
+Các slide đã được thêm
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [ISlideCollection](../../islidecollection)
+* không gian tên [Aspose.Slides](../../islidecollection)
+* tập hợp [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

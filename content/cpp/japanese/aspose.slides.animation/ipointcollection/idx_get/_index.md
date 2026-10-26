@@ -1,0 +1,33 @@
+---
+title: idx_get()
+second_title: Aspose.Slides for C++ API リファレンス
+description: 指定されたインデックスの点を返します。
+type: docs
+weight: 14
+url: /ja/aspose.slides.animation/ipointcollection/idx_get/
+---
+## IPointCollection::idx_get(int32_t) メソッド
+
+指定されたインデックスの点を返します。
+
+```cpp
+virtual System::SharedPtr<IPoint> Aspose::Slides::Animation::IPointCollection::idx_get(int32_t index)=0
+```
+
+### 引数
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| index | **int32_t** |  |
+
+### 戻り値
+
+
+
+## 参照
+
+* 型定義 [SharedPtr](../../../system/sharedptr/)
+* クラス [IPoint](../../ipoint/)
+* クラス [IPointCollection](../)
+* 名前空間 [Aspose::Slides::Animation](../../)
+* ライブラリ [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: CaptionTracks
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the closed captions collection of the video. Read-only ICaptionsCollectionaspose.slides/icaptionscollection.
+description: Gets the collection of closed captions associated with the video frame. This property is read-only and returns an ICaptionsCollectionaspose.slides/icaptionscollection containing all caption tracks.
 type: docs
 weight: 10
 url: /aspose.slides/videoframe/captiontracks/
@@ -9,7 +9,7 @@ url: /aspose.slides/videoframe/captiontracks/
 
 ## VideoFrame.CaptionTracks property
 
-Returns the closed captions collection of the video. Read-only [`ICaptionsCollection`](../../icaptionscollection).
+Gets the collection of closed captions associated with the video frame. This property is read-only and returns an [`ICaptionsCollection`](../../icaptionscollection) containing all caption tracks.
 
 ```csharp
 public ICaptionsCollection CaptionTracks { get; }

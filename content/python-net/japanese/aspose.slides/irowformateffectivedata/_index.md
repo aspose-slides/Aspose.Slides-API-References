@@ -1,0 +1,35 @@
+---
+title: IRowFormatEffectiveData class
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides/irowformateffectivedata/
+---
+## IRowFormatEffectiveData クラス
+
+効果的なテーブル行書式設定プロパティを含む不変オブジェクトです。
+
+IRowFormatEffectiveData 型は次のメンバーを公開します。
+
+## プロパティ
+
+| プロパティ | 説明 |
+| :- | :- |
+| [`fill_format`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/fill_format/) |  |
+| [`border_left`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_left/) |  |
+| [`border_top`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_top/) |  |
+| [`border_right`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_right/) |  |
+| [`border_bottom`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_bottom/) |  |
+| [`border_diagonal_down`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_diagonal_down/) |  |
+| [`border_diagonal_up`](/slides/python-net/ja/aspose.slides/irowformateffectivedata/border_diagonal_up/) |  |
+
+
+### 備考
+
+このインターフェイスは [`IRowFormat`](/slides/python-net/ja/aspose.slides/irowformat) インターフェイスと併用して、継承およびテーブル スタイルが適用された効果的な書式設定値を返すために使用されます。
+
+
+### 参照
+* クラス [`IRowFormat`](/slides/python-net/ja/aspose.slides/irowformat)
+* モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

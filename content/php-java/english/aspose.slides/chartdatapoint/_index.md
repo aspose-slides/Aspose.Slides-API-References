@@ -158,7 +158,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getIndex () | Determines which of the parent's children collection this data point applies to. Read long. |
+| getIndex () |  |
 
  **Returns:**
 long

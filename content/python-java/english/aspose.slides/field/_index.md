@@ -11,23 +11,13 @@ url: /aspose.slides/field/
 
  Represents a field.
  
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getPresentation {#getPresentation}
 
 | Name | Description |
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -40,8 +30,8 @@ url: /aspose.slides/field/
 | --- | --- |
 | getSlide() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
- **Result:**
-[Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
+ **Returns:**
+[LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---
@@ -53,7 +43,7 @@ url: /aspose.slides/field/
 | --- | --- |
 | getType() | Returns or sets field's type. Read/write IFieldType. |
 
- **Result:**
+ **Returns:**
 [FieldType](../fieldtype)
 
 

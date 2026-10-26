@@ -1,0 +1,29 @@
+---
+title: CreateAlphCeiling()
+second_title: مرجع API Aspose.Slides برای C++
+description: اثر Alpha Ceiling را ایجاد می‌کند.
+type: docs
+weight: 14
+url: /fa/aspose.slides.effects/imagetransformoperationfactory/createalphceiling/
+---
+## ImageTransformOperationFactory::CreateAlphCeiling() متد
+
+
+اثر Alpha Ceiling را ایجاد می‌کند.
+
+```cpp
+System::SharedPtr<IAlphaCeiling> Aspose::Slides::Effects::ImageTransformOperationFactory::CreateAlphCeiling() override
+```
+
+
+### مقدار بازگشت
+
+اثر Alpha Ceiling.
+
+## موارد مرتبط
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* کلاس [IAlphaCeiling](../../ialphaceiling/)
+* کلاس [ImageTransformOperationFactory](../)
+* فضای نام [Aspose::Slides::Effects](../../)
+* کتابخانه [Aspose.Slides](../../../)

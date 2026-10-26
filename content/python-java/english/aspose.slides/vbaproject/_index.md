@@ -17,7 +17,7 @@ url: /aspose.slides/vbaproject/
 | --- | --- |
 | VbaProject() | This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
 
- **Result:**
+ **Returns:**
 VbaProject
 
 
@@ -30,7 +30,7 @@ VbaProject
 | --- | --- |
 | VbaProject(byte[]) | This constructor loads VBA project from binary representation of OLE container. |
 
- **Result:**
+ **Returns:**
 VbaProject
 
 
@@ -43,7 +43,7 @@ VbaProject
 | --- | --- |
 | getModules() | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
 
- **Result:**
+ **Returns:**
 [VbaModuleCollection](../vbamodulecollection)
 
 
@@ -56,7 +56,7 @@ VbaProject
 | --- | --- |
 | getName() | Returns the name of the VBA project. Read-only String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,8 +69,21 @@ String
 | --- | --- |
 | getReferences() | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
 
- **Result:**
+ **Returns:**
 [VbaReferenceCollection](../vbareferencecollection)
+
+
+---
+
+
+### isPasswordProtected {#isPasswordProtected}
+
+| Name | Description |
+| --- | --- |
+| isPasswordProtected() | Indicates whether the VBAProject is protected by a password to view project properties. Read-only boolean. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -82,7 +95,7 @@ String
 | --- | --- |
 | toBinary() | Returns the binary representation of the VBA project as OLE container |
 
- **Result:**
+ **Returns:**
 byte
 
 

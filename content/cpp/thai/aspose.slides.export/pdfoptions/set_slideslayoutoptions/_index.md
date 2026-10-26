@@ -1,0 +1,40 @@
+---
+title: set_SlidesLayoutOptions()
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ C++
+description: กำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ ISlidesLayoutOptions.
+type: docs
+weight: 14
+url: /th/aspose.slides.export/pdfoptions/set_slideslayoutoptions/
+---
+## PdfOptions::set_SlidesLayoutOptions(System::SharedPtr\<ISlidesLayoutOptions\>) เมธอด
+
+
+กำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [ISlidesLayoutOptions](../../islideslayoutoptions/).
+
+```cpp
+void Aspose::Slides::Export::PdfOptions::set_SlidesLayoutOptions(System::SharedPtr<ISlidesLayoutOptions> value) override
+```
+
+## หมายเหตุ
+
+
+ตัวอย่าง: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+System::SharedPtr<HandoutLayoutingOptions> handoutLayoutingOptions = System::MakeObject<HandoutLayoutingOptions>();
+handoutLayoutingOptions->set_Handout(HandoutType::Handouts4Horizontal);
+
+System::SharedPtr<PdfOptions> options = System::MakeObject<PdfOptions>();
+options->set_SlidesLayoutOptions(handoutLayoutingOptions);
+
+pres->Save(u"pres.pdf", SaveFormat::Pdf, options);
+```
+
+## ดูเพิ่มเติม
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* คลาส [ISlidesLayoutOptions](../../islideslayoutoptions/)
+* คลาส [PdfOptions](../)
+* เนมสเปซ [Aspose::Slides::Export](../../)
+* Library [Aspose.Slides](../../../)

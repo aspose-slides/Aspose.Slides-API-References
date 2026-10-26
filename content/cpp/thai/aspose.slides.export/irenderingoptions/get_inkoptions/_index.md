@@ -1,0 +1,23 @@
+---
+title: get_InkOptions()
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ C++
+description: ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว IInkOptions
+type: docs
+weight: 27
+url: /th/aspose.slides.export/irenderingoptions/get_inkoptions/
+---
+## IRenderingOptions::get_InkOptions() เมธอด
+
+ให้ตัวเลือกที่ควบคุมรูปร่างของวัตถุ [Ink](../../../aspose.slides.ink/) ในเอกสารที่ส่งออก. อ่านอย่างเดียว [IInkOptions](../../iinkoptions/)
+
+```cpp
+virtual System::SharedPtr<IInkOptions> Aspose::Slides::Export::IRenderingOptions::get_InkOptions()=0
+```
+
+## ดูเพิ่มเติม
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* คลาส [IInkOptions](../../iinkoptions/)
+* คลาส [IRenderingOptions](../)
+* เนมสเปซ [Aspose::Slides::Export](../../)
+* ไลบรารี [Aspose.Slides](../../../)

@@ -24,7 +24,7 @@ url: /aspose.slides/colorchange/
 | --- | --- | --- |
 | obj | Object | The ColorChange to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Color Change effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 ColorChangeEffectiveData
 
 
@@ -50,7 +50,7 @@ ColorChangeEffectiveData
 | --- | --- |
 | getFromColor () | Color which will be replaced. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -63,7 +63,7 @@ ColorChangeEffectiveData
 | --- | --- |
 | getToColor () | Color which will replace. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -76,7 +76,7 @@ ColorChangeEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -89,7 +89,7 @@ long
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

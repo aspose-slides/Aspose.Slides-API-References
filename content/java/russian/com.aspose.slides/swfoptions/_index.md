@@ -1,0 +1,492 @@
+---
+title: SwfOptions
+second_title: Справка API Aspose.Slides для Java
+description: Предоставляет параметры, контролирующие, как презентация сохраняется в формате Swf.
+type: docs
+url: /ru/com.aspose.slides/swfoptions/
+---
+**Наследование:**
+java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
+
+**Все реализованные интерфейсы:**
+[com.aspose.slides.ISwfOptions](../../com.aspose.slides/iswfoptions)
+```
+public class SwfOptions extends SaveOptions implements ISwfOptions
+```
+
+Предоставляет параметры, контролирующие, как презентация сохраняется в формате Swf.
+
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to SWF Flash.
+>  
+>  // Создайте объект Presentation, представляющий файл презентации
+>  Presentation pres = new Presentation("HelloWorld.pptx");
+>  try {
+>      SwfOptions swfOptions = new SwfOptions();
+>      swfOptions.setViewerIncluded(false);
+>      INotesCommentsLayoutingOptions notesOptions = swfOptions.getNotesCommentsLayouting();
+>      notesOptions.setNotesPosition(NotesPositions.BottomFull);
+>      // Сохранение презентации и страниц заметок
+>      pres.save("SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
+>      swfOptions.setViewerIncluded(true);
+>      pres.save("SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+## Конструкторы
+
+| Constructor | Description |
+| --- | --- |
+| [SwfOptions()](#SwfOptions--) | Конструктор по умолчанию. |
+## Методы
+
+| Method | Description |
+| --- | --- |
+| [getShowHiddenSlides()](#getShowHiddenSlides--) | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. |
+| [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. |
+| [getCompressed()](#getCompressed--) | Указывает, должен ли сгенерированный SWF-документ быть сжатым или нет. |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | Указывает, должен ли сгенерированный SWF-документ быть сжатым или нет. |
+| [getViewerIncluded()](#getViewerIncluded--) | Указывает, должен ли сгенерированный SWF-документ включать встроенный просмотрщик документов или нет. |
+| [setViewerIncluded(boolean value)](#setViewerIncluded-boolean-) | Указывает, должен ли сгенерированный SWF-документ включать встроенный просмотрщик документов или нет. |
+| [getShowPageBorder()](#getShowPageBorder--) | Указывает, следует ли отображать рамку вокруг страниц. |
+| [setShowPageBorder(boolean value)](#setShowPageBorder-boolean-) | Указывает, следует ли отображать рамку вокруг страниц. |
+| [getShowFullScreen()](#getShowFullScreen--) | Показать/скрыть кнопку полноэкранного режима. |
+| [setShowFullScreen(boolean value)](#setShowFullScreen-boolean-) | Показать/скрыть кнопку полноэкранного режима. |
+| [getShowPageStepper()](#getShowPageStepper--) | Показать/скрыть переключатель страниц. |
+| [setShowPageStepper(boolean value)](#setShowPageStepper-boolean-) | Показать/скрыть переключатель страниц. |
+| [getShowSearch()](#getShowSearch--) | Показать/скрыть раздел поиска. |
+| [setShowSearch(boolean value)](#setShowSearch-boolean-) | Показать/скрыть раздел поиска. |
+| [getShowTopPane()](#getShowTopPane--) | Показать/скрыть всю верхнюю панель. |
+| [setShowTopPane(boolean value)](#setShowTopPane-boolean-) | Показать/скрыть всю верхнюю панель. |
+| [getShowBottomPane()](#getShowBottomPane--) | Показать/скрыть нижнюю панель. |
+| [setShowBottomPane(boolean value)](#setShowBottomPane-boolean-) | Показать/скрыть нижнюю панель. |
+| [getShowLeftPane()](#getShowLeftPane--) | Показать/скрыть левую панель. |
+| [setShowLeftPane(boolean value)](#setShowLeftPane-boolean-) | Показать/скрыть левую панель. |
+| [getStartOpenLeftPane()](#getStartOpenLeftPane--) | Открыть левую панель при запуске. |
+| [setStartOpenLeftPane(boolean value)](#setStartOpenLeftPane-boolean-) | Открыть левую панель при запуске. |
+| [getEnableContextMenu()](#getEnableContextMenu--) | Включить/выключить контекстное меню. |
+| [setEnableContextMenu(boolean value)](#setEnableContextMenu-boolean-) | Включить/выключить контекстное меню. |
+| [getLogoImageBytes()](#getLogoImageBytes--) | Изображение, которое будет отображаться как логотип в правом верхнем углу просмотрщика. |
+| [setLogoImageBytes(byte[] value)](#setLogoImageBytes-byte---) | Изображение, которое будет отображаться как логотип в правом верхнем углу просмотрщика. |
+| [getLogoLink()](#getLogoLink--) | Получает или задает полный гиперссылочный адрес логотипа. |
+| [setLogoLink(String value)](#setLogoLink-java.lang.String-) | Получает или задает полный гиперссылочный адрес логотипа. |
+| [getJpegQuality()](#getJpegQuality--) | Указывает качество JPEG-изображений. |
+| [setJpegQuality(int value)](#setJpegQuality-int-) | Указывает качество JPEG-изображений. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+### SwfOptions() {#SwfOptions--}
+```
+public SwfOptions()
+```
+
+
+Конструктор по умолчанию.
+
+### getShowHiddenSlides() {#getShowHiddenSlides--}
+```
+public final boolean getShowHiddenSlides()
+```
+
+
+Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию false.
+
+**Возвращаемое значение:**
+boolean
+### setShowHiddenSlides(boolean value) {#setShowHiddenSlides-boolean-}
+```
+public final void setShowHiddenSlides(boolean value)
+```
+
+
+Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию false.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getCompressed() {#getCompressed--}
+```
+public final boolean getCompressed()
+```
+
+
+Указывает, должен ли сгенерированный SWF-документ быть сжатым или нет. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setCompressed(boolean value) {#setCompressed-boolean-}
+```
+public final void setCompressed(boolean value)
+```
+
+
+Указывает, должен ли сгенерированный SWF-документ быть сжатым или нет. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getViewerIncluded() {#getViewerIncluded--}
+```
+public final boolean getViewerIncluded()
+```
+
+
+Указывает, должен ли сгенерированный SWF-документ включать встроенный просмотрщик документов или нет. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setViewerIncluded(boolean value) {#setViewerIncluded-boolean-}
+```
+public final void setViewerIncluded(boolean value)
+```
+
+
+Указывает, должен ли сгенерированный SWF-документ включать встроенный просмотрщик документов или нет. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowPageBorder() {#getShowPageBorder--}
+```
+public final boolean getShowPageBorder()
+```
+
+
+Указывает, следует ли отображать рамку вокруг страниц. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowPageBorder(boolean value) {#setShowPageBorder-boolean-}
+```
+public final void setShowPageBorder(boolean value)
+```
+
+
+Указывает, следует ли отображать рамку вокруг страниц. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowFullScreen() {#getShowFullScreen--}
+```
+public final boolean getShowFullScreen()
+```
+
+
+Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowFullScreen(boolean value) {#setShowFullScreen-boolean-}
+```
+public final void setShowFullScreen(boolean value)
+```
+
+
+Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowPageStepper() {#getShowPageStepper--}
+```
+public final boolean getShowPageStepper()
+```
+
+
+Показать/скрыть переключатель страниц. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowPageStepper(boolean value) {#setShowPageStepper-boolean-}
+```
+public final void setShowPageStepper(boolean value)
+```
+
+
+Показать/скрыть переключатель страниц. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowSearch() {#getShowSearch--}
+```
+public final boolean getShowSearch()
+```
+
+
+Показать/скрыть раздел поиска. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowSearch(boolean value) {#setShowSearch-boolean-}
+```
+public final void setShowSearch(boolean value)
+```
+
+
+Показать/скрыть раздел поиска. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowTopPane() {#getShowTopPane--}
+```
+public final boolean getShowTopPane()
+```
+
+
+Показать/скрыть всю верхнюю панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowTopPane(boolean value) {#setShowTopPane-boolean-}
+```
+public final void setShowTopPane(boolean value)
+```
+
+
+Показать/скрыть всю верхнюю панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowBottomPane() {#getShowBottomPane--}
+```
+public final boolean getShowBottomPane()
+```
+
+
+Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowBottomPane(boolean value) {#setShowBottomPane-boolean-}
+```
+public final void setShowBottomPane(boolean value)
+```
+
+
+Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowLeftPane() {#getShowLeftPane--}
+```
+public final boolean getShowLeftPane()
+```
+
+
+Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setShowLeftPane(boolean value) {#setShowLeftPane-boolean-}
+```
+public final void setShowLeftPane(boolean value)
+```
+
+
+Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getStartOpenLeftPane() {#getStartOpenLeftPane--}
+```
+public final boolean getStartOpenLeftPane()
+```
+
+
+Открыть левую панель при запуске. Может быть переопределено в flashvars. По умолчанию false.
+
+**Возвращаемое значение:**
+boolean
+### setStartOpenLeftPane(boolean value) {#setStartOpenLeftPane-boolean-}
+```
+public final void setStartOpenLeftPane(boolean value)
+```
+
+
+Открыть левую панель при запуске. Может быть переопределено в flashvars. По умолчанию false.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getEnableContextMenu() {#getEnableContextMenu--}
+```
+public final boolean getEnableContextMenu()
+```
+
+
+Включить/выключить контекстное меню. По умолчанию true.
+
+**Возвращаемое значение:**
+boolean
+### setEnableContextMenu(boolean value) {#setEnableContextMenu-boolean-}
+```
+public final void setEnableContextMenu(boolean value)
+```
+
+
+Включить/выключить контекстное меню. По умолчанию true.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getLogoImageBytes() {#getLogoImageBytes--}
+```
+public final byte[] getLogoImageBytes()
+```
+
+
+Изображение, которое будет отображаться как логотип в правом верхнем углу просмотрщика. Изображение должно быть PNG размером 32 × 64 пикселя, иначе логотип может отображаться некорректно.
+
+**Возвращаемое значение:**
+byte[]
+### setLogoImageBytes(byte[] value) {#setLogoImageBytes-byte---}
+```
+public final void setLogoImageBytes(byte[] value)
+```
+
+
+Изображение, которое будет отображаться как логотип в правом верхнем углу просмотрщика. Изображение должно быть PNG размером 32 × 64 пикселя, иначе логотип может отображаться некорректно.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | byte[] |  |
+
+### getLogoLink() {#getLogoLink--}
+```
+public final String getLogoLink()
+```
+
+
+Получает или задает полный гиперссылочный адрес логотипа. Имеет эффект только если указаны (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])). 
+
+**Возвращаемое значение:**
+java.lang.String
+### setLogoLink(String value) {#setLogoLink-java.lang.String-}
+```
+public final void setLogoLink(String value)
+```
+
+
+Получает или задает полный гиперссылочный адрес логотипа. Имеет эффект только если указаны (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])). 
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getJpegQuality() {#getJpegQuality--}
+```
+public final int getJpegQuality()
+```
+
+
+Указывает качество JPEG-изображений. По умолчанию 95.
+
+**Возвращаемое значение:**
+int
+### setJpegQuality(int value) {#setJpegQuality-int-}
+```
+public final void setJpegQuality(int value)
+```
+
+
+Указывает качество JPEG-изображений. По умолчанию 95.
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | int |  |
+
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public final ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). Это свойство не поддерживает присваивание объектов типа [HandoutLayoutingOptions](../../com.aspose.slides/handoutlayoutingoptions)
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+>      notesOptions.setCommentsPosition(CommentsPositions.Right);
+> 
+>      SwfOptions options = new SwfOptions();
+>      options.setSlidesLayoutOptions(notesOptions);
+> 
+>      pres.save("pres.swf", SaveFormat.Swf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Возвращаемое значение:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public final void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Получает или задает режим размещения слайдов на странице при экспорте презентации [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). Это свойство не поддерживает присваивание объектов типа [HandoutLayoutingOptions](../../com.aspose.slides/handoutlayoutingoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
+>      notesOptions.setCommentsPosition(CommentsPositions.Right);
+> 
+>      SwfOptions options = new SwfOptions();
+>      options.setSlidesLayoutOptions(notesOptions);
+> 
+>      pres.save("pres.swf", SaveFormat.Swf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Параметры:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |

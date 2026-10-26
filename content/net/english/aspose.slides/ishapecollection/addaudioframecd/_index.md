@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds an AudioFrame with CD to the end of collection.
+description: Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 type: docs
 weight: 30
 url: /aspose.slides/ishapecollection/addaudioframecd/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addaudioframecd/
 
 ## IShapeCollection.AddAudioFrameCD method
 
-Adds an AudioFrame with CD to the end of collection.
+Creates a new audio frame linked to a CD track and adds it to the end of the shape collection.
 
 ```csharp
 public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
@@ -17,14 +17,14 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 

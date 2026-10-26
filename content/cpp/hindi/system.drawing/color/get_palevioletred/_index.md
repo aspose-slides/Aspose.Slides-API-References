@@ -1,0 +1,22 @@
+---
+title: get_PaleVioletRed()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: एक रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FFDB7093 है।
+type: docs
+weight: 1652
+url: /hi/system.drawing/color/get_palevioletred/
+---
+## Color::get_PaleVioletRed() मेथड
+
+
+एक रंग लौटाता है जिसका ARGB मान हेक्साडेसिमल नोटेशन में #FFDB7093 है।
+
+```cpp
+static Color System::Drawing::Color::get_PaleVioletRed()
+```
+
+## और देखें
+
+* क्लास [Color](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

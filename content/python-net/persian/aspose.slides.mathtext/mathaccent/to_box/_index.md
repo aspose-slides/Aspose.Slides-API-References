@@ -1,0 +1,27 @@
+---
+title: to_box method
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+description: 
+type: docs
+url: /fa/aspose.slides.mathtext/mathaccent/to_box/
+weight: 210
+---
+## to_box(self) {#}
+این عنصر را در یک جعبه غیرقابل نمایش (گروه‌بندی منطقی) قرار می‌دهد
+که برای گروه‌بندی مؤلفه‌های یک معادله یا سایر نمونه‌های متن ریاضی استفاده می‌شود.
+یک شیء جعبه‌بندی‌شده می‌تواند (به عنوان مثال) به عنوان شبیه‌ساز عملگر با یا بدون نقطه هم‌ترازی عمل کند،
+به عنوان نقطه شکست خط عمل کند، یا به گونه‌ای گروه‌بندی شود که اجازه شکست خط درون آن ندهد.
+
+### مقدار بازگشتی
+جعبه منطقی با این عنصر درون آن قرار گرفته است
+
+```python
+def to_box(self):
+    ...
+```
+
+### موارد مرتبط
+* کلاس [`IMathBox`](/slides/python-net/fa/aspose.slides.mathtext/imathbox)
+* کلاس [`MathAccent`](/slides/python-net/fa/aspose.slides.mathtext/mathaccent)
+* ماژول [`aspose.slides.mathtext`](/slides/python-net/fa/aspose.slides.mathtext)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

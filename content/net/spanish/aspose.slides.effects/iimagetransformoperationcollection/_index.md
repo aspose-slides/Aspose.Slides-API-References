@@ -1,13 +1,12 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de efectos aplicados a una imagen.
 type: docs
-weight: 3280
+weight: 3400
 url: /es/aspose.slides.effects/iimagetransformoperationcollection/
 ---
-
-## Interfaz IImageTransformOperationCollection
+## IImageTransformOperationCollection interfaz
 
 Representa una colección de efectos aplicados a una imagen.
 
@@ -19,8 +18,8 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Retorna la interfaz IEnumerable. Solo lectura IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Retorna un [`IImageTransformOperation`](../iimagetransformoperation) de la colección por su índice. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Devuelve la interfaz IEnumerable. IEnumerable de solo lectura. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Devuelve un [`IImageTransformOperation`](../iimagetransformoperation) de la colección por su índice. |
 
 ## Métodos
 
@@ -34,21 +33,22 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Agrega el nuevo efecto Alpha Modulate Fixed al final de una colección. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Agrega el nuevo efecto Alpha Replace al final de una colección. |
 | [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Agrega el nuevo efecto Bi-Level (blanco/negro) al final de una colección. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Agrega el nuevo efecto Blur al final de una colección. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Agrega el nuevo efecto Blur al final de una colección. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Agrega el nuevo efecto BrightnessContrast al final de una colección. |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Agrega el nuevo efecto Color Change al final de una colección. |
 | [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Agrega el nuevo efecto Color Replacement al final de una colección. |
 | [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Agrega el nuevo efecto Duotone al final de una colección. |
 | [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Agrega el nuevo efecto Fill Overlay al final de una colección. |
 | [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Agrega el nuevo efecto Gray Scale al final de una colección. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Agrega el nuevo efecto Tono/Saturación/Luminosidad al final de una colección. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Agrega el nuevo efecto Luminancia al final de una colección. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Agrega el nuevo efecto Tint al final de una colección. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Agrega el nuevo efecto Hue/Saturation/Luminance al final de una colección. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Agrega el nuevo efecto Luminance al final de una colección. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Agrega el nuevo efecto Tint al final de una colección. |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Elimina un efecto de imagen de una colección en el índice especificado. |
 
-### Ver También
+### Ver también
 
-* interfaz [IImageTransformOperation](../iimagetransformoperation)
-* espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblado [Aspose.Slides](../../)
+* interfaz [IImageTransformOperation](../iimagetransformoperation)
+* espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

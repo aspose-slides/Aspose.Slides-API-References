@@ -1,0 +1,28 @@
+---
+title: select_locked property
+second_title: Aspose.Slides dla Pythona via .NET Dokumentacja API
+description: 
+type: docs
+url: /pl/aspose.slides/igroupshapelock/select_locked/
+weight: 70
+---
+## select_locked właściwość
+Określa, czy wybieranie tego kształtu jest zabronione.
+            Odczyt/zapis **bool**.
+
+### Definicja:
+```python
+@property
+def select_locked(self):
+    ...
+
+@select_locked.setter
+def select_locked(self, value):
+    ...
+```
+
+
+### Zobacz także
+* klasa [`IGroupShapeLock`](/slides/python-net/pl/aspose.slides/igroupshapelock)
+* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,21 @@
+---
+title: slide property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.theme/imasterthemeable/slide/
+weight: 60
+---
+## स्लाइड प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def slide(self):
+    ...
+```
+
+
+### संबंधित देखें
+* वर्ग [`IMasterThemeable`](/slides/python-net/hi/aspose.slides.theme/imasterthemeable)
+* मॉड्यूल [`aspose.slides.theme`](/slides/python-net/hi/aspose.slides.theme)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

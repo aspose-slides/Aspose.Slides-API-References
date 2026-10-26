@@ -1,13 +1,12 @@
 ---
 title: DigitalSignature
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API справочника
 description: Цифровая подпись в подписанном файле.
 type: docs
-weight: 2680
+weight: 2770
 url: /ru/aspose.slides/digitalsignature/
 ---
-
-## DigitalSignature class
+## DigitalSignature класс
 
 Цифровая подпись в подписанном файле.
 
@@ -17,19 +16,19 @@ public class DigitalSignature : IDigitalSignature
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Создает новый объект DigitalSignature с указанным сертификатом. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Создает новый объект DigitalSignature с указанным путем к файлу сертификата и паролем. |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Создаёт новый объект DigitalSignature с указанным сертификатом. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Создаёт новый объект DigitalSignature с указанным путем к файлу сертификата и паролем. |
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, который был использован для подписи документа. Только для чтения X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Цель подписи. Читаемая/записываемая строка. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был изменен, это значение будет равно true. Только для чтения Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время, когда документ был подписан. Только для чтения DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, использованный для подписи документа. Только для чтения X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Назначение подписи. Чтение/запись String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был изменён, значение будет true. Только для чтения Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время, когда документ был подписан. Только для чтения DateTime. |
 
 ### Примеры
 
@@ -37,50 +36,50 @@ public class DigitalSignature : IDigitalSignature
 
 ```csharp
 [C#]
-// Инициализация экземпляра Presentation
+// Инициализировать экземпляр Presentation
 using (Presentation pres = new Presentation())
 {
-    // Создание объекта DigitalSignature с файлом PFX и паролем PFX
+    // Создать объект DigitalSignature с файлом PFX и паролем PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Комментарий к новой цифровой подписи
-    signature.Comments = "Тест цифровой подписи Aspose.Slides.";
-    // Добавление цифровой подписи в презентацию
+    // Добавить комментарий к новой цифровой подписи
+    signature.Comments = "Aspose.Slides digital signing test.";
+    // Добавить цифровую подпись в презентацию
     pres.DigitalSignatures.Add(signature);
-    // Сохранение презентации
+    // Сохранить презентацию
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-Следующий образец кода демонстрирует, как проверить цифровую подпись презентации PowerPoint.
+Следующий пример кода демонстрирует, как проверить цифровую подпись презентации PowerPoint.
 
 ```csharp
 [C#]
-// Инициализация экземпляра Presentation
+// Инициализировать экземпляр Presentation
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
     {
         bool allSignaturesAreValid = true;
-        Console.WriteLine("Подписи, использованные для подписания презентации: ");
-        // Проверка, являются ли все цифровые подписи действительными
+        Console.WriteLine("Signatures used to sign the presentation: ");
+        // Проверить, действительны ли все цифровые подписи
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
-                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "ДЕЙСТВИТЕЛЬНА" : "НЕДЕЙСТВИТЕЛЬНА"));
+                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALID" : "INVALID"));
             allSignaturesAreValid &= signature.IsValid;
         }
         if (allSignaturesAreValid)
-            Console.WriteLine("Презентация подлинная, все подписи действительны.");
+            Console.WriteLine("Presentation is genuine, all signatures are valid.");
         else
-            Console.WriteLine("Презентация была изменена после подписания.");
+            Console.WriteLine("Presentation has been modified since signing.");
     }
 }
 ```
 
-### Смотрите также
+### См. также
 
-* интерфейс [IDigitalSignature](../idigitalsignature)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IDigitalSignature](../idigitalsignature)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

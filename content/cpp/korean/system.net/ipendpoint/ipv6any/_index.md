@@ -1,0 +1,22 @@
+---
+title: IPv6Any
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 모든 IPv6 주소와 모든 포트를 위한 엔드포인트입니다.
+type: docs
+weight: 196
+url: /ko/system.net/ipendpoint/ipv6any/
+---
+## IPv6Any 필드
+
+
+모든 IPv6 주소와 모든 포트를 위한 엔드포인트입니다.
+
+```cpp
+static System::SharedPtr<IPEndPoint> System::Net::IPEndPoint::IPv6Any
+```
+
+## 참조
+
+* 클래스 [IPEndPoint](../)
+* 네임스페이스 [System::Net](../../)
+* 라이브러리 [Aspose.Slides](../../../)

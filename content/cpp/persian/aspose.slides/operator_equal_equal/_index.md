@@ -1,0 +1,33 @@
+---
+title: operator==()
+second_title: Aspose.Slides برای C++ مرجع API
+description: 
+type: docs
+weight: 5604
+url: /fa/aspose.slides/operator_equal_equal/
+---
+## Aspose::Slides::operator==(System::SharedPtr\<FieldType\>, System::SharedPtr\<FieldType\>) تابع
+
+
+
+
+```cpp
+bool Aspose::Slides::operator==(System::SharedPtr<FieldType> a, System::SharedPtr<FieldType> b)
+```
+
+## Aspose::Slides::operator==(System::SharedPtr\<Hyperlink\>, System::SharedPtr\<Hyperlink\>) تابع
+
+
+
+
+```cpp
+bool Aspose::Slides::operator==(System::SharedPtr<Hyperlink> hlink1, System::SharedPtr<Hyperlink> hlink2)
+```
+
+## موارد مرتبط
+
+* تعریف نوع [SharedPtr](../../system/sharedptr/)
+* کلاس [FieldType](../fieldtype/)
+* کلاس [Hyperlink](../hyperlink/)
+* فضای نام [Aspose::Slides](../)
+* کتابخانه [Aspose.Slides](../../)

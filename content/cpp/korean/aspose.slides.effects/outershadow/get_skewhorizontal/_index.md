@@ -1,0 +1,21 @@
+---
+title: get_SkewHorizontal()
+second_title: Aspose.Slides for C++ API 참조
+description: 수평 기울기 각도, 도 단위. 기본값 \\u2013 0 \\u00B0. 읽기 double.
+type: docs
+weight: 118
+url: /ko/aspose.slides.effects/outershadow/get_skewhorizontal/
+---
+## OuterShadow::get_SkewHorizontal() 메서드
+
+수평 기울기 각도(도). 기본값 – 0 °. 읽기 **double**.
+
+```cpp
+double Aspose::Slides::Effects::OuterShadow::get_SkewHorizontal() override
+```
+
+## 참고
+
+* 클래스 [OuterShadow](../)
+* 네임스페이스 [Aspose::Slides::Effects](../../)
+* 라이브러리 [Aspose.Slides](../../../)

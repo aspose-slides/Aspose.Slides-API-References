@@ -1,0 +1,76 @@
+---
+title: IChartTextBlockFormat
+second_title: Aspose.Slides voor C++ API-referentie
+description: Stelt opmaakeigenschappen voor tekstelementen van diagrammen voor.
+type: docs
+weight: 885
+url: /nl/aspose.slides.charts/icharttextblockformat/
+---
+## IChartTextBlockFormat klasse
+
+Stelt opmaakeigenschappen voor tekstelementen van diagrammen voor.
+
+```cpp
+class IChartTextBlockFormat : public virtual System::Object
+```
+
+## Methoden
+
+| Methode | Beschrijving |
+| --- | --- |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Vergelijkt objecten met C# [Object.Equals](../../system/object/equals/) semantiek. |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Vergelijkt referentietype-objecten in C#-stijl. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Vergelijkt waardetype-objecten in C#-stijl. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emuleert C#-stijl zwevende-komma vergelijking waarbij twee NaN-waarden als gelijk worden beschouwd, hoewel volgens IEC 60559:1989 NaN niet gelijk is aan enige waarde, inclusief NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emuleert C#-stijl zwevende-komma vergelijking waarbij twee NaN-waarden als gelijk worden beschouwd, hoewel volgens IEC 60559:1989 NaN niet gelijk is aan enige waarde, inclusief NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Alleen voor intern gebruik. |
+| virtual [TextAnchorType](../../aspose.slides/textanchortype/) [get_AnchoringType](./get_anchoringtype/)() | Retourneert verticale ankertekst in een [TextFrame](../../aspose.slides/textframe/). Lees [TextAnchorType](../../aspose.slides/textanchortype/). |
+| virtual [TextAutofitType](../../aspose.slides/textautofittype/) [get_AutofitType](./get_autofittype/)() | Retourneert de autofit-modus van de tekst. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Lees [TextAutofitType](../../aspose.slides/textautofittype/). |
+| virtual [NullableBool](../../aspose.slides/nullablebool/) [get_CenterText](./get_centertext/)() | Als [NullableBool::True](../../aspose.slides/nullablebool/) dan moet de tekst horizontaal gecentreerd worden in de doos. Lees [NullableBool](../../aspose.slides/nullablebool/). |
+| virtual **double** [get_MarginBottom](./get_marginbottom/)() | Retourneert de ondermarge (punten) in een [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Lees **double**. |
+| virtual **double** [get_MarginLeft](./get_marginleft/)() | Retourneert de linkermarge (punten) in een [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Lees **double**. |
+| virtual **double** [get_MarginRight](./get_marginright/)() | Retourneert de rechtermarge (punten) in een [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Lees **double**. |
+| virtual **double** [get_MarginTop](./get_margintop/)() | Retourneert de bovemarge (punten) in een [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Lees **double**. |
+| virtual **float** [get_RotationAngle](./get_rotationangle/)() | Specificeert de aangepaste rotatie die op de tekst binnen de begrenzende doos wordt toegepast. Indien niet gespecificeerd, wordt de rotatie van de bijbehorende vorm gebruikt. Indien wel gespecificeerd, wordt deze onafhankelijk van de vorm toegepast. De resulterende visuele tekstrotatie is een samenvatting van deze eigenschap en het vooraf gedefinieerde verticale type in eigenschap TextVerticalType. Lees **float**. |
+| virtual [Aspose::Slides::TextVerticalType](../../aspose.slides/textverticaltype/) [get_TextVerticalType](./get_textverticaltype/)() | Bepaalt de tekstoriëntatie. De resulterende visuele tekstrotatie is een samenvatting van deze eigenschap en de aangepaste hoek in eigenschap RotationAngle. Lees [Slides::TextVerticalType](../../aspose.slides/textverticaltype/). |
+| virtual [NullableBool](../../aspose.slides/nullablebool/) [get_WrapText](./get_wraptext/)() | Waar als tekst wordt afgebroken bij de marges van [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2007/2013). Lees [NullableBool](../../aspose.slides/nullablebool/). |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Haalt de referentieteller-datastructuur op die bij het object hoort. |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analoge van C# [Object.GetHashCode()](../../system/object/gethashcode/)-methode. Maakt hash-generatie van aangepaste objecten mogelijk. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Haalt het werkelijke type van het object op. Analoge van C# [System.Object.GetType()](../../system/object/gettype/)-aanroep. |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Controleert of het object een instantie is van het type beschreven door targetType. Analoge van C# ‘is’-operator. |
+| void [Lock](../../system/object/lock/)() | Implementeert C# lock()-statement vergrendeling. Roep direct aan of gebruik [LockContext](../../system/lockcontext/)-wachtobject. |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analoge van C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/)-methode. Maakt klonen van aangepaste typen mogelijk. |
+|  [Object](../../system/object/object/)() | Creëert object. Initialiseert alle interne datastructuren. |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Kopieer-constructor. Kopieert niets, initialiseert alleen een nieuw object en maakt kopiëren van afgeleide klassen mogelijk. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Toewijzingsoperator. Kopieert niets, initialiseert alleen een nieuw object en maakt kopiëren van afgeleide klassen mogelijk. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Vergelijkt objecten per referentie. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Vergelijkt objecten per referentie. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Referentie-vergelijkt waardetype-object met nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialisatie van [Object::ReferenceEquals](../../system/object/referenceequals/) voor geval van string en nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialisatie van [Object::ReferenceEquals](../../system/object/referenceequals/) voor geval van strings. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Verlaagt de gedeelde referentieteller met de opgegeven waarde. |
+| virtual void [set_AnchoringType](./set_anchoringtype/)([TextAnchorType](../../aspose.slides/textanchortype/)) | Stelt verticale ankertekst in een [TextFrame](../../aspose.slides/textframe/) in. Schrijf [TextAnchorType](../../aspose.slides/textanchortype/). |
+| virtual void [set_AutofitType](./set_autofittype/)([TextAutofitType](../../aspose.slides/textautofittype/)) | Stelt de autofit-modus van de tekst in. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Schrijf [TextAutofitType](../../aspose.slides/textautofittype/). |
+| virtual void [set_CenterText](./set_centertext/)([NullableBool](../../aspose.slides/nullablebool/)) | Als [NullableBool::True](../../aspose.slides/nullablebool/) dan moet de tekst horizontaal gecentreerd worden in de doos. Schrijf [NullableBool](../../aspose.slides/nullablebool/). |
+| virtual void [set_MarginBottom](./set_marginbottom/)(**double**) | Stelt de ondermarge (punten) in een [TextFrame](../../aspose.slides/textframe/) in. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Schrijf **double**. |
+| virtual void [set_MarginLeft](./set_marginleft/)(**double**) | Stelt de linkermarge (punten) in een [TextFrame](../../aspose.slides/textframe/) in. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Schrijf **double**. |
+| virtual void [set_MarginRight](./set_marginright/)(**double**) | Stelt de rechtermarge (punten) in een [TextFrame](../../aspose.slides/textframe/) in. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Schrijf **double**. |
+| virtual void [set_MarginTop](./set_margintop/)(**double**) | Stelt de bovemarge (punten) in een [TextFrame](../../aspose.slides/textframe/) in. Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 geen effect op weergave). Schrijf **double**. |
+| virtual void [set_RotationAngle](./set_rotationangle/)(**float**) | Specificeert de aangepaste rotatie die op de tekst binnen de begrenzende doos wordt toegepast. Indien niet gespecificeerd, wordt de rotatie van de bijbehorende vorm gebruikt. Indien wel gespecificeerd, wordt deze onafhankelijk van de vorm toegepast. De resulterende visuele tekstrotatie is een samenvatting van deze eigenschap en het vooraf gedefinieerde verticale type in eigenschap TextVerticalType. Schrijf **float**. |
+| virtual void [set_TextVerticalType](./set_textverticaltype/)([Aspose::Slides::TextVerticalType](../../aspose.slides/textverticaltype/)) | Bepaalt de tekstoriëntatie. De resulterende visuele tekstrotatie is een samenvatting van deze eigenschap en de aangepaste hoek in eigenschap RotationAngle. Schrijf [Slides::TextVerticalType](../../aspose.slides/textverticaltype/). |
+| virtual void [set_WrapText](./set_wraptext/)([NullableBool](../../aspose.slides/nullablebool/)) | Waar als tekst wordt afgebroken bij de marges van [TextFrame](../../aspose.slides/textframe/). Het wijzigen van deze eigenschap kan alleen invloed hebben op deze diagramonderdelen: [DataLabel](../datalabel/) en [DataLabelFormat](../datalabelformat/) (volledige ondersteuning in PowerPoint 2007/2013). Schrijf [NullableBool](../../aspose.slides/nullablebool/). |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Stelt het n'th sjabloonargument in als een zwakke pointer (in plaats van gedeelde). Maakt het mogelijk om pointers in containers naar zwakke modus te schakelen. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Haalt de huidige waarde van de gedeelde referentieteller op. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Verhoogt de gedeelde referentieteller. Mag niet direct worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Verlaagt en retourneert de gedeelde referentieteller. Mag niet direct worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analoge van C# [Object.ToString()](../../system/object/tostring/)-methode. Maakt conversie van aangepaste objecten naar string mogelijk. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implementeert C# typeof([System.Object](../../system/object/))-construct. |
+| void [Unlock](../../system/object/unlock/)() | Implementeert C# lock()-statement ontgrendeling. Roep direct aan of gebruik [LockContext](../../system/lockcontext/)-wachtobject. |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Verhoogt de zwakke referentieteller. Mag niet direct worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Verlaagt de zwakke referentieteller. Mag niet direct worden aangeroepen; gebruik in plaats daarvan slimme pointers of ThisProtector. |
+| virtual  [~Object](../../system/object/~object/)() | Vernietigt object. Vrijmaakt alle interne datastructuren. |
+## Zie ook
+
+* Klasse [Object](../../system/object/)
+* Naamruimte [Aspose::Slides::Charts](../)
+* Bibliotheek [Aspose.Slides](../../)

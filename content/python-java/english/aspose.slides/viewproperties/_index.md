@@ -11,13 +11,26 @@ url: /aspose.slides/viewproperties/
 
  Presentation wide view properties.
  
+### getGridSpacing {#getGridSpacing}
+
+| Name | Description |
+| --- | --- |
+| getGridSpacing() | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float. The grid spacing value must be a positive number . The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points). |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getLastView {#getLastView}
 
 | Name | Description |
 | --- | --- |
 | getLastView() | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,7 +43,7 @@ int
 | --- | --- |
 | getNormalViewProperties() | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
 
- **Result:**
+ **Returns:**
 [NormalViewProperties](../normalviewproperties)
 
 
@@ -43,7 +56,7 @@ int
 | --- | --- |
 | getNotesViewProperties() | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
 
- **Result:**
+ **Returns:**
 [CommonSlideViewProperties](../commonslideviewproperties)
 
 
@@ -56,7 +69,7 @@ int
 | --- | --- |
 | getShowComments() | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -69,8 +82,18 @@ byte
 | --- | --- |
 | getSlideViewProperties() | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
 
- **Result:**
+ **Returns:**
 [CommonSlideViewProperties](../commonslideviewproperties)
+
+
+---
+
+
+### setGridSpacing {#setGridSpacing}
+
+| Name | Description |
+| --- | --- |
+| setGridSpacing(float) | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float. The grid spacing value must be a positive number . The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points). |
 
 
 ---

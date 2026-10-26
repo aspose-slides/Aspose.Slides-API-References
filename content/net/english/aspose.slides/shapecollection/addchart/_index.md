@@ -1,7 +1,7 @@
 ---
 title: AddChart
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Chart initialize it with sample series data and settings and adds it to the end of the collection.
+description: Creates a new chart initializes it with sample series data and settings and adds it to the end of the shape collection.
 type: docs
 weight: 100
 url: /aspose.slides/shapecollection/addchart/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addchart/
 
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
+Creates a new chart, initializes it with sample series data and settings, and adds it to the end of the shape collection.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
@@ -17,15 +17,15 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | ChartType | Type of chart. |
-| x | Single | X coordinate of a new chart. |
-| y | Single | Y coordinate of a new chart. |
-| width | Single | Chart's width. |
-| height | Single | Chart's height. |
+| type | ChartType | The type of chart to add. |
+| x | Single | The x-coordinate of the new chart, in points. |
+| y | Single | The y-coordinate of the new chart, in points. |
+| width | Single | The width of the chart, in points. |
+| height | Single | The height of the chart, in points. |
 
 ### Return Value
 
-Created chart.
+The newly created [`IChart`](../../../aspose.slides.charts/ichart).
 
 ### Examples
 
@@ -107,7 +107,7 @@ using(Presentation pres = new Presentation()) {
 
 ## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
 
-Creates a new Chart and adds it to the end of the collection.
+Creates a new chart, initializes it with sample series data and settings, and adds it to the end of the shape collection.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height, 
@@ -116,16 +116,16 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | ChartType | Type of chart. |
-| x | Single | X coordinate of a new chart. |
-| y | Single | Y coordinate of a new chart. |
-| width | Single | Chart's width. |
-| height | Single | Chart's height. |
-| initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
+| type | ChartType | The type of chart to add. |
+| x | Single | The x-coordinate of the new chart, in points. |
+| y | Single | The y-coordinate of the new chart, in points. |
+| width | Single | The width of the chart, in points. |
+| height | Single | The height of the chart, in points. |
+| initWithSample | Boolean | True to initialize the new chart with sample series data and settings; false to create the chart with no series and only minimal settings, which makes creation faster. |
 
 ### Return Value
 
-Created chart.
+The newly created [`IChart`](../../../aspose.slides.charts/ichart).
 
 ### See Also
 

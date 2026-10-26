@@ -1,0 +1,27 @@
+---
+title: text_selection_start property
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+description: 
+type: docs
+url: /th/aspose.slides/imoderncomment/text_selection_start/
+weight: 120
+---
+## text_selection_start คุณลักษณะ
+คืนค่า หรือ ตั้งค่าตำแหน่งเริ่มต้นของการเลือกข้อความในกรอบข้อความหากคอมเมนต์เชื่อมโยงกับ AutoShape.
+อ่าน/เขียน **int**.
+
+### คำนิยาม:
+```python
+@property
+def text_selection_start(self):
+    ...
+
+@text_selection_start.setter
+def text_selection_start(self, value):
+    ...
+```
+
+### ดูเพิ่มเติม
+* คลาส [`IModernComment`](/slides/python-net/th/aspose.slides/imoderncomment)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

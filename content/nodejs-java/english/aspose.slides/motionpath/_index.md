@@ -17,7 +17,7 @@ url: /aspose.slides/motionpath/
 | --- | --- |
 | MotionPath() |  |
 
- **Result:**
+ **Returns:**
 MotionPath
 
 
@@ -39,7 +39,7 @@ MotionPath
 | ptsType | int | MotionPathPointsType |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
- **Result:**
+ **Returns:**
 [MotionCmdPath](../motioncmdpath)
 
 
@@ -62,7 +62,7 @@ MotionPath
 | --- | --- |
 | getCount () | Returns the number of paths in the collection. Read-only int. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -81,7 +81,7 @@ int
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result:**
+ **Returns:**
 [MotionCmdPath](../motioncmdpath)
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result:**
+ **Returns:**
 
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result:**
+ **Returns:**
 
 
 

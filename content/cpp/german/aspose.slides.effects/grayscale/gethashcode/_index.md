@@ -1,0 +1,25 @@
+---
+title: GetHashCode()
+second_title: Aspose.Slides für C++ API-Referenz
+description: Dient als Hash-Funktion für einen bestimmten Typ.
+type: docs
+weight: 27
+url: /de/aspose.slides.effects/grayscale/gethashcode/
+---
+## GrayScale::GetHashCode() const Methode
+
+Dient als Hash-Funktion für einen bestimmten Typ.
+
+```cpp
+int32_t Aspose::Slides::Effects::GrayScale::GetHashCode() const override
+```
+
+### Rückgabewert
+
+Ein Hash-Code für das aktuelle Objekt.
+
+## Siehe auch
+
+* Klasse [GrayScale](../)
+* Namensraum [Aspose::Slides::Effects](../../)
+* Bibliothek [Aspose.Slides](../../../)

@@ -1,0 +1,37 @@
+---
+title: MarkerStyleType
+second_title: Aspose.Slides for C++ API 參考文件
+description: 決定圖表資料點上標記的形式。
+type: docs
+weight: 1626
+url: /zh-hant/aspose.slides.charts/markerstyletype/
+---
+## MarkerStyleType 列舉
+
+決定圖表資料點上標記的形式。
+
+```cpp
+enum class MarkerStyleType
+```
+
+### 值
+
+| 名稱 | 值 | 描述 |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Circle | 0 | 指定在每個資料點上繪製圓形。 |
+| Dash | 1 | 指定在每個資料點上繪製虛線。 |
+| Diamond | 2 | 指定在每個資料點上繪製菱形。 |
+| Dot | 3 | 指定在每個資料點上繪製點。 |
+| None | 4 | 指定在每個資料點上不繪製任何內容。 |
+| Picture | 5 | 指定在每個資料點上繪製圖片。 |
+| Plus | 6 | 指定在每個資料點上繪製加號。 |
+| Square | 7 | 指定在每個資料點上繪製方形。 |
+| Star | 8 | 指定在每個資料點上繪製星形。 |
+| Triangle | 9 | 指定在每個資料點上繪製三角形。 |
+| X | 10 | 指定在每個資料點上繪製 X。 |
+
+## 另請參閱
+
+* 命名空間 [Aspose::Slides::Charts](../)
+* 函式庫 [Aspose.Slides](../../)

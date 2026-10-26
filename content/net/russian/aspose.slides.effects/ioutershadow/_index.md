@@ -1,13 +1,12 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET – справочник API
 description: Представляет эффект внешней тени.
 type: docs
-weight: 3340
+weight: 3460
 url: /ru/aspose.slides.effects/ioutershadow/
 ---
-
-## Интерфейс IOuterShadow
+## IOuterShadow интерфейс
 
 Представляет эффект внешней тени.
 
@@ -18,27 +17,27 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия. Чтение / запись Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени. Чтение / запись Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние до тени. Чтение / запись Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение / запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Указывает, должна ли тень вращаться с формой, если форма повернута. Чтение / запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное значение приводит к отражению. Чтение / запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное значение приводит к отражению. Чтение / запись Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Указывает угол горизонтального искажения (в градусах). Чтение / запись Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Указывает угол вертикального искажения (в градусах). Чтение / запись Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени, в градусах. Значение по умолчанию – 0 ° (слева направо). Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние тени от объекта, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Значение по умолчанию – Bottom. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Указывает, вращается ли тень вместе с фигурой. Значение по умолчанию – true. Чтение/запись Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Коэффициент горизонтального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Коэффициент вертикального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Цвет тени. Значение по умолчанию – автоматический черный (зависит от темы). Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Угол горизонтального наклона, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Угол вертикального наклона, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
 
 ### См. также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
-* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

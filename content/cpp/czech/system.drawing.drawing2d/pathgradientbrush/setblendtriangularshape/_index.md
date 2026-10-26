@@ -1,0 +1,23 @@
+---
+title: SetBlendTriangularShape()
+second_title: Aspose.Slides pro C++ API Reference
+description: NEIMPLEMENTOVÁNO.
+type: docs
+weight: 313
+url: /cs/system.drawing.drawing2d/pathgradientbrush/setblendtriangularshape/
+---
+## PathGradientBrush::SetBlendTriangularShape(float, float) metoda
+
+
+NEIMPLEMENTOVÁNO.
+
+```cpp
+void System::Drawing::Drawing2D::PathGradientBrush::SetBlendTriangularShape(float focus, float scale=1.0f)
+```
+
+
+## Viz také
+
+* Třída [PathGradientBrush](../)
+* Jmenný prostor [System::Drawing::Drawing2D](../../)
+* Knihovna [Aspose.Slides](../../../)

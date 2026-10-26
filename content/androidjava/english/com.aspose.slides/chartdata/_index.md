@@ -30,6 +30,7 @@ Represents data used for a chart plotting.
 | [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Initializes the internally contained Excel workbook with user-specified value. |
 | [getDataSourceType()](#getDataSourceType--) | Represents external workbook path if external data source, null otherwise |
 | [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Represents data source of the chart |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Gets the type of the embedded workbook. |
 | [getRange()](#getRange--) | Gets chart data range. |
 | [setRange(String formula)](#setRange-java.lang.String-) | Set chart data range. |
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Sets external workbook as a data source for the chart. |
@@ -189,7 +190,7 @@ public final byte[] readWorkbookStream()
 Writes the internally contained Excel workbook it into an in-memory stream.
 
 **Returns:**
-byte[] - Returns an instance of MemoryStream containing a copy of the internally contained Excel workbook.
+byte[] - Returns an instance of byte array containing a copy of the internally contained Excel workbook.
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)
@@ -223,6 +224,16 @@ Represents data source of the chart
 
 **Returns:**
 java.lang.String
+### getEmbeddedWorkbookType() {#getEmbeddedWorkbookType--}
+```
+public final int getEmbeddedWorkbookType()
+```
+
+
+Gets the type of the embedded workbook. Returns [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) if  DataSourceType (\#getDataSourceType.getDataSourceType) is [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Read-only [WorkbookType](../../com.aspose.slides/workbooktype).
+
+**Returns:**
+int
 ### getRange() {#getRange--}
 ```
 public final String getRange()

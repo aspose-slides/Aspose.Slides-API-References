@@ -3,7 +3,7 @@ title: Speed
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides.slideshow/slideshowtransition/speed/
 ---
 

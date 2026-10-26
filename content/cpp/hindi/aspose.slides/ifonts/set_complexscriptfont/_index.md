@@ -1,0 +1,24 @@
+---
+title: set_ComplexScriptFont()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: जटिल स्क्रिप्ट फ़ॉन्ट सेट करता है। IFontData लिखें।
+type: docs
+weight: 66
+url: /hi/aspose.slides/ifonts/set_complexscriptfont/
+---
+## IFonts::set_ComplexScriptFont(System::SharedPtr\<IFontData\>) विधि
+
+
+जटिल स्क्रिप्ट फ़ॉन्ट सेट करता है। लिखें [IFontData](../../ifontdata/).
+
+```cpp
+virtual void Aspose::Slides::IFonts::set_ComplexScriptFont(System::SharedPtr<IFontData> value)=0
+```
+
+## देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* वर्ग [IFontData](../../ifontdata/)
+* वर्ग [IFonts](../)
+* नामस्थान [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

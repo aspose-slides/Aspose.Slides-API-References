@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes .NET API-referencia
+description: Beszúr egy megadott dia másolatát a gyűjtemény meghatározott pozíciójába.
+type: docs
+weight: 120
+url: /hu/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+A megadott diából egy másolatot szúr be a gyűjtemény meghatározott pozíciójába.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| index | Int32 | Az új dia indexe. |
+| sourceSlide | ISlide | Klónozandó dia. |
+
+### Visszatérési érték
+
+A beszúrt dia.
+
+### Megjegyzések
+
+Különböző előadások között dia klónozása esetén a dia mesterét is lehet klónozni. Egy belső nyilvántartás használatos az automatikusan klónozott mesterek nyomon követésére, hogy megakadályozza ugyanazon mesterdia több klónjának létrehozását. A mesterdiák kézi klónozását sem akadályozza, sem nem regisztrálja a rendszer. Ha nagyobb vezérlést igényel a klónozási folyamat, használja a(z) [`InsertClone`](../insertclone) vagy a(z) [`InsertClone`](../insertclone) diaklónozáshoz és a(z) [`AddClone`](../../imasterslidecollection/addclone) mesterklónozáshoz.
+
+### Példák
+
+Az alábbi példa bemutatja, hogyan lehet egy másik pozícióba klónozni a Presentation-ben.
+
+```csharp
+[C#]
+// Példányosítsa a Presentation osztályt, amely egy prezentációs fájlt képvisel
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Klónozza a kívánt diát a prezentációban lévő diák gyűjteményének végére
+    ISlideCollection slds = pres.Slides;
+    // Klónozza a kívánt diát a megadott indexre ugyanabban a prezentációban
+    slds.InsertClone(2, pres.Slides[1]);
+    // Mentse a módosított prezentációt lemezre
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Az alábbi példa bemutatja, hogyan lehet egy másik pozícióba klónozni a Presentation-ben.
+
+```csharp
+[C#]
+// Példányosítsa a Presentation osztályt a forrás prezentációs fájl betöltéséhez
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Példányosítsa a Presentation osztályt a cél PPTX-hez (ahová a dia klónozva lesz)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Mentse a cél prezentációt lemezre
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* osztály [SlideCollection](../../slidecollection)
+* névtér [Aspose.Slides](../../slidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+A megadott diából egy másolatot szúr be a gyűjtemény meghatározott pozíciójába.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| index | Int32 | Az új dia indexe. |
+| sourceSlide | ISlide | Klónozandó dia. |
+| destLayout | ILayoutSlide | Az új dia elrendezési diája. |
+
+### Visszatérési érték
+
+A beszúrt dia.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ILayoutSlide](../../ilayoutslide)
+* osztály [SlideCollection](../../slidecollection)
+* névtér [Aspose.Slides](../../slidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+A megadott forrásdia másolatát szúrja be a gyűjtemény meghatározott pozíciójába. A megfelelő elrendezést a megadott mesterből automatikusan kiválasztja (a megfelelő elrendezés az a layout, amelynek típusa vagy neve megegyezik a forrásdia layoutjával). Ha nincs megfelelő elrendezés, akkor a forrásdia layoutja lesz klónozva (ha az allowCloneMissingLayout értéke true), vagy PptxEditException kivétel keletkezik (ha az allowCloneMissingLayout értéke false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| index | Int32 | Az új dia indexe. |
+| sourceSlide | ISlide | Klónozandó dia. |
+| destMaster | IMasterSlide | Az új dia mesterdiája. |
+| allowCloneMissingLayout | Boolean | Ha a megadott mesterben nincs megfelelő elrendezés, akkor a forrásdia layoutja lesz klónozva (ha az allowCloneMissingLayout true), vagy PptxEditException kivétel keletkezik (ha az allowCloneMissingLayout false). |
+
+### Visszatérési érték
+
+A beszúrt dia.
+
+### Kivételek
+
+| kivétel | feltétel |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Akkor keletkezik, ha a megadott mesterben nincs megfelelő elrendezés és az allowCloneMissingLayout értéke false. |
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [IMasterSlide](../../imasterslide)
+* osztály [SlideCollection](../../slidecollection)
+* névtér [Aspose.Slides](../../slidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

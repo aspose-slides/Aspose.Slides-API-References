@@ -1,0 +1,108 @@
+---
+title: Calendar
+second_title: Aspose.Slides for C++ API 參考
+description: "Calendar 定義了日期的處理、計算、格式化等方式。Setter 操作僅在非唯讀物件上啟用。此類別的物件應僅使用 System::MakeObject() 函式分配。切勿在堆疊上或使用 operator new 建立此類型的實例，因為會導致執行時錯誤和/或斷言失敗。始終將此類別包裝成 System::SmartPtr 指標，並使用此指標作為參數傳遞給函式。"
+type: docs
+weight: 1
+url: /zh-hant/system.globalization/calendar/
+---
+## Calendar 類別
+
+[Calendar](./) 定義了日期的處理、計算、格式化等方式。Setter 操作僅在非唯讀物件上啟用。此類別的物件應僅使用 [System::MakeObject()](../../system/makeobject/) 函式分配。切勿在堆疊上或使用 operator new 建立此類型的實例，因為會導致執行時錯誤和/或斷言失敗。始終將此類別包裝成 [System::SmartPtr](../../system/smartptr/) 指標，並使用此指標將其作為參數傳遞給函式。
+
+```cpp
+class Calendar : public System::ICloneable
+```
+
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+| virtual [DateTime](../../system/datetime/) [AddDays](./adddays/)([DateTime](../../system/datetime/), int) const | 在時間點上加入天數。 |
+| virtual [DateTime](../../system/datetime/) [AddHours](./addhours/)([DateTime](../../system/datetime/), int) const | 在時間點上加入小時。 |
+| virtual [DateTime](../../system/datetime/) [AddMilliseconds](./addmilliseconds/)([DateTime](../../system/datetime/), **double**) const | 在時間點上加入毫秒。 |
+| virtual [DateTime](../../system/datetime/) [AddMinutes](./addminutes/)([DateTime](../../system/datetime/), int) const | 在時間點上加入分鐘。 |
+| virtual [DateTime](../../system/datetime/) [AddMonths](./addmonths/)([DateTime](../../system/datetime/), int) const | 在時間點上加入月份。 |
+| virtual [DateTime](../../system/datetime/) [AddSeconds](./addseconds/)([DateTime](../../system/datetime/), int) const | 在時間點上加入秒數。 |
+| virtual [DateTime](../../system/datetime/) [AddWeeks](./addweeks/)([DateTime](../../system/datetime/), int) const | 在時間點上加入週數。 |
+| virtual [DateTime](../../system/datetime/) [AddYears](./addyears/)([DateTime](../../system/datetime/), int) const | 在時間點上加入年數。 |
+|  [Calendar](./calendar/)(const [Calendar](./)\&) | RTTI 資訊。 |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\> [Clone](../../system/icloneable/clone/)() | 建立目前物件的副本並回傳指向它的 shared pointer。 |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | 使用 C# [Object.Equals](../../system/object/equals/) 語意比較物件。 |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | 以參考方式比較物件。 |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | 以參考方式比較物件。 |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | 模擬 C# 風格的浮點比較，兩個 NaN 被視為相等，即使根據 IEC 60559:1989，NaN 不等於任何值，包括 NaN 本身。 |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | 模擬 C# 風格的浮點比較，兩個 NaN 被視為相等，即使根據 IEC 60559:1989，NaN 不等於任何值，包括 NaN 本身。 |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | 僅供內部使用。 |
+| virtual [CalendarAlgorithmType](../calendaralgorithmtype/) [get_AlgorithmType](./get_algorithmtype/)() const | 取得演算法類型。 |
+| int [get_CurrentEra](./get_currentera/)() const | 取得目前紀元的索引。 |
+| int [get_CurrentEraValue](./get_currenteravalue/)() const | 取得目前紀元的值。 |
+| virtual [ArrayPtr](../../system/arrayptr/)\<int\> [get_Eras](./get_eras/)() const | 取得行事曆中存在的紀元列表。 |
+| virtual [Details::CalendarId](../../system.globalization.details/calendarid/) [get_ID](./get_id/)() const | 取得行事曆識別碼。 |
+| **bool** [get_IsReadOnly](./get_isreadonly/)() const | 檢查行事曆是否唯讀。 |
+| virtual [DateTime](../../system/datetime/) [get_MaxSupportedDateTime](./get_maxsupporteddatetime/)() const | 行事曆支援的最大時間點。 |
+| virtual [DateTime](../../system/datetime/) [get_MinSupportedDateTime](./get_minsupporteddatetime/)() const | 行事曆支援的最小時間點。 |
+| virtual int [get_TwoDigitYearMax](./get_twodigityearmax/)() const | 取得可由兩位數表示的最後一年。 |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | 取得與物件相關聯的參考計數資料結構。 |
+| virtual int [GetDayOfMonth](./getdayofmonth/)([DateTime](../../system/datetime/)) const | 取得指定時間點的月份天數。 |
+| virtual [DayOfWeek](../../system/dayofweek/) [GetDayOfWeek](./getdayofweek/)([DateTime](../../system/datetime/)) const | 取得指定時間點的星期幾。 |
+| virtual int [GetDayOfYear](./getdayofyear/)([DateTime](../../system/datetime/)) const | 取得指定時間點的年中第幾天。 |
+| virtual int [GetDaysInMonth](./getdaysinmonth/)(int, int) const | 取得特定月份的天數。 |
+| virtual int [GetDaysInMonth](./getdaysinmonth/)(int, int, int) const | 取得特定月份的天數。 |
+| virtual int [GetDaysInYear](./getdaysinyear/)(int) const | 取得特定年份的天數。 |
+| virtual int [GetDaysInYear](./getdaysinyear/)(int, int) const | 取得特定年份的天數。 |
+| virtual int [GetEra](./getera/)([DateTime](../../system/datetime/)) const | 取得指定時間點的紀元。 |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | C# [Object.GetHashCode()](../../system/object/gethashcode/) 方法的類比。啟用自訂物件的雜湊。 |
+| virtual int [GetHour](./gethour/)([DateTime](../../system/datetime/)) const | 取得指定時間點的時數。 |
+| virtual int [GetLeapMonth](./getleapmonth/)(int) const | 取得指定年份的閏月。 |
+| virtual int [GetLeapMonth](./getleapmonth/)(int, int) const | 取得指定年份的閏月。 |
+| virtual **double** [GetMilliseconds](./getmilliseconds/)([DateTime](../../system/datetime/)) const | 取得指定時間點的毫秒。 |
+| virtual int [GetMinute](./getminute/)([DateTime](../../system/datetime/)) const | 取得指定時間點的分鐘。 |
+| virtual int [GetMonth](./getmonth/)([DateTime](../../system/datetime/)) const | 取得指定時間點的月份。 |
+| virtual int [GetMonthsInYear](./getmonthsinyear/)(int) const | 取得指定年份的月份數。 |
+| virtual int [GetMonthsInYear](./getmonthsinyear/)(int, int) const | 取得指定年份的月份數。 |
+| virtual int [GetSecond](./getsecond/)([DateTime](../../system/datetime/)) const | 取得指定時間點的秒數。 |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | 取得物件的實際類型。相當於 C# [System.Object.GetType()](../../system/object/gettype/) 呼叫。 |
+| virtual int [GetWeekOfYear](./getweekofyear/)([DateTime](../../system/datetime/), [CalendarWeekRule](../calendarweekrule/), [DayOfWeek](../../system/dayofweek/)) const | 取得指定時間點的年度週次。 |
+| virtual int [GetYear](./getyear/)([DateTime](../../system/datetime/)) const | 取得指定時間點的年份。 |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | 檢查物件是否為 targetType 所描述類型的實例。相當於 C# 'is' 運算子。 |
+| virtual **bool** [IsLeapDay](./isleapday/)(int, int, int) const | 檢查此日是否為閏日。 |
+| virtual **bool** [IsLeapDay](./isleapday/)(int, int, int, int) const | 檢查此日是否為閏日。 |
+| virtual **bool** [IsLeapMonth](./isleapmonth/)(int, int) const | 檢查此月是否為閏月。 |
+| virtual **bool** [IsLeapMonth](./isleapmonth/)(int, int, int) const | 檢查此月是否為閏月。 |
+| virtual **bool** [IsLeapYear](./isleapyear/)(int) const | 檢查此年是否為閏年。 |
+| virtual **bool** [IsLeapYear](./isleapyear/)(int, int) const | 檢查此年是否為閏年。 |
+| **bool** [IsValidDay](./isvalidday/)(int, int, int, int) const | 檢查年份、月份、日期與紀元的值。 |
+| void [Lock](../../system/object/lock/)() | 實作 C# lock() 陳述式的鎖定。直接呼叫或使用 [LockContext](../../system/lockcontext/) 哨兵物件。 |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) 方法的類比。啟用自訂型別的克隆。 |
+|  [Object](../../system/object/object/)() | 建立物件。初始化所有內部資料結構。 |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | 拷貝建構式。實際上不會複製任何內容，只是初始化新物件並允許子類別的拷貝建構。 |
+| [Calendar](./)\& [operator=](./operator_equal/)(const [Calendar](./)\&) |  |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | 賦值運算子。實際上不會複製任何內容，只是初始化新物件並允許子類別的拷貝建構。 |
+| static [CalendarPtr](../calendarptr/) [ReadOnly](./readonly/)(const [CalendarPtr](../calendarptr/)\&) | 取得行事曆的唯讀版本。 |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | 以參考方式比較物件。 |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | 以參考方式比較物件。 |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | 以參考方式比較值型別物件與 nullptr。 |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | [Object::ReferenceEquals](../../system/object/referenceequals/) 的特化，針對字串與 nullptr 的情況。 |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | [Object::ReferenceEquals](../../system/object/referenceequals/) 的特化，針對字串的情況。 |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | 將共享參考計數減少指定的值。 |
+| virtual void [set_TwoDigitYearMax](./set_twodigityearmax/)(int) | 設定可由兩位數表示的最後一年。 |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | 將第 n 個模板參數設為弱指標（而非共享指標）。允許在容器中將指標切換為弱模式。 |
+| int [SharedCount](../../system/object/sharedcount/)() const | 取得共享參考計數器的目前值。 |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | 遞增共享參考計數。不應直接呼叫；請改用智慧指標或 ThisProtector。 |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | 遞減並回傳共享參考計數。不應直接呼叫；請改用智慧指標或 ThisProtector。 |
+| virtual [DateTime](../../system/datetime/) [ToDateTime](./todatetime/)(int, int, int, int, int, int, int) const | 從元件建立 [DateTime](../../system/datetime/) 物件。 |
+| virtual [DateTime](../../system/datetime/) [ToDateTime](./todatetime/)(int, int, int, int, int, int, int, int) const | 從元件建立 [DateTime](../../system/datetime/) 物件。 |
+| virtual int [ToFourDigitYear](./tofourdigityear/)(int) const | 使用 TwoDigitYearMax 屬性將年份轉換為四位數年份。 |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | C# [Object.ToString()](../../system/object/tostring/) 方法的類比。啟用將自訂物件轉換為字串。 |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | 實作 C# typeof([System.Object](../../system/object/)) 建構式。 |
+| void [Unlock](../../system/object/unlock/)() | 實作 C# lock() 陳述式的解除鎖定。直接呼叫或使用 [LockContext](../../system/lockcontext/) 哨兵物件。 |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | 遞增弱參考計數。不應直接呼叫；請改用智慧指標或 ThisProtector。 |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | 遞減弱參考計數。不應直接呼叫；請改用智慧指標或 ThisProtector。 |
+| virtual  [~Object](../../system/object/~object/)() | 銷毀物件。釋放所有內部資料結構。 |
+
+## 另見
+
+* 類別 [ICloneable](../../system/icloneable/)
+* 命名空間 [System::Globalization](../)
+* 函式庫 [Aspose.Slides](../../)

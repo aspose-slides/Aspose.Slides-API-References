@@ -17,7 +17,7 @@ url: /aspose.slides/vbaprojectfactory/
 | --- | --- |
 | VbaProjectFactory() |  |
 
- **Result:**
+ **Returns:**
 VbaProjectFactory
 
 
@@ -30,7 +30,7 @@ VbaProjectFactory
 | --- | --- |
 | createVbaProject () | Creates new VBA project. |
 
- **Result:**
+ **Returns:**
 [VbaProject](../vbaproject)
 
 
@@ -43,7 +43,7 @@ VbaProjectFactory
 | --- | --- |
 | getInstance () | VBA project factory static instance. Read-only VbaProjectFactory. |
 
- **Result:**
+ **Returns:**
 VbaProjectFactory
 
 
@@ -56,7 +56,7 @@ VbaProjectFactory
 | --- | --- |
 | readVbaProject (byte[]) | Reads VBA project from OLE container. |
 
- **Result:**
+ **Returns:**
 [VbaProject](../vbaproject)
 
 

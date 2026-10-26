@@ -1,0 +1,41 @@
+---
+title: ISideDirectionTransition
+second_title: Aspose.Slides for Android द्वारा Java API संदर्भ
+description: साइड दिशा स्लाइड ट्रांज़िशन प्रभाव।
+type: docs
+url: /hi/com.aspose.slides/isidedirectiontransition/
+---
+**सभी लागू इंटरफ़ेस:**  
+[com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)
+```
+public interface ISideDirectionTransition extends ITransitionValueBase
+```
+
+साइड दिशा स्लाइड ट्रांज़िशन प्रभाव।
+
+## विधियाँ
+
+| विधि | विवरण |
+| --- | --- |
+| [getDirection()](#getDirection--) | ट्रांज़िशन की दिशा। |
+| [setDirection(int value)](#setDirection-int-) | ट्रांज़िशन की दिशा। |
+### getDirection() {#getDirection--}
+```
+public abstract int getDirection()
+```
+
+ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [TransitionSideDirectionType](../../com.aspose.slides/transitionsidedirectiontype)।
+
+**वापसी:**
+int
+### setDirection(int value) {#setDirection-int-}
+```
+public abstract void setDirection(int value)
+```
+
+ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [TransitionSideDirectionType](../../com.aspose.slides/transitionsidedirectiontype)।
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | int |  |

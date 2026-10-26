@@ -1,0 +1,21 @@
+---
+title: slide property
+second_title: Aspose.Slides के लिए Python .NET API संदर्भ के माध्यम से
+description: 
+type: docs
+url: /hi/aspose.slides.charts/ichartcomponent/slide/
+weight: 50
+---
+## स्लाइड प्रॉपर्टी
+### परिभाषा:
+```python
+@property
+def slide(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IChartComponent`](/slides/python-net/hi/aspose.slides.charts/ichartcomponent)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

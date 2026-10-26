@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
 second_title: Aspose.Sildes for .NET API Reference
-description: Rectangle alignment. Read/write RectangleAlignmentaspose.slides/rectanglealignment.
+description: Rectangle alignment. Default value  Bottom. Read/write RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 40
 url: /aspose.slides.effects/outershadow/rectanglealign/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/rectanglealign/
 
 ## OuterShadow.RectangleAlign property
 
-Rectangle alignment. Read/write [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Rectangle alignment. Default value – Bottom. Read/write [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }

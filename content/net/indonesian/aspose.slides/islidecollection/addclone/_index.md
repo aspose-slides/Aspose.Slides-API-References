@@ -1,0 +1,147 @@
+---
+title: AddClone
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menambahkan salinan slide yang ditentukan ke akhir koleksi.
+type: docs
+weight: 20
+url: /id/aspose.slides/islidecollection/addclone/
+---
+## AddClone(ISlide) {#addclone}
+
+Menambahkan salinan slide yang ditentukan ke akhir koleksi.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide yang akan diklon. |
+
+### Nilai Kembalian
+
+Slide baru.
+
+### Catatan
+
+Saat menggandakan slide antara presentasi yang berbeda, master slide dapat juga digandakan. Registri internal digunakan untuk melacak master yang digandakan secara otomatis guna mencegah pembuatan beberapa salinan master slide yang sama. Penggandaan manual master slide tidak akan dicegah maupun dicatat. Jika Anda membutuhkan kontrol lebih pada proses penggandaan, gunakan [`AddClone`](../addclone) atau [`AddClone`](../addclone) untuk menggandakan slide, [`AddClone`](../../igloballayoutslidecollection/addclone) atau [`AddClone`](../../igloballayoutslidecollection/addclone) untuk menggandakan tata letak, dan [`AddClone`](../../imasterslidecollection/addclone) untuk menggandakan master.
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ISection) {#addclone_3}
+
+Menambahkan salinan slide yang ditentukan ke akhir bagian yang ditentukan.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ISection section)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide yang akan diklon. |
+| section | ISection | Bagian untuk slide baru. |
+
+### Nilai Kembalian
+
+Slide baru.
+
+### Pengecualian
+
+| Pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException |  |
+| [PptxEditException](../../pptxeditexception) |  |
+
+### Contoh
+
+```csharp
+[C#]
+using (IPresentation presentation = new Presentation())
+{
+    presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
+    presentation.Sections.AddSection("Section 1", presentation.Slides[0]);
+    
+    ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
+    presentation.Slides.AddClone(presentation.Slides[0], section2);
+    
+    // Sekarang bagian kedua berisi salinan slide pertama.
+}
+```
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ISection](../../isection)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ILayoutSlide) {#addclone_1}
+
+Menambahkan salinan slide yang ditentukan ke akhir koleksi.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide yang akan diklon. |
+| destLayout | ILayoutSlide | Tata letak slide untuk slide baru. |
+
+### Nilai Kembalian
+
+Slide baru.
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ILayoutSlide](../../ilayoutslide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
+
+Menambahkan salinan slide sumber yang ditentukan ke akhir koleksi. Tata letak yang sesuai akan dipilih secara otomatis dari master yang ditentukan (tata letak yang sesuai adalah tata letak dengan Type atau Name yang sama dengan tata letak slide sumber). Jika tidak ada tata letak yang sesuai, maka tata letak slide sumber akan diklon (jika allowCloneMissingLayout bernilai true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout bernilai false).
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide yang akan diklon. |
+| destMaster | IMasterSlide | Master slide untuk slide baru. |
+| allowCloneMissingLayout | Boolean | Jika tidak ada tata letak yang sesuai dalam master yang ditentukan maka tata letak slide sumber akan diklon (jika allowCloneMissingLayout bernilai true) atau PptxEditException akan dilempar (jika allowCloneMissingLayout bernilai false). |
+
+### Nilai Kembalian
+
+Slide baru.
+
+### Pengecualian
+
+| Pengecualian | kondisi |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Dilempar jika tidak ada tata letak yang sesuai dalam master yang ditentukan dan allowCloneMissingLayout bernilai false. |
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [IMasterSlide](../../imasterslide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* rakitan [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

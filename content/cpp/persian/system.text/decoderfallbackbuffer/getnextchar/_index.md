@@ -1,0 +1,27 @@
+---
+title: GetNextChar()
+second_title: مرجع API Aspose.Slides برای C++
+description: کاراکتر بعدی را از بافر بازگشت استخراج می‌کند.
+type: docs
+weight: 27
+url: /fa/system.text/decoderfallbackbuffer/getnextchar/
+---
+## DecoderFallbackBuffer::GetNextChar() متد
+
+
+کاراکتر بعدی را از بافر بازگشت استخراج می‌کند.
+
+```cpp
+virtual char_t System::Text::DecoderFallbackBuffer::GetNextChar()=0
+```
+
+
+### مقدار بازگشت
+
+کاراکتر استخراج‌شده یا 0x0000 برای نشان دادن پایان توالی.
+
+## موارد مرتبط
+
+* کلاس [DecoderFallbackBuffer](../)
+* فضای نام [System::Text](../../)
+* کتابخانه [Aspose.Slides](../../../)

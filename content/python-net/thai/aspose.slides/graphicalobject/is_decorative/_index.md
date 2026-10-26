@@ -1,0 +1,28 @@
+---
+title: is_decorative property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/graphicalobject/is_decorative/
+weight: 250
+---
+## is_decorative คุณสมบัติ
+รับหรือกำหนดตัวเลือก 'Mark as decorative'
+            อ่าน/เขียน **bool**.
+
+### การกำหนด:
+```python
+@property
+def is_decorative(self):
+    ...
+
+@is_decorative.setter
+def is_decorative(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`GraphicalObject`](/slides/python-net/th/aspose.slides/graphicalobject)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

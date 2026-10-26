@@ -1,7 +1,7 @@
 ---
 title: AddAutoShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new AutoShape tunes it from default template and adds it to the end of the collection.
+description: Creates a new auto shape with default formatting and adds it to the end of the shape collection.
 type: docs
 weight: 90
 url: /aspose.slides/shapecollection/addautoshape/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addautoshape/
 
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
+Creates a new auto shape with default formatting and adds it to the end of the shape collection.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -17,15 +17,15 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the auto shape to add. |
+| x | Single | The x-coordinate of the shape’s frame, in points. |
+| y | Single | The y-coordinate of the shape’s frame, in points. |
+| width | Single | The width of the shape’s frame, in points. |
+| height | Single | The height of the shape’s frame, in points. |
 
 ### Return Value
 
-Created AutoShape object.
+The newly created [`IAutoShape`](../../iautoshape).
 
 ### See Also
 
@@ -39,7 +39,7 @@ Created AutoShape object.
 
 ## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Creates a new AutoShape and adds it to the end of the collection.
+Creates a new auto shape and adds it to the end of the shape collection, optionally initializing it with default template formatting.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -48,16 +48,16 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of shape. |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-| createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| shapeType | ShapeType | The [`ShapeType`](../../shapetype) of the auto shape to add. |
+| x | Single | The x-coordinate of the shape’s frame, in points. |
+| y | Single | The y-coordinate of the shape’s frame, in points. |
+| width | Single | The width of the shape’s frame, in points. |
+| height | Single | The height of the shape’s frame, in points. |
+| createFromTemplate | Boolean | True to apply default template styling (simple style, centered text, and non-empty name) to the new shape; false to create the shape with all properties set to their default values. |
 
 ### Return Value
 
-Created AutoShape object.
+The newly created [`IAutoShape`](../../iautoshape).
 
 ### See Also
 

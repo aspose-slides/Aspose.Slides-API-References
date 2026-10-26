@@ -23,7 +23,7 @@ url: /aspose.slides/reflection/
 | --- | --- | --- |
 | obj | Object | The Reflection to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getBlurRadius() | Blur radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -49,7 +49,7 @@ double
 | --- | --- |
 | getDirection() | Direction of reflection. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -62,7 +62,7 @@ float
 | --- | --- |
 | getDistance() | Distance of reflection. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | getEffective() | Gets effective Reflection effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 ReflectionEffectiveData
 
 
@@ -88,7 +88,7 @@ ReflectionEffectiveData
 | --- | --- |
 | getEndPosAlpha() | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -101,7 +101,7 @@ float
 | --- | --- |
 | getEndReflectionOpacity() | End reflection opacity. (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -114,7 +114,7 @@ float
 | --- | --- |
 | getFadeDirection() | Specifies the direction to offset the reflection. (angle). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -137,7 +137,7 @@ float
 | --- | --- |
 | getRectangleAlign() | Rectangle alignment. Read/write RectangleAlignment. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -150,7 +150,7 @@ byte
 | --- | --- |
 | getRotateShadowWithShape() | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -163,7 +163,7 @@ boolean
 | --- | --- |
 | getScaleHorizontal() | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -176,7 +176,7 @@ double
 | --- | --- |
 | getScaleVertical() | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -189,7 +189,7 @@ double
 | --- | --- |
 | getSkewHorizontal() | Specifies the horizontal skew angle. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -202,7 +202,7 @@ double
 | --- | --- |
 | getSkewVertical() | Specifies the vertical skew angle. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -215,7 +215,7 @@ double
 | --- | --- |
 | getStartPosAlpha() | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -228,7 +228,7 @@ float
 | --- | --- |
 | getStartReflectionOpacity() | Starting reflection opacity. (percents). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -241,7 +241,7 @@ float
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -254,7 +254,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

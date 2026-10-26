@@ -1,54 +1,53 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Reference
-description: 代表持有主笔记幻灯片页脚、日期时间、页码占位符以及所有子占位符行为的管理器。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示管理器，用于管理母版注释幻灯片的页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。
 type: docs
-weight: 7770
+weight: 8020
 url: /zh/aspose.slides/masternotesslideheaderfootermanager/
 ---
+## MasterNotesSlideHeaderFooterManager 类
 
-## MasterNotesSlideHeaderFooterManager class
-
-代表持有主笔记幻灯片页脚、日期时间、页码占位符以及所有子占位符行为的管理器。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。
+表示管理器，用于管理母版注释幻灯片的页脚、日期时间、页码占位符以及所有子占位符的行为。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
     IMasterNotesSlideHeaderFooterManager
 ```
 
-## Properties
+## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取值，指示日期时间占位符是否存在。 ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取值，指示页脚占位符是否存在。 Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 获取值，指示页眉占位符是否存在。 Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取值，指示页码占位符是否存在。 ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示是否存在日期时间占位符的值。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示是否存在页脚占位符的值。读取布尔值. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 获取指示是否存在页眉占位符的值。读取布尔值. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示是否存在页码占位符的值。ReadBoolean. |
 
-## Methods
+## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 设置主幻灯片日期时间占位符和所有子日期时间占位符的文本。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改主幻灯片日期时间占位符和所有子日期时间占位符的可见性。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 设置幻灯片日期时间占位符的文本。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 更改幻灯片日期时间占位符的可见性。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 设置主幻灯片页脚占位符和所有子页脚占位符的文本。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改主幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 设置幻灯片页脚占位符的文本。 |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 设置主笔记幻灯片页眉占位符和所有子页眉占位符的文本。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改主笔记幻灯片页眉占位符和所有子页眉占位符的可见性。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 设置幻灯片页眉占位符的文本。 |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 更改幻灯片页眉占位符的可见性。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改主幻灯片页码占位符和所有子页码占位符的可见性。子占位符意味着占位符包含在依赖的笔记幻灯片中。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 将文本设置到母版幻灯片的日期时间占位符以及所有子日期时间占位符。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改母版幻灯片的日期时间占位符以及所有子日期时间占位符的可见性。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置到幻灯片的日期时间占位符。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 更改幻灯片的日期时间占位符的可见性。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 将文本设置到母版幻灯片的页脚占位符以及所有子页脚占位符。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改母版幻灯片的页脚占位符以及所有子页脚占位符的可见性。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 将文本设置到幻灯片的页脚占位符。 |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片的页脚占位符的可见性。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 将文本设置到母版注释幻灯片的页眉占位符以及所有子页眉占位符。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改母版注释幻灯片的页眉占位符以及所有子页眉占位符的可见性。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 将文本设置到幻灯片的页眉占位符。 |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 更改幻灯片的页眉占位符的可见性。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改母版幻灯片的页码占位符以及所有子页码占位符的可见性。子占位符指的是包含在依赖的注释幻灯片上的占位符。依赖的注释幻灯片使用并依赖于母版注释幻灯片。 |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片的页码占位符的可见性。 |
 
-### See Also
+### 另见
 
-* class [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* interface [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* 类 [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* 接口 [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
+* 命名空间 [Aspose.Slides](../../aspose.slides)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

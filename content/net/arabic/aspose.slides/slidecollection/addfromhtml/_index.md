@@ -1,0 +1,183 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+type: docs
+weight: 70
+url: /ar/aspose.slides/slidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlText | String | HTML لإضافته. |
+| resolver | IExternalResourceResolver | كائن رد نداء يستخدم لجلب الكائنات الخارجية. إذا كان هذا المعامل يساوي null سيتم تجاهل جميع الكائنات الخارجية. |
+| uri | String | معرف URI الخاص بـ HTML المحدد. يُستخدم لحل الروابط النسبية. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها.
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الواجهة [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlText | String | HTML لإضافته. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlReader | TextReader | كائن TextReader سيُستخدم كمصدر لملف HTML. |
+| resolver | IExternalResourceResolver | كائن رد نداء يستخدم لجلب الكائنات الخارجية. إذا كان هذا المعامل يساوي null سيتم تجاهل جميع الكائنات الخارجية. |
+| uri | String | معرف URI الخاص بـ HTML المحدد. يُستخدم لحل الروابط النسبية. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها.
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الواجهة [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlReader | TextReader | كائن TextReader سيُستخدم كمصدر لملف HTML. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlStream | Stream | كائن Stream سيُستخدم كمصدر لملف HTML. |
+| resolver | IExternalResourceResolver | كائن رد نداء يستخدم لجلب الكائنات الخارجية. إذا كان هذا المعامل يساوي null سيتم تجاهل جميع الكائنات الخارجية. |
+| uri | String | معرف URI الخاص بـ HTML المحدد. يُستخدم لحل الروابط النسبية. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها.
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الواجهة [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+ينشئ شرائح من نص HTML ويضيفها إلى نهاية المجموعة.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| htmlStream | Stream | كائن Stream سيُستخدم كمصدر لملف HTML. |
+
+### قيمة الإرجاع
+
+الشرائح التي تم إضافتها
+
+### أمثلة
+
+```csharp
+[C#]
+// إنشاء مثيل من فئة Presentation.
+using (var presentation = new Presentation())
+{
+    using (var htmlStream = File.OpenRead("page.html"))
+    {
+		// استدعاء طريقة AddFromHtml وتمرير ملف HTML.
+        presentation.Slides.AddFromHtml(htmlStream);
+    }
+	// استخدام طريقة Save لحفظ الملف كمستند PowerPoint.
+    presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
+}
+```
+
+### انظر أيضًا
+
+* الواجهة [ISlide](../../islide)
+* الفئة [SlideCollection](../../slidecollection)
+* مساحة الاسم [Aspose.Slides](../../slidecollection)
+* التجميع [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

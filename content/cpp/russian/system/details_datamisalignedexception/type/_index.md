@@ -1,0 +1,26 @@
+---
+title: Type()
+second_title: Справочник API Aspose.Slides для C++
+description: 
+type: docs
+weight: 1
+url: /ru/system/details_datamisalignedexception/type/
+---
+## Details_DataMisalignedException::Type() метод
+
+```cpp
+static const System::TypeInfo & System::Details_DataMisalignedException::Type()
+```
+
+### Возвращаемое значение
+
+Информация о текущем типе.
+## Примечания
+
+Возвращает информацию о текущем типе.
+## Смотрите также
+
+* Класс [TypeInfo](../../typeinfo/)
+* Класс [Details_DataMisalignedException](../)
+* Пространство имён [System](../../)
+* Библиотека [Aspose.Slides](../../../)

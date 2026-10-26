@@ -65,6 +65,8 @@ In order to get the effective formatting parameter values including inherited yo
 | [setAlternativeLanguageId(String value)](#setAlternativeLanguageId-java.lang.String-) | Returns or sets the Id of an alternative language. |
 | [getSpacing()](#getSpacing--) | Returns or sets the intercharacter spacing increment. |
 | [setSpacing(float value)](#setSpacing-float-) | Returns or sets the intercharacter spacing increment. |
+| [getSpellCheck()](#getSpellCheck--) | Gets or sets a value indicating whether spell checking is enabled for the text portion. |
+| [setSpellCheck(boolean value)](#setSpellCheck-boolean-) | Gets or sets a value indicating whether spell checking is enabled for the text portion. |
 ### getLineFormat() {#getLineFormat--}
 ```
 public abstract ILineFormat getLineFormat()
@@ -584,4 +586,65 @@ Returns or sets the intercharacter spacing increment. **Float.NaN** means value 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### getSpellCheck() {#getSpellCheck--}
+```
+public abstract boolean getSpellCheck()
+```
+
+
+Gets or sets a value indicating whether spell checking is enabled for the text portion. When this property is set to false, spelling checks for text elements are suppressed. When set to true, spell checking is allowed. Default value is false.
+
+--------------------
+
+> ```
+> Next example demonstrates enabling the SpellCheck flag before saving the presentation:
+>  
+>  Presentation pres = new Presentation("input.pptx");
+>  try {
+>      // Access the first portion of text inside the first shape on the first slide
+>      IPortion portion = ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).
+>              getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0);
+>      // Enable spell checking for this text portion
+>      portion.getPortionFormat().setSpellCheck(true);
+>      // Save the modified presentation
+>      pres.save("output-with-spellcheck.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setSpellCheck(boolean value) {#setSpellCheck-boolean-}
+```
+public abstract void setSpellCheck(boolean value)
+```
+
+
+Gets or sets a value indicating whether spell checking is enabled for the text portion. When this property is set to false, spelling checks for text elements are suppressed. When set to true, spell checking is allowed. Default value is false.
+
+--------------------
+
+> ```
+> Next example demonstrates enabling the SpellCheck flag before saving the presentation:
+>  
+>  Presentation pres = new Presentation("input.pptx");
+>  try {
+>      // Access the first portion of text inside the first shape on the first slide
+>      IPortion portion = ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).
+>              getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0);
+>      // Enable spell checking for this text portion
+>      portion.getPortionFormat().setSpellCheck(true);
+>      // Save the modified presentation
+>      pres.save("output-with-spellcheck.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

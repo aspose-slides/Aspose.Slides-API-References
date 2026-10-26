@@ -3,7 +3,7 @@ title: Videos
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the collection of all embedded video files in the presentation. Read-only IVideoCollectionaspose.slides/ivideocollection.
 type: docs
-weight: 280
+weight: 290
 url: /aspose.slides/ipresentation/videos/
 ---
 

@@ -1,0 +1,24 @@
+---
+title: set_all_headers_visibility method
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides/ipresentationheaderfootermanager/set_all_headers_visibility/
+weight: 60
+---
+## set_all_headers_visibility(self, is_visible) {#bool}
+Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ tiêu đề, bao gồm bản ghi chú chính, các slide ghi chú và bản phát tay chính.
+
+```python
+def set_all_headers_visibility(self, is_visible):
+    ...
+```
+
+| Tham số | Kiểu | Mô tả |
+| :- | :- | :- |
+| is_visible | **bool** | true - làm cho các trình giữ chỗ tiêu đề hiển thị, ngược lại - ẩn chúng. |
+
+### Xem thêm
+* lớp [`IPresentationHeaderFooterManager`](/slides/python-net/vi/aspose.slides/ipresentationheaderfootermanager)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

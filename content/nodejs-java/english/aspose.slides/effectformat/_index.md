@@ -167,7 +167,7 @@ url: /aspose.slides/effectformat/
 | --- | --- |
 | getBlurEffect () | Blur effect. Read/write IBlur. |
 
- **Result:**
+ **Returns:**
 [Blur](../blur)
 
 
@@ -180,7 +180,7 @@ url: /aspose.slides/effectformat/
 | --- | --- |
 | getEffective () | Gets effective effect formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 EffectFormatEffectiveData
 
 
@@ -193,7 +193,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getFillOverlayEffect () | Fill overlay effect. Read/write IFillOverlay. |
 
- **Result:**
+ **Returns:**
 [FillOverlay](../filloverlay)
 
 
@@ -206,7 +206,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getGlowEffect () | Glow effect. Read/write IGlow. |
 
- **Result:**
+ **Returns:**
 [Glow](../glow)
 
 
@@ -219,7 +219,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getInnerShadowEffect () | Inner shadow. Read/write IInnerShadow. |
 
- **Result:**
+ **Returns:**
 [InnerShadow](../innershadow)
 
 
@@ -232,7 +232,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getOuterShadowEffect () | Outer shadow. Read/write IOuterShadow. |
 
- **Result:**
+ **Returns:**
 [OuterShadow](../outershadow)
 
 
@@ -245,7 +245,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getPresetShadowEffect () | Preset shadow. Read/write IPresetShadow. |
 
- **Result:**
+ **Returns:**
 [PresetShadow](../presetshadow)
 
 
@@ -258,7 +258,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getReflectionEffect () | Reflection. Read/write IReflection. |
 
- **Result:**
+ **Returns:**
 [Reflection](../reflection)
 
 
@@ -271,7 +271,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getSoftEdgeEffect () | Soft edge. Read/write ISoftEdge. |
 
- **Result:**
+ **Returns:**
 [SoftEdge](../softedge)
 
 
@@ -284,7 +284,7 @@ EffectFormatEffectiveData
 | --- | --- |
 | getVersion () |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -297,7 +297,7 @@ long
 | --- | --- |
 | isNoEffects () | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

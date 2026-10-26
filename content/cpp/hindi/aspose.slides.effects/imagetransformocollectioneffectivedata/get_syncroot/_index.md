@@ -1,0 +1,24 @@
+---
+title: get_SyncRoot()
+second_title: Aspose.Slides C++ के लिए API संदर्भ
+description: "समकालिक रूट लौटाता है। केवल पढ़ने योग्य System::Object."
+type: docs
+weight: 27
+url: /hi/aspose.slides.effects/imagetransformocollectioneffectivedata/get_syncroot/
+---
+## ImageTransformOCollectionEffectiveData::get_SyncRoot() विधि
+
+
+एक समकालिक रूट लौटाता है। केवल पढ़ने योग्य [System::Object](../../../system/object/).
+
+```cpp
+System::SharedPtr<System::Object> Aspose::Slides::Effects::ImageTransformOCollectionEffectiveData::get_SyncRoot() override
+```
+
+## देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Object](../../../system/object/)
+* क्लास [ImageTransformOCollectionEffectiveData](../)
+* नेमस्पेस [Aspose::Slides::Effects](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

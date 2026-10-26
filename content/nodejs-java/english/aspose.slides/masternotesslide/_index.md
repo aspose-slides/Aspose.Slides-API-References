@@ -11,13 +11,26 @@ url: /aspose.slides/masternotesslide/
 
  Represents master slide for notes.
  
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the master notes slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the master notes slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
 
- **Result:**
+ **Returns:**
 [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager)
 
 
@@ -30,7 +43,7 @@ url: /aspose.slides/masternotesslide/
 | --- | --- |
 | getNotesStyle () | Returns the style of a notes text. Read-only ITextStyle. |
 
- **Result:**
+ **Returns:**
 [TextStyle](../textstyle)
 
 
@@ -43,14 +56,14 @@ url: /aspose.slides/masternotesslide/
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
  **Error**
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.NotSupportedException | Thrown if set true for master slide. |
+ | NotSupportedException | Thrown if set true for master slide. |
 
 
 ---
@@ -62,7 +75,7 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the theme manager. Read-only IMasterThemeManager. |
 
- **Result:**
+ **Returns:**
 [MasterThemeManager](../masterthememanager)
 
 
@@ -79,7 +92,7 @@ boolean
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.NotSupportedException | Thrown if set true for master slide. |
+ | NotSupportedException | Thrown if set true for master slide. |
 
 
 ---

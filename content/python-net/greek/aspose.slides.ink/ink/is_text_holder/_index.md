@@ -1,0 +1,24 @@
+---
+title: is_text_holder property
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.ink/ink/is_text_holder/
+weight: 300
+---
+## is_text_holder ιδιότητα
+Καθορίζει εάν το σχήμα είναι TextHolder_PPT.
+            Μόνο ανάγνωση **bool**.
+
+### Ορισμός:
+```python
+@property
+def is_text_holder(self):
+    ...
+```
+
+
+### Δείτε επίσης
+* κλάση [`Ink`](/slides/python-net/el/aspose.slides.ink/ink)
+* μονάδα [`aspose.slides.ink`](/slides/python-net/el/aspose.slides.ink)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

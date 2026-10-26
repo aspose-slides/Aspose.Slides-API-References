@@ -1,7 +1,7 @@
 ---
 title: AddTable
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Table and adds it to the end of the collection.
+description: Creates a new table and adds it to the end of the shape collection.
 type: docs
 weight: 200
 url: /aspose.slides/shapecollection/addtable/
@@ -9,7 +9,7 @@ url: /aspose.slides/shapecollection/addtable/
 
 ## ShapeCollection.AddTable method
 
-Creates a new Table and adds it to the end of the collection.
+Creates a new table and adds it to the end of the shape collection.
 
 ```csharp
 public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
@@ -17,14 +17,14 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| columnWidths | Double[] | Array of doubles which represents widths of columns in the table. |
-| rowHeights | Double[] | Array of doubles which represents heights of rows in the table. |
+| x | Single | The x-coordinate of the table, in points. |
+| y | Single | The y-coordinate of the table, in points. |
+| columnWidths | Double[] | An array of doubles representing the widths of the table’s columns, in points. |
+| rowHeights | Double[] | An array of doubles representing the heights of the table’s rows, in points. |
 
 ### Return Value
 
-Created Table object.
+The newly created [`ITable`](../../itable).
 
 ### Examples
 

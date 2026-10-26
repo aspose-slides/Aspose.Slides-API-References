@@ -1,0 +1,21 @@
+---
+title: set_DepthPercents()
+second_title: Aspose.Slides C++ API 참조
+description: 3D 차트의 깊이를 차트 너비의 백분율(20%에서 2000% 사이)로 설정합니다. uint16_t를 씁니다.
+type: docs
+weight: 118
+url: /ko/aspose.slides.charts/rotation3d/set_depthpercents/
+---
+## Rotation3D::set_DepthPercents(uint16_t) 메서드
+
+3D 차트의 깊이를 차트 너비의 백분율(20%~2000% 사이)로 설정합니다. **uint16_t**를 씁니다.
+
+```cpp
+void Aspose::Slides::Charts::Rotation3D::set_DepthPercents(uint16_t value) override
+```
+
+## 참조
+
+* 클래스 [Rotation3D](../)
+* 네임스페이스 [Aspose::Slides::Charts](../../)
+* 라이브러리 [Aspose.Slides](../../../)

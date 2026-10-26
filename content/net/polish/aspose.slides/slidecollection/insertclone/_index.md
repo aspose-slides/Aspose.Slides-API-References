@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Wstawia kopię określonego slajdu w podane miejsce w kolekcji.
+type: docs
+weight: 120
+url: /pl/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+Wstawia kopię określonego slajdu w podane miejsce w kolekcji.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| index | Int32 | Indeks nowego slajdu. |
+| sourceSlide | ISlide | Slajd do sklonowania. |
+
+### Wartość zwracana
+
+Wstawiony slajd.
+
+### Uwagi
+
+Podczas klonowania slajdu między różnymi prezentacjami, master slajdu może być również sklonowany. Wewnętrzny rejestr jest używany do śledzenia automatycznie sklonowanych masterów, aby zapobiec tworzeniu wielu kopii tego samego master slajdu. Ręczne klonowanie master slajdów nie będzie ani zapobiegane, ani rejestrowane. Jeśli potrzebna jest większa kontrola nad procesem klonowania, użyj [`InsertClone`](../insertclone) lub [`InsertClone`](../insertclone) do klonowania slajdów oraz [`AddClone`](../../imasterslidecollection/addclone) do klonowania masterów.
+
+### Przykłady
+
+Poniższy przykład pokazuje, jak sklonować slajd w innym miejscu w obrębie prezentacji.
+
+```csharp
+[C#]
+// Utwórz instancję klasy Presentation, która reprezentuje plik prezentacji
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Sklonuj żądany slajd na koniec kolekcji slajdów w tej samej prezentacji
+    ISlideCollection slds = pres.Slides;
+    // Sklonuj żądany slajd w podanym indeksie w tej samej prezentacji
+    slds.InsertClone(2, pres.Slides[1]);
+    // Zapisz zmodyfikowaną prezentację na dysku
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Poniższy przykład pokazuje, jak sklonować slajd w innym miejscu w obrębie prezentacji.
+
+```csharp
+[C#]
+// Utwórz instancję klasy Presentation, aby wczytać plik prezentacji źródłowej
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Utwórz instancję klasy Presentation dla docelowego pliku PPTX (gdzie slajd ma być sklonowany)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Zapisz docelową prezentację na dysku
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### Zobacz także
+
+* interfejs [ISlide](../../islide)
+* klasa [SlideCollection](../../slidecollection)
+* przestrzeń nazw [Aspose.Slides](../../slidecollection)
+* zestaw [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+Wstawia kopię określonego slajdu w podane miejsce w kolekcji.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| index | Int32 | Indeks nowego slajdu. |
+| sourceSlide | ISlide | Slajd do sklonowania. |
+| destLayout | ILayoutSlide | Układ slajdu dla nowego slajdu. |
+
+### Wartość zwracana
+
+Wstawiony slajd.
+
+### Zobacz także
+
+* interfejs [ISlide](../../islide)
+* interfejs [ILayoutSlide](../../ilayoutslide)
+* klasa [SlideCollection](../../slidecollection)
+* przestrzeń nazw [Aspose.Slides](../../slidecollection)
+* zestaw [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+Wstawia kopię określonego źródłowego slajdu w podane miejsce w kolekcji. Odpowiedni układ zostanie wybrany automatycznie z podanego mastera (odpowiedni układ to układ o tym samym Typie lub Nazwie co układ źródłowego slajdu). Jeśli nie ma odpowiedniego układu, układ źródłowego slajdu zostanie sklonowany (gdy allowCloneMissingLayout jest true) lub zostanie wyrzucony PptxEditException (gdy allowCloneMissingLayout jest false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Parametr | Typ | Opis |
+| --- | --- | --- |
+| index | Int32 | Indeks nowego slajdu. |
+| sourceSlide | ISlide | Slajd do sklonowania. |
+| destMaster | IMasterSlide | Master slajd dla nowego slajdu. |
+| allowCloneMissingLayout | Boolean | Jeśli w podanym masterze nie ma odpowiedniego układu, układ źródłowego slajdu zostanie sklonowany (gdy allowCloneMissingLayout jest true) lub zostanie wyrzucony PptxEditException (gdy allowCloneMissingLayout jest false). |
+
+### Wartość zwracana
+
+Wstawiony slajd.
+
+### Wyjątki
+
+| wyjątek | warunek |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Rzucany, jeśli w podanym masterze nie ma odpowiedniego układu i allowCloneMissingLayout jest false. |
+
+### Zobacz także
+
+* interfejs [ISlide](../../islide)
+* interfejs [IMasterSlide](../../imasterslide)
+* klasa [SlideCollection](../../slidecollection)
+* przestrzeń nazw [Aspose.Slides](../../slidecollection)
+* zestaw [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

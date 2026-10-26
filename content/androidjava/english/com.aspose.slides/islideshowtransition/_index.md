@@ -34,6 +34,8 @@ Represents slide show transition.
 | [setSoundIsBuiltIn(boolean value)](#setSoundIsBuiltIn-boolean-) | Specifies whether or not this sound is a built-in sound. |
 | [getSoundName()](#getSoundName--) | Specifies a human readable name for the sound of the transition. |
 | [setSoundName(String value)](#setSoundName-java.lang.String-) | Specifies a human readable name for the sound of the transition. |
+| [getDuration()](#getDuration--) | Gets or sets the duration of the slide transition effect in milliseconds. |
+| [setDuration(int value)](#setDuration-int-) | Gets or sets the duration of the slide transition effect in milliseconds. |
 ### getSound() {#getSound--}
 ```
 public abstract IAudio getSound()
@@ -305,10 +307,41 @@ public abstract void setSoundName(String value)
 ```
 
 
-Specifies a human readable name for the sound of the transition. The (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The \#getSound.getSound/\#setSound(IAudio).setSound(IAudio) property must be assigned to get or set the sound name. Read-write String.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### getDuration() {#getDuration--}
+```
+public abstract int getDuration()
+```
+
+
+Gets or sets the duration of the slide transition effect in milliseconds. Read/write int.
+
+--------------------
+
+Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the \#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int) property and the transition type.
+
+**Returns:**
+int
+### setDuration(int value) {#setDuration-int-}
+```
+public abstract void setDuration(int value)
+```
+
+
+Gets or sets the duration of the slide transition effect in milliseconds. Read/write int.
+
+--------------------
+
+Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the \#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int) property and the transition type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 

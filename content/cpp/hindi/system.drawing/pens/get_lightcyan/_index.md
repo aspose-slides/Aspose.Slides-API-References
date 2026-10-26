@@ -1,0 +1,24 @@
+---
+title: get_LightCyan()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: एक Pen ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFE0FFFF मान रखता है।
+type: docs
+weight: 859
+url: /hi/system.drawing/pens/get_lightcyan/
+---
+## Pens::get_LightCyan() मेथड
+
+
+एक [Pen](../../pen/) ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFE0FFFF मान रखता है।
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_LightCyan()
+```
+
+## देखें
+
+* टाइपडिफ [SharedPtr](../../../system/sharedptr/)
+* क्लास [Pen](../../pen/)
+* क्लास [Pens](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

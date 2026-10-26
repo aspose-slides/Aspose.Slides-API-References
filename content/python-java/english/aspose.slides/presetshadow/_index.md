@@ -23,7 +23,7 @@ url: /aspose.slides/presetshadow/
 | --- | --- | --- |
 | obj | Object | The PresetShadow to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getDirection() | Direction of shadow. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -49,7 +49,7 @@ float
 | --- | --- |
 | getDistance() | Distance of shadow. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
@@ -62,7 +62,7 @@ double
 | --- | --- |
 | getEffective() | Gets effective Preset Shadow effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 PresetShadowEffectiveData
 
 
@@ -85,7 +85,7 @@ PresetShadowEffectiveData
 | --- | --- |
 | getPreset() | Preset. Read/write PresetShadowType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -98,7 +98,7 @@ int
 | --- | --- |
 | getShadowColor() | Color of shadow. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -111,7 +111,7 @@ int
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -124,7 +124,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

@@ -1,43 +1,40 @@
 ---
 title: Effect
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет анимационный эффект.
 type: docs
-weight: 200
+weight: 280
 url: /ru/aspose.slides.animation/effect/
 ---
-
-## Effect class
-
-Представляет анимационный эффект.
+## Класс Effect
 
 ```csharp
 public class Effect : IEffect
 ```
 
-## Properties
+## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Определяет цвет после анимации для эффекта. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Определяет тип после анимации для эффекта. Чтение/запись [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Определяет тип анимации текста для эффекта. Текст формы может анимироваться по буквам, по словам или сразу. Чтение/запись [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Возвращает коллекцию поведения для эффекта. Чтение/запись [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Определяет задержку между анимированными частями текста (словами или буквами). Положительное значение указывает процент от продолжительности эффекта. Отрицательное значение указывает задержку в секундах. Чтение/запись Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Определяет встроенный звук для эффекта. Чтение/запись [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Этот атрибут указывает, останавливает ли анимационный эффект предыдущий звук. Чтение/запись Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Возвращает целевую форму для эффекта. Только для чтения [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Только для чтения [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Определяет тип эффекта. Чтение/запись [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Определяет цвет после анимации для эффекта. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Определяет тип после анимации для эффекта. Чтение/запись [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Определяет тип анимации текста для эффекта. Текст фигуры может быть анимирован по букве, по слову или полностью сразу. Чтение/запись [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Возвращает коллекцию поведения для эффекта. Чтение/запись [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Определяет задержку между частями анимированного текста (словами или буквами). Положительное значение указывает процент продолжительности эффекта. Отрицательное значение указывает задержку в секундах. Чтение/запись Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Определяет встроенный звук для эффекта. Чтение/запись [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Этот атрибут указывает, прекращает ли анимационный эффект предыдущий звук. Чтение/запись Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Возвращает целевую фигуру для эффекта. Только для чтения [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Только для чтения [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Определяет тип эффекта. Чтение/запись [`EffectType`](../effecttype). |
 
-### See Also
+### См. также
 
-* interface [IEffect](../ieffect)
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* интерфейс [IEffect](../ieffect)
+* пространство имён [Aspose.Slides.Animation](../../aspose.slides.animation)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -17,8 +17,21 @@ url: /aspose.slides/pptxoptions/
 | --- | --- |
 | PptxOptions() | Creates new instance of PptxOptions |
 
- **Result:**
+ **Returns:**
 PptxOptions
+
+
+---
+
+
+### getCompressionLevel {#getCompressionLevel}
+
+| Name | Description |
+| --- | --- |
+| getCompressionLevel() | Specifies the compression level used when saving the presentation document. The default value is CompressionLevel#Level6. Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation. |
+
+ **Returns:**
+int
 
 
 ---
@@ -30,47 +43,44 @@ PptxOptions
 | --- | --- |
 | getConformance() | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
- **Result:**
+ **Returns:**
 int
 
 
 ---
 
 
-### getDefaultRegularFont {#getDefaultRegularFont}
+### getRefreshThumbnail {#getRefreshThumbnail}
 
 | Name | Description |
 | --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
+| getRefreshThumbnail() | Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is true. When the option value is true, the new thumbnail will be generated. When the option value is false, the current thumbnail will be saved as is. |
 
- **Result:**
-String
+ **Returns:**
+boolean
 
 
 ---
 
 
-### getProgressCallback {#getProgressCallback}
+### getZip64Mode {#getZip64Mode}
 
 | Name | Description |
 | --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| getZip64Mode() | Specifies whether the ZIP64 format is used for the Presentation document. The default value is Zip64Mode#IfNecessary |
 
- **Result:**
-IProgressCallback
+ **Returns:**
+int
 
 
 ---
 
 
-### getWarningCallback {#getWarningCallback}
+### setCompressionLevel {#setCompressionLevel}
 
 | Name | Description |
 | --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
+| setCompressionLevel(int) | Specifies the compression level used when saving the presentation document. The default value is CompressionLevel#Level6. Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation. |
 
 
 ---
@@ -86,31 +96,21 @@ IWarningCallback
 ---
 
 
-### setDefaultRegularFont {#setDefaultRegularFont}
+### setRefreshThumbnail {#setRefreshThumbnail}
 
 | Name | Description |
 | --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setRefreshThumbnail(boolean) | Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is true. When the option value is true, the new thumbnail will be generated. When the option value is false, the current thumbnail will be saved as is. |
 
 
 ---
 
 
-### setProgressCallback {#setProgressCallback}
+### setZip64Mode {#setZip64Mode}
 
 | Name | Description |
 | --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
+| setZip64Mode(int) | Specifies whether the ZIP64 format is used for the Presentation document. The default value is Zip64Mode#IfNecessary |
 
 
 ---

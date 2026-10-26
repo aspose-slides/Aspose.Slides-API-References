@@ -1,0 +1,23 @@
+---
+title: get_FontFallBackRule()
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: "ส่งคืนกฎที่ตำแหน่งที่ระบุสำหรับการแทนที่ที่เหมาะสมโดยฟังก์ชัน fallback. อ่านอย่างเดียว Aspose::Slides::IFontFallBackRule."
+type: docs
+weight: 170
+url: /th/aspose.slides/ifontsmanager/get_fontfallbackrule/
+---
+## IFontsManager::get_FontFallBackRule(int32_t) method
+
+ส่งคืนกฎที่ตำแหน่งที่ระบุสำหรับการแทนที่ที่เหมาะสมโดยฟังก์ชัน fallback. อ่านอย่างเดียว [Aspose::Slides::IFontFallBackRule](../../ifontfallbackrule/).
+
+```cpp
+virtual System::SharedPtr<IFontFallBackRule> Aspose::Slides::IFontsManager::get_FontFallBackRule(int32_t index)=0
+```
+
+## ดูเพิ่มเติม
+
+* การกำหนดชนิด [SharedPtr](../../../system/sharedptr/)
+* คลาส [IFontFallBackRule](../../ifontfallbackrule/)
+* คลาส [IFontsManager](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

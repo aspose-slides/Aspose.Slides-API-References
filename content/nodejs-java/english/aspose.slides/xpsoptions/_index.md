@@ -17,7 +17,7 @@ url: /aspose.slides/xpsoptions/
 | --- | --- |
 | XpsOptions() | Default function. |
 
- **Result:**
+ **Returns:**
 XpsOptions
 
 
@@ -30,7 +30,7 @@ XpsOptions
 | --- | --- |
 | getDrawSlidesFrame () | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getSaveMetafilesAsPng () | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

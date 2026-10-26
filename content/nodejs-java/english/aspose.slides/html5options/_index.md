@@ -17,7 +17,7 @@ url: /aspose.slides/html5options/
 | --- | --- |
 | Html5Options() | Default function. |
 
- **Result:**
+ **Returns:**
 Html5Options
 
 
@@ -30,7 +30,7 @@ Html5Options
 | --- | --- |
 | getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,20 @@ boolean
 | --- | --- |
 | getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
+boolean
+
+
+---
+
+
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
 boolean
 
 
@@ -56,7 +69,7 @@ boolean
 | --- | --- |
 | getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -69,8 +82,34 @@ boolean
 | --- | --- |
 | getOutputPath () | Determines where external resources should be stored. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
+
+
+---
+
+
+### getPicturesCompression {#getPicturesCompression}
+
+| Name | Description |
+| --- | --- |
+| getPicturesCompression () | Represents the pictures compression level |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -96,6 +135,16 @@ String
 ---
 
 
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+
+---
+
+
 ### setEmbedImages {#setEmbedImages}
 
 | Name | Description |
@@ -111,6 +160,36 @@ String
 | Name | Description |
 | --- | --- |
 | setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
+
+
+---
+
+
+### setPicturesCompression {#setPicturesCompression}
+
+| Name | Description |
+| --- | --- |
+| setPicturesCompression (int) | Represents the pictures compression level |
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---

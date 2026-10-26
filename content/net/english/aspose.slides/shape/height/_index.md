@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the height of the shape. Read/write Single.
+description: Gets or sets the height of the shape measured in points. Read/write Single.
 type: docs
 weight: 90
 url: /aspose.slides/shape/height/
@@ -9,7 +9,7 @@ url: /aspose.slides/shape/height/
 
 ## Shape.Height property
 
-Returns or sets the height of the shape. Read/write Single.
+Gets or sets the height of the shape, measured in points. Read/write Single.
 
 ```csharp
 public float Height { get; set; }
@@ -17,7 +17,7 @@ public float Height { get; set; }
 
 ### Remarks
 
-Returned value is always defined (is not float.NaN). Assigned value must be defined (not float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never NaN. The value assigned must also be defined; assign NaN only to properties of a `RawFrame` instance.
 
 ### See Also
 

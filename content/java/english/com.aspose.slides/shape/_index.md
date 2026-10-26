@@ -33,8 +33,8 @@ Represents a shape on a slide.
 | [getThreeDFormat()](#getThreeDFormat--) | Returns the ThreeDFormat object that 3d effect properties for a shape. |
 | [getEffectFormat()](#getEffectFormat--) | Returns the EffectFormat object which contains pixel effects applied to a shape. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
-| [getThumbnail()](#getThumbnail--) | Returns shape thumbnail. |
-| [getThumbnail(int bounds, float scaleX, float scaleY)](#getThumbnail-int-float-float-) | Returns shape thumbnail. |
+| [getImage()](#getImage--) | Returns shape thumbnail. |
+| [getImage(int bounds, float scaleX, float scaleY)](#getImage-int-float-float-) | Returns shape thumbnail. |
 | [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves content of Shape as SVG file. |
 | [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves content of Shape as SVG file. |
 | [getHyperlinkClick()](#getHyperlinkClick--) | Returns or sets the hyperlink defined for mouse click. |
@@ -48,28 +48,31 @@ Represents a shape on a slide.
 | [getConnectionSiteCount()](#getConnectionSiteCount--) | Returns the number of connection sites on the shape. |
 | [getRotation()](#getRotation--) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
 | [setRotation(float value)](#setRotation-float-) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. |
-| [getX()](#getX--) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [setX(float value)](#setX-float-) | Returns or sets the x-coordinate of the upper-left corner of the shape. |
-| [getY()](#getY--) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [setY(float value)](#setY-float-) | Returns or sets the y-coordinate of the upper-left corner of the shape. |
-| [getWidth()](#getWidth--) | Returns or sets the width of the shape. |
-| [setWidth(float value)](#setWidth-float-) | Returns or sets the width of the shape. |
-| [getHeight()](#getHeight--) | Returns or sets the height of the shape. |
-| [setHeight(float value)](#setHeight-float-) | Returns or sets the height of the shape. |
+| [getX()](#getX--) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [setX(float value)](#setX-float-) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. |
+| [getY()](#getY--) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [setY(float value)](#setY-float-) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. |
+| [getWidth()](#getWidth--) | Gets or sets the width of the shape, measured in points. |
+| [setWidth(float value)](#setWidth-float-) | Gets or sets the width of the shape, measured in points. |
+| [getHeight()](#getHeight--) | Gets or sets the height of the shape, measured in points. |
+| [setHeight(float value)](#setHeight-float-) | Gets or sets the height of the shape, measured in points. |
 | [getBlackWhiteMode()](#getBlackWhiteMode--) | Property specifies how a shape will render in black-and-white display mode.. |
 | [setBlackWhiteMode(byte value)](#setBlackWhiteMode-byte-) | Property specifies how a shape will render in black-and-white display mode.. |
-| [getUniqueId()](#getUniqueId--) | Gets unique shape identifier in presentation scope. |
-| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Gets unique shape identifier in slide scope. |
+| [getUniqueId()](#getUniqueId--) | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. |
+| [getOfficeInteropShapeId()](#getOfficeInteropShapeId--) | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the alternative text associated with a shape. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the alternative text associated with a shape. |
 | [getAlternativeTextTitle()](#getAlternativeTextTitle--) | Returns or sets the title of alternative text associated with a shape. |
 | [setAlternativeTextTitle(String value)](#setAlternativeTextTitle-java.lang.String-) | Returns or sets the title of alternative text associated with a shape. |
 | [getName()](#getName--) | Returns or sets the name of a shape. |
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of a shape. |
+| [isDecorative()](#isDecorative--) | Gets or sets 'Mark as decorative' option Reed/write boolean. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Gets or sets 'Mark as decorative' option Reed/write boolean. |
 | [getShapeLock()](#getShapeLock--) | Returns shape's locks. |
 | [isGrouped()](#isGrouped--) | Determines whether the shape is grouped. |
 | [getParentGroup()](#getParentGroup--) | Returns parent GroupShape object if shape is grouped. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
+| [getVisualBounds()](#getVisualBounds--) | Gets the visual bounds of the shape calculated from its rendered content. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a slide. |
 ### isTextHolder() {#isTextHolder--}
@@ -165,7 +168,7 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 | placeholderToCopyFrom | [IPlaceholder](../../com.aspose.slides/iplaceholder) | Placeholder to copy content from. |
 
 **Returns:**
-[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [Placeholder](../../com.aspose.slides/placeholder)(\#getPlaceholder.getPlaceholder).
+[IPlaceholder](../../com.aspose.slides/iplaceholder) - New \#getPlaceholder.getPlaceholder.
 ### getBasePlaceholder() {#getBasePlaceholder--}
 ```
 public final IShape getBasePlaceholder()
@@ -182,7 +185,7 @@ Returns a basic placeholder shape (shape from the layout and/or master slide tha
 >  try {
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IShape shape = slide.getShapes().get_Item(0);
->      IEffect[] shapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(shape);
+>      IEffect[] shapeEffects = slide.getTimeline().getMainSequence().getEffectsByShape(shape);
 >      IShape layoutShape = shape.getBasePlaceholder();
 >      IEffect[] layoutShapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(layoutShape);
 >      IShape masterShape = layoutShape.getBasePlaceholder();
@@ -443,19 +446,19 @@ Returns the FillFormat object that contains fill formatting properties for a sha
 
 **Returns:**
 [IFillFormat](../../com.aspose.slides/ifillformat)
-### getThumbnail() {#getThumbnail--}
+### getImage() {#getImage--}
 ```
-public final BufferedImage getThumbnail()
+public final IImage getImage()
 ```
 
 
 Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 
 **Returns:**
-java.awt.image.BufferedImage - Shape thumbnail.
-### getThumbnail(int bounds, float scaleX, float scaleY) {#getThumbnail-int-float-float-}
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail.
+### getImage(int bounds, float scaleX, float scaleY) {#getImage-int-float-float-}
 ```
-public final BufferedImage getThumbnail(int bounds, float scaleX, float scaleY)
+public final IImage getImage(int bounds, float scaleX, float scaleY)
 ```
 
 
@@ -469,7 +472,7 @@ Returns shape thumbnail.
 | scaleY | float | Y scale |
 
 **Returns:**
-java.awt.image.BufferedImage - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+[IImage](../../com.aspose.slides/iimage) - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 ### writeAsSvg(OutputStream stream) {#writeAsSvg-java.io.OutputStream-}
 ```
 public final void writeAsSvg(OutputStream stream)
@@ -602,7 +605,7 @@ public final float getRotation()
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float.
 
 --------------------
 
@@ -616,7 +619,7 @@ public final void setRotation(float value)
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float.
 
 --------------------
 
@@ -633,11 +636,11 @@ public final float getX()
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -647,11 +650,11 @@ public final void setX(float value)
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -664,11 +667,11 @@ public final float getY()
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -678,11 +681,11 @@ public final void setY(float value)
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
+Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -695,11 +698,11 @@ public final float getWidth()
 ```
 
 
-Returns or sets the width of the shape. Read/write  float .
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -709,11 +712,11 @@ public final void setWidth(float value)
 ```
 
 
-Returns or sets the width of the shape. Read/write  float .
+Gets or sets the width of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -726,11 +729,11 @@ public final float getHeight()
 ```
 
 
-Returns or sets the height of the shape. Read/write  float .
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Returns:**
 float
@@ -740,11 +743,11 @@ public final void setHeight(float value)
 ```
 
 
-Returns or sets the height of the shape. Read/write  float .
+Gets or sets the height of the shape, measured in points. Read/write float.
 
 --------------------
 
-Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
+The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -780,7 +783,7 @@ public final long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId.getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId.
 
 **Returns:**
 long
@@ -790,7 +793,7 @@ public final long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId.getUniqueId) for getting unique shape identifier in presentation scope.
+Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only long. See also \#getUniqueId.getUniqueId.
 
 **Returns:**
 long
@@ -863,6 +866,51 @@ Returns or sets the name of a shape. Must be not null. Use empty string value if
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### isDecorative() {#isDecorative--}
+```
+public final boolean isDecorative()
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write boolean.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public final void setDecorative(boolean value)
+```
+
+
+Gets or sets 'Mark as decorative' option Reed/write boolean.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("sample.pptx");
+>  try {
+>     pres.getSlides().get_Item(0).getShapes().get_Item(0).setDecorative(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getShapeLock() {#getShapeLock--}
 ```
 public IBaseShapeLock getShapeLock()
@@ -879,11 +927,11 @@ public final boolean isGrouped()
 ```
 
 
-Determines whether the shape is grouped. Read-only  boolean .
+Determines whether the shape is grouped. Read-only boolean.
 
 --------------------
 
-Property (\#getParentGroup.getParentGroup) returns parent GroupShape object if shape is grouped.
+Property \#getParentGroup.getParentGroup returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -897,7 +945,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property (\#isGrouped.isGrouped) determines whether the shape is grouped.
+Property \#isGrouped.isGrouped determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)
@@ -911,6 +959,20 @@ Returns Parent\_Immediate object. Read-only IDOMObject.
 
 **Returns:**
 com.aspose.slides.IDOMObject
+### getVisualBounds() {#getVisualBounds--}
+```
+public final Rectangle2D.Float getVisualBounds()
+```
+
+
+Gets the visual bounds of the shape calculated from its rendered content.
+
+**Returns:**
+java.awt.geom.Rectangle2D.Float - A java.awt.geom.Rectangle2D.Float that represents the visual bounds of the shape in slide coordinates.
+
+--------------------
+
+The returned rectangle represents the axis-aligned bounds of all content produced by the shape during rendering in slide coordinate space. These bounds may differ from the shape's model bounds \#getX.getX/\#setX(float).setX(float), \#getY.getY/\#setY(float).setY(float), \#getWidth.getWidth/\#setWidth(float).setWidth(float), \#getHeight.getHeight/\#setHeight(float).setHeight(float) and may contain negative coordinates if the rendered content extends beyond the slide origin. The visual bounds take into account rendering-related aspects such as transformations (for example, rotation), stroke width and joins, text layout and overflow, SmartArt geometry, and other layout effects that influence the final rendered appearance of the shape. The returned bounds are not clipped to the slide rectangle.
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()

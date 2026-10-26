@@ -1,0 +1,34 @@
+---
+title: SetInternalHyperlinkClick()
+second_title: C++용 Aspose.Slides API 레퍼런스
+description: 클릭 시 내부 하이퍼링크를 설정합니다.
+type: docs
+weight: 14
+url: /ko/aspose.slides/hyperlinkmanager/setinternalhyperlinkclick/
+---
+## HyperlinkManager::SetInternalHyperlinkClick(System::SharedPtr\<ISlide\>) 메서드
+
+클릭 시 내부 하이퍼링크를 설정합니다.
+
+```cpp
+System::SharedPtr<IHyperlink> Aspose::Slides::HyperlinkManager::SetInternalHyperlinkClick(System::SharedPtr<ISlide> targetSlide) override
+```
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| targetSlide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | 대상 슬라이드. |
+
+### 반환값
+
+[Hyperlink](../../hyperlink/).
+
+## 참고
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* 클래스 [IHyperlink](../../ihyperlink/)
+* 클래스 [ISlide](../../islide/)
+* 클래스 [HyperlinkManager](../)
+* 네임스페이스 [Aspose::Slides](../../)
+* 라이브러리 [Aspose.Slides](../../../)

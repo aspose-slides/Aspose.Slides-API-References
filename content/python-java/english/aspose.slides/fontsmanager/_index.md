@@ -49,8 +49,54 @@ url: /aspose.slides/fontsmanager/
 | --- | --- |
 | getEmbeddedFonts() | Returns the fonts embedded in the presentation |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
+
+
+---
+
+
+### getFontBytes {#getFontBytes}
+
+| Name | Description |
+| --- | --- |
+| getFontBytes([FontData](../fontdata), int) | Retrieves the byte array representing the font data for a specified font style and font data. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fontData | [FontData](../fontdata) | The font data object containing the information about the font IFontData. |
+| fontStyle | int | The style of the font for which the data is to be retrieved FontStyleType. |
+
+ **Returns:**
+byte
+
+
+---
+
+
+### getFontEmbeddingLevel {#getFontEmbeddingLevel}
+
+| Name | Description |
+| --- | --- |
+| getFontEmbeddingLevel(byte[], String) | Determines the embedding level of a font from the given byte array and font name. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fontBytes | byte[] | The byte array containing the font data. |
+| fontName | String | The name of the font. |
+
+ **Returns:**
+int
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | Thrown when {@code fontBytes} is null. |
 
 
 ---
@@ -62,7 +108,7 @@ url: /aspose.slides/fontsmanager/
 | --- | --- |
 | getFontFallBackRulesCollection() | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
- **Result:**
+ **Returns:**
 [FontFallBackRulesCollection](../fontfallbackrulescollection)
 
 
@@ -75,7 +121,7 @@ url: /aspose.slides/fontsmanager/
 | --- | --- |
 | getFontSubstRuleList() | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
- **Result:**
+ **Returns:**
 [FontSubstRuleCollection](../fontsubstrulecollection)
 
 
@@ -88,7 +134,7 @@ url: /aspose.slides/fontsmanager/
 | --- | --- |
 | getFonts() | Returns the fonts used in the presentation |
 
- **Result:**
+ **Returns:**
 [FontData](../fontdata)
 
 
@@ -101,8 +147,27 @@ url: /aspose.slides/fontsmanager/
 | --- | --- |
 | getSubstitutions() | Gets the information about fonts that will be replaced on the presentation's rendering. |
 
- **Result:**
-[CustomXmlPartCollection](../customxmlpartcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [VbaReferenceCollection](../vbareferencecollection), ReadOnlyCollection, Queue, [ColumnCollection](../columncollection), [ChartDataPointCollection](../chartdatapointcollection), [RowCollection](../rowcollection), [FillFormatCollection](../fillformatcollection), [ImageCollection](../imagecollection), [ParagraphCollection](../paragraphcollection), Stack, [CommentAuthorCollection](../commentauthorcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [TextAnimationCollection](../textanimationcollection), [ControlPropertiesCollection](../controlpropertiescollection), [SequenceCollection](../sequencecollection), [PointCollection](../pointcollection), [MathBlock](../mathblock), Collection, [DataLabelCollection](../datalabelcollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [SmartArtShapeCollection](../smartartshapecollection), [ControlCollection](../controlcollection), [TrendlineCollection](../trendlinecollection), [CellCollection](../cellcollection), [ShapeCollection](../shapecollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [AudioCollection](../audiocollection), SortedDictionary, [ColorOperationCollection](../coloroperationcollection), [MasterSlideCollection](../masterslidecollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), List, [PortionCollection](../portioncollection), [Row](../row), [EffectStyleCollection](../effectstylecollection), Dictionary, [BehaviorCollection](../behaviorcollection), [TagCollection](../tagcollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [MotionPath](../motionpath), [LineFormatCollection](../lineformatcollection), [GradientStopCollection](../gradientstopcollection), [TabCollection](../tabcollection), [SectionCollection](../sectioncollection), [VideoCollection](../videocollection), [VbaModuleCollection](../vbamodulecollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [Sequence](../sequence), [ChartCategoryCollection](../chartcategorycollection), [FontSubstRuleCollection](../fontsubstrulecollection), [DigitalSignatureCollection](../digitalsignaturecollection), SortedList, [SectionSlideCollection](../sectionslidecollection), LinkedList, [Column](../column), KeyedCollection, [MasterLayoutSlideCollection](../masterlayoutslidecollection), [CommentCollection](../commentcollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartSeriesCollection](../chartseriescollection), [MathParagraph](../mathparagraph), [FontFallBackRulesCollection](../fontfallbackrulescollection), [LayoutSlideCollection](../layoutslidecollection), [ChartCellCollection](../chartcellcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [SlideCollection](../slidecollection), [SmartArtNodeCollection](../smartartnodecollection)
+ **Returns:**
+SortedList, [ChartDataPointCollection](../chartdatapointcollection), [DigitalSignatureCollection](../digitalsignaturecollection), [CaptionsCollection](../captionscollection), [MasterSlideCollection](../masterslidecollection), LinkedList, [ImageTransformOperationCollection](../imagetransformoperationcollection), [BehaviorCollection](../behaviorcollection), [ControlPropertiesCollection](../controlpropertiescollection), [SmartArtShapeCollection](../smartartshapecollection), [FontSubstRuleCollection](../fontsubstrulecollection), [ColumnCollection](../columncollection), List, [TagCollection](../tagcollection), [ChartCellCollection](../chartcellcollection), Queue, [SmartArtNodeCollection](../smartartnodecollection), [ExtraColorSchemeCollection](../extracolorschemecollection), KeyedCollection, [ChartCategoryCollection](../chartcategorycollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [DrawingGuidesCollection](../drawingguidescollection), [FillFormatCollection](../fillformatcollection), Collection, [SectionCollection](../sectioncollection), [EffectStyleCollection](../effectstylecollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [VbaModuleCollection](../vbamodulecollection), [VbaReferenceCollection](../vbareferencecollection), [Row](../row), ReadOnlyCollection, [CommentCollection](../commentcollection), [MathBlock](../mathblock), [VideoCollection](../videocollection), [SlideCollection](../slidecollection), [PointCollection](../pointcollection), [SequenceCollection](../sequencecollection), [CellCollection](../cellcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [ParagraphCollection](../paragraphcollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [Sequence](../sequence), [TrendlineCollection](../trendlinecollection), [ColorOperationCollection](../coloroperationcollection), [RowCollection](../rowcollection), [AudioCollection](../audiocollection), [GradientStopCollection](../gradientstopcollection), Dictionary, [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [CommentAuthorCollection](../commentauthorcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [TabCollection](../tabcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [ImageCollection](../imagecollection), Stack, [SectionSlideCollection](../sectionslidecollection), [Column](../column), [ControlCollection](../controlcollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [LayoutSlideCollection](../layoutslidecollection), [MathParagraph](../mathparagraph), SortedDictionary, [TextAnimationCollection](../textanimationcollection), [PortionCollection](../portioncollection), [DataLabelCollection](../datalabelcollection), [ShapeCollection](../shapecollection), [SensitivityLabelCollection](../sensitivitylabelcollection), [ChartSeriesCollection](../chartseriescollection), [CustomXmlPartCollection](../customxmlpartcollection), [LineFormatCollection](../lineformatcollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [MotionPath](../motionpath)
+
+
+---
+
+
+### getSubstitutions {#getSubstitutions}
+
+| Name | Description |
+| --- | --- |
+| getSubstitutions(int[]) | Gets the information about fonts that will be replaced during rendering of the specified slides. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slides | int[] | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
+
+ **Returns:**
+SortedList, [ChartDataPointCollection](../chartdatapointcollection), [DigitalSignatureCollection](../digitalsignaturecollection), [CaptionsCollection](../captionscollection), [MasterSlideCollection](../masterslidecollection), LinkedList, [ImageTransformOperationCollection](../imagetransformoperationcollection), [BehaviorCollection](../behaviorcollection), [ControlPropertiesCollection](../controlpropertiescollection), [SmartArtShapeCollection](../smartartshapecollection), [FontSubstRuleCollection](../fontsubstrulecollection), [ColumnCollection](../columncollection), List, [TagCollection](../tagcollection), [ChartCellCollection](../chartcellcollection), Queue, [SmartArtNodeCollection](../smartartnodecollection), [ExtraColorSchemeCollection](../extracolorschemecollection), KeyedCollection, [ChartCategoryCollection](../chartcategorycollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [DrawingGuidesCollection](../drawingguidescollection), [FillFormatCollection](../fillformatcollection), Collection, [SectionCollection](../sectioncollection), [EffectStyleCollection](../effectstylecollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [VbaModuleCollection](../vbamodulecollection), [VbaReferenceCollection](../vbareferencecollection), [Row](../row), ReadOnlyCollection, [CommentCollection](../commentcollection), [MathBlock](../mathblock), [VideoCollection](../videocollection), [SlideCollection](../slidecollection), [PointCollection](../pointcollection), [SequenceCollection](../sequencecollection), [CellCollection](../cellcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [ParagraphCollection](../paragraphcollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [Sequence](../sequence), [TrendlineCollection](../trendlinecollection), [ColorOperationCollection](../coloroperationcollection), [RowCollection](../rowcollection), [AudioCollection](../audiocollection), [GradientStopCollection](../gradientstopcollection), Dictionary, [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [CommentAuthorCollection](../commentauthorcollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [TabCollection](../tabcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [ImageCollection](../imagecollection), Stack, [SectionSlideCollection](../sectionslidecollection), [Column](../column), [ControlCollection](../controlcollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [LayoutSlideCollection](../layoutslidecollection), [MathParagraph](../mathparagraph), SortedDictionary, [TextAnimationCollection](../textanimationcollection), [PortionCollection](../portioncollection), [DataLabelCollection](../datalabelcollection), [ShapeCollection](../shapecollection), [SensitivityLabelCollection](../sensitivitylabelcollection), [ChartSeriesCollection](../chartseriescollection), [CustomXmlPartCollection](../customxmlpartcollection), [LineFormatCollection](../lineformatcollection), [GlobalLayoutSlideCollection](../globallayoutslidecollection), [MotionPath](../motionpath)
 
 
 ---

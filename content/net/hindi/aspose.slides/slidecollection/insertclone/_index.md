@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: निर्दिष्ट संग्रह में निर्दिष्ट स्थान पर एक निर्दिष्ट स्लाइड की प्रतिलिपि डालता है।
+type: docs
+weight: 120
+url: /hi/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+निर्दिष्ट स्लाइड की एक प्रतिलिपि संग्रह के निर्दिष्ट स्थान पर डालता है।
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| index | Int32 | नई स्लाइड का इंडेक्स। |
+| sourceSlide | ISlide | क्लोन करने के लिए स्लाइड। |
+
+### रिटर्न वैल्यू
+
+डाली गई स्लाइड।
+
+### टिप्पणी
+
+जब विभिन्न प्रस्तुतियों के बीच स्लाइड क्लोन की जाती है, तो स्लाइड का मास्टर भी क्लोन किया जा सकता है। आंतरिक रजिस्ट्री का उपयोग स्वचालित रूप से क्लोन किए गए मास्टर को ट्रैक करने के लिए किया जाता है, ताकि समान मास्टर स्लाइड के कई क्लोन बनाने से बचा जा सके। मास्टर स्लाइड्स का मैन्युअल क्लोनिंग न तो रोका जाएगा और न ही रजिस्टर्ड होगा। यदि आपको क्लोनिंग प्रक्रिया पर अधिक नियंत्रण चाहिए तो स्लाइड क्लोनिंग के लिए [`InsertClone`](../insertclone) या [`InsertClone`](../insertclone) और मास्टर क्लोनिंग के लिए [`AddClone`](../../imasterslidecollection/addclone) का उपयोग करें।
+
+### उदाहरण
+
+निम्न उदाहरण दर्शाता है कि प्रस्तुति के भीतर किसी अन्य स्थिति पर कैसे क्लोन करें।
+
+```csharp
+[C#]
+// एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करने वाले Presentation क्लास का उदाहरण बनाएं
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // इच्छित स्लाइड को उसी प्रस्तुति में स्लाइड्स के संग्रह के अंत में क्लोन करें
+    ISlideCollection slds = pres.Slides;
+    // इच्छित स्लाइड को उसी प्रस्तुति में निर्दिष्ट इंडेक्स पर क्लोन करें
+    slds.InsertClone(2, pres.Slides[1]);
+    // बदले हुए प्रस्तुति को डिस्क पर लिखें
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+निम्न उदाहरण दर्शाता है कि प्रस्तुति के भीतर किसी अन्य स्थिति पर कैसे क्लोन करें।
+
+```csharp
+[C#]
+// स्रोत प्रस्तुति फ़ाइल को लोड करने के लिए Presentation क्लास का उदाहरण बनाएं
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // गंतव्य PPTX (जहाँ स्लाइड को क्लोन किया जाना है) के लिए Presentation क्लास का उदाहरण बनाएं
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // गंतव्य प्रस्तुति को डिस्क पर लिखें
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### संबंधी देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* क्लास [SlideCollection](../../slidecollection)
+* नामस्थान [Aspose.Slides](../../slidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+निर्दिष्ट स्लाइड की एक प्रतिलिपि संग्रह के निर्दिष्ट स्थान पर डालता है।
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| index | Int32 | नई स्लाइड का इंडेक्स। |
+| sourceSlide | ISlide | क्लोन करने के लिए स्लाइड। |
+| destLayout | ILayoutSlide | नई स्लाइड के लिए लेआउट स्लाइड। |
+
+### रिटर्न वैल्यू
+
+डाली गई स्लाइड।
+
+### संबंधी देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [ILayoutSlide](../../ilayoutslide)
+* क्लास [SlideCollection](../../slidecollection)
+* नामस्थान [Aspose.Slides](../../slidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+निर्दिष्ट स्रोत स्लाइड की एक प्रतिलिपि संग्रह के निर्दिष्ट स्थान पर डालता है। उपयुक्त लेआउट को स्वचालित रूप से निर्दिष्ट मास्टर से चुना जाएगा (उपयुक्त लेआउट वह लेआउट है जिसका प्रकार या नाम स्रोत स्लाइड के लेआउट के समान है)। यदि उपयुक्त लेआउट नहीं है तो स्रोत स्लाइड का लेआउट क्लोन किया जाएगा (यदि allowCloneMissingLayout true है) या PptxEditException फेंका जाएगा (यदि allowCloneMissingLayout false है)।
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| index | Int32 | नई स्लाइड का इंडेक्स। |
+| sourceSlide | ISlide | क्लोन करने के लिए स्लाइड। |
+| destMaster | IMasterSlide | नई स्लाइड के लिए मास्टर स्लाइड। |
+| allowCloneMissingLayout | Boolean | यदि निर्दिष्ट मास्टर में कोई उपयुक्त लेआउट नहीं है तो स्रोत स्लाइड का लेआउट क्लोन किया जाएगा (यदि allowCloneMissingLayout true है) या PptxEditException फेंका जाएगा (यदि allowCloneMissingLayout false है)। |
+
+### रिटर्न वैल्यू
+
+डाली गई स्लाइड।
+
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | यदि निर्दिष्ट मास्टर में कोई उपयुक्त लेआउट नहीं है और allowCloneMissingLayout false है तो फेंका जाता है। |
+
+### संबंधी देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [IMasterSlide](../../imasterslide)
+* क्लास [SlideCollection](../../slidecollection)
+* नामस्थान [Aspose.Slides](../../slidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

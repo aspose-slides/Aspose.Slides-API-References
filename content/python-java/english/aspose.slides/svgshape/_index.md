@@ -17,7 +17,7 @@ url: /aspose.slides/svgshape/
 | --- | --- |
 | getId() | Gets shape id |
 
- **Result:**
+ **Returns:**
 String
 
 

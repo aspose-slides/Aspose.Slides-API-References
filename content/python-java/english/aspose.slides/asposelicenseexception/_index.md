@@ -15,7 +15,7 @@ This exception is thrown if any errors with license are detected.
 | --- | --- |
 | AsposeLicenseException() | Creates a new AsposeLicenseException. |
 
- **Result:**
+ **Returns:**
 AsposeLicenseException
 
 
@@ -34,7 +34,7 @@ AsposeLicenseException
 | --- | --- | --- |
 | message | String | The message string. |
 
- **Result:**
+ **Returns:**
 AsposeLicenseException
 
 
@@ -54,175 +54,8 @@ AsposeLicenseException
 | message | String | The message string. |
 | cause | Throwable | The reason that indirectly caused this exception. |
 
- **Result:**
+ **Returns:**
 AsposeLicenseException
-
-
----
-
-
-### addSuppressed {#addSuppressed}
-
-| Name | Description |
-| --- | --- |
-| addSuppressed(Throwable) |  |
-
-
----
-
-
-### fillInStackTrace {#fillInStackTrace}
-
-| Name | Description |
-| --- | --- |
-| fillInStackTrace() |  |
-
- **Result:**
-Throwable
-
-
----
-
-
-### getCause {#getCause}
-
-| Name | Description |
-| --- | --- |
-| getCause() |  |
-
- **Result:**
-Throwable
-
-
----
-
-
-### getInnerException {#getInnerException}
-
-| Name | Description |
-| --- | --- |
-| getInnerException() |  |
-
- **Result:**
-Throwable
-
-
----
-
-
-### getLocalizedMessage {#getLocalizedMessage}
-
-| Name | Description |
-| --- | --- |
-| getLocalizedMessage() |  |
-
- **Result:**
-String
-
-
----
-
-
-### getMessage {#getMessage}
-
-| Name | Description |
-| --- | --- |
-| getMessage() |  |
-
- **Result:**
-String
-
-
----
-
-
-### getStackTrace {#getStackTrace}
-
-| Name | Description |
-| --- | --- |
-| getStackTrace() |  |
-
- **Result:**
-StackTraceElement
-
-
----
-
-
-### getSuppressed {#getSuppressed}
-
-| Name | Description |
-| --- | --- |
-| getSuppressed() |  |
-
- **Result:**
-Throwable
-
-
----
-
-
-### getType {#getType}
-
-| Name | Description |
-| --- | --- |
-| getType() |  |
-
- **Result:**
-Type
-
-
----
-
-
-### initCause {#initCause}
-
-| Name | Description |
-| --- | --- |
-| initCause(Throwable) |  |
-
- **Result:**
-Throwable
-
-
----
-
-
-### printStackTrace {#printStackTrace}
-
-| Name | Description |
-| --- | --- |
-| printStackTrace() |  |
-
-
----
-
-
-### printStackTrace {#printStackTrace}
-
-| Name | Description |
-| --- | --- |
-| printStackTrace(PrintStream) |  |
-
-
----
-
-
-### printStackTrace {#printStackTrace}
-
-| Name | Description |
-| --- | --- |
-| printStackTrace(PrintWriter) |  |
-
-
----
-
-
-### setStackTrace {#setStackTrace}
-
-| Name | Description |
-| --- | --- |
-| setStackTrace(java.lang.StackTraceElement[]) |  |
 
 
 ---

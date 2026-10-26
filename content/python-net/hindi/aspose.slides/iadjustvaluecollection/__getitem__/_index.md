@@ -1,0 +1,20 @@
+---
+title: IAdjustValueCollection indexer
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/iadjustvaluecollection/__getitem__/
+weight: 10
+---
+## IAdjustValueCollection इंडेक्सर
+## इंडेक्सर
+
+| नाम | विवरण |
+| :- | :- |
+| index |  |
+
+
+### संबंधित देखें
+* वर्ग [`IAdjustValueCollection`](/slides/python-net/hi/aspose.slides/iadjustvaluecollection)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

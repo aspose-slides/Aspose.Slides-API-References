@@ -1,0 +1,24 @@
+---
+title: get_CornflowerBlue()
+second_title: مرجع API Aspose.Slides برای C++
+description: یک شیء Pen را با عرض 1 برمی‌گرداند که رنگ ARGB آن به صورت هگزادسیمال مقدار #FF6495ED دارد.
+type: docs
+weight: 235
+url: /fa/system.drawing/pens/get_cornflowerblue/
+---
+## Pens::get_CornflowerBlue() متد
+
+
+یک شیء [Pen](../../pen/) را برمی‌گرداند که عرض آن 1 است و رنگ ARGB آن به نماد هگزادسیمال مقدار #FF6495ED دارد.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_CornflowerBlue()
+```
+
+## موارد مرتبط
+
+* تعریف نوع [SharedPtr](../../../system/sharedptr/)
+* کلاس [Pen](../../pen/)
+* کلاس [Pens](../)
+* فضای نام [System::Drawing](../../)
+* کتابخانه [Aspose.Slides](../../../)

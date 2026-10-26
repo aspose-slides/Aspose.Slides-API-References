@@ -46,6 +46,7 @@ Presentation document
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Represents the first slide number in the presentation. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Returns all custom data parts in the presentaion. |
 | [getDigitalSignatures()](#getDigitalSignatures--) | Returns the collection of signatures used to sign the presentation. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Returns the collection of sensitivity labels applied to the presentation document. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Saves all slides of a presentation to a file with the specified format. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves all slides of a presentation to a stream in the specified format. |
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a file with the specified format and with additional options. |
@@ -55,20 +56,19 @@ Presentation document
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size. |
-| [getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize)](#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size. |
-| [getThumbnails(IRenderingOptions options)](#getThumbnails-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, int[] slides)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size. |
-| [getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Image objects for all slides of a presentation. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail IImage objects for specified slides of a presentation. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+| [getImages(IRenderingOptions options, int[] slides, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [getSlideById(long id)](#getSlideById-long-) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [highlightText(String text, Integer highlightColor)](#highlightText-java.lang.String-java.lang.Integer-) | Highlights all matches of the sample text with the specified color. |
+| [highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the sample text with the specified color. |
+| [highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Replaces all occurrences of the specified text with another specified text. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of the regular expression with the specified string. |
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```
 public abstract Date getCurrentDateTime()
@@ -305,7 +305,7 @@ public abstract int getSourceFormat()
 ```
 
 
-Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat)(\#getSourceFormat.getSourceFormat).
+Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Returns:**
 int
@@ -408,6 +408,39 @@ Returns the collection of signatures used to sign the presentation. Read-only [I
 
 **Returns:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public abstract ISensitivityLabelCollection getSensitivityLabels()
+```
+
+
+Returns the collection of sensitivity labels applied to the presentation document. Read-only [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+> 
+>      // Print the applied labels
+>      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
+>          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
+> 
+>      // Add the new label
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
+>      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
+> 
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### save(String fname, int format) {#save-java.lang.String-int-}
 ```
 public abstract void save(String fname, int format)
@@ -555,112 +588,13 @@ Saves all slides of a presentation to a set of files representing XAML markup.
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | The XAML format options. |
 
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-}
+### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---}
-```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)
+public abstract IImage[] getImages(IRenderingOptions options)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-float-float-}
-```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---float-float-}
-```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-com.aspose.slides.android.Size-}
-```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize) {#getThumbnails-com.aspose.slides.INotesCommentsLayoutingOptions-int---com.aspose.slides.android.Size-}
-```
-public abstract Bitmap[] getThumbnails(INotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesCommentsLayouting | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) | Options for notes and comments layouting. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options) {#getThumbnails-com.aspose.slides.IRenderingOptions-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation.
+Returns a Thumbnail Image objects for all slides of a presentation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,14 +602,14 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options, int[] slides) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---}
+com.aspose.slides.IImage[] - IImage objects.
+### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides)
+public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation.
+Returns a Thumbnail IImage objects for specified slides of a presentation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -684,14 +618,14 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 | slides | int[] | Array with slide positions, starting from 1. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-}
+com.aspose.slides.IImage[] - IImage objects.
+### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, float scaleX, float scaleY)
+public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling.
+Returns a Thumbnail Image objects for all slides of a presentation with custom scaling.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -701,14 +635,14 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-}
+com.aspose.slides.IImage[] - Bitmap objects.
+### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling.
+Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -719,14 +653,14 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
+com.aspose.slides.IImage[] - IImage objects.
+### getImages(IRenderingOptions options, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
 ```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, Size imageSize)
+public abstract IImage[] getImages(IRenderingOptions options, Size imageSize)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size.
+Returns a Thumbnail Image objects for all slides of a presentation with specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -735,14 +669,14 @@ Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presenta
 | imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
-### getThumbnails(IRenderingOptions options, int[] slides, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
+com.aspose.slides.IImage[] - IImage objects.
+### getImages(IRenderingOptions options, int[] slides, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
 ```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
+public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Size imageSize)
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with specified size.
+Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +686,7 @@ Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a pr
 | imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
 
 **Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)
@@ -775,4 +709,159 @@ public abstract void joinPortionsWithSameFormatting()
 
 
 Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides.
+
+### highlightText(String text, Integer highlightColor) {#highlightText-java.lang.String-java.lang.Integer-}
+```
+public abstract void highlightText(String text, Integer highlightColor)
+```
+
+
+Highlights all matches of the sample text with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint presentation.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      // highlighting all separate 'the' occurrences
+>      presentation.highlightText("the", Color.MAGENTA);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+
+### highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
+```
+public abstract void highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)
+```
+
+
+Highlights all matches of the sample text with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint presentation.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      // highlighting all separate 'the' occurrences
+>      presentation.highlightText("the", Color.MAGENTA);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-}
+```
+public abstract void highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)
+```
+
+
+Highlights all matches of the regular expression with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      // highlighting all separate 'the' occurrences
+>      presentation.highlightText("the", Color.MAGENTA);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
+```
+public abstract void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
+```
+
+
+Replaces all occurrences of the specified text with another specified text.
+
+--------------------
+
+> ```
+> The following sample code shows how to replace one specified string with another specified string.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx")
+>  try {
+>      TextSearchOptions textSearchOptions = new TextSearchOptions();
+>      textSearchOptions.setWholeWordsOnly(true);
+>      // Replace all separate 'the' occurrences with '***'
+>      presentation.replaceText("the", "***", textSearchOptions, null);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldText | java.lang.String | The string to be replaced. |
+| newText | java.lang.String | The string to replace all occurrences of oldText. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
+```
+public abstract void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
+```
+
+
+Replaces all matches of the regular expression with the specified string.
+
+--------------------
+
+> ```
+> The following code sample shows how to replace text using regular expression with the specified string.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx")
+>  try {
+>      TextSearchOptions textSearchOptions = new TextSearchOptions();
+>      textSearchOptions.setWholeWordsOnly(true);
+>      // Replace all separate 'the' occurrences with '***'
+>      presentation.replaceText("the", "***", textSearchOptions, null);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to replace. |
+| newText | java.lang.String | The string to replace all occurrences of the strings to be replaced. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 

@@ -23,7 +23,7 @@ url: /aspose.slides/shapebevel/
 | --- | --- | --- |
 | bIsTopBevel | boolean | Is top bevel. |
 
- **Result:**
+ **Returns:**
 ShapeBevel
 
 
@@ -36,7 +36,7 @@ ShapeBevel
 | --- | --- |
 | equals(Object) |  |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getBevelType() | Bevel type. Read/write BevelPresetType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -62,89 +62,20 @@ int
 | --- | --- |
 | getHeight() | Bevel height. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 
 ---
 
 
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -157,7 +88,7 @@ long
 | --- | --- |
 | getWidth() | Bevel width. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
 
 

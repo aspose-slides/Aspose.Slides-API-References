@@ -1,0 +1,23 @@
+---
+title: get_MediumSpringGreen()
+second_title: Odwołanie do API Aspose.Slides dla C++
+description: Zwraca obiekt Pen o szerokości 1 i którego kolor ARGB w notacji szesnastkowej ma wartość #FF00FA9A.
+type: docs
+weight: 1145
+url: /pl/system.drawing/pens/get_mediumspringgreen/
+---
+## Pens::get_MediumSpringGreen() metoda
+
+Zwraca obiekt [Pen](../../pen/) o szerokości 1 i którego kolor ARGB w notacji szesnastkowej ma wartość #FF00FA9A.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_MediumSpringGreen()
+```
+
+## Zobacz także
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klasa [Pen](../../pen/)
+* Klasa [Pens](../)
+* Przestrzeń nazw [System::Drawing](../../)
+* Biblioteka [Aspose.Slides](../../../)

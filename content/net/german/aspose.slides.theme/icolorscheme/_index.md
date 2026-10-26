@@ -1,13 +1,12 @@
 ---
 title: IColorScheme
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Speichert themendefinierte Farben.
 type: docs
-weight: 10840
+weight: 11150
 url: /de/aspose.slides.theme/icolorscheme/
 ---
-
-## IColorScheme-Schnittstelle
+## IColorScheme Schnittstelle
 
 Speichert themendefinierte Farben.
 
@@ -19,25 +18,25 @@ public interface IColorScheme : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Erste Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Zweite Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Dritte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Vierte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fünfte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sechste Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Erste dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Zweite dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Farbe für die besuchten Hyperlinks. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Farbe für die Hyperlinks. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Erste helle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Zweite helle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Erste Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Zweite Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Dritte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Vierte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fünfte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sechste Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Erste dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Zweite dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Farbe für besuchte Hyperlinks. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Farbe für Hyperlinks. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Erste helle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Zweite helle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch
 
-* Schnittstelle [ISlideComponent](../../aspose.slides/islidecomponent)
-* Namensraum [Aspose.Slides.Theme](../../aspose.slides.theme)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [ISlideComponent](../../aspose.slides/islidecomponent)
+* Namensraum [Aspose.Slides.Theme](../../aspose.slides.theme)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

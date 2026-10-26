@@ -1,0 +1,22 @@
+---
+title: get_Pkcs1()
+second_title: مرجع API Aspose.Slides برای C++
+description: حالت PKCS #1 v1.5 را دریافت می‌کند.
+type: docs
+weight: 1
+url: /fa/system.security.cryptography/rsasignaturepadding/get_pkcs1/
+---
+## RSASignaturePadding::get_Pkcs1() متد
+
+حالت PKCS #1 v1.5 را دریافت می‌کند.
+
+```cpp
+static SharedPtr<RSASignaturePadding> System::Security::Cryptography::RSASignaturePadding::get_Pkcs1()
+```
+
+## موارد مرتبط
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* کلاس [RSASignaturePadding](../)
+* فضای‌نام [System::Security::Cryptography](../../)
+* کتابخانه [Aspose.Slides](../../../)

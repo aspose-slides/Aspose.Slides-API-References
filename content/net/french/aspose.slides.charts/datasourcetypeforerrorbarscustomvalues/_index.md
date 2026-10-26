@@ -1,13 +1,12 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes pour la référence API .NET
 description: Spécifie les types de valeurs dans la liste des propriétés ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1510
+weight: 1590
 url: /fr/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
-
-## DataSourceTypeForErrorBarsCustomValues class
+## DataSourceTypeForErrorBarsCustomValues classe
 
 Spécifie les types de valeurs dans la liste des propriétés ChartDataPoint.ErrorBarsCustomValues
 
@@ -25,15 +24,15 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 | Nom | Description |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété XPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété YMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est actuelle dans l'objet propriété YPlus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, elle spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Indique si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est réellement présente dans l’objet de la propriété XMinus des points de données pour les valeurs personnalisées des barres d’erreur. En d’autres termes, elle indique le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Indique si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est réellement présente dans l’objet de la propriété XPlus des points de données pour les valeurs personnalisées des barres d’erreur. En d’autres termes, elle indique le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Indique si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est réellement présente dans l’objet de la propriété YMinus des points de données pour les valeurs personnalisées des barres d’erreur. En d’autres termes, elle indique le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Indique si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est réellement présente dans l’objet de la propriété YPlus des points de données pour les valeurs personnalisées des barres d’erreur. En d’autres termes, elle indique le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
 
-### Voir Aussi
+### Voir aussi
 
-* interface [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* interface [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
+* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

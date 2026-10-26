@@ -25,7 +25,7 @@ public IImageWrapper CreateImageWrapper(IImage image)
 
 ---
 
-## CreateImageWrapper(Stream) {#createimagewrapper_2}
+## CreateImageWrapper(Stream) {#createimagewrapper_1}
 
 Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
@@ -42,7 +42,7 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 ---
 
-## CreateImageWrapper(string) {#createimagewrapper_3}
+## CreateImageWrapper(string) {#createimagewrapper_2}
 
 Initializes a new instance of the BitmapWrapper class from the specified file.
 

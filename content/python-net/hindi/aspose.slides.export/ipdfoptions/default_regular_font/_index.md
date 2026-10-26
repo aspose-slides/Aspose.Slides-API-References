@@ -1,0 +1,25 @@
+---
+title: default_regular_font property
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.export/ipdfoptions/default_regular_font/
+weight: 70
+---
+## default_regular_font गुण
+### परिभाषा:
+```python
+@property
+def default_regular_font(self):
+    ...
+
+@default_regular_font.setter
+def default_regular_font(self, value):
+    ...
+```
+
+
+### और देखें
+* क्लास [`IPdfOptions`](/slides/python-net/hi/aspose.slides.export/ipdfoptions)
+* मॉड्यूल [`aspose.slides.export`](/slides/python-net/hi/aspose.slides.export)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

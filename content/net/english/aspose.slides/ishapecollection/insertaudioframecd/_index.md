@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: Insert an AudioFrame with CD.
+description: Creates a new audio frame linked to a CD track and inserts it into the shape collection at the specified index.
 type: docs
 weight: 220
 url: /aspose.slides/ishapecollection/insertaudioframecd/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertaudioframecd/
 
 ## IShapeCollection.InsertAudioFrameCD method
 
-Insert an AudioFrame with CD.
+Creates a new audio frame linked to a CD track and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, float height)
@@ -17,15 +17,15 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which video frame should be inserted. |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
+| index | Int32 | The zero-based index at which to insert the audio frame. |
+| x | Single | The x-coordinate of the new audio frame, in points. |
+| y | Single | The y-coordinate of the new audio frame, in points. |
+| width | Single | The width of the new audio frame, in points. |
+| height | Single | The height of the new audio frame, in points. |
 
 ### Return Value
 
-Created AudioFrame object.
+The newly created [`IAudioFrame`](../../iaudioframe).
 
 ### See Also
 

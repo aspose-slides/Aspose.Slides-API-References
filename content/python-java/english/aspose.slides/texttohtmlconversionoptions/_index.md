@@ -17,7 +17,7 @@ url: /aspose.slides/texttohtmlconversionoptions/
 | --- | --- |
 | TextToHtmlConversionOptions() |  |
 
- **Result:**
+ **Returns:**
 TextToHtmlConversionOptions
 
 
@@ -30,7 +30,7 @@ TextToHtmlConversionOptions
 | --- | --- |
 | getAddClipboardFragmentHeader() | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getEncodingName() | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -56,7 +56,7 @@ String
 | --- | --- |
 | getLinkEmbedController() | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 
- **Result:**
+ **Returns:**
 [VideoPlayerHtmlController](../videoplayerhtmlcontroller)
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getTextInheritanceLimit() | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
 
- **Result:**
+ **Returns:**
 int
 
 

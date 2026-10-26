@@ -3,7 +3,7 @@ title: LayoutSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the collection of child layout slides for this master slide. Read-only IMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/imasterslide/layoutslides/
 ---
 

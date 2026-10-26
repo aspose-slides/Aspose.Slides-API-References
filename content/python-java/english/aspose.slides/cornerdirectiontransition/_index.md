@@ -17,7 +17,7 @@ url: /aspose.slides/cornerdirectiontransition/
 | --- | --- |
 | getDirection() | Direction of transition. Read/write TransitionCornerDirectionType. |
 
- **Result:**
+ **Returns:**
 int
 
 

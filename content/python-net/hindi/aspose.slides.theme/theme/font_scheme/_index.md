@@ -1,0 +1,25 @@
+---
+title: font_scheme property
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.theme/theme/font_scheme/
+weight: 40
+---
+## font_scheme प्रॉपर्टी
+फ़ॉन्ट योजना लौटाता है।
+            केवल-पठनीय [`IFontScheme`](/slides/python-net/hi/aspose.slides.theme/ifontscheme).
+
+### परिभाषा:
+```python
+@property
+def font_scheme(self):
+    ...
+```
+
+
+### संबंधित देखें
+* क्लास [`IFontScheme`](/slides/python-net/hi/aspose.slides.theme/ifontscheme)
+* क्लास [`Theme`](/slides/python-net/hi/aspose.slides.theme/theme)
+* मॉड्यूल [`aspose.slides.theme`](/slides/python-net/hi/aspose.slides.theme)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

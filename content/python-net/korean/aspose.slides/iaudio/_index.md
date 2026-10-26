@@ -1,0 +1,29 @@
+---
+title: IAudio class
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides/iaudio/
+---
+## IAudio 클래스
+
+임베디드 오디오 파일을 나타냅니다.
+
+IAudio 유형은 다음 멤버를 제공합니다:
+
+## 속성
+
+| 속성 | 설명 |
+| :- | :- |
+| [`content_type`](/slides/python-net/ko/aspose.slides/iaudio/content_type/) | 오디오의 MIME 유형을 [`IAudio.binary_data`](/slides/python-net/ko/aspose.slides/iaudio/binary_data)에 인코딩된 형태로 반환합니다.<br/> 읽기 전용 **str**. |
+| [`binary_data`](/slides/python-net/ko/aspose.slides/iaudio/binary_data/) | 오디오 데이터의 복사본을 반환합니다. 대량의 데이터인 경우 <br/> 불필요한 오디오 데이터의 메모리 로드 또는 OutOfMemoryException을 방지하기 위해 [`IAudio.get_stream`](/slides/python-net/ko/aspose.slides/iaudio/get_stream) 메서드 사용을 고려하십시오.<br/> 읽기 전용 **int**[]. |
+
+## 메서드
+
+| 메서드 | 설명 |
+| :- | :- |
+| [`get_stream(self)`](/slides/python-net/ko/aspose.slides/iaudio/get_stream/#) | 읽기를 위한 Stream 스트림을 반환합니다.<br/> 사용 후 'using'을 사용하거나 스트림을 닫으십시오. |
+
+### 참고
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

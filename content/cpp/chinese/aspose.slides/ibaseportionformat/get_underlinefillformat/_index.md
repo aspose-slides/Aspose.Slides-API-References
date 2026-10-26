@@ -1,0 +1,23 @@
+---
+title: get_UnderlineFillFormat()
+second_title: Aspose.Slides for C++ API 参考
+description: 返回下划线线 FillFormat 属性。未应用继承。只读 IFillFormat.
+type: docs
+weight: 66
+url: /zh/aspose.slides/ibaseportionformat/get_underlinefillformat/
+---
+## IBasePortionFormat::get_UnderlineFillFormat() 方法
+
+返回下划线线 [FillFormat](../../fillformat/) 属性。未应用继承。只读 [IFillFormat](../../ifillformat/).
+
+```cpp
+virtual System::SharedPtr<IFillFormat> Aspose::Slides::IBasePortionFormat::get_UnderlineFillFormat()=0
+```
+
+## 另见
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* 类 [IFillFormat](../../ifillformat/)
+* 类 [IBasePortionFormat](../)
+* 命名空间 [Aspose::Slides](../../)
+* 库 [Aspose.Slides](../../../)

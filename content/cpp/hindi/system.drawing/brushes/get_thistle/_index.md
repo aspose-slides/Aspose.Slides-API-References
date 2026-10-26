@@ -1,0 +1,23 @@
+---
+title: get_Thistle()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: हेक्साडेसिमल मान #FFD8BFD8 वाला ठोस भराव रंग लौटाता है।
+type: docs
+weight: 1704
+url: /hi/system.drawing/brushes/get_thistle/
+---
+## Brushes::get_Thistle() विधि
+
+हेक्साडेसिमल मान #FFD8BFD8 वाला ठोस भराव रंग लौटाता है।
+
+```cpp
+static SharedPtr<Brush> System::Drawing::Brushes::get_Thistle()
+```
+
+## संबंधित देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Brush](../../brush/)
+* क्लास [Brushes](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

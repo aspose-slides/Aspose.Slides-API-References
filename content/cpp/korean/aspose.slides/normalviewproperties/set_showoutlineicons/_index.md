@@ -1,0 +1,22 @@
+---
+title: set_ShowOutlineIcons()
+second_title: Aspose.Slides for C++ API 레퍼런스
+description: 응용 프로그램이 일반 보기 모드의 콘텐츠 영역 중 어느 곳에서든 개요 내용을 표시할 경우 아이콘을 표시할지 여부를 지정합니다. bool 형식으로 작성합니다.
+type: docs
+weight: 14
+url: /ko/aspose.slides/normalviewproperties/set_showoutlineicons/
+---
+## NormalViewProperties::set_ShowOutlineIcons(bool) 메서드
+
+
+응용 프로그램이 일반 보기 모드의 콘텐츠 영역 중 어느 곳에서든 개요 내용을 표시할 경우 아이콘을 표시할지 여부를 지정합니다. **bool** 형식으로 작성합니다.
+
+```cpp
+void Aspose::Slides::NormalViewProperties::set_ShowOutlineIcons(bool value) override
+```
+
+## 참고
+
+* 클래스 [NormalViewProperties](../)
+* 네임스페이스 [Aspose::Slides](../../)
+* 라이브러리 [Aspose.Slides](../../../)

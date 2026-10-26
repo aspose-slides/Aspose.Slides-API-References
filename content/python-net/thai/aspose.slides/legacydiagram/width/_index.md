@@ -1,0 +1,34 @@
+---
+title: width property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+description: 
+type: docs
+url: /th/aspose.slides/legacydiagram/width/
+weight: 430
+---
+## width คุณสมบัติ
+Gets or sets the width of the shape, measured in points.
+            อ่าน/เขียน **float**.
+
+
+### หมายเหตุ
+
+The value returned is always defined and never **float**.
+            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+
+### คำนิยาม:
+```python
+@property
+def width(self):
+    ...
+
+@width.setter
+def width(self, value):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`LegacyDiagram`](/slides/python-net/th/aspose.slides/legacydiagram)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

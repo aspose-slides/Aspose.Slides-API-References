@@ -24,7 +24,7 @@ url: /aspose.slides/presentationplayer/
 | generator | [PresentationAnimationsGenerator](../presentationanimationsgenerator) | Presentation animations generator |
 | fps | double | Frames per second (FPS) |
 
- **Result:**
+ **Returns:**
 PresentationPlayer
 
 
@@ -47,7 +47,7 @@ PresentationPlayer
 | --- | --- |
 | getFrameIndex () | Gets the frame index. |
 
- **Result:**
+ **Returns:**
 int
 
 

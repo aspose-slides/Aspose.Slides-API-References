@@ -1,7 +1,7 @@
 ---
 title: Get
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the data from the storage.
 type: docs
 weight: 30
 url: /aspose.slides.export.web/storage/get/
@@ -9,9 +9,19 @@ url: /aspose.slides.export.web/storage/get/
 
 ## Storage.Get&lt;TValue&gt; method
 
+Gets the data from the storage.
+
 ```csharp
 public TValue Get<TValue>(string key)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key of the value. |
+
+### Return Value
+
+Data value if it is presented in the data collection, null otherwise.
 
 ### See Also
 

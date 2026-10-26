@@ -17,7 +17,7 @@ Controls the depth of the text properties inheritance.
 | Field | Description |
 | --- | --- |
 | [All](#All) | Inherit all text properties. |
-| [TextBox](#TextBox) | Inherit only from TextFrameEx's style. |
+| [TextBox](#TextBox) | Inherit only from TextFrame's style. |
 | [ParagraphOnly](#ParagraphOnly) | Use only properties defined for paragraph. |
 ### All {#All}
 ```
@@ -33,7 +33,7 @@ public static final int TextBox
 ```
 
 
-Inherit only from TextFrameEx's style.
+Inherit only from TextFrame's style.
 
 ### ParagraphOnly {#ParagraphOnly}
 ```

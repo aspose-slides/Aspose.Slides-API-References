@@ -1,7 +1,7 @@
 ---
 title: Distance
 second_title: Aspose.Sildes for .NET API Reference
-description: Distance of shadow. Read/write Double.
+description: Distance of the shadow from the object in points. Default value  0 pt. Read/write Double.
 type: docs
 weight: 50
 url: /aspose.slides.effects/ioutershadow/distance/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/ioutershadow/distance/
 
 ## IOuterShadow.Distance property
 
-Distance of shadow. Read/write Double.
+Distance of the shadow from the object, in points. Default value – 0 pt. Read/write Double.
 
 ```csharp
 public double Distance { get; set; }

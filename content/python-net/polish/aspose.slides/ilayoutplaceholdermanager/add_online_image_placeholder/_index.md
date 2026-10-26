@@ -1,0 +1,37 @@
+---
+title: add_online_image_placeholder method
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
+description: 
+type: docs
+url: /pl/aspose.slides/ilayoutplaceholdermanager/add_online_image_placeholder/
+weight: 40
+---
+## add_online_image_placeholder(self, x, y, width, height) {#float-float-float-float}
+Dodaje nowy kształt zastępczy do slajdu układu, aby umieścić w nim obraz online.
+
+### Zwraca
+
+Utworzono [`IAutoShape`](/slides/python-net/pl/aspose.slides/iautoshape) z miejscem wypełniającym obraz online.
+
+
+
+```python
+def add_online_image_placeholder(self, x, y, width, height):
+    ...
+```
+
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| x | **float** | Współrzędna X nowego kształtu zastępczego. |
+| y | **float** | Współrzędna Y nowego kształtu zastępczego. |
+| width | **float** | Szerokość nowego kształtu zastępczego. |
+| height | **float** | Wysokość nowego kształtu zastępczego. |
+
+
+
+### Zobacz także
+* klasa [`IAutoShape`](/slides/python-net/pl/aspose.slides/iautoshape)
+* klasa [`ILayoutPlaceholderManager`](/slides/python-net/pl/aspose.slides/ilayoutplaceholdermanager)
+* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

@@ -17,7 +17,7 @@ url: /aspose.slides/ooxmlexception/
 | --- | --- |
 | OOXMLException() | Default function. |
 
- **Result:**
+ **Returns:**
 OOXMLException
 
 
@@ -36,7 +36,7 @@ OOXMLException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 OOXMLException
 
 
@@ -56,7 +56,7 @@ OOXMLException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 OOXMLException
 
 

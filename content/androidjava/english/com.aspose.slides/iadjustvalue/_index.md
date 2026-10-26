@@ -13,18 +13,19 @@ Represents a geometry shape's adjustment value. These values affect shape's form
 
 | Method | Description |
 | --- | --- |
-| [getRawValue()](#getRawValue--) | Returns or sets ajustment value "as is". |
-| [setRawValue(long value)](#setRawValue-long-) | Returns or sets ajustment value "as is". |
+| [getRawValue()](#getRawValue--) | Returns or sets adjustment value "as is". |
+| [setRawValue(long value)](#setRawValue-long-) | Returns or sets adjustment value "as is". |
 | [getAngleValue()](#getAngleValue--) | Returns or sets value, interpreting it as angle in degrees. |
 | [setAngleValue(float value)](#setAngleValue-float-) | Returns or sets value, interpreting it as angle in degrees. |
 | [getName()](#getName--) | Returns a name of this adjustment value. |
+| [getType()](#getType--) | Returns the type of the shape adjustment. |
 ### getRawValue() {#getRawValue--}
 ```
 public abstract long getRawValue()
 ```
 
 
-Returns or sets ajustment value "as is". Read/write long.
+Returns or sets adjustment value "as is". Read/write long.
 
 **Returns:**
 long
@@ -34,7 +35,7 @@ public abstract void setRawValue(long value)
 ```
 
 
-Returns or sets ajustment value "as is". Read/write long.
+Returns or sets adjustment value "as is". Read/write long.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,3 +75,13 @@ Returns a name of this adjustment value. Read-only String.
 
 **Returns:**
 java.lang.String
+### getType() {#getType--}
+```
+public abstract int getType()
+```
+
+
+Returns the type of the shape adjustment. Read-only [ShapeAdjustmentType](../../com.aspose.slides/shapeadjustmenttype).
+
+**Returns:**
+int

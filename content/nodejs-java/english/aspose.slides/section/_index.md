@@ -17,7 +17,7 @@ url: /aspose.slides/section/
 | --- | --- |
 | getName () | Name of the section. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -30,7 +30,7 @@ String
 | --- | --- |
 | getSectionId () | Section Id. |
 
- **Result:**
+ **Returns:**
 UUID
 
 
@@ -43,7 +43,7 @@ UUID
 | --- | --- |
 | getSlidesListOfSection () | Returns list of slides in the section. |
 
- **Result:**
+ **Returns:**
 [SectionSlideCollection](../sectionslidecollection)
 
 
@@ -56,7 +56,7 @@ UUID
 | --- | --- |
 | getStartedFromSlide () | Returns first slide of the section. |
 
- **Result:**
+ **Returns:**
 [Slide](../slide)
 
 

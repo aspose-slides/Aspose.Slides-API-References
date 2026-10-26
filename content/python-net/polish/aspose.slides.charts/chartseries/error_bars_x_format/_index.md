@@ -1,0 +1,29 @@
+---
+title: error_bars_x_format property
+second_title: Aspose.Slides dla Pythona – referencja API .NET
+description: 
+type: docs
+url: /pl/aspose.slides.charts/chartseries/error_bars_x_format/
+weight: 110
+---
+## error_bars_x_format właściwość
+Reprezentuje ErrorBars serii z kierunkiem X.
+
+ErrorBars w kierunku X są dostępne dla serii typu area, bar, scatter i bubble.  
+Dla wszystkich innych typów wykresu ta właściwość zwraca None (w tym wykresy 3D).  
+W przypadku wartości niestandardowych użyj kolekcji DataPoints, aby określić wartość (z właściwością [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/pl/aspose.slides.charts/ichartdatapoint/error_bars_custom_values)).
+
+Tylko do odczytu [`IErrorBarsFormat`](/slides/python-net/pl/aspose.slides.charts/ierrorbarsformat).
+
+### Definicja:
+```python
+@property
+def error_bars_x_format(self):
+    ...
+```
+
+### Zobacz także
+* klasa [`ChartSeries`](/slides/python-net/pl/aspose.slides.charts/chartseries)
+* klasa [`IErrorBarsFormat`](/slides/python-net/pl/aspose.slides.charts/ierrorbarsformat)
+* moduł [`aspose.slides.charts`](/slides/python-net/pl/aspose.slides.charts)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

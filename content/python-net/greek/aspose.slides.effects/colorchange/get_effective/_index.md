@@ -1,0 +1,30 @@
+---
+title: get_effective method
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+description: 
+type: docs
+url: /el/aspose.slides.effects/colorchange/get_effective/
+weight: 10
+---
+## get_effective(self) {#}
+Λαμβάνει τα αποτελεσματικά δεδομένα του εφέ Αλλαγής Χρώματος με την κληρονομική εφαρμογή.
+
+### Επιστρέφει
+
+Ένα [`IColorChangeEffectiveData`](/slides/python-net/el/aspose.slides.effects/icolorchangeeffectivedata).
+
+
+
+```python
+def get_effective(self):
+    ...
+```
+
+
+
+
+### Δείτε επίσης
+* κλάση [`ColorChange`](/slides/python-net/el/aspose.slides.effects/colorchange)
+* κλάση [`IColorChangeEffectiveData`](/slides/python-net/el/aspose.slides.effects/icolorchangeeffectivedata)
+* μονάδα [`aspose.slides.effects`](/slides/python-net/el/aspose.slides.effects)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

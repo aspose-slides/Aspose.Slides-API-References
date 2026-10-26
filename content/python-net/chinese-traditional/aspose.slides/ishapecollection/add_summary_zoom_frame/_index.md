@@ -1,0 +1,43 @@
+---
+title: add_summary_zoom_frame method
+second_title: Aspose.Slides for Python via .NET API 參考文件
+description: 
+type: docs
+url: /zh-hant/aspose.slides/ishapecollection/add_summary_zoom_frame/
+weight: 140
+---
+## add_summary_zoom_frame(self, x, y, width, height) {#float-float-float-float}
+建立一個新的 Summary Zoom 框架，並將其加入形狀集合的末端。
+
+### 返回值
+
+新建立的[`ISummaryZoomFrame`](/slides/python-net/zh-hant/aspose.slides/isummaryzoomframe)。
+
+```python
+def add_summary_zoom_frame(self, x, y, width, height):
+    ...
+```
+
+| 參數 | 類型 | 說明 |
+| :- | :- | :- |
+| x | **float** | 新的 Summary Zoom 框架的 x 座標（以點為單位）。 |
+| y | **float** | 新的 Summary Zoom 框架的 y 座標（以點為單位）。 |
+| width | **float** | 新的 Summary Zoom 框架的寬度（以點為單位）。 |
+| height | **float** | 新的 Summary Zoom 框架的高度（以點為單位）。 |
+
+### 備註
+
+此方法會建立一個 Summary Zoom 框架，聚合簡報中所有章節的摘要連結。
+
+### 例外
+
+| 例外 | 說明 |
+| :- | :- |
+| [`PptxEditException`](/slides/python-net/zh-hant/aspose.slides/pptxeditexception) | 當簡報中沒有章節，或目標投影片不屬於任何章節時拋出此例外。 |
+
+### 另請參閱
+* 類別 [`IShapeCollection`](/slides/python-net/zh-hant/aspose.slides/ishapecollection)
+* 類別 [`ISummaryZoomFrame`](/slides/python-net/zh-hant/aspose.slides/isummaryzoomframe)
+* 類別 [`PptxEditException`](/slides/python-net/zh-hant/aspose.slides/pptxeditexception)
+* 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

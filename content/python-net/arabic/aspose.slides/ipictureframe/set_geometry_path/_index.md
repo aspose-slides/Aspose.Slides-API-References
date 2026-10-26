@@ -1,0 +1,29 @@
+---
+title: set_geometry_path method
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/ipictureframe/set_geometry_path/
+weight: 70
+---
+## set_geometry_path(self, geometry_path) {#igeometrypath}
+
+
+
+```python
+def set_geometry_path(self, geometry_path):
+    ...
+```
+
+
+| المعامل | النوع | الوصف |
+| :- | :- | :- |
+| geometry_path | [`IGeometryPath`](/slides/python-net/ar/aspose.slides/igeometrypath) |  |
+
+
+
+### انظر أيضًا
+* فئة [`IGeometryPath`](/slides/python-net/ar/aspose.slides/igeometrypath)
+* فئة [`IPictureFrame`](/slides/python-net/ar/aspose.slides/ipictureframe)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

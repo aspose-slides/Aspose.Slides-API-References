@@ -1,0 +1,1667 @@
+---
+title: Presentation
+second_title: Aspose.Slides pour Android via la référence API Java
+description: Représente une présentation Microsoft PowerPoint.
+type: docs
+url: /fr/com.aspose.slides/presentation/
+---
+**Héritage :**
+java.lang.Object
+
+**Toutes les interfaces implémentées :**
+[com.aspose.slides.IPresentation](../../com.aspose.slides/ipresentation), com.aspose.slides.IDOMObject
+```
+public final class Presentation implements IPresentation, IDOMObject
+```
+
+Représente une présentation Microsoft PowerPoint.
+
+--------------------
+
+> ```
+> The following example shows how to create PowerPoint Presentation.
+>   
+>  // Instancie un objet Presentation qui représente un fichier de présentation
+>  Presentation pres = new Presentation();
+>  try {
+>      // Récupère la première diapositive
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      // Ajoute une forme automatique de type ligne
+>      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
+>      // Enregistre le fichier de présentation.
+>      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>   
+>   The following example shows how to open and save Presentation.
+>   
+>  // Charge tout fichier pris en charge dans Presentation e.g. ppt, pptx, odp etc.
+>  Presentation pres = new Presentation("Sample.odp");
+>  try {
+>      // Enregistre le fichier de présentation.
+>      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Presentation()](#Presentation--) | This constructor creates new presentation from scratch. |
+| [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | This constructor creates new presentation from scratch. |
+| [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [Presentation(String file)](#Presentation-java.lang.String-) | This constructor gets a source file path from which the contents of the Presentation are read. |
+| [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | This constructor gets a source file path from which the contents of the Presentation are read. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getCurrentDateTime()](#getCurrentDateTime--) | Returns or sets date and time which will substitute content of datetime fields. |
+| [setCurrentDateTime(Date value)](#setCurrentDateTime-java.util.Date-) | Returns or sets date and time which will substitute content of datetime fields. |
+| [getParent_Immediate()](#getParent-Immediate--) |  |
+| [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns actual HeaderFooter manager. |
+| [getProtectionManager()](#getProtectionManager--) | Gets manager of the permissions for this presentation. |
+| [getSlides()](#getSlides--) | Returns a list of all slides that are defined in the presentation. |
+| [getSections()](#getSections--) | Returns a list of all slides sections that are defined in the presentation. |
+| [getSlideSize()](#getSlideSize--) | Returns slide size object. |
+| [getNotesSize()](#getNotesSize--) | Returns notes slide size object. |
+| [getLayoutSlides()](#getLayoutSlides--) | Returns a list of all layout slides that are defined in the presentation. |
+| [getMasters()](#getMasters--) | Returns a list of all master slides that are defined in the presentation. |
+| [getMasterNotesSlideManager()](#getMasterNotesSlideManager--) | Returns notes master manager. |
+| [getMasterHandoutSlideManager()](#getMasterHandoutSlideManager--) | Returns handout master manager. |
+| [getFontsManager()](#getFontsManager--) | Returns fonts manager. |
+| [getDefaultTextStyle()](#getDefaultTextStyle--) | Returns default text style for shapes. |
+| [getCommentAuthors()](#getCommentAuthors--) | Returns the collection of comments autors. |
+| [getDocumentProperties()](#getDocumentProperties--) | Returns DocumentProperties object which contains standard and custom document properties. |
+| [getImages()](#getImages--) | Returns the collection of all images in the presentation. |
+| [getAudios()](#getAudios--) | Returns the collection of all embedded audio files in the presentation. |
+| [getVideos()](#getVideos--) | Returns the collection of all embedded video files in the presentation. |
+| [getSlideShowSettings()](#getSlideShowSettings--) | Returns the slide show settings for the presentation. |
+| [getDigitalSignatures()](#getDigitalSignatures--) | Returns the collection of signatures used to sign the presentation. |
+| [getCustomData()](#getCustomData--) | Returns the presentation's custom data. |
+| [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Returns all custom data parts in the presentaion. |
+| [getVbaProject()](#getVbaProject--) | Gets or sets VBA project with presentation macros. |
+| [setVbaProject(IVbaProject value)](#setVbaProject-com.aspose.slides.IVbaProject-) | Gets or sets VBA project with presentation macros. |
+| [getHyperlinkQueries()](#getHyperlinkQueries--) | Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). |
+| [getViewProperties()](#getViewProperties--) | Gets presentation wide view properties. |
+| [getFirstSlideNumber()](#getFirstSlideNumber--) | Represents the first slide number in the presentation |
+| [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Represents the first slide number in the presentation |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Returns the collection of sensitivity labels applied to the presentation document. |
+| [getSlideById(long id)](#getSlideById-long-) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
+| [getSourceFormat()](#getSourceFormat--) | Returns information about from which format presentation was loaded. |
+| [getMasterTheme()](#getMasterTheme--) | Returns master theme. |
+| [save(String fname, int format)](#save-java.lang.String-int-) | Saves all slides of a presentation to a file with the specified format. |
+| [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves all slides of a presentation to a stream in the specified format. |
+| [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Saves all slides of a presentation to a set of files representing XAML markup. |
+| [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Returns a Image objects for all slides of a presentation. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail Image objects for specified slides of a presentation. |
+| [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
+| [getImages(IRenderingOptions options, int[] slides, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
+| [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [dispose()](#dispose--) | Releases all resources used by this Presentation object. |
+| [getPresentation()](#getPresentation--) | Returns the parent presentation of a text. |
+| [highlightText(String text, Integer highlightColor)](#highlightText-java.lang.String-java.lang.Integer-) | Highlights all matches of the sample text with the specified color. |
+| [highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the sample text with the specified color. |
+| [highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
+| [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Replaces all occurrences of the specified text with another specified text. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of the regular expression with the specified string. |
+### Presentation() {#Presentation--}
+```
+public Presentation()
+```
+
+This constructor creates new presentation from scratch. Created presentation has one empty slide.
+
+### Presentation(LoadOptions loadOptions) {#Presentation-com.aspose.slides.LoadOptions-}
+```
+public Presentation(LoadOptions loadOptions)
+```
+
+This constructor creates new presentation from scratch. Created presentation has one empty slide.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
+
+### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
+```
+public Presentation(InputStream stream)
+```
+
+This constructor is the primary mechanism for reading an existing Presentation.
+
+--------------------
+
+> ```
+> FileInputStream fis = new FileInputStream("demo.pptx");
+>  Presentation pres = new Presentation(fis);
+>  fis.close();
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Input stream. |
+
+### Presentation(InputStream stream, LoadOptions loadOptions) {#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-}
+```
+public Presentation(InputStream stream, LoadOptions loadOptions)
+```
+
+This constructor is the primary mechanism for reading an existing Presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | Input stream. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
+
+### Presentation(String file) {#Presentation-java.lang.String-}
+```
+public Presentation(String file)
+```
+
+This constructor gets a source file path from which the contents of the Presentation are read.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("demo.pptx");
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | java.lang.String | Input file. |
+
+### Presentation(String file, LoadOptions loadOptions) {#Presentation-java.lang.String-com.aspose.slides.LoadOptions-}
+```
+public Presentation(String file, LoadOptions loadOptions)
+```
+
+This constructor gets a source file path from which the contents of the Presentation are read.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | java.lang.String | Input file. |
+| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
+
+### getCurrentDateTime() {#getCurrentDateTime--}
+```
+public final Date getCurrentDateTime()
+```
+
+Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date.
+
+**Returns:**
+java.util.Date
+### setCurrentDateTime(Date value) {#setCurrentDateTime-java.util.Date-}
+```
+public final void setCurrentDateTime(Date value)
+```
+
+Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date |  |
+
+### getParent_Immediate() {#getParent-Immediate--}
+```
+public final IDOMObject getParent_Immediate()
+```
+
+Returns Parent\_Immediate object. Read-only IDOMObject.
+
+**Returns:**
+com.aspose.slides.IDOMObject
+### getHeaderFooterManager() {#getHeaderFooterManager--}
+```
+public final IPresentationHeaderFooterManager getHeaderFooterManager()
+```
+Returns actual HeaderFooter manager. Read-only [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
+
+--------------------
+
+> ```
+> The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("presentation.ppt");
+>  try
+>  {
+>      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
+>      if (!headerFooterManager.isFooterVisible()) // La propriété IsFooterVisible est utilisée pour indiquer qu'un espace réservé au pied de diapositive n'est pas présent.
+>      {
+>          headerFooterManager.setFooterVisibility(true); // La méthode SetFooterVisibility est utilisée pour rendre visible un espace réservé au pied de diapositive.
+>      }
+>      if (!headerFooterManager.isSlideNumberVisible()) // La propriété IsSlideNumberVisible est utilisée pour indiquer qu'un espace réservé au numéro de page de diapositive n'est pas présent.
+>      {
+>          headerFooterManager.setSlideNumberVisibility(true); // La méthode SetSlideNumberVisibility est utilisée pour rendre visible un espace réservé au numéro de page de diapositive.
+>      }
+>      if (!headerFooterManager.isDateTimeVisible()) // La propriété IsDateTimeVisible est utilisée pour indiquer qu'un espace réservé à la date/heure de diapositive n'est pas présent.
+>      {
+>          headerFooterManager.setDateTimeVisibility(true); // La méthode SetFooterVisibility est utilisée pour rendre visible un espace réservé à la date/heure de diapositive.
+>      }
+>      headerFooterManager.setFooterText("Footer text"); // La méthode SetFooterText est utilisée pour définir le texte du pied de diapositive.
+>      headerFooterManager.setDateTimeText("Date and time text"); // La méthode SetDateTimeText est utilisée pour définir le texte de l'espace réservé à la date/heure de la diapositive.
+>      pres.save("Presentation.ppt", SaveFormat.Ppt);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set child footer visibility inside Slide.
+>  
+>  Presentation pres = new Presentation("presentation.ppt");
+>  try
+>  {
+>      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // La méthode SetFooterAndChildFootersVisibility est utilisée pour rendre visible une diapositive maître et tous les espaces réservés aux pieds des diapositives enfants.
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // La méthode SetSlideNumberAndChildSlideNumbersVisibility est utilisée pour rendre visible une diapositive maître et tous les espaces réservés aux numéros de page des diapositives enfants.
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // La méthode SetDateTimeAndChildDateTimesVisibility est utilisée pour rendre visible une diapositive maître et tous les espaces réservés aux dates/heure des diapositives enfants.
+> 
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // La méthode SetFooterAndChildFootersText est utilisée pour définir le texte de la diapositive maître et de tous les pieds des diapositives enfants.
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // La méthode SetDateTimeAndChildDateTimesText est utilisée pour définir le texte de la diapositive maître et de tous les espaces réservés aux dates/heure des enfants.
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+**Returns:**
+[IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
+```
+public final IProtectionManager getProtectionManager()
+```
+
+Gets manager of the permissions for this presentation. Read-only [IProtectionManager](../../com.aspose.slides/iprotectionmanager).
+
+**Returns:**
+[IProtectionManager](../../com.aspose.slides/iprotectionmanager)
+### getSlides() {#getSlides--}
+```
+public final ISlideCollection getSlides()
+```
+Returns a list of all slides that are defined in the presentation. Read-only [ISlideCollection](../../com.aspose.slides/islidecollection).
+
+--------------------
+
+> ```
+> // Instancie la classe Presentation qui représente le fichier de présentation
+> Presentation pres = new Presentation();
+> try
+> {
+>     // Définit la couleur de fond de la première ISlide en bleu
+>     pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>     pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
+>     pres.getSlides().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
+>     pres.save("ContentBG_out.pptx", SaveFormat.Pptx);
+> }
+> finally
+> {
+>     if (pres != null) pres.dispose();
+> }
+> 
+> // Instancie la classe Presentation qui représente le fichier de présentation
+> Presentation pres = new Presentation("SetImageAsBackground.pptx");
+> try {
+>     // Définit le fond avec une image
+>     pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>     pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);
+>     pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
+>     // Définit l'image
+>     FileInputStream fos = null;
+>     try {
+>         fos = new FileInputStream("Tulips.jpg");
+>         // Ajoute l'image à la collection d'images de la présentation
+>         IPPImage imgx = pres.getImages().addImage(fos);
+>         pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
+>     } finally {
+>         if (fos != null) fos.close();
+>     }
+>     // Enregistre la présentation sur le disque
+>     pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
+> } catch (IOException e) { }
+> finally
+> {
+>     if (pres != null) pres.dispose();
+> }
+> 
+> // Instancie la classe Presentation pour charger le fichier de présentation source
+> Presentation pres = new Presentation("AccessSlides.pptx");
+> try
+> {
+>     // Applique une transition de type cercle sur la diapositive 1
+>     pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
+>     // Applique une transition de type peigne sur la diapositive 2
+>     pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
+>     // Enregistre la présentation sur le disque
+>     pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
+> }
+> finally
+> {
+>     if (pres != null) pres.dispose();
+> }
+> 
+> // Instancie la classe Presentation qui représente un fichier de présentation
+> Presentation pres = new Presentation("BetterSlideTransitions.pptx");
+> try
+> {
+>     // Applique une transition de type cercle sur la diapositive 1
+>     pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
+>     // Définit la durée de transition à 3 secondes
+>     pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
+>     pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
+>     // Applique une transition de type peigne sur la diapositive 2
+>     pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
+>     // Définit la durée de transition à 5 secondes
+>     pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
+>     pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
+>     // Applique une transition de type zoom sur la diapositive 3
+>     pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
+>     // Définit la durée de transition à 7 secondes
+>     pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
+>     pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
+>     // Enregistre la présentation sur le disque
+>     pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
+> }
+> finally
+> {
+>     if (pres != null) pres.dispose();
+> }
+> ```
+
+**Returns:**
+[ISlideCollection](../../com.aspose.slides/islidecollection)
+```
+public final ISectionCollection getSections()
+```
+Returns a list of all slides sections that are defined in the presentation. Read-only [ISectionCollection](../../com.aspose.slides/isectioncollection).
+
+--------------------
+
+> ```
+> The following examples shows how to create Sections in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide defaultSlide = pres.getSlides().get_Item(0);
+>      ISlide newSlide1 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide2 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
+>      // section1 sera terminée à newSlide2 et après cela section2 commencera
+>      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
+>      pres.save("pres-sections.pptx", SaveFormat.Pptx);
+>      pres.getSections().reorderSectionWithSlides(section2, 0);
+>      pres.save("pres-sections-moved.pptx", SaveFormat.Pptx);
+>      pres.getSections().removeSectionWithSlides(section2);
+>      pres.getSections().appendEmptySection("Last empty section");
+>      pres.save("pres-section-with-empty.pptx",SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to changing the names of Sections.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ISection section = pres.getSections().get_Item(0);
+>      section.setName("My section");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+**Returns:**
+[ISectionCollection](../../com.aspose.slides/isectioncollection)
+### getSlideSize() {#getSlideSize--}
+```
+public final ISlideSize getSlideSize()
+```
+Returns slide size object. Read-only [ISlideSize](../../com.aspose.slides/islidesize).
+
+--------------------
+
+> ```
+> The following example shows how to change the slide size in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres-4x3-aspect-ratio.pptx");
+>  try {
+>      pres.getSlideSize().setSize(SlideSizeType.OnScreen16x9, SlideSizeScaleType.DoNotScale);
+>      pres.save("pres-4x3-aspect-ratio.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set slide size with respect to content scaling for a PowerPoint Presentation.
+>  
+>  // Instancie un objet Presentation qui représente un fichier de présentation
+>  Presentation presentation = new Presentation("AccessSlides.pptx");
+>  try {
+>      Presentation auxPresentation = new Presentation();
+>      try {
+>          ISlide slide = presentation.getSlides().get_Item(0);
+>          // Définit la taille des diapositives des présentations générées à celle de la source
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // La méthode SetSize est utilisée pour définir la taille de la diapositive avec mise à l'échelle du contenu afin d'assurer l'ajustement
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // La méthode SetSize est utilisée pour définir la taille de la diapositive en maximisant la taille du contenu
+>          // Enregistre la présentation sur le disque
+>          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (auxPresentation != null) auxPresentation.dispose();
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+>  
+>  The following example shows how to specifying custom slide sizes in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // Taille de papier A4
+>      pres.save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+**Returns:**
+[ISlideSize](../../com.aspose.slides/islidesize)
+### getNotesSize() {#getNotesSize--}
+```
+public final INotesSize getNotesSize()
+```
+
+Returns notes slide size object. Read-only [INotesSize](../../com.aspose.slides/inotessize).
+
+**Returns:**
+[INotesSize](../../com.aspose.slides/inotessize)
+### getLayoutSlides() {#getLayoutSlides--}
+```
+public final IGlobalLayoutSlideCollection getLayoutSlides()
+```
+
+Returns a list of all layout slides that are defined in the presentation. Read-only [IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection).
+
+--------------------
+
+You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property.
+
+**Returns:**
+[IGlobalLayoutSlideCollection](../../com.aspose.slides/igloballayoutslidecollection)
+### getMasters() {#getMasters--}
+```
+public final IMasterSlideCollection getMasters()
+```
+
+
+Returns a list of all master slides that are defined in the presentation. Read-only [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
+
+--------------------
+
+> ```
+> The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IMasterSlide masterSlide = slide.getLayoutSlide().getMasterSlide();
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          masterSlide.getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
+>      pres.save("pres.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the presentation file
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Set the background color of the Master ISlide to Forest Green
+>      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
+>      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
+>      // Write the presentation to disk
+>      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add slide layout to PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents the presentation file
+>  Presentation presentation = new Presentation("AccessSlides.pptx");
+>  try
+>  {
+>      // Try to search by layout slide type
+>      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
+>      ILayoutSlide layoutSlide = null;
+>      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
+>          layoutSlide = layoutSlides.getByType(SlideLayoutType.TitleAndObject);
+>      else
+>          layoutSlide = layoutSlides.getByType(SlideLayoutType.Title);
+> 
+>      if (layoutSlide == null)
+>      {
+>          // The situation when a presentation doesn't contain some type of layouts.
+>          // presentation File only contains Blank and Custom layout types.
+>          // But layout slides with Custom types has different slide names,
+>          // like "Title", "Title and Content", etc. And it is possible to use these
+>          // names for layout slide selection.
+>          // Also it is possible to use the set of placeholder shape types. For example,
+>          // Title slide should have only Title pleceholder type, etc.
+>          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
+>          {
+>              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
+>              {
+>                  layoutSlide = titleAndObjectLayoutSlide;
+>                  break;
+>              }
+>          }
+>          if (layoutSlide == null)
+>          {
+>              for (ILayoutSlide titleLayoutSlide : (Iterable) layoutSlides)
+>              {
+>                  if ("Title".equals(titleLayoutSlide.getName()))
+>                  {
+>                      layoutSlide = titleLayoutSlide;
+>                      break;
+>                  }
+>              }
+>              if (layoutSlide == null)
+>              {
+>                  layoutSlide = layoutSlides.getByType(SlideLayoutType.Blank);
+>                  if (layoutSlide == null)
+>                  {
+>                      layoutSlide = layoutSlides.add(SlideLayoutType.TitleAndObject, "Title and Object");
+>                  }
+>              }
+>          }
+>      }
+>      // Adding empty slide with added layout slide
+>      presentation.getSlides().insertEmptySlide(0, layoutSlide);
+>      // Save presentation
+>      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
+### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
+```
+public final IMasterNotesSlideManager getMasterNotesSlideManager()
+```
+
+Returns notes master manager. Read-only [IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager).
+
+**Returns:**
+[IMasterNotesSlideManager](../../com.aspose.slides/imasternotesslidemanager)
+### getMasterHandoutSlideManager() {#getMasterHandoutSlideManager--}
+```
+public final IMasterHandoutSlideManager getMasterHandoutSlideManager()
+```
+
+Returns handout master manager. Read-only [IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager).
+
+**Returns:**
+[IMasterHandoutSlideManager](../../com.aspose.slides/imasterhandoutslidemanager)
+### getFontsManager() {#getFontsManager--}
+```
+public final IFontsManager getFontsManager()
+```
+Returns fonts manager. Read-only [IFontsManager](../../com.aspose.slides/ifontsmanager).
+
+--------------------
+
+> ```
+> The following example shows how to add embedded fonts to PowerPoint Presentation.
+>  
+>  // Charger la présentation
+>  Presentation pres = new Presentation("Fonts.pptx");
+>  try {
+>      // Charger la police source à remplacer
+>      IFontData sourceFont = new FontData("Arial");
+>      IFontData[] allFonts = pres.getFontsManager().getFonts();
+>      for (IFontData font : allFonts)
+>      {
+>          boolean fontAlreadyEmbedded = false;
+>          IFontData[] embeddedFonts = pres.getFontsManager().getEmbeddedFonts();
+>          for (int i = 0; i < embeddedFonts.length; i++)
+>          {
+>              if (embeddedFonts[i].equals(font))
+>              {
+>                  fontAlreadyEmbedded = true;
+>                  break;
+>              }
+>          }
+>          if (!fontAlreadyEmbedded) {
+>              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
+>          }
+>      }
+>      // Enregistrer la présentation
+>      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IFontsManager](../../com.aspose.slides/ifontsmanager)
+### getDefaultTextStyle() {#getDefaultTextStyle--}
+```
+public final ITextStyle getDefaultTextStyle()
+```
+
+Returns default text style for shapes. Read-only [ITextStyle](../../com.aspose.slides/itextstyle).
+
+**Returns:**
+[ITextStyle](../../com.aspose.slides/itextstyle)
+### getCommentAuthors() {#getCommentAuthors--}
+```
+public final ICommentAuthorCollection getCommentAuthors()
+```
+
+Returns the collection of comments autors. Read-only [ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection).
+
+**Returns:**
+[ICommentAuthorCollection](../../com.aspose.slides/icommentauthorcollection)
+### getDocumentProperties() {#getDocumentProperties--}
+```
+public final IDocumentProperties getDocumentProperties()
+```
+
+Returns DocumentProperties object which contains standard and custom document properties. Read-only [IDocumentProperties](../../com.aspose.slides/idocumentproperties).
+
+**Returns:**
+[IDocumentProperties](../../com.aspose.slides/idocumentproperties)
+### getImages() {#getImages--}
+```
+public final IImageCollection getImages()
+```
+Returns the collection of all images in the presentation. Read-only [IImageCollection](../../com.aspose.slides/iimagecollection).
+
+--------------------
+
+> ```
+> // crée une nouvelle présentation à laquelle l'image sera ajoutée.
+> Presentation pres = new Presentation();
+> try
+> {
+>     // supposons que nous avons le gros fichier image que nous voulons inclure dans la présentation
+>     FileInputStream fip = new FileInputStream("large_image.jpg");
+>     try
+>     {
+>         // Ajoutons l'image à la présentation - nous choisissons le comportement KeepLocked car nous n'avons
+>         // PAS l'intention d'accéder au fichier "largeImage.png".
+>         IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
+>         pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
+>         // Enregistre la présentation. Pendant que la grande présentation est générée, la consommation de mémoire
+>         // reste faible tout au long du cycle de vie de l'objet pres
+>         pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
+>     }
+>     finally
+>     {
+>         fip.close();
+>     }
+> }
+> catch (java.io.IOException e) { }
+> finally
+> {
+>     pres.dispose();
+> }
+> 
+> // Ajoute l'image à la présentation
+> Presentation pres = new Presentation();
+> try {
+>     FileInputStream fos = null;
+>     try {
+>         fos = new FileInputStream("image.png");
+>         // Ajoute l'image à la présentation
+>         IPPImage image = pres.getImages().addImage(fos);
+>         // Crée un cadre d'image sur la diapositive 1 basé sur l'image ajoutée précédemment
+>         IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+>         pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>         pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>     } finally {
+>         if (fos != null) fos.close();
+>     }
+>     pres.save("pres-out.pptx", SaveFormat.Pptx);
+> } catch (IOException e){ }
+> finally
+> {
+>     if (pres != null) pres.dispose();
+> }
+> ```
+
+**Returns:**
+[IImageCollection](../../com.aspose.slides/iimagecollection)
+```
+public final IAudioCollection getAudios()
+```
+Returns the collection of all embedded audio files in the presentation. Read-only [IAudioCollection](../../com.aspose.slides/iaudiocollection).
+
+--------------------
+
+> ```
+> The following examples shows how to add a hyperlink to an audio file.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("audio.mp3");
+>          IAudio audio = pres.getAudios().addAudio(fos);
+>          IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(10, 10, 100, 100, audio);
+>          audioFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>          audioFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  }
+>  catch (IOException e) {}
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IAudioCollection](../../com.aspose.slides/iaudiocollection)
+### getVideos() {#getVideos--}
+```
+public final IVideoCollection getVideos()
+```
+Returns the collection of all embedded video files in the presentation. Read-only [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+--------------------
+
+> ```
+> The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
+>  
+>  // Instancie la classe Presentation qui représente le PPTX
+>  Presentation pres = new Presentation();
+>  try {
+>      // Récupère la première diapositive
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Intègre la vidéo dans la présentation
+>      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
+>      // Ajoute un cadre vidéo
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
+>      // Associe la vidéo au cadre vidéo
+>      vf.setEmbeddedVideo(vid);
+>      // Définit le mode de lecture et le volume de la vidéo
+>      vf.setPlayMode(VideoPlayModePreset.Auto);
+>      vf.setVolume(AudioVolumeMode.Loud);
+>      // Écrit le fichier PPTX sur le disque
+>      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add a video passing path to the video file directly into AddVideoFrame method for PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 150, "video1.avi");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  // Crée une nouvelle présentation à laquelle la vidéo sera ajoutée
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
+>      try {
+>          // Ajoutons la vidéo à la présentation - nous avons choisi le comportement KeepLocked car nous ne
+>          // n'avons pas l'intention d'accéder au fichier "veryLargeVideo.avi".
+>          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
+>          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
+>          // Sauvegarde la présentation. Pendant que la grande présentation est générée, la consommation de mémoire
+>          // reste faible tout au long du cycle de vie de l'objet pres
+>          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (fileStream != null) fileStream.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  // Verrouille le fichier source et ne le charge PAS en mémoire
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
+>  // Crée une instance de Presentation, verrouille le fichier "hugePresentationWithAudiosAndVideos.pptx"
+>  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
+>  try {
+>      // Sauvegardons chaque vidéo dans un fichier. Pour éviter une forte utilisation de mémoire, nous avons besoin d'un tampon qui sera utilisé
+>      // pour transférer les données du flux vidéo de la présentation vers un flux pour le nouveau fichier vidéo.
+>      byte[] buffer = new byte[81024];
+>      // Parcourt les vidéos
+>      for (int index = 0; index < pres.getVideos().size(); index++) {
+>          IVideo video = pres.getVideos().get_Item(index);
+>          // Ouvre le flux vidéo de la présentation. Veuillez noter que nous avons intentionnellement évité d'accéder aux propriétés
+>          // comme video.BinaryData - car cette propriété renvoie un tableau d'octets contenant une vidéo complète, ce qui
+>          // entraîne le chargement des octets en mémoire. Nous utilisons video.GetStream, qui renvoie un Stream - et ne
+>          // nécessite pas de charger toute la vidéo en mémoire.
+>          InputStream presVideoStream = video.getStream();
+>          try {
+>              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
+>              try {
+>                  int bytesRead;
+>                  while ((bytesRead = presVideoStream.read(buffer, 0, buffer.length)) > 0) {
+>                      outputFileStream.write(buffer, 0, bytesRead);
+>                  }
+>              } finally {
+>                  if (outputFileStream != null) outputFileStream.close();
+>              }
+>          } finally {
+>              if (presVideoStream != null) presVideoStream.close();
+>          }
+>          // La consommation de mémoire restera basse quel que soit la taille de la vidéo ou de la présentation,
+>      }
+>      // Si nécessaire, vous pouvez appliquer les mêmes étapes pour les fichiers audio.
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  // ajoute le cadre vidéo
+>  Presentation pres = new Presentation();
+>  try {
+>      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.avi")));
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 100, 100, video);
+>      videoFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      videoFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  // add videoFrame
+>  public static void run()
+>  {
+>      Presentation pres = new Presentation();
+>      try {
+>          addVideoFromYouTube(pres, "Tj75Arhq5ho");
+>          pres.save("AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);
+>      } catch(IOException e) {
+>      } finally {
+>          if (pres != null) pres.dispose();
+>      }
+>  }
+>  private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
+>  {
+>      // ajoute le cadre vidéo
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
+>      videoFrame.setPlayMode(VideoPlayModePreset.Auto);
+> 
+>      // charge la vignette
+>      String thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
+>      URL url = new URL(thumbnailUri);
+>      URLConnection connection = url.openConnection();
+>      connection.setConnectTimeout(5000);
+>      connection.setReadTimeout(10000);
+>      InputStream input = connection.getInputStream();
+>      ByteArrayOutputStream output = new ByteArrayOutputStream();
+>      try
+>      {
+>          byte[] buffer = new byte[8192];
+>          for (int count; (count = input.read(buffer)) > 0; )
+>          {
+>              output.write(buffer, 0, count);
+>          }
+>          videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
+>      } finally {
+>          if (input != null) input.close();
+>          if (output != null) output.close();
+>      }
+>  }
+>  
+>  // Instancie un objet Presentation qui représente un fichier de présentation
+>  Presentation presentation = new Presentation("Video.pptx");
+>  try {
+>      for (ISlide slide : presentation.getSlides())
+>      {
+>          for (IShape shape : presentation.getSlides().get_Item(0).getShapes())
+>          {
+>              if (shape instanceof VideoFrame)
+>              {
+>                  IVideoFrame vf = (IVideoFrame) shape;
+>                  String type = vf.getEmbeddedVideo().getContentType();
+>                  int ss = type.lastIndexOf('/');
+>                  type = type.substring(ss + 1);
+>                  byte[] buffer = vf.getEmbeddedVideo().getBinaryData();
+>                  FileOutputStream fop = new FileOutputStream("NewVideo_out." + type);
+>                  try
+>                  {
+>                      fop.write(buffer);
+>                      fop.flush();
+>                      fop.close();
+>                  }
+>                  finally
+>                  {
+>                      if (presentation != null) presentation.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+**Returns:**
+[IVideoCollection](../../com.aspose.slides/ivideocollection)
+### getSlideShowSettings() {#getSlideShowSettings--}
+```
+public final SlideShowSettings getSlideShowSettings()
+```
+
+Returns the slide show settings for the presentation.
+
+**Returns:**
+[SlideShowSettings](../../com.aspose.slides/slideshowsettings)
+### getDigitalSignatures() {#getDigitalSignatures--}
+```
+public final IDigitalSignatureCollection getDigitalSignatures()
+```
+
+Returns the collection of signatures used to sign the presentation. Read-only [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentationSigned.pptx");
+>  try
+>  {
+>      if (pres.getDigitalSignatures().size() > 0)
+>      {
+>          boolean allSignaturesAreValid = true;
+>          System.out.println("Signatures used to sign the presentation: ");
+>          for (IDigitalSignature signature : pres.getDigitalSignatures())
+>          {
+>             System.out.println(signature.getCertificate().hashCode() + ", "
+>                   + signature.getSignTime().toString() + " -- " + (signature.isValid() ? "VALID" : "INVALID"));
+>             allSignaturesAreValid &= signature.isValid();
+>          }
+>          if (allSignaturesAreValid)
+>             System.out.println("Presentation is genuine, all signatures are valid.");
+>          else
+>             System.out.println("Presentation has been modified since signing.");
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
+### getCustomData() {#getCustomData--}
+```
+public final ICustomData getCustomData()
+```
+
+Returns the presentation's custom data. Read-only [ICustomData](../../com.aspose.slides/icustomdata).
+
+**Returns:**
+[ICustomData](../../com.aspose.slides/icustomdata)
+### getAllCustomXmlParts() {#getAllCustomXmlParts--}
+```
+public final ICustomXmlPart[] getAllCustomXmlParts()
+```
+
+Returns all custom data parts in the presentaion. Read-only ICustomXmlPart[].
+
+--------------------
+
+> ```
+> The following examples show how to clear all custom xml parts from PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
+>  try {
+>      // Parcourez tous les éléments XML personnalisés
+>      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
+>      {
+>          item.remove();
+>      }
+>      pres.save("out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+com.aspose.slides.ICustomXmlPart[]
+### getVbaProject() {#getVbaProject--}
+```
+public final IVbaProject getVbaProject()
+```
+Gets or sets VBA project with presentation macros. Read/write [IVbaProject](../../com.aspose.slides/ivbaproject).
+
+**Returns:**
+[IVbaProject](../../com.aspose.slides/ivbaproject)
+### setVbaProject(IVbaProject value) {#setVbaProject-com.aspose.slides.IVbaProject-}
+```
+public final void setVbaProject(IVbaProject value)
+```
+
+Gets or sets VBA project with presentation macros. Read/write [IVbaProject](../../com.aspose.slides/ivbaproject).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IVbaProject](../../com.aspose.slides/ivbaproject) |  |
+
+### getHyperlinkQueries() {#getHyperlinkQueries--}
+```
+public final IHyperlinkQueries getHyperlinkQueries()
+```
+
+
+Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). Read-only [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries).
+
+**Returns:**
+[IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
+### getViewProperties() {#getViewProperties--}
+```
+public final IViewProperties getViewProperties()
+```
+
+Gets presentation wide view properties. Read-only [IViewProperties](../../com.aspose.slides/iviewproperties).
+
+**Returns:**
+[IViewProperties](../../com.aspose.slides/iviewproperties)
+### getFirstSlideNumber() {#getFirstSlideNumber--}
+```
+public final int getFirstSlideNumber()
+```
+
+Represents the first slide number in the presentation
+
+**Returns:**
+int
+### setFirstSlideNumber(int value) {#setFirstSlideNumber-int-}
+```
+public final void setFirstSlideNumber(int value)
+```
+
+
+Represents the first slide number in the presentation
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public final ISensitivityLabelCollection getSensitivityLabels()
+```
+
+
+Returns the collection of sensitivity labels applied to the presentation document. Read-only [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+> 
+>      // Print the applied labels
+>      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
+>          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
+> 
+>      // Add the new label
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
+>      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
+> 
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
+### getSlideById(long id) {#getSlideById-long-}
+```
+public final IBaseSlide getSlideById(long id)
+```
+
+Returns a Slide, MasterSlide or LayoutSlide by Id.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | long | Id of a slide. |
+
+**Returns:**
+[IBaseSlide](../../com.aspose.slides/ibaseslide) - IBaseSlide object.
+### getSourceFormat() {#getSourceFormat--}
+```
+public final int getSourceFormat()
+```
+
+Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat).
+
+**Returns:**
+int
+### getMasterTheme() {#getMasterTheme--}
+```
+public final IMasterTheme getMasterTheme()
+```
+ 
+Returns master theme. Read-only [IMasterTheme](../../com.aspose.slides/imastertheme).
+
+--------------------
+
+> ```
+> The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
+>  
+>  //Instancie un objet Presentation qui représente un fichier de présentation
+>  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
+>  try {
+>      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
+>      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).setFillType(FillType.Solid);
+>      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getSolidFillColor().setColor(Color.GREEN);
+>      ((EffectStyle)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getEffectFormat().getOuterShadowEffect().setDistance(10f);
+>      pres.save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IMasterTheme](../../com.aspose.slides/imastertheme)
+### save(String fname, int format) {#save-java.lang.String-int-}
+```
+public final void save(String fname, int format)
+```
+Saves all slides of a presentation to a file with the specified format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | java.lang.String | Path to the created file. |
+| format | int | Format of the exported data. |
+```
+public final void save(OutputStream stream, int format)
+```
+Saves all slides of a presentation to a stream in the specified format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+
+### save(String fname, int format, ISaveOptions options) {#save-java.lang.String-int-com.aspose.slides.ISaveOptions-}
+```
+public final void save(String fname, int format, ISaveOptions options)
+```
+Saves all slides of a presentation to a file with the specified format and with additional options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | java.lang.String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Additional format options. |
+
+### save(OutputStream stream, int format, ISaveOptions options) {#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-}
+```
+public final void save(OutputStream stream, int format, ISaveOptions options)
+```
+
+Saves all slides of a presentation to a stream in the specified format and with additional options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Additional format options. |
+
+### save(IXamlOptions options) {#save-com.aspose.slides.IXamlOptions-}
+```
+public final void save(IXamlOptions options)
+```
+
+Enregistre toutes les diapositives d’une présentation dans un ensemble de fichiers représentant le balisage XAML.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      XamlOptions xamlOptions = new XamlOptions();
+>      xamlOptions.setExportHiddenSlides(true);
+> 
+>      pres.save(xamlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | Les options du format XAML. |
+
+### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
+```
+public final IImage[] getImages(IRenderingOptions options)
+```
+
+
+Returns a Image objects for all slides of a presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
+### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides)
+```
+
+Returns a Thumbnail Image objects for specified slides of a presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
+### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
+```
+public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+Renvoie des objets Image miniature pour toutes les diapositives d'une présentation avec mise à l'échelle personnalisée.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Options Tiff. |
+| scaleX | float | Valeur permettant de mettre à l'échelle cette miniature selon l'axe x. |
+| scaleY | float | Valeur permettant de mettre à l'échelle cette miniature selon l'axe y. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Objets Image.
+### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
+### getImages(IRenderingOptions options, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
+```
+public final IImage[] getImages(IRenderingOptions options, Size imageSize)
+```
+
+
+Returns a Thumbnail Image objects for all slides of a presentation with specified size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
+### getImages(IRenderingOptions options, int[] slides, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
+```
+public final IImage[] getImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+Returns a Thumbnail Image objects for specified slides of a presentation with specified size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
+
+**Returns:**
+com.aspose.slides.IImage[] - Image objects.
+### save(String fname, int[] slides, int format) {#save-java.lang.String-int---int-}
+```
+public final void save(String fname, int[] slides, int format)
+```
+Enregistre les diapositives spécifiées d'une présentation dans un fichier au format indiqué tout en conservant les numéros de page.
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| fname | java.lang.String | Chemin vers le fichier créé. |
+| slides | int[] | Tableau contenant les positions des diapositives, à partir de 1. |
+| format | int | Format des données exportées. |
+
+### save(String fname, int[] slides, int format, ISaveOptions options) {#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-}
+```
+public final void save(String fname, int[] slides, int format, ISaveOptions options)
+```
+
+Saves specified slides of a presentation to a file with the specified format with page number keeping.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | java.lang.String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Additional format options. |
+
+### save(OutputStream stream, int[] slides, int format) {#save-java.io.OutputStream-int---int-}
+```
+public final void save(OutputStream stream, int[] slides, int format)
+```
+
+Saves specified slides of a presentation to a stream in the specified format with page number keeping.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+
+### save(OutputStream stream, int[] slides, int format, ISaveOptions options) {#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-}
+```
+public final void save(OutputStream stream, int[] slides, int format, ISaveOptions options)
+```
+Saves specified slides of a presentation to a stream in the specified format with page number keeping.
+
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PNG.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          FileOutputStream out = new FileOutputStream("slide_" + index + ".png");
+>          slide.getThumbnail().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+>          out.flush();
+>          out.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom dimensions.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      float scaleX = 2f;
+>      float scaleY = 2f;
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          FileOutputStream out = new FileOutputStream("slide_" + index + ".png");
+>          slide.getThumbnail(scaleX, scaleY).compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+>          out.flush();
+>          out.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom size.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      com.aspose.slides.android.Size size = new com.aspose.slides.android.Size(960, 720);
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          FileOutputStream out = new FileOutputStream("slide_" + index + ".png");
+>          slide.getThumbnail(size).compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+>          out.flush();
+>          out.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | [ISaveOptions](../../com.aspose.slides/isaveoptions) | Additional format options. |
+
+### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
+```
+public final void joinPortionsWithSameFormatting()
+```
+
+Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides.
+
+### dispose() {#dispose--}
+```
+public final void dispose()
+```
+
+Releases all resources used by this Presentation object.
+
+### getPresentation() {#getPresentation--}
+```
+public final IPresentation getPresentation()
+```
+
+Returns the parent presentation of a text. Read-only [IPresentation](../../com.aspose.slides/ipresentation).
+
+**Returns:**
+[IPresentation](../../com.aspose.slides/ipresentation)
+### highlightText(String text, Integer highlightColor) {#highlightText-java.lang.String-java.lang.Integer-}
+```
+public final void highlightText(String text, Integer highlightColor)
+```
+
+Highlights all matches of the sample text with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint presentation.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      // mise en évidence de toutes les occurrences distinctes de 'the'
+>      presentation.highlightText("the", Color.MAGENTA);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+
+### highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
+```
+public final void highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)
+```
+
+Highlights all matches of the sample text with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint presentation.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      TextSearchOptions textSearchOptions = new TextSearchOptions();
+>      textSearchOptions.setWholeWordsOnly(true);
+>      // mise en évidence de toutes les occurrences séparées de 'the'
+>      presentation.highlightText("the", Color.MAGENTA, textSearchOptions, null);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-}
+```
+public final void highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)
+```
+Highlights all matches of the regular expression with the specified color.
+
+--------------------
+
+> ```
+> The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
+>      // mise en évidence de tous les mots de 10 caractères ou plus
+>      presentation.highlightRegex(regex, Color.BLUE, null);
+>      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
+```
+public final void replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)
+```
+
+
+Replaces all occurrences of the specified text with another specified text.
+
+--------------------
+
+> ```
+> The following sample code shows how to replace one specified string with another specified string.
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx")
+>  try {
+>      TextSearchOptions textSearchOptions = new TextSearchOptions();
+>      textSearchOptions.setWholeWordsOnly(true);
+>      // Replace all separate 'the' occurrences with '***'
+>      presentation.replaceText("the", "***", textSearchOptions, null);
+>      presentation.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldText | java.lang.String | The string to be replaced. |
+| newText | java.lang.String | The string to replace all occurrences of oldText. |
+| options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+
+### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
+```
+public final void replaceRegex(Pattern regex, String newText, IFindResultCallback callback)
+
+
+Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+
+--------------------
+
+> ```
+> L'exemple de code suivant montre comment remplacer du texte à l'aide d'une expression régulière par la chaîne spécifiée.
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
+>      // Replace all words with 10 symbols or longer with '***'
+>      presentation.replaceRegex(regex, "***", null);
+>      presentation.save("SomePresentation-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Paramètres :**
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| regex | java.util.regex.Pattern | L'expression régulière java.util.regex.Pattern pour obtenir les chaînes à remplacer. |
+| newText | java.lang.String | La chaîne pour remplacer toutes les occurrences des chaînes à remplacer. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | L'objet de rappel pour recevoir les résultats de recherche [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |

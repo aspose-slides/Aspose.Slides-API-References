@@ -45,7 +45,7 @@ Type of new line that will be used in generated document.
 | --- | --- |
 | [Windows](#Windows) |  |
 | [Unix](#Unix) |  |
-| [Mac](#Mac) | Mac (OS 9) new line - \\r |
+| [Mac](#Mac) | Mac (OS 9) new line - \\\\r |
 ### Windows {#Windows}
 ```
 public static final int Windows
@@ -64,5 +64,5 @@ public static final int Mac
 ```
 
 
-Mac (OS 9) new line - \\r
+Mac (OS 9) new line - \\\\r
 

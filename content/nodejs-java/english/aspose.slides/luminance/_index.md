@@ -25,7 +25,7 @@ url: /aspose.slides/luminance/
 | --- | --- | --- |
 | obj | Object | The Luminance to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Luminance effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 LuminanceEffectiveData
 
 
@@ -51,7 +51,7 @@ LuminanceEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

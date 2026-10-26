@@ -1,0 +1,28 @@
+---
+title: shape_type_locked property
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/connectorlock/shape_type_locked/
+weight: 110
+---
+## shape_type_locked الخاصية
+يحدد ما إذا كان تغيير نوع الشكل محظورًا.
+قراءة/كتابة **bool**.
+
+### التعريف:
+```python
+@property
+def shape_type_locked(self):
+    ...
+
+@shape_type_locked.setter
+def shape_type_locked(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`ConnectorLock`](/slides/python-net/ar/aspose.slides/connectorlock)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

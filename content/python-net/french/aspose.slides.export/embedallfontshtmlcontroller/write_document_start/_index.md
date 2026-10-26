@@ -1,0 +1,31 @@
+---
+title: write_document_start method
+second_title: Référence API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.export/embedallfontshtmlcontroller/write_document_start/
+weight: 40
+---
+## write_document_start(self, generator, presentation) {#ihtmlgenerator-ipresentation}
+Appelé pour écrire l'en-tête du document html. Appelé une fois par conversion de présentation.
+
+
+```python
+def write_document_start(self, generator, presentation):
+    ...
+```
+
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| generator | [`IHtmlGenerator`](/slides/python-net/fr/aspose.slides.export/ihtmlgenerator) | Objet de sortie. |
+| presentation | [`IPresentation`](/slides/python-net/fr/aspose.slides/ipresentation) | Présentation en cours de rendu. |
+
+
+
+### Voir aussi
+* classe [`EmbedAllFontsHtmlController`](/slides/python-net/fr/aspose.slides.export/embedallfontshtmlcontroller)
+* classe [`IHtmlGenerator`](/slides/python-net/fr/aspose.slides.export/ihtmlgenerator)
+* classe [`IPresentation`](/slides/python-net/fr/aspose.slides/ipresentation)
+* module [`aspose.slides.export`](/slides/python-net/fr/aspose.slides.export)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

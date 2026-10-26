@@ -21,7 +21,7 @@ Represents node of a SmartArt object
 | --- | --- |
 | [getChildNodes()](#getChildNodes--) | Returns collections of all child nodes of the current node. |
 | [getShapes()](#getShapes--) | Returns collections of all shapes associated with the node. |
-| [getTextFrame()](#getTextFrame--) | Returns or sets text of the node. |
+| [getTextFrame()](#getTextFrame--) | Returns text frame of the node. |
 | [isAssistant()](#isAssistant--) | Returns or sets the node as assistant. |
 | [setAssistant(boolean value)](#setAssistant-boolean-) | Returns or sets the node as assistant. |
 | [getLevel()](#getLevel--) | Returns nesting level of the node. |
@@ -58,7 +58,7 @@ public final ITextFrame getTextFrame()
 ```
 
 
-Returns or sets text of the node. Read-only [ITextFrame](../../com.aspose.slides/itextframe).
+Returns text frame of the node. Read-only [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Returns:**
 [ITextFrame](../../com.aspose.slides/itextframe)

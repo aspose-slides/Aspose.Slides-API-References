@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the intercharacter spacing increment. Read-only Single.
+description: Returns the intercharacter spacing increment in points. Read-only Single.
 type: docs
 weight: 220
 url: /aspose.slides/ibaseportionformateffectivedata/spacing/
@@ -9,7 +9,7 @@ url: /aspose.slides/ibaseportionformateffectivedata/spacing/
 
 ## IBasePortionFormatEffectiveData.Spacing property
 
-Returns the intercharacter spacing increment. Read-only Single.
+Returns the intercharacter spacing increment, in points. Read-only Single.
 
 ```csharp
 public float Spacing { get; }

@@ -1,0 +1,23 @@
+---
+title: get_SkyBlue()
+second_title: Aspose.Slides for C++ API referencia
+description: Visszaad egy Pen objektumot, amelynek szélessége 1, és amelynek ARGB színe hexadecimális jelölésben #FF87CEEB értékkel rendelkezik.
+type: docs
+weight: 1613
+url: /hu/system.drawing/pens/get_skyblue/
+---
+## Pens::get_SkyBlue() metódus
+
+Visszaad egy [Pen](../../pen/) objektumot, amelynek szélessége 1, és amelynek ARGB színe hexadecimális jelölésben #FF87CEEB értékkel rendelkezik.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_SkyBlue()
+```
+
+## Lásd még
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Osztály [Pen](../../pen/)
+* Osztály [Pens](../)
+* Névtér [System::Drawing](../../)
+* Könyvtár [Aspose.Slides](../../../)

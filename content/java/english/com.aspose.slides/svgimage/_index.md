@@ -33,6 +33,7 @@ Represents an SVG image.
 | [getExternalResourceResolver()](#getExternalResourceResolver--) | Return callback interface used to resolve external resources during Svg documents import. |
 | [getBaseUri()](#getBaseUri--) | Returns base URI of the specified Svg. |
 | [getSvgContent()](#getSvgContent--) | Returns SVG content. |
+| [writeAsEmf(OutputStream stream)](#writeAsEmf-java.io.OutputStream-) | Saves the SVG image as an EMF file. |
 ### SvgImage(byte[] data) {#SvgImage-byte---}
 ```
 public SvgImage(byte[] data)
@@ -157,3 +158,43 @@ Returns SVG content. Read-only String.
 
 **Returns:**
 java.lang.String
+### writeAsEmf(OutputStream stream) {#writeAsEmf-java.io.OutputStream-}
+```
+public final void writeAsEmf(OutputStream stream)
+```
+
+
+Saves the SVG image as an EMF file.
+
+--------------------
+
+> ```
+> The following example shows how to save the SVG image to the metafile.
+>  
+>  // Creates the new SVG image
+>  ISvgImage svgImage = new SvgImage(new FileInputStream("content.svg"));
+>  // Saves the SVG image as a metafille
+>  FileOutputStream fileStream = new FileOutputStream("SvgAsEmf.emf");
+>  svgImage.writeAsEmf(fileStream);
+>  
+>  This sample demonstrates how to add the SVG image as a metafile to the presentation image collection.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      // Creates the new SVG image
+>      ISvgImage svgImage = new SvgImage(new FileInputStream("content.svg"));
+>      ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+>      // Saves the SVG image as a metafille
+>      svgImage.writeAsEmf(byteStream);
+>      // Adds metafile to the image collection
+>      pres.getImages().addImage(byteStream.toByteArray());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Target stream |
+

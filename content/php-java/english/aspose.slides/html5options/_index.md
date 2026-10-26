@@ -50,6 +50,19 @@ boolean
 ---
 
 
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getEmbedImages {#getEmbedImages}
 
 | Name | Description |
@@ -63,19 +76,6 @@ boolean
 ---
 
 
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. Read/write INotesCommentsLayoutingOptions. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
-
-
----
-
-
 ### getOutputPath {#getOutputPath}
 
 | Name | Description |
@@ -84,6 +84,32 @@ boolean
 
  **Returns:**
 String
+
+
+---
+
+
+### getPicturesCompression {#getPicturesCompression}
+
+| Name | Description |
+| --- | --- |
+| getPicturesCompression () | Represents the pictures compression level |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -115,6 +141,19 @@ void
 ---
 
 
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setEmbedImages {#setEmbedImages}
 
 | Name | Description |
@@ -128,11 +167,11 @@ void
 ---
 
 
-### setNotesCommentsLayouting {#setNotesCommentsLayouting}
+### setOutputPath {#setOutputPath}
 
 | Name | Description |
 | --- | --- |
-| setNotesCommentsLayouting ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Provides options that control how notes and comments is placed in exported document. Read/write INotesCommentsLayoutingOptions. |
+| setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
 
  **Returns:**
 void
@@ -141,11 +180,37 @@ void
 ---
 
 
-### setOutputPath {#setOutputPath}
+### setPicturesCompression {#setPicturesCompression}
 
 | Name | Description |
 | --- | --- |
-| setOutputPath (String) | Determines where external resources should be stored. Read/write String. |
+| setPicturesCompression (int) | Represents the pictures compression level |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
 void

@@ -17,10 +17,10 @@ Represents an AutoShape.
 | Method | Description |
 | --- | --- |
 | [getAutoShapeLock()](#getAutoShapeLock--) | Returns AutoShape's locks. |
-| [getTextFrame()](#getTextFrame--) | Returns TextFrameEx object for the AutoShapeEx. |
+| [getTextFrame()](#getTextFrame--) | Returns TextFrame object for the AutoShape. |
 | [getUseBackgroundFill()](#getUseBackgroundFill--) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. |
 | [setUseBackgroundFill(boolean value)](#setUseBackgroundFill-boolean-) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. |
-| [addTextFrame(String text)](#addTextFrame-java.lang.String-) | Adds a new TextFrameEx to a shape. |
+| [addTextFrame(String text)](#addTextFrame-java.lang.String-) | Adds a new TextFrame to a shape. |
 | [isTextBox()](#isTextBox--) | Specifies if the shape is a text box. |
 ### getAutoShapeLock() {#getAutoShapeLock--}
 ```
@@ -38,7 +38,7 @@ public abstract ITextFrame getTextFrame()
 ```
 
 
-Returns TextFrameEx object for the AutoShapeEx. Read-only [ITextFrame](../../com.aspose.slides/itextframe).
+Returns TextFrame object for the AutoShape. Read-only [ITextFrame](../../com.aspose.slides/itextframe).
 
 **Returns:**
 [ITextFrame](../../com.aspose.slides/itextframe)
@@ -71,7 +71,7 @@ public abstract ITextFrame addTextFrame(String text)
 ```
 
 
-Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text.
+Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text.
 
 **Parameters:**
 | Parameter | Type | Description |

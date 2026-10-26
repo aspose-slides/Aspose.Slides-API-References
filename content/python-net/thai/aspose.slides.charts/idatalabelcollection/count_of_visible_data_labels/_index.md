@@ -1,0 +1,24 @@
+---
+title: count_of_visible_data_labels property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API เอกสารอ้างอิง
+description: 
+type: docs
+url: /th/aspose.slides.charts/idatalabelcollection/count_of_visible_data_labels/
+weight: 100
+---
+## count_of_visible_data_labels คุณสมบัติ
+รับจำนวนของป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน.
+            อ่านอย่างเดียว **int**.
+
+### คำนิยาม:
+```python
+@property
+def count_of_visible_data_labels(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IDataLabelCollection`](/slides/python-net/th/aspose.slides.charts/idatalabelcollection)
+* โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

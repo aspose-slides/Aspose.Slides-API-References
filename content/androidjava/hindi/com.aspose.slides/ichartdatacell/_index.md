@@ -1,0 +1,306 @@
+---
+title: IChartDataCell
+second_title: Aspose.Slides for Android via Java API Reference
+description: चार्ट डेटा के लिए कोशिका का प्रतिनिधित्व करता है।
+type: docs
+url: /hi/com.aspose.slides/ichartdatacell/
+---```
+public interface IChartDataCell
+```
+
+चार्ट डेटा के लिए कोशिका का प्रतिनिधित्व करता है।
+## विधियाँ
+
+| विधि | विवरण |
+| --- | --- |
+| [getRow()](#getRow--) | सेल स्थित वर्कशीट की पंक्ति का सूचकांक लौटाता है। |
+| [getColumn()](#getColumn--) | सेल स्थित वर्कशीट के कॉलम का सूचकांक लौटाता है। |
+| [getValue()](#getValue--) | सेल का मान प्राप्त करता है या सेट करता है। |
+| [setValue(Object value)](#setValue-java.lang.Object-) | सेल का मान प्राप्त करता है या सेट करता है। |
+| [getFormula()](#getFormula--) | A1-शैली में सूत्र प्राप्त करता है या सेट करता है। |
+| [setFormula(String value)](#setFormula-java.lang.String-) | A1-शैली में सूत्र प्राप्त करता है या सेट करता है। |
+| [getR1C1Formula()](#getR1C1Formula--) | R1C1-शैली में सूत्र प्राप्त करता है या सेट करता है। |
+| [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | R1C1-शैली में सूत्र प्राप्त करता है या सेट करता है। |
+| [getChartDataWorksheet()](#getChartDataWorksheet--) | वर्कशीट प्राप्त करता है। |
+| [isHidden()](#isHidden--) | निर्धारित करता है कि सेल छिपी हुई है या नहीं। |
+| [getCustomNumberFormat()](#getCustomNumberFormat--) | संख्याओं और तिथि के कस्टम डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। |
+| [setCustomNumberFormat(String value)](#setCustomNumberFormat-java.lang.String-) | संख्याओं और तिथि के कस्टम डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। |
+| [getPresetNumberFormat()](#getPresetNumberFormat--) | संख्याओं और तिथि के अंतर्निहित डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। |
+| [setPresetNumberFormat(byte value)](#setPresetNumberFormat-byte-) | संख्याओं और तिथि के अंतर्निहित डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। |
+| [calculate(boolean updateValues)](#calculate-boolean-) | यदि सेल में सूत्र है, तो मान उस सूत्र के आधार पर अपडेट होगा। |
+### getRow() {#getRow--}
+```
+public abstract int getRow()
+```
+
+सेल स्थित वर्कशीट की पंक्ति का सूचकांक लौटाता है। केवल पढ़ने योग्य int.
+
+**रिटर्न:**
+int
+### getColumn() {#getColumn--}
+```
+public abstract int getColumn()
+```
+
+सेल स्थित वर्कशीट के कॉलम का सूचकांक लौटाता है। केवल पढ़ने योग्य int.
+
+**रिटर्न:**
+int
+### getValue() {#getValue--}
+```
+public abstract Object getValue()
+```
+
+सेल का मान प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Object.
+
+--------------------
+
+> ```
+> workbook.getCell(0, "F2").setValue(-2.5f);
+>  workbook.getCell(0, "G3").setValue(6.3f);
+> ```
+
+
+**रिटर्न:**
+java.lang.Object
+### setValue(Object value) {#setValue-java.lang.Object-}
+```
+public abstract void setValue(Object value)
+```
+
+सेल का मान प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Object.
+
+--------------------
+
+> ```
+> workbook.getCell(0, "F2").setValue(-2.5f);
+>  workbook.getCell(0, "G3").setValue(6.3f);
+> ```
+
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.Object |  |
+### getFormula() {#getFormula--}
+```
+public abstract String getFormula()
+```
+
+A1-शैली में सूत्र प्राप्त करता है या सेट करता है।
+
+--------------------
+
+> ```
+> IChartDataCell cell = workbook.getCell(0, "B2");
+>  cell.setFormula("1 + SUM(F2:H5)");
+> ```
+
+
+**रिटर्न:**
+java.lang.String
+### setFormula(String value) {#setFormula-java.lang.String-}
+```
+public abstract void setFormula(String value)
+```
+
+A1-शैली में सूत्र प्राप्त करता है या सेट करता है।
+
+--------------------
+
+> ```
+> IChartDataCell cell = workbook.getCell(0, "B2");
+>  cell.setFormula("1 + SUM(F2:H5)");
+> ```
+
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String |  |
+### getR1C1Formula() {#getR1C1Formula--}
+```
+public abstract String getR1C1Formula()
+```
+
+R1C1-शैली में सूत्र प्राप्त करता है या सेट करता है।
+
+--------------------
+
+> ```
+> IChartDataCell cell = workbook.getCell(0, "C2");
+>  cell.setR1C1Formula("MAX(R2C6:R5C8) / 3");
+> ```
+
+**रिटर्न:**
+java.lang.String
+### setR1C1Formula(String value) {#setR1C1Formula-java.lang.String-}
+```
+public abstract void setR1C1Formula(String value)
+```
+
+R1C1-शैली में सूत्र प्राप्त करता है या सेट करता है।
+
+--------------------
+
+> ```
+> IChartDataCell cell = workbook.getCell(0, "C2");
+>  cell.setR1C1Formula("MAX(R2C6:R5C8) / 3");
+> ```
+
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String |  |
+### getChartDataWorksheet() {#getChartDataWorksheet--}
+```
+public abstract IChartDataWorksheet getChartDataWorksheet()
+```
+
+वर्कशीट प्राप्त करता है। केवल पढ़ने योग्य [IChartDataWorksheet](../../com.aspose.slides/ichartdataworksheet).
+
+**रिटर्न:**
+[IChartDataWorksheet](../../com.aspose.slides/ichartdataworksheet)
+### isHidden() {#isHidden--}
+```
+public abstract boolean isHidden()
+```
+
+निर्धारित करता है कि सेल छिपी हुई है या नहीं। केवल पढ़ने योग्य boolean.
+
+**रिटर्न:**
+boolean
+### getCustomNumberFormat() {#getCustomNumberFormat--}
+```
+public abstract String getCustomNumberFormat()
+```
+
+संख्याओं और तिथि के कस्टम डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग किया जाएगा। पढ़ने/लिखने योग्य String.
+
+**रिटर्न:**
+java.lang.String
+### setCustomNumberFormat(String value) {#setCustomNumberFormat-java.lang.String-}
+```
+public abstract void setCustomNumberFormat(String value)
+```
+
+संख्याओं और तिथि के कस्टम डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग किया जाएगा। पढ़ने/लिखने योग्य String.
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String |  |
+### getPresetNumberFormat() {#getPresetNumberFormat--}
+```
+public abstract byte getPresetNumberFormat()
+```
+
+संख्याओं और तिथि के अंतर्निहित डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। Preset संख्या [0..22] या [37..49] में होनी चाहिए। पढ़ने/लिखने योग्य byte.
+
+--------------------
+
+> ```
+> 0	General
+>  1	0
+>  2	0.00
+>  3	#,##0
+>  4	#,##0.00
+>  5	$#,##0;$-#,##0
+>  6	$#,##0;[Red]$-#,##0
+>  7	$#,##0.00;$-#,##0.00
+>  8	$#,##0.00;[Red]$-#,##0.00
+>  9	0%
+>  10	0.00%
+>  11	0.00E+00
+>  12	# ?/?
+>  13	# /
+>  14	m/d/yy
+>  15	d-mmm-yy
+>  16	d-mmm
+>  17	mmm-yy
+>  18	h:mm AM/PM
+>  19	h:mm:ss AM/PM
+>  20	h:mm
+>  21	h:mm:ss
+>  22	m/d/yy h:mm
+>  37	#,##0;-#,##0
+>  38	#,##0;[Red]-#,##0
+>  39	#,##0.00;-#,##0.00
+>  40	#,##0.00;[Red]-#,##0.00
+>  41	_ * #,##0_ ;_ * "_ ;_ @_
+>  42	_ $* #,##0_ ;_ $* "_ ;_ @_
+>  43	_ * #,##0.00_ ;_ * "??_ ;_ @_
+>  44	_ $* #,##0.00_ ;_ $* "??_ ;_ @_
+>  45	mm:ss
+>  46	h :mm:ss
+>  47	mm:ss.0
+>  48	##0.0E+00
+>  49	@
+> ```
+
+**रिटर्न:**
+byte
+### setPresetNumberFormat(byte value) {#setPresetNumberFormat-byte-}
+```
+public abstract void setPresetNumberFormat(byte value)
+```
+
+संख्याओं और तिथि के अंतर्निहित डिस्प्ले फ़ॉर्मेट को प्राप्त करता है या सेट करता है। Preset संख्या [0..22] या [37..49] में होनी चाहिए। पढ़ने/लिखने योग्य byte.
+
+--------------------
+
+> ```
+> 0	General
+>  1	0
+>  2	0.00
+>  3	#,##0
+>  4	#,##0.00
+>  5	$#,##0;$-#,##0
+>  6	$#,##0;[Red]$-#,##0
+>  7	$#,##0.00;$-#,##0.00
+>  8	$#,##0.00;[Red]$-#,##0.00
+>  9	0%
+>  10	0.00%
+>  11	0.00E+00
+>  12	# ?/?
+>  13	# /
+>  14	m/d/yy
+>  15	d-mmm-yy
+>  16	d-mmm
+>  17	mmm-yy
+>  18	h:mm AM/PM
+>  19	h:mm:ss AM/PM
+>  20	h:mm
+>  21	h:mm:ss
+>  22	m/d/yy h:mm
+>  37	#,##0;-#,##0
+>  38	#,##0;[Red]-#,##0
+>  39	#,##0.00;-#,##0.00
+>  40	#,##0.00;[Red]-#,##0.00
+>  41	_ * #,##0_ ;_ * "_ ;_ @_
+>  42	_ $* #,##0_ ;_ $* "_ ;_ @_
+>  43	_ * #,##0.00_ ;_ * "??_ ;_ @_
+>  44	_ $* #,##0.00_ ;_ $* "??_ ;_ @_
+>  45	mm:ss
+>  46	h :mm:ss
+>  47	mm:ss.0
+>  48	##0.0E+00
+>  49	@
+> ```
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | byte |  |
+### calculate(boolean updateValues) {#calculate-boolean-}
+```
+public abstract void calculate(boolean updateValues)
+```
+
+यदि सेल में सूत्र है, तो मान उस सूत्र के आधार पर अपडेट होगा।
+
+**पैरामीटर:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| updateValues | boolean | यदि false है, तो वास्तविक गणना नहीं की जाएगी। संभावित अपवादों की जाँच के लिए true उपयोग करें। |

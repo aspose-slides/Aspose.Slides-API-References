@@ -1,0 +1,165 @@
+---
+title: AlignShapes
+second_title: Aspose.Sildes için .NET API Referansı
+description: Slayttaki tüm şekillerin yerleşimini değiştirir. Şekilleri kenarlara veya slayt kenarına hizalar ya da birbirlerine göre hizalar.
+type: docs
+weight: 10
+url: /tr/aspose.slides.util/slideutil/alignshapes/
+---
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
+
+Slayttaki tüm şekillerin yerleşimini değiştirir. Şekilleri kenarlara ya da slayt kenarına hizalar ya da birbirlerine göre hizalar.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Uygulanacak hizalama tipini belirler. |
+| alignToSlide | Boolean | Doğruysa, şekiller slayt kenarlarına göre hizalanır. |
+| slide | IBaseSlide | Üst slayt. |
+
+### Örnekler
+
+Örnek:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, true, pres.Slides);
+}
+```
+
+### Ayrıca Bakınız
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
+* class [SlideUtil](../../slideutil)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
+
+Seçili şekillerin slayttaki yerleşimini değiştirir. Şekilleri kenarlara ya da slayt kenarına hizalar ya da birbirlerine göre hizalar.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide, int[] shapeIndexes)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Uygulanacak hizalama tipini belirler. |
+| alignToSlide | Boolean | Doğruysa, şekiller slayt kenarlarına göre hizalanır. |
+| slide | IBaseSlide | Üst slayt. |
+| shapeIndexes | Int32[] | Hizalanacak şekillerin indeksleri. |
+
+### Örnekler
+
+Örnek:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ISlide slide = pres.Slides[0];
+   IShape shape1 = slide.Shapes[0];
+   IShape shape2 = slide.Shapes[1]; 
+
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, false, pres.Slides[0], new int[]
+   {
+      slide.Shapes.IndexOf(shape1),
+      slide.Shapes.IndexOf(shape2)
+   });
+}
+```
+
+### Ayrıca Bakınız
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
+* class [SlideUtil](../../slideutil)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
+
+Grup şekli içindeki tüm şekillerin yerleşimini değiştirir. Şekilleri kenarlara ya da slayt kenarına hizalar ya da birbirlerine göre hizalar.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Uygulanacak hizalama tipini belirler. |
+| alignToSlide | Boolean | Doğruysa, şekiller slayt kenarlarına göre hizalanır. |
+| groupShape | IGroupShape | Üst grup şekli. |
+
+### Örnekler
+
+Örnek:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0]);
+}
+```
+
+### Ayrıca Bakınız
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* interface [IGroupShape](../../../aspose.slides/igroupshape)
+* class [SlideUtil](../../slideutil)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
+
+Grup şekli içindeki seçili şekillerin yerleşimini değiştirir. Şekilleri kenarlara ya da slayt kenarına hizalar ya da birbirlerine göre hizalar.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape, int[] shapeIndexes)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Uygulanacak hizalama tipini belirler. |
+| alignToSlide | Boolean | Doğruysa, şekiller slayt kenarlarına göre hizalanır. |
+| groupShape | IGroupShape | Üst grup şekli. |
+| shapeIndexes | Int32[] | Hizalanacak şekillerin indeksleri. |
+
+### Örnekler
+
+Örnek:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0], new int[] { 0, 2 });
+}
+```
+
+### Ayrıca Bakınız
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* interface [IGroupShape](../../../aspose.slides/igroupshape)
+* class [SlideUtil](../../slideutil)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

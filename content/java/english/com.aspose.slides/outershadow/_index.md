@@ -19,25 +19,25 @@ Represents an Outer Shadow effect.
 
 | Method | Description |
 | --- | --- |
-| [getBlurRadius()](#getBlurRadius--) | Blur radius. |
-| [setBlurRadius(double value)](#setBlurRadius-double-) | Blur radius. |
-| [getDirection()](#getDirection--) | Direction of shadow. |
-| [setDirection(float value)](#setDirection-float-) | Direction of shadow. |
-| [getDistance()](#getDistance--) | Distance of shadow. |
-| [setDistance(double value)](#setDistance-double-) | Distance of shadow. |
-| [getShadowColor()](#getShadowColor--) | Color of shadow. |
+| [getBlurRadius()](#getBlurRadius--) | Blur radius, in points. |
+| [setBlurRadius(double value)](#setBlurRadius-double-) | Blur radius, in points. |
+| [getDirection()](#getDirection--) | Direction of the shadow, in degrees. |
+| [setDirection(float value)](#setDirection-float-) | Direction of the shadow, in degrees. |
+| [getDistance()](#getDistance--) | Distance of the shadow from the object, in points. |
+| [setDistance(double value)](#setDistance-double-) | Distance of the shadow from the object, in points. |
+| [getShadowColor()](#getShadowColor--) | Color of the shadow. |
 | [getRectangleAlign()](#getRectangleAlign--) | Rectangle alignment. |
 | [setRectangleAlign(byte value)](#setRectangleAlign-byte-) | Rectangle alignment. |
-| [getSkewHorizontal()](#getSkewHorizontal--) | Specifies the horizontal skew angle (in degrees). |
-| [setSkewHorizontal(double value)](#setSkewHorizontal-double-) | Specifies the horizontal skew angle (in degrees). |
-| [getSkewVertical()](#getSkewVertical--) | Specifies the vertical skew angle (in degrees). |
-| [setSkewVertical(double value)](#setSkewVertical-double-) | Specifies the vertical skew angle (in degrees). |
-| [getRotateShadowWithShape()](#getRotateShadowWithShape--) | Specifies whether the shadow should rotate with the shape if the shape is rotated. |
-| [setRotateShadowWithShape(boolean value)](#setRotateShadowWithShape-boolean-) | Specifies whether the shadow should rotate with the shape if the shape is rotated. |
-| [getScaleHorizontal()](#getScaleHorizontal--) | Specifies the horizontal scaling factor, negative scaling causes a flip. |
-| [setScaleHorizontal(double value)](#setScaleHorizontal-double-) | Specifies the horizontal scaling factor, negative scaling causes a flip. |
-| [getScaleVertical()](#getScaleVertical--) | Specifies the vertical scaling factor, negative scaling causes a flip. |
-| [setScaleVertical(double value)](#setScaleVertical-double-) | Specifies the vertical scaling factor, negative scaling causes a flip. |
+| [getSkewHorizontal()](#getSkewHorizontal--) | Horizontal skew angle, in degrees. |
+| [setSkewHorizontal(double value)](#setSkewHorizontal-double-) | Horizontal skew angle, in degrees. |
+| [getSkewVertical()](#getSkewVertical--) | Vertical skew angle, in degrees. |
+| [setSkewVertical(double value)](#setSkewVertical-double-) | Vertical skew angle, in degrees. |
+| [getRotateShadowWithShape()](#getRotateShadowWithShape--) | Indicates whether the shadow rotates together with the shape. |
+| [setRotateShadowWithShape(boolean value)](#setRotateShadowWithShape-boolean-) | Indicates whether the shadow rotates together with the shape. |
+| [getScaleHorizontal()](#getScaleHorizontal--) | Horizontal scaling factor, in percent of the original size. |
+| [setScaleHorizontal(double value)](#setScaleHorizontal-double-) | Horizontal scaling factor, in percent of the original size. |
+| [getScaleVertical()](#getScaleVertical--) | Vertical scaling factor, in percent of the original size. |
+| [setScaleVertical(double value)](#setScaleVertical-double-) | Vertical scaling factor, in percent of the original size. |
 | [getEffective()](#getEffective--) | Gets effective Outer Shadow effect data with the inheritance applied. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getVersion()](#getVersion--) |  |
@@ -50,7 +50,7 @@ public final double getBlurRadius()
 ```
 
 
-Blur radius. Read/write  double .
+Blur radius, in points. Default value - 0 pt. Read/write double.
 
 **Returns:**
 double
@@ -60,7 +60,7 @@ public final void setBlurRadius(double value)
 ```
 
 
-Blur radius. Read/write  double .
+Blur radius, in points. Default value - 0 pt. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -73,7 +73,7 @@ public final float getDirection()
 ```
 
 
-Direction of shadow. Read/write  float .
+Direction of the shadow, in degrees. Default value - 0 ° (left-to-right). Read/write float.
 
 **Returns:**
 float
@@ -83,7 +83,7 @@ public final void setDirection(float value)
 ```
 
 
-Direction of shadow. Read/write  float .
+Direction of the shadow, in degrees. Default value - 0 ° (left-to-right). Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ public final double getDistance()
 ```
 
 
-Distance of shadow. Read/write  double .
+Distance of the shadow from the object, in points. Default value - 0 pt. Read/write double.
 
 **Returns:**
 double
@@ -106,7 +106,7 @@ public final void setDistance(double value)
 ```
 
 
-Distance of shadow. Read/write  double .
+Distance of the shadow from the object, in points. Default value - 0 pt. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -119,7 +119,7 @@ public final IColorFormat getShadowColor()
 ```
 
 
-Color of shadow. Read-only [IColorFormat](../../com.aspose.slides/icolorformat).
+Color of the shadow. Default value - automatic black (theme-dependent). Read-only [IColorFormat](../../com.aspose.slides/icolorformat).
 
 **Returns:**
 [IColorFormat](../../com.aspose.slides/icolorformat)
@@ -129,7 +129,7 @@ public final byte getRectangleAlign()
 ```
 
 
-Rectangle alignment. Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
+Rectangle alignment. Default value - [RectangleAlignment.Bottom](../../com.aspose.slides/rectanglealignment\#Bottom). Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
 
 **Returns:**
 byte
@@ -139,7 +139,7 @@ public final void setRectangleAlign(byte value)
 ```
 
 
-Rectangle alignment. Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
+Rectangle alignment. Default value - [RectangleAlignment.Bottom](../../com.aspose.slides/rectanglealignment\#Bottom). Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -152,7 +152,7 @@ public final double getSkewHorizontal()
 ```
 
 
-Specifies the horizontal skew angle (in degrees). Read/write  double .
+Horizontal skew angle, in degrees. Default value - 0 °. Read/write double.
 
 **Returns:**
 double
@@ -162,7 +162,7 @@ public final void setSkewHorizontal(double value)
 ```
 
 
-Specifies the horizontal skew angle (in degrees). Read/write  double .
+Horizontal skew angle, in degrees. Default value - 0 °. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -175,7 +175,7 @@ public final double getSkewVertical()
 ```
 
 
-Specifies the vertical skew angle (in degrees). Read/write  double .
+Vertical skew angle, in degrees. Default value - 0 °. Read/write double.
 
 **Returns:**
 double
@@ -185,7 +185,7 @@ public final void setSkewVertical(double value)
 ```
 
 
-Specifies the vertical skew angle (in degrees). Read/write  double .
+Vertical skew angle, in degrees. Default value - 0 °. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -198,7 +198,7 @@ public final boolean getRotateShadowWithShape()
 ```
 
 
-Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write  boolean .
+Indicates whether the shadow rotates together with the shape. Default value - true. Read/write boolean.
 
 **Returns:**
 boolean
@@ -208,7 +208,7 @@ public final void setRotateShadowWithShape(boolean value)
 ```
 
 
-Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write  boolean .
+Indicates whether the shadow rotates together with the shape. Default value - true. Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -221,7 +221,7 @@ public final double getScaleHorizontal()
 ```
 
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write  double .
+Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double.
 
 **Returns:**
 double
@@ -231,7 +231,7 @@ public final void setScaleHorizontal(double value)
 ```
 
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write  double .
+Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +244,7 @@ public final double getScaleVertical()
 ```
 
 
-Specifies the vertical scaling factor, negative scaling causes a flip. Read/write  double .
+Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double.
 
 **Returns:**
 double
@@ -254,7 +254,7 @@ public final void setScaleVertical(double value)
 ```
 
 
-Specifies the vertical scaling factor, negative scaling causes a flip. Read/write  double .
+Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double.
 
 **Parameters:**
 | Parameter | Type | Description |

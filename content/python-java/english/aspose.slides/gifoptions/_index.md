@@ -17,7 +17,7 @@ url: /aspose.slides/gifoptions/
 | --- | --- |
 | GifOptions() | Initializes a new instance of the GifOptions class. |
 
- **Result:**
+ **Returns:**
 GifOptions
 
 
@@ -28,23 +28,10 @@ GifOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultDelay() | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| getDefaultDelay() | Gets or sets default delay time [ms]. This value will be used if ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long) is not set. The default value is 1000. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getDefaultRegularFont {#getDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| getDefaultRegularFont() | Returns or sets font used in case source font is not found. Read-write String. |
-
- **Result:**
-String
 
 
 ---
@@ -56,7 +43,7 @@ String
 | --- | --- |
 | getExportHiddenSlides() | Determines whether hidden slides will be exported. The default value is false. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -67,23 +54,10 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getFrameSize() | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| getFrameSize() | Gets or sets frame size. If the size is empty then the value will be taken from IPresentation#getSlideSize |
 
- **Result:**
+ **Returns:**
 Dimension
-
-
----
-
-
-### getProgressCallback {#getProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| getProgressCallback() | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
-
- **Result:**
-IProgressCallback
 
 
 ---
@@ -95,21 +69,8 @@ IProgressCallback
 | --- | --- |
 | getTransitionFps() | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getWarningCallback {#getWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| getWarningCallback() | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
-
- **Result:**
-IWarningCallback
 
 
 ---
@@ -119,17 +80,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setDefaultDelay(int) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
-
-
----
-
-
-### setDefaultRegularFont {#setDefaultRegularFont}
-
-| Name | Description |
-| --- | --- |
-| setDefaultRegularFont(String) | Returns or sets font used in case source font is not found. Read-write String. |
+| setDefaultDelay(int) | Gets or sets default delay time [ms]. This value will be used if ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long) is not set. The default value is 1000. |
 
 
 ---
@@ -149,17 +100,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setFrameSize(Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
-
-
----
-
-
-### setProgressCallback {#setProgressCallback}
-
-| Name | Description |
-| --- | --- |
-| setProgressCallback([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+| setFrameSize(Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from IPresentation#getSlideSize |
 
 
 ---
@@ -170,16 +111,6 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setTransitionFps(int) | Gets or sets transition FPS [frames/sec] The default value is 25. |
-
-
----
-
-
-### setWarningCallback {#setWarningCallback}
-
-| Name | Description |
-| --- | --- |
-| setWarningCallback([IWarningCallback](../iwarningcallback)) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write IWarningCallback. |
 
 
 ---

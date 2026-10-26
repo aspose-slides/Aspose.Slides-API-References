@@ -1,0 +1,21 @@
+---
+title: unique_id property
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
+description: 
+type: docs
+url: /es/aspose.slides/isummaryzoomframe/unique_id/
+weight: 410
+---
+## unique_id propiedad
+### Definición:
+```python
+@property
+def unique_id(self):
+    ...
+```
+
+
+### Ver también
+* clase [`ISummaryZoomFrame`](/slides/python-net/es/aspose.slides/isummaryzoomframe)
+* módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

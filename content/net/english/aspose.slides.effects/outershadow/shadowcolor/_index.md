@@ -1,7 +1,7 @@
 ---
 title: ShadowColor
 second_title: Aspose.Sildes for .NET API Reference
-description: Color of shadow. Read-only IColorFormataspose.slides/icolorformat.
+description: Color of the shadow. Default value  automatic black theme-dependent. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
 url: /aspose.slides.effects/outershadow/shadowcolor/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/shadowcolor/
 
 ## OuterShadow.ShadowColor property
 
-Color of shadow. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).
+Color of the shadow. Default value – automatic black (theme-dependent). Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ShadowColor { get; }

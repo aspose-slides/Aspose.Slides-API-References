@@ -1,0 +1,21 @@
+---
+title: ptr
+second_title: Aspose.Slides for C++ API 참조
+description: 이 클래스의 인스턴스에 대한 공유 포인터 별칭입니다.
+type: docs
+weight: 1
+url: /ko/system.drawing.printing/querypagesettingseventargs/ptr/
+---
+## ptr 타입 정의
+
+이 클래스의 인스턴스에 대한 공유 포인터 별칭입니다.
+
+```cpp
+typedef SharedPtr<QueryPageSettingsEventArgs> System::Drawing::Printing::QueryPageSettingsEventArgs::ptr
+```
+
+## 참고
+
+* 클래스 [QueryPageSettingsEventArgs](../)
+* 네임스페이스 [System::Drawing::Printing](../../)
+* 라이브러리 [Aspose.Slides](../../../)

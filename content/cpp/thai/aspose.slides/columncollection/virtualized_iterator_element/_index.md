@@ -1,0 +1,21 @@
+---
+title: virtualized_iterator_element
+second_title: Aspose.Slides สำหรับ C++ อ้างอิง API
+description: ประเภทขององค์ประกอบที่ virtualized.
+type: docs
+weight: 274
+url: /th/aspose.slides/columncollection/virtualized_iterator_element/
+---
+## virtualized_iterator_element typedef
+
+ประเภทขององค์ประกอบที่ virtualized.
+
+```cpp
+using Aspose::Slides::ColumnCollection::virtualized_iterator_element =  typename iterator_holder_type::virtualized_iterator_element
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [ColumnCollection](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

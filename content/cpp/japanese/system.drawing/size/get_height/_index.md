@@ -1,0 +1,21 @@
+---
+title: get_Height()
+second_title: Aspose.Slides for C++ API リファレンス
+description: 現在のオブジェクトが表す高さの値を返します。
+type: docs
+weight: 40
+url: /ja/system.drawing/size/get_height/
+---
+## Size::get_Height() const メソッド
+
+現在のオブジェクトが表す高さの値を返します。
+
+```cpp
+int System::Drawing::Size::get_Height() const
+```
+
+## 参照
+
+* クラス [Size](../)
+* 名前空間 [System::Drawing](../../)
+* ライブラリ [Aspose.Slides](../../../)

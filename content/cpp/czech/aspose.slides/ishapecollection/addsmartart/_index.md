@@ -1,0 +1,50 @@
+---
+title: AddSmartArt()
+second_title: Aspose.Slides pro C++ – referenční dokumentace API
+description: Vytvoří diagram SmartArt a přidá jej na konec kolekce tvarů.
+type: docs
+weight: 40
+url: /cs/aspose.slides/ishapecollection/addsmartart/
+---
+## IShapeCollection::AddSmartArt(float, float, float, float, SmartArt::SmartArtLayoutType) metoda
+
+
+Vytvoří diagram [SmartArt](../../../aspose.slides.smartart/) a přidá jej na konec kolekce tvarů.
+
+```cpp
+virtual System::SharedPtr<SmartArt::ISmartArt> Aspose::Slides::IShapeCollection::AddSmartArt(float x, float y, float width, float height, SmartArt::SmartArtLayoutType layoutType)=0
+```
+
+
+### Argumenty
+
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| x | **float** | X-souřadnice rámce diagramu, v bodech. |
+| y | **float** | Y-souřadnice rámce diagramu, v bodech. |
+| width | **float** | Šířka rámce diagramu, v bodech. |
+| height | **float** | Výška rámce diagramu, v bodech. |
+| layoutType | [SmartArt::SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/) | Typ rozložení [SmartArt](../../../aspose.slides.smartart/). |
+
+### Návratová hodnota
+
+Nově vytvořený [SmartArt::ISmartArt](../../../aspose.slides.smartart/ismartart/).
+## Poznámky
+
+
+
+```cpp
+auto pres = System::MakeObject<Presentation>();
+auto slide = pres->get_Slide(0);
+auto smart = slide->get_Shapes()->AddSmartArt(0.0f, 0.0f, 400.0f, 400.0f, SmartArtLayoutType::BasicBlockList);
+```
+
+
+## Viz také
+
+* Enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [ISmartArt](../../../aspose.slides.smartart/ismartart/)
+* Class [IShapeCollection](../)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

@@ -17,7 +17,7 @@ url: /aspose.slides/morphtransition/
 | --- | --- |
 | getMorphType () | Type of morph transition. Read/write TransitionMorphType. |
 
- **Result:**
+ **Returns:**
 int
 
 

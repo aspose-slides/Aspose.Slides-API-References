@@ -1,52 +1,51 @@
----  
+---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API Reference  
-description: Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image efficaces.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image effectifs.
 type: docs
-weight: 3440  
+weight: 3560
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/
----  
+---
+## ImageTransformOCollectionEffectiveData classe
 
-## Classe ImageTransformOCollectionEffectiveData  
+Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image effectifs.
 
-Objet immuable qui représente une collection en lecture seule d'effets de transformation d'image efficaces.  
+```csharp
+public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
+```
 
-```csharp  
-public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData  
-```  
+## Constructeurs
 
-## Constructeurs  
+| Nom | Description |
+| --- | --- |
+| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Le constructeur par défaut. |
 
-| Nom | Description |  
-| --- | --- |  
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Le constructeur par défaut. |  
+## Propriétés
 
-## Propriétés  
+| Nom | Description |
+| --- | --- |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Renvoie le nombre d'effets d'image dans une collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Renvoie l'élément par index. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
-| Nom | Description |  
-| --- | --- |  
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Renvoie le nombre d'effets d'image dans une collection. Lecture seule Int32. |  
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé par les threads). Lecture seule Boolean. |  
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Renvoie l'élément par index. |  
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |  
+## Méthodes
 
-## Méthodes  
+| Nom | Description |
+| --- | --- |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Détermine si l'objet spécifié est égal à l'objet actuel. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Servir de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données telles qu'une table de hachage. |
 
-| Nom | Description |  
-| --- | --- |  
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |  
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Détermine si l'objet spécifié est égal à l'objet actuel. |  
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Renvoie un énumérateur qui permet d'itérer à travers la collection. |  
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |  
+### Remarques
 
-### Remarques  
+Le nom IImageTransformOperationCollectionEffectiveData a été tronqué en IImageTransformOCollectionEffectiveData parce que la longueur des noms COM ne peut pas dépasser 39.
 
-Le nom IImageTransformOperationCollectionEffectiveData a été tronqué en IImageTransformOCollectionEffectiveData en raison de la longueur des noms COM qui ne peut pas dépasser 39.  
+### Voir aussi
 
-### Voir aussi  
-
-* interface [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)  
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)  
-* assembly [Aspose.Slides](../../)  
+* interface [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
+* espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

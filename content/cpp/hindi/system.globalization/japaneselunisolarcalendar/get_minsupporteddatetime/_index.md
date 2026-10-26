@@ -1,0 +1,22 @@
+---
+title: get_MinSupportedDateTime()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: कैलेंडर द्वारा समर्थित न्यूनतम समय बिंदु।
+type: docs
+weight: 14
+url: /hi/system.globalization/japaneselunisolarcalendar/get_minsupporteddatetime/
+---
+## JapaneseLunisolarCalendar::get_MinSupportedDateTime() const विधि
+
+कैलेंडर द्वारा समर्थित न्यूनतम समय बिंदु।
+
+```cpp
+DateTime System::Globalization::JapaneseLunisolarCalendar::get_MinSupportedDateTime() const override
+```
+
+## अन्य देखें
+
+* क्लास [DateTime](../../../system/datetime/)
+* क्लास [JapaneseLunisolarCalendar](../)
+* नेमस्पेस [System::Globalization](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

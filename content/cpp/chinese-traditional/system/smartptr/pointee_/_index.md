@@ -1,0 +1,22 @@
+---
+title: Pointee_
+second_title: Aspose.Slides for C++ API 參考文件
+description: 指向的類型。
+type: docs
+weight: 469
+url: /zh-hant/system/smartptr/pointee_/
+---
+## Pointee_ typedef
+
+
+指向的類型。
+
+```cpp
+typedef T System::SmartPtr< T >::Pointee_
+```
+
+## 另請參閱
+
+* 類別 [SmartPtr](../)
+* 命名空間 [System](../../)
+* 函式庫 [Aspose.Slides](../../../)

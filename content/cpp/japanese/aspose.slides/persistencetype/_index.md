@@ -1,0 +1,30 @@
+---
+title: PersistenceType
+second_title: Aspose.Slides の C++ API リファレンス
+description: ActiveX コントロールのプロパティを保存するために使用される方法を指定します。
+type: docs
+weight: 6189
+url: /ja/aspose.slides/persistencetype/
+---
+## PersistenceType 列挙型
+
+ActiveX コントロールのプロパティを保存するために使用される方法を指定します。
+
+```cpp
+enum class PersistenceType
+```
+
+### 値
+
+| 名前 | 値 | 説明 |
+| --- | --- | --- |
+| NotDefined | -1 | 永続性 ID が指定されていません。 |
+| PersistPropertyBag | 0 | ActiveX コントロールがプロパティ バッグベースの永続化を使用して永続化されることを指定します。プロパティ バッグベースの永続化は、名前と値のペアのコレクションによって ActiveX コントロールが永続化するデータを指定します。 |
+| PersistStream | 1 | ActiveX コントロールがストリームベースの永続化を使用して永続化されることを指定します。この永続化は、ActiveX コントロールをデフォルト状態に初期化することをサポートしません。 |
+| PersistStreamInit | 2 | ActiveX コントロールがストリームベースの永続化を使用して永続化されることを指定します。この永続化は、ActiveX コントロールをデフォルト状態に初期化することをサポートします。 |
+| PersistStorage | 3 | ActiveX コントロールがストレージベースの永続化を使用して永続化されることを指定します。 |
+
+## 参照
+
+* 名前空間 [Aspose::Slides](../)
+* ライブラリ [Aspose.Slides](../../)

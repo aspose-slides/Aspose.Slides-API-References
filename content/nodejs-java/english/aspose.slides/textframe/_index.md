@@ -17,7 +17,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getHyperlinkQueries () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
- **Result:**
+ **Returns:**
 [HyperlinkQueries](../hyperlinkqueries)
 
 
@@ -30,8 +30,34 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getParagraphs () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
 
- **Result:**
+ **Returns:**
 [ParagraphCollection](../paragraphcollection)
+
+
+---
+
+
+### getParentCell {#getParentCell}
+
+| Name | Description |
+| --- | --- |
+| getParentCell () | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only ICell. |
+
+ **Returns:**
+[Cell](../cell)
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
+
+ **Returns:**
+[AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [GroupShape](../groupshape), [Connector](../connector), [GraphicalObject](../graphicalobject), [Ink](../ink), [InkActions](../inkactions), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [Table](../table), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject), [AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe)
 
 
 ---
@@ -43,7 +69,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -56,8 +82,8 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
- **Result:**
-[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
+ **Returns:**
+[LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [Slide](../slide)
 
 
 ---
@@ -69,7 +95,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getText () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -82,7 +108,7 @@ String
 | --- | --- |
 | getTextFrameFormat () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
 
- **Result:**
+ **Returns:**
 [TextFrameFormat](../textframeformat)
 
 
@@ -93,14 +119,67 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightRegex (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
+| highlightRegex (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlights all matches of the regular expression with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | regex | String | Text of regular expression to get text to highlight. |
-| highlightColor | Color | Highlighting color. |
+| highlightColor | Color | The color to highlight the text. |
+| options | [TextHighlightingOptions](../texthighlightingoptions) | Highlighting options. |
+
+
+---
+
+
+### highlightRegex {#highlightRegex}
+
+| Name | Description |
+| --- | --- |
+| highlightRegex (Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the regular expression with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
+
+
+---
+
+
+### highlightText {#highlightText}
+
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color) | Highlights all matches of the sample text with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+
+
+---
+
+
+### highlightText {#highlightText}
+
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlights all matches of the sample text with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
 | options | [TextHighlightingOptions](../texthighlightingoptions) | Highlighting options. |
 
 
@@ -111,32 +190,16 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightText (String, Color) | Highlight all matches of sample in text frame text using specified color. |
+| highlightText (String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
-
-
----
-
-
-### highlightText {#highlightText}
-
-| Name | Description |
-| --- | --- |
-| highlightText (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
-| options | [TextHighlightingOptions](../texthighlightingoptions) | Highlighting options. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
 
 ---
@@ -152,11 +215,61 @@ String
 ---
 
 
+### replaceRegex {#replaceRegex}
+
+| Name | Description |
+| --- | --- |
+| replaceRegex (Pattern, String, [IFindResultCallback](../ifindresultcallback)) | Replaces all matches of regular expression with specified string. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
+| newText | String | The string to replace all occurrences of strings to be replaced. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+
+
+---
+
+
+### replaceText {#replaceText}
+
+| Name | Description |
+| --- | --- |
+| replaceText (String, String, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Replaces all occurrences of the specified text with another specified text. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| oldText | String | The string to be replaced. |
+| newText | String | The string to replace all occurrences of oldText. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+
+
+---
+
+
 ### setText {#setText}
 
 | Name | Description |
 | --- | --- |
 | setText (String) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+
+
+---
+
+
+### splitTextByColumns {#splitTextByColumns}
+
+| Name | Description |
+| --- | --- |
+| splitTextByColumns () | Splits the text content of the ITextFrame into an array of strings, where each element corresponds to a separate text column within the frame. |
+
+ **Returns:**
+String
 
 
 ---

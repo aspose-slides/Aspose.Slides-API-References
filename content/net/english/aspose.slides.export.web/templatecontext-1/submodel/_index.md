@@ -1,7 +1,7 @@
 ---
 title: SubModel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a child template context.
 type: docs
 weight: 50
 url: /aspose.slides.export.web/templatecontext-1/submodel/
@@ -9,9 +9,19 @@ url: /aspose.slides.export.web/templatecontext-1/submodel/
 
 ## TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt; method
 
+Creates a child template context.
+
 ```csharp
 public TemplateContext<TSubModel> SubModel<TSubModel>(TSubModel subModel)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subModel | TSubModel | Child model object. |
+
+### Return Value
+
+New template context with given model and parent's output collection and global storage.
 
 ### See Also
 

@@ -1,0 +1,25 @@
+---
+title: brush property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides.ink/inktrace/brush/
+weight: 10
+---
+## brush eigenschap
+Haalt Brush op voor de IInkLine [`IInkBrush`](/slides/python-net/nl/aspose.slides.ink/iinkbrush)
+            Alleen-lezen.
+
+### Definitie:
+```python
+@property
+def brush(self):
+    ...
+```
+
+
+### Zie ook
+* klasse [`IInkBrush`](/slides/python-net/nl/aspose.slides.ink/iinkbrush)
+* klasse [`InkTrace`](/slides/python-net/nl/aspose.slides.ink/inktrace)
+* module [`aspose.slides.ink`](/slides/python-net/nl/aspose.slides.ink)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

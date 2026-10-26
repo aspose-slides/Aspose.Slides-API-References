@@ -1,0 +1,22 @@
+---
+title: get_AspectRatioLocked()
+second_title: Aspose.Slides for C++ API संदर्भ
+description: निर्धारित करता है कि आकार को पुनःआकार पर अनुपात बनाए रखना चाहिए या नहीं। पढ़ें bool.
+type: docs
+weight: 105
+url: /hi/aspose.slides/igroupshapelock/get_aspectratiolocked/
+---
+## IGroupShapeLock::get_AspectRatioLocked() विधि
+
+
+निर्धारित करता है कि आकार को पुनःआकार पर अनुपात बनाए रखना चाहिए या नहीं। पढ़ें **bool**.
+
+```cpp
+virtual bool Aspose::Slides::IGroupShapeLock::get_AspectRatioLocked()=0
+```
+
+## देखें
+
+* क्लास [IGroupShapeLock](../)
+* नामस्थान [Aspose::Slides](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

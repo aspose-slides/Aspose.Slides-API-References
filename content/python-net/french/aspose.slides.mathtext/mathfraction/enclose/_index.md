@@ -1,0 +1,51 @@
+---
+title: enclose method
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.mathtext/mathfraction/enclose/
+weight: 50
+---
+## enclose(self) {#}
+Enveloppe un élément mathématique entre parenthèses
+
+### Renvoie
+
+L'élément mathématique de type [`IMathDelimiter`](/slides/python-net/fr/aspose.slides.mathtext/imathdelimiter) qui inclut les parenthèses
+
+
+
+```python
+def enclose(self):
+    ...
+```
+
+
+
+## enclose(self, beginning_character, ending_character) {#char-char}
+Enveloppe un élément mathématique dans les caractères spécifiés, tels que des parenthèses ou d'autres caractères en encadrement
+
+### Renvoie
+
+L'élément mathématique de type [`IMathDelimiter`](/slides/python-net/fr/aspose.slides.mathtext/imathdelimiter) qui inclut les caractères spécifiés en tant que cadre
+
+
+
+```python
+def enclose(self, beginning_character, ending_character):
+    ...
+```
+
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| beginning_character | **char** | Caractère de début (généralement la parenthèse ouvrante) |
+| ending_character | **char** | Caractère de fin (généralement la parenthèse fermante) |
+
+
+
+### Voir aussi
+* classe [`IMathDelimiter`](/slides/python-net/fr/aspose.slides.mathtext/imathdelimiter)
+* classe [`MathFraction`](/slides/python-net/fr/aspose.slides.mathtext/mathfraction)
+* module [`aspose.slides.mathtext`](/slides/python-net/fr/aspose.slides.mathtext)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

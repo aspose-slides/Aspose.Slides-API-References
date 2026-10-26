@@ -1,0 +1,21 @@
+---
+title: get_Height()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Renvoie la hauteur de l'image en pixels.
+type: docs
+weight: 27
+url: /fr/system.drawing.imaging/bitmapdata/get_height/
+---
+## BitmapData::get_Height() const méthode
+
+Renvoie la hauteur de l'image en pixels.
+
+```cpp
+int System::Drawing::Imaging::BitmapData::get_Height() const
+```
+
+## Voir aussi
+
+* Classe [BitmapData](../)
+* Espace de noms [System::Drawing::Imaging](../../)
+* Bibliothèque [Aspose.Slides](../../../)

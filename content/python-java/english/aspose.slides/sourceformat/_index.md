@@ -16,345 +16,86 @@ url: /aspose.slides/sourceformat/
 
 | Name | Value | Description |
 | --- | --- | --- |
-[Ppt](#Ppt) | 0 | PPT format. |
-[Pptx](#Pptx) | 1 | Pptx format. |
-[Odp](#Odp) | 2 | Odp format. |
+[Ppt](#Ppt) | 0 | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
+[Pptx](#Pptx) | 1 | Microsoft Office Open XML Presentation (*.pptx). |
+[Odp](#Odp) | 2 | OpenDocument Presentation (*.odp). |
+[Pptm](#Pptm) | 3 | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
+[Ppsx](#Ppsx) | 4 | Microsoft Office Open XML SlideShow (*.ppsx). |
+[Ppsm](#Ppsm) | 5 | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
+[Potx](#Potx) | 6 | Microsoft Office Open XML Template (*.potx). |
+[Potm](#Potm) | 7 | Microsoft Office Open XML Macro-enabled Template (*.potm). |
+[Pps](#Pps) | 8 | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
+[Pot](#Pot) | 9 | Microsoft PowerPoint 97-2003 Template (*.pot). |
+[Otp](#Otp) | 10 | OpenDocument Presentation Template (*.otp). |
+[Fodp](#Fodp) | 11 | Flat XML ODF Presentation (*.fodp). |
+[Xml](#Xml) | 12 | PowerPoint XML Presentation (*.xml). |
 
 
 ---
 
 
 ### Ppt {#Ppt}
-PPT format.
+Microsoft PowerPoint 97-2003 Presentation (*.ppt).
 
 ---
 
 ### Pptx {#Pptx}
-Pptx format.
+Microsoft Office Open XML Presentation (*.pptx).
 
 ---
 
 ### Odp {#Odp}
-Odp format.
+OpenDocument Presentation (*.odp).
 
 ---
 
-
-### Clone {#Clone}
-
-| Name | Description |
-| --- | --- |
-| Clone() |  |
-
- **Result:**
-T
-
+### Pptm {#Pptm}
+Microsoft Office Open XML Macro-enabled Presentation (*.pptm).
 
 ---
 
-
-### CloneTo {#CloneTo}
-
-| Name | Description |
-| --- | --- |
-| CloneTo(T) |  |
-
+### Ppsx {#Ppsx}
+Microsoft Office Open XML SlideShow (*.ppsx).
 
 ---
 
-
-### format {#format}
-
-| Name | Description |
-| --- | --- |
-| format(java.lang.Class<?>, long, String) |  |
-
- **Result:**
-String
-
+### Ppsm {#Ppsm}
+Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm).
 
 ---
 
-
-### format {#format}
-
-| Name | Description |
-| --- | --- |
-| format(Type, Object, String) |  |
-
- **Result:**
-String
-
+### Potx {#Potx}
+Microsoft Office Open XML Template (*.potx).
 
 ---
 
-
-### getName {#getName}
-
-| Name | Description |
-| --- | --- |
-| getName(java.lang.Class<?>, long) |  |
-
- **Result:**
-String
-
+### Potm {#Potm}
+Microsoft Office Open XML Macro-enabled Template (*.potm).
 
 ---
 
-
-### getName {#getName}
-
-| Name | Description |
-| --- | --- |
-| getName(Type, Object) |  |
-
- **Result:**
-String
-
+### Pps {#Pps}
+Microsoft PowerPoint 97-2003 SlideShow (*.pps).
 
 ---
 
-
-### getNames {#getNames}
-
-| Name | Description |
-| --- | --- |
-| getNames(java.lang.Class<?>) |  |
-
- **Result:**
-List, ArrayList
-
+### Pot {#Pot}
+Microsoft PowerPoint 97-2003 Template (*.pot).
 
 ---
 
-
-### getNames {#getNames}
-
-| Name | Description |
-| --- | --- |
-| getNames(Type) |  |
-
- **Result:**
-String
-
+### Otp {#Otp}
+OpenDocument Presentation Template (*.otp).
 
 ---
 
-
-### getUnderlyingType {#getUnderlyingType}
-
-| Name | Description |
-| --- | --- |
-| getUnderlyingType(java.lang.Class<?>) |  |
-
- **Result:**
-Class
-
+### Fodp {#Fodp}
+Flat XML ODF Presentation (*.fodp).
 
 ---
 
-
-### getUnderlyingType {#getUnderlyingType}
-
-| Name | Description |
-| --- | --- |
-| getUnderlyingType(Type) |  |
-
- **Result:**
-Type
-
-
----
-
-
-### getValue {#getValue}
-
-| Name | Description |
-| --- | --- |
-| getValue(java.lang.Class<?>, String) |  |
-
- **Result:**
-long
-
-
----
-
-
-### getValues {#getValues}
-
-| Name | Description |
-| --- | --- |
-| getValues(Type) |  |
-
- **Result:**
-Array
-
-
----
-
-
-### get_Caption {#get_Caption}
-
-| Name | Description |
-| --- | --- |
-| get_Caption() |  |
-
- **Result:**
-String
-
-
----
-
-
-### get_Value {#get_Value}
-
-| Name | Description |
-| --- | --- |
-| get_Value() |  |
-
- **Result:**
-long
-
-
----
-
-
-### isDefined {#isDefined}
-
-| Name | Description |
-| --- | --- |
-| isDefined(java.lang.Class<?>, long) |  |
-
- **Result:**
-boolean
-
-
----
-
-
-### isDefined {#isDefined}
-
-| Name | Description |
-| --- | --- |
-| isDefined(Type, long) |  |
-
- **Result:**
-boolean
-
-
----
-
-
-### isDefined {#isDefined}
-
-| Name | Description |
-| --- | --- |
-| isDefined(Type, String) |  |
-
- **Result:**
-boolean
-
-
----
-
-
-### isDefined {#isDefined}
-
-| Name | Description |
-| --- | --- |
-| isDefined(Type, Object) |  |
-
- **Result:**
-boolean
-
-
----
-
-
-### parse {#parse}
-
-| Name | Description |
-| --- | --- |
-| parse(java.lang.Class<?>, String) |  |
-
- **Result:**
-long
-
-
----
-
-
-### parse {#parse}
-
-| Name | Description |
-| --- | --- |
-| parse(java.lang.Class<?>, String, Boolean) |  |
-
- **Result:**
-long
-
-
----
-
-
-### parse {#parse}
-
-| Name | Description |
-| --- | --- |
-| parse(Type, String) |  |
-
- **Result:**
-long
-
-
----
-
-
-### parse {#parse}
-
-| Name | Description |
-| --- | --- |
-| parse(Type, String, Boolean) |  |
-
- **Result:**
-long
-
-
----
-
-
-### register {#register}
-
-| Name | Description |
-| --- | --- |
-| register(Enum.AbstractEnum) |  |
-
-
----
-
-
-### toObject {#toObject}
-
-| Name | Description |
-| --- | --- |
-| toObject(Type, Object) |  |
-
- **Result:**
-Object
-
-
----
-
-
-### toString {#toString}
-
-| Name | Description |
-| --- | --- |
-| toString(java.lang.Class<?>, long) |  |
-
- **Result:**
-String
-
+### Xml {#Xml}
+PowerPoint XML Presentation (*.xml).
 
 ---
 

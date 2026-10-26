@@ -1,0 +1,50 @@
+---
+title: ReplaceRegex()
+second_title: Aspose.Slides for C++ API 참조
+description: 정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
+type: docs
+weight: 183
+url: /ko/aspose.slides/textframe/replaceregex/
+---
+## TextFrame::ReplaceRegex(System::SharedPtr\<System::Text::RegularExpressions::Regex\>, System::String, System::SharedPtr\<IFindResultCallback\>) method
+
+
+정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
+
+```cpp
+void Aspose::Slides::TextFrame::ReplaceRegex(System::SharedPtr<System::Text::RegularExpressions::Regex> regex, System::String newText, System::SharedPtr<IFindResultCallback> callback) override
+```
+
+
+### 인수
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| regex | [System::SharedPtr](../../../system/sharedptr/)\<[System::Text::RegularExpressions::Regex](../../../system.text.regularexpressions/regex/)\> | 교체될 문자열을 가져오기 위한 정규식 [System::Text::RegularExpressions::Regex](../../../system.text.regularexpressions/regex/). |
+| newText | [System::String](../../../system/string/) | 교체될 문자열들의 모든 발생을 교체할 문자열. |
+| callback | [System::SharedPtr](../../../system/sharedptr/)\<[IFindResultCallback](../../ifindresultcallback/)\> | 교체 작업 결과 [IFindResultCallback](../../ifindresultcallback/)를 저장하기 위한 콜백 객체. |
+## 비고
+
+
+
+다음 샘플 코드는 정규식을 사용하여 지정된 문자열로 텍스트를 교체하는 방법을 보여줍니다. 
+```cpp
+auto presentation = System::MakeObject<Presentation>(u"SomePresentation.pptx");
+auto shape = System::ExplicitCast<AutoShape>(presentation->get_Slide(0)->get_Shape(0));
+
+auto regex = System::MakeObject<System::Text::RegularExpressions::Regex>(u"\\b[^\\s]{10,}\\b");
+
+// Replace all words with 10 or more characters with '<em><strong>'
+shape->get_TextFrame()->ReplaceRegex(regex, u"</strong></em>", nullptr);
+presentation->Save(u"SomePresentation-out.pptx", SaveFormat::Pptx);
+```
+
+## 참조
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Regex](../../../system.text.regularexpressions/regex/)
+* Class [String](../../../system/string/)
+* Class [IFindResultCallback](../../ifindresultcallback/)
+* Class [TextFrame](../)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

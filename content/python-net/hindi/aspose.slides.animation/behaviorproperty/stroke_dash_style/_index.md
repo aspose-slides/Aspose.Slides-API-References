@@ -1,0 +1,22 @@
+---
+title: stroke_dash_style property
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.animation/behaviorproperty/stroke_dash_style/
+weight: 920
+---
+## stroke_dash_style प्रॉपर्टी
+‘stroke.dashstyle’ प्रॉपर्टी का प्रतिनिधित्व करता है
+
+### परिभाषा:
+```python
+@property
+def stroke_dash_style(self):
+    ...
+```
+
+### संबंधित देखें
+* क्लास [`BehaviorProperty`](/slides/python-net/hi/aspose.slides.animation/behaviorproperty)
+* मॉड्यूल [`aspose.slides.animation`](/slides/python-net/hi/aspose.slides.animation)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

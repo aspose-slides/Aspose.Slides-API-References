@@ -17,7 +17,7 @@ url: /aspose.slides/blobmanagementoptions/
 | --- | --- |
 | BlobManagementOptions() | Creates new default blob management options. |
 
- **Result:**
+ **Returns:**
 BlobManagementOptions
 
 
@@ -28,9 +28,9 @@ BlobManagementOptions
 
 | Name | Description |
 | --- | --- |
-| getMaxBlobsBytesInMemory() | Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements. This property will be ignored if IsTemporaryFilesAllowed( #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed( #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored. Default value is 629,145,600 bytes (600Mb). |
+| getMaxBlobsBytesInMemory() | Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. By default, all BLOBs are loaded into memory; only once this limit is reached are alternative mechanisms (such as temporary files) employed. Keeping BLOBs in memory maximizes performance but can lead to high memory usage. Use this property to tailor behavior to your environment or requirements. This property is ignored if #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean) is set to false, since memory is then the only storage location available and limiting in-memory BLOB usage has no effect. The default value is 629,145,600 bytes (600 MB). You may set this property to zero, but a small minimum amount of memory will still be reserved. |
 
- **Result:**
+ **Returns:**
 long
 
 
@@ -43,7 +43,7 @@ long
 | --- | --- |
 | getPresentationLockingBehavior() | This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getTempFilesRootPath() | The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | isTemporaryFilesAllowed() | This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. All files will be deleted after work with the presentation will be finished. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -80,7 +80,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setMaxBlobsBytesInMemory(long) | Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements. This property will be ignored if IsTemporaryFilesAllowed( #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed( #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored. Default value is 629,145,600 bytes (600Mb). |
+| setMaxBlobsBytesInMemory(long) | Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. By default, all BLOBs are loaded into memory; only once this limit is reached are alternative mechanisms (such as temporary files) employed. Keeping BLOBs in memory maximizes performance but can lead to high memory usage. Use this property to tailor behavior to your environment or requirements. This property is ignored if #isTemporaryFilesAllowed/ #setTemporaryFilesAllowed(boolean) is set to false, since memory is then the only storage location available and limiting in-memory BLOB usage has no effect. The default value is 629,145,600 bytes (600 MB). You may set this property to zero, but a small minimum amount of memory will still be reserved. |
 
 
 ---

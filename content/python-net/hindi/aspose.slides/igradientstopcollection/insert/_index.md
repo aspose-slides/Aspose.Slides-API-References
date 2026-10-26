@@ -1,0 +1,67 @@
+---
+title: insert method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/igradientstopcollection/insert/
+weight: 30
+---
+## insert(self, index, position, color) {#int-float-asposeslidescolor}
+नई ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है।
+
+
+```python
+def insert(self, index, position, color):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | वर्णन |
+| :- | :- | :- |
+| index | **int** | संग्रह में वह इंडेक्स जहाँ नया ग्रेडिएंट स्टॉप सम्मिलित किया जाएगा। |
+| position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
+| color | [`Color`](/slides/python-net/hi/aspose.slides/color) | नए ग्रेडिएंट स्टॉप का रंग। |
+
+
+## insert(self, index, position, preset_color) {#int-float-presetcolor}
+नई ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है।
+
+
+```python
+def insert(self, index, position, preset_color):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | वर्णन |
+| :- | :- | :- |
+| index | **int** | संग्रह में वह इंडेक्स जहाँ नया ग्रेडिएंट स्टॉप सम्मिलित किया जाएगा। |
+| position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
+| preset_color | [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor) | नए ग्रेडिएंट स्टॉप का रंग। |
+
+
+## insert(self, index, position, scheme_color) {#int-float-schemecolor}
+नई ग्रेडिएंट स्टॉप बनाता है और इसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है।
+
+
+```python
+def insert(self, index, position, scheme_color):
+    ...
+```
+
+
+| पैरामीटर | प्रकार | वर्णन |
+| :- | :- | :- |
+| index | **int** | संग्रह में वह इंडेक्स जहाँ नया ग्रेडिएंट स्टॉप सम्मिलित किया जाएगा। |
+| position | **float** | नए ग्रेडिएंट स्टॉप की स्थिति। |
+| scheme_color | [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor) | नए ग्रेडिएंट स्टॉप का रंग। |
+
+
+
+### संबंधित देखें
+* क्लास [`IGradientStopCollection`](/slides/python-net/hi/aspose.slides/igradientstopcollection)
+* एनेमरेशन [`PresetColor`](/slides/python-net/hi/aspose.slides/presetcolor)
+* एनेमरेशन [`SchemeColor`](/slides/python-net/hi/aspose.slides/schemecolor)
+* क्लास [`Color`](/slides/python-net/hi/aspose.slides/color)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

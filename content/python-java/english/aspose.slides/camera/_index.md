@@ -17,7 +17,7 @@ url: /aspose.slides/camera/
 | --- | --- |
 | getCameraType() | Camera type. Read/write CameraPresetType. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -30,51 +30,8 @@ int
 | --- | --- |
 | getFieldOfViewAngle() | Camera FOV (0-180 deg, field of View). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -86,46 +43,20 @@ Presentation
 | --- | --- |
 | getRotation() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
 
- **Result:**
+ **Returns:**
 float
 
 
 ---
 
 
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 
@@ -138,7 +69,7 @@ long
 | --- | --- |
 | getZoom() | Camera zoom (positive value in percentage). Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 

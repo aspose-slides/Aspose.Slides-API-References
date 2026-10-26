@@ -1,0 +1,23 @@
+---
+title: get_PptC()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: 'ppt_c' प्रॉपर्टी का प्रतिनिधित्व करता है
+type: docs
+weight: 105
+url: /hi/aspose.slides.animation/behaviorproperty/get_pptc/
+---
+## BehaviorProperty::get_PptC() मेथड
+
+
+‘ppt_c’ प्रॉपर्टी का प्रतिनिधित्व करता है
+
+```cpp
+static System::SharedPtr<BehaviorProperty> Aspose::Slides::Animation::BehaviorProperty::get_PptC()
+```
+
+## देखें
+
+* टाइपडिफ़ [SharedPtr](../../../system/sharedptr/)
+* क्लास [BehaviorProperty](../)
+* नेमस्पेस [Aspose::Slides::Animation](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

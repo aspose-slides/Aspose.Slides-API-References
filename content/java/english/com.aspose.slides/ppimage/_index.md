@@ -20,10 +20,11 @@ Represents an image in a presentation.
 | Method | Description |
 | --- | --- |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an image's data. |
-| [getSystemImage()](#getSystemImage--) | Returns the copy of an image. |
+| [getImage()](#getImage--) | Returns the copy of an image. |
 | [getSvgImage()](#getSvgImage--) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
+| [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image data. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image data. |
 | [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in  BinaryData (\#getBinaryData.getBinaryData). |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
@@ -42,16 +43,16 @@ Returns the copy of an image's data. Read-only  byte[] .
 
 **Returns:**
 byte[] - Array of bytes
-### getSystemImage() {#getSystemImage--}
+### getImage() {#getImage--}
 ```
-public final BufferedImage getSystemImage()
+public final IImage getImage()
 ```
 
 
-Returns the copy of an image. Read-only java.awt.image.BufferedImage.
+Returns the copy of an image. Read-only [IImage](../../com.aspose.slides/iimage).
 
 **Returns:**
-java.awt.image.BufferedImage
+[IImage](../../com.aspose.slides/iimage)
 ### getSvgImage() {#getSvgImage--}
 ```
 public final ISvgImage getSvgImage()
@@ -95,6 +96,19 @@ Replaces image data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newImageData | byte[] | The new image's data. |
+
+### replaceImage(IImage newImage) {#replaceImage-com.aspose.slides.IImage-}
+```
+public final void replaceImage(IImage newImage)
+```
+
+
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | [IImage](../../com.aspose.slides/iimage) | The new image. |
 
 ### replaceImage(IPPImage newImage) {#replaceImage-com.aspose.slides.IPPImage-}
 ```

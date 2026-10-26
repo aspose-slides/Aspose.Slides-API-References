@@ -1,0 +1,24 @@
+---
+title: set_date_time_text method
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
+description: 
+type: docs
+url: /pl/aspose.slides/ibaseslideheaderfootermanager/set_date_time_text/
+weight: 10
+---
+## set_date_time_text(self, text) {#str}
+Ustawia tekst w placeholderze daty i godziny slajdu.
+
+```python
+def set_date_time_text(self, text):
+    ...
+```
+
+| Parametr | Typ | Opis |
+| :- | :- | :- |
+| text | **str** | Tekst do ustawienia. |
+
+### Zobacz także
+* klasa [`IBaseSlideHeaderFooterManager`](/slides/python-net/pl/aspose.slides/ibaseslideheaderfootermanager)
+* moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

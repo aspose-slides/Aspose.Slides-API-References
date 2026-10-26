@@ -1,0 +1,28 @@
+---
+title: set_MaxBlobsBytesInMemory()
+second_title: Aspose.Slides สำหรับการอ้างอิง API ของ C++
+description: กำหนดขนาดรวมสูงสุด (เป็นไบต์) ที่ BLOB ทั้งหมดอาจใช้ในหน่วยความจำ โดยค่าเริ่มต้น BLOB ทั้งหมดจะถูกโหลดเข้าสู่หน่วยความจำ; เพียงเมื่อถึงขีดจำกัดนี้ กลไกทางเลือก (เช่นไฟล์ชั่วคราว) จะถูกใช้ การเก็บ BLOB ในหน่วยความจำช่วยเพิ่มประสิทธิภาพสูงสุดแต่ก็อาจทำให้ใช้หน่วยความจำมากเกินไป ใช้คุณสมบัตินี้เพื่อปรับพฤติกรรมให้เหมาะกับสภาพแวดล้อมหรือความต้องการของคุณ.
+type: docs
+weight: 92
+url: /th/aspose.slides/blobmanagementoptions/set_maxblobsbytesinmemory/
+---
+## BlobManagementOptions::set_MaxBlobsBytesInMemory(uint64_t) เมธอด
+
+Defines the maximum total size (in bytes) that all BLOBs may occupy in memory. By default, all BLOBs are loaded into memory; only once this limit is reached are alternative mechanisms (such as temporary files) employed. Keeping BLOBs in memory maximizes performance but can lead high memory usage. Use this property to tailor behavior to your environment or requirements.
+
+```cpp
+void Aspose::Slides::BlobManagementOptions::set_MaxBlobsBytesInMemory(uint64_t value) override
+```
+
+## หมายเหตุ
+
+This value is ignored if [BlobManagementOptions::set_IsTemporaryFilesAllowed](../set_istemporaryfilesallowed/) is set to false, since memory is then the only storage location available and limiting in-memory BLOB usage has no effect.
+
+The default value is 629,145,600 bytes (600 MB).
+
+You may set this property to zero, but a small minimum amount of memory will still be reserved. 
+## ดูเพิ่มเติม
+
+* คลาส [BlobManagementOptions](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

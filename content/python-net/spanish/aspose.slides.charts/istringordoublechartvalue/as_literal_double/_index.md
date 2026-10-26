@@ -1,0 +1,28 @@
+---
+title: as_literal_double property
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
+description: 
+type: docs
+url: /es/aspose.slides.charts/istringordoublechartvalue/as_literal_double/
+weight: 50
+---
+## as_literal_double propiedad
+Devuelve o establece el literal double si la propiedad DataSourceType es DataSourceType.DoubleLiterals.
+            Lectura/escritura **float**.
+
+### Definición:
+```python
+@property
+def as_literal_double(self):
+    ...
+
+@as_literal_double.setter
+def as_literal_double(self, value):
+    ...
+```
+
+
+### Ver también
+* clase [`IStringOrDoubleChartValue`](/slides/python-net/es/aspose.slides.charts/istringordoublechartvalue)
+* módulo [`aspose.slides.charts`](/slides/python-net/es/aspose.slides.charts)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

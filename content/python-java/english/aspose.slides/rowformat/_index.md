@@ -17,7 +17,7 @@ url: /aspose.slides/rowformat/
 | --- | --- |
 | getEffective() | Gets effective table row formatting properties with inheritance and table styles applied. |
 
- **Result:**
+ **Returns:**
 RowFormatEffectiveData
 
 
@@ -34,23 +34,13 @@ RowFormatEffectiveData
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
 
 

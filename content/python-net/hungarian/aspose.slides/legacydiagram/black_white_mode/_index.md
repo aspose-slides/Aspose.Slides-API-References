@@ -1,0 +1,29 @@
+---
+title: black_white_mode property
+second_title: Aspose.Slides a Python számára a .NET-en keresztül API-referencia
+description: 
+type: docs
+url: /hu/aspose.slides/legacydiagram/black_white_mode/
+weight: 160
+---
+## black_white_mode tulajdonság
+Tulajdonság megadja, hogyan jelenik meg egy alakzat fekete-fehér megjelenítési módban..
+            Olvasás/írás [`BlackWhiteMode`](/slides/python-net/hu/aspose.slides/blackwhitemode).
+
+### Definíció:
+```python
+@property
+def black_white_mode(self):
+    ...
+
+@black_white_mode.setter
+def black_white_mode(self, value):
+    ...
+```
+
+
+### Lásd még
+* felsorolás [`BlackWhiteMode`](/slides/python-net/hu/aspose.slides/blackwhitemode)
+* osztály [`LegacyDiagram`](/slides/python-net/hu/aspose.slides/legacydiagram)
+* modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

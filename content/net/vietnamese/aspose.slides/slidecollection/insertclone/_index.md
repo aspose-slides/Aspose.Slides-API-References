@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Chèn một bản sao của slide được chỉ định vào vị trí đã chỉ định trong bộ sưu tập.
+type: docs
+weight: 120
+url: /vi/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+Chèn một bản sao của slide được chỉ định vào vị trí đã chỉ định trong bộ sưu tập.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| index | Int32 | Chỉ mục của slide mới. |
+| sourceSlide | ISlide | Slide để sao chép. |
+
+### Giá trị trả về
+
+Slide đã chèn.
+
+### Ghi chú
+
+Khi sao chép một slide giữa các bản trình bày khác nhau, master của slide cũng có thể được sao chép. Một bộ đăng ký nội bộ được sử dụng để theo dõi các master được sao chép tự động nhằm ngăn việc tạo nhiều bản sao của cùng một master slide. Việc sao chép thủ công các master slide sẽ không bị ngăn cản cũng không được ghi nhận. Nếu bạn cần kiểm soát nhiều hơn quá trình sao chép, hãy sử dụng [`InsertClone`](../insertclone) hoặc [`InsertClone`](../insertclone) để sao chép slide và [`AddClone`](../../imasterslidecollection/addclone) để sao chép master.
+
+### Ví dụ
+
+```csharp
+[C#]
+// Khởi tạo lớp Presentation đại diện cho một tệp trình chiếu
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Sao chép slide mong muốn tới cuối bộ sưu tập slide trong cùng một bản trình bày
+    ISlideCollection slds = pres.Slides;
+    // Sao chép slide mong muốn tới vị trí chỉ mục đã chỉ định trong cùng một bản trình bày
+    slds.InsertClone(2, pres.Slides[1]);
+    // Ghi bản trình bày đã sửa đổi ra đĩa
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Ví dụ sau đây cho thấy cách sao chép ở vị trí khác trong Presentation.
+
+```csharp
+[C#]
+// Khởi tạo lớp Presentation để tải tệp trình chiếu nguồn
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Khởi tạo lớp Presentation cho PPTX đích (nơi slide sẽ được sao chép)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Ghi bản trình chiếu đích ra đĩa
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+Ví dụ sau đây cho thấy cách sao chép ở vị trí khác trong Presentation.
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* lớp [SlideCollection](../../slidecollection)
+* không gian tên [Aspose.Slides](../../slidecollection)
+* tập tin lắp ráp [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+Chèn một bản sao của slide được chỉ định vào vị trí đã chỉ định trong bộ sưu tập.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| index | Int32 | Chỉ mục của slide mới. |
+| sourceSlide | ISlide | Slide để sao chép. |
+| destLayout | ILayoutSlide | Layout slide cho một slide mới. |
+
+### Giá trị trả về
+
+Slide đã chèn.
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [ILayoutSlide](../../ilayoutslide)
+* lớp [SlideCollection](../../slidecollection)
+* không gian tên [Aspose.Slides](../../slidecollection)
+* tập tin lắp ráp [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+Chèn một bản sao của slide nguồn được chỉ định vào vị trí đã chỉ định trong bộ sưu tập. Layout thích hợp sẽ được tự động chọn từ master đã chỉ định (layout thích hợp là layout có cùng Type hoặc Name với layout của slide nguồn). Nếu không có layout thích hợp thì layout của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc PptxEditException sẽ được ném ra (nếu allowCloneMissingLayout là false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Tham số | Kiểu | Mô tả |
+| --- | --- | --- |
+| index | Int32 | Chỉ mục của slide mới. |
+| sourceSlide | ISlide | Slide để sao chép. |
+| destMaster | IMasterSlide | Master slide cho một slide mới. |
+| allowCloneMissingLayout | Boolean | Nếu không có layout thích hợp trong master đã chỉ định thì layout của slide nguồn sẽ được sao chép (nếu allowCloneMissingLayout là true) hoặc PptxEditException sẽ được ném ra (nếu allowCloneMissingLayout là false). |
+
+### Giá trị trả về
+
+Slide đã chèn.
+
+### Ngoại lệ
+
+| Ngoại lệ | Điều kiện |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Được ném ra nếu không có layout thích hợp trong master đã chỉ định và allowCloneMissingLayout là false. |
+
+### Xem thêm
+
+* giao diện [ISlide](../../islide)
+* giao diện [IMasterSlide](../../imasterslide)
+* lớp [SlideCollection](../../slidecollection)
+* không gian tên [Aspose.Slides](../../slidecollection)
+* tập tin lắp ráp [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

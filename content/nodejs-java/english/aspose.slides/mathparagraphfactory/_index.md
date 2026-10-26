@@ -19,7 +19,7 @@ url: /aspose.slides/mathparagraphfactory/
 | --- | --- |
 | MathParagraphFactory() |  |
 
- **Result:**
+ **Returns:**
 MathParagraphFactory
 
 
@@ -32,7 +32,7 @@ MathParagraphFactory
 | --- | --- |
 | createMathParagraph () | Create empty math paragraph |
 
- **Result:**
+ **Returns:**
 [MathParagraph](../mathparagraph)
 
 
@@ -51,7 +51,7 @@ MathParagraphFactory
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | math block to place in the paragraph |
 
- **Result:**
+ **Returns:**
 [MathParagraph](../mathparagraph)
 
 

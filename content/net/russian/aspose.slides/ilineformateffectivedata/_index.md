@@ -1,15 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Невыразимый объект, который содержит эффективные свойства форматирования линий.
+second_title: Aspose.Sildes для .NET API справки
+description: Неизменяемый объект, содержащий эффективные свойства форматирования линии.
 type: docs
-weight: 6120
+weight: 6320
 url: /ru/aspose.slides/ilineformateffectivedata/
 ---
+## ILineFormatEffectiveData интерфейс
 
-## Интерфейс ILineFormatEffectiveData
-
-Невыразимый объект, который содержит эффективные свойства форматирования линий.
+Неизменяемый объект, содержащий эффективные свойства форматирования линии.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -17,40 +16,40 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Возвращает выравнивание линии. Только для чтения [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Позволяет получить базовый интерфейс ILineParamSource. Только для чтения [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Возвращает длину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Возвращает стиль наконечника стрелки в начале линии. Только для чтения [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Возвращает стиль конца линии. Только для чтения [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Возвращает пользовательский узор штриховки. Только для чтения Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Возвращает стиль штриховки линии. Только для чтения [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Возвращает длину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Возвращает стиль наконечника стрелки в конце линии. Только для чтения [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Возвращает формат заливки линии. Только для чтения [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Возвращает стиль соединения линий. Только для чтения [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Возвращает предел скоса линии. Только для чтения Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Возвращает формат эскиза линии. Только для чтения [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Возвращает стиль линии. Только для чтения [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Возвращает ширину линии. Только для чтения Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Возвращает выравнивание линии. Только для чтения [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Позволяет получить базовый интерфейс ILineParamSource. Только для чтения [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Возвращает длину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Возвращает стиль наконечника стрелки в начале линии. Только для чтения [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Возвращает стиль окончания линии. Только для чтения [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Возвращает пользовательский шаблон пунктирной линии. Только для чтения Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Возвращает стиль пунктирной линии. Только для чтения [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Возвращает длину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Возвращает стиль наконечника стрелки в конце линии. Только для чтения [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Возвращает формат заливки линии. Только для чтения [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Возвращает стиль соединения линий. Только для чтения [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Возвращает предел среза линии. Только для чтения Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Возвращает формат эскиза линии. Только для чтения [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Возвращает стиль линии. Только для чтения [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Возвращает ширину линии. Только для чтения Double. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Определяет, равны ли два экземпляра ILineFormatEffectiveData. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Определяет, являются ли два экземпляра ILineFormatEffectiveData равными. |
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ILineFormat`](../ilineformat) для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`ILineFormat`](../ilineformat) для возврата эффективных значений форматирования с учётом наследования.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineParamSource](../ilineparamsource)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [ILineParamSource](../ilineparamsource)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

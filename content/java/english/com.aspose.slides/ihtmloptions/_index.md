@@ -30,7 +30,11 @@ Represents a HTML exporting options.
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getSvgResponsiveLayout()](#getSvgResponsiveLayout--) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
 | [setSvgResponsiveLayout(boolean value)](#setSvgResponsiveLayout-boolean-) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
+| [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
 ### getHtmlFormatter() {#getHtmlFormatter--}
 ```
 public abstract IHtmlFormatter getHtmlFormatter()
@@ -208,13 +212,125 @@ True to exclude width and height attributes from SVG container - that will make 
 | --- | --- | --- |
 | value | boolean |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
+### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
+public abstract boolean getDisableFontLigatures()
 ```
 
 
-Provides options that control how notes and comments is placed in exported document.
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public abstract void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
+```
+public abstract ISlidesLayoutOptions getSlidesLayoutOptions()
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
+### setSlidesLayoutOptions(ISlidesLayoutOptions value) {#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-}
+```
+public abstract void setSlidesLayoutOptions(ISlidesLayoutOptions value)
+```
+
+
+Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      HandoutLayoutingOptions slidesLayoutOptions = new HandoutLayoutingOptions();
+>      slidesLayoutOptions.setHandout(HandoutType.Handouts4Horizontal);
+>      options.setSlidesLayoutOptions(slidesLayoutOptions);
+> 
+>      pres.save("pres.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions) |  |
+
+### getInkOptions() {#getInkOptions--}
+```
+public abstract IInkOptions getInkOptions()
+```
+
+
+Provides options that control the look of Ink objects in exported document. Read-only [IInkOptions](../../com.aspose.slides/iinkoptions)
+
+**Returns:**
+[IInkOptions](../../com.aspose.slides/iinkoptions)

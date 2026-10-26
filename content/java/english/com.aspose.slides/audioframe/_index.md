@@ -72,6 +72,17 @@ Represents an audio clip on a slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an audio file which is linked to an AudioFrame. |
 | [getEmbeddedAudio()](#getEmbeddedAudio--) | Returns or sets embedded audio object. |
 | [setEmbeddedAudio(IAudio value)](#setEmbeddedAudio-com.aspose.slides.IAudio-) | Returns or sets embedded audio object. |
+| [getFadeInDuration()](#getFadeInDuration--) | Specifies the time duration for the initial fade-in of the media in milliseconds. |
+| [setFadeInDuration(float value)](#setFadeInDuration-float-) | Specifies the time duration for the initial fade-in of the media in milliseconds. |
+| [getFadeOutDuration()](#getFadeOutDuration--) | Specifies the time duration for the ending fade-out of the media in milliseconds. |
+| [setFadeOutDuration(float value)](#setFadeOutDuration-float-) | Specifies the time duration for the ending fade-out of the media in milliseconds. |
+| [getVolumeValue()](#getVolumeValue--) | Returns or sets the audio volume in percents. |
+| [setVolumeValue(float value)](#setVolumeValue-float-) | Returns or sets the audio volume in percents. |
+| [getTrimFromStart()](#getTrimFromStart--) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
+| [getCaptionTracks()](#getCaptionTracks--) | Gets the collection of closed captions associated with the audio frame. |
 ### getAudioCdStartTrack() {#getAudioCdStartTrack--}
 ```
 public final int getAudioCdStartTrack()
@@ -430,3 +441,329 @@ Returns or sets embedded audio object. Read/write [IAudio](../../com.aspose.slid
 | --- | --- | --- |
 | value | [IAudio](../../com.aspose.slides/iaudio) |  |
 
+### getFadeInDuration() {#getFadeInDuration--}
+```
+public final float getFadeInDuration()
+```
+
+
+Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the duration of the starting fade for 200ms
+>      audioFrame.setFadeInDuration(200f);
+>      pres.save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setFadeInDuration(float value) {#setFadeInDuration-float-}
+```
+public final void setFadeInDuration(float value)
+```
+
+
+Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the duration of the starting fade for 200ms
+>      audioFrame.setFadeInDuration(200f);
+>      pres.save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getFadeOutDuration() {#getFadeOutDuration--}
+```
+public final float getFadeOutDuration()
+```
+
+
+Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the duration of the ending fade for 500ms
+>      audioFrame.setFadeOutDuration(500f);
+>      pres.save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setFadeOutDuration(float value) {#setFadeOutDuration-float-}
+```
+public final void setFadeOutDuration(float value)
+```
+
+
+Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the duration of the ending fade for 500ms
+>      audioFrame.setFadeOutDuration(500f);
+>      pres.save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getVolumeValue() {#getVolumeValue--}
+```
+public final float getVolumeValue()
+```
+
+
+Returns or sets the audio volume in percents. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the audio volume for 85%
+>      audioFrame.setVolumeValue(85f);
+>      pres.save("AudioFrameValue_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setVolumeValue(float value) {#setVolumeValue-float-}
+```
+public final void setVolumeValue(float value)
+```
+
+
+Returns or sets the audio volume in percents. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the audio volume for 85%
+>      audioFrame.setVolumeValue(85f);
+>      pres.save("AudioFrameValue_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTrimFromStart() {#getTrimFromStart--}
+```
+public final float getTrimFromStart()
+```
+
+
+Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the start trimming time 1.5 seconds
+>      audioFrame.setTrimFromStart(1500f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTrimFromStart(float value) {#setTrimFromStart-float-}
+```
+public final void setTrimFromStart(float value)
+```
+
+
+Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the start trimming time 1.5 seconds
+>      audioFrame.setTrimFromStart(1500f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTrimFromEnd() {#getTrimFromEnd--}
+```
+public final float getTrimFromEnd()
+```
+
+
+Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the end trimming time 2 seconds
+>      audioFrame.setTrimFromEnd(2000f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
+```
+public final void setTrimFromEnd(float value)
+```
+
+
+Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream audioStream = new FileInputStream("sampleaudio.mp3");
+>      IAudio audio = pres.getAudios().addAudio(audioStream, LoadingStreamBehavior.ReadStreamAndRelease);
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(50, 50, 100, 100, audio);
+>      // Set the end trimming time 2 seconds
+>      audioFrame.setTrimFromEnd(2000f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getCaptionTracks() {#getCaptionTracks--}
+```
+public final ICaptionsCollection getCaptionTracks()
+```
+
+
+Gets the collection of closed captions associated with the audio frame. This property is read-only and returns an [ICaptionsCollection](../../com.aspose.slides/icaptionscollection) containing all caption tracks.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("audio with captions.pptx");
+>  try {
+>      for (IShape shape : pres.getSlides().get_Item(0).getShapes())
+>      {
+>          if (shape instanceof IAudioFrame)
+>          {
+>              IAudioFrame audioFrame = (IAudioFrame) shape;
+>              // Save the caption track's binary data as a .vtt file
+>              for (ICaptions captionTrack : audioFrame.getCaptionTracks()) {
+>                  FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
+>                  fos.write(captionTrack.getBinaryData());
+>                  fos.close();
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

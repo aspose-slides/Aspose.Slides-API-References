@@ -28,6 +28,8 @@ Represents format of a table cell.
 | [getBorderDiagonalDown()](#getBorderDiagonalDown--) | Returns a top-left to bottom-right diagonal line properties object. |
 | [getBorderDiagonalUp()](#getBorderDiagonalUp--) | Returns a bottom-left to top-right diagonal line properties object. |
 | [getEffective()](#getEffective--) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [getTransparency()](#getTransparency--) | Gets or sets the transparency of the fill color. |
+| [setTransparency(float value)](#setTransparency-float-) | Gets or sets the transparency of the fill color. |
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -138,3 +140,26 @@ Gets effective table cell formatting properties with inheritance and table style
 
 **Returns:**
 [ICellFormatEffectiveData](../../com.aspose.slides/icellformateffectivedata) - A [ICellFormatEffectiveData](../../com.aspose.slides/icellformateffectivedata).
+### getTransparency() {#getTransparency--}
+```
+public final float getTransparency()
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Returns:**
+float
+### setTransparency(float value) {#setTransparency-float-}
+```
+public final void setTransparency(float value)
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+

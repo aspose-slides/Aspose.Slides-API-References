@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
 description: Copies the elements of the ICollection to an Array starting at a particular Array index.
 type: docs
-weight: 240
+weight: 250
 url: /aspose.slides.effects/imagetransformoperationcollection/copyto/
 ---
 

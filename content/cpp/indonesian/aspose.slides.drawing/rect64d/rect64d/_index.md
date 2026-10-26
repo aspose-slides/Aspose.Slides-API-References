@@ -1,0 +1,41 @@
+---
+title: Rect64d()
+second_title: Aspose.Slides untuk Referensi API C++
+description: 
+type: docs
+weight: 1
+url: /id/aspose.slides.drawing/rect64d/rect64d/
+---
+## Rect64d::Rect64d(Vector2d64d, Vector2d64d) konstruktor
+
+
+
+
+```cpp
+Aspose::Slides::Drawing::Rect64d::Rect64d(Vector2d64d pos, Vector2d64d size)
+```
+
+## Rect64d::Rect64d(double, double, double, double) konstruktor
+
+
+
+
+```cpp
+Aspose::Slides::Drawing::Rect64d::Rect64d(double x, double y, double width, double height)
+```
+
+## Rect64d::Rect64d() konstruktor
+
+
+
+
+```cpp
+Aspose::Slides::Drawing::Rect64d::Rect64d()
+```
+
+## Lihat Juga
+
+* Kelas [Vector2d64d](../../vector2d64d/)
+* Kelas [Rect64d](../)
+* Ruang Nama [Aspose::Slides::Drawing](../../)
+* Perpustakaan [Aspose.Slides](../../../)

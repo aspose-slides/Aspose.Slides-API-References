@@ -1,0 +1,26 @@
+---
+title: effect_format property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides/summaryzoomframe/effect_format/
+weight: 170
+---
+## effect_format คุณสมบัติ
+ส่งคืนอ็อบเจกต์ EffectFormat ที่มีเอฟเฟกต์พิกเซลที่ใช้กับรูปร่าง.
+            หมายเหตุ: สามารถคืนค่า None สำหรับรูปทรงบางประเภทที่ไม่มีคุณสมบัติเอฟเฟ็กต์.
+            อ่านอย่างเดียว [`IEffectFormat`](/slides/python-net/th/aspose.slides/ieffectformat).
+
+### คำนิยาม:
+```python
+@property
+def effect_format(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IEffectFormat`](/slides/python-net/th/aspose.slides/ieffectformat)
+* คลาส [`SummaryZoomFrame`](/slides/python-net/th/aspose.slides/summaryzoomframe)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

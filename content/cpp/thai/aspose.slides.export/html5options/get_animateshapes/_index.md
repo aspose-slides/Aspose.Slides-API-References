@@ -1,0 +1,38 @@
+---
+title: get_AnimateShapes()
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: ส่งคืนตัวเลือกการเคลื่อนไหวของรูปร่าง อ่าน bool.
+type: docs
+weight: 27
+url: /th/aspose.slides.export/html5options/get_animateshapes/
+---
+## Html5Options::get_AnimateShapes() วิธีการ
+
+
+ส่งคืนตัวเลือกการเคลื่อนไหวของรูปร่าง อ่าน **bool**.
+
+```cpp
+bool Aspoke::Slides::Export::Html5Options::get_AnimateShapes() override
+```
+
+## หมายเหตุ
+
+
+ตัวอย่าง: 
+```cpp
+auto pres = System::MakeObject<Presentation>(u"demo.pptx");
+
+auto options = System::MakeObject<Html5Options>();
+options->set_AnimateShapes(true);
+
+pres->Save(u"demo-animate-shapes.html", SaveFormat::Html5, options);
+```
+
+
+
+
+## ดูเพิ่มเติม
+
+* คลาส [Html5Options](../)
+* เนมสเปซ [Aspose::Slides::Export](../../)
+* ไลบรารี [Aspose.Slides](../../../)

@@ -1,13 +1,12 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt das Format einer Tabellenzelle dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Representiert das Format einer Tabellenzelle.
 type: docs
-weight: 1070
+weight: 1150
 url: /de/aspose.slides/cellformat/
 ---
-
-## CellFormat-Klasse
+## CellFormat Klasse
 
 Stellt das Format einer Tabellenzelle dar.
 
@@ -17,31 +16,31 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Gibt ein Objekt mit Eigenschaften der unteren Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Gibt ein Objekt mit Eigenschaften der diagonal von oben-links nach unten-rechts verlaufenden Linie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Gibt ein Objekt mit Eigenschaften der diagonal von unten-links nach oben-rechts verlaufenden Linie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Gibt ein Objekt mit Eigenschaften der linken Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Gibt ein Objekt mit Eigenschaften der rechten Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Gibt ein Objekt mit Eigenschaften der oberen Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Gibt ein Objekt mit Eigenschaften der Zellfüllung zurück. Nur lesbar [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff auf Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lesen [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Gibt ein Objekt mit den Eigenschaften der unteren Rahmenlinie zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Gibt ein Objekt mit den Eigenschaften der Diagonalen von oben links nach unten rechts zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Gibt ein Objekt mit den Eigenschaften der Diagonalen von unten links nach oben rechts zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Gibt ein Objekt mit den Eigenschaften der linken Rahmenlinie zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Gibt ein Objekt mit den Eigenschaften der rechten Rahmenlinie zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Gibt ein Objekt mit den Eigenschaften der oberen Rahmenlinie zurück. Nur-Lesen [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Gibt ein Objekt mit den Füll-Eigenschaften der Zelle zurück. Nur-Lesen [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Liest oder setzt die Transparenz der Füllfarbe. Lesen/Schreiben Single. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Ruft die effektiven Formatierungseigenschaften der Tabellenzelle mit angewandter Vererbung und Tabellenstilen ab. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Liest die wirksamen Formatierungseigenschaften der Tabellenzelle unter Berücksichtigung von Vererbung und angewendeten Tabellenstilen. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
 
 ### Siehe auch
 
-* Klasse [PVIObject](../pviobject)
-* Schnittstelle [ICellFormat](../icellformat)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Klasse [PVIObject](../pviobject)
+* Schnittstelle [ICellFormat](../icellformat)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

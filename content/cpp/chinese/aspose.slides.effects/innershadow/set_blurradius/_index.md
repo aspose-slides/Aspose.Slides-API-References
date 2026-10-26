@@ -1,0 +1,22 @@
+---
+title: set_BlurRadius()
+second_title: Aspose.Slides for C++ API 参考
+description: 模糊半径。写入 double。
+type: docs
+weight: 14
+url: /zh/aspose.slides.effects/innershadow/set_blurradius/
+---
+## InnerShadow::set_BlurRadius(double) 方法
+
+
+[Blur](../../blur/) 半径。 写入 **double**.
+
+```cpp
+void Aspose::Slides::Effects::InnerShadow::set_BlurRadius(double value) override
+```
+
+## 另请参见
+
+* 类 [InnerShadow](../)
+* 命名空间 [Aspose::Slides::Effects](../../)
+* 库 [Aspose.Slides](../../../)

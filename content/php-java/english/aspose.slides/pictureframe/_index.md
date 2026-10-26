@@ -76,6 +76,19 @@ int
 ---
 
 
+### isCameo {#isCameo}
+
+| Name | Description |
+| --- | --- |
+| isCameo () | Determines whether the PictureFrame is Cameo object or not. Read only boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### setRelativeScaleHeight {#setRelativeScaleHeight}
 
 | Name | Description |

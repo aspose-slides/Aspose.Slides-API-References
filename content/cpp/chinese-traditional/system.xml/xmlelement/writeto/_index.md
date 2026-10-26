@@ -1,0 +1,29 @@
+---
+title: WriteTo()
+second_title: Aspose.Slides C++ API 參考文件
+description: 將目前節點儲存至指定的 XmlWriter。
+type: docs
+weight: 313
+url: /zh-hant/system.xml/xmlelement/writeto/
+---
+## XmlElement::WriteTo(const SharedPtr<XmlWriter>&) 方法
+
+將目前節點儲存至指定的 [XmlWriter](../../xmlwriter/)。
+
+```cpp
+void System::Xml::XmlElement::WriteTo(const SharedPtr<XmlWriter> &w) override
+```
+
+### 參數
+
+| 參數 | 類型 | 說明 |
+| --- | --- | --- |
+| w | const [SharedPtr](../../../system/sharedptr/)<[XmlWriter](../../xmlwriter/)>& | 您想要儲存的 [XmlWriter](../../xmlwriter/)。 |
+
+## 另見
+
+* 型別別名 [SharedPtr](../../../system/sharedptr/)
+* 類別 [XmlWriter](../../xmlwriter/)
+* 類別 [XmlElement](../)
+* 命名空間 [System::Xml](../../)
+* 函式庫 [Aspose.Slides](../../../)

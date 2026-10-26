@@ -1,0 +1,28 @@
+---
+title: first_col property
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+description: 
+type: docs
+url: /ar/aspose.slides/table/first_col/
+weight: 230
+---
+## first_col خاصية
+يحدد ما إذا كان يجب رسم العمود الأول من الجدول بتنسيق خاص.
+            قراءة/كتابة **bool**.
+
+### التعريف:
+```python
+@property
+def first_col(self):
+    ...
+
+@first_col.setter
+def first_col(self, value):
+    ...
+```
+
+
+### انظر أيضًا
+* فئة [`Table`](/slides/python-net/ar/aspose.slides/table)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

@@ -24,11 +24,7 @@ Represents arguments of the PresentationPlayer.FrameTick event.
 >          try {
 >              final int[] frameNumber = {0};
 >              player.setFrameTick((sender, args) -> {
->                  try {
->                      ImageIO.write(args.getFrame(), "PNG", new java.io.File(String.format("frame_%d.png", frameNumber[0]++)));
->                  } catch (IOException e) {
->                      throw new RuntimeException(e);
->                  }
+>                  args.getFrame().save(String.format("frame_%d.png", frameNumber[0]++));
 >              });
 >              animationsGenerator.run(pres.getSlides());
 >          } finally {
@@ -59,7 +55,7 @@ Get the presentation player
 [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 ### getFrame() {#getFrame--}
 ```
-public final BufferedImage getFrame()
+public final IImage getFrame()
 ```
 
 
@@ -76,11 +72,7 @@ Get the current [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 >          try {
 >              final int[] frameNumber = {0};
 >              player.setFrameTick((sender, args) -> {
->                  try {
->                      ImageIO.write(args.getFrame(), "PNG", new java.io.File(String.format("frame_%d.png", frameNumber[0]++)));
->                  } catch (IOException e) {
->                      throw new RuntimeException(e);
->                  }
+>                  args.getFrame().save(String.format("frame_%d.png", frameNumber[0]++));
 >              });
 >              animationsGenerator.run(pres.getSlides());
 >          } finally {
@@ -95,4 +87,4 @@ Get the current [PresentationPlayer](../../com.aspose.slides/presentationplayer)
 > ```
 
 **Returns:**
-java.awt.image.BufferedImage
+[IImage](../../com.aspose.slides/iimage)

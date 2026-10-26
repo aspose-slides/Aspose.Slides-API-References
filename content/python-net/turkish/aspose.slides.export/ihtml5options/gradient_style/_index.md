@@ -1,0 +1,24 @@
+---
+title: gradient_style property
+second_title: Aspose.Slides for Python via .NET API Referansı
+description: 
+type: docs
+url: /tr/aspose.slides.export/ihtml5options/gradient_style/
+weight: 70
+---
+## gradient_style özellik
+### Tanım:
+```python
+@property
+def gradient_style(self):
+    ...
+
+@gradient_style.setter
+def gradient_style(self, value):
+    ...
+```
+
+### Bakınız
+* sınıf [`IHtml5Options`](/slides/python-net/tr/aspose.slides.export/ihtml5options)
+* modül [`aspose.slides.export`](/slides/python-net/tr/aspose.slides.export)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -11,13 +11,26 @@ url: /aspose.slides/videoframe/
 
   Represents a video clip on a slide.
  
+### getCaptionTracks {#getCaptionTracks}
+
+| Name | Description |
+| --- | --- |
+| getCaptionTracks () | Gets the collection of closed captions associated with the video frame. This property is read-only and returns an ICaptionsCollection containing all caption tracks. |
+
+ **Returns:**
+[CaptionsCollection](../captionscollection)
+
+
+---
+
+
 ### getEmbeddedVideo {#getEmbeddedVideo}
 
 | Name | Description |
 | --- | --- |
 | getEmbeddedVideo () | Returns or sets embedded video object. Read/write IVideo. |
 
- **Result:**
+ **Returns:**
 [Video](../video)
 
 
@@ -30,7 +43,7 @@ url: /aspose.slides/videoframe/
 | --- | --- |
 | getFullScreenMode () | Determines whether a video is shown in full screen mode. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -43,7 +56,7 @@ boolean
 | --- | --- |
 | getHideAtShowing () | Determines whether a VideoFrame is hidden. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -56,7 +69,7 @@ boolean
 | --- | --- |
 | getLinkPathLong () | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -69,7 +82,7 @@ String
 | --- | --- |
 | getPlayLoopMode () | Determines whether a video is looped. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -82,7 +95,7 @@ boolean
 | --- | --- |
 | getPlayMode () | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -95,7 +108,7 @@ int
 | --- | --- |
 | getRewindVideo () | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -108,7 +121,7 @@ boolean
 | --- | --- |
 | getTrimFromEnd () | Trim end [ms] |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -121,7 +134,7 @@ float
 | --- | --- |
 | getTrimFromStart () | Trim start [ms] |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -134,7 +147,7 @@ float
 | --- | --- |
 | getVolume () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
- **Result:**
+ **Returns:**
 int
 
 

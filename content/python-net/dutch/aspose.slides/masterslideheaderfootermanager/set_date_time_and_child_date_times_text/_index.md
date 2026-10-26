@@ -1,0 +1,26 @@
+---
+title: set_date_time_and_child_date_times_text method
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides/masterslideheaderfootermanager/set_date_time_and_child_date_times_text/
+weight: 10
+---
+## set_date_time_and_child_date_times_text(self, text) {#str}
+Sets text to master slide date-time placeholder and all child date-time placeholders.
+            Child placeholders mean placeholders are contained on depending layout slides and depending slides.
+            Depending layout slides and slides use and depend on master slide.
+
+```python
+def set_date_time_and_child_date_times_text(self, text):
+    ...
+```
+
+| Parameter | Type | Beschrijving |
+| :- | :- | :- |
+| text | **str** | Tekst om in te stellen. |
+
+### Zie ook
+* klasse [`MasterSlideHeaderFooterManager`](/slides/python-net/nl/aspose.slides/masterslideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

@@ -1,0 +1,38 @@
+---
+title: get_TileOffsetY()
+second_title: Aspose.Slides για C++ Αναφορά API
+description: Επιστρέφει την κάθετη απόσταση της υφής από το αρχικό σημείο του σχήματος σε μονάδες σημείου. Μια θετική τιμή μετακινεί την υφή προς τα κάτω, ενώ μια αρνητική τιμή τη μετακινεί προς τα πάνω. Διαβάστε float.
+type: docs
+weight: 300
+url: /el/aspose.slides/ipicturefillformat/get_tileoffsety/
+---
+## IPictureFillFormat::get_TileOffsetY() μέθοδος
+
+Επιστρέφει την κάθετη απόσταση της υφής από το αρχικό σημείο του σχήματος σε μονάδες σημείου. Μια θετική τιμή μετακινεί την υφή προς τα κάτω, ενώ μια αρνητική τιμή τη μετακινεί προς τα πάνω. Διαβάστε **float**.
+
+```cpp
+virtual float Aspose::Slides::IPictureFillFormat::get_TileOffsetY()=0
+```
+
+## Παρατηρήσεις
+
+```cpp
+System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"demo.pptx");
+
+System::SharedPtr<ISlide> slide = presentation->get_Slide(0);
+
+// Λαμβάνει τη μορφή γεμίσματος εικόνας του σχήματος
+System::SharedPtr<IPictureFillFormat> pictureFillFormat = slide->get_Shape(0)->get_FillFormat()->get_PictureFillFormat();
+
+// Ορίζει τη λειτουργία γεμίσματος εικόνας σε Tile
+pictureFillFormat->set_PictureFillMode(PictureFillMode::Tile);
+
+// Ορίζει τη κάθετη απόσταση της υφής σε -50 σημεία
+pictureFillFormat->set_TileOffsetY(-50.0f);
+```
+
+## Δείτε επίσης
+
+* Κλάση [IPictureFillFormat](../)
+* Χώρος ονομάτων [Aspose::Slides](../../)
+* Βιβλιοθήκη [Aspose.Slides](../../../)

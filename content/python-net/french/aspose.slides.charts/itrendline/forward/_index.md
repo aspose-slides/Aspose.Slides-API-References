@@ -1,0 +1,30 @@
+---
+title: forward property
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
+description: 
+type: docs
+url: /fr/aspose.slides.charts/itrendline/forward/
+weight: 120
+---
+## forward propriété
+Spécifie le nombre de catégories (ou d'unités sur un graphique en nuage de points) que la ligne de tendance prolonge après le
+            données de la série étudiée. Sur les graphiques en nuage de points et les graphiques non nuage de points, la valeur doit être toute valeur non négative
+            valeur.
+            Lecture/écriture **float**.
+
+### Définition:
+```python
+@property
+def forward(self):
+    ...
+
+@forward.setter
+def forward(self, value):
+    ...
+```
+
+
+### Voir aussi
+* classe [`ITrendline`](/slides/python-net/fr/aspose.slides.charts/itrendline)
+* module [`aspose.slides.charts`](/slides/python-net/fr/aspose.slides.charts)
+* bibliothèque [`Aspose.Slides`](/slides/python-net)

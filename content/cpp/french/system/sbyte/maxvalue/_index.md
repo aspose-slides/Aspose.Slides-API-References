@@ -1,0 +1,21 @@
+---
+title: MaxValue
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Valeur maximale possible.
+type: docs
+weight: 40
+url: /fr/system/sbyte/maxvalue/
+---
+## MaxValue champ
+
+Valeur maximale possible.
+
+```cpp
+static constexpr constexpr int8_t System::SByte::MaxValue
+```
+
+## Voir aussi
+
+* Structure [SByte](../)
+* Espace de noms [System](../../)
+* Bibliothèque [Aspose.Slides](../../../)

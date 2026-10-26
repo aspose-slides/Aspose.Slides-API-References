@@ -18,7 +18,7 @@ url: /aspose.slides/newlinetype/
 | --- | --- | --- |
 [Windows](#Windows) | 0 |  |
 [Unix](#Unix) | 1 |  |
-[Mac](#Mac) | 2 | Mac (OS 9) new line - \r |
+[Mac](#Mac) | 2 | Mac (OS 9) new line - \\r |
 
 
 ---
@@ -35,7 +35,7 @@ url: /aspose.slides/newlinetype/
 ---
 
 ### Mac {#Mac}
-Mac (OS 9) new line - \r
+Mac (OS 9) new line - \\r
 
 ---
 

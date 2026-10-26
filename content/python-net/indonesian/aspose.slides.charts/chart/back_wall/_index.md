@@ -1,0 +1,25 @@
+---
+title: back_wall property
+second_title: Referensi API Aspose.Slides untuk Python via .NET
+description: 
+type: docs
+url: /id/aspose.slides.charts/chart/back_wall/
+weight: 200
+---
+## back_wall properti
+Mengembalikan objek yang memungkinkan mengubah format dinding belakang dari diagram 3D.
+            Hanya-baca [`IChartWall`](/slides/python-net/id/aspose.slides.charts/ichartwall).
+
+### Definisi:
+```python
+@property
+def back_wall(self):
+    ...
+```
+
+
+### Lihat Juga
+* kelas [`Chart`](/slides/python-net/id/aspose.slides.charts/chart)
+* kelas [`IChartWall`](/slides/python-net/id/aspose.slides.charts/ichartwall)
+* modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

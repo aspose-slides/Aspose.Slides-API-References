@@ -17,7 +17,7 @@ url: /aspose.slides/tableformat/
 | --- | --- |
 | getEffective() | Gets effective table formatting properties with inheritance and table styles applied. |
 
- **Result:**
+ **Returns:**
 TableFormatEffectiveData
 
 
@@ -30,7 +30,7 @@ TableFormatEffectiveData
 | --- | --- |
 | getFillFormat() | Returns a table fill properties object. Read-only IFillFormat. |
 
- **Result:**
+ **Returns:**
 [FillFormat](../fillformat)
 
 
@@ -47,11 +47,14 @@ TableFormatEffectiveData
 ---
 
 
-### getParent_Immediate {#getParent_Immediate}
+### getTransparency {#getTransparency}
 
 | Name | Description |
 | --- | --- |
-| getParent_Immediate() |  |
+| getTransparency() | Gets or sets the transparency of the fill color. Read/write float. |
+
+ **Returns:**
+float
 
 
 ---
@@ -63,8 +66,18 @@ TableFormatEffectiveData
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
+ **Returns:**
 long
+
+
+---
+
+
+### setTransparency {#setTransparency}
+
+| Name | Description |
+| --- | --- |
+| setTransparency(float) | Gets or sets the transparency of the fill color. Read/write float. |
 
 
 ---

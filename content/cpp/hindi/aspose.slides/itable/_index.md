@@ -1,0 +1,140 @@
+---
+title: ITable
+second_title: C++ के लिए Aspose.Slides API संदर्भ
+description: स्लाइड पर एक तालिका का प्रतिनिधित्व करता है।
+type: docs
+weight: 4018
+url: /hi/aspose.slides/itable/
+---
+## ITable क्लास
+
+Represents a table on a slide.
+
+```cpp
+class ITable : public virtual Aspose::Slides::IGraphicalObject,
+               public Aspose::Slides::IBulkTextFormattable
+```
+
+## विधियां
+
+| विधि | विवरण |
+| --- | --- |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\> [AddPlaceholder](../ishape/addplaceholder/)([System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\>) | यदि कोई प्लेसहोल्डर नहीं है तो नया प्लेसहोल्डर जोड़ता है और प्लेसहोल्डर गुणों को एक निर्दिष्ट वाले पर सेट करता है। |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | C# [Object.Equals](../../system/object/equals/) सेमेंटिक्स का उपयोग करके वस्तुओं की तुलना करता है। |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# शैली में रेफ़रेंस प्रकार की वस्तुओं की तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | C# शैली में वैल्यू प्रकार की वस्तुओं की तुलना करता है। |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | C#-शैली का फ़्लोटिंग पॉइंट तुलना अनुकरण करता है जहाँ दो NaN को समान माना जाता है, जबकि IEC 60559:1989 के अनुसार NaN किसी भी मान के बराबर नहीं होता, यहाँ तक कि NaN के साथ भी नहीं। |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | C#-शैली का फ़्लोटिंग पॉइंट तुलना अनुकरण करता है जहाँ दो NaN को समान माना जाता है, जबकि IEC 60559:1989 के अनुसार NaN किसी भी मान के बराबर नहीं होता, यहाँ तक कि NaN के साथ भी नहीं। |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | केवल आंतरिक प्रयोजनों के लिए। |
+| virtual [System::String](../../system/string/) [get_AlternativeText](../ishape/get_alternativetext/)() | एक आकार से जुड़े वैकल्पिक पाठ को लौटाता है। पढ़ें [System::String](../../system/string/)। |
+| virtual [System::String](../../system/string/) [get_AlternativeTextTitle](../ishape/get_alternativetexttitle/)() | एक आकार से जुड़े वैकल्पिक पाठ के शीर्षक को लौटाता है। पढ़ें [System::String](../../system/string/)। |
+| virtual [Aspose::Slides::BlackWhiteMode](../blackwhitemode/) [get_BlackWhiteMode](../ishape/get_blackwhitemode/)() | प्रॉपर्टी निर्धारित करती है कि एक आकार ब्लैक-एंड-व्हाइट डिस्प्ले मोड में कैसे रेंडर होगा। पढ़ें [Slides::BlackWhiteMode](../blackwhitemode/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IColumn](../icolumn/)\> [get_Column](./get_column/)(**int32_t**) | निर्दिष्ट इंडेक्स पर एक कॉलम लौटाता है। केवल-पढ़ने योग्य [Aspose::Slides::IColumn](../icolumn/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IColumnCollection](../icolumncollection/)\> [get_Columns](./get_columns/)() | कॉलम की संग्रह को लौटाता है। केवल-पढ़ने योग्य [IColumnCollection](../icolumncollection/)। |
+| virtual **int32_t** [get_ConnectionSiteCount](../ishape/get_connectionsitecount/)() | आकार पर कनेक्शन साइटों की संख्या लौटाता है। केवल-पढ़ने योग्य **int32_t**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ICustomData](../icustomdata/)\> [get_CustomData](../ishape/get_customdata/)() | आकार के कस्टम डेटा को लौटाता है। केवल-पढ़ने योग्य [ICustomData](../icustomdata/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../ishape/get_effectformat/)() | [EffectFormat](../effectformat/) वस्तु को लौटाता है जिसमें आकार पर लागू पिक्सेल इफ़ेक्ट्स होते हैं। केवल-पढ़ने योग्य [IEffectFormat](../ieffectformat/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../ishape/get_fillformat/)() | [FillFormat](../fillformat/) वस्तु को लौटाता है जिसमें आकार के फ़िल फ़ॉर्मेटिंग प्रॉपर्टीज़ होते हैं। केवल-पढ़ने योग्य [IFillFormat](../ifillformat/)। |
+| virtual **bool** [get_FirstCol](./get_firstcol/)() | निर्धारित करता है कि तालिका के पहले कॉलम को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual **bool** [get_FirstRow](./get_firstrow/)() | निर्धारित करता है कि तालिका की पहली पंक्ति को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_Frame](../ishape/get_frame/)() | आकार फ्रेम के गुणों को लौटाता है। पढ़ें [IShapeFrame](../ishapeframe/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IGraphicalObjectLock](../igraphicalobjectlock/)\> [get_GraphicalObjectLock](../igraphicalobject/get_graphicalobjectlock/)() | आकार के लॉक को लौटाता है। केवल-पढ़ने योग्य [IGraphicalObjectLock](../igraphicalobjectlock/)। |
+| virtual **float** [get_Height](../ishape/get_height/)() | आकार की ऊँचाई को पॉइंट में मापता है। पढ़ें **float**। |
+| virtual **bool** [get_Hidden](../ishape/get_hidden/)() | निर्धारित करता है कि आकार छिपा है या नहीं। पढ़ें **bool**। |
+| virtual **bool** [get_HorizontalBanding](./get_horizontalbanding/)() | निर्धारित करता है कि सम पंक्तियों को विभिन्न फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkClick](../ihyperlinkcontainer/get_hyperlinkclick/)() | माउस क्लिक के लिए परिभाषित हाइपरलिंक को लौटाता है। पढ़ें [IHyperlink](../ihyperlink/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../ihyperlinkmanager/)\> [get_HyperlinkManager](../ihyperlinkcontainer/get_hyperlinkmanager/)() | हाइपरलिंक मैनेजर। केवल-पढ़ने योग्य [IHyperlinkManager](../ihyperlinkmanager/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkMouseOver](../ihyperlinkcontainer/get_hyperlinkmouseover/)() | माउस ओवर के लिए परिभाषित हाइपरलिंक को लौटाता है। पढ़ें [IHyperlink](../ihyperlink/)। |
+| virtual **bool** [get_IsDecorative](../ishape/get_isdecorative/)() | ‘Mark as decorative’ विकल्प को प्राप्त करता है। पढ़ें/लिखें **bool**। |
+| virtual **bool** [get_IsGrouped](../ishape/get_isgrouped/)() | निर्धारित करता है कि आकार ग्रुप किया गया है या नहीं। केवल-पढ़ने योग्य **bool**। |
+| virtual **bool** [get_IsTextHolder](../ishape/get_istextholder/)() | निर्धारित करता है कि आकार TextHolder है या नहीं। केवल-पढ़ने योग्य **bool**। |
+| virtual **bool** [get_LastCol](./get_lastcol/)() | निर्धारित करता है कि तालिका के अंतिम कॉलम को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual **bool** [get_LastRow](./get_lastrow/)() | निर्धारित करता है कि तालिका की अंतिम पंक्ति को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_LineFormat](../ishape/get_lineformat/)() | [LineFormat](../lineformat/) वस्तु को लौटाता है जिसमें एक आकार के लिए लाइन फ़ॉर्मेटिंग प्रॉपर्टीज़ होते हैं। केवल-पढ़ने योग्य [ILineFormat](../ilineformat/)। |
+| virtual [System::String](../../system/string/) [get_Name](../ishape/get_name/)() | एक आकार का नाम लौटाता है। पढ़ें [System::String](../../system/string/)। |
+| virtual **uint32_t** [get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/)() | एक स्लाइड-स्कोप्ड यूनिक आइडेंटिफायर लौटाता है जो आकार की जीवनकाल तक स्थिर रहता है और PowerPoint या इंटरऑप कोड को दस्तावेज़ में कहीं से भी आकार को विश्वसनीय रूप से रेफ़रेंस करने देता है। केवल-पढ़ने योग्य **uint32_t**। देखें भी [IShape::get_UniqueId](../ishape/get_uniqueid/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IGroupShape](../igroupshape/)\> [get_ParentGroup](../ishape/get_parentgroup/)() | यदि आकार ग्रुप किया गया है तो पैरेंट [GroupShape](../groupshape/) वस्तु को लौटाता है। अन्यथा null लौटाता है। केवल-पढ़ने योग्य [IGroupShape](../igroupshape/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\> [get_Placeholder](../ishape/get_placeholder/)() | एक आकार के लिए प्लेसहोल्डर को लौटाता है। केवल-पढ़ने योग्य [IPlaceholder](../iplaceholder/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../ipresentation/)\> [get_Presentation](../ipresentationcomponent/get_presentation/)() | प्रेजेंटेशन को लौटाता है। केवल-पढ़ने योग्य [IPresentation](../ipresentation/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_RawFrame](../ishape/get_rawframe/)() | कच्चे आकार फ्रेम के गुणों को लौटाता है। पढ़ें [IShapeFrame](../ishapeframe/)। |
+| virtual **bool** [get_RightToLeft](./get_righttoleft/)() | निर्धारित करता है कि तालिका का पढ़ने क्रम दाएँ-से-बाएँ है या नहीं। पढ़ता है **bool**। |
+| virtual **float** [get_Rotation](../ishape/get_rotation/)() | निश्चित आकार के z-अक्ष के चारों ओर घुमाए गए डिग्री की संख्या लौटाता है। सकारात्मक मान घड़ी की दिशा में घूर्णन दर्शाता है; नकारात्मक मान विपरीत दिशा में घूर्णन दर्शाता है। पढ़ें **float**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IRow](../irow/)\> [get_Row](./get_row/)(**int32_t**) | निर्धारित इंडेक्स पर एक पंक्ति लौटाता है। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IRowCollection](../irowcollection/)\> [get_Rows](./get_rows/)() | पंक्तियों का संग्रह लौटाता है। केवल-पढ़ने योग्य [IRowCollection](../irowcollection/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseShapeLock](../ibaseshapelock/)\> [get_ShapeLock](../ishape/get_shapelock/)() | आकार के लॉक को लौटाता है। केवल-पढ़ने योग्य [IBaseShapeLock](../ibaseshapelock/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../ibaseslide/)\> [get_Slide](../islidecomponent/get_slide/)() | बेस स्लाइड को लौटाता है। केवल-पढ़ने योग्य [IBaseSlide](../ibaseslide/)। |
+| virtual [TableStylePreset](../tablestylepreset/) [get_StylePreset](./get_stylepreset/)() | इनबिल्ट टेबल स्टाइल को प्राप्त करता या सेट करता है। पढ़ें [TableStylePreset](../tablestylepreset/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITableFormat](../itableformat/)\> [get_TableFormat](./get_tableformat/)() | [TableFormat](../tableformat/) वस्तु को लौटाता है जिसमें इस तालिका के फ़ॉर्मेटिंग प्रॉपर्टीज़ होते हैं। केवल-पढ़ने योग्य [ITableFormat](../itableformat/)। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../ishape/get_threedformat/)() | [ThreeDFormat](../threedformat/) वस्तु को लौटाता है जिसमें एक आकार के लिए लाइन फ़ॉर्मेटिंग प्रॉपर्टीज़ होते हैं। केवल-पढ़ने योग्य [IThreeDFormat](../ithreedformat/)। |
+| virtual **uint32_t** [get_UniqueId](../ishape/get_uniqueid/)() | एक आंतरिक, प्रेजेंटेशन-स्कोप्ड पहचानकर्ता लौटाता है जिसे ऐड-इन्स या अन्य कोड द्वारा उपयोग किया जाना है। क्योंकि इस मान को उपयोगकर्ता या प्रोग्राम द्वारा पुनः असाइन किया जा सकता है, इसे स्थायी यूनिक की के रूप में नहीं माना जाना चाहिए। केवल-पढ़ने योग्य **uint32_t**। देखें भी [IShape::get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/)। |
+| virtual **bool** [get_VerticalBanding](./get_verticalbanding/)() | निर्धारित करता है कि सम कॉलम को विभिन्न फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। पढ़ें **bool**। |
+| virtual **float** [get_Width](../ishape/get_width/)() | आकार की चौड़ाई को पॉइंट में मापता है। पढ़ें **float**। |
+| virtual **float** [get_X](../ishape/get_x/)() | आकार के ऊपरी-बाएँ कोने के x-निर्देशांक को पॉइंट में मापता है। पढ़ें **float**। |
+| virtual **float** [get_Y](../ishape/get_y/)() | आकार के ऊपरी-बाएँ कोने के y-निर्देशांक को पॉइंट में मापता है। पढ़ें **float**। |
+| virtual **int32_t** [get_ZOrderPosition](../ishape/get_zorderposition/)() | z-ऑर्डर में एक आकार की स्थिति लौटाता है। Shapes[0] z-ऑर्डर के पीछे वाला आकार लौटाता है, और Shapes[Shapes.Count - 1] सामने वाला आकार लौटाता है। केवल-पढ़ने योग्य **int32_t**। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [GetBasePlaceholder](../ishape/getbaseplaceholder/)() | एक बुनियादी प्लेसहोल्डर आकार लौटाता है (लेआउट और/या मास्टर स्लाइड से वह आकार जिससे वर्तमान आकार विरासत में मिला है)। |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | ऑब्जेक्ट से जुड़ी रेफ़रेंस काउंटर डेटा संरचना को प्राप्त करता है। |
+| virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | C# [Object.GetHashCode()](../../system/object/gethashcode/) मेथड का समकक्ष। कस्टम ऑब्जेक्ट्स की हैशिंग सक्षम करता है। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetImage](../ishape/getimage/)() | आकार थंबनेल लौटाता है। डिफ़ॉल्ट रूप में [ShapeThumbnailBounds::Shape](../shapethumbnailbounds/) आकार थंबनेल बाउंड्स टाइप उपयोग किया जाता है। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetImage](../ishape/getimage/)([ShapeThumbnailBounds](../shapethumbnailbounds/), **float**, **float**) | आकार थंबनेल लौटाता है। |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | ऑब्जेक्ट का वास्तविक प्रकार प्राप्त करता है। C# [System.Object.GetType()](../../system/object/gettype/) कॉल का समकक्ष। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ICell](../icell/)\> [idx_get](./idx_get/)(**int32_t**, **int32_t**) | निर्दिष्ट कॉलम और पंक्ति सूचकांक पर सेल को लौटाता है। केवल-पढ़ने योग्य [ICell](../icell/)। |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | जांचता है कि ऑब्जेक्ट targetType द्वारा वर्णित प्रकार का एक उदाहरण दर्शाता है या नहीं। C# ‘is’ ऑपरेटर का समकक्ष। |
+| void [Lock](../../system/object/lock/)() | C# lock() स्टेटमेंट के लॉकिंग को लागू करता है। सीधे कॉल करें या [LockContext](../../system/lockcontext/) सेंरी ऑब्जेक्ट का उपयोग करें। |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) मेथड का समकक्ष। कस्टम टाइप्स की क्लोनिंग सक्षम करता है। |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ICell](../icell/)\> [MergeCells](./mergecells/)([System::SharedPtr](../../system/sharedptr/)\<[ICell](../icell/)\>, [System::SharedPtr](../../system/sharedptr/)\<[ICell](../icell/)\>, **bool**) | पड़ोसी सेल्स को मिलाता है। |
+|  [Object](../../system/object/object/)() | ऑब्जेक्ट बनाता है। सभी आंतरिक डेटा संरचनाओं को इनिशियलाइज़ करता है। |
+|  [Object](../../system/object/object/)([Object](../../system/object/) const\&) | कॉपी कंस्ट्रक्टर। वास्तव में कुछ नहीं कॉपी करता, केवल नया ऑब्जेक्ट इनिशियलाइज़ करता है और सबक्लासेज़ की कॉपी कंस्ट्रक्शन को सक्षम करता है। |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | असाइनमेंट ऑपरेटर। वास्तव में कुछ नहीं कॉपी करता, केवल नया ऑब्जेक्ट इनिशियलाइज़ करता है और सबक्लासेज़ की कॉपी कंस्ट्रक्शन को सक्षम करता है। |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | ऑब्जेक्ट्स की रेफ़रेंस द्वारा तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | ऑब्जेक्ट्स की रेफ़रेंस द्वारा तुलना करता है। |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | वैल्यू टाइप ऑब्जेक्ट की रेफ़रेंस की तुलना nullptr से करता है। |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | [Object::ReferenceEquals](../../system/object/referenceequals/) का स्ट्रिंग और nullptr केस के लिए विशेषीकरण। |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | [Object::ReferenceEquals](../../system/object/referenceequals/) का स्ट्रिंग्स केस के लिए विशेषीकरण। |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | निर्दिष्ट मान द्वारा शेयर किए गए रेफ़रेंस काउंट को घटाता है। |
+| virtual void [RemovePlaceholder](../ishape/removeplaceholder/)() | परिभाषित करता है कि यह आकार प्लेसहोल्डर नहीं है। |
+| virtual void [set_AlternativeText](../ishape/set_alternativetext/)([System::String](../../system/string/)) | एक आकार से जुड़े वैकल्पिक पाठ को सेट करता है। लिखें [System::String](../../system/string/)। |
+| virtual void [set_AlternativeTextTitle](../ishape/set_alternativetexttitle/)([System::String](../../system/string/)) | एक आकार से जुड़े वैकल्पिक पाठ के शीर्षक को सेट करता है। लिखें [System::String](../../system/string/)। |
+| virtual void [set_BlackWhiteMode](../ishape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../blackwhitemode/)) | प्रॉपर्टी निर्धारित करती है कि एक आकार ब्लैक-एंड-व्हाइट डिस्प्ले मोड में कैसे रेंडर होगा। लिखें [Slides::BlackWhiteMode](../blackwhitemode/)। |
+| virtual void [set_FirstCol](./set_firstcol/)(**bool**) | निर्धारित करता है कि तालिका के पहले कॉलम को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_FirstRow](./set_firstrow/)(**bool**) | निर्धारित करता है कि तालिका की पहली पंक्ति को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_Frame](../ishape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | आकार फ्रेम के गुणों को सेट करता है। लिखें [IShapeFrame](../ishapeframe/)। |
+| virtual void [set_Height](../ishape/set_height/)(**float**) | आकार की ऊँचाई को पॉइंट में सेट करता है। लिखें **float**। |
+| virtual void [set_Hidden](../ishape/set_hidden/)(**bool**) | निर्धारित करता है कि आकार छिपा है या नहीं। लिखें **bool**। |
+| virtual void [set_HorizontalBanding](./set_horizontalbanding/)(**bool**) | निर्धारित करता है कि सम पंक्तियों को विभिन्न फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_HyperlinkClick](../ihyperlinkcontainer/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | माउस क्लिक के लिए परिभाषित हाइपरलिंक को सेट करता है। लिखें [IHyperlink](../ihyperlink/)। |
+| virtual void [set_HyperlinkMouseOver](../ihyperlinkcontainer/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) | माउस ओवर के लिए परिभाषित हाइपरलिंक को सेट करता है। लिखें [IHyperlink](../ihyperlink/)। |
+| virtual void [set_IsDecorative](../ishape/set_isdecorative/)(**bool**) | ‘Mark as decorative’ विकल्प सेट करता है। पढ़ें/लिखें **bool**। |
+| virtual void [set_LastCol](./set_lastcol/)(**bool**) | निर्धारित करता है कि तालिका के अंतिम कॉलम को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_LastRow](./set_lastrow/)(**bool**) | निर्धारित करता है कि तालिका की अंतिम पंक्ति को विशेष फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_Name](../ishape/set_name/)([System::String](../../system/string/)) | एक आकार का नाम सेट करता है। लिखें [System::String](../../system/string/)। |
+| virtual void [set_RawFrame](../ishape/set_rawframe/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | कच्चे आकार फ्रेम के गुणों को सेट करता है। लिखें [IShapeFrame](../ishapeframe/)। |
+| virtual void [set_RightToLeft](./set_righttoleft/)(**bool**) | निर्धारित करता है कि तालिका का पढ़ने क्रम दाएँ-से-बाएँ है या नहीं। लिखता है **bool**। |
+| virtual void [set_Rotation](../ishape/set_rotation/)(**float**) | निश्चित आकार के z-अक्ष के चारों ओर घुमाए गए डिग्री की संख्या सेट करता है। सकारात्मक मान घड़ी की दिशा में घूर्णन दर्शाता है; नकारात्मक मान विपरीत दिशा में घूर्णन दर्शाता है। लिखें **float**। |
+| virtual void [set_StylePreset](./set_stylepreset/)([TableStylePreset](../tablestylepreset/)) | इनबिल्ट टेबल स्टाइल को प्राप्त करता या सेट करता है। लिखें [TableStylePreset](../tablestylepreset/)। |
+| virtual void [set_VerticalBanding](./set_verticalbanding/)(**bool**) | निर्धारित करता है कि सम कॉलम को विभिन्न फ़ॉर्मेटिंग के साथ ड्रॉ किया जाना चाहिए या नहीं। लिखें **bool**। |
+| virtual void [set_Width](../ishape/set_width/)(**float**) | आकार की चौड़ाई को पॉइंट में सेट करता है। लिखें **float**। |
+| virtual void [set_X](../ishape/set_x/)(**float**) | आकार के ऊपरी-बाएँ कोने के x-निर्देशांक को पॉइंट में सेट करता है। लिखें **float**। |
+| virtual void [set_Y](../ishape/set_y/)(**float**) | आकार के ऊपरी-बाएँ कोने के y-निर्देशांक को पॉइंट में सेट करता है। लिखें **float**। |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | n-वें टेम्प्लेट आर्ग्यूमेंट को एक कमजोर पॉइंटर (शेयर्ड के बजाय) सेट करता है। कंटेनर्स में पॉइंटर्स को कमजोर मोड में स्विच करने की अनुमति देता है। |
+| virtual void [SetTextFormat](../ibulktextformattable/settextformat/)([System::SharedPtr](../../system/sharedptr/)\<[IPortionFormat](../iportionformat/)\>) | परिभाषित पोर्शन फ़ॉर्मेट प्रॉपर्टीज़ को सभी तत्व के पोर्शन में सेट करता है। |
+| virtual void [SetTextFormat](../ibulktextformattable/settextformat/)([System::SharedPtr](../../system/sharedptr/)\<[IParagraphFormat](../iparagraphformat/)\>) | परिभाषित पैराग्राफ फ़ॉर्मेट प्रॉपर्टीज़ को सभी तत्व के पैराग्राफ में सेट करता है। |
+| virtual void [SetTextFormat](../ibulktextformattable/settextformat/)([System::SharedPtr](../../system/sharedptr/)\<[ITextFrameFormat](../itextframeformat/)\>) | परिभाषित टेक्स्ट फ्रेम फ़ॉर्मेट प्रॉपर्टीज़ को सभी तत्व के टेक्स्ट फ्रेम में सेट करता है। |
+| int [SharedCount](../../system/object/sharedcount/)() const | शेयर किए गए रेफ़रेंस काउंटर का वर्तमान मान प्राप्त करता है। |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | शेयर किए गए रेफ़रेंस काउंट को बढ़ाता है। सीधे कॉल नहीं किया जाना चाहिए; इसके बजाय, स्मार्ट पॉइंटर या ThisProtector का उपयोग करें। |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | शेयर किए गए रेफ़रेंस काउंट को घटाता और लौटाता है। सीधे कॉल नहीं किया जाना चाहिए; इसके बजाय, स्मार्ट पॉइंटर या ThisProtector का उपयोग करें। |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | C# [Object.ToString()](../../system/object/tostring/) मेथड का समकक्ष। कस्टम ऑब्जेक्ट्स को स्ट्रिंग में बदलने को सक्षम करता है। |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | C# typeof([System.Object](../../system/object/)) कंस्ट्रक्ट को लागू करता है। |
+| void [Unlock](../../system/object/unlock/)() | C# lock() स्टेटमेंट के अनलॉकिंग को लागू करता है। सीधे कॉल करें या [LockContext](../../system/lockcontext/) सेंरी ऑब्जेक्ट का उपयोग करें। |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | कमजोर रेफ़रेंस काउंट को बढ़ाता है। सीधे कॉल नहीं किया जाना चाहिए; इसके बजाय, स्मार्ट पॉइंटर या ThisProtector का उपयोग करें। |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | कमजोर रेफ़रेंस काउंट को घटाता है। सीधे कॉल नहीं किया जाना चाहिए; इसके बजाय, स्मार्ट पॉइंटर या ThisProtector का उपयोग करें। |
+| virtual void [WriteAsSvg](../ishape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) | [Shape](../shape/) की सामग्री को SVG फ़ाइल के रूप में सहेजता है। |
+| virtual void [WriteAsSvg](../ishape/writeassvg/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [System::SharedPtr](../../system/sharedptr/)\<[Export::ISVGOptions](../../aspose.slides.export/isvgoptions/)\>) | [Shape](../shape/) की सामग्री को SVG फ़ाइल के रूप में सहेजता है। |
+| virtual  [~Object](../../system/object/~object/)() | ऑब्जेक्ट को नष्ट करता है। सभी आंतरिक डेटा संरचनाओं को मुक्त करता है। |
+
+## देखें भी
+
+* क्लास [IGraphicalObject](../igraphicalobject/)
+* क्लास [IBulkTextFormattable](../ibulktextformattable/)
+* नामस्थान [Aspose::Slides](../)
+* लाइब्रेरी [Aspose.Slides](../../)

@@ -43,7 +43,7 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -81,7 +81,7 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- | --- |
 | targetSlide | [Slide](../slide) | Target slide. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -100,7 +100,7 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- | --- |
 | targetSlide | [Slide](../slide) | Target slide. |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 
@@ -119,7 +119,7 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- | --- |
 | macroName | String | Name of the macro |
 
- **Result:**
+ **Returns:**
 [Hyperlink](../hyperlink)
 
 

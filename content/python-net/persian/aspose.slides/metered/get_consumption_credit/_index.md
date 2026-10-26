@@ -1,0 +1,30 @@
+---
+title: get_consumption_credit method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides/metered/get_consumption_credit/
+weight: 20
+---
+## get_consumption_credit() {#}
+اعتبار مصرف را دریافت می‌کند
+
+### بازگشت
+
+مقدار مصرف
+
+
+
+```python
+@staticmethod
+def get_consumption_credit():
+    ...
+```
+
+
+
+
+### موارد مرتبط
+* کلاس [`Metered`](/slides/python-net/fa/aspose.slides/metered)
+* ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

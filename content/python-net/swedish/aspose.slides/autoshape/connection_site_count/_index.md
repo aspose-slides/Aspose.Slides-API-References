@@ -1,0 +1,24 @@
+---
+title: connection_site_count property
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides/autoshape/connection_site_count/
+weight: 220
+---
+## connection_site_count egenskap
+Returnerar antalet anslutningsplatser på formen.
+            Skrivskyddad **int**.
+
+### Definition:
+```python
+@property
+def connection_site_count(self):
+    ...
+```
+
+
+### Se även
+* klass [`AutoShape`](/slides/python-net/sv/aspose.slides/autoshape)
+* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation document
 type: docs
-weight: 6550
+weight: 6750
 url: /aspose.slides/ipresentation/
 ---
 
@@ -42,6 +42,7 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | [NotesSize](../../aspose.slides/ipresentation/notessize) { get; } | Returns notes slide size object. Read-only [`INotesSize`](../inotessize). |
 | [ProtectionManager](../../aspose.slides/ipresentation/protectionmanager) { get; } | Gets manager of the permissions for this presentation. Read-only [`IProtectionManager`](../iprotectionmanager). |
 | [Sections](../../aspose.slides/ipresentation/sections) { get; } | Returns a list of all slides sections that are defined in the presentation. Read-only [`ISectionCollection`](../isectioncollection). |
+| [SensitivityLabels](../../aspose.slides/ipresentation/sensitivitylabels) { get; } | Returns the collection of sensitivity labels applied to the presentation document. Read-only [`ISensitivityLabelCollection`](../isensitivitylabelcollection). |
 | [Slides](../../aspose.slides/ipresentation/slides) { get; } | Returns a list of all slides that are defined in the presentation. Read-only [`ISlideCollection`](../islidecollection). |
 | [SlideSize](../../aspose.slides/ipresentation/slidesize) { get; } | Returns slide size object. Read-only [`ISlideSize`](../islidesize). |
 | [SourceFormat](../../aspose.slides/ipresentation/sourceformat) { get; } | Returns information about from which format presentation was loaded. Read-only [`SourceFormat`](./sourceformat). |

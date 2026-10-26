@@ -54,8 +54,8 @@ Represents options that control how presentation should be saved to markdown.
 | [setBasePath(String value)](#setBasePath-java.lang.String-) | Specifies the base path where document with resources will be saved. |
 | [getImagesSaveFolderName()](#getImagesSaveFolderName--) | Specifies folder name to save images. |
 | [setImagesSaveFolderName(String value)](#setImagesSaveFolderName-java.lang.String-) | Specifies folder name to save images. |
-| [getNewLineType()](#getNewLineType--) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). |
-| [setNewLineType(int value)](#setNewLineType-int-) | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). |
+| [getNewLineType()](#getNewLineType--) | Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). |
+| [setNewLineType(int value)](#setNewLineType-int-) | Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). |
 | [getShowComments()](#getShowComments--) | Specifies whether the generated document should show comments or not. |
 | [setShowComments(boolean value)](#setShowComments-boolean-) | Specifies whether the generated document should show comments or not. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
@@ -64,6 +64,14 @@ Represents options that control how presentation should be saved to markdown.
 | [setShowSlideNumber(boolean value)](#setShowSlideNumber-boolean-) | Specifies whether the generated document should show number of each slide or not. |
 | [getFlavor()](#getFlavor--) | Specifies markdown specification to convert presentation. |
 | [setFlavor(int value)](#setFlavor-int-) | Specifies markdown specification to convert presentation. |
+| [getSlideNumberFormat()](#getSlideNumberFormat--) | Gets or sets the format string used for slide number headers in Markdown output. |
+| [setSlideNumberFormat(String value)](#setSlideNumberFormat-java.lang.String-) | Gets or sets the format string used for slide number headers in Markdown output. |
+| [getHandleRepeatedSpaces()](#getHandleRepeatedSpaces--) | Specifies how repeated regular space characters should be handled during Markdown export. |
+| [setHandleRepeatedSpaces(int value)](#setHandleRepeatedSpaces-int-) | Specifies how repeated regular space characters should be handled during Markdown export. |
+| [getRemoveEmptyLines()](#getRemoveEmptyLines--) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
+| [setRemoveEmptyLines(boolean value)](#setRemoveEmptyLines-boolean-) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
+| [setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event)](#setImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownImageSavingHandler-) | Occurs for each non-SVG image (bitmap or metafile) during Markdown export. |
+| [setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event)](#setSvgImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownSvgImageSavingHandler-) | Occurs for each SVG image during Markdown export. |
 ### MarkdownSaveOptions() {#MarkdownSaveOptions--}
 ```
 public MarkdownSaveOptions()
@@ -147,7 +155,7 @@ public final int getNewLineType()
 ```
 
 
-Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is  Unix .
+Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). Default is  Unix .
 
 **Returns:**
 int
@@ -157,7 +165,7 @@ public final void setNewLineType(int value)
 ```
 
 
-Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is  Unix .
+Specifies whether the generated document should have new lines \\\\r(Macintosh) of \\\\n(Unix) or \\\\r\\\\n(Windows). Default is  Unix .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +178,7 @@ public final boolean getShowComments()
 ```
 
 
-Specifies whether the generated document should show comments or not. Default is  false .
+Specifies whether the generated document should show comments or not. Default is false.
 
 **Returns:**
 boolean
@@ -180,7 +188,7 @@ public final void setShowComments(boolean value)
 ```
 
 
-Specifies whether the generated document should show comments or not. Default is  false .
+Specifies whether the generated document should show comments or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +201,7 @@ public final boolean getShowHiddenSlides()
 ```
 
 
-Specifies whether the generated document should include hidden slides or not. Default is  false .
+Specifies whether the generated document should include hidden slides or not. Default is false.
 
 **Returns:**
 boolean
@@ -203,7 +211,7 @@ public final void setShowHiddenSlides(boolean value)
 ```
 
 
-Specifies whether the generated document should include hidden slides or not. Default is  false .
+Specifies whether the generated document should include hidden slides or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +224,7 @@ public final boolean getShowSlideNumber()
 ```
 
 
-Specifies whether the generated document should show number of each slide or not. Default is  false .
+Specifies whether the generated document should show number of each slide or not. Default is false.
 
 **Returns:**
 boolean
@@ -226,7 +234,7 @@ public final void setShowSlideNumber(boolean value)
 ```
 
 
-Specifies whether the generated document should show number of each slide or not. Default is  false .
+Specifies whether the generated document should show number of each slide or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,4 +263,99 @@ Specifies markdown specification to convert presentation. Default is  Multi-mark
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getSlideNumberFormat() {#getSlideNumberFormat--}
+```
+public final String getSlideNumberFormat()
+```
+
+
+Gets or sets the format string used for slide number headers in Markdown output. The format must include the "\{0\}" placeholder, which will be replaced with the slide index during export. Example: "\# Slide \{0\}" will produce "\# Slide 1", "\# Slide 2", etc.
+
+**Returns:**
+java.lang.String
+### setSlideNumberFormat(String value) {#setSlideNumberFormat-java.lang.String-}
+```
+public final void setSlideNumberFormat(String value)
+```
+
+
+Gets or sets the format string used for slide number headers in Markdown output. The format must include the "\{0\}" placeholder, which will be replaced with the slide index during export. Example: "\# Slide \{0\}" will produce "\# Slide 1", "\# Slide 2", etc.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getHandleRepeatedSpaces() {#getHandleRepeatedSpaces--}
+```
+public final int getHandleRepeatedSpaces()
+```
+
+
+Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities ( ), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is [HandleRepeatedSpaces.AlternateSpacesToNbsp](../../com.aspose.slides/handlerepeatedspaces\#AlternateSpacesToNbsp).
+
+**Returns:**
+int
+### setHandleRepeatedSpaces(int value) {#setHandleRepeatedSpaces-int-}
+```
+public final void setHandleRepeatedSpaces(int value)
+```
+
+
+Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities ( ), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is [HandleRepeatedSpaces.AlternateSpacesToNbsp](../../com.aspose.slides/handlerepeatedspaces\#AlternateSpacesToNbsp).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getRemoveEmptyLines() {#getRemoveEmptyLines--}
+```
+public final boolean getRemoveEmptyLines()
+```
+
+
+If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false.
+
+**Returns:**
+boolean
+### setRemoveEmptyLines(boolean value) {#setRemoveEmptyLines-boolean-}
+```
+public final void setRemoveEmptyLines(boolean value)
+```
+
+
+If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event) {#setImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownImageSavingHandler-}
+```
+public final void setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event)
+```
+
+
+Occurs for each non-SVG image (bitmap or metafile) during Markdown export. Allows customizing how the image is saved and referenced. If not handled, the image is saved locally with a relative link.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownImageSavingHandler](../../com.aspose.slides/markdownimagesavinghandler) | Markdown image saving event. |
+
+### setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event) {#setSvgImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownSvgImageSavingHandler-}
+```
+public final void setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event)
+```
+
+
+Occurs for each SVG image during Markdown export. Allows overriding the default saving and link generation. If not handled, the SVG is saved locally with a relative link.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownSvgImageSavingHandler](../../com.aspose.slides/markdownsvgimagesavinghandler) | Markdown SVG image saving event. |
 

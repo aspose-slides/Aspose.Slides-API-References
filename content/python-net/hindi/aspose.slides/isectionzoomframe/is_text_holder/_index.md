@@ -1,0 +1,21 @@
+---
+title: is_text_holder property
+second_title: Aspose.Slides पाइथन के लिए .NET API रेफ़रेंस
+description: 
+type: docs
+url: /hi/aspose.slides/isectionzoomframe/is_text_holder/
+weight: 290
+---
+## is_text_holder गुण
+### परिभाषा:
+```python
+@property
+def is_text_holder(self):
+    ...
+```
+
+
+### संबंधित देखें
+* वर्ग [`ISectionZoomFrame`](/slides/python-net/hi/aspose.slides/isectionzoomframe)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

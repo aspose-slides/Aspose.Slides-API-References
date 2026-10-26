@@ -23,7 +23,7 @@ url: /aspose.slides/fontdata/
 | --- | --- | --- |
 | fontName | String | Font name. |
 
- **Result:**
+ **Returns:**
 FontData
 
 
@@ -42,7 +42,7 @@ FontData
 | --- | --- | --- |
 | obj | Object | The FontData to compare with the current FontData. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -55,7 +55,7 @@ boolean
 | --- | --- |
 | getFontName() | Returns the font name. Read/write String. |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -74,7 +74,7 @@ String
 | --- | --- | --- |
 | theme | [IThemeEffectiveData](../ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
 
- **Result:**
+ **Returns:**
 String
 
 
@@ -87,7 +87,7 @@ String
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result:**
+ **Returns:**
 int
 
 
@@ -100,7 +100,7 @@ int
 | --- | --- |
 | toString() | Returns string representation. |
 
- **Result:**
+ **Returns:**
 String
 
 

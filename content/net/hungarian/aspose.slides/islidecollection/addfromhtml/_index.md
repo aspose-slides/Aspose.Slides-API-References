@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes .NET API referencia
+description: Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+type: docs
+weight: 40
+url: /hu/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlText | String | A hozzáadandó HTML. |
+| resolver | IExternalResourceResolver | Egy visszahívási objektum a külső objektumok lekéréséhez. Ha ez a paraméter null, minden külső objektum figyelmen kívül marad. |
+| uri | String | A megadott HTML URI-ja. Relatív hivatkozások feloldásához használható. |
+
+### Visszatérési érték
+
+Hozzáadott diák.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlText | String | A hozzáadandó HTML. |
+
+### Visszatérési érték
+
+Hozzáadott diák
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader objektum, amely a HTML fájl forrásaként szolgál. |
+| resolver | IExternalResourceResolver | Egy visszahívási objektum a külső objektumok lekéréséhez. Ha ez a paraméter null, minden külső objektum figyelmen kívül marad. |
+| uri | String | A megadott HTML URI-ja. Relatív hivatkozások feloldásához használható. |
+
+### Visszatérési érték
+
+Hozzáadott diák.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader objektum, amely a HTML fájl forrásaként szolgál. |
+
+### Visszatérési érték
+
+Hozzáadott diák
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlStream | Stream | Stream objektum, amely a HTML fájl forrásaként szolgál. |
+| resolver | IExternalResourceResolver | Egy visszahívási objektum a külső objektumok lekéréséhez. Ha ez a paraméter null, minden külső objektum figyelmen kívül marad. |
+| uri | String | A megadott HTML URI-ja. Relatív hivatkozások feloldásához használható. |
+
+### Visszatérési érték
+
+Hozzáadott diák.
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+Diákat hoz létre HTML szövegből, és a gyűjtemény végére adja hozzá.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| htmlStream | Stream | Stream objektum, amely a HTML fájl forrásaként szolgál. |
+
+### Visszatérési érték
+
+Hozzáadott diák
+
+### Lásd még
+
+* interfész [ISlide](../../islide)
+* interfész [ISlideCollection](../../islidecollection)
+* névtér [Aspose.Slides](../../islidecollection)
+* összeállítás [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

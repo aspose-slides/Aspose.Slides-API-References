@@ -1,0 +1,21 @@
+---
+title: z_order_position property
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+description: 
+type: docs
+url: /th/aspose.slides/igeometryshape/z_order_position/
+weight: 480
+---
+## z_order_position คุณสมบัติ
+### คำจำกัดความ:
+```python
+@property
+def z_order_position(self):
+    ...
+```
+
+
+### ดูเพิ่มเติม
+* คลาส [`IGeometryShape`](/slides/python-net/th/aspose.slides/igeometryshape)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* ไลบรารี [`Aspose.Slides`](/slides/python-net)

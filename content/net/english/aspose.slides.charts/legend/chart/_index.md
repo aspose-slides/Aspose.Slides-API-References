@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the chart. Read-only IChartaspose.slides.charts/ichart.
 type: docs
-weight: 20
+weight: 60
 url: /aspose.slides.charts/legend/chart/
 ---
 

@@ -17,7 +17,7 @@ url: /aspose.slides/cannotcombine2dand3dchartsexception/
 | --- | --- |
 | CannotCombine2DAnd3DChartsException() | Default function. |
 
- **Result:**
+ **Returns:**
 CannotCombine2DAnd3DChartsException
 
 
@@ -36,7 +36,7 @@ CannotCombine2DAnd3DChartsException
 | --- | --- | --- |
 | message | String | message |
 
- **Result:**
+ **Returns:**
 CannotCombine2DAnd3DChartsException
 
 
@@ -56,7 +56,7 @@ CannotCombine2DAnd3DChartsException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result:**
+ **Returns:**
 CannotCombine2DAnd3DChartsException
 
 

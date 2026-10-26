@@ -3,7 +3,7 @@ title: NotesStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the style of a notes text. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/imasternotesslide/notesstyle/
 ---
 

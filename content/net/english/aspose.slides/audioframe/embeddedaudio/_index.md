@@ -3,7 +3,7 @@ title: EmbeddedAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets embedded audio object. Read/write IAudioaspose.slides/iaudio.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/audioframe/embeddedaudio/
 ---
 

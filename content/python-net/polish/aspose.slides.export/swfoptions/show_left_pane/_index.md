@@ -1,0 +1,27 @@
+---
+title: show_left_pane property
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
+description: 
+type: docs
+url: /pl/aspose.slides.export/swfoptions/show_left_pane/
+weight: 140
+---
+## show_left_pane właściwość
+Pokaż/ukryj lewy panel. Może być nadpisane w flashvars. Domyślnie jest true.
+
+### Definicja:
+```python
+@property
+def show_left_pane(self):
+    ...
+
+@show_left_pane.setter
+def show_left_pane(self, value):
+    ...
+```
+
+
+### Zobacz także
+* klasa [`SwfOptions`](/slides/python-net/pl/aspose.slides.export/swfoptions)
+* moduł [`aspose.slides.export`](/slides/python-net/pl/aspose.slides.export)
+* biblioteka [`Aspose.Slides`](/slides/python-net)

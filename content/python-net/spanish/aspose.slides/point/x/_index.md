@@ -1,0 +1,28 @@
+---
+title: x property
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+description: 
+type: docs
+url: /es/aspose.slides/point/x/
+weight: 20
+---
+## x propiedad
+Obtiene o establece la coordenada x de este punto.
+            Lectura/escritura **int**.
+
+### Definición:
+```python
+@property
+def x(self):
+    ...
+
+@x.setter
+def x(self, value):
+    ...
+```
+
+
+### Ver también
+* clase [`Point`](/slides/python-net/es/aspose.slides/point)
+* módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

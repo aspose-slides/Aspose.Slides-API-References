@@ -1,0 +1,32 @@
+---
+title: add_content_placeholder method
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
+type: docs
+url: /ko/aspose.slides/layoutplaceholdermanager/add_content_placeholder/
+weight: 20
+---
+## add_content_placeholder(self, x, y, width, height) {#float-float-float-float}
+새 자리 표시자 모양을 레이아웃 슬라이드에 추가하여 사진, 표, 미디어 또는 텍스트와 같은 콘텐츠를 보관합니다.
+
+### 반환
+
+[`IAutoShape`](/slides/python-net/ko/aspose.slides/iautoshape)를 콘텐츠 자리 표시자로 생성했습니다.
+
+```python
+def add_content_placeholder(self, x, y, width, height):
+    ...
+```
+
+| 매개변수 | 유형 | 설명 |
+| :- | :- | :- |
+| x | **float** | 새 자리 표시자 도형의 X 좌표. |
+| y | **float** | 새 자리 표시자 도형의 Y 좌표. |
+| width | **float** | 새 자리 표시자 도형의 너비. |
+| height | **float** | 새 자리 표시자 도형의 높이. |
+
+### 참조
+* 클래스 [`IAutoShape`](/slides/python-net/ko/aspose.slides/iautoshape)
+* 클래스 [`LayoutPlaceholderManager`](/slides/python-net/ko/aspose.slides/layoutplaceholdermanager)
+* 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -17,7 +17,7 @@ url: /aspose.slides/paragraph/
 | --- | --- |
 | Paragraph() | Initializes a new instance of the Paragraph class with default properties. |
 
- **Result:**
+ **Returns:**
 Paragraph
 
 
@@ -30,7 +30,7 @@ Paragraph
 | --- | --- |
 | Paragraph([Paragraph](../paragraph)) | Copy constructor that initializes a new instance of a Paragraph class. |
 
- **Result:**
+ **Returns:**
 Paragraph
 
 
@@ -43,8 +43,21 @@ Paragraph
 | --- | --- |
 | getEndParagraphPortionFormat() | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 
- **Result:**
+ **Returns:**
 [PortionFormat](../portionformat)
+
+
+---
+
+
+### getLinesCount {#getLinesCount}
+
+| Name | Description |
+| --- | --- |
+| getLinesCount() | Get number of lines in a paragraph. |
+
+ **Returns:**
+int
 
 
 ---
@@ -56,7 +69,7 @@ Paragraph
 | --- | --- |
 | getParagraphFormat() | Returns the formatting object for this paragraph. Read-only IParagraphFormat. The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied. In order to get the effective values including inherited ones use the ParagraphFormat#getEffective method. |
 
- **Result:**
+ **Returns:**
 [ParagraphFormat](../paragraphformat)
 
 
@@ -69,7 +82,7 @@ Paragraph
 | --- | --- |
 | getPortions() | Returns the collection of a text portions. Read-only IPortionCollection. |
 
- **Result:**
+ **Returns:**
 [PortionCollection](../portioncollection)
 
 
@@ -82,7 +95,7 @@ Paragraph
 | --- | --- |
 | getPresentation() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
 
- **Result:**
+ **Returns:**
 [Presentation](../presentation)
 
 
@@ -95,7 +108,7 @@ Paragraph
 | --- | --- |
 | getRect() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 
- **Result:**
+ **Returns:**
 Rectangle2D.Float
 
 
@@ -108,8 +121,8 @@ Rectangle2D.Float
 | --- | --- |
 | getSlide() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
- **Result:**
-[Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide)
+ **Returns:**
+[LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---
@@ -121,7 +134,7 @@ Rectangle2D.Float
 | --- | --- |
 | getText() | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
 
- **Result:**
+ **Returns:**
 String
 
 

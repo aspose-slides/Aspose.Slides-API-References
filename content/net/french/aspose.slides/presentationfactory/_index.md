@@ -1,13 +1,12 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Slides pour .NET API Reference
+second_title: Référence API Aspose.Sildes pour .NET
 description: Permet de créer une présentation via l'interface COM
 type: docs
-weight: 9330
+weight: 9600
 url: /fr/aspose.slides/presentationfactory/
 ---
-
-## Classe PresentationFactory
+## PresentationFactory classe
 
 Permet de créer une présentation via l'interface COM
 
@@ -25,7 +24,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Nom | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instance statique de la fabrique de présentations. Lecture seule [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instance statique du PresentationFactory. En lecture seule [`PresentationFactory`](../presentationfactory). |
 
 ## Méthodes
 
@@ -33,17 +32,17 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Crée une nouvelle présentation. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crée une nouvelle présentation avec des options de chargement supplémentaires |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crée un nouvel objet PresentationInfo à partir du flux et associe la présentation à celui-ci. Obtient des informations sur la présentation dans le flux spécifié. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crée un nouvel objet PresentationInfo à partir du fichier et associe la présentation à celui-ci. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Récupère le texte brut des diapositives |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Lit une présentation existante à partir d'un tableau |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lit une présentation existante à partir d'un flux |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Lit une présentation existante à partir d'un fichier |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lit une présentation existante à partir d'un tableau avec des options de chargement supplémentaires |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lit une présentation existante à partir d'un flux avec des options de chargement supplémentaires |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lit une présentation existante à partir d'un flux avec des options de chargement supplémentaires |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crée un objet PresentationInfo à partir du flux et lie la présentation à celui-ci. Obtient les informations sur la présentation dans le flux spécifié. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crée un objet PresentationInfo à partir d'un fichier et lie la présentation à celui-ci. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Récupère le texte brut des diapositives |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Lit une présentation existante depuis un tableau |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lit une présentation existante depuis un flux |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Lit une présentation existante depuis un fichier |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lit une présentation existante depuis un tableau avec des options de chargement supplémentaires |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lit une présentation existante depuis un flux avec des options de chargement supplémentaires |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lit une présentation existante depuis un flux avec des options de chargement supplémentaires |
 
 ### Exemples
 
@@ -77,14 +76,14 @@ L'exemple suivant montre comment mettre à jour les propriétés d'une présenta
 [C#]
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
-props.Title = "Mon titre";
+props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* interface [IPresentationFactory](../ipresentationfactory)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [IPresentationFactory](../ipresentationfactory)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

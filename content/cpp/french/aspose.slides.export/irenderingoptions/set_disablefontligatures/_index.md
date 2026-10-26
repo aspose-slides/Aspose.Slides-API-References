@@ -1,0 +1,38 @@
+---
+title: set_DisableFontLigatures()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsque la valeur est true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
+type: docs
+weight: 53
+url: /fr/aspose.slides.export/irenderingoptions/set_disablefontligatures/
+---
+## IRenderingOptions::set_DisableFontLigatures(bool) méthode
+
+Définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsque la valeur est **true**, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur **false**.
+
+```cpp
+virtual void Aspose::Slides::Export::IRenderingOptions::set_DisableFontLigatures(bool value)=0
+```
+
+## Remarques
+
+Exemple :
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+System::SharedPtr<RenderingOptions> options = System::MakeObject<RenderingOptions>();
+options->set_DisableFontLigatures(true); // Désactiver les ligatures lors du rendu du texte
+
+System::ArrayPtr<System::SharedPtr<IImage>> renderedSlides = pres->GetImages(options);
+for (int32_t index = 0; index < renderedSlides->get_Length(); index++)
+{
+    auto slideImage = renderedSlides[index];
+    slideImage->Save(System::String::Format(u"slide-{0}.png", index));
+}
+```
+
+## Voir aussi
+
+* Classe [IRenderingOptions](../)
+* Espace de noms [Aspose::Slides::Export](../../)
+* Bibliothèque [Aspose.Slides](../../../)

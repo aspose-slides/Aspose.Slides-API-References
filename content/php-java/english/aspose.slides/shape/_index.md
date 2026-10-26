@@ -63,7 +63,7 @@ String
 | getBasePlaceholder () | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Table](../table), [SmartArtShape](../smartartshape), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [InkActions](../inkactions), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Chart](../chart), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
 
 
 ---
@@ -151,7 +151,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getHeight () | Gets or sets the height of the shape, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 float
@@ -276,7 +276,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getOfficeInteropShapeId () | Gets unique shape identifier in slide scope. Read-only long. See also ( #getUniqueId) for getting unique shape identifier in presentation scope. |
+| getOfficeInteropShapeId () | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. Read-only long. See also #getUniqueId. |
 
  **Returns:**
 long
@@ -289,7 +289,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getParentGroup () | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape. Property ( #isGrouped) determines whether the shape is grouped. |
+| getParentGroup () | Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only IGroupShape. Property #isGrouped determines whether the shape is grouped. |
 
  **Returns:**
 [GroupShape](../groupshape)
@@ -389,48 +389,27 @@ float
 ---
 
 
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail () | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnail {#getThumbnail}
-
-| Name | Description |
-| --- | --- |
-| getThumbnail (int, float, float) | Returns shape thumbnail. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| bounds | int | Shape thumbnail bounds type. |
-| scaleX | float | X scale |
-| scaleY | float | Y scale |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
 ### getUniqueId {#getUniqueId}
 
 | Name | Description |
 | --- | --- |
-| getUniqueId () | Gets unique shape identifier in presentation scope. Read-only long. See also ( #getOfficeInteropShapeId) for getting unique shape identifier in slide scope. |
+| getUniqueId () | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only long. See also #getOfficeInteropShapeId. |
 
  **Returns:**
 long
+
+
+---
+
+
+### getVisualBounds {#getVisualBounds}
+
+| Name | Description |
+| --- | --- |
+| getVisualBounds () | Gets the visual bounds of the shape calculated from its rendered content. |
+
+ **Returns:**
+Rectangle2D.Float
 
 
 ---
@@ -440,7 +419,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| getWidth () | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getWidth () | Gets or sets the width of the shape, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 float
@@ -453,7 +432,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getX () | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getX () | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 float
@@ -466,7 +445,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getY () | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| getY () | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 float
@@ -505,7 +484,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| isGrouped () | Determines whether the shape is grouped. Read-only boolean. Property ( #getParentGroup) returns parent GroupShape object if shape is grouped. |
+| isGrouped () | Determines whether the shape is grouped. Read-only boolean. Property #getParentGroup returns parent GroupShape object if shape is grouped. |
 
  **Returns:**
 boolean
@@ -609,7 +588,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setHeight (float) | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setHeight (float) | Gets or sets the height of the shape, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 void
@@ -700,7 +679,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setWidth (float) | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setWidth (float) | Gets or sets the width of the shape, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 void
@@ -713,7 +692,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setX (float) | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setX (float) | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 void
@@ -726,7 +705,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setY (float) | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
+| setY (float) | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write float. The value returned is always defined and never Float.NaN. The value assigned must also be defined; assign Float.NaN only to properties of a RawFrame instance. |
 
  **Returns:**
 void

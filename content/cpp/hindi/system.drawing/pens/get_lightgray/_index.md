@@ -1,0 +1,24 @@
+---
+title: get_LightGray()
+second_title: Aspose.Slides के लिए C++ API रेफ़रेंस
+description: एक Pen ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFD3D3D3 मान रखता है।
+type: docs
+weight: 898
+url: /hi/system.drawing/pens/get_lightgray/
+---
+## Pens::get_LightGray() विधि
+
+
+एक [Pen](../../pen/) ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हेक्साडेसिमल नोटेशन में #FFD3D3D3 मान रखता है।
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_LightGray()
+```
+
+## संबंधित देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Pen](../../pen/)
+* क्लास [Pens](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

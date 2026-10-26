@@ -1,0 +1,25 @@
+---
+title: get_IsReadOnly()
+second_title: Référence de l'API Aspose.Slides pour C++
+description: Renvoie une valeur indiquant si l'ICollection est en lecture seule. Lecture seule bool.
+type: docs
+weight: 14
+url: /fr/aspose.slides.animation/behaviorpropertycollection/get_isreadonly/
+---
+## BehaviorPropertyCollection::get_IsReadOnly() const méthode
+
+Renvoie une valeur indiquant si le [ICollection](../../../system.collections.generic/icollection/) est en lecture seule. Lecture seule **bool**.
+
+```cpp
+bool Aspose::Slides::Animation::BehaviorPropertyCollection::get_IsReadOnly() const override
+```
+
+### Valeur de retour
+
+true si le [ICollection](../../../system.collections.generic/icollection/) est en lecture seule; sinon, false.
+
+## Voir aussi
+
+* Classe [BehaviorPropertyCollection](../)
+* Espace de noms [Aspose::Slides::Animation](../../)
+* Bibliothèque [Aspose.Slides](../../../)

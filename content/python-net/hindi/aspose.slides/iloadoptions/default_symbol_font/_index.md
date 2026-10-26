@@ -1,0 +1,28 @@
+---
+title: default_symbol_font property
+second_title: Aspose.Slides के लिए Python द्वारा .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/iloadoptions/default_symbol_font/
+weight: 40
+---
+## default_symbol_font प्रॉपर्टी
+जब स्रोत फ़ॉन्ट नहीं मिला हो तो उपयोग किए जाने वाले Symbol फ़ॉन्ट को लौटाता है या सेट करता है.
+            पढ़ने-लिखने योग्य **str**.
+
+### परिभाषा:
+```python
+@property
+def default_symbol_font(self):
+    ...
+
+@default_symbol_font.setter
+def default_symbol_font(self, value):
+    ...
+```
+
+
+### देखें
+* क्लास [`ILoadOptions`](/slides/python-net/hi/aspose.slides/iloadoptions)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

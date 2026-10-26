@@ -17,7 +17,7 @@ url: /aspose.slides/slideimageformat/
 | --- | --- |
 | SlideImageFormat() |  |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 
@@ -28,16 +28,16 @@ SlideImageFormat
 
 | Name | Description |
 | --- | --- |
-| bitmap (float, String) | Slides should be converted to a raster image. |
+| bitmap (float, int) | Slides should be converted to a raster image. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| scale | float | Image scale factor. |
-| imgFormat | String | Image format. |
+| scale | float | The factor by which to scale the output image. |
+| imageFormat | int | The format of the resulting image (e.g., PNG, JPEG). |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 
@@ -56,7 +56,7 @@ SlideImageFormat
 | --- | --- | --- |
 | options | [SVGOptions](../svgoptions) | Options for SVG export. |
 
- **Result:**
+ **Returns:**
 SlideImageFormat
 
 

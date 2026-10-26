@@ -1,0 +1,34 @@
+---
+title: CreateFontData()
+second_title: Aspose.Slides für C++ API-Referenz
+description: Erstellt FontData mit dem angegebenen Schriftartnamen.
+type: docs
+weight: 1
+url: /de/aspose.slides/ifontdatafactory/createfontdata/
+---
+## IFontDataFactory::CreateFontData(System::String) Methode
+
+Erstellt [FontData](../../fontdata/) mit dem angegebenen Schriftartnamen.
+
+```cpp
+virtual System::SharedPtr<IFontData> Aspose::Slides::IFontDataFactory::CreateFontData(System::String fontName)=0
+```
+
+### Argumente
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| fontName | [System::String](../../../system/string/) | Schriftartname |
+
+### Rückgabewert
+
+[FontData](../../fontdata/)
+
+## Siehe auch
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klasse [IFontData](../../ifontdata/)
+* Klasse [String](../../../system/string/)
+* Klasse [IFontDataFactory](../)
+* Namensraum [Aspose::Slides](../../)
+* Bibliothek [Aspose.Slides](../../../)

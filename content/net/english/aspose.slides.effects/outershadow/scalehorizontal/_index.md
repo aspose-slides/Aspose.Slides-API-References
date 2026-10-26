@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the horizontal scaling factor negative scaling causes a flip. Read/write Double.
+description: Horizontal scaling factor in percent of the original size. Negative scaling causes a flip. Default value  100 . Read/write Double.
 type: docs
 weight: 60
 url: /aspose.slides.effects/outershadow/scalehorizontal/
@@ -9,7 +9,7 @@ url: /aspose.slides.effects/outershadow/scalehorizontal/
 
 ## OuterShadow.ScaleHorizontal property
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write Double.
+Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value – 100 %. Read/write Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }

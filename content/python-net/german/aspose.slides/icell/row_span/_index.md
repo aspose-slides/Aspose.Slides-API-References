@@ -1,0 +1,24 @@
+---
+title: row_span property
+second_title: Aspose.Slides für Python via .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/icell/row_span/
+weight: 240
+---
+## row_span-Eigenschaft
+Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle umfasst. Dies wird in Kombination
+            mit dem vMerge-Attribut in anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben.
+            Nur lesen **int**.
+
+### Definition:
+```python
+@property
+def row_span(self):
+    ...
+```
+
+### Siehe auch
+* Klasse [`ICell`](/slides/python-net/de/aspose.slides/icell)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

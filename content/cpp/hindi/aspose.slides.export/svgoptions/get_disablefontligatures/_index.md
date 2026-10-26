@@ -1,0 +1,36 @@
+---
+title: get_DisableFontLigatures()
+second_title: C++ के लिए Aspose.Slides एपीआई संदर्भ
+description: एक मान प्राप्त करता है जो संकेत करता है कि पाठ को लिगेचर का उपयोग किए बिना रेंडर किया जाता है या नहीं। जब इसे true पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह गुण false पर सेट होता है।
+type: docs
+weight: 326
+url: /hi/aspose.slides.export/svgoptions/get_disablefontligatures/
+---
+## SVGOptions::get_DisableFontLigatures() मेथड
+
+
+पाठ को लिगेचर का उपयोग किए बिना रेंडर किया जाता है या नहीं, यह दर्शाता हुआ मान प्राप्त करता है। जब **true** पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह गुण **false** पर सेट होता है।
+
+```cpp
+bool Aspose::Slides::Export::SVGOptions::get_DisableFontLigatures() override
+```
+
+## टिप्पणी
+
+
+उदाहरण: 
+```cpp
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+System::SharedPtr<SVGOptions> options = System::MakeObject<SVGOptions>();
+options->set_DisableFontLigatures(true); // टेक्स्ट रेंडरिंग में लिगेचर निष्क्रिय करें
+
+System::SharedPtr<System::IO::FileStream> fileStream = System::MakeObject<System::IO::FileStream>(u"slide-0.svg", System::IO::FileMode::Create, System::IO::FileAccess::Write);
+pres->get_Slide(0)->WriteAsSvg(fileStream);
+```
+
+## देखें
+
+* क्लास [SVGOptions](../)
+* नेमस्पेस [Aspose::Slides::Export](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

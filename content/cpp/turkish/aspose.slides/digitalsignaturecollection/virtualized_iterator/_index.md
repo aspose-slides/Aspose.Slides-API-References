@@ -1,0 +1,22 @@
+---
+title: virtualized_iterator
+second_title: Aspose.Slides için C++ API Referansı
+description: Sanallaştırılmış tip.
+type: docs
+weight: 287
+url: /tr/aspose.slides/digitalsignaturecollection/virtualized_iterator/
+---
+## virtualized_iterator typedef
+
+
+Sanallaştırılmış tip.
+
+```cpp
+using Aspose::Slides::DigitalSignatureCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
+```
+
+## Bakınız
+
+* Sınıf [DigitalSignatureCollection](../)
+* Ad alanı [Aspose::Slides](../../)
+* Kütüphane [Aspose.Slides](../../../)

@@ -1,15 +1,14 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes for .NET API Reference
-description: 指定一组方程或任何数学对象的垂直数组
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定一个垂直数组，包含方程式或任何数学对象
 type: docs
-weight: 7850
+weight: 8100
 url: /zh/aspose.slides.mathtext/imatharray/
 ---
-
 ## IMathArray 接口
 
-指定一组方程或任何数学对象的垂直数组
+指定一个垂直数组，包含方程式或任何数学对象
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -19,13 +18,13 @@ public interface IMathArray : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 数组的项目集合 |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | 允许获取基接口 IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 指定数组相对于周围文本的对齐方式 数组外的文本可以与数组对象的底部、顶部或中心对齐。 默认值：Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 最大分布 为 true 时，数组的间隔扩展到包含元素（页面、列、单元格等）的最大宽度。 |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | 对象分布 为 true 时，数组的内容间隔扩展到数组对象的最大宽度。 |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 数组行之间的间距 仅在 RowSpacingRule 设置为 3 时使用，确切情况下计量单位为点，或设置为倍数时计量单位为半行。 默认值：0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | 数组元素之间的垂直间距类型 |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 数组的项集合 |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 指定数组相对于周围文本的对齐方式。数组外的文本可以与数组对象的底部、顶部或中心对齐。默认值：Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 最大分布。当为 true 时，数组会被拉伸至其包含元素（页面、列、单元格等）的最大宽度。 |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | 对象分布。当为 true 时，数组的内容会被拉伸至数组对象的最大宽度。 |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 数组行之间的间距。仅在 RowSpacingRule 设置为 3 Exactly 时使用，此时度量单位为点；或在设置为 Multiple 时，度量单位为半行。默认值：0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | 数组元素之间垂直间距的类型 |
 
 ### 示例
 

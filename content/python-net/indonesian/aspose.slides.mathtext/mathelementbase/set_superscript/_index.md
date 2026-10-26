@@ -1,0 +1,53 @@
+---
+title: set_superscript method
+second_title: Aspose.Slides untuk Python via .NET Referensi API
+description: 
+type: docs
+url: /id/aspose.slides.mathtext/mathelementbase/set_superscript/
+weight: 170
+---
+## set_superscript(self, superscript) {#imathelement}
+Membuat superskrip
+
+### Mengembalikan
+Elemen matematika baru tipe [`IMathSuperscriptElement`](/slides/python-net/id/aspose.slides.mathtext/imathsuperscriptelement)
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| Parameter | Tipe | Deskripsi |
+| :- | :- | :- |
+| superscript | [`IMathElement`](/slides/python-net/id/aspose.slides.mathtext/imathelement) | Superskrip (indeks atas di sebelah kanan) |
+
+
+## set_superscript(self, superscript) {#str}
+Membuat superskrip
+
+### Mengembalikan
+Elemen matematika baru tipe [`IMathSuperscriptElement`](/slides/python-net/id/aspose.slides.mathtext/imathsuperscriptelement)
+
+
+
+```python
+def set_superscript(self, superscript):
+    ...
+```
+
+
+| Parameter | Tipe | Deskripsi |
+| :- | :- | :- |
+| superscript | **str** | Superskrip (indeks atas di sebelah kanan) |
+
+
+
+### Lihat Juga
+* kelas [`IMathElement`](/slides/python-net/id/aspose.slides.mathtext/imathelement)
+* kelas [`IMathSuperscriptElement`](/slides/python-net/id/aspose.slides.mathtext/imathsuperscriptelement)
+* kelas [`MathElementBase`](/slides/python-net/id/aspose.slides.mathtext/mathelementbase)
+* modul [`aspose.slides.mathtext`](/slides/python-net/id/aspose.slides.mathtext)
+* pustaka [`Aspose.Slides`](/slides/python-net)

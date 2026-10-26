@@ -1,15 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes for .NET API Reference
-description: 代表编号项目符号的样式。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示编号项目符号的样式。
 type: docs
-weight: 8910
+weight: 9180
 url: /zh/aspose.slides/numberedbulletstyle/
 ---
-
 ## NumberedBulletStyle 枚举
 
-代表编号项目符号的样式。
+表示编号项目符号的样式。
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -20,51 +19,51 @@ public enum NumberedBulletStyle : sbyte
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定义。 |
-| BulletAlphaLCPeriod | `0` | 小写字母字符，后跟句号。示例：a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | 大写字母字符，后跟句号。示例：A., B., C., ... |
-| BulletArabicParenRight | `2` | 阿拉伯数字，后跟右括号。示例：1), 2), 3), ... |
-| BulletArabicPeriod | `3` | 阿拉伯数字，后跟句号。示例：1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | 小写罗马数字，前后都有括号。示例：(i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | 小写罗马数字，后跟右括号。示例：i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | 小写罗马数字，后跟句号。示例：i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | 大写罗马数字，后跟句号。示例：I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | 小写字母字符，前后都有括号。示例：(a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | 小写字母字符，后跟右括号。示例：a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | 大写字母字符，前后都有括号。示例：(A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | 大写字母字符，后跟右括号。示例：A), B), C), ... |
-| BulletArabicParenBoth | `12` | 阿拉伯数字，前后都有括号。示例：(1), (2), (3), ... |
+| BulletAlphaLCPeriod | `0` | 小写字母字符加句点。示例：a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | 大写字母字符加句点。示例：A., B., C., ... |
+| BulletArabicParenRight | `2` | 阿拉伯数字加右括号。示例：1), 2), 3), ... |
+| BulletArabicPeriod | `3` | 阿拉伯数字加句点。示例：1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | 小写罗马数字加两侧括号。示例：(i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | 小写罗马数字加右括号。示例：i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | 小写罗马数字加句点。示例：i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | 大写罗马数字加句点。示例：I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | 小写字母字符加两侧括号。示例：(a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | 小写字母字符加右括号。示例：a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | 大写字母字符加两侧括号。示例：(A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | 大写字母字符加右括号。示例：A), B), C), ... |
+| BulletArabicParenBoth | `12` | 阿拉伯数字加两侧括号。示例：(1), (2), (3), ... |
 | BulletArabicPlain | `13` | 阿拉伯数字。示例：1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | 大写罗马数字，前后都有括号。示例：(I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | 大写罗马数字，后跟右括号。示例：I), II), III), ... |
-| BulletSimpChinPlain | `16` | 简体中文，无句号。 |
-| BulletSimpChinPeriod | `17` | 简体中文，后跟句号。 |
-| BulletCircleNumDBPlain | `18` | 双字节圆圈数字，值为1到10，11及以上为阿拉伯数字。 |
-| BulletCircleNumWDWhitePlain | `19` | 文字颜色数字，周围绘有相同颜色的圆圈（Wingdings 白色圆圈数字）。从11开始为阿拉伯数字。 |
-| BulletCircleNumWDBlackPlain | `20` | 阴影颜色数字，周围有正常文本颜色的圆形背景（Wingdings 黑色圆圈数字）。 |
-| BulletTradChinPlain | `21` | 繁体中文，无句号。 |
-| BulletTradChinPeriod | `22` | 繁体中文，后跟句号。 |
-| BulletArabicAlphaDash | `23` | 阿拉伯语言字母字符，后跟破折号。 |
-| BulletArabicAbjadDash | `24` | 阿拉伯 Abjad 字母，后跟破折号。 |
-| BulletHebrewAlphaDash | `25` | 希伯来语言字母字符，后跟破折号。 |
-| BulletKanjiKoreanPlain | `26` | 日语/韩语数字，无句号。 |
-| BulletKanjiKoreanPeriod | `27` | 日语/韩语数字，后跟句号。 |
-| BulletArabicDBPlain | `28` | 双字节阿拉伯编号方案（无标点符号）。 |
-| BulletArabicDBPeriod | `29` | 带双字节句号的双字节阿拉伯编号方案。 |
-| BulletThaiAlphaPeriod | `30` | 泰文字母句号。 |
-| BulletThaiAlphaParenRight | `31` | 泰文字母右括号。 |
-| BulletThaiAlphaParenBoth | `32` | 泰文字母前后括号。 |
-| BulletThaiNumPeriod | `33` | 泰数字句号。 |
-| BulletThaiNumParenRight | `34` | 泰数字右括号。 |
-| BulletThaiNumParenBoth | `35` | 泰数字前后括号。 |
-| BulletHindiAlphaPeriod | `36` | 印地语字母句号 - 元音。 |
-| BulletHindiNumPeriod | `37` | 印地语数字句号。 |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji 简体中文 DBPeriod。 |
-| BulletHindiNumParenRight | `39` | 印地语数字右括号。 |
-| BulletHindiAlpha1Period | `40` | 印地语字母句号 - 辅音。 |
+| BulletRomanUCParenBoth | `14` | 大写罗马数字加两侧括号。示例：(I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | 大写罗马数字加右括号。示例：I), II), III), ... |
+| BulletSimpChinPlain | `16` | 简体中文（无句点）。 |
+| BulletSimpChinPeriod | `17` | 简体中文（有句点）。 |
+| BulletCircleNumDBPlain | `18` | 双字节圆圈数字，适用于 1 到 10 的值，11 之后使用阿拉伯数字。 |
+| BulletCircleNumWDWhitePlain | `19` | 文本颜色数字，周围绘制同色圆圈（Wingdings 白色圆圈数字）。11 起使用阿拉伯数字。 |
+| BulletCircleNumWDBlackPlain | `20` | 阴影颜色数字，圆形背景为普通文本颜色（Wingdings 黑色圆圈数字）。 |
+| BulletTradChinPlain | `21` | 繁体中文（无句点）。 |
+| BulletTradChinPeriod | `22` | 繁体中文（有句点）。 |
+| BulletArabicAlphaDash | `23` | 阿拉伯语字母字符加短横线。 |
+| BulletArabicAbjadDash | `24` | 阿拉伯字母表字符加短横线。 |
+| BulletHebrewAlphaDash | `25` | 希伯来语字母字符加短横线。 |
+| BulletKanjiKoreanPlain | `26` | 日语/韩语数字（无句点）。 |
+| BulletKanjiKoreanPeriod | `27` | 日语/韩语数字（有句点）。 |
+| BulletArabicDBPlain | `28` | 双字节阿拉伯数字编号方案（无标点）。 |
+| BulletArabicDBPeriod | `29` | 双字节阿拉伯数字编号方案，使用双字节句点。 |
+| BulletThaiAlphaPeriod | `30` | 泰文字母加句点。 |
+| BulletThaiAlphaParenRight | `31` | 泰文字母右侧括号。 |
+| BulletThaiAlphaParenBoth | `32` | 泰文字母两侧括号。 |
+| BulletThaiNumPeriod | `33` | 泰国数字加句点。 |
+| BulletThaiNumParenRight | `34` | 泰国数字右侧括号。 |
+| BulletThaiNumParenBoth | `35` | 泰国数字两侧括号。 |
+| BulletHindiAlphaPeriod | `36` | 印地语字母加句点——元音。 |
+| BulletHindiNumPeriod | `37` | 印地语数字加句点。 |
+| BulletKanjiSimpChinDBPeriod | `38` | 汉字简体中文双字节句点。 |
+| BulletHindiNumParenRight | `39` | 印地语数字右侧括号。 |
+| BulletHindiAlpha1Period | `40` | 印地语字母加句点——辅音。 |
 
-### 另请参见
+### 另见
 
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

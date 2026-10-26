@@ -1,0 +1,25 @@
+---
+title: get_effective method
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+description: 
+type: docs
+url: /fa/aspose.slides.effects/iluminance/get_effective/
+weight: 10
+---
+## get_effective(self) {#}
+
+
+
+```python
+def get_effective(self):
+    ...
+```
+
+
+
+
+### همچنین ببینید
+* کلاس [`ILuminance`](/slides/python-net/fa/aspose.slides.effects/iluminance)
+* کلاس [`ILuminanceEffectiveData`](/slides/python-net/fa/aspose.slides.effects/iluminanceeffectivedata)
+* ماژول [`aspose.slides.effects`](/slides/python-net/fa/aspose.slides.effects)
+* کتابخانه [`Aspose.Slides`](/slides/python-net)

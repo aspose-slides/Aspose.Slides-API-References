@@ -1,15 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui maintient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de distribution et de notes.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente le gestionnaire qui conserve le comportement des espaces réservés, y compris l'espace réservé d'en-tête pour tous les types de diapositives de support et de notes.
 type: docs
-weight: 870
+weight: 950
 url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
+## BaseHandoutNotesSlideHeaderFooterManager classe
 
-## Classe BaseHandoutNotesSlideHeaderFooterManager
-
-Représente le gestionnaire qui maintient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête pour tous les types de diapositives de distribution et de notes.
+Représente le gestionnaire qui contient le comportement des espaces réservés, y compris l'espace réservé d’en-tête pour tous les types de diapositive de main-levée et de notes.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -20,28 +19,28 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Nom | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour la date et l'heure est présent. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le pied de page est présent. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour l'en-tête est présent. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu’un espace réservé date-time est présent. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu’un espace réservé pied de page est présent. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtient la valeur indiquant qu’un espace réservé en-tête est présent. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu’un espace réservé numéro de page est présent. ReadBoolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte pour l'espace réservé de date et heure de la diapositive. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé de date et heure de la diapositive. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte pour l'espace réservé de pied de page de la diapositive. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte pour l'espace réservé d'en-tête de la diapositive. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Change la visibilité de l'espace réservé d'en-tête de la diapositive. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé de numéro de page de la diapositive. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte de l’espace réservé date-time de la diapositive. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifie la visibilité de l’espace réservé date-time de la diapositive. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte de l’espace réservé pied de page de la diapositive. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Modifie la visibilité de l’espace réservé pied de page de la diapositive. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Définit le texte de l’espace réservé en-tête de la diapositive. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Modifie la visibilité de l’espace réservé en-tête de la diapositive. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifie la visibilité de l’espace réservé numéro de page de la diapositive. |
 
 ### Voir aussi
 
-* classe [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

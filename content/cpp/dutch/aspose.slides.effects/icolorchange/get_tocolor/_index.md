@@ -1,0 +1,24 @@
+---
+title: get_ToColor()
+second_title: Aspose.Slides voor C++ API-referentie
+description: Kleur die zal vervangen. Alleen-lezen IColorFormat.
+type: docs
+weight: 14
+url: /nl/aspose.slides.effects/icolorchange/get_tocolor/
+---
+## IColorChange::get_ToColor() methode
+
+
+Kleur die zal worden vervangen. Alleen-lezen [IColorFormat](../../../aspose.slides/icolorformat/).
+
+```cpp
+virtual System::SharedPtr<IColorFormat> Aspose::Slides::Effects::IColorChange::get_ToColor()=0
+```
+
+## Zie ook
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Klasse [IColorFormat](../../../aspose.slides/icolorformat/)
+* Klasse [IColorChange](../)
+* Naamruimte [Aspose::Slides::Effects](../../)
+* Library [Aspose.Slides](../../../)

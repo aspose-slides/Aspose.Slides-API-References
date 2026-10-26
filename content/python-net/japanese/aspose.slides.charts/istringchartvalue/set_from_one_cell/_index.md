@@ -1,0 +1,29 @@
+---
+title: set_from_one_cell method
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.charts/istringchartvalue/set_from_one_cell/
+weight: 20
+---
+## set_from_one_cell(self, cell) {#ichartdatacell}
+指定されたセルから値を設定します。
+
+
+```python
+def set_from_one_cell(self, cell):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| cell | [`IChartDataCell`](/slides/python-net/ja/aspose.slides.charts/ichartdatacell) | Cell. |
+
+
+
+### 関連項目
+* クラス [`IChartDataCell`](/slides/python-net/ja/aspose.slides.charts/ichartdatacell)
+* クラス [`IStringChartValue`](/slides/python-net/ja/aspose.slides.charts/istringchartvalue)
+* モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

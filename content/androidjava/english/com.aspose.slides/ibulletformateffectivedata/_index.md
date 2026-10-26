@@ -24,7 +24,6 @@ This interface is used as a part of [IParagraphFormatEffectiveData](../../com.as
 | [getHeight()](#getHeight--) | Returns the bullet height of a paragraph. |
 | [getNumberedBulletStartWith()](#getNumberedBulletStartWith--) | Returns the first number which is used for group of numbered bullets. |
 | [getNumberedBulletStyle()](#getNumberedBulletStyle--) | Returns the style of a numbered bullet. |
-| [getColor()](#getColor--) | Returns the color of a bullet. |
 | [isBulletHardColor()](#isBulletHardColor--) | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. |
 | [isBulletHardFont()](#isBulletHardFont--) | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. |
 | [getPicture()](#getPicture--) | Returns the picture used as a bullet in the paragraph. |
@@ -99,16 +98,6 @@ Returns the style of a numbered bullet. Read-only [NumberedBulletStyle](../../co
 
 **Returns:**
 byte
-### getColor() {#getColor--}
-```
-public abstract Integer getColor()
-```
-
-
-Returns the color of a bullet. Read-only Color(\#getColor.getColor).
-
-**Returns:**
-java.lang.Integer
 ### isBulletHardColor() {#isBulletHardColor--}
 ```
 public abstract boolean isBulletHardColor()

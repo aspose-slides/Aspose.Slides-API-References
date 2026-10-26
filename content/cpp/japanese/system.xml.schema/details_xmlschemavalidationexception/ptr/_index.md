@@ -1,0 +1,22 @@
+---
+title: Ptr
+second_title: Aspose.Slides for C++ API リファレンス
+description: このクラスのインスタンスへの共有ポインタのエイリアスです。
+type: docs
+weight: 14
+url: /ja/system.xml.schema/details_xmlschemavalidationexception/ptr/
+---
+## Ptr 型エイリアス
+
+
+このクラスのインスタンスへの共有ポインタのエイリアスです。
+
+```cpp
+using System::Xml::Schema::Details_XmlSchemaValidationException::Ptr =  SharedPtr<XmlSchemaValidationException>
+```
+
+## 参照
+
+* クラス [Details_XmlSchemaValidationException](../)
+* 名前空間 [System::Xml::Schema](../../)
+* ライブラリ [Aspose.Slides](../../../)

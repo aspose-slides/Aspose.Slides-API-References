@@ -1,0 +1,165 @@
+---
+title: AlignShapes
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เปลี่ยนตำแหน่งของรูปร่างทั้งหมดบนสไลด์ จัดรูปร่างให้สอดคล้องกับขอบหรือด้านของสไลด์ หรือจัดให้สัมพันธ์กัน
+type: docs
+weight: 10
+url: /th/aspose.slides.util/slideutil/alignshapes/
+---
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
+
+เปลี่ยนตำแหน่งของรูปร่างทั้งหมดบนสไลด์ จัดรูปร่างให้สอดคล้องกับขอบหรือด้านของสไลด์ หรือจัดให้สัมพันธ์กัน
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide)
+```
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | IBaseSlide | สไลด์แม่ |
+
+### ตัวอย่าง
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, true, pres.Slides);
+}
+```
+
+### ดูเพิ่มเติม
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* อินเทอร์เฟซ [IBaseSlide](../../../aspose.slides/ibaseslide)
+* คลาส [SlideUtil](../../slideutil)
+* เนมสเปซ [Aspose.Slides.Util](../../slideutil)
+* แอสเซมบลี [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
+
+เปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์ จัดรูปร่างให้สอดคล้องกับขอบหรือด้านของสไลด์ หรือจัดให้สัมพันธ์กัน
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide, int[] shapeIndexes)
+```
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | IBaseSlide | สไลด์แม่ |
+| shapeIndexes | Int32[] | Indexes of shapes to be aligned. |
+
+### ตัวอย่าง
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ISlide slide = pres.Slides[0];
+   IShape shape1 = slide.Shapes[0];
+   IShape shape2 = slide.Shapes[1]; 
+
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, false, pres.Slides[0], new int[]
+   {
+      slide.Shapes.IndexOf(shape1),
+      slide.Shapes.IndexOf(shape2)
+   });
+}
+```
+
+### ดูเพิ่มเติม
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* อินเทอร์เฟซ [IBaseSlide](../../../aspose.slides/ibaseslide)
+* คลาส [SlideUtil](../../slideutil)
+* เนมสเปซ [Aspose.Slides.Util](../../slideutil)
+* แอสเซมบลี [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
+
+เปลี่ยนตำแหน่งของรูปร่างทั้งหมดภายในกลุ่มรูปร่าง จัดรูปร่างให้สอดคล้องกับขอบหรือด้านของสไลด์ หรือจัดให้สัมพันธ์กัน
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape)
+```
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | IGroupShape | Parent group shape. |
+
+### ตัวอย่าง
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0]);
+}
+```
+
+### ดูเพิ่มเติม
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* อินเทอร์เฟซ [IGroupShape](../../../aspose.slides/igroupshape)
+* คลาส [SlideUtil](../../slideutil)
+* เนมสเปซ [Aspose.Slides.Util](../../slideutil)
+* แอสเซมบลี [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
+
+เปลี่ยนตำแหน่งของรูปร่างที่เลือกภายในกลุ่มรูปร่าง จัดรูปร่างให้สอดคล้องกับขอบหรือด้านของสไลด์ หรือจัดให้สัมพันธ์กัน
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape, int[] shapeIndexes)
+```
+
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | IGroupShape | Parent group shape. |
+| shapeIndexes | Int32[] | Indexes of shapes to be aligned. |
+
+### ตัวอย่าง
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0], new int[] { 0, 2 });
+}
+```
+
+### ดูเพิ่มเติม
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* อินเทอร์เฟซ [IGroupShape](../../../aspose.slides/igroupshape)
+* คลาส [SlideUtil](../../slideutil)
+* เนมสเปซ [Aspose.Slides.Util](../../slideutil)
+* แอสเซมบลี [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

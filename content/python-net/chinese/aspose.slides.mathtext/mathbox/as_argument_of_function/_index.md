@@ -1,0 +1,119 @@
+---
+title: as_argument_of_function method
+second_title: Aspose.Slides for Python via .NET API 参考文档
+description: 
+type: docs
+url: /zh/aspose.slides.mathtext/mathbox/as_argument_of_function/
+weight: 30
+---
+## as_argument_of_function(self, function_name) {#imathelement}
+使用此实例作为参数调用指定函数
+
+### 返回
+
+新 math 元素类型为 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| function_name | [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement) | Function name |
+
+
+## as_argument_of_function(self, function_name) {#str}
+使用此实例作为参数调用指定函数
+
+### 返回
+
+新 math 元素类型为 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_name):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| function_name | **str** | Function name |
+
+
+## as_argument_of_function(self, function_type) {#mathfunctionsofoneargument}
+使用此实例作为参数调用指定函数
+
+### 返回
+
+新 math 元素类型为 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfOneArgument`](/slides/python-net/zh/aspose.slides.mathtext/mathfunctionsofoneargument) | 一个常见的单参数函数类型 |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-imathelement}
+使用此实例作为参数调用指定函数并指定额外参数
+
+### 返回
+
+新 math 元素类型为 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/zh/aspose.slides.mathtext/mathfunctionsoftwoarguments) | 两个参数的常见函数类型之一：Log, Lim, Min, Max |
+| additional_argument | [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement) | 根据函数类型的附加参数 |
+
+
+## as_argument_of_function(self, function_type, additional_argument) {#mathfunctionsoftwoarguments-str}
+使用此实例作为参数调用指定函数并指定额外参数
+
+### 返回
+
+新 math 元素类型为 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+
+
+
+```python
+def as_argument_of_function(self, function_type, additional_argument):
+    ...
+```
+
+
+| 参数 | 类型 | 描述 |
+| :- | :- | :- |
+| function_type | [`MathFunctionsOfTwoArguments`](/slides/python-net/zh/aspose.slides.mathtext/mathfunctionsoftwoarguments) | 两个参数的常见函数类型之一：Log, Lim, Min, Max |
+| additional_argument | **str** | 根据函数类型的附加参数 |
+
+
+
+### 另请参阅
+* 类 [`IMathElement`](/slides/python-net/zh/aspose.slides.mathtext/imathelement)
+* 类 [`IMathFunction`](/slides/python-net/zh/aspose.slides.mathtext/imathfunction)
+* 类 [`MathBox`](/slides/python-net/zh/aspose.slides.mathtext/mathbox)
+* 枚举 [`MathFunctionsOfOneArgument`](/slides/python-net/zh/aspose.slides.mathtext/mathfunctionsofoneargument)
+* 枚举 [`MathFunctionsOfTwoArguments`](/slides/python-net/zh/aspose.slides.mathtext/mathfunctionsoftwoarguments)
+* 模块 [`aspose.slides.mathtext`](/slides/python-net/zh/aspose.slides.mathtext)
+* 库 [`Aspose.Slides`](/slides/python-net)

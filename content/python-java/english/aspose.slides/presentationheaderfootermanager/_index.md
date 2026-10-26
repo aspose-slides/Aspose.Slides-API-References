@@ -11,16 +11,6 @@ url: /aspose.slides/presentationheaderfootermanager/
 
  Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation.
  
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
 ### setAllDateTimesText {#setAllDateTimesText}
 
 | Name | Description |

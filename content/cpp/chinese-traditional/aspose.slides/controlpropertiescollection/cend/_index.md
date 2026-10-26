@@ -1,0 +1,26 @@
+---
+title: cend()
+second_title: Aspose.Slides for C++ API 參考文件
+description: 取得指向集合中最後一個 const 限定元素（如果有）的迭代器，該迭代器位於其之後。
+type: docs
+weight: 144
+url: /zh-hant/aspose.slides/controlpropertiescollection/cend/
+---
+## ControlPropertiesCollection::cend() const 方法
+
+取得指向集合中最後一個 const 限定元素（如果有）的迭代器，該迭代器位於其之後。
+
+```cpp
+const_iterator Aspose::Slides::ControlPropertiesCollection::cend() const noexcept
+```
+
+### 返回值
+
+指向集合中最後一個 const 限定元素（如果有）的迭代器，該迭代器位於其之後
+
+## 參見
+
+* 類型別名 [const_iterator](../const_iterator/)
+* 類別 [ControlPropertiesCollection](../)
+* 命名空間 [Aspose::Slides](../../)
+* 函式庫 [Aspose.Slides](../../../)

@@ -25,7 +25,7 @@ url: /aspose.slides/alphabilevel/
 | --- | --- | --- |
 | obj | Object | The AlphaBiLevel to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 AlphaBiLevelEffectiveData
 
 
@@ -51,7 +51,7 @@ AlphaBiLevelEffectiveData
 | --- | --- |
 | getThreshold () | Returns effect threshold. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -64,7 +64,7 @@ float
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

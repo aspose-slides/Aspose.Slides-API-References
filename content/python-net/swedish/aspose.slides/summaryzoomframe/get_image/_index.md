@@ -1,0 +1,54 @@
+---
+title: get_image method
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides/summaryzoomframe/get_image/
+weight: 30
+---
+## get_image(self) {#}
+Returnerar formens miniatyrbild.  
+ShapeThumbnailBounds.Shape används som standard för miniatyrbildens gränstyp.
+
+### Returnerar
+
+Formens miniatyrbild.
+
+
+
+```python
+def get_image(self):
+    ...
+```
+
+
+
+## get_image(self, bounds, scale_x, scale_y) {#shapethumbnailbounds-float-float}
+Returnerar formens miniatyrbild.
+
+### Returnerar
+
+Formens miniatyrbild eller None om ShapeThumbnailBounds.Appearance används och en form inte har synliga element.
+
+
+
+```python
+def get_image(self, bounds, scale_x, scale_y):
+    ...
+```
+
+
+| Parameter | Typ | Beskrivning |
+| :- | :- | :- |
+| bounds | [`ShapeThumbnailBounds`](/slides/python-net/sv/aspose.slides/shapethumbnailbounds) | Typ för miniatyrbildens gränser. |
+| scale_x | **float** | X-skala |
+| scale_y | **float** | Y-skala |
+
+
+
+### Se också
+* klass [`IImage`](/slides/python-net/sv/aspose.slides/iimage)
+* enum [`ShapeThumbnailBounds`](/slides/python-net/sv/aspose.slides/shapethumbnailbounds)
+* klass [`SummaryZoomFrame`](/slides/python-net/sv/aspose.slides/summaryzoomframe)
+* modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

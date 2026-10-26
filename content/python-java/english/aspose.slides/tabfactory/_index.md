@@ -17,7 +17,7 @@ url: /aspose.slides/tabfactory/
 | --- | --- |
 | TabFactory() |  |
 
- **Result:**
+ **Returns:**
 TabFactory
 
 
@@ -37,7 +37,7 @@ TabFactory
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result:**
+ **Returns:**
 [Tab](../tab)
 
 

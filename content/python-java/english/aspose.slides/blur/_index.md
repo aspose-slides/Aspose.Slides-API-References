@@ -24,7 +24,7 @@ url: /aspose.slides/blur/
 | --- | --- | --- |
 | obj | Object | The Blur to compare. |
 
- **Result:**
+ **Returns:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective() | Gets effective Blur effect data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 BlurEffectiveData
 
 
@@ -50,51 +50,8 @@ BlurEffectiveData
 | --- | --- |
 | getGrow() | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
 
- **Result:**
+ **Returns:**
 boolean
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -106,34 +63,8 @@ Presentation
 | --- | --- |
 | getRadius() | Returns or sets blur radius. Read/write double. |
 
- **Result:**
+ **Returns:**
 double
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
-long
 
 
 ---
@@ -145,7 +76,7 @@ long
 | --- | --- |
 | hashCode() | Serves as a hash function for a particular type. |
 
- **Result:**
+ **Returns:**
 int
 
 

@@ -1,0 +1,34 @@
+---
+title: add_placeholder method
+second_title: Aspose.Slides for Python via .NET API リファレンス
+description: 
+type: docs
+url: /ja/aspose.slides.charts/chart/add_placeholder/
+weight: 10
+---
+## add_placeholder(self, placeholder_to_copy_from) {#iplaceholder}
+新しいプレースホルダーが存在しない場合に追加し、プレースホルダーのプロパティを指定されたものに設定します。
+
+### 戻り値
+
+新しい [`Shape.placeholder`](/slides/python-net/ja/aspose.slides/shape/placeholder).
+
+
+
+```python
+def add_placeholder(self, placeholder_to_copy_from):
+    ...
+```
+
+
+| パラメータ | 型 | 説明 |
+| :- | :- | :- |
+| placeholder_to_copy_from | [`IPlaceholder`](/slides/python-net/ja/aspose.slides/iplaceholder) | コンテンツをコピーするプレースホルダー。 |
+
+
+
+### 参照
+* クラス [`Chart`](/slides/python-net/ja/aspose.slides.charts/chart)
+* クラス [`IPlaceholder`](/slides/python-net/ja/aspose.slides/iplaceholder)
+* モジュール [`aspose.slides.charts`](/slides/python-net/ja/aspose.slides.charts)
+* ライブラリ [`Aspose.Slides`](/slides/python-net)

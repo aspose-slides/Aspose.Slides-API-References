@@ -3,7 +3,7 @@ title: BackgroundType
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines the slide background fill source.
 type: docs
-weight: 860
+weight: 940
 url: /aspose.slides/backgroundtype/
 ---
 

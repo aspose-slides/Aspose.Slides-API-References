@@ -28,7 +28,7 @@ GifOptions
 
 | Name | Description |
 | --- | --- |
-| getDefaultDelay () | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| getDefaultDelay () | Gets or sets default delay time [ms]. This value will be used if ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long) is not set. The default value is 1000. |
 
  **Returns:**
 int
@@ -54,7 +54,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getFrameSize () | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| getFrameSize () | Gets or sets frame size. If the size is empty then the value will be taken from IPresentation#getSlideSize |
 
  **Returns:**
 Dimension
@@ -80,7 +80,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDefaultDelay (int) | Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set. The default value is 1000. |
+| setDefaultDelay (int) | Gets or sets default delay time [ms]. This value will be used if ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long) is not set. The default value is 1000. |
 
  **Returns:**
 void
@@ -106,7 +106,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setFrameSize (Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from ( IPresentation#getSlideSize) |
+| setFrameSize (Dimension) | Gets or sets frame size. If the size is empty then the value will be taken from IPresentation#getSlideSize |
 
  **Returns:**
 void

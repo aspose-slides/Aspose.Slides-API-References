@@ -555,6 +555,19 @@ MasterNotesSlideManager
 ---
 
 
+### getSensitivityLabels {#getSensitivityLabels}
+
+| Name | Description |
+| --- | --- |
+| getSensitivityLabels () | Returns the collection of sensitivity labels applied to the presentation document. Read-only ISensitivityLabelCollection. |
+
+ **Returns:**
+[SensitivityLabelCollection](../sensitivitylabelcollection)
+
+
+---
+
+
 ### getSlideById {#getSlideById}
 
 | Name | Description |
@@ -626,129 +639,6 @@ int
 ---
 
 
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions), int[]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions), int[], float, float) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getThumbnails {#getThumbnails}
-
-| Name | Description |
-| --- | --- |
-| getThumbnails ([RenderingOptions](../renderingoptions), int[], Dimension) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [RenderingOptions](../renderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | Dimension | Size of the image to create. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
 ### getVbaProject {#getVbaProject}
 
 | Name | Description |
@@ -788,11 +678,117 @@ BufferedImage
 ---
 
 
+### highlightRegex {#highlightRegex}
+
+| Name | Description |
+| --- | --- |
+| highlightRegex (Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the regular expression with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### highlightText {#highlightText}
+
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color) | Highlights all matches of the sample text with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### highlightText {#highlightText}
+
+| Name | Description |
+| --- | --- |
+| highlightText (String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the sample text with the specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
 | joinPortionsWithSameFormatting () | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### replaceRegex {#replaceRegex}
+
+| Name | Description |
+| --- | --- |
+| replaceRegex (Pattern, String, [IFindResultCallback](../ifindresultcallback)) | Replaces all matches of the regular expression with the specified string. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to replace. |
+| newText | String | The string to replace all occurrences of the strings to be replaced. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### replaceText {#replaceText}
+
+| Name | Description |
+| --- | --- |
+| replaceText (String, String, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Replaces all occurrences of the specified text with another specified text. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| oldText | String | The string to be replaced. |
+| newText | String | The string to replace all occurrences of oldText. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
  **Returns:**
 void
@@ -950,7 +946,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -958,7 +954,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -971,7 +967,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -979,7 +975,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1013,7 +1009,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1021,7 +1017,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1034,7 +1030,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1042,7 +1038,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1274,7 +1270,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1282,7 +1278,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1301,7 +1297,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1309,7 +1305,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1355,7 +1351,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1363,7 +1359,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1382,7 +1378,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1390,7 +1386,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1673,7 +1669,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1682,7 +1678,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1695,7 +1691,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1704,7 +1700,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1739,7 +1735,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1748,7 +1744,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1761,7 +1757,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1770,7 +1766,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2032,7 +2028,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2041,7 +2037,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2060,7 +2056,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2069,7 +2065,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2116,7 +2112,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2125,7 +2121,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -2144,7 +2140,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2153,7 +2149,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void

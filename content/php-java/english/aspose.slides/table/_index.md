@@ -24,6 +24,19 @@ url: /aspose.slides/table/
 ---
 
 
+### getFillFormat {#getFillFormat}
+
+| Name | Description |
+| --- | --- |
+| getFillFormat () | Returns a TableFormat.FillFormat object containing the fill formatting for the Table. Read-only IFillFormat. |
+
+ **Returns:**
+[FillFormat](../fillformat)
+
+
+---
+
+
 ### getFirstCol {#getFirstCol}
 
 | Name | Description |

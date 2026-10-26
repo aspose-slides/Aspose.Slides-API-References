@@ -1,0 +1,30 @@
+---
+title: add_alpha_modulate_effect method
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides.effects/imagetransformoperationcollection/add_alpha_modulate_effect/
+weight: 50
+---
+## add_alpha_modulate_effect(self) {#}
+Lägger till den nya Alpha Modulate-effekten i slutet av en samling.
+
+### Returnerar
+
+Index för den nya bildeffekten i en samling.
+
+
+
+```python
+def add_alpha_modulate_effect(self):
+    ...
+```
+
+
+
+
+### Se också
+* klass [`IAlphaModulate`](/slides/python-net/sv/aspose.slides.effects/ialphamodulate)
+* klass [`ImageTransformOperationCollection`](/slides/python-net/sv/aspose.slides.effects/imagetransformoperationcollection)
+* modul [`aspose.slides.effects`](/slides/python-net/sv/aspose.slides.effects)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

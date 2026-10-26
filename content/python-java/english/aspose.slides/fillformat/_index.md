@@ -17,7 +17,7 @@ url: /aspose.slides/fillformat/
 | --- | --- |
 | getEffective() | Gets effective fill formatting data with the inheritance applied. |
 
- **Result:**
+ **Returns:**
 FillFormatEffectiveData
 
 
@@ -30,7 +30,7 @@ FillFormatEffectiveData
 | --- | --- |
 | getFillType() | Returns or sets the type of filling. Read/write FillType. |
 
- **Result:**
+ **Returns:**
 byte
 
 
@@ -43,38 +43,8 @@ byte
 | --- | --- |
 | getGradientFormat() | Returns the gradient fill format. Read-only IGradientFormat. |
 
- **Result:**
+ **Returns:**
 [GradientFormat](../gradientformat)
-
-
----
-
-
-### getParent_IPresentationComponent {#getParent_IPresentationComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_IPresentationComponent() |  |
-
-
----
-
-
-### getParent_ISlideComponent {#getParent_ISlideComponent}
-
-| Name | Description |
-| --- | --- |
-| getParent_ISlideComponent() |  |
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -86,7 +56,7 @@ byte
 | --- | --- |
 | getPatternFormat() | Returns the pattern fill format. Read-only IPatternFormat. |
 
- **Result:**
+ **Returns:**
 [PatternFormat](../patternformat)
 
 
@@ -99,21 +69,8 @@ byte
 | --- | --- |
 | getPictureFillFormat() | Returns the picture fill format. Read-only IPictureFillFormat. |
 
- **Result:**
+ **Returns:**
 [PictureFillFormat](../picturefillformat)
-
-
----
-
-
-### getPresentation {#getPresentation}
-
-| Name | Description |
-| --- | --- |
-| getPresentation() |  |
-
- **Result:**
-Presentation
 
 
 ---
@@ -125,21 +82,8 @@ Presentation
 | --- | --- |
 | getRotateWithShape() | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 
- **Result:**
+ **Returns:**
 byte
-
-
----
-
-
-### getSlide {#getSlide}
-
-| Name | Description |
-| --- | --- |
-| getSlide() |  |
-
- **Result:**
-BaseSlide
 
 
 ---
@@ -151,7 +95,7 @@ BaseSlide
 | --- | --- |
 | getSolidFillColor() | Returns the fill color. Read-only IColorFormat. |
 
- **Result:**
+ **Returns:**
 [ColorFormat](../colorformat)
 
 
@@ -164,20 +108,7 @@ BaseSlide
 | --- | --- |
 | getVersion() |  |
 
- **Result:**
-long
-
-
----
-
-
-### getVersion {#getVersion}
-
-| Name | Description |
-| --- | --- |
-| getVersion() |  |
-
- **Result:**
+ **Returns:**
 long
 
 

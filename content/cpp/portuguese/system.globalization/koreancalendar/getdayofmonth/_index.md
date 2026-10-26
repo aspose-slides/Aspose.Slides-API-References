@@ -1,0 +1,32 @@
+---
+title: GetDayOfMonth()
+second_title: Referência da API Aspose.Slides para C++
+description: Obtém o dia do mês para o ponto de tempo especificado.
+type: docs
+weight: 170
+url: /pt/system.globalization/koreancalendar/getdayofmonth/
+---
+## KoreanCalendar::GetDayOfMonth(DateTime) const método
+
+Obtém o dia do mês para o ponto de tempo especificado.
+
+```cpp
+int System::Globalization::KoreanCalendar::GetDayOfMonth(DateTime time) const override
+```
+
+### Argumentos
+
+| Parâmetro | Tipo | Descrição |
+| --- | --- | --- |
+| time | [DateTime](../../../system/datetime/) | Hora e data das quais extrair os dados. |
+
+### Valor de Retorno
+
+Dia do mês no ponto de tempo fornecido.
+
+## Veja Também
+
+* Classe [DateTime](../../../system/datetime/)
+* Classe [KoreanCalendar](../)
+* Espaço de nomes [System::Globalization](../../)
+* Biblioteca [Aspose.Slides](../../../)

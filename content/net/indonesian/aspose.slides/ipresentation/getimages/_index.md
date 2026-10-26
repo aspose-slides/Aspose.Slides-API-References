@@ -1,0 +1,172 @@
+---
+title: GetImages
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mengembalikan objek Gambar Miniatur untuk semua slide dalam presentasi.
+type: docs
+weight: 310
+url: /id/aspose.slides/ipresentation/getimages/
+---
+## GetImages(IRenderingOptions) {#getimages}
+
+Mengembalikan objek Gambar Miniatur untuk semua slide dalam presentasi.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Mengembalikan objek Bitmap Miniatur untuk slide tertentu dalam presentasi.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Mengembalikan objek Gambar Miniatur untuk semua slide dalam presentasi dengan skala khusus.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+| scaleX | Single | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu x. |
+| scaleY | Single | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu y. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Mengembalikan objek Gambar Miniatur untuk slide tertentu dalam presentasi dengan skala khusus.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
+| scaleX | Single | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu x. |
+| scaleY | Single | Nilai yang digunakan untuk menskalakan Thumbnail ini pada arah sumbu y. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Mengembalikan objek Gambar Miniatur untuk semua slide dalam presentasi dengan ukuran tertentu.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+| imageSize | Size | Ukuran gambar yang akan dibuat. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Mengembalikan objek Gambar Miniatur untuk slide tertentu dalam presentasi dengan ukuran tertentu.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| options | IRenderingOptions | Opsi rendering. |
+| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
+| imageSize | Size | Ukuran gambar yang akan dibuat. |
+
+### Nilai Kembalian
+
+objek Bitmap.
+
+### Lihat Juga
+
+* antarmuka [IImage](../../iimage)
+* antarmuka [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* antarmuka [IPresentation](../../ipresentation)
+* ruang nama [Aspose.Slides](../../ipresentation)
+* rakitan [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

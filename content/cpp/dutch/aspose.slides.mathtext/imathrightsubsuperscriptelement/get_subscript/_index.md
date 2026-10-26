@@ -1,0 +1,34 @@
+---
+title: get_Subscript()
+second_title: Aspose.Slides voor C++ API-referentie
+description: Argument voor subscript
+type: docs
+weight: 14
+url: /nl/aspose.slides.mathtext/imathrightsubsuperscriptelement/get_subscript/
+---
+## IMathRightSubSuperscriptElement::get_Subscript() methode
+
+Argument voor subscript
+
+```cpp
+virtual System::SharedPtr<IMathElement> Aspose::Slides::MathText::IMathRightSubSuperscriptElement::get_Subscript()=0
+```
+
+## Opmerkingen
+
+Voorbeeld: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"X");
+auto subscript = System::MakeObject<MathematicalText>(u"i");
+auto superscript = System::MakeObject<MathematicalText>(u"j");
+auto subsuperscript = System::MakeObject<MathRightSubSuperscriptElement>(baseElement, subscript, superscript);
+auto sub = subsuperscript->get_Subscript();
+```
+
+## Zie ook
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* klasse [IMathElement](../../imathelement/)
+* klasse [IMathRightSubSuperscriptElement](../)
+* naamruimte [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)

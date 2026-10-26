@@ -17,34 +17,8 @@ url: /aspose.slides/motioneffect/
 | --- | --- |
 | MotionEffect() |  |
 
- **Result:**
+ **Returns:**
 MotionEffect
-
-
----
-
-
-### getAccumulate {#getAccumulate}
-
-| Name | Description |
-| --- | --- |
-| getAccumulate() | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
- **Result:**
-byte
-
-
----
-
-
-### getAdditive {#getAdditive}
-
-| Name | Description |
-| --- | --- |
-| getAdditive() | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
-
- **Result:**
-int
 
 
 ---
@@ -56,7 +30,7 @@ int
 | --- | --- |
 | getAngle() | Describes the relative angle of the motion path. Read/write float. |
 
- **Result:**
+ **Returns:**
 float
 
 
@@ -69,7 +43,7 @@ float
 | --- | --- |
 | getBy() | Describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
 
 
@@ -82,7 +56,7 @@ Point2D.Float
 | --- | --- |
 | getFrom() | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
 
 
@@ -95,18 +69,8 @@ Point2D.Float
 | --- | --- |
 | getOrigin() | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write MotionOriginType. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getParent_Immediate {#getParent_Immediate}
-
-| Name | Description |
-| --- | --- |
-| getParent_Immediate() |  |
 
 
 ---
@@ -118,7 +82,7 @@ int
 | --- | --- |
 | getPath() | Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPath. |
 
- **Result:**
+ **Returns:**
 [MotionPath](../motionpath)
 
 
@@ -131,21 +95,8 @@ int
 | --- | --- |
 | getPathEditMode() | Specifies how the motion path moves when shape is moved. Read/write MotionPathEditMode. |
 
- **Result:**
+ **Returns:**
 int
-
-
----
-
-
-### getProperties {#getProperties}
-
-| Name | Description |
-| --- | --- |
-| getProperties() | Represents properties of behavior. Read-only IBehaviorPropertyCollection. |
-
- **Result:**
-[BehaviorPropertyCollection](../behaviorpropertycollection)
 
 
 ---
@@ -157,21 +108,8 @@ int
 | --- | --- |
 | getRotationCenter() | Describes the center of the rotation used to rotate a motion path by X angle. Read/write java.awt.geom.Point2D.Float. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
-
-
----
-
-
-### getTiming {#getTiming}
-
-| Name | Description |
-| --- | --- |
-| getTiming() | Represents timing properties for the effect behavior. Read/write ITiming. |
-
- **Result:**
-[Timing](../timing)
 
 
 ---
@@ -183,28 +121,8 @@ Point2D.Float
 | --- | --- |
 | getTo() | Specifies the target location for an animation motion effect (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result:**
+ **Returns:**
 Point2D.Float
-
-
----
-
-
-### setAccumulate {#setAccumulate}
-
-| Name | Description |
-| --- | --- |
-| setAccumulate(byte) | Represents whether animation behaviors are accumulated. Read/write NullableBool. |
-
-
----
-
-
-### setAdditive {#setAdditive}
-
-| Name | Description |
-| --- | --- |
-| setAdditive(int) | Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveType. |
 
 
 ---
@@ -275,16 +193,6 @@ Point2D.Float
 | Name | Description |
 | --- | --- |
 | setRotationCenter(Point2D.Float) | Describes the center of the rotation used to rotate a motion path by X angle. Read/write java.awt.geom.Point2D.Float. |
-
-
----
-
-
-### setTiming {#setTiming}
-
-| Name | Description |
-| --- | --- |
-| setTiming([Timing](../timing)) | Represents timing properties for the effect behavior. Read/write ITiming. |
 
 
 ---

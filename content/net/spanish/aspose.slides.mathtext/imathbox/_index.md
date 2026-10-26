@@ -1,15 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes para referencia de API de .NET
-description: Especifica el empaquetado lógico de elementos matemáticos. Por ejemplo, un objeto encerrado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea o ser agrupado de tal manera que no se permitan saltos de línea dentro. Por ejemplo, el operador "==" debe estar encerrado para prevenir saltos de línea.
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Especifica el empaquetado lógico (boxing) de un elemento matemático. Por ejemplo, un objeto encapsulado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador debería encapsularse para evitar saltos de línea.
 type: docs
-weight: 7940
+weight: 8190
 url: /es/aspose.slides.mathtext/imathbox/
 ---
+## IMathBox interfaz
 
-## Interfaz IMathBox
-
-Especifica el empaquetado lógico (encapsulamiento) de elementos matemáticos. Por ejemplo, un objeto encerrado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea, o ser agrupado de tal manera que no se permitan saltos de línea dentro. Por ejemplo, el operador "==" debe estar encerrado para prevenir saltos de línea.
+Especifica el empaquetado lógico (boxing) de un elemento matemático. Por ejemplo, un objeto encapsulado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea, o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador "==" debería encapsularse para evitar saltos de línea.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -19,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Nombre | Descripción |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Cuando es verdadero, este emulador de operador sirve como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Predeterminado: falso |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argumento base |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Cuando es verdadero, la caja actúa como un diferencial (por ejemplo, 𝑑𝑥 en un integrando) y recibe el espaciado horizontal apropiado para el diferencial matemático. Predeterminado: falso |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | El salto explícito especifica si hay un salto de línea al inicio del objeto Box, de modo que la línea se envuelva al inicio del objeto de la caja. Especifica el número del operador en la línea anterior del texto matemático que se utilizará como el punto de alineación para la línea actual del texto matemático valores posibles: 1..255 Predeterminado: 0 (sin salto explícito) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sin salto. Esta propiedad especifica la propiedad "inquebrantable" en el objeto caja. Cuando es verdadero, no se pueden producir saltos de línea dentro de la caja. Esto puede ser importante para emuladores de operadores que consisten en más de un operador binario. Cuando este elemento no se especifica, pueden ocurrir saltos dentro de la caja. Predeterminado: verdadero |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de operador. Cuando es verdadero, la caja y su contenido se comportan como un solo operador y heredan las propiedades de un operador. Esto significa, por ejemplo, que el carácter puede servir como un punto para un salto de línea y puede alinearse con otros operadores. Los emuladores de operadores se utilizan a menudo cuando uno o más glifos se combinan para formar un operador, como '=='. Valor predeterminado: falso |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Cuando es true, este emulador de operador actúa como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Valor predeterminado: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argumento base |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Cuando es true, el cuadro actúa como un diferencial (p. ej., 𝑑𝑥 en un integrando), y recibe el espaciado horizontal apropiado para el diferencial matemático. Valor predeterminado: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | La ruptura explícita indica si hay un salto de línea al inicio del objeto Box, de modo que la línea se envuelve al comienzo del objeto caja. Especifica el número del operador en la línea anterior de texto matemático que se usará como punto de alineación para la línea actual de texto matemático. Valores posibles: 1..255. Valor predeterminado: 0 (sin ruptura explícita) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sin ruptura. Esta propiedad especifica la propiedad "unbreakable" en el objeto caja. Cuando es true, no pueden producirse saltos de línea dentro de la caja. Esto puede ser importante para emuladores de operador que consisten en más de un operador binario. Cuando este elemento no se especifica, pueden producirse rupturas dentro de la caja. Valor predeterminado: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de operador. Cuando es true, la caja y su contenido se comportan como un solo operador y heredan las propiedades de un operador. Esto significa, por ejemplo, que el carácter puede servir como punto para un salto de línea y puede alinearse con otros operadores. Los emuladores de operador se usan a menudo cuando uno o más glifos se combinan para formar un operador, como '=='. Valor predeterminado: false |
 
 ### Ejemplos
 
@@ -36,10 +35,10 @@ Ejemplo:
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IMathElement](../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblaje [Aspose.Slides](../../)
+* interfaz [IMathElement](../imathelement)
+* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,0 +1,30 @@
+---
+title: create_fill_overlay method
+second_title: Aspose.Slides for Python via .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides.effects/iimagetransformoperationfactory/create_fill_overlay/
+weight: 130
+---
+## create_fill_overlay(self) {#}
+Fill overlay प्रभाव बनाता है।
+
+### रिटर्न
+
+Fill overlay प्रभाव।
+
+
+
+```python
+def create_fill_overlay(self):
+    ...
+```
+
+
+
+
+### देखें
+* क्लास [`IFillOverlay`](/slides/python-net/hi/aspose.slides.effects/ifilloverlay)
+* क्लास [`IImageTransformOperationFactory`](/slides/python-net/hi/aspose.slides.effects/iimagetransformoperationfactory)
+* मॉड्यूल [`aspose.slides.effects`](/slides/python-net/hi/aspose.slides.effects)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

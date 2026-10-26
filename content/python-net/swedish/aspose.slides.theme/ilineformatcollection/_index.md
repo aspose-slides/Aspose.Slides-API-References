@@ -1,0 +1,26 @@
+---
+title: ILineFormatCollection class
+second_title: Aspose.Slides för Python via .NET API-referens
+description: 
+type: docs
+url: /sv/aspose.slides.theme/ilineformatcollection/
+---
+## ILineFormatCollection klass
+
+Representerar samlingen av linjestilar.
+
+Typen ILineFormatCollection exponerar följande medlemmar:
+
+Hämtar elementet på det angivna indexet.
+            Skrivskyddad [`ILineFormat`](/slides/python-net/sv/aspose.slides/ilineformat).
+
+## Indexer
+
+| Namn | Beskrivning |
+| :- | :- |
+| [`[index]`](/slides/python-net/sv/aspose.slides.theme/ilineformatcollection/__getitem__/) |  |
+
+### Se även
+* klass [`ILineFormat`](/slides/python-net/sv/aspose.slides/ilineformat)
+* modul [`aspose.slides.theme`](/slides/python-net/sv/aspose.slides.theme)
+* bibliotek [`Aspose.Slides`](/slides/python-net)

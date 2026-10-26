@@ -1,15 +1,14 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Schriftart-Fallback-Regel dar
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Schriftart-Fallback-Regel dar
 type: docs
-weight: 4650
+weight: 4840
 url: /de/aspose.slides/fontfallbackrule/
 ---
+## FontFallBackRule Klasse
 
-## FontFallBackRule-Klasse
-
-Stellt die Schriftart-Fallback-Regel dar
+Stellt eine Schriftart-Fallback-Regel dar
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -19,35 +18,35 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Erstellt eine neue Instanz. |
-| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Erstellt eine neue Instanz. |
+| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Erstellt eine neue Instanz. |
+| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Erstellt eine neue Instanz. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Gibt die Anzahl der tatsächlich für den Bereich definierten Schriftarten zurück. Nur lesbar, Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Gibt den Schriftartnamen am angegebenen Index zurück. Nur lesbar, [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Gibt den letzten Index des kontinuierlichen Unicode-Bereichs zurück. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Gibt den ersten Index des kontinuierlichen Unicode-Bereichs zurück. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Liefert die tatsächliche Anzahl der für den Bereich definierten Schriftarten. Nur-Lesezugriff Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Liefert den Schriftartnamen am angegebenen Index. Nur-Lesezugriff [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Liefert den letzten Index des kontinuierlichen Unicode-Bereichs. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Liefert den ersten Index des kontinuierlichen Unicode-Bereichs. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Fügt der Liste der Fallback-Schriftarten eine neue(n) Schriftart(en) hinzu. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Fügt der Liste der Fallback-Schriftarten neue Schriftarten hinzu. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Fügt neue Schriftart(en) zur Liste der FallBack-Schriftarten hinzu. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Fügt neue Schriftarten zur Liste der FallBack-Schriftarten hinzu. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Entfernt alle Schriftarten aus der Liste. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Gibt einen Index der angegebenen Regel in der Sammlung zurück. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Entfernt die erste Instanz einer bestimmten Fallback-Schriftart aus der Liste. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Entfernt die Fallback-Schriftart am angegebenen Index der Liste. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Erstellt und gibt ein Array mit allen Fallback-Schriftarten für diese Regel zurück. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Erstellt und gibt ein Array mit allen Fallback-Schriftarten aus dem angegebenen Bereich in der Liste zurück. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Entfernt das erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Entfernt die FallBack-Schriftart am angegebenen Index der Liste. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Erstellt und gibt ein Array mit allen FallBack-Schriftarten für diese Regel zurück. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Erstellt und gibt ein Array mit allen FallBack-Schriftarten aus dem angegebenen Bereich in der Liste zurück. |
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IFontFallBackRule](../ifontfallbackrule)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IFontFallBackRule](../ifontfallbackrule)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

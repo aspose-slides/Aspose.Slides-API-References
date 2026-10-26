@@ -1,0 +1,28 @@
+---
+title: variable_scale property
+second_title: Aspose.Slides für Python über .NET API-Referenz
+description: 
+type: docs
+url: /de/aspose.slides/icommonslideviewproperties/variable_scale/
+weight: 30
+---
+## variable_scale Eigenschaft
+Gibt an, dass der Ansichtinhalt automatisch skaliert werden soll, um am besten zur aktuellen Fenstergröße zu passen.
+            Lesen/Schreiben **bool**.
+
+### Definition:
+```python
+@property
+def variable_scale(self):
+    ...
+
+@variable_scale.setter
+def variable_scale(self, value):
+    ...
+```
+
+
+### Siehe auch
+* Klasse [`ICommonSlideViewProperties`](/slides/python-net/de/aspose.slides/icommonslideviewproperties)
+* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* Bibliothek [`Aspose.Slides`](/slides/python-net)

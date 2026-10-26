@@ -3,7 +3,7 @@ title: TrimFromStart
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the time duration to be removed from the beginning of the media during playback in milliseconds. Read/write Single.
 type: docs
-weight: 170
+weight: 180
 url: /aspose.slides/iaudioframe/trimfromstart/
 ---
 

@@ -1,0 +1,24 @@
+---
+title: get_Tan()
+second_title: Aspose.Slides के लिए C++ API संदर्भ
+description: एक Pen ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हैक्साडेसिमल नोटेशन में #FFD2B48C मान रखता है।
+type: docs
+weight: 1691
+url: /hi/system.drawing/pens/get_tan/
+---
+## Pens::get_Tan() विधि
+
+
+एक [Pen](../../pen/) ऑब्जेक्ट लौटाता है जिसकी चौड़ाई 1 है और जिसका ARGB रंग हैक्साडेसिमल नोटेशन में #FFD2B48C मान रखता है।
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_Tan()
+```
+
+## संबंधित देखें
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* क्लास [Pen](../../pen/)
+* क्लास [Pens](../)
+* नेमस्पेस [System::Drawing](../../)
+* लाइब्रेरी [Aspose.Slides](../../../)

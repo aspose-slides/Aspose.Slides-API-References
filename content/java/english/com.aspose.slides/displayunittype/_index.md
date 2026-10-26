@@ -16,7 +16,7 @@ Determines multiplicity of the displayed data.
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Values will dislayed as is. |
+| [None](#None) | Values will be displayed as-is. |
 | [Hundreds](#Hundreds) | Specifies the values on the chart shall be divided by 100. |
 | [Thousands](#Thousands) | Specifies the values on the chart shall be divided by 1,000. |
 | [TenThousands](#TenThousands) | Specifies the values on the chart shall be divided by 10,000. |
@@ -25,7 +25,7 @@ Determines multiplicity of the displayed data.
 | [TenMillions](#TenMillions) | Specifies the values on the chart shall be divided by 10,000,000. |
 | [HundredMillions](#HundredMillions) | Specifies the values on the chart shall be divided by 100,000,000. |
 | [Billions](#Billions) | Specifies the values on the chart shall be divided by 1,000,000,000. |
-| [Trillions](#Trillions) | Specifies the values on the chart shall be divided by 1,000,000,000. |
+| [Trillions](#Trillions) | Specifies the values on the chart shall be divided by 1,000,000,000,000. |
 | [CustomValue](#CustomValue) | Specifies the values on the chart shall be divided by a custom value. |
 ### None {#None}
 ```
@@ -33,7 +33,7 @@ public static final int None
 ```
 
 
-Values will dislayed as is.
+Values will be displayed as-is.
 
 ### Hundreds {#Hundreds}
 ```
@@ -105,7 +105,7 @@ public static final int Trillions
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000,000.
+Specifies the values on the chart shall be divided by 1,000,000,000,000.
 
 ### CustomValue {#CustomValue}
 ```

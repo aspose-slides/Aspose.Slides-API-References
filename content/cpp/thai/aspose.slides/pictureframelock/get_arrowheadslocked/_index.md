@@ -1,0 +1,22 @@
+---
+title: get_ArrowheadsLocked()
+second_title: Aspose.Slides สำหรับ C++ API Reference
+description: กำหนดว่าการเปลี่ยนหัวลูกศรถูกห้ามหรือไม่ อ่าน bool.
+type: docs
+weight: 209
+url: /th/aspose.slides/pictureframelock/get_arrowheadslocked/
+---
+## PictureFrameLock::get_ArrowheadsLocked() เมธอด
+
+
+กำหนดว่าการเปลี่ยนหัวลูกศรถูกห้ามหรือไม่ อ่าน **bool**.
+
+```cpp
+bool Aspose::Slides::PictureFrameLock::get_ArrowheadsLocked() override
+```
+
+## ดูเพิ่มเติม
+
+* คลาส [PictureFrameLock](../)
+* เนมสเปซ [Aspose::Slides](../../)
+* ไลบรารี [Aspose.Slides](../../../)

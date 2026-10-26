@@ -1,0 +1,25 @@
+---
+title: raw_frame property
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
+type: docs
+url: /nl/aspose.slides/igroupshape/raw_frame/
+weight: 330
+---
+## raw_frame eigenschap
+### Definitie:
+```python
+@property
+def raw_frame(self):
+    ...
+
+@raw_frame.setter
+def raw_frame(self, value):
+    ...
+```
+
+
+### Zie ook
+* klasse [`IGroupShape`](/slides/python-net/nl/aspose.slides/igroupshape)
+* module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

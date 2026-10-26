@@ -1,0 +1,29 @@
+---
+title: position property
+second_title: Aspose.Slides के लिये Python के माध्यम से .NET API संदर्भ
+description: 
+type: docs
+url: /hi/aspose.slides/comment/position/
+weight: 50
+---
+## स्थिति गुण
+एक स्लाइड पर टिप्पणी की स्थिति को लौटाता है या सेट करता है।
+            पढ़ें/लिखें [`PointF`](/slides/python-net/hi/aspose.slides/pointf).
+
+### परिभाषा:
+```python
+@property
+def position(self):
+    ...
+
+@position.setter
+def position(self, value):
+    ...
+```
+
+
+### देखें भी
+* क्लास [`Comment`](/slides/python-net/hi/aspose.slides/comment)
+* क्लास [`PointF`](/slides/python-net/hi/aspose.slides/pointf)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

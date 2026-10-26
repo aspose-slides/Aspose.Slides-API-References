@@ -17,7 +17,7 @@ url: /aspose.slides/interruptiontokensource/
 | --- | --- |
 | InterruptionTokenSource() | Creates a new InterruptionTokenSource. |
 
- **Result:**
+ **Returns:**
 InterruptionTokenSource
 
 
@@ -30,7 +30,7 @@ InterruptionTokenSource
 | --- | --- |
 | getToken () | Returns new token binded to this InterruptionTokenSource. |
 
- **Result:**
+ **Returns:**
 InterruptionToken
 
 
@@ -53,7 +53,7 @@ InterruptionToken
 | --- | --- |
 | isInterruptionRequested () | Returns true if interruption requested, false otherwise. |
 
- **Result:**
+ **Returns:**
 boolean
 
 

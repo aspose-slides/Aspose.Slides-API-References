@@ -1,0 +1,25 @@
+---
+title: overbar method
+second_title: Referencia de la API de Aspose.Slides para Python mediante .NET
+description: 
+type: docs
+url: /es/aspose.slides.mathtext/imathrightsubsuperscriptelement/overbar/
+weight: 110
+---
+## overbar(self) {#}
+
+
+
+```python
+def overbar(self):
+    ...
+```
+
+
+
+
+### Ver también
+* clase [`IMathBar`](/slides/python-net/es/aspose.slides.mathtext/imathbar)
+* clase [`IMathRightSubSuperscriptElement`](/slides/python-net/es/aspose.slides.mathtext/imathrightsubsuperscriptelement)
+* módulo [`aspose.slides.mathtext`](/slides/python-net/es/aspose.slides.mathtext)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

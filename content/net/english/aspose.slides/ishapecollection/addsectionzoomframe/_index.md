@@ -1,7 +1,7 @@
 ---
 title: AddSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Adds a new Section Zoom object to the end of a collection.
+description: Creates a new Section Zoom frame and adds it to the end of the shape collection.
 type: docs
 weight: 140
 url: /aspose.slides/ishapecollection/addsectionzoomframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/addsectionzoomframe/
 
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
-Adds a new Section Zoom object to the end of a collection.
+Creates a new Section Zoom frame and adds it to the end of the shape collection.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -18,21 +18,21 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new Section Zoom frame Single. |
-| y | Single | Y coordinate of a new Section Zoom frame Single. |
-| width | Single | Width of a new Section Zoom frame Single. |
-| height | Single | Height of a new Section Zoom frame Single. |
-| section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
+| x | Single | The x-coordinate of the new Section Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Section Zoom frame, in points. |
+| width | Single | The width of the new Section Zoom frame, in points. |
+| height | Single | The height of the new Section Zoom frame, in points. |
+| section | ISection | The [`ISection`](../../isection) referenced by the Section Zoom frame; must belong to this presentation and contain at least one slide. |
 
 ### Return Value
 
-Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
+The newly created [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| ArgumentException | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 ### Examples
 
@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Adds a new Section Zoom object to the end of a collection with a predefined image.
+Creates a new Section Zoom frame with a predefined image and adds it to the end of the shape collection.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -67,22 +67,22 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | Single | X coordinate of a new Section Zoom frame Single. |
-| y | Single | Y coordinate of a new Section Zoom frame Single. |
-| width | Single | Width of a new Section Zoom frame Single. |
-| height | Single | Height of a new Section Zoom frame Single. |
-| section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
-| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| x | Single | The x-coordinate of the new Section Zoom frame, in points. |
+| y | Single | The y-coordinate of the new Section Zoom frame, in points. |
+| width | Single | The width of the new Section Zoom frame, in points. |
+| height | Single | The height of the new Section Zoom frame, in points. |
+| section | ISection | The [`ISection`](../../isection) referenced by the Section Zoom frame; must belong to this presentation and contain at least one slide. |
+| image | IPPImage | The [`IPPImage`](../../ippimage) to display within the Section Zoom frame. |
 
 ### Return Value
 
-Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
+The newly created [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+| ArgumentException | Thrown if the referenced section does not belong to the current presentation or contains no slides. |
 
 ### Examples
 

@@ -1,15 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Slides para .NET API Reference
-description: Representa un gestor que contiene el comportamiento de todos los marcadores de fecha-hora y número de página del pie de la presentación.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa al gestor que mantiene el comportamiento de todos los marcadores de posición de pie de página, fecha y hora y número de página de la presentación.
 type: docs
-weight: 6580
+weight: 6780
 url: /es/aspose.slides/ipresentationheaderfootermanager/
 ---
+## IPresentationHeaderFooterManager interfaz
 
-## Interfaz IPresentationHeaderFooterManager
-
-Representa un gestor que contiene el comportamiento de todos los marcadores de pie, fecha-hora y número de página de la presentación.
+Representa al gestor que mantiene el comportamiento de todos los marcadores de posición de pie de página, fecha y hora y número de página de la presentación.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,25 +18,25 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Devuelve la interfaz IBaseHeaderFooterManager. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Devuelve la interfaz IBaseHeaderFooterManager. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Establece el texto para todos los marcadores de fecha-hora, incluidas las diapositivas maestras, las diapositivas de diseño y las diapositivas. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Cambia la visibilidad de todos los marcadores de fecha-hora, incluidas las diapositivas maestras, las diapositivas de diseño y las diapositivas. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Establece el texto para todos los marcadores de pie, incluidas las diapositivas maestras, las diapositivas de diseño y las diapositivas. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de pie, incluidas las diapositivas maestras, las diapositivas de diseño y las diapositivas. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Establece el texto para todos los marcadores de encabezado, incluidas la maestra de notas, las diapositivas de notas y la maestra de entrega. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de encabezado, incluidas la maestra de notas, las diapositivas de notas y la maestra de entrega. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de número de página, incluidas las diapositivas maestras, las diapositivas de diseño y las diapositivas. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Cambia la visibilidad de los marcadores de pie, fecha-hora y número de página para todas las diapositivas de título y para la primera diapositiva de diseño. Las diapositivas de título son diapositivas basadas en la primera diapositiva de diseño (independientemente del tipo de esta primera diapositiva de diseño). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Establece el texto en todos los marcadores de posición de fecha y hora, incluyendo diapositivas maestras, diapositivas de diseño y diapositivas. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de fecha y hora, incluyendo diapositivas maestras, diapositivas de diseño y diapositivas. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Establece el texto en todos los marcadores de posición de pie de página, incluyendo diapositivas maestras, diapositivas de diseño y diapositivas. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de pie de página, incluyendo diapositivas maestras, diapositivas de diseño y diapositivas. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Establece el texto en todos los marcadores de posición de encabezado, incluyendo maestro de notas, diapositivas de notas y maestro de folletos. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de encabezado, incluyendo maestro de notas, diapositivas de notas y maestro de folletos. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de número de página, incluyendo diapositivas maestras, diapositivas de diseño y diapositivas. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Cambia la visibilidad de los marcadores de posición de pie de página, fecha y hora y número de página para todas las diapositivas de título y para la primera diapositiva de diseño. Diapositivas de título – diapositivas basadas en la primera diapositiva de diseño (independientemente del tipo de este primer diseño). |
 
 ### Ver también
 
-* interface [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfaz [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

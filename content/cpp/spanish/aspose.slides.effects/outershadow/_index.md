@@ -1,0 +1,83 @@
+---
+title: OuterShadow
+second_title: Referencia de API de Aspose.Slides para C++
+description: Representa un efecto de sombra externa.
+type: docs
+weight: 1041
+url: /es/aspose.slides.effects/outershadow/
+---
+## OuterShadow clase
+
+Representa un efecto de sombra exterior.
+
+```cpp
+class OuterShadow : public Aspose::Slides::Effects::IOuterShadow,
+                    public Aspose::Slides::Effects::IVisualEffect,
+                    public Aspose::Slides::IPVIObject
+```
+
+## Métodos
+
+| Método | Descripción |
+| --- | --- |
+| **bool** [Equals](./equals/)([System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) override | Determina si el [OuterShadow](./) especificado es igual al [OuterShadow](./) actual. |
+| virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compara objetos usando la semántica de C# [Object.Equals](../../system/object/equals/). |
+| static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compara objetos de tipo referencia al estilo de C#. |
+| static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emula la comparación de punto flotante al estilo C# donde dos NaN se consideran iguales aunque según IEC 60559:1989 NaN no es igual a ningún valor, incluido NaN. |
+| static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emula la comparación de punto flotante al estilo C# donde dos NaN se consideran iguales aunque según IEC 60559:1989 NaN no es igual a ningún valor, incluido NaN. |
+| virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | Solo para uso interno. |
+| **double** [get_BlurRadius](./get_blurradius/)() override | [Blur](../blur/) radio, en puntos. Valor predeterminado – 0 pt. Lectura **double**. |
+| **float** [get_Direction](./get_direction/)() override | Dirección de la sombra, en grados. Valor predeterminado – 0 ° (izquierda a derecha). Lectura **float**. |
+| **double** [get_Distance](./get_distance/)() override | Distancia de la sombra al objeto, en puntos. Valor predeterminado – 0 pt. Lectura **double**. |
+| virtual ASPOSE_SLIDES_LOCAL_API [System::SharedPtr](../../system/sharedptr/)\<[IPresentationComponent](../../aspose.slides/ipresentationcomponent/)\> [get_Parent_IPresentationComponent](../../aspose.slides/ipviobject/get_parent_ipresentationcomponent/)() | Devuelve el [IPresentationComponent](../../aspose.slides/ipresentationcomponent/) padre. Solo lectura [IPresentationComponent](../../aspose.slides/ipresentationcomponent/). |
+| [RectangleAlignment](../../aspose.slides/rectanglealignment/) [get_RectangleAlign](./get_rectanglealign/)() override | Alineación del rectángulo. Valor predeterminado – [RectangleAlignment::Bottom](../../aspose.slides/rectanglealignment/). Lectura [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
+| **bool** [get_RotateShadowWithShape](./get_rotateshadowwithshape/)() override | Indica si la sombra gira junto con la forma. Valor predeterminado – true. Lectura **bool**. |
+| **double** [get_ScaleHorizontal](./get_scalehorizontal/)() override | Factor de escala horizontal, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura **double**. |
+| **double** [get_ScaleVertical](./get_scalevertical/)() override | Factor de escala vertical, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura **double**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IColorFormat](../../aspose.slides/icolorformat/)\> [get_ShadowColor](./get_shadowcolor/)() override | Color de la sombra. Valor predeterminado – negro automático (dependiente del tema). Solo lectura [IColorFormat](../../aspose.slides/icolorformat/). |
+| **double** [get_SkewHorizontal](./get_skewhorizontal/)() override | Ángulo de sesgo horizontal, en grados. Valor predeterminado – 0 °. Lectura **double**. |
+| **double** [get_SkewVertical](./get_skewvertical/)() override | Ángulo de sesgo vertical, en grados. Valor predeterminado – 0 °. Lectura **double**. |
+| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../../aspose.slides/ipviobject/get_version/)() | Versión. Solo lectura **uint32_t**. |
+| Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Obtiene la estructura de datos del contador de referencias asociada al objeto. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IOuterShadowEffectiveData](../ioutershadoweffectivedata/)\> [GetEffective](./geteffective/)() override | Obtiene los datos efectivos del efecto Outer Shadow con la herencia aplicada. |
+| **int32_t** [GetHashCode](./gethashcode/)() const override | Funciona como función hash para un tipo particular. |
+| virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Obtiene el tipo real del objeto. Análogo a la llamada C# [System.Object.GetType()](../../system/object/gettype/). |
+| virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Comprueba si el objeto representa una instancia del tipo descrito por targetType. Análogo al operador C# 'is'. |
+| void [Lock](../../system/object/lock/)() | Implementa el bloqueo de la sentencia C# lock(). Llámese directamente o use el objeto centinela [LockContext](../../system/lockcontext/). |
+| virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Análogo al método C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/). Permite clonar tipos personalizados. |
+| [Object](../../system/object/object/)() | Crea el objeto. Inicializa todas las estructuras de datos internas. |
+| [Object](../../system/object/object/)([Object](../../system/object/) const\&) | Constructor de copia. En realidad no copia nada, solo inicializa un nuevo objeto y permite la construcción por copia de subclases. |
+| [Object](../../system/object/)\& [operator=](../../system/object/operator_equal/)([Object](../../system/object/) const\&) | Operador de asignación. En realidad no copia nada, solo inicializa un nuevo objeto y permite la construcción por copia de subclases. |
+| static **bool** [ReferenceEquals](../../system/object/referenceequals/)([ptr](../../system/object/ptr/) const\&, [ptr](../../system/object/ptr/) const\&) | Compara objetos por referencia. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, T const\&) | Compara objetos por referencia. |
+| static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Compara por referencia un objeto de tipo valor con nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Especialización de [Object::ReferenceEquals](../../system/object/referenceequals/) para el caso de cadena y nullptr. |
+| **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Especialización de [Object::ReferenceEquals](../../system/object/referenceequals/) para el caso de cadenas. |
+| int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Disminuye el contador de referencias compartidas en el valor especificado. |
+| void [set_BlurRadius](./set_blurradius/)(**double**) override | [Blur](../blur/) radio, en puntos. Valor predeterminado – 0 pt. Escritura **double**. |
+| void [set_Direction](./set_direction/)(**float**) override | Dirección de la sombra, en grados. Valor predeterminado – 0 ° (izquierda a derecha). Escritura **float**. |
+| void [set_Distance](./set_distance/)(**double**) override | Distancia de la sombra al objeto, en puntos. Valor predeterminado – 0 pt. Escritura **double**. |
+| void [set_RectangleAlign](./set_rectanglealign/)([RectangleAlignment](../../aspose.slides/rectanglealignment/)) override | Alineación del rectángulo. Valor predeterminado – [RectangleAlignment::Bottom](../../aspose.slides/rectanglealignment/). Escritura [RectangleAlignment](../../aspose.slides/rectanglealignment/). |
+| void [set_RotateShadowWithShape](./set_rotateshadowwithshape/)(**bool**) override | Indica si la sombra gira junto con la forma. Valor predeterminado – true. Escritura **bool**. |
+| void [set_ScaleHorizontal](./set_scalehorizontal/)(**double**) override | Factor de escala horizontal, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Escritura **double**. |
+| void [set_ScaleVertical](./set_scalevertical/)(**double**) override | Factor de escala vertical, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Escritura **double**. |
+| void [set_SkewHorizontal](./set_skewhorizontal/)(**double**) override | Ángulo de sesgo horizontal, en grados. Valor predeterminado – 0 °. Escritura **double**. |
+| void [set_SkewVertical](./set_skewvertical/)(**double**) override | Ángulo de sesgo vertical, en grados. Valor predeterminado – 0 °. Escritura **double**. |
+| virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Establece el n-ésimo argumento de plantilla como un puntero débil (en lugar de compartido). Permite cambiar punteros en contenedores a modo débil. |
+| int [SharedCount](../../system/object/sharedcount/)() const | Obtiene el valor actual del contador de referencias compartidas. |
+| [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Incrementa el contador de referencias compartidas. No debería llamarse directamente; en su lugar, use punteros inteligentes o ThisProtector. |
+| int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrementa y devuelve el contador de referencias compartidas. No debería llamarse directamente; en su lugar, use punteros inteligentes o ThisProtector. |
+| virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Análogo al método C# [Object.ToString()](../../system/object/tostring/). Permite convertir objetos personalizados a cadena. |
+| static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implementa la construcción C# typeof([System.Object](../../system/object/)). |
+| void [Unlock](../../system/object/unlock/)() | Implementa el desbloqueo de la sentencia C# lock(). Llámese directamente o use el objeto centinela [LockContext](../../system/lockcontext/). |
+| Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Incrementa el contador de referencias débiles. No debería llamarse directamente; en su lugar, use punteros inteligentes o ThisProtector. |
+| void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrementa el contador de referencias débiles. No debería llamarse directamente; en su lugar, use punteros inteligentes o ThisProtector. |
+| virtual  [~Object](../../system/object/~object/) () | Destruye el objeto. Libera todas las estructuras de datos internas. |
+
+## Ver también
+
+* Clase [IOuterShadow](../ioutershadow/)
+* Clase [IVisualEffect](../ivisualeffect/)
+* Clase [IPVIObject](../../aspose.slides/ipviobject/)
+* Espacio de nombres [Aspose::Slides::Effects](../)
+* Biblioteca [Aspose.Slides](../../)

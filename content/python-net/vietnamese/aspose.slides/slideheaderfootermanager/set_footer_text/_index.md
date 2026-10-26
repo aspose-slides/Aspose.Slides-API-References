@@ -1,0 +1,28 @@
+---
+title: set_footer_text method
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+description: 
+type: docs
+url: /vi/aspose.slides/slideheaderfootermanager/set_footer_text/
+weight: 30
+---
+## set_footer_text(self, text) {#str}
+Đặt văn bản vào chỗ giữ chỗ chân slide.
+
+
+```python
+def set_footer_text(self, text):
+    ...
+```
+
+
+| Tham số | Kiểu | Mô tả |
+| :- | :- | :- |
+| text | **str** | Văn bản cần đặt. |
+
+
+
+### Xem thêm
+* lớp [`SlideHeaderFooterManager`](/slides/python-net/vi/aspose.slides/slideheaderfootermanager)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* thư viện [`Aspose.Slides`](/slides/python-net)

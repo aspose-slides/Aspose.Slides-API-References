@@ -1,0 +1,24 @@
+---
+title: get_children method
+second_title: Referensi API Aspose.Slides untuk Python via .NET
+description: 
+type: docs
+url: /id/aspose.slides.mathtext/mathbar/get_children/
+weight: 70
+---
+## get_children(self) {#}
+Mengambil elemen anak
+
+
+```python
+def get_children(self):
+    ...
+```
+
+
+
+
+### Lihat Juga
+* kelas [`MathBar`](/slides/python-net/id/aspose.slides.mathtext/mathbar)
+* modul [`aspose.slides.mathtext`](/slides/python-net/id/aspose.slides.mathtext)
+* pustaka [`Aspose.Slides`](/slides/python-net)

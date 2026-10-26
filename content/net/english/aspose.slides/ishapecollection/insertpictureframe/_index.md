@@ -1,7 +1,7 @@
 ---
 title: InsertPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new PictureFrame and inserts it to the collection at the specified index.
+description: Creates a new picture frame containing the specified image and inserts it into the shape collection at the specified index.
 type: docs
 weight: 310
 url: /aspose.slides/ishapecollection/insertpictureframe/
@@ -9,7 +9,7 @@ url: /aspose.slides/ishapecollection/insertpictureframe/
 
 ## IShapeCollection.InsertPictureFrame method
 
-Creates a new PictureFrame and inserts it to the collection at the specified index.
+Creates a new picture frame containing the specified image and inserts it into the shape collection at the specified index.
 
 ```csharp
 public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x, float y, 
@@ -18,17 +18,17 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| shapeType | ShapeType | The shape contained in the set [`ShapeType`](../../shapetype) of shapes, except all sorts of lines: |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-| image | IPPImage | The image of picture frame. |
+| index | Int32 | The zero-based index at which to insert the picture frame. |
+| shapeType | ShapeType | Specifies the shape type contained in [`ShapeType`](../../shapetype), except for all kinds of lines: |
+| x | Single | The x-coordinate of the picture frame, in points. |
+| y | Single | The y-coordinate of the picture frame, in points. |
+| width | Single | The width of the picture frame, in points. |
+| height | Single | The height of the picture frame, in points. |
+| image | IPPImage | The [`IPPImage`](../../ippimage) to display in the picture frame. |
 
 ### Return Value
 
-Created PictureFrame object.
+The newly created [`IPictureFrame`](../../ipictureframe).
 
 ### See Also
 

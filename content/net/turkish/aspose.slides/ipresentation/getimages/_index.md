@@ -1,0 +1,172 @@
+---
+title: GetImages
+second_title: Aspose.Slides için .NET API Referansı
+description: Bir sunumun tüm slaytları için Küçük Resim nesneleri döndürür.
+type: docs
+weight: 310
+url: /tr/aspose.slides/ipresentation/getimages/
+---
+## GetImages(IRenderingOptions) {#getimages}
+
+Bir sunumun tüm slaytları için Küçük Resim nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Bir sunumun belirtilen slaytları için Küçük Resim Bitmap nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Özel ölçekleme ile bir sunumun tüm slaytları için Küçük Resim nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+| scaleX | Single | Bu Küçük Resmi x ekseninde ölçeklendirmek için kullanılacak değer. |
+| scaleY | Single | Bu Küçük Resmi y ekseninde ölçeklendirmek için kullanılacak değer. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Özel ölçekleme ile bir sunumun belirtilen slaytları için Küçük Resim nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
+| scaleX | Single | Bu Küçük Resmi x ekseninde ölçeklendirmek için kullanılacak değer. |
+| scaleY | Single | Bu Küçük Resmi y ekseninde ölçeklendirmek için kullanılacak değer. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Belirtilen boyutta bir sunumun tüm slaytları için Küçük Resim nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+| imageSize | Size | Oluşturulacak görüntünün boyutu. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Belirtilen boyutta bir sunumun belirtilen slaytları için Küçük Resim nesneleri döndürür.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderleme seçenekleri. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
+| imageSize | Size | Oluşturulacak görüntünün boyutu. |
+
+### Dönüş Değeri
+
+Bitmap nesneleri.
+
+### Ayrıca Bakınız
+
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
