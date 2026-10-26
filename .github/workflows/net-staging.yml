@@ -33,7 +33,7 @@ jobs:
             submodules: true  # Fetch Hugo themes
             fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Checkout theme repo
-        run: git clone https://${{ secrets.GH_PAT }}@github.com/Aspose/api-theme themes/api-theme
+        run: git clone -b slides-beta https://${{ secrets.GH_PAT }}@github.com/Aspose/api-theme themes/api-theme
       # Step 2 - Sets up the latest version of Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
