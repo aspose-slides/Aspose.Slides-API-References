@@ -1,0 +1,68 @@
+# Master workflow to trigger all production S3 workflows
+
+name: All Production Workflows (S3)
+
+# Controls when the action will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  trigger-all-production:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger family-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: family-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger androidjava-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: androidjava-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger cpp-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cpp-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger java-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: java-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger net-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: net-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger nodejs-java-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: nodejs-java-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger php-java-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: php-java-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-java-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-java-production.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-net-production
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-net-production.yml
+          token: ${{ secrets.REPO_TOKEN }}

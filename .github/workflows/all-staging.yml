@@ -1,0 +1,68 @@
+# Master workflow to trigger all staging S3 workflows
+
+name: All Staging Workflows (S3)
+
+# Controls when the action will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  trigger-all-staging:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger family-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: family-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger androidjava-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: androidjava-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger cpp-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cpp-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger java-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: java-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger net-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: net-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger nodejs-java-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: nodejs-java-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger php-java-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: php-java-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-java-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-java-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-net-staging
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-net-staging.yml
+          token: ${{ secrets.REPO_TOKEN }}
