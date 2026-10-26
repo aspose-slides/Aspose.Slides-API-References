@@ -38,147 +38,40 @@ defaultContentLang = 'en'
   [languages.en]
     contentDir = 'content/net/english'
     languageName = 'English'
-    languageCode = "en"
+	languageCode = "en"
     flag = "flag-us"
     weight = 10
-  [languages.ar]
-    contentDir = 'content/net/arabic'
-    languageName = 'عربي'
-    languageCode = "ar"
-    flag = "flag-sa"
-    weight = 11
-  [languages.cs]
-    contentDir = 'content/net/czech'
-    languageName = 'Čeština'
-    languageCode = "cs"
-    flag = "flag-cz"
-    weight = 12
-  [languages.de]
-    contentDir = 'content/net/german'
-    languageName = 'Deutsch'
-    languageCode = "de"
-    flag = "flag-de"
-    weight = 13
-  [languages.el]
-    contentDir = 'content/net/greek'
-    languageName = 'Ελληνικά'
-    languageCode = "el"
-    flag = "flag-gr"
-    weight = 14
-  [languages.es]
-    contentDir = 'content/net/spanish'
-    languageName = 'Español'
-    languageCode = "es"
-    flag = "flag-es"
-    weight = 15
-  [languages.fa]
-    contentDir = 'content/net/persian'
-    languageName = 'فارسی'
-    languageCode = "fa"
-    flag = "flag-ir"
-    weight = 16
-  [languages.fr]
-    contentDir = 'content/net/french'
-    languageName = 'Français'
-    languageCode = "fr"
-    flag = "flag-fr"
-    weight = 17
-  [languages.hi]
-    contentDir = 'content/net/hindi'
-    languageName = 'हिन्दी'
-    languageCode = "hi"
-    flag = "flag-in"
-    weight = 18
-  [languages.hu]
-    contentDir = 'content/net/hungarian'
-    languageName = 'Magyar'
-    languageCode = "hu"
-    flag = "flag-hu"
-    weight = 19
-  [languages.id]
-    contentDir = 'content/net/indonesian'
-    languageName = 'Indonesian'
-    languageCode = "id"
-    flag = "flag-id"
-    weight = 20
-  [languages.it]
-    contentDir = 'content/net/italian'
-    languageName = 'Italiano'
-    languageCode = "it"
-    flag = "flag-it"
-    weight = 21
-  [languages.ja]
-    contentDir = 'content/net/japanese'
-    languageName = '日本語'
-    languageCode = "ja"
-    flag = "flag-jp"
-    weight = 22
-  [languages.ko]
-    contentDir = 'content/net/korean'
-    languageName = '한국인'
-    languageCode = "ko"
-    flag = "flag-kr"
-    weight = 23
-  [languages.nl]
-    contentDir = 'content/net/dutch'
-    languageName = 'Nederlands'
-    languageCode = "nl"
-    flag = "flag-nl"
-    weight = 24
-  [languages.pl]
-    contentDir = 'content/net/polish'
-    languageName = 'Polski'
-    languageCode = "pl"
-    flag = "flag-pl"
-    weight = 25
-  [languages.pt]
-    contentDir = 'content/net/portuguese'
-    languageName = 'Português'
-    languageCode = "pt"
-    flag = "flag-pt"
-    weight = 26
   [languages.ru]
     contentDir = 'content/net/russian'
     languageName = 'Русский'
-    languageCode = "ru"
+	languageCode = "ru"
     flag = "flag-ru"
-    weight = 27
-  [languages.sv]
-    contentDir = 'content/net/swedish'
-    languageName = 'Svenska'
-    languageCode = "sv"
-    flag = "flag-se"
-    weight = 28
-  [languages.th]
-    contentDir = 'content/net/thai'
-    languageName = 'ไทย'
-    languageCode = "th"
-    flag = "flag-th"
-    weight = 29
-  [languages.tr]
-    contentDir = 'content/net/turkish'
-    languageName = 'Türkçe'
-    languageCode = "tr"
-    flag = "flag-tr"
-    weight = 30
-  [languages.vi]
-    contentDir = 'content/net/vietnamese'
-    languageName = 'Tiếng Việt'
-    languageCode = "vi"
-    flag = "flag-vn"
-    weight = 31
+    weight = 11
   [languages.zh]
     contentDir = 'content/net/chinese'
-    languageName = '简体中文'
+    languageName = "简体中文"
     languageCode = "zh"
     flag = "flag-cn"
-    weight = 32
-  [languages.zh-hant]
-    contentDir = 'content/net/chinese-traditional'
-    languageName = '繁體中文'
-    languageCode = "zh-hant"
-    flag = "flag-tw"
-    weight = 33
+    weight = 12
+  [languages.fr]
+    contentDir = 'content/net/french'
+    languageName = "Français"
+    languageCode = "fr"
+    flag = "flag-fr"
+    weight = 13
+  [languages.de]
+    contentDir = 'content/net/german'
+    languageName = "Deutsch"
+    languageCode = "de"
+    flag = "flag-de"
+    weight = 14
+  [languages.es]
+    contentDir = 'content/net/spanish'
+    languageName = "Español"
+    languageCode = "es"
+    flag = "flag-es"
+    weight = 15
+
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
 # Image processing configuration.
