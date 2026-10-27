@@ -37,7 +37,7 @@ jobs:
         with:
           repository: Aspose/api-theme
           token: ${{ secrets.REPO_TOKEN }}
-          ref: slides-beta
+          ref: beta
           fetch-depth: 0
           path: themes/api-theme
       # Step 2 - Sets up the latest version of Hugo
