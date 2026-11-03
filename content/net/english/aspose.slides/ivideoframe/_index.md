@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 7380
+weight: 7400
 url: /aspose.slides/ivideoframe/
 ---
 
@@ -31,6 +31,7 @@ public interface IVideoFrame : IPictureFrame
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim end [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim start [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the [`Volume`](./volume) property. Read/write Single. |
 
 ### See Also
 

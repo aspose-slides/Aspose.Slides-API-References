@@ -3,7 +3,7 @@ title: LeaderLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data labels leader lines format. Read-only IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 

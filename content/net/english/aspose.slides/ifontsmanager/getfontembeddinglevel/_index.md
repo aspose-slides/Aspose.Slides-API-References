@@ -3,7 +3,7 @@ title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines the embedding level of a font from the given byte array and font name.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
 

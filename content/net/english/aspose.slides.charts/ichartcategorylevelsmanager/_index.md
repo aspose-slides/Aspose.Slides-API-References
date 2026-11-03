@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Managed container of the values of the chart category levels.
 type: docs
-weight: 1770
+weight: 1790
 url: /aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 

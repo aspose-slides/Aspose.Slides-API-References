@@ -3,7 +3,7 @@ title: InkActions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the root of ink actions.
 type: docs
-weight: 7560
+weight: 7580
 url: /aspose.slides.ink/inkactions/
 ---
 

@@ -3,7 +3,7 @@ title: AddEmbeddedFont
 second_title: Aspose.Sildes for .NET API Reference
 description: Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/fontsmanager/addembeddedfont/
 ---
 

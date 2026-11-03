@@ -1,7 +1,7 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the distance as a percentage of the marker width between the data series in a 3D chart. Read/write UInt16.
+description: Gets or sets the distance between data series in a 3D chart as a percentage of the marker width. The value must be between 0 and 500. Read/write UInt16.
 type: docs
 weight: 60
 url: /aspose.slides.charts/ichartseriesgroup/gapdepth/
@@ -9,11 +9,15 @@ url: /aspose.slides.charts/ichartseriesgroup/gapdepth/
 
 ## IChartSeriesGroup.GapDepth property
 
-Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write UInt16.
+Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Remarks
+
+This property applies to series of the following types: 3D bar and column subtypes, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### See Also
 

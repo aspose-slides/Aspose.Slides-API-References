@@ -3,7 +3,7 @@ title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Imutable object which contains effective gradient filling properties.
 type: docs
-weight: 6010
+weight: 6030
 url: /aspose.slides/igradientformateffectivedata/
 ---
 

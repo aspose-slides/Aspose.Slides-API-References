@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG image.
 type: docs
-weight: 7180
+weight: 7200
 url: /aspose.slides/isvgimage/
 ---
 

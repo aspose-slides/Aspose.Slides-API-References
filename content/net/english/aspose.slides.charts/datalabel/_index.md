@@ -3,7 +3,7 @@ title: DataLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 1550
+weight: 1560
 url: /aspose.slides.charts/datalabel/
 ---
 
@@ -34,6 +34,7 @@ public class DataLabel : IDataLabel
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Returns data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
 | [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single. |
 | [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | Gets or sets the shape type of the data label. Returns NotDefined if no shape is defined. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | Right. Read-only Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
 | [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |

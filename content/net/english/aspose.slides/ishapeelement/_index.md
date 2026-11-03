@@ -3,7 +3,7 @@ title: IShapeElement
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a part of shape with same outline and fill properties.
 type: docs
-weight: 6990
+weight: 7010
 url: /aspose.slides/ishapeelement/
 ---
 

@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies actual position of a chart element.
 type: docs
-weight: 1690
+weight: 1700
 url: /aspose.slides.charts/iactuallayout/
 ---
 

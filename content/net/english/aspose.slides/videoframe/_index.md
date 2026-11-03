@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 11720
+weight: 11740
 url: /aspose.slides/videoframe/
 ---
 
@@ -66,6 +66,7 @@ public class VideoFrame : PictureFrame, IVideoFrame
 | [TrimFromStart](../../aspose.slides/videoframe/trimfromstart) { get; set; } | Trim start [ms] |
 | [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. Read-only UInt32. See also [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
 | [Volume](../../aspose.slides/videoframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/videoframe/volumevalue) { get; set; } | Returns or sets the exact video volume as a percentage. The value is expressed as a percentage from 0 to 100. Use this property to read or set volume values that are more precise than the predefined levels available through the [`Volume`](./volume) property. Read/write Single. |
 | [Width](../../aspose.slides/shape/width) { get; set; } | Gets or sets the width of the shape, measured in points. Read/write Single. |
 | [X](../../aspose.slides/shape/x) { get; set; } | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. Read/write Single. |
 | [Y](../../aspose.slides/shape/y) { get; set; } | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. Read/write Single. |

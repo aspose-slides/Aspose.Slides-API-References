@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Base class for immutable objects which represent effect.
 type: docs
-weight: 3280
+weight: 3300
 url: /aspose.slides.effects/ieffecteffectivedata/
 ---
 

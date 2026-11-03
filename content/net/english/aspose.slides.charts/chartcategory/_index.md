@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart categories.
 type: docs
-weight: 1270
+weight: 1280
 url: /aspose.slides.charts/chartcategory/
 ---
 
@@ -21,6 +21,7 @@ public class ChartCategory : IChartCategory
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Returns or sets AsLiteral object. Read/write Object. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | Gets the cached value of a chart category. Read-only [`ICachedChartValue`](../icachedchartvalue). |
 | [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
 | [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only Boolean. |
 | [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |

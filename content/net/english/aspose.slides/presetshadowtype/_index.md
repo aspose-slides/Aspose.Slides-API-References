@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a preset for a shadow effect.
 type: docs
-weight: 9670
+weight: 9690
 url: /aspose.slides/presetshadowtype/
 ---
 

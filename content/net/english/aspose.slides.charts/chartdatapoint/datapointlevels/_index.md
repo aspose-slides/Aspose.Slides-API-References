@@ -3,7 +3,7 @@ title: DataPointLevels
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
 type: docs
-weight: 70
+weight: 110
 url: /aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 

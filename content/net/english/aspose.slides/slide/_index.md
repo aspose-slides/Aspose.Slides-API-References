@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 9960
+weight: 9980
 url: /aspose.slides/slide/
 ---
 

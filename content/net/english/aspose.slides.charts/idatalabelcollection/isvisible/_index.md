@@ -3,7 +3,7 @@ title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
 description: False means that data label is not visible by default and so all Show-flags ShowValue ... of the DefaultDataLabelFormat property are false. Read-only Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides.charts/idatalabelcollection/isvisible/
 ---
 

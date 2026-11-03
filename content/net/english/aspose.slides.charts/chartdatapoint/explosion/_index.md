@@ -3,7 +3,7 @@ title: Explosion
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32.
 type: docs
-weight: 90
+weight: 130
 url: /aspose.slides.charts/chartdatapoint/explosion/
 ---
 

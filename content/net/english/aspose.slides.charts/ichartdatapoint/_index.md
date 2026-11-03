@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents series data point.
 type: docs
-weight: 1820
+weight: 1840
 url: /aspose.slides.charts/ichartdatapoint/
 ---
 
@@ -20,8 +20,12 @@ public interface IChartDataPoint : IActualLayout
 | Name | Description |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Returns IActualLayout interface. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Returns the color value of chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Gets the bubble size of a chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [CachedBubbleSize](../../aspose.slides.charts/ichartdatapoint/cachedbubblesize) { get; } | Gets the cached bubble size of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedValue](../../aspose.slides.charts/ichartdatapoint/cachedvalue) { get; } | Gets the cached value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedXValue](../../aspose.slides.charts/ichartdatapoint/cachedxvalue) { get; } | Gets the cached X value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedYValue](../../aspose.slides.charts/ichartdatapoint/cachedyvalue) { get; } | Gets the cached Y value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Gets the color value of a chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 | [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
 | [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32. |
@@ -33,10 +37,10 @@ public interface IChartDataPoint : IActualLayout
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Specifies a data marker. Read-only [`IMarker`](../imarker). |
 | [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Read-only [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Sets data point as total. Applied for Waterfall series type only. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Returns the value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Returns the y value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Gets the size value of a chart data point. Used with Treemap and Sunburst charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Gets the value of a chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Gets the x value of a chart data point. Read-only [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Gets the y value of a chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Methods
 

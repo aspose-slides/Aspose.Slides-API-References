@@ -3,7 +3,7 @@ title: IBaseChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a value of a chart.
 type: docs
-weight: 1730
+weight: 1740
 url: /aspose.slides.charts/ibasechartvalue/
 ---
 

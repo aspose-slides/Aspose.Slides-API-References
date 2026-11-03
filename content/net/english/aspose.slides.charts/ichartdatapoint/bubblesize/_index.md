@@ -1,7 +1,7 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the bubble size of chart data point. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Gets the bubble size of a chart data point. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdatapoint/bubblesize/
@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartdatapoint/bubblesize/
 
 ## IChartDataPoint.BubbleSize property
 
-Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../../idoublechartvalue).
+Gets the bubble size of a chart data point. Read-only [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

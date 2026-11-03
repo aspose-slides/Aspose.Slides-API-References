@@ -3,7 +3,7 @@ title: IBaseSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents common data for all slide types.
 type: docs
-weight: 5340
+weight: 5360
 url: /aspose.slides/ibaseslide/
 ---
 

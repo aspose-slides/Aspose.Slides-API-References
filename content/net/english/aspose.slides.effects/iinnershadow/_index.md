@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a inner shadow effect.
 type: docs
-weight: 3420
+weight: 3440
 url: /aspose.slides.effects/iinnershadow/
 ---
 

@@ -3,7 +3,7 @@ title: ChartSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents group of series.
 type: docs
-weight: 1460
+weight: 1470
 url: /aspose.slides.charts/chartseriesgroup/
 ---
 
@@ -24,8 +24,8 @@ public class ChartSeriesGroup : IChartSeriesGroup
 | [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
 | [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write Byte. |
 | [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write UInt16. |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write UInt16. |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write UInt16. |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Gets or sets the distance between data series in a 3D chart, as a percentage of the marker width. The value must be between 0 and 500. Read/write UInt16. |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write UInt16. |
 | [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write Boolean. |
 | [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
 | [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | Specifies that each data marker in the series has a different color. Read/write Boolean. |

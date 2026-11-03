@@ -3,7 +3,7 @@ title: IChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /aspose.slides.charts/ichartcategorycollection/
 ---
 

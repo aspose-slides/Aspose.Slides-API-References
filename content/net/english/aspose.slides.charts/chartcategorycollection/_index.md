@@ -3,7 +3,7 @@ title: ChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of ChartCategory./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /aspose.slides.charts/chartcategorycollection/
 ---
 

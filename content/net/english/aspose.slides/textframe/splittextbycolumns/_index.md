@@ -3,7 +3,7 @@ title: SplitTextByColumns
 second_title: Aspose.Sildes for .NET API Reference
 description: Splits the text content of the ITextFrameaspose.slides/itextframe into an array of strings where each element corresponds to a separate text column within the frame.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides/textframe/splittextbycolumns/
 ---
 

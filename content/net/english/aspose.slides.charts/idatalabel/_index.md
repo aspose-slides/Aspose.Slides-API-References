@@ -3,7 +3,7 @@ title: IDataLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 2020
+weight: 2040
 url: /aspose.slides.charts/idatalabel/
 ---
 
@@ -24,6 +24,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Returns IOverridableText interface. Read-only [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Returns format of the data label. Read-only [`IDataLabelFormat`](../idatalabelformat). |
 | [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Gets or sets the shape type of the data label. Returns NotDefined if no shape is defined. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 
 ## Methods

@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation document
 type: docs
-weight: 6750
+weight: 6770
 url: /aspose.slides/ipresentation/
 ---
 
@@ -65,6 +65,7 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
 | [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [RefreshChartsData](../../aspose.slides/ipresentation/refreshchartsdata)(bool) | Reloads the data for all charts in the presentation from their source workbooks. |
 | [ReplaceRegex](../../aspose.slides/ipresentation/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
 | [ReplaceText](../../aspose.slides/ipresentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
 | [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |

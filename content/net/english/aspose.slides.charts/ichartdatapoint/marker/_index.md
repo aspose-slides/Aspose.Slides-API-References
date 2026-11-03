@@ -3,7 +3,7 @@ title: Marker
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a data marker. Read-only IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /aspose.slides.charts/ichartdatapoint/marker/
 ---
 

@@ -3,7 +3,7 @@ title: ITabCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of tabs.
 type: docs
-weight: 7200
+weight: 7220
 url: /aspose.slides/itabcollection/
 ---
 

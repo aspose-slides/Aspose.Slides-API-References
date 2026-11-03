@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 5930
+weight: 5950
 url: /aspose.slides/ifontsmanager/
 ---
 
@@ -21,6 +21,7 @@ public interface IFontsManager
 | --- | --- |
 | [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Font substitutions to use when rendering Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | Specifies whether registered fonts should be preferred over embedded fonts with the same font name and style. When enabled, matching embedded fonts are temporarily replaced with corresponding registered fonts during export. |
 
 ## Methods
 

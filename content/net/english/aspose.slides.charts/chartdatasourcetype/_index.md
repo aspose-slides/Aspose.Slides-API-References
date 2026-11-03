@@ -3,7 +3,7 @@ title: ChartDataSourceType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of data source of the chart
 type: docs
-weight: 1370
+weight: 1380
 url: /aspose.slides.charts/chartdatasourcetype/
 ---
 

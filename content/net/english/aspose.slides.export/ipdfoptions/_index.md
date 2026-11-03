@@ -3,7 +3,7 @@ title: IPdfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 4000
+weight: 4020
 url: /aspose.slides.export/ipdfoptions/
 ---
 

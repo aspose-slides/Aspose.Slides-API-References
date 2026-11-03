@@ -3,7 +3,7 @@ title: GetFontBytes
 second_title: Aspose.Sildes for .NET API Reference
 description: Retrieves the byte array representing the font data for a specified font style and font data.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides/fontsmanager/getfontbytes/
 ---
 

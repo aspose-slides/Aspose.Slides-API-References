@@ -1,15 +1,15 @@
 ---
 title: XValue
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the x value of chart data point. Read-only IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+description: Gets the x value of a chart data point. Read-only IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 
 ## IChartDataPoint.XValue property
 
-Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Gets the x value of a chart data point. Read-only [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

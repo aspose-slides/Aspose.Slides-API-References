@@ -3,7 +3,7 @@ title: Connector
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a connector.
 type: docs
-weight: 2670
+weight: 2690
 url: /aspose.slides/connector/
 ---
 

@@ -3,7 +3,7 @@ title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the collection of worksheets of chart data workbook.
 type: docs
-weight: 1400
+weight: 1410
 url: /aspose.slides.charts/chartdataworksheetcollection/
 ---
 

@@ -3,7 +3,7 @@ title: Tint
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 type: docs
-weight: 3660
+weight: 3680
 url: /aspose.slides.effects/tint/
 ---
 

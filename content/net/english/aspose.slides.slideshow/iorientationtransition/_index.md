@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Orientation slide transition effect.
 type: docs
-weight: 10150
+weight: 10170
 url: /aspose.slides.slideshow/iorientationtransition/
 ---
 

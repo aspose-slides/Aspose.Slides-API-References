@@ -3,7 +3,7 @@ title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /aspose.slides/textframe/
 ---
 
@@ -32,6 +32,7 @@ public sealed class TextFrame : ITextFrame
 
 | Name | Description |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | Gets the text rectangle defined by the geometry of the parent shape. |
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |

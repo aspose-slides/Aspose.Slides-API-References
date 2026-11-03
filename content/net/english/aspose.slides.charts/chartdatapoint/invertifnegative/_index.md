@@ -3,7 +3,7 @@ title: InvertIfNegative
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the data point shall invert its colors if the value is negative. Read/write Boolean.
 type: docs
-weight: 120
+weight: 160
 url: /aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
 

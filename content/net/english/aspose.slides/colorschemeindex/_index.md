@@ -3,7 +3,7 @@ title: ColorSchemeIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an index in a colorscheme.
 type: docs
-weight: 2550
+weight: 2570
 url: /aspose.slides/colorschemeindex/
 ---
 

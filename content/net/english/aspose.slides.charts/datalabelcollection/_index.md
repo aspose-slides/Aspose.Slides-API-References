@@ -3,7 +3,7 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 1560
+weight: 1570
 url: /aspose.slides.charts/datalabelcollection/
 ---
 
@@ -23,6 +23,7 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Gets the number of all data labels in the collection. Read-only Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Gets the number of visible data labels in the collection. Read-only Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Gets the default data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Gets or sets the default shape type for data labels. Returns NotDefined if no shape is defined. |
 | [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Gets the data label for the data point with the specified index. |
 | [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Represents data labels leader lines format. Read-only [`IChartLinesFormat`](../ichartlinesformat). |

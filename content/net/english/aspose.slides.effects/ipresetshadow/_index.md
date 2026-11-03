@@ -3,7 +3,7 @@ title: IPresetShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Preset Shadow effect.
 type: docs
-weight: 3480
+weight: 3500
 url: /aspose.slides.effects/ipresetshadow/
 ---
 

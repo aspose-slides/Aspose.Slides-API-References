@@ -3,7 +3,7 @@ title: ICornerDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Corner direction slide transition effect.
 type: docs
-weight: 10060
+weight: 10080
 url: /aspose.slides.slideshow/icornerdirectiontransition/
 ---
 

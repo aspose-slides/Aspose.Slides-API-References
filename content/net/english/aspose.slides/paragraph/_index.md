@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 9280
+weight: 9300
 url: /aspose.slides/paragraph/
 ---
 

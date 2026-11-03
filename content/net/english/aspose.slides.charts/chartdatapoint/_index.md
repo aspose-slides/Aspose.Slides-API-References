@@ -3,7 +3,7 @@ title: ChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents series data point.
 type: docs
-weight: 1330
+weight: 1340
 url: /aspose.slides.charts/chartdatapoint/
 ---
 
@@ -24,6 +24,10 @@ public class ChartDataPoint : IChartDataPoint
 | [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [CachedBubbleSize](../../aspose.slides.charts/chartdatapoint/cachedbubblesize) { get; } | Gets the cached bubble size of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedValue](../../aspose.slides.charts/chartdatapoint/cachedvalue) { get; } | Gets the cached value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedXValue](../../aspose.slides.charts/chartdatapoint/cachedxvalue) { get; } | Gets the cached X value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedYValue](../../aspose.slides.charts/chartdatapoint/cachedyvalue) { get; } | Gets the cached Y value of a chart data point. Read-only [`ICachedChartValue`](../icachedchartvalue). |
 | [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | Returns the color value of chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 | [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |

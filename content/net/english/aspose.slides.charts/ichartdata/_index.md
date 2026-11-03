@@ -3,7 +3,7 @@ title: IChartData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data used for a chart plotting.
 type: docs
-weight: 1800
+weight: 1820
 url: /aspose.slides.charts/ichartdata/
 ---
 
@@ -35,6 +35,7 @@ public interface IChartData
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Gets chart data range. |
 | [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Writes the internally contained Excel workbook it into an in-memory stream. |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | Refreshes the chart data by reloading it from the source workbook. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Sets external workbook as a data source for the chart. |
 | [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Set chart data range. Series and categories will be updated based on new data range. If amount of series in data range greater than count of series in the chart data then additional series with the same type as a last series in the current collection will be added to the end of the collection. |

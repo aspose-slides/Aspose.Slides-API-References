@@ -3,7 +3,7 @@ title: ReplaceRegex
 second_title: Aspose.Sildes for .NET API Reference
 description: Replaces all matches of the regular expression with the specified string.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/itextframe/replaceregex/
 ---
 

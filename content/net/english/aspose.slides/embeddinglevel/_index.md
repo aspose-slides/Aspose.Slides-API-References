@@ -3,7 +3,7 @@ title: EmbeddingLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the licensing rights for embedding the font.
 type: docs
-weight: 3670
+weight: 3690
 url: /aspose.slides/embeddinglevel/
 ---
 

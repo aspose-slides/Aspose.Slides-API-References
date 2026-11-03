@@ -3,7 +3,7 @@ title: TextFrameForOverriding
 second_title: Aspose.Sildes for .NET API Reference
 description: Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName ShowValue ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 

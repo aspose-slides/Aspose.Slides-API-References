@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the space between bar or column clusters as a percentage of the bar or column width. Read/write UInt16.
+description: Gets or sets the space between bar or column clusters as a percentage of the bar or column width. The value must be between 0 and 500. Read/write UInt16.
 type: docs
 weight: 70
 url: /aspose.slides.charts/chartseriesgroup/gapwidth/
@@ -9,11 +9,15 @@ url: /aspose.slides.charts/chartseriesgroup/gapwidth/
 
 ## ChartSeriesGroup.GapWidth property
 
-Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write UInt16.
+Gets or sets the space between bar or column clusters, as a percentage of the bar or column width. The value must be between 0 and 500. Read/write UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Remarks
+
+This property applies to series of the following types: Bar subtypes (see also [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) method), Column subtypes (see also [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) method), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### See Also
 

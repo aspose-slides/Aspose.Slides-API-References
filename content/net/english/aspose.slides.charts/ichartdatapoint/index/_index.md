@@ -3,7 +3,7 @@ title: Index
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which of the parents children collection this data point applies to. Read UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /aspose.slides.charts/ichartdatapoint/index/
 ---
 

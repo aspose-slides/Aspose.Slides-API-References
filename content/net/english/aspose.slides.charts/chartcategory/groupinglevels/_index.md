@@ -3,7 +3,7 @@ title: GroupingLevels
 second_title: Aspose.Sildes for .NET API Reference
 description: Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.charts/chartcategory/groupinglevels/
 ---
 

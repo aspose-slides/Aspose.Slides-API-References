@@ -3,7 +3,7 @@ title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents series error bars values in case of Custom value type. Read-only IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
 

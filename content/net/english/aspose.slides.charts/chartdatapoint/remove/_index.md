@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes DataPoint from chart series.
 type: docs
-weight: 230
+weight: 270
 url: /aspose.slides.charts/chartdatapoint/remove/
 ---
 

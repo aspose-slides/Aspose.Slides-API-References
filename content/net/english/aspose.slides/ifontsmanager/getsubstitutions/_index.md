@@ -3,7 +3,7 @@ title: GetSubstitutions
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets the information about fonts that will be replaced on the presentations rendering.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides/ifontsmanager/getsubstitutions/
 ---
 

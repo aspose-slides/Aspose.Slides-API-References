@@ -18,6 +18,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [Axis](./axis) | Encapsulates the object that represents a chart's axis. |
 | [AxisFormat](./axisformat) | Represents chart format properties. |
 | [BaseChartValue](./basechartvalue) | Represents a value of a chart. |
+| [CachedChartValue](./cachedchartvalue) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
 | [Chart](./chart) | Represents an graphic chart on a slide. |
 | [ChartCategory](./chartcategory) | Represents chart categories. |
@@ -72,6 +73,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [IAxis](./iaxis) | Encapsulates the object that represents a chart's axis. |
 | [IAxisFormat](./iaxisformat) | Represents chart format properties. |
 | [IBaseChartValue](./ibasechartvalue) | Represents a value of a chart. |
+| [ICachedChartValue](./icachedchartvalue) | Represents a cached chart value (e.g., X, Y, bubble size, or the main value). |
 | [IChart](./ichart) | Represents an graphic chart on a slide. |
 | [IChartCategory](./ichartcategory) | Represents chart categories. |
 | [IChartCategoryCollection](./ichartcategorycollection) | Represents collection of [`IChartCategory`](../aspose.slides.charts/ichartcategory) |

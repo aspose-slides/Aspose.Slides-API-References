@@ -3,7 +3,7 @@ title: HyperlinkActionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 5130
+weight: 5150
 url: /aspose.slides/hyperlinkactiontype/
 ---
 
