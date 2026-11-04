@@ -1,9 +1,9 @@
 ---
 title: TextVerticalOverflowType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示文本垂直溢出类型。
 type: docs
-weight: 11020
+weight: 11040
 url: /zh/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType 枚举
@@ -14,9 +14,9 @@ url: /zh/aspose.slides/textverticaloverflowtype/
 public enum TextVerticalOverflowType : sbyte
 ```
 
-### 枚举值
+### 值
 
-| 名称 | 数值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Overflow | `0` |  |

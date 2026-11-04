@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一个 SVG 图像。
 type: docs
-weight: 10800
+weight: 10820
 url: /zh/aspose.slides/svgimage/
 ---
 ## SvgImage 类
@@ -29,10 +29,10 @@ public class SvgImage : ISvgImage
 
 | 名称 | 描述 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定 Svg 的基础 URI。用于解析相对链接。只读 String。 |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定 Svg 的基本 URI。用于解析相对链接。只读 String。 |
 | [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 返回在 Svg 文档导入期间用于解析外部资源的回调接口。只读 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 返回 SVG 内容。只读 String。 |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回 SVG 数据。只读 Byte[]. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回 SVG 数据。只读 Byte[]。 |
 
 ## 方法
 
@@ -40,7 +40,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | 将 SVG 图像保存为 EMF 文件。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [ISvgImage](../isvgimage)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

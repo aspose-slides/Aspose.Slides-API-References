@@ -1,14 +1,14 @@
 ---
 title: DataTable
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Eigenschaften der Datentabelle dar.
+description: Stellt Eigenschaften der Datentabelle dar.
 type: docs
-weight: 1600
+weight: 1610
 url: /de/aspose.slides.charts/datatable/
 ---
 ## DataTable Klasse
 
-Stellt die Eigenschaften der DataTable dar.
+Stellt Eigenschaften der Datentabelle dar.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Gibt das Diagramm zurück. Nur lesend [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur lesend [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Wahr, wenn die DataTable des Diagramms horizontale Zellenränder hat. Lese/Schreib Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Wahr, wenn die DataTable des Diagramms Umrissränder hat. Lese/Schreib Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Wahr, wenn die DataTable des Diagramms vertikale Zellenränder hat. Lese/Schreib Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Wahr, wenn der Schlüssel der Legende für Datenbeschriftungen sichtbar ist. Lese/Schreib Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Gibt das Textformat zurück. Nur lesend [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Gibt das Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur lesbar [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Wahr, wenn die Diagrammdatentabelle horizontale Zellenränder hat. Lese/Schreib Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Wahr, wenn die Diagrammdatentabelle Umrissränder hat. Lese/Schreib Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Wahr, wenn die Diagrammdatentabelle vertikale Zellenränder hat. Lese/Schreib Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Wahr, wenn die Legenden-Schlüsselbeschriftung sichtbar ist. Lese/Schreib Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
 
 ### Siehe auch
 

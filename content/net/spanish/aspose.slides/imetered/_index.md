@@ -1,12 +1,12 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Sildes para la referencia de la API .NET
 description: Proporciona métodos para establecer la clave medida.
 type: docs
-weight: 6450
+weight: 6470
 url: /es/aspose.slides/imetered/
 ---
-## Interfaz IMetered
+## IMetered interfaz
 
 Proporciona métodos para establecer la clave medida.
 

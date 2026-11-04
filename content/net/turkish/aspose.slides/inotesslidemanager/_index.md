@@ -1,12 +1,12 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Not slaytı yöneticisi.
 type: docs
-weight: 6520
+weight: 6540
 url: /tr/aspose.slides/inotesslidemanager/
 ---
-## INotesSlideManager arayüzü
+## INotesSlideManager arabirimi
 
 Not slaytı yöneticisi.
 
@@ -18,7 +18,7 @@ public interface INotesSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Geçerli slayt için not slaytını döndürür. Slaytın not slaytı yoksa null döndürür. Salt okunur [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Geçerli slayt için not slaytını döndürür. Slaytta not slaytı yoksa null döndürür. Salt okunur [`INotesSlide`](../inotesslide). |
 
 ## Yöntemler
 

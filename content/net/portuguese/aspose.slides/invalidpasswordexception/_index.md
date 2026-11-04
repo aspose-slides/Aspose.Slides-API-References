@@ -1,12 +1,12 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Exceção lançada quando o formato do arquivo de apresentação não é suportado.
 type: docs
-weight: 7620
+weight: 7640
 url: /pt/aspose.slides/invalidpasswordexception/
 ---
-## InvalidPasswordException classe
+## classe InvalidPasswordException
 
 Exceção lançada quando o formato do arquivo de apresentação não é suportado.
 
@@ -20,9 +20,9 @@ public class InvalidPasswordException : Exception
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Construtor padrão. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a esta exceção. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Construtor para uma exceção contendo uma mensagem e uma exceção interna. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Construtor para uma exceção contendo uma mensagem e uma exceção incorporada. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

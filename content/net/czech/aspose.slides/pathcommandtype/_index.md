@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje příkazy grafické cesty
+description: Reprezentuje grafické příkazy cesty
 type: docs
-weight: 9320
+weight: 9340
 url: /cs/aspose.slides/pathcommandtype/
 ---
 ## PathCommandType výčet
 
-Představuje příkazy grafické cesty
+Represents graphics path commands
 
 ```csharp
 public enum PathCommandType : byte

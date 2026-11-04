@@ -3,7 +3,7 @@ title: IFormatFactory
 second_title: Aspose.Sildes for .NET API 參考
 description: 允許透過 COM 介面建立格式。
 type: docs
-weight: 5940
+weight: 5960
 url: /zh-hant/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory 介面
@@ -16,13 +16,13 @@ public interface IFormatFactory
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 建立新的[`IParagraphFormat`](../iparagraphformat)。 |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 建立新的[`IPortionFormat`](../iportionformat)。 |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 建立新的[`ITextFrameFormat`](../itextframeformat)。 |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 建立新的 [`IParagraphFormat`](../iparagraphformat)。 |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 建立新的 [`IPortionFormat`](../iportionformat)。 |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 建立新的 [`ITextFrameFormat`](../itextframeformat)。 |
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

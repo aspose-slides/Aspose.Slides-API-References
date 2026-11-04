@@ -1,9 +1,9 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 垂直对齐
 type: docs
-weight: 9050
+weight: 9070
 url: /zh/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment 枚举
@@ -19,11 +19,11 @@ public enum MathVerticalAlignment
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `0` | 值未定义 |
-| Top | `1` | 顶部 |
-| Center | `2` | 居中 |
-| Bottom | `3` | 底部 |
+| Top | `1` | Top |
+| Center | `2` | Center |
+| Bottom | `3` | Bottom |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

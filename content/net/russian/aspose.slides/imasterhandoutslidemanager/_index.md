@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes для .NET справочника API
-description: Менеджер главного раздаточного слайда.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Менеджер мастер-слайдов раздаточного материала.
 type: docs
-weight: 6370
+weight: 6390
 url: /ru/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager интерфейс
 
-Главный менеджер раздаточных слайдов.
+Менеджер мастер-слайдов раздаточного материала.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -24,8 +24,8 @@ public interface IMasterHandoutSlideManager
 
 | Имя | Описание |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет основной раздаточный слайд. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает основной раздаточный слайд по умолчанию в соответствующий раздаточный слайд. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет мастер-слайд раздаточного материала. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает мастер-слайд раздаточного материала по умолчанию в соответствующий раздаточный слайд. |
 
 ### См. также
 

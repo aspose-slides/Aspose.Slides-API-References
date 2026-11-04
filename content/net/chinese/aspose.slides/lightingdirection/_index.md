@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes .NET API 参考
-description: 定义光照方向的常量。
+second_title: Aspose.Sildes for .NET API 参考
+description: 定义光线方向的常量。
 type: docs
-weight: 7710
+weight: 7730
 url: /zh/aspose.slides/lightingdirection/
 ---
 ## LightingDirection 枚举
 
-定义光照方向的常量。
+定义光线方向的常量。
 
 ```csharp
 public enum LightingDirection

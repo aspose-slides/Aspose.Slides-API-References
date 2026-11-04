@@ -1,9 +1,9 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 내보낸 문서에서 Ink 객체의 모양을 제어하는 옵션을 제공합니다.
 type: docs
-weight: 3980
+weight: 4000
 url: /ko/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions 인터페이스
@@ -19,9 +19,9 @@ public interface IInkOptions
 | 이름 | 설명 |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | 내보낸 문서에서 Ink 요소를 표시하거나 숨깁니다. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | 브러시 렌더링에 ROP 연산 또는 불투명도를 사용합니다. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | 렌더링 브러시를 위해 ROP 연산 또는 불투명도를 사용합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

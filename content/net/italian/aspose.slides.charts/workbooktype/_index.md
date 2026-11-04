@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Specifica il tipo di file di cartella di lavoro Open XML.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica il tipo di file cartella di lavoro Open XML.
 type: docs
-weight: 2510
+weight: 2530
 url: /it/aspose.slides.charts/workbooktype/
 ---
-## enumerazione WorkbookType
+## WorkbookType enumerazione
 
-Specifica il tipo di file di cartella di lavoro Open XML.
+Specifica il tipo di file cartella di lavoro Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -23,7 +23,7 @@ public enum WorkbookType
 | WorkbookMacro | `1` | Cartella di lavoro Excel con macro (*.xlsm). |
 | Template | `2` | Modello Excel (*.xltx). |
 | TemplateMacro | `3` | Modello Excel con macro (*.xltm). |
-| WorkbookBinaryMacro | `4` | Cartella di lavoro Excel binaria con macro (*.xlsb). |
+| WorkbookBinaryMacro | `4` | Cartella di lavoro binaria Excel con macro (*.xlsb). |
 
 ### Vedi anche
 

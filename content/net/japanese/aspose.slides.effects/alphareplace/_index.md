@@ -1,9 +1,9 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: Alpha Replace エフェクトを表します。エフェクトのアルファ（不透明度）の値は固定のアルファに置き換えられます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Alpha Replace エフェクトを表します。エフェクトのアルファ（不透明度）値は固定のアルファに置き換えられます。
 type: docs
-weight: 2900
+weight: 2920
 url: /ja/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace クラス
@@ -18,20 +18,20 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## メソッド
 
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 指定された [`AlphaReplace`](../alphareplace) が現在の [`AlphaReplace`](../alphareplace) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 継承が適用された有効な Alpha Replace エフェクト データを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 継承が適用された有効な Alpha Replace エフェクトデータを取得します。 |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 特定の型のハッシュ関数として機能します。 |
 
-### 参照
+### 関連項目
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
-* インターフェース [IAlphaReplace](../ialphareplace)
+* インターフェイス [IAlphaReplace](../ialphareplace)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)
 

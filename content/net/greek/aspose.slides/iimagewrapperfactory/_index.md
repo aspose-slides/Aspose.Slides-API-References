@@ -3,7 +3,7 @@ title: IImageWrapperFactory
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αυτή η διασύνδεση επιτρέπει την αρχικοποίηση του IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /el/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory διασύνδεση
@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης ImageWrapper από την καθορισμένη υπάρχουσα εικόνα. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης ImageWrapper από την καθορισμένη ροή δεδομένων. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης ImageWrapper από το καθορισμένο αρχείο. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Αρχικοποιεί μια νέα παρουσία της κλάσης ImageWrapper από την καθορισμένη υπάρχουσα εικόνα. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Αρχικοποιεί μια νέα παρουσία της κλάσης ImageWrapper από την καθορισμένη ροή δεδομένων. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Αρχικοποιεί μια νέα παρουσία της κλάσης ImageWrapper από το καθορισμένο αρχείο. |
 
 ### Δείτε επίσης
 

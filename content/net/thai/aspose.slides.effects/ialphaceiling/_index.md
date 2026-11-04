@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: อธิบายเอฟเฟกต์ Alpha Ceiling ค่าความทึบของ Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100% กล่าวคือ สิ่งใดที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนค่าผลกระทบ Alpha Ceiling. ค่าความโปร่งใส Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. กล่าวคือ สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 type: docs
-weight: 3040
+weight: 3060
 url: /th/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่าของ Alpha (ความทึบ) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100% พูดอีกอย่างคือ สิ่งใดที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
+แทนค่าผลกระทบ Alpha Ceiling. ค่าความโปร่งใส (opacity) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100 %. กล่าวคือ สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperationEx พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperationEx พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

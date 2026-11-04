@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 保存時にオブジェクトをどのように処理すべきかを決定するために使用されるコールバックインターフェイス。
+description: 保存中にオブジェクトがどのように処理されるべきかを決定するために使用されるコールバックインターフェイス。
 type: docs
-weight: 3990
+weight: 4010
 url: /ja/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController インターフェイス
 
-保存中にオブジェクトをどのように処理すべきかを決定するために使用されるコールバックインターフェイス。
+保存中にオブジェクトがどのように処理されるべきかを決定するために使用されるコールバックインターフェイス。
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,11 +18,11 @@ public interface ILinkEmbedController
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | オブジェクトをどこに保存すべきかを決定します。このメソッドは各オブジェクトIDにつき1回呼び出されます。同じデータ、semanticName、contentType を持つオブジェクトが複数存在し、ID が異なる可能性があることは保証されません。 |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 外部オブジェクトへの URL を返します。このメソッドは [`GetObjectStoringLocation`](./getobjectstoringlocation) が Link を返した場合は常に呼び出され、[`GetObjectStoringLocation`](./getobjectstoringlocation) が Embed を返したが埋め込みが不可能な場合に呼び出されることがあります。同じオブジェクトIDに対して複数回呼び出すことができます。 |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | オブジェクトの保存場所を決定します。このメソッドは各オブジェクトIDにつき一度呼び出されます。同じデータ、semanticName、contentType を持ち、異なるIDのオブジェクトが二つ存在し得ることは保証されません。 |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 外部オブジェクトへのURLを返します。[`GetObjectStoringLocation`](./getobjectstoringlocation) が Link を返した場合は必ず呼び出され、[`GetObjectStoringLocation`](./getobjectstoringlocation) が Embed を返したが埋め込みが不可能な場合に呼び出されることがあります。同じオブジェクトIDに対して複数回呼び出すことが可能です。 |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | 外部オブジェクトを保存します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

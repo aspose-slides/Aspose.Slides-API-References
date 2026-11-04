@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica l'oggetto pedice che consiste in una base e in un pedice di dimensioni ridotte posizionato sotto e a destra.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica l'oggetto di pedice che è costituito da una base e da un pedice di dimensioni ridotte posizionato sotto e a destra.
 type: docs
-weight: 8470
+weight: 8490
 url: /it/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interfaccia
 
-Specifica l'oggetto pedice, che è composto da una base e da un pedice di dimensioni ridotte posizionato sotto e a destra.
+Specifica l'oggetto di pedice, che è costituito da una base e da un pedice di dimensioni ridotte posizionato sotto e a destra.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Consente di ottenere l'interfaccia IMathElement base [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Consente di ottenere la base dell'interfaccia IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Argomento base |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Pedice |
 

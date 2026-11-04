@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje styl číslovaných odrážek.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje styl očíslovaných odrážek.
 type: docs
-weight: 9180
+weight: 9200
 url: /cs/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enumerace
 
-Represents the style of the numbered bullets.
+Vyjadřuje styl očíslovaných odrážek.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -19,47 +19,47 @@ public enum NumberedBulletStyle : sbyte
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | NotDefined | `-1` | Není definováno. |
-| BulletAlphaLCPeriod | `0` | Malá písmena abecedy s tečkou. Příklad: a., b., c., … |
-| BulletAlphaUCPeriod | `1` | Velká písmena abecedy s tečkou. Příklad: A., B., C., … |
-| BulletArabicParenRight | `2` | Arabské číslice se závěrečnou závorkou. Příklad: 1), 2), 3), … |
-| BulletArabicPeriod | `3` | Arabské číslice s tečkou. Příklad: 1., 2., 3., … |
-| BulletRomanLCParenBoth | `4` | Malá římská čísla s oběma závorkami. Příklad: (i), (ii), (iii), … |
-| BulletRomanLCParenRight | `5` | Malá římská čísla se závěrečnou závorkou. Příklad: i), ii), iii), … |
-| BulletRomanLCPeriod | `6` | Malá římská čísla s tečkou. Příklad: i., ii., iii., … |
-| BulletRomanUCPeriod | `7` | Velká římská čísla s tečkou. Příklad: I., II., III., … |
-| BulletAlphaLCParenBoth | `8` | Malá písmena abecedy s oběma závorkami. Příklad: (a), (b), (c), … |
-| BulletAlphaLCParenRight | `9` | Malá písmena abecedy se závěrečnou závorkou. Příklad: a), b), c), … |
-| BulletAlphaUCParenBoth | `10` | Velká písmena abecedy s oběma závorkami. Příklad: (A), (B), (C), … |
-| BulletAlphaUCParenRight | `11` | Velká písmena abecedy se závěrečnou závorkou. Příklad: A), B), C), … |
-| BulletArabicParenBoth | `12` | Arabské číslice s oběma závorkami. Příklad: (1), (2), (3), … |
-| BulletArabicPlain | `13` | Arabské číslice. Příklad: 1, 2, 3, … |
-| BulletRomanUCParenBoth | `14` | Velká římská čísla s oběma závorkami. Příklad: (I), (II), (III), … |
-| BulletRomanUCParenRight | `15` | Velká římská čísla se závěrečnou závorkou. Příklad: I), II), III), … |
+| BulletAlphaLCPeriod | `0` | Malá písmena abecedy s tečkou. Příklad: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Velká písmena abecedy s tečkou. Příklad: A., B., C., ... |
+| BulletArabicParenRight | `2` | Arabské číslice s uzavírací závorkou. Příklad: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | Arabské číslice s tečkou. Příklad: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | Malá římská čísla s oběma závorkami. Příklad: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Malá římská čísla s uzavírací závorkou. Příklad: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Malá římská čísla s tečkou. Příklad: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Velká římská čísla s tečkou. Příklad: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Malá písmena abecedy s oběma závorkami. Příklad: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Malá písmena abecedy s uzavírací závorkou. Příklad: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Velká písmena abecedy s oběma závorkami. Příklad: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Velká písmena abecedy s uzavírací závorkou. Příklad: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Arabské číslice s oběma závorkami. Příklad: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | Arabské číslice. Příklad: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | Velká římská čísla s oběma závorkami. Příklad: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Velká římská čísla s uzavírací závorkou. Příklad: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Zjednodušená čínština bez tečky. |
 | BulletSimpChinPeriod | `17` | Zjednodušená čínština s tečkou. |
-| BulletCircleNumDBPlain | `18` | Dvojbytní číslo v kroužku pro hodnoty do 10, od 11 – arabské číslice. |
-| BulletCircleNumWDWhitePlain | `19` | Číslo barevného textu se stejnou barevnou kroužkovou obálkou (Wingdings bílé kruhové číslice). Od 11 – arabské číslice. |
-| BulletCircleNumWDBlackPlain | `20` | Číslo se stínovým odstínem a kruhovým pozadím v barvě normálního textu (Wingdings černé kruhové číslice). |
+| BulletCircleNumDBPlain | `18` | Dvojbytečný číslovaný kruh pro hodnoty do 10, od 11 – arabské číslice. |
+| BulletCircleNumWDWhitePlain | `19` | Číslo obarvené textem se stejnou barevnou kružnicí nakreslenou kolem (Wingdings bílá kruhová čísla). Od 11 – arabské číslice. |
+| BulletCircleNumWDBlackPlain | `20` | Číslo se stínovou barvou a kruhovým pozadím normální barvy textu (Wingdings černá kruhová čísla). |
 | BulletTradChinPlain | `21` | Tradiční čínština bez tečky. |
 | BulletTradChinPeriod | `22` | Tradiční čínština s tečkou. |
 | BulletArabicAlphaDash | `23` | Arabské abecední znaky s pomlčkou. |
-| BulletArabicAbjadDash | `24` | Arabské Abjad abecedy s pomlčkou. |
+| BulletArabicAbjadDash | `24` | Arabské abjadové abecedy s pomlčkou. |
 | BulletHebrewAlphaDash | `25` | Hebrejské abecední znaky s pomlčkou. |
-| BulletKanjiKoreanPlain | `26` | Japonské/korejské číslice bez tečky. |
-| BulletKanjiKoreanPeriod | `27` | Japonské/korejské číslice s tečkou. |
-| BulletArabicDBPlain | `28` | Dvojbytní arabské číslování (bez interpunkce). |
-| BulletArabicDBPeriod | `29` | Dvojbytní arabské číslování s dvojbytnou tečkou. |
-| BulletThaiAlphaPeriod | `30` | Thajská abecední tečka. |
-| BulletThaiAlphaParenRight | `31` | Thajské abecední závorky – pravé. |
-| BulletThaiAlphaParenBoth | `32` | Thajské abecední závorky – obě. |
-| BulletThaiNumPeriod | `33` | Thajské číselné označení s tečkou. |
-| BulletThaiNumParenRight | `34` | Thajské číselné závorky – pravé. |
-| BulletThaiNumParenBoth | `35` | Thajské číselné závorky – obě. |
-| BulletHindiAlphaPeriod | `36` | Hindská abecední tečka – samohlásky. |
-| BulletHindiNumPeriod | `37` | Hindské číselné označení s tečkou. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji jednoduchá čínština s dvojbytnou tečkou. |
-| BulletHindiNumParenRight | `39` | Hindské číselné závorky – pravé. |
-| BulletHindiAlpha1Period | `40` | Hindská abecední tečka – souhlásky. |
+| BulletKanjiKoreanPlain | `26` | Japonská/korejská čísla bez tečky. |
+| BulletKanjiKoreanPeriod | `27` | Japonská/korejská čísla s tečkou. |
+| BulletArabicDBPlain | `28` | Dvojbytečný arabský číselný systém (bez interpunkce). |
+| BulletArabicDBPeriod | `29` | Dvojbytečný arabský číselný systém s dvojbyteovou tečkou. |
+| BulletThaiAlphaPeriod | `30` | Thajská abeceda s tečkou. |
+| BulletThaiAlphaParenRight | `31` | Thajská abeceda v závorkách – pravá. |
+| BulletThaiAlphaParenBoth | `32` | Thajská abeceda v závorkách – obě. |
+| BulletThaiNumPeriod | `33` | Thajská číslice s tečkou. |
+| BulletThaiNumParenRight | `34` | Thajská číslice v závorkách – pravá. |
+| BulletThaiNumParenBoth | `35` | Thajská číslice v závorkách – obě. |
+| BulletHindiAlphaPeriod | `36` | Hindská abeceda s tečkou – samohlásky. |
+| BulletHindiNumPeriod | `37` | Hindské číslice s tečkou. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji jednoduchá čínština DBPeriod. |
+| BulletHindiNumParenRight | `39` | Hindské číslice v závorkách – pravá. |
+| BulletHindiAlpha1Period | `40` | Hindská abeceda s tečkou – souhlásky. |
 
 ### Viz také
 

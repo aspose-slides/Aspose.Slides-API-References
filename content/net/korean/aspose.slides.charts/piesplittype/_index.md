@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
 second_title: Aspose.Sildes for .NET API 참조
-description: 파이-오브-파이 또는 바-오브-파이 차트에서 두 번째 파이 또는 막대에 대한 분할 포인트 유형을 나타냅니다.
+description: 파이오브파이 차트 또는 바오브파이 차트에서 두 번째 파이 또는 막대의 분할 지점 유형을 나타냅니다.
 type: docs
-weight: 2380
+weight: 2400
 url: /ko/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType 열거형
 
-두 번째 파이 또는 막대가 포함된 파이-오브-파이 또는 바-오브-파이 차트에서 분할 포인트 유형을 나타냅니다.
+파이오브파이 차트 또는 바오브파이 차트에서 두 번째 파이 또는 막대의 분할 지점 유형을 나타냅니다.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Default | `0` | 데이터 포인트가 이 차트 유형에 대한 기본 메커니즘을 사용하여 분할됨을 지정합니다. |
-| Custom | `1` | 데이터 포인트가 Custom Split 값에 따라 파이와 두 번째 차트 사이에 분할됨을 지정합니다. |
-| ByPercentage | `2` | 데이터 포인트가 Split Position 퍼센트보다 작은 비율을 가진 포인트를 두 번째 차트에 배치하여 파이와 두 번째 차트 사이에 분할됨을 지정합니다. |
-| ByPos | `3` | 데이터 포인트가 마지막 Split Position을 두 번째 차트에 배치하여 파이와 두 번째 차트 사이에 분할됨을 지정합니다. |
-| ByValue | `4` | 데이터 포인트가 Split Position보다 작은 값을 가진 포인트를 두 번째 차트에 배치하여 파이와 두 번째 차트 사이에 분할됨을 지정합니다. |
+| Default | `0` | 이 차트 유형에 대한 기본 메커니즘을 사용하여 데이터 포인트를 분할하도록 지정합니다. |
+| Custom | `1` | 데이터 포인트를 파이와 두 번째 차트 사이에 Custom Split 값에 따라 분할하도록 지정합니다. |
+| ByPercentage | `2` | 데이터 포인트를 파이와 두 번째 차트 사이에 Split Position 퍼센트보다 작은 비율을 가진 포인트를 두 번째 차트에 배치하여 분할하도록 지정합니다. |
+| ByPos | `3` | 데이터 포인트를 파이와 두 번째 차트 사이에 데이터 포인트의 마지막 Split Position을 두 번째 차트에 배치하여 분할하도록 지정합니다. |
+| ByValue | `4` | 데이터 포인트를 파이와 두 번째 차트 사이에 Split Position보다 값이 작은 데이터 포인트를 두 번째 차트에 배치하여 분할하도록 지정합니다. |
 
 ### 참고
 

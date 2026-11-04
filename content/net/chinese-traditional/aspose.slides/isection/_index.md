@@ -1,9 +1,9 @@
 ---
 title: ISection
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表投影片的區段。
+description: 表示投影片的區段。
 type: docs
-weight: 6890
+weight: 6910
 url: /zh-hant/aspose.slides/isection/
 ---
 ## ISection 介面
@@ -19,7 +19,7 @@ public interface ISection
 | 名稱 | 說明 |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | 區段的名稱。 |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | 區段 ID。 |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | 區段 Id。 |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | 傳回區段的第一張投影片。 |
 
 ## 方法

@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내보낸 문서에 노트를 렌더링하는 규칙을 나타냅니다.
+description: 내보낸 문서에 메모를 렌더링하는 규칙을 나타냅니다
 type: docs
-weight: 4300
+weight: 4320
 url: /ko/aspose.slides.export/notespositions/
 ---
 ## NotesPositions 열거형
 
-내보낸 문서에 노트를 렌더링하는 규칙을 나타냅니다.
+내보낸 문서에 메모를 렌더링하는 규칙을 나타냅니다
 
 ```csharp
 public enum NotesPositions
@@ -18,11 +18,11 @@ public enum NotesPositions
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| None | `0` | 노트를 전혀 표시하지 않도록 지정합니다. |
-| BottomFull | `1` | 필요에 따라 추가 페이지를 사용하여 노트를 전체적으로 표시하도록 지정합니다. |
+| None | `0` | 노트가 전혀 표시되지 않도록 지정합니다. |
+| BottomFull | `1` | 필요에 따라 추가 페이지를 사용하여 노트를 전체 표시하도록 지정합니다. |
 | BottomTruncated | `2` | 노트를 한 페이지에만 표시하도록 지정합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

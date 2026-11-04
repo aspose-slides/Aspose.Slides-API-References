@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje obiekt Zoom na slajdzie.
 type: docs
-weight: 7410
+weight: 7430
 url: /pl/aspose.slides/izoomobject/
 ---
 ## IZoomObject interfejs

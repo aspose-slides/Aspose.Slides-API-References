@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente un groupe de méthodes destinées à compresser Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /fr/aspose.slides.lowcode/compress/
 ---
 ## Compress classe
 
-Représente un groupe de méthodes destinées à compresser [`Presentation`](../../aspose.slides/presentation).
+Represents a group of methods intended to compress [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -19,6 +19,8 @@ public static class Compress
 | Nom | Description |
 | --- | --- |
 | static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Effectue la compression du [`Presentation`](../../aspose.slides/presentation) en supprimant les caractères inutilisés des polices intégrées. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Réduit la résolution des images dans la présentation et supprime leurs zones recadrées, similaire à la fonction "Compress Pictures" de PowerPoint appliquée à toutes les images. Les images sur les diapositives, les diapositives de mise en page et les diapositives maîtres sont traitées, y compris les images à l'intérieur des formes groupe et les remplissages d'image des formes. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Réduit la taille d'une présentation en appliquant toutes les étapes de compression disponibles : |
 | static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Effectue la compression du [`Presentation`](../../aspose.slides/presentation) en supprimant les diapositives de mise en page inutilisées. |
 | static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Effectue la compression du [`Presentation`](../../aspose.slides/presentation) en supprimant les diapositives maîtres inutilisées. |
 

@@ -1,15 +1,14 @@
 ---
 title: IDataLabel
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シリーズのラベルを表します。
+description: シリーズ ラベルを表します。
 type: docs
-weight: 2020
+weight: 2040
 url: /ja/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel インターフェイス
 
-シリーズのラベルを表します。
-
+シリーズ ラベルを表します。
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 ```
@@ -21,16 +20,17 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | IActualLayout インターフェイスを返します。 |
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | ILayoutable インターフェイスを返します。読み取り専用 [`ILayoutable`](../ilayoutable)。 |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | IOverridableText インターフェイスを返します。読み取り専用 [`IOverridableText`](../ioverridabletext)。 |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | データラベルの書式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False はデータラベルが表示されないことを意味します（したがってすべての Show*-フラグ (ShowValue, ...) が false になります）。読み取り専用の Boolean。 |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | ワークブックのデータセルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。 |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | データ ラベルの書式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False はデータ ラベルが表示されないことを意味します (したがってすべての Show*-フラグ (ShowValue, ...) は false です)。読み取り専用 Boolean。 |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | データ ラベルのシェイプ タイプを取得または設定します。シェイプが定義されていない場合は NotDefined を返します。 |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | ワークブック データ セルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | DataLabelFormat の設定または TextFrameForOverriding.Text の値に基づいて、実際のラベルテキストを返します。 |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | すべての Show*-フラグ (ShowValue, ...) を false に設定してデータラベルを非表示にします。この後 IsVisible は false になります。 |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | DataLabelFormat 設定または TextFrameForOverriding.Text 値に基づいて実際のラベル テキストを返します。 |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | データ ラベルを非表示にするため、すべての Show*-フラグ (ShowValue, ...) を false に設定します。この後 IsVisible は false になります。 |
 
 ### 参照
 

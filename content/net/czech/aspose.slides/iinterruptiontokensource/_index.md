@@ -1,14 +1,14 @@
 ---
 title: IInterruptionTokenSource
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje zdroj IInterruptionToken./iinterruptiontoken.
+description: Představuje zdroj IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 6200
+weight: 6220
 url: /cs/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource rozhraní
 
-Representuje zdroj [`IInterruptionToken`](../iinterruptiontoken).
+Představuje zdroj [`IInterruptionToken`](../iinterruptiontoken).
 
 ```csharp
 public interface IInterruptionTokenSource
@@ -16,14 +16,14 @@ public interface IInterruptionTokenSource
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Vrací true, pokud je požádáno o přerušení, jinak false. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Vrací nový token navázaný na tento [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Vrací true, pokud je požadováno přerušení, jinak false. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Vrací nový token připojený k tomuto [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Inicializuje požadavek na přerušení. |
 

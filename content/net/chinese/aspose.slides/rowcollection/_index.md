@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示表行集合。
+description: 表示表格行集合。
 type: docs
-weight: 9720
+weight: 9740
 url: /zh/aspose.slides/rowcollection/
 ---
 ## RowCollection 类
 
-表示表行集合。
+表示表格行集合。
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -19,7 +19,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/rowcollection/count) { get; } | 获取集合中实际包含的行数。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | 返回一个指示集合访问是否同步（线程安全）的值。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | 返回指定索引处的行。只读 [`Row`](../row)。 |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
@@ -27,13 +27,13 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | 创建指定模板行的副本并将其插入表的底部。 |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | 创建指定模板行的副本并将其插入表格底部。 |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | 创建指定模板行的副本并将其插入表中的指定位置。 |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | 从表中删除指定位置的行。 |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | 创建指定模板行的副本并将其插入表格的指定位置。 |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | 从表格中删除指定位置的行。 |
 
-### 另请参见
+### 参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Table](../table)

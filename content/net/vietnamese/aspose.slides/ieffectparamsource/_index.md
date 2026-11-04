@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Giao diện tham số hiệu ứng phụ trợ.
 type: docs
-weight: 5760
+weight: 5780
 url: /vi/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource giao diện
@@ -14,7 +14,7 @@ Giao diện tham số hiệu ứng phụ trợ.
 public interface IEffectParamSource
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

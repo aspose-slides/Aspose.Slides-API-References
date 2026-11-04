@@ -1,12 +1,12 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Unveränderliches Objekt, das effektive 3-D-Formatierungseigenschaften darstellt.
 type: docs
-weight: 7340
+weight: 7360
 url: /de/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData interface
+## IThreeDFormatEffectiveData Schnittstelle
 
 Unveränderliches Objekt, das effektive 3-D-Formatierungseigenschaften darstellt.
 
@@ -18,26 +18,26 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Schreibgeschützt [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Kante zurück. Schreibgeschützt [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Gibt den Typ einer oberen 3D-Kante zurück. Schreibgeschützt [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Gibt die Einstellungen einer Kamera zurück. Schreibgeschützt [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück. Schreibgeschützt Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Gibt die Breite einer 3D-Kontur zurück. Schreibgeschützt Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Gibt die Tiefe einer 3D-Form zurück. Schreibgeschützt Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück. Schreibgeschützt Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Gibt die Höhe eines Extrusionseffekts zurück. Schreibgeschützt Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Gibt den Typ eines Lichts zurück. Schreibgeschützt [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Gibt den Typ eines Materials zurück. Schreibgeschützt [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Nur-Lesen [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Kante zurück. Nur-Lesen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Gibt den Typ einer oberen 3D-Kante zurück. Nur-Lesen [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Gibt die Einstellungen einer Kamera zurück. Nur-Lesen [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück. Nur-Lesen Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Gibt die Breite einer 3D-Kontur zurück. Nur-Lesen Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Gibt die Tiefe einer 3D-Form zurück. Nur-Lesen Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück. Nur-Lesen Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Gibt die Höhe eines Extrusionseffekts zurück. Nur-Lesen Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Gibt den Typ eines Lichts zurück. Nur-Lesen [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Gibt den Typ eines Materials zurück. Nur-Lesen [`MaterialPresetType`](../materialpresettype). |
 
-### Bemerkungen
+### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`IThreeDFormat`](../ithreedformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`IThreeDFormat`](../ithreedformat)-Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 ### Siehe auch
 
-* interface [IThreeDParamSource](../ithreedparamsource)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* Schnittstelle [IThreeDParamSource](../ithreedparamsource)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

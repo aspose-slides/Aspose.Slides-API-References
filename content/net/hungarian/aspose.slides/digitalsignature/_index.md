@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes .NET API referencia
-description: Digitális aláírás a aláírt fájlban.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Digitális aláírás az aláírt fájlban.
 type: docs
-weight: 2770
+weight: 2790
 url: /hu/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature osztály
@@ -19,38 +19,38 @@ public class DigitalSignature : IDigitalSignature
 | Név | Leírás |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Új DigitalSignature objektumot hoz létre a megadott tanúsítvánnyal. |
-| [DigitalSignature](digitalsignature#constructor_1)(string,string) | Új DigitalSignature objektumot hoz létre a megadott tanúsítványfájl elérési úttal és jelszóval. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Új DigitalSignature objektumot hoz létre a megadott tanúsítványfájl útvonalával és jelszóval. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Tanúsítvány objektum, amelyet a dokumentum aláírásához használtak. Csak olvasható X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | A dokumentum aláírásához használt tanúsítványobjektum. Csak olvasható X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Az aláírás célja. Olvasás/írás String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Ha ez a digitális aláírás érvényes és a dokumentumot nem módosították, akkor ez az érték igaz lesz. Csak olvasható Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Az időpont, amikor a dokumentum aláírásra került. Csak olvasható DateTime. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Ha ez a digitális aláírás érvényes és a dokumentumot nem módosították, ez az érték igaz lesz. Csak olvasható Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | A dokumentum aláírásának időpontja. Csak olvasható DateTime. |
 
 ### Példák
 
-A következő példa bemutatja, hogyan adhatunk hozzá digitális aláírást egy PFX tanúsítványból a PowerPoint bemutatóhoz.
+A következő példa bemutatja, hogyan adhat hozzá digitális aláírást egy PFX tanúsítványból PowerPoint-prezentációban.
 
 ```csharp
 [C#]
 // Inicializálja a Presentation példányt
 using (Presentation pres = new Presentation())
 {
-    // DigitalSignature objektum létrehozása PFX fájllal és PFX jelszóval
-    DigitalSignature signature = new DigitalSignature("testsignature1.pftx", @"testpass1");
+    // Létrehozza a DigitalSignature objektumot PFX fájllal és PFX jelszóval
+    DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
     // Új digitális aláírás megjegyzése
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Digitális aláírás hozzáadása a bemutatóhoz
+    // Digitális aláírás hozzáadása a prezentációhoz
     pres.DigitalSignatures.Add(signature);
-    // Bemutató mentése
+    // Prezentáció mentése
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-Az alábbi minta kód bemutatja, hogyan validálhatjuk a PowerPoint bemutató digitális aláírását.
+A következő példakód bemutatja, hogyan lehet érvényesíteni a PowerPoint-prezentáció digitális aláírását.
 
 ```csharp
 [C#]
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Ellenőrizze, hogy az összes digitális aláírás érvényes-e
+        // Ellenőrizze, hogy minden digitális aláírás érvényes-e
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

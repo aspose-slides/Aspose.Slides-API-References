@@ -3,7 +3,7 @@ title: IImage
 second_title: Aspose.Sildes for .NET API 참조
 description: 래스터 이미지 또는 벡터 이미지를 나타냅니다.
 type: docs
-weight: 6150
+weight: 6170
 url: /ko/aspose.slides/iimage/
 ---
 ## IImage 인터페이스
@@ -16,7 +16,7 @@ public interface IImage : IDisposable
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Height](../../aspose.slides/iimage/height) { get; } | 이미지의 높이를 픽셀 단위로 가져옵니다. |
 | [Size](../../aspose.slides/iimage/size) { get; } | 이미지의 크기를 가져옵니다. |
@@ -24,7 +24,7 @@ public interface IImage : IDisposable
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | 이미지를 파일에 저장합니다. |
 | [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | 이미지를 지정된 형식으로 스트림에 저장합니다. |

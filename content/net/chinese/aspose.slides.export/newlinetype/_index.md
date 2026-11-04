@@ -3,7 +3,7 @@ title: NewLineType
 second_title: Aspose.Sildes for .NET API 参考
 description: 将在生成的文档中使用的新行类型。
 type: docs
-weight: 4280
+weight: 4300
 url: /zh/aspose.slides.export/newlinetype/
 ---
 ## NewLineType 枚举
@@ -20,7 +20,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) 换行 - \\r |
+| Mac | `2` | Mac (OS 9) 新换行 - \\r |
 
 ### 示例
 
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

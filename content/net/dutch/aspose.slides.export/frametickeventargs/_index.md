@@ -1,14 +1,14 @@
 ---
 title: FrameTickEventArgs
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt argumenten van de FrameTick./presentationplayer/frametick gebeurtenis.
+description: Stelt de argumenten van het FrameTick./presentationplayer/frametick-evenement voor.
 type: docs
-weight: 3810
+weight: 3830
 url: /nl/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs klasse
 
-Vertegenwoordigt argumenten van de [`FrameTick`](../presentationplayer/frametick) gebeurtenis.
+Stelt de argumenten van het [`FrameTick`](../presentationplayer/frametick)-evenement voor.
 
 ```csharp
 public class FrameTickEventArgs

@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes .NET API 参考
 description: 表示演示文稿中的图片。
 type: docs
-weight: 9380
+weight: 9400
 url: /zh/aspose.slides/picture/
 ---
 ## Picture 类
@@ -19,9 +19,9 @@ public sealed class Picture : ISlidesPicture
 | 名称 | 描述 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Image](../../aspose.slides/picture/image) { get; set; } | 返回或设置嵌入的图像。读写 [`IPPImage`](../ippimage)。 |
+| [Image](../../aspose.slides/picture/image) { get; set; } | 返回或设置嵌入的图像。读/写 [`IPPImage`](../ippimage)。 |
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 返回图像变换效果的集合。只读 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 返回或设置链接图像的 URL。读写 String。 |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 返回或设置链接图像的 URL。读/写 String。 |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | 返回演示文稿。只读 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/picture/slide) { get; } | 返回图片的父幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
 
@@ -29,10 +29,10 @@ public sealed class Picture : ISlidesPicture
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | 与指定对象比较。 |
+| override [Equals](../../aspose.slides/picture/equals)(object) | 比较指定的对象。 |
 | override [GetHashCode](../../aspose.slides/picture/gethashcode)() | 返回哈希值。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISlidesPicture](../islidespicture)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

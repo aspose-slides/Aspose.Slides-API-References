@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과적인 효과 스타일 속성을 포함하는 불변 객체입니다.
+description: 유효한 효과 스타일 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 11200
+weight: 11220
 url: /ko/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData 인터페이스
 
-효과적인 효과 스타일 속성을 포함하는 불변 객체입니다.
+유효한 효과 스타일 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,8 +18,8 @@ public interface IEffectStyleEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 효과 서식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 3d 서식을 반환합니다. 읽기 전용 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 3D 형식을 반환합니다. 읽기 전용 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### 비고
 

@@ -1,26 +1,26 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes a .NET API-referenciához
-description: Olyan objektumot jelöl, amely lehetővé teszi a gyermek szövegelemek formátumainak tömeges beállítását.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Egy olyan objektumot képvisel, amely lehetővé teszi a gyermek szövegelemek formátumainak tömeges beállítását.
 type: docs
-weight: 5380
+weight: 5400
 url: /hu/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interfész
 
-Olyan objektumot jelöl, amely lehetővé teszi a gyermek szövegelemek formátumainak tömeges beállítását.
+Egy objektumot képvisel, amely lehetővé teszi a gyermek szövegelemek formátumainak tömeges beállítását.
 
 ```csharp
 public interface IBulkTextFormattable
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Beállítja a meghatározott bekezdésformátum tulajdonságait az összes elem bekezdéseire. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Beállítja a meghatározott szakaszformátum tulajdonságait az összes elem szakaszaiban. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a meghatározott szövegkeret-formátum tulajdonságait az összes elem szövegkereteiben. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Beállítja a meghatározott részformátum tulajdonságait az összes elem részeire. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Beállítja a meghatározott szövegkeret-formátum tulajdonságait az összes elem szövegkereteire. |
 
 ### Lásd még
 

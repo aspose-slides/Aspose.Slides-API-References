@@ -1,9 +1,9 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Fournit l'accès au thème principal de la présentation.
 type: docs
-weight: 11440
+weight: 11460
 url: /fr/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager classe
@@ -26,7 +26,7 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 | Nom | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleurs supplémentaire à une diapositive. |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Renvoie l'objet thème. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Renvoie l'objet du thème. |
 
 ### Voir aussi
 

@@ -1,14 +1,14 @@
 ---
 title: ColorValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về giá trị màu của điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Bản đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Lấy giá trị màu của một điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Bản đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /vi/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue thuộc tính
 
-Trả về giá trị màu của điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Bản đồ. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
+Lấy giá trị màu của một điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Bản đồ. chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

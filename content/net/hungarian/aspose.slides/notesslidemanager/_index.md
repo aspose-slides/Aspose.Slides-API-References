@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Jegyzetdia-kezelő.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Jegyzet dia kezelő.
 type: docs
-weight: 9160
+weight: 9180
 url: /hu/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager osztály
 
-Jegyzetdia-kezelő.
+Jegyzet dia kezelő.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -16,44 +16,44 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Visszaadja az aktuális dia jegyzetdiaját. Null értéket ad vissza, ha a diának nincs jegyzetdia. Írásvédett [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Visszaadja a jelenlegi diára vonatkozó jegyzet diát. Null értéket ad vissza, ha a diának nincs jegyzet diája. Csak olvasható [`INotesSlide`](../inotesslide). |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Visszaadja az aktuális dia jegyzetdiaját, és létrehozza, ha még nincs. |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Eltávolítja az aktuális dia jegyzetdiaját. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Visszaadja a jelenlegi diára vonatkozó jegyzet diát, és létrehozza, ha nincs. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Eltávolítja a jelenlegi dia jegyzet diáját. |
 
 ### Példák
 
-A következő példa bemutatja, hogyan lehet jegyzeteket hozzáadni egy adott PowerPoint prezentáció diájához.
+Az alábbi példa bemutatja, hogyan adhat hozzá jegyzeteket egy adott PowerPoint prezentáció diájához.
 
 ```csharp
 [C#]
-	// Példányosít egy Presentation objektumot, amely egy bemutató fájlt képvisel
+	// Példányosít egy Presentation objektumot, amely egy prezentációs fájlt képvisel
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Jegyzeteket ad az első diára
+	  // Jegyzeteket ad az első diához
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
-	  // Mentse a bemutatót a lemezen
+	  // Mentse a prezentációt a lemezre
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-A következő példa bemutatja, hogyan lehet eltávolítani a jegyzeteket egy adott PowerPoint prezentáció diájáról.
+Az alábbi példa bemutatja, hogyan lehet eltávolítani a jegyzeteket egy adott PowerPoint prezentáció diájáról.
 
 ```csharp
 [C#]
-	// Példányosít egy Presentation objektumot, amely egy bemutató fájlt képvisel
+	// Példányosít egy Presentation objektumot, amely egy prezentációs fájlt képvisel
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // Az első dia jegyzeteinek eltávolítása
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // A bemutató mentése a lemezen
+	  // A prezentáció mentése a lemezre
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

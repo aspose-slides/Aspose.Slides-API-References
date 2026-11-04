@@ -1,9 +1,9 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentuální hodnotou.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Neměnný objekt představující efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou.
 type: docs
-weight: 3130
+weight: 3150
 url: /cs/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData rozhraní
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Vrací množství efektu v procentech. Pouze pro čtení Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Vrací množství efektu v procentech. Jen pro čtení Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní IEffectEffectiveData rozhraní. Jen pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Viz také
 

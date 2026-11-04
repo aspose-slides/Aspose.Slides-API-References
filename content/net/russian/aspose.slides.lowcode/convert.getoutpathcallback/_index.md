@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes для .NET API Reference
-description: Обратный вызов, который будет вызываться для каждого Slide../aspose.slides/slide, ожидается возврат пути вывода.
+second_title: Aspose.Slides для .NET API Reference
+description: Обратный вызов, который будет вызываться для каждого Slide../aspose.slides/slide; ожидается, что будет возвращён путь вывода.
 type: docs
-weight: 7890
+weight: 7910
 url: /ru/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback делегат
 
-Обратный вызов, который будет вызываться для каждого [`Slide`](../../aspose.slides/slide), ожидается возврат пути вывода.
+Обратный вызов, который будет вызываться для каждого [`Slide`](../../aspose.slides/slide), ожидается, что он вернёт путь вывода.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | Slide | Текущий перебираемый слайд |
+| slide | Slide | Текущий обрабатываемый слайд |
 | index | Int32 | Индекс текущего слайда |
 
 ### См. также

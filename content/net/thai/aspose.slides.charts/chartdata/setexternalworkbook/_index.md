@@ -1,20 +1,20 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะได้รับการอัปเดตจาก workbook เป้าหมาย.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนด workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ. ข้อมูลแผนภูมิจะถูกอัปเดตจาก workbook เป้าหมาย.
 type: docs
-weight: 120
+weight: 130
 url: /th/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะได้รับการอัปเดตจาก workbook เป้าหมาย
+กำหนด workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ ข้อมูลแผนภูมิจะถูกอัปเดตจาก workbook เป้าหมาย
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | workbookPath | String | เส้นทางไปยัง workbook เป้าหมาย |
 
@@ -46,16 +46,16 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ
+กำหนด workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
 | workbookPath | String | เส้นทางไปยัง workbook เป้าหมาย |
-| updateChartData | Boolean | หากค่าเป็น false จะอัปเดตเฉพาะเส้นทาง workbook เท่านั้น ข้อมูลแผนภูมิจะไม่ถูกโหลดและอัปเดตจาก workbook เป้าหมาย สามารถใช้เมื่อ workbook เป้าหมายไม่มีอยู่หรือไม่พร้อมใช้งาน หากค่าเป็น true ข้อมูลแผนภูมิจะถูกอัปเดตจาก workbook เป้าหมาย |
+| updateChartData | Boolean | หากค่าเป็น false จะอัปเดตเฉพาะเส้นทางของ workbook เท่านั้น ข้อมูลแผนภูมิจะไม่ถูกโหลดและอัปเดตจาก workbook เป้าหมาย สามารถใช้เมื่อ workbook เป้าหมายไม่มีหรือไม่พร้อมใช้งาน หากค่าเป็น true ข้อมูลแผนภูมิจะอัปเดตจาก workbook เป้าหมาย |
 
 ### ข้อยกเว้น
 

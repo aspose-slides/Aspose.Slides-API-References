@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje klasę bazową dla wszystkich kształtów geometrycznych.
 type: docs
-weight: 5980
+weight: 6000
 url: /pl/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape interfejs
 
-Represents the parent class for all geometric shapes.
+Reprezentuje klasę bazową dla wszystkich kształtów geometrycznych.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -16,16 +16,16 @@ public interface IGeometryShape : IShape
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Zwraca kolekcję wartości korekcyjnych kształtu. Tylko do odczytu [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Zwraca kolekcję wartości dopasowania kształtu. Tylko do odczytu [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Umożliwia pobranie podstawowego interfejsu IShape. Tylko do odczytu [`IShape`](../ishape). |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Zwraca obiekt stylu kształtu. Tylko do odczytu [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Zwraca lub ustawia typ predefiniowanej geometrii. Uwaga: przy zmianie wartości wszystkie wartości korekcyjne zostaną przywrócone do wartości domyślnych. Odczyt/zapis [`ShapeType`](../shapetype). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Zwraca lub ustawia typ predefiniowanego kształtu geometrycznego. Uwaga: przy zmianie wartości wszystkie wartości dopasowania zostaną przywrócone do wartości domyślnych. Odczyt/zapis [`ShapeType`](../shapetype). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Tworzy i zwraca tablicę elementów kształtu. |
 | [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Zwraca kopię ścieżki geometrycznego kształtu. Współrzędne są względem lewego górnego rogu kształtu. |

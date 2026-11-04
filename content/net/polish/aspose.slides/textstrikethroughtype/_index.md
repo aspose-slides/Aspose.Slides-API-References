@@ -1,12 +1,12 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje typ przekreślenia tekstu.
 type: docs
-weight: 10990
+weight: 11010
 url: /pl/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType wyliczenie
+## enumeracja TextStrikethroughType
 
 Reprezentuje typ przekreślenia tekstu.
 
@@ -23,7 +23,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

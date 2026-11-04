@@ -1,12 +1,12 @@
 ---
 title: TextAnchorType
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Allineamento della casella di testo all'interno di un'area di testo.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: allineamento della casella di testo all'interno di un'area di testo.
 type: docs
-weight: 10910
+weight: 10930
 url: /it/aspose.slides/textanchortype/
 ---
-## Enumerazione TextAnchorType
+## TextAnchorType enumerazione
 
 allineamento della casella di testo all'interno di un'area di testo.
 
@@ -14,7 +14,7 @@ allineamento della casella di testo all'interno di un'area di testo.
 public enum TextAnchorType : sbyte
 ```
 
-### Valori
+### Values
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A hiperhivatkozás objektumát képviseli.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Képviseli a hiperhivatkozás objektumot.
 type: docs
-weight: 6120
+weight: 6140
 url: /hu/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interfész
 
-A hiperhivatkozás objektumát képviseli.
+Képviseli a hiperhivatkozás objektumot.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -19,8 +19,8 @@ public interface IHyperlinkContainer
 | Név | Leírás |
 | --- | --- |
 | [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Visszaadja vagy beállítja a kattintásra definiált hiperhivatkozást. Olvasás/írás [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hiperhivatkozások kezelője csak olvasható [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Visszaadja vagy beállítja a kurzor fölé mozgatásra definiált hiperhivatkozást. Olvasás/írás [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hiperhivatkozások kezelője Csak olvasható [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Visszaadja vagy beállítja a fölé húzásra definiált hiperhivatkozást. Olvasás/írás [`IHyperlink`](../ihyperlink). |
 
 ### Lásd még
 

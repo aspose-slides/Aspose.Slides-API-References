@@ -3,7 +3,7 @@ title: IOutputFile
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 출력 파일을 나타냅니다.
 type: docs
-weight: 4600
+weight: 4620
 url: /ko/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile 인터페이스
@@ -18,9 +18,9 @@ public interface IOutputFile
 
 | 이름 | 설명 |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 파일 내용을 스트림에 씁니다. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 스트림에 파일 내용을 씁니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

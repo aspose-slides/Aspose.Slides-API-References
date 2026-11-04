@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά ένα εφέ Hue/Saturation/Luminance. Το hue, το saturation και το luminance μπορούν να προσαρμοστούν αντίστοιχα σε σχέση με την τρέχουσα τιμή τους.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά ένα εφέ Hue/Saturation/Luminance. Το hue, saturation και luminance μπορούν να προσαρμοστούν το καθένα σε σχέση με την τρέχουσα τιμή τους.
 type: docs
-weight: 3010
+weight: 3030
 url: /el/aspose.slides.effects/hsl/
 ---
 ## HSL κλάση
 
-Αναπαριστά ένα εφέ Hue/Saturation/Luminance. Το hue, το saturation και το luminance μπορούν να προσαρμοστούν αντίστοιχα σε σχέση με την τρέχουσα τιμή τους.
+Αντιπροσωπεύει ένα εφέ Hue/Saturation/Luminance. Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν κάθε ένα σε σχέση με την τρέχουσα τιμή του.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -24,14 +24,14 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Καθορίζει αν το καθορισμένο [`HSL`](../hsl) είναι ίσο με το τρέχον [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Λαμβάνει τα δεδομένα του αποτελεσματικού εφέ Hue/Saturation/Luminance με την εφαρμογή της κληρονομικότητας. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Καθορίζει αν το συγκεκριμένο [`HSL`](../hsl) είναι ίσο με το τρέχον [`HSL`](../hsl). |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Παίρνει τα αποτελεσματικά δεδομένα του εφέ Hue/Saturation/Luminance με την εφαρμογή της κληρονομικότητας. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για ένα συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 
 * κλάση [ImageTransformOperation](../imagetransformoperation)
-* διεπαφή [IHSL](../ihsl)
+* διασύνδεση [IHSL](../ihsl)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 

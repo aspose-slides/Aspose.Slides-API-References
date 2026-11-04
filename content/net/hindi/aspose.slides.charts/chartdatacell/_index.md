@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट डेटा के लिए सेल का प्रतिनिधित्व करता है।
+description: चार्ट डेटा के लिए कोशिका का प्रतिनिधित्व करता है।
 type: docs
-weight: 1320
+weight: 1330
 url: /hi/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell क्लास
 
-चार्ट डेटा के लिए सेल का प्रतिनिधित्व करता है।
+चार्ट डेटा के लिए कोशिका का प्रतिनिधित्व करता है।
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -18,23 +18,23 @@ public class ChartDataCell : IChartDataCell
 
 | नाम | विवरण |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | वर्कशीट प्राप्त करता है। केवल-पढ़ने योग्य [`IChartDataWorksheet`](../ichartdataworksheet)। |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | वह कॉलम इंडेक्स लौटाता है जिसमें वर्कशीट की सेल स्थित है। केवल-पढ़ने योग्य Int32। |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | संख्याओं और तिथियों के लिए कस्टम डिस्प्ले फ़ॉर्मेट प्राप्त करता है या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग किया जाएगा। पढ़ना/लिखना String। |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1-स्टाइल में फ़ॉर्मूला प्राप्त करता है या सेट करता है। |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | निर्धारित करता है कि सेल छिपा है या नहीं। केवल-पढ़ने योग्य Boolean। |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | संख्याओं और तिथियों के अंतर्निर्मित डिस्प्ले फ़ॉर्मेट प्राप्त करता है या सेट करता है। प्रीसेट संख्या को [0..22] या [37..49] के भीतर होना चाहिए। पढ़ना/लिखना Byte। |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1-स्टाइल में फ़ॉर्मूला प्राप्त करता है या सेट करता है। |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | वह पंक्ति इंडेक्स लौटाता है जिसमें वर्कशीट की सेल स्थित है। केवल-पढ़ने योग्य Int32। |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | सेल का मान प्राप्त करता है या सेट करता है। पढ़ना/लिखना Object। |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | कार्यपत्रक प्राप्त करता है। केवल-पढ़ने योग्य [`IChartDataWorksheet`](../ichartdataworksheet)। |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | वह कार्यपत्रक के उस कॉलम का सूचकांक लौटाता है जिसमें यह कोशिका स्थित है। केवल-पढ़ने योग्य Int32। |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | संख्याओं और तिथियों के कस्टम प्रदर्शन स्वरूप को प्राप्त करता है या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग किया जाएगा। पढ़ने-लिखने योग्य String। |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1-शैली में सूत्र को प्राप्त करता है या सेट करता है। |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | निर्धारित करता है कि क्या कोशिका छिपी हुई है। केवल-पढ़ने योग्य Boolean। |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | संख्याओं और तिथियों के अंतर्निहित प्रदर्शन स्वरूप को प्राप्त करता है या सेट करता है। Preset number को [0..22] या [37..49] में होना चाहिए। पढ़ने-लिखने योग्य Byte। |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1-शैली में सूत्र को प्राप्त करता है या सेट करता है। |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | वह कार्यपत्रक के उस पंक्ति का सूचकांक लौटाता है जिसमें यह कोशिका स्थित है। केवल-पढ़ने योग्य Int32। |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | कोशिका का मान प्राप्त करता है या सेट करता है। पढ़ने-लिखने योग्य Object। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | यदि सेल में फ़ॉर्मूला है, तो मान उस फ़ॉर्मूले के आधार पर अद्यतन किया जाएगा। |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | यदि कोशिका में सूत्र है, तो मान उस सूत्र के आधार पर अपडेट किया जाएगा। |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [IChartDataCell](../ichartdatacell)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

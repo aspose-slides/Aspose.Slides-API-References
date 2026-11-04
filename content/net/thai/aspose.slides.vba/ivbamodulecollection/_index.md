@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของโมดูล VBA Project
+description: เป็นคอลเลกชันของโมดูลในโครงการ VBA
 type: docs
-weight: 11540
+weight: 11560
 url: /th/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของโมดูล VBA Project
+เป็นคอลเลกชันของโมดูลในโครงการ VBA
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งที่ระบุ |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | เพิ่มโมดูลเปล่าใหม่ไปยัง VBA Project |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | ลบการพบครั้งแรกของอ็อบเจ็กต์เฉพาะจากคอลเลกชัน |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | เพิ่มโมดูลเปล่าที่ใหม่ลงในโครงการ VBA |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | ลบการปรากฏครั้งแรกของอ็อบเจ็กต์ที่ระบุจากคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

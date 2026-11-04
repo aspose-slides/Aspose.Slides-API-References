@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes για την αναφορά API του .NET
-description: Αναπαριστά τις ιδιότητες του υπομνήματος των διαγραμμάτων.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει τις ιδιότητες του υπόμνηματος των διαγραμμάτων.
 type: docs
-weight: 2280
+weight: 2300
 url: /el/aspose.slides.charts/legend/
 ---
 ## Legend κλάση
 
-Αναπαριστά τις ιδιότητες του υπομνήματος του διαγράμματος.
+Αντιπροσωπεύει τις ιδιότητες του υπόμνηματος του διαγράμματος.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,29 +18,29 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για λήψη πραγματικών τιμών. Ανάγνωση Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για λήψη πραγματικών τιμών. Ανάγνωση Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για λήψη πραγματικών τιμών. Ανάγνωση Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Καθορίζει το πραγματικό πάνω του στοιχείου διαγράμματος σε σχέση με την αριστερή άνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για λήψη πραγματικών τιμών. Ανάγνωση Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Κάτω. Μόνο προς ανάγνωση Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Επιστρέφει το διάγραμμα. Μόνο προς ανάγνωση [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Λαμβάνει τις καταχωρίσεις του υπομνήματος. Μόνο προς ανάγνωση [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Επιστρέφει τη μορφή ενός υπομνήματος. Μόνο προς ανάγνωση [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος ενός υπομνήματος ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/Γραφή Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Καθορίζει αν άλλα στοιχεία διαγράμματος θα επιτρέπεται να επικαλύπτουν το υπόμνημα. Ανάγνωση/Γραφή Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Καθορίζει τη θέση του υπομνήματος σε ένα διάγραμμα. Οι τιμές διαφορετικές του NaN των ιδιοτήτων X, Y, Width, Heigt παρακάμπτουν την επίδραση αυτής της ιδιότητας. Ανάγνωση/Γραφή [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Δεξιά. Μόνο προς ανάγνωση Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Μορφή κειμένου. Μόνο προς ανάγνωση [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος ενός υπομνήματος ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/Γραφή Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x ενός υπομνήματος ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/Γραφή Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός υπομνήματος ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/Γραφή Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του διαγράμματος σε σχέση με την αριστερή πάνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Καθορίζει το πραγματικό άνω μέρος του στοιχείου του διαγράμματος σε σχέση με την αριστερή πάνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Κάτω. Μόνο-ανάγνωση Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Επιστρέφει το διάγραμμα. Μόνο-ανάγνωση [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Λαμβάνει τις καταχωρήσεις του υπόμνηματος. Μόνο-ανάγνωση [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Επιστρέφει τη μορφή ενός υπόμνηματος. Μόνο-ανάγνωση [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος ενός υπόμνηματος ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Καθορίζει αν άλλα στοιχεία του διαγράμματος επιτρέπεται να επικαλύπτονται με το υπόμνημα. Ανάγνωση/εγγραφή Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Καθορίζει τη θέση του υπόμνηματος σε ένα διάγραμμα. Οι μη-NaN τιμές των ιδιοτήτων X, Y, Width, Heigt παρακάμπτουν το αποτέλεσμα αυτής της ιδιότητας. Ανάγνωση/εγγραφή [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Δεξιά. Μόνο-ανάγνωση Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Μορφή κειμένου. Μόνο-ανάγνωση [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος ενός υπόμνηματος ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x ενός υπόμνηματος ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός υπόμνηματος ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [Chart](../chart)
-* διασύνδεση [ILegend](../ilegend)
+* διεπαφή [ILegend](../ilegend)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* σύστατικό [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie.
 type: docs
-weight: 380
+weight: 390
 url: /pl/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -16,15 +16,15 @@ public void Save(string fname, SaveFormat format)
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| fname | String | Ścieżka do utworzonego pliku. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| fname | String | Ścieżka do tworzonego pliku. |
+| format | SaveFormat | Format eksportowanych danych. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -39,14 +39,14 @@ public void Save(Stream stream, SaveFormat format)
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -60,17 +60,17 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| fname | String | Ścieżka do utworzonego pliku. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| fname | String | Ścieżka do tworzonego pliku. |
+| format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -85,22 +85,22 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | Warunek |
 | --- | --- |
 | NotSupportedException | Jeśli spróbujesz zapisać zaszyfrowany plik w formacie innym niż Office 2007-2010 |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -114,24 +114,24 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| fname | String | Ścieżka do utworzonego pliku. |
+| fname | String | Ścieżka do tworzonego pliku. |
 | slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | Warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
 | ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery stron. |
-| InvalidOperationException | Gdy używany jest nieobsługiwany SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -145,26 +145,26 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| fname | String | Ścieżka do utworzonego pliku. |
+| fname | String | Ścieżka do tworzonego pliku. |
 | slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | Warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
 | ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery stron. |
-| InvalidOperationException | Gdy używany jest nieobsługiwany SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -180,22 +180,22 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
 | slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | Warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
 | ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery stron. |
-| InvalidOperationException | Gdy używany jest nieobsługiwany SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -211,30 +211,30 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
 | slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
-| format | SaveFormat | Format wyeksportowanych danych. |
+| format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | Warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
 | ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery stron. |
-| InvalidOperationException | Gdy używany jest nieobsługiwany SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zobacz także
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interfejs [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Zapisuje wszystkie slajdy prezentacji do zestawu plików reprezentujących znaczniki XAML.
+Zapisuje wszystkie slajdy prezentacji do zestawu plików reprezentujących znacznik XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -256,9 +256,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Zobacz także
 
-* interfejs [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* interfejs [IPresentation](../../ipresentation)
-* przestrzeń nazw [Aspose.Slides](../../ipresentation)
-* zestaw [Aspose.Slides](../../../)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

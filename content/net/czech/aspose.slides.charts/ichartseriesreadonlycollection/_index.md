@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci jen pro čtení IChartSeries./ichartseries
+description: Representuje kolekci jen pro čtení IChartSeries./ichartseries
 type: docs
-weight: 1970
+weight: 1990
 url: /cs/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection rozhraní
 
-Představuje kolekci jen pro čtení typu [`IChartSeries`](../ichartseries)
+Representuje kolekci jen pro čtení [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Vrací prvek na zadaném indexu. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Získá prvek na zadaném indexu. |
 
 ### Viz také
 

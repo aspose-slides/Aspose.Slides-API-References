@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes için .NET API Referansı
-description: Verilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme seviyesini belirler.
+description: Belirtilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömülme seviyesini belirler.
 type: docs
-weight: 60
+weight: 70
 url: /tr/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
-## FontsManager.GetFontEmbeddingLevel yöntemi
+## FontsManager.GetFontEmbeddingLevel metodu
 
-Belirtilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme seviyesini belirler.
+Belirtilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömülme seviyesini belirler.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,16 +16,16 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fontBytes | Byte[] | Yazı tipi verilerini içeren bayt dizisi. |
-| fontName | String | Yazı tipinin adı. |
+| fontBytes | Byte[] | The byte array containing the font data. |
+| fontName | String | The name of the font. |
 
 ### Dönüş Değeri
 
-Belirtilen yazı tipinin gömme seviyesi.
+Belirtilen yazı tipinin gömülme seviyesi.
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
 | ArgumentNullException | *fontBytes* null olduğunda fırlatılır. |
 
@@ -38,15 +38,15 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Sunumda kullanılan tüm yazı tiplerini al
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Sunumdaki ilk yazı tipinin normal stilini temsil eden bayt dizisini al
+    // Sunumdaki ilk yazı tipinin regular stilini temsil eden bayt dizisini al
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Yazı tipinin gömme seviyesini belirle
+    // Yazı tipinin gömülme seviyesini belirle
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * sınıf [FontsManager](../../fontsmanager)

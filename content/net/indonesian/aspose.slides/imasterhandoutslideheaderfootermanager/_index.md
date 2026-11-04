@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili manajer yang memegang perilaku placeholder slide handout master termasuk placeholder header.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili pengelola yang menyimpan perilaku placeholder slide handout master termasuk placeholder header.
 type: docs
-weight: 6360
+weight: 6380
 url: /id/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang memegang perilaku placeholder slide handout master, termasuk placeholder header.
+Mewakili pengelola yang menyimpan perilaku placeholder slide handout master, termasuk placeholder header.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,9 +16,9 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan antarmuka IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ### Lihat Juga
 

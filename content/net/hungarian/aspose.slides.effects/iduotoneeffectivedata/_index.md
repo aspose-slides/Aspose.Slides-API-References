@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Immutable objektum, amely egy Duotone effektet képvisel. Minden képpont esetén a clr1 és clr2 lineáris interpolációval kombinálódik, hogy meghatározza az új színt a képpont számára.
+second_title: Aspose.Sildes for .NET API referencia
+description: Módosíthatatlan objektum, amely egy Duotone hatást képvisel. Minden pixelhez a clr1 és clr2 értékeket lineáris interpolációval kombinálja, hogy meghatározza az új színt ahhoz a pixelhez.
 type: docs
-weight: 3270
+weight: 3290
 url: /hu/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData interfész
 
-Immutable objektum, amely egy Duotone effektet képvisel. Minden képpontnál a clr1 és clr2 lineáris interpolációval kombinálódik, hogy meghatározza az új színt a képpont számára.
+Nem módosítható objektum, amely egy Duotone hatást képvisel. Minden egyes pixelhez a clr1 és clr2 értékeket lineáris interpolációval kombinálja, hogy meghatározza az új színt a pixel számára.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Visszaadja a cél színformátumot sötét képpontokhoz. Csak olvasható Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Visszaadja a cél színformátumot világos képpontokhoz. Csak olvasható Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi, hogy lekérdezze az alap IEffectEffectiveData interfészt. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Visszaadja a sötét pixelekhez tartozó cél színformátumot. Csak olvasható Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Visszaadja a világos pixelekhez tartozó cél színformátumot. Csak olvasható Color. |
 
 ### Lásd még
 

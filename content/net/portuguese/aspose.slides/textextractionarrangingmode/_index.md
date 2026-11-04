@@ -3,10 +3,10 @@ title: TextExtractionArrangingMode
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o modo a ser usado durante a extração de texto
 type: docs
-weight: 10940
+weight: 10960
 url: /pt/aspose.slides/textextractionarrangingmode/
 ---
-## enumeração TextExtractionArrangingMode
+## TextExtractionArrangingMode enumeração
 
 Representa o modo a ser usado durante a extração de texto
 
@@ -18,8 +18,8 @@ public enum TextExtractionArrangingMode
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Unarranged | `0` | O texto bruto sem considerar a posição no slide |
-| Arranged | `1` | O texto está posicionado na mesma ordem que no slide |
+| Unarranged | `0` | The raw text with no respect to position on the slide |
+| Arranged | `1` | The text is positioned in the same order as on the slide |
 
 ### Veja Também
 

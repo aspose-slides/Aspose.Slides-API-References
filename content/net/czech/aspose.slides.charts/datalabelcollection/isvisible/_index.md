@@ -1,14 +1,14 @@
 ---
 title: IsVisible
-second_title: Aspose.Sildes pro .NET API referenci
-description: False znamená, že popisek dat není ve výchozím nastavení viditelný a proto jsou všechny příznaky Show-flags ShowValue ... vlastnosti DefaultDataLabelFormat nastaveny na false. Pouze pro čtení Boolean.
+second_title: Aspose.Sildes pro .NET API Reference
+description: False znamená, že popisek dat není ve výchozím nastavení viditelný, takže všechny Show-flags ShowValue ... vlastnosti DefaultDataLabelFormat jsou nastaveny na false. Boolean pouze pro čtení.
 type: docs
-weight: 50
+weight: 60
 url: /cs/aspose.slides.charts/datalabelcollection/isvisible/
 ---
 ## DataLabelCollection.IsVisible vlastnost
 
-False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechna příznaky Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Pouze pro čtení Boolean.
+False znamená, že popisek dat není ve výchozím nastavení viditelný (a proto jsou všechny Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat nastaveny na false). Boolean pouze pro čtení.
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; }
 
 ### Poznámky
 
-Pokud je popisek dat ve výchozím nastavení viditelný, můžete jej ve výchozím nastavení skrýt pomocí metody Hide(). Ale pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat „ve výchozím nastavení viditelný“ nastavit nastavením příznaků Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat do stavu true.
+Pokud je popisek dat ve výchozím nastavení viditelný, můžete jej ve výchozím nastavení skrýt pomocí metody Hide(). Ale pokud popisek dat není ve výchozím nastavení viditelný (IsVisible je false), můžete popisek dat "ve výchozím nastavení viditelný" nastavením Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na true.
 
 ### Viz také
 

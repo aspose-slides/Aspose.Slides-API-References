@@ -3,7 +3,7 @@ title: Control
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un controllo ActiveX.
 type: docs
-weight: 2690
+weight: 2710
 url: /it/aspose.slides/control/
 ---
 ## Control classe
@@ -19,12 +19,12 @@ public class Control : DomObject<ControlCollection>, IControl
 | Nome | Descrizione |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specifica la persistenza di un controllo ActiveX quando il metodo usato per persistere è PersistStream, PersistStreamInit o PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Ottiene l'id di classe di questo controllo. Guid di sola lettura. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Ottiene l'ID della classe di questo controllo. Guid di sola lettura. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Restituisce o imposta il frame del controllo. Lettura/scrittura [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | Ottiene o imposta il nome di questo controllo. Lettura/scrittura String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Ottiene il metodo usato per memorizzare le proprietà del controllo ActiveX. Solo lettura [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Restituisce una collezione di proprietà ActiveX. Nota: Aspose.Slides supporta solo proprietà ActiveX basate su XML. Se le proprietà sono archiviate in formato binario, questa proprietà restituirà null. Solo lettura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Restituisce l'oggetto delle proprietà di riempimento immagine del Control. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Ottiene il metodo usato per archiviare le proprietà del controllo ActiveX. Solo lettura [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Restituisce una collezione di proprietà ActiveX. Nota: Aspose.Slides supporta solo proprietà ActiveX basate su XML. Se le proprietà sono memorizzate in formato binario, questa proprietà restituisce null. Solo lettura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Restituisce l'oggetto delle proprietà di riempimento immagine del controllo. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Vedi anche
 

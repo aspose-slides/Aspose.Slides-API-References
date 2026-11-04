@@ -1,9 +1,9 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o status de um comentário moderno.
 type: docs
-weight: 9100
+weight: 9120
 url: /pt/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enumeração
@@ -14,16 +14,16 @@ Representa o status de um comentário moderno.
 public enum ModernCommentStatus : sbyte
 ```
 
-### Valores
+### Values
 
-| Nome | Valor | Descrição |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Não definido. |
 | Active | `1` | Ativo. |
 | Resolved | `2` | Resolvido. |
 | Closed | `3` | Fechado. |
 
-### Ver também
+### See Also
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

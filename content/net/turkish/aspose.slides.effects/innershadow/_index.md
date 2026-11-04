@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir İç Gölge etkisini temsil eder.
 type: docs
-weight: 3600
+weight: 3620
 url: /tr/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow sınıfı
 
-Bir İç Gölge efekti temsil eder.
+Bir İç Gölge etkisini temsil eder.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -18,20 +18,20 @@ public sealed class InnerShadow : IInnerShadow
 
 | Ad | Açıklama |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Bulanıklaştırma yarıçapı. Okunabilir/Yazılabilir Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Bulanıklık yarıçapı. Okunabilir/Yazılabilir Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Gölgenin yönü. Okunabilir/Yazılabilir Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Gölgenin mesafesi. Okunabilir/Yazılabilir Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Gölgenin rengi. Sadece okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Gölgenin rengi. Salt-okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Belirtilen [`InnerShadow`](../innershadow)'nin geçerli [`InnerShadow`](../innershadow) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Uygulanan kalıtım ile etkili İç Gölge efekti verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Belirli bir tür için hash fonksiyonu görevi görür. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Uygulanan kalıtımla etkili İç Gölge etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IInnerShadow](../iinnershadow)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

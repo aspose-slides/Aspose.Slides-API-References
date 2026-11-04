@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션 파일이 손상되었을 가능성이 있을 때 발생하는 예외입니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 프레젠테이션 파일이 손상되었을 가능성이 있을 때 발생하는 예외.
 type: docs
-weight: 9500
+weight: 9520
 url: /ko/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException 클래스
 
-프레젠테이션 파일이 손상되었을 가능성이 있을 때 발생하는 예외입니다.
+프레젠테이션 파일이 손상되었을 가능성이 있을 때 발생하는 예외.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -19,10 +19,10 @@ public class PptCorruptFileException : PptReadException
 | 이름 | 설명 |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | 기본 생성자. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자입니다. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외용 생성자입니다. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외용 생성자. |
 
-### 또 보기
+### 참조
 
 * 클래스 [PptReadException](../pptreadexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

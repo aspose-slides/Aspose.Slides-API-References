@@ -1,9 +1,9 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 Alpha Modulate Fixed 效果。效果的 alpha 不透明度值會乘以固定的百分比。
 type: docs
-weight: 2890
+weight: 2910
 url: /zh-hant/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed 類別
@@ -16,20 +16,20 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 傳回以百分比表示的效果量。可讀寫 Single。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 以百分比返回效果的數量。讀寫 Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 判斷指定的 [`AlphaModulateFixed`](../alphamodulatefixed) 是否等於目前的 [`AlphaModulateFixed`](../alphamodulatefixed)。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 取得套用繼承後的有效 Alpha Modulate Fixed 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 作為特定型別的雜湊函式。 |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 判斷指定的 [`AlphaModulateFixed`](../alphamodulatefixed) 是否等於目前的 [`AlphaModulateFixed`](../alphamodulatefixed). |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 取得套用繼承後的有效 Alpha Modulate Fixed 效果資料. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 作為特定類型的雜湊函式. |
 
-### 另見
+### 另請參閱
 
 * 類別 [ImageTransformOperation](../imagetransformoperation)
 * 介面 [IAlphaModulateFixed](../ialphamodulatefixed)

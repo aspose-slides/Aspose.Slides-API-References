@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot het master-thema van de presentatie.
+description: Biedt toegang tot het hoofdthema van de presentatie.
 type: docs
-weight: 11440
+weight: 11460
 url: /nl/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager klasse
 
-Biedt toegang tot het master-thema van de presentatie.
+Biedt toegang tot het hoofdthema van de presentatie.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -16,16 +16,16 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Bepaalt of OverrideTheme het geërfde effectieve thema (Presentation.MasterTheme) overschrijft of niet. Lezen/schrijven Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Bepaalt of OverrideTheme de geërfde effectieve thema (Presentation.MasterTheme) overschrijft of niet. Lezen/schrijven Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Retourneert het overschrijfende thema-object. Lezen/schrijven [`IMasterTheme`](../imastertheme). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenschema toe op een dia. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurschema toe op een dia. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Retourneert het thema-object. |
 
 ### Zie ook

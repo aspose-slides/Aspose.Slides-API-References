@@ -1,9 +1,9 @@
 ---
 title: ICaptions
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa los subtítulos cerrados WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /es/aspose.slides/icaptions/
 ---
 ## ICaptions interfaz
@@ -19,8 +19,8 @@ public interface ICaptions
 | Nombre | Descripción |
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Devuelve los datos binarios de los subtítulos cerrados. Solo lectura Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Devuelve el identificador global único (GUID) de los subtítulos cerrados. Solo lectura Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Devuelve los datos de los subtítulos cerrados como cadena codificada en UTF-8. Solo lectura String. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Devuelve el identificador único global (GUID) de los subtítulos cerrados. Solo lectura Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Devuelve los datos de los subtítulos cerrados como cadena codificada UTF-8. Solo lectura String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Devuelve o establece la etiqueta de los subtítulos cerrados. Lectura/escritura String. |
 
 ### Ver también

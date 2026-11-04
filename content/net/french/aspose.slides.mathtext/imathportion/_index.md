@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes pour .NET – Référence API
-description: Représente une portion avec un contexte mathématique à l'intérieur.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente une portion avec un contexte mathématique.
 type: docs
-weight: 8420
+weight: 8440
 url: /fr/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion interface
 
-Représente une portion avec un contexte mathématique à l'intérieur.
+Représente une portion avec un contexte mathématique.
 
 ```csharp
 public interface IMathPortion
@@ -16,7 +16,7 @@ public interface IMathPortion
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Paragraphe mathématique |
 

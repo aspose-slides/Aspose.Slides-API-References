@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 부모의 자식 컬렉션 중 어느 항목에 이 데이터 포인트가 적용되는지 결정합니다. UInt32를 읽습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 이 데이터 포인트가 적용되는 부모의 자식 컬렉션 중 어느 항목인지 결정합니다. 읽기 전용 UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /ko/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index 속성
 
-부모의 자식 컬렉션 중 어느 항목에 이 데이터 포인트가 적용되는지를 결정합니다. UInt32를 읽습니다.
+부모의 자식 컬렉션 중 어느 항목에 이 데이터 포인트가 적용되는지 결정합니다. 읽기 전용 UInt32.
 
 ```csharp
 public uint Index { get; }

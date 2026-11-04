@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Obiekt Binary Large Object (BLOB) to dane binarne przechowywane jako pojedynczy byt – np. BLOB może być samym dźwiękiem, wideo lub prezentacją. Stosuje się szereg technik w celu optymalizacji zużycia pamięci podczas pracy z BLOB-ami – które już zostały zapisane w prezentacji lub mogą być dodane później programowo. Korzystając z IBlobManagementOptions./iblobmanagementoptions możesz zmienić różne aspekty zachowania dotyczące obsługi BLOB-ów w okresie życia instancji IPresentation./ipresentation.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Binary Large Object BLOB jest danymi binarnymi przechowywanymi jako pojedynczy byt – czyli BLOB może być samym plikiem audio, wideo lub prezentacją. Wykorzystuje się szereg technik optymalizujących zużycie pamięci podczas pracy z BLOB-ami – które już znajdują się w prezentacji lub mogą zostać dodane później programowo. Korzystając z IBlobManagementOptions./iblobmanagementoptions możesz zmienić różne aspekty zachowania dotyczące obsługi BLOB-ów dla okresu życia instancji IPresentation./ipresentation.
 type: docs
-weight: 5370
+weight: 5390
 url: /pl/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interfejs
 
-Obiekt Binary Large Object (BLOB) to dane binarne przechowywane jako pojedynczy byt – np. BLOB może być samym dźwiękiem, wideo lub prezentacją. Stosuje się szereg technik, aby optymalizować zużycie pamięci podczas pracy z BLOB-ami – które już zostały zapisane w prezentacji lub zostaną dodane później programowo. Korzystając z [`IBlobManagementOptions`](../iblobmanagementoptions) możesz zmienić różne aspekty zachowania dotyczące obsługi BLOB-ów dla okresu życia instancji [`IPresentation`](../ipresentation).
+Binary Large Object (BLOB) to dane binarne przechowywane jako pojedynczy byt – np. BLOB może być samym plikiem audio, wideo lub prezentacją. Wykorzystuje się szereg technik optymalizujących zużycie pamięci podczas pracy z BLOB-ami – które już znajdują się w prezentacji lub mogą zostać dodane później programowo. Korzystając z [`IBlobManagementOptions`](../iblobmanagementoptions) możesz zmienić różne aspekty zachowania dotyczące obsługi BLOB-ów dla okresu życia instancji [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Ta właściwość określa, czy podczas pracy z BLOB-ami mogą być tworzone pliki tymczasowe, co znacznie zmniejsza zużycie pamięci, ale wymaga uprawnień do tworzenia plików. Wszystkie pliki zostaną usunięte po zakończeniu pracy z prezentacją. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Określa maksymalny łączny rozmiar (w bajtach), jaki wszystkie BLOB-y mogą zajmować w pamięci. Domyślnie wszystkie BLOB-y są wczytywane do pamięci; dopiero po osiągnięciu tego limitu stosowane są alternatywne mechanizmy (takie jak pliki tymczasowe). Przechowywanie BLOB-ów w pamięci maksymalizuje wydajność, ale może prowadzić do wysokiego zużycia pamięci. Użyj tej właściwości, aby dostosować zachowanie do swojego środowiska lub wymagań. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Ta właściwość określa, czy instancja klasy Presentation może być właścicielem źródła – pliku lub strumienia – podczas życia tej instancji. Jeśli instancja jest właścicielem, blokuje źródło. Pomaga to poprawić zużycie pamięci i wydajność podczas pracy z BLOB-ami, ale źródło (strumień lub plik) nie może być zmieniane w trakcie życia instancji Presentation. Oto przykład: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Ścieżka główna, w której będą tworzone pliki tymczasowe. Domyślnie używany jest systemowy katalog tymczasowy. Proces hostingowy powinien mieć uprawnienia do tworzenia plików i folderów w tym miejscu. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | To właściwość określa, czy podczas pracy z BLOB-ami mogą być tworzone pliki tymczasowe, co znacząco zmniejsza zużycie pamięci, ale wymaga uprawnień do tworzenia plików. Wszystkie pliki zostaną usunięte po zakończeniu pracy z prezentacją. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Określa maksymalny łączny rozmiar (w bajtach), jaki wszystkie BLOB-y mogą zajmować w pamięci. Domyślnie wszystkie BLOB-y są ładowane do pamięci; dopiero po przekroczeniu tego limitu stosowane są alternatywne mechanizmy (np. pliki tymczasowe). Przechowywanie BLOB-ów w pamięci maksymalizuje wydajność, ale może prowadzić do wysokiego zużycia pamięci. Użyj tej właściwości, aby dostosować zachowanie do swojego środowiska lub wymagań. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | To właściwość określa, czy instancja klasy Presentation może być właścicielem źródła – pliku lub strumienia – przez cały okres życia instancji. Jeśli instancja jest właścicielem, blokuje źródło. Pomaga to poprawić zużycie pamięci i wydajność przy pracy z BLOB-ami, lecz źródło (strumień lub plik) nie może być zmieniane podczas życia instancji Presentation. To jest przykład: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Ścieżka główna, w której będą tworzone pliki tymczasowe. Domyślnie używany jest systemowy katalog tymczasowy. Proces hostingowy musi mieć uprawnienia do tworzenia tam plików i folderów. |
 
 ### Zobacz także
 
-* przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

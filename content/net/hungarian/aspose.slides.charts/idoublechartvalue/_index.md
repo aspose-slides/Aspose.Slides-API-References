@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
-second_title: Aspose.Sildes a .NET API referencia
-description: "Kettős (double) értéket képvisel, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként."
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Kettő módon tárolható double érték a pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literál értékként.
 type: docs
-weight: 2070
+weight: 2090
 url: /hu/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue interfész
 
-Képviseli a dupla értéket, amely a pptx prezentációs dokumentumban kétféleképpen tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként.
+Kettő módon tárolható double érték a pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literál értékként.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -18,14 +18,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Név | Leírás |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Lehetővé teszi, hogy lekérje az alap ISingleCellChartValue interfészt. Csak olvasható [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja a literális double értéket, ha a DataSourceType = Charts.DataSourceType.DoubleLiterals. Olvasás/írás Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Lehetővé teszi az alap ISingleCellChartValue interfész lekérését. Csak olvasható [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja a literál double értéket, ha a DataSourceType = Charts.DataSourceType.DoubleLiterals. Olvasható/írható Double. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Átalakítja double típusra. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Átalakít double típusra. |
 
 ### Lásd még
 

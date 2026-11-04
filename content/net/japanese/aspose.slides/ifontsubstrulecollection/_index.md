@@ -3,7 +3,7 @@ title: IFontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換のコレクションを表します。
 type: docs
-weight: 5890
+weight: 5910
 url: /ja/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection インターフェイス

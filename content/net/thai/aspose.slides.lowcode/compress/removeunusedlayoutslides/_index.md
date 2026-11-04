@@ -1,22 +1,22 @@
 ---
 title: RemoveUnusedLayoutSlides
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ทำการบีบอัดของ Presentationaspose.slides/presentation โดยการลบสไลด์เลเอาต์ที่ไม่ได้ใช้
+description: ทำการบีบอัดของ Presentationaspose.slides/presentation ด้วยการลบสไลด์เค้าโครงที่ไม่ได้ใช้
 type: docs
-weight: 20
+weight: 40
 url: /th/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 ## Compress.RemoveUnusedLayoutSlides เมธอด
 
-ทำการบีบอัดของ [`Presentation`](../../../aspose.slides/presentation) โดยการลบสไลด์เลเอาต์ที่ไม่ได้ใช้
+ทำการบีบอัดของ [`Presentation`](../../../aspose.slides/presentation) โดยการลบสไลด์เค้าโครงที่ไม่ได้ใช้
 
 ```csharp
 public static void RemoveUnusedLayoutSlides(Presentation pres)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| pres | Presentation | อินสแตนซ์ของการนำเสนอ |
+| pres | Presentation | อินสแตนซ์ของ Presentation |
 
 ### ตัวอย่าง
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * คลาส [Presentation](../../../aspose.slides/presentation)
 * คลาส [Compress](../../compress)

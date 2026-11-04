@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนคุณสมบัติของชื่อเรื่องแผนภูมิ
+description: เป็นตัวแทนของคุณสมบัติของชื่อแผนภูมิ.
 type: docs
-weight: 1490
+weight: 1500
 url: /th/aspose.slides.charts/charttitle/
 ---
-## ChartTitle คลาส
+## คลาส ChartTitle
 
-แทนคุณสมบัติของชื่อเรื่องแผนภูมิ
+เป็นตัวแทนของคุณสมบัติของชื่อแผนภูมิ.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,27 +18,27 @@ public class ChartTitle : IChartTitle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิเพื่อสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | ระบุด้านบนจริงขององค์ประกอบแผนภูมิเพื่อสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | ด้านล่าง อ่านอย่างเดียว Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | คืนค่าแผนภูมิแม่ อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | คืนค่าสไตล์การเติม, เส้น, เอฟเฟกต์ ของชื่อเรื่อง อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | คืนค่าหรือกำหนดความสูงของชื่อเรื่องเป็นส่วนของความสูงของแผนภูมิ อ่าน/เขียน Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | กำหนดว่าองค์ประกอบแผนภูมิอื่นจะอนุญาตให้ทับชื่อเรื่องหรือไม่ อ่าน/เขียน Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | ด้านขวา อ่านอย่างเดียว Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | คืนค่ารูปแบบข้อความ อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่มีรูปแบบหลากหลาย หากคุณสมบัตินี้ไม่เป็นค่าว่าง จะใช้ข้อความที่มีรูปแบบนี้แทนข้อความที่สร้างอัตโนมัติ ข้อความที่สร้างอัตโนมัติเป็นคุณสมบัติโดยนัยของป้ายข้อมูล ป้ายหน่วยแสดงผลของแกนค่า, ชื่อแกน, ชื่อแผนภูมิ, ป้ายของเส้นแนวโน้ม ข้อความที่สร้างอัตโนมัติถูกจัดรูปแบบด้วยคุณสมบัติ IFormattedTextContainer.TextFormat อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | คืนค่าหรือกำหนดความกว้างของชื่อเรื่องเป็นส่วนของความกว้างของแผนภูมิ อ่าน/เขียน Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | คืนค่าหรือกำหนดพิกัด x ของชื่อเรื่องเป็นส่วนของความกว้างของแผนภูมิ อ่าน/เขียน Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | คืนค่าหรือกำหนดพิกัด y ของชื่อเรื่องเป็นส่วนของความสูงของแผนภูมิ อ่าน/เขียน Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | ด้านล่าง. อ่านอย่างเดียว Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | ส่งคืนแผนภูมิแม่. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | ส่งคืนสไตล์การเติมสี, เส้น, เอฟเฟกต์ของชื่อ. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | ส่งคืนหรือกำหนดความสูงของชื่อเป็นส่วนของความสูงแผนภูมิ. อ่าน/เขียน Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | กำหนดว่าตัวองค์ประกอบแผนภูมิอื่น ๆ จะได้รับอนุญาตให้ทับชื่อหรือไม่. อ่าน/เขียน Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | ด้านขวา. อ่านอย่างเดียว Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | ส่งคืนรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่จัดรูปแบบอย่างละเอียดได้. หากคุณสมบัตินี้ไม่เป็น null ค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติ. ข้อความที่สร้างอัตโนมัติเป็นคุณสมบัติแฝงของป้ายข้อมูล, ป้ายหน่วยแสดงผลของแกนค่า, ชื่อแกน, ชื่อแผนภูมิ, ป้ายของเส้นแนวโน้ม. ข้อความที่สร้างอัตโนมัติจะถูกจัดรูปแบบด้วยคุณสมบัติ IFormattedTextContainer.TextFormat. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของชื่อเป็นส่วนของความกว้างแผนภูมิ. อ่าน/เขียน Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | ส่งคืนหรือกำหนดพิกัด x ของชื่อเป็นส่วนของความกว้างแผนภูมิ. อ่าน/เขียน Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | ส่งคืนหรือกำหนดพิกัด y ของชื่อเป็นส่วนของความสูงแผนภูมิ. อ่าน/เขียน Single. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความที่อยู่ในพารามิเตอร์ "text" หาก TextFrameForOverriding ได้ถูกเริ่มต้นแล้วจะเปลี่ยนข้อความของมันเท่านั้น. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นแล้วจะทำการเปลี่ยนข้อความเท่านั้น. |
 
 ### ดูเพิ่มเติม
 

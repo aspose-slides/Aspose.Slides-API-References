@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nebo nastavuje souřadnici y titulku jako podíl výšky grafu. Číst/Zapisovat Single.
+description: Vrací nebo nastavuje souřadnici y nadpisu jako zlomek výšky grafu. Čtení/Zápis Single.
 type: docs
-weight: 170
+weight: 180
 url: /cs/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y vlastnost
 
-Vrací nebo nastavuje souřadnici y titulku jako podíl výšky grafu. Číst/Zapisovat Single.
+Vrací nebo nastavuje souřadnici y nadpisu jako zlomek výšky grafu. Čtení/Zápis Single.
 
 ```csharp
 public float Y { get; set; }

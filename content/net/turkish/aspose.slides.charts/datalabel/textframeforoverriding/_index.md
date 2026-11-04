@@ -1,20 +1,20 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes için .NET API Referansı
-description: Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketinin otomatik oluşturulan metnini geçersiz kılar. Veri etiketinin otomatik oluşturulan metni, ShowSeriesName ShowValue ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metindir. Yalnızca okuma ITextFrameaspose.slides/itextframe.
+description: Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketinin otomatik olarak oluşturulan metninin üzerine yazar. Veri etiketinin otomatik oluşturulan metni, ShowSeriesName ShowValue ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metni ifade eder. Salt okunur ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /tr/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding özelliği
 
-Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketi için otomatik oluşturulan metni geçersiz kılar. Veri etiketi için otomatik oluşturulan metin, ShowSeriesName, ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metindir. Yalnızca okuma [`ITextFrame`](../../../aspose.slides/itextframe).
+Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse bu biçimlendirilmiş metin değeri veri etiketinin otomatik oluşturulan metninin üzerine yazar. Veri etiketinin otomatik oluşturulan metni, ShowSeriesName, ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metni ifade eder. Salt okunur [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITextFrame](../../../aspose.slides/itextframe)
 * sınıf [DataLabel](../../datalabel)

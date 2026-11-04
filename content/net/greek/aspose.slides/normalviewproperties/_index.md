@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: "Αντιπροσωπεύει τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια αυτή καθ' αυτή, μια πλευρική περιοχή περιεχομένου και μια κατώτερη περιοχή περιεχομένου."
+description: Αντιπροσωπεύει τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια, μια πλευρική περιοχή περιεχομένου και μια κάτω περιοχή περιεχομένου.
 type: docs
-weight: 9110
+weight: 9130
 url: /el/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties κλάση
 
-Αντιπροσωπεύει τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια αυτή καθ' αυτή, μια πλευρική περιοχή περιεχομένου και μια κατώτερη περιοχή περιεχομένου.
+Αντιπροσωπεύει τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια, μια πλευρική περιοχή περιεχομένου και μια κάτω περιοχή περιεχομένου.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,17 +18,17 @@ public class NormalViewProperties : INormalViewProperties
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Καθορίζει την κατάσταση στην οποία θα πρέπει να εμφανίζεται η οριζόντια γραμμή διαχωριστή. Μία οριζόντια γραμμή διαχωριστή διαχωρίζει τη διαφάνεια από την περιοχή περιεχομένου κάτω από τη διαφάνεια. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Καθορίζει εάν ο χρήστης προτιμά να βλέπει μια περιοχή περιεχομένου πλήρους παραθύρου αντί της τυπικής κανονικής προβολής με τρεις περιοχές περιεχομένου. Εάν ενεργοποιηθεί, η εφαρμογή μπορεί να επιλέξει να εμφανίσει μία από τις περιοχές περιεχομένου σε όλο το παράθυρο. Αναγνώσιμη/εγγράψιμη Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Αυτό το στοιχείο καθορίζει το μέγεθος της πλευρικής περιοχής περιεχομένου της κανονικής προβολής, όταν η περιοχή είναι σε μεταβλητό αποκατεστημένο μέγεθος (όχι ελαχιστοποιημένη ούτε μεγιστοποιημένη). Μόνο ανάγνωση [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Αυτό το στοιχείο καθορίζει το μέγεθος της επάνω περιοχής διαφάνειας της κανονικής προβολής, όταν η περιοχή είναι σε μεταβλητό αποκατεστημένο μέγεθος (όχι ελαχιστοποιημένη ούτε μεγιστοποιημένη). Μόνο ανάγνωση [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Καθορίζει εάν η εφαρμογή πρέπει να εμφανίζει εικονίδια όταν εμφανίζει περιεχόμενο περιγράμματος σε οποιαδήποτε από τις περιοχές περιεχομένου της λειτουργίας κανονικής προβολής. Αναγνώσιμη/εγγράψιμη Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Καθορίζει εάν ο κάθετος διαχωριστής πρέπει να κλειδώνει σε ελαχιστοποιημένη κατάσταση όταν η πλευρική περιοχή είναι επαρκώς μικρή. Αναγνώσιμη/εγγράψιμη Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Καθορίζει την κατάσταση στην οποία θα πρέπει να εμφανίζεται η κάθετη γραμμή διαχωριστή. Μία κάθετη γραμμή διαχωριστή διαχωρίζει τη διαφάνεια από την πλευρική περιοχή περιεχομένου. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Καθορίζει την κατάσταση στην οποία πρέπει να εμφανίζεται η οριζόντια γραμμή διαχωριστή. Μια οριζόντια γραμμή διαχωριστή χωρίζει τη διαφάνεια από την περιοχή περιεχομένου κάτω από τη διαφάνεια. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Καθορίζει αν ο χρήστης προτιμά να δει μια περιοχή περιεχομένου πλήρους παραθύρου αντί για την τυπική κανονική προβολή με τρεις περιοχές περιεχομένου. Εάν είναι ενεργοποιημένο, η εφαρμογή μπορεί να επιλέξει να εμφανίσει μία από τις περιοχές περιεχομένου σε όλο το παράθυρο. Ανάγνωση/εγγραφή Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Αυτό το στοιχείο καθορίζει το μέγεθος της πλευρικής περιοχής περιεχομένου της κανονικής προβολής, όταν η περιοχή έχει μεταβλητό αποκατεστημένο μέγεθος (ούτε ελαχιστοποιημένη ούτε μεγιστοποιημένη). Μόνο για ανάγνωση [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Αυτό το στοιχείο καθορίζει το μέγεθος της πάνω περιοχής διαφάνειας της κανονικής προβολής, όταν η περιοχή έχει μεταβλητό αποκατεστημένο μέγεθος (ούτε ελαχιστοποιημένη ούτε μεγιστοποιημένη). Μόνο για ανάγνωση [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Καθορίζει αν η εφαρμογή πρέπει να εμφανίζει εικονίδια όταν εμφανίζει περιεχόμενο περιγράμματος σε οποιαδήποτε από τις περιοχές περιεχομένου της λειτουργίας κανονικής προβολής. Ανάγνωση/εγγραφή Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Καθορίζει αν ο κάθετος διαχωριστής πρέπει να προσαρμοστεί σε ελαχιστοποιημένη κατάσταση όταν η πλευρική περιοχή είναι αρκετά μικρή. Ανάγνωση/εγγραφή Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Καθορίζει την κατάσταση στην οποία πρέπει να εμφανίζεται η κάθετη γραμμή διαχωριστή. Μια κάθετη γραμμή διαχωριστή χωρίζει τη διαφάνεια από την πλευρική περιοχή περιεχομένου. |
 
 ### Παραδείγματα
 
-Το παρακάτω παράδειγμα δείχνει πώς να ρυθμίσετε τις ιδιότητες ViewProperties.NormalViewProperties μιας παρουσίασης PowerPoint.
+Το παρακάτω παράδειγμα δείχνει πώς να διαμορφώσετε τις ιδιότητες ViewProperties.NormalViewProperties μιας παρουσίασης PowerPoint.
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 ### Δείτε επίσης
 
 * διασύνδεση [INormalViewProperties](../inormalviewproperties)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* χωροσυνολο [Aspose.Slides](../../aspose.slides)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

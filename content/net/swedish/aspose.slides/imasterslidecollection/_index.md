@@ -3,7 +3,7 @@ title: IMasterSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av masterbilder.
 type: docs
-weight: 6430
+weight: 6450
 url: /sv/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection gränssnitt
@@ -18,14 +18,14 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Hämtar elementet på angivet index. Läs-endast [`IMasterSlide`](../imasterslide). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en specificerad masterbild i slutet av samlingen. Länkade layoutbilder kopieras också. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en specificerad masterbild på en angiven position i samlingen. Länkade layoutbilder kopieras också. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en specificerad masterbild i slutet av samlingen. Länkade layoutbilder kommer också att kopieras. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en specificerad masterbild på en specificerad position i samlingen. Länkade layoutbilder kommer också att kopieras. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Tar bort oanvända masterbilder. |

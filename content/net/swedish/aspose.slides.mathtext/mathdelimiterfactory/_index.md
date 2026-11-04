@@ -3,7 +3,7 @@ title: MathDelimiterFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa en matematisk avgränsare
 type: docs
-weight: 8660
+weight: 8680
 url: /sv/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory klass
@@ -24,8 +24,8 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Skapa en matematisk avgränsare genom att applicera på elementet |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Skapa en matematisk avgränsare genom att applicera på elementet |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Skapa en matematisk avgränsare genom att tillämpa på elementet |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Skapa en matematisk avgränsare genom att tillämpa på elementet |
 
 ### Anmärkningar
 

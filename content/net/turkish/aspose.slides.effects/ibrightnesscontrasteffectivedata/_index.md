@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Parlaklık-Kontrast etkisini temsil eden değiştirilemez nesne. Parlaklık ve kontrastı ayarlar
+description: Parlaklık ve Kontrast etkisini temsil eden değiştirilemez nesne. Parlaklığı ve kontrastı ayarlar
 type: docs
-weight: 3210
+weight: 3230
 url: /tr/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData arayüz
 
-Değiştirilemez nesne bir BrightnessContrast etkisini temsil eder. Parlaklık ve kontrastı ayarlar
+Değiştirilemez nesne, BrightnessContrast etkisini temsil eder. Parlaklığı ve kontrastı ayarlar
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 | Ad | Açıklama |
 | --- | --- |
 | [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Parlaklığı döndürür. Salt-okunur Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Kontrastı döndürür. Salt-okunur Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Kontrasti döndürür. Salt-okunur Single. |
 
 ### Ayrıca Bakınız
 

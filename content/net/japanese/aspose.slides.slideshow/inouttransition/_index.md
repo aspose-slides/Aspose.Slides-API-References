@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: イン・アウト スライド トランジション効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: In-Out スライド トランジション効果。
 type: docs
-weight: 10230
+weight: 10250
 url: /ja/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition クラス
 
-イン・アウト スライド トランジション効果。
+In-Out スライド トランジション効果。
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,14 +18,14 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | トランジション効果の方向。読み書き可能 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | トランジション効果の方向。読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: Tab
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트에 대한 탭을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 텍스트에 대한 탭 구성을 나타냅니다.
 type: docs
-weight: 10820
+weight: 10840
 url: /ko/aspose.slides/tab/
 ---
 ## Tab 클래스
 
-텍스트에 대한 탭을 나타냅니다.
+텍스트에 대한 탭 구성을 나타냅니다.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -26,7 +26,7 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [Alignment](../../aspose.slides/tab/alignment) { get; set; } | 탭의 정렬 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | 탭의 위치를 반환하거나 설정합니다. 이 속성을 할당하면 컬렉션에서 탭의 인덱스가 변경되고 Enumerator가 무효화될 수 있습니다. 읽기/쓰기 Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | 탭의 위치를 반환하거나 설정합니다. 이 속성을 할당하면 컬렉션의 탭 인덱스가 변경되고 열거자가 무효화될 수 있습니다. 읽기/쓰기 Double. |
 
 ## 메서드
 

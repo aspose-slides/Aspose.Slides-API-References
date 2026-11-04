@@ -3,12 +3,12 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 배열을 생성할 수 있습니다
 type: docs
-weight: 8110
+weight: 8130
 url: /ko/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory 인터페이스
 
-수학 배열을 생성할 수 있습니다
+수학 배열을 생성합니다
 
 ```csharp
 public interface IMathArrayFactory
@@ -18,8 +18,8 @@ public interface IMathArrayFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 수학 배열을 생성하고 지정된 요소를 그 안에 배치합니다 |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 수학 배열을 생성하고 지정된 요소들을 그 안에 배치합니다 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 수학 배열을 생성하고 지정된 요소를 배치합니다 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 수학 배열을 생성하고 지정된 요소들을 배치합니다 |
 
 ### 비고
 

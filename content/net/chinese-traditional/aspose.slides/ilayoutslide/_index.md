@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表一個佈局投影片。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示佈局投影片。
 type: docs
-weight: 6220
+weight: 6240
 url: /zh-hant/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide 介面
 
-代表一個佈局投影片。
+表示佈局投影片。
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -20,18 +20,18 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | 允許取得基礎 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | 傳回 IOverrideThemeable 介面。唯讀 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 傳回佈局投影片的繪圖參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 傳回佈局投影片的繪圖指引集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 如果存在至少一張依賴此佈局投影片的投影片，則傳回 true。唯讀 Boolean。 |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | 傳回此佈局投影片的 HeaderFooter 管理員。唯讀 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | 傳回佈局投影片的 HeaderFooter 管理器。唯讀 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | 傳回此佈局投影片的佈局類型。唯讀 [`SlideLayoutType`](../slidelayouttype)。 |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 傳回或設定佈局的母片投影片。可讀寫 [`IMasterSlide`](../imasterslide)。 |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | 傳回此佈局投影片的佔位符管理員。唯讀 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | 傳回佈局投影片的佔位符管理器。唯讀 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | 傳回一個包含所有依賴此佈局投影片的投影片的陣列。 |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | 傳回一個包含所有依賴此佈局投影片的投影片陣列。 |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | 從簡報中移除佈局。 |
 
 ### 另見

@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Slaat thema-gedefinieerde kleuren op.
+description: Slaat themadefinieerde kleuren op.
 type: docs
-weight: 11070
+weight: 11090
 url: /nl/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme klasse
 
-Slaat thema-gedefinieerde kleuren op.
+Slaat themadefinieerde kleuren op.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -27,10 +27,10 @@ public class ColorScheme : IColorScheme
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Eerste donkere kleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Tweede donkere kleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Kleur voor bezochte hyperlinks. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Kleur voor hyperlinks. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Kleur voor de hyperlinks. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Eerste lichtkleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Tweede lichtkleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Eerste lichte kleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Tweede lichte kleur in het schema. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Retourneert de bovenliggende presentatie. Alleen-lezen [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Retourneert de bovenliggende dia. Alleen-lezen [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 

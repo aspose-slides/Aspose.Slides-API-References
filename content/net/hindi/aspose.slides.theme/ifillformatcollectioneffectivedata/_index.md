@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी फ़िल फ़ॉर्मेट्स के केवल-पठनीय संग्रह का प्रतिनिधित्व करता है।
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी फ़िल फ़ॉर्मैट्स के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करती है।
 type: docs
-weight: 11240
+weight: 11260
 url: /hi/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData इंटरफ़ेस
+## IFillFormatCollectionEffectiveData interface
 
-Immutable object that represents a readonly collection of effective fill formats.
+एक अपरिवर्तनीय वस्तु जो प्रभावी फ़िल फ़ॉर्मैट्स के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करती है।
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -16,13 +16,13 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)। |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)। |
 
 ### टिप्पणियाँ
 
-यह इंटरफ़ेस [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) का एक भाग है।
+यह इंटरफ़ेस [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) के भाग के रूप में उपयोग किया जाता है।
 
 ### संबंधित देखें
 

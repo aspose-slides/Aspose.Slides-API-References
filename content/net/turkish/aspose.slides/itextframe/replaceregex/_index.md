@@ -3,7 +3,7 @@ title: ReplaceRegex
 second_title: Aspose.Sildes için .NET API Referansı
 description: Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 type: docs
-weight: 110
+weight: 120
 url: /tr/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metodu
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | Regex | Değiştirilecek dizeleri elde etmek için kullanılacak düzenli ifade Regex. |
+| regex | Regex | Değiştirilecek dizeleri elde etmek için kullanılan düzenli ifade Regex. |
 | newText | String | Değiştirilecek dizelerin tüm oluşumlarını değiştirecek dize. |
-| callback | IFindResultCallback | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Arama sonuçlarını alacak geri arama nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
-Aşağıdaki kod örneği, düzenli ifade kullanarak metni belirtilen dizeyle nasıl değiştireceğinizi gösterir.
+Aşağıdaki kod örneği, belirtilen dizeyle düzenli ifade kullanarak metni nasıl değiştireceğinizi gösterir.
 
 ```csharp
 [C#]

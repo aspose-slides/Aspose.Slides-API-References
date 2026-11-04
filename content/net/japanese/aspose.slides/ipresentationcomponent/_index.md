@@ -3,10 +3,10 @@ title: IPresentationComponent
 second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーションのコンポーネントを表します。
 type: docs
-weight: 6760
+weight: 6780
 url: /ja/aspose.slides/ipresentationcomponent/
 ---
-## IPPresentationComponent インターフェイス
+## IPresentationComponent インターフェイス
 
 プレゼンテーションのコンポーネントを表します。
 
@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | プレゼンテーションを返します。 読み取り専用 [`IPresentation`](../ipresentation)。 |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation). |
 
 ### 参照
 

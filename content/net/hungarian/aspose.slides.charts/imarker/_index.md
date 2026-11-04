@@ -1,14 +1,14 @@
 ---
 title: IMarker
-second_title: Aspose.Sildes .NET API referenciája
-description: A chert jelölőjét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Jelöli a chert marker-jét.
 type: docs
-weight: 2160
+weight: 2180
 url: /hu/aspose.slides.charts/imarker/
 ---
 ## IMarker interfész
 
-A chert jelölőjét képviseli.
+Jelöli a chert marker-jét.
 
 ```csharp
 public interface IMarker
@@ -18,11 +18,11 @@ public interface IMarker
 
 | Név | Leírás |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lekéri a jelölő kitöltését. Csak olvasás [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | A jelölő méretét képviseli vonaldiagramon, szórási diagramon vagy radar diagramon. Olvasás/írás Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | A jelölő stílusát képviseli vonaldiagramon, szórási diagramon vagy radar diagramon. Olvasás/írás [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lekérdezi a marker kitöltését. Csak olvasható [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | A marker méretét jelöli vonaldiagramon, szórási diagramon vagy radar diagramon. Olvasás/írás Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | A marker stílusát jelöli vonaldiagramon, szórási diagramon vagy radar diagramon. Olvasás/írás [`MarkerStyleType`](../markerstyletype). |
 
-### Lásd még
+### Továbbiak
 
 * névtér [Aspose.Slides.Charts](../../aspose.slides.charts)
 * összeállítás [Aspose.Slides](../../)

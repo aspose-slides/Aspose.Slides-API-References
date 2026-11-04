@@ -3,7 +3,7 @@ title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes .NET API 参考
 description: 不可变对象，包含有效的表列格式属性。
 type: docs
-weight: 5550
+weight: 5570
 url: /zh/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData 接口
@@ -18,13 +18,13 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础IBaseTableFormatEffectiveData接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
 
 ### 备注
 
-此接口与 [`IColumnFormat`](../icolumnformat) 接口一起使用，以返回已应用继承和表格样式的有效格式化值。
+此接口与 [`IColumnFormat`](../icolumnformat) 接口一起使用，以返回已应用继承和表样式的有效格式值。
 
-### 另请参阅
+### 另见
 
 * 接口 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

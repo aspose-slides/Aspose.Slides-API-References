@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Duotone エフェクトを表す不変オブジェクトです。各ピクセルについて、clr1 と clr2 を線形補間で組み合わせ、そのピクセルの新しい色を決定します。
+description: Duotone エフェクトを表す不変オブジェクトです。各ピクセルについて、線形補間を使用して clr1 と clr2 を組み合わせ、そのピクセルの新しい色を決定します。
 type: docs
-weight: 3270
+weight: 3290
 url: /ja/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData インターフェイス
 
-不変オブジェクトで、Duotone エフェクトを表します。各ピクセルについて、clr1 と clr2 を線形補間で組み合わせ、ピクセルの新しい色を決定します。
+不変オブジェクトで、Duotone エフェクトを表します。各ピクセルについて、線形補間を用いて clr1 と clr2 を組み合わせ、そのピクセルの新しい色を決定します。
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 暗いピクセル用のターゲット カラー形式を返します。読み取り専用 Color。 |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 明るいピクセル用のターゲット カラー形式を返します。読み取り専用 Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。 読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 暗いピクセル用の対象カラー形式を返します。 読み取り専用 Color。 |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 明るいピクセル用の対象カラー形式を返します。 読み取り専用 Color。 |
 
 ### 参照
 

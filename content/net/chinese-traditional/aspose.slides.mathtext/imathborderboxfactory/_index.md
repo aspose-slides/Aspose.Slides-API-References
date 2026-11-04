@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Aspose.Sildes for .NET API 參考
-description: 允許建立數學邊框
+description: 允許建立數學邊框方塊
 type: docs
-weight: 8180
+weight: 8200
 url: /zh-hant/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory 介面
 
-允許建立數學邊框
+允許建立數學邊框方塊
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -16,16 +16,16 @@ public interface IMathBorderBoxFactory
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 透過套用於元素建立數學邊框 |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 透過套用於元素建立數學邊框 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 透過套用於元素建立數學邊框方塊 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 透過套用於元素建立數學邊框方塊 |
 
 ### 備註
 
 用於 COM 相容性
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

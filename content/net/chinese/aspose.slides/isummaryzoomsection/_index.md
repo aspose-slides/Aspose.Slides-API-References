@@ -3,12 +3,12 @@ title: ISummaryZoomSection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 Summary Zoom 框架中的 Summary Zoom Section 对象。
 type: docs
-weight: 7160
+weight: 7180
 url: /zh/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection 接口
 
-表示位于 Summary Zoom 帧中的 Summary Zoom Section 对象。
+表示 Summary Zoom 框架中的 Summary Zoom Section 对象。
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame

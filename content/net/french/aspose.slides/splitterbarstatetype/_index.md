@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie l'état dans lequel la barre de séparation doit être affichée. La barre de séparation sépare une région principale et une région secondaire dans une zone d'affichage.
+second_title: Aspose.Sildes pour la référence d'API .NET
+description: Spécifie l'état dans lequel la barre de fractionnement doit être affichée. La barre de fractionnement sépare une région principale et une région secondaire au sein d'une zone d'affichage.
 type: docs
-weight: 10690
+weight: 10710
 url: /fr/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType énumération
 
-Spécifie l'état dans lequel la barre de séparation doit être affichée. La barre de séparation sépare une région principale et une région secondaire dans une zone d'affichage.
+Spécifie l'état dans lequel la barre de fractionnement doit être affichée. La barre de fractionnement sépare une région principale et une région secondaire au sein d'une zone d'affichage.
 
 ```csharp
 public enum SplitterBarStateType

@@ -1,14 +1,14 @@
 ---
 title: ForEach
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一组旨在遍历不同 Presentation../aspose.slides/presentation 模型对象的方法。这些方法如果您需要遍历并更改某些 Presentation 元素的格式或内容，例如更改每个部分的格式，将会非常有用。
+description: 表示一组旨在遍历不同 Presentation../aspose.slides/presentation 模型对象的方法。如果您需要遍历并更改某些 Presentation 元素的格式或内容，例如更改每个部分的格式，这些方法会很有用。
 type: docs
-weight: 7900
+weight: 7920
 url: /zh/aspose.slides.lowcode/foreach/
 ---
 ## ForEach 类
 
-表示一组旨在遍历不同 [`Presentation`](../../aspose.slides/presentation) 模型对象的方法。如果您需要遍历并更改某些 Presentation 元素的格式或内容，例如更改每个部分的格式，这些方法会很有用。
+表示一组用于遍历不同 [`Presentation`](../../aspose.slides/presentation) 模型对象的方法。如果您需要遍历并更改某些 Presentation 元素的格式或内容，这些方法会很有用，例如更改每个部分的格式。
 
 ```csharp
 public static class ForEach
@@ -20,25 +20,25 @@ public static class ForEach
 | --- | --- |
 | static [LayoutSlide](../../aspose.slides.lowcode/foreach/layoutslide)(Presentation, ForEachLayoutSlideCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`LayoutSlide`](./layoutslide)。 |
 | static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`MasterSlide`](./masterslide)。 |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Paragraph`](./paragraph)。形状将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)和[`LayoutSlide`](./layoutslide)。 |
-| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Paragraph`](./paragraph)。形状将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide)和[`NotesSlide`](../../aspose.slides/notesslide)。 |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Portion`](./portion)。部分将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)和[`LayoutSlide`](./layoutslide)。 |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Portion`](./portion)。部分将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide)和[`NotesSlide`](../../aspose.slides/notesslide)。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | 遍历 [`BaseSlide`](../../aspose.slides/baseslide) 中的每个 [`Shape`](./shape)。[`BaseSlide`](../../aspose.slides/baseslide) 是 [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) 的基类型。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape)。形状将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)和[`LayoutSlide`](./layoutslide)。 |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape)。形状将在所有类型的幻灯片中进行迭代 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide)和[`NotesSlide`](../../aspose.slides/notesslide)（如有需要）。 |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Paragraph`](./paragraph)。形状将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) |
+| static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Paragraph`](./paragraph)。形状将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Portion`](./portion)。部分将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Portion`](./portion)。部分将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | 遍历 [`BaseSlide`](../../aspose.slides/baseslide) 中的每个 [`Shape`](./shape)。[`BaseSlide`](../../aspose.slides/baseslide) 是 [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) 的基类型 |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape)。形状将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide) 和 [`LayoutSlide`](./layoutslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape)。形状将在所有类型的幻灯片中遍历 - [`Slide`](./slide)、[`MasterSlide`](./masterslide)、[`LayoutSlide`](./layoutslide) 和 [`NotesSlide`](../../aspose.slides/notesslide)（如有需要）。 |
 | static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | 遍历 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Slide`](./slide)。 |
 
 ## 其他成员
 
 | 名称 | 描述 |
 | --- | --- |
-| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`LayoutSlide`](./layoutslide) 调用的回调。 |
-| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`MasterSlide`](./masterslide) 调用的回调。 |
-| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | 将在 [`BaseSlide`](../../aspose.slides/baseslide) 上的每个 [`Paragraph`](./paragraph) 调用的回调。 |
-| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | 将在 [`BaseSlide`](../../aspose.slides/baseslide) 上的 [`Paragraph`](./paragraph) 中的每个 [`Portion`](./portion) 调用的回调。 |
-| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape) 调用的回调。 |
-| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Slide`](./slide) 调用的回调。 |
+| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`LayoutSlide`](./layoutslide) 上调用的回调。 |
+| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`MasterSlide`](./masterslide) 上调用的回调。 |
+| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | 将在 [`BaseSlide`](../../aspose.slides/baseslide) 上的每个 [`Paragraph`](./paragraph) 时调用的回调。 |
+| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | 将在 [`BaseSlide`](../../aspose.slides/baseslide) 上的 [`Paragraph`](./paragraph) 中的每个 [`Portion`](./portion) 时调用的回调。 |
+| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Shape`](./shape) 时调用的回调。 |
+| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | 将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Slide`](./slide) 时调用的回调。 |
 
 ### 示例
 
@@ -54,7 +54,7 @@ using (Presentation presentation = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 程序集 [Aspose.Slides](../../)

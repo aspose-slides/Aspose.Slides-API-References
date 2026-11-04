@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Tint エフェクトを表します。指定した量だけ色相に向かって/離れてエフェクトのカラー値をシフトします。
+description: Tint エフェクトを表します。指定された量だけ、色相に向かってまたは離れてエフェクトのカラー値をシフトします。
 type: docs
-weight: 3540
+weight: 3560
 url: /ja/aspose.slides.effects/itint/
 ---
 ## ITint インターフェイス
 
-Tint エフェクトを表します。指定した量だけ色相に向かって/離れてエフェクトのカラー値をシフトします。
+Tint エフェクトを表します。指定された量だけ、色相に向かってまたは離れてエフェクトのカラー値をシフトします。
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 参照
 

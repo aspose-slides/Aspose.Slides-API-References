@@ -3,10 +3,10 @@ title: IMasterSlide
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una diapositiva master in una presentazione.
 type: docs
-weight: 6420
+weight: 6440
 url: /it/aspose.slides/imasterslide/
 ---
-## Interfaccia IMasterSlide
+## IMasterSlide interfaccia
 
 Rappresenta una diapositiva master in una presentazione.
 
@@ -16,22 +16,22 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Sola lettura [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Restituisce l'interfaccia IMMasterThemeable. Sola lettura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Restituisce lo stile di un testo del corpo. Sola lettura [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva master. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Restituisce true se esiste almeno una diapositiva che dipende da questa diapositiva master. Sola lettura Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master. Sola lettura [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Restituisce la raccolta di layout diapositive figlio per questa diapositiva master. Sola lettura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Restituisce lo stile di un altro testo. Sola lettura [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina se il master corrispondente viene eliminato quando tutte le diapositive che lo seguono vengono eliminate. Nota: Aspose.Slides non rimuoverà mai automaticamente alcun master inutilizzato; per rimuovere effettivamente i master inutilizzati chiamare [`RemoveUnused`](../imasterslidecollection/removeunused). Lettura/scrittura Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Restituisce lo stile di un testo titolo. Sola lettura [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Restituisce l'interfaccia IMatherThemeable. Solo lettura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Restituisce lo stile di un testo del corpo. Solo lettura [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Restituisce una collezione di guide di disegno per la diapositiva master. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection). |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Restituisce true se esiste almeno una diapositiva che dipende da questa diapositiva master. Solo lettura Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master. Solo lettura [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Restituisce la collezione di layout diapositive figlio per questa diapositiva master. Solo lettura [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Restituisce lo stile di un altro testo. Solo lettura [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determina se il master corrispondente viene eliminato quando tutte le diapositive che seguono quel master sono eliminate. Nota: Aspose.Slides non rimuoverà mai alcun master inutilizzato da solo; per rimuovere effettivamente i master inutilizzati chiamare [`RemoveUnused`](../imasterslidecollection/removeunused) Lettura/scrittura Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Restituisce lo stile di un testo titolo. Solo lettura [`ITextStyle`](../itextstyle). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Crea una nuova diapositiva master basata su quella corrente, applicando un tema esterno e applica la diapositiva master creata a tutte le diapositive dipendenti. |
 | [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Restituisce un array con tutte le diapositive che dipendono da questa diapositiva master. |

@@ -1,14 +1,14 @@
 ---
 title: ModernComment
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片上的评论。
+description: 表示幻灯片上的注释。
 type: docs
-weight: 9090
+weight: 9110
 url: /zh/aspose.slides/moderncomment/
 ---
 ## ModernComment 类
 
-表示幻灯片上的评论。
+表示幻灯片上的注释.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -18,22 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | 名称 | 描述 |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 返回评论的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置评论创建的时间。将此属性设置为 MinValue 表示未设置评论时间。读写 DateTime。 |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父评论。读写 [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置评论在幻灯片上的位置。读写 PointF。 |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | 返回与评论关联的形状。只读 [`IShape`](../ishape)。 |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置评论的父幻灯片。只读 [`ISlide`](../islide)。 |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | 获取或设置评论的状态。读写 [`ModernCommentStatus`](../moderncommentstatus)。 |
-| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片评论的纯文本。读写 String。 |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | 获取或设置文本框中评论关联的 AutoShape 的文本选择长度。读写 Int32。 |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | 获取或设置文本框中评论关联的 AutoShape 的文本选择起始位置。读写 Int32。 |
+| [Author](../../aspose.slides/comment/author) { get; } | 返回注释的作者. 只读 [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置注释创建的时间. 将此属性设置为 MinValue 表示未设置注释时间. 读/写 DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父注释. 读/写 [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置注释在幻灯片上的位置. 读/写 PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | 返回与注释关联的形状. 只读 [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置注释的父幻灯片. 只读 [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | 获取或设置注释的状态. 读/写 [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片注释的纯文本. 读/写 String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | 获取或设置与 AutoShape 关联的注释在文本框中的选定文本长度. 读/写 Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | 获取或设置与 AutoShape 关联的注释在文本框中的选定文本起始位置. 读/写 Int32. |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除评论及其所有回复。 |
+| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除注释及其所有回复. |
 
 ### 示例
 
@@ -48,7 +48,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [Comment](../comment)
 * 接口 [IModernComment](../imoderncomment)

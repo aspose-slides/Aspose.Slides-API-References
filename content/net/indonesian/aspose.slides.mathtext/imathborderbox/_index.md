@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menggambar persegi panjang atau batas lain di sekitar IMathElement.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menggambar border persegi panjang atau bentuk lain di sekitar IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /id/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox antarmuka
 
-Menggambar persegi panjang atau batas lain di sekitar IMathElement.
+Draws a rectangular or some other border around the IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Argumen dasar |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada tepi bawah kotak batas. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada tepi kiri kotak batas. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada tepi kanan kotak batas. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada tepi atas kotak batas. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (default is false). Menentukan keadaan tersembunyi atau ditampilkan pada garis diagonal coret dari sudut kiri bawah ke sudut kanan atas kotak batas. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada garis coret horizontal. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). Menentukan keadaan tersembunyi atau ditampilkan pada garis diagonal coret dari sudut kiri atas ke sudut kanan bawah kotak batas. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - menentukan keadaan tersembunyi atau ditampilkan pada garis coret vertikal. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Sembunyikan Tepi Bawah (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari tepi bawah kotak border. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Sembunyikan Tepi Kiri (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari tepi kiri kotak border. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Sembunyikan Tepi Kanan (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari tepi kanan kotak border. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Sembunyikan Tepi Atas (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari tepi atas kotak border. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Coret dari Kiri Bawah ke Kanan Atas (nilai default false). Menentukan keadaan tersembunyi atau terlihat dari garis diagonal coret dari sudut kiri bawah ke sudut kanan atas kotak border. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Coret Horizontal (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari garis coret horizontal. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Coret dari Kiri Atas ke Kanan Bawah (nilai default false). Menentukan keadaan tersembunyi atau terlihat dari garis diagonal coret dari sudut kiri atas ke sudut kanan bawah kotak border. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Coret Vertikal (nilai default false) - menentukan keadaan tersembunyi atau terlihat dari garis coret vertikal. |
 
 ### Contoh
 
@@ -42,6 +42,6 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 * antarmuka [IMathElement](../imathelement)
 * ruang nama [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

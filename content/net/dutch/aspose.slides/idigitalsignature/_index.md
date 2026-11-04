@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Digitale handtekening in ondertekend bestand.
 type: docs
-weight: 5690
+weight: 5710
 url: /nl/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interface
@@ -18,9 +18,9 @@ public interface IDigitalSignature
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Certificaatobject dat werd gebruikt om het document te ondertekenen. Alleen-lezen X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Het doel van de handtekening. Lezen/schrijven String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Als deze digitale handtekening geldig is en het document niet is gemanipuleerd, zal deze waarde true zijn. Alleen-lezen Boolean. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Certificate-object dat werd gebruikt om het document te ondertekenen. Alleen-lezen X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Het doel van de handtekening. Lezen/Schrijven String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Als deze digitale handtekening geldig is en het document niet is gewijzigd, zal deze waarde true zijn. Alleen-lezen Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Het tijdstip waarop het document is ondertekend. Alleen-lezen DateTime. |
 
 ### Zie ook

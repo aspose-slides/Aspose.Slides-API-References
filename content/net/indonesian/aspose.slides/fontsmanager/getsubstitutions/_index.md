@@ -1,20 +1,20 @@
 ---
 title: GetSubstitutions
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mendapatkan informasi tentang font yang akan diganti pada perenderan presentasi.
+second_title: Aspose.Sildes for .NET API Reference
+description: Mendapatkan informasi tentang font yang akan diganti pada rendering presentasi.
 type: docs
-weight: 80
+weight: 90
 url: /id/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Mendapatkan informasi tentang font yang akan diganti pada perenderan presentasi.
+Mendapatkan informasi tentang font yang akan diganti pada rendering presentasi.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### Nilai Kembali
+### Nilai Kembalian
 
 Koleksi semua substitusi font [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Mendapatkan informasi tentang font yang akan diganti selama perenderan slide yang ditentukan.
+Mendapatkan informasi tentang font yang akan diganti selama proses rendering slide yang ditentukan.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -51,7 +51,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 | --- | --- | --- |
 | slides | Int32[] | Array indeks slide untuk mengambil informasi substitusi font, dimulai dari 1. |
 
-### Nilai Kembali
+### Nilai Kembalian
 
 Koleksi semua substitusi font ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) untuk slide yang ditentukan.
 

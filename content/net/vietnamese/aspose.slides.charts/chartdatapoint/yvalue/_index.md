@@ -1,9 +1,9 @@
 ---
 title: YValue
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: YValue. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 210
+weight: 250
 url: /vi/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue thuộc tính
@@ -14,7 +14,7 @@ YValue. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
 public IDoubleChartValue YValue { get; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IDoubleChartValue](../../idoublechartvalue)
 * lớp [ChartDataPoint](../../chartdatapoint)

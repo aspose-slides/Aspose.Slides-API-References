@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示投影片的大小和方向。
 type: docs
-weight: 7090
+weight: 7110
 url: /zh-hant/aspose.slides/islidesize/
 ---
 ## ISlideSize 介面
@@ -18,18 +18,18 @@ public interface ISlideSize
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 取得或設定投影片方向。 |
-| [Size](../../aspose.slides/islidesize/size) { get; } | 取得投影片的尺寸（點）。 |
-| [Type](../../aspose.slides/islidesize/type) { get; } | 取得投影片尺寸類型。 |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 取得或設定投影片的方向。 |
+| [Size](../../aspose.slides/islidesize/size) { get; } | 取得投影片的尺寸（以點為單位）。 |
+| [Type](../../aspose.slides/islidesize/type) { get; } | 取得投影片的大小類型。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 根據類型設定投影片大小，並縮放現有內容。 |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 依類型設定投影片大小，並縮放現有內容。 |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 明確設定投影片尺寸，並縮放現有內容。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

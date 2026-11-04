@@ -1,9 +1,9 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia tworzenie projektu VBA za pośrednictwem interfejsu COM
 type: docs
-weight: 11660
+weight: 11680
 url: /pl/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory klasa

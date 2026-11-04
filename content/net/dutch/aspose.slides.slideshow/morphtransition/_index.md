@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Ripple-diaovergangseffect.
+description: Ripple-dia overgangseffect.
 type: docs
-weight: 10250
+weight: 10270
 url: /nl/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition klasse
 
-Ripple-diaovergangseffect.
+Ripple-dia overgangseffect.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -25,7 +25,7 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hashfunctie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een specifiek type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

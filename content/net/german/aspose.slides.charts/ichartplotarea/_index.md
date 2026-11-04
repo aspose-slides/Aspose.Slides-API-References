@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Eigenschaften des Diagrammtitels dar.
+description: Stellt die Eigenschaften des Diagrammtitels dar.
 type: docs
-weight: 1910
+weight: 1930
 url: /de/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea Schnittstelle
 
-Stellt Eigenschaften des Diagrammtitels dar.
+Represents chart title properties.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -19,9 +19,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Name | Beschreibung |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Gibt die IActualLayout Schnittstelle zurück. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Ermöglicht das Abrufen der Basis-ILayoutable Schnittstelle. Schreibgeschützt [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Gibt das Format eines Plotbereichs zurück. Schreibgeschützt [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Plotbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plotbereich anhand seines Inneren (nicht einschließlich Achsen und Achsenbeschriftungen) oder seines Äußeren (einschließlich Achsen und Achsenbeschriftungen) angelegt werden soll. Lesen/Schreiben [`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Ermöglicht den Zugriff auf die Basis ILayoutable Schnittstelle. Nur-Lesen [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Gibt das Format eines Plot-Bereichs zurück. Nur-Lesen [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Plot-Bereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plot-Bereich innerhalb (nicht inkl. Achsen und Achsenbeschriftungen) oder außerhalb (inkl. Achsen und Achsenbeschriftungen) angelegt wird. Lesen/Schreiben [`LayoutTargetType`](./layouttargettype). |
 
 ### Siehe auch
 

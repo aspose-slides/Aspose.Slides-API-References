@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hiệu ứng Thay thế màu.
+description: Đại diện cho hiệu ứng Thay thế màu.
 type: docs
-weight: 3240
+weight: 3260
 url: /vi/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace giao diện
 
-Biểu diễn hiệu ứng Thay thế màu.
+Represents a Color Replacement effect.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Trả về định dạng màu sẽ thay thế màu của mỗi pixel. Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện cơ sở IAccessiblePVIObject. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Cho phép lấy giao diện cơ sở IImageTransformOperation. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Trả về định dạng màu sẽ thay thế màu của từng pixel. Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Xem thêm
 

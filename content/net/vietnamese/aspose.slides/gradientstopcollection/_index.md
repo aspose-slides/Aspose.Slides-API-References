@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Biểu diễn một bộ sưu tập các dừng gradient.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một tập hợp các điểm dốc.
 type: docs
-weight: 5030
+weight: 5050
 url: /vi/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection lớp
 
-Biểu diễn một bộ sưu tập các dừng gradient.
+Biểu diễn một tập hợp các điểm dốc.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -19,33 +19,33 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Trả về số lượng dừng gradient trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Trả về dừng gradient theo chỉ số. |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Trả về số lượng điểm dốc trong một tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào tập hợp có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Trả về điểm dốc theo chỉ mục. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Tạo dừng gradient mới và thêm nó vào cuối bộ sưu tập. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Tạo dừng gradient mới và thêm nó vào cuối bộ sưu tập. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Tạo dừng gradient mới và thêm nó vào cuối bộ sưu tập. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Xóa tất cả các dừng gradient khỏi bộ sưu tập. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Tạo điểm dốc mới và thêm nó vào cuối tập hợp. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Tạo điểm dốc mới và thêm nó vào cuối tập hợp. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Tạo điểm dốc mới và thêm nó vào cuối tập hợp. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Xóa tất cả các điểm dốc khỏi một tập hợp. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng được chỉ định. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Tạo dừng gradient mới và chèn nó vào chỉ số đã chỉ định trong bộ sưu tập. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Tạo dừng gradient mới và chèn nó vào chỉ số đã chỉ định trong bộ sưu tập. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tạo dừng gradient mới và chèn nó vào chỉ số đã chỉ định trong bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Xóa một dừng gradient ở chỉ số đã chỉ định. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Tạo điểm dốc mới và chèn nó vào chỉ mục được chỉ định trong tập hợp. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Tạo điểm dốc mới và chèn nó vào chỉ mục được chỉ định trong tập hợp. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tạo điểm dốc mới và chèn nó vào chỉ mục được chỉ định trong tập hợp. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Xóa một điểm dốc tại chỉ mục được chỉ định. |
 
 ### Xem thêm
 
 * lớp [PVIObject](../pviobject)
 * giao diện [IGradientStopCollection](../igradientstopcollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập tin lắp ráp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: El Stream pasado a un método se considera un Objeto Binario Grande (BLOB); ver la descripción de IBlobManagementOptions./iblobmanagementoptions. Los valores de esta enumeración identifican cómo debe tratarse el Stream cuando se pasa al método. Dependiendo de los requisitos, se pueden tomar diferentes decisiones para proporcionar el comportamiento más eficiente.
+description: El Stream pasado a un método se considera como un Objeto Binario Grande (BLOB) vea la descripción de IBlobManagementOptions./iblobmanagementoptions. Los valores de esta enumeración identifican cómo debe tratarse el Stream cuando se pasa al método. Dependiendo de los requisitos, se pueden tomar diferentes decisiones para proporcionar el comportamiento más eficiente.
 type: docs
-weight: 7850
+weight: 7870
 url: /es/aspose.slides/loadingstreambehavior/
 ---
-## enumeración LoadingStreamBehavior
+## LoadingStreamBehavior enumeración
 
-El Stream pasado a un método se considera un Objeto Binario Grande (BLOB) (ver [`IBlobManagementOptions`](../iblobmanagementoptions) descripción). Los valores de esta enumeración identifican cómo debe tratarse el Stream cuando se pasa al método. Según los requisitos, se pueden tomar diferentes decisiones para proporcionar el comportamiento más eficiente.
+El Stream pasado a un método se considera como un Objeto Binario Grande (BLOB) (ver [`IBlobManagementOptions`](../iblobmanagementoptions) descripción). Los valores de esta enumeración identifican cómo debe tratarse el Stream cuando se pasa al método. Dependiendo de los requisitos, se pueden tomar diferentes decisiones para proporcionar el comportamiento más eficiente.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | El stream se leerá hasta el final y luego se liberará, es decir, se garantizará que este stream no será utilizado por la instancia [`IPresentation`](../ipresentation) en el futuro. Puede ser cerrado por el código cliente o usado de cualquier otra manera. |
-| KeepLocked | `1` | El stream quedará bloqueado dentro del objeto [`IPresentation`](../ipresentation), es decir, la propiedad del stream se transferirá. El objeto [`IPresentation`](../ipresentation) será responsable de liberar correctamente el stream cuando este objeto se libere a su vez. Este comportamiento es extremadamente útil cuando necesita serializar un archivo BLOB grande (como un video o audio de gran tamaño - ver [`IBlobManagementOptions`](../iblobmanagementoptions) descripción) y desea evitar cargar este archivo en memoria u otros problemas de rendimiento. Simplemente puede abrir el FileStream para este archivo y pasarlo a un método, eligiendo el LoadingStreamBehavior KeepLocked. |
+| ReadStreamAndRelease | `0` | El flujo se leerá hasta el final y luego se liberará - es decir, se garantizará que este flujo no será utilizado por la instancia [`IPresentation`](../ipresentation) en el futuro. Puede ser cerrado por el código del cliente o usado de cualquier otra manera. |
+| KeepLocked | `1` | El flujo será bloqueado dentro del objeto [`IPresentation`](../ipresentation), es decir, la propiedad del flujo será transferida. El objeto [`IPresentation`](../ipresentation) será responsable de disponer correctamente del flujo cuando este objeto se deseche a sí mismo. Este comportamiento es extremadamente útil cuando necesita serializar un archivo BLOB grande (como un video o audio grande - vea [`IBlobManagementOptions`](../iblobmanagementoptions) descripción) y desea evitar cargar este archivo en la memoria u otros problemas de rendimiento. Simplemente puede abrir el FileStream para este archivo y pasarlo a un método, eligiendo KeepLocked LoadingStreamBehavior. |
 
 ### Ver también
 

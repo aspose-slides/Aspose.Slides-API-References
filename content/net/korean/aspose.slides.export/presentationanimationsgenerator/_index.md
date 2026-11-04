@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Presentation의 애니메이션 생성기를 나타냅니다../aspose.slides/presentation.
+description: Presentation../aspose.slides/presentation에 있는 애니메이션 생성기를 나타냅니다.
 type: docs
-weight: 4380
+weight: 4400
 url: /ko/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator 클래스
 
-[`Presentation`](../../aspose.slides/presentation)의 애니메이션 생성기를 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)의 애니메이션을 생성하는 제너레이터를 나타냅니다.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -18,14 +18,14 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 만듭니다. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 만듭니다. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 생성합니다. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 기본 지연 시간 [ms]을 가져오거나 설정합니다. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 기본 지연 시간[ms]을 가져오거나 설정합니다. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 내보낸 슬라이드 수를 가져옵니다. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 숨겨진 슬라이드를 포함할지 여부를 가져오거나 설정합니다. |
 
@@ -47,11 +47,12 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 새 애니메이션이 생성되었음을 나타내는 이벤트입니다. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 새로운 애니메이션이 생성되었음을 나타내는 이벤트입니다. |
 
 ### 예제
 
 ```csharp
+[C#]
 using (Presentation presentation = new Presentation("animated.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(presentation))
@@ -67,7 +68,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

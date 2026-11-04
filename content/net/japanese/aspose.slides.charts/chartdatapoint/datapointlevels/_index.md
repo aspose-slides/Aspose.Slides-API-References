@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
 second_title: Aspose.Sildes for .NET API リファレンス
-description: データポイントレベルのコンテナを返します。Treeamp と Sunburst 系列に適用されます。データポイントレベルのインデックスはゼロベースです。
+description: データ ポイント レベルのコンテナを返します。Treeamp と Sunburst 系列に適用されます。データ ポイント レベルのインデックスは 0 から始まります。
 type: docs
-weight: 70
+weight: 110
 url: /ja/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels プロパティ
 
-データポイントレベルのコンテナを返します。Treeamp と Sunburst 系列に適用されます。データポイントレベルのインデックスはゼロベースです。
+データ ポイント レベルのコンテナを返します。Treeamp と Sunburst 系列に適用されます。データ ポイント レベルのインデックスは 0 から始まります。
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

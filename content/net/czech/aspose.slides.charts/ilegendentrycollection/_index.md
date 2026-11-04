@@ -1,12 +1,12 @@
 ---
 title: ILegendEntryCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci legend.
+description: Reprezentuje kolekci legend.
 type: docs
-weight: 2140
+weight: 2160
 url: /cs/aspose.slides.charts/ilegendentrycollection/
 ---
-## ILegendEntryCollection rozhraní
+## ILegendEntryCollection interface
 
 Reprezentuje kolekci legend.
 
@@ -18,8 +18,8 @@ public interface ILegendEntryCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Získává počet skutečně obsažených prvků v kolekci. Pouze pro čtení Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Získává vlastnosti položky legendy odpovídající Chart.ChartData.Series[0].DataPoints[index] v případě typů grafu z tohoto seznamu: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; nebo odpovídající Chart.ChartData.Series[index] pro ostatní typy grafů. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Vrací počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Vrací vlastnosti legend entry odpovídající Chart.ChartData.Series[0].DataPoints[index] v případě typu grafu z tohoto seznamu: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; nebo odpovídající Chart.ChartData.Series[index] pro jiné typy grafů. |
 
 ### Viz také
 

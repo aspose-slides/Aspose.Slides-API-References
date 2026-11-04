@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan nilai batang kesalahan. Harus digunakan hanya ketika tipe nilai Error bars adalah Custom.
+description: Menentukan nilai batang kesalahan. Hanya dapat digunakan ketika tipe nilai batang kesalahan adalah Custom.
 type: docs
-weight: 2080
+weight: 2100
 url: /id/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues antarmuka
 
-Menentukan nilai batang kesalahan. Harus digunakan hanya ketika tipe nilai Error bars adalah Custom.
+Menentukan nilai batang kesalahan. Hanya dapat digunakan ketika tipe nilai batang kesalahan adalah Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | Nama | Deskripsi |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Menentukan nilai batang kesalahan arah negatif. Tersedia jika tipe nilai error bars adalah Custom dan ErrorBarsXFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya Baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Menentukan nilai batang kesalahan arah positif. Tersedia jika tipe nilai error bars adalah Custom dan ErrorBarsXFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya Baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Menentukan nilai batang kesalahan arah negatif. Tersedia jika tipe nilai error bars adalah Custom dan ErrorBarsYFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya Baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Menentukan nilai batang kesalahan arah positif. Tersedia jika tipe nilai error bars adalah Custom dan ErrorBarsYFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya Baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Menentukan nilai batang kesalahan dalam arah negatif. Tersedia jika tipe nilai batang kesalahan adalah Custom dan ErrorBarsXFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Menentukan nilai batang kesalahan dalam arah positif. Tersedia jika tipe nilai batang kesalahan adalah Custom dan ErrorBarsXFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Menentukan nilai batang kesalahan dalam arah negatif. Tersedia jika tipe nilai batang kesalahan adalah Custom dan ErrorBarsYFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Menentukan nilai batang kesalahan dalam arah positif. Tersedia jika tipe nilai batang kesalahan adalah Custom dan ErrorBarsYFormat diizinkan. Dalam kasus lain properti ini mengembalikan null. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Lihat Juga
 

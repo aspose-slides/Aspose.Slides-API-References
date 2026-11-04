@@ -1,14 +1,14 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Reprezentuje barvu použitou v prezentaci.
 type: docs
-weight: 2520
+weight: 2540
 url: /cs/aspose.slides/colorformat/
 ---
 ## ColorFormat třída
 
-Reprezentuje barvu použité v prezentaci.
+Reprezentuje barvu použitou v prezentaci.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -18,28 +18,28 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Vrací nebo nastavuje modrou složku barvy. Veškeré transformace barev jsou ignorovány. Čtení/zápis Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Vrací výslednou barvu (s aplikovanými všemi transformacemi barev). Nastavuje RGB barvy a vymazává všechny transformace barev. Čtení/zápis Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Vrací sbírku transformací barev aplikovaných na barvu. Pouze pro čtení [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Vrací nebo nastavuje metodu definice barvy. Čtení/zápis [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Vrací nebo nastavuje modrou složku barvy. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Vrací nebo nastavuje zelenou složku barvy. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Vrací nebo nastavuje červenou složku barvy. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | Vrací nebo nastavuje zelenou složku barvy. Veškeré transformace barev jsou ignorovány. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Vrací nebo nastavuje složku odstínu barvy v HSL reprezentaci. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Vrací nebo nastavuje složku jasu barvy v HSL reprezentaci. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Vrací nebo nastavuje předvolbu barvy. Čtení/zápis [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Vrací nebo nastavuje červenou složku barvy. Veškeré transformace barev jsou ignorovány. Čtení/zápis Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Vrací nebo nastavuje složku sytosti barvy v HSL reprezentaci. Veškeré transformace barev jsou ignorovány. Čtení/zápis Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Vrací nebo nastavuje barvu určenou schématem barev. Čtení/zápis [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Vrací nebo nastavuje barvu určenou systémovou tabulkou barev. Čtení/zápis [`SystemColor`](../systemcolor). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Vrací nebo nastavuje modrou složku barvy. Všechny transformace barev jsou ignorovány. čtení/zápis Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Vrací výslednou barvu (s aplikovanými všemi transformacemi barev). Nastavuje RGB barvy a maže všechny transformace barev. čtení/zápis Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Vrací kolekci transformací barev aplikovaných na barvu. pouze pro čtení [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Vrací nebo nastavuje způsob definice barvy. čtení/zápis [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Vrací nebo nastavuje modrou složku barvy. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Vrací nebo nastavuje zelenou složku barvy. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Vrací nebo nastavuje červenou složku barvy. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | Vrací nebo nastavuje zelenou složku barvy. Všechny transformace barev jsou ignorovány. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Vrací nebo nastavuje komponentu odstínu barvy v HSL reprezentaci. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Vrací nebo nastavuje komponentu jasu barvy v HSL reprezentaci. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Vrací nebo nastavuje předvolbu barvy. čtení/zápis [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Vrací nebo nastavuje červenou složku barvy. Všechny transformace barev jsou ignorovány. čtení/zápis Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Vrací nebo nastavuje komponentu saturace barvy v HSL reprezentaci. Všechny transformace barev jsou ignorovány. čtení/zápis Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Vrací nebo nastavuje barvu určenou schématem barev. čtení/zápis [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Vrací nebo nastavuje barvu určenou systémovou tabulkou barev. čtení/zápis [`SystemColor`](../systemcolor). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Kopíruje formát barvy z "color". |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Zkopíruje formát barvy z "color". |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Kontroluje rovnost se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Vrací hash kód. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Vrací řetězec, který představuje aktuální formát barvy. |

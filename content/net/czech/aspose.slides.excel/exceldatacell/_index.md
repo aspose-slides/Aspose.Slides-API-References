@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje jednu buňku v sešitu Excel.
+description: Representuje jednu buňku v sešitu Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /cs/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell třída
 
-Representuje jednu buňku v sešitu Excel.
+Reprezentuje jednu buňku v sešitu Excel.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -18,9 +18,9 @@ public class ExcelDataCell : IExcelDataCell
 
 | Název | Popis |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Vrací nulový index sloupce v listu, kde se buňka nachází. Pouze ke čtení Int32. |
-| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Vrací název buňky dat grafu. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Vrací nulový index řádku v listu, kde se buňka nachází. Pouze ke čtení Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Vrací index sloupce počítaný od nuly v listu, kde se buňka nachází. Pouze pro čtení Int32. |
+| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Vrací název datové buňky grafu. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Vrací index řádku počítaný od nuly v listu, kde se buňka nachází. Pouze pro čtení Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Vrací hodnotu obsaženou v buňce Excel. |
 
 ### Viz také

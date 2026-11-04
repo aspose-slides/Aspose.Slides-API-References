@@ -3,10 +3,10 @@ title: DisplayUnitType
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Bepaalt de multipliciteit van de weergegeven gegevens.
 type: docs
-weight: 1620
+weight: 1630
 url: /nl/aspose.slides.charts/displayunittype/
 ---
-## DisplayUnitType enumeration
+## DisplayUnitType enumeratie
 
 Bepaalt de multipliciteit van de weergegeven gegevens.
 
@@ -19,16 +19,16 @@ public enum DisplayUnitType
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | None | `0` | Waarden worden weergegeven zoals ze zijn. |
-| Hundreds | `1` | Geeft aan dat de waarden in de grafiek worden gedeeld door 100. |
-| Thousands | `2` | Geeft aan dat de waarden in de grafiek worden gedeeld door 1.000. |
-| TenThousands | `3` | Geeft aan dat de waarden in de grafiek worden gedeeld door 10.000. |
-| HundredThousands | `4` | Geeft aan dat de waarden in de grafiek worden gedeeld door 100.000. |
-| Millions | `5` | Geeft aan dat de waarden in de grafiek worden gedeeld door 1.000.000. |
-| TenMillions | `6` | Geeft aan dat de waarden in de grafiek worden gedeeld door 10.000.000. |
-| HundredMillions | `7` | Geeft aan dat de waarden in de grafiek worden gedeeld door 100.000.000. |
-| Billions | `8` | Geeft aan dat de waarden in de grafiek worden gedeeld door 1.000.000.000. |
-| Trillions | `9` | Geeft aan dat de waarden in de grafiek worden gedeeld door 1.000.000.000.000. |
-| CustomValue | `10` | Geeft aan dat de waarden in de grafiek worden gedeeld door een aangepaste waarde. |
+| Hundreds | `1` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 100. |
+| Thousands | `2` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 1.000. |
+| TenThousands | `3` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 10.000. |
+| HundredThousands | `4` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 100.000. |
+| Millions | `5` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 1.000.000. |
+| TenMillions | `6` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 10.000.000. |
+| HundredMillions | `7` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 100.000.000. |
+| Billions | `8` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 1.000.000.000. |
+| Trillions | `9` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door 1.000.000.000.000. |
+| CustomValue | `10` | Specificeert dat de waarden op de grafiek moeten worden gedeeld door een aangepaste waarde. |
 
 ### Zie ook
 

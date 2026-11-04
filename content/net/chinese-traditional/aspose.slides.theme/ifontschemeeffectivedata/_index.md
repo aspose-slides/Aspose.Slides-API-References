@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變物件，包含有效字型方案屬性。
+description: 不可變物件，包含有效的字型方案屬性。
 type: docs
-weight: 11260
+weight: 11280
 url: /zh-hant/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData 介面
 
-不可變物件，包含有效字型方案屬性。
+不可變物件，包含有效的字型方案屬性。
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,13 +18,13 @@ public interface IFontSchemeEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 傳回投影片「標題」部分的字型集合。唯讀 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 傳回投影片「正文」部分的字型集合。唯讀 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 傳回字型方案名稱。唯讀 String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 傳回投影片中「heading」部分的字型集合。唯讀 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 傳回投影片中「body」部分的字型集合。唯讀 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 傳回字型方案名稱。唯讀 String。 |
 
 ### 備註
 
-此介面用作 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分。
+此介面作為 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分使用。
 
 ### 另請參閱
 

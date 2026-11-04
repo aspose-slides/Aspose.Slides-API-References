@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 共通スライド表示プロパティを表します。
+description: 共通のスライド ビュー プロパティを表します。
 type: docs
-weight: 2660
+weight: 2680
 url: /ja/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties クラス
 
-共通スライド表示プロパティを表します。
+共通のスライド ビュー プロパティを表します。
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,22 +18,22 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | 描画ガイドのコレクションを返します。 読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | ビューの拡大縮小率をパーセンテージで指定します。 読み書き Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | ビュー コンテンツが現在のウィンドウサイズに最適に合わせて自動的にスケールされるように指定します。 読み書き Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | 描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | ビューの拡大縮小率をパーセンテージで指定します。読み書き Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | ビューのコンテンツが現在のウィンドウサイズに最適に合わせて自動的にスケールするよう指定します。読み書き Boolean. |
 
 ### 例
 
-次の例は、PowerPoint プレゼンテーションのスライドのズーム値を設定する方法を示しています。
+以下の例は、PowerPoint プレゼンテーションのスライドのズーム値を設定する方法を示します。
 
 ```csharp
 [C#]
-// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
+// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化する
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // プレゼンテーションの表示プロパティを設定します
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // スライド表示のズーム値（パーセンテージ）
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // ノート表示のズーム値（パーセンテージ）
+    // プレゼンテーションのビュー プロパティを設定する
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // スライド ビューのズーム値（パーセンテージ）
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // ノート ビューのズーム値（パーセンテージ）
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```

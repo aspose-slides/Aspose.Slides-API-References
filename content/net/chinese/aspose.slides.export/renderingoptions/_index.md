@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 提供控制演示文稿/幻灯片渲染方式的选项。
+second_title: Aspose.Sildes .NET API 参考
+description: 提供用于控制演示文稿/幻灯片渲染方式的选项。
 type: docs
-weight: 4410
+weight: 4430
 url: /zh/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions 类
 
-提供控制演示文稿/幻灯片渲染方式的选项。
+提供用于控制演示文稿/幻灯片渲染方式的选项。
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -16,22 +16,22 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 ## 构造函数
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | 默认构造函数。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 获取或设置在未找到源字体时使用的字体。读写 String。 |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出将禁用连字。默认情况下，此属性设置为 `false`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 获取或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。当设置为 `true` 时，连字将在渲染输出中被禁用。默认情况下，此属性设置为 `false`。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | 提供用于控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 获取或设置一个对象，该对象接收警告并决定加载过程是继续还是中止。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿 [`ISlidesLayoutOptions`](../islideslayoutoptions) 时幻灯片在页面上的放置模式。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [IRenderingOptions](../irenderingoptions)

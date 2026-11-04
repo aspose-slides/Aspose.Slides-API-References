@@ -1,9 +1,9 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示标签的集合（用户定义的字符串对）
+second_title: Aspose.Sildes .NET API 参考
+description: 表示用户定义的标签键值对集合
 type: docs
-weight: 7260
+weight: 7280
 url: /zh/aspose.slides/itagcollection/
 ---
 ## ITagCollection 接口
@@ -24,7 +24,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/itagcollection/add)(string, string) | 向集合添加新标签。 |
+| [Add](../../aspose.slides/itagcollection/add)(string, string) | 向集合中添加新标签。 |
 | [Clear](../../aspose.slides/itagcollection/clear)() | 从集合中移除所有标签。 |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | 确定集合是否包含特定名称。 |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | 返回指定索引处标签的键。 |
@@ -34,7 +34,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | 从集合中移除具有指定名称的标签。 |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | 移除指定索引处的标签。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

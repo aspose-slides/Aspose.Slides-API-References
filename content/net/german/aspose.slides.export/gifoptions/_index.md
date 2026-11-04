@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen für den GIF-Export dar.
+description: Stellt GIF-Exportoptionen dar.
 type: docs
-weight: 3820
+weight: 3840
 url: /de/aspose.slides.export/gifoptions/
 ---
 ## GifOptions Klasse
 
-Stellt Optionen für den GIF-Export dar.
+Stellt GIF-Exportoptionen dar.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -18,25 +18,25 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [GifOptions](gifoptions)() | Initialisiert eine neue Instanz der GifOptions-Klasse. |
+| [GifOptions](gifoptions)() | Initialisiert eine neue Instanz der GifOptions Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Liest oder setzt die Standardverzögerungszeit [ms]. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nicht gesetzt ist. Der Standardwert ist 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder setzt sie, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese-/schreibender String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Liest oder setzt die Standardverzögerungszeit [ms]. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nicht festgelegt ist. Der Standardwert ist 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Liest oder setzt die Schriftart, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lese-schreib String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestimmt, ob verborgene Folien exportiert werden. Der Standardwert ist false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Liest oder setzt die Frame-Größe. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder setzt ihn. Lese-/schreibend [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsupdates in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-/schreibendes Boolean. Der Standardwert ist **false**. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Liest oder setzt den visuellen Stil des Farbverlaufs. Lese-schreib [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-schreib Boolean. Der Standardwert ist **false**. |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Liest oder setzt die Übergangs-FPS [frames/sec]. Der Standardwert ist 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder setzt es, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-/schreibend [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Liest oder setzt ein Objekt, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-schreib [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie Präsentationen mit benutzerdefinierten Einstellungen in ein animiertes GIF konvertiert werden.
+Das folgende Beispiel zeigt, wie Präsentationen mithilfe benutzerdefinierter Einstellungen in ein animiertes GIF konvertiert werden.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // die Größe des resultierenden GIFs
+        FrameSize = new Size(960, 720), // die Größe des resultierenden GIF
         DefaultDelay = 2000, // wie lange jede Folie angezeigt wird, bis sie zur nächsten wechselt
         TransitionFps = 35 // FPS erhöhen, um die Qualität der Übergangsanimation zu verbessern
     });

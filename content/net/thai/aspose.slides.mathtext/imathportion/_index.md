@@ -3,12 +3,12 @@ title: IMathPortion
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงส่วนที่มีบริบททางคณิตศาสตร์ภายใน.
 type: docs
-weight: 8420
+weight: 8440
 url: /th/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion อินเทอร์เฟซ
 
-Represents a portion with mathematical context inside.
+แสดงส่วนที่มีบริบททางคณิตศาสตร์ภายใน.
 
 ```csharp
 public interface IMathPortion

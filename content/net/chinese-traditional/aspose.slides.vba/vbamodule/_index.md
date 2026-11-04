@@ -1,14 +1,14 @@
 ---
 title: VbaModule
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示包含於 VBA 專案中的模組。
+description: 表示 VBA 專案中所包含的模組。
 type: docs
-weight: 11630
+weight: 11650
 url: /zh-hant/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule 類別
 
-表示 VBA 專案中包含的模組。
+表示 VBA 專案中所包含的模組。
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -16,12 +16,12 @@ public sealed class VbaModule : IVbaModule
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 取得模組的名稱。唯讀 String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 取得或設定模組的來源程式碼。讀寫 String. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 取得模組的名稱。唯讀 String。 |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 取得或設定模組的來源程式碼。可讀寫 String。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IVbaModule](../ivbamodule)
 * 命名空間 [Aspose.Slides.Vba](../../aspose.slides.vba)

@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa una colección de objetos GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /es/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData clase
@@ -21,7 +21,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Devuelve el número de paradas de degradado en una colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Devuelve la parada de degradado por índice. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 

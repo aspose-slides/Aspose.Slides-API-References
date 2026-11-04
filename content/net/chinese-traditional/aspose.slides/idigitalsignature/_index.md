@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Aspose.Sildes for .NET API 參考
 description: 已簽署檔案中的數位簽章。
 type: docs
-weight: 5690
+weight: 5710
 url: /zh-hant/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature 介面
@@ -18,12 +18,12 @@ public interface IDigitalSignature
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 用於簽署文件的憑證物件。唯讀 X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 簽章的目的。可讀寫 String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果此數位簽章有效且文件未被竄改，則此值為 true。唯讀 Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文件簽署的時間。唯讀 DateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 用於簽署文件的憑證物件。唯讀 X509Certificate2。 |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 簽章的目的。可讀寫 String。 |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果此數位簽章有效且文件未被竄改，則此值為 true。唯讀 Boolean。 |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文件簽署的時間。唯讀 DateTime。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

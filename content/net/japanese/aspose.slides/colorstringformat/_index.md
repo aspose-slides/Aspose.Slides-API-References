@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ハイパーリンク アクションのタイプを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ハイパーリンク アクションの種類を表します。
 type: docs
-weight: 2560
+weight: 2580
 url: /ja/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat 列挙体
@@ -18,7 +18,7 @@ public enum ColorStringFormat
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Vml | `0` | VML カラー文字列フォーマット。 |
+| Vml | `0` | VML カラー文字列形式。 |
 
 ### 参照
 

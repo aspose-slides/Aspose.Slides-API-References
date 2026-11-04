@@ -1,27 +1,27 @@
 ---
 title: IHSL
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر Hue/Saturation/Luminance است. می‌توان هر یک از hue، saturation و luminance را نسبت به مقدار فعلی‌شان تنظیم کرد.
+description: نمایانگر یک اثر Hue/Saturation/Luminance است. هر یک از hue، saturation و luminance می‌توانند نسبت به مقدار فعلی خود تنظیم شوند.
 type: docs
-weight: 3360
+weight: 3380
 url: /fa/aspose.slides.effects/ihsl/
 ---
-## IHSL رابط
+## رابط IHSL
 
-نمایانگر یک اثر Hue/Saturation/Luminance است. می‌توان هر یک از hue، saturation و luminance را نسبت به مقدار فعلی‌شان تنظیم کرد.
+نمایانگر اثر Hue/Saturation/Luminance است. هر یک از hue، saturation و luminance می‌توانند نسبت به مقدار فعلی خود تنظیم شوند.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | اجازه می‌دهد که رابط IAccessiblePVIObject پایه را دریافت کند. فقط خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | رابط IImageTransformOperation را باز می‌گرداند. فقط خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | اجازه می‌دهد تا رابط IAccessiblePVIObject پایه را دریافت کند. فقط‌خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | رابط IImageTransformOperation را باز می‌گرداند. فقط‌خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * رابط [IHSLEffectiveData](../ihsleffectivedata)

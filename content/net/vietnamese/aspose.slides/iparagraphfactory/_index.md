@@ -3,10 +3,10 @@ title: IParagraphFactory
 second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Cho phép tạo các đoạn văn
 type: docs
-weight: 6580
+weight: 6600
 url: /vi/aspose.slides/iparagraphfactory/
 ---
-## IParagraphFactory interface
+## IParagraphFactory giao diện
 
 Cho phép tạo các đoạn văn
 
@@ -19,11 +19,11 @@ public interface IParagraphFactory
 | Tên | Mô tả |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Tạo một đoạn văn mới trống. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tạo một đoạn văn mới với dữ liệu đoạn văn đã chỉ định. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tạo một đoạn văn mới với dữ liệu đoạn văn được chỉ định. |
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM.
+Để tương thích với COM.
 
 ### Xem thêm
 

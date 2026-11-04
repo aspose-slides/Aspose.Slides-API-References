@@ -1,9 +1,9 @@
 ---
 title: IWarningInfo
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una interfaz base para todas las advertencias.
 type: docs
-weight: 11810
+weight: 11830
 url: /es/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo interfaz
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Devuelve una descripción legible por humanos de esta advertencia. Sólo lectura String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Devuelve un tipo de advertencia. Sólo lectura [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Devuelve una descripción legible por humanos de esta advertencia. Solo lectura String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Devuelve un tipo de advertencia. Solo lectura [`WarningType`](./warningtype). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Si receiver no es nulo finaliza la advertencia a un receptor especificado y lanza la AbortRequestedException si el receptor decide abortar una operación. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Si receiver no es nulo finaliza la advertencia a un receptor especificado y lanza la AbortRequestedException si el receptor decidió abortar una operación. |
 
 ### Ver también
 

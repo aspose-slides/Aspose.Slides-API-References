@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt eigenschappen van het reliëf van het hoofdvlak van vormen.
+description: Stelt de eigenschappen van het reliëf van de voorste kant van vormen voor.
 type: docs
-weight: 6960
+weight: 6980
 url: /nl/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel interface
 
-Vertegenwoordigt eigenschappen van het reliëf van het hoofdvlak van de vorm.
+Stelt de eigenschappen van het reliëf van de voorste kant van een vorm voor.
 
 ```csharp
 public interface IShapeBevel
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Beveltype. Lezen/schrijven [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevelhoogte. Lezen/schrijven Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevelbreedte. Lezen/schrijven Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Bevel type. Lezen/schrijven [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevel height. Lezen/schrijven Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevel width. Lezen/schrijven Double. |
 
 ### Zie ook
 

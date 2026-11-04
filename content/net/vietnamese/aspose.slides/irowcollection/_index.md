@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn tập hợp các hàng của bảng.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho bộ sưu tập các hàng của bảng.
 type: docs
-weight: 6860
+weight: 6880
 url: /vi/aspose.slides/irowcollection/
 ---
 ## IRowCollection giao diện
 
-Biểu diễn tập hợp các hàng của bảng.
+Đại diện cho bộ sưu tập các hàng của bảng.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -18,15 +18,15 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Lấy phần tử tại vị trí chỉ định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Tạo một bản sao của hàng mẫu đã chỉ định và chèn nó vào cuối một bảng. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tạo một bản sao của hàng mẫu đã chỉ định và chèn nó vào vị trí đã chỉ định trong một bảng. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Xóa một hàng ở vị trí đã chỉ định khỏi một bảng. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào cuối một bảng. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào vị trí chỉ định trong một bảng. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Xóa một hàng ở vị trí chỉ định khỏi một bảng. |
 
 ### Xem thêm
 

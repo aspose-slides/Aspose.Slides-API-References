@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά επιλογές εξαγωγής HTML5.
 type: docs
-weight: 3860
+weight: 3880
 url: /el/aspose.slides.export/html5options/
 ---
 ## Html5Options κλάση
@@ -24,18 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Name | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Επιστρέφει ή ορίζει την επιλογή animation των σχημάτων. Ανάγνωση/εγγραφή Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Επιστρέφει ή ορίζει την επιλογή animation των μεταβάσεων. Ανάγνωση/εγγραφή Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που θα χρησιμοποιηθεί όταν δεν βρεθεί η πηγαία γραμματοσειρά. Ανάγνωση-εγγραφή String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Παίρνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση συνδέσεων γραμμάτων (ligatures). Όταν οριστεί σε `true`, οι συνδέσεις γραμμάτων θα απενεργοποιηθούν στην παραγόμενη έξοδο. Προεπιλεγμένα αυτή η ιδιότητα είναι `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. Ανάγνωση/εγγραφή Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του gradient. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Καθορίζει πού θα αποθηκευτούν οι εξωτερικοί πόροι. Ανάγνωση/εγγραφή String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Αναπαριστά το επίπεδο συμπίεσης εικόνων. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Παίρνει ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Επιστρέφει ή ορίζει την επιλογή animation σχημάτων. Ανάγνωση/Εγγραφή Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Επιστρέφει ή ορίζει την επιλογή animation μεταβάσεων. Ανάγνωση/Εγγραφή Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν η αρχική γραμματοσειρά δεν βρεθεί. Ανάγνωση/Εγγραφή String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς τη χρήση ligatures. Όταν οριστεί σε `true`, οι ligatures θα απενεργοποιηθούν στο παραγόμενο αποτέλεσμα. Από προεπιλογή, αυτή η ιδιότητα είναι `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Επιστρέφει ή ορίζει την επιλογή ενσωμάτωσης εικόνων. Ανάγνωση/Εγγραφή Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του gradient. Ανάγνωση/Εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Καθορίζει πού πρέπει να αποθηκευτούν οι εξωτερικοί πόροι. Ανάγνωση/Εγγραφή String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Αναπαριστά το επίπεδο συμπίεσης εικόνων |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο κλήσης-πίσω για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ακυρωθεί. Ανάγνωση/Εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Παραδείγματα
 
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 * κλάση [SaveOptions](../saveoptions)
 * διασύνδεση [IHtml5Options](../ihtml5options)
-* χωροσυνολο [Aspose.Slides.Export](../../aspose.slides.export)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

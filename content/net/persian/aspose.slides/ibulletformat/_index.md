@@ -1,44 +1,44 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: خواص قالب‌بندی گلولهٔ پاراگراف را نمایندگی می‌کند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش ویژگی‌های قالب‌بندی گلوله پاراگراف.
 type: docs
-weight: 5390
+weight: 5410
 url: /fa/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat رابط
 
-خواص قالب‌بندی گلولهٔ پاراگراف را نمایندگی می‌کند.
+نمایش ویژگی‌های قالب‌بندی گلوله پاراگراف.
 
 ```csharp
 public interface IBulletFormat
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | کاراکتر گلولهٔ پاراگرافی که ارث‌بری ندارد را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | قالب رنگ گلولهٔ پاراگرافی بدون ارث‌بری را بر می‌گرداند. فقط-خواندنی [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | فونت گلولهٔ پاراگرافی بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | ارتفاع گلولهٔ پاراگرافی بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. مقدار float.NaN مشخص می‌کند که گلوله ارتفاع را از اولین بخش پاراگراف به ارث می‌برد. خواندنی/نوشتنی Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | تعیین می‌کند آیا گلوله رنگ خود را دارد یا آن را از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله رنگ خود را داشته باشد و **NullableBool.False** اگر گلوله رنگ را از اولین بخش پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | تعیین می‌کند آیا گلوله فونت خود را دارد یا آن را از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله فونت خود را داشته باشد و **NullableBool.False** اگر گلوله فونت را از اولین بخش پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | عدد اولی را که برای گروهی از گلوله‌های شماره‌دار بدون ارث‌بری استفاده می‌شود، بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | سبک گلوله شماره‌دار بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | تصویری که به عنوان گلوله در یک پاراگراف بدون ارث‌بری استفاده می‌شود، بر می‌گرداند. فقط-خواندنی [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | نوع گلولهٔ پاراگرافی بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | مقدار یا تنظیم کاراکتر گلوله یک پاراگراف بدون ارث‌بری را بر می‌گرداند. خواندنی/نوشتنی Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | قالب رنگ یک گلوله از پاراگراف بدون ارث‌بری را بر می‌گرداند. فقط‌خواندنی [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | قلم گلوله یک پاراگراف بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | ارتفاع گلوله یک پاراگراف بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. مقدار float.NaN بیان می‌کند که گلوله ارتفاع را از اولین بخش در پاراگراف به ارث می‌برد. خواندنی/نوشتنی Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | تعیین می‌کند که آیا گلوله رنگ اختصاصی دارد یا از اولین بخش در پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله رنگ اختصاصی داشته باشد و **NullableBool.False** اگر رنگ را از اولین بخش در پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | تعیین می‌کند که آیا گلوله قلم اختصاصی دارد یا از اولین بخش در پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله قلم اختصاصی داشته باشد و **NullableBool.False** اگر قلم را از اولین بخش در پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | عدد اولیه‌ای که برای گروهی از گلوله‌های شماره‌دار بدون ارث‌بری استفاده می‌شود را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | سبک یک گلوله شماره‌دار بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | تصویری که به عنوان گلوله در یک پاراگراف بدون ارث‌بری استفاده می‌شود را بر می‌گرداند. فقط‌خواندنی [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | نوع گلوله یک پاراگراف بدون ارث‌بری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`BulletType`](../bullettype). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | در صورتی که گلوله‌ها فعال باشند، جابجایی‌های پیش‌فرض غیرصفر برای Indent و MarginLeft مؤثر پاراگراف تنظیم می‌کند (مانند آنچه PowerPoint هنگام فعال‌سازی گلوله‌ها/شماره‌گذاری پاراگراف انجام می‌دهد). اگر گلوله‌ها غیرفعال شوند، تنها Indent و MarginLeft پاراگراف را بازنشانی می‌کند (مانند آنچه PowerPoint هنگام غیرفعال‌سازی گلوله‌ها/شماره‌گذاری پاراگراف انجام می‌دهد). جابجایی‌های تورفتگی بر اساس زمینهٔ جاری گلوله — IBulletFormat.Type، .NumberedBulletStyle و FontHeight اولین بخش — اعمال می‌شوند. جابجایی‌های غیرصفر بر روی Indent و MarginLeft مؤثر پاراگراف جاری اعمال می‌شود (مقدارهای حاصل به‌صورت مقدارهای محلی می‌شوند). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | داده‌های قالب‌بندی مؤثر گلوله را با اعمال ارث‌بری بر می‌گرداند. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | در صورت فعال بودن گلوله‌ها، تغییرات پیش‌فرض غیر صفر برای تورفتگی (Indent) و حاشیه چپ (MarginLeft) مؤثر پاراگراف تنظیم می‌کند (مانند کاری که PowerPoint هنگام فعال‌سازی گلوله/شماره‌گذاری پاراگراف انجام می‌دهد). اگر گلوله‌ها غیرفعال باشند، فقط تورفتگی و حاشیه چپ پاراگراف را بازنشانی می‌کند (مانند PowerPoint هنگام غیرفعال‌سازی گلوله/شماره‌گذاری پاراگراف). تغییرات تورفتگی نسبت به زمینه جاری گلوله - IBulletFormat.Type، .NumberedBulletStyle و FontHeight اولین بخش اعمال می‌شود. تغییرات غیر صفر تورفتگی بر روی Indent و MarginLeft مؤثر پاراگراف جاری اعمال می‌شود (مقدارهای حاصل به مقادیر محلی تبدیل می‌شوند). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | داده‌های قالب‌بندی مؤثر گلوله را با اعمال ارث‌بری دریافت می‌کند. |
 
 ### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

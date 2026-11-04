@@ -1,9 +1,9 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет исключение, которое выбрасывается при ошибках чтения презентации.
 type: docs
-weight: 9530
+weight: 9550
 url: /ru/aspose.slides/pptreadexception/
 ---
 ## PptReadException класс

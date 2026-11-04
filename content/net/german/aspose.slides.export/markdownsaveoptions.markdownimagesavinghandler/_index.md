@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Wird für jedes nicht-SVG-Bild (Bitmap oder Metadatei) während des Markdown-Exports aufgerufen. Gibt true zurück, um den angegebenen Link zu verwenden, oder false, um die Standard-Speicherlogik anzuwenden.
+description: Aufgerufen für jedes nicht-SVG-Bild (Bitmap oder Metadatei) während des Markdown-Exports. Gibt true zurück, um den angegebenen Link zu verwenden, oder false, um die Standard-Speicherlogik anzuwenden.
 type: docs
-weight: 4260
+weight: 4280
 url: /de/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler Delegat
 
-Wird für jedes nicht-SVG-Bild (Bitmap oder Metadatei) während des Markdown-Exports aufgerufen. Gibt `true` zurück, um den angegebenen *link* zu verwenden, oder `false`, um die standardmäßige Speicherlogik anzuwenden.
+Wird für jedes nicht-SVG-Bild (Bitmap oder Metadatei) während des Markdown-Exports aufgerufen. Gibt `true` zurück, um den angegebenen *link* zu verwenden, oder `false`, um die Standard-Speicherlogik anzuwenden.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -18,12 +18,12 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | --- | --- | --- |
 | image | IImage | Das zu exportierende Bild (Bitmap oder Metadatei). |
 | format | ImageFormat | Das Bildformat. |
-| link | String& | Der Markdown-Link, der verwendet wird, wenn `true` zurückgegeben wird. |
+| link | String& | Der Markdown-Link, der verwendet werden soll, wenn `true` zurückgegeben wird. |
 
 ### Siehe auch
 
 * Schnittstelle [IImage](../../aspose.slides/iimage)
-* enum [ImageFormat](../../aspose.slides/imageformat)
+* Aufzählung [ImageFormat](../../aspose.slides/imageformat)
 * Klasse [MarkdownSaveOptions](../markdownsaveoptions)
 * Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
 * Assembly [Aspose.Slides](../../)

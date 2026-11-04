@@ -1,14 +1,14 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumun HTML dışa aktarımı için slayt resminin kaydedileceği formatı belirler.
+second_title: Aspose.Sildes .NET API Referansı
+description: Sunumun HTML dışa aktarımı için slayt görüntüsünün kaydedileceği formatı belirler.
 type: docs
-weight: 4090
+weight: 4110
 url: /tr/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat arayüz
 
-Sunumun HTML dışa aktarımı için slayt resminin kaydedileceği formatı belirler.
+Sunumun HTML dışa aktarımı için slayt görüntüsünün kaydedileceği formatı belirler.
 
 ```csharp
 public interface ISlideImageFormat

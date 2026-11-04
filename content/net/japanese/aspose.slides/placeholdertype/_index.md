@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレースホルダーのタイプを表します。
+description: プレースホルダーの種類を表します。
 type: docs
-weight: 9450
+weight: 9470
 url: /ja/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType 列挙体
 
-プレースホルダーのタイプを表します。
+プレースホルダーの種類を表します。
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -18,22 +18,22 @@ public enum PlaceholderType : sbyte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Title | `0` | Title. |
-| Body | `1` | Body. |
-| CenteredTitle | `2` | Centered Title. |
-| Subtitle | `3` | Subtitle. |
-| DateAndTime | `4` | Date and Time. |
-| SlideNumber | `5` | Slide Number. |
-| Footer | `6` | Footer. |
-| Header | `7` | Header. |
-| Object | `8` | Object. |
-| Chart | `9` | Chart. |
-| Table | `10` | Table. |
-| ClipArt | `11` | Clip Art. |
-| Diagram | `12` | Diagram. |
-| Media | `13` | Media. |
-| SlideImage | `14` | Slide Image. |
-| Picture | `15` | Picture. |
+| Title | `0` | タイトル。 |
+| Body | `1` | 本文。 |
+| CenteredTitle | `2` | 中央揃えタイトル。 |
+| Subtitle | `3` | サブタイトル。 |
+| DateAndTime | `4` | 日付と時刻。 |
+| SlideNumber | `5` | スライド番号。 |
+| Footer | `6` | フッター。 |
+| Header | `7` | ヘッダー。 |
+| Object | `8` | オブジェクト。 |
+| Chart | `9` | チャート。 |
+| Table | `10` | テーブル。 |
+| ClipArt | `11` | クリップアート。 |
+| Diagram | `12` | 図。 |
+| Media | `13` | メディア。 |
+| SlideImage | `14` | スライド画像。 |
+| Picture | `15` | 画像。 |
 
 ### 参照
 

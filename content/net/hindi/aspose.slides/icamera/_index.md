@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Camera का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: कैमरा का प्रतिनिधित्व करता है।
 type: docs
-weight: 5410
+weight: 5430
 url: /hi/aspose.slides/icamera/
 ---
 ## ICamera इंटरफ़ेस
 
-Camera का प्रतिनिधित्व करता है।
+कैमरा का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ICamera
@@ -18,18 +18,18 @@ public interface ICamera
 
 | नाम | विवरण |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | कैमरा प्रकार पढ़ें/लिखें [`CameraPresetType`](../camerapresettype)। |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | कैमरा FOV (0-180 डिग्री, दृश्य क्षेत्र) पढ़ें/लिखें Single। |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | कैमरा ज़ूम (प्रतिशत में सकारात्मक मान) पढ़ें/लिखें Single। |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | कैमरा प्रकार पढ़ें/लिखें [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | कैमरा FOV (0-180 डिग्री, दृश्य क्षेत्र) पढ़ें/लिखें Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | कैमरा ज़ूम (प्रतिशत में सकारात्मक मान) पढ़ें/लिखें Single. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर क्रांति का उपयोग करके परिभाषित किया जाता है। लौटाए गए एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - क्रांति। यदि कोई घूर्णन परिभाषित नहीं है तो null लौटाता है। |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर क्रांति का उपयोग करके परिभाषित किया जाता है। यदि किसी भी निर्देशांक का मान float.NaN है, तो सभी घूर्णन अनिर्धारित होते हैं। |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक और अक्ष के चारों ओर की क्रांति के उपयोग से परिभाषित किया जाता है जैसा कि अक्षांश और देशांतर निर्देशांक हैं। वापसी एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - क्रांति। यदि कोई घूर्णन परिभाषित नहीं है तो null लौटाता है। |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक और अक्ष के चारों ओर की क्रांति के उपयोग से परिभाषित किया जाता है जैसा कि अक्षांश और देशांतर निर्देशांक हैं। यदि किसी भी निर्देशांक मान का मान float.NaN है, तो सभी घूर्णन अपरिभाषित हैं। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

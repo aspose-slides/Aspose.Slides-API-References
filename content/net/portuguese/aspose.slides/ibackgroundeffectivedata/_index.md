@@ -1,9 +1,9 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades de plano de fundo efetivas.
 type: docs
-weight: 5280
+weight: 5300
 url: /pt/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interface
@@ -24,9 +24,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ### Observações
 
-Esta interface é usada juntamente com a interface [`IBackground`](../ibackground) para retornar valores de formatação efetiva com herança aplicada.
+Esta interface é usada juntamente com a interface [`IBackground`](../ibackground) para retornar valores de formatação efetivos com herança aplicada.
 
-### Ver Também
+### Ver também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

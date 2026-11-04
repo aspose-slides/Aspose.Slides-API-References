@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes pro .NET API Reference
-description: Vlastnosti zobrazení platné pro celou prezentaci.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Vlastnosti zobrazení napříč celou prezentací.
 type: docs
-weight: 11740
+weight: 11760
 url: /cs/aspose.slides/viewproperties/
 ---
 ## ViewProperties třída
 
-Vlastnosti zobrazení platné pro celou prezentaci.
+Presentation wide view properties.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -18,12 +18,12 @@ public class ViewProperties : IViewProperties
 
 | Název | Popis |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Vrací nebo nastavuje rozestup mřížky, který by měl být použit pro mřížku podkladu dokumentu prezentace, v bodech. Čtení/zápis Single. |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Vrací nebo nastavuje rozestup mřížky, která by měla být použita pro mřížku podkladu dokumentu prezentace, v bodech. Čtení/zápis Single. |
 | [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Určuje režim zobrazení, který byl použit, když byl dokument prezentace naposledy uložen. Čtení/zápis [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Reprezentuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, postranní oblasti obsahu a spodní oblasti obsahu. Pouze pro čtení [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Určuje společné vlastnosti zobrazení spojené s režimem poznámek. Pouze pro čtení [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Určuje, zda mají být zobrazeny komentáře snímku. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Určuje společné vlastnosti zobrazení spojené s režimem snímku. Pouze pro čtení [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Představuje vlastnosti normálního zobrazení. Normální zobrazení se skládá ze tří oblastí obsahu: samotného snímku, boční oblasti obsahu a spodní oblasti obsahu. Pouze pro čtení [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Určuje společné vlastnosti zobrazení související s režimem poznámek. Pouze pro čtení [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Určuje, zda by se měly zobrazovat komentáře ke snímkům. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Určuje společné vlastnosti zobrazení související s režimem snímku. Pouze pro čtení [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Viz také
 

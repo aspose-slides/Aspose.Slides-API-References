@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Περιέχει τις ιδιότητες του κύριου προσώπου ανάγλυφου των σχημάτων.
+description: Περιέχει τις ιδιότητες του κύριου ανάγλυφου πρόσωπου των σχημάτων.
 type: docs
-weight: 9850
+weight: 9870
 url: /el/aspose.slides/shapebevel/
 ---
 ## ShapeBevel κλάση
 
-Περιέχει τις ιδιότητες του κύριου προσώπου του σχήματος.
+Περιέχει τις ιδιότητες της κύριας ανάγλυφης προσόψης του σχήματος.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -16,25 +16,25 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [ShapeBevel](shapebevel)(bool) | Δημιουργεί νέο στιγμιότυπο. |
+| [ShapeBevel](shapebevel)(bool) | Δημιουργεί νέα παρουσία. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Τύπος κλίσης. Ανάγνωση/εγγραφή [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Ύψος κλίσης. Ανάγνωση/εγγραφή Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Πλάτος κλίσης. Ανάγνωση/εγγραφή Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Τύπος bevel. Ανάγνωση/εγγραφή [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Ύψος bevel. Ανάγνωση/εγγραφή Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Πλάτος bevel. Ανάγνωση/εγγραφή Double. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει το hash code. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κώδικα κατακερματισμού. |
 
 ### Δείτε επίσης
 

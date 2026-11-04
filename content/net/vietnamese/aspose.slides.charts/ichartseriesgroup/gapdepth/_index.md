@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Trả về hoặc đặt khoảng cách dưới dạng phần trăm của độ rộng dấu đánh dấu giữa các chuỗi dữ liệu trong biểu đồ 3D. Đọc/ghi UInt16.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D dưới dạng phần trăm của độ rộng marker. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi UInt16.
 type: docs
 weight: 60
 url: /vi/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth thuộc tính
 
-Trả về hoặc đặt khoảng cách, dưới dạng phần trăm của độ rộng dấu đánh dấu, giữa các chuỗi dữ liệu trong biểu đồ 3D. Đọc/ghi UInt16.
+Lấy hoặc đặt khoảng cách giữa các chuỗi dữ liệu trong biểu đồ 3D, dưới dạng phần trăm của độ rộng marker. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Ghi chú
+
+Thuộc tính này áp dụng cho các chuỗi thuộc các loại sau: các kiểu phụ bar và column 3D, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Xem thêm
 

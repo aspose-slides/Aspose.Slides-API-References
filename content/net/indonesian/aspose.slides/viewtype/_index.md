@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Tipe tampilan presentasi
 type: docs
-weight: 11750
+weight: 11770
 url: /id/aspose.slides/viewtype/
 ---
 ## enumerasi ViewType
@@ -18,15 +18,15 @@ public enum ViewType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `0` | Nilai tidak didefinisikan |
+| NotDefined | `0` | Nilai tidak ditentukan |
 | SlideView | `1` | Tampilan Slide Normal |
-| SlideMasterView | `2` | Tampilan Master Slide |
+| SlideMasterView | `2` | Tampilan Slide Master |
 | NotesView | `3` | Tampilan Catatan |
 | HandoutView | `4` | Tampilan Handout |
 | NotesMasterView | `5` | Tampilan Master Catatan |
-| OutlineView | `6` | Tampilan Garis Besar |
-| SlideSorterView | `7` | Tampilan Penyortir Slide |
-| SlideThumbnailView | `8` | Tampilan Miniatur Slide |
+| OutlineView | `6` | Tampilan Outline |
+| SlideSorterView | `7` | Tampilan Slide Sorter |
+| SlideThumbnailView | `8` | Tampilan Slide Thumbnail |
 
 ### Lihat Juga
 

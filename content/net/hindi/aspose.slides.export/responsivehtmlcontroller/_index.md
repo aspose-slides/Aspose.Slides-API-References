@@ -1,20 +1,20 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: रिस्पॉन्सिव HTML कंट्रोलर
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: Responsive HTML नियंत्रक
 type: docs
-weight: 4420
+weight: 4440
 url: /hi/aspose.slides.export/responsivehtmlcontroller/
 ---
-## ResponsiveHtmlController क्लास
+## ResponsiveHtmlController वर्ग
 
-रिस्पॉन्सिव HTML कंट्रोलर
+Responsive HTML नियंत्रक
 
 ```csharp
 public class ResponsiveHtmlController : IResponsiveHtmlController
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
@@ -23,7 +23,7 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 ### संबंधित देखें
 
-* इंटरफ़ेस [IResponsiveHtmlController](../iresponsivehtmlcontroller)
+* interface [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 

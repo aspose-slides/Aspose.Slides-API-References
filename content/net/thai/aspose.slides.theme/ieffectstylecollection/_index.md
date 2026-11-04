@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงถึงคอลเลกชันของสไตล์เอฟเฟกต์.
 type: docs
-weight: 11180
+weight: 11200
 url: /th/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection อินเทอร์เฟซ
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | ส่งคืนอิลิเมนต์ในตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | ส่งกลับอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IEffectStyle`](../ieffectstyle). |
 
 ### ดูเพิ่มเติม
 

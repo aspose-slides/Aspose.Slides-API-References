@@ -1,14 +1,14 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes для .NET API справка
-description: Управляет шрифтами в презентации.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Управляет шрифтами во всей презентации.
 type: docs
-weight: 4940
+weight: 4960
 url: /ru/aspose.slides/fontsmanager/
 ---
 ## FontsManager класс
 
-Управляет шрифтами в презентации.
+Управляет шрифтами во всей презентации.
 
 ```csharp
 public class FontsManager : IFontsManager
@@ -16,38 +16,39 @@ public class FontsManager : IFontsManager
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Представляет коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов с целью правильных замен с помощью функции резервного копирования. Чтение/запись [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Представляет коллекцию правил FontFallBack пользователя для управления коллекциями шрифтов с целью корректных замен с помощью функции резервного шрифта Чтение/запись [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Подстановки шрифтов, используемые при рендеринге. Чтение/запись [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | Указывает, должны ли зарегистрированные шрифты иметь приоритет над встроенными шрифтами с тем же именем и стилем. При включении совпадающие встроенные шрифты временно заменяются соответствующими зарегистрированными шрифтами во время экспорта. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию шрифта и проверьте, можно ли свободно переносить его на другую машину. Может быть выброшено ArgumentException, если данные шрифта равны null или этот шрифт уже встроен. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию шрифта и проверьте, можно ли свободно переносить его на другую машину. Может быть выброшено ArgumentException, если данные шрифта равны null или этот шрифт уже встроен. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию шрифта и убедитесь, что её можно свободно перенести на другую машину. Может быть выброшено ArgumentException, если данные шрифта null или этот шрифт уже встроен. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Добавляет встроенный шрифт. Имейте в виду, что большинство шрифтов защищены авторским правом. Сначала найдите лицензию шрифта и убедитесь, что её можно свободно перенести на другую машину. Может быть выброшено ArgumentException, если данные шрифта null или этот шрифт уже встроен. |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Возвращает шрифты, встроенные в презентацию |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Получает массив байтов, представляющий данные шрифта для заданного стиля шрифта и данных шрифта. |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Определяет уровень встраивания шрифта по указанному массиву байтов и имени шрифта. |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Возвращает шрифты, используемые в презентации |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Получает массив байтов, представляющий данные шрифта для указанного стиля шрифта и данных шрифта. |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Определяет уровень встраивания шрифта из заданного массива байтов и имени шрифта. |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Возвращает шрифты, использованные в презентации |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | Получает информацию о шрифтах, которые будут заменены при рендеринге презентации. |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Получает информацию о шрифтах, которые будут заменены при рендеринге указанных слайдов. |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Удаляет встроенный шрифт |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Заменяет шрифт в презентации, используя информацию, предоставленную в [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Заменяет шрифт в презентации, используя информацию, предоставленную в коллекции [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Заменяет шрифт в презентации |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | З заменяет шрифт в презентации, используя информацию, предоставленную в [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | З заменяет шрифт в презентации, используя информацию, предоставленную в коллекции [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | З заменяет шрифт в презентации |
 
 ### Примеры
 
-Следующий пример демонстрирует, как добавить встроенные шрифты в презентацию PowerPoint.
+Следующий пример показывает, как добавить встроенные шрифты в презентацию PowerPoint.
 
 ```csharp
 [C#]
-// Загрузить презентацию
+// Загрузка презентации
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// Загрузить исходный шрифт для замены
+	// Загрузка исходного шрифта для замены
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
@@ -58,12 +59,12 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
 		}
 	}
-	// Сохранить презентацию
+	// Сохранение презентации
 	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFontsManager](../ifontsmanager)
 * пространство имён [Aspose.Slides](../../aspose.slides)

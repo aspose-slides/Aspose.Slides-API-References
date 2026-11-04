@@ -1,14 +1,14 @@
 ---
 title: ReplaceFont
 second_title: Aspose.Sildes för .NET API-referens
-description: Ersätt typsnitt i presentationen
+description: Ersätt teckensnitt i presentation
 type: docs
-weight: 100
+weight: 110
 url: /sv/aspose.slides/ifontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-Ersätt typsnitt i presentationen
+Ersätt teckensnitt i presentation
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -16,8 +16,8 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceFont | IFontData | Källtypsnitt |
-| destFont | IFontData | Måttypsnitt |
+| sourceFont | IFontData | Källteckensnitt |
+| destFont | IFontData | Destinationsteckensnitt |
 
 ### Se även
 
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Ersätt typsnitt i presentationen med information som tillhandahålls i [`IFontSubstRule`](../../ifontsubstrule)
+Ersätt teckensnitt i presentation med information som tillhandahålls i [`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -38,7 +38,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Information om typsnittssubstitution |
+| substRule | IFontSubstRule | Information om teckensnittssubstitution |
 
 ### Se även
 
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Ersätt typsnitt i presentationen med information som tillhandahålls i samlingen av [`IFontSubstRule`](../../ifontsubstrule)
+Ersätt teckensnitt i presentation med information som tillhandahålls i samling av [`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Informationssamling för typsnittssubstitution |
+| substRules | IFontSubstRuleCollection | Samling av information om teckensnittssubstitution |
 
 ### Se även
 

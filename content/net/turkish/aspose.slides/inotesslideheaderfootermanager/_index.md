@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Referansı
-description: Not slayt yer tutucularının davranışını tutan yöneticiyi, başlık yer tutucusu dahil, temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Not slaytı yer tutucularının davranışını, başlık yer tutucusu dahil olmak üzere tutan yöneticiyi temsil eder.
 type: docs
-weight: 6510
+weight: 6530
 url: /tr/aspose.slides/inotesslideheaderfootermanager/
 ---
-## INotesSlideHeaderFooterManager arayüzü
+## INotesSlideHeaderFooterManager arayüz
 
-Not slayt yer tutucularının davranışını tutan yöneticiyi temsil eder, başlık yer tutucusu dahil.
+Not slaytı yer tutucularının davranışını, başlık yer tutucusu dahil olmak üzere tutan yöneticiyi temsil eder.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Döndürür IBaseHandoutNotesSlideHeaderFooterManag arayüzü. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Döndürür IBaseHandoutNotesSlideHeaderFooterManag arayüz. |
 
 ### Ayrıca Bakınız
 

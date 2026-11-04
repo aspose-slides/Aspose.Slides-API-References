@@ -3,7 +3,7 @@ title: PortionCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av portioner.
 type: docs
-weight: 9470
+weight: 9490
 url: /sv/aspose.slides/portioncollection/
 ---
 ## PortionCollection klass
@@ -29,8 +29,8 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | Lägger till en Portion i slutet av samlingen. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Tar bort alla element från samlingen. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Bestämmer om ICollection innehåller ett specifikt värde. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Kopierar elementen i ICollection till en Array och startar vid ett visst Array-index. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Returnerar en enumerator som itererar igenom samlingen. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Kopierar elementen i ICollection till en Array, med start vid ett specifikt Array-index. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Bestämmer indexet för ett specifikt objekt i IList. |
 | [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Infogar en Portion i samlingen på det angivna indexet. |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Tar bort den första förekomsten av ett specifikt objekt från ICollection. |

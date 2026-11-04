@@ -3,12 +3,12 @@ title: IAudioCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung eingebetteter Audiodateien dar.
 type: docs
-weight: 5220
+weight: 5240
 url: /de/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection Schnittstelle
 
-Stellt eine Sammlung eingebetteter Audiodateien dar.
+Represents a collection of embedded audio files.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -18,7 +18,7 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützt [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Ermittelt das Element am angegebenen Index. Nur-Lese [`IAudio`](../iaudio). |
 
 ## Methoden
 

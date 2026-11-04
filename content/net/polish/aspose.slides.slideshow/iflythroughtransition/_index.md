@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes dla interfejsu API .NET
-description: Efekt przejścia slajdu typu fly-through.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Efekt przejścia slajdu w trybie fly-through.
 type: docs
-weight: 10090
+weight: 10110
 url: /pl/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interfejs
 
-Efekt przejścia slajdu typu fly-through.
+Efekt przejścia slajdu w trybie fly-through.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase

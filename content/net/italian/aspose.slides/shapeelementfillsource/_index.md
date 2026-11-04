@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta come l'elemento shape dovrebbe essere riempito.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta come l'elemento della forma dovrebbe essere riempito.
 type: docs
-weight: 9880
+weight: 9900
 url: /it/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource enumerazione
+## Enumerazione ShapeElementFillSource
 
-Rappresenta come l'elemento shape dovrebbe essere riempito.
+Rappresenta come l'elemento della forma dovrebbe essere riempito.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -16,14 +16,14 @@ public enum ShapeElementFillSource : byte
 
 ### Valori
 
-| Nome | Valore | Descrizione |
+| Name | Value | Description |
 | --- | --- | --- |
-| NoFill | `0` | Non riempire il primitivo. |
-| Shape | `1` | Usa il riempimento dello shape. |
-| Lighten | `2` | Usa il riempimento lighten dello shape. |
-| LightenLess | `3` | Usa il riempimento less lighten dello shape. |
-| Darken | `4` | Usa il riempimento darken dello shape. |
-| DarkenLess | `5` | Usa il riempimento less darken dello shape. |
+| NoFill | `0` | Non riempire la primitiva. |
+| Shape | `1` | Usa il riempimento della forma. |
+| Lighten | `2` | Usa il riempimento della forma schiarito. |
+| LightenLess | `3` | Usa il riempimento della forma meno schiarito. |
+| Darken | `4` | Usa il riempimento della forma scurito. |
+| DarkenLess | `5` | Usa il riempimento della forma meno scurito. |
 
 ### Vedi anche
 

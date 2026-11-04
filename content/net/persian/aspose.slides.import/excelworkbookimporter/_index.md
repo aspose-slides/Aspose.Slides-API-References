@@ -1,9 +1,9 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: قابلیت وارد کردن محتوا از یک کتاب کار Excel به یک ارائه را فراهم می‌کند.
 type: docs
-weight: 7470
+weight: 7490
 url: /fa/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter کلاس
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | نام | توضیح |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | یک نمودار را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | یک جدول را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | یک جدول را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | یک جدول را از کتاب کار Excel مشخص شده بازیابی می‌کند و آن را به انتهای مجموعه شکل داده شده در مختصات مشخص شده اضافه می‌کند. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | یک نمودار را از کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | یک نمودار را از کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | یک جدول را از کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | یک جدول را از فایل کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | یک جدول را از فایل کتاب کار Excel مشخص‌شده بازیابی کرده و به انتهای مجموعه شکل داده شده در مختصات مشخص اضافه می‌کند. |
 
-### موارد مرتبط
+### همچنین ببینید
 
-* فضای نام [Aspose.Slides.Import](../../aspose.slides.import)
-* مجتمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides.Import](../../aspose.slides.import)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

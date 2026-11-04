@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un riferimento a una libreria di tipi OLE Automation.
+description: Rappresenta il riferimento alla libreria di tipi OLE Automation.
 type: docs
-weight: 11610
+weight: 11630
 url: /it/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## Interfaccia IVbaReferenceOleTypeLib
+## IVbaReferenceOleTypeLib interfaccia
 
-Rappresenta un riferimento a una libreria di tipi OLE Automation.
+Rappresenta il riferimento alla libreria di tipi OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference

@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テンプレートエンジン用のモデルオブジェクトインターフェイスを表します。
+description: テンプレートエンジンのモデルオブジェクト インターフェイスを表します。
 type: docs
-weight: 4670
+weight: 4690
 url: /ja/aspose.slides.export.web/templatecontext-1/
 ---
-## TemplateContext&lt;TObject&gt; クラス
+## TemplateContext<TObject> クラス
 
-テンプレートエンジン用のモデルオブジェクトインターフェイスを表します。
+テンプレートエンジンのモデルオブジェクト インターフェイスを表します。
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | ホストドキュメントのグローバルストレージを返します。 読み取り専用 [`Storage`](../storage)。 |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 現在のテンプレートコンテキストのローカルストレージを返します。 読み取り専用 [`Storage`](../storage)。 |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | モデルオブジェクトを返します。 読み取り専用 !:TObject。 |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | ホストドキュメントの出力要素コレクションを返します。 読み取り専用 [`Output`](./output)。 |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | ホスト ドキュメントのグローバル ストレージを返します。読み取り専用 [`Storage`](../storage)。 |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 現在のテンプレート コンテキストのローカル ストレージを返します。読み取り専用 [`Storage`](../storage)。 |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | モデルオブジェクトを返します。読み取り専用 !:TObject。 |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | ホスト ドキュメントの出力要素のコレクションを返します。読み取り専用 [`Output`](./output)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | 子テンプレートコンテキストを作成します。 |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | 子テンプレート コンテキストを作成します。 |
 
 ### 参照
 

@@ -3,7 +3,7 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: GradientStopDataEx オブジェクトのコレクションを表します。
 type: docs
-weight: 6040
+weight: 6060
 url: /ja/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData インターフェイス
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | インデックスでグラデーション ストップを返します。 |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | インデックスでグラデーション ストップを取得します。 |
 
 ### 参照
 

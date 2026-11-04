@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes .NET API referencia
-description: Az összes megadott szöveg előfordulását egy másik megadott szöveggel helyettesíti.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
 type: docs
-weight: 130
+weight: 140
 url: /hu/aspose.slides/textframe/replacetext/
 ---
 ## TextFrame.ReplaceText metódus
 
-A megadott szöveg összes előfordulását egy másik megadott szöveggel helyettesíti.
+Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,19 +17,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| oldText | String | A lecserélendő karakterlánc. |
-| newText | String | Az a karakterlánc, amellyel az oldText összes előfordulását le kell cserélni. |
-| options | ITextSearchOptions | Szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Visszahívási objektum a helyettesítési művelet eredményének mentéséhez [`IFindResultCallback`](../../ifindresultcallback). |
+| oldText | String | A kicserélendő karakterlánc. |
+| newText | String | A karakterlánc, amely lecseréli az oldText összes előfordulását. |
+| options | ITextSearchOptions | A szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | Visszahívási objektum a csere művelet eredményének mentéséhez [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi példa kód bemutatja, hogyan lehet egy megadott karakterláncot egy másik megadott karakterlánccal helyettesíteni.
+Az alábbi példakód bemutatja, hogyan lehet egy megadott karakterláncot egy másik megadott karakterláncra cserélni.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Cserélje le az összes különálló 'the' előfordulást '***'-re
+	// Lecseréli az összes különálló 'the' előfordulást '***'-ra
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

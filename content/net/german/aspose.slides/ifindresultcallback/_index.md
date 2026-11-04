@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Callback-Schnittstelle, die zum Abrufen von Suchtext-Ergebnissen verwendet wird.
 type: docs
-weight: 5820
+weight: 5840
 url: /de/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback Schnittstelle
 
-Callback-Schnittstelle, die zum Erhalten von Suchtext-Ergebnissen verwendet wird.
+Callback-Schnittstelle, die zum Abrufen von Suchtext-Ergebnissen verwendet wird.
 
 ```csharp
 public interface IFindResultCallback

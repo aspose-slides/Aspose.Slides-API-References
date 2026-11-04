@@ -1,9 +1,9 @@
 ---
 title: IPresetShadow
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek bayangan preset.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Bayangan Prasetel.
 type: docs
-weight: 3480
+weight: 3500
 url: /id/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow antarmuka
@@ -19,12 +19,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Arah bayangan. Baca/tulis Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Jarak bayangan. Baca/tulis Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Baca/tulis [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Warna bayangan. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Mengizinkan mengambil antarmuka IAccessiblePVIObject dasar. hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Mengizinkan mengambil antarmuka IImageTransformOperation dasar. hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Arah bayangan. baca/tulis Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Jarak bayangan. baca/tulis Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Prasetel. baca/tulis [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Warna bayangan. hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lihat Juga
 

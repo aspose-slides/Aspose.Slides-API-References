@@ -3,30 +3,30 @@ title: ChartShapeType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの形状を表します。
 type: docs
-weight: 1470
+weight: 1480
 url: /ja/aspose.slides.charts/chartshapetype/
 ---
-## ChartShapeType 列挙体
+## ChartShapeType 列挙型
 
-チャートの形状を表します。
+Chart の形状を表します。
 
 ```csharp
 public enum ChartShapeType
 ```
 
-### 値
+### Values
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | チャートの形状が定義されていません。 |
-| Box | `0` | チャートはボックス形状で描画されることを指定します。 |
-| Cone | `1` | チャートは円錐として描画されることを指定します。円錐の底部は床にあり、円錐の先端はデータマーカーの上部にあります。 |
-| ConeToMax | `2` | チャートは切頭円錐で描画され、円錐の先端が最大データ値になるように指定します。 |
-| Cylinder | `3` | チャートは円柱として描画されることを指定します。 |
-| Pyramid | `4` | チャートは四角錐として描画され、四角錐の底部は床にあり、先端はデータマーカーの上部にあります。 |
-| PyramidToMaximum | `5` | チャートは切頭円錐で描画され、円錐の先端が最大データ値になるように指定します。 |
+| NotDefined | `-1` | Chart shape は定義されていません。 |
+| Box | `0` | Chart が box 形状で描画されることを指定します。 |
+| Cone | `1` | Chart が cone として描画されることを指定します。cone の底は床にあり、cone の先端はデータ マーカーの上部にあります。 |
+| ConeToMax | `2` | Chart が切頭 cone で描画されることを指定します。その結果、cone の先端が最大データ値になります。 |
+| Cylinder | `3` | Chart が cylinder として描画されることを指定します。 |
+| Pyramid | `4` | Chart が rectangular pyramid として描画されることを指定します。pyramid の底は床にあり、pyramid の先端はデータ マーカーの上部にあります。 |
+| PyramidToMaximum | `5` | Chart が切頭 cone で描画されることを指定します。その結果、cone の先端が最大データ値になります。 |
 
-### 参照
+### See Also
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Eccezione sollevata quando il file della presentazione è probabilmente corrotto.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Eccezione lanciata quando il file di presentazione è probabilmente corrotto.
 type: docs
-weight: 9500
+weight: 9520
 url: /it/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException classe
 
-Eccezione che viene sollevata quando il file di presentazione è probabilmente danneggiato.
+Eccezione lanciata quando il file di presentazione è probabilmente corrotto.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -19,7 +19,7 @@ public class PptCorruptFileException : PptReadException
 | Nome | Descrizione |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Costruttore predefinito. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Costruttore che consente di aggiungere un messaggio a questa eccezione. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Costruttore che permette di aggiungere un messaggio a questa eccezione. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Costruttore per un'eccezione contenente un messaggio e un'eccezione incorporata. |
 
 ### Vedi anche

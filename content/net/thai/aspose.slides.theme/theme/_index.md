@@ -1,14 +1,14 @@
 ---
 title: Theme
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของธีม.
+description: แสดงถึงธีมหนึ่ง
 type: docs
-weight: 11480
+weight: 11500
 url: /th/aspose.slides.theme/theme/
 ---
-## Theme คลาส
+## คลาส Theme
 
-เป็นตัวแทนของธีม
+แสดงถึงธีมหนึ่ง
 
 ```csharp
 public abstract class Theme : ITheme
@@ -16,18 +16,18 @@ public abstract class Theme : ITheme
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | ส่งคืนชุดสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | ส่งคืนชุดแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | ส่งคืนชุดรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งคืนการนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | คืนค่าชุดสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | คืนค่าชุดแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | คืนค่าชุดรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | คืนค่าพรีเซนเทชันแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | ดึงข้อมูลธีมที่มีประสิทธิภาพโดยใช้การสืบทอดที่นำไปใช้. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | ดึงข้อมูลธีมที่มีผลโดยนำการสืบทอดมาใช้. |
 
 ### ดูเพิ่มเติม
 

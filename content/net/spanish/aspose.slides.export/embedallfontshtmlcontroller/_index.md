@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: La clase del controlador de formato que se utiliza para incrustar todas las fuentes de la presentación en formato WOFF.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: La clase controladora de formato que se usa para incrustar todas las fuentes de la presentación en formato WOFF.
 type: docs
-weight: 3760
+weight: 3780
 url: /es/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController clase
 
-La clase del controlador de formato que se usa para incrustar todas las fuentes de la presentación en formato WOFF.
+La clase controladora de formato que se usa para incrustar todas las fuentes de la presentación en formato WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -26,13 +26,13 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 | Nombre | Descripción |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Escribe todas las fuentes contenidas en [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Se llama para escribir el pie de documento html. Se llama una vez por conversión de presentación. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Se llama para escribir el pie de página del documento html. Se llama una vez por conversión de presentación. |
 | virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Se llama para escribir la cabecera del documento html. Se llama una vez por conversión de presentación. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escribe los datos como base64 dentro del propio documento HTML. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escribe datos como base64 dentro del propio documento HTML |
 | virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Se llama antes del renderizado de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se completará, se insertará el fragmento html añadido y se iniciará una nueva imagen encima de la anterior. |
 | virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Se llama antes del renderizado de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual se completará, se insertará el fragmento html añadido y se iniciará una nueva imagen encima de la anterior. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Se llama para escribir el pie de diapositiva html. Se llama una vez por cada diapositiva. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Se llama para escribir la cabecera de diapositiva html. Se llama una vez por cada diapositiva. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Se llama para escribir el pie de página de la diapositiva html. Se llama una vez por cada diapositiva. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Se llama para escribir la cabecera de la diapositiva html. Se llama una vez por cada diapositiva. |
 
 ### Ver también
 

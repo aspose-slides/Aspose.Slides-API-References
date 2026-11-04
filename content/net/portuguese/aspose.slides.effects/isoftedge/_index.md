@@ -3,7 +3,7 @@ title: ISoftEdge
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito Soft Edge. As bordas da forma são desfocadas enquanto o preenchimento não é afetado.
 type: docs
-weight: 3520
+weight: 3540
 url: /pt/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interface
@@ -20,9 +20,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Especifica o raio de desfoque a ser aplicado às bordas. Leitura/gravação Double. |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Especifica o raio de desfoque a ser aplicado nas bordas. Leitura/gravação Double. |
 
-### Ver Também
+### Veja também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

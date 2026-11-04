@@ -1,9 +1,9 @@
 ---
 title: IHtml5Options
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa opciones de exportación HTML5.
 type: docs
-weight: 3930
+weight: 3950
 url: /es/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options interfaz
@@ -18,13 +18,13 @@ public interface IHtml5Options : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Obtiene o establece la opción de animación de formas. Lectura/escritura Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Obtiene o establece la opción de animación de transiciones. Lectura/escritura Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Devuelve o establece la opción de animación de formas. Lectura/escritura Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Devuelve o establece la opción de animación de transiciones. Lectura/escritura Boolean. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en `true`, las ligaduras se desactivarán en la salida renderizada. De forma predeterminada, esta propiedad se establece en `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Obtiene o establece la opción de incrustación de imágenes. Lectura/escritura Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en `true`, las ligaduras se desactivarán en la salida renderizada. De forma predeterminada, esta propiedad está establecida en `false`. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Devuelve o establece la opción de incrustación de imágenes. Lectura/escritura Boolean. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Determina dónde se deben almacenar los recursos externos. Lectura/escritura String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Representa el nivel de compresión de imágenes Lectura/escritura [`PicturesCompression`](./picturescompression). |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Representa el nivel de compresión de imágenes. Lectura/escritura [`PicturesCompression`](./picturescompression). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Ejemplos

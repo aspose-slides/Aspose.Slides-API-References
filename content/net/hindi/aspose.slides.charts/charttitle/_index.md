@@ -3,7 +3,7 @@ title: ChartTitle
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: चार्ट शीर्षक गुणों का प्रतिनिधित्व करता है।
 type: docs
-weight: 1490
+weight: 1500
 url: /hi/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle क्लास
@@ -20,30 +20,30 @@ public class ChartTitle : IChartTitle
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
 | [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने के सापेक्ष वास्तविक x स्थान (बायाँ) निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने के सापेक्ष वास्तविक शीर्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | नीचे। केवल पढ़ने योग्य Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | पेरेंट चार्ट को लौटाता है। केवल पढ़ने योग्य [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | शीर्षक के फ़िल, लाइन, इफ़ेक्ट शैलियों को लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | शीर्षक की ऊँचाई को चार्ट की ऊँचाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | निर्धारित करता है कि क्या अन्य चार्ट तत्वों को शीर्षक के ऊपर ओवरलैप करने की अनुमति होगी। पढ़ें/लिखें Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | दायाँ। केवल पढ़ने योग्य Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | टेक्स्ट फ़ॉर्मेट को लौटाता है। केवल पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | रिच फ़ॉर्मेटेड टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह फ़ॉर्मेटेड टेक्स्ट मान स्वचालित-जनित टेक्स्ट को ओवरराइड करता है। स्वचालित-जनित टेक्स्ट डेटा लेबल, वैल्यू एक्सिस के डिस्प्ले यूनिट लेबल, एक्सिस शीर्षक, चार्ट शीर्षक, ट्रेंडलाइन के लेबल की अंतर्निहित प्रॉपर्टी है। स्वचालित-जनित टेक्स्ट IFormattedTextContainer.TextFormat प्रॉपर्टी द्वारा फ़ॉर्मेट किया जाता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | शीर्षक की चौड़ाई को चार्ट की चौड़ाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | शीर्षक के x निर्देशांक को चार्ट की चौड़ाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | शीर्षक के y निर्देशांक को चार्ट की ऊँचाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | चार्ट तत्व का वास्तविक x स्थान (बायाँ) को चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | चार्ट तत्व का वास्तविक शीर्ष को चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | नीचे। केवल-पढ़ने योग्य Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | पैरेंट चार्ट लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | शीर्षक के फ़िल, लाइन, प्रभाव शैलियों को लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | चार्ट की ऊँचाई के अंश के रूप में शीर्षक की ऊँचाई को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | निर्धारित करता है कि क्या अन्य चार्ट तत्वों को शीर्षक के ऊपर ओवरलैप करने की अनुमति दी जानी चाहिए। पढ़ने/लिखने योग्य Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | दायाँ। केवल-पढ़ने योग्य Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | टेक्स्ट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | समृद्ध स्वरूपित टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह स्वरूपित टेक्स्ट मान स्वतः-उत्पन्न टेक्स्ट को अधिलेखित करता है। स्वतः-उत्पन्न टेक्स्ट डेटा लेबल, वैल्यू एक्सिस के डिस्प्ले यूनिट लेबल, एक्सिस शीर्षक, चार्ट शीर्षक, ट्रेंडलाइन लेबल की एक अप्रत्यक्ष प्रॉपर्टी है। स्वतः-उत्पन्न टेक्स्ट IFormattedTextContainer.TextFormat प्रॉपर्टी के साथ स्वरूपित किया जाता है। केवल-पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | चार्ट की चौड़ाई के अंश के रूप में शीर्षक की चौड़ाई को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | चार्ट की चौड़ाई के अंश के रूप में शीर्षक के x निर्देशांक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | चार्ट की ऊँचाई के अंश के रूप में शीर्षक के y निर्देशांक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
 
 ## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | पैरामीटर "text" में पाठ के साथ TextFrameForOverriding को इनिशियलाइज़ करता है। यदि TextFrameForOverriding पहले ही इनिशियलाइज़ हो चुका है तो केवल उसका टेक्स्ट बदलता है। |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | TextFrameForOverriding को पैरामीटर "text" में दिए गए टेक्स्ट से आरंभ करें। यदि TextFrameForOverriding पहले से ही आरंभ किया गया है तो केवल उसका टेक्स्ट बदल देता है। |
 
 ### और देखें
 
 * इंटरफ़ेस [IChartTitle](../icharttitle)
-* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
-* असेंबली [Aspose.Slides](../../)
+* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

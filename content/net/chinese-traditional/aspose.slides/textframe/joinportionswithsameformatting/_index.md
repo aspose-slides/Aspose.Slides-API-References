@@ -1,20 +1,20 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes for .NET API 參考
-description: 在所有段落中，將具有相同格式的文字片段合併。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 將所有段落中具有相同格式的文字串連接起來。
 type: docs
-weight: 110
+weight: 120
 url: /zh-hant/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting 方法
 
-在所有段落中，將具有相同格式的文字片段合併。
+將所有段落中具有相同格式的文字串連接起來。
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### 另请参阅
+### 另請參閱
 
 * 類別 [TextFrame](../../textframe)
 * 命名空間 [Aspose.Slides](../../textframe)

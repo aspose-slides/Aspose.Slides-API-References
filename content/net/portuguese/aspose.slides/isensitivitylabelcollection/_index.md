@@ -1,9 +1,9 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de rótulos de sensibilidade aplicados ao documento.
 type: docs
-weight: 6940
+weight: 6960
 url: /pt/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interface

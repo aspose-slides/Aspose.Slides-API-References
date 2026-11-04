@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Luminance-effekt. Brightness flyttar alla färger linjärt närmare vitt eller svart. Contrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
+description: Representerar en Luminance-effekt. Ljusstyrka skiftar linjärt alla färger närmare vitt eller svart. Kontrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
 type: docs
-weight: 3610
+weight: 3630
 url: /sv/aspose.slides.effects/luminance/
 ---
 ## Luminance klass
 
-Representerar en Luminance-effekt. Brightness flyttar alla färger linjärt närmare vitt eller svart. Contrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
+Representerar en Luminance-effekt. Ljusstyrka skiftar linjärt alla färger närmare vitt eller svart. Kontrast skalar alla färger så att de blir antingen närmare eller längre ifrån varandra.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -16,17 +16,17 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Bestämmer om den angivna [`Luminance`](../luminance) är lika med den aktuella [`Luminance`](../luminance). |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Hämtar den effektiva Luminance-effektdatan med ärvda inställningar tillämpade. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Hämtar effektiv Luminance-effektsdata med arv tillämpat. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
 ### Se också
 

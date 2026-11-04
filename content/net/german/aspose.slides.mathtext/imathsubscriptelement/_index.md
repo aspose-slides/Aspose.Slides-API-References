@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Unterskript-Objekt an, das aus einer Basis und einem verkleinerten Unterskript besteht, das unten und rechts platziert ist.
+description: Gibt das Tiefstellungsobjekt an, das aus einer Basis und einer verkleinerten Tiefstellung besteht, die unten und rechts platziert ist.
 type: docs
-weight: 8470
+weight: 8490
 url: /de/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement Schnittstelle
 
-Gibt das Unterskript-Objekt an, das aus einer Basis und einem verkleinerten Unterskript besteht, das unten und rechts platziert ist.
+Gibt das Tiefstellungsobjekt an, das aus einer Basis und einer verkleinerten Tiefstellung besteht, die unten und rechts platziert ist.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathSubscriptElement : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Basisargument |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Unterskript |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Tiefstellung |
 
 ### Beispiele
 

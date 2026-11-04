@@ -3,7 +3,7 @@ title: IColumnCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル内の列のコレクションを表します。
 type: docs
-weight: 5530
+weight: 5550
 url: /ja/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection インターフェイス
@@ -24,11 +24,11 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの下部に挿入します。 |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの末尾に挿入します。 |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 指定されたテンプレート列のコピーを作成し、テーブルの指定された位置に挿入します。 |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | テーブルの指定された位置から列を削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * インターフェイス [IColumn](../icolumn)

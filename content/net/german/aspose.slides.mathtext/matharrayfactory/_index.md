@@ -1,9 +1,9 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines mathematischen Arrays
 type: docs
-weight: 8560
+weight: 8580
 url: /de/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory Klasse
@@ -24,10 +24,10 @@ public class MathArrayFactory : IMathArrayFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Erstellt ein Math-Array und platziert das angegebene Element darin |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Erstellt ein Math-Array und platziert die angegebenen Elemente darin |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Erstellt ein mathematisches Array und fügt das angegebene Element darin ein |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Erstellt ein mathematisches Array und fügt die angegebenen Elemente darin ein |
 
-### Anmerkungen
+### Hinweise
 
 Für COM-Kompatibilität
 

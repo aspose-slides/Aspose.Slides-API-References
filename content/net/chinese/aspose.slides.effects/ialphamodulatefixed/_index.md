@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Alpha Modulate Fixed 效果。效果的 alpha 不透明度值将乘以固定的百分比。
+description: 表示 Alpha Modulate Fixed 效果。效果 alpha 不透明度值乘以固定百分比。
 type: docs
-weight: 3120
+weight: 3140
 url: /zh/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed 接口
 
-表示 Alpha Modulate Fixed 效果。效果的 alpha（不透明度）值将乘以固定的百分比。
+表示 Alpha Modulate Fixed 效果。效果 alpha（不透明度）值乘以固定百分比。
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -17,13 +17,13 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 返回以百分比表示的效果量。可读写 Single。 |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 返回效果的数量（百分比）。只读 Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | 允许获取基类 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | 允许获取基类 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另见
+### 参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

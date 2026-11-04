@@ -3,12 +3,12 @@ title: IExcelDataWorkbook
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en arbetsbok som ger åtkomst till Excel-data för allmänt bruk.
 type: docs
-weight: 3710
+weight: 3730
 url: /sv/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook gränssnitt
 
-Representerar en arbetsbok som ger åtkomst till Excel-data för allmänt bruk.
+Representerar en arbetsbok som ger åtkomst till Excel data för allmänt bruk.
 
 ```csharp
 public interface IExcelDataWorkbook
@@ -18,15 +18,15 @@ public interface IExcelDataWorkbook
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess index och Excel-liknande cellnamn (t.ex. "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Hämtar en cell från det angivna kalkylbladet med hjälp av Excel-liknande cellnamn (t.ex. "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess index och cellnamn i Excel-format (t.ex. "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Hämtar en cell från det angivna kalkylbladet med hjälp av cellnamn i Excel-format (t.ex. "B2"). |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess index och cellkoordinater. |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess namn och cellkoordinater. |
 | [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Hämtar en samling celler från arbetsboken som matchar den angivna formeln. |
 | [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Hämtar en ordbok som innehåller index och namn på alla diagram i det angivna kalkylbladet i en Excel-arbetsbok. |
 | [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Hämtar namnen på alla kalkylblad som finns i Excel-arbetsboken. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Excel](../../aspose.slides.excel)
 * samling [Aspose.Slides](../../)

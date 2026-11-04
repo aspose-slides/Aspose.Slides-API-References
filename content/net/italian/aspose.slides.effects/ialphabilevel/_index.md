@@ -1,9 +1,9 @@
 ---
 title: IAlphaBiLevel
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Bi-Level. I valori Alpha Opacity inferiori alla soglia vengono impostati a 0 completamente trasparente e i valori alpha maggiori o uguali alla soglia vengono impostati a 100 completamente opaco.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un effetto Alpha Bi-Level. I valori di Opacità Alpha inferiori alla soglia vengono impostati a 0 completamente trasparente e i valori alpha maggiori o uguali alla soglia vengono impostati a 100 completamente opaco.
 type: docs
-weight: 3020
+weight: 3040
 url: /it/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interfaccia
@@ -15,6 +15,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
     IImageTransformOperation
 ```
 
+
 ## Proprietà
 
 | Nome | Descrizione |
@@ -23,7 +24,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Restituisce la soglia dell'effetto. Lettura/scrittura Single. |
 
-### Note
+### Osservazioni
 
 Utilizzare ImageTransformOperationFactory per creare istanze in COM.
 

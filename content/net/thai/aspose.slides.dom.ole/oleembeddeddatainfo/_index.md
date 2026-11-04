@@ -1,33 +1,32 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงข้อมูลฝังสำหรับอ็อบเจกต์ OLE.
 type: docs
-weight: 2760
+weight: 2780
 url: /th/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
-
 ## OleEmbeddedDataInfo คลาส
 
-แทนข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE
+Represents embedded data info for OLE object.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | สร้างข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE ใหม่ |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | สร้างอินสแตนซ์ใหม่ของข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE ข้อมูลไฟล์ของอ็อบเจ็กต์ OLE ที่ฝังอยู่ Byte[].ส่วนขยายไฟล์สำหรับอ็อบเจ็กต์ OLE ที่ฝังอยู่ปัจจุบัน String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | สร้างข้อมูลฝังใหม่สำหรับอ็อบเจกต์ OLE. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | สร้างอินสแตนซ์ใหม่ของข้อมูลฝังสำหรับอ็อบเจกต์ OLE. ข้อมูลไฟล์ของอ็อบเจกต์ OLE ที่ฝังอยู่ Byte[]. ส่วนขยายไฟล์สำหรับอ็อบเจกต์ OLE ที่ฝังอยู่ปัจจุบัน String. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | คืนค่าข้อมูลไฟล์ของอ็อบเจ็กต์ OLE ที่ฝังอยู่ อ่านอย่างเดียว Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | คืนค่าส่วนขยายไฟล์สำหรับอ็อบเจ็กต์ OLE ที่ฝังอยู่ปัจจุบัน อ่านอย่างเดียว String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | คืนค่าข้อมูลไฟล์ของอ็อบเจกต์ OLE ที่ฝังอยู่ อ่านอย่างเดียว Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | คืนค่าส่วนขยายไฟล์สำหรับอ็อบเจกต์ OLE ที่ฝังอยู่ในปัจจุบัน อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

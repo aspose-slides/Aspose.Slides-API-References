@@ -1,9 +1,9 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text.
 type: docs
-weight: 70
+weight: 80
 url: /vi/aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
 ## IDataLabel.GetActualLabelText phương thức
@@ -16,7 +16,7 @@ public string GetActualLabelText()
 
 ### Giá trị trả về
 
-Chuỗi văn bản nhãn thực tế String
+Văn bản nhãn thực tế String
 
 ### Xem thêm
 

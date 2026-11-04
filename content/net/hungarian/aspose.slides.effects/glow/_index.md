@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Glow hatást reprezentál, amelyben egy színes elmosódott körvonal kerül hozzáadásra az objektum széleihez kívül.
+second_title: Aspose.Sildes .NET API-referencia
+description: A Glow effektust képviseli, amelyben egy színes elmosott körvonal kerül hozzáadásra a tárgy széleihez kívül.
 type: docs
-weight: 2990
+weight: 3010
 url: /hu/aspose.slides.effects/glow/
 ---
 ## Glow osztály
 
-Egy Glow effektust reprezentál, amelyben egy színes, elmosódott körvonal kerül hozzáadásra az objektum széleihez.
+Képviseli a Glow effektust, amelyben egy színes elmosott körvonal kerül hozzáadásra a tárgy széleihez.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -18,7 +18,7 @@ public sealed class Glow : IGlow
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Színformátum. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Színformátum. Csak-olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Sugár. Olvasás/írás Double. |
 
 ## Metódusok
@@ -26,8 +26,8 @@ public sealed class Glow : IGlow
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Megállapítja, hogy a megadott [`Glow`](../glow) egyenlő-e a jelenlegi [`Glow`](../glow). |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Lekérdezi a hatékony Glow effektus adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Lekéri a hatékony Glow effektus adatait az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Szolgál hash függvényként egy adott típushoz. |
 
 ### Lásd még
 

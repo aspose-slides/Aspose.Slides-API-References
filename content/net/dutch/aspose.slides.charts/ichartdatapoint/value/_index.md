@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert de waarde van het diagramgegevenspunt. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Haalt de waarde van een grafiekgegevenspunt op. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /nl/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value eigenschap
 
-Retourneert de waarde van het diagramgegevenspunt. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
+Haalt de waarde van een grafiekgegevenspunt op. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

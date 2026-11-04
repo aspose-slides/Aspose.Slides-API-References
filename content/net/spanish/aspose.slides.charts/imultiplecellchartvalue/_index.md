@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una colección de celdas de gráfico.
+description: Representa una colección de celdas de un gráfico.
 type: docs
-weight: 2170
+weight: 2190
 url: /es/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue interfaz
 
-Representa una colección de celdas de gráfico.
+Representa una colección de celdas de un gráfico.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -16,7 +16,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Devuelve o establece la colección de celdas de gráfico. Lectura/escritura [`IChartCellCollection`](../ichartcellcollection). |
 | [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Permite obtener la interfaz base IBaseChartValue. Solo lectura [`IBaseChartValue`](../ibasechartvalue). |

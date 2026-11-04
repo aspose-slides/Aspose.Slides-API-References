@@ -1,12 +1,12 @@
 ---
 title: ITrendline
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a linha de tendência da série de gráfico
+second_title: Aspose.Sildes para .NET Referência de API
+description: Classe representa a linha de tendência da série de gráfico
 type: docs
-weight: 2240
+weight: 2260
 url: /pt/aspose.slides.charts/itrendline/
 ---
-## interface ITrendline
+## ITrendline interface
 
 Classe representa a linha de tendência da série de gráfico
 
@@ -19,19 +19,19 @@ public interface ITrendline : IOverridableText
 | Nome | Descrição |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Retorna a interface IOverridableText. Somente leitura [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Especifica o número de categorias (ou unidades em um gráfico de dispersão) que a linha de tendência se estende antes dos dados da série que está sendo analisada. Em gráficos de dispersão e não dispersão, o valor deve ser qualquer valor não negativo. Leitura/Gravação Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Especifica que a equação da linha de tendência é exibida no gráfico (no mesmo rótulo que o Rsquaredvalue). Leitura/Gravação Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Especifica que o valor R-squared da linha de tendência é exibido no gráfico (no mesmo rótulo que a equação). Leitura/Gravação Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Representa o formato da linha de tendência. Leitura/Gravação [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Especifica o número de categorias (ou unidades em um gráfico de dispersão) que a linha de tendência se estende após os dados da série que está sendo analisada. Em gráficos de dispersão e não dispersão, o valor deve ser qualquer valor não negativo. Leitura/Gravação Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Especifica o valor onde a linha de tendência cruza o eixo y. Esta propriedade é suportada apenas quando o tipo de linha de tendência é exp, linear ou poly. Leitura/Gravação Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Especifica a ordem da linha de tendência polinomial. É ignorado para outros tipos de linha de tendência. O valor deve estar entre 2 e 6. Leitura/Gravação Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Especifica o período da linha de tendência para uma linha de média móvel. É ignorado para outras variantes de linha de tendência. O valor deve estar entre 2 e 255. Leitura/Gravação Byte. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Especifica o número de categorias (ou unidades em um gráfico de dispersão) que a linha de tendência se estende antes dos dados da série que está sendo analisada. Em gráficos de dispersão e não dispersão, o valor deve ser qualquer valor não negativo. Leitura/gravação Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Especifica que a equação da linha de tendência é exibida no gráfico (no mesmo rótulo que o Rsquaredvalue). Leitura/gravação Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Especifica que o valor R-quadrado da linha de tendência é exibido no gráfico (no mesmo rótulo que a equação). Leitura/gravação Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Representa o formato da linha de tendência. Leitura/gravação [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Especifica o número de categorias (ou unidades em um gráfico de dispersão) que a linha de tendência se estende após os dados da série que está sendo analisada. Em gráficos de dispersão e não dispersão, o valor deve ser qualquer valor não negativo. Leitura/gravação Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Especifica o valor onde a linha de tendência cruza o eixo y. Esta propriedade é suportada apenas quando o tipo de linha de tendência é exp, linear ou poly. Leitura/gravação Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Especifica a ordem da linha de tendência polinomial. É ignorado para outros tipos de linha de tendência. O valor deve estar entre 2 e 6. Leitura/gravação Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Especifica o período da linha de tendência para uma linha de tendência de média móvel. É ignorado para outras variantes de linha de tendência. O valor deve estar entre 2 e 255. Leitura/gravação Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Representa a entrada da legenda relacionada a esta linha de tendência. Somente leitura [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Obtém ou define o nome da linha de tendência. Leitura/Gravação String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Obtém ou define o tipo da linha de tendência. Leitura/Gravação [`TrendlineType`](./trendlinetype). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Obtém ou define o nome da linha de tendência. Leitura/gravação String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Obtém ou define o tipo da linha de tendência. Leitura/gravação [`TrendlineType`](./trendlinetype). |
 
-### Ver também
+### Veja Também
 
 * interface [IOverridableText](../ioverridabletext)
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)

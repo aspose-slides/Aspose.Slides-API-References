@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API 參考
 description: 從圖表系列中移除 DataPoint。
 type: docs
-weight: 230
+weight: 270
 url: /zh-hant/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove 方法
@@ -18,9 +18,9 @@ public void Remove()
 
 | 例外 | 條件 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | 若資料點已從圖表系列中移除，則拋出此例外。 |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果資料點已從圖表系列中移除，則拋出例外。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [ChartDataPoint](../../chartdatapoint)
 * 命名空間 [Aspose.Slides.Charts](../../chartdatapoint)

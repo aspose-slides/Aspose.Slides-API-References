@@ -1,9 +1,9 @@
 ---
 title: PdfImportOptions
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le opzioni di importazione PDF
 type: docs
-weight: 7500
+weight: 7520
 url: /it/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions classe
@@ -16,15 +16,15 @@ public class PdfImportOptions
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [PdfImportOptions](pdfimportoptions)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Determina se rilevare le tabelle durante l'importazione di un file PDF. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Determina se rilevare le tabelle durante l'importazione del file PDF. |
 
 ### Vedi anche
 

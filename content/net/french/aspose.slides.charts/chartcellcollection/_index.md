@@ -1,9 +1,9 @@
 ---
 title: ChartCellCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente une collection de cellules contenant des données.
+description: Représente une collection de cellules avec des données.
 type: docs
-weight: 1300
+weight: 1310
 url: /fr/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection classe
@@ -19,18 +19,18 @@ public class ChartCellCollection : IChartCellCollection
 | Nom | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Obtient le nombre de cellules dans la collection. Lecture seule Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Retourne une cellule (IChartDataCell) par index. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Renvoie une cellule (IChartDataCell) par indice. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Ajoute une nouvelle cellule à la collection. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crée [`ChartDataCell`](../chartdatacell) à partir de la valeur spécifiée et l’ajoute à la collection. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Retourne l’adresse de l’ensemble de cellules dans le classeur. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Chaîne de concaténation à partir de toutes les valeurs de chaîne des cellules. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Supprime une cellule de la collection par index. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crée [`ChartDataCell`](../chartdatacell) à partir de la valeur spécifiée et l'ajoute à la collection. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Renvoie l'adresse de l'ensemble des cellules dans le classeur. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Chaîne de concaténation des valeurs texte de toutes les cellules. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Supprime une cellule de la collection par indice. |
 
 ### Voir aussi
 

@@ -1,14 +1,14 @@
 ---
 title: IBackground
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนพื้นหลังของสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงพื้นหลังของสไลด์.
 type: docs
-weight: 5270
+weight: 5290
 url: /th/aspose.slides/ibackground/
 ---
 ## IBackground อินเทอร์เฟซ
 
-แทนพื้นหลังของสไลด์หนึ่ง.
+แสดงพื้นหลังของสไลด์.
 
 ```csharp
 public interface IBackground : IFillParamSource, ISlideComponent
@@ -23,14 +23,14 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | คืนค่า EffectFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | คืนค่า FillFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
 | [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | คืนค่า ColorFormat สำหรับการเติม BackgroundType.Themed. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | คืนค่าดัชนีของการเติม BackgroundType.Themed ในคอลเลกชันธีมพื้นหลัง. 0 หมายถึงไม่มีการเติม. 1..999 - ดัชนี. อ่าน/เขียน UInt16. |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | คืนค่าดัชนีของการเติม BackgroundType.Themed ในชุดธีมพื้นหลัง. 0 หมายถึงไม่มีการเติม. 1..999 - ดัชนี. อ่าน/เขียน UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | คืนค่าประเภทของการเติมพื้นหลัง. อ่าน/เขียน [`BackgroundType`](../backgroundtype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | รับข้อมูลพื้นหลังที่มีผลโดยใช้การสืบทอดที่กำหนด. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | รับข้อมูลพื้นหลังที่มีผลโดยใช้การสืบทอด. |
 
 ### ดูเพิ่มเติม
 

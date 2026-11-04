@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Objet immuable qui contient les propriétés de formatage effectif des portions de texte.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Objet immuable qui contient les propriétés de formatage effectif des parties de texte.
 type: docs
-weight: 6740
+weight: 6760
 url: /fr/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interface
 
-Objet immuable contenant les propriétés de formatage effectif des portions de texte.
+Objet immuable qui contient les propriétés de formatage effectif des parties de texte.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -16,7 +16,7 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Renvoie l'interface IBasePortionFormatEffectiveData. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Renvoie l'identifiant du signet. Lecture seule String. |

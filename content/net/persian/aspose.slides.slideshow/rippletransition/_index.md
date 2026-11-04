@@ -1,20 +1,20 @@
 ---
 title: RippleTransition
-second_title: مرجع API Aspose.Sildes برای .NET
-description: اثر انتقال اسلاید Ripple.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: اثر انتقال موجی اسلاید.
 type: docs
-weight: 10290
+weight: 10310
 url: /fa/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition کلاس
 
-اثر انتقال اسلاید Ripple.
+Ripple slide transition effect.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
@@ -24,13 +24,13 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونه TransitionValueBase برابر هستند یا نه. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونهٔ TransitionValueBase برابر هستند یا خیر. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به‌عنوان یک تابع هش برای یک نوع خاص عمل می‌کند و برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * کلاس [TransitionValueBase](../transitionvaluebase)
-* رابط [IRippleTransition](../irippletransition)
+* اینترفیس [IRippleTransition](../irippletransition)
 * فضای‌نام [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * اسمبلی [Aspose.Slides](../../)
 

@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades de estilo de texto efetivas.
 type: docs
-weight: 7320
+weight: 7340
 url: /pt/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interface
@@ -24,13 +24,13 @@ public interface ITextStyleEffectiveData
 
 | Nome | Descrição |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Retorna o nível do estilo efetivo. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Retorna nível do estilo efetivo. |
 
 ### Observações
 
 Esta interface é usada juntamente com a interface [`ITextStyle`](../itextstyle) para retornar valores de formatação efetivos com herança aplicada.
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

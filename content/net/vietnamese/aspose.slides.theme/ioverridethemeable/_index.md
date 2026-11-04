@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho trình quản lý chủ đề ghi đè.
+description: Mô tả trình quản lý chủ đề ghi đè.
 type: docs
-weight: 11360
+weight: 11380
 url: /vi/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable giao diện
 
-Đại diện cho trình quản lý chủ đề ghi đè.
+Mô tả trình quản lý chủ đề ghi đè.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable

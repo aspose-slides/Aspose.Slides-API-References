@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes для .NET справки API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Позволяет создавать IMathNaryOperator
 type: docs
-weight: 8880
+weight: 8900
 url: /ru/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory класс
 
-Позволяет создать IMathNaryOperator
+Позволяет создавать IMathNaryOperator
 
 ```csharp
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory

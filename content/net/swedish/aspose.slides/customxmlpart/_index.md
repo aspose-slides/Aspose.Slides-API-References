@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar anpassad xml-del.
 type: docs
-weight: 2740
+weight: 2760
 url: /sv/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart klass
@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Anger en globalt unik identifierare (GUID) som unikt identifierar en enskild anpassad XML-del inom ett Office Open XML-dokument. Endast läsbar Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Returnerar samlingen av XML-scheman som är associerade med den anpassade XML-delen. Endast läsbar String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Returnerar eller anger xml-data som UTF-8-sträng. Läs/skriv String. värdet är `null`. värdet är tomt eller xml-data är ogiltig. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Returnerar eller anger xml-data. Läs/skriv Byte[]. värdet är `null`. värdet är tomt eller xml-data är ogiltig. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Anger en globalt unik identifierare (GUID) som entydigt identifierar en enda anpassad XML-del inom ett Office Open XML-dokument. Skrivskyddad Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Returnerar samlingen XML-scheman som är associerade med den anpassade XML-delen. Skrivskyddad String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Returnerar eller anger xml-data som UTF-8-sträng. Skriv/läs String. värdet är `null`.värdet är tomt eller xml-data är ogiltig. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Returnerar eller anger xml-data. Skriv/läs Byte[]. värdet är `null`.värdet är tomt eller xml-data är ogiltig. |
 
 ## Metoder
 
@@ -29,7 +29,7 @@ public class CustomXmlPart : ICustomXmlPart
 | --- | --- |
 | [Remove](../../aspose.slides/customxmlpart/remove)() | Tar bort den anpassade xml-delen från presentationen. |
 
-### Se även
+### Se också
 
 * gränssnitt [ICustomXmlPart](../icustomxmlpart)
 * namnrymd [Aspose.Slides](../../aspose.slides)

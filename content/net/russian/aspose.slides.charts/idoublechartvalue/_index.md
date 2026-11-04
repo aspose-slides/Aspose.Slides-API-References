@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: "Представляет значение double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение."
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет значение double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с диаграммой; 2) как литеральное значение.
 type: docs
-weight: 2070
+weight: 2090
 url: /ru/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue интерфейс
 
-Представляет значение типа double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
+Представляет значение double, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с диаграммой; 2) как литеральное значение.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -16,14 +16,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает буквальное значение double, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double. |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное double значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Преобразует в double. |
 

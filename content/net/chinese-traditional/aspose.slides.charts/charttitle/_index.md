@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示圖表標題屬性。
 type: docs
-weight: 1490
+weight: 1500
 url: /zh-hant/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle 類別
 
-表示圖表標題屬性。
+Represents chart title properties.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -16,31 +16,31 @@ public class ChartTitle : IChartTitle
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | 指定圖表元素的實際高度。先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。唯讀 Single。 |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | 指定圖表元素的實際寬度。先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。唯讀 Single。 |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 X 位置（左）。先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。唯讀 Single。 |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣位置。先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。唯讀 Single。 |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。唯讀 Single。 |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 傳回父圖表。唯讀 [`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 傳回標題的填充、線條、效果樣式。唯讀 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 傳回或設定標題的高度，作為圖表高度的比例。讀寫 Single。 |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 判斷是否允許其他圖表元素與標題重疊。讀寫 Boolean。 |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右側。唯讀 Single。 |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 傳回文字格式。唯讀 [`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可包含富格式文字。如果此屬性不為 null，則此格式化文字會覆寫自動產生的文字。自動產生的文字是資料標籤、值軸的顯示單位標籤、軸標題、圖表標題、趨勢線標籤的隱含屬性。自動產生的文字會以 IFormattedTextContainer.TextFormat 屬性進行格式化。唯讀 [`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 傳回或設定標題的寬度，作為圖表寬度的比例。讀寫 Single。 |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 傳回或設定標題的 X 座標，作為圖表寬度的比例。讀寫 Single。 |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 傳回或設定標題的 Y 座標，作為圖表高度的比例。讀寫 Single。 |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | 指定圖表元素的實際高度。請先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。Read Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | 指定圖表元素的實際寬度。請先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。Read Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左）。請先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。Read Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。請先呼叫 IChart.ValidateChartLayout() 方法以取得實際值。Read Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。唯讀 Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 返回父圖表。唯讀 [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 返回標題的填滿、線條、效果樣式。唯讀 [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 返回或設定標題的高度，作為圖表高度的比例。可讀寫 Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 決定是否允許其他圖表元素覆蓋標題。可讀寫 Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右側。唯讀 Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 返回文字格式。唯讀 [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可包含豐富格式的文字。如果此屬性不為 null，則此格式化文字值會覆寫自動產生的文字。自動產生的文字是資料標籤、值軸的顯示單位標籤、軸標題、圖表標題、趨勢線標籤的隱含屬性。自動產生的文字會使用 IFormattedTextContainer.TextFormat 屬性進行格式化。唯讀 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 返回或設定標題的寬度，作為圖表寬度的比例。可讀寫 Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 返回或設定標題的 x 座標，作為圖表寬度的比例。可讀寫 Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 返回或設定標題的 y 座標，作為圖表高度的比例。可讀寫 Single. |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | 使用參數 “text” 中的文字初始化 TextFrameForOverriding。若 TextFrameForOverriding 已經初始化，則僅變更其文字。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | 使用參數 "text" 中的文字初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已經初始化，則僅更改其文字。 |
 
-### 參見
+### 另見
 
 * 介面 [IChartTitle](../icharttitle)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

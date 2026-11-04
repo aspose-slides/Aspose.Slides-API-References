@@ -1,14 +1,14 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes .NET için API Referansı
-description: IMathBlock matematik bloklarından oluşan koleksiyon
+second_title: Aspose.Sildes için .NET API Referansı
+description: Matematik blokları koleksiyonu IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /tr/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection arayüz
 
-Matematik bloklarının (IMathBlock) koleksiyonu
+Matematik bloklarının koleksiyonu (IMathBlock)
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -16,23 +16,23 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Temel IEnumerable arabirimini almayı sağlar |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt okunur Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Temel IEnumerable arayüzünü almak için izin verir IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt okunur Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IMathBlock`](../imathblock). |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | IMMathBlock'u koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | IMathBlock'u koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Koleksiyonun belirli bir değeri içerip içermediğini belirler. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Koleksiyondaki belirli bir IMMathBlock'un indeksini belirler. |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | IMMathBlock'u belirtilen indekste koleksiyona ekler. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Koleksiyonda belirli bir IMMathBlock'un dizinini belirler. |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | IMMathBlock'u koleksiyona belirtilen dizinde ekler. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Belirli bir nesnenin koleksiyondan ilk oluşumunu kaldırır/&gt;. |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Koleksiyondaki belirtilen dizindeki bir öğeyi kaldırır. |
 
 ### Örnekler
 
@@ -43,7 +43,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 IMathBlockCollection blockCollection = new MathParagraph();
 ```
 
-### İlgili
+### Bakınız
 
 * arayüz [IMathBlock](../imathblock)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

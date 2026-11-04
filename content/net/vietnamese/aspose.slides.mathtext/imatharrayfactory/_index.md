@@ -1,9 +1,9 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Aspose.Sildes cho Tham khảo API .NET
 description: Cho phép tạo một mảng toán học
 type: docs
-weight: 8110
+weight: 8130
 url: /vi/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory giao diện
@@ -18,12 +18,12 @@ public interface IMathArrayFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Tạo một mảng toán học và đặt phần tử được chỉ định vào đó |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Tạo một mảng toán học và đặt các phần tử được chỉ định vào đó |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Tạo một mảng toán học và đặt phần tử đã chỉ định vào trong nó |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Tạo một mảng toán học và đặt các phần tử đã chỉ định vào trong nó |
 
 ### Ghi chú
 
-Cho tương thích COM
+Đối với khả năng tương thích COM
 
 ### Xem thêm
 

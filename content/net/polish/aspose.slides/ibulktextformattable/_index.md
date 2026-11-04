@@ -1,9 +1,9 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla referencji API .NET
 description: Reprezentuje obiekt z możliwością masowego ustawiania formatów elementów tekstowych potomnych.
 type: docs
-weight: 5380
+weight: 5400
 url: /pl/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interfejs
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Ustawia zdefiniowane właściwości formatu akapitu dla wszystkich akapitów elementu. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Ustawia zdefiniowane właściwości formatu fragmentu dla wszystkich fragmentów elementu. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Ustawia zdefiniowane właściwości formatu ramki tekstowej dla wszystkich ramek tekstowych elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Ustawia zdefiniowane właściwości formatu akapitu we wszystkich akapitach elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Ustawia zdefiniowane właściwości formatu fragmentu we wszystkich fragmentach elementu. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Ustawia zdefiniowane właściwości formatu ramki tekstowej we wszystkich ramkach tekstowych elementu. |
 
 ### Zobacz także
 

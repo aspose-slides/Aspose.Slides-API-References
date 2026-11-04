@@ -1,9 +1,9 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Işık yönlerini tanımlayan sabitler.
 type: docs
-weight: 7710
+weight: 7730
 url: /tr/aspose.slides/lightingdirection/
 ---
 ## LightingDirection enum
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

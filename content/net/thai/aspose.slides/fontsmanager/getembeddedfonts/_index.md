@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ส่งคืนฟอนต์ที่ฝังไว้ในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คืนค่าแบบอักษรที่ฝังอยู่ในงานนำเสนอ
 type: docs
-weight: 40
+weight: 50
 url: /th/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts เมธอด
 
-ส่งคืนฟอนต์ที่ฝังไว้ในงานนำเสนอ
+คืนค่าแบบอักษรที่ฝังอยู่ในงานนำเสนอ
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()

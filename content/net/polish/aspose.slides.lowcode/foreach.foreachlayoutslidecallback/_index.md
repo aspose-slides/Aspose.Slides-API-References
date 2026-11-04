@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Wywołanie zwrotne, które będzie wywoływane dla każdego LayoutSlide./foreach/layoutslide w Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Wywołanie zwrotne, które zostanie wywołane dla każdego LayoutSlide./foreach/layoutslide w prezentacji../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /pl/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback delegate
+## ForEach.ForEachLayoutSlideCallback delegat
 
-Wywołanie zwrotne, które będzie wywoływane dla każdego [`LayoutSlide`](../foreach/layoutslide) w [`Presentation`](../../aspose.slides/presentation).
+Wywołanie zwrotne, które zostanie wywołane dla każdego [`LayoutSlide`](../foreach/layoutslide) w [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Bieżący iterowany layout slide |
-| index | Int32 | Indeks bieżącego layout slide |
+| layoutSlide | LayoutSlide | Obecny iterowany slajd układu |
+| index | Int32 | Indeks bieżącego iterowanego slajdu układu |
 
 ### Zobacz także
 

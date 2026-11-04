@@ -3,7 +3,7 @@ title: SvgEvent
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 SVG 形状的选项。
 type: docs
-weight: 4490
+weight: 4510
 url: /zh/aspose.slides.export/svgevent/
 ---
 ## SvgEvent 枚举
@@ -14,31 +14,31 @@ url: /zh/aspose.slides.export/svgevent/
 public enum SvgEvent
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| OnFocusIn | `0` | 当元素获得焦点时触发，例如文本被选中时。 |
-| OnFocusOut | `1` | 当元素失去焦点时触发，例如文本被取消选中时。 |
-| OnActivate | `2` | 当元素被激活时触发，例如通过鼠标点击或键盘按下。 |
-| OnClick | `3` | 当指向设备的按钮在元素上被点击时触发。 |
-| OnMouseDown | `4` | 当指向设备的按钮在元素上被按下时触发。 |
-| OnMouseUp | `5` | 当指向设备的按钮在元素上被释放时触发。 |
-| OnMouseOver | `6` | 当指向设备移动到元素上时触发。 |
-| OnMouseMove | `7` | 当指向设备在元素上移动时触发。 |
-| OnMouseOut | `8` | 当指向设备移动离开元素时触发。 |
-| OnLoad | `9` | 当用户代理已完整解析元素及其后代以及渲染所需的所有引用资源时触发。 |
-| OnUnload | `10` | 当 DOM 实现从窗口或框架中移除文档时触发。仅适用于最外层的 svg 元素。 |
-| OnAbort | `11` | 当页面加载在元素完全加载之前被停止时触发。 |
-| OnError | `12` | 当元素未能正确加载或脚本执行期间出现错误时触发。 |
-| OnResize | `13` | 当文档视图正在调整大小时触发。仅适用于最外层的 svg 元素。 |
-| OnScroll | `14` | 当文档视图在 X 轴、Y 轴或两者上移动时触发。仅适用于最外层的 svg 元素。 |
-| OnZoom | `15` | 当文档视图的缩放级别被更改时触发。仅适用于最外层的 svg 元素。 |
-| OnBegin | `16` | 当动画元素开始时触发。 |
-| OnEnd | `17` | 当动画元素结束时触发。 |
-| OnRepeat | `18` | 当动画元素重复时触发。 |
+| OnFocusIn | `0` | 当元素获得焦点时发生，例如文本被选中时。 |
+| OnFocusOut | `1` | 当元素失去焦点时发生，例如文本被取消选中时。 |
+| OnActivate | `2` | 当元素被激活时发生，例如通过鼠标点击或按键。 |
+| OnClick | `3` | 当指向设备的按钮在元素上被点击时发生。 |
+| OnMouseDown | `4` | 当指向设备的按钮在元素上被按下时发生。 |
+| OnMouseUp | `5` | 当指向设备的按钮在元素上被释放时发生。 |
+| OnMouseOver | `6` | 当指向设备移动到元素上时发生。 |
+| OnMouseMove | `7` | 当指向设备在元素上移动时发生。 |
+| OnMouseOut | `8` | 当指向设备从元素移开时发生。 |
+| OnLoad | `9` | 当用户代理已完全解析该元素及其子元素以及渲染所需的所有引用资源时发生。 |
+| OnUnload | `10` | 当 DOM 实现从窗口或框架中移除文档时发生。仅适用于最外层的 svg 元素。 |
+| OnAbort | `11` | 当在元素完全加载之前页面加载被停止时发生。 |
+| OnError | `12` | 当元素未能正确加载或脚本执行期间出现错误时发生。 |
+| OnResize | `13` | 当文档视图被调整大小时发生。仅适用于最外层的 svg 元素。 |
+| OnScroll | `14` | 当文档视图沿 X、Y 或两轴移动时发生。仅适用于最外层的 svg 元素。 |
+| OnZoom | `15` | 当文档视图的缩放级别被更改时发生。仅适用于最外层的 svg 元素。 |
+| OnBegin | `16` | 当动画元素开始时发生。 |
+| OnEnd | `17` | 当动画元素结束时发生。 |
+| OnRepeat | `18` | 当动画元素重复时发生。 |
 
-### 另见
+### See Also
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

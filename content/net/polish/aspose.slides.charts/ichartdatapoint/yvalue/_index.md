@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Zwraca wartość y punktu danych wykresu. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes dla .NET odwołanie API
+description: Pobiera wartość y punktu danych wykresu. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /pl/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue właściwość
 
-Zwraca wartość y punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
+Pobiera wartość y punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

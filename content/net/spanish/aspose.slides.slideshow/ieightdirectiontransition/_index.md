@@ -1,9 +1,9 @@
 ---
 title: IEightDirectionTransition
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva en ocho direcciones.
 type: docs
-weight: 10070
+weight: 10090
 url: /es/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interfaz

@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: कस्टम विभाजन के साथ बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर ड्रॉ किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
+description: एक कस्टम स्प्लिट वाले बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर चित्रित किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
 type: docs
-weight: 2190
+weight: 2210
 url: /hi/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection इंटरफ़ेस
 
-कस्टम विभाजन के साथ बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर ड्रॉ किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
+एक कस्टम स्प्लिट वाले बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर चित्रित किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,15 +18,15 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | इंडेक्स द्वारा चार्ट डेटा पॉइंट लौटाता है। |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस को लौटाता है। |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | इंडेक्स द्वारा चार्ट डेटा पॉइंट को लौटाता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा डेटा पॉइंट जोड़ता है। |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा आइटम हटाता है। |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | पैरेंट सीरीज़ पॉइंट्स कलेक्शन में इसके इंडेक्स द्वारा डेटा पॉइंट जोड़ता है। |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | पैरेंट सीरीज़ पॉइंट्स कलेक्शन में उसके इंडेक्स द्वारा आइटम को हटाता है। |
 
 ### संबंधित देखें
 

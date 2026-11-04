@@ -1,9 +1,9 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Slides для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию порций.
 type: docs
-weight: 6710
+weight: 6730
 url: /ru/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection интерфейс
@@ -19,8 +19,8 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | Имя | Описание |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | Получает элемент по заданному индексу. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
 
@@ -29,10 +29,10 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Добавляет Portion в конец коллекции. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Определяет, содержит ли ICollection конкретное значение. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс конкретной portion в коллекции. |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Вставляет Portion в коллекцию по заданному индексу. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс конкретного portion в коллекции. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Вставляет Portion в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение конкретного объекта из ICollection. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по заданному индексу в коллекции. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
 ### См. также
 

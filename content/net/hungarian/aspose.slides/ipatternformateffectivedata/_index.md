@@ -1,9 +1,9 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a hatékony minta kitöltési tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Módosíthatatlan objektum, amely hatékony minta kitöltési tulajdonságokat tartalmaz.
 type: docs
-weight: 6630
+weight: 6650
 url: /hu/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interfész
@@ -18,17 +18,17 @@ public interface IPatternFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Visszaadja a háttér mintaszínt. Csak olvasható Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Visszaadja az előtér mintaszínt. Csak olvasható Color. |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Visszaadja a háttérminta színét. Csak olvasható Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Visszaadja az előtérminta színét. Csak olvasható Color. |
 | [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Visszaadja a minta stílusát. Csak olvasható [`PatternStyle`](../patternstyle). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Létrehozza a minta kitöltéshez szükséges csempé képet a megadott színekkel. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Létrehoz egy csempe képet a minta kitöltéséhez megadott színekkel. |
 
-### Megjegyzések
+### Megjegyzés
 
 Ez az interfész a [`IFillFormatEffectiveData`](../ifillformateffectivedata) és a [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) részeként használatos.
 

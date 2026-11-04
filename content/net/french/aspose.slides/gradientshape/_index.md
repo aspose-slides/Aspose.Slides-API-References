@@ -3,7 +3,7 @@ title: GradientShape
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la forme du remplissage en dégradé.
 type: docs
-weight: 5010
+weight: 5030
 url: /fr/aspose.slides/gradientshape/
 ---
 ## Énumération GradientShape

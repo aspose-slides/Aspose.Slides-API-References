@@ -3,7 +3,7 @@ title: SchemeColor
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示颜色方案中的颜色。
 type: docs
-weight: 9740
+weight: 9760
 url: /zh/aspose.slides/schemecolor/
 ---
 ## SchemeColor 枚举

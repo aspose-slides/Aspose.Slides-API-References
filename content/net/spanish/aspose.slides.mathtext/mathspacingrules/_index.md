@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Tipos de separación horizontal entre columnas de una matriz
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Tipos de espacio horizontal entre columnas de una matriz
 type: docs
-weight: 8990
+weight: 9010
 url: /es/aspose.slides.mathtext/mathspacingrules/
 ---
-## enumeración MathSpacingRules
+## Enumeración MathSpacingRules
 
-Tipos de separación (espaciado horizontal) entre columnas de una matriz
+Tipos de espacio (espaciado horizontal) entre columnas de una matriz
 
 ```csharp
 public enum MathSpacingRules
@@ -18,13 +18,13 @@ public enum MathSpacingRules
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Simple (1 em para columnas o 1 línea para filas) |
-| OneAndHalfSpacingGap | `1` | Una y media (1,5 em para columnas o 1,5 líneas para filas) |
-| DoubleSpacingGap | `2` | Doble espaciado (2 em para columnas o 2 líneas para filas) |
+| SingleSpacingGap | `0` | Único (1 em para columnas o 1 línea para filas) |
+| OneAndHalfSpacingGap | `1` | Uno y medio (1.5 ems para columnas o 1.5 líneas para filas) |
+| DoubleSpacingGap | `2` | Espaciado doble (2 ems para columnas o 2 líneas para filas) |
 | Exactly | `3` | Valor exacto. Para columnas, depende del valor de ColumnGap, medido en twips. Para filas, depende del valor de RowGap, medido en twips |
-| Multiple | `4` | Múltiple. Para columnas, depende del valor de ColumnGap, medido en incrementos de 0,5 em. Para filas, depende del valor de RowGap, medido en líneas |
+| Multiple | `4` | Múltiple. Para columnas, depende del valor de ColumnGap, medido en incrementos de 0.5 em. Para filas, depende del valor de RowGap, medido en líneas |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * ensamblado [Aspose.Slides](../../)

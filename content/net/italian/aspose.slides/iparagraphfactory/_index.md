@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per la documentazione API .NET
 description: Consente di creare paragrafi
 type: docs
-weight: 6580
+weight: 6600
 url: /it/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interfaccia

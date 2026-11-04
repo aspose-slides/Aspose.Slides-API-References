@@ -1,12 +1,12 @@
 ---
 title: Conformance
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Specifica la classe di conformità a cui il documento PresentationML è conforme.
 type: docs
-weight: 3750
+weight: 3770
 url: /it/aspose.slides.export/conformance/
 ---
-## Enumerazione della conformità
+## Enumerazione di conformità
 
 Specifica la classe di conformità a cui il documento PresentationML è conforme.
 

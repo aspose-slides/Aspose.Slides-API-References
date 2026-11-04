@@ -1,14 +1,14 @@
 ---
 title: SizeValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de groottewaarde van een diagramdatapunt terug. Gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Retourneert de groottewaarde van het grafiekdatapunt. Wordt gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /nl/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
 ## ChartDataPoint.SizeValue eigenschap
 
-Geeft de groottewaarde van het diagramdatapunt terug. Gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
+Retourneert de groottewaarde van een grafiekdatapunt. Wordt gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

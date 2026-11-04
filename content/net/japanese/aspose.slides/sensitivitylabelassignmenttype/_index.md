@@ -3,12 +3,12 @@ title: SensitivityLabelAssignmentType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 機密ラベルの割り当て方法を表します。
 type: docs
-weight: 9800
+weight: 9820
 url: /ja/aspose.slides/sensitivitylabelassignmenttype/
 ---
-## SensitivityLabelAssignmentType 列挙体
+## SensitivityLabelAssignmentType 列挙型
 
-ユーザーによって直接適用されていない機密ラベルに使用されます。これには、デフォルトラベルや自動的に適用されるラベルが含まれます。
+機密ラベルの割り当て方法を表します。
 
 ```csharp
 public enum SensitivityLabelAssignmentType
@@ -18,8 +18,8 @@ public enum SensitivityLabelAssignmentType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Standard | `0` | ユーザーによって直接適用されていない機密ラベルに使用します。これには、デフォルトラベルや自動的に適用されるラベルが含まれます。 |
-| Privileged | `1` | ユーザーが直接適用した機密ラベルに使用します。これには、手動で適用された機密ラベルや、推奨または必須のラベリング、ユーザーが適用する機密ラベルを決定する機能が含まれます。 |
+| Standard | `0` | ユーザーが直接適用しなかったすべての機密ラベルに使用します。これにはデフォルトラベルや自動的に適用されたラベルが含まれます。 |
+| Privileged | `1` | ユーザーが直接適用したすべての機密ラベルに使用します。これには手動で適用された機密ラベルや、推奨または必須のラベリング、ユーザーが適用する機密ラベルを決定する機能が含まれます。 |
 
 ### 参照
 

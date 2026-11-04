@@ -3,7 +3,7 @@ title: IImageWrapperFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Antarmuka ini memungkinkan menginisialisasi IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /id/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory antarmuka
@@ -16,9 +16,9 @@ public interface IImageWrapperFactory
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Menginisialisasi instance baru dari kelas ImageWrapper dari gambar yang sudah ada yang ditentukan. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Menginisialisasi instance baru dari kelas ImageWrapper dari gambar yang ada yang ditentukan. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Menginisialisasi instance baru dari kelas ImageWrapper dari aliran data yang ditentukan. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Menginisialisasi instance baru dari kelas ImageWrapper dari file yang ditentukan. |
 

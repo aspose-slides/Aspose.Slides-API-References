@@ -3,12 +3,12 @@ title: StreamWrapper
 second_title: Aspose.Sildes för .NET API-referens
 description: Aspose.IO.Stream-omslag för COM-gränssnitt.
 type: docs
-weight: 10750
+weight: 10770
 url: /sv/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper klass
 
-Aspose.IO.Stream-omslag för COM-gränssnitt.
+Aspose.IO.Stream wrapper for COM interface.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -18,26 +18,26 @@ public class StreamWrapper : IStreamWrapper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Tillåter att hämta bas-IDisposable-gränssnittet. Skrivskyddad IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Hämtar ett värde som anger om det aktuella flödet stöder läsning. Skrivskyddad Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Hämtar ett värde som anger om det aktuella flödet stöder sökning. Skrivskyddad Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Hämtar ett värde som anger om det aktuella flödet stöder skrivning. Skrivskyddad Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Hämtar längden i byte för flödet. Skrivskyddad Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Hämtar eller anger positionen i det aktuella flödet. Skrivskyddad Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Hämtar ett flöde. Skrivskyddad Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Tillåter att hämta bas-IDisposable-gränssnittet IDisposable. Skrivskyddad IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Hämtar ett värde som anger om den aktuella strömmen stöder läsning. Skrivskyddad Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Hämtar ett värde som anger om den aktuella strömmen stöder sökning. Skrivskyddad Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Hämtar ett värde som anger om den aktuella strömmen stöder skrivning. Skrivskyddad Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Hämtar längden i byte för strömmen. Skrivskyddad Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Hämtar eller anger positionen i den aktuella strömmen. Skrivskyddad Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Hämtar en ström. Skrivskyddad Stream. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | Stänger det aktuella flödet och frigör eventuella resurser. |
+| [Close](../../aspose.slides/streamwrapper/close)() | Stänger den aktuella strömmen och frigör eventuella resurser. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Rensar objektet. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Rensar alla buffertar för detta flöde och får all buffrad data att skrivas till den underliggande enheten. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Läser en sekvens av byte från det aktuella flödet och flyttar positionen i flödet med antalet lästa byte. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Läser en byte från flödet och flyttar positionen i flödet med en byte, eller returnerar -1 om slutet av flödet har nåtts. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Ställer in positionen i det aktuella flödet |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Skriver en sekvens av byte till det aktuella flödet och flyttar den aktuella positionen i detta flöde med antalet skrivna byte. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Skriver en byte till den aktuella positionen i flödet och flyttar positionen i flödet med en byte. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Rensar alla buffertar för denna ström och får all buffrad data att skrivas till den underliggande enheten. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Läser en sekvens av byte från den aktuella strömmen och flyttar positionen i strömmen med antalet lästa byte. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Läser en byte från strömmen och flyttar positionen i strömmen med en byte, eller returnerar -1 om det är slut på strömmen. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Ställer in positionen i den aktuella strömmen. |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Skriver en sekvens av byte till den aktuella strömmen och flyttar den aktuella positionen i denna ström med antalet skrivna byte. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Skriver en byte till den aktuella positionen i strömmen och flyttar positionen i strömmen med en byte. |
 
 ### Se även
 

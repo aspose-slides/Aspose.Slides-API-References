@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một hiệu ứng Soft Edge. Các cạnh của hình dạng bị làm mờ trong khi phần nền không bị ảnh hưởng.
+description: Đại diện cho hiệu ứng Soft Edge. Các cạnh của hình dạng bị làm mờ trong khi phần nền không bị ảnh hưởng.
 type: docs
-weight: 3520
+weight: 3540
 url: /vi/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge giao diện
+## Giao diện ISoftEdge
 
-Biểu thị một hiệu ứng Soft Edge. Các cạnh của hình dạng bị làm mờ, trong khi phần nền không bị ảnh hưởng.
+Đại diện cho hiệu ứng Soft Edge. Các cạnh của hình dạng bị làm mờ, trong khi phần nền không bị ảnh hưởng.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -16,10 +16,10 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện cơ sở IAccessiblePVIObject. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Cho phép lấy giao diện cơ sở IImageTransformOperation. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Xác định bán kính làm mờ sẽ áp dụng cho các cạnh. Đọc/ghi Double. |
 
 ### Xem thêm

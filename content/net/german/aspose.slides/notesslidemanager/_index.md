@@ -3,7 +3,7 @@ title: NotesSlideManager
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Verwalter für Notizfolien.
 type: docs
-weight: 9160
+weight: 9180
 url: /de/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager Klasse
@@ -24,7 +24,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Gibt die Notizfolie für die aktuelle Folie zurück und erstellt eine, falls keine vorhanden ist. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Gibt die Notizfolie für die aktuelle Folie zurück und erstellt sie, falls sie nicht vorhanden ist. |
 | [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Entfernt die Notizfolie der aktuellen Folie. |
 
 ### Beispiele
@@ -33,27 +33,27 @@ Das folgende Beispiel zeigt, wie man Notizen zu einer bestimmten PowerPoint-Prä
 
 ```csharp
 [C#]
-	// Instanziieren Sie ein Presentation-Objekt, das eine Präsentationsdatei darstellt
-using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-  // Notizen zur ersten Folie hinzufügen
-  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
-  INotesSlide noteSlide = mgr.AddNotesSlide();
-  noteSlide.NotesTextFrame.Text = "Your Notes";
-  // Präsentation auf Festplatte speichern
-  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
-}
+	// Instanziiere ein Presentation-Objekt, das eine Präsentationsdatei darstellt
+	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
+	  // Füge Notizen zur ersten Folie hinzu
+	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
+	  INotesSlide noteSlide = mgr.AddNotesSlide();
+	  noteSlide.NotesTextFrame.Text = "Your Notes";
+	  // Speichere die Präsentation auf dem Laufwerk
+	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+	}
 ```
 
 Das folgende Beispiel zeigt, wie man Notizen von einer bestimmten Folie einer PowerPoint-Präsentation entfernt.
 
 ```csharp
 [C#]
-	// Instanziieren Sie ein Presentation-Objekt, das eine Präsentationsdatei darstellt
+	// Instanziiere ein Presentation-Objekt, das eine Präsentationsdatei darstellt
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Entfernen der Notizen der ersten Folie
+	  // Entferne Notizen der ersten Folie
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // Präsentation auf Festplatte speichern
+	  // Speichere die Präsentation auf dem Laufwerk
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

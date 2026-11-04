@@ -1,9 +1,9 @@
 ---
 title: ISvgTSpan
-second_title: Referência de API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções para a porção de texto SVG tspan.
 type: docs
-weight: 4140
+weight: 4160
 url: /pt/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan interface
@@ -18,9 +18,9 @@ public interface ISvgTSpan
 
 | Nome | Descrição |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Obtém ou define o id para o elemento "tspan" |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Obtém ou define id para o elemento "tspan" |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

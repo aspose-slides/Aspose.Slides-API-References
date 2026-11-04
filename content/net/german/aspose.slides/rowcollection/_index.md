@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Tabellenzeilen dar.
+description: Stellt die Zeilenkollektion einer Tabelle dar.
 type: docs
-weight: 9720
+weight: 9740
 url: /de/aspose.slides/rowcollection/
 ---
 ## RowCollection Klasse
 
-Stellt eine Sammlung von Tabellenzeilen dar.
+Stellt die Zeilenkollektion einer Tabelle dar.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -19,9 +19,9 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides/rowcollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Zeilen zurück. Nur-Lesen Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur-Lesen Boolean. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-safe). Nur-Lesen Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | Gibt die Zeile am angegebenen Index zurück. Nur-Lesen [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
@@ -29,7 +29,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am unteren Ende einer Tabelle ein. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Gibt einen Enumerierer zurück, der die Sammlung durchläuft. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie an der angegebenen Position in einer Tabelle ein. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Entfernt eine Zeile an der angegebenen Position aus einer Tabelle. |
 

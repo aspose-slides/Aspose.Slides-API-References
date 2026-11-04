@@ -1,9 +1,9 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示所有几何形状的父类。
 type: docs
-weight: 5980
+weight: 6000
 url: /zh/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape 接口
@@ -21,7 +21,7 @@ public interface IGeometryShape : IShape
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | 返回形状的调整值集合。只读 [`IAdjustValueCollection`](../iadjustvaluecollection)。 |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 允许获取基 IShape 接口。只读 [`IShape`](../ishape)。 |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | 返回形状的样式对象。只读 [`IShapeStyle`](../ishapestyle)。 |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。注意：值更改时，所有调整值将重置为默认值。读写 [`ShapeType`](../shapetype)。 |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。注意：值更改时，所有调整值将重置为默认值。读/写 [`ShapeType`](../shapetype)。 |
 
 ## 方法
 
@@ -29,10 +29,10 @@ public interface IGeometryShape : IShape
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | 创建并返回形状元素的数组。 |
 | [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | 返回几何形状路径的副本。坐标相对于形状的左上角。 |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | 从 [`IGeometryPath`](../igeometrypath) 对象更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为自定义。 |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | 从 [`IGeometryPath`](../igeometrypath) 数组更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为自定义。 |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | 使用 [`IGeometryPath`](../igeometrypath) 对象更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为 Custom。 |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | 使用 [`IGeometryPath`](../igeometrypath) 数组更新形状几何。坐标必须相对于形状的左上角。将形状的类型 ([`ShapeType`](./shapetype)) 更改为 Custom。 |
 
-### 另见
+### 参见
 
 * 接口 [IShape](../ishape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

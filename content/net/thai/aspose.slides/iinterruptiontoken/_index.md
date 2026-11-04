@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: คลาสนี้แสดงถึงโทเคนที่ใช้สำหรับสัญญาณงานที่ทำงานเป็นเวลานานว่ามีการขอการหยุดหรือไม่
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสนี้แสดงถึงโทเคนที่ใช้สำหรับสัญญาณงานที่ทำงานเป็นเวลานานว่ามีการขัดจังหวะหรือไม่
 type: docs
-weight: 6190
+weight: 6210
 url: /th/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken อินเทอร์เฟซ
 
-คลาสนี้แสดงถึงโทเคนที่ใช้สำหรับสัญญาณงานที่ทำงานเป็นเวลานานว่ามีการขอการหยุดหรือไม่
+คลาสนี้แสดงถึงโทเคนที่ใช้สำหรับสัญญาณงานที่ใช้เวลานานว่ามีการขัดจังหวะหรือไม่.
 
 ```csharp
 public interface IInterruptionToken
@@ -18,13 +18,13 @@ public interface IInterruptionToken
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | คืนค่า Boolean.true หากมีการขอการหยุด. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | ส่งคืน Boolean.true หากมีการขัดจังหวะ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | โยน OperationCanceledException หากมีการขอการหยุด. โยนเมื่อมีการขอการหยุด. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | ทำการโยน OperationCanceledException หากมีการขัดจังหวะ. ถูกโยนเมื่อมีการขัดจังหวะ. |
 
 ### ดูเพิ่มเติม
 

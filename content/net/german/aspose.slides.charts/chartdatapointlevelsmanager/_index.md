@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Container für Datenpunkt-Ebenen. Wird für Treeamp und Sunburst Serien verwendet. Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
+description: Container für Datenpunkt-Ebenen. Verwendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
 type: docs
-weight: 1360
+weight: 1370
 url: /de/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager Klasse
 
-Container für Datenpunkt-Ebenen. Wird für Treeamp- und Sunburst-Serien verwendet. Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
+Container für Datenpunkt-Ebenen. Angewendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunkt-Ebenen ist nullbasiert.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -19,7 +19,7 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Gibt die Anzahl der Datenpunkt-Ebenen zurück. |
-| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Gibt ein IChartDataPointLevel-Objekt für die definierte Ebene zurück. |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Gibt das IChartDataPointLevel-Objekt für die definierte Ebene zurück. |
 
 ### Siehe auch
 

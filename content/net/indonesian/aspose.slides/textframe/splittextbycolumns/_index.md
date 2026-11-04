@@ -1,26 +1,26 @@
 ---
 title: SplitTextByColumns
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Membagi konten teks dari ITextFrameaspose.slides/itextframe menjadi array string di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Membagi konten teks ITextFrameaspose.slides/itextframe menjadi array string di mana setiap elemen sesuai dengan kolom teks terpisah dalam bingkai.
 type: docs
-weight: 140
+weight: 150
 url: /id/aspose.slides/textframe/splittextbycolumns/
 ---
-## TextFrame.SplitTextByColumns method
+## TextFrame.SplitTextByColumns metode
 
-Membagi konten teks dari [`ITextFrame`](../../itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam frame.
+Membagi konten teks [`ITextFrame`](../../itextframe) menjadi array string, di mana setiap elemen sesuai dengan kolom teks terpisah dalam bingkai.
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### Nilai Kembalian
+### Nilai Kembali
 
 Array string, di mana setiap string mewakili konten teks dari kolom tertentu dalam [`ITextFrame`](../../itextframe).
 
 ### Catatan
 
-Jika frame teks tidak berisi beberapa kolom, array yang dikembalikan akan memiliki satu elemen yang berisi teks lengkap. Kolom kosong akan direpresentasikan sebagai string kosong dalam array.
+Jika bingkai teks tidak berisi banyak kolom, array yang dikembalikan akan memiliki satu elemen yang berisi seluruh teks. Kolom kosong akan direpresentasikan sebagai string kosong dalam array.
 
 ### Contoh
 
@@ -29,11 +29,11 @@ Contoh berikut menunjukkan cara menggunakan `SplitTextByColumns`:
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Dapatkan shape pertama pada slide dan cast ke ITextFrame
+    // Dapatkan shape pertama pada slide dan cast menjadi ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // Membagi konten frame teks menjadi kolom
+    // Bagi konten bingkai teks menjadi kolom
     string[] columnsText = textFrame.SplitTextByColumns();
-    // Cetak teks tiap kolom ke konsol
+    // Cetak teks setiap kolom ke konsol
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }

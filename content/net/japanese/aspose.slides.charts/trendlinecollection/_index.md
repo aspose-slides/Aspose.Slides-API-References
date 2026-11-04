@@ -3,12 +3,12 @@ title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Trendline のコレクションを表します
 type: docs
-weight: 2480
+weight: 2500
 url: /ja/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection クラス
 
-Trendline のコレクションを表します。
+Trendline のコレクションを表します
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -19,7 +19,7 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 指定されたインデックスにある要素を取得します。読み取り専用 [`Trendline`](../trendline)。 |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`Trendline`](../trendline)。 |
 
 ## メソッド
 

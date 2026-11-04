@@ -3,7 +3,7 @@ title: TransitionMorphType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一种形变过渡类型。
 type: docs
-weight: 10390
+weight: 10410
 url: /zh/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType 枚举
@@ -14,13 +14,13 @@ url: /zh/aspose.slides.slideshow/transitionmorphtype/
 public enum TransitionMorphType
 ```
 
-### 值
+### 枚举值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| ByObject | `0` | 形变过渡将在将形状视为不可分割的对象的情况下执行。 |
-| ByWord | `1` | 形变过渡将在可能的情况下按单词转移文本。 |
-| ByChar | `2` | 形变过渡将在可能的情况下按字符转移文本。 |
+| ByObject | `0` | 形变过渡将在把形状视为不可分割的对象的前提下执行。 |
+| ByWord | `1` | 形变过渡将在可能的情况下按单词转移文本后执行。 |
+| ByChar | `2` | 形变过渡将在可能的情况下按字符转移文本后执行。 |
 
 ### 另请参阅
 

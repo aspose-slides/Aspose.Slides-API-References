@@ -3,10 +3,10 @@ title: Conformance
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan kelas kepatuhan yang dipatuhi dokumen PresentationML.
 type: docs
-weight: 3750
+weight: 3770
 url: /id/aspose.slides.export/conformance/
 ---
-## Enumerasi Kepatuhan
+## Enumerasi kepatuhan
 
 Menentukan kelas kepatuhan yang dipatuhi dokumen PresentationML.
 
@@ -19,8 +19,8 @@ public enum Conformance
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Ecma376_2006 | `0` | Menentukan bahwa dokumen mematuhi ECMA376:2006. |
-| Iso29500_2008_Transitional | `1` | Menentukan bahwa dokumen mematuhi kelas kepatuhan ISO/IEC 29500:2008 Transitional. |
-| Iso29500_2008_Strict | `2` | Menentukan bahwa dokumen mematuhi kelas kepatuhan ISO/IEC 29500:2008 Strict. |
+| Iso29500_2008_Transitional | `1` | Menentukan bahwa dokumen mematuhi kelas konformitas ISO/IEC 29500:2008 Transitional. |
+| Iso29500_2008_Strict | `2` | Menentukan bahwa dokumen mematuhi kelas konformitas ISO/IEC 29500:2008 Strict. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di tutte le diapositive layout dello slide master definito. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/inserire/rimuovere/clonare diapositive layout nel contesto delle collezioni individuali delle diapositive layout dei master.
+description: Rappresenta una raccolta di tutte le diapositive di layout della diapositiva master definita. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/inserire/rimuovere/clonare diapositive di layout nel contesto delle collezioni individuali dei layout master.
 type: docs
-weight: 6380
+weight: 6400
 url: /it/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interfaccia
 
-Rappresenta una collezione di tutte le diapositive layout dello slide master definito. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/inserire/rimuovere/clonare diapositive layout nel contesto delle collezioni individuali delle diapositive layout del master.
+Rappresenta una raccolta di tutte le diapositive di layout della diapositiva master definita. Estende l'interfaccia ILayoutSlideCollection con metodi per aggiungere/inserire/rimuovere/clonare diapositive di layout nel contesto delle collezioni individuali dei layout della master.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,18 +18,18 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Restituisce l'interfaccia ILayoutSlideCollection. Solo lettura [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Restituisce l'interfaccia ILayoutSlideCollection. Sola lettura [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Aggiunge una nuova diapositiva layout alla fine della collezione. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Aggiunge una copia di una diapositiva layout specificata alla fine della collezione. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserisce una nuova diapositiva layout nella posizione specificata della collezione. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserisce una copia di una diapositiva layout specificata nella posizione specificata della collezione. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Aggiunge una nuova diapositiva di layout alla fine della collezione. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Aggiunge una copia di una diapositiva di layout specificata alla fine della collezione. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserisce una nuova diapositiva di layout nella posizione specificata della collezione. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserisce una copia di una diapositiva di layout specificata nella posizione specificata della collezione. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Rimuove l'elemento all'indice specificato della collezione. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Sposta la diapositiva layout dalla collezione nella posizione specificata. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Sposta la diapositiva di layout dalla collezione alla posizione specificata. |
 
 ### Vedi anche
 

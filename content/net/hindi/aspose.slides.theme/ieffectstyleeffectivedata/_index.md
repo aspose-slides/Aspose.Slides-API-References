@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इफ़ेक्ट स्टाइल गुणों को सम्मिलित करता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी प्रभाव शैली गुणों को सम्मिलित करती है।
 type: docs
-weight: 11200
+weight: 11220
 url: /hi/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इफ़ेक्ट स्टाइल गुणों को शामिल करता है।
+स्थिर वस्तु जिसमें प्रभावी प्रभाव शैली गुण होते हैं।
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,14 +18,14 @@ public interface IEffectStyleEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | एक इफ़ेक्ट फ़ॉर्मेट लौटाता है। केवल-पढ़ने-योग्य [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | एक 3D फ़ॉर्मेट लौटाता है। केवल-पढ़ने-योग्य [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | एक प्रभाव फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | एक 3d फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 यह इंटरफ़ेस [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

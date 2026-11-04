@@ -1,9 +1,9 @@
 ---
 title: ColumnFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện định dạng của một cột bảng.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn định dạng của một cột bảng.
 type: docs
-weight: 2610
+weight: 2630
 url: /vi/aspose.slides/columnformat/
 ---
 ## ColumnFormat lớp
@@ -18,7 +18,7 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Lấy các thuộc tính định dạng cột bảng thực tế với kế thừa và áp dụng kiểu bảng. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Lấy các thuộc tính định dạng cột bảng có hiệu lực với kế thừa và kiểu bảng được áp dụng. |
 
 ### Xem thêm
 

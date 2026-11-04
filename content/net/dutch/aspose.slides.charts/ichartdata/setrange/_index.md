@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stel het gegevensbereik van de grafiek in. Series en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal series in het gegevensbereik groter is dan het aantal series in de grafiekgegevens, dan wordt een extra serie met hetzelfde type als de laatste serie in de huidige collectie aan het einde van de collectie toegevoegd.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stel het gegevensbereik van het diagram in. Reeksen en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal reeksen in het gegevensbereik groter is dan het aantal reeksen in de diagramgegevens, wordt een extra reeks met hetzelfde type als de laatste reeks in de huidige collectie aan het einde van de collectie toegevoegd.
 type: docs
-weight: 130
+weight: 140
 url: /nl/aspose.slides.charts/ichartdata/setrange/
 ---
-## IChartData.SetRange method
+## IChartData.SetRange methode
 
-Stel het gegevensbereik van de grafiek in. Series en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal series in het gegevensbereik groter is dan het aantal series in de grafiekgegevens, dan wordt een extra serie met hetzelfde type als de laatste serie in de huidige collectie aan het einde van de collectie toegevoegd.
+Stel het gegevensbereik van het diagram in. Reeksen en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal reeksen in het gegevensbereik groter is dan het aantal reeksen in de diagramgegevens, wordt een extra reeks met hetzelfde type als de laatste reeks in de huidige collectie aan het einde van de collectie toegevoegd.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,14 +16,14 @@ public void SetRange(string formula)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| formula | String | De formule voor het gegevensbereik van de cellen. Bijvoorbeeld: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | De formule voor het celbereik. Bijv: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Uitzonderingen
 
-| exceptie | conditie |
+| uitzondering | conditie |
 | --- | --- |
-| ArgumentNullException | formula is null. |
-| ArgumentException | formula has incorrect format. |
+| ArgumentNullException | formule is null. |
+| ArgumentException | formule heeft een onjuist formaat. |
 
 ### Zie ook
 

@@ -1,12 +1,14 @@
 ---
 title: LineFillFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa las propiedades para el relleno de líneas.
+second_title: Referencia API de Aspose.Sildes para .NET
+description: Representa propiedades para el relleno de líneas.
 type: docs
-weight: 7780
+weight: 7800
 url: /es/aspose.slides/linefillformat/
 ---
 ## LineFillFormat clase
+
+Representa propiedades para el relleno de líneas.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -16,12 +18,12 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Devuelve el formato de relleno de degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../ipatternformat). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Devuelve el formato de relleno degradado. Sólo lectura [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Devuelve el formato de relleno de patrón. Sólo lectura [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina si el relleno debe rotarse con una forma. Lectura/escritura [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Devuelve el color de un relleno sólido. Solo lectura [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Devuelve el color de un relleno sólido. Sólo lectura [`IColorFormat`](../icolorformat). |
 
 ## Métodos
 

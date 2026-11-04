@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示投影片中的 Slide Zoom 物件。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 代表投影片中的 Slide Zoom 物件。
 type: docs
-weight: 7400
+weight: 7420
 url: /zh-hant/aspose.slides/izoomframe/
 ---
 ## IZoomFrame 介面
 
-表示投影片中的 Slide Zoom 物件。
+代表投影片中的 Slide Zoom 物件。
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -21,7 +21,7 @@ public interface IZoomFrame : IZoomObject
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | 傳回 IZoomObject 介面。 |
 | [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | 取得或設定 Slide Zoom 物件所連結的投影片物件。讀寫 [`ISlide`](../islide)。 |
 
-### 另見
+### 參見
 
 * 介面 [IZoomObject](../izoomobject)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

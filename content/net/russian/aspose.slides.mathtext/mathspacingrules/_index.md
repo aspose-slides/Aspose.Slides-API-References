@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes для .NET справочник API
-description: Типы горизонтального зазора между столбцами матрицы
+second_title: Справочник API Aspose.Sildes для .NET
+description: Типы зазоров горизонтального интервала между столбцами матрицы
 type: docs
-weight: 8990
+weight: 9010
 url: /ru/aspose.slides.mathtext/mathspacingrules/
 ---
-## MathSpacingRules перечисление
+## MathSpacingRules enumeration
 
-Типы зазора (горизонтального интервала) между столбцами матрицы
+Типы зазора (горизонтального расстояния) между столбцами матрицы
 
 ```csharp
 public enum MathSpacingRules
@@ -19,12 +19,12 @@ public enum MathSpacingRules
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Одинарный (1 em для столбцов или 1 строка для строк) |
-| OneAndHalfSpacingGap | `1` | Полуторный (1,5 em для столбцов или 1,5 строк для строк) |
+| OneAndHalfSpacingGap | `1` | Полуторный (1.5 em для столбцов или 1.5 строки для строк) |
 | DoubleSpacingGap | `2` | Двойной (2 em для столбцов или 2 строки для строк) |
-| Exactly | `3` | Точное значение. Для столбцов используется значение ColumnGap, измеряемое в twips. Для строк используется значение RowGap, измеряемое в twips. |
-| Multiple | `4` | Множественный. Для столбцов используется значение ColumnGap, измеряемое с шагом 0,5 em. Для строк используется значение RowGap, измеряемое в строках. |
+| Exactly | `3` | Точное значение. Для столбцов использует значение ColumnGap, измеренное в twips. Для строк использует значение RowGap, измеренное в twips. |
+| Multiple | `4` | Множественное. Для столбцов использует значение ColumnGap, измеренное с шагом 0.5 em. Для строк использует значение RowGap, измеренное в строках. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

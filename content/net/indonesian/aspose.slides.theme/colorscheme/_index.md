@@ -1,12 +1,12 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyimpan warna yang ditentukan tema.
 type: docs
-weight: 11070
+weight: 11090
 url: /id/aspose.slides.theme/colorscheme/
 ---
-## ColorScheme kelas
+## kelas ColorScheme
 
 Menyimpan warna yang ditentukan tema.
 
@@ -18,26 +18,26 @@ public class ColorScheme : IColorScheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Warna aksen pertama dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Warna aksen kedua dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Warna aksen ketiga dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Warna aksen keempat dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Warna aksen kelima dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Warna aksen keenam dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Warna gelap pertama dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Warna gelap kedua dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Warna untuk hyperlink yang telah dikunjungi. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Warna untuk hyperlink. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Warna terang pertama dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Warna terang kedua dalam skema. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Mengembalikan presentasi induk. Hanya baca [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Mengembalikan slide induk. Hanya baca [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Warna aksen pertama dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Warna aksen kedua dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Warna aksen ketiga dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Warna aksen keempat dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Warna aksen kelima dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Warna aksen keenam dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Warna gelap pertama dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Warna gelap kedua dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Warna untuk tautan yang telah dikunjungi. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Warna untuk tautan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Warna terang pertama dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Warna terang kedua dalam skema. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Mengembalikan presentasi induk. Baca-saja [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Mengembalikan slide induk. Baca-saja [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Lihat Juga
 
 * antarmuka [IColorScheme](../icolorscheme)
 * ruang nama [Aspose.Slides.Theme](../../aspose.slides.theme)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

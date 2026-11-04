@@ -3,7 +3,7 @@ title: IFillParamSource
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อินเทอร์เฟซของพารามิเตอร์การเติมเสริม.
 type: docs
-weight: 5810
+weight: 5830
 url: /th/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource อินเทอร์เฟซ

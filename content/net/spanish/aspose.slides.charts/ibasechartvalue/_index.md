@@ -1,12 +1,12 @@
 ---
 title: IBaseChartValue
-second_title: Referencia API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un valor de un gráfico.
 type: docs
-weight: 1730
+weight: 1740
 url: /es/aspose.slides.charts/ibasechartvalue/
 ---
-## IBaseChartValue interfaz
+## Interfaz IBaseChartValue
 
 Representa un valor de un gráfico.
 
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | Nombre | Descripción |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Object de lectura/escritura. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble es la actual. En otras palabras, especifica el tipo de valor de la propiedad Data. Esta propiedad es de solo lectura. Para cambiar el valor de esta propiedad puede usar una de las propiedades ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. De lectura/escritura [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Lectura/escritura Objeto. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble está activa. En otras palabras, especifica el tipo de valor de la propiedad Data. Esta propiedad es de solo lectura. Para cambiar el valor de esta propiedad puede usar una de las propiedades ChartDataPointCollection.DataSourceTypeFor<...>. Lectura/escritura [`DataSourceType`](./datasourcetype). |
 
 ### Ver también
 

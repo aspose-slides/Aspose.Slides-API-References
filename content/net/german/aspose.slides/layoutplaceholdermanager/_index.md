@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Manager dar, der das Hinzufügen von Platzhaltern zur Layoutfolie ermöglicht.
+description: Stellt einen Manager dar, der es Ihnen ermöglicht, Platzhalter zur Layoutfolie hinzuzufügen.
 type: docs
-weight: 7630
+weight: 7650
 url: /de/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager Klasse
 
-Stellt einen Manager dar, der das Hinzufügen von Platzhaltern zur Layoutfolie ermöglicht.
+Stellt einen Manager dar, der es Ihnen ermöglicht, Platzhalter zur Layoutfolie hinzuzufügen.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die ein Diagramm enthält. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die Inhalte wie ein Bild, eine Tabelle, Medien oder Text enthält. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die ein Medienobjekt enthält. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die ein Online-Bild enthält. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die ein Bild enthält. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die ein SmartArt-Diagramm enthält. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die eine Tabelle enthält. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die Textinhalt enthält. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die Inhalte wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung enthält. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, die Textinhalt in vertikaler Richtung enthält. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Diagramm zu halten. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um Inhalt wie ein Bild, eine Tabelle, Medien oder Text zu halten. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Medienobjekt zu halten. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Online-Bild zu halten. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Bild zu halten. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein SmartArt-Diagramm zu halten. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um eine Tabelle zu halten. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um Textinhalt zu halten. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um Inhalt wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung zu halten. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Fügt der Layoutfolie eine neue Platzhalterform hinzu, um Textinhalt in vertikaler Richtung zu halten. |
 
 ### Siehe auch
 

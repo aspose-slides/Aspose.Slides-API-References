@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Aspose.Sildes per il riferimento API .NET
-description: Formati immagine. Questa enum è la sostituzione per la classe System.Drawing.Imaging.ImageFormat. È necessaria per la compatibilità COM.
+description: Formati immagine. Questa enum è una sostituzione della classe System.Drawing.Imaging.ImageFormat. È necessaria per la compatibilità COM.
 type: docs
-weight: 9260
+weight: 9280
 url: /it/aspose.slides/ppimageformat/
 ---
 ## Enumerazione PPImageFormat
 
-Formati immagine. Questa enumerazione è la sostituzione per la classe `System.Drawing.Imaging.ImageFormat`. È necessaria per la compatibilità COM.
+Formati immagine. Questa enum è una sostituzione della classe `System.Drawing.Imaging.ImageFormat`. È necessaria per la compatibilità COM.
 
 ```csharp
 public enum PPImageFormat
@@ -16,18 +16,18 @@ public enum PPImageFormat
 
 ### Valori
 
-| Name | Value | Description |
+| Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Bmp | `0` | Restituisce il formato immagine bitmap (BMP). |
-| Emf | `1` | Restituisce il formato immagine metafile avanzato (EMF). |
+| Emf | `1` | Restituisce il formato immagine enhanced metafile (EMF). |
 | Exif | `2` | Restituisce il formato Exchangeable Image File (Exif). |
 | Gif | `3` | Restituisce il formato Graphics Interchange Format (GIF). |
 | Icon | `4` | Restituisce il formato immagine icona di Windows. |
 | Jpeg | `5` | Restituisce il formato Joint Photographic Experts Group (JPEG). |
-| MemoryBmp | `6` | Restituisce il formato di una bitmap in memoria. |
+| MemoryBmp | `6` | Restituisce il formato di un bitmap in memoria. |
 | Png | `7` | Restituisce il formato W3C Portable Network Graphics (PNG). |
 | Tiff | `8` | Restituisce il formato Tagged Image File Format (TIFF). |
-| Wmf | `9` | Restituisce il formato metafile di Windows (WMF). |
+| Wmf | `9` | Restituisce il formato Windows metafile (WMF). |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่าตัวคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การทำดัชนีของระดับจุดข้อมูลเริ่มจากศูนย์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ส่งคืนคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การจัดทำดัชนีของระดับจุดข้อมูลเริ่มจากศูนย์.
 type: docs
-weight: 70
+weight: 110
 url: /th/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels คุณสมบัติ
 
-คืนค่าตัวคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การทำดัชนีของระดับจุดข้อมูลเริ่มจากศูนย์.
+ส่งคืนคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การจัดทำดัชนีของระดับจุดข้อมูลเริ่มจากศูนย์.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

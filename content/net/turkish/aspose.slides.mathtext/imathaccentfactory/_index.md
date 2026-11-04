@@ -1,31 +1,31 @@
 ---
 title: IMathAccentFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Math aksanı oluşturmayı sağlar
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir matematik aksanı oluşturmayı sağlar
 type: docs
-weight: 8090
+weight: 8110
 url: /tr/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory arayüzü
 
-Math aksanı oluşturmayı sağlar
+Bir matematik aksanı oluşturmayı sağlar
 
 ```csharp
 public interface IMathAccentFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Belirtilen bir math öğesine, varsayılan aksan karakter değeriyle bir math aksanı oluşturur |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Belirtilen bir math öğesine bir math aksanı oluşturur |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Belirtilen bir matematik öğesine varsayılan aksan karakter değeriyle bir matematik aksanı oluşturur |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Belirtilen bir matematik öğesine bir matematik aksanı oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### İlgili
+### Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

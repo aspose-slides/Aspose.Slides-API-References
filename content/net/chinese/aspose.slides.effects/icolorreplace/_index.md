@@ -1,9 +1,9 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一种颜色替换效果。
 type: docs
-weight: 3240
+weight: 3260
 url: /zh/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace 接口
@@ -19,11 +19,11 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | 返回将替换每个像素颜色的颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)

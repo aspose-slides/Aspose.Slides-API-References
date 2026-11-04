@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: "Référence de l'API Aspose.Sildes pour .NET"
-description: Effet de transition de diapositive en ondulation.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Effet de transition de diapositive à effet d'ondulation.
 type: docs
-weight: 10130
+weight: 10150
 url: /fr/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition interface
 
-Effet de transition de diapositive en ondulation.
+Ripple slide transition effect.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase

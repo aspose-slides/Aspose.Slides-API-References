@@ -3,10 +3,10 @@ title: DomObjectTParent
 second_title: Aspose.Sildes för .NET API-referens
 description: Bas DOM-objekt
 type: docs
-weight: 2800
+weight: 2820
 url: /sv/aspose.slides/domobject-1/
 ---
-## DomObject<TParent> klass
+## DomObject&lt;TParent&gt; klass
 
 Bas DOM-objekt
 

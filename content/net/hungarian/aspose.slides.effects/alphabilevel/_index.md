@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Alpha Bi-Level hatást reprezentál. Az alfa átlátszóság értékek, amelyek kisebbek a küszöbnél, 0-ra teljesen átlátszóra, a küszögnél nagyobb vagy egyenlő alfa értékek 100-ra teljesen átlátszatlanra (opák) változnak.
+second_title: Aspose.Sildes .NET API referencia
+description: Representál egy Alpha Bi-Level hatást. Az Alpha Opacity értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, a küszöbnél nagyobb vagy egyenlő alpha értékek pedig 100-ra (teljesen átlátszatlan) változnak.
 type: docs
-weight: 2840
+weight: 2860
 url: /hu/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel osztály
 
-Alpha Bi-Level hatást reprezentál. Az alpha (átlátszóság) értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, és az alpha értékek, amelyek nagyobbak vagy egyenlőek a küszöbbel, 100%-ra (teljesen opák) változnak.
+Representál egy Alpha Bi-Level hatást. Az Alpha (Áttetszőség) értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, a küszöbnél nagyobb vagy egyenlő Alpha értékek pedig 100 % (teljesen átlátszatlan) lesznek.
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,15 +18,15 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Visszaadja a hatás küszöbét. Olvasható/írható Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Visszaadja a hatás küszöbét. Olvasás/írás Single. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Meghatározza, hogy a megadott [`AlphaBiLevel`](../alphabilevel) egyenlő-e a jelenlegi [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Lekéri a hatékony Alpha Bi-Level hatás adatokat az öröklődés alkalmazásával. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Meghatározza, hogy a megadott [`AlphaBiLevel`](../alphabilevel) egyenlő-e a jelenlegi [`AlphaBiLevel`](../alphabilevel)-val. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Lekéri a hatékony Alpha Bi-Level hatás adatokat a öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Ripple スライド遷移効果。
+description: リップルスライド遷移効果。
 type: docs
-weight: 10290
+weight: 10310
 url: /ja/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition クラス
 
-Ripple スライド遷移効果。
+リップルスライド遷移効果。
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -24,8 +24,8 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを決定します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: LegendPositionType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดตำแหน่งของ legend บนแผนภูมิ
+description: กำหนดตำแหน่งของ legend บนแผนภูมิ.
 type: docs
-weight: 2320
+weight: 2340
 url: /th/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeration
@@ -16,13 +16,13 @@ public enum LegendPositionType
 
 ### ค่า
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | คำอธิบาย |
 | --- | --- | --- |
-| Bottom | `0` | ระบุว่าคำอธิบายจะถูกวาดที่ด้านล่างของแผนภูมิ |
-| Left | `1` | ระบุว่าคำอธิบายจะถูกวาดที่ด้านซ้ายของแผนภูมิ |
-| Right | `2` | ระบุว่าคำอธิบายจะถูกวาดที่ด้านขวาของแผนภูมิ |
-| Top | `3` | ระบุว่าคำอธิบายจะถูกวาดที่ด้านบนของแผนภูมิ |
-| TopRight | `4` | ระบุว่าคำอธิบายจะถูกวาดที่ด้านบนขวาของแผนภูมิ |
+| Bottom | `0` | ระบุว่า legend จะถูกวาดที่ด้านล่างของแผนภูมิ. |
+| Left | `1` | ระบุว่า legend จะถูกวาดที่ด้านซ้ายของแผนภูมิ. |
+| Right | `2` | ระบุว่า legend จะถูกวาดที่ด้านขวาของแผนภูมิ. |
+| Top | `3` | ระบุว่า legend จะถูกวาดที่ด้านบนของแผนภูมิ. |
+| TopRight | `4` | ระบุว่า legend จะถูกวาดที่ด้านบนขวาของแผนภูมิ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ข้อความคณิตศาสตร์
 type: docs
-weight: 8510
+weight: 8530
 url: /th/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText อินเทอร์เฟซ
@@ -18,7 +18,7 @@ public interface IMathematicalText : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement ฐาน [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | คุณสมบัติการจัดรูปแบบข้อความ |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | ค่าข้อความ |
 

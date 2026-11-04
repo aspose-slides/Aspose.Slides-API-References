@@ -3,7 +3,7 @@ title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 指定されたバイト配列とフォント名からフォントの埋め込みレベルを決定します。
 type: docs
-weight: 60
+weight: 70
 url: /ja/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel メソッド
@@ -16,12 +16,12 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fontBytes | Byte[] | フォント データを含むバイト配列。 |
+| fontBytes | Byte[] | フォントデータを含むバイト配列。 |
 | fontName | String | フォントの名前。 |
 
 ### 戻り値
 
-指定されたフォントの埋め込みレベル。
+指定されたフォントの埋め込みレベルです。
 
 ### 例外
 
@@ -29,26 +29,26 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 | --- | --- |
 | ArgumentNullException | *fontBytes* が null の場合にスローされます。 |
 
-### 使用例
+### 例
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // プレゼンテーションで使用されているすべてのフォントを取得する
+    // プレゼンテーションで使用されているすべてのフォントを取得
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // プレゼンテーション内の最初のフォントの通常スタイルを表すバイト配列を取得する
+    // プレゼンテーション内の最初のフォントの Regular スタイルを表すバイト配列を取得
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // フォントの埋め込みレベルを決定する
+    // フォントの埋め込みレベルを決定
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
 ### 参照
 
-* enum [EmbeddingLevel](../../embeddinglevel)
+* 列挙体 [EmbeddingLevel](../../embeddinglevel)
 * クラス [FontsManager](../../fontsmanager)
 * 名前空間 [Aspose.Slides](../../fontsmanager)
 * アセンブリ [Aspose.Slides](../../../)

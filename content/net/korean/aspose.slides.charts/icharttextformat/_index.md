@@ -3,12 +3,12 @@ title: IChartTextFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트는 제한된 텍스트 형식 속성 집합으로 작동합니다. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat 인터페이스는 이 제한된 집합을 설명합니다.
 type: docs
-weight: 1990
+weight: 2010
 url: /ko/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat 인터페이스
 
-Chart는 제한된 텍스트 형식 속성 집합으로 작동합니다. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat 인터페이스는 이 제한된 집합을 설명합니다.
+차트는 제한된 텍스트 형식 속성 집합으로 작동합니다. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat 인터페이스는 이 제한된 집합을 설명합니다.
 
 ```csharp
 public interface IChartTextFormat
@@ -16,7 +16,7 @@ public interface IChartTextFormat
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | 단락 형식을 반환합니다. 읽기 전용 [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | 부분 형식을 반환합니다. 읽기 전용 [`IChartPortionFormat`](../ichartportionformat). |
@@ -24,10 +24,10 @@ public interface IChartTextFormat
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 지정된 텍스트 프레임에서 텍스트 형식을 복사합니다. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임에 텍스트 형식을 복사합니다. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임으로 텍스트 형식을 복사합니다. |
 
 ### 참조
 

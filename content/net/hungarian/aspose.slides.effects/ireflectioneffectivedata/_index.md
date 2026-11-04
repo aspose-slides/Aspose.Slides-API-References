@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Megváltoztathatatlan objektum, amely egy reflexió hatást képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Változtathatatlan objektum, amely egy Reflection effektust képvisel.
 type: docs
-weight: 3510
+weight: 3530
 url: /hu/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely egy Reflection effektust képvisel.
+Állandó objektum, amely egy Reflection effektust képviseli.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész elérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Elmosódás sugara. Csak olvasható Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Reflexió iránya. Csak olvasható Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Reflexió távolsága. Csak olvasható Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Meghatározza a végső alfa érték pozícióját (az alfa gradient rampa mentén) (százalék). Csak olvasható Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Végső reflexió átlátszatlansága (százalék). Csak olvasható Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Meghatározza a reflexió eltolásának irányát (szög). Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Elmosódási sugár. Csak olvasható Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | A reflexió iránya. Csak olvasható Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | A reflexió távolsága. Csak olvasható Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Megadja a vég pozíciót (az alfa gradient rámpán) a vég alfa értékhez (százalék). Csak olvasható Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | A végső reflexiós átlátszatlanság. (százalék). Csak olvasható Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Megadja a reflexió eltolásának irányát. (szög). Csak olvasható Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Téglalap igazítás. Csak olvasható [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Meghatározza, hogy a reflexió a formával együtt forgatható-e, ha a forma el van forgatva. Csak olvasható Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Meghatározza a vízszintes méretezési tényezőt, a negatív méretezés tükrözést eredményez (százalék). Csak olvasható Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Meghatározza a függőleges méretezési tényezőt, a negatív méretezés tükrözést eredményez (százalék). Csak olvasható Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Meghatározza a vízszintes ferdeség szögét. Csak olvasható Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Meghatározza a függőleges ferdeség szögét. Csak olvasható Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Meghatározza a kezdeti alfa érték pozícióját (az alfa gradient rampa mentén) (százalék). Csak olvasható Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Kezdő reflexió átlátszatlansága (százalék). Csak olvasható Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Megadja, hogy a reflexió forgásra kerüljön-e a formával, ha a forma el van fordítva. Csak olvasható Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Megadja a horizontális méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Csak olvasható Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Megadja a vertikális méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Csak olvasható Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Megadja a horizontális ferdeségi szöget. Csak olvasható Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Megadja a vertikális ferdeségi szöget. Csak olvasható Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Megadja a kezdő pozíciót (az alfa gradient rámpán) a kezdő alfa értékhez (százalék). Csak olvasható Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Kezdeti reflexiós átlátszatlanság. (százalék). Csak olvasható Single. |
 
 ### Lásd még
 

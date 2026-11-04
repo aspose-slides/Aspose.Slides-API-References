@@ -3,7 +3,7 @@ title: IThemeable
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示可以使用 ITheme./itheme 进行主题化的对象。
 type: docs
-weight: 11400
+weight: 11420
 url: /zh/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable 接口
@@ -18,7 +18,7 @@ public interface IThemeable : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | 返回 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | 返回 ISSlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
 
 ## 方法
 

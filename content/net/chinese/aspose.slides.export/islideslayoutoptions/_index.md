@@ -1,9 +1,9 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示用于导出的演示文稿布局模式。
 type: docs
-weight: 4100
+weight: 4120
 url: /zh/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions 接口

@@ -1,12 +1,12 @@
 ---
 title: LegendPositionType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Determina una posición de la leyenda en un gráfico.
 type: docs
-weight: 2320
+weight: 2340
 url: /es/aspose.slides.charts/legendpositiontype/
 ---
-## enumeración LegendPositionType
+## LegendPositionType enumeración
 
 Determina una posición de la leyenda en un gráfico.
 

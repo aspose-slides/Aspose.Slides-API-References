@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje vlastnosti formátu grafu.
 type: docs
-weight: 1680
+weight: 1690
 url: /cs/aspose.slides.charts/format/
 ---
-## Formát třídy
+## Format třída
 
-Představuje vlastnosti formátu grafu.
+Represents chart format properties.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -21,14 +21,14 @@ public sealed class Format : PVIObject, IFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Vrací efekty použité pro graf. Pouze pro čtení [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Vrací 3D formát grafu. Pouze pro čtení [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Vrací vlastnosti stylu výplně grafu. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Vrací vlastnosti stylu čáry grafu. Pouze pro čtení [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Vrací vlastnosti výplně grafu. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Vrací vlastnosti čáry grafu. Pouze pro čtení [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

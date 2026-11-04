@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Lagrar temadefinierade färger.
 type: docs
-weight: 11070
+weight: 11090
 url: /sv/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme klass
@@ -28,13 +28,13 @@ public class ColorScheme : IColorScheme
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Andra mörka färgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Färg för besökta hyperlänkar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Färg för hyperlänkar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Första ljusfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Andra ljusfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Hämtar elementet på angivet index. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Första ljusa färgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Andra ljusa färgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Returnerar den överordnade presentationen. Skrivskyddad [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Returnerar den överordnade bilden. Skrivskyddad [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Se också
+### Se även
 
 * gränssnitt [IColorScheme](../icolorscheme)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

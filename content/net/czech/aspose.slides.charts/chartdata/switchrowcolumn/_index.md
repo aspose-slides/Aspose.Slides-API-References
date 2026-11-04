@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes pro .NET API Reference
-description: Prohoďte data podél osy. Data vykreslená na ose X se přesunou na osu Y a naopak.
+description: Prohoďte data podél osy. Data zobrazovaná na ose X se přesunou na osu Y a naopak.
 type: docs
-weight: 140
+weight: 150
 url: /cs/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn metoda
 
-Prohoďte data podél osy. Data vykreslená na ose X se přesunou na osu Y a naopak.
+Prohoďte data podél osy. Data zobrazovaná na ose X se přesunou na osu Y a naopak.
 
 ```csharp
 public void SwitchRowColumn()

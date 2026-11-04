@@ -1,14 +1,14 @@
 ---
 title: IChartDataCell
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje buňku pro data grafu.
+description: Reprezentuje buňku pro data grafu.
 type: docs
-weight: 1810
+weight: 1830
 url: /cs/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell rozhraní
 
-Představuje buňku pro data grafu.
+Reprezentuje buňku pro data grafu.
 
 ```csharp
 public interface IChartDataCell
@@ -18,21 +18,21 @@ public interface IChartDataCell
 
 | Název | Popis |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Získá list. Pouze ke čtení [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Vrací index sloupce listu, ve kterém se buňka nachází. Pouze ke čtení Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Získá nebo nastaví vlastní formát zobrazení čísel a dat. Pokud je hodnota prázdná, bude použita hodnota PresetNumberFormat. Čtení/zápis String. |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Získá list. Read-only [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Vrací index sloupce listu, ve kterém je buňka umístěna. Read-only Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Získá nebo nastaví vlastní formát zobrazení čísel a dat. Pokud je hodnota prázdná, bude použita hodnota PresetNumberFormat. Read/write String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Získá nebo nastaví vzorec ve stylu A1. |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Určuje, zda je buňka skrytá. Pouze ke čtení Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Získá nebo nastaví vestavěný formát zobrazení čísel a dat. Přednastavené číslo musí být v rozmezí [0..22] nebo [37..49]. Čtení/zápis Byte. |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Určuje, zda je buňka skrytá. Read-only Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Získá nebo nastaví vestavěný formát zobrazení čísel a dat. Přednastavené číslo musí být v rozmezí [0..22] nebo [37..49]. Read/write Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Získá nebo nastaví vzorec ve stylu R1C1. |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Vrací index řádku listu, ve kterém se buňka nachází. Pouze ke čtení Int32. |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Získá nebo nastaví hodnotu buňky. Čtení/zápis Object. |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Vrací index řádku listu, ve kterém je buňka umístěna. Read-only Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Získá nebo nastaví hodnotu buňky. Read/write Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Pokud buňka obsahuje vzorec, hodnota bude aktualizována podle tohoto vzorce. |
+| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Pokud buňka obsahuje vzorec, hodnota bude aktualizována na základě tohoto vzorce. |
 
 ### Viz také
 

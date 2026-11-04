@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ドキュメントに適用された感度ラベルのコレクションを表します。
+description: ドキュメントに適用された機密ラベルのコレクションを表します。
 type: docs
-weight: 6940
+weight: 6960
 url: /ja/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection インターフェイス
 
-ドキュメントに適用された感度ラベルのコレクションを表します。
+ドキュメントに適用された機密ラベルのコレクションを表します。
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -16,19 +16,19 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | コレクション内のすべての要素の数を取得します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | インデックスで感度ラベルを返します。読み取り専用 [`ISensitivityLabel`](../isensitivitylabel)。 |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | コレクション内のすべての要素数を取得します。読み取り専用の Int32。 |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | インデックスで機密ラベルを返します。読み取り専用 [`ISensitivityLabel`](../isensitivitylabel)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | コレクションに SensitivityLabel を追加します。 |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | コレクションの末尾に感度ラベルを追加します。 |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | コレクションの末尾に機密ラベルを追加します。 |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | コレクションからすべての要素を削除します。 |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 指定されたインデックスの感度ラベルを削除します。 |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 指定されたインデックスの機密ラベルを削除します。 |
 
 ### 参照
 

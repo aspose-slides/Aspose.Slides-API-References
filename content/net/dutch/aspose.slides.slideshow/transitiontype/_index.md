@@ -1,14 +1,14 @@
 ---
 title: TransitionType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het overgangstype van de diavoorstelling voor.
+description: Vertegenwoordigt het type overgang voor een diavoorstelling.
 type: docs
-weight: 10450
+weight: 10470
 url: /nl/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType enumeratie
 
-Stelt het overgangstype van diavoorstelling voor.
+Vertegenwoordigt het type overgang voor een diavoorstelling.
 
 ```csharp
 public enum TransitionType
@@ -39,7 +39,7 @@ public enum TransitionType
 | Wedge | `18` | Verwijst naar overgang Clock (met optie Wedge) in PowerPoint 2010. |
 | Wheel | `19` | Verwijst naar overgang Clock (met optie Clockwise) in PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Verwijst naar overgang Shape (met opties In/Out) in PowerPoint 2010. Zie ook Warp die betrekking heeft op overgang Zoom in PowerPoint 2010. |
+| Zoom | `21` | Verwijst naar overgang Shape (met opties In/Out) in PowerPoint 2010. Zie ook Warp die verwijst naar overgang Zoom in PowerPoint 2010. |
 | Vortex | `22` | Beschikbaar in PowerPoint 2010. |
 | Switch | `23` | Beschikbaar in PowerPoint 2010. |
 | Flip | `24` | Beschikbaar in PowerPoint 2010. |

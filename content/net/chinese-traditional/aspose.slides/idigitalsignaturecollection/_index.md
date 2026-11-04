@@ -3,7 +3,7 @@ title: IDigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示附加於文件的數位簽章集合。
 type: docs
-weight: 5700
+weight: 5720
 url: /zh-hant/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection 介面
@@ -16,15 +16,15 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 根據索引傳回簽章。 |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 傳回依索引取得的簽章。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 在集合的末端加入簽章。 |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 在集合末端加入簽章。 |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 從集合中移除所有簽章。 |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | 移除指定索引處的簽章。 |
 

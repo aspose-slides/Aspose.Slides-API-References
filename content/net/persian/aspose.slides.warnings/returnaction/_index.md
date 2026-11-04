@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر گزینه‌های تصمیم‌گیری فراخوانی هشدار.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: گزینه‌های تصمیم‌گیری فراخوانی هشدار را نمایش می‌دهد.
 type: docs
-weight: 11820
+weight: 11840
 url: /fa/aspose.slides.warnings/returnaction/
 ---
-## ReturnAction enumeration
+## ReturnAction enum
 
-نمایانگر گزینه‌های تصمیم‌گیری فراخوانی هشدار است.
+گزینه‌های تصمیم‌گیری فراخوانی هشدار را نمایش می‌دهد.
 
 ```csharp
 public enum ReturnAction
@@ -19,7 +19,7 @@ public enum ReturnAction
 | نام | مقدار | توضیح |
 | --- | --- | --- |
 | Continue | `0` | عملیات باید ادامه یابد. |
-| Abort | `1` | عملیات باید متوقف شود. |
+| Abort | `1` | عملیات باید لغو شود. |
 
 ### موارد مرتبط
 

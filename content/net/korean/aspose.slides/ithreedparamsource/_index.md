@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 3D 속성 소스 보조 인터페이스
 type: docs
-weight: 7350
+weight: 7370
 url: /ko/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource 인터페이스
@@ -14,7 +14,7 @@ url: /ko/aspose.slides/ithreedparamsource/
 public interface IThreeDParamSource
 ```
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

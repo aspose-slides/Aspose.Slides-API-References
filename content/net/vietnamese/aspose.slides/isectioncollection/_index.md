@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho một bộ sưu tập các phần.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các phần.
 type: docs
-weight: 6900
+weight: 6920
 url: /vi/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection giao diện
 
-Đại diện cho một bộ sưu tập các phần.
+Đại diện cho một tập hợp các phần.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -16,24 +16,24 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ-đọc [`ISection`](../isection). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Thêm một phần trống vào vị trí được chỉ định của bộ sưu tập. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Thêm phần trống vào vị trí được chỉ định trong bộ sưu tập. |
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Thêm phần mới bắt đầu từ slide cụ thể. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Thêm phần trống vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Xóa tất cả các phần khỏi bộ sưu tập. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Trả về chỉ mục của phần được chỉ định trong bộ sưu tập. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Xóa phần. Các slide chứa trong phần sẽ được hợp nhất vào phần trước. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Xóa phần và các slide chứa trong phần. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Xóa phần. Các slide trong phần sẽ được hợp nhất vào phần trước. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Xóa phần và các slide trong phần. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Di chuyển phần và các slide của nó từ bộ sưu tập tới vị trí được chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * giao diện [ISection](../isection)

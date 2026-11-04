@@ -3,12 +3,12 @@ title: ICamera
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar Camera.
 type: docs
-weight: 5410
+weight: 5430
 url: /sv/aspose.slides/icamera/
 ---
 ## ICamera gränssnitt
 
-Representerar kamera.
+Representerar Camera.
 
 ```csharp
 public interface ICamera
@@ -18,18 +18,18 @@ public interface ICamera
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Kameratyp Läs/skriv [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Kamera-FOV (0-180 grad, synfält) Läs/skriv Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera-zoom (positivt värde i procent) Läs/skriv Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera type Läs/skriv [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) Läs/skriv Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (positive value in percentage) Läs/skriv Single. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en revolution kring axeln som latitud- och longitudkoordinater. första element i returarray – latitud, andra – longitud, tredje – revolution. Returnerar null om ingen rotation är definierad. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en revolution kring axeln som latitud- och longitudkoordinater. Om något av koordinatvärdena är float.NaN, är hela rotationen odefinierad. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | En rotation definieras genom att använda en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud och longitudkoordinater. första elementet i retarray - latitud, andra - longitud, tredje - rotation. Returnerar null om ingen rotation definierad. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | En rotation definieras genom att använda en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud och longitudkoordinater. Om något av koordinatvärdena är float.NaN, är all rotation odefinierad. |
 
-### Se även
+### Se också
 
 * namnutrymme [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

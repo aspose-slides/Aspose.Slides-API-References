@@ -1,12 +1,12 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 表示软边缘效果的不可变对象。形状的边缘被模糊，而填充不受影响。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，表示软边缘效果。形状的边缘被模糊，而填充不受影响。
 type: docs
-weight: 3530
+weight: 3550
 url: /zh/aspose.slides.effects/isoftedgeeffectivedata/
 ---
-## ISoftEdgeEffectiveData interface
+## ISoftEdgeEffectiveData 接口
 
 不可变对象，表示软边缘效果。形状的边缘被模糊，而填充不受影响。
 
@@ -18,10 +18,10 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 指定要应用于边缘的模糊半径。只读 Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 指定要应用于边缘的模糊半径。只读 Double. |
 
-### 参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: LineFormatCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho tập hợp các kiểu dòng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho bộ sưu tập các kiểu đường.
 type: docs
-weight: 11420
+weight: 11440
 url: /vi/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection lớp
 
-Đại diện cho tập hợp các kiểu dòng.
+Đại diện cho bộ sưu tập các kiểu đường.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -18,19 +18,19 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Lấy số phần tử thực tế chứa trong tập hợp. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào tập hợp có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ đọc Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Lấy số phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng đã chỉ định. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua tập hợp. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập sang mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * lớp [FormatScheme](../formatscheme)

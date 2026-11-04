@@ -1,9 +1,9 @@
 ---
 title: ITagCollection
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Представляет коллекцию тегов — пользовательских пар строк
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию тегов, определяемых пользователем пар строк
 type: docs
-weight: 7260
+weight: 7280
 url: /ru/aspose.slides/itagcollection/
 ---
 ## ITagCollection интерфейс
@@ -18,7 +18,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Возвращает или задает пару ключа и значения тега. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Возвращает или задает пару ключ-значение тега. |
 
 ## Методы
 
@@ -26,7 +26,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Добавляет новый тег в коллекцию. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Удаляет все теги из коллекции. |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | Определяет, содержит ли коллекция определённое имя. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | Определяет, содержит ли коллекция указанное имя. |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Возвращает ключ тега по указанному индексу. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Возвращает имена тегов. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Возвращает значение тега по указанному индексу. |

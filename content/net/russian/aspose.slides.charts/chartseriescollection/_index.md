@@ -3,7 +3,7 @@ title: ChartSeriesCollection
 second_title: Aspose.Sildes для .NET справка по API
 description: Представляет коллекцию ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /ru/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection класс
@@ -27,17 +27,17 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Создает новую серию диаграммы и добавляет её в коллекцию. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Создает новую серию диаграммы из [`ChartCellCollection`](../chartcellcollection) и добавляет её в коллекцию. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Создает новую серию диаграммы из [`ChartDataCell`](../chartdatacell) и добавляет её в коллекцию. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Создает новую серию диаграммы из значения и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Создаёт новую серию диаграммы и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Создаёт новую серию диаграммы из [`ChartCellCollection`](../chartcellcollection) и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Создаёт новую серию диаграммы из [`ChartDataCell`](../chartdatacell) и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Создаёт новую серию диаграммы из значения и добавляет её в коллекцию. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Удаляет все элементы управления из коллекции. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Возвращает перечислитель, который проходит по элементам коллекции. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Ищет указанный [`ChartSeries`](../chartseries) и возвращает нулевой индекс первого вхождения во всей Collection |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Создает новую серию диаграммы и вставляет её в коллекцию. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Ищет указанный [`ChartSeries`](../chartseries) и возвращает нулевой индекс первого вхождения в полной Collection |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Создаёт новую серию диаграммы и вставляет её в коллекцию. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Удаляет указанное значение. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Удаляет ActiveX-элемент, хранящийся в указанной позиции, из коллекции. |
 
 ### См. также
 

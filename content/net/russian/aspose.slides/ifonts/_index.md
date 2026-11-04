@@ -1,9 +1,9 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию шрифтов.
 type: docs
-weight: 5900
+weight: 5920
 url: /ru/aspose.slides/ifonts/
 ---
 ## IFonts интерфейс
@@ -19,17 +19,17 @@ public interface IFonts
 | Имя | Описание |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложных сценариев. Чтение/запись [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Возвращает или задает восточноазиатский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Возвращает или задает шрифт восточноазиатских символов. Чтение/запись [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Возвращает или задает латинский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Получает название шрифта, связанное с конкретным тегом сценария из темы презентации. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Получает имя шрифта, связанное с конкретным тегом сценария из темы презентации. |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Возвращает словарь всех определений шрифтов сценариев в презентации. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Удаляет настройку шрифта, связанную с конкретным тегом сценария, из коллекции шрифтов темы. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Назначает название шрифта конкретному тегу сценария, определяя, как текст этого сценария будет отображаться в презентации. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Назначает имя шрифта конкретному тегу сценария, определяя, как текст этого сценария будет отображаться в презентации. |
 
 ### См. также
 

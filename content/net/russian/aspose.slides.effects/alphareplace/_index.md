@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes for .NET Справочник API
-description: Представляет эффект Alpha Replace. Значения альфа (непрозрачности) заменяются фиксированным альфа.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект Alpha Replace. Значения альфа (непрозрачности) эффекта заменяются фиксированным альфа.
 type: docs
-weight: 2900
+weight: 2920
 url: /ru/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace класс
 
-Представляет эффект Alpha Replace. Значения альфа (непрозрачности) заменяются фиксированным альфа.
+Представляет эффект Alpha Replace. Значения альфа (непрозрачности) эффекта заменяются фиксированным альфа.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -25,10 +25,10 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Определяет, равен ли указанный [`AlphaReplace`](../alphareplace) текущему [`AlphaReplace`](../alphareplace). |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Получает эффективные данные эффекта Alpha Replace с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Получает данные эффективного эффекта Alpha Replace с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Служит в качестве функции хеша для конкретного типа. |
 
-### Смотрите также
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IAlphaReplace](../ialphareplace)

@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: مرجع API Aspose.Sildes برای .NET
-description: مخزن سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود. ایندکس‌گذاری سطوح نقطه داده از صفر شروع می‌شود.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: یک محفظه برای سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود. ایندکس‌گذاری سطوح نقطه داده صفر مبنا است.
 type: docs
-weight: 40
+weight: 80
 url: /fa/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels ویژگی
 
-محتویات سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود. ایندکس‌گذاری سطوح نقطه داده از صفر آغاز می‌شود.
+یک محفظه برای سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود. ایندکس‌گذاری سطوح نقطه داده صفر مبنا است.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

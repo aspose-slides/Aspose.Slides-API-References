@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het werkblad voor dat is geassocieerd met IChartDataCell./ichartdatacell
+description: Stelt een werkblad voor dat is gekoppeld aan IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /nl/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet interface
 
-Stelt werkblad geassocieerd met [`IChartDataCell`](../ichartdatacell)
+Stelt een werkblad voor dat is gekoppeld aan [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public interface IChartDataWorksheet

@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 섹션 컬렉션을 나타냅니다.
 type: docs
-weight: 9760
+weight: 9780
 url: /ko/aspose.slides/sectioncollection/
 ---
 ## SectionCollection 클래스
 
-컬렉션의 섹션을 나타냅니다.
+섹션 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,7 +18,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
@@ -32,11 +32,11 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | 컬렉션의 끝에 빈 섹션을 추가합니다. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | 컬렉션에서 모든 섹션을 제거합니다. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | 전체 컬렉션을 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 컬렉션에서 지정된 섹션의 인덱스를 반환합니다. |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 섹션을 제거합니다. 섹션에 포함된 슬라이드는 이전 섹션으로 병합됩니다. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 섹션과 섹션에 포함된 슬라이드를 제거합니다. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 컬렉션에서 섹션과 해당 슬라이드를 지정된 위치로 이동합니다. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 컬렉션에서 섹션 및 해당 슬라이드를 지정된 위치로 이동합니다. |
 
 ### 참조
 

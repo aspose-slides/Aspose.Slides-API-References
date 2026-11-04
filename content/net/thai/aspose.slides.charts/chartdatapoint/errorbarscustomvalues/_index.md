@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนค่าขอบความผิดพลาดของชุดข้อมูลในกรณีที่เป็นประเภทค่าแบบกำหนดเอง. อ่านอย่างเดียว IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงค่าแถบข้อผิดพลาดของซีรีส์ในกรณีของประเภทค่า Custom. อ่านอย่างเดียว IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 80
+weight: 120
 url: /th/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
 ## ChartDataPoint.ErrorBarsCustomValues คุณสมบัติ
 
-เป็นตัวแทนค่าขอบความผิดพลาดของชุดข้อมูลในกรณีที่เป็นประเภทค่าแบบกำหนดเอง. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+แสดงค่าแถบข้อผิดพลาดของซีรีส์ในกรณีของประเภทค่า Custom. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }

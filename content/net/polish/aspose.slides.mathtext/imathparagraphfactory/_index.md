@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Umożliwia tworzenie akapitu matematycznego
 type: docs
-weight: 8400
+weight: 8420
 url: /pl/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interfejs

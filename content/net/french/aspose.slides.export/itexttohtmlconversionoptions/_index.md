@@ -1,9 +1,9 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Options pour extraire le HTML du texte Pptx.
 type: docs
-weight: 4160
+weight: 4180
 url: /fr/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions interface
@@ -16,12 +16,12 @@ public interface ITextToHtmlConversionOptions
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Retourne ou définit la valeur, indiquant si les en-têtes du presse-papiers doivent être ajoutés. Lecture/écriture Boolean. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Retourne ou définit le nom de l’encodage html. Cette valeur sera enregistrée dans le fichier HTML généré, mais il revient à l’appelant de s’assurer que le fichier sera enregistré avec cet encodage. Lecture/écriture String. |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Retourne ou définit un objet de rappel qui contrôle la façon dont l’objet externe sera stocké. Lecture/écriture [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Retourne ou définit la profondeur d’héritage pour les propriétés de texte. Lecture/écriture [`TextInheritanceLimit`](./textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Renvoie ou définit la valeur, indiquant si les en-têtes du presse-papiers doivent être ajoutés. Lecture/écriture Boolean. |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Renvoie ou définit le nom de l’encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais il revient à l’appelant de s’assurer que le fichier sera enregistré avec cet encodage. Lecture/écriture String. |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Renvoie ou définit un objet de rappel qui contrôle la façon dont l’objet externe sera stocké. Lecture/écriture [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Renvoie ou définit la profondeur héritée pour les propriétés de texte. Lecture/écriture [`TextInheritanceLimit`](./textinheritancelimit). |
 
 ### Voir aussi
 

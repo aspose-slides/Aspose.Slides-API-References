@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes .NET API-referenciája
-description: Egy táblázatban lévő oszlopot képvisel.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy oszlopot képvisel egy táblázatban.
 type: docs
-weight: 5520
+weight: 5540
 url: /hu/aspose.slides/icolumn/
 ---
 ## IColumn interfész
 
-Egy táblázatban lévő oszlopot képvisel.
+Egy oszlopot képvisel egy táblázatban.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Lehetővé teszi a base IBulkTextFormattable interfész elérését. Csak olvasható [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Lehetővé teszi a base ICellCollection interfész elérését. Csak olvasható [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely a formázási tulajdonságokat tartalmazza ehhez az oszlophoz. Csak olvasható [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Visszaadja vagy beállítja egy oszlop szélességét. Olvasás/írás Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Lehetővé teszi a base IBulkTextFormattable interfész lekérdezését. Csak olvasható [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Lehetővé teszi a base ICellCollection interfész lekérdezését. Csak olvasható [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely a jelen oszlop formázási tulajdonságait tartalmazza. Csak olvasható [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Visszaadja vagy beállítja egy oszlop szélességét. Olvasható/írható Double. |
 
 ### Lásd még
 

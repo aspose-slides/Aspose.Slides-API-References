@@ -3,7 +3,7 @@ title: IColumnFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formatet för en tabellkolumn.
 type: docs
-weight: 5540
+weight: 5560
 url: /sv/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat gränssnitt
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Hämtar effektiva formateringsinställningar för en tabellkolumn med arv och tillämpade tabellstilar. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Hämtar effektiva tabellkolumnens formateringsegenskaper med arv och tillämpade tabellstilar. |
 
 ### Se även
 

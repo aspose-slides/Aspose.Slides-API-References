@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: مرجع Aspose.Sildes لـ .NET API
-description: كائن ثابت يمثل نقطة تدرج.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: كائن غير قابل للتغيير يمثل نقطة تدرج.
 type: docs
-weight: 6050
+weight: 6070
 url: /ar/aspose.slides/igradientstopeffectivedata/
 ---
-## IGradientStopEffectiveData واجهة
+## IGradientStopEffectiveData الواجهة
 
-كائن ثابت يمثل نقطة تدرج.
+كائن غير قابل للتغيير يمثل نقطة تدرج.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | يعيد لون نقطة التدرج. للقراءة فقط Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | يعيد موضع (0..1) نقطة التدرج. للقراءة فقط Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | إرجاع لون نقطة التدرج. قراءة فقط Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | إرجاع موضع (0..1) نقطة التدرج. قراءة فقط Single. |
 
 ### انظر أيضًا
 

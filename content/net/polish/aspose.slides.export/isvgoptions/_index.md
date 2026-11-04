@@ -1,9 +1,9 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes dla .NET API Referencja
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje opcje SVG.
 type: docs
-weight: 4060
+weight: 4080
 url: /pl/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions interfejs
@@ -19,20 +19,20 @@ public interface ISVGOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Flaga logiczna określa, czy przycięte fragmenty pozostają częścią dokumentu. Jeśli true, przycięte fragmenty zostaną usunięte, jeśli false będą serializowane w dokumencie (co może potencjalnie prowadzić do większego pliku) Odczyt/zapis Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Flaga typu Boolean wskazuje, czy przycięte części pozostają częścią dokumentu. Jeśli true, przycięte części zostaną usunięte, jeśli false, będą serializowane w dokumencie (co może prowadzić do większego pliku) Odczyt/zapis Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Określa, czy tekst 3D jest wyłączony w SVG. Odczyt/zapis Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury zostaną wyłączone w renderowanym wyjściu. Domyślnie, ta właściwość ma wartość `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyjściu. Domyślnie, ta właściwość jest ustawiona na `false`. |
 | [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Wyłącza dzielenie gradientów FromCornerX i FromCenter. Odczyt/zapis Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 nie posiada możliwości definiowania wcięć dla znaczników. Silnik zapisu SVG Aspose.Slides posiada obejście tego problemu: przycina koniec linii ze strzałką, tak aby linia nie nakładała się na znaczniki. Ta opcja wyłącza takie zachowanie. Odczyt/zapis Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Określa sposób obsługi zewnętrznie ładowanych czcionek. Odczyt/zapis [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 nie umożliwia definiowania wcięć dla znaczników. Silnik zapisu SVG Aspose.Slides ma obejście tego problemu: przycina koniec linii z strzałką, tak aby linia nie nakładała się na znaczniki. Ta opcja wyłącza takie zachowanie. Odczyt/zapis Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Określa sposób obsługi zewnętrznie załadowanych czcionek. Odczyt/zapis [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
 | [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie. Tylko do odczytu [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Określa jakość kodowania JPEG. Odczyt/zapis Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Zwraca lub ustawia dolny limit rozdzielczości dla rasteryzacji metafilu. Odczyt/zapis Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Reprezentuje poziom kompresji obrazów. Odczyt/zapis [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Zwraca i ustawia interfejs zwrotny, który umożliwia użytkownikowi kontrolowanie konwersji kształtów. Odczyt/zapis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Określa, czy wykonać określony obrót kształtu podczas renderowania. Odczyt/zapis Boolean. Domyślna wartość to true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Określa, czy ramka tekstowa będzie zawarta w obszarze renderowania. Odczyt/zapis Boolean. Domyślna wartość to false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Określa, czy tekst na slajdzie będzie zapisywany jako grafika. Odczyt/zapis Boolean. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Zwraca lub ustawia dolny limit rozdzielczości dla rasteryzacji metapliku. Odczyt/zapis Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Reprezentuje poziom kompresji obrazów Odczyt/zapis [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Zwraca i ustawia interfejs wywołania zwrotnego, który pozwala użytkownikowi kontrolować konwersję kształtów. Odczyt/zapis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Określa, czy przy renderowaniu należy wykonać określony obrót kształtu, czy nie. Odczyt/zapis Boolean. Domyślna wartość to true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Określa, czy ramka tekstowa zostanie uwzględniona w obszarze renderowania, czy nie. Odczyt/zapis Boolean. Domyślna wartość to false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Określa, czy tekst na slajdzie zostanie zapisany jako grafika. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

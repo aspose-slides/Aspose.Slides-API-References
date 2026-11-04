@@ -1,12 +1,12 @@
 ---
 title: SmartArtNode
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho nút của một đối tượng SmartArt
+description: Biểu diễn nút của một đối tượng SmartArt
 type: docs
-weight: 10630
+weight: 10650
 url: /vi/aspose.slides.smartart/smartartnode/
 ---
-## SmartArtNode lớp
+## Lớp SmartArtNode
 
 Biểu diễn nút của một đối tượng SmartArt
 
@@ -18,14 +18,14 @@ public sealed class SmartArtNode : ISmartArtNode
 
 | Tên | Mô tả |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Trả về đối tượng FillFormat chứa các thuộc tính định dạng tô màu cho dấu chấm đầu dòng của nút. Lưu ý: có thể trả về null cho một số kiểu bố cục SmartArt không cung cấp dấu chấm đầu dòng cho các nút. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Trả về đối tượng FillFormat chứa các thuộc tính định dạng tô cho dấu đầu mục của nút. Lưu ý: có thể trả về null đối với một số loại bố cục SmartArt không cung cấp dấu đầu mục cho các nút. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Trả về tập hợp các nút con của nút hiện tại. Chỉ đọc [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Trả về hoặc đặt nút làm trợ lý. Đọc/ghi Boolean. |
 | [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Trả về true nếu nút này là nút ẩn trong mô hình dữ liệu. Chỉ đọc Boolean. |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Trả về mức độ lồng nhau của nút. Chỉ đọc Int32. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Trả về mức lồng nhau của nút. Chỉ đọc Int32. |
 | [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Trả về hoặc đặt loại bố cục biểu đồ tổ chức liên quan đến nút hiện tại. Đọc/ghi [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Trả về vị trí dựa trên chỉ số 0 của nút trong số các nút cùng cấp. Đọc/ghi Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Trả về tập hợp các hình dạng liên quan tới nút. Chỉ đọc [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Trả về hoặc đặt vị trí dựa trên chỉ số 0 của nút trong số các nút cùng cấp. Đọc/ghi Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Trả về tập hợp tất cả các hình dạng liên kết với nút. Chỉ đọc [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Trả về khung văn bản của nút. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Phương thức

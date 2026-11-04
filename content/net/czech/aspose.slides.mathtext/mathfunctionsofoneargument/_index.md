@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes pro .NET API Reference
-description: Běžné matematické funkce s jedním argumentem
+description: Obvyklé matematické funkce s jedním argumentem
 type: docs
-weight: 8740
+weight: 8760
 url: /cs/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
-## MathFunctionsOfOneArgument enumeration
+## MathFunctionsOfOneArgument enumerace
 
-Běžné matematické funkce s jedním argumentem
+Obvyklé matematické funkce s jedním argumentem
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -21,27 +21,27 @@ public enum MathFunctionsOfOneArgument
 | Sin | `0` | Sinus |
 | Cos | `1` | Kosinus |
 | Tan | `2` | Tangens |
-| Csc | `3` | Cosekans |
+| Csc | `3` | Sekans |
 | Sec | `4` | Sekant |
 | Cot | `5` | Kotangens |
 | HyperbolicSin | `6` | Hyperbolický sinus |
 | HyperbolicCos | `7` | Hyperbolický kosinus |
 | HyperbolicTan | `8` | Hyperbolický tangens |
-| HyperbolicCsc | `9` | Hyperbolický cosekans |
+| HyperbolicCsc | `9` | Hyperbolický sekans |
 | HyperbolicSec | `10` | Hyperbolický sekant |
 | HyperbolicCot | `11` | Hyperbolický kotangens |
-| Lg | `12` | Desítkový logaritmus |
+| Lg | `12` | Dekadický logaritmus |
 | Ln | `13` | Přirozený logaritmus |
 | ArcSin | `14` | Arkussinus |
 | ArcCos | `15` | Arkuskosinus |
-| ArcTan | `16` | Arkustangens |
-| ArcCsc | `17` | Arkuscosekans |
+| ArcTan | `16` | Arktangens |
+| ArcCsc | `17` | Arkussekans |
 | ArcSec | `18` | Arkussekant |
 | ArcCot | `19` | Arkuskotangens |
 | HyperbolicArcSin | `20` | Hyperbolický arkussinus |
 | HyperbolicArcCos | `21` | Hyperbolický arkuskosinus |
-| HyperbolicArcTan | `22` | Hyperbolický arkustangens |
-| HyperbolicArcCsc | `23` | Hyperbolický arkuscosekans |
+| HyperbolicArcTan | `22` | Hyperbolický arktangens |
+| HyperbolicArcCsc | `23` | Hyperbolický arkussekans |
 | HyperbolicArcSec | `24` | Hyperbolický arkussekant |
 | HyperbolicArcCot | `25` | Hyperbolický arkuskotangens |
 

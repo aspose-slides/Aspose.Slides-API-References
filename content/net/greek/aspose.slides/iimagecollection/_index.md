@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή από PPImage.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αντιπροσωπεύει τη συλλογή PPImage.
 type: docs
-weight: 6160
+weight: 6180
 url: /el/aspose.slides/iimagecollection/
 ---
 ## IImageCollection διασύνδεση
 
-Αντιπροσωπεύει μια συλλογή από PPImage.
+Αντιπροσωπεύει τη συλλογή PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -18,19 +18,19 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | Επιστρέφει την εικόνα με το ευρετήριο της. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Επιστρέφει την εικόνα με βάση τον δείκτη της. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Προσθέτει μια εικόνα σε μια παρουσίαση από το καθορισμένο buffer. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Προσθέτει μια εικόνα σε μια παρουσίαση από καθορισμένο buffer. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Προσθέτει μια εικόνα σε μια παρουσίαση. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Προσθέτει ένα αντίγραφο μιας εικόνας από άλλη παρουσίαση. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Προσθέτει ένα αντίγραφο μιας εικόνας από μια άλλη παρουσίαση. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Προσθέτει μια εικόνα σε μια παρουσίαση από αντικείμενο SVG. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Προσθέτει εικόνα από memory stream. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Προσθέτει μια εικόνα σε μια παρουσίαση από ροή. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Δημιουργεί και προσθέτει μια εικόνα σε παρουσίαση από ροή. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Προσθέτει εικόνα από ένα memory stream. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Προσθέτει μια εικόνα σε μια παρουσίαση από stream. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Δημιουργεί και προσθέτει μια εικόνα σε μια παρουσίαση από stream. |
 
 ### Δείτε επίσης
 

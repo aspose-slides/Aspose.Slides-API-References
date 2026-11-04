@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет ширину наконечника стрелки.
 type: docs
-weight: 7750
+weight: 7770
 url: /ru/aspose.slides/linearrowheadwidth/
 ---
 ## Перечисление LineArrowheadWidth

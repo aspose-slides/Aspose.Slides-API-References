@@ -3,7 +3,7 @@ title: ISoftEdge
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un efecto de borde suave. Los bordes de la forma están difuminados mientras que el relleno no se ve afectado.
 type: docs
-weight: 3520
+weight: 3540
 url: /es/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interfaz
@@ -20,7 +20,7 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Especifica el radio de difuminado a aplicar a los bordes. Lectura/escritura Double. |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Especifica el radio del difuminado que se aplicará a los bordes. Lectura/escritura Double. |
 
 ### Ver también
 

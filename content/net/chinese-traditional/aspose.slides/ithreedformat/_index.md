@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 3-D 屬性。
 type: docs
-weight: 7330
+weight: 7350
 url: /zh-hant/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat 介面
@@ -18,15 +18,15 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | 允許取得基本 IThreeDParamSource 介面。唯讀 [`IThreeDParamSource`](../ithreedparamsource)。 |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | 允許取得基礎 IThreeDParamSource 介面。唯讀 [`IThreeDParamSource`](../ithreedparamsource)。 |
 | [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 傳回或設定底部 3D 斜角的類型。唯讀 [`IShapeBevel`](../ishapebevel)。 |
 | [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 傳回或設定頂部 3D 斜角的類型。唯讀 [`IShapeBevel`](../ishapebevel)。 |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | 傳回或設定相機的設定。唯讀 [`ICamera`](../icamera)。 |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 傳回或設定輪廓的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 傳回或設定輪廓的色彩。唯讀 [`IColorFormat`](../icolorformat)。 |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 傳回或設定 3D 輪廓的寬度。可讀寫 Double。 |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 傳回或設定 3D 形狀的深度。可讀寫 Double。 |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 傳回或設定擠壓的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 傳回或設定擠壓效果的高度。可讀寫 Double。 |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 傳回或設定擠出物的色彩。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 傳回或設定擠出效果的高度。可讀寫 Double。 |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | 傳回或設定光源的類型。唯讀 [`ILightRig`](../ilightrig)。 |
 | [Material](../../aspose.slides/ithreedformat/material) { get; set; } | 傳回或設定材質的類型。可讀寫 [`MaterialPresetType`](../materialpresettype)。 |
 
@@ -34,7 +34,7 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 取得套用繼承後的有效 3-D 格式化資料。 |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 取得套用繼承的有效 3-D 格式化資料。 |
 
 ### 另見
 

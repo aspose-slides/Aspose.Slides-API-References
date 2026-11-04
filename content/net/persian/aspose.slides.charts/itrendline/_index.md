@@ -1,9 +1,9 @@
 ---
 title: ITrendline
 second_title: مرجع API Aspose.Sildes برای .NET
-description: کلاسی که خط روند سری نمودار را نمایانده است
+description: کلاس نمایانگر خط روند سری نمودار است
 type: docs
-weight: 2240
+weight: 2260
 url: /fa/aspose.slides.charts/itrendline/
 ---
 ## ITrendline رابط
@@ -14,27 +14,27 @@ url: /fa/aspose.slides.charts/itrendline/
 public interface ITrendline : IOverridableText
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText رابط را باز می‌گرداند. فقط خواندنی [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | تعداد دسته‌ها (یا واحدها در نمودار نقطه‌ای) را که خط روند قبل از داده‌های سری مورد روند پیش‌بینی می‌شود تعیین می‌کند. در نمودارهای نقطه‌ای و غیرنقطه‌ای، مقدار می‌تواند هر مقدار غیرمنفی باشد. قابل خواندن/نوشتن Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | مشخص می‌کند که معادله خط روند بر روی نمودار (در همان برچسب به‌عنوان Rsquaredvalue) نمایش داده شود. قابل خواندن/نوشتن Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | مشخص می‌کند که مقدار R-squared خط روند بر روی نمودار (در همان برچسب به‌عنوان معادله) نمایش داده شود. قابل خواندن/نوشتن Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | قالب خط روند را نمایانده می‌کند. قابل خواندن/نوشتن [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | تعداد دسته‌ها (یا واحدها در نمودار نقطه‌ای) را که خط روند پس از داده‌های سری مورد روند پیش‌بینی می‌شود تعیین می‌کند. در نمودارهای نقطه‌ای و غیرنقطه‌ای، مقدار می‌تواند هر مقدار غیرمنفی باشد. قابل خواندن/نوشتن Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | مقدار نقطه‌ای که خط روند محور y را قطع می‌کند را مشخص می‌کند. این ویژگی فقط زمانی پشتیبانی می‌شود که نوع خط روند exp، linear یا poly باشد. قابل خواندن/نوشتن Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | ترتیب خط روند چندجمله‌ای را تعیین می‌کند. برای انواع دیگر خط روند نادیده گرفته می‌شود. مقدار باید بین ۲ تا ۶ باشد. قابل خواندن/نوشتن Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | دوره خط روند برای خط روند میانگین متحرک را مشخص می‌کند. برای انواع دیگر نادیده گرفته می‌شود. مقدار باید بین ۲ تا ۲۵۵ باشد. قابل خواندن/نوشتن Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | ورودی افسانه مربوط به این خط روند را نمایانده می‌کند. فقط خواندنی [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | نام خط روند را می‌گیرد یا تنظیم می‌کند. قابل خواندن/نوشتن String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | نوع خط روند را می‌گیرد یا تنظیم می‌کند. قابل خواندن/نوشتن [`TrendlineType`](./trendlinetype). |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | یک رابط IOverridableText را برمی‌گرداند. فقط‌خواندنی [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | تعداد دسته‌ها (یا واحدها در نمودار پراکنده) که خط روند قبل از داده‌های سری مورد روند گسترش می‌یابد را مشخص می‌کند. در نمودارهای پراکنده و غیرپراکنده، مقدار می‌تواند هر مقدار غیرمنفی باشد. قابل‌نوشتن Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | مشخص می‌کند که معادله خط روند در نمودار (در همان برچسب به عنوان Rsquaredvalue) نمایش داده شود. قابل‌نوشتن Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | مشخص می‌کند که مقدار R-squared خط روند در نمودار (در همان برچسب به عنوان معادله) نمایش داده شود. قابل‌نوشتن Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | نمایشگر قالب خط روند است. قابل‌نوشتن [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | تعداد دسته‌ها (یا واحدها در نمودار پراکنده) که خط روند پس از داده‌های سری مورد روند گسترش می‌یابد را مشخص می‌کند. در نمودارهای پراکنده و غیرپراکنده، مقدار می‌تواند هر مقدار غیرمنفی باشد. قابل‌نوشتن Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | مقدار نقطه‌ای که خط روند محور y را قطع می‌کند را تعیین می‌کند. این ویژگی فقط زمانی پشتیبانی می‌شود که نوع خط روند exp، linear یا poly باشد. قابل‌نوشتن Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | ترتیب خط روند چندجمله‌ای را تعیین می‌کند. برای انواع دیگر خط روند نادیده گرفته می‌شود. مقدار باید بین ۲ تا ۶ باشد. قابل‌نوشتن Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | دوره خط روند برای خط روند متوسط متحرک را تعیین می‌کند. برای انواع دیگر خط روند نادیده گرفته می‌شود. مقدار باید بین ۲ تا ۲۵۵ باشد. قابل‌نوشتن Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | نمایانگر ورودی افسانه مرتبط با این خط روند است فقط‌خواندنی [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | نام خط روند را می‌گیرد یا تنظیم می‌کند. قابل‌نوشتن String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | نوع خط روند را می‌گیرد یا تنظیم می‌کند. قابل‌نوشتن [`TrendlineType`](./trendlinetype). |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IOverridableText](../ioverridabletext)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجمع [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

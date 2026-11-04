@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un objeto matemático fantasma ltmphantgt que afecta el diseño de su elemento hijo sin necesidad de mostrarse. Un fantasma puede ocultar su expresión base mientras preserva su ancho, altura o profundidad para alinear fórmulas o reservar espacio. La visibilidad y el comportamiento geométrico se controlan mediante propiedades como Show ZeroWid ZeroAsc ZeroDesc y Transp.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa un objeto matemático fantasma ltmphantgt que afecta el diseño de su elemento hijo sin necesariamente mostrarlo. Un fantasma puede ocultar su expresión base mientras preserva su ancho, altura o profundidad para alinear fórmulas o reservar espacio. La visibilidad y el comportamiento geométrico se controlan mediante propiedades como Show, ZeroWid, ZeroAsc, ZeroDesc y Transp.
 type: docs
-weight: 8410
+weight: 8430
 url: /es/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interfaz
 
-Representa un objeto matemático fantasma (<m:phant>) que afecta el diseño de su elemento hijo sin necesidad de mostrarse. Un fantasma puede ocultar su expresión base mientras preserva su ancho, altura o profundidad para alinear fórmulas o reservar espacio. La visibilidad y el comportamiento geométrico se controlan mediante propiedades como Show, ZeroWid, ZeroAsc, ZeroDesc y Transp.
+Representa un objeto matemático fantasma (<m:phant>) que afecta el diseño de su elemento hijo sin necesariamente mostrarlo. Un fantasma puede ocultar su expresión base mientras preserva su ancho, altura o profundidad para alinear fórmulas o reservar espacio. La visibilidad y el comportamiento geométrico se controlan mediante propiedades como Show, ZeroWid, ZeroAsc, ZeroDesc y Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -20,7 +20,7 @@ public interface IMathPhantom : IMathElement
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Argumento base |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Obtiene o establece un valor que indica si el elemento base se muestra. |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Obtiene o establece un valor que indica si el fantasma es transparente para las reglas de espaciado basadas en clases. |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Obtiene o establece un valor que indica si el fantasma es transparente para reglas de espaciado basadas en clases. |
 | [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Obtiene o establece un valor que indica si la ascensión (altura por encima de la línea base) del elemento base debe tratarse como cero. |
 | [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Obtiene o establece un valor que indica si el descenso (profundidad por debajo de la línea base) del elemento base debe tratarse como cero. |
 | [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Obtiene o establece un valor que indica si el ancho del elemento base debe tratarse como cero. |

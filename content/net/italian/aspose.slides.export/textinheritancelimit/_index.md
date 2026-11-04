@@ -1,12 +1,12 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Controlla la profondità dell'ereditarietà delle proprietà del testo.
 type: docs
-weight: 4540
+weight: 4560
 url: /it/aspose.slides.export/textinheritancelimit/
 ---
-## Enumerazione TextInheritanceLimit
+## enumerazione TextInheritanceLimit
 
 Controlla la profondità dell'ereditarietà delle proprietà del testo.
 

@@ -1,73 +1,73 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
-description: प्रेजेंटेशन को XPS फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+second_title: Aspose.Sildes .NET API के लिए संदर्भ
+description: विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति XPS प्रारूप में कैसे सहेजी जाती है।
 type: docs
-weight: 4730
+weight: 4750
 url: /hi/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions क्लास
 
-प्रेजेंटेशन को XPS फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति XPS फॉर्मेट में कैसे सहेजी जाती है।
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## कन्स्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [XpsOptions](xpsoptions)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [XpsOptions](xpsoptions)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## प्रॉपर्टीज
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किया जाने वाला फ़ॉन्ट लौटाता है या सेट करता है। पढ़ने-लिखने योग्य String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | प्रत्येक स्लाइड के चारों ओर काली फ़्रेम खींचने के लिए True। पढ़ने-लिखने योग्य Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली लौटाता है या सेट करता है। पढ़ने-लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रति प्रतिशत में सहेजने की प्रगति अपडेट के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | प्रेजेंटेशन में उपयोग किए गए सभी मेटाफाइल को PNG छवियों में परिवर्तित करने के लिए True। पढ़ने-लिखने योग्य Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि जेनरेट किए गए दस्तावेज़ में हिडन स्लाइड्स शामिल हों या नहीं। डिफ़ॉल्ट `false` है। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रेजेंटेशन सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, यह निर्दिष्ट करता है। पढ़ने-लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | चेतावनियों को प्राप्त करने वाला और यह तय करने वाला ऑब्जेक्ट लौटाता है या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ने-लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | वापस देता है या सेट करता है फ़ॉन्ट जो स्रोत फ़ॉन्ट नहीं मिलने पर उपयोग किया जाता है। पढ़ें/लिखें String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | सभी स्लाइड के चारों ओर काली फ्रेम बनाना True। पढ़ें/लिखें Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | वापस देता है या सेट करता है ग्रेडिएंट की दृश्य शैली। पढ़ें/लिखें [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रतीक दर्शाता है एक कॉलबैक ऑब्जेक्ट जो प्रगति अद्यतन को प्रतिशत में सहेजता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | प्रस्तुति में उपयोग किए गए सभी मेटाफाइल को PNG छवियों में बदलना True। पढ़ें/लिखें Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइड शामिल होनी चाहिए या नहीं। डिफ़ॉल्ट `false` है। |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना चाहिए या नहीं, यह निर्दिष्ट करता है। पढ़ें/लिखें Boolean. डिफ़ॉल्ट मान **false** है। |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | वापस देता है या सेट करता है एक ऑब्जेक्ट जो चेतावनियां प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या बंद हो जाएगी। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### उदाहरण
 
-निम्न उदाहरण दिखाता है कि डिफ़ॉल्ट सेटिंग्स का उपयोग करके प्रेजेंटेशन को XPS में कैसे परिवर्तित किया जाए।
+निम्न उदाहरण दिखाता है कि डिफ़ॉल्ट सेटिंग्स का उपयोग करके प्रस्तुतियों को XPS में कैसे परिवर्तित किया जाता है।
 
 ```csharp
 [C#]
 // एक Presentation ऑब्जेक्ट बनाएं जो एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // प्रस्तुति को XPS दस्तावेज़ में सहेज रहा है
+    // प्रस्तुति को XPS दस्तावेज़ में सहेजना
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-निम्न उदाहरण दिखाता है कि कस्टम सेटिंग्स का उपयोग करके प्रेजेंटेशन को XPS में कैसे परिवर्तित किया जाए।
+निम्न उदाहरण दिखाता है कि कस्टम सेटिंग्स का उपयोग करके प्रस्तुतियों को XPS में कैसे परिवर्तित किया जाता है।
 
 ```csharp
 [C#]
 // एक Presentation ऑब्जेक्ट बनाएं जो एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // TiffOptions क्लास का उदाहरण बनाएं
+    // TiffOptions क्लास का इंस्टेंस बनाएं
     XpsOptions options = new XpsOptions();
     // MetaFiles को PNG के रूप में सहेजें
     options.SaveMetafilesAsPng = true;
-    // प्रेजेंटेशन को XPS दस्तावेज़ में सहेजें
+    // प्रस्तुति को XPS दस्तावेज़ में सहेजें
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * क्लास [SaveOptions](../saveoptions)
 * इंटरफ़ेस [IXpsOptions](../ixpsoptions)
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
+* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

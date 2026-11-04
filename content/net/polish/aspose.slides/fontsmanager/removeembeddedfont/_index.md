@@ -1,9 +1,9 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Usuwa wbudowaną czcionkę
 type: docs
-weight: 90
+weight: 100
 url: /pl/aspose.slides/fontsmanager/removeembeddedfont/
 ---
 ## FontsManager.RemoveEmbeddedFont metoda
@@ -14,7 +14,7 @@ Usuwa wbudowaną czcionkę
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IFontData](../../ifontdata)
 * klasa [FontsManager](../../fontsmanager)

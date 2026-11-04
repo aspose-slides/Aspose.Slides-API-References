@@ -1,12 +1,12 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum şifre koruma yönetimi.
 type: docs
-weight: 6820
+weight: 6840
 url: /tr/aspose.slides/iprotectionmanager/
 ---
-## IProtectionManager arayüzü
+## IProtectionManager arayüz
 
 Sunum şifre koruma yönetimi.
 
@@ -18,24 +18,24 @@ public interface IProtectionManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Bu özellik, sunum şifreyle korunuyorsa anlamlıdır. Doğru ise belge özellikleri sunum dosyasında şifrelenir. Yanlış ise belge özellikleri herkese açık olurken sunum şifrelenir. Okuma/Yazma Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Şifreleme şifresini döndürür. Salt-okunur String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Bu örneğin şifrelenip şifrelenmediğini belirten bir değeri alır. Salt-okunur Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Bu özellik, sunum dosyası şifreyle korunuyorsa ve bu dosyanın belge özellikleri herkese açıksa anlamlıdır. Doğru değeri, şifre kullanılmadan şifreli bir sunum dosyasından yalnızca belge özelliklerinin yüklendiği anlamına gelir. Yanlış değeri, doğru şifre kullanılarak tüm şifreli sunumun yüklendiği, yalnızca belge özelliklerinin yüklenmediği anlamına gelir. Sunum şifrelenmemişse özellik değeri her zaman yanlıştır. Şifreli bir dosyanın belge özellikleri herkese açık değilse özellik değeri her zaman yanlıştır. PresentationEx.EncryptDocumentProperties doğruysa IsOnlyDocumentPropertiesLoaded özelliği değeri her zaman yanlıştır. Salt-okunur Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Bu sunumun yazma korumalı olup olmadığını belirten bir değeri alır. Salt-okunur Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Salt-okunur öneriyi alır veya ayarlar. Okuma/Yazma Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Bu özellik, sunum şifre korumalıysa anlam taşır. True ise belge özellikleri sunum dosyasında şifrelenir. False ise belge özellikleri şifreli iken sunum şifrelenir ve belge özellikleri açıktır. Okuma/Yazma Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Şifreleme parolasını döndürür. Sadece okuma String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Bu örneğin şifrelenip şifrelenmediğini gösteren bir değer alır. Sadece okuma Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Bu özellik, sunum dosyası şifre korumalı ve bu dosyanın belge özellikleri açık olduğunda anlam taşır. True değeri, şifreli bir sunum dosyasından yalnızca belge özelliklerinin parola kullanılmadan yüklendiğini gösterir. False değeri, doğru parola kullanılarak tüm şifreli sunumun yüklendiğini, yalnızca belge özelliklerinin değil, tamamının yüklendiğini gösterir. Sunum şifreli değilse özellik değeri her zaman false olur. Şifreli bir dosyanın belge özellikleri açık değilse özellik değeri her zaman false olur. PresentationEx.EncryptDocumentProperties true ise IsOnlyDocumentPropertiesLoaded özelliğinin değeri her zaman false olur. Sadece okuma Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Bu sunumun yazma korumalı olup olmadığını gösteren bir değer alır. Sadece okuma Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Yalnızca okuma önerisini alır veya ayarlar. Okuma/Yazma Boolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bir sunumun değiştirilmek üzere şifreyle korunup korunmadığını belirler. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Sunumu belirtilen şifre ile şifreler. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bir sunumun değiştirilmek üzere şifre korumalı olup olmadığını belirler. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Sunumu belirtilen parola ile şifreler. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Şifrelemeyi kaldırır. |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Bu sunum için yazma korumasını kaldırır. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Bu sunumu belirtilen şifre ile yazma korumasına ayarlar. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Bu sunuma belirtilen parola ile yazma koruması ayarlar. |
 
-### Ayrıca Bkz
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

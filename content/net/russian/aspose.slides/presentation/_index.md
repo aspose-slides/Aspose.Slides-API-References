@@ -3,10 +3,10 @@ title: Presentation
 second_title: Aspose.Sildes для .NET API Reference
 description: Представляет презентацию Microsoft PowerPoint.
 type: docs
-weight: 9590
+weight: 9610
 url: /ru/aspose.slides/presentation/
 ---
-## Класс Presentation
+## Presentation класс
 
 Представляет презентацию Microsoft PowerPoint.
 
@@ -20,10 +20,10 @@ public sealed class Presentation : IPresentation
 | --- | --- |
 | [Presentation](presentation#constructor)() | Этот конструктор создает новую презентацию с нуля. Созданная презентация содержит один пустой слайд. |
 | [Presentation](presentation#constructor_1)(LoadOptions) | Этот конструктор создает новую презентацию с нуля. Созданная презентация содержит один пустой слайд. |
-| [Presentation](presentation#constructor_2)(Stream) | Этот конструктор является основным способом чтения существующей Presentation. |
-| [Presentation](presentation#constructor_4)(string) | Этот конструктор принимает путь к исходному файлу, из которого читается содержимое Presentation. |
-| [Presentation](presentation#constructor_3)(Stream, LoadOptions) | Этот конструктор является основным способом чтения существующей Presentation. |
-| [Presentation](presentation#constructor_5)(string, LoadOptions) | Этот конструктор принимает путь к исходному файлу, из которого читается содержимое Presentation. |
+| [Presentation](presentation#constructor_2)(Stream) | Этот конструктор является основным механизмом чтения существующей Presentation. |
+| [Presentation](presentation#constructor_4)(string) | Этот конструктор получает путь к исходному файлу, из которого читается содержимое Presentation. |
+| [Presentation](presentation#constructor_3)(Stream, LoadOptions) | Этот конструктор является основным механизмом чтения существующей Presentation. |
+| [Presentation](presentation#constructor_5)(string, LoadOptions) | Этот конструктор получает путь к исходному файлу, из которого читается содержимое Presentation. |
 
 ## Свойства
 
@@ -32,32 +32,32 @@ public sealed class Presentation : IPresentation
 | [AllCustomXmlParts](../../aspose.slides/presentation/allcustomxmlparts) { get; } | Возвращает все пользовательские части данных в презентации. Только для чтения [`ICustomXmlPart`](../icustomxmlpart)[]. |
 | [Audios](../../aspose.slides/presentation/audios) { get; } | Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения [`IAudioCollection`](../iaudiocollection). |
 | [CommentAuthors](../../aspose.slides/presentation/commentauthors) { get; } | Возвращает коллекцию авторов комментариев. Только для чтения [`ICommentAuthorCollection`](../icommentauthorcollection). |
-| [CurrentDateTime](../../aspose.slides/presentation/currentdatetime) { get; set; } | Возвращает или задает дату и время, которые заменят содержимое полей datetime. По умолчанию — время создания этого объекта Presentation. Чтение/запись DateTime. |
+| [CurrentDateTime](../../aspose.slides/presentation/currentdatetime) { get; set; } | Возвращает или задаёт дату и время, которые будут заменять содержимое полей даты/времени. По умолчанию – время создания этого объекта Presentation. Чтение/запись DateTime. |
 | [CustomData](../../aspose.slides/presentation/customdata) { get; } | Возвращает пользовательские данные презентации. Только для чтения [`ICustomData`](../icustomdata). |
 | [DefaultTextStyle](../../aspose.slides/presentation/defaulttextstyle) { get; } | Возвращает стиль текста по умолчанию для фигур. Только для чтения [`ITextStyle`](../itextstyle). |
-| [DigitalSignatures](../../aspose.slides/presentation/digitalsignatures) { get; } | Возвращает коллекцию подписей, используемых для подписи презентации. Только для чтения [`IDigitalSignatureCollection`](../idigitalsignaturecollection). |
+| [DigitalSignatures](../../aspose.slides/presentation/digitalsignatures) { get; } | Возвращает коллекцию подписей, используемых для подписания презентации. Только для чтения [`IDigitalSignatureCollection`](../idigitalsignaturecollection). |
 | [DocumentProperties](../../aspose.slides/presentation/documentproperties) { get; } | Возвращает объект DocumentProperties, содержащий стандартные и пользовательские свойства документа. Только для чтения [`IDocumentProperties`](../idocumentproperties). |
 | [FirstSlideNumber](../../aspose.slides/presentation/firstslidenumber) { get; set; } | Представляет номер первого слайда в презентации |
 | [FontsManager](../../aspose.slides/presentation/fontsmanager) { get; } | Возвращает менеджер шрифтов. Только для чтения [`IFontsManager`](../ifontsmanager). |
-| [HeaderFooterManager](../../aspose.slides/presentation/headerfootermanager) { get; } | Возвращает текущий менеджер HeaderFooter. Только для чтения [`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/presentation/hyperlinkqueries) { get; } | Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в шаблонах, оформлении, слайдах заметок). Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HeaderFooterManager](../../aspose.slides/presentation/headerfootermanager) { get; } | Возвращает текущий менеджер колонтитулов. Только для чтения [`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/presentation/hyperlinkqueries) { get; } | Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в шаблонах, макетах, заметках). Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Images](../../aspose.slides/presentation/images) { get; } | Возвращает коллекцию всех изображений в презентации. Только для чтения [`IImageCollection`](../iimagecollection). |
-| [LayoutSlides](../../aspose.slides/presentation/layoutslides) { get; } | Возвращает список всех слайдов оформления, определенных в презентации. Только для чтения [`IGlobalLayoutSlideCollection`](../igloballayoutslidecollection). |
-| [MasterHandoutSlideManager](../../aspose.slides/presentation/masterhandoutslidemanager) { get; } | Возвращает менеджер шаблона раздаточного материала. Только для чтения [`IMasterHandoutSlideManager`](../imasterhandoutslidemanager). |
-| [MasterNotesSlideManager](../../aspose.slides/presentation/masternotesslidemanager) { get; } | Возвращает менеджер шаблона заметок. Только для чтения [`IMasterNotesSlideManager`](../imasternotesslidemanager). |
-| [Masters](../../aspose.slides/presentation/masters) { get; } | Возвращает список всех master-слайдов, определенных в презентации. Только для чтения [`IMasterSlideCollection`](../imasterslidecollection). |
-| [MasterTheme](../../aspose.slides/presentation/mastertheme) { get; } | Возвращает master-тему. Только для чтения [`IMasterTheme`](../../aspose.slides.theme/imastertheme). |
+| [LayoutSlides](../../aspose.slides/presentation/layoutslides) { get; } | Возвращает список всех слайдов-макетов, определённых в презентации. Только для чтения [`IGlobalLayoutSlideCollection`](../igloballayoutslidecollection). |
+| [MasterHandoutSlideManager](../../aspose.slides/presentation/masterhandoutslidemanager) { get; } | Возвращает менеджер главного шаблона раздаточных материалов. Только для чтения [`IMasterHandoutSlideManager`](../imasterhandoutslidemanager). |
+| [MasterNotesSlideManager](../../aspose.slides/presentation/masternotesslidemanager) { get; } | Возвращает менеджер главного шаблона заметок. Только для чтения [`IMasterNotesSlideManager`](../imasternotesslidemanager). |
+| [Masters](../../aspose.slides/presentation/masters) { get; } | Возвращает список всех главных слайдов, определённых в презентации. Только для чтения [`IMasterSlideCollection`](../imasterslidecollection). |
+| [MasterTheme](../../aspose.slides/presentation/mastertheme) { get; } | Возвращает тему главного слайда. Только для чтения [`IMasterTheme`](../../aspose.slides.theme/imastertheme). |
 | [NotesSize](../../aspose.slides/presentation/notessize) { get; } | Возвращает объект размера слайда заметок. Только для чтения [`INotesSize`](../inotessize). |
 | [ProtectionManager](../../aspose.slides/presentation/protectionmanager) { get; } | Получает менеджер разрешений для этой презентации. Только для чтения [`IProtectionManager`](../iprotectionmanager). |
-| [Sections](../../aspose.slides/presentation/sections) { get; } | Возвращает список всех разделов слайдов, определенных в презентации. Только для чтения [`ISectionCollection`](../isectioncollection). |
+| [Sections](../../aspose.slides/presentation/sections) { get; } | Возвращает список всех секций слайдов, определённых в презентации. Только для чтения [`ISectionCollection`](../isectioncollection). |
 | [SensitivityLabels](../../aspose.slides/presentation/sensitivitylabels) { get; } | Возвращает коллекцию меток чувствительности, применённых к документу презентации. Только для чтения [`ISensitivityLabelCollection`](../isensitivitylabelcollection). |
 | [Slides](../../aspose.slides/presentation/slides) { get; } | Возвращает список всех слайдов, определённых в презентации. Только для чтения [`ISlideCollection`](../islidecollection). |
-| [SlideShowSettings](../../aspose.slides/presentation/slideshowsettings) { get; } | Возвращает настройки показа слайдов презентации. |
+| [SlideShowSettings](../../aspose.slides/presentation/slideshowsettings) { get; } | Возвращает настройки слайд-шоу для презентации. |
 | [SlideSize](../../aspose.slides/presentation/slidesize) { get; } | Возвращает объект размера слайда. Только для чтения [`ISlideSize`](../islidesize). |
-| [SourceFormat](../../aspose.slides/presentation/sourceformat) { get; } | Возвращает информацию о том, из какого формата была загружена презентация. Только для чтения [`SourceFormat`](../sourceformat). |
-| [VbaProject](../../aspose.slides/presentation/vbaproject) { get; set; } | Получает или задает VBA-проект с макросами презентации. Чтение/запись [`IVbaProject`](../../aspose.slides.vba/ivbaproject). |
+| [SourceFormat](../../aspose.slides/presentation/sourceformat) { get; } | Возвращает информацию о формате, из которого была загружена презентация. Только для чтения [`SourceFormat`](../sourceformat). |
+| [VbaProject](../../aspose.slides/presentation/vbaproject) { get; set; } | Получает или задаёт проект VBA с макросами презентации. Чтение/запись [`IVbaProject`](../../aspose.slides.vba/ivbaproject). |
 | [Videos](../../aspose.slides/presentation/videos) { get; } | Возвращает коллекцию всех встроенных видеофайлов в презентации. Только для чтения [`IVideoCollection`](../ivideocollection). |
-| [ViewProperties](../../aspose.slides/presentation/viewproperties) { get; } | Получает глобальные свойства представления презентации. Только для чтения [`IViewProperties`](../iviewproperties). |
+| [ViewProperties](../../aspose.slides/presentation/viewproperties) { get; } | Получает свойства просмотра презентации. Только для чтения [`IViewProperties`](../iviewproperties). |
 
 ## Методы
 
@@ -74,7 +74,8 @@ public sealed class Presentation : IPresentation
 | [HighlightRegex](../../aspose.slides/presentation/highlightregex)(Regex, Color, IFindResultCallback) | Выделяет все совпадения регулярного выражения указанным цветом. |
 | [HighlightText](../../aspose.slides/presentation/highlighttext#highlighttext)(string, Color) | Выделяет все совпадения образца текста указанным цветом. |
 | [HighlightText](../../aspose.slides/presentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Выделяет все совпадения образца текста указанным цветом. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/presentation/joinportionswithsameformatting)() | Объединяет последовательности с одинаковым форматированием во всех абзацах всех подходящих фигур во всех слайдах. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/presentation/joinportionswithsameformatting)() | Объединяет последовательные фрагменты с одинаковым форматированием во всех абзацах всех подходящих фигур на всех слайдах. |
+| [RefreshChartsData](../../aspose.slides/presentation/refreshchartsdata)(bool) | Перезагружает данные всех диаграмм в презентации из их исходных книг. |
 | [ReplaceRegex](../../aspose.slides/presentation/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения указанной строкой. |
 | [ReplaceText](../../aspose.slides/presentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста другим указанным текстом. |
 | [Save](../../aspose.slides/presentation/save#save)(IXamlOptions) | Сохраняет все слайды презентации в набор файлов, представляющих разметку XAML. |
@@ -93,14 +94,14 @@ public sealed class Presentation : IPresentation
 
 ```csharp
 [C#]
-// Создать объект Presentation, представляющий файл презентации
+// Создайте объект Presentation, представляющий файл презентации
 using (Presentation presentation = new Presentation())
 {
-    // Получить первый слайд
+    // Получите первый слайд
     ISlide slide = presentation.Slides[0];
-    // Добавить автоконтур типа линия
+    // Добавьте автофигуру типа линия
     slide.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
-	// Сохранить файл презентации.
+	// Сохраните файл презентации.
     presentation.Save("NewPresentation_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -109,10 +110,10 @@ using (Presentation presentation = new Presentation())
 
 ```csharp
 [C#]
-// Загрузить любой поддерживаемый файл в Presentation, например ppt, pptx, odp и т.д.
+// Загрузите любой поддерживаемый файл в Presentation, например ppt, pptx, odp и т.д.
 using (Presentation presentation = new Presentation("Sample.odp"))
 {
-	// Сохранить файл презентации.
+	// Сохраните файл презентации.
 	presentation.Save("OutputPresenation.pptx", SaveFormat.Pptx);
 }
 ```

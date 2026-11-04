@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av referenser i ett VBA-projekt.
+description: Representerar en samling av VBA-projektreferenser.
 type: docs
-weight: 11670
+weight: 11690
 url: /sv/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection klass
 
-Representerar en samling av referenser i ett VBA-projekt.
+Representerar en samling av en VBA-projektreferenser.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -18,18 +18,18 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). skrivskyddad Boolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Hämtar elementet på det angivna indexet. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Lägger till den nya referensen i referenssamlingen |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den specificerade arrayen. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Returnerar en enumerator som itererar igenom samlingen. |
 
 ### Se även
 

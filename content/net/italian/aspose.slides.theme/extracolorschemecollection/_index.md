@@ -1,9 +1,9 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una raccolta di schemi di colore aggiuntivi.
 type: docs
-weight: 11110
+weight: 11130
 url: /it/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection classe
@@ -18,17 +18,17 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Restituisce un numero di elementi nella raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso all'ArrayList è sincronizzato (thread safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Restituisce uno schema di colore per indice. Sola lettura [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla raccolta. Sola lettura Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Restituisce un numero di elementi nella collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso all'ArrayList è sincronizzato (thread safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Restituisce uno schema di colore per indice. Solo lettura [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla collezione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copia tutti gli elementi della raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 
 ### Vedi anche
 

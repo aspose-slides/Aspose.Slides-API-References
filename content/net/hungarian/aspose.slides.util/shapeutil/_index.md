@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Sildes .NET API referencia
-description: Olyan metódusokat kínál, amelyek segítenek a alakzatobjektumok feldolgozásában.
+description: Módszereket kínál, amelyek segítenek a shape objektumok feldolgozásában.
 type: docs
-weight: 11510
+weight: 11530
 url: /hu/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil osztály
 
-Olyan módszereket kínál, amelyek segítenek az alakzatobjektumok feldolgozásában.
+Módszereket kínál, amelyek segítenek a shape objektumok feldolgozásában.
 
 ```csharp
 public static class ShapeUtil

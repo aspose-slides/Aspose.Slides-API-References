@@ -3,12 +3,12 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
 type: docs
-weight: 2780
+weight: 2800
 url: /de/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection Klasse
 
-Stellt eine Sammlung digitaler Signaturen dar, die an einem Dokument angehängt sind.
+Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -19,9 +19,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesend Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesend Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesend Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Gibt die Signatur nach Index zurück. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesend Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesend Object. |
 
 ## Methoden
 

@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes の .NET API リファレンス
 description: チャート系列から DataPoint を削除します。
 type: docs
-weight: 200
+weight: 240
 url: /ja/aspose.slides.charts/ichartdatapoint/remove/
 ---
 ## IChartDataPoint.Remove メソッド

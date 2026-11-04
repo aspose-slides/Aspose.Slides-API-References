@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: "pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 double 값을 두 가지 방식으로 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀에 저장, 2) 리터럴 값으로 저장."
+second_title: Aspose.Sildes for .NET API 참조
+description: 문자열 또는 실수 값을 나타내며, pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있습니다. 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
 type: docs
-weight: 2420
+weight: 2440
 url: /ko/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue 클래스
 
-문자열 또는 double 값을 pptx 프레젠테이션 문서에 저장할 수 있는 두 가지 방법으로 표현합니다: 1) 차트와 연결된 워크북의 셀/셀들에 저장; 2) 리터럴 값으로 저장.
+pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 실수 값을 두 가지 방법으로 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에; 2) 리터럴 값으로.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -20,9 +20,9 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | 차트 데이터 셀을 반환하거나 설정합니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | 값을 리터럴 double로 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 값을 리터럴 문자열로 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 값을 리터럴 string으로 반환하거나 설정합니다. 읽기/쓰기 String. |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Data 객체를 반환하거나 설정합니다. 읽기/쓰기 Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 파생 클래스에서 실제인지 지정합니다. 즉 Data 속성 값의 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Descendants에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
 
 ## 메서드
 
@@ -30,7 +30,7 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | double로 변환합니다. |
 
-### 참고
+### 관련 항목
 
 * 클래스 [BaseChartValue](../basechartvalue)
 * 인터페이스 [IStringOrDoubleChartValue](../istringordoublechartvalue)

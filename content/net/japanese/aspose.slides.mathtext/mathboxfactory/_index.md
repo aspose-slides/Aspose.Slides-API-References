@@ -1,9 +1,9 @@
 ---
 title: MathBoxFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式ボックスの作成を可能にします
+description: 数式ボックスを作成できます
 type: docs
-weight: 8640
+weight: 8660
 url: /ja/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory クラス
@@ -14,15 +14,15 @@ url: /ja/aspose.slides.mathtext/mathboxfactory/
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [MathBoxFactory](mathboxfactory)() | デフォルトコンストラクターです。 |
+| [MathBoxFactory](mathboxfactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | 要素に適用して数式ボックスを作成します |
 
@@ -30,7 +30,7 @@ public class MathBoxFactory : IMathBoxFactory
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathBoxFactory](../imathboxfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -3,10 +3,10 @@ title: OrganizationChartLayoutType
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa el tipo de formato de los nodos hijos en un organigrama
 type: docs
-weight: 10590
+weight: 10610
 url: /es/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## Enumeración OrganizationChartLayoutType
+## OrganizationChartLayoutType enumeración
 
 Representa el tipo de formato de los nodos hijos en un organigrama
 
@@ -19,10 +19,10 @@ public enum OrganizationChartLayoutType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Initial | `0` | Tipo de diseño inicial |
-| Standart | `1` | Coloca los nodos hijos horizontalmente debajo del nodo padre. |
-| BothHanging | `2` | Coloca los nodos hijos verticalmente debajo del nodo padre tanto del lado izquierdo como del derecho. |
-| LeftHanging | `3` | Coloca los nodos hijos verticalmente debajo del nodo padre del lado izquierdo. |
-| RightHanging | `4` | Coloca los nodos hijos verticalmente debajo del nodo padre del lado derecho. |
+| Standart | `1` | Coloca los nodos hijos horizontalmente debajo del nodo principal. |
+| BothHanging | `2` | Coloca los nodos hijos verticalmente debajo del nodo principal tanto en el lado izquierdo como en el derecho. |
+| LeftHanging | `3` | Coloca los nodos hijos verticalmente debajo del nodo principal en el lado izquierdo. |
+| RightHanging | `4` | Coloca los nodos hijos verticalmente debajo del nodo principal en el lado derecho. |
 
 ### Ver también
 

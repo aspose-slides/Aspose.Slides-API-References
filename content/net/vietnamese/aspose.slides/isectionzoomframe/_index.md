@@ -1,14 +1,14 @@
 ---
 title: ISectionZoomFrame
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một đối tượng Section Zoom trong một slide.
+description: Biểu diễn một đối tượng Section Zoom trong một slide.
 type: docs
-weight: 6920
+weight: 6940
 url: /vi/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame giao diện
 
-Đại diện cho một đối tượng Section Zoom trong một slide.
+Biểu diễn một đối tượng Section Zoom trong một slide.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
@@ -19,9 +19,9 @@ public interface ISectionZoomFrame : IZoomObject
 | Tên | Mô tả |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Trả về giao diện IZoomObject. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Lấy hoặc đặt đối tượng section mà đối tượng Section Zoom được liên kết tới. Đọc/ghi [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Lấy hoặc đặt đối tượng phần mà đối tượng Section Zoom được liên kết tới. Đọc/ghi [`ISection`](../isection). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IZoomObject](../izoomobject)
 * không gian tên [Aspose.Slides](../../aspose.slides)

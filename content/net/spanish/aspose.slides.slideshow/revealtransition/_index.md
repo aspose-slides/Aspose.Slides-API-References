@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva Reveal.
 type: docs
-weight: 10280
+weight: 10300
 url: /es/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition clase
 
-Efecto de transición de diapositiva Reveal.
+Reveal slide transition effect.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -26,7 +26,7 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hashing y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

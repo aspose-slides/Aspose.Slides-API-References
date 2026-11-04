@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci stylů čar.
 type: docs
-weight: 11290
+weight: 11310
 url: /cs/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection rozhraní

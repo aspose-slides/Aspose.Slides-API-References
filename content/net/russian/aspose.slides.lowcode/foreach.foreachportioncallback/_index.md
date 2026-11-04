@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes для .NET справочник API
-description: Обратный вызов, который будет вызываться для каждого Portion./foreach/portion в Paragraph./foreach/paragraph на BaseSlide../aspose.slides/baseslide.
+description: Обратный вызов, который будет вызываться для каждой Portion./foreach/portion в Paragraph./foreach/paragraph на BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7940
+weight: 7960
 url: /ru/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback делегат
@@ -17,10 +17,10 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| portion | Portion | Текущий обрабатываемый фрагмент |
-| para | Paragraph | Текущий обрабатываемый абзац |
-| slide | BaseSlide | Текущий обрабатываемый слайд |
-| index | Int32 | Индекс текущего фрагмента в абзаце |
+| portion | Portion | Текущий перебираемый отрывок |
+| para | Paragraph | Текущий перебираемый абзац |
+| slide | BaseSlide | Текущий перебираемый слайд |
+| index | Int32 | Индекс текущего отрывка в абзаце |
 
 ### См. также
 

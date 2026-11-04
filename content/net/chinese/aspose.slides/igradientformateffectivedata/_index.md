@@ -3,7 +3,7 @@ title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的渐变填充属性。
 type: docs
-weight: 6010
+weight: 6030
 url: /zh/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData 接口
@@ -13,7 +13,6 @@ url: /zh/aspose.slides/igradientformateffectivedata/
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
 ```
-
 ## 属性
 
 | 名称 | 描述 |

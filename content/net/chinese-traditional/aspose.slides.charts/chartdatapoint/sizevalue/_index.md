@@ -1,20 +1,20 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes .NET API 參考
-description: 傳回圖表資料點的大小值。用於 Treemap 和 Sunburst 圖表。唯讀 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API 參考
+description: 返回圖表資料點的大小值。適用於 Treemap 和 Sunburst 圖表。唯讀 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /zh-hant/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
 ## ChartDataPoint.SizeValue 屬性
 
-傳回圖表資料點的大小值。用於 Treemap 和 Sunburst 圖表。唯讀 [`IDoubleChartValue`](../../idoublechartvalue).
+返回圖表資料點的大小值。適用於 Treemap 和 Sunburst 圖表。唯讀 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }
 ```
 
-### 另請參閱
+### 另見
 
 * 介面 [IDoubleChartValue](../../idoublechartvalue)
 * 類別 [ChartDataPoint](../../chartdatapoint)

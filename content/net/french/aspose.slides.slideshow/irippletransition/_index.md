@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Effet de transition de diapositive à ondulation.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Effet de transition de diapositive Ripple.
 type: docs
-weight: 10170
+weight: 10190
 url: /fr/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interface
 
-Effet de transition de diapositive à ondulation.
+Effet de transition de diapositive Ripple.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase

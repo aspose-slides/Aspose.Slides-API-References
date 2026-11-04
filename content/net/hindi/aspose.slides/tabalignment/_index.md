@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टैब संरेखण को दर्शाता है।
+description: टैब संरेखण का प्रतिनिधित्व करता है।
 type: docs
-weight: 10830
+weight: 10850
 url: /hi/aspose.slides/tabalignment/
 ---
-## TabAlignment enumeration
+## TabAlignment एन्युमरेशन
 
-टैब संरेखण को दर्शाता है।
+टैब संरेखण का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum TabAlignment
@@ -16,14 +16,14 @@ public enum TabAlignment
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मान | वर्णन |
 | --- | --- | --- |
-| Left | `0` | बाएँ संरेखण |
-| Center | `1` | केंद्रीय संरेखण |
-| Right | `2` | दाएँ संरेखण |
-| Decimal | `3` | दशमलव संरेखण |
+| Left | `0` | Left संरेखण |
+| Center | `1` | Center संरेखण |
+| Right | `2` | Right संरेखण |
+| Decimal | `3` | Decimal संरेखण |
 
-### देखें
+### देखें भी
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

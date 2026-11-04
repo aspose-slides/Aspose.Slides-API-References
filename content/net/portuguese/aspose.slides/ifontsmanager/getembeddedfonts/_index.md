@@ -1,9 +1,9 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Referência
 description: Retorna as fontes incorporadas na apresentação
 type: docs
-weight: 40
+weight: 50
 url: /pt/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts método
@@ -14,7 +14,7 @@ Retorna as fontes incorporadas na apresentação
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Fontes incorporadas [`IFontData`](../../ifontdata)[]
 

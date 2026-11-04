@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes per il riferimento API di .NET
-description: Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico internamente, escludendo gli assi e le etichette degli assi, o esternamente, includendo gli assi e le etichette degli assi.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico al suo interno, escludendo gli assi e le etichette degli assi, o all'esterno, includendo gli assi e le etichette degli assi.
 type: docs
-weight: 2270
+weight: 2290
 url: /it/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enumerazione
 
-Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico internamente (escludendo gli assi e le etichette degli assi) o esternamente (includendo gli assi e le etichette degli assi).
+Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico al suo interno (escludendo gli assi e le etichette degli assi) o all'esterno (includendo gli assi e le etichette degli assi).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Inner | `0` | Specifica che la dimensione dell'area del grafico determina la dimensione dell'area del grafico, escludendo i segni di spunta e le etichette degli assi. |
-| Outer | `1` | Specifica che la dimensione dell'area del grafico determina la dimensione dell'area del grafico, i segni di spunta e le etichette degli assi. |
+| Inner | `0` | Specifica che la dimensione dell'area del grafico deve determinare la dimensione dell'area del grafico, escludendo i tic e le etichette degli assi. |
+| Outer | `1` | Specifica che la dimensione dell'area del grafico deve determinare la dimensione dell'area del grafico, i tic e le etichette degli assi. |
 
 ### Vedi anche
 

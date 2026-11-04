@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy olyan pontgyűjteményt képvisel, amely egyedi felosztású bar-of-pie vagy pie-of-pie diagram második körében vagy oszlopában jelenik meg.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Egy pontgyűjteményt reprezentál, amely egy egyéni felosztással rendelkező bar-of-pie vagy pie-of-pie diagram második körében vagy sávjában kerül megjelenítésre.
 type: docs
-weight: 2190
+weight: 2210
 url: /hu/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interfész
 
-Egy gyűjteményt képvisel, amely a bar-of-pie vagy pie-of-pie diagramon a második körben vagy oszlopban egyedi felosztással megjelenítendő pontokat tartalmaz.
+Egy pontgyűjteményt reprezentál, amely egy egyéni felosztással rendelkező kör- vagy sávdiagram második körében vagy sávjában lesz megjelenítve.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -19,14 +19,14 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | Név | Leírás |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Visszaadja a diagram adatpontot index szerint. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Visszaadja a diagram adatpontot index alapján. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Hozzáad egy adatpontot a szülő sorozat pontgyűjteményének indexe szerint. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Eltávolít egy elemet a szülő sorozat pontgyűjteményének indexe szerint. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Hozzáad egy adatpontot a szülő sorozat pontgyűjteményében lévő indexe szerint. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Eltávolít egy elemet a gyűjteményből a szülő sorozat pontgyűjteményében lévő indexe alapján. |
 
 ### Lásd még
 

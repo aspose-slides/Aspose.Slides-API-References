@@ -1,12 +1,12 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Giao diện này cho phép khởi tạo IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /vi/aspose.slides/iimagewrapperfactory/
 ---
-## Giao diện IImageWrapperFactory
+## IImageWrapperFactory giao diện
 
 Giao diện này cho phép khởi tạo IBitmapWrapper.
 
@@ -18,11 +18,11 @@ public interface IImageWrapperFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Khởi tạo một thể hiện mới của lớp ImageWrapper từ hình ảnh hiện có đã chỉ định. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Khởi tạo một thể hiện mới của lớp ImageWrapper từ hình ảnh hiện có được chỉ định. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Khởi tạo một thể hiện mới của lớp ImageWrapper từ luồng dữ liệu được chỉ định. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Khởi tạo một thể hiện mới của lớp ImageWrapper từ tệp được chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

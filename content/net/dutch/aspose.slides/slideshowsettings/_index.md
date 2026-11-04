@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de diavoorstellingsinstellingen voor de presentatie weer.
+description: Stelt de instellingen van de diavoorstelling voor de presentatie voor.
 type: docs
-weight: 10480
+weight: 10500
 url: /nl/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings klasse
 
-Stelt de diavoorstellingsinstellingen voor de presentatie weer.
+Stelt de instellingen van de diavoorstelling voor de presentatie voor.
 
 ```csharp
 public class SlideShowSettings
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Diavoorstelling herhalen |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Herhaal diavoorstelling |
 | [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Penkleur voor diavoorstelling |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Animatie weergeven in diavoorstelling |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Mediacontroles tonen |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Vertelling tonen in diavoorstelling |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Mediabediening weergeven |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Vertelling weergeven in diavoorstelling |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Diareeks |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Krijgt of stelt het type diavoorstelling in. Wordt vertegenwoordigd door de volgende [`SlideShowType`](./slideshowtype) voorouders: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) en [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Gebruik timing in diavoorstelling |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Geeft of stelt het type diavoorstelling in. Vertegenwoordigd door de volgende [`SlideShowType`](./slideshowtype) voorouders: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) en [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Timing gebruiken in diavoorstelling |
 
 ### Zie ook
 

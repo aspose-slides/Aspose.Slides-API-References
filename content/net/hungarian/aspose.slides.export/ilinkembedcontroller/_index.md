@@ -1,26 +1,26 @@
 ---
 title: ILinkEmbedController
-second_title: Aspose.Sildes .NET API referencia
-description: Visszahívási interfész, amely meghatározza, hogyan kell feldolgozni az objektumot mentés közben.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Callback interfész, amelyet az objektum mentés közbeni feldolgozásának meghatározására használnak.
 type: docs
-weight: 3990
+weight: 4010
 url: /hu/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interfész
 
-Visszahívási interfész, amely meghatározza, hogyan kell feldolgozni az objektumot mentés közben.
+Callback interfész használva annak meghatározására, hogyan kell feldolgozni az objektumot a mentés során.
 
 ```csharp
 public interface ILinkEmbedController
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Meghatározza, hogy az objektum hol legyen tárolva. Ez a metódus minden objektumazonosítóhoz egyszer van meghívva. Nem garantált, hogy nem lesz két objektum azonos adatokkal, semanticName és contentType értékekkel, de különböző azonosítóval. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Visszaad egy URL-t egy külső objektumhoz. Ez a metódus mindig meghívásra kerül, ha [`GetObjectStoringLocation`](./getobjectstoringlocation) Link-et adott vissza, és meghívható, ha [`GetObjectStoringLocation`](./getobjectstoringlocation) Embed-et adott vissza, de a beágyazás lehetetlen. Többször is meghívható ugyanazhoz az objektumazonosítóhoz. |
-| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Külső objektumot ment. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Megállapítja, hogy hol kell tárolni az objektumot. Ez a metódus egyszer kerül meghívásra minden egyes objektumazonosító esetén. Nem garantált, hogy nem lesz két objektum ugyanazokkal az adatokkal, semanticName és contentType, de eltérő azonosítóval. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Visszaad egy URL-t egy külső objektumra. Ez a metódus mindig meghívódik, ha [`GetObjectStoringLocation`](./getobjectstoringlocation) Link-et adott vissza, és meghívható, ha [`GetObjectStoringLocation`](./getobjectstoringlocation) Embed-et adott vissza, de a beágyazás lehetetlen. Többször is meghívható ugyanarra az objektumazonosítóra. |
+| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Ment egy külső objektumot. |
 
 ### Lásd még
 

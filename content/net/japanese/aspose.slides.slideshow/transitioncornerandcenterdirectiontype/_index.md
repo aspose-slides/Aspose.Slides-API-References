@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: コーナーと中心に限定された方向を指定します。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: コーナーと中心に制限された方向を指定します。
 type: docs
-weight: 10340
+weight: 10360
 url: /ja/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType 列挙型
 
-コーナーと中心に限定された方向を指定します。
+コーナーと中心に制限された方向を指定します。
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType
@@ -16,7 +16,7 @@ public enum TransitionCornerAndCenterDirectionType
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)

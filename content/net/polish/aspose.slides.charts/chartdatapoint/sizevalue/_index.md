@@ -1,14 +1,14 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes dla .NET referencja API
-description: Zwraca wartość rozmiaru punktu danych wykresu. Używane z wykresami Treemap i Sunburst. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Zwraca wartość rozmiaru punktu danych wykresu. Używany z wykresami Treemap i Sunburst. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /pl/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
-## Właściwość ChartDataPoint.SizeValue
+## ChartDataPoint.SizeValue właściwość
 
-Zwraca wartość rozmiaru punktu danych wykresu. Używane z wykresami Treemap i Sunburst. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
+Zwraca wartość rozmiaru punktu danych wykresu. Używany z wykresami Treemap i Sunburst. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

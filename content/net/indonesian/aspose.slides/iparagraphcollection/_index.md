@@ -1,14 +1,14 @@
 ---
 title: IParagraphCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan paragraf.
+description: Mewakili koleksi paragraf.
 type: docs
-weight: 6570
+weight: 6590
 url: /id/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection antarmuka
 
-Mewakili kumpulan paragraf.
+Mewakili koleksi paragraf.
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
@@ -19,9 +19,9 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | Nama | Deskripsi |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. Hanya-baca IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Mengizinkan memperoleh antarmuka ISlideComponent dasar. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka ISlideComponent dasar. Hanya-baca [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
+| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. |
 
 ## Metode
 
@@ -29,13 +29,13 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Menambahkan Paragraph ke akhir koleksi. |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Menambahkan konten ParagraphCollection ke akhir koleksi. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Menambahkan teks dari string html yang ditentukan ke dalam koleksi. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Menambahkan teks dari string html yang ditentukan ke dalam koleksi. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Menambahkan teks dari string html yang ditentukan ke koleksi. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Menambahkan teks dari string html yang ditentukan ke koleksi. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Menghapus semua elemen dari koleksi. |
 | [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Mengonversi paragraf yang ditentukan ke HTML dan mengembalikannya sebagai objek String. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Menyisipkan Paragraph ke dalam koleksi pada indeks yang ditentukan. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Menyisipkan konten ParagraphCollection ke dalam koleksi pada indeks yang ditentukan. |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Menghapus kemunculan pertama dari paragraf tertentu. |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Menghapus kejadian pertama dari paragraf tertentu. |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
 
 ### Lihat Juga

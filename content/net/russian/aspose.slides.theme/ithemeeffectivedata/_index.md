@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, содержащий эффективные свойства темы.
 type: docs
-weight: 11380
+weight: 11400
 url: /ru/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData интерфейс
@@ -16,14 +16,14 @@ public interface IThemeEffectiveData
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифтов. Только для чтения [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Возвращает схему цветов. |
 

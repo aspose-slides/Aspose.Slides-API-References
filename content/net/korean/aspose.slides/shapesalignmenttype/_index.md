@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes for .NET API 참조
-description: 선택한 도형을 슬라이드에 배치하는 방식을 정의합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 선택한 도형을 슬라이드에 배치하는 방법을 정의합니다.
 type: docs
-weight: 9940
+weight: 9960
 url: /ko/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType 열거형
 
-선택한 도형을 슬라이드에서 배치하는 방식을 정의합니다.
+선택한 도형의 슬라이드 상 위치를 변경하는 방법을 정의합니다.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -24,10 +24,10 @@ public enum ShapesAlignmentType
 | AlignTop | `3` | 위쪽 정렬 |
 | AlignMiddle | `4` | 중간 정렬 |
 | AlignBottom | `5` | 아래쪽 정렬 |
-| DistributeHorizontally | `6` | 수평으로 분산 |
-| DistributeVertically | `7` | 수직으로 분산 |
+| DistributeHorizontally | `6` | 수평으로 분배 |
+| DistributeVertically | `7` | 수직으로 분배 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

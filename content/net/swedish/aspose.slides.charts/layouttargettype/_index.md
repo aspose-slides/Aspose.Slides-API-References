@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Sildes för .NET API-referens
-description: Om layouten för plotområdet definieras manuellt anger den här egenskapen huruvida plotområdet ska layoutas av sin insida utan att inkludera axlar och axelrubriker eller utsida inklusive axlar och axelrubriker.
+description: Om layouten för plot-området definieras manuellt anger den här egenskapen om plot-området ska layoutas av dess insida utan att inkludera axlar och axelrubriker eller av dess utsida inklusive axlar och axelrubriker.
 type: docs
-weight: 2270
+weight: 2290
 url: /sv/aspose.slides.charts/layouttargettype/
 ---
-## LayoutTargetType enum
+## LayoutTargetType-enumeration
 
-Om layouten för plotområdet definieras manuellt anger den här egenskapen huruvida plotområdet ska layoutas av sin insida (utan axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker).
+Om layouten för plot-området definierats manuellt anger den här egenskapen om plot-området ska layoutas av dess insida (utan att inkludera axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Inner | `0` | Anger att plotområdets storlek ska bestämma storleken på plotområdet, utan att inkludera tickmarkeringarna och axelrubrikerna. |
-| Outer | `1` | Anger att plotområdets storlek ska bestämma storleken på plotområdet, tickmarkeringarna och axelrubrikerna. |
+| Inner | `0` | Anger att storleken på plot-området ska bestämma storleken på plot-området, utan att inkludera staplarna och axelrubrikerna. |
+| Outer | `1` | Anger att storleken på plot-området ska bestämma storleken på plot-området, staplarna och axelrubrikerna. |
 
 ### Se även
 

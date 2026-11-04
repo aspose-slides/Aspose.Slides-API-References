@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes .NET API Referencia
-description: SVG képet képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy SVG képet reprezentál.
 type: docs
-weight: 10800
+weight: 10820
 url: /hu/aspose.slides/svgimage/
 ---
 ## SvgImage osztály
 
-SVG képet képvisel.
+Egy SVG képet reprezentál.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -29,12 +29,12 @@ public class SvgImage : ISvgImage
 
 | Név | Leírás |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Visszaadja a megadott Svg alap URI-ját. Relatív hivatkozások feloldásához használják. Csak olvasható String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Visszaadja a visszahívási interfészt, amelyet a külső erőforrások feloldásához használnak az Svg dokumentumok importálása során. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Visszaadja a megadott Svg alap URI-ját. Relatív hivatkozások feloldásához használható. Csak olvasható String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Visszaadja a külső erőforrások feloldásához használt visszahívási interfészt a Svg dokumentumok importálása során. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Visszaadja az SVG tartalmat. Csak olvasható String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Visszaadja az SVG adatokat. Csak olvasható Byte[]. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Visszaadja az SVG adatot. Csak olvasható Byte[]. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

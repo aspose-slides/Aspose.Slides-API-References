@@ -1,9 +1,9 @@
 ---
 title: Row
-second_title: Aspose.Sildes для .NET – справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет строку в таблице.
 type: docs
-weight: 9710
+weight: 9730
 url: /ru/aspose.slides/row/
 ---
 ## Row класс
@@ -16,27 +16,27 @@ public sealed class Row : CellCollection, IRow
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Возвращает высоту строки. Только для чтения Double. |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Возвращает или задаёт минимально возможную высоту строки. Чтение/запись Double. |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Возвращает или задает минимально возможную высоту строки. Чтение/запись Double. |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительскую презентацию CellCollection. Только для чтения [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Возвращает объект RowFormat, содержащий свойства форматирования для этой строки. Только для чтения [`IRowFormat`](../irowformat). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает синхронизационный корень. Только для чтения Object. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array,int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Устанавливает заданные свойства форматирования абзаца для всех абзацев ячеек строки. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Устанавливает заданные свойства форматирования фрагмента для всех фрагментов ячеек строки. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает заданные свойства форматирования текстового фрейма для всех текстовых фреймов ячеек строки. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Устанавливает определённые свойства формата абзаца для всех абзацев ячеек строки. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Устанавливает определённые свойства формата части для всех частей ячеек строки. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает определённые свойства формата текстового фрейма для всех текстовых фреймов ячеек строки. |
 
 ### См. также
 

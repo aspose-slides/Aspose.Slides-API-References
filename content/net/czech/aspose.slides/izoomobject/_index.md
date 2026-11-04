@@ -1,14 +1,14 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes pro .NET – reference API
-description: Zastupuje objekt Zoom na snímku.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Představuje objekt Zoom ve snímku.
 type: docs
-weight: 7410
+weight: 7430
 url: /cs/aspose.slides/izoomobject/
 ---
 ## IZoomObject rozhraní
 
-Zastupuje objekt Zoom na snímku.
+Představuje objekt Zoom v snímku.
 
 ```csharp
 public interface IZoomObject : IGraphicalObject
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Název | Popis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze pro čtení [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Získá nebo nastaví typ obrázku objektu zoom. Čtení/Zápis [`ZoomImageType`](../zoomimagetype). Výchozí hodnota: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Získá nebo nastaví chování navigace v prezentaci. Čtení/Zápis Boolean. Výchozí hodnota: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Získá nebo nastaví hodnotu, která určuje, zda Zoom použije pozadí cílového snímku. Čtení/Zápis Boolean. Výchozí hodnota: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Získá nebo nastaví dobu trvání přechodu mezi Zoom a snímkem. Čtení/Zápis Single. Výchozí hodnota: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Získá nebo nastaví obrázek pro objekt zoom. Čtení/Zápis [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze ke čtení [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Získá nebo nastaví typ obrázku objektu zoom. Čtení/zápis [`ZoomImageType`](../zoomimagetype). Výchozí hodnota: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Získá nebo nastaví chování navigace v prezentaci. Čtení/zápis Boolean. Výchozí hodnota: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Získá nebo nastaví hodnotu, která určuje, zda Zoom použije pozadí cílového snímku. Čtení/zápis Boolean. Výchozí hodnota: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Získá nebo nastaví dobu trvání přechodu mezi Zoom a snímkem. Čtení/zápis Single. Výchozí hodnota: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Získá nebo nastaví obrázek pro objekt zoom. Čtení/zápis [`IPPImage`](../ippimage). |
 
 ### Viz také
 

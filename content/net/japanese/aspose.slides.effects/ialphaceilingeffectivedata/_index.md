@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アルファシーリング効果を表す不変オブジェクトです。アルファ不透明度が0より大きい値は100に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
+description: アルファ上限効果を表す不変オブジェクトです。アルファ不透明度が0より大きい値は100に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 type: docs
-weight: 3050
+weight: 3070
 url: /ja/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData インターフェイス
+## IAlphaCeilingEffectiveData interface
 
-アルファシーリング効果を表す不変オブジェクトです。アルファ（不透明度）の値が0より大きい場合、100%に変更されります。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
+Alpha Ceiling 効果を表す不変オブジェクトです。Alpha（不透明度）の値が0より大きい場合は100%に変更されます。言い換えれば、部分的に不透明なものはすべて完全に不透明になります。
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。 読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 参照
 

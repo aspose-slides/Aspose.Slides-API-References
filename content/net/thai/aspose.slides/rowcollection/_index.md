@@ -1,14 +1,14 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันแถวของตาราง.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงคอลเลกชันแถวของตาราง.
 type: docs
-weight: 9720
+weight: 9740
 url: /th/aspose.slides/rowcollection/
 ---
-## คลาส RowCollection
+## RowCollection คลาส
 
-เป็นตัวแทนของคอลเลกชันแถวของตาราง.
+แสดงคอลเลกชันแถวของตาราง.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -18,19 +18,19 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | รับจำนวนแถวที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | ส่งค่าที่ระบุว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อหลายเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | ส่งคืนแถวที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | รับจำนวนแถวที่อยู่ในคอลเลกชันจริง. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันนี้ถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | คืนค่าแถวที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกไว้ที่ตำแหน่งล่างสุดของตาราง. |
-| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกที่ตำแหน่งที่ระบุในตาราง. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | สร้างสำเนาของแถวเทมเพลตที่ระบุและแทรกลงที่ด้านล่างของตาราง. |
+| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | คืนค่า enumerator ที่วนผ่านคอลเลกชัน. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | สร้างสำเนาของแถวเทมเพลตที่ระบุและแทรกลงในตำแหน่งที่ระบุในตาราง. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | ลบแถวที่ตำแหน่งที่ระบุออกจากตาราง. |
 
 ### ดูเพิ่มเติม

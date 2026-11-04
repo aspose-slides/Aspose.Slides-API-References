@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個漸層停靠點的集合。
+description: 代表一組梯度停止點的集合。
 type: docs
-weight: 5030
+weight: 5050
 url: /zh-hant/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection 類別
 
-表示一個漸層停靠點的集合。
+Represnts a collection of gradient stops.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -19,29 +19,29 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | 傳回集合中漸層停靠點的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | 傳回指示集合之存取是否已同步（執行緒安全）的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | 依索引傳回漸層停靠點。 |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | 傳回集合中梯度停止點的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | 依索引傳回梯度停止點。 |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 建立新的漸層停靠點並將其新增至集合的末端。 |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 建立新的漸層停靠點並將其新增至集合的末端。 |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 建立新的漸層停靠點並將其新增至集合的末端。 |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | 從集合中移除所有漸層停靠點。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 建立新的梯度停止點並將其加入集合的末端。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 建立新的梯度停止點並將其加入集合的末端。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 建立新的梯度停止點並將其加入集合的末端。 |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | 從集合中移除所有梯度停止點。 |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 建立新的漸層停靠點並在集合中指定的索引處插入它。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 建立新的漸層停靠點並在集合中指定的索引處插入它。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 建立新的漸層停靠點並在集合中指定的索引處插入它。 |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 在指定的索引處移除漸層停靠點。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 建立新的梯度停止點並插入至集合中指定的索引位置。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 建立新的梯度停止點並插入至集合中指定的索引位置。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 建立新的梯度停止點並插入至集合中指定的索引位置。 |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 在指定的索引位置移除梯度停止點。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [IGradientStopCollection](../igradientstopcollection)

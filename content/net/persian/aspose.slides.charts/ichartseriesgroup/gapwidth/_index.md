@@ -1,20 +1,24 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes برای .NET – مرجع API
-description: فضای بین خوشه‌های نوار یا ستون را به عنوان درصدی از عرض نوار یا ستون مشخص می‌کند. خواندن/نوشتن UInt16.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: دریافت یا تنظیم فضای بین خوشه‌های نوار یا ستون، به عنوان درصدی از عرض نوار یا ستون. مقدار باید بین 0 و 500 باشد. Read/write UInt16.
 type: docs
 weight: 70
 url: /fa/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth ویژگی
 
-فضای بین خوشه‌های نوار یا ستون را به عنوان درصدی از عرض نوار یا ستون مشخص می‌کند. خواندن/نوشتن UInt16.
+دریافت یا تنظیم فضای بین خوشه‌های نوار یا ستون، به عنوان درصدی از عرض نوار یا ستون. مقدار باید بین ۰ و ۵۰۰ باشد. خواندنی/نوشتنی UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
 
-### موارد مرتبط
+### توضیحات
+
+این ویژگی برای سری‌های از انواع زیر اعمال می‌شود: همه زیرنوع‌های نوار و ستون، BarOfPie، PieOfPie، BoxAndWhisker، Funnel، Histogram، Waterfall.
+
+### مراجع
 
 * رابط [IChartSeriesGroup](../../ichartseriesgroup)
 * فضای‌نام [Aspose.Slides.Charts](../../ichartseriesgroup)

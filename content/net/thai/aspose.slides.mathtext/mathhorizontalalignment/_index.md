@@ -1,12 +1,12 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: การจัดแนวนอน
 type: docs
-weight: 8780
+weight: 8800
 url: /th/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment enumeration
+## MathHorizontalAlignment enum
 
 การจัดแนวนอน
 
@@ -20,7 +20,7 @@ public enum MathHorizontalAlignment
 | --- | --- | --- |
 | NotDefined | `0` | ค่าไม่ได้กำหนด |
 | Left | `1` | การจัดชิดซ้าย |
-| Center | `2` | ศูนย์กลาง |
+| Center | `2` | กึ่งกลาง |
 | Right | `3` | ขวา |
 
 ### ดูเพิ่มเติม

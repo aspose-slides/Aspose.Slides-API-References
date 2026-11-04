@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes .NET API referenciája
-description: Megadja, hogy az adatpont megfordítja-e a színeit, ha az érték negatív. Olvasás/írás Boolean.
+second_title: Aspose.Sildes a .NET API referencia
+description: Megadja, hogy az adatpont negatív érték esetén invertálja a színeit. Olvasás/írás Boolean.
 type: docs
-weight: 90
+weight: 130
 url: /hu/aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
 ## IChartDataPoint.InvertIfNegative tulajdonság
 
-Meghatározza, hogy az adatpont megfordítja-e a színeit, ha az érték negatív. Olvasás/írás Boolean.
+Megadja, hogy az adatpont negatív érték esetén invertálja a színeit. Olvasás/írás Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
 description: อนุญาตให้สร้างการอ้างอิงโครงการ VBA ผ่านอินเทอร์เฟซ COM
 type: docs
-weight: 11680
+weight: 11700
 url: /th/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory คลาส
@@ -18,19 +18,19 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | ตัวคอนสตรัคเตอร์เริ่มต้น |
+| [VbaReferenceFactory](vbareferencefactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | อินสแตนซ์ static ของแฟกทอรีการอ้างอิงโครงการ VBA. อ่านอย่างเดียว [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | อินสแตนซ์แบบคงที่ของโรงงานการอ้างอิงโครงการ VBA. อ่านอย่างเดียว [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | สร้างการอ้างอิงไลบรารีประเภท OLE Automation ใหม่ |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | สร้างการอ้างอิงไลบรารีประเภท OLE Automation ใหม่. |
 
 ### ดูเพิ่มเติม
 

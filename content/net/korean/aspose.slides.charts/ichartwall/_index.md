@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes for .NET API 참조
-description: 3D 차트의 벽을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 3d 차트의 벽을 나타냅니다.
 type: docs
-weight: 2010
+weight: 2030
 url: /ko/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall 인터페이스
 
-3D 차트의 벽을 나타냅니다.
+3d 차트의 벽을 나타냅니다.
 
 ```csharp
 public interface IChartWall
@@ -22,7 +22,7 @@ public interface IChartWall
 | [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | 그림 유형을 반환하거나 설정합니다. 읽기/쓰기 [`PictureType`](./picturetype). |
 | [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | 플롯 볼륨의 가장 큰 차원의 백분율로 벽 두께를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

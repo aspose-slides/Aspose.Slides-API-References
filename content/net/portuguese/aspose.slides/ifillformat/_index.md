@@ -3,7 +3,7 @@ title: IFillFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções de formatação de preenchimento.
 type: docs
-weight: 5790
+weight: 5810
 url: /pt/aspose.slides/ifillformat/
 ---
 ## IFillFormat interface
@@ -16,7 +16,7 @@ public interface IFillFormat : IFillParamSource
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Permite obter a interface base IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Retorna ou define o tipo de preenchimento. Leitura/gravação [`FillType`](../filltype). |
@@ -28,9 +28,9 @@ public interface IFillFormat : IFillParamSource
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtém os dados de formatação de preenchimento efetivo com a herança aplicada. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Obtém os dados de formatação de preenchimento efetivos com a herança aplicada. |
 
 ### Veja Também
 

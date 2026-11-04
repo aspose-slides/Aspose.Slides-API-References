@@ -1,12 +1,12 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje data používaná pro vykreslování grafu.
 type: docs
-weight: 1310
+weight: 1320
 url: /cs/aspose.slides.charts/chartdata/
 ---
-## Třída ChartData
+## ChartData třída
 
 Reprezentuje data používaná pro vykreslování grafu.
 
@@ -18,26 +18,27 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Název | Popis |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Získává primární kategorie (nebo jak primární, tak sekundární kategorie, pokud je vlastnost [`UseSecondaryCategories`](./usesecondarycategories) nastavená na false). Pouze ke čtení [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Získává tovární třídu buněk pro vytváření buněk používaných pro řady grafu nebo kategorie. Pouze ke čtení [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Reprezentuje cestu k externímu sešitu, pokud je externím zdrojem dat, jinak null |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Získává typ vloženého sešitu. Vrací NotDefined, pokud je [`DataSourceType`](./datasourcetype) ExternalWorkbook. Pouze ke čtení [`WorkbookType`](../workbooktype). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Získá primární kategorie (nebo jak primární, tak sekundární kategorie, pokud je vlastnost [`UseSecondaryCategories`](./usesecondarycategories) false). Pouze pro čtení [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Získá továrnu na buňky pro vytvoření buněk používaných pro sérii grafu nebo kategorie. Pouze pro čtení [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Reprezentuje cestu k externí sešitu, pokud je externí zdroj dat, jinak null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Získá typ vloženého sešitu. Vrací NotDefined, pokud je [`DataSourceType`](./datasourcetype) ExternalWorkbook. Pouze pro čtení [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Reprezentuje zdroj dat grafu |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Získává sekundární kategorie, pokud je vlastnost [`UseSecondaryCategories`](./usesecondarycategories) nastavena na true. Pouze ke čtení [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Získává řady. Pouze ke čtení [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Získává skupiny řad. Pouze ke čtení [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Pokud je false, pak vlastnost [`SecondaryCategories`](./secondarycategories) vrací null a data ve vlastnosti [`Categories`](./categories) jsou použita jak pro primární, tak pro sekundární řady. Pokud je true, pak data ve vlastnosti [`SecondaryCategories`](./secondarycategories) jsou použita pro sekundární řady a data ve vlastnosti [`Categories`](./categories) jsou použita pro primární řady. Číst/zapisovat Boolean. |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Získá sekundární kategorie, pokud je vlastnost [`UseSecondaryCategories`](./usesecondarycategories) true. Pouze pro čtení [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Získá série. Pouze pro čtení [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Získá skupiny sérií. Pouze pro čtení [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Pokud false, pak vlastnost [`SecondaryCategories`](./secondarycategories) vrátí null a data ve vlastnosti [`Categories`](./categories) jsou použita jak pro primární, tak sekundární série. Pokud true, pak data ve vlastnosti [`SecondaryCategories`](./secondarycategories) jsou použita pro sekundární série a data ve vlastnosti [`Categories`](./categories) jsou použita pro primární série. Čtení/zápis Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Získává rozsah dat grafu. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Získá rozsah dat grafu. |
 | [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Zapíše interně obsažený Excel sešit do paměťového proudu. |
+| [RefreshData](../../aspose.slides.charts/chartdata/refreshdata)() | Obnoví data grafu načtením ze zdrojového sešitu. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Nastaví externí sešit jako zdroj dat pro graf. Data grafu budou aktualizována z cílového sešitu. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Nastaví externí sešit jako zdroj dat pro graf. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou do konce kolekce přidány další řady se stejným typem jako poslední řada v aktuální kolekci. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Prohodí data podél osy. Data vykreslená na ose X se přesunou na osu Y a naopak. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Nastaví rozsah dat grafu. Série a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet sérií v rozsahu dat větší než počet sérií v datech grafu, budou přidány dodatečné série se stejným typem jako poslední série v aktuální kolekci na konec kolekce. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Prohodí data mezi osami. Data zobrazovaná na ose X se přesunou na osu Y a naopak. |
 | [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Inicializuje interně obsažený Excel sešit hodnotou zadanou uživatelem. |
 
 ### Viz také
@@ -46,6 +47,6 @@ public class ChartData : DomObject<Chart>, IChartData
 * třída [Chart](../chart)
 * rozhraní [IChartData](../ichartdata)
 * jmenný prostor [Aspose.Slides.Charts](../../aspose.slides.charts)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

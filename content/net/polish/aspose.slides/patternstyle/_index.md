@@ -1,12 +1,12 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje styl wzoru.
 type: docs
-weight: 9360
+weight: 9380
 url: /pl/aspose.slides/patternstyle/
 ---
-## enumeracja PatternStyle
+## PatternStyle enumeracja
 
 Reprezentuje styl wzoru.
 

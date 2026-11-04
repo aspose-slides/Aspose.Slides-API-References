@@ -1,9 +1,9 @@
 ---
 title: DataTable
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence d'API .NET
 description: Représente les propriétés du tableau de données.
 type: docs
-weight: 1600
+weight: 1610
 url: /fr/aspose.slides.charts/datatable/
 ---
 ## DataTable classe
@@ -20,11 +20,11 @@ public class DataTable : DomObject<Chart>, IDataTable
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Renvoie le graphique. Lecture seule [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/datatable/format) { get; } | Renvoie les styles de ligne, de remplissage et d'effet d'un objet. Lecture seule [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Vrai si le tableau de données du graphique possède des bordures de cellules horizontales. Lecture/Écriture Booléen. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Vrai si le tableau de données du graphique possède des bordures de contour. Lecture/Écriture Booléen. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Vrai si le tableau de données du graphique possède des bordures de cellules verticales. Lecture/Écriture Booléen. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Vrai si la clé de légende d'étiquette de données est visible. Lecture/Écriture Booléen. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Renvoie le format du texte. Lecture seule [`IChartTextFormat`](../icharttextformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | True si le tableau de données du graphique possède des bordures de cellule horizontales. Lecture/écriture Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | True si le tableau de données du graphique possède des bordures de contour. Lecture/écriture Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | True si le tableau de données du graphique possède des bordures de cellule verticales. Lecture/écriture Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | True si la clé de légende de l'étiquette de données est visible. Lecture/écriture Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Renvoie le format de texte. Lecture seule [`IChartTextFormat`](../icharttextformat). |
 
 ### Voir aussi
 

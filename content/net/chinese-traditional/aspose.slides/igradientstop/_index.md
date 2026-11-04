@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes .NET API 參考
-description: 代表一種漸層格式。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示漸層格式。
 type: docs
-weight: 6020
+weight: 6040
 url: /zh-hant/aspose.slides/igradientstop/
 ---
 ## IGradientStop 介面
 
-表示一種漸層格式。
+表示漸層格式。
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | 傳回漸層停止點的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 傳回或設定漸層停止點的位置 (0..1)。讀寫 Single。 |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | 傳回漸層停點的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 傳回或設定漸層停點的位置 (0..1)。讀寫 Single。 |
 
 ### 另見
 

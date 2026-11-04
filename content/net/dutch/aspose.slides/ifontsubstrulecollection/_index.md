@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een collectie van lettertypevervangingen voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Representeert een collectie van lettertype-substituties.
 type: docs
-weight: 5890
+weight: 5910
 url: /nl/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interface
 
-Stelt een collectie van lettertypevervangingen voor.
+Representeert een collectie van lettertype-substituties.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,14 +18,14 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Haalt het element op op de opgegeven index. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Haalt het element op de opgegeven index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Voegt de nieuwe lettertypevervangingsregel toe aan de collectie |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Verwijdert de eerste voorkomen van een specifiek object uit de collectie. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Voegt de nieuwe lettertype-substitutieregel toe aan de collectie |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Verwijdert de eerste instantie van een specifiek object uit de collectie. |
 
 ### Zie ook
 

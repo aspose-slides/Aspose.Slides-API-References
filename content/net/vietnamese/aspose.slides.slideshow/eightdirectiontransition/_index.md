@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển tiếp slide tám hướng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Hiệu ứng chuyển đổi slide tám hướng.
 type: docs
-weight: 10020
+weight: 10040
 url: /vi/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition lớp
 
-Hiệu ứng chuyển tiếp slide tám hướng.
+Hiệu ứng chuyển đổi slide tám hướng.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -24,8 +24,8 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai thể hiện TransitionValueBase có bằng nhau không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể, thích hợp cho việc sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm
 

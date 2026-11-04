@@ -3,7 +3,7 @@ title: ChartLinesFormat
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje właściwości formatu linii siatki.
 type: docs
-weight: 1410
+weight: 1420
 url: /pl/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat klasa
@@ -16,7 +16,7 @@ public class ChartLinesFormat : IChartLinesFormat
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Zwraca efekty używane dla linii wykresu. Tylko do odczytu [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Zwraca właściwości stylu linii wykresu. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |

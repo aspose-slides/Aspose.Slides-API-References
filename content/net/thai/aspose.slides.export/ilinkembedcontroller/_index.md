@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อินเทอร์เฟซแบบเรียกกลับที่ใช้กำหนดว่าควรประมวลผลวัตถุอย่างไรระหว่างการบันทึก
+description: อินเทอร์เฟซคอลแบ็คที่ใช้กำหนดวิธีการประมวลผลวัตถุตระหว่างการบันทึก
 type: docs
-weight: 3990
+weight: 4010
 url: /th/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController อินเทอร์เฟซ
 
-อินเทอร์เฟซแบบเรียกกลับที่ใช้กำหนดว่าควรประมวลผลวัตถุอย่างไรระหว่างการบันทึก
+อินเทอร์เฟซคอลแบ็คที่ใช้กำหนดวิธีการประมวลผลวัตถุระหว่างการบันทึก
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,8 +18,8 @@ public interface ILinkEmbedController
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | กำหนดว่าควรเก็บวัตถุไว้ที่ไหน เมธอดนี้จะถูกเรียกหนึ่งครั้งต่อแต่ละ ID ของวัตถุ ไม่ได้รับการรับประกันว่าจะไม่มีวัตถุสองรายการที่มีข้อมูล, semanticName และ contentType เดียวกันแต่มี ID ต่างกัน |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | ส่งคืน URL ของวัตถุภายนอก เมธอดนี้จะถูกเรียกเสมอหาก [`GetObjectStoringLocation`](./getobjectstoringlocation) คืนค่า Link และอาจถูกเรียกหาก [`GetObjectStoringLocation`](./getobjectstoringlocation) คืนค่า Embed แต่ไม่สามารถฝังได้ สามารถเรียกหลายครั้งสำหรับ ID ของวัตถุเดียวกัน |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | กำหนดตำแหน่งที่ควรจัดเก็บวัตถุ วิธีนี้จะถูกเรียกหนึ่งครั้งต่อแต่ละรหัสวัตถุ ไม่รับประกันว่าจะไม่มีวัตถุสองชิ้นที่มีข้อมูล ชื่อเชิงความหมาย (semanticName) และชนิดเนื้อหา (contentType) เดียวกันแต่มีรหัสแตกต่างกัน |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | ส่งคืน URL ไปยังวัตถุภายนอก วิธีนี้จะเรียกเสมอหาก [`GetObjectStoringLocation`](./getobjectstoringlocation) ส่งคืน Link และอาจเรียกหาก [`GetObjectStoringLocation`](./getobjectstoringlocation) ส่งคืน Embed แต่การฝังไม่เป็นไปได้ สามารถเรียกหลายครั้งสำหรับรหัสวัตถุเดียวกัน |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | บันทึกวัตถุภายนอก |
 
 ### ดูเพิ่มเติม

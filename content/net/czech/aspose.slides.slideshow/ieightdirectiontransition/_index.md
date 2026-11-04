@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Efekt přechodu snímku ve osmi směrech.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Efekt přechodu snímku v osmi směrech.
 type: docs
-weight: 10070
+weight: 10090
 url: /cs/aspose.slides.slideshow/ieightdirectiontransition/
 ---
-## Rozhraní IEightDirectionTransition
+## IEightDirectionTransition rozhraní
 
-Efekt přechodu snímku ve osm směrech.
+Efekt přechodu snímku v osmi směrech.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase

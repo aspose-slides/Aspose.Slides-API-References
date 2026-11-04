@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
-second_title: Aspose.Sildes для .NET справочника API
-description: Исключение, которое выбрасывается, когда в ячейке электронных таблиц обнаружены неподдерживаемые данные.
+second_title: Aspose.Sildes для .NET справка по API
+description: Исключение, которое выбрасывается, когда в ячейке электронной таблицы обнаружены неподдерживаемые данные.
 type: docs
-weight: 10730
+weight: 10750
 url: /ru/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException класс
 
-Исключение, которое выбрасывается, когда в ячейке электронных таблиц обнаружены неподдерживаемые данные.
+Исключение, которое выбрасывается, когда в ячейке электронной таблицы обнаружены неподдерживаемые данные.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException

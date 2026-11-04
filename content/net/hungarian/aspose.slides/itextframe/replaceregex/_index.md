@@ -1,35 +1,35 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes .NET API referencia
-description: Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Lecseréli a reguláris kifejezés minden egyezését a megadott karakterláncra.
 type: docs
-weight: 110
+weight: 120
 url: /hu/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metódus
 
-A reguláris kifejezés összes egyezését cseréli le a megadott karakterláncra.
+Lecseréli a reguláris kifejezés összes egyezését a megadott szöveggel.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | Regex | A reguláris kifejezés Regex a cserélendő karakterláncok lekéréséhez. |
-| newText | String | A karakterlánc, amely a cserélendő karakterláncok minden előfordulását helyettesíti. |
+| regex | Regex | A Regex reguláris kifejezés a lecserélendő karakterláncok meghatározásához. |
+| newText | String | A karakterlánc, amely lecseréli az összes előfordulását a lecserélendő karakterláncoknak. |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi kódrészlet bemutatja, hogyan cseréljünk szöveget reguláris kifejezéssel a megadott karakterláncra.
+Az alábbi kódrészlet bemutatja, hogyan lehet szöveget lecserélni reguláris kifejezéssel a megadott karakterlánc használatával.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Cserélje le az összes 10 vagy több karakteres szót '***'-re
+	// Cserélje ki az összes 10 vagy több karakteres szót a '***'-ra
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

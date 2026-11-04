@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPart
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili bagian xml khusus.
 type: docs
-weight: 5670
+weight: 5690
 url: /id/aspose.slides/icustomxmlpart/
 ---
-## Antarmuka ICustomXmlPart
+## ICustomXmlPart antarmuka
 
-Mewakili bagian XML khusus.
+Mewakili bagian xml khusus.
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,16 +18,16 @@ public interface ICustomXmlPart
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Menentukan pengenal unik global (GUID) yang secara unik mengidentifikasi satu bagian XML khusus dalam dokumen Office Open XML. Hanya-baca Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Mengembalikan koleksi skema XML yang terkait dengan bagian XML khusus. Hanya-baca String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Mengembalikan atau mengatur data xml sebagai string UTF-8. Baca/tulis String. nilai adalah `null`. nilai kosong atau data xml tidak valid. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Mengembalikan atau mengatur data xml. Baca/tulis Byte[]. nilai adalah `null`. nilai kosong atau data xml tidak valid. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Menentukan pengidentifikasi unik global (GUID) yang secara unik mengidentifikasi satu bagian XML khusus dalam dokumen Office Open XML. Hanya baca Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Mengembalikan koleksi skema XML yang terkait dengan bagian XML khusus. Hanya baca String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Mengembalikan atau mengatur data xml sebagai string UTF-8. Baca/tulis String. nilai adalah `null`. nilai kosong atau xml-data tidak valid. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Mengembalikan atau mengatur data xml. Baca/tulis Byte[]. nilai adalah `null`. nilai kosong atau xml-data tidak valid. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Menghapus bagian XML khusus dari presentasi. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Menghapus bagian xml khusus dari presentasi. |
 
 ### Lihat Juga
 

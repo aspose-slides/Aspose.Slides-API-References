@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή από κελιά με δεδομένα.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει μια συλλογή κελιών με δεδομένα.
 type: docs
-weight: 1300
+weight: 1310
 url: /el/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection κλάση
 
-Αναπαριστά μια συλλογή από κελιά με δεδομένα.
+Αντιπροσωπεύει μια συλλογή κελιών με δεδομένα.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -18,8 +18,8 @@ public class ChartCellCollection : IChartCellCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Επιστρέφει τον αριθμό των κελιών στη συλλογή. Μόνο-ανάγνωση Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Επιστρέφει ένα κελί (IChartDataCell) με βάση το δείκτη. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Λαμβάνει τον αριθμό των κελιών στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Επιστρέφει ένα κελί (IChartDataCell) με βάση το ευρετήριο. |
 
 ## Μέθοδοι
 
@@ -28,13 +28,13 @@ public class ChartCellCollection : IChartCellCollection
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Προσθέτει νέο κελί στη συλλογή. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Δημιουργεί [`ChartDataCell`](../chartdatacell) από την καθορισμένη τιμή και το προσθέτει στη συλλογή. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Επιστρέφει τη διεύθυνση του συνόλου των κελιών στο βιβλίο εργασίας. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Συγκεντρώνει συμβολοσειρά από όλες τις τιμές συμβολοσειράς των κελιών. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Επιστρέφει έναν μετρητή που διατρέχει τη συλλογή. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Καταργεί ένα κελί από τη συλλογή με βάση το δείκτη. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Συνεχίζει τις συμβολοσειρές τιμών όλων των κελιών. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Επιστρέφει έναν εκχωρητή που διατρέχει τη συλλογή. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Αφαιρεί ένα κελί από τη συλλογή με βάση το ευρετήριο. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IChartCellCollection](../ichartcellcollection)
+* διεπαφή [IChartCellCollection](../ichartcellcollection)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συγκρότημα [Aspose.Slides](../../)
 

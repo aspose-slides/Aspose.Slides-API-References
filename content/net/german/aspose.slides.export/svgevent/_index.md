@@ -1,9 +1,9 @@
 ---
 title: SvgEvent
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen für SVG-Formen dar.
+description: Stellt Optionen für SVG-Form dar.
 type: docs
-weight: 4490
+weight: 4510
 url: /de/aspose.slides.export/svgevent/
 ---
 ## SvgEvent Aufzählung
@@ -16,27 +16,27 @@ public enum SvgEvent
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
 | OnFocusIn | `0` | Tritt auf, wenn ein Element den Fokus erhält, z. B. wenn ein Text ausgewählt wird. |
-| OnFocusOut | `1` | Tritt auf, wenn ein Element den Fokus verliert, z. B. wenn ein Text abgewählt wird. |
+| OnFocusOut | `1` | Tritt auf, wenn ein Element den Fokus verliert, z. B. wenn ein Text die Auswahl aufgibt. |
 | OnActivate | `2` | Tritt auf, wenn ein Element aktiviert wird, zum Beispiel durch einen Mausklick oder Tastendruck. |
 | OnClick | `3` | Tritt auf, wenn die Maustaste über einem Element geklickt wird. |
 | OnMouseDown | `4` | Tritt auf, wenn die Maustaste über einem Element gedrückt wird. |
 | OnMouseUp | `5` | Tritt auf, wenn die Maustaste über einem Element losgelassen wird. |
-| OnMouseOver | `6` | Tritt auf, wenn das Zeigegerät über ein Element bewegt wird. |
-| OnMouseMove | `7` | Tritt auf, wenn das Zeigegerät bewegt wird, während es über einem Element ist. |
-| OnMouseOut | `8` | Tritt auf, wenn das Zeigegerät von einem Element wegbewegt wird. |
-| OnLoad | `9` | Tritt auf, wenn der Benutzeragent das Element sowie dessen Nachfahren und alle referenzierten Ressourcen vollständig geparst hat, die zum Rendern erforderlich sind. |
-| OnUnload | `10` | Tritt auf, wenn die DOM-Implementierung ein Dokument aus einem Fenster oder Frame entfernt. Nur auf äußerste svg-Elemente anwendbar. |
-| OnAbort | `11` | Tritt auf, wenn das Laden der Seite gestoppt wird, bevor ein Element vollständig geladen werden konnte. |
-| OnError | `12` | Tritt auf, wenn ein Element nicht korrekt geladen wird oder ein Fehler bei der Skriptausführung auftritt. |
-| OnResize | `13` | Tritt auf, wenn die Ansicht eines Dokuments in der Größe geändert wird. Nur auf äußerste svg-Elemente anwendbar. |
-| OnScroll | `14` | Tritt auf, wenn die Ansicht eines Dokuments entlang der X- oder Y-Achse bzw. beider Achsen verschoben wird. Nur auf äußerste svg-Elemente anwendbar. |
-| OnZoom | `15` | Tritt auf, wenn der Zoom-Level einer Dokumentenansicht geändert wird. Nur auf äußerste svg-Elemente anwendbar. |
-| OnBegin | `16` | Tritt auf, wenn ein Animationselement beginnt. |
-| OnEnd | `17` | Tritt auf, wenn ein Animationselement endet. |
-| OnRepeat | `18` | Tritt auf, wenn ein Animationselement wiederholt wird. |
+| OnMouseOver | `6` | Tritt auf, wenn die Maus über ein Element bewegt wird. |
+| OnMouseMove | `7` | Tritt auf, wenn die Maus bewegt wird, während sie sich über einem Element befindet. |
+| OnMouseOut | `8` | Tritt auf, wenn die Maus von einem Element wegbewegt wird. |
+| OnLoad | `9` | Tritt auf, wenn der User-Agent das Element und seine Nachfolger sowie alle referenzierten Ressourcen vollständig geparst hat, die für die Darstellung nötig sind. |
+| OnUnload | `10` | Tritt auf, wenn die DOM-Implementierung ein Dokument aus einem Fenster oder Frame entfernt. Nur an äußersten SVG-Elementen anwendbar. |
+| OnAbort | `11` | Tritt auf, wenn das Laden einer Seite gestoppt wird, bevor ein Element vollständig geladen werden konnte. |
+| OnError | `12` | Tritt auf, wenn ein Element nicht ordnungsgemäß geladen wird oder ein Fehler während der Skriptausführung auftritt. |
+| OnResize | `13` | Tritt auf, wenn die Ansicht eines Dokuments in ihrer Größe geändert wird. Nur an äußersten SVG-Elementen anwendbar. |
+| OnScroll | `14` | Tritt auf, wenn die Ansicht eines Dokuments entlang der X- oder Y-Achse bzw. beider Achsen verschoben wird. Nur an äußersten SVG-Elementen anwendbar. |
+| OnZoom | `15` | Tritt auf, wenn die Zoom-Stufe einer Dokumentansicht geändert wird. Nur an äußersten SVG-Elementen anwendbar. |
+| OnBegin | `16` | Tritt auf, wenn ein Animations-Element beginnt. |
+| OnEnd | `17` | Tritt auf, wenn ein Animations-Element endet. |
+| OnRepeat | `18` | Tritt auf, wenn ein Animations-Element wiederholt wird. |
 
 ### Siehe auch
 

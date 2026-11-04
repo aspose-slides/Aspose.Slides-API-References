@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Xác định mức nhúng của phông chữ từ mảng byte và tên phông chữ đã cho.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định mức độ nhúng của phông chữ từ mảng byte và tên phông chữ được cung cấp.
 type: docs
-weight: 60
+weight: 70
 url: /vi/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
-## FontsManager.GetFontEmbeddingLevel phương thức
+## FontsManager.GetFontEmbeddingLevel method
 
-Xác định mức nhúng của phông chữ từ mảng byte và tên phông chữ đã cho.
+Xác định mức độ nhúng của phông chữ từ mảng byte và tên phông chữ được cung cấp.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -21,11 +21,11 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 ### Giá trị trả về
 
-Mức nhúng của phông chữ được chỉ định.
+Mức độ nhúng của phông chữ được chỉ định.
 
 ### Ngoại lệ
 
-| Ngoại lệ | Điều kiện |
+| Exception | Điều kiện |
 | --- | --- |
 | ArgumentNullException | Bị ném khi *fontBytes* là null. |
 
@@ -38,10 +38,10 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Lấy tất cả phông chữ được sử dụng trong bản trình chiếu
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Lấy mảng byte đại diện cho kiểu Regular của phông chữ đầu tiên trong bản trình chiếu
+    // Lấy mảng byte đại diện cho kiểu thường của phông chữ đầu tiên trong bản trình chiếu
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Xác định mức nhúng của phông chữ
+    // Xác định mức độ nhúng của phông chữ
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```

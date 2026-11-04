@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes cho .NET API Reference
-description: Các loại khoảng trống ngang giữa các cột của ma trận
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Các loại khoảng trống (khoảng cách ngang) giữa các cột của ma trận
 type: docs
-weight: 8990
+weight: 9010
 url: /vi/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules liệt kê
 
-Các kiểu khoảng trống (khoảng cách ngang) giữa các cột của ma trận
+Các loại khoảng trống (khoảng cách ngang) giữa các cột của ma trận
 
 ```csharp
 public enum MathSpacingRules
@@ -18,11 +18,11 @@ public enum MathSpacingRules
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Đơn (1 em cho cột hoặc 1 dòng cho hàng) |
-| OneAndHalfSpacingGap | `1` | Một và một nửa (1.5 em cho cột hoặc 1.5 dòng cho hàng) |
-| DoubleSpacingGap | `2` | Khoảng cách gấp đôi (2 em cho cột hoặc 2 dòng cho hàng) |
-| Exactly | `3` | Giá trị chính xác. Đối với cột, dựa trên giá trị của ColumnGap, đo bằng twips. Đối với hàng, dựa trên giá trị của RowGap, đo bằng twips |
-| Multiple | `4` | Nhiều. Đối với cột, dựa trên giá trị của ColumnGap, đo bằng các bội 0.5 em. Đối với hàng, dựa trên giá trị của RowGap, đo bằng dòng |
+| SingleSpacingGap | `0` | Đơn (1 em cho các cột hoặc 1 dòng cho các hàng) |
+| OneAndHalfSpacingGap | `1` | Một và một nửa (1.5 em cho các cột hoặc 1.5 dòng cho các hàng) |
+| DoubleSpacingGap | `2` | Khoảng cách gấp đôi (2 em cho các cột hoặc 2 dòng cho các hàng) |
+| Exactly | `3` | Giá trị chính xác Đối với các cột, dựa trên giá trị của ColumnGap, đo bằng twips Đối với các hàng, dựa trên giá trị của RowGap, đo bằng twips |
+| Multiple | `4` | Multiple Đối với các cột, dựa trên giá trị của ColumnGap, đo theo các bước 0.5 em Đối với các hàng, dựa trên giá trị của RowGap, đo bằng dòng |
 
 ### Xem Thêm
 

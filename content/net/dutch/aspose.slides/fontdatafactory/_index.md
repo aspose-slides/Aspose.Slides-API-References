@@ -1,20 +1,20 @@
 ---
 title: FontDataFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: FontData-fabriek
+description: FontData fabriek
 type: docs
-weight: 4830
+weight: 4850
 url: /nl/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory klasse
 
-FontData-fabriek
+FontData fabriek
 
 ```csharp
 public class FontDataFactory : IFontDataFactory
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,7 +24,7 @@ public class FontDataFactory : IFontDataFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Maakt FontData met de opgegeven lettertype-naam. |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Maakt FontData aan met de opgegeven fontnaam. |
 
 ### Zie ook
 

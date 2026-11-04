@@ -1,34 +1,34 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes برای .NET API مرجع
-description: "خواص نمای عادی را نمایش می‌دهد. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، یک ناحیه محتوا کناری و یک ناحیه محتوا پایین."
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش معمول را توصیف می‌کند. نمایش معمول شامل سه ناحیه محتوایی است؛ خود اسلاید، یک ناحیه محتوایی جانبی و یک ناحیه محتوایی پایین.
 type: docs
-weight: 6470
+weight: 6490
 url: /fa/aspose.slides/inormalviewproperties/
 ---
-## INormalViewProperties رابط
+## INormalViewProperties واسط
 
-نمایش عادی را توصیف می‌کند. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، یک ناحیه محتوا کناری، و یک ناحیه محتوا پایین.
+نمایش معمول را توصیف می‌کند. نمایش معمول شامل سه ناحیه محتوایی است: اسلاید خود، یک ناحیه محتوایی جانبی، و یک ناحیه محتوایی پایین.
 
 ```csharp
 public interface INormalViewProperties
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | وضعیتی را که نوار جداساز افقی باید نمایش داده شود، مشخص می‌کند. نوار جداساز افقی اسلاید را از ناحیه محتوا زیر اسلاید جدا می‌کند. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | تعیین می‌کند که آیا کاربر ترجیح می‌دهد یک ناحیه محتوا تک‌پنجره‌ای تمام‌صفحه را به جای نمای عادی استاندارد با سه ناحیه محتوا ببیند. در صورت فعال بودن، برنامه می‌تواند یکی از نواحی محتوا را در تمام پنجره نمایش دهد. Boolean قابل خواندن و نوشتن. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | این عنصر اندازه‌گیری ناحیه محتوا کناری نمای عادی را زمانی که ناحیه به‌صورت اندازه بازگردانده متغیر (نه کوچک شده و نه بزرگ شده) باشد، مشخص می‌کند. فقط خواندنی [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | این عنصر اندازه‌گیری ناحیه اسلاید بالایی نمای عادی را زمانی که ناحیه به‌صورت اندازه بازگردانده متغیر (نه کوچک شده و نه بزرگ شده) باشد، مشخص می‌کند. فقط خواندنی [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | تعیین می‌کند که آیا برنامه باید در صورت نمایش محتوای طرح کلی در هر یک از نواحی محتوا در حالت نمای عادی، آیکون‌ها را نشان دهد یا نه. Boolean قابل خواندن و نوشتن. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | تعیین می‌کند که آیا نوار جداساز عمودی در حالت کوچک شده به‌طور خودکار snap شود وقتی ناحیه کناری به‌ اندازه‌ای کوچک باشد. Boolean قابل خواندن و نوشتن. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | وضعیتی را که نوار جداساز عمودی باید نمایش داده شود، مشخص می‌کند. نوار جداساز عمودی اسلاید را از ناحیه محتوا کناری جدا می‌کند. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | وضعیت نشان‌دادن نوار تقسیم‌کننده افقی را مشخص می‌کند. نوار تقسیم‌کننده افقی اسلاید را از ناحیه محتوایی زیر اسلاید جدا می‌کند. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | مشخص می‌کند که آیا کاربر تمایل دارد یک ناحیه محتوایی تک‌پنجره‌ای تمام-صفحه را به جای نمایش معمولی با سه ناحیه محتوایی ببیند. اگر فعال باشد، برنامه می‌تواند یکی از نواحی محتوایی را در تمام پنجره نمایش دهد. خواندن/نوشتن Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | این عنصر اندازه‌گیری ناحیه محتوایی جانبی نمایش معمول را هنگامی که ناحیه با اندازهٔ بازیابی‌شدهٔ متغیر (نه کوچک‌شده نه بزرگ‌شده) باشد، مشخص می‌کند. فقط خواندنی [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | این عنصر اندازه‌گیری ناحیه بالایی اسلاید نمایش معمول را هنگامی که ناحیه با اندازهٔ بازیابی‌شدهٔ متغیر (نه کوچک‌شده نه بزرگ‌شده) باشد، مشخص می‌کند. فقط خواندنی [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | مشخص می‌کند که آیا برنامه باید در صورت نمایش محتوای ساختار در هر یک از نواحی محتوایی حالت نمایش معمول، نمادها را نشان دهد یا نه. خواندن/نوشتن Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | مشخص می‌کند که آیا نوار تقسیم‌کننده عمودی هنگام کوچک بودن کافی ناحیهٔ جانبی به حالت کوچک‌شده می‌چسبد یا نه. خواندن/نوشتن Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | وضعیت نشان‌دادن نوار تقسیم‌کننده عمودی را مشخص می‌کند. نوار تقسیم‌کننده عمودی اسلاید را از ناحیه محتوایی جانبی جدا می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes para la referencia de la API de .NET
-description: "Representa un valor double que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico 2) como valor literal."
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un valor double que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 type: docs
-weight: 1630
+weight: 1640
 url: /es/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue clase
@@ -21,7 +21,7 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Devuelve o establece la celda de datos del gráfico. Lectura/escritura [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Devuelve o establece el valor como double literal. Lectura/escritura Double. |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Devuelve o establece el objeto Data. Lectura/escritura Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell, AsCells, AsLiteralString o AsLiteralDouble está activa en los descendientes. En otras palabras, especifica el tipo de valor de la propiedad Data. Lectura/escritura [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell, AsCells, AsLiteralString o AsLiteralDouble está presente en los descendientes. En otras palabras, especifica el tipo de valor de la propiedad Data. Lectura/escritura [`DataSourceType`](../datasourcetype). |
 
 ## Métodos
 

@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce il valore y del punto dati del grafico. Sola lettura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes per .NET API Reference
+description: Restituisce il valore y di un punto dati del grafico. Sola lettura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /it/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue proprietà
 
-Restituisce il valore y del punto dati del grafico. Sola lettura [`IDoubleChartValue`](../../idoublechartvalue).
+Restituisce il valore y di un punto dati del grafico. Sola lettura [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

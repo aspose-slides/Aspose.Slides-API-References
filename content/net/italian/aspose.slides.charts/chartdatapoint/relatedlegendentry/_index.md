@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Sildes per .NET API Reference
-description: Proprietà della voce di legenda corrispondente nel caso di tipo di grafico da questo elenco ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Sola lettura ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Proprietà della voce della legenda corrispondente nel caso di tipo di grafico dalla seguente lista ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Solo lettura ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /it/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry proprietà
 
-Proprietà della voce di legenda corrispondente nel caso di tipo di grafico da questo elenco: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Sola lettura [`ILegendEntryProperties`](../../ilegendentryproperties).
+Proprietà della voce della legenda corrispondente per i tipi di grafico elencati: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Solo lettura [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

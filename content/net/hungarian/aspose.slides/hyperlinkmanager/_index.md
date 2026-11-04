@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Sildes .NET API referencia
-description: Hipernyelvek kezelése hozzáadással és eltávolítással.
+description: Hiperhivatkozások kezelése hozzáadással és eltávolítással.
 type: docs
-weight: 5150
+weight: 5170
 url: /hu/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager osztály
 
-Hipernyelvek kezelése (hozzáadás, eltávolítás).
+Hiperhivatkozások kezelése (hozzáadás, eltávolítás).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -18,13 +18,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Név | Leírás |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Eltávolítja a hiperlinket kattintáskor. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Eltávolítja a hiperlinket egérmutatóval. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Beállítja a külső hiperlinket kattintáskor. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Beállítja a külső hiperlinket egérmutatóval. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Beállítja a belső hiperlinket kattintáskor. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Beállítja a belső hiperlinket egérmutatóval. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Beállítja a makró hiperlinket kattintáskor. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Eltávolítja a hiperhivatkozást kattintáskor. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Eltávolítja a hiperhivatkozást egérmutatáskor. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Beállítja a külső hiperhivatkozást kattintáskor. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Beállítja a külső hiperhivatkozást egérmutatáskor. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Beállítja a belső hiperhivatkozást kattintáskor. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Beállítja a belső hiperhivatkozást egérmutatáskor. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Beállítja a makró hiperhivatkozást kattintáskor. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 用於 .NET 的 API 參考
 description: 允許透過 COM 介面建立 VBA 專案參考
 type: docs
-weight: 11680
+weight: 11700
 url: /zh-hant/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory 類別
@@ -14,21 +14,21 @@ url: /zh-hant/aspose.slides.vba/vbareferencefactory/
 public class VbaReferenceFactory : IVbaReferenceFactory
 ```
 
-## 建構子
+## 建構式
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | 預設建構子。 |
+| [VbaReferenceFactory](vbareferencefactory)() | 預設建構式。 |
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 專案參考工廠的靜態實例。唯讀 [`VbaReferenceFactory`](../vbareferencefactory)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | 建立新的 OLE Automation 類型庫參考。 |
 

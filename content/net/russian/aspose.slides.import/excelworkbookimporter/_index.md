@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
 second_title: Aspose.Sildes для .NET справочник API
-description: Предоставляет функциональность для импорта содержимого из книги Excel в презентацию.
+description: Предоставляет функциональность для импорта содержимого из рабочей книги Excel в презентацию.
 type: docs
-weight: 7470
+weight: 7490
 url: /ru/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter класс
 
-Предоставляет функциональность для импорта содержимого из книги Excel в презентацию.
+Предоставляет функциональность для импорта содержимого из рабочей книги Excel в презентацию.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | Имя | Описание |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Получает диаграмму из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Получает диаграмму из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Получает диаграмму из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Получает диаграмму из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Получает таблицу из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Получает таблицу из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Получает таблицу из указанной книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Извлекает диаграмму из указанной рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Извлекает диаграмму из указанной рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Извлекает диаграмму из указанной рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Извлекает диаграмму из указанной рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Извлекает таблицу из указанной рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Извлекает таблицу из указанного файла рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Извлекает таблицу из указанного файла рабочей книги Excel и добавляет её в конец заданной коллекции фигур в указанных координатах. |
 
 ### См. также
 

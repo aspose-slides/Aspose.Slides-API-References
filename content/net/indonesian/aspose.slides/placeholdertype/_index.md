@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili jenis placeholder.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili tipe placeholder.
 type: docs
-weight: 9450
+weight: 9470
 url: /id/aspose.slides/placeholdertype/
 ---
 ## enumerasi PlaceholderType
 
-Mewakili jenis placeholder.
+Mewakili tipe placeholder.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -18,22 +18,22 @@ public enum PlaceholderType : sbyte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Title | `0` | Judul. |
-| Body | `1` | Isi. |
-| CenteredTitle | `2` | Judul Terpusat. |
-| Subtitle | `3` | Subjudul. |
-| DateAndTime | `4` | Tanggal dan Waktu. |
-| SlideNumber | `5` | Nomor Slide. |
-| Footer | `6` | Catatan kaki. |
-| Header | `7` | Kepala. |
-| Object | `8` | Objek. |
-| Chart | `9` | Bagan. |
-| Table | `10` | Tabel. |
+| Title | `0` | Title. |
+| Body | `1` | Body. |
+| CenteredTitle | `2` | Centered Title. |
+| Subtitle | `3` | Subtitle. |
+| DateAndTime | `4` | Date and Time. |
+| SlideNumber | `5` | Slide Number. |
+| Footer | `6` | Footer. |
+| Header | `7` | Header. |
+| Object | `8` | Object. |
+| Chart | `9` | Chart. |
+| Table | `10` | Table. |
 | ClipArt | `11` | Clip Art. |
 | Diagram | `12` | Diagram. |
 | Media | `13` | Media. |
-| SlideImage | `14` | Gambar Slide. |
-| Picture | `15` | Gambar. |
+| SlideImage | `14` | Slide Image. |
+| Picture | `15` | Picture. |
 
 ### Lihat Juga
 

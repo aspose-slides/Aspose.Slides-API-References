@@ -1,14 +1,14 @@
 ---
 title: ITable
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड पर एक तालिका का प्रतिनिधित्व करता है।
+description: एक स्लाइड पर तालिका का प्रतिनिधित्व करता है।
 type: docs
-weight: 7230
+weight: 7250
 url: /hi/aspose.slides/itable/
 ---
 ## ITable इंटरफ़ेस
 
-स्लाइड पर एक तालिका को दर्शाता है।
+एक स्लाइड पर तालिका का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -16,34 +16,34 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | बेस IBulkTextFormattable इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | कॉलम का संग्रह लौटाता है। केवल पढ़ने योग्य [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | निर्धारित करता है कि क्या तालिका के पहले कॉलम को विशिष्ट फ़ॉर्मेटिंग के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | निर्धारित करता है कि क्या तालिका की पहली पंक्ति को विशेष फ़ॉर्मेटिंग के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | निर्धारित करता है कि क्या सम पंक्तियों को अलग फ़ॉर्मेटिंग के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | निर्दिष्ट कॉलम और पंक्ति अनुक्रमांक पर स्थित सेल लौटाता है। केवल पढ़ने योग्य [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | निर्धारित करता है कि क्या तालिका का अंतिम कॉलम विशेष फ़ॉर्मेटिंग के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | निर्धारित करता है कि क्या तालिका की अंतिम पंक्ति विशेष फ़ॉर्मेटिंग के साथ चित्रित की जानी चाहिए। पढ़ने/लिखने योग्य Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | निर्धारित करता है कि क्या तालिका का दाएँ से बाएँ पढ़ने क्रम है। पढ़ने/लिखने योग्य Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | पंक्तियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | निर्मित तालिका शैली प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | इस तालिका के लिए फ़ॉर्मेटिंग गुणों को शामिल करने वाले TableFormat ऑब्जेक्ट को लौटाता है। केवल पढ़ने योग्य [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | निर्धारित करता है कि क्या सम कॉलम को अलग फ़ॉर्मेटिंग के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | बेस IBulkTextFormattable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBulkTextFormattable`](../ibulktextformattable)। |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject)। |
+| [Columns](../../aspose.slides/itable/columns) { get; } | कॉलम्स का संग्रह लौटाता है। केवल पढ़ने योग्य [`IColumnCollection`](../icolumncollection)। |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | निर्धारित करता है कि तालिका के पहले कॉलम को विशेष स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | निर्धारित करता है कि तालिका की पहली पंक्ति को विशेष स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | निर्धारित करता है कि सम पंक्तियों को अलग स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
+| [Item](../../aspose.slides/itable/item) { get; } | निर्दिष्ट कॉलम और पंक्ति इंडेक्स पर सेल लौटाता है। केवल पढ़ने योग्य [`ICell`](../icell)। |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | निर्धारित करता है कि तालिका के अंतिम कॉलम को विशेष स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | निर्धारित करता है कि तालिका की अंतिम पंक्ति को विशेष स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | निर्धारित करता है कि तालिका दाएँ से बाएँ पढ़ने के क्रम में है। पढ़ने/लेखन योग्य बूलियन। |
+| [Rows](../../aspose.slides/itable/rows) { get; } | पंक्तियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IRowCollection`](../irowcollection)। |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | बिल्ट-इन तालिका शैली को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`TableStylePreset`](../tablestylepreset)। |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | इस तालिका के स्वरूपण गुणों को सम्मिलित करने वाले TableFormat वस्तु को लौटाता है। केवल पढ़ने योग्य [`ITableFormat`](../itableformat)। |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | निर्धारित करता है कि सम कॉलमों को अलग स्वरूपण के साथ चित्रित किया जाना चाहिए। पढ़ने/लिखने योग्य बूलियन। |
 
-## मेथड्स
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | पड़ोसी सेल्स को मिलाता है। |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | आसपास के कोशिकाओं को मिलाता है। |
 
 ### देखें
 
 * इंटरफ़ेस [IBulkTextFormattable](../ibulktextformattable)
 * इंटरफ़ेस [IGraphicalObject](../igraphicalobject)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,12 +3,12 @@ title: IMathRadical
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan fungsi radikal yang terdiri dari sebuah basis dan derajat opsional. Contoh objek radikal adalah .
 type: docs
-weight: 8430
+weight: 8450
 url: /id/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical antarmuka
 
-Menentukan fungsi radikal, yang terdiri dari sebuah basis, dan sebuah derajat opsional. Contoh objek radikal adalah √𝑥.
+Menentukan fungsi radikal, yang terdiri dari basis, dan derajat opsional. Contoh objek radikal adalah √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Memungkinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Mengizinkan untuk mendapatkan basis antarmuka IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argumen basis |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argumen derajat |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Sembunyikan derajat. Ketika bernilai true, derajat tidak ditampilkan, seperti pada √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Sembunyikan derajat. Ketika true, derajat tidak ditampilkan, seperti √𝑥 |
 
 ### Contoh
 

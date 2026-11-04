@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API 참조
-description: 수학 그룹화 문자를 생성할 수 있습니다.
+description: 수학 그룹화 문자를 만들 수 있습니다
 type: docs
-weight: 8770
+weight: 8790
 url: /ko/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory 클래스
 
-수학 그룹화 문자를 생성할 수 있습니다.
+수학 그룹화 문자를 만들 수 있습니다
 
 ```csharp
 public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
@@ -24,10 +24,10 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 수학 그룹화 문자를 생성합니다. |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 수학 그룹화 문자를 생성합니다. |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 수학 그룹화 문자를 생성합니다 |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 수학 그룹화 문자를 생성합니다 |
 
-### 비고
+### 참고
 
 COM 호환성을 위해
 

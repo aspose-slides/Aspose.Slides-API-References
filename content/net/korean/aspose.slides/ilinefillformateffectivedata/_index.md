@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 실제 라인 채우기 속성을 포함하는 불변 객체입니다.
+description: 유효한 선 채우기 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6300
+weight: 6320
 url: /ko/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData 인터페이스
 
-실제 라인 채우기 속성을 포함하는 불변 객체입니다.
+Immutable object which contains effective line filling properties.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -22,14 +22,14 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 채우기 유형을 반환합니다. 읽기 전용 [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 그라디언트 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 패턴 채우기 형식을 반환합니다. 읽기 전용 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 채우기가 도형과 함께 회전해야 하는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 단색 채우기의 색상을 반환합니다. 읽기 전용 Color. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 채우기가 도형과 함께 회전되어야 하는지 여부를 결정합니다. 읽기 전용 Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 단색 채우기의 색을 반환합니다. 읽기 전용 Color. |
 
 ### 비고
 
 이 인터페이스는 [`ILineFormatEffectiveData`](../ilineformateffectivedata)의 일부로 사용됩니다.
 
-### 참조
+### 참고
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

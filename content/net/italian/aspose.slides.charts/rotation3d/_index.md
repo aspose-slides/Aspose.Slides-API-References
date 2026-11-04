@@ -3,7 +3,7 @@ title: Rotation3D
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta la rotazione 3D di un grafico.
 type: docs
-weight: 2400
+weight: 2420
 url: /it/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D classe
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Nome | Descrizione |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Restituisce o imposta la profondità di un grafico 3D come percentuale della larghezza del grafico (tra il 20 e il 2000 percento). Lettura/scrittura UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Specifica l'altezza di un grafico 3-D come percentuale della larghezza del grafico (tra il 5 e il 500 percento). Lettura/scrittura UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Restituisce o imposta la profondità di un grafico 3D come percentuale della larghezza del grafico (tra 20 e 2000 percento). Lettura/scrittura UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Specifica l'altezza di un grafico 3D come percentuale della larghezza del grafico (tra 5 e 500 percento). Lettura/scrittura UInt16. |
 | [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Restituisce o imposta il valore di prospettiva (angolo del campo visivo) per i grafici 3D (tra 0 e 240). Ignorato se il valore della proprietà RightAngleAxes è true. Lettura/scrittura Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Determina se gli assi del grafico sono a angolo retto, anziché disegnati in prospettiva. In altre parole determina se gli angoli degli assi del grafico sono indipendenti dalla rotazione o dall'elevazione del grafico. Lettura/scrittura Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Restituisce o imposta il grado di rotazione intorno all'asse X, cioè nella direzione Y per i grafici 3D (tra -90 e 90 gradi). La proprietà corrisponde all'elemento 21.2.2.157 rotX (X Rotation) di ECMA-376 e all'opzione "Y Rotation" in PowerPoint 2007+. Lettura/scrittura SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Restituisce o imposta il grado di rotazione intorno all'asse Y, cioè nella direzione X per i grafici 3D (tra 0 e 360 gradi). La proprietà corrisponde all'elemento 21.2.2.158 rotY (Y Rotation) di ECMA-376 e all'opzione "X Rotation" in PowerPoint 2007+. Lettura/scrittura UInt16. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Determina se gli assi del grafico sono a angoli retti, piuttosto che disegnati in prospettiva. In altre parole stabilisce se gli angoli degli assi del grafico sono indipendenti dalla rotazione o elevazione del grafico. Lettura/scrittura Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Restituisce o imposta il grado di rotazione attorno all'asse X, cioè nella direzione Y per i grafici 3D (tra -90 e 90 gradi). La proprietà corrisponde all'elemento 21.2.2.157 rotX (X Rotation) in ECMA-376 e all'opzione "Y Rotation" in PowerPoint 2007+. Lettura/scrittura SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Restituisce o imposta il grado di rotazione attorno all'asse Y, cioè nella direzione X per i grafici 3D (tra 0 e 360 gradi). La proprietà corrisponde all'elemento 21.2.2.158 rotY (Y Rotation) in ECMA-376 e all'opzione "X Rotation" in PowerPoint 2007+. Lettura/scrittura UInt16. |
 
 ### Vedi anche
 

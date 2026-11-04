@@ -1,9 +1,9 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: क्लास चार्ट सीरीज़ की ट्रेंड लाइन का प्रतिनिधित्व करता है
 type: docs
-weight: 2240
+weight: 2260
 url: /hi/aspose.slides.charts/itrendline/
 ---
 ## ITrendline इंटरफ़ेस
@@ -16,25 +16,25 @@ public interface ITrendline : IOverridableText
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | ट्रेंड लाइन द्वारा डेटा से पहले विस्तारित होने वाले श्रेणियों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है। स्कैटर और नॉन-स्कैटर चार्ट पर, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | ट्रेंडलाइन के समीकरण को चार्ट पर प्रदर्शित किया जाता है (Rsquaredvalue के समान लेबल में)। पढ़ें/लिखें Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | ट्रेंडलाइन का R-squared मान चार्ट पर प्रदर्शित किया जाता है (समीकरण के समान लेबल में)। पढ़ें/लिखें Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | ट्रेंड लाइन का स्वरूप दर्शाता है। पढ़ें/लिखें [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | ट्रेंडलाइन द्वारा डेटा के बाद विस्तारित होने वाले श्रेणियों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है। स्कैटर और नॉन-स्कैटर चार्ट पर, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | ट्रेंडलाइन जहाँ y-अक्ष को पार करेगी, उस मान को निर्दिष्ट करता है। यह प्रॉपर्टी केवल तब समर्थित होगी जब ट्रेंडलाइन प्रकार exp, linear, या poly हो। पढ़ें/लिखें Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | बहुपद ट्रेंडलाइन का क्रम निर्दिष्ट करता है। अन्य ट्रेंडलाइन प्रकारों के लिए इसे अनदेखा किया जाता है। मान 2 और 6 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | मूविंग एवरेज ट्रेंडलाइन के लिए ट्रेंडलाइन की अवधि निर्दिष्ट करता है। अन्य ट्रेंडलाइन रूपों के लिए इसे अनदेखा किया जाता है। मान 2 और 255 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | इस ट्रेंडलाइन से संबंधित लेजेंड एंट्री दर्शाता है। केवल-पढ़ने योग्य [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | ट्रेंडलाइन का नाम प्राप्त करता है या सेट करता है। पढ़ें/लिखें String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | ट्रेंडलाइन का प्रकार प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`TrendlineType`](./trendlinetype). |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | वापस लौटाता है IOverridableText interface. केवल पढ़ने के लिए [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | निर्दिष्ट करता है कि ट्रेंड लाइन श्रेणियों (या स्कैटर चार्ट पर यूनिट्स) की संख्या को विस्तार देती है डेटा से पहले उस सीरीज के लिए जिसे ट्रेंड किया जा रहा है। स्कैटर और नॉन-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | निर्दिष्ट करता है कि ट्रेंडलाइन के लिए समीकरण चार्ट पर प्रदर्शित किया गया है (Rsquaredvalue के समान लेबल में)। पढ़ें/लिखें Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | निर्दिष्ट करता है कि ट्रेंडलाइन का R-squared मान चार्ट पर प्रदर्शित है (समीकरण के समान लेबल में)। पढ़ें/लिखें Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | प्रस्तुत करता है ट्रेंड लाइन का फ़ॉर्मेट। पढ़ें/लिखें [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | निर्धारित करता है कि ट्रेंडलाइन श्रेणियों (या स्कैटर चार्ट पर यूनिट्स) की संख्या को विस्तार देती है डेटा के बाद उस सीरीज के लिए जिसे ट्रेंड किया जा रहा है। स्कैटर और नॉन-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | निर्धारित करता है वह मान जहाँ ट्रेंडलाइन y-अक्ष को काटेगी। यह प्रॉपर्टी केवल तब समर्थित होगी जब ट्रेंडलाइन प्रकार exp, linear, या poly हो। पढ़ें/लिखें Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | निर्धारित करता है बहुपद ट्रेंड लाइन का क्रम। इसे अन्य ट्रेंड लाइन प्रकारों के लिए अनदेखा किया जाता है। मान 2 से 6 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | निर्धारित करता है चलती औसत ट्रेंड लाइन के लिए ट्रेंड लाइन की अवधि। इसे अन्य ट्रेंड लाइन वैरिएंट्स के लिए अनदेखा किया जाता है। मान 2 से 255 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | प्रस्तुत करता है इस ट्रेंडलाइन से संबंधित लेजेंड एंट्री। केवल पढ़ने के लिए [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | प्राप्त करता है या सेट करता है ट्रेंडलाइन का नाम। पढ़ें/लिखें String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | प्राप्त करता है या सेट करता है ट्रेंड लाइन का प्रकार। पढ़ें/लिखें [`TrendlineType`](./trendlinetype). |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IOverridableText](../ioverridabletext)
-* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

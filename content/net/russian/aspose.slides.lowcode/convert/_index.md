@@ -1,12 +1,12 @@
 ---
 title: Convert
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет группу методов, предназначенных для преобразования Presentation../aspose.slides/presentation.
 type: docs
-weight: 7880
+weight: 7900
 url: /ru/aspose.slides.lowcode/convert/
 ---
-## Convert класс
+## Класс Convert
 
 Represents a group of methods intended to convert [`Presentation`](../../aspose.slides/presentation).
 
@@ -16,9 +16,9 @@ public static class Convert
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Преобразует [`Presentation`](../../aspose.slides/presentation) с использованием переданного расширения пути вывода для определения требуемого формата экспорта. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Преобразует [`Presentation`](../../aspose.slides/presentation), используя переданное расширение пути вывода для определения требуемого формата экспорта. |
 | static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | Преобразует входную презентацию в набор изображений формата JPEG. Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда. |
 | static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | Преобразует входную презентацию в набор изображений формата JPEG. Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда. |
 | static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | Преобразует входную презентацию в набор изображений формата JPEG. Если имя выходного файла указано как "myPath/myFilename.jpeg", результат будет сохранён как набор файлов "myPath/myFilename_N.jpeg", где N — номер слайда. |
@@ -35,13 +35,13 @@ public static class Convert
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Преобразует [`Presentation`](../../aspose.slides/presentation) в SVG. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Преобразует [`Presentation`](../../aspose.slides/presentation) в SVG. |
 | static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | Преобразует входную презентацию в набор изображений формата TIFF. Если имя выходного файла указано как "myPath/myFilename.tiff", результат будет сохранён как набор файлов "myPath/myFilename_N.tiff", где N — номер слайда. |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | Преобразует входную презентацию в формат TIFF с пользовательскими параметрами. Если имя выходного файла указано как "myPath/myFilename.tiff" и *multipage* равно `false`, результат будет сохранён как набор файлов "myPath/myFilename_N.tiff", где N — номер слайда. В противном случае, если *multipage* равно `true`, результат будет представлять собой многостраничный документ "myPath/myFilename.tiff". |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | Преобразует входную презентацию в формат TIFF с пользовательскими параметрами. Если имя выходного файла указано как "myPath/myFilename.tiff" и *multipage* равно `false`, результат будет сохранён как набор файлов "myPath/myFilename_N.tiff", где N — номер слайда. В противном случае, если *multipage* равно `true`, результат будет многостраничным документом "myPath/myFilename.tiff". |
 
 ## Другие члены
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) | Обратный вызов, который будет вызываться для каждого [`Slide`](../../aspose.slides/slide), ожидается возвращаемый путь вывода. |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | Обратный вызов, который будет вызываться для каждого [`Slide`](../../aspose.slides/slide), ожидая вернуть путь вывода. |
 
 ### Примеры
 

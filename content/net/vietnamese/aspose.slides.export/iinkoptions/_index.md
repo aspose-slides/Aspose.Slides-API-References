@@ -1,14 +1,14 @@
 ---
 title: IInkOptions
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cung cấp các tùy chọn kiểm soát cách hiển thị của các đối tượng Ink trong tài liệu được xuất.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu được xuất.
 type: docs
-weight: 3980
+weight: 4000
 url: /vi/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions giao diện
 
-Cung cấp các tùy chọn kiểm soát cách hiển thị của các đối tượng Ink trong tài liệu được xuất.
+Provides options that control the look of Ink objects in exported document.
 
 ```csharp
 public interface IInkOptions
@@ -18,10 +18,10 @@ public interface IInkOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Hiển thị hoặc ẩn các phần tử Ink trong tài liệu được xuất. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Sử dụng thao tác ROP hoặc Opacity để vẽ brush. |
+| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Hiển thị hoặc ẩn các thành phần Ink trong tài liệu được xuất. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Sử dụng phép toán ROP hoặc Opacity để vẽ brush. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
 * tập hợp [Aspose.Slides](../../)

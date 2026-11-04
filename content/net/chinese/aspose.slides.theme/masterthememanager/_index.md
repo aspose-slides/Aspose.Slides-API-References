@@ -1,9 +1,9 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes for .NET API 参考文档
+second_title: Aspose.Sildes for .NET API 参考
 description: 提供对演示文稿主主题的访问。
 type: docs
-weight: 11440
+weight: 11460
 url: /zh/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager 类

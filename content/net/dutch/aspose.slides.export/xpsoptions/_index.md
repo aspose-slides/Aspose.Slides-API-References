@@ -1,64 +1,64 @@
 ---
 title: XpsOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-indeling.
+description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-formaat.
 type: docs
-weight: 4730
+weight: 4750
 url: /nl/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions klasse
 
-Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-indeling.
+Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-formaat.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Standaardconstructor. |
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft of stelt het lettertype in dat wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True om een zwart kader rond elke dia te tekenen. Lezen/schrijven Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft of stelt de visuele stijl van de gradiënt in. Lezen/schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor die voortgangsupdates bij het opslaan weergeeft in percentage. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True om alle metabestanden die in een presentatie worden gebruikt te converteren naar PNG-afbeeldingen. Lezen/schrijven Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Waar om een zwart kader rond elke dia te tekenen. Lezen-schrijven Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de gradiënt in. Lezen-schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor voor het opslaan van voortgangsupdates in procenten. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Waar om alle metabestanden die in een presentatie worden gebruikt te converteren naar PNG-afbeeldingen. Lezen-schrijven Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet bevatten of niet. Standaard is `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen/schrijven Boolean. De standaardwaarde is **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of afgebroken. Lezen/schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen-schrijven Boolean. De standaardwaarde is **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en bepaalt of het laadproces wordt voortgezet of wordt afgebroken. Lezen-schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 
-Het volgende voorbeeld toont hoe presentaties naar XPS worden geconverteerd met de standaardinstellingen.
+Het volgende voorbeeld laat zien hoe presentaties naar XPS worden geconverteerd met de standaardinstellingen.
 
 ```csharp
 [C#]
 // Maak een Presentation-object aan dat een presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // Sla de presentatie op als XPS-document
+    // De presentatie opslaan naar XPS-document
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-Het volgende voorbeeld toont hoe presentaties naar XPS worden geconverteerd met aangepaste instellingen.
+Het volgende voorbeeld laat zien hoe presentaties naar XPS worden geconverteerd met aangepaste instellingen.
 
 ```csharp
 [C#]
 // Maak een Presentation-object aan dat een presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Maak de TiffOptions-klasse aan
+    // Maak een instantie van de TiffOptions-klasse
     XpsOptions options = new XpsOptions();
     // Sla MetaFiles op als PNG
     options.SaveMetafilesAsPng = true;
-    // Sla de presentatie op als XPS-document
+    // Sla de presentatie op naar XPS-document
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```

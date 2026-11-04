@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes для .NET API Reference
-description: Определяет функцию черты, состоящую из базового аргумента и надчерты или подчёрты
+second_title: Aspose.Sildes для .NET справочник API
+description: Определяет функцию бар, состоящую из базового аргумента и надстрочной или подстрочной черты
 type: docs
-weight: 8120
+weight: 8140
 url: /ru/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar интерфейс
 
-Определяет функцию черты, состоящую из базового аргумента и надчерты или подчёрты
+Определяет функцию бар, состоящую из базового аргумента и надстрочной или подстрочной черты
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -16,11 +16,11 @@ public interface IMathBar : IMathElement
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Базовый аргумент |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Позиция линии стержня. По умолчанию: Верх |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Положение линии бар. По умолчанию: Top |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ public interface IMathBar : IMathElement
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)

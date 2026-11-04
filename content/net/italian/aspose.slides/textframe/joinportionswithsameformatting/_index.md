@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes per .NET API Reference
-description: Unisce i run con la stessa formattazione in tutti i paragrafi.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Unisce le sequenze con lo stesso formato in tutti i paragrafi.
 type: docs
-weight: 110
+weight: 120
 url: /it/aspose.slides/textframe/joinportionswithsameformatting/
 ---
-## Metodo TextFrame.JoinPortionsWithSameFormatting
+## TextFrame.JoinPortionsWithSameFormatting metodo
 
-Unisce i run con la stessa formattazione in tutti i paragrafi.
+Unisce le sequenze con lo stesso formato in tutti i paragrafi.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

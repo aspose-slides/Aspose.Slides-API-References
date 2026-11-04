@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de typen overgangssnelheid weer.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Geeft overgangssnelheidstypen weer.
 type: docs
-weight: 10440
+weight: 10460
 url: /nl/aspose.slides.slideshow/transitionspeed/
 ---
 ## TransitionSpeed enumeratie
 
-Geeft de typen overgangssnelheid weer.
+Geeft overgangssnelheidstypen weer.
 
 ```csharp
 public enum TransitionSpeed

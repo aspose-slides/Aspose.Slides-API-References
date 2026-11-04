@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes for .NET API 참조
-description: 사분위수 방법의 유형을 반환합니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: quartile method의 유형을 반환합니다
 type: docs
-weight: 2390
+weight: 2410
 url: /ko/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType 열거형
 
-사분위수 방법의 유형을 반환합니다
+quartile method의 유형을 반환합니다
 
 ```csharp
 public enum QuartileMethodType
@@ -16,12 +16,12 @@ public enum QuartileMethodType
 
 ### 값
 
-| 이름 | 값 | 설명 |
+| Name | Value | Description |
 | --- | --- | --- |
-| Exclusive | `0` | 배타적 사분위수 방법을 나타냅니다. |
-| Inclusive | `1` | 포함적 사분위수 방법을 나타냅니다. |
+| Exclusive | `0` | exclusive 사분위수 방법을 나타냅니다. |
+| Inclusive | `1` | inclusive 사분위수 방법을 나타냅니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

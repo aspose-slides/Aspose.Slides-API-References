@@ -1,12 +1,12 @@
 ---
 title: PersistenceType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Methode an, die zum Speichern von Eigenschaften des ActiveX-Steuerelements verwendet wird.
 type: docs
-weight: 9370
+weight: 9390
 url: /de/aspose.slides/persistencetype/
 ---
-## Aufzählung PersistenceType
+## PersistenceType Aufzählung
 
 Gibt die Methode an, die zum Speichern von Eigenschaften des ActiveX-Steuerelements verwendet wird.
 
@@ -19,10 +19,10 @@ public enum PersistenceType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Persistenz-ID nicht angegeben. |
-| PersistPropertyBag | `0` | Gibt an, dass das ActiveX-Steuerelement mit einer eigenschaftsbeutelbasierten Persistenz gespeichert wird. Die eigenschaftsbeutelbasierte Persistenz speichert ein ActiveX-Steuerelement mittels einer Sammlung von Namens-Wert-Paaren, die die vom ActiveX-Steuerelement gespeicherten Daten angeben. |
-| PersistStream | `1` | Gibt an, dass das ActiveX-Steuerelement mit einer strombasierten Persistenz gespeichert wird, die keine Initialisierung des ActiveX-Steuerelements in einen Standardzustand unterstützt. |
-| PersistStreamInit | `2` | Gibt an, dass das ActiveX-Steuerelement mit einer strombasierten Persistenz gespeichert wird, die die Initialisierung des ActiveX-Steuerelements in einen Standardzustand unterstützt. |
-| PersistStorage | `3` | Gibt an, dass das ActiveX-Steuerelement mit einer speicherbasierten Persistenz gespeichert wird. |
+| PersistPropertyBag | `0` | Gibt an, dass das ActiveX-Steuerelement mit property-bag-basierter Persistenz gespeichert wird. Property-bag-basierte Persistenz speichert ein ActiveX-Steuerelement mittels einer Sammlung von Namens- und Wertpaaren, die die vom ActiveX-Steuerelement gespeicherten Daten angeben. |
+| PersistStream | `1` | Gibt an, dass das ActiveX-Steuerelement mit stream-basierter Persistenz gespeichert wird, die keine Initialisierung des ActiveX-Steuerelements auf einen Standardzustand unterstützt. |
+| PersistStreamInit | `2` | Gibt an, dass das ActiveX-Steuerelement mit stream-basierter Persistenz gespeichert wird, die die Initialisierung des ActiveX-Steuerelements auf einen Standardzustand unterstützt. |
+| PersistStorage | `3` | Gibt an, dass das ActiveX-Steuerelement mit storage-basierter Persistenz gespeichert wird. |
 
 ### Siehe auch
 

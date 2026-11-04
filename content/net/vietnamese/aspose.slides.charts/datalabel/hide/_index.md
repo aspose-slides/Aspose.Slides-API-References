@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show-flags ShowValue ... ở trạng thái false. IsVisible sẽ là false sau khi thực hiện.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show-flags ShowValue ... thành trạng thái false. IsVisible sẽ là false sau khi thực hiện.
 type: docs
-weight: 200
+weight: 210
 url: /vi/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide phương thức
 
-Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this.
+Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) thành trạng thái false. IsVisible sẽ là false sau khi thực hiện.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Ghi chú
 
-If data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state.
+Nếu nhãn dữ liệu không hiển thị (IsVisible là false) bạn có thể làm cho nhãn dữ liệu hiển thị bằng cách đặt các cờ Show*-flags (ShowValue, ...) thành trạng thái true.
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なライトリグプロパティを含む不変オブジェクト。
+description: 効果的なライトリグのプロパティを格納する不変オブジェクトです。
 type: docs
-weight: 6280
+weight: 6300
 url: /ja/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData インターフェイス
 
-有効なライトリグプロパティを含む不変オブジェクト。
+Immutable object which contains effective light rig properties.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -18,18 +18,18 @@ public interface ILightRigEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | 光の方向。 読み取り専用 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | シェイプに適用できるプリセットライト右を表す。ライトリグは 3D シーンに対して特定の方法で配置された光のグループを表す。 読み取り専用 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | 光の方向。読み取り専用 [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | シェイプに適用できるプリセットライト右を表します。ライトリグは、3Dシーンに対して特定の方法で配置された光のグループを表します。読み取り専用 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 緯度座標、経度座標、そして緯度・経度座標を軸として回転させることで回転が定義される。返却配列の最初の要素は緯度、2 番目は経度、3 番目は回転数。 |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | 緯度座標、経度座標、および緯度経度座標に対する軸周りの回転により回転が定義されます。戻り配列の最初の要素は緯度、2番目は経度、3番目は回転です。 |
 
-### 注釈
+### 備考
 
-このインターフェイスは [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) の一部として使用されます。
+このインターフェイスは[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata)の一部として使用されます。
 
 ### 参照
 

@@ -3,10 +3,10 @@ title: SensitivityLabelContentType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa los tipos de marcación de contenido que deben aplicarse a un documento.
 type: docs
-weight: 9820
+weight: 9840
 url: /es/aspose.slides/sensitivitylabelcontenttype/
 ---
-## SensitivityLabelContentType enumeración
+## Enumeración SensitivityLabelContentType
 
 Representa los tipos de marcación de contenido que deben aplicarse a un documento.
 
@@ -19,10 +19,10 @@ public enum SensitivityLabelContentType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Implica que la etiqueta se aplica por defecto o automáticamente. |
-| Header | `1` | Implica que la etiqueta se aplicó manualmente. Use para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
-| Footer | `2` | Implica que la etiqueta se aplicó manualmente. Use para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
-| Watermark | `4` | Implica que la etiqueta se aplicó manualmente. Use para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
-| Encryption | `8` | Implica que la etiqueta se aplicó manualmente. Use para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
+| Header | `1` | Implica que la etiqueta se aplicó manualmente. Utilícela para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
+| Footer | `2` | Implica que la etiqueta se aplicó manualmente. Utilícela para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
+| Watermark | `4` | Implica que la etiqueta se aplicó manualmente. Utilícela para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
+| Encryption | `8` | Implica que la etiqueta se aplicó manualmente. Utilícela para cualquier etiqueta de sensibilidad que haya sido aplicada directamente por el usuario. |
 
 ### Ver también
 

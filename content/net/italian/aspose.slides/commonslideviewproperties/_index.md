@@ -1,9 +1,9 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà comuni della visualizzazione della diapositiva.
 type: docs
-weight: 2660
+weight: 2680
 url: /it/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties classe
@@ -19,12 +19,12 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | Nome | Descrizione |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Restituisce la raccolta delle guide di disegno. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifica il rapporto di scala della visualizzazione in percentuale. Lettura/Scrittura Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifica che il contenuto della visualizzazione deve ridimensionarsi automaticamente per adattarsi al meglio alle dimensioni della finestra corrente. Lettura/Scrittura Boolean. |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifica il rapporto di scala della vista in percentuale. Lettura/scrittura Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifica che il contenuto della vista deve ridimensionarsi automaticamente per adattarsi al meglio alle dimensioni attuali della finestra. Lettura/scrittura Boolean. |
 
 ### Esempi
 
-Il seguente esempio mostra come impostare il valore di zoom per una diapositiva di una presentazione PowerPoint.
+Il seguente esempio mostra come impostare il valore di zoom per la diapositiva di una presentazione PowerPoint.
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     // Impostazione delle proprietà di visualizzazione della presentazione
     presentation.ViewProperties.SlideViewProperties.Scale = 100; // Valore di zoom in percentuale per la visualizzazione della diapositiva
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Valore di zoom in percentuale per la visualizzazione delle note
+    presentation.ViewProperties.NotesViewProperties.Scale = 100; // Valore di zoom in percentuale per la visualizzazione delle note
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```

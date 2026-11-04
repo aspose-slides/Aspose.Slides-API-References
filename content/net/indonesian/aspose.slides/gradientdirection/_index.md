@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili gaya gradient.
+description: Mewakili gaya gradien.
 type: docs
-weight: 4990
+weight: 5010
 url: /id/aspose.slides/gradientdirection/
 ---
 ## enumerasi GradientDirection
 
-Mewakili gaya gradient.
+Mewakili gaya gradien.
 
 ```csharp
 public enum GradientDirection
@@ -18,7 +18,7 @@ public enum GradientDirection
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tidak didefinisikan |
+| NotDefined | `-1` | Tidak ditentukan |
 | FromCorner1 | `0` | Dari Sudut Kiri Atas |
 | FromCorner2 | `1` | Dari Sudut Kanan Atas |
 | FromCorner3 | `2` | Dari Sudut Kiri Bawah |

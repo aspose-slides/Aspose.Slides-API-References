@@ -1,18 +1,22 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 3D チャートにおけるデータ系列間の距離を、マーカー幅のパーセンテージとして取得または設定します。読み取り/書き込み UInt16.
+description: 3D チャートにおけるデータ系列間の距離をマーカー幅のパーセンテージで取得または設定します。値は 0 から 500 の間でなければなりません。読み取り/書き込み UInt16.
 type: docs
 weight: 60
 url: /ja/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth プロパティ
 
-データ系列間の距離を、マーカー幅のパーセンテージとして取得または設定します（3D チャート）。読み取り/書き込み UInt16。
+取得または設定します。このプロパティは、3D チャートにおけるデータ系列間の距離をマーカー幅のパーセンテージで表します。値は 0 から 500 の間でなければなりません。読み取り/書き込み UInt16。
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### 備考
+
+このプロパティは、次のタイプの系列に適用されます: 3D バーおよびカラムのサブタイプ、Line3D、Area3D、StackedArea3D、PercentsStackedArea3D。
 
 ### 参照
 

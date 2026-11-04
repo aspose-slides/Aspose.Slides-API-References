@@ -1,9 +1,9 @@
 ---
 title: IOutputSaver
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili layanan penyimpanan output.
 type: docs
-weight: 4610
+weight: 4630
 url: /id/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver antarmuka

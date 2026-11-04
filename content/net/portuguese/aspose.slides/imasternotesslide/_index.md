@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o slide mestre para notas.
 type: docs
-weight: 6390
+weight: 6410
 url: /pt/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interface
@@ -24,7 +24,7 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre de notas. Somente leitura [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Retorna o estilo de um texto de notas. Somente leitura [`ITextStyle`](../itextstyle). |
 
-### Veja Também
+### Ver Também
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

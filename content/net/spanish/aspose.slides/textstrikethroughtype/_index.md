@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de tachado de texto.
 type: docs
-weight: 10990
+weight: 11010
 url: /es/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType enumeración

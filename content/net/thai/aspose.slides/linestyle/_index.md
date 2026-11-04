@@ -1,22 +1,22 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงถึงสไตล์ของเส้น.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงรูปแบบของเส้น.
 type: docs
-weight: 7820
+weight: 7840
 url: /th/aspose.slides/linestyle/
 ---
-## LineStyle การกำหนดค่า
+## LineStyle enumeration
 
-แสดงถึงสไตล์ของเส้น.
+แสดงถึงสไตล์ของเส้น
 
 ```csharp
 public enum LineStyle : sbyte
 ```
 
-### ค่า
+### Values
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Single | `0` |  |
@@ -25,7 +25,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

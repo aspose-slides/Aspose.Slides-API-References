@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes dla referencji API .NET
-description: Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell jest równa true.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
 type: docs
-weight: 60
+weight: 70
 url: /pl/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell właściwość
 
-Pobiera lub ustawia komórkę danych skoroszytu. Zastosowane, jeśli IDataLabelFormat.ShowLabelValueFromCell właściwość jest równa true.
+Pobiera lub ustawia komórkę danych skoroszytu. Stosowane, jeśli właściwość IDataLabelFormat.ShowLabelValueFromCell ma wartość true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Giao diện phụ trợ nguồn thuộc tính 3D
 type: docs
-weight: 7350
+weight: 7370
 url: /vi/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource giao diện

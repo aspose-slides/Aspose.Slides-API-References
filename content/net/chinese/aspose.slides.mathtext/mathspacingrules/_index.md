@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes for .NET API 参考
-description: 矩阵列之间水平间距的类型
+second_title: Aspose.Sildes .NET API 参考
+description: 矩阵列之间间隙水平间距的类型
 type: docs
-weight: 8990
+weight: 9010
 url: /zh/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules 枚举
 
-矩阵列之间的间隙（水平间距）的类型
+矩阵列之间的间隙（水平间距）类型
 
 ```csharp
 public enum MathSpacingRules
@@ -18,13 +18,13 @@ public enum MathSpacingRules
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | 单个 (列为 1 em，行为 1 行) |
-| OneAndHalfSpacingGap | `1` | 一倍半 (列为 1.5 em，行为 1.5 行) |
-| DoubleSpacingGap | `2` | 双倍间距 (列为 2 em，行为 2 行) |
-| Exactly | `3` | 精确值 对列而言，取决于 ColumnGap 的值，以 twips 为单位；对行而言，取决于 RowGap 的值，以 twips 为单位 |
-| Multiple | `4` | 多重 对列而言，取决于 ColumnGap 的值，以 0.5 em 为增量；对行而言，取决于 RowGap 的值，以 行 为单位 |
+| SingleSpacingGap | `0` | 单个（列为 1 em，行为 1 行） |
+| OneAndHalfSpacingGap | `1` | 一倍半（列为 1.5 em，行为 1.5 行） |
+| DoubleSpacingGap | `2` | 双倍间距（列为 2 em，行为 2 行） |
+| Exactly | `3` | 精确值 对于列，依赖 ColumnGap 的值，以 twips 为单位 对于行，依赖 RowGap 的值，以 twips 为单位 |
+| Multiple | `4` | 多重 对于列，依赖 ColumnGap 的值，以 0.5 em 增量计量 对于行，依赖 RowGap 的值，以 行 为单位 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

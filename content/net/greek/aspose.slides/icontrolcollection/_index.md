@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes για .NET αναφορά API
+second_title: Aspose.Sildes για τη Αναφορά API του .NET
 description: Μια συλλογή ελέγχων ActiveX.
 type: docs
-weight: 5640
+weight: 5660
 url: /el/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection διασύνδεση
@@ -27,7 +27,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Δημιουργεί και προσθέτει ένα νέο έλεγχο στη συλλογή. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Αφαιρεί όλους τους ελέγχους από τη συλλογή. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Αφαιρεί έναν έλεγχο ActiveX από τη συλλογή. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Αφαιρεί έναν έλεγχο ActiveX που βρίσκεται στη συγκεκριμένη θέση από τη συλλογή. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Αφαιρεί έναν έλεγχο ActiveX που αποθηκεύεται στη συγκεκριμένη θέση από τη συλλογή. |
 
 ### Δείτε επίσης
 

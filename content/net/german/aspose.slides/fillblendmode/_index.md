@@ -3,7 +3,7 @@ title: FillBlendMode
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt den Mischmodus.
 type: docs
-weight: 4770
+weight: 4790
 url: /de/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode Aufzählung

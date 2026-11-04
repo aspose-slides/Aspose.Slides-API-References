@@ -3,12 +3,12 @@ title: ResponsiveHtmlController
 second_title: Aspose.Sildes for .NET API 參考
 description: 響應式 HTML 控制器
 type: docs
-weight: 4420
+weight: 4440
 url: /zh-hant/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController 類別
 
-響應式 HTML 控制器
+Responsive HTML 控制器
 
 ```csharp
 public class ResponsiveHtmlController : IResponsiveHtmlController
@@ -18,8 +18,8 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | 建立新實例 |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | 建立新實例 |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | 建立新執行個體 |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | 建立新執行個體 |
 
 ### 另請參閱
 

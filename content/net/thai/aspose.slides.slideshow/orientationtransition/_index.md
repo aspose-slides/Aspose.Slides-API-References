@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบแนวตั้ง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบทิศทาง.
 type: docs
-weight: 10270
+weight: 10290
 url: /th/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบแนวตั้ง
+เอฟเฟกต์การเปลี่ยนสไลด์แบบทิศทาง.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -18,14 +18,14 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่ |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทโดยเฉพาะ ใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่นตารางแฮช |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่างสองตัวของ TransitionValueBase เท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทใดประเภทหนึ่ง ซึ่งเหมาะสำหรับใช้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

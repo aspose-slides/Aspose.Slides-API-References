@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 FrameTick./presentationplayer/frametick 事件的帧计时处理程序。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示 FrameTick./presentationplayer/frametick 事件的帧滴处理程序。
 type: docs
-weight: 4400
+weight: 4420
 url: /zh/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler 委托
 
-表示 [`FrameTick`](../presentationplayer/frametick) 事件的帧计时处理程序。
+表示 [`FrameTick`](../presentationplayer/frametick) 事件的帧滴处理程序。
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,10 +16,10 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sender | PresentationPlayer | 帧计时事件的发送者。 |
-| args | FrameTickEventArgs | 帧计时参数。 |
+| sender | PresentationPlayer | 帧滴事件的发送者。 |
+| args | FrameTickEventArgs | 帧滴参数。 |
 
-### 另见
+### 另请参见
 
 * 类 [FrameTickEventArgs](../frametickeventargs)
 * 类 [PresentationPlayer](../presentationplayer)

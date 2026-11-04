@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes .NET API Referenciája
-description: Változtathatatlan objektum, amely egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely egy Színváltozás hatást reprezentál. A FromColor példányait a ToColor példányai helyettesítik.
 type: docs
-weight: 3230
+weight: 3250
 url: /hu/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData interfész
 
-Változtathatatlan objektum, amely egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
+Nem módosítható objektum, amely a színváltozás hatást képviseli. A FromColor példányait a ToColor példányai helyettesítik.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | A helyettesítendő szín. Csak olvasható Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | A cserélendő szín. Csak olvasható Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Visszaad egy bool értéket, amely meghatározza, hogy az alfa komponens használható-e. Csak olvasható Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interface lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | A helyettesítendő Color. Csak olvasható Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | A helyettesítő Color. Csak olvasható Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Visszaad egy boolean értéket, amely meghatározza, hogy az alfa komponens használata szükséges-e. Csak olvasható Boolean. |
 
 ### Lásd még
 

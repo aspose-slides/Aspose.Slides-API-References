@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt, który zawiera skuteczne właściwości formatowania fragmentu tekstu.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Niezmienny obiekt, który zawiera efektywne właściwości formatowania fragmentu tekstu.
 type: docs
-weight: 6740
+weight: 6760
 url: /pl/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interfejs
 
-Niezmienny obiekt, który zawiera skuteczne właściwości formatowania fragmentu tekstu.
+Niezmienny obiekt, który zawiera efektywne właściwości formatowania fragmentu tekstu.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,14 +18,14 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Zwraca interfejs IBasePortionFormatEffectiveData. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Zwraca IBasePortionFormatEffectiveData interfejs. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Zwraca identyfikator zakładki. Tylko do odczytu String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Zwraca hiperłącze zdefiniowane dla kliknięcia myszy. Tylko do odczytu [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Zwraca hiperłącze zdefiniowane dla najazdu myszy. Tylko do odczytu [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Zwraca hiperłącze zdefiniowane dla kliknięcia myszą. Tylko do odczytu [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Zwraca hiperłącze zdefiniowane dla najechania myszą. Tylko do odczytu [`IHyperlink`](../ihyperlink). |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IPortionFormat`](../iportionformat) w celu zwrócenia skutecznych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z [`IPortionFormat`](../iportionformat) interfejsem, aby zwrócić efektywne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

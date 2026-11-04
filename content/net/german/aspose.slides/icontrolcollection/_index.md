@@ -3,7 +3,7 @@ title: IControlCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Eine Sammlung von ActiveX-Steuerelementen.
 type: docs
-weight: 5640
+weight: 5660
 url: /de/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection Schnittstelle
@@ -24,7 +24,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Erstellt ein neues Steuerelement und fügt es der Sammlung hinzu. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Erstellt ein neues Steuerelement und fügt es zur Sammlung hinzu. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Entfernt alle Steuerelemente aus der Sammlung. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Entfernt ein ActiveX-Steuerelement aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Entfernt ein an der angegebenen Position gespeichertes ActiveX-Steuerelement aus der Sammlung. |

@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili efek Alpha Replace. Nilai alpha (opacity) efek diganti dengan alpha tetap.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Alpha Replace. Nilai opacity alpha efek digantikan dengan alpha tetap.
 type: docs
-weight: 2900
+weight: 2920
 url: /id/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace kelas
 
-Mewakili efek Alpha Replace. Nilai alpha (opacity) efek diganti dengan alpha tetap.
+Mewakili efek Alpha Replace. Nilai alpha (opasitas) efek digantikan dengan alpha tetap.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -16,16 +16,16 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Menentukan apakah [`AlphaReplace`](../alphareplace) yang ditentukan sama dengan [`AlphaReplace`](../alphareplace) saat ini. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Mendapatkan data efek Alpha Replace yang efektif dengan penerapan pewarisan. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Mengambil data efek Alpha Replace yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

@@ -1,9 +1,9 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti tampilan slide umum.
 type: docs
-weight: 2660
+weight: 2680
 url: /id/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties kelas
@@ -18,13 +18,13 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Mengembalikan koleksi panduan menggambar. Baca-saja [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Mengembalikan koleksi panduan gambar. Baca-saja [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Menentukan rasio skala tampilan dalam persentase. Baca/tulis Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Menentukan bahwa konten tampilan harus secara otomatis menyesuaikan ukuran jendela saat ini. Baca/tulis Boolean. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Menentukan bahwa konten tampilan harus secara otomatis menyesuaikan ukuran terbaik dengan ukuran jendela saat ini. Baca/tulis Boolean. |
 
 ### Contoh
 
-Contoh berikut menunjukkan cara mengatur nilai zoom untuk slide dalam Presentasi PowerPoint.
+Contoh berikut menunjukkan cara mengatur nilai zoom untuk slide dari Presentasi PowerPoint.
 
 ```csharp
 [C#]

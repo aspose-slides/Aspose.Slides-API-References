@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: کنترلر HTML واکنش‌گرا
 type: docs
-weight: 4420
+weight: 4440
 url: /fa/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController کلاس
@@ -14,7 +14,7 @@ url: /fa/aspose.slides.export/responsivehtmlcontroller/
 public class ResponsiveHtmlController : IResponsiveHtmlController
 ```
 
-## سازندگان
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |

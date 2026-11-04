@@ -1,9 +1,9 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję obiektów Video.
 type: docs
-weight: 11710
+weight: 11730
 url: /pl/aspose.slides/videocollection/
 ---
 ## VideoCollection klasa
@@ -31,7 +31,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Dodaje kopię pliku wideo z innej prezentacji. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Tworzy i dodaje wideo do prezentacji ze strumienia. |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopiuje wideo do określonej tablicy zaczynając od podanego indeksu. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
 
 ### Zobacz także
 

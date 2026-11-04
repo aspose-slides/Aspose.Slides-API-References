@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेक्स्ट क्षेत्र के भीतर टेक्स्ट बॉक्स की संरेखण।
+description: टेक्स्ट एरिया के भीतर टेक्स्ट बॉक्स का संरेखण।
 type: docs
-weight: 10910
+weight: 10930
 url: /hi/aspose.slides/textanchortype/
 ---
 ## TextAnchorType एन्यूमरेशन
 
-टेक्स्ट बॉक्स की संरेखण टेक्स्ट क्षेत्र के भीतर।
+टेक्स्ट बॉक्स संरेखण टेक्स्ट एरिया के भीतर।
 
 ```csharp
 public enum TextAnchorType : sbyte
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

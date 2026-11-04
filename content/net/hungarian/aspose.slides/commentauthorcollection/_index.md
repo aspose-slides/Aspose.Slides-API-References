@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: A megjegyzés szerzők gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy megjegyzés-szerzők gyűjteményét reprezentálja.
 type: docs
-weight: 2640
+weight: 2660
 url: /hu/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection osztály
 
-Represents a collection of comment authors.
+Egy megjegyzés-szerzők gyűjteményét képviseli.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -16,25 +16,25 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | A gyűjteményben ténylegesen található elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Egy értéket ad vissza, amely jelzi, hogy a gyűjtemény hozzáférése szinkronizált (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | A megadott indexnél lévő elemet adja vissza. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Egy szinkronizációs gyökeret ad vissza. Csak olvasható Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Értéket ad vissza, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Lekéri a megadott indexnél található elemet. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Szinkronizációs gyökeret ad vissza. Csak olvasható Object. |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Új szerző hozzáadása a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/commentauthorcollection/clear)() | A gyűjteményből eltávolítja az összes szerzőt. |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | A gyűjtemény összes elemét a megadott tömbbe másolja. |
-| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Szerző keresése a gyűjteményben név alapján. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Szerző keresése a gyűjteményben név és kezdőbetűk alapján. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Eltávolítja a megadott szerző első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Eltávolítja a szerzőt a megadott indexnél a gyűjteményből. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Új szerzőt ad hozzá a gyűjtemény végéhez. |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Az összes szerzőt eltávolítja a gyűjteményből. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Másolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Szerzőt keres a gyűjteményben név alapján. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Szerzőt keres a gyűjteményben név és kezdőbetűk alapján. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Visszaad egy enumerátort, amely végig iterál a gyűjteményen. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | A megadott szerző első előfordulását eltávolítja a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | A szerzőt a megadott indexnél a gyűjteményből eltávolítja. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Létrehoz és visszaad egy tömböt az összes szerzővel. |
 
 ### Lásd még
@@ -42,7 +42,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 * osztály [DomObject&lt;TParent&gt;](../domobject-1)
 * osztály [Presentation](../presentation)
 * interfész [ICommentAuthorCollection](../icommentauthorcollection)
-* névtér [Aspose.Slides](../../aspose.slides)
+* névterület [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

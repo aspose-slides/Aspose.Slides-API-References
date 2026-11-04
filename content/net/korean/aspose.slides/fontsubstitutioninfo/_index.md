@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes for .NET API 참조
-description: 이 구조체는 렌더링될 때 글꼴 교체에 대한 정보를 나타냅니다.
+second_title: Aspose.Sildes용 .NET API 레퍼런스
+description: 이 구조체는 렌더링될 때 폰트 교체에 대한 정보를 나타냅니다.
 type: docs
-weight: 4910
+weight: 4930
 url: /ko/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo 클래스
 
-이 구조체는 렌더링될 때 글꼴 교체에 대한 정보를 나타냅니다.
+이 구조체는 렌더링될 때 폰트 교체에 대한 정보를 나타냅니다.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -18,14 +18,14 @@ public class FontSubstitutionInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) 클래스를 생성합니다. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) 클래스의 인스턴스를 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | 프레젠테이션에서 원본 글꼴 이름을 나타냅니다. 읽기 전용 String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | 원본 글꼴에 대한 교체 글꼴 이름을 나타냅니다. 읽기 전용 String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | 프레젠테이션에서 소스 폰트 이름을 나타냅니다. 읽기 전용 String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | 원본 폰트에 대한 대체 폰트 이름을 나타냅니다. 읽기 전용 String |
 
 ### 예제
 

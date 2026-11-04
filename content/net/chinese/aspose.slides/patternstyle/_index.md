@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes .NET API 参考
-description: 表示模式样式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示图案样式。
 type: docs
-weight: 9360
+weight: 9380
 url: /zh/aspose.slides/patternstyle/
 ---
 ## PatternStyle 枚举
 
-表示模式样式。
+表示图案样式。
 
 ```csharp
 public enum PatternStyle : sbyte
@@ -16,7 +16,7 @@ public enum PatternStyle : sbyte
 
 ### 值
 
-| 名称 | 数值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Unknown | `0` |  |

@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes для .NET справочник API
-description: Определяет объект надстрочного индекса, состоящий из базовой части и уменьшенного надстрочного индекса, расположенного выше и справа
+second_title: Aspose.Sildes для .NET справки по API
+description: Указывает объект надстрочного символа, который состоит из основания и уменьшенного надстрочного элемента, размещённого выше и правее
 type: docs
-weight: 8490
+weight: 8510
 url: /ru/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement интерфейс
 
-Определяет объект надстрочного индекса, который состоит из базовой части и уменьшенного надстрочного индекса, расположенного выше и справа
+Указывает объект надстрочного элемента, который состоит из основания и уменьшенного надстрочного элемента, размещённого выше и правее
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement

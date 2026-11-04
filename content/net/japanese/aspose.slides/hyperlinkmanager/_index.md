@@ -1,9 +1,9 @@
 ---
 title: HyperlinkManager
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ハイパーリンクの管理（追加、削除）を提供します。
 type: docs
-weight: 5150
+weight: 5170
 url: /ja/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager クラス

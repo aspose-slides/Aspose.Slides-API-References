@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक शीर्षक के x निर्देशांक को चार्ट की चौड़ाई के अंश के रूप में प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single.
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक शीर्षक का x निर्देशांक, चार्ट की चौड़ाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single.
 type: docs
-weight: 160
+weight: 170
 url: /hi/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X प्रॉपर्टी
 
-एक शीर्षक के x निर्देशांक को चार्ट की चौड़ाई के अंश के रूप में प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single.
+शीर्षक का x निर्देशांक, चार्ट की चौड़ाई के अनुपात के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें Single.
 
 ```csharp
 public float X { get; set; }

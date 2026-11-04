@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
 second_title: Aspose.Sildes .NET API 参考
-description: 飞越幻灯片切换效果。
+description: 贯穿式幻灯片过渡效果。
 type: docs
-weight: 10090
+weight: 10110
 url: /zh/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition 接口
 
-飞越幻灯片切换效果。
+贯穿式幻灯片过渡效果。
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -16,13 +16,13 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | 切换的方向。可读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 指定在切换期间演示文稿幻灯片的移动包含弹跳效果。可读写 Boolean。 |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 指定在过渡期间演示文稿幻灯片的移动包括弹跳。读/写 Boolean。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

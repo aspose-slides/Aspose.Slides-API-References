@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von SmartArt-Knoten dar.
 type: docs
-weight: 10560
+weight: 10580
 url: /de/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection Schnittstelle
@@ -16,13 +16,13 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Gibt den Knoten nach Index zurück. Nur-Lesen [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Gibt Knoten nach Index zurück. Nur lesbar [`ISmartArtNode`](../ismartartnode) |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Fügt einen neuen Knoten oder Unterknoten hinzu. |
 | [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Fügt einen neuen Knoten an der ausgewählten Position der Knotensammlung hinzu. |

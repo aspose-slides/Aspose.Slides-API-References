@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes .NET-hez API hivatkozás
-description: Egy dián lévő videoklipet képvisel.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy videóklipet jelenít meg egy dián.
 type: docs
-weight: 7380
+weight: 7400
 url: /hu/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interfész
 
-Egy dián lévő videoklipet képvisel.
+Egy videoklipeket ábrázol egy dián.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -19,17 +19,18 @@ public interface IVideoFrame : IPictureFrame
 | Név | Leírás |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Lehetővé teszi az alap IPictureFrame interfész lekérését. Csak olvasható [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lekéri a hangkerethez társított zárt feliratok gyűjteményét. Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](../icaptionscollection)-t ad vissza, amely az összes feliratsávot tartalmazza. |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lekéri a hangkerethez kapcsolódó zárt feliratok gyűjteményét. Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](../icaptionscollection)-t ad vissza, amely az összes feliratsávot tartalmaz. |
 | [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Visszaadja vagy beállítja a beágyazott videóobjektumot. Olvasás/írás [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Megadja, hogy a videó teljes képernyős módban jelenik-e meg. Olvasás/írás Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Megadja, hogy a VideoFrame rejtett-e. Olvasás/írás Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Visszaadja vagy beállítja egy videófájl nevét, amely a VideoFrame-hez kapcsolódik. Olvasás/írás String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Megadja, hogy a videó ismétlődik-e. Olvasás/írás Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Visszaadja vagy beállítja a videó lejátszási módját. Olvasás/írás [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Megadja, hogy a videó automatikusan visszatekerődik-e a kezdőpontra, amint a lejátszás befejeződik. Olvasás/írás Boolean. |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Megállapítja, hogy a videó teljes képernyő módban jelenik-e meg. Olvasás/írás Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Megállapítja, hogy a VideoFrame rejtett-e. Olvasás/írás Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Visszaadja vagy beállítja a VideoFrame-hez kapcsolódó videofájl nevét. Olvasás/írás String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Megállapítja, hogy a videó ismétlődik-e. Olvasás/írás Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Visszaadja vagy beállítja a videó lejátszási módot. Olvasás/írás [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Megállapítja, hogy a videó automatikusan visszatekerődik-e a kezdeti pontra, amint a film lejátszása befejeződött. Olvasás/írás Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Vágás vége [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Vágás kezdete [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Visszaadja vagy beállítja a hanghangerőt. Olvasás/írás [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Visszaadja vagy beállítja az audio hangerőt. Olvasás/írás [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Visszaadja vagy beállítja a pontos videó hangerőt százalékban. Az érték 0 és 100 közötti százalékban van megadva. Használja ezt a tulajdonságot a hangerő értékek pontosabb olvasásához vagy beállításához, mint a [`Volume`](./volume) tulajdonság által elérhető előre definiált szintek. Olvasás/írás Single. |
 
 ### Lásd még
 

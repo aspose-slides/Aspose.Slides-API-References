@@ -3,10 +3,10 @@ title: DataTable
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti tabel data.
 type: docs
-weight: 1600
+weight: 1610
 url: /id/aspose.slides.charts/datatable/
 ---
-## DataTable kelas
+## Kelas DataTable
 
 Mewakili properti tabel data.
 
@@ -16,15 +16,15 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Mengembalikan bagan. Hanya baca [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Mengembalikan gaya garis, isian, dan efek dari suatu objek. Hanya baca [`IFormat`](../iformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Mengembalikan bagan. Baca-saja [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Mengembalikan gaya garis, isi, dan efek dari sebuah objek. Baca-saja [`IFormat`](../iformat). |
 | [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Benar jika tabel data bagan memiliki batas sel horizontal. Baca/tulis Boolean. |
 | [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Benar jika tabel data bagan memiliki batas luar. Baca/tulis Boolean. |
 | [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Benar jika tabel data bagan memiliki batas sel vertikal. Baca/tulis Boolean. |
 | [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Benar jika kunci legenda label data terlihat. Baca/tulis Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Mengembalikan format teks. Hanya baca [`IChartTextFormat`](../icharttextformat). |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Mengembalikan format teks. Baca-saja [`IChartTextFormat`](../icharttextformat). |
 
 ### Lihat Juga
 

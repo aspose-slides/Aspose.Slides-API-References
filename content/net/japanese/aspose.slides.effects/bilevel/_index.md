@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Bi-Level の黒/白エフェクトを表します。指定されたしきい値未満の輝度を持つ入力カラーは黒に変換されます。指定された値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果値はこのエフェクトの影響を受けません。
+description: Bi-Level の白黒効果を表します。指定されたしきい値未満の輝度を持つ入力色は黒に変更され、しきい値以上の輝度を持つ入力色は白に設定されます。この効果はアルファ効果の値には影響しません。
 type: docs
-weight: 2910
+weight: 2930
 url: /ja/aspose.slides.effects/bilevel/
 ---
 ## BiLevel クラス
 
-Bi-Level（黒/白）エフェクトを表します。指定されたしきい値未満の輝度を持つ入力カラーは黒に変換されます。指定された値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果値はこのエフェクトの影響を受けません。
+Bi-Level（白黒）効果を表します。指定されたしきい値未満の輝度を持つ入力色は黒に変更されます。指定されたしきい値以上の輝度を持つ入力色は白に設定されます。アルファ効果の値はこの効果によって影響を受けません。
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,7 +18,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
@@ -28,7 +28,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 継承が適用された有効な Bi-Level エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
-### 参照
+### 関連項目
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
 * インターフェイス [IBiLevel](../ibilevel)

@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: セクションのコレクションを表します。
 type: docs
-weight: 9760
+weight: 9780
 url: /ja/aspose.slides/sectioncollection/
 ---
 ## SectionCollection クラス
@@ -16,33 +16,33 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISection`](../isection)。 |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | 指定したインデックスにある要素を取得します。読み取り専用 [`ISection`](../isection)。 |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | コレクションの指定された位置に空のセクションを追加します。 |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | コレクションの指定位置に空のセクションを追加します。 |
 | [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | 特定のスライドから開始するスライド セクションを追加します。 |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | コレクションの末尾に空のセクションを追加します。 |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | コレクションからすべてのセクションを削除します。 |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | コレクション全体を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | コレクション内の指定されたセクションのインデックスを返します。 |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | セクションを削除します。セクションに含まれるスライドは前のセクションに統合されます。 |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | セクションとその中に含まれるスライドを削除します。 |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | セクションとそのスライドをコレクション内の指定位置へ移動します。 |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | セクションを削除します。そのセクションに含まれるスライドは前のセクションにマージされます。 |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | セクションとそのセクションに含まれるスライドを削除します。 |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | コレクションからセクションとそのスライドを指定された位置に移動します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Presentation](../presentation)
-* インターフェース [ISectionCollection](../isectioncollection)
+* インターフェイス [ISectionCollection](../isectioncollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

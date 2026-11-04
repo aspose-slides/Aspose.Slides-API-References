@@ -1,9 +1,9 @@
 ---
 title: MaterialPresetType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Costanti che definiscono il materiale della forma.
 type: docs
-weight: 8060
+weight: 8080
 url: /it/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enumerazione

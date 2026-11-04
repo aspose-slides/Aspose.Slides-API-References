@@ -3,7 +3,7 @@ title: IColumnCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Spalten in einer Tabelle dar.
 type: docs
-weight: 5530
+weight: 5550
 url: /de/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection Schnittstelle
@@ -18,13 +18,13 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Gibt die Spalte am angegebenen Index zurück. Nur lesbar [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Gibt die Spalte am angegebenen Index zurück. Nur-Lesen [`IColumn`](../icolumn). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am unteren Ende einer Tabelle ein. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am Ende einer Tabelle ein. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Erstellt eine Kopie der angegebenen Vorlagenspalte und fügt sie an der angegebenen Position in einer Tabelle ein. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Entfernt eine Spalte an der angegebenen Position aus einer Tabelle. |
 

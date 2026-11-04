@@ -1,12 +1,12 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una forma de manejar fuentes externas utilizadas para dibujar texto.
 type: docs
-weight: 4500
+weight: 4520
 url: /es/aspose.slides.export/svgexternalfontshandling/
 ---
-## enumeración SvgExternalFontsHandling
+## Enumeración SvgExternalFontsHandling
 
 Representa una forma de manejar fuentes externas utilizadas para dibujar texto.
 
@@ -18,11 +18,11 @@ public enum SvgExternalFontsHandling
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Agregar enlaces a archivos de fuentes separados a la sección de estilo del archivo SVG. |
-| Embed | `1` | Guardar los datos de fuentes directamente en el archivo SVG. Por favor, revise todos los acuerdos de licencia de fuentes externas antes de usar esta opción. |
-| Vectorize | `2` | Guardar todo el texto que usa fuentes externas como gráficos. |
+| AddLinksToFontFiles | `0` | Agrega enlaces a archivos de fuentes separados a la sección de estilo del archivo SVG. |
+| Embed | `1` | Guarda los datos de fuentes directamente en el archivo SVG. Por favor, verifica todos los acuerdos de licencia de fuentes externas antes de usar esta opción. |
+| Vectorize | `2` | Guarda todo el texto que usa fuentes externas como gráficos. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
 * ensamblado [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Opções que controlam como um documento XAML é salvo.
 type: docs
-weight: 4700
+weight: 4720
 url: /pt/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions interface
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * namespace [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

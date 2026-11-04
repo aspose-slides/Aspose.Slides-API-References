@@ -1,9 +1,9 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, представляющий эффект внутренней тени.
 type: docs
-weight: 3430
+weight: 3450
 url: /ru/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData интерфейс

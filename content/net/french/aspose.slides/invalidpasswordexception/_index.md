@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Exception qui est levée lorsque le format du fichier de présentation n'est pas pris en charge.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Exception levée lorsque le format du fichier de présentation n'est pas pris en charge.
 type: docs
-weight: 7620
+weight: 7640
 url: /fr/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException classe
 
-Exception qui est levée lorsque le format du fichier de présentation n’est pas pris en charge.
+Exception levée lorsque le format du fichier de présentation n'est pas pris en charge.
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -19,8 +19,8 @@ public class InvalidPasswordException : Exception
 | Nom | Description |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Constructeur par défaut. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Constructeur permettant d’ajouter un message à cette exception. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception imbriquée. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Constructeur permettant d'ajouter un message à cette exception. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception incorporée. |
 
 ### Voir aussi
 

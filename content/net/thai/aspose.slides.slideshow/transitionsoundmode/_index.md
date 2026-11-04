@@ -1,14 +1,14 @@
 ---
 title: TransitionSoundMode
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงโหมดเสียงของการเปลี่ยนแปลง.
+description: แสดงโหมดเสียงของการเปลี่ยนสไลด์
 type: docs
-weight: 10430
+weight: 10450
 url: /th/aspose.slides.slideshow/transitionsoundmode/
 ---
-## TransitionSoundMode การกำหนดค่า
+## TransitionSoundMode 列舉
 
-แสดงโหมดเสียงของการเปลี่ยนแปลง.
+แสดงโหมดเสียงของการเปลี่ยนสไลด์
 
 ```csharp
 public enum TransitionSoundMode

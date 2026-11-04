@@ -1,9 +1,9 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenční příručka API
 description: Rozhraní zpětného volání používané k řešení externích zdrojů během importu dokumentů Html a Svg.
 type: docs
-weight: 7490
+weight: 7510
 url: /cs/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver rozhraní
@@ -19,7 +19,7 @@ public interface IExternalResourceResolver
 | Název | Popis |
 | --- | --- |
 | [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Mapuje URI na objekt obsahující skutečný zdroj. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Určuje absolutní URI z základního a relativního URI. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Vyřeší absolutní URI ze základní a relativní URI. |
 
 ### Viz také
 

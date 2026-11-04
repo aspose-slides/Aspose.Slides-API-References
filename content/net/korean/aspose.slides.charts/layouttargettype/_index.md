@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes for .NET API 참조
-description: 플롯 영역의 레이아웃을 수동으로 정의한 경우, 이 속성은 축 및 축 레이블을 포함하지 않은 내부 또는 축 및 축 레이블을 포함한 외부 중 어디에 레이아웃할지를 지정합니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 플롯 영역의 레이아웃이 수동으로 정의된 경우, 이 속성은 축 및 축 레이블을 포함하지 않는 내부와 축 및 축 레이블을 포함하는 외부 중 어느 쪽으로 플롯 영역을 레이아웃할지를 지정합니다.
 type: docs
-weight: 2270
+weight: 2290
 url: /ko/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType 열거형
 
-플롯 영역의 레이아웃을 수동으로 정의한 경우, 이 속성은 플롯 영역을 내부(축 및 축 레이블 제외) 또는 외부(축 및 축 레이블 포함) 중 어디에 배치할지 지정합니다.
+플롯 영역의 레이아웃이 수동으로 정의된 경우, 이 속성은 플롯 영역을 내부(축 및 축 레이블을 포함하지 않음) 또는 외부(축 및 축 레이블을 포함)로 레이아웃할지를 지정합니다.
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Inner | `0` | 눈금 표시와 축 레이블을 포함하지 않고 플롯 영역 크기로 플롯 영역의 크기를 결정함을 지정합니다. |
-| Outer | `1` | 눈금 표시와 축 레이블을 포함하여 플롯 영역 크기로 플롯 영역의 크기를 결정함을 지정합니다. |
+| Inner | `0` | 플롯 영역 크기가 플롯 영역의 크기를 결정하도록 지정하며, 눈금 및 축 레이블은 포함하지 않습니다. |
+| Outer | `1` | 플롯 영역 크기가 플롯 영역, 눈금 및 축 레이블의 크기를 결정하도록 지정합니다. |
 
 ### 참고
 

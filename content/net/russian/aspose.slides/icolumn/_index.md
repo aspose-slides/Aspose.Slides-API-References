@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет столбец в таблице.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет колонку в таблице.
 type: docs
-weight: 5520
+weight: 5540
 url: /ru/aspose.slides/icolumn/
 ---
 ## IColumn интерфейс
 
-Представляет столбец в таблице.
+Представляет колонку в таблице.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -20,8 +20,8 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этого столбца. Только для чтения [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задает ширину столбца. Чтение/запись Double. |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этой колонки. Только для чтения [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задаёт ширину колонки. Чтение/запись Double. |
 
 ### См. также
 

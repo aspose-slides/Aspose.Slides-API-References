@@ -1,9 +1,9 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt das Format, in dem das Folienbild für die Präsentation beim HTML-Export gespeichert wird.
 type: docs
-weight: 4090
+weight: 4110
 url: /de/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat Schnittstelle

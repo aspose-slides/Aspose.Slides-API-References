@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Teil einer Form dar, der dieselben Kontur- und Fülleigenschaften hat.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Teil einer Form mit denselben Umriss- und Füll-Eigenschaften dar.
 type: docs
-weight: 9870
+weight: 9890
 url: /de/aspose.slides/shapeelement/
 ---
 ## ShapeElement Klasse
 
-Stellt einen Teil einer Form dar, der dieselben Kontur- und Fülleigenschaften hat.
+Stellt einen Teil einer Form mit denselben Umriss- und Füll-Eigenschaften dar.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Gibt Informationen darüber zurück, wie ein Element gefüllt wird. Schreibgeschützt [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Gibt ein Shape_PPT zurück, für das das Element erstellt wurde. Schreibgeschützt [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Ruft ein Array von Punkten ab, das die Geometrie des Pfads des Elements definiert. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Ruft ein Array von Bytewerten ab, das den Typ jedes Punkts im Pfad des Elements angibt. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Gibt Informationen darüber zurück, wie ein Element konturiert wird. Schreibgeschützt [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Gibt Informationen darüber zurück, wie ein Element gefüllt wird. Nur lesbar [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Gibt ein Shape_PPT zurück, für das das Element erstellt wurde. Nur lesbar [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Gibt ein Array von Punkten zurück, das die Geometrie des Pfads des Elements definiert. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Gibt ein Array von Byte-Werten zurück, das den Typ jedes Punktes im Pfad des Elements angibt. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Gibt Informationen darüber zurück, wie ein Element konturiert wird. Nur lesbar [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Siehe auch
 

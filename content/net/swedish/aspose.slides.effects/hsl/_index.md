@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Hue/Saturation/Luminance-effekt. Hue, Saturation och Luminance kan var och en justeras relativt sitt aktuella värde.
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar en Hue/Saturation/Luminance-effekt. Färgton, mättnad och ljushet kan var och en justeras i förhållande till deras nuvarande värde.
 type: docs
-weight: 3010
+weight: 3030
 url: /sv/aspose.slides.effects/hsl/
 ---
-## HSL-klass
+## HSL klass
 
-Representerar en nyans/mättnad/luminans-effekt. Nyansen, mättnaden och luminansen kan var och en justeras relativt sitt nuvarande värde.
+Representerar en Hue/Saturation/Luminance-effekt. Färgton, mättnad och ljushet kan var och en justeras i förhållande till deras nuvarande värde.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,15 +18,15 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta grund-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Läs-endast [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Bestämmer om den angivna [`HSL`](../hsl) är lika med den aktuella [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Hämtar effektiv Hue/Saturation/Luminance-effektdat med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Fungera som en hash-funktion för en given typ. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Hämtar data för effektiv Hue/Saturation/Luminance-effekt med ärvd tillämpning. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
 ### Se även
 

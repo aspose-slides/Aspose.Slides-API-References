@@ -1,9 +1,9 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή στυλ εφέ.
+second_title: Aspose.Sildes για .NET αναφορά API
+description: Αντιπροσωπεύει μια συλλογή από στυλ εφέ.
 type: docs
-weight: 11090
+weight: 11110
 url: /el/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection κλάση
@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Επιστρέφει έναν αριθμό στοιχείων στη συλλογή. Μόνο ανάγνωση Int32, Μόνο ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο ανάγνωση Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Επιστρέφει ένα στοιχείο στη συγκεκριμένη θέση. Μόνο ανάγνωση [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο ανάγνωση Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων στη συλλογή. Μόνο για ανάγνωση Int32, Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Επιστρέφει ένα στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Επιστρέφει έναν επαναλήπτη που διατρέχει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Επιστρέφει έναν αντικειμενοδείκτη που επαναλαμβάνει τη συλλογή. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει έναν τύπο που μπορεί να επιστρέψει τα αντίστοιχα αποτελεσματικά δεδομένα με την κληρονομικότητα εφαρμοσμένη.
+second_title: Aspose.Sildes για .NET αναφορά API
+description: Αντιπροσωπεύει έναν τύπο που μπορεί να επιστρέψει τα αντίστοιχα αποτελεσματικά δεδομένα με την εφαρμογή της κληρονομικότητας.
 type: docs
-weight: 5170
+weight: 5190
 url: /el/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject&lt;T&gt; διασύνδεση
 
-Αντιπροσωπεύει έναν τύπο που μπορεί να επιστρέψει τα αντίστοιχα αποτελεσματικά δεδομένα με την κληρονομικότητα εφαρμοσμένη.
+Αντιπροσωπεύει έναν τύπο που μπορεί να επιστρέψει τα αντίστοιχα αποτελεσματικά δεδομένα με την εφαρμογή της κληρονομικότητας.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα με την κληρονομικότητα εφαρμοσμένη. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Επιστρέφει τα αποτελεσματικά δεδομένα με την εφαρμογή της κληρονομικότητας. |
 
 ### Δείτε επίσης
 

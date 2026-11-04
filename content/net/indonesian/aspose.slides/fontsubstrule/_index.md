@@ -1,9 +1,9 @@
 ---
 title: FontSubstRule
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili informasi substitusi font
 type: docs
-weight: 4890
+weight: 4910
 url: /id/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule kelas
@@ -16,18 +16,18 @@ public class FontSubstRule : IFontSubstRule
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Membuat instance baru. |
 | [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Membuat instance baru. |
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Font yang digunakan untuk substitusi. Hanya-baca [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Aturan yang diterapkan untuk substitusi. Hanya-baca [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Font untuk mengganti. Hanya-baca [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Font yang akan digunakan untuk substitusi. Baca-saja [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Aturan yang diterapkan untuk substitusi. Baca-saja [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Font yang akan disubstitusi. Baca-saja [`IFontData`](../ifontdata). |
 
 ### Lihat Juga
 

@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen standardmäßigen internen Ausnahmetyp dar.
 type: docs
-weight: 9210
+weight: 9230
 url: /de/aspose.slides/odpexception/
 ---
 ## OdpException Klasse
@@ -19,8 +19,8 @@ public class OdpException : Exception
 | Name | Beschreibung |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Standardkonstruktor |
-| [OdpException](odpexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Ausnahme ermöglicht. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor für eine Ausnahme, die eine Nachricht und eine eingebettete Ausnahme enthält. |
+| [OdpException](odpexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Exception ermöglicht. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor für eine Exception, die eine Nachricht und eine eingebettete Exception enthält. |
 
 ### Siehe auch
 

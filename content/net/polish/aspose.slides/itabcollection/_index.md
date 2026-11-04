@@ -1,12 +1,12 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje kolekcję zakładek.
 type: docs
-weight: 7200
+weight: 7220
 url: /pl/aspose.slides/itabcollection/
 ---
-## interfejs ITabCollection
+## ITabCollection interfejs
 
 Reprezentuje kolekcję zakładek.
 
@@ -27,7 +27,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Dodaje Tab do kolekcji. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Dodaje Tab do kolekcji. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Usuwa element o określonym indeksie z kolekcji. |
 
 ### Zobacz także
 

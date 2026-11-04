@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes для .NET справка API
-description: Представляет коллекцию точек, которые должны быть нарисованы во втором секторе или столбце на диаграмме типа bar-of-pie или pie-of-pie с пользовательским разделением.
+second_title: Aspose.Sildes для .NET API справочник
+description: Представляет коллекцию точек, которые должны быть отображены во второй части пирога или столбце на диаграмме «бар-в-пироге» или «пирог-в-пироге» с пользовательским разбиением.
 type: docs
-weight: 2190
+weight: 2210
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection интерфейс
 
-Представляет коллекцию точек, которые должны быть нарисованы во втором секторе или столбце на диаграмме типа "bar-of-pie" или "pie-of-pie" с пользовательским разделением.
+Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -25,10 +25,10 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Добавляет точку данных по её индексу в коллекции точек родительского ряда. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Добавляет точку данных по её индексу в коллекцию точек родительского ряда. |
 | [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Удаляет элемент из коллекции по его индексу в коллекции точек родительского ряда. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataPoint](../ichartdatapoint)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

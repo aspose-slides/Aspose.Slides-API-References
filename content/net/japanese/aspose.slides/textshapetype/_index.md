@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストラッピング形状を表します。
+description: テキストの折り返し形状を表します。
 type: docs
-weight: 10980
+weight: 11000
 url: /ja/aspose.slides/textshapetype/
 ---
 ## TextShapeType 列挙体
 
-テキストラッピング形状を表します。
+テキストの折り返し形状を表します。
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -20,21 +20,21 @@ public enum TextShapeType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | 未定義 |
 | None | `0` | 形状なし |
-| Plain | `1` | プレーン |
-| Stop | `2` | 停止標識 |
+| Plain | `1` | 標準 |
+| Stop | `2` | ストップサイン |
 | Triangle | `3` | 三角形 |
-| TriangleInverted | `4` | 逆三角形 |
+| TriangleInverted | `4` | 逆向き三角形 |
 | Chevron | `5` | シェブロン |
-| ChevronInverted | `6` | 逆シェブロン |
-| RingInside | `7` | 内側リング |
-| RingOutside | `8` | 外側リング |
+| ChevronInverted | `6` | 逆向きシェブロン |
+| RingInside | `7` | 内部リング |
+| RingOutside | `8` | 外部リング |
 | ArchUp | `9` | 上向きアーチ |
 | ArchDown | `10` | 下向きアーチ |
-| Circle | `11` | 円形 |
+| Circle | `11` | 円 |
 | Button | `12` | ボタン |
 | ArchUpPour | `13` | 上向き注ぎアーチ |
 | ArchDownPour | `14` | 下向き注ぎアーチ |
-| CirclePour | `15` | 円形注ぎ |
+| CirclePour | `15` | 円注ぎ |
 | ButtonPour | `16` | ボタン注ぎ |
 | CurveUp | `17` | 上向き曲線 |
 | CurveDown | `18` | 下向き曲線 |
@@ -56,13 +56,13 @@ public enum TextShapeType : sbyte
 | FadeLeft | `34` | 左フェード |
 | FadeUp | `35` | 上向きフェード |
 | FadeDown | `36` | 下向きフェード |
-| SlantUp | `37` | 上向き傾き |
-| SlantDown | `38` | 下向き傾き |
+| SlantUp | `37` | 上向き斜め |
+| SlantDown | `38` | 下向き斜め |
 | CascadeUp | `39` | 上向きカスケード |
 | CascadeDown | `40` | 下向きカスケード |
 | Custom | `41` | カスタム |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

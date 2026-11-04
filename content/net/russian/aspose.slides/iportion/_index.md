@@ -1,9 +1,9 @@
 ---
 title: IPortion
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет часть текста внутри текстового абзаца.
 type: docs
-weight: 6700
+weight: 6720
 url: /ru/aspose.slides/iportion/
 ---
 ## IPortion интерфейс
@@ -20,8 +20,8 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
 | [Field](../../aspose.slides/iportion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Возвращает объект форматирования, содержащий явно заданные свойства форматирования части текста без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Получает или задаёт простой текст части. Чтение/запись String. |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Возвращает объект форматирования, содержащий явно заданные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Получает или задает простой текст части. Чтение/запись String. |
 
 ## Методы
 

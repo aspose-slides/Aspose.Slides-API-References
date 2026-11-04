@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes .NET API referencia
-description: Hozzáférést biztosít a prezentáció mester témájához.
+second_title: Aspose.Sildes .NET API referenciája
+description: Hozzáférést biztosít a prezentáció fő témájához.
 type: docs
-weight: 11320
+weight: 11340
 url: /hu/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager interfész
 
-Hozzáférést biztosít a prezentáció mester témájához.
+Hozzáférést biztosít a prezentáció fő témájához.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Lehetővé teszi a base IThemeManager interfész lekérdezését. Csak olvasható [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Meghatározza, hogy az OverrideTheme felülírja-e a örökölt hatékony témát (Presentation.MasterTheme), vagy sem. Olvasás/írás Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumát. Olvasás/írás [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Lehetővé teszi az alap IThemeManager interfész lekérését. Csak olvasható [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Meghatározza, hogy az OverrideTheme felülírja-e az örökölt hatékony témát (Presentation.MasterTheme), vagy sem. Olvasható/írható Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Visszaadja a felülíró témát objektumként. Olvasható/írható [`IMasterTheme`](../imastertheme). |
 
 ### Lásd még
 

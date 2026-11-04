@@ -3,10 +3,10 @@ title: IInnerShadowEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Objek tak dapat diubah yang mewakili efek bayangan dalam.
 type: docs
-weight: 3430
+weight: 3450
 url: /id/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData interface
+## IInnerShadowEffectiveData antarmuka
 
 Objek tak dapat diubah yang mewakili efek bayangan dalam.
 
@@ -18,7 +18,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Radius blur. Hanya-baca Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Arah bayangan. Hanya-baca Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Jarak bayangan. Hanya-baca Double. |

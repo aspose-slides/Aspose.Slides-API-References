@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir etki stilini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir efekt stilini temsil eder.
 type: docs
-weight: 11170
+weight: 11190
 url: /tr/aspose.slides.theme/ieffectstyle/
 ---
-## IEffectStyle arayüz
+## IEffectStyle arayüzü
 
-Bir etki stilini temsil eder.
+Bir efekt stilini temsil eder.
 
 ```csharp
 public interface IEffectStyle
@@ -18,8 +18,8 @@ public interface IEffectStyle
 
 | Ad | Açıklama |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Bir etki biçimini döndürür. Yalnızca okunabilir [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Bir 3d biçimini döndürür. Yalnızca okunabilir [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Bir efekt biçimini döndürür. Yalnızca okuma [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Bir 3d biçimini döndürür. Yalnızca okuma [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Ayrıca Bakınız
 

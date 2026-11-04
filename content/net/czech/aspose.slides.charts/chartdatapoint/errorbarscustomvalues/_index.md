@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hodnoty chybových úseků řady v případě vlastního typu hodnoty. Pouze pro čtení IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+description: Reprezentuje hodnoty chybových úsečků řady v případě typu Custom. Pouze pro čtení IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 80
+weight: 120
 url: /cs/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
 ## ChartDataPoint.ErrorBarsCustomValues vlastnost
 
-Reprezentuje hodnoty chybových úseků řady v případě vlastního typu hodnoty. Pouze pro čtení [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Reprezentuje hodnoty chybových úsečků řady v případě typu Custom. Pouze pro čtení [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }

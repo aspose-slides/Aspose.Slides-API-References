@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes para la referencia de API .NET
-description: Objeto inmutable que contiene propiedades de formato efectivas de la celda de tabla.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene propiedades de formato de celda de tabla efectivas.
 type: docs
-weight: 5480
+weight: 5500
 url: /es/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de formato efectivas de la celda de tabla.
+Objeto inmutable que contiene propiedades de formato de celda de tabla efectivas.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,10 +18,10 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obtener la interfaz base IBaseTableFormatEffectiveData. Sólo lectura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtiene la transparencia del color de relleno. Lectura Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obtener la interfaz base IBaseTableFormatEffectiveData. Solo lectura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtiene la transparencia del color de relleno. Lee Single. |
 
-### Observaciones
+### Comentarios
 
 Esta interfaz se usa junto con la interfaz [`ICellFormat`](../icellformat) para devolver valores de formato efectivos con herencia y estilos de tabla aplicados.
 

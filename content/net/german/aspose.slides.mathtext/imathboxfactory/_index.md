@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
 second_title: Aspose.Sildes für .NET API Referenz
-description: Ermöglicht das Erstellen einer Mathbox
+description: Ermöglicht das Erstellen einer Mathematikbox
 type: docs
-weight: 8200
+weight: 8220
 url: /de/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory Schnittstelle
 
-Ermöglicht das Erstellen einer Mathbox
+Ermöglicht das Erstellen einer Mathematikbox
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,9 +18,9 @@ public interface IMathBoxFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Erstellt eine Mathbox, indem sie auf das Element angewendet wird |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Erstellt eine Mathematikbox, indem sie auf das Element angewendet wird |
 
-### Anmerkungen
+### Bemerkungen
 
 Für COM-Kompatibilität
 

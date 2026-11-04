@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Slides dla .NET – Dokumentacja API
-description: Określa stan, w jakim ma być wyświetlany pasek podziału. Pasek podziału oddziela region główny i wtórny w obrębie obszaru wyświetlania.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Określa stan, w jakim pasek podziału powinien być wyświetlany. Pasek podziału oddziela główny i dodatkowy region w obrębie obszaru wyświetlania.
 type: docs
-weight: 10690
+weight: 10710
 url: /pl/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType wyliczenie
+## Typ wyliczeniowy SplitterBarStateType
 
-Określa stan, w jakim ma być wyświetlany pasek podziału. Pasek podziału oddziela region główny i wtórny w obrębie obszaru wyświetlania.
+Określa stan, w jakim pasek rozdzielający powinien być wyświetlany. Pasek rozdzielający oddziela główny i dodatkowy region w obrębie obszaru wyświetlania.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,9 +18,9 @@ public enum SplitterBarStateType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Minimized | `0` | Region główny zajmuje najmniejszą dopuszczalną przez aplikację część obszaru wyświetlania. |
-| Restored | `1` | Region główny ma określony pośredni rozmiar. |
-| Maximized | `2` | Region główny zajmuje największą dopuszczalną przez aplikację część obszaru wyświetlania. |
+| Minimized | `0` | Główny region zajmuje najmniejszą dozwoloną przez aplikację część obszaru wyświetlania. |
+| Restored | `1` | Główny region ma określony pośredni rozmiar. |
+| Maximized | `2` | Główny region zajmuje największą dozwoloną przez aplikację część obszaru wyświetlania. |
 
 ### Zobacz także
 

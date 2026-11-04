@@ -3,10 +3,10 @@ title: IExcelDataCell
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine einzelne Zelle in einer Excel-Arbeitsmappe dar.
 type: docs
-weight: 3700
+weight: 3720
 url: /de/aspose.slides.excel/iexceldatacell/
 ---
-## IExcelDataCell Interface
+## IExcelDataCell Schnittstelle
 
 Stellt eine einzelne Zelle in einer Excel-Arbeitsmappe dar.
 
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | Name | Beschreibung |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Gibt den nullbasierten Index der Spalte im Arbeitsblatt zurück, in dem sich die Zelle befindet. Nur lesbar Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Gibt den Namen der Diagrammdatenzelle zurück. Nur lesbar String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Gibt den nullbasierten Index der Zeile im Arbeitsblatt zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Gibt den in der Excel-Zelle enthaltenen Wert zurück. Nur lesbar Object. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Ruft den nullbasierten Index der Spalte im Arbeitsblatt ab, in dem sich die Zelle befindet. Nur lesbar Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Ruft den Namen der Diagrammdatenzelle ab. Nur lesbar String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Ruft den nullbasierten Index der Zeile im Arbeitsblatt ab, in dem sich die Zelle befindet. Nur lesbar Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Ruft den in der Excel-Zelle enthaltenen Wert ab. Nur lesbar Object. |
 
 ### Siehe auch
 

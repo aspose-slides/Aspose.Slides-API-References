@@ -1,9 +1,9 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представлено спикером в полноэкранном режиме
 type: docs
-weight: 9650
+weight: 9670
 url: /ru/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker класс

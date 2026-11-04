@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: プリセット シャドウ効果を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Preset Shadow 効果を表します。
 type: docs
-weight: 3630
+weight: 3650
 url: /ja/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow クラス
 
-プリセット シャドウ効果を表します。
+Preset Shadow 効果を表します。
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -18,20 +18,20 @@ public sealed class PresetShadow : IPresetShadow
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 影の方向。読み書き Single。 |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 影の距離。読み書き Double。 |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | プリセット。読み書き [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 影の色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 影の方向。読み取り/書き込み Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 影の距離。読み取り/書き込み Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | プリセット。読み取り/書き込み [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 影の色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 指定された [`PresetShadow`](../presetshadow) が現在の [`PresetShadow`](../presetshadow) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 継承が適用された有効なプリセット シャドウ効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 継承が適用された効果的な Preset Shadow 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IPresetShadow](../ipresetshadow)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

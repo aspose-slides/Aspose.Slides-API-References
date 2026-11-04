@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkManager
-second_title: Aspose.Sildes per il Riferimento API .NET
-description: Fornisce la gestione dei collegamenti ipertestuali (aggiunta, rimozione).
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Fornisce la gestione dei collegamenti ipertestuali aggiungendo e rimuovendo.
 type: docs
-weight: 6130
+weight: 6150
 url: /it/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interfaccia
@@ -20,11 +20,11 @@ public interface IHyperlinkManager
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Rimuove il collegamento ipertestuale al clic. |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Rimuove il collegamento ipertestuale al passaggio del mouse. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Imposta un collegamento ipertestuale esterno al clic. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Imposta un collegamento ipertestuale esterno al passaggio del mouse. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Imposta un collegamento ipertestuale interno al clic. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Imposta un collegamento ipertestuale interno al passaggio del mouse. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Imposta un collegamento ipertestuale Macro al clic. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Imposta il collegamento ipertestuale esterno al clic. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Imposta il collegamento ipertestuale esterno al passaggio del mouse. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Imposta il collegamento ipertestuale interno al clic. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Imposta il collegamento ipertestuale interno al passaggio del mouse. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Imposta il collegamento ipertestuale Macro al clic. |
 
 ### Vedi anche
 

@@ -1,12 +1,12 @@
 ---
 title: Item
-second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
-description: Lấy nhãn dữ liệu cho điểm dữ liệu có chỉ số đã chỉ định.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lấy nhãn dữ liệu cho điểm dữ liệu có chỉ số được chỉ định.
 type: docs
-weight: 70
+weight: 80
 url: /vi/aspose.slides.charts/idatalabelcollection/item/
 ---
-## IDataLabelCollection bộ chỉ mục
+## IDataLabelCollection indexer
 
 Lấy nhãn dữ liệu cho điểm dữ liệu có chỉ số được chỉ định.
 

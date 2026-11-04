@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Gradient-Füll-Eigenschaften enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Gradientfüllungseigenschaften enthält.
 type: docs
-weight: 6010
+weight: 6030
 url: /de/aspose.slides/igradientformateffectivedata/
 ---
-## IGradientFormatEffectiveData Schnittstelle
+## IGradientFormatEffectiveData interface
 
-Unveränderliches Objekt, das effektive Gradient-Füll-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Gradient-Füllungseigenschaften enthält.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -18,17 +18,17 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Ermöglicht das Abrufen der Basis-IFillParamSource-Schnittstelle. Schreibgeschützt [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Gibt den Stil eines Farbverlaufs zurück. Schreibgeschützt [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Gibt die Form eines Farbverlaufs zurück. Schreibgeschützt [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Gibt die Sammlung der Farbverlaufsstopps zurück. Schreibgeschützt [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Gibt den Winkel eines Farbverlaufs zurück. Schreibgeschützt Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Bestimmt, ob ein Verlauf skaliert ist. Schreibgeschützt Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Gibt den Spiegelungsmodus für einen Verlauf zurück. Schreibgeschützt [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Erlaubt den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Gibt den Stil eines Gradienten zurück. Nur lesbar [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Gibt die Form eines Gradienten zurück. Nur lesbar [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Gibt die Sammlung von Gradienten-Stops zurück. Nur lesbar [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Gibt den Winkel eines Gradienten zurück. Nur lesbar Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Bestimmt, ob ein Gradient skaliert wird. Nur lesbar Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Gibt den Spiegelungsmodus für einen Gradient zurück. Nur lesbar [`TileFlip`](../tileflip). |
 
-### Anmerkungen
+### Hinweise
 
-Diese Schnittstelle wird als Teil von [`IFillFormatEffectiveData`](../ifillformateffectivedata) und [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) verwendet.
+Dieses Interface wird als Teil von [`IFillFormatEffectiveData`](../ifillformateffectivedata) und [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) verwendet.
 
 ### Siehe auch
 

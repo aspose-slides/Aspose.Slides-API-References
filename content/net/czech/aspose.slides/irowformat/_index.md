@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje formát řádku tabulky.
 type: docs
-weight: 6870
+weight: 6890
 url: /cs/aspose.slides/irowformat/
 ---
 ## IRowFormat rozhraní

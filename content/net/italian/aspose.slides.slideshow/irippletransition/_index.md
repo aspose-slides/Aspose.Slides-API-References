@@ -1,9 +1,9 @@
 ---
 title: IRippleTransition
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione a increspatura della diapositiva.
+second_title: Aspose.Sildes per .NET API Reference
+description: Effetto di transizione della diapositiva a increspatura.
 type: docs
-weight: 10170
+weight: 10190
 url: /it/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interfaccia

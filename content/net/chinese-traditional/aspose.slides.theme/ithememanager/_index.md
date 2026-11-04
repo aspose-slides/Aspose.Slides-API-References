@@ -3,7 +3,7 @@ title: IThemeManager
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示主題屬性。
 type: docs
-weight: 11390
+weight: 11410
 url: /zh-hant/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager 介面
@@ -18,10 +18,10 @@ public interface IThemeManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | 將額外的配色方案套用到投影片。 |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | 套用額外色彩方案至投影片。 |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | 傳回主題物件。 |
 
-### 參見
+### 另見
 
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 組件 [Aspose.Slides](../../)

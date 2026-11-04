@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет эффект Tint. Сдвигает значения цвета эффекта к/от оттенка на указанную величину.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет эффект Tint. Смещает значения цветов эффекта к оттенку или от него на указанное количество.
 type: docs
-weight: 3660
+weight: 3680
 url: /ru/aspose.slides.effects/tint/
 ---
 ## Класс Tint
 
-Представляет эффект Tint. Сдвигает значения цвета эффекта к/от оттенка на указанную величину.
+Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -26,9 +26,9 @@ public sealed class Tint : ImageTransformOperation, ITint
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | Определяет, равен ли указанный [`Tint`](../tint) текущему [`Tint`](../tint). |
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Получает эффективные данные эффекта Tint с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Служит в качестве функции хеширования для определённого типа. |
 
-### Смотрите также
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [ITint](../itint)

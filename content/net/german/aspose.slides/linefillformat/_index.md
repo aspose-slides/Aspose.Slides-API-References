@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Eigenschaften für das Füllen von Linien bereit.
+description: Stellt Eigenschaften für das Füllen von Linien dar.
 type: docs
-weight: 7780
+weight: 7800
 url: /de/aspose.slides/linefillformat/
 ---
 ## LineFillFormat Klasse
 
-Stellt Eigenschaften für das Füllen von Linien bereit.
+Stellt Eigenschaften für das Füllen von Linien dar.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,19 +18,19 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Gibt den Fülltyp zurück. Lese-/Schreib [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Gibt das Gradient-Füllformat zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Gibt das Muster-Füllformat zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit einer Form rotiert werden soll. Lese-/Schreib [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Gibt die Farbe einer soliden Füllung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Gibt den Fülltyp zurück oder legt ihn fest. Lesen/Schreiben [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Gibt das Gradientfüllformat zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Gibt das Musternfüllformat zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit einer Form rotiert werden soll. Lesen/Schreiben [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Gibt die Farbe einer einfarbigen Füllung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
 
 ### Siehe auch
 

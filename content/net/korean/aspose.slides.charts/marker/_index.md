@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트의 마커를 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: chert의 마커를 나타냅니다.
 type: docs
-weight: 2330
+weight: 2350
 url: /ko/aspose.slides.charts/marker/
 ---
 ## 마커 클래스
 
-차트의 마커를 나타냅니다.
+chert의 마커를 나타냅니다.
 
 ```csharp
 public class Marker : IMarker
@@ -19,10 +19,10 @@ public class Marker : IMarker
 | 이름 | 설명 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/marker/format) { get; } | 마커 채우기를 가져오거나 설정합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 선 차트, 산점도 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 선 차트, 산점도 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 라인 차트, 산점도 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 라인 차트, 산점도 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IMarker](../imarker)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

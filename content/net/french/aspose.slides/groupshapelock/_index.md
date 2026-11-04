@@ -3,7 +3,7 @@ title: GroupShapeLock
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine quelles opérations sont désactivées sur le GroupShape parent.
 type: docs
-weight: 5100
+weight: 5120
 url: /fr/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock classe
@@ -25,7 +25,7 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 | [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Détermine si la modification de l'angle de rotation de cette forme est interdite. Lecture/écriture Boolean. |
 | [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Lecture/écriture Boolean. |
 | [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Lecture/écriture Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Détermine si la division de ce GroupShape est interdite. Lecture/écriture Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Détermine si la division de ce groupshape est interdite. Lecture/écriture Boolean. |
 
 ### Voir aussi
 

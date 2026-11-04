@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Interfejs pomocniczych parametrów efektu.
 type: docs
-weight: 5760
+weight: 5780
 url: /pl/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interfejs
@@ -14,7 +14,7 @@ Interfejs pomocniczych parametrów efektu.
 public interface IEffectParamSource
 ```
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

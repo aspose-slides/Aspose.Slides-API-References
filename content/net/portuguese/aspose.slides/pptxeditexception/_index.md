@@ -1,12 +1,12 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa uma exceção lançada quando um erro de edição de apresentação é detectado.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma exceção lançada quando é detectado um erro ao editar a apresentação.
 type: docs
-weight: 9550
+weight: 9570
 url: /pt/aspose.slides/pptxeditexception/
 ---
-## Classe PptxEditException
+## PptxEditException classe
 
 Representa uma exceção lançada quando um erro de edição de apresentação é detectado.
 
@@ -16,13 +16,13 @@ public class PptxEditException : PptxException
 
 ## Construtores
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Construtor padrão. |
 | [PptxEditException](pptxeditexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a esta exceção. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Construtor para uma exceção que contém uma mensagem e uma exceção incorporada. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Construtor para uma exceção contendo uma mensagem e uma exceção incorporada. |
 
-### Ver também
+### Veja Também
 
 * classe [PptxException](../pptxexception)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

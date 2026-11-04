@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Permet de créer un élément MathematicalText
 type: docs
-weight: 8520
+weight: 8540
 url: /fr/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interface
@@ -18,10 +18,10 @@ public interface IMathematicalTextFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Créer un élément de texte mathématique vide |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Créer un élément de texte mathématique avec la valeur spécifiée |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Créer un élément de texte mathématique vide avec la valeur spécifiée |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Créer un élément de texte mathématique vide avec la valeur spécifiée et les propriétés de formatage |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Créer un élément texte mathématique vide |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Créer un élément texte mathématique avec la valeur spécifiée |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Créer un élément texte mathématique vide avec la valeur spécifiée |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Créer un élément texte mathématique vide avec la valeur spécifiée et les propriétés de mise en forme |
 
 ### Remarques
 

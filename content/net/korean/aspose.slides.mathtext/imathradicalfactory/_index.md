@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수학 근을 생성할 수 있습니다
 type: docs
-weight: 8440
+weight: 8460
 url: /ko/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory 인터페이스
 
-수학 근을 생성할 수 있습니다
+수학 근을 생성할 수 있습니다.
 
 ```csharp
 public interface IMathRadicalFactory

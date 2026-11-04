@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes .NET API 参考
-description: 表示应该应用于文档的内容标记类型。
+description: 表示应当应用于文档的内容标记类型。
 type: docs
-weight: 9820
+weight: 9840
 url: /zh/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## SensitivityLabelContentType 枚举
 
-表示应该应用于文档的内容标记类型。
+表示应当应用于文档的内容标记类型。
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -18,13 +18,13 @@ public enum SensitivityLabelContentType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示标签默认或自动应用。 |
-| Header | `1` | 表示标签是手动应用的。用于任何由用户直接应用的敏感度标签。 |
-| Footer | `2` | 表示标签是手动应用的。用于任何由用户直接应用的敏感度标签。 |
-| Watermark | `4` | 表示标签是手动应用的。用于任何由用户直接应用的敏感度标签。 |
-| Encryption | `8` | 表示标签是手动应用的。用于任何由用户直接应用的敏感度标签。 |
+| None | `0` | 暗示该标签是默认或自动应用的。 |
+| Header | `1` | 暗示该标签是手动应用的。用于任何由用户直接应用的敏感性标签。 |
+| Footer | `2` | 暗示该标签是手动应用的。用于任何由用户直接应用的敏感性标签。 |
+| Watermark | `4` | 暗示该标签是手动应用的。用于任何由用户直接应用的敏感性标签。 |
+| Encryption | `8` | 暗示该标签是手动应用的。用于任何由用户直接应用的敏感性标签。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

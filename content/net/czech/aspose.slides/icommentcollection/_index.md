@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci komentářů od jednoho autora.
+description: Representuje kolekci komentářů od jednoho autora.
 type: docs
-weight: 5590
+weight: 5610
 url: /cs/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection rozhraní
 
-Představuje kolekci komentářů od jednoho autora.
+Reprezentuje kolekci komentářů od jednoho autora.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -32,7 +32,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Odstraní první výskyt zadaného komentáře v kolekci. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Vytvoří a vrátí pole se všemi komentáři. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi komentáři ze zadaného rozsahu. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi komentáři z uvedeného rozsahu. |
 
 ### Viz také
 

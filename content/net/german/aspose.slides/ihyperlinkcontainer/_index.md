@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Hyperlink-Objekt dar.
 type: docs
-weight: 6120
+weight: 6140
 url: /de/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer Schnittstelle
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | Name | Beschreibung |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Gibt den für einen Mausklick definierten Hyperlink zurück oder legt ihn fest. Lesen/Schreiben [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlink-Manager Nur-Lesen [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Gibt den für ein Mouseover definierten Hyperlink zurück oder legt ihn fest. Lesen/Schreiben [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Gibt den für einen Mausklick definierten Hyperlink zurück oder legt ihn fest. Lese/Schreib [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlinks-Manager Nur-Lesen [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Gibt den für einen Mauszeiger-Überflug definierten Hyperlink zurück oder legt ihn fest. Lese/Schreib [`IHyperlink`](../ihyperlink). |
 
 ### Siehe auch
 

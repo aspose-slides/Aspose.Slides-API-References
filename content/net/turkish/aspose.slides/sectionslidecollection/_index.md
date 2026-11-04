@@ -3,10 +3,10 @@ title: SectionSlideCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bölümdeki slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 9770
+weight: 9790
 url: /tr/aspose.slides/sectionslidecollection/
 ---
-## SectionSlideCollection sınıfı
+## SectionSlideCollection sınıf
 
 Bölümdeki slaytların bir koleksiyonunu temsil eder.
 
@@ -27,10 +27,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Ad | Açıklama |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Koleksiyon içinde dolaşan bir enumerator döndürür. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Koleksiyonun tamamını belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Section](../section)

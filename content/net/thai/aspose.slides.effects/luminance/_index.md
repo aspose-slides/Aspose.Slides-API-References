@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Luminance. Brightness ปรับสีทั้งหมดให้ใกล้สีขาวหรือสีดำอย่างเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้ใกล้หรือห่างกันมากขึ้น.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นการแสดงผลของเอฟเฟกต์ Luminance. ความสว่างจะเคลื่อนย้ายสีทั้งหมดอย่างเชิงเส้นให้ใกล้สีขาวหรือสีดำมากขึ้น. คอนทราสท์จะปรับสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
 type: docs
-weight: 3610
+weight: 3630
 url: /th/aspose.slides.effects/luminance/
 ---
 ## คลาส Luminance
 
-แสดงถึงเอฟเฟกต์ Luminance. Brightness ปรับสีทั้งหมดให้ใกล้สีขาวหรือสีดำอย่างเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้อยู่ใกล้หรือห่างกันมากขึ้น.
+เป็นการแสดงผลของเอฟเฟกต์ Luminance. ความสว่างจะเคลื่อนย้ายสีทั้งหมดอย่างเชิงเส้นให้ใกล้สีขาวหรือสีดำมากขึ้น. ความแตกต่างของคอนทราสท์จะปรับสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -16,15 +16,15 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านได้อย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | กำหนดว่าค่า [`Luminance`](../luminance) ที่ระบุเท่ากับค่า [`Luminance`](../luminance) ปัจจุบันหรือไม่. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | กำหนดว่าตัว [`Luminance`](../luminance) ที่ระบุเท่ากับ [`Luminance`](../luminance) ปัจจุบันหรือไม่. |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | รับข้อมูลเอฟเฟกต์ Luminance ที่มีผลโดยมีการสืบทอดที่นำไปใช้. |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 

@@ -1,9 +1,9 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes для .NET API справки
+second_title: Справочник API Aspose.Sildes для .NET
 description: Неизменяемый объект, содержащий эффективные свойства форматирования линии.
 type: docs
-weight: 6320
+weight: 6340
 url: /ru/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData интерфейс
@@ -23,7 +23,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Возвращает длину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Возвращает стиль наконечника стрелки в начале линии. Только для чтения [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в начале линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Возвращает стиль окончания линии. Только для чтения [`LineCapStyle`](../linecapstyle). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Возвращает стиль конца линии. Только для чтения [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Возвращает пользовательский шаблон пунктирной линии. Только для чтения Single[]. |
 | [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Возвращает стиль пунктирной линии. Только для чтения [`LineDashStyle`](../linedashstyle). |
 | [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Возвращает длину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadLength`](../linearrowheadlength). |
@@ -31,8 +31,8 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Возвращает ширину наконечника стрелки в конце линии. Только для чтения [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Возвращает формат заливки линии. Только для чтения [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Возвращает стиль соединения линий. Только для чтения [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Возвращает предел среза линии. Только для чтения Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Возвращает формат эскиза линии. Только для чтения [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Возвращает лимит среза линии. Только для чтения Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Возвращает формат наброска линии. Только для чтения [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Возвращает стиль линии. Только для чтения [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Возвращает ширину линии. Только для чтения Double. |
 
@@ -40,13 +40,13 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Определяет, являются ли два экземпляра ILineFormatEffectiveData равными. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Определяет, равны ли два экземпляра ILineFormatEffectiveData. |
 
-### Примечания
+### Замечания
 
-Этот интерфейс используется вместе с интерфейсом [`ILineFormat`](../ilineformat) для возврата эффективных значений форматирования с учётом наследования.
+Этот интерфейс используется вместе с интерфейсом [`ILineFormat`](../ilineformat) для возврата эффективных значений форматирования с применённым наследованием.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ILineParamSource](../ilineparamsource)
 * пространство имён [Aspose.Slides](../../aspose.slides)

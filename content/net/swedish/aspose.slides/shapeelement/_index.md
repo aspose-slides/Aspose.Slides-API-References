@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en del av en form med samma kontur- och fyllningsegenskaper.
+description: Representerar en del av formen med samma kontur- och fyllningsegenskaper.
 type: docs
-weight: 9870
+weight: 9890
 url: /sv/aspose.slides/shapeelement/
 ---
 ## ShapeElement klass
 
-Representerar en del av en form med samma kontur- och fyllningsegenskaper.
+Representerar en del av formen med samma kontur- och fyllningsegenskaper.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,13 +18,13 @@ public class ShapeElement : IShapeElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Returnerar information om hur man fyller ett element. Skrivskyddad [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Returnerar en Shape_PPT för vilken element skapades. Skrivskyddad [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Hämtar en matris av punkter som definierar geometrin för elementets bana. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Hämtar en matris av byte-värden som specificerar typen för varje punkt i elementets bana. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Returnerar information om hur man konturerar ett element. Skrivskyddad [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Returnerar information om hur ett element ska fyllas. Skrivskyddad [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Returnerar en Shape_PPT för vilken elementet skapades. Skrivskyddad [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Hämtar en array av punkter som definierar geometrin för elementets bana. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Hämtar en array av bytevärden som specificerar typen för varje punkt i elementets bana. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Returnerar information om hur ett element ska kontureras. Skrivskyddad [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
-### Se också
+### Se även
 
 * gränssnitt [IShapeElement](../ishapeelement)
 * namnrymd [Aspose.Slides](../../aspose.slides)

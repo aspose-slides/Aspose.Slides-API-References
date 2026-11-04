@@ -1,12 +1,12 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un video incrustado en una presentación.
 type: docs
-weight: 7360
+weight: 7380
 url: /es/aspose.slides/ivideo/
 ---
-## Interfaz IVideo
+## IVideo interfaz
 
 Representa un video incrustado en una presentación.
 
@@ -25,7 +25,7 @@ public interface IVideo
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Devuelve un flujo Stream para leer. Use 'using' o cierre el flujo después de usarlo. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Devuelve un Stream para lectura. Use 'using' o cierre el stream después de usarlo. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Slides .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik için veri kaynağı olarak dış çalışma kitabını ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
 type: docs
-weight: 120
+weight: 130
 url: /tr/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Grafiğin veri kaynağı olarak dış çalışma kitabını ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
+Dış çalışma kitabını grafik için veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -20,9 +20,9 @@ public void SetExternalWorkbook(string workbookPath)
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| istisna | koşul |
 | --- | --- |
-| InvalidOperationException | Dış çalışma kitabı mevcut değil veya yüklenemiyor. |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### Örnekler
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Grafiğin veri kaynağı olarak dış çalışma kitabını ayarlar.
+Dış çalışma kitabını grafik için veri kaynağı olarak ayarlar.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | workbookPath | String | Hedef çalışma kitabının yolu |
-| updateChartData | Boolean | Değer false ise yalnızca çalışma kitabı yolu güncellenir. Grafik verileri hedef çalışma kitabından yüklenmez ve güncellenmez. Hedef çalışma kitabı yoksa veya kullanılamıyorsa kullanılabilir. Değer true ise grafik verileri hedef çalışma kitabından güncellenir. |
+| updateChartData | Boolean | Değer false ise yalnızca çalışma kitabı yolu güncellenir. Grafik verileri hedef çalışma kitabından yüklenmez ve güncellenmez. Hedef çalışma kitabı mevcut değilse veya erişilemezse kullanılabilir. Değer true ise grafik verileri hedef çalışma kitabından güncellenecektir. |
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| istisna | koşul |
 | --- | --- |
-| InvalidOperationException | Dış çalışma kitabı mevcut değil veya yüklenemiyor. |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### Örnekler
 

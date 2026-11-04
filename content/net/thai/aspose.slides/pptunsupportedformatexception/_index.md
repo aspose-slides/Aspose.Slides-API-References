@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ข้อยกเว้นที่เกิดขึ้นเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ.
 type: docs
-weight: 9540
+weight: 9560
 url: /th/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException คลาส
 
-ข้อยกเว้นที่เกิดขึ้นเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ
+ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์การนำเสนอไม่รองรับ.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -16,11 +16,11 @@ public class PptUnsupportedFormatException : PptReadException
 
 ## ตัวสร้าง
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | คอนสตรัคเตอร์ที่ให้ข้อความถูกเพิ่มไปยังข้อยกเว้นนี้. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | ตัวสร้างเริ่มต้น. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | ตัวสร้างที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | ตัวสร้างสำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

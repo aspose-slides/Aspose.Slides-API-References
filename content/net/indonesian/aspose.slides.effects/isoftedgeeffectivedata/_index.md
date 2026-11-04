@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang mewakili efek tepi lembut. Tepi bentuk diburamkan sementara isinya tidak terpengaruh.
+description: Objek tak berubah yang mewakili efek tepi lembut. Tepi bentuk menjadi buram sementara isi tidak terpengaruh.
 type: docs
-weight: 3530
+weight: 3550
 url: /id/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek tepi lembut. Tepi bentuk diburamkan, sementara isinya tidak terpengaruh.
+Objek tak berubah yang mewakili efek tepi lembut. Tepi bentuk menjadi buram, sementara isi tidak terpengaruh.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData

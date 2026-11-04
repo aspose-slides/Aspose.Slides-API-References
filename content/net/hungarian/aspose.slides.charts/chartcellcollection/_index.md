@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a cellákat tartalmazó adatgyűjteményt.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Adataival rendelkező cellák gyűjteményét képviseli.
 type: docs
-weight: 1300
+weight: 1310
 url: /hu/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection osztály
 
-Az adatot tartalmazó cellák gyűjteménye.
+Adataival rendelkező cellák gyűjteményét képviseli.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -19,17 +19,17 @@ public class ChartCellCollection : IChartCellCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | A gyűjteményben lévő cellák számát adja vissza. Csak olvasható Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Egy cellát ad vissza (IChartDataCell) az index alapján. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Egy cellát (IChartDataCell) ad vissza index alapján. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Új cellát ad hozzá a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Létrehoz egy [`ChartDataCell`](../chartdatacell) a megadott értékből, és hozzáadja a gyűjteményhez. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Visszaadja a munkafüzetben lévő cellák halmazának címét. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Új cellát ad a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Létrehozza a(z) [`ChartDataCell`](../chartdatacell)-t a megadott értékből, és hozzáadja a gyűjteményhez. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Visszaadja a cellakészlet címét a munkafüzetben. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Összefűzi az összes cella karakterlánc értékét. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Eltávolít egy cellát a gyűjteményből index alapján. |
 
 ### Lásd még

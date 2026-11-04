@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung wirksamer Bildtransformations-Effekte darstellt.
+description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Bildtransformations-Effekte darstellt.
 type: docs
-weight: 3380
+weight: 3400
 url: /de/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das eine schreibgeschützte Sammlung wirksamer Bildtransformations-Effekte darstellt.
+Immutable object that represents a readonly collection of effective image transform effects.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -18,11 +18,11 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Gibt das Element anhand des Index zurück. |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Gibt das Element nach Index zurück. |
 
-### Bemerkungen
+### Hinweise
 
-Der Name IImageTransformOperationCollectionEffectiveData wurde auf IImageTransformOCollectionEffectiveData verkürzt, weil COM-Namen nicht länger als 39 Zeichen sein dürfen.
+Der Name IImageTransformOperationCollectionEffectiveData wurde auf IImageTransformOCollectionEffectiveData gekürzt, weil die Länge von COM-Namen nicht mehr als 39 Zeichen betragen darf.
 
 ### Siehe auch
 

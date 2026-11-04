@@ -3,7 +3,7 @@ title: TextToHtmlConversionOptions
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Optionen zum Extrahieren von HTML aus dem Pptx-Text.
 type: docs
-weight: 4550
+weight: 4570
 url: /de/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions Klasse
@@ -16,16 +16,16 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Der Standardkonstruktor. |
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Gibt den Wert zurück oder legt ihn fest und gibt an, ob Clipboard-Kopfzeilen hinzugefügt werden sollen. Lese-/Schreib-Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Gibt den HTML-Kodierungsnamen zurück oder legt ihn fest. Dieser Wert wird in die generierte HTML-Datei gespeichert, aber es liegt in der Verantwortung des Aufrufers sicherzustellen, dass die Datei in dieser Kodierung gespeichert wird. Lese-/Schreib-String. |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Gibt den Wert zurück oder legt ihn fest, wobei angegeben wird, ob Clipboard-Header hinzugefügt werden sollen. Lese-/Schreib-Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Gibt den Namen der HTML-Kodierung zurück oder legt ihn fest. Dieser Wert wird in die erzeugte HTML-Datei gespeichert, aber es liegt am Aufrufer sicherzustellen, dass die Datei in dieser Kodierung gespeichert wird. Lese-/Schreib-String. |
 | [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Gibt ein Callback-Objekt zurück oder legt es fest, das steuert, wie ein externes Objekt gespeichert wird. Lese-/Schreib-[`ILinkEmbedController`](../ilinkembedcontroller). |
 | [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Gibt die vererbte Tiefe für Texteigenschaften zurück oder legt sie fest. Lese-/Schreib-[`TextInheritanceLimit`](../textinheritancelimit). |
 

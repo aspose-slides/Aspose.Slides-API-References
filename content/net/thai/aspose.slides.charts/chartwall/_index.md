@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงกำแพงบนแผนภูมิ 3 มิติ.
+description: แสดงผนังบนแผนภูมิ 3 มิติ.
 type: docs
-weight: 1520
+weight: 1530
 url: /th/aspose.slides.charts/chartwall/
 ---
 ## ChartWall คลาส
 
-แสดงกำแพงบนแผนภูมิ 3 มิติ.
+แสดงผนังบนแผนภูมิ 3 มิติ.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | ส่งคืนการเติมกำแพง, เส้น, เอฟเฟ็กต์, สไตล์ 3 มิติ. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | ส่งคืนหรือกำหนดประเภทรูปภาพ. อ่าน/เขียน [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | ส่งคืนหรือกำหนดความหนาของกำแพงเป็นเปอร์เซ็นต์ของมิติที่ใหญ่ที่สุดของปริมาณการพล็อต. อ่าน/เขียน Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | คืนค่าการเติมผนัง, เส้น, เอฟเฟ็กต์, สไตล์ 3 มิติ. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | คืนค่า หรือ ตั้งค่าชนิดของรูปภาพ. อ่าน/เขียน [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | คืนค่า หรือ ตั้งค่าความหนาของผนังเป็นเปอร์เซ็นต์ของมิติที่ใหญ่ที่สุดของปริมาณการแสดงผล. อ่าน/เขียน Int32. |
 
 ### ดูเพิ่มเติม
 

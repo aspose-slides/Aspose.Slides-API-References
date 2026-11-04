@@ -3,7 +3,7 @@ title: IVbaModuleCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: VBA Proje modüllerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11540
+weight: 11560
 url: /tr/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection arayüz
@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | VBA Projesine yeni boş bir modül ekler. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Koleksiyondan belirli bir nesnenin ilk meydana gelmesini kaldırır. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Koleksiyondan belirli bir nesnenin ilk gerçekleşmesini kaldırır. |
 
 ### Ayrıca Bakınız
 

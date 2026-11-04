@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Sub-Superskript-Objekt an, das aus einer Basis sowie einer Tiefstellung und Hochstellung besteht, die links von der Basis platziert sind.
+description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einer Tiefstellung und einer Hochstellung besteht, die links von der Basis platziert werden.
 type: docs
-weight: 8310
+weight: 8330
 url: /de/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement Schnittstelle
 
-Gibt das Sub-Superskript-Objekt an, das aus einer Basis und einem Tief- und Hochgestellt-Teil besteht, die links von der Basis positioniert sind.
+Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen des Basis-IMathElement-Interfaces [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Basisargument |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Tiefstellung |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Hochstellung |

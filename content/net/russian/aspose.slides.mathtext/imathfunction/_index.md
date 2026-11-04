@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes для .NET, справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Определяет функцию аргумента.
 type: docs
-weight: 8270
+weight: 8290
 url: /ru/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction интерфейс
@@ -31,7 +31,7 @@ public interface IMathFunction : IMathElement
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)

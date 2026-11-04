@@ -3,23 +3,23 @@ title: HighlightText
 second_title: Aspose.Sildes for .NET API 참조
 description: 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 type: docs
-weight: 100
+weight: 110
 url: /ko/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-샘플 텍스트와 일치하는 모든 항목을 지정된 색상으로 강조 표시합니다.
+지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | 강조할 텍스트 샘플입니다. |
-| highlightColor | Color | 텍스트를 강조할 색상입니다. |
+| text | String | 강조 표시할 텍스트 샘플. |
+| highlightColor | Color | 텍스트를 강조 표시할 색상. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [TextFrame](../../textframe)
 * 네임스페이스 [Aspose.Slides](../../textframe)
@@ -29,21 +29,21 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-샘플 텍스트와 일치하는 모든 항목을 지정된 색상으로 강조 표시합니다.
+지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
     IFindResultCallback callback)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | 강조할 텍스트입니다. |
-| highlightColor | Color | 텍스트를 강조할 색상입니다. |
+| text | String | 강조 표시할 텍스트. |
+| highlightColor | Color | 텍스트를 강조 표시할 색상. |
 | options | ITextSearchOptions | 텍스트 검색 옵션 [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
-### 예시
+### 예제
 
 다음 코드 샘플은 TextFrame에서 텍스트를 강조 표시하는 방법을 보여줍니다.
 
@@ -51,16 +51,16 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 모든 'important' 단어를 강조합니다
+	// 모든 'important' 단어를 강조
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// 모든 개별 'the' 발생을 강조합니다
+	// 모든 개별 'the' 항목을 강조
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ITextSearchOptions](../../itextsearchoptions)
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)

@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Диапазон слайдов
 type: docs
-weight: 10530
+weight: 10550
 url: /ru/aspose.slides/slidesrange/
 ---
 ## SlidesRange класс
@@ -27,7 +27,7 @@ public class SlidesRange
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Конец |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Начало |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

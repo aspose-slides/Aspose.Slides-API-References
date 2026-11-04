@@ -1,12 +1,12 @@
 ---
 title: TiffOptions
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie TIFF.
 type: docs
-weight: 4570
+weight: 4590
 url: /pl/aspose.slides.export/tiffoptions/
 ---
-## TiffOptions klasa
+## Klasa TiffOptions
 
 Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie TIFF.
 
@@ -14,19 +14,19 @@ Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie TIFF.
 public class TiffOptions : SaveOptions, ITiffOptions
 ```
 
-## Konstruktory
+## Konstruktorzy
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [TiffOptions](tiffoptions)() | Konstruktor domyślny. |
+| [TiffOptions](tiffoptions)() | Domyślny konstruktor. |
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Określa algorytm konwertowania obrazu kolorowego na obraz czarno-biały. Opcja zostanie zastosowana tylko wtedy, gdy [`CompressionType`](./compressiontype) jest ustawione na CCITT4 lub CCITT3 Odczyt/zapis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Domyślnie jest Default. |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Określa algorytm konwertujący kolorowy obraz na czarno-biały. Ta opcja zostanie zastosowana tylko, jeśli [`CompressionType`](./compressiontype) jest ustawione na CCITT4 lub CCITT3 Odczyt/zapis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Domyślne to Default. |
 | [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Określa typ kompresji. Odczyt/zapis [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znajdzie się czcionka źródłowa. Odczyt/zapis String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Określa poziomą rozdzielczość w punktach na cal. Odczyt/zapis UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Określa pionową rozdzielczość w punktach na cal. Odczyt/zapis UInt32. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
@@ -34,33 +34,33 @@ public class TiffOptions : SaveOptions, ITiffOptions
 | [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie. Tylko do odczytu [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Określa format pikseli dla generowanych obrazów. Odczyt/zapis [`ImagePixelFormat`](../imagepixelformat). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Określa, czy generowany dokument ma zawierać ukryte slajdy. Domyślnie jest `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie podczas eksportu prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który otrzymuje ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany czy przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument ma zawierać ukryte slajdy. Domyślne to `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript przy zapisywaniu prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w jaki slajdy są rozmieszczane na stronie przy eksportowaniu prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt otrzymujący ostrzeżenia i decydujący, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 
-Poniższy przykład pokazuje, jak przekształcić PowerPoint do TIFF z rozmiarem domyślnym.
+Poniższy przykład pokazuje, jak przekonwertować PowerPoint na TIFF z domyślnym rozmiarem.
 
 ```csharp
 [C#]
 // Utwórz obiekt Presentation, który reprezentuje plik prezentacji
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
-    // Zapisanie prezentacji do dokumentu TIFF
+    // Zapisywanie prezentacji do dokumentu TIFF
     presentation.Save("Tiffoutput_out.tiff", SaveFormat.Tiff);
 }
 ```
 
-Poniższy przykład pokazuje, jak przekształcić PowerPoint do TIFF z rozmiarem niestandardowym.
+Poniższy przykład pokazuje, jak przekonwertować PowerPoint na TIFF z niestandardowym rozmiarem.
 
 ```csharp
 [C#]
 // Utwórz obiekt Presentation, który reprezentuje plik prezentacji
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
-    // Utwórz instancję klasy TiffOptions
+    // Utwórz obiekt klasy TiffOptions
     TiffOptions opts = new TiffOptions();
     // Ustawianie typu kompresji
     opts.CompressionType = TiffCompressionTypes.Default;
@@ -74,19 +74,19 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     // CCITT4
     // LZW
     // RLE
-    // Głębokość zależy od typu kompresji i nie może być ustawiona ręcznie.
-    // Jednostka rozdzielczości zawsze równa jest “2” (punkty na cal)
+    // Głębia zależy od typu kompresji i nie może być ustawiona ręcznie.
+    // Jednostka rozdzielczości  jest zawsze równa „2” (punkty na cal)
     // Ustawianie DPI obrazu
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Ustaw rozmiar obrazu
     opts.ImageSize = new Size(1728, 1078);
-    // Zapisz prezentację do formatu TIFF z określonym rozmiarem obrazu
+    // Zapisz prezentację jako TIFF z określonym rozmiarem obrazu
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-Poniższy przykład pokazuje, jak przekształcić PowerPoint do TIFF z niestandardowym formatem pikseli obrazu.
+Poniższy przykład pokazuje, jak przekonwertować PowerPoint na TIFF z niestandardowym formatem piksela obrazu.
 
 ```csharp
 [C#]
@@ -96,14 +96,14 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat zawiera następujące wartości (jak można zobaczyć w dokumentacji):
+    ImagePixelFormat zawiera następujące wartości (zgodnie z dokumentacją):
     Format1bppIndexed; // 1 bit na piksel, indeksowany.
     Format4bppIndexed; // 4 bity na piksel, indeksowany.
     Format8bppIndexed; // 8 bitów na piksel, indeksowany.
     Format24bppRgb; // 24 bity na piksel, RGB.
     Format32bppArgb; // 32 bity na piksel, ARGB.
     */
-    // Zapisz prezentację do formatu TIFF z określonym rozmiarem obrazu
+    // Zapisz prezentację jako TIFF z określonym rozmiarem obrazu
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```

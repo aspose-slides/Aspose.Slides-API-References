@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
-description: Gradient durak noktasını temsil eden değiştirilemez nesne.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir gradyan stopunu temsil eden değiştirilemez nesne.
 type: docs
-weight: 5050
+weight: 5070
 url: /tr/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData sınıf
 
-Gradient durak noktasını temsil eden değiştirilemez nesne.
+Bir gradyan stopunu temsil eden değiştirilemez nesne.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,17 +18,17 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Gradient durak noktasının rengini döndürür. Salt okunur Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Gradient durak noktasının konumunu (0..1) döndürür. Salt okunur Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Bir gradyan stopunun rengini döndürür. Salt okunur Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Bir gradyan stopunun konumunu (0..1) döndürür. Salt okunur Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Belirtilen [`GradientStopEffectiveData`](../gradientstopeffectivedata)'nin mevcut [`GradientStopEffectiveData`](../gradientstopeffectivedata) ile eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Belirtilen [`GradientStopEffectiveData`](../gradientstopeffectivedata)'in mevcut [`GradientStopEffectiveData`](../gradientstopeffectivedata) ile eşit olup olmadığını belirler. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### İlgili
+### Bakınız
 
 * arayüz [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)

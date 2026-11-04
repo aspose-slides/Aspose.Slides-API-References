@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes for .NET API 參考
-description: 透過將所有 Show-flags ShowValue ... 設為 false，使資料標籤隱藏。IsVisible 會變為 false。
+second_title: Aspose.Sildes .NET API 參考
+description: 透過將所有 Show-flags (ShowValue ...) 設為 false 狀態，使資料標籤隱藏。IsVisible 之後將為 false。
 type: docs
-weight: 200
+weight: 210
 url: /zh-hant/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide 方法
 
-將所有 Show*-旗標（如 ShowValue 等）設定為 false，以隱藏資料標籤。執行後 IsVisible 會變為 false。
+透過將所有 Show*-flags (ShowValue, ...) 設為 false 狀態，使資料標籤隱藏。IsVisible 將會在此之後為 false。
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### 備註
 
-如果資料標籤不可見（IsVisible 為 false），可透過將 Show*-旗標（如 ShowValue 等）設定為 true，使資料標籤重新可見。
+如果資料標籤不可見 (IsVisible 為 false)，您可以透過將 Show*-flags (ShowValue, ...) 設為 true 狀態，使資料標籤變為可見。
 
-### 另請參閱
+### 另見
 
 * 類別 [DataLabel](../../datalabel)
 * 命名空間 [Aspose.Slides.Charts](../../datalabel)

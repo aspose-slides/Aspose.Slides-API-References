@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: "pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連するワークブックのセル/セル群に、2) リテラル値として。"
+description: pptx プレゼンテーション ドキュメントに保存できる double 値を、2 つの方法で表します: 1) チャートに関連付けられたブックのセル/セル群、2) リテラル値として。
 type: docs
-weight: 1630
+weight: 1640
 url: /ja/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue クラス
 
-pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連するワークブックのセル/セル群に; 2) リテラル値として。
+pptx プレゼンテーション ドキュメントに保存できる double 値を 2 つの方法で表します: 1) チャートに関連付けられたブックのセル/セル群に; 2) リテラル値として。
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -18,10 +18,10 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | チャート データ セルを取得または設定します。Read/write [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | リテラル double として値を取得または設定します。Read/write Double。 |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data オブジェクトを取得または設定します。Read/write Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 子クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されるかを指定します。言い換えると、Data プロパティの値の型を指定します。Read/write [`DataSourceType`](../datasourcetype)。 |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | チャート データ セルを取得または設定します。読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | リテラルの double 値として取得または設定します。読み取り/書き込み Double。 |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Data オブジェクトを取得または設定します。読み取り/書き込み Object。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 子クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されるかを指定します。つまり、Data プロパティの値の型を指定します。読み取り/書き込み [`DataSourceType`](../datasourcetype)。 |
 
 ## メソッド
 

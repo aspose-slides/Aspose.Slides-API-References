@@ -3,7 +3,7 @@ title: ImageTransformOCollectionEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que representa una colección de solo lectura de efectos de transformación de imagen efectivos.
 type: docs
-weight: 3560
+weight: 3580
 url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData clase
@@ -16,31 +16,31 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | El constructor predeterminado. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Devuelve el número de efectos de imagen en una colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Devuelve el elemento por índice. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Copia todos los elementos de la colección en la matriz especificada. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Determina si el objeto especificado es igual al objeto actual. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Devuelve un enumerador que recorre la colección. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
-### Observaciones
+### Comentarios
 
-El nombre IImageTransformOperationCollectionEffectiveData se truncó a IImageTransformOCollectionEffectiveData porque la longitud de los nombres COM no puede ser mayor de 39.
+Nombre IImageTransformOperationCollectionEffectiveData truncado a IImageTransformOCollectionEffectiveData porque la longitud de los nombres COM no puede ser mayor a 39.
 
 ### Ver también
 

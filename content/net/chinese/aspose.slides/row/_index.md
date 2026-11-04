@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: Aspose.Sildes .NET API 参考
-description: 表示表格中的一行。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示表中的一行。
 type: docs
-weight: 9710
+weight: 9730
 url: /zh/aspose.slides/row/
 ---
 ## Row 类
 
-表示表格中的一行。
+表示表中的一行。
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -20,9 +20,9 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | 返回集合中单元格的数量。只读 Int32。 |
 | [Height](../../aspose.slides/row/height) { get; } | 返回行的高度。只读 Double。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回指示集合访问是否同步（线程安全）的值。只读 Boolean。 |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 根据位置返回单元格。只读 [`Cell`](../cell)。 |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | 返回或设置行的最小可能高度。读写 Double。 |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 通过其位置返回单元格。只读 [`Cell`](../cell)。 |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | 返回或设置行的最小可能高度。可读写 Double。 |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 返回 CellCollection 的父演示文稿。只读 [`IPresentation`](../ipresentation)。 |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | 返回包含此行格式属性的 RowFormat 对象。只读 [`IRowFormat`](../irowformat)。 |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | 返回 CellCollection 的父幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
@@ -32,10 +32,10 @@ public sealed class Row : CellCollection, IRow
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 返回遍历集合的枚举器。 |
 | [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | 将已定义的段落格式属性设置到所有行单元格的段落。 |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | 将已定义的片段格式属性设置到所有行单元格的片段。 |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | 将已定义的部分格式属性设置到所有行单元格的部分。 |
 | [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | 将已定义的文本框格式属性设置到所有行单元格的文本框。 |
 
 ### 参见

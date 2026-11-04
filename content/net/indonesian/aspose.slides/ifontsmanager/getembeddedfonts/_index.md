@@ -3,7 +3,7 @@ title: GetEmbeddedFonts
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mengembalikan font yang disematkan dalam presentasi
 type: docs
-weight: 40
+weight: 50
 url: /id/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts metode
@@ -14,7 +14,7 @@ Mengembalikan font yang disematkan dalam presentasi
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### Nilai Kembali
+### Nilai Kembalian
 
 Font yang disematkan [`IFontData`](../../ifontdata)[]
 

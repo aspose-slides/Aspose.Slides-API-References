@@ -1,14 +1,14 @@
 ---
 title: ColorChange
-second_title: Aspose.Slides için .NET API Referansı
-description: Renk Değişikliği etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Renk Değişimi etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
 type: docs
-weight: 2940
+weight: 2960
 url: /tr/aspose.slides.effects/colorchange/
 ---
-## ColorChange sınıfı
+## ColorChange sınıf
 
-Renk Değişikliği etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+Bir Renk Değişimi etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -18,19 +18,19 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Değiştirilecek renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Değiştirecek renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Değiştirilecek renk. Yalnızca okunabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Yerine konulacak renk. Yalnızca okunabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Belirtilen [`ColorChange`](../colorchange)'nin geçerli [`ColorChange`](../colorchange) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Kalıtım uygulanmış etkili Color Change etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Belirtilen [`ColorChange`](../colorchange)'nin mevcut [`ColorChange`](../colorchange) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Uygulanan kalıtımla etkili Renk Değişimi etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IColorChange](../icolorchange)

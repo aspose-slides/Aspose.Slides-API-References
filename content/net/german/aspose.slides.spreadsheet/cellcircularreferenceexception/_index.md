@@ -3,7 +3,7 @@ title: CellCircularReferenceException
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Die Ausnahme, die ausgelöst wird, wenn ein oder mehrere zirkuläre Verweise erkannt werden, bei denen eine Formel direkt oder indirekt auf ihre eigene Zelle verweist.
 type: docs
-weight: 10700
+weight: 10720
 url: /de/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException Klasse
@@ -21,13 +21,13 @@ public class CellCircularReferenceException : PptxEditException
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse. |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung. |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem zirkulären Zellverweis. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem zirkulären Zellenverweis. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Liefert einen zirkulären Zellverweis. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Ermittelt einen zirkulären Zellenverweis. |
 
 ### Siehe auch
 

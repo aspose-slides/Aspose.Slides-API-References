@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: डेटा पॉइंट को पाई के केंद्र से कितना स्थानांतरित किया जाएगा, यह मात्रा निर्दिष्ट करता है। पढ़ें/लिखें Int32.
+description: डेटा बिंदु को पाई के केंद्र से कितनी दूरी पर ले जाया जाएगा, यह निर्दिष्ट करता है। पढ़ें/लिखें Int32.
 type: docs
-weight: 90
+weight: 130
 url: /hi/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion प्रॉपर्टी
 
-डेटा पॉइंट को पाई के केंद्र से जितना दूर ले जाया जाएगा, यह मात्रा निर्दिष्ट करता है। पढ़ें/लिखें Int32.
+डेटा बिंदु को पाई के केंद्र से कितनी दूरी पर ले जाया जाएगा, यह निर्दिष्ट करता है। पढ़ें/लिखें Int32.
 
 ```csharp
 public int Explosion { get; set; }
@@ -16,7 +16,7 @@ public int Explosion { get; set; }
 
 ### संबंधित देखें
 
-* क्लास [ChartDataPoint](../../chartdatapoint)
+* वर्ग [ChartDataPoint](../../chartdatapoint)
 * नामस्थान [Aspose.Slides.Charts](../../chartdatapoint)
 * असेंबली [Aspose.Slides](../../../)
 

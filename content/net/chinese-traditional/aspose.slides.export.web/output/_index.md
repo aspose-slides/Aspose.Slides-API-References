@@ -3,7 +3,7 @@ title: Output
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示 IWebDocument 的輸出元素集合。
 type: docs
-weight: 4640
+weight: 4660
 url: /zh-hant/aspose.slides.export.web/output/
 ---
 ## 輸出類別
@@ -16,14 +16,15 @@ public sealed class Output
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | 為影像新增輸出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | 為影像新增輸出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | 為視訊新增輸出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | 為文字內容新增輸出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | 建立並新增指定字型的輸出檔案元素。 |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | 為情境物件新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | 為音訊新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | 為影像新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | 為影像新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | 為視訊新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | 為文字內容新增輸出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | 為指定的字型建立並新增輸出檔案元素。 |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | 為上下文物件新增輸出元素。 |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | 將資源繫結至輸出檔案。 |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | 傳回給定資源的路徑。 |
 

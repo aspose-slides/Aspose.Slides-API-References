@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito Tint. Desloca os valores de cor do efeito em direção ou afastamento da tonalidade na quantidade especificada.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um efeito Tint. Desloca os valores de cor do efeito em direção ou afastamento do matiz pela quantidade especificada.
 type: docs
-weight: 3540
+weight: 3560
 url: /pt/aspose.slides.effects/itint/
 ---
 ## ITint interface
 
-Representa um efeito Tint. Desloca os valores de cor do efeito em direção ou afastamento da tonalidade pela quantidade especificada.
+Representa um efeito Tint. Desloca os valores de cor do efeito em direção ou afastamento do matiz pela quantidade especificada.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -21,7 +21,7 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ver também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [ITintEffectiveData](../itinteffectivedata)

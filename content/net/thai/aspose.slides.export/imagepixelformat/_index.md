@@ -1,14 +1,14 @@
 ---
 title: ImagePixelFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุรูปแบบพิกเซลสำหรับภาพที่สร้างขึ้น
+description: ระบุรูปแบบพิกเซลสำหรับภาพที่สร้าง
 type: docs
-weight: 4210
+weight: 4230
 url: /th/aspose.slides.export/imagepixelformat/
 ---
-## ImagePixelFormat การนับค่า
+## ImagePixelFormat การกำหนดค่า
 
-ระบุรูปแบบพิกเซลสำหรับภาพที่สร้างขึ้น.
+ระบุรูปแบบพิกเซลสำหรับภาพที่สร้าง.
 
 ```csharp
 public enum ImagePixelFormat
@@ -18,9 +18,9 @@ public enum ImagePixelFormat
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 บิตต่อพิกเซล, แบบดัชนี. |
-| Format4bppIndexed | `4` | 4 บิตต่อพิกเซล, แบบดัชนี. |
-| Format8bppIndexed | `8` | 8 บิตต่อพิกเซล, แบบดัชนี. |
+| Format1bppIndexed | `1` | 1 บิตต่อพิกเซล, ดัชนี. |
+| Format4bppIndexed | `4` | 4 บิตต่อพิกเซล, ดัชนี. |
+| Format8bppIndexed | `8` | 8 บิตต่อพิกเซล, ดัชนี. |
 | Format24bppRgb | `24` | 24 บิตต่อพิกเซล, RGB. |
 | Format32bppArgb | `32` | 32 บิตต่อพิกเซล, ARGB. |
 

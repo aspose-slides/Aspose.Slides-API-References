@@ -1,9 +1,9 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le gestionnaire qui contrôle le comportement de tous les espaces réservés de pied de page, de date-heure et de numéro de page de la présentation.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le gestionnaire qui conserve le comportement de tous les espaces réservés de pied de page, de date-heure et de numéro de page de la présentation.
 type: docs
-weight: 9610
+weight: 9630
 url: /fr/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager classe
@@ -19,14 +19,14 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Nom | Description |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Définit le texte de tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Définit le texte de tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Définit le texte de tous les espaces réservés d’en-tête, y compris le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés d’en-tête, y compris le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de numéro de page, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître du fascicule. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Modifie la visibilité des espaces réservés de pied de page, de date-heure et de numéro de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Diapositives de titre – diapositives basées sur la première diapositive de mise en page (quel que soit le type de cette première mise en page). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Définit le texte pour tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Définit le texte pour tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Définit le texte pour tous les espaces réservés d’en-tête, y compris le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés d’en-tête, y compris le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de numéro de page, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des prospectus. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Modifie la visibilité des espaces réservés de pied de page, de date-heure et de numéro de page pour toutes les diapositives titre et pour la première diapositive de disposition. Diapositives titre – diapositives basées sur la première diapositive de disposition (indépendamment du type de cette première disposition). |
 
 ### Voir aussi
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes .NET API 参考
-description: 表示管理器，负责演示文稿中所有页脚、日期时间和页码占位符的行为。
+description: 表示管理器，保存演示文稿中所有页脚、日期时间和页码占位符的行为。
 type: docs
-weight: 9610
+weight: 9630
 url: /zh/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager 类
 
-表示管理器，负责演示文稿中所有页脚、日期时间和页码占位符的行为。
+表示管理器，保存演示文稿中所有页脚、日期时间和页码占位符的行为。
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,14 +19,14 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | 将文本设置到所有日期时间占位符，包括母版幻灯片、布局幻灯片、普通幻灯片、备注母版、备注幻灯片和讲义母版。 |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片、普通幻灯片、备注母版、备注幻灯片和讲义母版。 |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | 将文本设置到所有页脚占位符，包括母版幻灯片、布局幻灯片、普通幻灯片、备注母版、备注幻灯片和讲义母版。 |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | 更改所有页脚占位符的可见性，包括母版幻灯片、布局幻灯片、普通幻灯片、备注母版、备注幻灯片和讲义母版。 |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | 将文本设置到所有页眉占位符，包括备注母版、备注幻灯片和讲义母版。 |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | 为所有日期时间占位符设置文本，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。 |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。 |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | 为所有页脚占位符设置文本，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。 |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | 更改所有页脚占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。 |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | 为所有页眉占位符设置文本，包括备注母版、备注幻灯片和讲义母版。 |
 | [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | 更改所有页眉占位符的可见性，包括备注母版、备注幻灯片和讲义母版。 |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 更改所有页码占位符的可见性，包括母版幻灯片、布局幻灯片、普通幻灯片、备注母版、备注幻灯片和讲义母版。 |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片以及第一布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片 - 基于第一布局幻灯片的幻灯片（不论该第一布局的类型如何）。 |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 更改所有页码占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。 |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片和第一张布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片——基于第一张布局幻灯片的幻灯片（无论该布局的类型如何）。 |
 
 ### 另见
 

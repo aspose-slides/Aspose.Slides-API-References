@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje kolekci vložených audio souborů.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje kolekci vložených audio souborů.
 type: docs
-weight: 5220
+weight: 5240
 url: /cs/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection rozhraní
 
-Reprezentuje kolekci vložených souborů audio.
+Představuje kolekci vložených audio souborů.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -24,9 +24,9 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Název | Popis |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Vytvoří a přidá audio do prezentace z pole bajtů. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Přidá kopii souboru audio z jiné prezentace. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Vytvoří a přidá audio do prezentace ze Streamu. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Vytvoří a přidá audio soubor do prezentace z pole bajtů. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Přidá kopii audio souboru z jiné prezentace. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Vytvoří a přidá audio do prezentace ze streamu. |
 
 ### Viz také
 

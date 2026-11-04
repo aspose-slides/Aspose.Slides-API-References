@@ -3,12 +3,12 @@ title: MathLimitFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: IMathLimit を作成できます
 type: docs
-weight: 8830
+weight: 8850
 url: /ja/aspose.slides.mathtext/mathlimitfactory/
 ---
 ## MathLimitFactory クラス
 
-IMathLimit を作成できます。
+IMathLimit を作成できます
 
 ```csharp
 public class MathLimitFactory : IMathLimitFactory
@@ -27,7 +27,7 @@ public class MathLimitFactory : IMathLimitFactory
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | 下部に制限がある IMathLimit を作成します |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMathLimit を作成します |
 
-### 備考
+### 注釈
 
 COM 互換性のため
 

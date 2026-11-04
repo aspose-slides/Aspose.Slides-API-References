@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zmieniane na 100 (całkowicie nieprzezroczyste).
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości Alpha Opacity większe lub równe progowi są zmieniane na 100 (całkowicie nieprzezroczyste).
 type: docs
-weight: 3020
+weight: 3040
 url: /pl/aspose.slides.effects/ialphabilevel/
 ---
-## IAlphaBiLevel interfejs
+## IAlphaBiLevel interface
 
-Reprezentuje efekt Alpha Bi-Level. Wartości Alpha (Opacity) mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zmieniane na 100 % (całkowicie nieprzezroczyste).
+Reprezentuje efekt Alpha Bi-Level. Wartości Alpha (przezroczystość) mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zmieniane na 100 % (całkowicie nieprzezroczyste).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 

@@ -1,26 +1,28 @@
 ---
 title: Compress
 second_title: Aspose.Sildes .NET API referencia
-description: A Presentation../aspose.slides/presentation tömörítésére szánt módszercsoportot képviseli.
+description: A Presentation../aspose.slides/presentation tömörítésére szánt módszerek csoportját reprezentálja.
 type: docs
-weight: 7870
+weight: 7890
 url: /hu/aspose.slides.lowcode/compress/
 ---
 ## Compress osztály
 
-A [`Presentation`](../../aspose.slides/presentation) tömörítésére szolgáló módszerek csoportját képviseli.
+A [`Presentation`](../../aspose.slides/presentation) tömörítésére szánt módszerek csoportját reprezentálja.
 
 ```csharp
 public static class Compress
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a beágyazott betűkészletek nem használt karaktereinek eltávolításával. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a nem használt elrendezési diák eltávolításával. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a nem használt mesterdiák eltávolításával. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi a beágyazott betűtípusok nem használt karaktereinek eltávolításával. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Csökkenti a képek felbontását a prezentációban, és törli a levágott területeket, hasonlóan a PowerPoint „Compress Pictures” funkcióhoz, amely az összes képre vonatkozik. A diákon, elrendezési diákon és fő diákon lévő képeket feldolgozza, beleértve a csoportos alakzatokba ágyazott képeket és az alakzatok képpel kitöltött részeit. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Csökkenti a prezentáció méretét az összes elérhető tömörítési lépés alkalmazásával: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi a nem használt elrendezési diák eltávolításával. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi a nem használt fő diák eltávolításával. |
 
 ### Példák
 

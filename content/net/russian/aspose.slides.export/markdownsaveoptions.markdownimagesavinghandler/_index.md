@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes для .NET API справки
-description: Вызывается для каждого изображения, не являющегося SVG (bitmap или metafile), при экспорте в Markdown. Возвращайте true, чтобы использовать указанную ссылку, или false, чтобы применить логику сохранения по умолчанию.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Вызывается для каждого изображения, не являющегося SVG (bitmap или metafile), при экспорте в Markdown. Возвращает true, чтобы использовать указанную ссылку, или false, чтобы применить стандартную логику сохранения.
 type: docs
-weight: 4260
+weight: 4280
 url: /ru/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler делегат
 
-Вызывается для каждого изображения, не являющегося SVG (bitmap или metafile), при экспорте в Markdown. Возвращайте `true`, чтобы использовать указанную *ссылка*, или `false`, чтобы применить логику сохранения по умолчанию.
+Вызывается для каждого изображения, не являющегося SVG (bitmap или metafile), при экспорте в Markdown. Верните `true`, чтобы использовать указанную *ссылка*, или `false`, чтобы применить стандартную логику сохранения.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -18,12 +18,12 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | --- | --- | --- |
 | image | IImage | Изображение, экспортируемое (bitmap или metafile). |
 | format | ImageFormat | Формат изображения. |
-| link | String& | Markdown-ссылка, используемая при возврате `true`. |
+| link | String& | Ссылка Markdown, используемая при возврате `true`. |
 
 ### См. также
 
 * интерфейс [IImage](../../aspose.slides/iimage)
-* enum [ImageFormat](../../aspose.slides/imageformat)
+* перечисление [ImageFormat](../../aspose.slides/imageformat)
 * класс [MarkdownSaveOptions](../markdownsaveoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

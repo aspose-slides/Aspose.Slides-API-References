@@ -1,9 +1,9 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes للـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل واجهة IImageTransformOperation.
 type: docs
-weight: 3340
+weight: 3360
 url: /ar/aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale واجهة
@@ -19,10 +19,10 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | يعيد واجهة IImageTransformOperation. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | يعيد واجهة IImageTransformOperation. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * واجهة [IGrayScaleEffectiveData](../igrayscaleeffectivedata)

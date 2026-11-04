@@ -1,41 +1,41 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定不同类型的形状调整值。
+second_title: Aspose.Sildes .NET API 参考
+description: 指定形状调整值的不同类型。
 type: docs
-weight: 9840
+weight: 9860
 url: /zh/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType 枚举
 
-指定不同类型的形状调整值。
+指定形状调整值的不同类型。
 
 ```csharp
 public enum ShapeAdjustmentType
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Custom | `0` | Custom 类型（未知的调整） |
+| Custom | `0` | 自定义类型（未知的调整） |
 | CornerSize | `1` | 控制角的大小。 |
 | LeftUpCorner | `2` | 控制左上角。 |
 | RightUpCorner | `3` | 控制右上角。 |
 | UpCorners | `4` | 控制上部角。 |
 | DownCorners | `5` | 控制下部角。 |
-| Thickness | `6` | 控制形状的粗细。 |
-| ArrowTailThickness | `7` | 控制箭尾的粗细。 |
-| ArrowheadLength | `8` | 控制箭头的长度。 |
-| ArrowheadWidth | `9` | 控制箭头的宽度。 |
-| Radius | `10` | 控制形状或其部分半径的大小。 |
+| Thickness | `6` | 控制图形的粗细。 |
+| ArrowTailThickness | `7` | 控制箭头尾部的粗细。 |
+| ArrowheadLength | `8` | 控制箭头头部的长度。 |
+| ArrowheadWidth | `9` | 控制箭头头部的宽度。 |
+| Radius | `10` | 控制形状或其部件的半径大小。 |
 | Depth | `11` | 控制齿轮齿的深度或斜角效果。 |
-| ShapePartOffset | `12` | 控制图形一部分相对于另一部分的偏移。 |
-| Angle | `13` | 控制图形或其部分的角度。 |
+| ShapePartOffset | `12` | 控制图形某部件相对于另一部件的偏移。 |
+| Angle | `13` | 控制图形或其部件的角度。 |
 | StartAngle | `14` | 饼图和弧形的起始角度。 |
 | EndAngle | `15` | 饼图和弧形的结束角度。 |
-| StartPointX | `16` | 控制标注起点 X 位置。 |
-| StartPointY | `17` | 控制标注起点 Y 位置。 |
+| StartPointX | `16` | 控制标注起始点的 X 位置。 |
+| StartPointY | `17` | 控制标注起始点的 Y 位置。 |
 | ConnectorPoint1X | `18` | 控制标注角度调整点的水平位置。 |
 | ConnectorPoint1Y | `19` | 控制标注角度调整点的垂直位置。 |
 | ConnectorPoint2X | `20` | 控制标注角度调整点的水平位置。 |
@@ -44,17 +44,17 @@ public enum ShapeAdjustmentType
 | ConnectorBendPositionY | `23` | 控制连接器弯曲处的垂直位置。 |
 | AttachY | `24` | 控制图形的垂直附着点。 |
 | AttachX | `25` | 控制图形的水平附着点。 |
-| CalloutHeight | `26` | 控制标注的垂直尺寸。 |
-| CalloutWidth | `27` | 控制标注的水平尺寸。 |
+| CalloutHeight | `26` | 控制标注的垂直大小。 |
+| CalloutWidth | `27` | 控制标注的水平大小。 |
 | CalloutSize | `28` | 控制标注的大小。 |
-| Curvature | `29` | 弯曲、支架、弧形箭头或形状的曲率。 |
-| HorizontalThickness | `30` | 控制拐角形状的水平厚度。 |
-| VerticalThickness | `31` | 控制拐角形状的垂直厚度。 |
+| Curvature | `29` | 弯曲、括号、弧形箭头或形状的曲率。 |
+| HorizontalThickness | `30` | 控制角形的水平厚度。 |
+| VerticalThickness | `31` | 控制角形的垂直厚度。 |
 | VerticalSize | `32` | 控制形状的垂直尺寸。 |
 | HorizontalSize | `33` | 控制形状的水平尺寸。 |
 | Top | `34` | 控制形状的顶部。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

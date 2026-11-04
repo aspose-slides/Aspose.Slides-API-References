@@ -1,47 +1,47 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของส่วนที่มีบริบททางคณิตศาสตร์ภายใน
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงส่วนที่มีบริบททางคณิตศาสตร์ภายใน.
 type: docs
-weight: 8930
+weight: 8950
 url: /th/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion คลาส
 
-แสดงส่วนที่มีบริบททางคณิตศาสตร์อยู่ภายใน.
+แสดงถึงส่วนหนึ่งที่มีบริบททางคณิตศาสตร์ภายใน.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
 ```
 
-## Constructors
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
+| [MathPortion](mathportion)() | สร้างอินสแตนซ์ใหม่ของ MathPortion คลาส. |
 
-## Properties
+## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | คืนค่า field ของส่วนนี้. อ่านอย่างเดียว [`IField`](../../aspose.slides/ifield). |
+| [Field](../../aspose.slides/portion/field) { get; } | คืนค่าฟิลด์ของส่วนนี้. อ่านอย่างเดียว [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | ย่อหน้าคณิตศาสตร์ |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | คืนค่า object การจัดรูปแบบที่มีการตั้งค่าคุณสมบัติการจัดรูปแบบอย่างชัดเจนของส่วนข้อความโดยไม่มีการสืบทอดใช้. อ่านอย่างเดียว [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | คืนค่าอ็อบเจกต์การจัดรูปแบบที่มีการกำหนดคุณสมบัติการจัดรูปแบบอย่างชัดเจนของส่วนข้อความโดยไม่มีการสืบทอดใด ๆ. อ่านอย่างเดียว [`IPortionFormat`](../../aspose.slides/iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | รับหรือกำหนดข้อความธรรมดาของส่วน. อ่าน/เขียน String. |
 
-## Methods
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | แปลงส่วนนี้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | แปลงส่วนนี้เป็นฟิลด์ที่อัปเดตโดยอัตโนมัติ. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | รับพิกัดของจุดเริ่มต้นของส่วน. พิกัด X ของจุดแสดงจุดเริ่มต้นของส่วนตั้งแต่ตัวอักษรแรกรวมถึง left side bearing. พิกัด Y รวมถึง top side bearing. |
-| [GetRect](../../aspose.slides/portion/getrect)() | รับพิกัดของสี่เหลี่ยมที่ล้อมรอบส่วน. สี่เหลี่ยมนี้รวมทุกบรรทัดของข้อความในส่วน รวมถึงบรรทัดว่าง. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | แปลงส่วนฟิลด์นี้เป็นส่วนง่าย. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | รับพิกัดของจุดเริ่มต้นของส่วน. พิกัด X ของจุดแสดงส่วนเริ่มจากอักขระตัวแรกรวมถึงการเว้นด้านซ้าย. พิกัด Y รวมถึงการเว้นด้านบน. |
+| [GetRect](../../aspose.slides/portion/getrect)() | รับพิกัดของสี่เหลี่ยมที่ล้อมรอบส่วน. สี่เหลี่ยมรวมทุกบรรทัดของข้อความในส่วนรวมถึงบรรทัดว่างด้วย. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | แปลงส่วนฟิลด์นี้เป็นส่วนแบบง่าย. |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет объект Slide Zoom на слайде.
 type: docs
-weight: 7400
+weight: 7420
 url: /ru/aspose.slides/izoomframe/
 ---
 ## IZoomFrame интерфейс
 
-Представляет объект Slide Zoom на слайде.
+Represents a Slide Zoom object in a slide.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,9 +19,9 @@ public interface IZoomFrame : IZoomObject
 | Имя | Описание |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Возвращает интерфейс IZoomObject. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Получает или задаёт объект слайда, к которому привязан объект Slide Zoom. Чтение/запись [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Получает или задает объект слайда, к которому привязан объект Slide Zoom. Чтение/запись [`ISlide`](../islide). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IZoomObject](../izoomobject)
 * пространство имён [Aspose.Slides](../../aspose.slides)

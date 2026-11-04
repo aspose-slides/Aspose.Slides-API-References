@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: متحكم خطوط woff المضمّن html.
+second_title: مرجع API لـ Aspose.Sildes على .NET
+description: وحدة تحكم HTML للخطوط المدمجة woff.
 type: docs
-weight: 3910
+weight: 3930
 url: /ar/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
-## IEmbeddedWoffFontsHtmlController واجهة
+## IEmbeddedWoffFontsHtmlController الواجهة
 
-متحكم خطوط woff المضمّن html.
+وحدة التحكم في خطوط woff المضمنة html.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -18,11 +18,11 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | تعيد واجهة IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | يرجع IHtmlFormattingController الواجهة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
-* واجهة [IHtmlFormattingController](../ihtmlformattingcontroller)
+* الواجهة [IHtmlFormattingController](../ihtmlformattingcontroller)
 * مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
 * التجميع [Aspose.Slides](../../)
 

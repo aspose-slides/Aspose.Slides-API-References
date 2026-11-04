@@ -1,9 +1,9 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Visszaadja a prezentációban használt betűtípusokat
 type: docs
-weight: 70
+weight: 80
 url: /hu/aspose.slides/fontsmanager/getfonts/
 ---
 ## FontsManager.GetFonts metódus
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### Visszatérési érték
 
-Betűtípusok tömbje
+A betűtípusok tömbje
 
 ### Lásd még
 

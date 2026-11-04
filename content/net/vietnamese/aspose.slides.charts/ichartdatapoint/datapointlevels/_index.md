@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về bộ chứa các mức điểm dữ liệu. Được áp dụng cho các series Treeamp và Sunburst. Chỉ mục các mức điểm dữ liệu bắt đầu từ không.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Trả về bộ chứa các mức dữ liệu điểm. Được áp dụng cho các series Treeamp và Sunburst. Đánh chỉ mục các mức dữ liệu điểm bắt đầu từ 0.
 type: docs
-weight: 40
+weight: 80
 url: /vi/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels thuộc tính
 
-Trả về bộ chứa các mức điểm dữ liệu. Được áp dụng cho các series Treeamp và Sunburst. Đánh chỉ mục các mức điểm dữ liệu bắt đầu từ không.
+Trả về bộ chứa các mức dữ liệu điểm. Được áp dụng cho các series Treeamp và Sunburst. Đánh chỉ mục các mức dữ liệu điểm bắt đầu từ 0.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

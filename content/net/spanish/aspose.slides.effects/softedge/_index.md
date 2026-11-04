@@ -3,12 +3,12 @@ title: SoftEdge
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un efecto de borde suave. Los bordes de la forma están difuminados mientras que el relleno no se ve afectado.
 type: docs
-weight: 3650
+weight: 3670
 url: /es/aspose.slides.effects/softedge/
 ---
 ## SoftEdge clase
 
-Representa un efecto de borde suave. Los bordes de la forma están desenfocados, mientras que el relleno no se ve afectado.
+Representa un efecto de borde suave. Los bordes de la forma están difuminados, mientras que el relleno no se ve afectado.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Nombre | Descripción |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Especifica el radio del desenfoque que se aplicará a los bordes. Lectura/escritura Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Especifica el radio de desenfoque que se aplicará a los bordes. Lectura/escritura Double. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Determina si el [`SoftEdge`](../softedge) especificado es igual al [`SoftEdge`](../softedge) actual. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Obtiene los datos del efecto Soft Edge efectivo con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Funciona como una función hash para un tipo concreto. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Obtiene los datos efectivos del efecto Soft Edge con la herencia aplicada. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Sirve como función hash para un tipo particular. |
 
 ### Ver también
 

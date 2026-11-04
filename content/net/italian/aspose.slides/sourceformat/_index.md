@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il formato del file sorgente.
+description: Rappresenta il formato del file di origine.
 type: docs
-weight: 10680
+weight: 10700
 url: /it/aspose.slides/sourceformat/
 ---
-## Enumerazione SourceFormat
+## enumerazione SourceFormat
 
-Rappresenta il formato del file sorgente.
+Rappresenta il formato del file di origine.
 
 ```csharp
 public enum SourceFormat
@@ -16,21 +16,21 @@ public enum SourceFormat
 
 ### Valori
 
-| Nome | Valore | Descrizione |
+| Name | Value | Description |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
-| Odp | `2` | OpenDocument Presentation (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
-| Otp | `10` | OpenDocument Presentation Template (*.otp). |
-| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
-| Xml | `12` | PowerPoint XML Presentation (*.xml). |
+| Ppt | `0` | Presentazione Microsoft PowerPoint 97-2003 (*.ppt). |
+| Pptx | `1` | Presentazione Microsoft Office Open XML (*.pptx). |
+| Odp | `2` | Presentazione OpenDocument (*.odp). |
+| Pptm | `3` | Presentazione Microsoft Office Open XML con macro (*.pptm). |
+| Ppsx | `4` | Presentazione Microsoft Office Open XML SlideShow (*.ppsx). |
+| Ppsm | `5` | Presentazione Microsoft Office Open XML SlideShow con macro (*.ppsm). |
+| Potx | `6` | Modello Microsoft Office Open XML (*.potx). |
+| Potm | `7` | Modello Microsoft Office Open XML con macro (*.potm). |
+| Pps | `8` | SlideShow Microsoft PowerPoint 97-2003 (*.pps). |
+| Pot | `9` | Modello Microsoft PowerPoint 97-2003 (*.pot). |
+| Otp | `10` | Modello di presentazione OpenDocument (*.otp). |
+| Fodp | `11` | Presentazione Flat XML ODF (*.fodp). |
+| Xml | `12` | Presentazione PowerPoint XML (*.xml). |
 
 ### Vedi anche
 

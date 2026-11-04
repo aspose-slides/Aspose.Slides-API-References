@@ -1,12 +1,12 @@
 ---
 title: TextUnderlineType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa el tipo de subrayado de texto.
 type: docs
-weight: 11010
+weight: 11030
 url: /es/aspose.slides/textunderlinetype/
 ---
-## enumeración TextUnderlineType
+## Enumeración TextUnderlineType
 
 Representa el tipo de subrayado de texto.
 

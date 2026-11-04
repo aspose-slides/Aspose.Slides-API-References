@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà effettive di riempimento gradiente.
+description: Oggetto immutabile che contiene le proprietà effettive di riempimento a gradiente.
 type: docs
-weight: 6010
+weight: 6030
 url: /it/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà effettive di riempimento gradiente.
+Oggetto immutabile che contiene le proprietà effettive di riempimento a gradiente.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -16,12 +16,12 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Consente di ottenere l'interfaccia di base IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Consente di ottenere l'interfaccia base IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Restituisce lo stile di un gradiente. Solo lettura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Restituisce la forma di un gradiente. Solo lettura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Restituisce la collezione di fermate di gradiente. Solo lettura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Restituisce la collezione di fermate del gradiente. Solo lettura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Restituisce l'angolo di un gradiente. Solo lettura Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determina se un gradiente è scalato. Solo lettura Boolean. |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Restituisce la modalità di ribaltamento per un gradiente. Solo lettura [`TileFlip`](../tileflip). |

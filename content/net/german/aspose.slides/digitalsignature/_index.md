@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Digitale Signatur in signierter Datei.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Digitale Signatur in einer signierten Datei.
 type: docs
-weight: 2770
+weight: 2790
 url: /de/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature Klasse
 
-Digitale Signatur in signierter Datei.
+Digitale Signatur in einer signierten Datei.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -16,52 +16,52 @@ public class DigitalSignature : IDigitalSignature
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Erstellt ein neues DigitalSignature-Objekt mit dem angegebenen Zertifikat. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Erstellt ein neues DigitalSignature-Objekt mit dem angegebenen Zertifikatdateipfad und Passwort. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Erstellt ein neues DigitalSignature-Objekt mit dem angegebenen Pfad zur Zertifikatsdatei und dem Passwort. |
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Zertifikatsobjekt, das zum Signieren des Dokuments verwendet wurde. Nur lesbar X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Der Zweck der Signatur. Lesen/Schreiben String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert wahr. Nur lesbar Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Der Zeitpunkt, zu dem das Dokument signiert wurde. Nur lesbar DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Zertifikatsobjekt, das zum Signieren des Dokuments verwendet wurde. Nur-Lesen X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Der Zweck der Signatur. Lese/Schreib String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert wahr. Nur-Lesen Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Der Zeitpunkt, zu dem das Dokument signiert wurde. Nur-Lesen DateTime. |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man eine digitale Signatur aus einem PFX-Zertifikat in einer PowerPoint-Präsentation hinzufügt.
+Das folgende Beispiel zeigt, wie man in einer PowerPoint-Präsentation eine digitale Signatur aus einem PFX-Zertifikat hinzufügt.
 
 ```csharp
 [C#]
-// Initialisiere Presentation-Instanz
+// Presentation-Instanz initialisieren
 using (Presentation pres = new Presentation())
 {
-    // Erstelle DigitalSignature-Objekt mit PFX-Datei und PFX-Passwort
+    // DigitalSignature-Objekt mit PFX-Datei und PFX-Passwort erstellen
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Kommentar zur neuen digitalen Signatur
+    // Neue digitale Signatur kommentieren
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Füge digitale Signatur zur Präsentation hinzu
+    // Digitale Signatur zur Präsentation hinzufügen
     pres.DigitalSignatures.Add(signature);
-    // Speichere Präsentation
+    // Präsentation speichern
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-Der folgende Beispielcode demonstriert, wie man die digitale Signatur einer PowerPoint-Präsentation validiert.
+Der folgende Beispielcode demonstriert, wie man die digitale Signatur einer PowerPoint-Präsentation überprüft.
 
 ```csharp
 [C#]
-// Initialisiere Presentation-Instanz
+// Presentation-Instanz initialisieren
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Überprüfe, ob alle digitalen Signaturen gültig sind
+        // Prüfen, ob alle digitalen Signaturen gültig sind
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

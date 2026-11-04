@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: बेस के बाएँ स्थित बेस, सबस्क्रिप्ट और सुपरस्क्रिप्ट से बना Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: बेस के बाएँ किनारे पर स्थित बेस के साथ सबस्क्रिप्ट और सुपरस्क्रिप्ट वाले Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है।
 type: docs
-weight: 8310
+weight: 8330
 url: /hi/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement इंटरफ़ेस
 
-बेस के बाएँ स्थित बेस, सबस्क्रिप्ट और सुपर्सक्रिप्ट से बना Sub-Superscript ऑब्जेक्ट को निर्दिष्ट करता है।
+Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | बेस प्राप्त करने की अनुमति देता है IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | बेस तर्क |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | सबस्क्रिप्ट |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | सुपरस्क्रिप्ट |
@@ -32,7 +32,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

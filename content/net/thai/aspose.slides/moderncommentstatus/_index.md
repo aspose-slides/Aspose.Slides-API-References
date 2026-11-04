@@ -1,14 +1,14 @@
 ---
 title: ModernCommentStatus
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: แสดงสถานะของคอมเมนต์สมัยใหม่.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงสถานะของความคิดเห็นสมัยใหม่.
 type: docs
-weight: 9100
+weight: 9120
 url: /th/aspose.slides/moderncommentstatus/
 ---
-## ModernCommentStatus enum
+## ModernCommentStatus การระบุค่า
 
-แสดงสถานะของคอมเมนต์สมัยใหม่.
+แสดงสถานะของความคิดเห็นสมัยใหม่.
 
 ```csharp
 public enum ModernCommentStatus : sbyte
@@ -18,10 +18,10 @@ public enum ModernCommentStatus : sbyte
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `0` | ไม่ได้กำหนด. |
-| Active | `1` | ทำงานอยู่. |
-| Resolved | `2` | แก้ไขแล้ว. |
-| Closed | `3` | ปิด. |
+| NotDefined | `0` | Not Defined. |
+| Active | `1` | Active. |
+| Resolved | `2` | Resolved. |
+| Closed | `3` | Closed. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes .NET API Referencia
-description: A mátrixban vagy tömbben lévő oszlopok közötti függőleges távolság típusa
+second_title: Aspose.Sildes a .NET API referencia
+description: A mátrix vagy tömb oszlopai közötti függőleges távolság típusa
 type: docs
-weight: 8980
+weight: 9000
 url: /hu/aspose.slides.mathtext/mathrowspacingrule/
 ---
-## MathRowSpacingRule enumeráció
+## MathRowSpacingRule felsorolás
 
-Az oszlopok közti függőleges távolság típusa egy mátrixban vagy tömbben
+A mátrix vagy tömb oszlopai közötti függőleges távolság típusa
 
 ```csharp
 public enum MathRowSpacingRule
@@ -16,13 +16,13 @@ public enum MathRowSpacingRule
 
 ### Értékek
 
-| Name | Value | Description |
+| Név | Érték | Leírás |
 | --- | --- | --- |
-| SingleLineGap | `0` | egysoros hézag |
-| OneAndAHalfLineGap | `1` | másfél soros hézag |
-| TwoLineGap | `2` | két soros hézag |
-| Exactly | `3` | Pontosan (az RowSpacing tulajdonság értékétől függ, pontban mérve) |
-| Multiple | `4` | Többszörös (az RowSpacing tulajdonság értékétől függ, sorban mérve) |
+| SingleLineGap | `0` | egyvonalas távolság |
+| OneAndAHalfLineGap | `1` | Másfél sor távolság |
+| TwoLineGap | `2` | Két sor távolság |
+| Exactly | `3` | Pontosan (a RowSpacing tulajdonság értékétől függ, pontban mérve) |
+| Multiple | `4` | Többszörös (a RowSpacing tulajdonság értékétől függ, sorban mérve) |
 
 ### Lásd még
 

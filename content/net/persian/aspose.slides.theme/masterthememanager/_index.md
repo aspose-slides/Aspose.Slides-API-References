@@ -1,12 +1,12 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: دسترسی به تم اصلی ارائه را فراهم می‌کند.
 type: docs
-weight: 11440
+weight: 11460
 url: /fa/aspose.slides.theme/masterthememanager/
 ---
-## MasterThemeManager کلاس
+## کلاس MasterThemeManager
 
 دسترسی به تم اصلی ارائه را فراهم می‌کند.
 
@@ -14,18 +14,18 @@ url: /fa/aspose.slides.theme/masterthememanager/
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | تعیین می‌کند که آیا OverrideTheme تم مؤثر ارث‌برنده (Presentation.MasterTheme) را بازنویسی می‌کند یا نه. Boolean قابل خواندن/نوشتن. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | شیء تم بازنویسی‌شده را برمی‌گرداند. قابل خواندن/نوشتن [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | تعیین می‌کند آیا OverrideTheme تم مؤثر به ارث‌برده (Presentation.MasterTheme) را بازنویسی می‌کند یا نه. قابل‌خواندن/قابل‌نوشتن Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | شیء تم بازنویسی‌شده را برمی‌گرداند. قابل‌خواندن/قابل‌نوشتن [`IMasterTheme`](../imastertheme). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | طرح رنگی اضافه را به یک اسلاید اعمال می‌کند. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | طرح رنگی اضافه را بر یک اسلاید اعمال می‌کند. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | شیء تم را برمی‌گرداند. |
 
 ### موارد مرتبط

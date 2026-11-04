@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha Modulate Fixed Effekt dar. Effekt-Alpha-Opazitätswerte werden mit einem festen Prozentsatz multipliziert.
+description: Stellt einen Alpha Modulate Fixed-Effekt dar. Die Alpha-Deckkraftwerte des Effekts werden mit einem festen Prozentsatz multipliziert.
 type: docs
-weight: 2890
+weight: 2910
 url: /de/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed Klasse
 
-Stellt einen Alpha Modulate Fixed Effekt dar. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert.
+Stellt einen Alpha Modulate Fixed-Effekt dar. Alpha-Werte (Deckkraft) des Effekts werden mit einem festen Prozentsatz multipliziert.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -18,7 +18,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | Name | Beschreibung |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Gibt einen Betrag des Effekts in Prozent zurück. Lesen/Schreiben Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Gibt einen Betrag des Effekts in Prozent zurück. Lese-/Schreib Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
@@ -26,7 +26,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Bestimmt, ob das angegebene [`AlphaModulateFixed`](../alphamodulatefixed) gleich dem aktuellen [`AlphaModulateFixed`](../alphamodulatefixed) ist. |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Ruft effektive Alpha Modulate Fixed Effekt-Daten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Ruft wirksame Alpha Modulate Fixed-Effektdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

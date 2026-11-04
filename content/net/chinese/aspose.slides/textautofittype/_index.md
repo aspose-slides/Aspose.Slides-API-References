@@ -1,14 +1,14 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes .NET API 参考
-description: 表示文本自动适配模式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示文本自动适应模式。
 type: docs
-weight: 10920
+weight: 10940
 url: /zh/aspose.slides/textautofittype/
 ---
 ## TextAutofitType 枚举
 
-表示文本自动适配模式。
+表示文本自动适应模式。
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -19,11 +19,11 @@ public enum TextAutofitType : sbyte
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定义。 |
-| None | `0` | 无自动适配。 |
-| Normal | `1` | 普通自动适配。字体大小和行间距将被缩小以适应形状。 |
-| Shape | `2` | Shape 自动适配。Shape 大小将被更改以适应文本。 |
+| None | `0` | 无自动适应。 |
+| Normal | `1` | 正常自动适应。字体大小和行间距将被缩小以适应形状。 |
+| Shape | `2` | 形状自动适应。形状大小将被更改以适应文本。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

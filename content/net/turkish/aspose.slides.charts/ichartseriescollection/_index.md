@@ -1,12 +1,12 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: IChartSeries koleksiyonunu temsil eder./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /tr/aspose.slides.charts/ichartseriescollection/
 ---
-## IChartSeriesCollection arayüz
+## IChartSeriesCollection arayüzü
 
 [`IChartSeries`](../ichartseries) koleksiyonunu temsil eder.
 
@@ -18,21 +18,21 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection) kaynağından yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell) kaynağından yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection)'den yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell)'den yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Değerden yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Koleksiyondaki (grafik stilini de dahil) tüm öğeleri kaldırır. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Belirtilen [`IChartSeries`](../ichartseries) öğesini arar ve bütün Koleksiyon içinde ilk meydana gelmenin sıfır tabanlı indeksini döndürür. |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Koleksiyondaki tüm öğeleri (grafik stilini de) kaldırır. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Belirtilen [`IChartSeries`](../ichartseries)'yi arar ve tüm Koleksiyon içinde ilk meydana gelmenin sıfır tabanlı indeksini döndürür. |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Belirtilen değeri kaldırır. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Belirtilen indeksteki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Belirtilen indeksteki öğeyi kaldırır |
 
 ### Ayrıca bakınız
 

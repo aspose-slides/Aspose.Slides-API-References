@@ -1,14 +1,14 @@
 ---
 title: Section
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนส่วนของสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของส่วนของสไลด์
 type: docs
-weight: 9750
+weight: 9770
 url: /th/aspose.slides/section/
 ---
-## ส่วน คลาส
+## Section คลาส
 
-แทนส่วนของสไลด์
+เป็นตัวแทนของส่วนของสไลด์
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -16,23 +16,23 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | ชื่อของส่วน |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | Id ของส่วน |
-| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | คืนค่าสไลด์แรกของส่วน |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | รหัสส่วน |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | คืนสไลด์แรกของส่วน |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | คืนค่ารายการสไลด์ในส่วน |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | คืนรายการสไลด์ในส่วน |
 
 ### ดูเพิ่มเติม
 
 * คลาส [DomObject&lt;TParent&gt;](../domobject-1)
 * คลาส [SectionCollection](../sectioncollection)
-* อินเตอร์เฟส [ISection](../isection)
+* อินเทอร์เฟซ [ISection](../isection)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

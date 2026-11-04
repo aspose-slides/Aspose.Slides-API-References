@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione glitter della diapositiva.
+description: Effetto di transizione glitter per le diapositive.
 type: docs
-weight: 10050
+weight: 10070
 url: /it/aspose.slides.slideshow/glittertransition/
 ---
-## GlitterTransition classe
+## Classe GlitterTransition
 
-Effetto di transizione della diapositiva glitter.
+Effetto di transizione glitter per le diapositive.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -19,14 +19,14 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 | Nome | Descrizione |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specifica la forma degli elementi visivi usati durante la transizione. Lettura/scrittura [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specifica la forma delle visualizzazioni usate durante la transizione. Lettura/scrittura [`TransitionPattern`](../transitionpattern). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione di hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

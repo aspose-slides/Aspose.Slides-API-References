@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các thuộc tính chú giải của biểu đồ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Mô tả các thuộc tính legend của biểu đồ.
 type: docs
-weight: 2280
+weight: 2300
 url: /vi/aspose.slides.charts/legend/
 ---
 ## Lớp Legend
 
-Đại diện cho các thuộc tính chú giải của biểu đồ.
+Represents chart's legend properties.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,22 +18,22 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Xác định vị trí x (trái) thực tế của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Chỉ đọc Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Chỉ đọc Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Chỉ đọc Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực. Chỉ đọc Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Dưới. Chỉ đọc Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Trả về biểu đồ. Chỉ đọc [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lấy các mục chú giải. Chỉ đọc [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Trả về định dạng của chú giải. Chỉ đọc [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Trả về hoặc đặt chiều cao của chú giải dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Xác định liệu các phần tử biểu đồ khác có được phép chồng lên chú giải hay không. Đọc/ghi Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Xác định vị trí của chú giải trên biểu đồ. Các giá trị không phải NaN của các thuộc tính X, Y, Width, Heigt ghi đè hiệu ứng của thuộc tính này. Đọc/ghi [`LegendPositionType`](../legendpositiontype). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lấy các mục legend. Chỉ đọc [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Trả về định dạng của một legend. Chỉ đọc [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Trả về hoặc đặt chiều cao của một legend dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Xác định liệu các phần tử biểu đồ khác có được phép che phủ legend hay không. Đọc/ghi Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Xác định vị trí của legend trên biểu đồ. Các giá trị không phải NaN của các thuộc tính X, Y, Width, Heigt ghi đè hiệu lực của thuộc tính này. Đọc/ghi [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Phải. Chỉ đọc Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Định dạng văn bản. Chỉ đọc [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Trả về hoặc đặt chiều rộng của chú giải dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Trả về hoặc đặt tọa độ x của chú giải dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Trả về hoặc đặt tọa độ y của chú giải dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Trả về hoặc đặt chiều rộng của một legend dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Trả về hoặc đặt tọa độ x của một legend dưới dạng tỷ lệ so với chiều rộng của biểu đồ. Đọc/ghi Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Trả về hoặc đặt tọa độ y của một legend dưới dạng tỷ lệ so với chiều cao của biểu đồ. Đọc/ghi Single. |
 
 ### Xem Thêm
 
@@ -41,6 +41,6 @@ public class Legend : DomObject<Chart>, ILegend
 * lớp [Chart](../chart)
 * giao diện [ILegend](../ilegend)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* bộ lắp ráp [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

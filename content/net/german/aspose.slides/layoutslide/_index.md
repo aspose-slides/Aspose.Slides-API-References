@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Layoutfolie dar.
 type: docs
-weight: 7640
+weight: 7660
 url: /de/aspose.slides/layoutslide/
 ---
 ## LayoutSlide Klasse
@@ -19,10 +19,10 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | Name | Beschreibung |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Nur lesbar [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung der ActiveX-Steuerelemente auf einer Folie zurück. Nur lesbar [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung der ActiveX-Steuerelemente einer Folie zurück. Nur lesbar [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Nur lesbar [`ICustomData`](../icustomdata). |
 | [DrawingGuides](../../aspose.slides/layoutslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichenhilfslinien für die Layoutfolie zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | Gibt true zurück, wenn mindestens eine Folie von dieser Layoutfolie abhängt. Nur lesbar Boolean. |
+| [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | Gibt true zurück, wenn es mindestens eine Folie gibt, die von dieser Layoutfolie abhängt. Nur lesbar Boolean. |
 | [HeaderFooterManager](../../aspose.slides/layoutslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Layoutfolie zurück. Nur lesbar [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur lesbar [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [LayoutType](../../aspose.slides/layoutslide/layouttype) { get; } | Gibt den Layouttyp dieser Layoutfolie zurück. Nur lesbar [`SlideLayoutType`](../slidelayouttype). |
@@ -31,22 +31,22 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | [PlaceholderManager](../../aspose.slides/layoutslide/placeholdermanager) { get; } | Gibt den Platzhalter-Manager der Layoutfolie zurück. Nur lesbar [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Gibt die IPresentation-Schnittstelle zurück. Nur lesbar [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Nur lesbar [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie auf den Folien angezeigt werden sollen oder nicht. Lesen/Schreiben Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Lesen/Schreiben Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Nur lesbar UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Transition-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow fortschreitet. Nur lesbar [`ISlideShowTransition`](../islideshowtransition). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Transition-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Vorführung fortschreitet. Nur lesbar [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | Gibt den überschreibenden Theme-Manager zurück. Nur lesbar [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animationszeitlinien-Objekt zurück. Nur lesbar [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animations-Zeitlinien-Objekt zurück. Nur lesbar [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Gibt ein effektives Theme für diese Folie zurück. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur der Folie und statischem Inhalt berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt nicht eindeutige Bezeichnerwerte, z. B. SlideId, und dynamischen Inhalt, z. B. den aktuellen Datumswert im Datums-Platzhalter. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen Alternativtext. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur und dem statischen Inhalt der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt nicht die eindeutigen Bezeichnerwerte, z. B. SlideId, und nicht den dynamischen Inhalt, z. B. den aktuellen Datumswert im Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen alternativen Text. |
 | [GetDependingSlides](../../aspose.slides/layoutslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Layoutfolie abhängen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Verbindet Läufe mit derselben Formatierung in allen Absätzen aller zulässigen Formen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Verbindet Läufe mit derselben Formatierung in allen Absätzen in allen zulässigen Formen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Verbindet Läufe mit gleicher Formatierung in allen Absätzen aller akzeptablen Formen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Verbindet Läufe mit gleicher Formatierung in allen Absätzen in allen akzeptablen Formen. |
 | [Remove](../../aspose.slides/layoutslide/remove)() | Entfernt das Layout aus der Präsentation. |
 
 ### Siehe auch

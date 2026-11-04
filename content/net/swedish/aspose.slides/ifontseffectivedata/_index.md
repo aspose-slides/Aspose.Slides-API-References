@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller den effektiva teckensnittssamlingen.
+description: Oföränderligt objekt som innehåller effektiva typsnitt.
 type: docs
-weight: 5910
+weight: 5930
 url: /sv/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller den effektiva teckensnittssamlingen.
+Övertonbart objekt som innehåller effektiva typsnitt.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,15 +18,15 @@ public interface IFontsEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Returnerar teckensnittet för komplexa skript. Skrivskyddad [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Returnerar teckensnittet för Östasiatiska språk. Skrivskyddad [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Returnerar det latinska teckensnittet. Skrivskyddad [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Returnerar det komplexa skriptfonten. Läs-endast [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Returnerar det östasieniska fontet. Läs-endast [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Returnerar det latinska fontet. Läs-endast [`IFontData`](../ifontdata). |
 
 ### Anmärkningar
 
 Detta gränssnitt används som en del av [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) och [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) gränssnitt.
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

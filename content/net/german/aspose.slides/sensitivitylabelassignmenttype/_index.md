@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabelAssignmentType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Zuweisungsmethode für das Sensitivitätslabel dar.
+description: Stellt die Zuordnungsmethode für das Sensitivitätslabel dar.
 type: docs
-weight: 9800
+weight: 9820
 url: /de/aspose.slides/sensitivitylabelassignmenttype/
 ---
 ## SensitivityLabelAssignmentType Aufzählung
@@ -16,10 +16,10 @@ public enum SensitivityLabelAssignmentType
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
-| Standard | `0` | Verwenden für jedes Sensitivitätslabel, das nicht direkt vom Benutzer angewendet wurde. Dies schließt alle Standardlabels sowie automatisch angewendete Labels ein. |
-| Privileged | `1` | Verwenden für jedes Sensitivitätslabel, das vom Benutzer direkt angewendet wurde. Dies schließt alle manuell angewendeten Sensitivitätslabels sowie empfohlene oder obligatorische Kennzeichnung oder jedes Feature ein, bei dem der Benutzer entscheidet, welches Sensitivitätslabel angewendet werden soll. |
+| Standard | `0` | Verwenden Sie für jedes Sensitivitätslabel, das nicht direkt vom Benutzer angewendet wurde. Dies schließt alle Standardlabels und automatisch angewendete Labels ein. |
+| Privileged | `1` | Verwenden Sie für jedes Sensitivitätslabel, das vom Benutzer direkt angewendet wurde. Dies schließt alle manuell angewendeten Sensitivitätslabels sowie empfohlene oder verpflichtende Kennzeichnungen oder jede Funktion ein, bei der der Benutzer entscheidet, welches Sensitivitätslabel angewendet werden soll. |
 
 ### Siehe auch
 

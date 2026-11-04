@@ -1,14 +1,14 @@
 ---
 title: FillType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den Innenfülltyp verschiedener visueller Objekte an.
+description: Gibt den inneren Fülltyp verschiedener visueller Objekte an.
 type: docs
-weight: 4790
+weight: 4810
 url: /de/aspose.slides/filltype/
 ---
 ## FillType Aufzählung
 
-Gibt den Innenfülltyp verschiedener visueller Objekte an.
+Gibt den inneren Fülltyp verschiedener visueller Objekte an.
 
 ```csharp
 public enum FillType : sbyte
@@ -20,11 +20,11 @@ public enum FillType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Der Fülltyp ist nicht definiert. |
 | NoFill | `0` | Keine Füllung angewendet. |
-| Solid | `1` | Gefüllt mit einer Vollfarbe. |
+| Solid | `1` | Mit einer Vollfarbe gefüllt. |
 | Gradient | `2` | Die Füllung ist ein Farbverlauf. |
-| Pattern | `3` | Ein wiederholendes Muster wird verwendet, um das Objekt zu füllen. |
-| Picture | `4` | Ein einzelnes Bild wird verwendet, um das Objekt zu füllen. |
-| Group | `5` | Das visuelle Objekt erbt die Füllungseigenschaften von der Gruppe. |
+| Pattern | `3` | Ein wiederholtes Muster wird zum Füllen des Objekts verwendet. |
+| Picture | `4` | Ein einzelnes Bild wird zum Füllen des Objekts verwendet. |
+| Group | `5` | Das visuelle Objekt erbt die Fülleigenschaften von der Gruppe. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes .NET API Referencia
-description: Alapértelmezés szerint rejtetté teszi az adatcímkét az összes Show-flags ShowValue ... a DefaultDataLabelFormat tulajdonságnál hamis állapotra állítva. Az IsVisible hamis lesz ezután.
+second_title: Aspose.Sildes a .NET API hivatkozása
+description: Alapértelmezés szerint rejtetté teszi az adatcímkét az összes Show-flag (ShowValue ...) a DefaultDataLabelFormat tulajdonságon false állapotra állításával. Az IsVisible ezután false lesz.
 type: docs
-weight: 100
+weight: 110
 url: /hu/aspose.slides.charts/datalabelcollection/hide/
 ---
-## DataLabelCollection.Hide metódus
+## DataLabelCollection.Hide method
 
-A data label alapértelmezés szerint rejtve legyen, ha az összes Show*-jelzőt (ShowValue, ...) a DefaultDataLabelFormat tulajdonságnál hamis állapotra állítjuk. Az IsVisible hamis lesz ezután.
+Alapértelmezés szerint rejtetté teszi az adatcímkét az összes Show*-flags (ShowValue, ...) a DefaultDataLabelFormat tulajdonságon false állapotra állításával. Az IsVisible ezután false lesz.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Megjegyzés
 
-Ha a data label alapértelmezés szerint nem látható (az IsVisible hamis), a data label „alapértelmezés szerint láthatóvá” tehető az összes Show*-jelző (ShowValue, ...) a DefaultDataLabelFormat tulajdonságnál igaz állapotra állításával.
+Ha az adatcímke alapértelmezés szerint nem látható (IsVisible false), akkor a Show*-flags (ShowValue, ...) a DefaultDataLabelFormat tulajdonságon true állapotra állításával "alapértelmezés szerint láthatóvá" teheti az adatcímkét.
 
 ### Lásd még
 

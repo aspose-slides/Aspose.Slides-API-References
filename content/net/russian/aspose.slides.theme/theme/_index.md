@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Aspose.Sildes для .NET – справочник API
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет тему.
 type: docs
-weight: 11480
+weight: 11500
 url: /ru/aspose.slides.theme/theme/
 ---
-## Theme класс
+## Класс Theme
 
 Представляет тему.
 
@@ -18,8 +18,8 @@ public abstract class Theme : ITheme
 
 | Имя | Описание |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../ifontscheme). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает схему цветов. Только для чтения [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает схему шрифтов. Только для чтения [`IFontScheme`](../ifontscheme). |
 | abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения [`IPresentation`](../../aspose.slides/ipresentation). |
 

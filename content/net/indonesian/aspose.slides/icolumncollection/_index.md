@@ -3,12 +3,12 @@ title: IColumnCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi kolom dalam sebuah tabel.
 type: docs
-weight: 5530
+weight: 5550
 url: /id/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection antarmuka
 
-Mewakili koleksi kolom dalam sebuah tabel.
+Mewakili koleksi kolom dalam tabel.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>

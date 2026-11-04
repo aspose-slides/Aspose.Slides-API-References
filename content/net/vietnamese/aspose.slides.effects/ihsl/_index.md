@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Hue/Saturation/Luminance. Hue, saturation và luminance có thể được điều chỉnh tương đối so với giá trị hiện tại của chúng.
+description: Biểu thị một hiệu ứng Hue/Saturation/Luminance. Hue saturation và luminance có thể được điều chỉnh riêng lẻ so với giá trị hiện tại của chúng.
 type: docs
-weight: 3360
+weight: 3380
 url: /vi/aspose.slides.effects/ihsl/
 ---
 ## IHSL giao diện
 
-Đại diện cho hiệu ứng Hue/Saturation/Luminance. Hue, saturation và luminance có thể được điều chỉnh tương đối so với giá trị hiện tại của chúng.
+Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ sở. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Trả về giao diện IImageTransformOperation. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * giao diện [IHSLEffectiveData](../ihsleffectivedata)

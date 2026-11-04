@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Luminance 効果を表します。Brightness はすべての色を白または黒に線形にシフトします。Contrast はすべての色を互いに近づけたり離したりするようにスケーリングします。
+description: Luminance エフェクトを表します。明るさはすべての色を白または黒に近づけるように線形にシフトします。コントラストはすべての色がより近くなるか、遠くなるようにスケールします。
 type: docs
-weight: 3440
+weight: 3460
 url: /ja/aspose.slides.effects/iluminance/
 ---
 ## ILuminance インターフェイス
 
-Luminance 効果を表します。Brightness はすべての色を白または黒に向かって線形にシフトします。Contrast はすべての色を互いに近づけたり離したりするようにスケーリングします。
+Luminance エフェクトを表します。明るさはすべての色を白または黒に向かって線形にシフトします。コントラストはすべての色がより近くなるか、遠くなるようにスケーリングします。
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 

@@ -3,12 +3,12 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 마스터 테마에 대한 액세스를 제공합니다.
 type: docs
-weight: 11320
+weight: 11340
 url: /ko/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager 인터페이스
 
-프레젠테이션 마스터 테마에 대한 액세스를 제공합니다.
+Provides access to presentation master theme.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -19,10 +19,10 @@ public interface IMasterThemeManager : IThemeManager
 | 이름 | 설명 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 기본 IThemeManager 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme가 상속된 유효 테마 (Presentation.MasterTheme)를 재정의하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 재정의된 테마 객체를 반환합니다. 읽기/쓰기 [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme가 상속된 실제 테마(Presentation.MasterTheme)를 재정의하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 재정의 테마 객체를 반환합니다. 읽기/쓰기 [`IMasterTheme`](../imastertheme). |
 
-### 참고
+### 또한 보기
 
 * 인터페이스 [IThemeManager](../ithememanager)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

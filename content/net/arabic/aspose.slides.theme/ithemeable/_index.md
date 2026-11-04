@@ -1,14 +1,14 @@
 ---
 title: IThemeable
-second_title: مرجع API لـ Aspose.Sildes على .NET
-description: يمثل الكائنات التي يمكن تطبيق سمة عليها باستخدام ITheme./itheme.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل الكائنات التي يمكن تزيينها باستخدام ITheme./itheme.
 type: docs
-weight: 11400
+weight: 11420
 url: /ar/aspose.slides.theme/ithemeable/
 ---
-## واجهة IThemeable
+## IThemeable واجهة
 
-يمثل الكائنات التي يمكن تطبيق سمة عليها باستخدام [`ITheme`](../itheme).
+يمثل الكائنات التي يمكن تزيينها باستخدام [`ITheme`](../itheme).
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,17 +18,17 @@ public interface IThemeable : ISlideComponent
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | يرجع واجهة ISlideComponent. قراءة فقط [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | يعيد واجهة ISlideComponent. قراءة فقط [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | يرجع سمة فعالة لهذا الكائن القابل للتصميم. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | يعيد سمة فعّالة لهذا الكائن القابل للتصميم. |
 
 ### انظر أيضًا
 
-* الواجهة [ISlideComponent](../../aspose.slides/islidecomponent)
+* واجهة [ISlideComponent](../../aspose.slides/islidecomponent)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)
 * التجميع [Aspose.Slides](../../)
 

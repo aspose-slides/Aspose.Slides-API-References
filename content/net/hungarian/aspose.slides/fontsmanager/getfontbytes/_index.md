@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
 second_title: Aspose.Sildes .NET API referencia
-description: A megadott betűtípus-stílus és betűtípus adat számára a betűtípust reprezentáló bájt tömböt ad vissza.
+description: A megadott betűstílushoz és betűadathoz tartozó betűadatot ábrázoló byte tömböt adja vissza.
 type: docs
-weight: 50
+weight: 60
 url: /hu/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes metódus
 
-A megadott betűtípus-stílus és betűtípus adat számára a betűtípust reprezentáló bájt tömböt adja vissza.
+Visszaadja a megadott betűstílushoz és betűadathoz tartozó betűadatot ábrázoló byte tömböt.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontData | IFontData | A betűtípus-adata objektum, amely a betűtípusról [`IFontData`](../../ifontdata) tartalmaz információkat. |
-| fontStyle | FontStyleType | A betűtípus stílusa, amelyhez az adatot le kell kérni [`FontStyleType`](../../fontstyletype). |
+| fontData | IFontData | A betűadat objektum, amely a [`IFontData`](../../ifontdata) betűvel kapcsolatos információkat tartalmaz. |
+| fontStyle | FontStyleType | A betűstílus, amelyhez a betűadatot le kell kérni [`FontStyleType`](../../fontstyletype). |
 
 ### Visszatérési érték
 
-A megadott betűtípus-stílushoz tartozó betűtípus adatokat tartalmazó bájt tömb. Ha a betűtípus adat vagy a stílus nem található, null értéket ad vissza.
+A megadott betűstílushoz tartozó betűadatot tartalmazó byte tömb. Ha a betűadat vagy a stílus nem található, null értéket ad vissza.
 
 ### Példák
 
@@ -29,10 +29,10 @@ A megadott betűtípus-stílushoz tartozó betűtípus adatokat tartalmazó báj
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // A prezentációban használt összes betűtípust lekéri
+    // A prezentációban használt összes betűt lekérdezi
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // A prezentáció első betűtípusának normál stílusát reprezentáló bájt tömböt kapja meg
+    // A prezentáció első betűjének szabályos stílusát ábrázoló byte tömböt kapja meg
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```

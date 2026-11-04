@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ตัวห่อ System.Drawing.Image สำหรับ COM อินเทอร์เฟซ.
+description: ตัวห่อ System.Drawing.Image สำหรับอินเทอร์เฟซ COM.
 type: docs
-weight: 7440
+weight: 7460
 url: /th/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper คลาส
 
-System.Drawing.Image ตัวห่อสำหรับ COM อินเทอร์เฟซ.
+ตัวห่อ System.Drawing.Image สำหรับอินเทอร์เฟซ COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -16,14 +16,14 @@ public class ImageWrapper : IImageWrapper
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | รับ Image. อ่านอย่างเดียว [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | รับความกว้างและความสูง, หน่วยพิกเซล, ของ Image. อ่านอย่างเดียว [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | ดึง Image. อ่านอย่างเดียว [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | ดึงค่าความกว้างและความสูงของ Image หน่วยพิกเซล. อ่านอย่างเดียว [`Size`](./size). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ทำลาย ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | บันทึก Image ไปยังไฟล์ที่ระบุ |

@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Sammlung von Gruppen kombinierbarer Serien dar.
 type: docs
-weight: 1960
+weight: 1980
 url: /de/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection Schnittstelle
@@ -18,11 +18,11 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Ermittelt die Seriengruppe anhand einer Serie. (2 Indexer) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Ruft die Seriengruppe nach Serie ab. (2 Indexer) |
 
-### Anmerkungen
+### Hinweise
 
-1) Jede Gruppe von Serien enthält Serien mit kombinierbaren Typen. Gruppen von kombinierbaren Serientypen werden durch das Enum CombinableSeriesTypesGroup definiert und beschrieben. Außerdem enthält jede Gruppe von Serien Serien, die entweder auf primären Achsen oder auf sekundären Achsen dargestellt werden (nicht beide Fälle in einer Gruppe). Das Prinzip der Seriengruppierung besteht also in einer Gruppierung nach den oben genannten Typgruppen und nach dem Primär-/Sekundär-Darstellungstyp. 2) Eine Gruppe von Serien enthält einige Serieneigenschaften, die für jede Serie in der Gruppe gemein sind („Series group properties“). „Series group properties“ in der Klasse ChartSeriesGroup ist Lese/Schreib. Jede der „Series group properties“ kann eine schreibgeschützte Projektion in der Klasse ChartSeries haben.
+1) Jede Gruppe von Serien enthält Serien mit kombinierbaren Typen. Gruppen kombinierbarer Serientypen werden durch das `CombinableSeriesTypesGroup`-Enum definiert und beschrieben. Außerdem enthält jede Gruppe von Serien Serien, die entweder auf primären Achsen oder auf sekundären Achsen (nicht in beiden Fällen gleichzeitig) geplottet werden. Das Prinzip der Seriengruppierung basiert also auf den oben genannten Typgruppen und auf dem Plottyp primär/sekundär. 2) Eine Gruppe von Serien enthält einige Serieneigenschaften, die für jede Serie in der Gruppe gemeinsam sind („Seriengruppeneigenschaften“). „Seriengruppeneigenschaften“ in der `ChartSeriesGroup`-Klasse sind lesbar/schreibbar. Jede „Seriengruppeneigenschaft“ kann in der `ChartSeries`-Klasse eine schreibgeschützte Projektion haben.
 
 ### Siehe auch
 

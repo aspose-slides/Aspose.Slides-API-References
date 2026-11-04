@@ -1,9 +1,9 @@
 ---
 title: IHeadingPair
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnost 'Heading pair' dokumentu. Udává název skupiny částí dokumentu a počet částí ve skupině.
+description: Reprezentuje vlastnost Heading pair dokumentu. Udává název skupiny částí dokumentu a počet částí ve skupině.
 type: docs
-weight: 6100
+weight: 6120
 url: /cs/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair rozhraní
@@ -18,8 +18,8 @@ public interface IHeadingPair
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | Vrací počet částí ve skupině. Pouze ke čtení Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | Vrací název skupiny částí dokumentu. Pouze ke čtení String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | Vrací počet částí ve skupině. Pouze pro čtení Int32. |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | Vrací název skupiny částí dokumentu. Pouze pro čtení String. |
 
 ### Viz také
 

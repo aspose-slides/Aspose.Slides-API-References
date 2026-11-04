@@ -1,9 +1,9 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una definición de fuente.
 type: docs
-weight: 5830
+weight: 5850
 url: /es/aspose.slides/ifontdata/
 ---
 ## IFontData interfaz
@@ -24,7 +24,7 @@ public interface IFontData
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Devuelve el nombre de la fuente, reemplazando la referencia del tema con una fuente real utilizada. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Devuelve el nombre de la fuente, reemplazando la referencia del tema por una fuente real utilizada. |
 
 ### Ver también
 

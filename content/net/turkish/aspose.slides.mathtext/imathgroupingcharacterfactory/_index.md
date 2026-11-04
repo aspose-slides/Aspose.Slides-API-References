@@ -3,12 +3,12 @@ title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API Referansı
 description: Bir matematik gruplama karakteri oluşturmayı sağlar
 type: docs
-weight: 8300
+weight: 8320
 url: /tr/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory arayüz
 
-Matematik gruplama karakteri oluşturmayı sağlar
+Bir matematik gruplama karakteri oluşturmayı sağlar
 
 ```csharp
 public interface IMathGroupingCharacterFactory

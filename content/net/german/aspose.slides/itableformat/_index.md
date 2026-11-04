@@ -3,12 +3,12 @@ title: ITableFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Format einer Tabelle dar.
 type: docs
-weight: 7240
+weight: 7260
 url: /de/aspose.slides/itableformat/
 ---
-## ITableFormat Schnittstelle
+## ITableFormat interface
 
-Repräsentiert das Format einer Tabelle.
+Stellt das Format einer Tabelle dar.
 
 ```csharp
 public interface ITableFormat
@@ -18,14 +18,14 @@ public interface ITableFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Gibt ein TableFillProperties Objekt zurück. Read-only [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Liest oder setzt die Transparenz der Füllfarbe. Read/write Single. |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Gibt ein table fill properties object zurück. Nur lesend [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Liest oder setzt die Transparenz der Füllfarbe. Lese/Schreib Single. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Ruft wirksame Tabellenformatierungseigenschaften mit Vererbung und angewendeten Tabellenstilen ab. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Ruft die effektiven Tabellenformatierungseigenschaften mit Vererbung und angewendeten Tabellenstilen ab. |
 
 ### Siehe auch
 

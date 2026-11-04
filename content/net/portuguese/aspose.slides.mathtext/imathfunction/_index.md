@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Especifica uma função de um argumento.
 type: docs
-weight: 8270
+weight: 8290
 url: /pt/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction interface
@@ -20,7 +20,7 @@ public interface IMathFunction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Argumento da Função |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nome da função. Por exemplo, os nomes de funções são sin e cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nome da função. Por exemplo, nomes de funções são sin e cos |
 
 ### Exemplos
 

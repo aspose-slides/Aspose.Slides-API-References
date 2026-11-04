@@ -1,9 +1,9 @@
 ---
 title: IChartDataCell
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje komórkę danych wykresu.
 type: docs
-weight: 1810
+weight: 1830
 url: /pl/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell interfejs
@@ -18,14 +18,14 @@ public interface IChartDataCell
 
 | Nazwa | Opis |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Pobiera arkusz. Tylko odczyt [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Zwraca indeks kolumny arkusza, w której znajduje się komórka. Tylko odczyt Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Pobiera lub ustawia własny format wyświetlania liczb i dat. Jeśli wartość jest pusta, zostanie użyta wartość PresetNumberFormat. Odczyt/zapis String. |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Pobiera arkusz. Tylko do odczytu [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Zwraca indeks kolumny arkusza, w której znajduje się komórka. Tylko do odczytu Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Pobiera lub ustawia niestandardowy format wyświetlania liczb i dat. Jeśli wartość jest pusta, zostanie użyta wartość PresetNumberFormat. Odczyt/zapis String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Pobiera lub ustawia formułę w stylu A1. |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Określa, czy komórka jest ukryta. Tylko odczyt Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Pobiera lub ustawia wbudowany format wyświetlania liczb i dat. Numer predefiniowany musi być w [0..22] lub [37..49]. Odczyt/zapis Byte. |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Określa, czy komórka jest ukryta. Tylko do odczytu Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Pobiera lub ustawia wbudowany format wyświetlania liczb i dat. Wartość wstępna musi być w przedziale [0..22] lub [37..49]. Odczyt/zapis Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Pobiera lub ustawia formułę w stylu R1C1. |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Zwraca indeks wiersza arkusza, w którym znajduje się komórka. Tylko odczyt Int32. |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Zwraca indeks wiersza arkusza, w którym znajduje się komórka. Tylko do odczytu Int32. |
 | [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Pobiera lub ustawia wartość komórki. Odczyt/zapis Object. |
 
 ## Metody

@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет главную тему.
+second_title: Aspose.Sildes для .NET справки API
+description: Представляет главный шаблон.
 type: docs
-weight: 11430
+weight: 11450
 url: /ru/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme класс
 
-Представляет главную тему.
+Представляет главный шаблон.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -29,7 +29,7 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает данные эффективной темы с применённым наследованием. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с применённым наследованием. |
 
 ### См. также
 

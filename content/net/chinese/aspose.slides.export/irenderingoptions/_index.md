@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes .NET API 参考
-description: 提供控制演示文稿/幻灯片渲染方式的选项。
+second_title: Aspose.Sildes for .NET API 参考
+description: 提供控制演示文稿/幻灯片呈现方式的选项。
 type: docs
-weight: 4040
+weight: 4060
 url: /zh/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions 接口
 
-提供控制演示文稿/幻灯片渲染方式的选项。
+提供控制演示文稿/幻灯片呈现方式的选项。
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -19,8 +19,8 @@ public interface IRenderingOptions : ISaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出将禁用连字。默认情况下，此属性设置为 `false`。 |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本在渲染时是否不使用连字。设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | 提供控制导出文档中墨迹对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
 ### 示例
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

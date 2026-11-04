@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग के साथ बदलता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट स्ट्रिंग से बदलता है।
 type: docs
-weight: 360
+weight: 370
 url: /hi/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex विधि
 
-नियमित अभिव्यक्ति के सभी मिलान को निर्धारित स्ट्रিং के साथ बदलता है।
+सभी मिलानों को निर्दिष्ट स्ट्रिंग से बदलता है।
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,26 +16,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| regex | Regex | बदलने के लिए स्ट्रिंग्स प्राप्त करने हेतु नियमित अभिव्यक्ति Regex। |
-| newText | String | सभी बदलने योग्य स्ट्रिंग्स की घटनाओं को बदलने के लिए स्ट्रिंग। |
-| callback | IFindResultCallback | खोज परिणामों को प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
+| regex | Regex | स्ट्रिंग को बदलने के लिए चाहिए वह नियमित अभिव्यक्ति Regex। |
+| newText | String | वह स्ट्रिंग जो बदलने के लिए सभी घटनाओं को प्रतिस्थापित करेगी। |
+| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
 
-निम्नलिखित कोड नमूना दर्शाता है कि नियमित अभिव्यक्ति का उपयोग करके निर्दिष्ट स्ट्रिंग के साथ टेक्स्ट को कैसे बदला जाए।
+निम्न कोड नमूना दिखाता है कि कैसे नियमित अभिव्यक्ति का उपयोग करके निर्दिष्ट स्ट्रिंग से टेक्स्ट को बदला जाए।
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10 या अधिक अक्षरों वाले सभी शब्दों को '***' से बदलें
+	// 10 या अधिक अक्षर वाले सभी शब्दों को '***' से बदलें
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### संदर्भ
+### संबंधित देखें
 
 * इंटरफ़ेस [IFindResultCallback](../../ifindresultcallback)
 * इंटरफ़ेस [IPresentation](../../ipresentation)

@@ -1,14 +1,14 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes .NET API referenciája
-description: Tükrözési hatást képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Tükrözési effektust képvisel.
 type: docs
-weight: 3500
+weight: 3520
 url: /hu/aspose.slides.effects/ireflection/
 ---
 ## IReflection interfész
 
-A tükrözési hatást reprezentálja.
+Tükrözési effektust képvisel.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Elmosódási sugár. Olvasás/írás Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | A visszaverődés iránya. Olvasás/írás Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | A visszaverés távolsága. Olvasás/írás Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Megadja a végső alfa érték (százalékban) végpozícióját (az alfa-gradiens mentén). Olvasás/írás Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | A visszaverés végső átlátszatlansága. (százalékban). Olvasás/írás Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Megadja a visszaverés eltolásának irányát. (szög). Olvasás/írás Single. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | A tükrözés iránya. Olvasás/írás Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | A tükrözés távolsága. Olvasás/írás Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Meghatározza a végső alfa érték (százalék) végpozícióját (az alfa színátmeneti lépcsőn). Olvasás/írás Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | A tükrözés végső átlátszatlansága. (százalék). Olvasás/írás Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Meghatározza a tükrözés eltolásának irányát. (szög). Olvasás/írás Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Téglalap igazítása. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Meghatározza, hogy a visszaverés forgatódjon-e a alakzat forgatásával, ha az alakzat el van forgatva. Olvasás/írás Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Megadja a vízszintes méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Megadja a függőleges méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Megadja a vízszintes ferdeségi szöget. Olvasás/írás Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Megadja a függőleges ferdeségi szöget. Olvasás/írás Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Megadja a kezdő alfa érték (százalékban) kiindulási pozícióját (az alfa-gradiens mentén). Olvasás/írás Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Kiinduló visszaverés átlátszatlansága. (százalékban). Olvasás/írás Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Meghatározza, hogy a tükrözés a formával együtt forgatható-e, ha a forma elfordul. Olvasás/írás Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Meghatározza a vízszintes méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Meghatározza a függőleges méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Meghatározza a vízszintes ferdeségi szöget. Olvasás/írás Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Meghatározza a függőleges ferdeségi szöget. Olvasás/írás Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Meghatározza a kezdő alfa érték (százalék) kezdőpozícióját (az alfa színátmeneti lépcsőn). Olvasás/írás Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | A tükrözés kezdő átlátszatlansága. (százalék). Olvasás/írás Single. |
 
 ### Lásd még
 

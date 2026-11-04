@@ -1,9 +1,9 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Umożliwia tworzenie ramki granicznej matematyki
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Umożliwia tworzenie matematycznej ramki granicznej
 type: docs
-weight: 8620
+weight: 8640
 url: /pl/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory klasa
@@ -14,7 +14,7 @@ Umożliwia tworzenie matematycznej ramki granicznej
 public class MathBorderBoxFactory : IMathBorderBoxFactory
 ```
 
-## Konstruktorzy
+## Konstruktory
 
 | Nazwa | Opis |
 | --- | --- |
@@ -24,8 +24,8 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Tworzy ramkę graniczną matematyki stosując do elementu |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Tworzy ramkę graniczną matematyki stosując do elementu |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Tworzy ramkę graniczną matematyki, stosując ją do elementu |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Tworzy ramkę graniczną matematyki, stosując ją do elementu |
 
 ### Uwagi
 

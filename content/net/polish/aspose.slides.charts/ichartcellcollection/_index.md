@@ -1,9 +1,9 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję komórek z danymi.
 type: docs
-weight: 1780
+weight: 1800
 url: /pl/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interfejs
@@ -18,8 +18,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Zwraca interfejs ICollection. Tylko do odczytu IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Zwraca liczbę komórek w kolekcji. Tylko do odczytu Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Zwraca interfejs ICollection. Read-only IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Pobiera liczbę komórek w kolekcji. Read-only Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Zwraca komórkę (IChartDataCell) według indeksu. |
 
 ## Metody
@@ -27,7 +27,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | Nazwa | Opis |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Dodaje nową komórkę do kolekcji. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Tworzy [`IChartDataCell`](../ichartdatacell) z określonej wartości i dodaje ją do kolekcji. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Tworzy [`IChartDataCell`](../ichartdatacell) z podanej wartości i dodaje go do kolekcji. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Zwraca adres zestawu komórek w skoroszycie. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Łączy ciągi znaków ze wszystkich wartości komórek. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Usuwa komórkę z kolekcji według indeksu. |

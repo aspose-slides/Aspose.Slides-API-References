@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 그라디언트 스톱을 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 그라디언트 정점을 나타내는 불변 객체입니다.
 type: docs
-weight: 6050
+weight: 6070
 url: /ko/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData 인터페이스
 
-그라디언트 스톱을 나타내는 불변 객체입니다.
+그라디언트 정점을 나타내는 불변 객체입니다.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -16,10 +16,10 @@ public interface IGradientStopEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 그라디언트 스톱의 색상을 반환합니다. 읽기 전용 Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 그라디언트 스톱의 위치 (0..1)를 반환합니다. 읽기 전용 Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 그라디언트 정점의 색상을 반환합니다. 읽기 전용 Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 그라디언트 정점의 위치(0..1)를 반환합니다. 읽기 전용 Single. |
 
 ### 참고
 

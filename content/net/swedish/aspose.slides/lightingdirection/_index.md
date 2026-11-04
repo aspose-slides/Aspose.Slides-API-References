@@ -3,10 +3,10 @@ title: LightingDirection
 second_title: Aspose.Sildes för .NET API-referens
 description: Konstanter som definierar ljusriktningar.
 type: docs
-weight: 7710
+weight: 7730
 url: /sv/aspose.slides/lightingdirection/
 ---
-## LightingDirection uppräkning
+## LightingDirection-enumeration
 
 Konstanter som definierar ljusriktningar.
 

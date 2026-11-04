@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje menedżera, który kontroluje zachowanie pól zastępczych stopki slajdu, daty i czasu oraz numeru strony.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje menedżera, który określa zachowanie znaczków stopki slajdu, daty i godziny oraz numeru strony.
 type: docs
-weight: 9980
+weight: 10000
 url: /pl/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager klasa
 
-Reprezentuje menedżera, który zarządza zachowaniem pól zastępczych stopki slajdu, daty i czasu oraz numeru strony.
+Reprezentuje menedżer, który zawiera zachowanie stopki slajdu, znacznika daty i godziny oraz znacznika numeru strony.
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,21 +19,21 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze daty i czasu jest obecne. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze stopki jest obecne. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze numeru strony jest obecne. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Zwraca wartość wskazującą, że znacznik daty i godziny jest obecny. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Zwraca wartość wskazującą, że znacznik stopki jest obecny. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Zwraca wartość wskazującą, że znacznik numeru strony jest obecny. ReadBoolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w polu zastępczym daty i czasu slajdu. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność pola zastępczego daty i czasu slajdu. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w polu zastępczym stopki slajdu. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w znaczniku daty i godziny slajdu. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność znacznika daty i godziny slajdu. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w znaczniku stopki slajdu. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność znacznika stopki slajdu. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność znacznika numeru strony slajdu. |
 
-### Zobacz także
+### Zobacz też
 
 * klasa [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * interfejs [ISlideHeaderFooterManager](../islideheaderfootermanager)

@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt verschiedene Typen von Formanpassungswerten an.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt verschiedene Arten von Form-Anpassungswerten an.
 type: docs
-weight: 9840
+weight: 9860
 url: /de/aspose.slides/shapeadjustmenttype/
 ---
-## ShapeAdjustmentType enumeration
+## ShapeAdjustmentType Aufzählung
 
-Gibt verschiedene Typen von Formanpassungswerten an.
+Gibt verschiedene Arten von Form-Anpassungswerten an.
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -28,22 +28,22 @@ public enum ShapeAdjustmentType
 | ArrowTailThickness | `7` | Steuert die Dicke des Pfeilschafts. |
 | ArrowheadLength | `8` | Steuert die Länge der Pfeilspitze. |
 | ArrowheadWidth | `9` | Steuert die Breite der Pfeilspitze. |
-| Radius | `10` | Steuert die Größe des Radius der Form oder ihres Teils. |
-| Depth | `11` | Steuert die Tiefe der Zahnradzähne oder den Abschrägungs-Effekt. |
+| Radius | `10` | Steuert die Größe des Radius der Form oder eines Teils davon. |
+| Depth | `11` | Steuert die Tiefe der Zahnraddetails oder des Abschrägungs-Effekts. |
 | ShapePartOffset | `12` | Steuert den Versatz eines Teils der Figur relativ zu einem anderen. |
-| Angle | `13` | Steuert den Winkel für die Figur oder ihr Teil. |
-| StartAngle | `14` | Startwinkel für Kuchen- und Bogenformen. |
-| EndAngle | `15` | Endwinkel für Kuchen- und Bogenformen. |
+| Angle | `13` | Steuert den Winkel für die Figur oder ihren Teil. |
+| StartAngle | `14` | Startwinkel für Kreis- und Bogenformen. |
+| EndAngle | `15` | Endwinkel für Kreis- und Bogenformen. |
 | StartPointX | `16` | Steuert die X-Position des Startpunkts des Callouts. |
 | StartPointY | `17` | Steuert die Y-Position des Startpunkts des Callouts. |
-| ConnectorPoint1X | `18` | Steuert die horizontale Position des Winkelanpassungspunkts des Callouts. |
-| ConnectorPoint1Y | `19` | Steuert die vertikale Position des Winkelanpassungspunkts des Callouts. |
-| ConnectorPoint2X | `20` | Steuert die horizontale Position des Winkelanpassungspunkts des Callouts. |
-| ConnectorPoint2Y | `21` | Steuert die vertikale Position des Winkelanpassungspunkts des Callouts. |
+| ConnectorPoint1X | `18` | Steuert die horizontale Position des Winkeleinstell-Punktes des Callouts. |
+| ConnectorPoint1Y | `19` | Steuert die vertikale Position des Winkeleinstell-Punktes des Callouts. |
+| ConnectorPoint2X | `20` | Steuert die horizontale Position des Winkeleinstell-Punktes des Callouts. |
+| ConnectorPoint2Y | `21` | Steuert die vertikale Position des Winkeleinstell-Punktes des Callouts. |
 | ConnectorBendPositionX | `22` | Steuert die horizontale Position der Biegung im Verbinder. |
 | ConnectorBendPositionY | `23` | Steuert die vertikale Position der Biegung im Verbinder. |
-| AttachY | `24` | Steuert den vertikalen Anbringungspunkt der Figur. |
-| AttachX | `25` | Steuert den horizontalen Anbringungspunkt der Figur. |
+| AttachY | `24` | Steuert den vertikalen Befestigungspunkt der Figur. |
+| AttachX | `25` | Steuert den horizontalen Befestigungspunkt der Figur. |
 | CalloutHeight | `26` | Steuert die vertikale Größe des Callouts. |
 | CalloutWidth | `27` | Steuert die horizontale Größe des Callouts. |
 | CalloutSize | `28` | Steuert die Größe des Callouts. |

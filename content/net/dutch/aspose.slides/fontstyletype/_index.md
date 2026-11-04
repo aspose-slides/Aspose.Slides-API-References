@@ -3,7 +3,7 @@ title: FontStyleType
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Definieert opmaakstijlen die op tekst kunnen worden toegepast.
 type: docs
-weight: 4870
+weight: 4890
 url: /nl/aspose.slides/fontstyletype/
 ---
 ## FontStyleType enumeration

@@ -3,12 +3,12 @@ title: ExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 追加のカラースキームのコレクションを表します。
 type: docs
-weight: 11110
+weight: 11130
 url: /ja/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection クラス
 
-追加のカラー スキームのコレクションを表します。
+追加のカラースキームのコレクションを表します。
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -18,10 +18,10 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayList へのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | インデックスでカラー スキームを返します。読み取り専用 [`ExtraColorScheme`](../extracolorscheme)。 |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | コレクションへのアクセスを同期化するために使用できるオブジェクトを返します。読み取り専用 Object。 |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayListへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | インデックスでカラー スキームを返します。読み取り専用 [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | コレクションへのアクセスを同期させるために使用できるオブジェクトを返します。読み取り専用 Object. |
 
 ## メソッド
 

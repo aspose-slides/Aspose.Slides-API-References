@@ -1,14 +1,14 @@
 ---
 title: IInkActions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライド上のインク オブジェクトを表します。
+description: スライド上のインクオブジェクトを表します。
 type: docs
-weight: 7520
+weight: 7540
 url: /ja/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions インターフェイス
 
-スライド上のインク オブジェクトを表します。
+スライド上のインクオブジェクトを表します。
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。 読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### 参照
 

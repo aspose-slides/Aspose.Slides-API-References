@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes pro .NET referenci API
-description: Reprezentuje barvy v barevném schématu.
+second_title: Aspose.Sildes pro .NET API
+description: Representuje barvy v barevném schématu.
 type: docs
-weight: 9740
+weight: 9760
 url: /cs/aspose.slides/schemecolor/
 ---
-## Výčet SchemeColor
+## SchemeColor výčet
 
-Reprezentuje barvy ve schématu barev.
+Representuje barvy v barevném schématu.
 
 ```csharp
 public enum SchemeColor
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` | Schéma barev není definováno. |
+| NotDefined | `-1` | Barevné schéma není definováno. |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |

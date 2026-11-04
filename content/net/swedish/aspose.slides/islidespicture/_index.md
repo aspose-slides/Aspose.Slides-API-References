@@ -3,7 +3,7 @@ title: ISlidesPicture
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 7110
+weight: 7130
 url: /sv/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture gränssnitt
@@ -18,7 +18,7 @@ public interface ISlidesPicture : ISlideComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent gränssnitt. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
 | [Image](../../aspose.slides/islidespicture/image) { get; set; } | Returnerar eller anger den inbäddade bilden. Läs/skriv [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Returnerar samlingen av bildtransformeringseffekter. Skrivskyddad [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Returnerar eller anger den länkade bildens URL. Läs/skriv String. |

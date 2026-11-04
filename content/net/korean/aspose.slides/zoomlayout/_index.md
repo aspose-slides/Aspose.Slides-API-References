@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
 second_title: Aspose.Sildes for .NET API 참조
-description: 요약 줌 레이아웃을 지정합니다.
+description: 요약 Zoom 레이아웃을 지정합니다.
 type: docs
-weight: 11860
+weight: 11880
 url: /ko/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout 열거형
 
-요약 줌 레이아웃을 지정합니다.
+요약 Zoom 레이아웃을 지정합니다.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| GridLayout | `0` | 객체 목록에 대한 그리드 레이아웃으로 지정합니다. |
-| FixedLayout | `1` | 사용자 정의 Zoom 위치 지정 레이아웃을 지정합니다. |
+| GridLayout | `0` | 목록 객체에 대한 그리드 레이아웃으로 레이아웃을 지정합니다. |
+| FixedLayout | `1` | 사용자 정의 Zoom 위치 지정으로 레이아웃을 지정합니다. |
 
 ### 참조
 

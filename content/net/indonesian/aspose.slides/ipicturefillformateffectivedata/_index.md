@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak berubah yang berisi properti pengisian gambar.
+description: Objek tak dapat diubah yang berisi properti pengisian gambar.
 type: docs
-weight: 6660
+weight: 6680
 url: /id/aspose.slides/ipicturefillformateffectivedata/
 ---
-## IPictureFillFormatEffectiveData interface
+## IPictureFillFormatEffectiveData antarmuka
 
-Objek tak berubah yang berisi properti pengisian gambar.
+Objek tak dapat diubah yang berisi properti pengisian gambar.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -19,10 +19,10 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | Nama | Deskripsi |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Memungkinkan untuk mendapatkan antarmuka IFillParamSource dasar. Hanya-baca [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Mengembalikan persentase tinggi gambar sebenarnya yang dipotong di bagian bawah gambar. Hanya-baca Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Mengembalikan persentase lebar gambar sebenarnya yang dipotong di sisi kiri gambar. Hanya-baca Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Mengembalikan persentase lebar gambar sebenarnya yang dipotong di sisi kanan gambar. Hanya-baca Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Mengembalikan persentase tinggi gambar sebenarnya yang dipotong di bagian atas gambar. Hanya-baca Single. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Mengembalikan jumlah persentase tinggi gambar asli yang dipotong dari bagian bawah gambar. Hanya-baca Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Mengembalikan jumlah persentase lebar gambar asli yang dipotong dari sisi kiri gambar. Hanya-baca Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Mengembalikan jumlah persentase lebar gambar asli yang dipotong dari sisi kanan gambar. Hanya-baca Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Mengembalikan jumlah persentase tinggi gambar asli yang dipotong dari bagian atas gambar. Hanya-baca Single. |
 | [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Mengembalikan dpi yang digunakan untuk mengisi gambar. Hanya-baca Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Mengembalikan gambar. Hanya-baca [`IPictureEffectiveData`](../ipictureeffectivedata). |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Mengembalikan mode pengisian gambar. Hanya-baca [`PictureFillMode`](../picturefillmode). |

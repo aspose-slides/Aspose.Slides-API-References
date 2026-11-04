@@ -1,14 +1,14 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET API Referencja
 description: Reprezentuje kolekcję węzłów SmartArt.
 type: docs
-weight: 10640
+weight: 10660
 url: /pl/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection klasa
 
-Reprezentuje kolekcję węzłów SmartArt.
+Represents a collection of SmartArt nodes.
 
 ```csharp
 public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
@@ -16,22 +16,22 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Zwraca liczbę węzłów w kolekcji Tylko do odczytu Int32 Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Zwraca węzeł według indeksu |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Zwraca węzeł po indeksie |
 | [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Dodaje nowy węzeł SmartArt lub podwęzeł. |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Dodaje nowy węzeł w wybranej pozycji kolekcji węzłów |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do podanej tablicy. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Usuwa węzeł lub podwęzeł według indeksu |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Usuwa węzeł lub podwęzeł po indeksie |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Usuwa węzeł lub podwęzeł |
 
 ### Zobacz także

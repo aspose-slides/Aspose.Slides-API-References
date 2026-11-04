@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक ज्यामितीय पैटर्न निर्दिष्ट करता है जो एक साथ टाइल बनाकर बड़े क्षेत्र को भरता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: किसी ज्यामितीय पैटर्न को निर्दिष्ट करता है जो एक साथ टाइल करके बड़े क्षेत्र को भरता है।
 type: docs
-weight: 10400
+weight: 10420
 url: /hi/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern एन्यूमरेशन
 
-बड़े क्षेत्र को भरने के लिए साथ में टाइल होने वाला ज्यामितीय पैटर्न निर्दिष्ट करता है।
+एक ज्यामितीय पैटर्न को निर्दिष्ट करता है जो एक साथ टाइल करके बड़े क्षेत्र को भरता है।
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Diamond | `0` | डायमंड टाइल पैटर्न |
-| Hexagon | `1` | हेक्सागन टाइल पैटर्न |
+| Diamond | `0` | Diamond टाइल पैटर्न |
+| Hexagon | `1` | Hexagon टाइल पैटर्न |
 
 ### संबंधित देखें
 

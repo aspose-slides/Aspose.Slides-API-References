@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Absätzen dar.
 type: docs
-weight: 9290
+weight: 9310
 url: /de/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection Klasse
@@ -18,26 +18,26 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Ermittelt einen Wert, der angibt, ob die ICollection schreibgeschützt ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Ermittelt das Element am angegebenen Index. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Gibt die tatsächliche Anzahl der in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Fügt ein Paragraph am Ende der Sammlung hinzu. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Fügt den Inhalt einer ParagraphCollection am Ende der Sammlung hinzu. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Fügt Text aus einer angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Fügt Text aus einer angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Fügt den Inhalt von ParagraphCollection am Ende der Sammlung hinzu. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Fügt Text aus der angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Fügt Text aus der angegebenen HTML-Zeichenfolge zur Sammlung hinzu. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Bestimmt, ob die ICollection einen bestimmten Wert enthält. |
 | [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopiert die Elemente der ICollection in ein Array, beginnend bei einem bestimmten Array-Index. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konvertiert die angegebenen Absätze in HTML und gibt sie als String-Objekt zurück. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konvertiert angegebene Absätze zu HTML und gibt sie als String-Objekt zurück. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Ermittelt den Index eines bestimmten Elements in der IList. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Fügt ein Paragraph an dem angegebenen Index in die Sammlung ein. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Fügt den Inhalt einer ParagraphCollection an dem angegebenen Index in die Sammlung ein. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Bestimmt den Index eines bestimmten Elements in der IList. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Fügt ein Paragraph an der angegebenen Position in die Sammlung ein. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Fügt den Inhalt von ParagraphCollection an der angegebenen Position in die Sammlung ein. |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der ICollection. |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
 

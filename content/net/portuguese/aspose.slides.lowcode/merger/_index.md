@@ -1,12 +1,12 @@
 ---
 title: Merger
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um grupo de métodos para mesclar apresentações do PowerPoint do mesmo formato em um único arquivo.
 type: docs
-weight: 7970
+weight: 7990
 url: /pt/aspose.slides.lowcode/merger/
 ---
-## Merger classe
+## Classe Merger
 
 Representa um grupo de métodos para mesclar apresentações do PowerPoint do mesmo formato em um único arquivo.
 
@@ -18,10 +18,10 @@ public static class Merger
 
 | Nome | Descrição |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Mescla múltiplas apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Mescla múltiplas apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Mescla múltiplas apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Mescla múltiplas apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Mescla várias apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Mescla várias apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Mescla várias apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Mescla várias apresentações do PowerPoint do mesmo formato em um único arquivo de apresentação. |
 
 ### Ver também
 

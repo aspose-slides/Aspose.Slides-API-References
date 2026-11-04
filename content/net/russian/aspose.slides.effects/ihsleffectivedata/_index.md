@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект Hue/Saturation/Luminance. Оттенок, насыщенность и яркость могут быть скорректированы относительно их текущих значений.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость могут быть скорректированы относительно их текущих значений.
 type: docs
-weight: 3370
+weight: 3390
 url: /ru/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData интерфейс
 
-Представляет эффект Hue/Saturation/Luminance. Оттенок, насыщенность и яркость могут быть скорректированы относительно их текущих значений.
+Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость могут быть скорректированы относительно их текущих значений.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData

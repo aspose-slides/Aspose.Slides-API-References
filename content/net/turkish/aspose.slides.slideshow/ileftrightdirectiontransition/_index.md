@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sol-sağ yönlü slayt geçiş efekti.
+description: Sol-sağ yönünde slayt geçiş efekti.
 type: docs
-weight: 10120
+weight: 10140
 url: /tr/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition arayüz
 
-Sol-sağ yönlü slayt geçiş efekti.
+Sol-sağ yönündeki slayt geçiş efekti.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Yalnızca-okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Geçişin yönü. Okunabilir/yazılabilir [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Yalnızca okunabilir [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunabilir/yazılabilir [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Ayrıca Bakınız
 

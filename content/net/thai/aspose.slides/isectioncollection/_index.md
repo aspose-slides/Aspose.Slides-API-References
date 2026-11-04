@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของส่วน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของส่วน.
 type: docs
-weight: 6900
+weight: 6920
 url: /th/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection อินเทอร์เฟซ
 
-Represents a collection of sections.
+แสดงถึงคอลเลกชันของส่วน.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -18,7 +18,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | ดึงเอาอิลเมนท์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISection`](../isection). |
 
 ## เมธอด
 
@@ -28,7 +28,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | เพิ่มส่วนใหม่ที่เริ่มจากสไลด์เฉพาะ. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | เพิ่มส่วนว่างที่ส่วนท้ายของคอลเลกชัน. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | ลบทุกส่วนออกจากคอลเลกชัน. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | คืนดัชนีของส่วนที่ระบุในคอลเลกชัน. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | คืนค่าดัชนีของส่วนที่ระบุในคอลเลกชัน. |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | ลบส่วน. สไลด์ที่อยู่ในส่วนจะถูกรวมเข้ากับส่วนก่อนหน้า. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | ลบส่วนและสไลด์ที่อยู่ในส่วน. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | ย้ายส่วนและสไลด์ของมันจากคอลเลกชันไปยังตำแหน่งที่ระบุ. |

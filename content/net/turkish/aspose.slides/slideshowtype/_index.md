@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Temel slayt gösterisi ayarları. Atalar slayt gösterisinin türlerini temsil eder PresentedBySpeaker./presentedbyspeaker Bir konuşmacı tarafından tam ekran sunulur BrowsedByIndividual./browsedbyindividual Bireysel tarafından pencere içinde görüntülenir BrowsedAtKiosk./browsedatkiosk Kiosk'ta tam ekran görüntülenir
+description: Base slide show settings. Ancestors represent types of the slide show PresentedBySpeaker./presentedbyspeaker Sunucu tarafından tam ekranda sunulur BrowsedByIndividual./browsedbyindividual Bireysel olarak pencere içinde göz atılır BrowsedAtKiosk./browsedatkiosk Kiosk'ta tam ekranda göz atılır
 type: docs
-weight: 10490
+weight: 10510
 url: /tr/aspose.slides/slideshowtype/
 ---
 ## SlideShowType sınıfı
 
-Temel slayt gösterisi ayarları. Atalar slayt gösterisinin türlerini temsil eder: [`PresentedBySpeaker`](../presentedbyspeaker) Bir konuşmacı tarafından sunulur (tam ekran) [`BrowsedByIndividual`](../browsedbyindividual) Bireysel tarafından görüntülenir (pencere) [`BrowsedAtKiosk`](../browsedatkiosk) Kiosk'ta görüntülenir (tam ekran)
+Temel slayt gösterisi ayarları. Atalar, slayt gösterisinin türlerini temsil eder: [`PresentedBySpeaker`](../presentedbyspeaker) Sunucu tarafından sunulur (tam ekran) [`BrowsedByIndividual`](../browsedbyindividual) Bireysel olarak göz atılır (pencere) [`BrowsedAtKiosk`](../browsedatkiosk) Kiosk'ta göz atılır (tam ekran)
 
 ```csharp
 public abstract class SlideShowType

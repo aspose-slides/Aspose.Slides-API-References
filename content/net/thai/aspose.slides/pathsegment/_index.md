@@ -1,14 +1,14 @@
 ---
 title: PathSegment
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงส่วนของเส้นกราฟิกของ GeometryShape
+description: แสดงส่วนของเส้นทางกราฟิกของ GeometryShape
 type: docs
-weight: 9340
+weight: 9360
 url: /th/aspose.slides/pathsegment/
 ---
 ## PathSegment คลาส
 
-แสดงส่วนของเส้นกราฟิกของ GeometryShape
+แสดงส่วนของเส้นทางกราฟิกของ GeometryShape
 
 ```csharp
 public sealed class PathSegment : IPathSegment
@@ -18,8 +18,8 @@ public sealed class PathSegment : IPathSegment
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | ประเภทของส่วน |
-| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | ข้อมูลเส้นของส่วน |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | ประเภทเส้นทางของส่วน |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | ข้อมูลเส้นทางของส่วน |
 
 ### ดูเพิ่มเติม
 

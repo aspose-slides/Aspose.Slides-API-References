@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes pour la référence d'API .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Objet immuable qui contient les propriétés de relief de la face des formes effectives.
 type: docs
-weight: 6970
+weight: 6990
 url: /fr/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interface
 
-Objet immuable qui contient les propriétés de relief de la face de la forme effective.
+Objet immuable qui contient les propriétés de relief de la face de forme effective.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,9 +18,9 @@ public interface IShapeBevelEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Type de chanfrein. Lecture seule [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Hauteur du chanfrein. Lecture seule Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Largeur du chanfrein. Lecture seule Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Type de biseau. Lecture seule [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Hauteur du biseau. Lecture seule Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Largeur du biseau. Lecture seule Double. |
 
 ### Remarques
 

@@ -3,10 +3,10 @@ title: TransitionType
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje typ przejścia pokazu slajdów.
 type: docs
-weight: 10450
+weight: 10470
 url: /pl/aspose.slides.slideshow/transitiontype/
 ---
-## TransitionType enumeracja
+## TransitionType wyliczenie
 
 Reprezentuje typ przejścia pokazu slajdów.
 
@@ -39,7 +39,7 @@ public enum TransitionType
 | Wedge | `18` | Odwołuje się do przejścia Clock (z opcją Wedge) w PowerPoint 2010. |
 | Wheel | `19` | Odwołuje się do przejścia Clock (z opcją Clockwise) w PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Odwołuje się do przejścia Shape (z opcjami In/Out) w PowerPoint 2010. Zobacz także Warp, które odnosi się do przejścia Zoom w PowerPoint 2010. |
+| Zoom | `21` | Odwołuje się do przejścia Shape (z opcjami In/Out) w PowerPoint 2010. Zobacz także Warp, który odnosi się do przejścia Zoom w PowerPoint 2010. |
 | Vortex | `22` | Dostępny w PowerPoint 2010. |
 | Switch | `23` | Dostępny w PowerPoint 2010. |
 | Flip | `24` | Dostępny w PowerPoint 2010. |
@@ -76,7 +76,7 @@ public enum TransitionType
 | Origami | `55` | Dostępny w PowerPoint 2013. |
 | Morph | `56` | Odwołuje się do przejścia Morph (z opcją Type) w PowerPoint 2019. |
 
-### Patrz także
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * zbiór [Aspose.Slides](../../)

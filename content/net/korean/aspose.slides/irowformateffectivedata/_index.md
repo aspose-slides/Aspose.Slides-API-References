@@ -1,9 +1,9 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET용 API 레퍼런스
 description: 효과적인 테이블 행 서식 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6880
+weight: 6900
 url: /ko/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData 인터페이스
@@ -20,7 +20,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | 기본 IBaseTableFormatEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### 비고
+### 참고
 
 이 인터페이스는 [`IRowFormat`](../irowformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 효과적인 서식 값을 반환합니다.
 

@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสคอนโทรลเลอร์การจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ WOFF
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ WOFF
 type: docs
-weight: 3790
+weight: 3810
 url: /th/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController คลาส
 
-คลาสคอนโทรลเลอร์การจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ WOFF
+คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ WOFF
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
@@ -16,7 +16,7 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | สร้างอินสแตนซ์ใหม่. |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | สร้างอินสแตนซ์ใหม่. |

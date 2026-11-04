@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes .NET API referencia
-description: A pie-of-pie vagy bar-of-pie diagram második körének vagy sávjának szétválasztási pontjainak típusát reprezentálja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A második torta vagy oszlop pontjainak felosztásának típusát jelöli egy torta-a-torta vagy oszlop-a-torta diagramon.
 type: docs
-weight: 2380
+weight: 2400
 url: /hu/aspose.slides.charts/piesplittype/
 ---
-## PieSplitType enumeráció
+## PieSplitType felsorolás
 
-A pie-of-pie vagy bar-of-pie diagram második kör vagy sáv szétválasztási pontjainak típusát reprezentálja.
+A második torta vagy oszlop pontok felosztásának típusát jelöli egy torta-a-torta vagy oszlop-a-torta diagramon.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Megadja, hogy az adatpontok az alapértelmezett mechanizmus használatával legyenek szétválasztva erről a diagramtípusról. |
-| Custom | `1` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva a Custom Split értékek szerint. |
-| ByPercentage | `2` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy a Split Position százaléknál kevesebb százalékú pontok a második diagramba kerülnek. |
-| ByPos | `3` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy az adatpontok legutolsó Split Position értéke a második diagramba kerül. |
-| ByValue | `4` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy a Split Position-nál kisebb értékű adatpontok a második diagramba kerülnek. |
+| Default | `0` | Megadja, hogy az adatpontok a diagram típusához tartozó alapértelmezett mechanizmus szerint legyenek felosztva. |
+| Custom | `1` | Megadja, hogy az adatpontok a torta és a második diagram között a Custom Split értékek szerint legyenek felosztva. |
+| ByPercentage | `2` | Megadja, hogy az adatpontok a torta és a második diagram között úgy legyenek felosztva, hogy a százalékuk a Split Position százaléknál kisebb pontok a második diagramba kerüljenek. |
+| ByPos | `3` | Megadja, hogy az adatpontok a torta és a második diagram között úgy legyenek felosztva, hogy az adatpontok utolsó Split Position értéke a második diagramba kerüljön. |
+| ByValue | `4` | Megadja, hogy az adatpontok a torta és a második diagram között úgy legyenek felosztva, hogy a Split Position értéknél kisebb értékű adatpontok a második diagramba kerüljenek. |
 
 ### Lásd még
 

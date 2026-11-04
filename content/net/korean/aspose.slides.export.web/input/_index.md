@@ -1,14 +1,14 @@
 ---
 title: Input
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 입력 요소 템플릿 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes용 .NET API 레퍼런스
+description: 입력 요소 템플릿의 컬렉션을 나타냅니다.
 type: docs
-weight: 4630
+weight: 4650
 url: /ko/aspose.slides.export.web/input/
 ---
-## Input 클래스
+## 입력 클래스
 
-입력 요소(템플릿) 컬렉션을 나타냅니다.
+컬렉션 (템플릿) 의 입력 요소를 나타냅니다.
 
 ```csharp
 public sealed class Input
@@ -20,7 +20,7 @@ public sealed class Input
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | 컬렉션에 템플릿을 추가합니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

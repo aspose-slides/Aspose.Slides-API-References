@@ -1,14 +1,14 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Olyan kivételt reprezentál, amely akkor kerül dobásra, ha a prezentáció szerkesztése közben hibát észlelnek.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Olyan kivételt képvisel, amely akkor kerül dobásra, amikor a prezentáció szerkesztési hibát észlelnek.
 type: docs
-weight: 9510
+weight: 9530
 url: /hu/aspose.slides/ppteditexception/
 ---
 ## PptEditException osztály
 
-Olyan kivételt reprezentál, amely akkor kerül dobásra, ha a prezentáció szerkesztése közben hibát észlelnek.
+Egy kivételt képvisel, amely akkor kerül dobásra, amikor a prezentáció szerkesztési hibát észlelnek.
 
 ```csharp
 public class PptEditException : PptException
@@ -19,7 +19,7 @@ public class PptEditException : PptException
 | Név | Leírás |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Alapértelmezett konstruktor. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy egy üzenetet hozzáadjunk ehhez a kivételhez. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
 | [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เสนอเมธอดที่ช่วยประมวลผลวัตถุ shapes.
+description: ให้เมธอดที่ช่วยประมวลผลวัตถุรูปร่าง.
 type: docs
-weight: 11510
+weight: 11530
 url: /th/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil คลาส
 
-เสนอเมธอดที่ช่วยประมวลผลวัตถุ shapes
+เสนอเมธอดที่ช่วยประมวลผลวัตถุรูปร่าง.
 
 ```csharp
 public static class ShapeUtil

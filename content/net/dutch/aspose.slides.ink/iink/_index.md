@@ -1,14 +1,14 @@
 ---
 title: IInk
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een inktobject op een dia.
+description: Stelt een inktobject op een dia voor.
 type: docs
-weight: 7510
+weight: 7530
 url: /nl/aspose.slides.ink/iink/
 ---
 ## IInk interface
 
-Representeert een inktobject op een dia.
+Stelt een inktobject op een dia voor.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Stelt het mogelijk de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Haalt alle sporen op die zich in het IInk-element [`IInkTrace`](../iinktrace) bevinden. Alleen-lezen. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Maakt het mogelijk de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Haalt alle sporen op die zich bevinden in het IInk-element [`IInkTrace`](../iinktrace). Alleen-lezen. |
 
 ### Zie ook
 

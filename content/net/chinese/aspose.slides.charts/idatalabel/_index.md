@@ -1,9 +1,9 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示系列标签。
 type: docs
-weight: 2020
+weight: 2040
 url: /zh/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel 接口
@@ -22,17 +22,18 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | 返回 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | 返回 IOverridableText 接口。只读 [`IOverridableText`](../ioverridabletext)。 |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | 返回数据标签的格式。只读 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False 表示数据标签不可见（因此所有 Show*-flags（如 ShowValue，...）均为 false）。只读 Boolean。 |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 获取或设置工作簿数据单元格。如果 IDataLabelFormat.ShowLabelValueFromCell 属性等于 true，则应用此设置。 |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False 表示数据标签不可见（因此所有 Show*-flags（ShowValue，...）为 false）。只读 Boolean。 |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | 获取或设置数据标签的形状类型。如果未定义形状，则返回 NotDefined。 |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 获取或设置工作簿数据单元格。如果 IDataLabelFormat.ShowLabelValueFromCell 属性为 true，则应用。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | 返回基于 DataLabelFormat 设置或 TextFrameForOverriding.Text 值的实际标签文本。 |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 通过将所有 Show*-flags（如 ShowValue，...）设为 false 状态，使数据标签隐藏。此后 IsVisible 将为 false。 |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 通过将所有 Show*-flags（ShowValue，...）设置为 false 状态使数据标签隐藏。此后 IsVisible 为 false。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IActualLayout](../iactuallayout)
 * 接口 [ILayoutable](../ilayoutable)

@@ -3,12 +3,12 @@ title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine vom Benutzer definierte Sammlung von FontFallBack-Regeln dar
 type: docs
-weight: 5860
+weight: 5880
 url: /de/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection Schnittstelle
 
-Stellt eine Sammlung von FontFallBack-Regeln dar, die vom Benutzer definiert wurden.
+Stellt eine vom Benutzer definierte Sammlung von FontFallBack-Regeln dar.
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -18,14 +18,14 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Ruft die Regel am angegebenen Index ab. Nur-Lesen [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Ruft die Regel am angegebenen Index ab. Nur Lesezugriff [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Fügt eine neue FallBack-Regel am Ende der Sammlung hinzu. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Entfernt das erste Auftreten einer bestimmten FallBack-Regel aus der Sammlung. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Fügt der Sammlung am Ende eine neue FallBack-Regel hinzu. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Entfernt das erste Vorkommen einer bestimmten FallBack-Regel aus der Sammlung. |
 
 ### Siehe auch
 

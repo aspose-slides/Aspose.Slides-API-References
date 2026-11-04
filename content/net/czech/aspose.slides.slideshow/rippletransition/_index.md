@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes pro .NET API referenci
-description: Efekt přechodu snímku Ripple.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Efekt přechodu snímku s vlnovým efektem.
 type: docs
-weight: 10290
+weight: 10310
 url: /cs/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition třída
 
-Efekt přechodu snímku Ripple.
+Efekt přechodu snímku s vlnovým efektem.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -25,7 +25,7 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná k použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Viz také
 

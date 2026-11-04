@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: GradientStopData nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 5040
+weight: 5060
 url: /tr/aspose.slides/gradientstopcollectioneffectivedata/
 ---
-## GradientStopCollectionEffectiveData sınıfı
+## GradientStopCollectionEffectiveData sınıf
 
-Represents a collection of GradientStopData objects.
+GradientStopData nesnelerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -16,19 +16,19 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Bir koleksiyondaki gradient duraklarının sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Erişimin koleksiyona senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | İndeks ile gradient durakını döndürür. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Bir koleksiyondaki gradyan duraklarının sayısını döndürür. Yalnızca okunabilir Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Yalnızca okunabilir Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | İndekse göre gradyan durağını döndürür. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Koleksiyonun içinde yineleme yapan bir enumeratör döndürür. |
 
 ### Ayrıca Bakınız
 

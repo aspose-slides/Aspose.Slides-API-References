@@ -3,7 +3,7 @@ title: IAxesManager
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona acceso a los ejes del gráfico.
 type: docs
-weight: 1700
+weight: 1710
 url: /es/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager interfaz

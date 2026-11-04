@@ -1,9 +1,9 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para referência de API .NET
 description: Objeto imutável que contém propriedades efetivas da câmera.
 type: docs
-weight: 5420
+weight: 5440
 url: /pt/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData interface
@@ -19,14 +19,14 @@ public interface ICameraEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Tipo da câmera. Somente leitura [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV da câmera (0-180 deg, field of View). Somente leitura Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom da câmera (valor positivo em porcentagem). Somente leitura Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Camera FOV (0-180 deg, campo de visão). Somente leitura Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Camera zoom (valor positivo em porcentagem). Somente leitura Single. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Uma rotação é definida usando uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo conforme as coordenadas de latitude e longitude. primeiro elemento no array retornado - latitude, segundo - longitude, terceiro - revolução. Retorna null se nenhuma rotação estiver definida. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Uma rotação é definida por meio do uso de uma coordenada de latitude, uma coordenada de longitude e uma revolução ao redor do eixo como as coordenadas de latitude e longitude. primeiro elemento no array de retorno - latitude, segundo - longitude, terceiro - revolução. Retorna null se nenhuma rotação estiver definida. |
 
 ### Observações
 

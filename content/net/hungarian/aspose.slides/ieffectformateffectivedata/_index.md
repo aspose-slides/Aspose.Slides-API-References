@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes .NET API referenciája
-description: Nem módosítható objektum, amely a hatásformázás hatékony formázási tulajdonságait tartalmaz.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely a hatásformázás tényleges tulajdonságait tartalmazza.
 type: docs
-weight: 5750
+weight: 5770
 url: /hu/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData interfész
 
-Nem módosítható objektum, amely a hatásformázás hatékony tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely a hatásformázás tényleges tulajdonságait tartalmazza.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,12 +18,12 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Lehetővé teszi a base IEffectParamSource interfész lekérését. Csak olvasható [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Elmosás hatás. Csak olvasható [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Kitöltés átfedés hatás. Csak olvasható [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Ragyogás hatás. Csak olvasható [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Lehetővé teszi a bázis IEffectParamSource interfész lekérdezését. Csak olvasható [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Elmosódás effektus. Csak olvasható [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Kitöltés átfedés effektus. Csak olvasható [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Fénylő effektus. Csak olvasható [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Belső árnyék. Csak olvasható [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Igaz értéket ad vissza, ha az összes hatás ki van kapcsolva (úgy, ahogy a frissen létrehozott, alapértelmezett EffectFormat objektumnál). Csak olvasható Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Igaz értéket ad vissza, ha minden effektus le van tiltva (újonnan létrehozott, alapértelmezett EffectFormat objektum). Csak olvasható Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Külső árnyék. Csak olvasható [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Előre beállított árnyék. Csak olvasható [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Tükröződés. Csak olvasható [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
@@ -31,7 +31,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ### Megjegyzés
 
-Ez az interfész a [`IEffectFormat`](../ieffectformat) interfészsel együtt használható a hatékony formázási értékek visszaadásához, öröklődéssel alkalmazva.
+Ez az interfész a [`IEffectFormat`](../ieffectformat) interfésszel együtt használható a tényleges formázási értékek visszaadására öröklődés alkalmazásával.
 
 ### Lásd még
 

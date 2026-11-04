@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Summation 및 Integral과 같은 N-ary 수학 객체를 지정합니다. 연산자와 기본(또는 피연산자) 및 선택적 상한과 하한으로 구성됩니다. N-ary 연산자의 예로는 Summation, Union, Intersection, Integral이 있습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Summation 및 Integral과 같은 N-ary 수학 객체를 지정합니다. 연산자, 기준(또는 피연산자) 및 선택적 상한 및 하한으로 구성됩니다. N-ary 연산자의 예로는 Summation, Union, Intersection, Integral이 있습니다.
 type: docs
-weight: 8360
+weight: 8380
 url: /ko/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator 인터페이스
 
-N-ary 수학 객체를 지정합니다(예: Summation 및 Integral). 연산자, 기본(또는 피연산자) 및 선택적 상한과 하한으로 구성됩니다. N-ary 연산자의 예로는 Summation, Union, Intersection, Integral이 있습니다.
+Specifies an N-ary mathematical object, such as Summation and Integral. It consists of an operator, a base (or operand), and optional upper and lower limits. Examples of N-ary operators are: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -21,19 +21,19 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 | [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
 | [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | 기본 IMathNaryOperatorProperties 인터페이스를 가져올 수 있습니다 [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | 기본 인수 |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 예를 들어 적분의 경우 하한을 지정하는 아래첨자 인수를 지정합니다 |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 예를 들어 적분의 경우 상한을 지정하는 위첨자 인수를 지정합니다 |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 예를 들어 적분인 경우 하한을 설정하는 아래첨자 인수를 지정합니다 |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 예를 들어 적분인 경우 상한을 설정하는 위첨자 인수를 지정합니다 |
 
 ### 예제
 
-예제:
+예시:
 
 ```csharp
 [C#]
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathElement](../imathelement)
 * 인터페이스 [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

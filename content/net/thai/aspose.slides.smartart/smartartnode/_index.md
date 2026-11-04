@@ -1,14 +1,14 @@
 ---
 title: SmartArtNode
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงโหนดของวัตถุ SmartArt
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงโหนดของอ็อบเจกต์ SmartArt
 type: docs
-weight: 10630
+weight: 10650
 url: /th/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode คลาส
 
-แสดงถึงโหนดของวัตถุ SmartArt
+แสดงถึงโหนดของอ็อบเจกต์ SmartArt
 
 ```csharp
 public sealed class SmartArtNode : ISmartArtNode
@@ -16,21 +16,21 @@ public sealed class SmartArtNode : ISmartArtNode
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | ส่งคืนอ็อบเจ็กต์ FillFormat ที่มีคุณสมบัติการฟอร์แมตการเติมสำหรับสัญลักษณ์แสดงรายการของโหนด. หมายเหตุ: สามารถคืนค่า null สำหรับบางประเภทของการจัดวาง SmartArt ที่ไม่ได้ให้สัญลักษณ์แสดงรายการสำหรับโหนด. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | ส่งคืนอ็อบเจกต์ FillFormat ที่มีคุณสมบัติการจัดรูปแบบการเติมสีสำหรับจุดสัญลักษณ์ของโหนด Note: สามารถส่งคืนค่า null สำหรับประเภทของเค้าโครง SmartArt บางประเภทที่ไม่ให้จุดสัญลักษณ์สำหรับโหนด. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | ส่งคืนคอลเลกชันของโหนดลูกทั้งหมดของโหนดปัจจุบัน. อ่านอย่างเดียว [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | ส่งคืนหรือกำหนดโหนดเป็นผู้ช่วย. อ่าน/เขียน Boolean. |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | ส่งคืนหรือกำหนดค่าโหนดเป็นผู้ช่วย. อ่าน/เขียน Boolean. |
 | [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | ส่งคืนค่า true หากโหนดนี้เป็นโหนดที่ซ่อนอยู่ในโมเดลข้อมูล. อ่านอย่างเดียว Boolean. |
 | [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | ส่งคืนระดับการซ้อนของโหนด. อ่านอย่างเดียว Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | ส่งคืนหรือกำหนดประเภทการจัดวางแผนผังองค์กรที่เชื่อมโยงกับโหนดปัจจุบัน. อ่าน/เขียน [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | ส่งคืนหรือกำหนดประเภทเค้าโครงแผนภูมิโครงสร้างองค์กรที่สัมพันธ์กับโหนดปัจจุบัน. อ่าน/เขียน [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
 | [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | ส่งคืนหรือกำหนดตำแหน่งเริ่มจากศูนย์ของโหนดในบรรดาโหนดพี่น้อง. อ่าน/เขียน Int32. |
 | [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | ส่งคืนคอลเลกชันของรูปร่างทั้งหมดที่เชื่อมโยงกับโหนด. อ่านอย่างเดียว [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | ส่งคืนเฟรมข้อความของโหนด. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | ส่งคืนกรอบข้อความของโหนด. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
 
-## วิธีการ
+## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/smartartnode/remove)() | ลบโหนดปัจจุบัน. |
 

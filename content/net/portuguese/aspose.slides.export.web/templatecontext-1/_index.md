@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa uma interface de objeto de modelo para um mecanismo de modelo.
+second_title: Aspose.Sildes para a referência da API .NET
+description: Representa uma interface de objeto de modelo para um motor de modelos.
 type: docs
-weight: 4670
+weight: 4690
 url: /pt/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> classe
 
-Representa uma interface de objeto de modelo para um mecanismo de modelo.
+Represents a model object interface for a template engine.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -20,7 +20,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Retorna o armazenamento global do documento host. Somente leitura [`Storage`](../storage). |
 | [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Retorna o armazenamento local do contexto de modelo atual. Somente leitura [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Retorna o objeto de modelo. Somente leitura !:TObject. |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Retorna o objeto modelo. Somente leitura !:TObject. |
 | [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Retorna a coleção de elementos de saída do documento host. Somente leitura [`Output`](./output). |
 
 ## Métodos

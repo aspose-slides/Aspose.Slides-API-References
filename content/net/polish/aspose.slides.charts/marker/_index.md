@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje znacznik wykresu.
 type: docs
-weight: 2330
+weight: 2350
 url: /pl/aspose.slides.charts/marker/
 ---
 ## Klasa Marker
 
-Reprezentuje znacznik cherty.
+Reprezentuje znacznik wykresu.
 
 ```csharp
 public class Marker : IMarker

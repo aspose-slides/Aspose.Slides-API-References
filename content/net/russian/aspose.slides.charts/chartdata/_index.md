@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes для .NET справочная документация API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет данные, используемые для построения диаграммы.
 type: docs
-weight: 1310
+weight: 1320
 url: /ru/aspose.slides.charts/chartdata/
 ---
 ## ChartData класс
 
-Represents data used for a chart plotting.
+Представляет данные, используемые для построения диаграммы.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -16,29 +16,30 @@ public class ChartData : DomObject<Chart>, IChartData
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Получает основные категории (или как основные, так и вторичные категории, если свойство [`UseSecondaryCategories`](./usesecondarycategories) равно false). Только для чтения [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Получает фабрику ячеек для создания ячеек, используемых в сериях диаграммы или категориях. Только для чтения [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Представляет путь к внешней рабочей книге, если внешний источник данных, иначе null |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Получает тип встроенной рабочей книги. Возвращает NotDefined, если [`DataSourceType`](./datasourcetype) является ExternalWorkbook. Только для чтения [`WorkbookType`](../workbooktype). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Возвращает основные категории (или как основные, так и вторичные категории, если свойство [`UseSecondaryCategories`](./usesecondarycategories) равно false). Только для чтения [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Возвращает фабрику ячеек для создания ячеек, используемых в серии диаграммы или категориях. Только для чтения [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Представляет путь к внешней рабочей книге, если источник данных внешний, иначе null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Возвращает тип встроенной рабочей книги. Возвращает NotDefined, если [`DataSourceType`](./datasourcetype) равно ExternalWorkbook. Только для чтения [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Представляет источник данных диаграммы |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Получает вторичные категории, если свойство [`UseSecondaryCategories`](./usesecondarycategories) равно true. Только для чтения [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Получает серии. Только для чтения [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Получает группы серий. Только для чтения [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Возвращает вторичные категории, если свойство [`UseSecondaryCategories`](./usesecondarycategories) равно true. Только для чтения [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Возвращает серии. Только для чтения [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Возвращает группы серий. Только для чтения [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
 | [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Если false, то свойство [`SecondaryCategories`](./secondarycategories) возвращает null, а данные в свойстве [`Categories`](./categories) используются как для основных, так и для вторичных серий. Если true, то данные в свойстве [`SecondaryCategories`](./secondarycategories) используются для вторичных серий, а данные в свойстве [`Categories`](./categories) — для основных серий. Чтение/запись Boolean. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Получает диапазон данных диаграммы. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Записывает встроенную Excel-рабочую книгу в поток в памяти. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Устанавливает внешнюю рабочую книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой рабочей книги. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Устанавливает внешнюю рабочую книгу в качестве источника данных для диаграммы. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Устанавливает диапазон данных диаграммы. Серии и категории будут обновлены в соответствии с новым диапазоном данных. Если количество серий в диапазоне данных больше количества серий в данных диаграммы, то дополнительные серии того же типа, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Меняет данные местами по осям. Данные, отображаемые по оси X, переместятся на ось Y и наоборот. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Инициализирует встроенную Excel-рабочую книгу пользовательским значением. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Возвращает диапазон данных диаграммы. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Записывает внутреннюю Excel-рабочую книгу в поток в памяти. |
+| [RefreshData](../../aspose.slides.charts/chartdata/refreshdata)() | Обновляет данные диаграммы, перезагружая их из исходной рабочей книги. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Устанавливает внешнюю рабочую книгу как источник данных для диаграммы. Данные диаграммы будут обновлены из целевой рабочей книги. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Устанавливает внешнюю рабочую книгу как источник данных для диаграммы. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Устанавливает диапазон данных диаграммы. Серии и категории будут обновлены в соответствии с новым диапазоном данных. Если количество серий в диапазоне данных превышает количество серий в данных диаграммы, то дополнительные серии того же типа, что и последняя серия в текущей коллекции, будут добавлены в конец коллекции. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Меняет местами данные по осям. Данные, построенные по оси X, будут перемещены на ось Y и наоборот. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Инициализирует внутреннюю Excel-рабочую книгу пользовательским значением. |
 
 ### См. также
 

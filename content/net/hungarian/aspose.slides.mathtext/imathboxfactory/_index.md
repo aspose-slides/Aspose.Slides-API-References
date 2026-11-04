@@ -1,9 +1,9 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API Referencia
 description: Lehetővé teszi egy matematikai doboz létrehozását
 type: docs
-weight: 8200
+weight: 8220
 url: /hu/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory interfész
@@ -14,17 +14,17 @@ Lehetővé teszi egy matematikai doboz létrehozását
 public interface IMathBoxFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Create a math box by applying to the element |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Matematikai doboz létrehozása az elemre alkalmazva |
 
 ### Megjegyzés
 
-COM-kompatibilitáshoz
+COM kompatibilitáshoz
 
-### Továbbiak
+### Lásd még
 
 * névtér [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * összeállítás [Aspose.Slides](../../)

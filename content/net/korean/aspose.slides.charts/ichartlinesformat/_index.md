@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 그리드라인 형식 속성을 나타냅니다.
+description: 그리드 라인 형식 속성을 나타냅니다.
 type: docs
-weight: 1890
+weight: 1910
 url: /ko/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat 인터페이스
 
-그리드라인 형식 속성을 나타냅니다.
+그리드 라인 형식 속성을 나타냅니다.
 
 ```csharp
 public interface IChartLinesFormat

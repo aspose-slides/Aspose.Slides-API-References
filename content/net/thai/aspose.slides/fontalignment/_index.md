@@ -1,12 +1,12 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงการจัดแนวฟอนต์ในแนวตั้ง.
 type: docs
-weight: 4800
+weight: 4820
 url: /th/aspose.slides/fontalignment/
 ---
-## การนับ FontAlignment
+## FontAlignment การนับค่า
 
 แสดงการจัดแนวฟอนต์ในแนวตั้ง.
 

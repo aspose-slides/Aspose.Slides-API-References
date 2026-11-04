@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le proprietà di formattazione. Lettura/scrittura IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /it/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format proprietà

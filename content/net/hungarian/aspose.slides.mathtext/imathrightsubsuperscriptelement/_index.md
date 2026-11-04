@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes .NET API Referencia
-description: Megadja a Sub-Superscript objektumot, amely egy alapból, egy alsó indexből és egy felső indexből áll, és ezek az alap jobb oldalára kerülnek.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza a Sub-Superscript objektumot, amely egy bázisból, valamint a bázis jobb oldalára helyezett alsó és felső indexből áll.
 type: docs
-weight: 8450
+weight: 8470
 url: /hu/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interfész
 
-Megadja a Sub-Superscript objektumot, amely egy alapot, egy alsó indexet és egy felső indexet tartalmaz, és ezek az alap jobb oldalára kerülnek.
+Meghatározza az al-felső index objektumot, amely egy bázisból és a bázis jobb oldalára helyezett alsó és felső indexből áll.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Megadja az alsó index/felső index igazítását. Ha true, az alsó index és a felső index vízszintesen egymáshoz igazítva vannak. Ha false, az alap alakjához illesztve vannak. Az alapértelmezett érték false. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Lehetővé teszi a base IMathElement interfész lekérését [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Meghatározza az alsó index/felső index igazítását. Ha igaz, az alsó és felső index vízszintesen egymáshoz igazodik. Ha hamis, a bázis alakjához kerülnek igazítva. Alapértelmezett érték a hamis. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Engedélyezi a bázis IMathElement interfész [`IMathElement`](../imathelement) lekérdezését. |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Alap argumentum |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Alsó index argumentum |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Felső index argumentum |

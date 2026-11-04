@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 지정된 폰트 스타일 및 폰트 데이터에 대한 폰트 데이터를 나타내는 바이트 배열을 검색합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 지정된 글꼴 스타일 및 글꼴 데이터에 대한 글꼴 데이터를 나타내는 바이트 배열을 검색합니다.
 type: docs
-weight: 50
+weight: 60
 url: /ko/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes 메서드
 
-지정된 폰트 스타일 및 폰트 데이터에 대한 폰트 데이터를 나타내는 바이트 배열을 검색합니다.
+지정된 글꼴 스타일 및 글꼴 데이터에 대한 글꼴 데이터를 나타내는 바이트 배열을 검색합니다.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| fontData | IFontData | 폰트에 대한 정보를 포함하는 폰트 데이터 객체 [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyleType | 데이터를 검색할 폰트 스타일 [`FontStyleType`](../../fontstyletype). |
+| fontData | IFontData | 글꼴에 대한 정보를 포함하는 글꼴 데이터 개체 [`IFontData`](../../ifontdata). |
+| fontStyle | FontStyleType | 데이터를 검색할 글꼴의 스타일 [`FontStyleType`](../../fontstyletype). |
 
 ### 반환 값
 
-지정된 폰트 스타일에 대한 폰트 데이터를 포함하는 바이트 배열입니다. 폰트 데이터나 스타일을 찾을 수 없으면 null을 반환합니다.
+지정된 글꼴 스타일에 대한 글꼴 데이터를 포함하는 바이트 배열입니다. 글꼴 데이터나 스타일을 찾을 수 없으면 null을 반환합니다.
 
 ### 예제
 
@@ -29,7 +29,7 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // 프레젠테이션에 사용된 모든 글꼴을 가져옵니다
+    // 프레젠테이션에서 사용된 모든 글꼴을 검색합니다
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
     // 프레젠테이션에서 첫 번째 글꼴의 일반 스타일을 나타내는 바이트 배열을 가져옵니다
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 }
 ```
 
-### 참조
+### 또 보기
 
 * 인터페이스 [IFontData](../../ifontdata)
 * 열거형 [FontStyleType](../../fontstyletype)

@@ -1,23 +1,23 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Обратный вызов, который будет вызываться для каждого Paragraph./foreach/paragraph на BaseSlide../aspose.slides/baseslide.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Обратный вызов, который будет вызван для каждого Paragraph./foreach/paragraph на BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /ru/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
-## ForEach.ForEachParagraphCallback делегат
+## ForEach.ForEachParagraphCallback delegate
 
-Обратный вызов, который будет вызываться для каждого [`Paragraph`](../foreach/paragraph) на [`BaseSlide`](../../aspose.slides/baseslide).
+Обратный вызов, который будет вызван для каждого [`Paragraph`](../foreach/paragraph) на [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
 
-| Параметр | Тип | Описание |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| para | Paragraph | Текущий перебираемый абзац |
-| slide | BaseSlide | Текущий перебираемый слайд |
+| para | Paragraph | Текущий обрабатываемый абзац |
+| slide | BaseSlide | Текущий обрабатываемый слайд |
 | index | Int32 | Индекс текущего абзаца на слайде |
 
 ### См. также

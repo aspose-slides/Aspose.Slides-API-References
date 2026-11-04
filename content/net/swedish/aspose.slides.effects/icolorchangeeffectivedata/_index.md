@@ -3,7 +3,7 @@ title: IColorChangeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en färgändringseffekt. Instanser av FromColor ersätts med instanser av ToColor.
 type: docs
-weight: 3230
+weight: 3250
 url: /sv/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData gränssnitt
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta grundläggande IEffectEffectiveData gränssnitt. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Färg som kommer att ersättas. Skrivskyddad Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Färg som kommer att ersätta. Skrivskyddad Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returnerar ett booleskt värde som bestämmer om alphakomponenten ska användas. Skrivskyddad Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Color som kommer att ersättas. Skrivskyddad Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Color som kommer att ersätta. Skrivskyddad Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returnerar ett boolean-värde som avgör om alfa-komponenten ska användas. Skrivskyddad Boolean. |
 
 ### Se även
 

@@ -1,9 +1,9 @@
 ---
 title: ITab
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक टेक्स्ट के लिए टैबुलेशन का प्रतिनिधित्व करता है।
 type: docs
-weight: 7190
+weight: 7210
 url: /hi/aspose.slides/itab/
 ---
 ## ITab इंटरफ़ेस
@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | नाम | विवरण |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | टैब की संरेखण शैली को लौटाता या सेट करता है। पढ़ें/लिखें [`TabAlignment`](../tabalignment)। |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य IComparable। |
-| [Position](../../aspose.slides/itab/position) { get; set; } | टैब की स्थिति को लौटाता या सेट करता है। इस गुण को सेट करने से संग्रह में टैब का अनुक्रमांक बदल सकता है और Enumerator अवैध हो सकता है। पढ़ें/लिखें Double। |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | टैब की संरेखण शैली को लौटाता है या सेट करता है। पढ़ें/लिखें [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | टैब की स्थिति को लौटाता है या सेट करता है। इस गुण को निर्धारित करने से टैब का सूचकांक संग्रह में बदल सकता है और Enumerator को अमान्य कर सकता है। पढ़ें/लिखें Double. |
 
 ### संबंधित देखें
 

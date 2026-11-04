@@ -3,7 +3,7 @@ title: ISpreadsheetOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa opciones que pueden usarse para especificar un comportamiento adicional de las hojas de cálculo.
 type: docs
-weight: 7120
+weight: 7140
 url: /es/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interfaz
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Obtiene o establece la información de cultura preferida para calcular algunas funciones destinadas al uso con idiomas que utilizan el conjunto de caracteres de doble byte (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Si la fuente de datos del gráfico es un libro de trabajo externo y no está disponible, se recuperará del caché del gráfico. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Obtiene o establece la información de cultura preferida para calcular algunas funciones destinadas a usarse con idiomas que utilizan el conjunto de caracteres de doble byte (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Si la fuente de datos para el gráfico es un libro de trabajo externo y no está disponible, se recuperará del caché del gráfico. |
 
 ### Ver también
 

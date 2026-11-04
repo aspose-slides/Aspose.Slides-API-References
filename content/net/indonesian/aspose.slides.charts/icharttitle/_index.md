@@ -1,9 +1,9 @@
 ---
 title: IChartTitle
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili properti judul diagram.
 type: docs
-weight: 2000
+weight: 2020
 url: /id/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle antarmuka
@@ -16,11 +16,11 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ILayoutable. Hanya-baca [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IOverridableText. Hanya-baca [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Mengembalikan gaya isi, garis, efek dari judul. Hanya-baca [`IFormat`](../iformat). |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Mengizinkan untuk mendapatkan antarmuka ILayoutable dasar. Baca-saja [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Mengizinkan untuk mendapatkan antarmuka IOverridableText dasar. Baca-saja [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Mengembalikan gaya isi, garis, efek judul. Baca-saja [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Menentukan apakah elemen diagram lain diizinkan menindih judul. Baca/tulis Boolean. |
 
 ### Lihat Juga

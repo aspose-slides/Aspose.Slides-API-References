@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i SWF-format.
 type: docs
-weight: 4150
+weight: 4170
 url: /sv/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions gränssnitt
@@ -20,26 +20,26 @@ public interface ISwfOptions : ISaveOptions
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Returnerar ISaveOptions gränssnitt. Skrivskyddad [`ISaveOptions`](../isaveoptions). |
 | [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Anger om det genererade SWF-dokumentet ska komprimeras eller inte. Standard är `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Aktivera/inaktivera kontextmenyn. Standard är true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Anger kvaliteten för JPEG-bilder. Standard är 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Bild som visas som logotyp i övre högra hörnet av visaren. Bilden bör vara 32 × 64 pixlar PNG, annars kan logotypen visas felaktigt. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Aktivera/inaktivera snabbmenyn. Standard är true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Anger kvaliteten på JPEG-bilder. Standard är 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Bild som kommer att visas som logotyp i det övre högra hörnet av visaren. Bilden bör vara en 32x64 pixel PNG-bild, annars kan logotypen visas felaktigt. |
 | [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Hämtar eller anger den fullständiga hyperlänkadressen för en logotyp. Har bara effekt om en [`LogoImageBytes`](./logoimagebytes) har angetts. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Visa/dölj bottenpanel. Kan åsidosättas i flashvars. Standard är true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Visa/dölj helskärmsknapp. Kan åsidosättas i flashvars. Standard är true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Visa/dölj vänsterpanel. Kan åsidosättas i flashvars. Standard är true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Anger om ram runt sidor ska visas. Standard är true. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Visa/dölj nedre panel. Kan åsidosättas i flashvars. Standard är true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Visa/dölj fullskärmsknapp. Kan åsidosättas i flashvars. Standard är true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska innehålla dolda bilder eller inte. Standard är `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Visa/dölj vänster panel. Kan åsidosättas i flashvars. Standard är true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Anger om kantlinje runt sidor ska visas. Standard är true. |
 | [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Visa/dölj sidstegare. Kan åsidosättas i flashvars. Standard är true. |
 | [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Visa/dölj söksektion. Kan åsidosättas i flashvars. Standard är true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Visa/dölj hela toppanelen. Kan åsidosättas i flashvars. Standard är true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget som bilder placeras på sidan när en presentation exporteras [`ISlidesLayoutOptions`](../islideslayoutoptions). Denna egenskap stöder inte tilldelning av objekt av typen `Aspose.Slides.Export.HandoutLayoutingOptions`. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Starta med öppnad vänsterpanel. Kan åsidosättas i flashvars. Standard är false. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Visa/dölj hela övre panelen. Kan åsidosättas i flashvars. Standard är true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget som bilder placeras på sidan i när en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions) exporteras. Denna egenskap stödjer inte tilldelning av objekt av typen `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Starta med öppnad vänster panel. Kan åsidosättas i flashvars. Standard är false. |
 | [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Anger om det genererade SWF-dokumentet ska inkludera den integrerade dokumentvisaren eller inte. Standard är `true`. |
 
 ### Se även
 
 * gränssnitt [ISaveOptions](../isaveoptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

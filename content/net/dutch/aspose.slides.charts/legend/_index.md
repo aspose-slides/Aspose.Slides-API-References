@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de legende-eigenschappen van grafieken voor.
+description: Vertegenwoordigt de eigenschappen van de legenda van grafieken.
 type: docs
-weight: 2280
+weight: 2300
 url: /nl/aspose.slides.charts/legend/
 ---
 ## Legend klasse
 
-Stelt de legende-eigenschappen van een grafiek voor.
+Stelt de legend-eigenschappen van het chart voor.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -16,24 +16,24 @@ public class Legend : DomObject<Chart>, ILegend
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Specificeert de werkelijke hoogte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan voordat de werkelijke waarden worden opgehaald. Lezen Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Specificeert de werkelijke breedte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan voordat de werkelijke waarden worden opgehaald. Lezen Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() aan voordat de werkelijke waarden worden opgehaald. Lezen Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Specificeert de werkelijke bovenkant van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() aan voordat de werkelijke waarden worden opgehaald. Lezen Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Specificeert de werkelijke hoogte van het chart-element. Roep methode IChart.ValidateChartLayout() aan vóór om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Specificeert de werkelijke breedte van het chart-element. Roep methode IChart.ValidateChartLayout() aan vóór om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het chart-element ten opzichte van de linkerbovenhoek van het chart. Roep methode IChart.ValidateChartLayout() aan vóór om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Specificeert de werkelijke bovenkant van het chart-element ten opzichte van de linkerbovenhoek van het chart. Roep methode IChart.ValidateChartLayout() aan vóór om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Onderkant. Alleen-lezen Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Retourneert de grafiek. Alleen-lezen [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Haalt legende-items op. Alleen-lezen [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Retourneert het formaat van een legenda. Alleen-lezen [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Retourneert of stelt de hoogte van een legenda in als een fractie van de hoogte van de grafiek. Lezen/Schrijven Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Bepaalt of andere grafiekelementen de legenda mogen overlappen. Lezen/Schrijven Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Specificeert de positie van de legenda op een grafiek. Niet-NaN-waarden van X, Y, Width, Heigt-eigenschappen hebben voorrang op deze eigenschap. Lezen/Schrijven [`LegendPositionType`](../legendpositiontype). |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Retourneert het chart. Alleen-lezen [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Haalt legend-items op. Alleen-lezen [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Retourneert het formaat van een legend. Alleen-lezen [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Retourneert of stelt de hoogte van een legend in als een fractie van de hoogte van het chart. Lezen/Schrijven Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Bepaalt of andere chart-elementen de legend mogen overlappen. Lezen/Schrijven Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Specificeert de positie van de legend op een chart. Niet-NaN-waarden van de eigenschappen X, Y, Width, Heigt hebben voorrang op deze eigenschap. Lezen/Schrijven [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Rechts. Alleen-lezen Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Tekstopmaak. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Retourneert of stelt de breedte van een legenda in als een fractie van de breedte van de grafiek. Lezen/Schrijven Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Retourneert of stelt de x-coördinaat van een legenda in als een fractie van de breedte van de grafiek. Lezen/Schrijven Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Retourneert of stelt de y-coördinaat van een legenda in als een fractie van de hoogte van de grafiek. Lezen/Schrijven Single. |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Retourneert of stelt de breedte van een legend in als een fractie van de breedte van het chart. Lezen/Schrijven Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Retourneert of stelt de x-coördinaat van een legend in als een fractie van de breedte van het chart. Lezen/Schrijven Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Retourneert of stelt de y-coördinaat van een legend in als een fractie van de hoogte van het chart. Lezen/Schrijven Single. |
 
 ### Zie ook
 
@@ -41,6 +41,6 @@ public class Legend : DomObject<Chart>, ILegend
 * klasse [Chart](../chart)
 * interface [ILegend](../ilegend)
 * naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

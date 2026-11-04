@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет правило замены шрифтов
 type: docs
-weight: 4880
+weight: 4900
 url: /ru/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition перечисление
 
-Представляет правило для замены шрифтов
+Представляет правило замены шрифтов
 
 ```csharp
 public enum FontSubstCondition
@@ -18,7 +18,7 @@ public enum FontSubstCondition
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Заменить, если шрифт не найден |
+| WhenInaccessible | `0` | Замена, когда шрифт не найден |
 | Always | `1` | Всегда заменять |
 
 ### См. также

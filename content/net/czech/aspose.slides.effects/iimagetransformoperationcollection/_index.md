@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Representuje kolekci efektů aplikovaných na obrázek.
 type: docs
-weight: 3400
+weight: 3420
 url: /cs/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection rozhraní
 
-Represents a collection of effects apllied to an image.
+Representuje kolekci efektů aplikovaných na obrázek.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -16,34 +16,34 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Pouze pro čtení IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Vrací [`IImageTransformOperation`](../iimagetransformoperation) ze sbírky podle jeho indexu. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Vrací [`IImageTransformOperation`](../iimagetransformoperation) z kolekce podle jejího indexu. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Přidá nový efekt Alpha Bi-Level na konec sbírky. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Přidá nový efekt Alpha Ceiling na konec sbírky. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Přidá nový efekt Alpha Floor na konec sbírky. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Přidá nový efekt Alpha Inverse na konec sbírky. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Přidá nový efekt Alpha Modulate na konec sbírky. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Přidá nový efekt Alpha Modulate Fixed na konec sbírky. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Přidá nový efekt Alpha Replace na konec sbírky. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Přidá nový efekt Bi-Level (black/white) na konec sbírky. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Přidá nový efekt Blur na konec sbírky. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Přidá nový efekt BrightnessContrast na konec sbírky. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Přidá nový efekt Color Change na konec sbírky. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Přidá nový efekt Color Replacement na konec sbírky. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Přidá nový efekt Duotone na konec sbírky. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Přidá nový efekt Fill Overlay na konec sbírky. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Přidá nový efekt Gray Scale na konec sbírky. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Přidá nový efekt Hue/Saturation/Luminance na konec sbírky. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Přidá nový efekt Luminance na konec sbírky. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Přidá nový efekt Tint na konec sbírky. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Odstraní efekt obrázku ze sbírky na zadaném indexu. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Přidá nový efekt Alpha Bi-Level na konec kolekce. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Přidá nový efekt Alpha Ceiling na konec kolekce. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Přidá nový efekt Alpha Floor na konec kolekce. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Přidá nový efekt Alpha Inverse na konec kolekce. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Přidá nový efekt Alpha Modulate na konec kolekce. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Přidá nový efekt Alpha Modulate Fixed na konec kolekce. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Přidá nový efekt Alpha Replace na konec kolekce. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Přidá nový efekt Bi-Level (black/white) na konec kolekce. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Přidá nový efekt Blur na konec kolekce. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Přidá nový efekt BrightnessContrast na konec kolekce. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Přidá nový efekt Color Change na konec kolekce. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Přidá nový efekt Color Replacement na konec kolekce. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Přidá nový efekt Duotone na konec kolekce. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Přidá nový efekt Fill Overlay na konec kolekce. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Přidá nový efekt Gray Scale na konec kolekce. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Přidá nový efekt Hue/Saturation/Luminance na konec kolekce. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Přidá nový efekt Luminance na konec kolekce. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Přidá nový efekt Tint na konec kolekce. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Odstraní efekt obrázku z kolekce na zadaném indexu. |
 
 ### Viz také
 

@@ -1,20 +1,20 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: EOT फ़ॉर्मेट में फ़ॉन्ट एम्बेड करने के लिए उपयोग किया जाने वाला फ़ॉर्मेटिंग कंट्रोलर क्लास
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: फ़ॉन्ट को EOT प्रारूप में एम्बेड करने के लिए उपयोग किया जाने वाला फॉर्मेटिंग कंट्रोलर क्लास
 type: docs
-weight: 3780
+weight: 3800
 url: /hi/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController क्लास
 
-EOT फ़ॉर्मेट में फ़ॉन्ट एम्बेड करने के लिए उपयोग किया जाने वाला फ़ॉर्मेटिंग कंट्रोलर क्लास
+फ़ॉन्ट को EOT प्रारूप में एम्बेड करने के लिए उपयोग किया जाने वाला फॉर्मेटिंग कंट्रोलर क्लास
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 ```
 
-## निर्माता
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |

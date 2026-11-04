@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Aspose.Sildes for .NET API referenciája
-description: Képviseli a további színsémák gyűjteményét.
+second_title: Aspose.Slides .NET API referencia
+description: További színsémák gyűjteményét képviseli.
 type: docs
-weight: 11220
+weight: 11240
 url: /hu/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection interfész
 
-Egy további színsémák gyűjteményét képviseli.
+Egy további színsémák gyűjteményét képvisel.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Visszaad egy színsémát index alapján. Csak olvasható [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Visszaad egy színsémát index szerint. Csak olvasható [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Lásd még
 

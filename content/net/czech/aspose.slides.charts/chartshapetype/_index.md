@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje tvar grafu.
+description: Představuje tvar grafu.
 type: docs
-weight: 1470
+weight: 1480
 url: /cs/aspose.slides.charts/chartshapetype/
 ---
-## Výčet ChartShapeType
+## ChartShapeType enumerace
 
-Reprezentuje tvar grafu.
+Představuje tvar grafu.
 
 ```csharp
 public enum ChartShapeType
@@ -19,12 +19,12 @@ public enum ChartShapeType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | NotDefined | `-1` | Tvar grafu není definován. |
-| Box | `0` | Určuje, že graf bude vykreslen ve tvaru krabice. |
-| Cone | `1` | Určuje, že graf bude vykreslen jako kužel, přičemž základna kužele leží na podlaze a špička kužele je v horní části značky dat. |
-| ConeToMax | `2` | Určuje, že graf bude vykreslen s oříznutými kužely tak, že špička kužele bude představovat maximální hodnotu dat. |
+| Box | `0` | Určuje, že graf bude vykreslen v podobě obdélníkového tvaru. |
+| Cone | `1` | Určuje, že graf bude vykreslen jako kužel, přičemž podstavec kužele leží na podlaze a špička kužele je na vrcholu datového markeru. |
+| ConeToMax | `2` | Určuje, že graf bude vykreslen se zkrácenými kužely tak, že špička kužele odpovídá maximální datové hodnotě. |
 | Cylinder | `3` | Určuje, že graf bude vykreslen jako válec. |
-| Pyramid | `4` | Určuje, že graf bude vykreslen jako pravoúhlá pyramida, přičemž základna pyramidy leží na podlaze a špička pyramidy je v horní části značky dat. |
-| PyramidToMaximum | `5` | Určuje, že graf bude vykreslen s oříznutými kužely tak, že špička kužele bude představovat maximální hodnotu dat. |
+| Pyramid | `4` | Určuje, že graf bude vykreslen jako obdélníková pyramida, přičemž podstava pyramidy leží na podlaze a špička pyramidy je na vrcholu datového markeru. |
+| PyramidToMaximum | `5` | Určuje, že graf bude vykreslen se zkrácenými kužely tak, že špička kužele odpovídá maximální datové hodnotě. |
 
 ### Viz také
 

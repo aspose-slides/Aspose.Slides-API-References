@@ -1,27 +1,27 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ハイパーリンクの色のソースを表します。
 type: docs
-weight: 5140
+weight: 5160
 url: /ja/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource 列挙
+## HyperlinkColorSource 列挙体
 
-ハイパーリンク色のソースを表します。
+ハイパーリンクの色のソースを表します。
 
 ```csharp
 public enum HyperlinkColorSource
 ```
 
-### 列挙値
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Styles | `0` | Styles. |
-| PortionFormat | `1` | Portion format. |
+| Styles | `0` | スタイル。 |
+| PortionFormat | `1` | 部分形式。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

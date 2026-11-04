@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente la longueur d'une pointe de flèche.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente la longueur d'une tête de flèche.
 type: docs
-weight: 7730
+weight: 7750
 url: /fr/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength énumération
 
-Représente la longueur d'une pointe de flèche.
+Représente la longueur d'une tête de flèche.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

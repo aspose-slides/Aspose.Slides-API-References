@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica un marcatore dati. Di sola lettura IMarkeraspose.slides.charts/imarker.
+description: Specifica un marcatore di dati. Solo lettura IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /it/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker proprietà
 
-Specifica un marcatore dati. Di sola lettura [`IMarker`](../../imarker).
+Specifica un marcatore di dati. Solo lettura [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

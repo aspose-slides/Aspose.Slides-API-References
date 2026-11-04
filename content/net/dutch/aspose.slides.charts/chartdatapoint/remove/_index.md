@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Verwijdert DataPoint uit de grafieksreeks.
+description: Verwijdert DataPoint uit de grafiekreeks.
 type: docs
-weight: 230
+weight: 270
 url: /nl/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove methode
 
-Verwijdert DataPoint uit de grafieksreeks.
+Verwijdert DataPoint uit de grafiekreeks.
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | uitzondering | conditie |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Wordt gegooid als het gegevenspunt al is verwijderd uit de grafieksreeks. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Wordt opgegooid als DataPoint al uit de grafiekreeks is verwijderd. |
 
 ### Zie ook
 

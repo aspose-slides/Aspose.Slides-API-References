@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學根號
 type: docs
-weight: 8950
+weight: 8970
 url: /zh-hant/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory 類別
@@ -16,13 +16,13 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## 建構函式
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | 預設建構函式。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | 建立數學根號 |
 

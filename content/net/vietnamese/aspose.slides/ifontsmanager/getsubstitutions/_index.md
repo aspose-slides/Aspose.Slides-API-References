@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình bày.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu.
 type: docs
-weight: 80
+weight: 90
 url: /vi/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình bày.
+Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Giá trị trả về
 
-Tập hợp tất cả các phép thay thế phông chữ [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Tập hợp tất cả các thay thế phông chữ [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Ví dụ
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình hiển thị các slide được chỉ định.
+Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị các slide được chỉ định.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| slides | Int32[] | Mảng các chỉ mục slide mà muốn lấy thông tin thay thế phông chữ, bắt đầu từ 1. |
+| slides | Int32[] | Mảng các chỉ số slide mà sẽ lấy thông tin thay thế phông chữ, bắt đầu từ 1. |
 
 ### Giá trị trả về
 
-Một tập hợp các phép thay thế phông chữ ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) cho các slide đã chỉ định.
+Một tập hợp của tất cả các thay thế phông chữ ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) cho các slide được chỉ định.
 
 ### Ví dụ
 

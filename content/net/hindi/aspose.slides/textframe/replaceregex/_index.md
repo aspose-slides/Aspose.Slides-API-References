@@ -1,40 +1,40 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट स्ट्रिंग से बदलता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: नियमित अभिव्यक्ति के सभी मेलों को निर्दिष्ट स्ट्रिंग से बदलता है।
 type: docs
-weight: 120
+weight: 130
 url: /hi/aspose.slides/textframe/replaceregex/
 ---
-## TextFrame.ReplaceRegex मेथड
+## TextFrame.ReplaceRegex विधि
 
-नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग से बदलता है।
+नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट स्ट्रिंग से बदलता है।
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | Regex | बदलने के लिए स्ट्रिंग्स प्राप्त करने हेतु नियमित अभिव्यक्ति Regex। |
-| newText | String | बदलने के लिए स्ट्रिंग्स के सभी आवर्तनों को बदलने वाली स्ट्रिंग। |
-| callback | IFindResultCallback | प्रतिस्थापन कार्य के परिणाम को सहेजने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
+| regex | Regex | वह नियमित अभिव्यक्ति Regex जिसके द्वारा प्रतिस्थापित की जाने वाली स्ट्रिंग्स प्राप्त की जाती हैं। |
+| newText | String | सभी प्रतिस्थापित की जाने वाली स्ट्रिंग्स के उदाहरणों को बदलने के लिए स्ट्रिंग। |
+| callback | IFindResultCallback | प्रतिस्थापन संचालन परिणाम को सहेजने के लिए Callback ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
 
-निम्नलिखित नमूना कोड दिखाता है कि नियमित अभिव्यक्ति के साथ निर्दिष्ट स्ट्रिंग का उपयोग करके टेक्स्ट को कैसे बदलें।
+निम्नलिखित नमूना कोड दिखाता है कि कैसे नियमित अभिव्यक्ति के साथ निर्दिष्ट स्ट्रिंग का उपयोग करके टेक्स्ट को बदलें।
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10 या अधिक अक्षरों वाले सभी शब्दों को '***' से बदलें
+	// सभी शब्दों को जिनकी लंबाई 10 या अधिक अक्षर है, '***' से बदलें
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### देखें
+### संदर्भ
 
 * इंटरफ़ेस [IFindResultCallback](../../ifindresultcallback)
 * क्लास [TextFrame](../../textframe)

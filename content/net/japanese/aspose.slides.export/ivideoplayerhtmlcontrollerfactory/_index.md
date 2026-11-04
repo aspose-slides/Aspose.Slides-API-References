@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: VideoPlayerHtmlController を作成できるようにします。
+description: VideoPlayerHtmlController を作成できます。
 type: docs
-weight: 4190
+weight: 4210
 url: /ja/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
 ## IVideoPlayerHtmlControllerFactory インターフェイス
 
-VideoPlayerHtmlController を作成できるようにします。
+VideoPlayerHtmlController を作成できます。
 
 ```csharp
 public interface IVideoPlayerHtmlControllerFactory
@@ -18,13 +18,13 @@ public interface IVideoPlayerHtmlControllerFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | ビデオプレーヤー HTML コントローラを作成します。 |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | ビデオプレーヤー HTML コントローラーを作成します。 |
 
 ### 備考
 
-COM 互換性のためです。
+COM 互換性のため。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

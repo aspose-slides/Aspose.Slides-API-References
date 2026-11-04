@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 portions 的集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个部分的集合。
 type: docs
-weight: 6710
+weight: 6730
 url: /zh/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection 接口
 
-表示 Portion 的集合。
+表示一个部分的集合。
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -29,7 +29,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | 向集合末尾添加一个 Portion。 |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | 确定 ICollection 是否包含特定值。 |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 确定集合中特定 Portion 的索引。 |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 确定集合中特定 portion 的索引。 |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 在指定索引处向集合插入一个 Portion。 |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 从 ICollection 中移除特定对象的第一次出现。 |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | 移除集合中指定索引处的元素。 |

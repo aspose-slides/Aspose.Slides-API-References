@@ -1,12 +1,12 @@
 ---
 title: ControlType
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Definiuje typ kontrolki, który powinien być osadzony przez AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2720
+weight: 2740
 url: /pl/aspose.slides/controltype/
 ---
-## Wyliczenie ControlType
+## enumeracja ControlType
 
 Definiuje typ kontrolki, który powinien być osadzony przez [`AddControl`](../icontrolcollection/addcontrol).
 
@@ -18,7 +18,7 @@ public enum ControlType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Kontrolka Windows Media Player. |
+| WindowsMediaPlayer | `0` | kontrolka Windows Media Player. |
 
 ### Zobacz także
 

@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示標準的內部例外類型。
 type: docs
-weight: 9210
+weight: 9230
 url: /zh-hant/aspose.slides/odpexception/
 ---
 ## OdpException 類別
@@ -20,9 +20,9 @@ public class OdpException : Exception
 | --- | --- |
 | [OdpException](odpexception#constructor)() | 預設建構函式 |
 | [OdpException](odpexception#constructor_1)(string) | 允許向此例外加入訊息的建構函式 |
-| [OdpException](odpexception#constructor_2)(string, Exception) | 包含訊息和內嵌例外的例外的建構函式 |
+| [OdpException](odpexception#constructor_2)(string, Exception) | 用於包含訊息與嵌入例外的例外的建構函式 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes .NET API referencia
-description: HTML exportálási beállításokat képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: HTML exportálási beállításokat reprezentál.
 type: docs
-weight: 3970
+weight: 3990
 url: /hu/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions interfész
 
-HTML exportálási beállításokat képvisel.
+HTML exportálási beállításokat reprezentál.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -18,17 +18,17 @@ public interface IHtmlOptions : ISaveOptions
 
 | Név | Leírás |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészét. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Egy boolean jelző jelzi, hogy a levágott részek a dokumentum részeként maradnak-e. Ha true, a levágott részek eltávolításra kerülnek, ha false, akkor a dokumentumban sorosítva lesznek (ami esetleg nagyobb fájlméretet eredményezhet). Olvasható/írható Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a szöveget ligatúrák használata nélkül jeleníti meg. `true` érték esetén a ligatúrák le lesznek tiltva a megjelenített kimenetben. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Visszaadja vagy beállítja a HTML sablont. Olvasható/írható [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Lehetőségeket biztosít az exportált dokumentumban lévő Ink objektumok megjelenésének szabályozásához. Csak olvasható [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Visszaadja vagy beállítja egy értéket, amely meghatározza a PDF dokumentumban lévő JPEG képek minőségét. Olvasható/írható Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | A képek tömörítési szintjét képviseli. Olvasható/írható [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákot vagy sem. Alapértelmezés `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Visszaadja vagy beállítja a diakép formátum beállításait. Olvasható/írható [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Értéket ad vissza vagy állít be, amely meghatározza, hogy a diák hogyan legyenek elhelyezve az oldalon prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | Igaz érték esetén a szélesség és magasság attribútumok kizárásra kerülnek az SVG konténerből – ez a layoutot reszponzívvá teszi. Hamis – egyébként. Olvasható/írható Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Returns ISaveOptions interfész. Csak olvasható [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Egy logikai jelző azt mutatja, hogy a levágott részek a dokumentum részeként maradnak-e. Ha true, a levágott részek eltávolításra kerülnek, ha false, a dokumentumban lesznek sorosítva (ami esetleg nagyobb fájlhoz vezethet) Olvasás/írás Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely jelzi, hogy a szöveg ligatúrák használata nélkül kerüljön-e renderelésre. Ha `true`-ra van állítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezés szerint ez a tulajdonság `false`-ra van beállítva. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | HTML sablont ad vissza vagy állít be. Olvasás/írás [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Az exportált dokumentumban a Ink objektumok megjelenését szabályozó beállításokat biztosít. Csak olvasható [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | A PDF dokumentumban lévő JPEG képek minőségét meghatározó értéket ad vissza vagy állít be. Olvasás/írás Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | A képek tömörítési szintjét reprezentálja Olvasás/írás [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentumban legyenek-e rejtett diák vagy sem. Alapértelmezés: `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Dia képformátum beállításokat ad vissza vagy állít be. Olvasás/írás [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | A prezentáció exportálásakor a diák oldalra helyezésének módját adja vissza vagy állítja be [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True, ha a szélesség és magasság attribútumok kizárásra kerülnek az SVG konténerből – ez responsív elrendezést eredményez. False – egyébként. Olvasás/írás Boolean. |
 
 ### Lásd még
 

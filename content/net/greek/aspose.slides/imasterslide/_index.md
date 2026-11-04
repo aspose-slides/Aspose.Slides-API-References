@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια ματρική διαφάνεια σε μια παρουσίαση.
+description: Αναπαριστά μια κύρια διαφάνεια σε μια παρουσίαση.
 type: docs
-weight: 6420
+weight: 6440
 url: /el/aspose.slides/imasterslide/
 ---
 ## IMasterSlide διασύνδεση
 
-Αναπαριστά μια ματρική διαφάνεια σε μια παρουσίαση.
+Αναπαριστά μια κύρια διαφάνεια σε μια παρουσίαση.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -16,31 +16,31 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IBaseSlide. Μόνο ανάγνωση [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IBaseSlide. Μόνο ανάγνωση [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Επιστρέφει τη διεπαφή IMasterThemeable. Μόνο ανάγνωση [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Επιστρέφει το στυλ ενός κειμένου σώματος. Μόνο ανάγνωση [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Επιστρέφει μια συλλογή από οδηγούς σχεδίασης για τη ματρική διαφάνεια. Μόνο ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Επιστρέφει true εάν υπάρχει τουλάχιστον μία διαφάνεια που εξαρτάται από αυτή τη ματρική διαφάνεια. Μόνο ανάγνωση Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Επιστρέφει τον διαχειριστή HeaderFooter της ματρικής διαφάνειας. Μόνο ανάγνωση [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Επιστρέφει τη συλλογή των διαφανειών διάταξης παιδιών για αυτή τη ματρική διαφάνεια. Μόνο ανάγνωση [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Επιστρέφει το στυλ ενός κυρίου κειμένου. Μόνο ανάγνωση [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Επιστρέφει μια συλλογή οδηγών σχεδίασης για τη κύρια διαφάνεια. Μόνο ανάγνωση [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Επιστρέφει true εάν υπάρχει τουλάχιστον μια διαφάνεια που εξαρτάται από αυτή τη κύρια διαφάνεια. Μόνο ανάγνωση Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Επιστρέφει το διαχειριστή HeaderFooter της κύριας διαφάνειας. Μόνο ανάγνωση [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Επιστρέφει τη συλλογή των διαφανειών διάταξης παιδιών για αυτή τη κύρια διαφάνεια. Μόνο ανάγνωση [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Επιστρέφει το στυλ ενός άλλου κειμένου. Μόνο ανάγνωση [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Καθορίζει εάν η αντίστοιχη ματρική διαφάνεια διαγράφεται όταν όλες οι διαφάνειες που ακολουθούν αυτή τη ματρική διαφάνεια διαγραφούν. Σημείωση: το Aspose.Slides δεν θα αφαιρέσει ποτέ αυτόματα μια αχρησιμοποίητη ματρική διαφάνεια· για να αφαιρέσετε πραγματικά τις αχρησιμοποίητες ματρικές διαφάνειες, καλέστε [`RemoveUnused`](../imasterslidecollection/removeunused). Ανάγνωση/εγγραφή Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Καθορίζει εάν η αντίστοιχη κύρια διαφάνεια διαγράφεται όταν όλες οι διαφάνειες που ακολουθούν αυτήν τη κύρια διαφάνεια διαγραφούν. Σημείωση: το Aspose.Slides δεν θα αφαιρέσει ποτέ αυτόματα μια μη χρησιμοποιούμενη κύρια διαφάνεια· Για πραγματική αφαίρεση μη χρησιμοποιούμενων κυρίων διαφανειών, καλέστε [`RemoveUnused`](../imasterslidecollection/removeunused). Ανάγνωση/Εγγραφή Boolean. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Επιστρέφει το στυλ ενός κειμένου τίτλου. Μόνο ανάγνωση [`ITextStyle`](../itextstyle). |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Δημιουργεί μια νέα ματρική διαφάνεια βασισμένη στην τρέχουσα, εφαρμόζοντας ένα εξωτερικό θέμα σε αυτήν και εφαρμόζει τη δημιουργημένη ματρική διαφάνεια σε όλες τις εξαρτώμενες διαφάνειες. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Επιστρέφει έναν πίνακα με όλες τις διαφάνειες που εξαρτώνται από αυτή τη ματρική διαφάνεια. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Δημιουργεί μια νέα κύρια διαφάνεια βασισμένη στην τρέχουσα, εφαρμόζοντας μια εξωτερική θεματική σε αυτήν και εφαρμόζει τη δημιουργημένη κύρια διαφάνεια σε όλες τις εξαρτημένες διαφάνειες. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Επιστρέφει έναν πίνακα με όλες τις διαφάνειες που εξαρτώνται από αυτή τη κύρια διαφάνεια. |
 
 ### Δείτε επίσης
 
 * διασύνδεση [IBaseSlide](../ibaseslide)
 * διασύνδεση [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

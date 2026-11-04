@@ -1,9 +1,9 @@
 ---
 title: FontCollectionIndex
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el índice de fuentes en una colección.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa el índice de las fuentes en una colección.
 type: docs
-weight: 4810
+weight: 4830
 url: /es/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumeración

@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 막대 또는 열 클러스터 사이의 공간을 막대 또는 열 너비의 백분율로 지정합니다. 읽기/쓰기 UInt16.
+second_title: Aspose.Sildes for .NET API 참조
+description: 바 또는 열 클러스터 사이의 공간을 바 또는 열 너비의 백분율로 가져오거나 설정합니다. 값은 0에서 500 사이여야 합니다. 읽기/쓰기 UInt16.
 type: docs
 weight: 70
 url: /ko/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth 속성
 
-막대 또는 열 클러스터 사이의 공간을 막대 또는 열 너비의 백분율로 지정합니다. 읽기/쓰기 UInt16.
+바 또는 열 클러스터 사이의 공간을 바 또는 열 너비의 백분율로 가져오거나 설정합니다. 값은 0에서 500 사이여야 합니다. 읽기/쓰기 UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### 비고
+
+이 속성은 다음 유형의 시리즈에 적용됩니다: 모든 bar 및 column 하위 유형, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### 참조
 

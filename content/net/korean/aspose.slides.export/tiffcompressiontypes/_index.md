@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션이 TIFF 형식으로 압축되는 방식을 제어하는 옵션을 제공합니다.
 type: docs
-weight: 4560
+weight: 4580
 url: /ko/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes 열거형
 
-프레젠테이션이 TIFF 형식으로 압축되는 방식을 제어하는 옵션을 제공합니다.
+Provides options that control how a presentation is compressed in TIFF format.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -25,7 +25,7 @@ public enum TiffCompressionTypes
 | LZW | `4` | LZW 압축 방식(기본)을 지정합니다. |
 | RLE | `5` | RLE 압축 방식을 지정합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

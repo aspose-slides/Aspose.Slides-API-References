@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
 second_title: Aspose.Sildes för .NET API-referens
-description: Delar upp textinnehållet i ITextFrameaspose.slides/itextframe i en array av strängar där varje element motsvarar en separat textkolumn inom ramen.
+description: Delar upp textinnehållet i ITextFrameaspose.slides/itextframe i en matris av strängar där varje element motsvarar en separat textkolumn i ramen.
 type: docs
-weight: 130
+weight: 140
 url: /sv/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns metod
 
-Delar upp textinnehållet i [`ITextFrame`](../../itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn inom ramen.
+Delar upp textinnehållet i [`ITextFrame`](../../itextframe) i en matris av strängar, där varje element motsvarar en separat textkolumn inom ramen.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -16,22 +16,22 @@ public string[] SplitTextByColumns()
 
 ### Returvärde
 
-En array av strängar, där varje sträng representerar textinnehållet i en specifik kolumn i [`ITextFrame`](../../itextframe).
+En matris av strängar, där varje sträng representerar textinnehållet i en specifik kolumn i [`ITextFrame`](../../itextframe).
 
 ### Anmärkningar
 
-Om textramen inte innehåller flera kolumner kommer den returnerade arrayen att ha ett enda element som innehåller hela texten. Tomma kolumner kommer att representeras som tomma strängar i arrayen.
+Om textramen inte innehåller flera kolumner kommer den returnerade matrisen att ha ett enda element som innehåller hela texten. Tomma kolumner representeras som tomma strängar i matrisen.
 
 ### Exempel
 
-Följande exempel visar hur man använder `SplitTextByColumns`:
+Följande exempel demonstrerar hur man använder `SplitTextByColumns`:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
     // Hämta den första formen på bilden och kasta den till ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // Dela upp textramen innehåll i kolumner
+    // Dela upp innehållet i textramen i kolumner
     string[] columnsText = textFrame.SplitTextByColumns();
     // Skriv ut varje kolumns text till konsolen
     foreach (string column in columnsText)
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [ITextFrame](../../itextframe)
 * namnrymd [Aspose.Slides](../../itextframe)

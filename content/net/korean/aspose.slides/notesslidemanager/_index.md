@@ -3,12 +3,12 @@ title: NotesSlideManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 노트 슬라이드 관리자.
 type: docs
-weight: 9160
+weight: 9180
 url: /ko/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager 클래스
 
-Notes slide manager.
+노트 슬라이드 관리자.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -18,18 +18,18 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 현재 슬라이드에 대한 노트 슬라이드를 반환합니다. 슬라이드에 노트 슬라이드가 없으면 null을 반환합니다. 읽기 전용 [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 현재 슬라이드의 노트 슬라이드를 반환합니다. 슬라이드에 노트 슬라이드가 없으면 null을 반환합니다. 읽기 전용 [`INotesSlide`](../inotesslide). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | 현재 슬라이드에 대한 노트 슬라이드를 반환하며, 없을 경우 새로 생성합니다. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | 현재 슬라이드의 노트 슬라이드를 반환하며, 없으면 새로 생성합니다. |
 | [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | 현재 슬라이드의 노트 슬라이드를 제거합니다. |
 
 ### 예제
 
-다음 예제는 특정 PowerPoint 프레젠테이션 슬라이드에 노트를 추가하는 방법을 보여줍니다.
+다음 예제는 특정 ProwerPoint 프레젠테이션 슬라이드에 메모를 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-다음 예제는 PowerPoint 프레젠테이션의 특정 슬라이드에서 노트를 제거하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션의 특정 슬라이드에서 메모를 제거하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-### 참고
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Slide](../slide)

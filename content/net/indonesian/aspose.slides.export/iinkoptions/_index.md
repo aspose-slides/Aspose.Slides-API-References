@@ -1,9 +1,9 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor.
 type: docs
-weight: 3980
+weight: 4000
 url: /id/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions antarmuka

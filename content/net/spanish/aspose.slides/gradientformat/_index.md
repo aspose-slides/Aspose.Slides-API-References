@@ -1,12 +1,12 @@
 ---
 title: GradientFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa un formato de degradado.
 type: docs
-weight: 5000
+weight: 5020
 url: /es/aspose.slides/gradientformat/
 ---
-## GradientFormat class
+## GradientFormat clase
 
 Representa un formato de degradado.
 
@@ -18,13 +18,13 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo de lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Devuelve o establece el estilo de un degradado. Lectura/escritura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Devuelve o establece la forma de un degradado. Lectura/escritura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Devuelve la colección de paradas de degradado. Sólo lectura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Devuelve la colección de paradas de degradado. Sólo de lectura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Devuelve o establece el ángulo de un degradado. Lectura/escritura Single. |
 | [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Determina si un degradado está escalado. Lectura/escritura [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Devuelve o establece el modo de volteo para un degradado. Lectura/escritura [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Devuelve o establece el modo de volteo de un degradado. Lectura/escritura [`TileFlip`](../tileflip). |
 
 ## Métodos
 

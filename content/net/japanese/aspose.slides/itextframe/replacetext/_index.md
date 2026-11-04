@@ -1,43 +1,43 @@
 ---
 title: ReplaceText
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定されたテキストのすべての出現箇所を別の指定されたテキストに置換します。
+description: 指定されたテキストのすべての出現箇所を別の指定されたテキストに置き換えます。
 type: docs
-weight: 120
+weight: 130
 url: /ja/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText メソッド
 
-指定されたテキストのすべての出現箇所を別の指定されたテキストに置換します。
+指定されたテキストのすべての出現箇所を別の指定されたテキストに置き換えます。
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
     IFindResultCallback callback)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| oldText | String | 置換対象の文字列です。 |
-| newText | String | oldText のすべての出現箇所を置換する文字列です。 |
+| oldText | String | 置き換えられる文字列。 |
+| newText | String | oldText のすべての出現箇所を置き換える文字列。 |
 | options | ITextSearchOptions | テキスト検索オプション [`ITextSearchOptions`](../../itextsearchoptions)。 |
 | callback | IFindResultCallback | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 例
 
-以下のサンプルコードは、指定された文字列を別の文字列に置換する方法を示しています。
+以下のサンプルコードは、ある指定文字列を別の指定文字列に置き換える方法を示しています。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 個別の 'the' のすべての出現を '***' に置き換えます
+	// すべての単独の 'the' の出現を '***' に置き換える
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [ITextSearchOptions](../../itextsearchoptions)
 * インターフェイス [IFindResultCallback](../../ifindresultcallback)

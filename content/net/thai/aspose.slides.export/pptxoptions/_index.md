@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงตัวเลือกสำหรับการบันทึกการนำเสนอ OpenXml ประเภท PPTX, PPSX, POTX, PPTM, PPSM, POTM.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงตัวเลือกสำหรับบันทึกงานนำเสนอ OpenXml เช่น PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4370
+weight: 4390
 url: /th/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions คลาส
 
-แสดงตัวเลือกสำหรับการบันทึกการนำเสนอบรรทัด OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM)。
+แสดงตัวเลือกสำหรับบันทึกงานนำเสนอ OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -24,20 +24,20 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Name | Description |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | ระบุระดับการบีบอัดที่ใช้เมื่อบันทึกเอกสารการนำเสนอ ค่าเริ่มต้นคือ Level6. |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | ระบุระดับการบีบอัดที่ใช้เมื่อบันทึกเอกสารงานนำเสนอ ค่าเริ่มต้นคือ Level6. |
 | [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | ระบุคลาสการปฏิบัติตามที่เอกสาร Presentation ปฏิบัติตาม ค่าเริ่มต้นคือ Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดฟอนต์ที่ใช้ในกรณีไม่พบฟอนต์ต้นฉบับ อ่าน-เขียน String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงของการไล่สี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงวัตถุคอลแบคสำหรับการอัปเดตความคืบหน้าในการบันทึกเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | ระบุว่าจะรีเฟรชภาพย่อของการนำเสนอหรือไม่ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกการนำเสนอ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดวัตถุที่รับคำเตือนและตัดสินว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดฟอนต์ที่ใช้ในกรณีที่ไม่พบฟอนต์ต้นฉบับ อ่าน-เขียน String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงผลของเกรเดียนต์ อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจกต์ callback สำหรับอัปเดตความคืบหน้าการบันทึกเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | ระบุว่ารูปย่อของงานนำเสนอจะได้รับการรีเฟรชหรือไม่ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอหรือไม่ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 | [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | ระบุว่าจะใช้รูปแบบ ZIP64 สำหรับเอกสาร Presentation หรือไม่ ค่าเริ่มต้นคือ IfNecessary |
 
 ### ดูเพิ่มเติม
 
 * คลาส [SaveOptions](../saveoptions)
-* อินเทอร์เฟซ [IPptxOptions](../ipptxoptions)
+* อินเทอร์เฟส [IPptxOptions](../ipptxoptions)
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)
 

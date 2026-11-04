@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Haalt op of stelt de werkboekgegevenscel in. Toegepast als IDataLabelFormat.ShowLabelValueFromCell eigenschap gelijk is aan true.
+description: Haalt of stelt de workbook-gegevenscel in. Toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap true is.
 type: docs
-weight: 140
+weight: 150
 url: /nl/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell eigenschap
 
-Haalt op of stelt de werkboekgegevenscel in. Toegepast als IDataLabelFormat.ShowLabelValueFromCell eigenschap gelijk is aan true.
+Haalt of stelt de workbook-gegevenscel in. Toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap true is.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

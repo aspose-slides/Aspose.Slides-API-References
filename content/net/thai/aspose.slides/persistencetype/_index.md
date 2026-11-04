@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวิธีการที่ใช้ในการเก็บคุณสมบัติของคอนโทรล ActiveX.
+description: ระบุวิธีการที่ใช้เพื่อจัดเก็บคุณสมบัติของคอนโทรล ActiveX
 type: docs
-weight: 9370
+weight: 9390
 url: /th/aspose.slides/persistencetype/
 ---
-## PersistenceType enum
+## PersistenceType การนับ
 
-ระบุวิธีที่ใช้ในการจัดเก็บคุณสมบัติของคอนโทรล ActiveX.
+ระบุวิธีการที่ใช้ในการจัดเก็บคุณสมบัติของคอนโทรล ActiveX
 
 ```csharp
 public enum PersistenceType
@@ -18,11 +18,11 @@ public enum PersistenceType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | รหัสการเก็บข้อมูลไม่ได้ระบุ. |
-| PersistPropertyBag | `0` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ property-bag. การคงสภาพแบบ property-bag จะเก็บคอนโทรล ActiveX โดยใช้ชุดของคู่ชื่อและค่า ซึ่งระบุข้อมูลที่คงสภาพโดยคอนโทรล ActiveX. |
-| PersistStream | `1` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ stream ที่ไม่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
-| PersistStreamInit | `2` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ stream ที่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
-| PersistStorage | `3` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ storage. |
+| NotDefined | `-1` | รหัสการคงสภาพไม่ได้ระบุ |
+| PersistPropertyBag | `0` | ระบุว่าคอนโทรล ActiveX ถูกคงสภาพโดยใช้การคงสภาพแบบ property-bag-based การคงสภาพแบบ property-bag-based จะจัดเก็บคอนโทรล ActiveX ด้วยคอลเลกชันของคู่ชื่อและค่า ซึ่งระบุข้อมูลที่คงสภาพโดยคอนโทรล ActiveX |
+| PersistStream | `1` | ระบุว่าคอนโทรล ActiveX ถูกคงสภาพโดยใช้การคงสภาพแบบ stream-based ซึ่งไม่รองรับการกำหนดค่าเริ่มต้นของคอนโทรล ActiveX ไปยังสถานะเริ่มต้น |
+| PersistStreamInit | `2` | ระบุว่าคอนโทรล ActiveX ถูกคงสภาพโดยใช้การคงสภาพแบบ stream-based ซึ่งรองรับการกำหนดค่าเริ่มต้นของคอนโทรล ActiveX ไปยังสถานะเริ่มต้น |
+| PersistStorage | `3` | ระบุว่าคอนโทรล ActiveX ถูกคงสภาพโดยใช้การคงสภาพแบบ storage-based |
 
 ### ดูเพิ่มเติม
 

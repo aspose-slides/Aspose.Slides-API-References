@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumda gömülü fontları döndürür
+second_title: Aspose.Sildes .NET API Referansı
+description: Sunumda gömülü olan yazı tiplerini döndürür
 type: docs
-weight: 40
+weight: 50
 url: /tr/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
-## IFontsManager.GetEmbeddedFonts yöntemi
+## IFontsManager.GetEmbeddedFonts metot
 
-Sunumda gömülü fontları döndürür
+Sunumda gömülü olan yazı tiplerini döndürür
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()
@@ -16,7 +16,7 @@ public IFontData[] GetEmbeddedFonts()
 
 ### Dönüş Değeri
 
-Embedded fonts [`IFontData`](../../ifontdata)[]
+Gömülü yazı tipleri [`IFontData`](../../ifontdata)[]
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: थीम गुणों का प्रतिनिधित्व करता है।
 type: docs
-weight: 11390
+weight: 11410
 url: /hi/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager इंटरफ़ेस
@@ -14,12 +14,12 @@ url: /hi/aspose.slides.theme/ithememanager/
 public interface IThemeManager
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | एक स्लाइड पर अतिरिक्त रंग योजना लागू करता है। |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | थीम ऑब्जेक्ट को लौटाता है। |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | थीम ऑब्जेक्ट लौटाता है। |
 
 ### संबंधित देखें
 

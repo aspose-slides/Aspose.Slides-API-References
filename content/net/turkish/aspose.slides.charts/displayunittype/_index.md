@@ -3,7 +3,7 @@ title: DisplayUnitType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Görüntülenen verilerin çokluğunu belirler.
 type: docs
-weight: 1620
+weight: 1630
 url: /tr/aspose.slides.charts/displayunittype/
 ---
 ## DisplayUnitType enum
@@ -14,23 +14,23 @@ Görüntülenen verilerin çokluğunu belirler.
 public enum DisplayUnitType
 ```
 
-### Değerler
+### Values
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Değerler olduğu gibi görüntülenecektir. |
-| Hundreds | `1` | Grafikteki değerlerin 100 ile bölüneceğini belirler. |
-| Thousands | `2` | Grafikteki değerlerin 1,000 ile bölüneceğini belirler. |
-| TenThousands | `3` | Grafikteki değerlerin 10,000 ile bölüneceğini belirler. |
-| HundredThousands | `4` | Grafikteki değerlerin 100,000 ile bölüneceğini belirler. |
-| Millions | `5` | Grafikteki değerlerin 1,000,000 ile bölüneceğini belirler. |
-| TenMillions | `6` | Grafikteki değerlerin 10,000,000 ile bölüneceğini belirler. |
-| HundredMillions | `7` | Grafikteki değerlerin 100,000,000 ile bölüneceğini belirler. |
-| Billions | `8` | Grafikteki değerlerin 1,000,000,000 ile bölüneceğini belirler. |
-| Trillions | `9` | Grafikteki değerlerin 1,000,000,000,000 ile bölüneceğini belirler. |
-| CustomValue | `10` | Grafikteki değerlerin özel bir değer ile bölüneceğini belirler. |
+| None | `0` | Değerler olduğu gibi görüntülenecek. |
+| Hundreds | `1` | Grafikteki değerlerin 100 ile bölüneceğini belirtir. |
+| Thousands | `2` | Grafikteki değerlerin 1.000 ile bölüneceğini belirtir. |
+| TenThousands | `3` | Grafikteki değerlerin 10.000 ile bölüneceğini belirtir. |
+| HundredThousands | `4` | Grafikteki değerlerin 100.000 ile bölüneceğini belirtir. |
+| Millions | `5` | Grafikteki değerlerin 1.000.000 ile bölüneceğini belirtir. |
+| TenMillions | `6` | Grafikteki değerlerin 10.000.000 ile bölüneceğini belirtir. |
+| HundredMillions | `7` | Grafikteki değerlerin 100.000.000 ile bölüneceğini belirtir. |
+| Billions | `8` | Grafikteki değerlerin 1.000.000.000 ile bölüneceğini belirtir. |
+| Trillions | `9` | Grafikteki değerlerin 1.000.000.000.000 ile bölüneceğini belirtir. |
+| CustomValue | `10` | Grafikteki değerlerin özel bir değer ile bölüneceğini belirtir. |
 
-### İlgili
+### See Also
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica el objeto subíndice que consta de una base y un subíndice de tamaño reducido colocado debajo y a la derecha.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Especifica el objeto subíndice que consta de una base y un subíndice de tamaño reducido situado debajo y a la derecha.
 type: docs
-weight: 8470
+weight: 8490
 url: /es/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interfaz
 
-Especifica el objeto subíndice, que consta de una base y un subíndice de tamaño reducido colocado debajo y a la derecha.
+Especifica el objeto subíndice, que consta de una base y un subíndice de tamaño reducido situado debajo y a la derecha.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Permite obtener la base de la interfaz IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Argumento base |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subíndice |
 

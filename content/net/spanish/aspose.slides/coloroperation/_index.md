@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Referencia de API Aspose.Sildes para .NET
-description: Representa diferentes operaciones de color usadas para transformaciones de color. Objeto inmutable.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa diferentes operaciones de color utilizadas para transformaciones de color. Objeto inmutable.
 type: docs
-weight: 2530
+weight: 2550
 url: /es/aspose.slides/coloroperation/
 ---
 ## ColorOperation clase
 
-Representa diferentes operaciones de color usadas para transformaciones de color. Objeto inmutable.
+Representa diferentes operaciones de color utilizadas para transformaciones de color. Objeto inmutable.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -16,24 +16,24 @@ public class ColorOperation : IColorOperation
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Crea una nueva operación de transformación de color. |
 | [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Crea una nueva operación de transformación de color. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Devuelve o establece el tipo de una operación. Solo lectura [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Devuelve un parámetro de una operación. Solo lectura Single. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Determina si las dos instancias de ColorOperation son iguales. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hashing y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

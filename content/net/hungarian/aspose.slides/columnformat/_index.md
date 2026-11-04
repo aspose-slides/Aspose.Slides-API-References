@@ -1,14 +1,14 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a táblázatoszlop formátumát.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A táblázat oszlop formátumát ábrázolja.
 type: docs
-weight: 2610
+weight: 2630
 url: /hu/aspose.slides/columnformat/
 ---
 ## ColumnFormat osztály
 
-Képviseli egy táblázat oszlop formátumát.
+A tábla oszlop formátumát ábrázolja.
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
@@ -18,7 +18,7 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Lekéri a hatékony táblázatoszlop formázási tulajdonságokat öröklődéssel és a táblázatstílusok alkalmazásával. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Visszaadja a tényleges tábla oszlop formázási tulajdonságokat öröklődéssel és a tábla stílusok alkalmazásával. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes for .NET เอกสารอ้างอิง API
-description: ส่งคืนค่า y ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: รับค่า y ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /th/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue คุณสมบัติ
 
-ส่งคืนค่า y ของจุดข้อมูลแผนภูมิ อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
+รับค่า y ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

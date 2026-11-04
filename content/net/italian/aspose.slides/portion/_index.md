@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una porzione di testo all'interno di un paragrafo di testo.
 type: docs
-weight: 9460
+weight: 9480
 url: /it/aspose.slides/portion/
 ---
 ## Portion classe
 
-Rappresenta una porzione di testo all’interno di un paragrafo di testo.
+Rappresenta una porzione di testo all'interno di un paragrafo di testo.
 
 ```csharp
 public class Portion : IPortion
@@ -27,8 +27,8 @@ public class Portion : IPortion
 | Nome | Descrizione |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Restituisce un campo di questa porzione. Solo lettura [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Restituisce l’oggetto di formattazione che contiene le proprietà di formattazione impostate esplicitamente della porzione di testo senza ereditarietà applicata. Solo lettura [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Ottiene o imposta il testo semplice di una porzione. Lettura/scrittura String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Restituisce un oggetto di formattazione che contiene le proprietà di formattazione impostate esplicitamente della porzione di testo senza ereditarietà applicata. Solo lettura [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Ottiene o imposta il testo semplice di una porzione. Lettura/Scrittura String. |
 
 ## Metodi
 
@@ -36,8 +36,8 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Converte questa porzione nel campo aggiornato automaticamente. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Converte questa porzione nel campo aggiornato automaticamente. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ottiene le coordinate dell’inizio della porzione. La coordinata X del punto rappresenta l’inizio della porzione dal primo carattere includendo il bearing laterale sinistro. La coordinata Y include il bearing superiore. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Ottiene le coordinate del rettangolo che delimita la porzione. Il rettangolo include tutte le righe di testo nella porzione, comprese quelle vuote. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ottiene le coordinate dell'inizio della porzione. La coordinata X del punto rappresenta l'inizio della porzione dal primo carattere inclusa la sporgenza laterale sinistra. La coordinata Y include la sporgenza superiore. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Ottiene le coordinate del rettangolo che delimita la porzione. Il rettangolo include tutte le linee di testo nella porzione, incluse quelle vuote. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Converte questa porzione di campo nella porzione semplice. |
 
 ### Vedi anche

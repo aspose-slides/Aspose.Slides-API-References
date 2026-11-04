@@ -3,7 +3,7 @@ title: WorkbookType
 second_title: Aspose.Sildes för .NET API-referens
 description: Anger typen av Open XML-arbetsbokfil.
 type: docs
-weight: 2510
+weight: 2530
 url: /sv/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType enumeration
@@ -20,10 +20,10 @@ public enum WorkbookType
 | --- | --- | --- |
 | NotDefined | `-1` | Arbetsbokstypen är inte definierad. |
 | Workbook | `0` | Excel-arbetsbok (*.xlsx). |
-| WorkbookMacro | `1` | Excel makroaktiverad arbetsbok (*.xlsm). |
+| WorkbookMacro | `1` | Excel-makroaktiverad arbetsbok (*.xlsm). |
 | Template | `2` | Excel-mall (*.xltx). |
-| TemplateMacro | `3` | Excel makroaktiverad mall (*.xltm). |
-| WorkbookBinaryMacro | `4` | Excel binär makroaktiverad arbetsbok (*.xlsb). |
+| TemplateMacro | `3` | Excel-makroaktiverad mall (*.xltm). |
+| WorkbookBinaryMacro | `4` | Excel-binär makroaktiverad arbetsbok (*.xlsb). |
 
 ### Se även
 

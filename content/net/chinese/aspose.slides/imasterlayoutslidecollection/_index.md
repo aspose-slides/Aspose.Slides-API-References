@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示已定义主幻灯片的所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在各个主布局幻灯片集合中添加/插入/移除/克隆布局幻灯片的方法。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示已定义母版幻灯片的所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在各个母版布局幻灯片集合上下文中添加/插入/删除/克隆布局幻灯片的方法。
 type: docs
-weight: 6380
+weight: 6400
 url: /zh/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection 接口
 
-表示已定义主幻灯片的所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在各自的主布局幻灯片集合中添加/插入/移除/克隆布局幻灯片的方法。
+表示已定义母版幻灯片的所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在各个母版布局幻灯片集合上下文中添加/插入/删除/克隆布局幻灯片的方法。
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -24,12 +24,12 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合的末尾添加一个新的布局幻灯片。 |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合的末尾添加指定布局幻灯片的副本。 |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合末尾添加一个新的布局幻灯片。 |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合末尾添加指定布局幻灯片的副本。 |
 | [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 在集合的指定位置插入一个新的布局幻灯片。 |
 | [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 在集合的指定位置插入指定布局幻灯片的副本。 |
-| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 移除集合中指定索引处的元素。 |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | 将布局幻灯片从集合移动到指定位置。 |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 移除集合中指定索引位置的元素。 |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | 将布局幻灯片从集合中移动到指定位置。 |
 
 ### 另见
 

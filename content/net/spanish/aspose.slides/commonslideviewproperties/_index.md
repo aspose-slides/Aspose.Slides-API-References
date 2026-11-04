@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa propiedades comunes de la vista de diapositiva.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa las propiedades comunes de vista de diapositiva.
 type: docs
-weight: 2660
+weight: 2680
 url: /es/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties clase
 
-Representa las propiedades comunes de la vista de diapositiva.
+Representa las propiedades comunes de vista de diapositiva.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -19,7 +19,7 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | Nombre | Descripción |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Devuelve la colección de las guías de dibujo. Solo lectura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Especifica la proporción de escalado de la vista en porcentajes. Lectura/escritura Int32. |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Especifica la relación de escala de vista en porcentajes. Lectura/escritura Int32. |
 | [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Especifica que el contenido de la vista debe escalarse automáticamente para ajustarse mejor al tamaño actual de la ventana. Lectura/escritura Boolean. |
 
 ### Ejemplos

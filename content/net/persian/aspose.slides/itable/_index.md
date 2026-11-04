@@ -1,49 +1,49 @@
 ---
 title: ITable
-second_title: Aspose.Sildes برای .NET مستندات API
-description: نمایش یک جدول در اسلاید.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر یک جدول در یک اسلاید.
 type: docs
-weight: 7230
+weight: 7250
 url: /fa/aspose.slides/itable/
 ---
-## رابط ITable
+## ITable interface
 
-یک جدول را در اسلاید نمایش می‌دهد.
+نمایانگر یک جدول در یک اسلاید است.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
 ```
 
-## خصوصیات
+## Properties
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | دسترسی به رابط پایه IBulkTextFormattable را فراهم می‌کند. فقط خواندنی [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | دسترسی به رابط پایه IGraphicalObject را فراهم می‌کند. فقط خواندنی [`IGraphicalObject`](../igraphicalobject). |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | اجازه دریافت رابط پایه IBulkTextFormattable را می‌دهد. فقط خواندنی [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | اجازه دریافت رابط پایه IGraphicalObject را می‌دهد. فقط خواندنی [`IGraphicalObject`](../igraphicalobject). |
 | [Columns](../../aspose.slides/itable/columns) { get; } | مجموعه ستون‌ها را برمی‌گرداند. فقط خواندنی [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | مشخص می‌کند که آیا ستون اول جدول باید با قالب‌بندی خاص رسم شود. خواندنی/نوشتنی Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | مشخص می‌کند که آیا ردیف اول جدول باید با قالب‌بندی خاص رسم شود. خواندنی/نوشتنی Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | مشخص می‌کند که آیا ردیف‌های زوج باید با قالب‌بندی متفاوت رسم شوند. خواندنی/نوشتنی Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | سلول موجود در اندیس‌های ستون و ردیف مشخص شده را برمی‌گرداند. فقط خواندنی [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | مشخص می‌کند که آیا ستون آخر جدول باید با قالب‌بندی خاص رسم شود. خواندنی/نوشتنی Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | مشخص می‌کند که آیا ردیف آخر جدول باید با قالب‌بندی خاص رسم شود. خواندنی/نوشتنی Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | مشخص می‌کند که آیا جدول ترتیب خواندن از راست به چپ دارد. خواندنی/نوشتنی Boolean. |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | تعیین می‌کند آیا اولین ستون جدول باید با قالب‌بندی خاص رسم شود. قابل خواندن/نویس Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | تعیین می‌کند آیا اولین ردیف جدول باید با قالب‌بندی خاص رسم شود. قابل خواندن/نویس Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | تعیین می‌کند آیا ردیف‌های زوج باید با قالب‌بندی متفاوت رسم شوند. قابل خواندن/نویس Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | سلول را در ایندکس‌های ستون و ردیف مشخص شده برمی‌گرداند. فقط خواندنی [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | تعیین می‌کند آیا آخرین ستون جدول باید با قالب‌بندی خاص رسم شود. قابل خواندن/نویس Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | تعیین می‌کند آیا آخرین ردیف جدول باید با قالب‌بندی خاص رسم شود. قابل خواندن/نویس Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | تعیین می‌کند آیا جدول راست به چپ خوانده می‌شود. قابل خواندن/نویس Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | مجموعه ردیف‌ها را برمی‌گرداند. فقط خواندنی [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | دریافت یا تنظیم سبک جدول پیش‌ساخته. خواندنی/نوشتنی [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | شیء TableFormat حاوی ویژگی‌های قالب‌بندی این جدول را برمی‌گرداند. فقط خواندنی [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | مشخص می‌کند که آیا ستون‌های زوج باید با قالب‌بندی متفاوت رسم شوند. خواندنی/نوشتنی Boolean. |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | دریافت یا تنظیم سبک جدول داخلی. قابل خواندن/نویس [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | شیء TableFormat را که شامل ویژگی‌های قالب‌بندی برای این جدول است برمی‌گرداند. فقط خواندنی [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | تعیین می‌کند آیا ستون‌های زوج باید با قالب‌بندی متفاوت رسم شوند. قابل خواندن/نویس Boolean. |
 
-## متدها
+## Methods
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | سلول‌های مجاور را ادغام می‌کند. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | ادغام سلول‌های همسایه. |
 
-### موارد مرتبط
+### See Also
 
-* رابط [IBulkTextFormattable](../ibulktextformattable)
-* رابط [IGraphicalObject](../igraphicalobject)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجمعه [Aspose.Slides](../../)
+* interface [IBulkTextFormattable](../ibulktextformattable)
+* interface [IGraphicalObject](../igraphicalobject)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

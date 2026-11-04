@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Sildes für .NET API Referenz
 description: Hilfs-Effekt-Parameter-Schnittstelle.
 type: docs
-weight: 5760
+weight: 5780
 url: /de/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource Schnittstelle

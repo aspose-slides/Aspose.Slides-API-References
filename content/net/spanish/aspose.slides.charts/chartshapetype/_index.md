@@ -1,9 +1,9 @@
 ---
 title: ChartShapeType
-second_title: Referencia de API de Aspose.Sildes for .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una forma de gráfico.
 type: docs
-weight: 1470
+weight: 1480
 url: /es/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumeración
@@ -19,14 +19,14 @@ public enum ChartShapeType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | NotDefined | `-1` | La forma del gráfico no está definida. |
-| Box | `0` | Especifica que el gráfico se dibujará con una forma de caja. |
+| Box | `0` | Especifica que el gráfico se dibujará con una forma de cuadro. |
 | Cone | `1` | Especifica que el gráfico se dibujará como un cono, con la base del cono en el suelo y la punta del cono en la parte superior del marcador de datos. |
-| ConeToMax | `2` | Especifica que el gráfico se dibujará con conos truncados de forma que la punta del cono sea el valor máximo de los datos. |
+| ConeToMax | `2` | Especifica que el gráfico se dibujará con conos truncados de modo que la punta del cono represente el valor máximo de los datos. |
 | Cylinder | `3` | Especifica que el gráfico se dibujará como un cilindro. |
 | Pyramid | `4` | Especifica que el gráfico se dibujará como una pirámide rectangular, con la base de la pirámide en el suelo y la punta de la pirámide en la parte superior del marcador de datos. |
-| PyramidToMaximum | `5` | Especifica que el gráfico se dibujará con conos truncados de forma que la punta del cono sea el valor máximo de los datos. |
+| PyramidToMaximum | `5` | Especifica que el gráfico se dibujará con conos truncados de modo que la punta del cono represente el valor máximo de los datos. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
 * ensamblado [Aspose.Slides](../../)

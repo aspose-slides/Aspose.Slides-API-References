@@ -1,9 +1,9 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्यात के लिए हैंडआउट प्रस्तुति लेआउट मोड को दर्शाता है।
+description: हाथों-पर प्रस्तुतिकरण लेआउट मोड को निर्यात के लिए दर्शाता है।
 type: docs
-weight: 3840
+weight: 3860
 url: /hi/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions क्लास
@@ -14,22 +14,22 @@ url: /hi/aspose.slides.export/handoutlayoutingoptions/
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## निर्माता
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
 | [HandoutLayoutingOptions](handoutlayoutingoptions)() | डिफ़ॉल्ट मानों को प्रारम्भ करता है। |
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | निर्दिष्ट करता है कि पृष्ठ [`HandoutType`](../handouttype) पर कितनी स्लाइड्स और किस क्रम में रखी जाएँगी। |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | निर्दिष्ट करता है कि स्लाइड्स पर टिप्पणी प्रदर्शित की जाएँ या न हों। |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | निर्दिष्ट करता है कि प्रदर्शित स्लाइड्स के चारों ओर फ्रेम खींचे जाएँ या नहीं। |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | निर्दिष्ट करता है कि प्रदर्शित स्लाइड नंबरों को प्रिंट किया जाएँ या नहीं। |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | निर्दशित करता है कि पृष्ठ [`HandoutType`](../handouttype) पर कितनी स्लाइड्स और किस क्रम में रखी जाएँगी। |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | निर्दशित करता है कि स्लाइड्स पर टिप्पणियाँ प्रदर्शित करनी हैं या नहीं। |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | निर्दशित करता है कि प्रदर्शित स्लाइड्स के चारों ओर फ्रेम खींचना है या नहीं। |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | निर्दशित करता है कि प्रदर्शित स्लाइड नंबरों को प्रिंट करना है या नहीं। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [ISlidesLayoutOptions](../islideslayoutoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

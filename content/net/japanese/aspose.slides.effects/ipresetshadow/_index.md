@@ -3,7 +3,7 @@ title: IPresetShadow
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プリセット シャドウ効果を表します。
 type: docs
-weight: 3480
+weight: 3500
 url: /ja/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow インターフェイス
@@ -19,8 +19,8 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 基本 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 基本 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | シャドウの方向。読み取り/書き込み Single。 |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | シャドウの距離。読み取り/書き込み Double。 |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | プリセット。読み取り/書き込み [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |

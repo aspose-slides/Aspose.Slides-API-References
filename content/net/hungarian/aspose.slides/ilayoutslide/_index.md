@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy elrendezés diát képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy elrendezési diát képvisel.
 type: docs
-weight: 6220
+weight: 6240
 url: /hu/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interfész
 
-Egy elrendezés diát képvisel.
+Egy elrendezési diát képvisel.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -18,20 +18,20 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Lehetővé teszi az alap IBaseSlide interfész lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Lehetővé teszi a alap IBaseSlide interfész lekérését. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Visszaadja az IOverrideThemeable interfészt. Csak olvasható [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Visszaadja a layout dia rajzolósegédek gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Igaz értéket ad vissza, ha létezik legalább egy dia, amely függ ettől az elrendezésdiától. Csak olvasható Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Visszaadja a layout dia HeaderFooter-kezelőjét. Csak olvasható [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Visszaadja ennek a layout diának a layout típusát. Csak olvasható [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Visszaadja vagy beállítja a layouthoz tartozó master diát. Olvasás/írás [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Visszaadja a layout dia helyőrző-kezelőjét. Csak olvasható [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Visszaad egy gyűjteményt a layout dia rajzolási útmutatóiról. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Igaz értéket ad vissza, ha létezik legalább egy dia, amely függ ettől a layout diától. Csak olvasható Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Visszaadja a layout dia HeaderFooter menedzserét. Csak olvasható [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Visszaadja ennek a layout diánek a layout típusát. Csak olvasható [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Visszaadja vagy beállítja a layout mesterdiát. Olvasás/írás [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Visszaadja a layout dia helyőrző menedzserét. Csak olvasható [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Visszaad egy tömböt az összes diákkal, amelyek függnek ettől a layout diától. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Visszaad egy tömböt az összes diával, amelyek függnek ettől a layout diától. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Eltávolítja a layoutot a prezentációból. |
 
 ### Lásd még

@@ -1,12 +1,12 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
 description: Chữ ký số trong tệp đã ký.
 type: docs
-weight: 2770
+weight: 2790
 url: /vi/aspose.slides/digitalsignature/
 ---
-## DigitalSignature lớp
+## Lớp DigitalSignature
 
 Chữ ký số trong tệp đã ký.
 
@@ -14,7 +14,7 @@ Chữ ký số trong tệp đã ký.
 public class DigitalSignature : IDigitalSignature
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -25,14 +25,14 @@ public class DigitalSignature : IDigitalSignature
 
 | Tên | Mô tả |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Đối tượng chứng chỉ đã được sử dụng để ký tài liệu. Chỉ đọc X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Đối tượng chứng chỉ được sử dụng để ký tài liệu. Chỉ đọc X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Mục đích của chữ ký. Đọc/ghi String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Nếu chữ ký số này hợp lệ và tài liệu không bị thay đổi, giá trị này sẽ là true. Chỉ đọc Boolean. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Nếu chữ ký số này hợp lệ và tài liệu không bị giả mạo, giá trị này sẽ là true. Chỉ đọc Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Thời gian tài liệu được ký. Chỉ đọc DateTime. |
 
 ### Ví dụ
 
-Ví dụ sau minh họa cách thêm chữ ký số từ chứng chỉ PFX trong bản trình chiếu PowerPoint.
+Ví dụ sau minh họa cách thêm chữ ký số từ chứng chỉ PFX vào bản trình chiếu PowerPoint.
 
 ```csharp
 [C#]
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Kiểm tra xem tất cả chữ ký số có hợp lệ không
+        // Kiểm tra xem tất cả chữ ký số có hợp lệ hay không
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

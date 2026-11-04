@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Sildes for .NET API 참조
 description: 다양한 색상 모드를 나타냅니다.
 type: docs
-weight: 2580
+weight: 2600
 url: /ko/aspose.slides/colortype/
 ---
 ## ColorType 열거형
@@ -22,9 +22,9 @@ public enum ColorType
 | RGB | `0` | 표준 24비트 RGB 색상. |
 | RGBPercentage | `1` | 고해상도 RGB 색상. |
 | HSL | `2` | 고해상도 HSL 색상. |
-| Scheme | `3` | 스킴 색상. |
+| Scheme | `3` | 스키마 색상. |
 | System | `4` | 시스템 색상. |
-| Preset | `5` | 프리셋 색상. |
+| Preset | `5` | 사전 설정 색상. |
 
 ### 참조
 

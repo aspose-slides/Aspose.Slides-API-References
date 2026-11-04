@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 外部ブックブックをチャートのデータ ソースとして設定します。チャート データは対象のブックブックから更新されます。
+description: 外部ワークブックをチャートのデータ ソースとして設定します。チャート データは対象ワークブックから更新されます。
 type: docs
-weight: 120
+weight: 130
 url: /ja/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-外部ブックブックをチャートのデータ ソースとして設定します。チャート データは対象のブックブックから更新されます。
+外部ワークブックをチャートのデータ ソースとして設定します。チャート データは対象ワークブックから更新されます。
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -16,13 +16,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| workbookPath | String | 対象ブックブックへのパス |
+| workbookPath | String | 対象ワークブックへのパス |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | 外部ブックブックが利用できないか、読み込めません。 |
+| InvalidOperationException | 外部ワークブックが利用できないか、読み込めません。 |
 
 ### 例
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 関連項目
+### 参照
 
 * クラス [ChartData](../../chartdata)
 * 名前空間 [Aspose.Slides.Charts](../../chartdata)
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-外部ブックブックをチャートのデータ ソースとして設定します。
+外部ワークブックをチャートのデータ ソースとして設定します。
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -54,14 +54,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| workbookPath | String | 対象ブックブックへのパス |
-| updateChartData | Boolean | false の場合、ブックブックのパスのみが更新され、チャート データは読み込まれません。対象ブックブックが存在しない、または利用できない場合に使用できます。true の場合、チャート データは対象ブックブックから更新されます。 |
+| workbookPath | String | 対象ワークブックへのパス |
+| updateChartData | Boolean | 値が false の場合、ワークブック パスのみが更新されます。チャート データは読み込まれず、対象ワークブックから更新されません。対象ワークブックが存在しない、または利用できない場合に使用できます。値が true の場合、チャート データは対象ワークブックから更新されます。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | 外部ブックブックが利用できないか、読み込めません。 |
+| InvalidOperationException | 外部ワークブックが利用できないか、読み込めません。 |
 
 ### 例
 
@@ -77,7 +77,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 関連項目
+### 参照
 
 * クラス [ChartData](../../chartdata)
 * 名前空間 [Aspose.Slides.Charts](../../chartdata)

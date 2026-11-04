@@ -3,12 +3,12 @@ title: IFontsManager
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Gestisce i font nella presentazione.
 type: docs
-weight: 5930
+weight: 5950
 url: /it/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager interfaccia
 
-Gestisce i caratteri in tutta la presentazione.
+Gestisce i font nella presentazione.
 
 ```csharp
 public interface IFontsManager
@@ -16,27 +16,28 @@ public interface IFontsManager
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Rappresenta la raccolta dell'utente di regole FontFallBack per la gestione delle raccolte di caratteri per le sostituzioni corrette tramite la funzionalità di fallback Lettura/Scrittura [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Sostituzioni di caratteri da usare durante il rendering Lettura/Scrittura [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Rappresenta la collezione di regole FontFallBack dell'utente per la gestione delle collezioni di font per corrette sostituzioni tramite funzionalità di fallback Lettura/scrittura [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Sostituzioni di font da utilizzare durante il rendering Lettura/scrittura [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | Specifica se i font registrati devono essere preferiti rispetto ai font incorporati con lo stesso nome e stile. Quando abilitato, i font incorporati corrispondenti vengono temporaneamente sostituiti con i font registrati corrispondenti durante l'esportazione. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Aggiunge il carattere incorporato. Tieni presente che la maggior parte dei caratteri è protetta da copyright. Prima individua la licenza di un carattere in anticipo e verifica che possa essere trasferita liberamente a un altro computer. Un'ArgumentException può essere generata se i dati del carattere sono null o se questo carattere è già incorporato. |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Aggiunge il carattere incorporato. Tieni presente che la maggior parte dei caratteri è protetta da copyright. Prima individua la licenza di un carattere in anticipo e verifica che possa essere trasferita liberamente a un altro computer. Un'ArgumentException può essere generata se i dati del carattere sono null o se questo carattere è già incorporato. |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Restituisce i caratteri incorporati nella presentazione |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Recupera l'array di byte che rappresenta i dati del carattere per uno stile di carattere e dati del carattere specificati. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Determina il livello di incorporamento di un carattere dall'array di byte fornito e dal nome del carattere. |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Restituisce i caratteri utilizzati nella presentazione |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Ottiene le informazioni sui caratteri che saranno sostituiti durante il rendering della presentazione. |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Ottiene le informazioni sui caratteri che saranno sostituiti durante il rendering delle diapositive specificate. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Rimuove il carattere incorporato |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Sostituisce il carattere nella presentazione utilizzando le informazioni fornite in [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Sostituisce il carattere nella presentazione utilizzando le informazioni fornite nella raccolta di [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Sostituisce il carattere nella presentazione |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Aggiunge il font incorporato. Tieni presente che la maggior parte dei font è protetta da copyright. Prima individua la licenza di un font e verifica che possa essere trasferita liberamente a un'altra macchina. Un'ArgumentException può essere sollevata se i dati del font sono null o se questo font è già incorporato |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Aggiunge il font incorporato. Tieni presente che la maggior parte dei font è protetta da copyright. Prima individua la licenza di un font e verifica che possa essere trasferita liberamente a un'altra macchina. Un'ArgumentException può essere sollevata se i dati del font sono null o se questo font è già incorporato |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Restituisce i font incorporati nella presentazione |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Recupera l'array di byte che rappresenta i dati del font per uno stile di font e dati del font specificati. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Determina il livello di incorporamento di un font dall'array di byte fornito e dal nome del font. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Restituisce i font utilizzati nella presentazione |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Ottiene le informazioni sui font che saranno sostituiti durante il rendering della presentazione. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Ottiene le informazioni sui font che saranno sostituiti durante il rendering delle diapositive specificate. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Rimuove il font incorporato |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Sostituisce il font nella presentazione utilizzando le informazioni fornite in [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Sostituisce il font nella presentazione utilizzando le informazioni fornite nella collezione di [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Sostituisce il font nella presentazione |
 
 ### Vedi anche
 

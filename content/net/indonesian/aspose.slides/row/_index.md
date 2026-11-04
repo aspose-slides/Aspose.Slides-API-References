@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili baris dalam tabel.
+second_title: Aspose.Sildes for .NET Referensi API
+description: Mewakili sebuah baris dalam tabel.
 type: docs
-weight: 9710
+weight: 9730
 url: /id/aspose.slides/row/
 ---
-## Row kelas
+## Kelas Row
 
-Mewakili baris dalam tabel.
+Mewakili sebuah baris dalam tabel.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -20,9 +20,9 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Mengembalikan jumlah sel dalam koleksi. Baca-saja Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Mengembalikan tinggi baris. Baca-saja Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Mengembalikan sel berdasarkan posisinya. Baca-saja [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Mengembalikan atau mengatur tinggi minimal yang mungkin untuk baris. Baca/tulis Double. |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Mengembalikan atau mengatur tinggi minimal yang mungkin untuk sebuah baris. Baca/tulis Double. |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Mengembalikan presentasi induk dari CellCollection. Baca-saja [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Mengembalikan objek RowFormat yang berisi properti pemformatan untuk baris ini. Baca-saja [`IRowFormat`](../irowformat). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Mengembalikan slide induk dari CellCollection. Baca-saja [`IBaseSlide`](../ibaseslide). |
@@ -33,10 +33,10 @@ public sealed class Row : CellCollection, IRow
 | Nama | Deskripsi |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Mengatur properti format paragraf yang ditentukan ke semua paragraf sel baris. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Mengatur properti format bagian yang ditentukan ke semua bagian sel baris. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Mengatur properti format bingkai teks yang ditentukan ke semua bingkai teks sel baris. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi melalui koleksi. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Menetapkan properti format paragraf yang ditentukan ke semua paragraf sel baris. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Menetapkan properti format bagian yang ditentukan ke semua bagian sel baris. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Menetapkan properti format bingkai teks yang ditentukan ke semua bingkai teks sel baris. |
 
 ### Lihat Juga
 

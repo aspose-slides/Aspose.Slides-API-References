@@ -3,7 +3,7 @@ title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Summary Zoom Section-Objekten dar.
 type: docs
-weight: 7170
+weight: 7190
 url: /de/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection Schnittstelle
@@ -18,19 +18,19 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Ruft das Element am angegebenen Index ab. Schreibgeschützt [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Erstellt ein neues Summary Zoom Section-Objekt und fügt es der Sammlung hinzu |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Erstellt ein neues Summary Zoom Section-Objekt und fügt es der Sammlung hinzu. |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Entfernt alle SummaryZoomSection-Objekte aus der Sammlung. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Gibt das Summary Zoom Section-Element für den angegebenen Abschnitt zurück. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Gibt das Summary Zoom Section-Element für die angegebene Section zurück. |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Gibt den Index des angegebenen SummaryZoomSection-Objekts zurück. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Entfernt das Summary Zoom Section-Objekt aus der Sammlung. |
 
-### Siehe auch
+### Sie Sieh auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * Schnittstelle [ISummaryZoomSection](../isummaryzoomsection)

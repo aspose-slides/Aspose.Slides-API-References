@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
-second_title: Aspose.Sildes .NET API referencia
-description: Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szövegérték felülírja a diagramcímke automatikusan generált szövegét. A diagramcímke automatikusan generált szövege olyan szöveget jelent, amelyet a ShowSeriesName, ShowValue ... tulajdonságok kezelnek, és a TextFormatManager.TextFormat tulajdonsággal formáznak. Csak olvasható ITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szövegérték felülírja az adatcímke automatikusan generált szövegét. Az adatcímke automatikusan generált szövege olyan szöveg, amelyet a ShowSeriesName és a ShowValue ... tulajdonságok kezelnek, és amelyet a TextFormatManager.TextFormat tulajdonság formáz. Csak olvasható ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /hu/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding tulajdonság
 
-Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szövegérték felülírja a diagramcímke automatikusan generált szövegét. A diagramcímke automatikusan generált szövege olyan szöveget jelent, amelyet a ShowSeriesName, ShowValue, ... tulajdonságok kezelnek, és a TextFormatManager.TextFormat tulajdonsággal formázzák. Csak olvasható [`ITextFrame`](../../../aspose.slides/itextframe).
+Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szövegérték felülírja az adatcímke automatikusan generált szövegét. Az adatcímke automatikusan generált szövege olyan szöveget jelent, amelyet a ShowSeriesName, ShowValue, ... tulajdonságok kezelnek, és amelyet a TextFormatManager.TextFormat tulajdonság formáz. Csak olvasható [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes for .NET API Referansı
-description: Matematik sınır kutusu oluşturmaya izin verir
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir matematik kenar kutusu oluşturmayı sağlar
 type: docs
-weight: 8180
+weight: 8200
 url: /tr/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory arayüz
 
-Matematik sınır kutusu oluşturmak için izin verir
+Matematik kenar kutusu oluşturmayı sağlar
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Eleman üzerine uygulayarak bir matematik sınır kutusu oluşturur |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Eleman üzerine uygulayarak bir matematik sınır kutusu oluşturur |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Elemanın üzerine uygulayarak bir matematik kenar kutusu oluşturur |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Elemanın üzerine uygulayarak bir matematik kenar kutusu oluşturur |
 
 ### Açıklamalar
 

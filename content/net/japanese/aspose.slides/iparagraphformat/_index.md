@@ -1,15 +1,14 @@
 ---
 title: IParagraphFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このクラスは段落書式プロパティを含みます。IParagraphFormatEffectiveData./iparagraphformateffectivedataとは異なり、このクラスのすべてのプロパティは書き込み可能です。
+description: このクラスは段落書式プロパティを含みます。IParagraphFormatEffectiveData./iparagraphformateffectivedata とは異なり、このクラスのすべてのプロパティは書き込み可能です。
 type: docs
-weight: 6590
+weight: 6610
 url: /ja/aspose.slides/iparagraphformat/
 ---
-
 ## IParagraphFormat インターフェイス
 
-このクラスは段落書式プロパティを含みます。[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)とは異なり、このクラスのすべてのプロパティは書き込み可能です。
+このクラスは段落書式プロパティを含みます。[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) とは異なり、このクラスのすべてのプロパティは書き込み可能です。
 
 ```csharp
 public interface IParagraphFormat
@@ -17,35 +16,35 @@ public interface IParagraphFormat
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | 段落のテキスト配置を取得または設定します（継承なし）。読み書き可能 [`TextAlignment`](../textalignment)。 |
+| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | 段落のテキスト配置を取得または設定します（継承なし）。読み書き [`TextAlignment`](../textalignment)。 |
 | [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | 段落の箇条書き形式を取得します。読み取り専用 [`IBulletFormat`](../ibulletformat)。 |
 | [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | 段落のデフォルト部分書式を取得します。継承は適用されません。読み取り専用 [`IPortionFormat`](../iportionformat)。 |
-| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | デフォルトのタブ幅を取得または設定します（継承なし）。読み書き可能 Single。 |
-| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | 段落の深さを取得または設定します。値 0 は未定義を意味します。読み書き可能 Int16。 |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
-| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | 段落のフォント配置を取得または設定します（継承なし）。読み書き可能 [`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | 段落でハンギング句読点が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
-| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | 段落の最初行インデント/ハンギングインデントを取得または設定します（継承なし）。ハンギングインデントは負の値で定義できます。読み書き可能 Single。 |
-| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | 段落でラテン文字の改行が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
-| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | 段落の左余白を取得または設定します（継承なし）。読み書き可能 Single。 |
-| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | 段落の右余白を取得または設定します（継承なし）。読み書き可能 Single。 |
-| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | 段落で右から左への書字が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
-| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | 段落の最終行の後の余白量を取得または設定します（継承なし）。正の値はフォントサイズに対する割合で余白を指定し、負の値はポイントサイズで余白を指定します。読み書き可能 Single。 |
-| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | 段落の最初行の前の余白量を取得または設定します（継承なし）。正の値はフォントサイズに対する割合で余白を指定し、負の値はポイントサイズで余白を指定します。読み書き可能 Single。 |
-| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | 段落のベースライン間の余白量を取得または設定します。正の値は割合、負の値はポイントサイズです。継承は適用されません。読み書き可能 Single。 |
+| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | 継承なしでデフォルトタブ幅を取得または設定します。読み書き Single。 |
+| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | 段落の深さを取得または設定します。値 0 は未定義値を意味します。読み書き Int16。 |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されるかどうかを決定します。継承は適用されません。読み書き [`NullableBool`](../nullablebool)。 |
+| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | 継承なしで段落のフォント配置を取得または設定します。読み書き [`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | 段落でハング付加句読点が使用されるかどうかを決定します。継承は適用されません。読み書き [`NullableBool`](../nullablebool)。 |
+| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | 継承なしで段落の最初の行インデント/ハングインデントを取得または設定します。ハングインデントは負の値で定義できます。読み書き Single。 |
+| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | 段落でラテン文字の改行が使用されるかどうかを決定します。継承は適用されません。読み書き [`NullableBool`](../nullablebool)。 |
+| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | 継承なしで段落の左余白を取得または設定します。読み書き Single。 |
+| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | 継承なしで段落の右余白を取得または設定します。読み書き Single。 |
+| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | 段落で右から左への書字が使用されるかどうかを決定します。継承は適用されません。読み書き [`NullableBool`](../nullablebool)。 |
+| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | 継承なしで段落の最終行後の余白量を取得または設定します。正の値はフォントサイズのパーセンテージで余白を指定し、負の値はポイントサイズで余白を指定します。読み書き Single。 |
+| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | 継承なしで段落の最初の行前の余白量を取得または設定します。正の値はフォントサイズのパーセンテージで余白を指定し、負の値はポイントサイズで余白を指定します。読み書き Single。 |
+| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | 段落の基線間の余白量を取得または設定します。正の値はパーセンテージ、負の値はポイント単位のサイズを意味します。継承は適用されません。読み書き Single。 |
 | [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | 段落のタブ設定を取得します。継承は適用されません。読み取り専用 [`ITabCollection`](../itabcollection)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | 継承が適用された有効な段落書式データを取得します。 |
 
 ### 備考
 
-このクラスは、特定の段落に対して定義された段落書式プロパティを取得および操作するために使用されます。取得時に継承が適用されないため、ほとんどの場合「未定義」の値が得られます。
+このクラスは、特定の段落に対して定義された段落書式プロパティを取得および操作するために使用されます。値を取得する際に継承が適用されないため、ほとんどの場合「未定義」の値が取得されます。
 
 継承を含む有効な書式パラメータ値を取得するには、[`GetEffective`](./geteffective) メソッドを使用します。このメソッドは [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) インスタンスを返します。
 

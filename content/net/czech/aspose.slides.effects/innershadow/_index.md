@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje efekt vnitřního stínu.
+second_title: Reference API pro Aspose.Sildes pro .NET
+description: Představuje efekt vnitřního stínu.
 type: docs
-weight: 3600
+weight: 3620
 url: /cs/aspose.slides.effects/innershadow/
 ---
-## třída InnerShadow
+## InnerShadow třída
 
-Reprezentuje efekt vnitřního stínu.
+Představuje efekt vnitřního stínu.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -21,14 +21,14 @@ public sealed class InnerShadow : IInnerShadow
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Poloměr rozostření. Čtení/zápis Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Směr stínu. Čtení/zápis Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Vzdálenost stínu. Čtení/zápis Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Barva stínu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Barva stínu. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Určuje, zda je zadaný [`InnerShadow`](../innershadow) roven aktuálnímu [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Získá efektivní data efektu vnitřního stínu s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Získá data efektu Inner Shadow s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

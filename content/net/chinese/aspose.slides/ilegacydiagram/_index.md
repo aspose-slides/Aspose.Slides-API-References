@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示一个旧版 diagram 对象
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示一个传统图表对象
 type: docs
-weight: 6250
+weight: 6270
 url: /zh/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram 接口
 
-表示一个旧版 diagram 对象
+表示一个传统图表对象
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,16 +18,16 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 将旧版 diagram 转换为可编辑的组形状。创建的 GroupShape 对象会添加到父组形状的相同位置。 |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 将旧版 diagram 转换为可编辑的 SmartArt 对象。创建的 SmartArt 对象会添加到父组形状的相同位置。 |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 将传统图表转换为可编辑的组形状。创建的 GroupShape 对象会添加到父组形状的相同位置。 |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 将传统图表转换为可编辑的 SmartArt 对象。创建的 SmartArt 对象会添加到父组形状的相同位置。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGraphicalObject](../igraphicalobject)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

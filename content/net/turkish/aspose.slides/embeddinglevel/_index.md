@@ -3,10 +3,10 @@ title: EmbeddingLevel
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yazı tipinin gömülmesi için lisans haklarını temsil eder.
 type: docs
-weight: 3670
-url: /tr/aspose.slides/embeddingleert/ 
+weight: 3690
+url: /tr/aspose.slides/embeddinglevel/
 ---
-## EmbeddingLevel enum
+## EmbeddingLevel enumerasyonu
 
 Yazı tipinin gömülmesi için lisans haklarını temsil eder.
 
@@ -19,14 +19,14 @@ public enum EmbeddingLevel : ushort
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Installable | `0` | Bu ayara sahip yazı tipleri, bir uygulama tarafından uzaktan sisteme gömülebileceğini ve kalıcı olarak kurulabileceğini gösterir. Uzaktan sistemin kullanıcısı, o yazı tipinin orijinal alıcısı gibi aynı hakları, yükümlülükleri ve lisansları elde eder ve orijinal alıcıya uygulanan aynı son-kullanıcı lisans anlaşması, telif hakkı, tasarım patenti ve/veya ticari marka kapsamında olur. |
-| Restricted | `2` | Yalnızca bu bit ayarlı olan yazı tipleri, yasal sahibinden izin alınmadan hiçbir şekilde değiştirilemez, gömülemez veya değiş tokuş edilemez. |
-| PreviewPrint | `4` | Bu bit ayarlı olduğunda, yazı tipi gömülebilir ve uzaktan sistemde geçici olarak yüklenebilir. Önizleme &amp; Yazdırma yazı tiplerini içeren belgeler "salt-okunur" olarak açılmalıdır; belgeye herhangi bir düzenleme yapılamaz. |
-| Editable | `8` | Bu bit ayarlı olduğunda, yazı tipi gömülebilir ancak diğer sistemlerde yalnızca geçici olarak kurulmalıdır. Önizleme &amp; Yazdırma yazı tiplerinin tersine, Editable yazı tiplerini içeren belgeler okunmak için açılabilir, düzenlemeye izin verilir ve değişiklikler kaydedilebilir. |
-| NoSubsetting | `100` | Bu bit ayarlı olduğunda, yazı tipi gömülmeden önce alt küme haline getirilemez. Bit 0-3 ve 9’da belirtilen diğer gömme kısıtlamaları da uygulanır. |
-| BitmapOnly | `200` | Bu bit ayarlı olduğunda, sadece yazı tipinde bulunan bitmapler gömülebilir. Çizim (outline) verisi gömülemez. Yazı tipinde bitmap bulunmuyorsa, yazı tipi gömülemez kabul edilir ve gömme hizmetleri başarısız olur. |
+| Installable | `0` | Bu ayara sahip yazı tipleri, bir uygulama tarafından uzak sistemde gömülebileceğini ve kalıcı olarak kurulabileceğini gösterir. Uzak sistemin kullanıcısı, bu yazı tipinin orijinal alıcısı gibi aynı hakları, yükümlülükleri ve lisansları edinir ve orijinal alıcıya uygulanan aynı son kullanıcı lisans anlaşması, telif hakkı, tasarım patenti ve/veya ticari marka koşullarına tabidir. |
+| Restricted | `2` | Yalnızca bu bit ayarlı olan yazı tipleri, yasal sahibinden önceden izin alınmadan hiçbir şekilde değiştirilemez, gömülemez veya değiş tokuş edilemez. |
+| PreviewPrint | `4` | Bu bit ayarlı olduğunda, yazı tipi gömülebilir ve uzak sistemde geçici olarak yüklenebilir. Preview &amp; Print yazı tiplerini içeren belgeler "salt okunur" olarak açılmalıdır; belgeye hiçbir düzenleme uygulanamaz. |
+| Editable | `8` | Bu bit ayarlı olduğunda, yazı tipi gömülebilir ancak yalnızca diğer sistemlerde geçici olarak kurulabilir. Preview &amp; Print yazı tiplerinin aksine, Editable yazı tiplerini içeren belgeler okuma amaçlı açılabilir, düzenleme izni vardır ve değişiklikler kaydedilebilir. |
+| NoSubsetting | `100` | Bu bit ayarlı olduğunda, yazı tipi gömülmeden önce alt küme oluşturulamaz. Bit 0-3 ve 9’da belirtilen diğer gömme kısıtlamaları da geçerlidir. |
+| BitmapOnly | `200` | Bu bit ayarlı olduğunda, yalnızca yazı tipinde bulunan bitmapler gömülebilir. Kontur verileri gömülemez. Yazı tipinde bitmap bulunmuyorsa, yazı tipi gömülemez olarak kabul edilir ve gömme hizmetleri başarısız olur. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

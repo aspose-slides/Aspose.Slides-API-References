@@ -1,15 +1,14 @@
 ---
 title: ColorValue
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает значение цвета элемента данных графика. Используется с картами. Только для чтения IDoubleChartValueaspose.slides/idoublechartvalue.
+second_title: Aspose.Sildes для .NET справочник API
+description: Возвращает значение цвета точки данных диаграммы. Используется с картографическими диаграммами. Только для чтения IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /ru/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
+## ChartDataPoint.ColorValue свойство
 
-## Свойство ChartDataPoint.ColorValue
-
-Возвращает значение цвета элемента данных графика. Используется с картами. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
+Возвращает значение цвета точки данных диаграммы. Используется с картографическими диаграммами. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

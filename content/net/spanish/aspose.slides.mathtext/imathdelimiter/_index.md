@@ -1,12 +1,12 @@
 ---
 title: IMathDelimiter
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica el objeto delimitador que consta de caracteres de apertura y cierre, como paréntesis, llaves, corchetes y barras verticales, y uno o más elementos matemáticos dentro, separados por un carácter especificado. Ejemplos 2 2x7C2
+description: Especifica el objeto delimitador que consiste en caracteres de apertura y cierre, como paréntesis, llaves, corchetes y barras verticales, y uno o más elementos matemáticos dentro, separados por un carácter especificado. Ejemplos 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /es/aspose.slides.mathtext/imathdelimiter/
 ---
-## interfaz IMathDelimiter
+## IMathDelimiter interfaz
 
 Especifica el objeto delimitador, que consiste en caracteres de apertura y cierre (como paréntesis, llaves, corchetes y barras verticales), y uno o más elementos matemáticos dentro, separados por un carácter especificado. Ejemplos: (𝑥2); [𝑥2&#x7C;𝑦2]
 
@@ -20,10 +20,10 @@ public interface IMathDelimiter : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Uno o más elementos matemáticos separados por caracteres delimitadores |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | El carácter de inicio del delimitador especifica el carácter delimitador de apertura. Los delimitadores matemáticos son caracteres envolventes como paréntesis, corchetes y llaves. Valor predeterminado: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Especifica la forma de los delimitadores en el objeto delimitador. Cuando es MathDelimiterShape.Centered, los delimitadores se centran alrededor del eje matemático del texto y aún pueden ajustarse para ocupar toda la altura de su contenido. Cuando es MathDelimiterShape.Match, su altura y forma se modifican para coincidir exactamente con su contenido. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | El carácter de fin del delimitador especifica el carácter delimitador de cierre. Los delimitadores matemáticos son caracteres envolventes como paréntesis, corchetes y llaves. Valor predeterminado: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Especifica el crecimiento de BeginningCharacter, SeparatorCharacter y EndingCharacter. Cuando es true, los delimitadores crecen verticalmente para coincidir con la altura del operando. El valor predeterminado es true |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | El carácter de inicio del delimitador especifica el carácter delimitador inicial, o de apertura. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. Valor predeterminado: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Especifica la forma de los delimitadores en el objeto delimitador. Cuando es MathDelimiterShape.Centered, los delimitadores se centran alrededor del eje matemático del texto y pueden adaptarse para cubrir toda la altura de su contenido. Cuando es MathDelimiterShape.Match, su altura y forma se modifican para coincidir exactamente con su contenido. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | El carácter de fin del delimitador especifica el carácter delimitador final, o de cierre. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. Valor predeterminado: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Especifica el crecimiento de BeginningCharacter, SeparatorCharacter, EndingCharacter. Cuando es true, los delimitadores crecen verticalmente para coincidir con la altura del operando. El valor predeterminado es true |
 | [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | El carácter separador del delimitador especifica el carácter que separa los argumentos en el objeto delimitador. Valor predeterminado: '&#x7C;'. |
 
 ## Métodos

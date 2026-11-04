@@ -1,14 +1,14 @@
 ---
 title: TransitionMorphType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Typ von Morph-Transition dar.
+description: Stellt einen Typ eines Morph-Übergangs dar.
 type: docs
-weight: 10390
+weight: 10410
 url: /de/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType Aufzählung
 
-Stellt einen Typ von Morph-Transition dar.
+Stellt einen Typ eines Morph-Übergangs dar.
 
 ```csharp
 public enum TransitionMorphType
@@ -18,9 +18,9 @@ public enum TransitionMorphType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| ByObject | `0` | Die Morph-Transition wird durchgeführt, indem Formen als unteilbare Objekte betrachtet werden. |
-| ByWord | `1` | Die Morph-Transition wird durchgeführt, indem Text nach Möglichkeit Wort für Wort übertragen wird. |
-| ByChar | `2` | Die Morph-Transition wird durchgeführt, indem Text nach Möglichkeit Zeichenweise übertragen wird. |
+| ByObject | `0` | Der Morph-Übergang wird durchgeführt, wobei Formen als unteilbare Objekte betrachtet werden. |
+| ByWord | `1` | Der Morph-Übergang wird durchgeführt, indem Text nach Möglichkeit Wort für Wort übertragen wird. |
+| ByChar | `2` | Der Morph-Übergang wird durchgeführt, indem Text nach Möglichkeit Zeichenweise übertragen wird. |
 
 ### Siehe auch
 

@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справка по API
 description: Позволяет создавать абзацы
 type: docs
-weight: 6580
+weight: 6600
 url: /ru/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory интерфейс
@@ -25,7 +25,7 @@ public interface IParagraphFactory
 
 Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

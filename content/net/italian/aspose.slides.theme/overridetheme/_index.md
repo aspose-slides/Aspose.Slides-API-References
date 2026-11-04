@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un tema sovrascrivente.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un tema di sovrascrittura.
 type: docs
-weight: 11460
+weight: 11480
 url: /it/aspose.slides.theme/overridetheme/
 ---
 ## OverrideTheme classe
 
-Rappresenta un tema sovrascrivente.
+Rappresenta un tema di override.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -18,10 +18,10 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 | Nome | Descrizione |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Restituisce il ColorScheme. Solo lettura [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Restituisce il FontScheme. Solo lettura [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Restituisce il FormatScheme. Solo lettura [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme è null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Solo lettura Boolean. |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Restituisce lo schema dei colori. Solo lettura [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Restituisce lo schema dei caratteri. Solo lettura [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Restituisce lo schema di formattazione delle forme. Solo lettura [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme sono null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Solo lettura Boolean. |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Restituisce la presentazione padre. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metodi
@@ -29,7 +29,7 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 | Nome | Descrizione |
 | --- | --- |
 | [Clear](../../aspose.slides.theme/overridetheme/clear)() | Imposta ColorScheme, FontScheme, FormatScheme a null per disabilitare qualsiasi sovrascrittura con questo oggetto tema. |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Ottiene i dati del tema effettivo con l'ereditarietà applicata. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Ottiene i dati del tema efficace con l'ereditarietà applicata. |
 | [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | Inizializza ColorScheme con un nuovo oggetto per sovrascrivere ColorScheme di InheritedTheme. |
 | [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | Inizializza ColorScheme con un nuovo oggetto per sovrascrivere ColorScheme di InheritedTheme. |
 | [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | Inizializza ColorScheme con un nuovo oggetto per sovrascrivere ColorScheme di InheritedTheme. E inizializza i dati di questo nuovo oggetto con i dati del ColorScheme di InheritedTheme. |

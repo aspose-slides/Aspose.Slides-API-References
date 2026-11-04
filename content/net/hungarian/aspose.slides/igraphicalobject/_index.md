@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes .NET API referencia
-description: Absztrakt grafikus objektumot reprezentál.
+second_title: Aspose.Sildes a .NET-hez API hivatkozás
+description: Absztrakt grafikus objektumot képvisel.
 type: docs
-weight: 6060
+weight: 6080
 url: /hu/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject interfész
 
-Absztrakt grafikus objektumot reprezentál.
+Absztrakt grafikus objektumot képvisel.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,7 +18,7 @@ public interface IGraphicalObject : IShape
 
 | Név | Leírás |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Lehetővé teszi az alap IShape interfész lekérdezését. Csak olvasható [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Lehetővé teszi az alap IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
 | [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Visszaadja a shape zárolásait. Csak olvasható [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 | [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Visszaadja a shape zárolásait. Csak olvasható [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 

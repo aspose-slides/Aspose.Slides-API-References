@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta un oggetto di inchiostro su una diapositiva.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta un oggetto inchiostro su una diapositiva.
 type: docs
-weight: 7510
+weight: 7530
 url: /it/aspose.slides.ink/iink/
 ---
-## Interfaccia IInk
+## IInk interfaccia
 
-Rappresenta un oggetto di inchiostro su una diapositiva.
+Rappresenta un oggetto inchiostro su una diapositiva.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia di base IGraphicalObject. Sola lettura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Restituisce tutte le tracce contenute nell'elemento IInk [`IInkTrace`](../iinktrace). Sola lettura. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Sola lettura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Recupera tutte le tracce contenute nell'elemento IInk [`IInkTrace`](../iinktrace). Sola lettura. |
 
 ### Vedi anche
 

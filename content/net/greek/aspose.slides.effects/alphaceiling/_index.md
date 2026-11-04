@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes για .NET API Reference
-description: Αναπαριστά ένα εφέ Alpha Ceiling. Οι τιμές διαφάνειας Alpha που είναι μεγαλύτερες του μηδενός αλλάζουν σε 100. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά ένα εφέ Alpha Ceiling. Οι τιμές αδιαφάνειας Alpha μεγαλύτερες του μηδενός μετατρέπονται σε 100. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
 type: docs
-weight: 2850
+weight: 2870
 url: /el/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling κλάση
 
-Αναπαριστά ένα εφέ Alpha Ceiling. Οι τιμές Alpha (διαφάνειας) μεγαλύτερες του μηδενός αλλάζουν σε 100%. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
+Αναπαριστά ένα εφέ Alpha Ceiling. Οι τιμές Alpha (αδιαφάνειας) μεγαλύτερες του μηδενός μετατρέπονται σε 100%. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -16,22 +16,22 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Καθορίζει εάν το καθορισμένο [`AlphaCeiling`](../alphaceiling) είναι ίσο με το τρέχον [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα του εφέ Alpha Ceiling με την εφαρμογή της κληρονομικότητας. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Καθορίζει αν το συγκεκριμένο [`AlphaCeiling`](../alphaceiling) είναι ίσο με το τρέχον [`AlphaCeiling`](../alphaceiling). |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα του εφέ Alpha Ceiling με την κληρονομική εφαρμογή. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 
 * κλάση [ImageTransformOperation](../imagetransformoperation)
-* διασύνδεση [IAlphaCeiling](../ialphaceiling)
+* διεπαφή [IAlphaCeiling](../ialphaceiling)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συγκρότηση [Aspose.Slides](../../)
 

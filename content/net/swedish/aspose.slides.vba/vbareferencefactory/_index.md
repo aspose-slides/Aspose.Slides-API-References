@@ -3,7 +3,7 @@ title: VbaReferenceFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa VBA-projektreferenser via COM-gränssnitt
 type: docs
-weight: 11680
+weight: 11700
 url: /sv/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory klass
@@ -18,19 +18,19 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | Standardkonstruktören. |
+| [VbaReferenceFactory](vbareferencefactory)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA projektreferensfabrik statisk instans. Skrivskyddad [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA-projektreferenser fabrik statisk instans. Läs-endast [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Skapar en ny OLE Automation-tydbibliotekreferens. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Skapar en ny OLE-Automation typbiblioteksreferens. |
 
 ### Se även
 

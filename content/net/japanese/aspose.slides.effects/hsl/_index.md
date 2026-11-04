@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
+description: Hue/Saturation/Luminance 効果を表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
 type: docs
-weight: 3010
+weight: 3030
 url: /ja/aspose.slides.effects/hsl/
 ---
 ## HSL クラス
 
-Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
+Hue/Saturation/Luminance 効果を表します。色相、彩度、および輝度はそれぞれ現在の値に対して相対的に調整できます。
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -16,16 +16,16 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 指定された [`HSL`](../hsl) が現在の [`HSL`](../hsl) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 継承が適用された有効な Hue/Saturation/Luminance エフェクト データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 継承が適用された有効な Hue/Saturation/Luminance 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

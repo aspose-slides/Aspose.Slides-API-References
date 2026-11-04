@@ -1,14 +1,14 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes для .NET — справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет параметры экспорта GIF.
 type: docs
-weight: 3920
+weight: 3940
 url: /ru/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions интерфейс
 
-Представляет параметры экспорта GIF.
+Represents GIF exporting options.
 
 ```csharp
 public interface IGifOptions : ISaveOptions
@@ -18,11 +18,11 @@ public interface IGifOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Возвращает ISaveOptions интерфейс. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Получает или задает время задержки по умолчанию [ms]. Это значение будет использовано, если [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) не задано. Значение по умолчанию равно 1000. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортированы скрытые слайды. Значение по умолчанию равно false. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Получает или задает время задержки по умолчанию [ms]. Это значение будет использовано, если [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) не установлен. Значение по умолчанию равно 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортированы скрытые слайды. Значение по умолчанию — false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Получает или задает размер кадра. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Получает или задает FPS перехода [frames/sec]. Значение по умолчанию равно 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Получает или задает FPS перехода [frames/sec] Значение по умолчанию равно 25. |
 
 ### См. также
 

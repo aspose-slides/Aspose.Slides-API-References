@@ -1,12 +1,12 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce l'operazione di trasformazione del colore.
 type: docs
-weight: 2570
+weight: 2590
 url: /it/aspose.slides/colortransformoperation/
 ---
-## enumerazione ColorTransformOperation
+## Enumerazione ColorTransformOperation
 
 Definisce l'operazione di trasformazione del colore.
 
@@ -18,34 +18,34 @@ public enum ColorTransformOperation
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Tint | `0` | Applica una tinta al colore. Il parametro è compreso tra 0 (colore originale) e 1 (bianco). |
-| Shade | `1` | Applica una sfumatura al colore. Il parametro è compreso tra 0 (colore originale) e 1 (nero). |
+| Tint | `0` | Tinge il colore. Il parametro è compreso tra 0 (colore originale) e 1 (bianco). |
+| Shade | `1` | Oscura il colore. Il parametro è compreso tra 0 (colore originale) e 1 (nero). |
 | Complement | `2` | Cambia il colore in uno complementare RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Cambia il colore in un colore invertito. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Cambia il colore in un grigio con la stessa luminosità. Il parametro è ignorato. |
+| Grayscale | `4` | Cambia il colore in una tonalità di grigio con la stessa luminosità. Parametro ignorato. |
 | SetAlpha | `5` | Definisce un componente alfa del colore. Il parametro è compreso tra 0 (trasparente) e 1 (opaco). |
-| AddAlpha | `6` | Aggiunge il valore del parametro a un componente alfa del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplyAlpha | `7` | Moltiplica un componente alfa per il valore del parametro. |
-| SetHue | `8` | Cambia un componente tonalità del colore al valore del parametro. Il parametro è compreso tra 0 e 360. |
+| AddAlpha | `6` | Aggiunge il valore di un parametro a un componente alfa del colore. Il parametro è compreso tra -1 e 1. |
+| MultiplyAlpha | `7` | Moltiplica un componente alfa per il valore di un parametro. |
+| SetHue | `8` | Cambia il componente tonalità del colore al valore di un parametro. Il parametro è compreso tra 0 e 360. |
 | AddHue | `9` | Aggiunge il valore del parametro al componente tonalità del colore. Il parametro è compreso tra -360 e 360. |
-| MultiplyHue | `10` | Moltiplica un componente tonalità per il valore del parametro. |
-| SetSaturation | `11` | Cambia un componente saturazione del colore al valore del parametro. Il parametro è compreso tra 0 e 1. |
+| MultiplyHue | `10` | Moltiplica un componente tonalità per il valore di un parametro. |
+| SetSaturation | `11` | Cambia il componente saturazione del colore al valore di un parametro. Il parametro è compreso tra 0 e 1. |
 | AddSaturation | `12` | Aggiunge il valore del parametro a un componente saturazione del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplySaturation | `13` | Moltiplica un componente saturazione per il valore del parametro. |
-| SetLuminance | `14` | Cambia un componente luminanza del colore al valore del parametro. Il parametro è compreso tra 0 e 1. |
+| MultiplySaturation | `13` | Moltiplica un componente saturazione per il valore di un parametro. |
+| SetLuminance | `14` | Cambia il componente luminanza del colore al valore di un parametro. Il parametro è compreso tra 0 e 1. |
 | AddLuminance | `15` | Aggiunge il valore del parametro a un componente luminanza del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplyLuminance | `16` | Moltiplica un componente luminanza per il valore del parametro. |
-| SetRed | `17` | Cambia un componente rosso del colore al valore del parametro. Il parametro è compreso tra 0 e 1. |
+| MultiplyLuminance | `16` | Moltiplica un componente luminanza per il valore di un parametro. |
+| SetRed | `17` | Cambia il componente rosso del colore al valore di un parametro. Il parametro è compreso tra 0 e 1. |
 | AddRed | `18` | Aggiunge il valore del parametro a un componente rosso del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplyRed | `19` | Moltiplica un componente rosso per il parametro. |
-| SetGreen | `20` | Cambia un componente verde del colore al valore del parametro. Il parametro è compreso tra 0 e 1. |
-| AddGreen | `21` | Aggiunge il parametro a un componente verde del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplyGreen | `22` | Moltiplica un componente verde del colore per il valore del parametro. |
-| SetBlue | `23` | Cambia un componente blu del colore al valore del parametro. Il parametro è compreso tra 0 e 360. |
+| MultiplyRed | `19` | Moltiplica un componente rosso per un parametro. |
+| SetGreen | `20` | Cambia il componente verde del colore al valore di un parametro. Il parametro è compreso tra 0 e 1. |
+| AddGreen | `21` | Aggiunge un parametro a un componente verde del colore. Il parametro è compreso tra -1 e 1. |
+| MultiplyGreen | `22` | Moltiplica un componente verde del colore per il valore di un parametro. |
+| SetBlue | `23` | Cambia il componente blu del colore al valore di un parametro. Il parametro è compreso tra 0 e 360. |
 | AddBlue | `24` | Aggiunge il valore del parametro a un componente blu del colore. Il parametro è compreso tra -1 e 1. |
-| MultiplyBlue | `25` | Moltiplica un componente blu per il valore del parametro. |
-| Gamma | `26` | Correzione gamma. Il parametro è ignorato. |
-| InverseGamma | `27` | Correzione gamma inversa. Il parametro è ignorato. |
+| MultiplyBlue | `25` | Moltiplica un componente blu del colore per il valore di un parametro. |
+| Gamma | `26` | Correzione gamma. Parametro ignorato. |
+| InverseGamma | `27` | Correzione gamma inversa. Parametro ignorato. |
 
 ### Vedi anche
 

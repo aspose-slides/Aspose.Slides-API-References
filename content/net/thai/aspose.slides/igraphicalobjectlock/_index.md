@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดว่าการดำเนินการใดบ้างที่ถูกปิดใช้งานบน GraphicalObjectEx พาเรนท์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: กำหนดว่าการดำเนินการใดถูกปิดการใช้งานบน GraphicalObjectEx พาเรนท์
 type: docs
-weight: 6070
+weight: 6090
 url: /th/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock อินเทอร์เฟซ
 
-กำหนดว่าการดำเนินการใดบ้างที่ถูกปิดใช้งานบน GraphicalObjectEx พาเรนท์
+กำหนดว่าการดำเนินการใดถูกปิดการทำงานบน GraphicalObjectEx พาเรนท์
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -16,11 +16,11 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseShapeLock พื้นฐาน. อ่านเท่านั้น [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนภาพเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | กำหนดว่าการเลือกซับเชปของออบเจกต์นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseShapeLock พื้นฐานได้. อ่านอย่างเดียว [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องคงอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | กำหนดว่าการเลือกซับชิพของวัตถุนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 | [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |

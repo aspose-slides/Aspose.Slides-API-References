@@ -1,12 +1,12 @@
 ---
 title: ColorType
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Справка API Aspose.Sildes для .NET
 description: Представляет различные режимы цвета.
 type: docs
-weight: 2580
+weight: 2600
 url: /ru/aspose.slides/colortype/
 ---
-## Перечисление ColorType
+## ColorType перечисление
 
 Представляет различные режимы цвета.
 
@@ -16,10 +16,10 @@ public enum ColorType
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Цвет не определён. |
-| RGB | `0` | Стандартный 24-битный цвет RGB. |
+| RGB | `0` | Стандартный 24-битный RGB-цвет. |
 | RGBPercentage | `1` | Цвет RGB высокой точности. |
 | HSL | `2` | Цвет HSL высокой точности. |
 | Scheme | `3` | Цвет схемы. |

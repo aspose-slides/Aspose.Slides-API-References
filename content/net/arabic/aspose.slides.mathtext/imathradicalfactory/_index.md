@@ -1,9 +1,9 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يسمح بإنشاء جذر رياضي
 type: docs
-weight: 8440
+weight: 8460
 url: /ar/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory واجهة
@@ -14,11 +14,11 @@ url: /ar/aspose.slides.mathtext/imathradicalfactory/
 public interface IMathRadicalFactory
 ```
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | ينشئ جذر رياضي |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | ينشئ جذرًا رياضيًا |
 
 ### ملاحظات
 

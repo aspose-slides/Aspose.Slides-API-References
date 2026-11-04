@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente un objet encre sur une diapositive.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un objet d'encre sur une diapositive.
 type: docs
-weight: 7520
+weight: 7540
 url: /fr/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions interface
 
-Représente un objet encre sur une diapositive.
+Représente un objet d'encre sur une diapositive.
 
 ```csharp
 public interface IInkActions : IGraphicalObject

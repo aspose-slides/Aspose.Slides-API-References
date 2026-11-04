@@ -3,10 +3,10 @@ title: HyperlinkColorSource
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje zdroj barvy hypertextového odkazu.
 type: docs
-weight: 5140
+weight: 5160
 url: /cs/aspose.slides/hyperlinkcolorsource/
 ---
-## Výčtový typ HyperlinkColorSource
+## HyperlinkColorSource výčet
 
 Reprezentuje zdroj barvy hypertextového odkazu.
 
@@ -18,7 +18,7 @@ public enum HyperlinkColorSource
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Styles | `0` | Styles. |
+| Styles | `0` | Styly. |
 | PortionFormat | `1` | Formát úseku. |
 
 ### Viz také

@@ -3,7 +3,7 @@ title: IAudio
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un archivo de audio incrustado.
 type: docs
-weight: 5210
+weight: 5230
 url: /es/aspose.slides/iaudio/
 ---
 ## IAudio interfaz
@@ -25,7 +25,7 @@ public interface IAudio
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Devuelve un flujo Stream para lectura. Use 'using' o cierre el flujo después de usarlo. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Devuelve un Stream para lectura. Use 'using' o cierre el stream después de usarlo. |
 
 ### Ver también
 

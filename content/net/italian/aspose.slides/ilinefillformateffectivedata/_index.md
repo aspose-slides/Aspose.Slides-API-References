@@ -3,10 +3,10 @@ title: ILineFillFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Oggetto immutabile che contiene le proprietà effettive di riempimento della linea.
 type: docs
-weight: 6300
+weight: 6320
 url: /it/aspose.slides/ilinefillformateffectivedata/
 ---
-## ILineFillFormatEffectiveData interfaccia
+## Interfaccia ILineFillFormatEffectiveData
 
 Oggetto immutabile che contiene le proprietà effettive di riempimento della linea.
 
@@ -20,8 +20,8 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Restituisce l'interfaccia IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Restituisce il tipo di riempimento. Solo lettura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Restituisce il formato di riempimento a gradiente. Solo lettura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Restituisce il formato di riempimento a motivo. Solo lettura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Restituisce il formato del riempimento gradiente. Solo lettura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Restituisce il formato del riempimento a trama. Solo lettura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Determina se il riempimento deve essere ruotato con una forma. Solo lettura Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Restituisce il colore di un riempimento solido. Solo lettura Color. |
 

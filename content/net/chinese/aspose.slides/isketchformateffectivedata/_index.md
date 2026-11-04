@@ -3,7 +3,7 @@ title: ISketchFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的线条草图属性。
 type: docs
-weight: 7030
+weight: 7050
 url: /zh/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData 接口
@@ -22,9 +22,9 @@ public interface ISketchFormatEffectiveData
 
 ### 备注
 
-此接口用作 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分。
+此接口用于 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

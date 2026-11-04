@@ -1,14 +1,14 @@
 ---
 title: Metered
-second_title: Aspose.Sildes для .NET справочник API
-description: Предоставляет методы для установки метричного ключа.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Предоставляет методы для установки метрированного ключа.
 type: docs
-weight: 9080
+weight: 9100
 url: /ru/aspose.slides/metered/
 ---
-## Metered класс
+## Класс Metered
 
-Предоставляет методы для установки метричного ключа.
+Предоставляет методы для установки метрированного ключа.
 
 ```csharp
 public class Metered
@@ -25,14 +25,14 @@ public class Metered
 | Имя | Описание |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Устанавливает публичный и приватный метрированный ключ. Если вы приобрели метрированную лицензию, при запуске приложения этот API должен быть вызван; обычно этого достаточно. Однако если постоянно происходит сбой загрузки данных об использовании и проходит более 24 часов, лицензия будет переведена в статус оценки; чтобы избежать этого, следует регулярно проверять статус лицензии, и если он находится в статусе оценки, вызвать этот API повторно. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Устанавливает публичный и приватный метрированный ключ. Если вы приобретаете метрированную лицензию, при запуске приложения этот API должен быть вызван, обычно этого достаточно. Однако, если постоянно не удаётся загрузить данные о потреблении и прошло более 24 часов, лицензия будет переведена в статус оценки; чтобы избежать такой ситуации, следует регулярно проверять статус лицензии, и если он находится в статусе оценки, вызвать этот API снова. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Получает кредит потребления |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Получает размер файла потребления |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Проверяет, лицензирован ли метрированный |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Проверяет, лицензирован ли metered |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить публичный и приватный метрированный ключ
+В этом примере будет попытка установить публичный и приватный метрированный ключ
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-файл JAR компонента:
+файл jar компонента:
 
 ```csharp
 Metered matered = new Metered();

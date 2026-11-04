@@ -1,42 +1,42 @@
 ---
 title: PresentationPlayer
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de speler van animaties die gekoppeld zijn aan de Presentation../aspose.slides/presentation voor.
+description: Stelt de speler van animaties voor die geassocieerd zijn met de Presentation../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /nl/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer klasse
 
-Stelt de speler van animaties die gekoppeld zijn aan de [`Presentation`](../../aspose.slides/presentation) voor.
+Stelt de speler van animaties voor die geassocieerd zijn met de [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Maakt een nieuw exemplaar van de [`PresentationPlayer`](../presentationplayer) aan. |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Maakt een nieuw exemplaar van de [`PresentationPlayer`](../presentationplayer). |
 
-## Properties
+## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Haalt de frame-index op. |
 
-## Methods
+## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Disposeert de instantie van de [`PresentationPlayer`](../presentationplayer). |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Verwijdert de instantie van de [`PresentationPlayer`](../presentationplayer). |
 
-## Other Members
+## Andere leden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Stelt de frame-tick-handler van het [`FrameTick`](./frametick)-evenement voor. |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Stelt de frame-tick-handler van het [`FrameTick`](./frametick)-event voor. |
 
 ### Voorbeelden
 

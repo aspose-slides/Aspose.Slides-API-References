@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Muster zum Füllen einer Form dar.
 type: docs
-weight: 9350
+weight: 9370
 url: /de/aspose.slides/patternformat/
 ---
 ## PatternFormat Klasse
@@ -18,19 +18,19 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Gibt die Hintergrundmusterfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Gibt die Vordergrundmusterfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Gibt den Musterstil zurück oder legt ihn fest. Lese/Schreib [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Schreibgeschützt [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Gibt die Hintergrund-Musterfarbe zurück. Schreibgeschützt [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Gibt die Vordergrund-Musterfarbe zurück. Schreibgeschützt [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Gibt den Musterstil zurück oder legt ihn fest. Lese-/Schreibzugriff [`PatternStyle`](../patternstyle). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Erstellt ein Kachelbild für die Musterausfüllung. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Erstellt ein Kachelbild für die Musterausfüllung mit angegebenen Farben. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Erstellt ein Kachel-Bild für die Musterausfüllung. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Erstellt ein Kachel-Bild für die Musterausfüllung mit angegebenen Farben. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes .NET API Referencia
-description: A betűkészletek helyettesítésének gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: A betűkészlet-helyettesítések gyűjteményét reprezentálja.
 type: docs
-weight: 4900
+weight: 4920
 url: /hu/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection osztály
 
-A betűkészletek helyettesítésének gyűjteményét képviseli.
+A betűkészlet-helyettesítés gyűjteményét képviseli.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -24,19 +24,19 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | A gyűjteményben ténylegesen tárolt elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | A megadott indexű elemet adja vissza. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Megkapja a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Megkapja a megadott indexű elemet. |
 | [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Új betűkészlet helyettesítési szabályt ad a gyűjteményhez. |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Az összes elemet átmásolja a gyűjteményből a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Visszaad egy felsorolót, amely a gyűjteményen iterál. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Hozzáadja az új betűkészlet-helyettesítési szabályt a gyűjteményhez |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Eltávolítja egy adott objektum első előfordulását a gyűjteményből. |
 
 ### Lásd még
 

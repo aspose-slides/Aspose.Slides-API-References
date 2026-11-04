@@ -3,10 +3,10 @@ title: FontFallBackRulesCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Kullanıcı tarafından tanımlanan FontFallBack kurallarının bir koleksiyonunu temsil eder
 type: docs
-weight: 4850
+weight: 4870
 url: /tr/aspose.slides/fontfallbackrulescollection/
 ---
-## FontFallBackRulesCollection sınıf
+## FontFallBackRulesCollection sınıfı
 
 Kullanıcı tarafından tanımlanan FontFallBack kurallarının bir koleksiyonunu temsil eder
 
@@ -16,26 +16,26 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Koleksiyonda gerçekten bulunan kural sayısını alır. Salt Okunur Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt Okunur Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Belirtilen indeksdeki kuralı alır. Salt Okunur [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt Okunur Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Koleksiyonda gerçekte bulunan kural sayısını alır. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Belirtilen dizindeki kuralı alır. Salt-okunur [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
-## Yöntemler
+## Metotlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Belirtilen FallBack kuralını koleksiyonun sonuna ekler. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Koleksiyonun içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Koleksiyondan belirli bir FallBack kuralının ilk oluşumunu kaldırır. |
 
 ### Ayrıca Bakınız

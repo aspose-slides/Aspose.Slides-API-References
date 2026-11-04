@@ -1,14 +1,14 @@
 ---
 title: SetRange
 second_title: Aspose.Sildes för .NET API-referens
-description: Ställ in diagramdatas område. Serier och kategorier kommer att uppdateras baserat på det nya dataintervallet. Om antalet serier i dataintervallet är större än antalet serier i diagramdata, så kommer ytterligare serier med samma typ som den sista serien i den nuvarande samlingen att läggas till i slutet av samlingen.
+description: Ställ in diagrammets dataområde. Serier och kategorier uppdateras baserat på det nya dataområdet. Om antalet serier i dataområdet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen.
 type: docs
-weight: 130
+weight: 140
 url: /sv/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange metod
 
-Ställ in diagramdatas område. Serier och kategorier kommer att uppdateras baserat på det nya dataintervallet. Om antalet serier i dataintervallet är större än antalet serier i diagramdata så kommer ytterligare serier med samma typ som den sista serien i den nuvarande samlingen att läggas till i slutet av samlingen.
+Ställ in diagrammets dataområde. Serien och kategorierna kommer att uppdateras baserat på det nya dataområdet. Om antalet serier i dataområdet är större än antalet serier i diagramdata, läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,16 +16,16 @@ public void SetRange(string formula)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| formula | String | Formeln för cellernas dataintervall. T.ex: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | Formeln för cellernas dataområde. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Undantag
 
 | undantag | villkor |
 | --- | --- |
-| ArgumentNullException | formula är null. |
-| ArgumentException | formula har fel format. |
+| ArgumentNullException | formeln är null. |
+| ArgumentException | formeln har fel format. |
 
-### Se också
+### Se även
 
 * gränssnitt [IChartData](../../ichartdata)
 * namnrymd [Aspose.Slides.Charts](../../ichartdata)

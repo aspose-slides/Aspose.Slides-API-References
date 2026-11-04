@@ -1,19 +1,20 @@
 ---
 title: IFillOverlay
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Fill Overlay. Fill overlay dapat digunakan untuk menentukan isian tambahan bagi sebuah objek dan menggabungkan dua isian tersebut.
+description: Mewakili efek Fill Overlay. Fill overlay dapat digunakan untuk menentukan pengisian tambahan untuk suatu objek dan menggabungkan dua pengisian tersebut.
 type: docs
-weight: 3300
+weight: 3320
 url: /id/aspose.slides.effects/ifilloverlay/
 ---
-## IFillOverlay interface
+## IFillOverlay antarmuka
 
-Mewakili efek Fill Overlay. Fill overlay dapat digunakan untuk menentukan isian tambahan bagi sebuah objek dan menggabungkan dua isian tersebut.
+Mewakili efek Fill Overlay. Fill overlay dapat digunakan untuk menentukan pengisian tambahan untuk suatu objek dan menggabungkan dua pengisian tersebut.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
     IImageTransformOperation
 ```
+
 
 ## Properti
 
@@ -22,7 +23,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Baca/tulis [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format isi. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format pengisian. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Lihat Juga
 

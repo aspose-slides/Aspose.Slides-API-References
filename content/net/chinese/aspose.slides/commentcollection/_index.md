@@ -3,7 +3,7 @@ title: CommentCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示单个作者的评论集合。
 type: docs
-weight: 2650
+weight: 2670
 url: /zh/aspose.slides/commentcollection/
 ---
 ## CommentCollection 类
@@ -18,7 +18,7 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | 获取指定索引处的元素。只读 [`Comment`](../comment)。 |
 | [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
@@ -28,19 +28,19 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | 名称 | 描述 |
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合末尾添加新评论。 |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末尾添加新的现代评论。 |
-| [Clear](../../aspose.slides/commentcollection/clear)() | 从集合中移除所有评论。 |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | 通过索引在集合中查找评论。 |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末尾添加新现代评论。 |
+| [Clear](../../aspose.slides/commentcollection/clear)() | 删除集合中的所有评论。 |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | 按索引在集合中查找评论。 |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | 返回用于遍历集合的枚举器。 |
 | [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处向集合插入新评论。 |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引处向集合插入新的现代评论。 |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | 移除集合中指定评论的第一次出现。 |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引处向集合插入新现代评论。 |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | 删除集合中指定评论的第一次出现。 |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | 删除集合中指定索引处的元素。 |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | 创建并返回包含所有评论的数组。 |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | 创建并返回指定范围内所有评论的数组。 |
 
-### 另见
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [CommentAuthor](../commentauthor)

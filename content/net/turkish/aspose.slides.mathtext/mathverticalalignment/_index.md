@@ -1,9 +1,9 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Dikey Hizalama
 type: docs
-weight: 9050
+weight: 9070
 url: /tr/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enum
@@ -16,7 +16,7 @@ public enum MathVerticalAlignment
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `0` | Değer tanımlanmamış |
 | Top | `1` | Top |

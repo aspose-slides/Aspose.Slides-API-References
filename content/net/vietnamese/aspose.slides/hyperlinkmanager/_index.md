@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp quản lý liên kết siêu văn bản, bao gồm thêm và xóa.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Cung cấp quản lý siêu liên kết, thêm và xóa.
 type: docs
-weight: 5150
+weight: 5170
 url: /vi/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager lớp
 
-Cung cấp quản lý liên kết siêu văn bản (thêm, xóa).
+Cung cấp quản lý siêu liên kết (thêm, xóa).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -18,13 +18,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Xóa liên kết siêu văn bản khi nhấp. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Xóa liên kết siêu văn bản khi di chuột. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Đặt liên kết siêu văn bản bên ngoài khi nhấp. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Đặt liên kết siêu văn bản bên ngoài khi di chuột. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Đặt liên kết siêu văn bản nội bộ khi nhấp. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Đặt liên kết siêu văn bản nội bộ khi di chuột. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Đặt liên kết siêu văn bản Macro khi nhấp. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Xóa siêu liên kết khi nhấp. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Xóa siêu liên kết khi rê chuột. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Đặt siêu liên kết bên ngoài khi nhấp. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Đặt siêu liên kết bên ngoài khi rê chuột. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Đặt siêu liên kết nội bộ khi nhấp. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Đặt siêu liên kết nội bộ khi rê chuột. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Đặt siêu liên kết Macro khi nhấp chuột. |
 
 ### Xem thêm
 

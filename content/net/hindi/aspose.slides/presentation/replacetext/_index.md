@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्दिष्ट टेक्स्ट की सभी घटनाओं को दूसरे निर्दिष्ट टेक्स्ट से बदलता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: निर्दिष्ट पाठ की सभी घटनाओं को दूसरे निर्दिष्ट पाठ से बदलता है।
 type: docs
-weight: 380
+weight: 390
 url: /hi/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText मेथड
 
-निर्दिष्ट टेक्स्ट की सभी घटनाओं को दूसरे निर्दिष्ट टेक्स्ट से बदलता है।
+निर्दिष्ट पाठ की सभी घटनाओं को दूसरे निर्दिष्ट पाठ से बदलता है।
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,14 +17,14 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| oldText | String | प्रतिस्थापित किए जाने वाला String। |
-| newText | String | सभी oldText की घटनाओं को प्रतिस्थापित करने के लिए String। |
-| options | ITextSearchOptions | पाठ खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions)। |
-| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
+| oldText | String | वह String जिसे बदलना है। |
+| newText | String | वह String जो oldText की सभी घटनाओं को बदलता है। |
+| options | ITextSearchOptions | पाठ खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### उदाहरण
 
-निम्नलिखित नमूना कोड दर्शाता है कि कैसे एक निर्दिष्ट String को दूसरी निर्दिष्ट String से बदलें।
+निम्नलिखित नमूना कोड दर्शाता है कि एक निर्दिष्ट स्ट्रिंग को दूसरी निर्दिष्ट स्ट्रिंग से कैसे बदलें।
 
 ```csharp
 [C#]
@@ -36,11 +36,11 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखिए
 
 * इंटरफ़ेस [ITextSearchOptions](../../itextsearchoptions)
 * इंटरफ़ेस [IFindResultCallback](../../ifindresultcallback)
-* कक्षा [Presentation](../../presentation)
+* क्लास [Presentation](../../presentation)
 * नामस्थान [Aspose.Slides](../../presentation)
 * असेंबली [Aspose.Slides](../../../)
 

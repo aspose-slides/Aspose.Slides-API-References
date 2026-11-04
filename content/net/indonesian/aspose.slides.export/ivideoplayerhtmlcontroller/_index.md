@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kelas ini memungkinkan mengekspor file video dan audio ke dalam HTML
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Kelas ini memungkinkan ekspor file video dan audio ke dalam HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /id/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController antarmuka
 
-Kelas ini memungkinkan mengekspor file video dan audio ke dalam HTML
+This class allows export of video and audio files into a HTML
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Memungkinkan mendapatkan antarmuka dasar IHtmlFormattingController. Hanya-baca [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Memungkinkan mendapatkan antarmuka dasar ILinkEmbedController. Hanya-baca [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Memungkinkan mendapatkan antarmuka dasar ISvgShapeFormattingController. Hanya-baca [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IHtmlFormattingController. Hanya-baca [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ILinkEmbedController. Hanya-baca [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ISvgShapeFormattingController. Hanya-baca [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Lihat Juga
 

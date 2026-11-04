@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceProject
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn tham chiếu tới một dự án VBA bên ngoài.
+description: Đại diện cho tham chiếu tới một dự án VBA bên ngoài.
 type: docs
-weight: 11620
+weight: 11640
 url: /vi/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject giao diện
 
-Represents reference to an external VBA project.
+Đại diện cho tham chiếu tới một dự án VBA bên ngoài.
 
 ```csharp
 public interface IVbaReferenceProject : IVbaReference

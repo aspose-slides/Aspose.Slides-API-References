@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เก็บสีที่กำหนดโดยธีม.
 type: docs
-weight: 11070
+weight: 11090
 url: /th/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme คลาส
 
-เก็บสีที่กำหนดโดยธีม
+เก็บสีที่กำหนดโดยธีม.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -18,25 +18,25 @@ public class ColorScheme : IColorScheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | สีสำเนียงแรกในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | สีสำเนียงที่สองในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | สีสำเนียงที่สามในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | สีสำเนียงที่สี่ในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | สีสำเนียงที่ห้าในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | สีสำเนียงที่หกในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | สีมืดแรกในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | สีมืดที่สองในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | สีสำหรับลิงก์ที่เยี่ยมชมแล้ว อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | สีสำหรับลิงก์ อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | สีสว่างแรกในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | สีสว่างที่สองในสกีม อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | คืนการนำเสนอแม่ อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | คืนแผ่นสไลด์แม่ อ่านอย่างเดียว [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | สีเน้นแรกในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | สีเน้นที่สองในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | สีเน้นที่สามในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | สีเน้นที่สี่ในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | สีเน้นที่ห้าในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | สีเน้นที่หกในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | สีมืดแรกในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | สีมืดที่สองในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | สีสำหรับลิงก์ที่เยี่ยมชม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | สีสำหรับลิงก์. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | สีอ่อนแรกในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | สีอ่อนที่สองในธีม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | ส่งคืนการนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | ส่งคืนสไลด์แม่. อ่านอย่างเดียว [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### ดูเพิ่มเติม
 
-* ส่วนติดต่อ [IColorScheme](../icolorscheme)
+* อินเทอร์เฟซ [IColorScheme](../icolorscheme)
 * เนมสเปซ [Aspose.Slides.Theme](../../aspose.slides.theme)
 * แอสเซมบลี [Aspose.Slides](../../)
 

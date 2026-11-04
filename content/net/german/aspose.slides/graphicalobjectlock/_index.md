@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Bestimmt, welche Vorgänge beim übergeordneten GraphicalObject deaktiviert sind.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, welche Vorgänge am übergeordneten GraphicalObject deaktiviert sind.
 type: docs
-weight: 5080
+weight: 5100
 url: /de/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock Klasse
 
-Bestimmt, welche Vorgänge beim übergeordneten GraphicalObject deaktiviert sind.
+Bestimmt, welche Vorgänge am übergeordneten GraphicalObject deaktiviert sind.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -18,13 +18,13 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form beim Skalieren das Seitenverhältnis beibehalten muss. Lesen/Schreiben Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Bestimmt, ob das Auswählen von Unterschichten dieses Objekts verboten ist. Lesen/Schreiben Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lesen/Schreiben Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Nur lesbar Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lesen/Schreiben Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lesen/Schreiben Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lesen/Schreiben Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form beim Ändern der Größe das Seitenverhältnis beibehalten muss. Lese-/Schreib-Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Bestimmt, ob das Auswählen von Untersymbolen dieses Objekts verboten ist. Lese-/Schreib-Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Nur-Lese-Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Boolean. |
 
 ### Siehe auch
 

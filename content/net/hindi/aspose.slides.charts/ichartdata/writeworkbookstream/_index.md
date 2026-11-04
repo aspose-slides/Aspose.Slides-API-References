@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: आंतरिक रूप से सम्मिलित Excel कार्यपुस्तिका को उपयोगकर्ता द्वारा निर्दिष्ट मान के साथ प्रारंभ करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: आंतरिक रूप से सम्मिलित Excel वर्कबुक को उपयोगकर्ता-निर्धारित मान से आरंभ करता है।
 type: docs
-weight: 150
+weight: 160
 url: /hi/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream विधि
 
-आंतरिक रूप से सम्मिलित Excel कार्यपुस्तिका को उपयोगकर्ता द्वारा निर्दिष्ट मान के साथ प्रारंभ करता है।
+आंतरिक रूप से सम्मिलित Excel वर्कबुक को उपयोगकर्ता द्वारा निर्दिष्ट मान से आरंभ करता है।
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,9 +16,9 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| ms | MemoryStream | उपयोगकर्ता द्वारा प्रदान किया गया स्ट्रीम जिसमें पूरी Excel कार्यपुस्तिका होती है। |
+| ms | MemoryStream | उपयोगकर्ता-प्रदान किया गया स्ट्रीम जो पूरी Excel वर्कबुक को शामिल करता है। |
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IChartData](../../ichartdata)
 * नेमस्पेस [Aspose.Slides.Charts](../../ichartdata)

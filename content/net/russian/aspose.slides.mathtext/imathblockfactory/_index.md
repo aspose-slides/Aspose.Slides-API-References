@@ -1,14 +1,14 @@
 ---
 title: IMathBlockFactory
-second_title: Aspose.Sildes для .NET справочника API
-description: Позволяет создать математический блок
+second_title: Справочник API Aspose.Sildes для .NET
+description: Позволяет создавать математический блок
 type: docs
-weight: 8160
+weight: 8180
 url: /ru/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory интерфейс
 
-Позволяет создать математический блок
+Позволяет создавать математический блок
 
 ```csharp
 public interface IMathBlockFactory
@@ -18,9 +18,9 @@ public interface IMathBlockFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Создать математический блок |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Создать математический блок и разместить в нём элемент |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Создать математический блок и разместить в нём элементы |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Create a math block |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Create a math block and place the element in it |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Create a math block and place elements in it |
 
 ### Примечания
 

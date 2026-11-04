@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スレッド スライド遷移効果。
+description: スレッドスライド遷移効果。
 type: docs
-weight: 10180
+weight: 10200
 url: /ja/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition インターフェイス
 
-スレッド スライド遷移効果。
+スレッドスライド遷移効果。
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -16,11 +16,11 @@ public interface IShredTransition : ITransitionValueBase
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | 遷移中に使用されるビジュアルの形状を指定します。読み取り/書き込み [`TransitionShredPattern`](../transitionshredpattern)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | 遷移の方向。 読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | 遷移中に使用されるビジュアルの形状を指定します。 読み取り/書き込み [`TransitionShredPattern`](../transitionshredpattern)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Niezmienny obiekt, który reprezentuje efekt Preset Shadow.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Obiekt niezmienny, który reprezentuje efekt wstępnie ustawionego cienia.
 type: docs
-weight: 3490
-url: /pl/aspose.slides.effects/ippresetshadoweffectivedata/
+weight: 3510
+url: /pl/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData interfejs
 
-Niezmienny obiekt, który reprezentuje efekt Preset Shadow.
+Obiekt niezmienny, który reprezentuje efekt wstępnie ustawionego cienia.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Umożliwia uzyskanie bazowego interfejsu IEffectEffectiveData. tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Kierunek cienia. tylko do odczytu Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Odległość cienia. tylko do odczytu Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Ustawienie wstępne. tylko do odczytu [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Kolor cienia. tylko do odczytu Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Kierunek cienia. Tylko do odczytu Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Odległość cienia. Tylko do odczytu Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. Tylko do odczytu [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Kolor cienia. Tylko do odczytu Color. |
 
 ### Zobacz także
 

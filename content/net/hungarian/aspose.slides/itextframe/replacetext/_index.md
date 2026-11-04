@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes .NET API-referencia
-description: Az összes előforduló megadott szöveget egy másik megadott szövegre cseréli.
+second_title: Aspose.Sildes .NET API referencia
+description: Az összes előforduló megadott szöveget egy másik megadott szöveggel helyettesíti.
 type: docs
-weight: 120
+weight: 130
 url: /hu/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText metódus
 
-Lecseréli az adott szöveg összes előfordulását egy másik megadott szövegre.
+Az összes előforduló megadott szöveget egy másik megadott szöveggel helyettesíti.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,19 +18,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | oldText | String | A lecserélendő karakterlánc. |
-| newText | String | Az a karakterlánc, amely az oldText összes előfordulását helyettesíti. |
-| options | ITextSearchOptions | Szöveg keresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
+| newText | String | A karakterlánc, amely lecseréli az oldText összes előfordulását. |
+| options | ITextSearchOptions | Szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi példa kód bemutatja, hogyan lehet egy megadott karakterláncot egy másik megadott karakterláncra cserélni.
+Az alábbi példakód bemutatja, hogyan cseréljünk egy megadott karakterláncot egy másik megadott karakterláncra.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Cserélje le az összes különálló 'the' előfordulást '***'-re
+	// Cserélje le az összes önálló 'the' előfordulást '***'-re
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

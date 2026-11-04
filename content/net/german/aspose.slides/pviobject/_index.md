@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Kapselt die grundlegende Service-Infrastruktur für Objekte, die Gegenstand einer Eigenschaftswertvererbung sein können.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Kapselt die grundlegende Service-Infrastruktur für Objekte, die von der Vererbung von Eigenschaftswerten betroffen sein können.
 type: docs
-weight: 9270
+weight: 9290
 url: /de/aspose.slides/pviobject/
 ---
 ## PVIObject Klasse
 
-Kapselt die grundlegende Service-Infrastruktur für Objekte, die Gegenstand einer Eigenschaftenwertvererbung sein können.
+Kapselt die grundlegende Service-Infrastruktur für Objekte, die von der Vererbung von Eigenschaftswerten betroffen sein können.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Methoden
 

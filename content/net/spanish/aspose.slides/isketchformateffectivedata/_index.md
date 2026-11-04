@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas del boceto de línea.
+description: Objeto inmutable que contiene propiedades efectivas de boceto de línea.
 type: docs
-weight: 7030
+weight: 7050
 url: /es/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades efectivas del boceto de línea.
+Objeto inmutable que contiene propiedades efectivas de boceto de línea.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -22,7 +22,7 @@ public interface ISketchFormatEffectiveData
 
 ### Observaciones
 
-Esta interfaz se utiliza como parte de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Esta interfaz se usa como parte de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### Véase también
 

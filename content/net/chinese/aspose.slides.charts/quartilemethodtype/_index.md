@@ -1,9 +1,9 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 返回四分位方法的类型
 type: docs
-weight: 2390
+weight: 2410
 url: /zh/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType 枚举
@@ -19,9 +19,9 @@ public enum QuartileMethodType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Exclusive | `0` | 表示排他四分位方法。 |
-| Inclusive | `1` | 表示包含四分位方法。 |
+| Inclusive | `1` | 表示包容四分位方法。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

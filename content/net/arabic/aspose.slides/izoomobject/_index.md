@@ -1,12 +1,12 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes ل .NET مرجع API
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل كائن Zoom في شريحة.
 type: docs
-weight: 7410
+weight: 7430
 url: /ar/aspose.slides/izoomobject/
 ---
-## IZoomObject واجهة
+## واجهة IZoomObject
 
 يمثل كائن Zoom في شريحة.
 
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | يسمح بالحصول على واجهة IGraphicalObject الأساسية. قراءة فقط [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | يحصل أو يضبط نوع الصورة لكائن Zoom. قراءة/كتابة [`ZoomImageType`](../zoomimagetype). القيمة الافتراضية: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | يحصل أو يضبط سلوك التنقل في عرض الشرائح. قراءة/كتابة Boolean. القيمة الافتراضية: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | يحصل أو يضبط القيمة التي تحدد ما إذا كان Zoom سيستخدم خلفية الشريحة الهدف. قراءة/كتابة Boolean. القيمة الافتراضية: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | يحصل أو يضبط مدة الانتقال بين Zoom والشريحة. قراءة/كتابة Single. القيمة الافتراضية: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | يحصل أو يضبط الصورة لكائن Zoom. قراءة/كتابة [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | يسمح بالحصول على واجهة IGraphicalObject الأساسية. للقراءة فقط [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | يحصل أو يعيّن نوع الصورة لكائن التكبير. قراءة/كتابة [`ZoomImageType`](../zoomimagetype). القيمة الافتراضية: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | يحصل أو يعيّن سلوك التنقل في العرض التقدمي. قراءة/كتابة Boolean. القيمة الافتراضية: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | يحصل أو يعيّن القيمة التي تحدد ما إذا كان Zoom سيستخدم خلفية الشريحة الهدف. قراءة/كتابة Boolean. القيمة الافتراضية: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | يحصل أو يعيّن مدة الانتقال بين Zoom والشريحة. قراءة/كتابة Single. القيمة الافتراضية: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | يحصل أو يعيّن الصورة لكائن التكبير. قراءة/كتابة [`IPPImage`](../ippimage). |
 
 ### انظر أيضًا
 

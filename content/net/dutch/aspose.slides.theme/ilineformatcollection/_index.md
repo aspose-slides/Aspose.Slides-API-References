@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de verzameling van lijnstijlen voor.
+description: Geeft de verzameling van lijnstijlen weer.
 type: docs
-weight: 11290
+weight: 11310
 url: /nl/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection interface
 
-Stelt de verzameling van lijnstijlen voor.
+Geeft de verzameling van lijnstijlen weer.
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>

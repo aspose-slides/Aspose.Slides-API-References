@@ -3,7 +3,7 @@ title: ExcelDataCell
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет одну ячейку в книге Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /ru/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell класс
@@ -14,16 +14,16 @@ url: /ru/aspose.slides.excel/exceldatacell/
 public class ExcelDataCell : IExcelDataCell
 ```
 
-## Свойства
+## Properties
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Возвращает нулевой-индекс столбца в листе, где находится ячейка. Только для чтения Int32. |
-| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Возвращает имя ячейки данных диаграммы. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Возвращает нулевой-индекс строки в листе, где находится ячейка. Только для чтения Int32. |
-| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Возвращает значение, содержащееся в ячейке Excel. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Получает нулевой индекс столбца в листе, где находится ячейка. Только для чтения Int32. |
+| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Получает имя ячейки данных диаграммы. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Получает нулевой индекс строки в листе, где находится ячейка. Только для чтения Int32. |
+| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Получает значение, содержащееся в ячейке Excel. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IExcelDataCell](../iexceldatacell)
 * пространство имён [Aspose.Slides.Excel](../../aspose.slides.excel)

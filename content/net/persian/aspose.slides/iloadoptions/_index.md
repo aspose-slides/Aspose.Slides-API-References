@@ -1,9 +1,9 @@
 ---
 title: ILoadOptions
-second_title: Aspose.Sildes برای .NET API Reference
-description: به شما امکان می‌دهد گزینه‌های اضافی مانند فرمت یا قلم پیش‌فرض را هنگام بارگذاری یک ارائه مشخص کنید.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: به شما امکان می‌دهد هنگام بارگذاری یک ارائه، گزینه‌های اضافی مانند فرمت یا قلم پیش‌فرض را مشخص کنید.
 type: docs
-weight: 6340
+weight: 6360
 url: /fa/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions رابط
@@ -18,24 +18,24 @@ public interface ILoadOptions
 
 | نام | توضیح |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | نمایشگر گزینه‌هایی است که می‌توانند برای مدیریت رفتار پردازش Binary Large Objects (BLOBs) استفاده شوند، مانند استفاده از فایل‌های موقت یا حداکثر بایت‌های BLOB در حافظه. این گزینه‌ها برای تنظیم بهترین نسبت عملکرد/مصرف حافظه برای یک محیط یا نیازهای خاص در نظر گرفته شده‌اند. یک Binary Large Object (BLOB) داده باینری است که به صورت یک موجودیت واحد ذخیره می‌شود - به‌عبارت دیگر BLOB می‌تواند یک صدا، ویدئو یا خود ارائه باشد. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | فونت آسیایی را که در صورت عدم یافتن فونت منبع استفاده می‌شود باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | فونت معمولی را که در صورت عدم یافتن فونت منبع استفاده می‌شود باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | فونت Symbol را که در صورت عدم یافتن فونت منبع استفاده می‌شود باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | زبان پیش‌فرض متن ارائه را باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | تعیین می‌کند که آیا Aspose.Slides تمام اشیای باینری توکار را هنگام بارگذاری ارائه حذف خواهد کرد یا نه. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | منابع فونت‌های خارجی که توسط ارائه استفاده می‌شوند را مشخص می‌کند. این فونت‌ها در طول عمر ارائه در دسترس هستند و با ارائه‌های دیگر به اشتراک گذاشته نمی‌شوند |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | توکنی برای نظارت بر درخواست‌های قطع. این توکن طول عمر کل نمونه [`IPresentation`](../ipresentation) را مدیریت می‌کند. هر عملیات طولانی‌مدتی، مانند بارگذاری یا ذخیره‌سازی ارائه، با فراخوانی متد [`Interrupt`](../iinterruptiontokensource/interrupt) از [`IInterruptionTokenSource`](../iinterruptiontokensource) قطع خواهد شد. |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | قالب یک ارائه برای بارگذاری را باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | این ویژگی زمانی معنا دارد که فایل ارائه با رمز عبور محافظت شده باشد. مقدار true به این معنی است که فقط ویژگی‌های سند باید از یک فایل ارائه رمزگذاری شده بارگذاری شوند و رمز عبور نادیده گرفته شود. مقدار false به این معنی است که کل ارائه رمزگذاری شده باید با استفاده از رمز عبور صحیح بارگذاری شود. اگر ارائه رمزگذاری نشده باشد، مقدار ویژگی همیشه نادیده گرفته می‌شود. اگر ویژگی‌های سند یک فایل رمزگذاری شده عمومی نباشند و مقدار ویژگی true باشد، ویژگی‌های سند نمی‌توانند بارگذاری شوند و یک استثنا پرتاب می‌شود. خواندنی/نوشتنی Boolean. |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | نمایشگر گزینه‌هایی است که می‌توانند برای مدیریت رفتار پردازش Binary Large Objects (BLOBs) استفاده شوند، مانند استفاده از فایل‌های موقت یا حداکثر بایت‌های BLOBs در حافظه. این گزینه‌ها برای تنظیم بهترین نسبت عملکرد/مصرف حافظه برای محیط یا نیازهای خاص طراحی شده‌اند. Binary Large Object (BLOB) داده باینری است که به عنوان یک موجودیت منفرد ذخیره می‌شود - به عبارت دیگر BLOB می‌تواند صدا، ویدئو یا خود ارائه باشد. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | فونت آسیایی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | فونت معمولی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | فونت Symbol را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | زبان پیش‌فرض متن ارائه را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | تعیین می‌کند آیا Aspose.Slides تمام اشیای باینری جاسازی‌شده را هنگام بارگذاری ارائه حذف خواهد کرد. |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | منابع فونت‌های خارجی را که توسط ارائه استفاده می‌شوند، مشخص می‌کند. این فونت‌ها در طول عمر ارائه در دسترس هستند و با ارائه‌های دیگر به اشتراک گذاشته نمی‌شوند |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | توکنی برای نظارت بر درخواست‌های قطع است. این توکن طول عمر کل نمونه [`IPresentation`](../ipresentation) را مدیریت می‌کند. هر عملیات طولانی، مانند بارگذاری یا ذخیره‌سازی ارائه، از طریق فراخوانی متد [`Interrupt`](../iinterruptiontokensource/interrupt) از [`IInterruptionTokenSource`](../iinterruptiontokensource) قطع خواهد شد. |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | قالب ارائه برای بارگذاری را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | این ویژگی زمانی معنا دارد که فایل ارائه با رمز عبور محافظت شده باشد. مقدار true به این معنی است که فقط ویژگی‌های سند باید از فایل ارائه رمزگذاری‌شده بارگذاری شوند و رمز عبور نادیده گرفته شود. مقدار false به این معنی است که کل ارائه رمزگذاری‌شده باید با استفاده از رمز صحیح بارگذاری شود. اگر ارائه رمزگذاری نشده باشد، مقدار ویژگی همیشه نادیده گرفته می‌شود. اگر ویژگی‌های سند یک فایل رمزگذاری‌شده عمومی نباشند و مقدار ویژگی true باشد، ویژگی‌های سند قابل بارگذاری نیستند و استثنا پرتاب می‌شود. خواندنی/نوشتنی Boolean. |
 | [Password](../../aspose.slides/iloadoptions/password) { get; set; } | رمز عبور را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | رابط callback را که بارگذاری منابع خارجی را مدیریت می‌کند، باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | نمایشگر گزینه‌هایی است که می‌توانند برای تعیین رفتار اضافی صفحات‌گسترده استفاده شوند. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود، باز می‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | رابط callback که بارگذاری منابع خارجی را مدیریت می‌کند را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | نمایشگر گزینه‌هایی است که می‌توانند برای تعیین رفتار اضافی صفحات-گسترده استفاده شوند. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | شیئی که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-## موارد مرتبط
+### موارد مرتبط
 
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجموعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

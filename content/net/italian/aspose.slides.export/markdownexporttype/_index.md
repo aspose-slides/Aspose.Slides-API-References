@@ -1,12 +1,12 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Tipo di rendering del documento.
 type: docs
-weight: 4240
+weight: 4260
 url: /it/aspose.slides.export/markdownexporttype/
 ---
-## Enumerazione MarkdownExportType
+## MarkdownExportType enumerazione
 
 Tipo di rendering del documento.
 
@@ -18,9 +18,9 @@ public enum MarkdownExportType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Sequential | `0` | Renderizza tutti gli elementi separatamente. Uno alla volta. |
-| TextOnly | `1` | Renderizza solo il testo. |
-| Visual | `2` | Renderizza tutti gli elementi, gli elementi raggruppati vengono renderizzati insieme. |
+| Sequential | `0` | Esegue il rendering di tutti gli elementi separatamente. Uno per uno. |
+| TextOnly | `1` | Esegue il rendering solo del testo. |
+| Visual | `2` | Esegue il rendering di tutti gli elementi, gli elementi raggruppati - renderizzati insieme. |
 
 ### Esempi
 

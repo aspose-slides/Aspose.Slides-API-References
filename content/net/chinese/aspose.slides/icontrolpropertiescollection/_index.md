@@ -1,9 +1,9 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: ActiveX 控件的集合。
 type: docs
-weight: 5650
+weight: 5670
 url: /zh/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection 接口
@@ -16,7 +16,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
 | [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | 返回集合中属性的数量。只读 Int32。 |
@@ -25,7 +25,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 ## 方法
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | 向集合中添加属性。 |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | 移除所有属性。 |

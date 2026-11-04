@@ -1,9 +1,9 @@
 ---
 title: Control
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Biểu diễn một điều khiển ActiveX.
 type: docs
-weight: 2690
+weight: 2710
 url: /vi/aspose.slides/control/
 ---
 ## Lớp Control
@@ -14,16 +14,16 @@ Biểu diễn một điều khiển ActiveX.
 public class Control : DomObject<ControlCollection>, IControl
 ```
 
-## Thuộc tính
+## Properties
 
 | Tên | Mô tả |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Xác định tính bền vững của một điều khiển ActiveX khi phương pháp được sử dụng để lưu trữ là PersistStream, PersistStreamInit hoặc PersistStorage. |
 | [ClassId](../../aspose.slides/control/classid) { get; set; } | Lấy class id của điều khiển này. Chỉ đọc Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Trả về hoặc thiết lập khung của điều khiển. Đọc/ghi [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Lấy hoặc thiết lập tên của điều khiển này. Đọc/ghi String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Lấy phương pháp được sử dụng để lưu trữ các thuộc tính của điều khiển ActiveX. Chỉ đọc [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Trả về một bộ sưu tập các thuộc tính ActiveX. Lưu ý: Aspose.Slides chỉ hỗ trợ các thuộc tính ActiveX dựa trên XML. Nếu các thuộc tính được lưu dưới dạng nhị phân, thuộc tính này sẽ trả về null. Chỉ đọc [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Trả về hoặc đặt khung của điều khiển. Đọc/ghi [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Lấy hoặc đặt tên của điều khiển này. Đọc/ghi String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Lấy phương pháp được dùng để lưu trữ các thuộc tính của điều khiển ActiveX. Chỉ đọc [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Trả về một tập hợp các thuộc tính ActiveX. Lưu ý: Aspose.Slides chỉ hỗ trợ các thuộc tính ActiveX dựa trên XML. Nếu các thuộc tính được lưu trữ ở định dạng nhị phân, thuộc tính này sẽ trả về null. Chỉ đọc [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Trả về đối tượng thuộc tính tô đầy ảnh của Control. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Xem thêm

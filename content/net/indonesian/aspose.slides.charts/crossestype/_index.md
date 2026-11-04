@@ -1,14 +1,14 @@
 ---
 title: CrossesType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan di mana sumbu akan memotong.
+description: Menentukan di mana sumbu akan melintasi.
 type: docs
-weight: 1540
+weight: 1550
 url: /id/aspose.slides.charts/crossestype/
 ---
 ## Enumerasi CrossesType
 
-Menentukan di mana sumbu akan memotong.
+Menentukan di mana sumbu akan melintasi.
 
 ```csharp
 public enum CrossesType
@@ -18,8 +18,8 @@ public enum CrossesType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Sumbu kategori melewati titik nol pada sumbu nilai (jika memungkinkan), atau nilai minimum (jika minimum lebih besar dari nol) atau maksimum (jika maksimum kurang dari nol). |
-| Maximum | `1` | Sumbu melewati nilai maksimum. |
+| AxisCrossesAtZero | `0` | Sumbu kategori melintasi pada titik nol sumbu nilai (jika memungkinkan), atau nilai minimum (jika minimum lebih besar dari nol) atau nilai maksimum (jika maksimum kurang dari nol). |
+| Maximum | `1` | Sumbu melintasi pada nilai maksimum. |
 | Custom | `2` | Nilai khusus dari properti CrossAt |
 
 ### Lihat Juga

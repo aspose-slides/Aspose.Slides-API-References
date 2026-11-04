@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 外部フォント用のファイルおよびメモリ ソースを提供します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 外部フォント用のファイルおよびメモリソースを提供します。
 type: docs
-weight: 5870
+weight: 5890
 url: /ja/aspose.slides/ifontsources/
 ---
 ## IFontSources インターフェイス
 
-外部フォントのためのファイルとメモリソースを提供します。
+外部フォント用のファイルおよびメモリソースを提供します。
 
 ```csharp
 public interface IFontSources
@@ -18,8 +18,8 @@ public interface IFontSources
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | フォントファイルを含むフォルダー。これらのフォルダー内のすべてのフォントファイルがコレクションに含まれます。フォルダーは再帰的に検索されます。 |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | バイト配列として表現されたフォントのコレクション。 |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | フォントファイルが含まれるフォルダー。これらのフォルダー内のすべてのフォントファイルがコレクションに含まれます。再帰的に検索されるフォルダー。 |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | バイト配列として表されるフォントのコレクションです。 |
 
 ### 参照
 

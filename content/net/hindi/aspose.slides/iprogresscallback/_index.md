@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रतिशत में प्रगति अद्यतन को सहेजने के लिए एक callback ऑब्जेक्ट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: प्रतिशत में प्रगति अपडेट को सहेजने के लिए कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
-weight: 6810
+weight: 6830
 url: /hi/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback इंटरफ़ेस
 
-प्रतिशत में प्रगति अद्यतन को सहेजने के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है।
+प्रतिशत में प्रगति अपडेट को सहेजने के लिए कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IProgressCallback
@@ -16,11 +16,11 @@ public interface IProgressCallback
 
 ## मेथड्स
 
-| नाम | वर्णन |
+| नाम | विवरण |
 | --- | --- |
 | [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | प्रगति अद्यतन की रिपोर्ट करता है। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

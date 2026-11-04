@@ -1,9 +1,9 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili mode tata letak presentasi untuk ekspor.
 type: docs
-weight: 4100
+weight: 4120
 url: /id/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions antarmuka

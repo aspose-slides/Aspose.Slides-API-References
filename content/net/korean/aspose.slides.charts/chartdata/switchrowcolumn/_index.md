@@ -1,9 +1,9 @@
 ---
 title: SwitchRowColumn
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 축을 따라 데이터를 교환합니다. X 축에 차트된 데이터는 Y 축으로 이동하고 그 반대도 마찬가지입니다.
 type: docs
-weight: 140
+weight: 150
 url: /ko/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn 메서드
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.charts/chartdata/switchrowcolumn/
 public void SwitchRowColumn()
 ```
 
-### 참조
+### 참고
 
 * 클래스 [ChartData](../../chartdata)
 * 네임스페이스 [Aspose.Slides.Charts](../../chartdata)

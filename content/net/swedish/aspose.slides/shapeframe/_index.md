@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för shape frames.
+description: Representerar shape frames egenskaper.
 type: docs
-weight: 9900
+weight: 9920
 url: /sv/aspose.slides/shapeframe/
 ---
 ## ShapeFrame klass
 
-Representerar shape frame:s egenskaper.
+Representerar shape frame's egenskaper.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,20 +18,20 @@ public class ShapeFrame : IShapeFrame
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Skapar nya shape frame-egenskaper. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Skapar nya egenskaper för shape frame. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Returnerar X-koordinaten för ramens centrum. Skrivskyddad Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Returnerar Y-koordinaten för ramens centrum. Skrivskyddad Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Fastställer om en ram är vänd horisontellt. Skrivskyddad [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Fastställer om en ram är vänd vertikalt. Skrivskyddad [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Returnerar ramens höjd. Skrivskyddad Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Returnerar ramens koordinater. Skrivskyddad RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Returnerar antalet grader en ram roterar runt z-axeln. Ett positivt värde indikerar medurs rotation; ett negativt värde indikerar moturs rotation. Skrivskyddad Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Returnerar ramens bredd. Skrivskyddad Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Returnerar X-koordinaten för en rams mittpunkt. Skrivskyddad Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Returnerar Y-koordinaten för en rams mittpunkt. Skrivskyddad Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bestämmer om en ram är speglad horisontellt. Skrivskyddad [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bestämmer om en ram är speglad vertikalt. Skrivskyddad [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Returnerar höjden på en ram. Skrivskyddad Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Returnerar koordinaterna för en ram. Skrivskyddad RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Returnerar antalet grader en ram roteras runt z-axeln. Ett positivt värde indikerar medursrotation; ett negativt värde indikerar motursrotation. Skrivskyddad Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Returnerar bredden på en ram. Skrivskyddad Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Returnerar X-koordinaten för ramens övre vänstra hörn. Skrivskyddad Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Returnerar Y-koordinaten för ramens övre vänstra hörn. Skrivskyddad Single. |
 
@@ -41,11 +41,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Klonar |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Klonar. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Returnerar ett värde som anger om denna instans är lika med ett specificerat objekt. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Returnerar ett värde som anger om denna instans är lika med ett specificerat objekt. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Returnerar ett värde som indikerar om denna instans är lika med ett specificerat objekt. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Returnerar ett värde som indikerar om denna instans är lika med ett specificerat objekt. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Returnerar en hashkod för detta objekt. |
 
-### Se även
+### Se också
 
 * gränssnitt [IShapeFrame](../ishapeframe)
 * namnrymd [Aspose.Slides](../../aspose.slides)

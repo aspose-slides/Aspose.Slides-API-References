@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーションのプレーヤーを表します。アニメーションは PresentationAnimationsGenerator./presentationanimationsgenerator によって、その NewAnimation./presentationanimationsgenerator/newanimation イベントを介して生成されます。
+description: アニメーションのプレーヤーを表します。アニメーションは PresentationAnimationsGenerator./presentationanimationsgenerator が NewAnimation./presentationanimationsgenerator/newanimation イベントを通じて生成されます。
 type: docs
-weight: 4030
+weight: 4050
 url: /ja/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer インターフェイス
 
-アニメーションのプレーヤーを表します。 アニメーションは [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) によって [`NewAnimation`](../presentationanimationsgenerator/newanimation) イベントを介して生成されます。
+アニメーションのプレーヤーを表します。アニメーションは [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) が [`NewAnimation`](../presentationanimationsgenerator/newanimation) イベントを通じて生成します。
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,14 +18,14 @@ public interface IPresentationAnimationPlayer
 
 | 名前 | 説明 |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | アニメーションの継続時間を取得します [ms] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | アニメーションの期間を取得します [ms] |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 以前に [`SetTimePosition`](./settimeposition) メソッドで設定された現在の時間位置のフレームを取得します。 |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) 内のアニメーション時間位置を設定します。 |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) 内でアニメーションの時間位置を設定します。 |
 
 ### 例
 

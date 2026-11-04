@@ -1,26 +1,26 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 各 Portion./foreach/portion に対して、Paragraph./foreach/paragraph 上の BaseSlide../aspose.slides/baseslide で呼び出されるコールバックです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 各 Portion./foreach/portion が Paragraph./foreach/paragraph の BaseSlide../aspose.slides/baseslide 上で呼び出されるコールバックです。
 type: docs
-weight: 7940
+weight: 7960
 url: /ja/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback デリゲート
 
-各[`Portion`](../foreach/portion)に対して、[`Paragraph`](../foreach/paragraph)の[`BaseSlide`](../../aspose.slides/baseslide)上で呼び出されるコールバックです。
+[`BaseSlide`](../../aspose.slides/baseslide) の [`Paragraph`](../foreach/paragraph) 内の各 [`Portion`](../foreach/portion) に対して呼び出されるコールバックです。
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
     int index);
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| portion | Portion | 現在反復中の portion |
-| para | Paragraph | 現在反復中の paragraph |
-| slide | BaseSlide | 現在反復中の slide |
-| index | Int32 | paragraph 内の現在の portion のインデックス |
+| portion | Portion | 現在反復中の部分 |
+| para | Paragraph | 現在反復中の段落 |
+| slide | BaseSlide | 現在反復中のスライド |
+| index | Int32 | 段落内の現在の部分のインデックス |
 
 ### 参照
 

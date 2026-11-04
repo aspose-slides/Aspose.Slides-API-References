@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare una barra matematica
 type: docs
-weight: 8130
+weight: 8150
 url: /it/aspose.slides.mathtext/imathbarfactory/
 ---
-## Interfaccia IMathBarFactory
+## IMathBarFactory interfaccia
 
-Consente di creare una barra matematica
+Permette di creare una barra matematica
 
 ```csharp
 public interface IMathBarFactory
@@ -21,7 +21,7 @@ public interface IMathBarFactory
 | [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Crea una barra matematica applicandola all'elemento |
 | [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Crea una barra matematica applicandola all'elemento |
 
-### Osservazioni
+### Note
 
 Per compatibilità COM
 

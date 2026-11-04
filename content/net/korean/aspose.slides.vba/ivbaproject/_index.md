@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 매크로가 포함된 VBA 프로젝트를 나타냅니다.
 type: docs
-weight: 11550
+weight: 11570
 url: /ko/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject 인터페이스
 
-프레젠테이션 매크로가 포함된 VBA 프로젝트를 나타냅니다.
+VBA 매크로가 포함된 프레젠테이션 프로젝트를 나타냅니다.
 
 ```csharp
 public interface IVbaProject
@@ -18,18 +18,18 @@ public interface IVbaProject
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject가 프로젝트 속성을 보기 위한 비밀번호로 보호되는지 여부를 나타냅니다. 읽기 전용 Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | VBA 프로젝트에 포함된 모든 모듈의 목록을 반환합니다. 읽기 전용 [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject가 프로젝트 속성을 보기 위해 비밀번호로 보호되는지 여부를 나타냅니다. 읽기 전용 Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | VBA 프로젝트에 포함된 모든 모듈 목록을 반환합니다. 읽기 전용 [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | VBA 프로젝트의 이름을 반환합니다. 읽기 전용 String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | VBA 프로젝트에 포함된 모든 참조의 목록을 반환합니다. 읽기 전용 [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | VBA 프로젝트에 포함된 모든 참조 목록을 반환합니다. 읽기 전용 [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | VBA 프로젝트의 이진 표현을 OLE 컨테이너로 반환합니다. 읽기 전용 Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | VBA 프로젝트를 OLE 컨테이너로서 바이너리 표현으로 반환합니다. 읽기 전용 Byte[]. |
 
-### See Also
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 어셈블리 [Aspose.Slides](../../)

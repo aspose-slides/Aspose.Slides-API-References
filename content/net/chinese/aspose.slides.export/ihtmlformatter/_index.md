@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 HTML 文件模板。
 type: docs
-weight: 3940
+weight: 3960
 url: /zh/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.export/ihtmlformatter/
 public interface IHtmlFormatter
 ```
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

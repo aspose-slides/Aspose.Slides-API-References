@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een patroon voor om een vorm te vullen.
 type: docs
-weight: 9350
+weight: 9370
 url: /nl/aspose.slides/patternformat/
 ---
 ## PatternFormat klasse
@@ -18,7 +18,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de base IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Geeft de achtergrondpatroonkleur terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
 | [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Geeft de voorgrondpatroonkleur terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Geeft de patroonstijl terug of stelt deze in. Lezen/Schrijven [`PatternStyle`](../patternstyle). |
@@ -27,8 +27,8 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft de hashcode terug. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met opgegeven object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft hashcode terug. |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Maakt een tegelafbeelding voor de patroonvulling. |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Maakt een tegelafbeelding voor de patroonvulling met opgegeven kleuren. |
 

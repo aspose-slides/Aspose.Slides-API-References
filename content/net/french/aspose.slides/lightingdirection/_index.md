@@ -1,12 +1,12 @@
 ---
 title: LightingDirection
-second_title: Référence d'API Aspose.Sildes pour .NET
-description: Constantes qui définissent les orientations de la lumière.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Constantes qui définissent les directions de la lumière.
 type: docs
-weight: 7710
+weight: 7730
 url: /fr/aspose.slides/lightingdirection/
 ---
-## LightingDirection énumération
+## Énumération LightingDirection
 
 Constantes qui définissent les directions de la lumière.
 

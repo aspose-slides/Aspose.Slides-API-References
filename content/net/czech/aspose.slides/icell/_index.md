@@ -1,14 +1,14 @@
 ---
 title: ICell
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Representuje buňku v tabulce.
 type: docs
-weight: 5450
+weight: 5470
 url: /cs/aspose.slides/icell/
 ---
 ## ICell rozhraní
 
-Reprezentuje buňku v tabulce.
+Representuje buňku v tabulce.
 
 ```csharp
 public interface ICell : ISlideComponent
@@ -18,28 +18,28 @@ public interface ICell : ISlideComponent
 
 | Název | Popis |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Určuje, zda je textové pole ve buňce centrované. Čtení/zápis Boolean. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Určuje, zda je textové pole vycentrováno uvnitř buňky. Číst/zapisovat Boolean. |
 | [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
 | [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Vrací objekt CellFormat, který obsahuje vlastnosti formátování pro tuto buňku. Pouze pro čtení [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Vrací počet sloupců v mřížce nadřazené tabulky, které má aktuální buňka zabrat. Tato vlastnost umožňuje buňkám vypadat, jako by byly sloučeny, protože přesahují vertikální hranice jiných buněk v tabulce. Pouze pro čtení Int32. |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Vrací počet sloupců mřížky v nadřazené tabulce, které má aktuální buňka překrýt. Tato vlastnost umožňuje buňkám vypadat, že jsou sloučeny, protože přesahují svislé hranice jiných buněk v tabulce. Pouze pro čtení Int32. |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Získá první sloupec buňky. Pouze pro čtení [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Vrací index prvního sloupce, který buňka pokrývá. Pouze pro čtení Int32. |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Vrací index prvního sloupce pokrytého buňkou. Pouze pro čtení Int32. |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Získá první řádek buňky. Pouze pro čtení [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Vrací index prvního řádku, který buňka pokrývá. Pouze pro čtení Int32. |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Vrací index prvního řádku pokrytého buňkou. Pouze pro čtení Int32. |
 | [Height](../../aspose.slides/icell/height) { get; } | Vrací výšku buňky. Pouze pro čtení Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Vrací true, pokud je buňka sloučena s jakoukoli přizpůsobenou buňkou, jinak false. Pouze pro čtení Boolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj v TextFrame. Čtení/zápis Double. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v TextFrame. Čtení/zápis Double. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v TextFrame. Čtení/zápis Double. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Vrací nebo nastavuje horní okraj v TextFrame. Čtení/zápis Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Vrací minimální výšku buňky. Jedná se o součet minimálních výšek všech řádků pokrytých buňkou. Pouze pro čtení Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Vrací vzdálenost z levé strany tabulky k levé straně buňky. Pouze pro čtení Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Vrací vzdálenost z horní strany tabulky k horní straně buňky. Pouze pro čtení Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Vrací počet řádků, které sloučená buňka zabírá. Používá se v kombinaci s atributem vMerge na jiných buňkách k určení úvodní buňky horizontálního sloučení. Pouze pro čtení Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | Vrací nadřazený objekt Table buňky. Pouze pro čtení [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Vrací nebo nastavuje typ ukotvení textu. Čtení/zápis [`TextAnchorType`](../textanchortype). |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Vrací true, pokud je buňka sloučena s jakoukoli upravenou buňkou, jinak false. Pouze pro čtení Boolean. |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj v TextFrame. Číst/zapisovat Double. |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v TextFrame. Číst/zapisovat Double. |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v TextFrame. Číst/zapisovat Double. |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Vrací nebo nastavuje horní okraj v TextFrame. Číst/zapisovat Double. |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Vrací minimální výšku buňky. Toto je součet minimálních výšek všech řádků pokrytých buňkou. Pouze pro čtení Double. |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Vrací vzdálenost od levé strany tabulky k levé straně buňky. Pouze pro čtení Double. |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Vrací vzdálenost od horní strany tabulky k horní straně buňky. Pouze pro čtení Double. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Vrací počet řádků, které sloučená buňka přesahuje. Používá se v kombinaci s atributem vMerge u jiných buněk k určení počáteční buňky vodorovného sloučení. Pouze pro čtení Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | Vrací nadřazený objekt Table pro buňku. Pouze pro čtení [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Vrací nebo nastavuje typ ukotvení textu. Číst/zapisovat [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/icell/textframe) { get; } | Vrací textový rámec buňky. Pouze pro čtení [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Vrací nebo nastavuje typ vertikálního textu. Čtení/zápis [`TextVerticalType`](../textverticaltype). |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Vrací nebo nastavuje typ svislého textu. Číst/zapisovat [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/icell/width) { get; } | Vrací šířku buňky. Pouze pro čtení Double. |
 
 ## Metody
@@ -55,6 +55,6 @@ public interface ICell : ISlideComponent
 
 * rozhraní [ISlideComponent](../islidecomponent)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

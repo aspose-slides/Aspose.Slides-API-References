@@ -1,26 +1,26 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes cho Tham khảo API .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Ngoại lệ được ném khi định dạng tệp Office Open XML bị hỏng.
 type: docs
-weight: 9190
+weight: 9210
 url: /vi/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException lớp
 
-Ngoại lệ được ném khi định dạng tệp Office Open XML bị hỏng.
+Exception được ném khi định dạng tệp Office Open XML bị hỏng.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
 ```
 
-## Các hàm tạo
+## Constructors
 
 | Tên | Mô tả |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Hàm tạo mặc định. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Hàm tạo cho phép thêm thông điệp vào ngoại lệ này. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Hàm khởi tạo mặc định. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào ngoại lệ này. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

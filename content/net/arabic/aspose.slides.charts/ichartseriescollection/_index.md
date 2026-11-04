@@ -1,12 +1,12 @@
 ---
 title: IChartSeriesCollection
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل مجموعة من IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /ar/aspose.slides.charts/ichartseriescollection/
 ---
-## واجهة IChartSeriesCollection
+## IChartSeriesCollection واجهة
 
 يمثل مجموعة من [`IChartSeries`](../ichartseries)
 
@@ -18,7 +18,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
 
 ## الطرق
 
@@ -29,10 +29,10 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | ينشئ سلسلة مخطط جديدة من [`IChartDataCell`](../ichartdatacell) ويضيفها إلى المجموعة. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | ينشئ سلسلة مخطط جديدة من القيمة ويضيفها إلى المجموعة. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | يزيل جميع العناصر (بما في ذلك نمط المخطط) من المجموعة. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | يبحث عن [`IChartSeries`](../ichartseries) المحدد ويعيد الفهرس الصفري للظهور الأول ضمن المجموعة بأكملها |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | ينشئ سلسلة مخطط جديدة ويدخلها في المجموعة. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | يبحث عن [`IChartSeries`](../ichartseries) المحدد ويعيد الفهرس الصفري للظهور الأول داخل المجموعة بأكملها. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | ينشئ سلسلة مخطط جديدة ويُدرجها في المجموعة. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | يزيل القيمة المحددة. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | يزيل العنصر عند الفهرس المحدد |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | يزيل العنصر في الفهرس المحدد. |
 
 ### انظر أيضًا
 

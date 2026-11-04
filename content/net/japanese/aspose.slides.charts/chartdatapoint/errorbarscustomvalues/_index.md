@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カスタム値タイプの場合のシリーズ誤差バーの値を表します。読み取り専用 IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+description: カスタム値タイプの場合のシリーズエラーバーの値を表します。読み取り専用 IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 80
+weight: 120
 url: /ja/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
 ## ChartDataPoint.ErrorBarsCustomValues プロパティ
 
-カスタム値タイプの場合のシリーズ誤差バーの値を表します。読み取り専用 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues)。
+シリーズのエラーバーの値をカスタム値タイプの場合に表します。読み取り専用 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues)。
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
@@ -16,7 +16,7 @@ public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 
 ### 参照
 
-* インタフェース [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
+* インターフェイス [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * クラス [ChartDataPoint](../../chartdatapoint)
 * 名前空間 [Aspose.Slides.Charts](../../chartdatapoint)
 * アセンブリ [Aspose.Slides](../../../)

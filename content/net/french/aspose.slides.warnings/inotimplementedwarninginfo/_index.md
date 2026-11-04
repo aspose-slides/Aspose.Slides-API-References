@@ -1,9 +1,9 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un avertissement concernant une fonctionnalité connue non implémentée qui ne sera pas implémentée dans un avenir proche.
 type: docs
-weight: 11770
+weight: 11790
 url: /fr/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interface
@@ -16,7 +16,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Renvoie l'interface IWarningInfo. Lecture seule [`IWarningInfo`](../iwarninginfo). |
 

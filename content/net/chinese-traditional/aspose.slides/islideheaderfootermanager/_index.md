@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示管理器，負責保持投影片頁腳、日期時間和頁碼佔位符的行為。
+description: 表示管理投影片頁腳、日期時間與頁碼佔位符行為的管理器。
 type: docs
-weight: 7070
+weight: 7090
 url: /zh-hant/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager 介面
 
-表示管理器，負責保持投影片頁腳、日期時間和頁碼佔位符的行為。
+表示管理投影片頁腳、日期時間與頁碼佔位符行為的管理器。
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -20,7 +20,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | 傳回 IBaseSlideHeaderFooterManager 介面。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

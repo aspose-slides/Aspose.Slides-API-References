@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แทนที่คอลเลกชันของแท็กที่เป็นคู่สตริงที่ผู้ใช้กำหนด
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของแท็ก ซึ่งเป็นคู่ของสตริงที่กำหนดโดยผู้ใช้
 type: docs
-weight: 7260
+weight: 7280
 url: /th/aspose.slides/itagcollection/
 ---
 ## ITagCollection อินเทอร์เฟซ
 
-แทนที่ชุดของแท็ก (คู่สตริงที่ผู้ใช้กำหนด)
+แสดงถึงคอลเลกชันของแท็ก (คู่ของสตริงที่ผู้ใช้กำหนด)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -18,21 +18,21 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | คืนค่า หรือ ตั้งค่าคู่คีย์และค่าของแท็ก |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | คืนค่า หรือกำหนดคีย์และค่าของแท็ก. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/itagcollection/add)(string, string) | เพิ่มแท็กใหม่ลงในคอลเลกชัน |
-| [Clear](../../aspose.slides/itagcollection/clear)() | ลบแท็กทั้งหมดออกจากคอลเลกชัน |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | ตรวจสอบว่าคอลเลกชันมีชื่อที่ระบุหรือไม่ |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | คืนค่าคีย์ของแท็กที่ตำแหน่งที่ระบุ |
-| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | คืนค่าชื่อของแท็ก |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | คืนค่าเป็นค่าของแท็กที่ตำแหน่งที่ระบุ |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | คืนค่าอินเด็กซ์เริ่มจากศูนย์ของคีย์ที่ระบุในคอลเลกชัน |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | ลบแท็กที่มีชื่อที่ระบุออกจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | ลบแท็กที่ตำแหน่งที่ระบุออก |
+| [Add](../../aspose.slides/itagcollection/add)(string, string) | เพิ่มแท็กใหม่ลงในคอลเลกชัน. |
+| [Clear](../../aspose.slides/itagcollection/clear)() | ลบแท็กทั้งหมดออกจากคอลเลกชัน. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | ตรวจสอบว่าคอลเลกชันมีชื่อเฉพาะหรือไม่. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | คืนค่าคีย์ของแท็กที่ตำแหน่งที่ระบุ. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | คืนชื่อของแท็ก. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | คืนค่าของแท็กที่ตำแหน่งที่ระบุ. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | คืนดัชนีเริ่มจากศูนย์ของคีย์ที่ระบุในคอลเลกชัน. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | ลบแท็กที่มีชื่อที่ระบุออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | ลบแท็กที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

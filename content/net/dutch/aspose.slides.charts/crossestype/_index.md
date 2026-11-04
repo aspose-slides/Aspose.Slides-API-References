@@ -1,9 +1,9 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API referentie
 description: Bepaalt waar de as zal kruisen.
 type: docs
-weight: 1540
+weight: 1550
 url: /nl/aspose.slides.charts/crossestype/
 ---
 ## CrossesType enumeratie
@@ -18,9 +18,9 @@ public enum CrossesType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | De categorie-as kruist op het nulpunt van de waardenas (indien mogelijk), of op de minimumwaarde (als het minimum groter is dan nul) of op het maximum (als het maximum kleiner is dan nul). |
+| AxisCrossesAtZero | `0` | De categorieas kruist op het nulpunt van de waardeas (indien mogelijk), of de minimumwaarde (als het minimum groter is dan nul) of het maximum (als het maximum kleiner is dan nul). |
 | Maximum | `1` | De as kruist op de maximale waarde. |
-| Custom | `2` | Aangepaste waarde vanuit eigenschap CrossAt |
+| Custom | `2` | Aangepaste waarde van de eigenschap CrossAt |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: Fonts
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Fonts Sammlung.
+description: Schriftartensammlung.
 type: docs
-weight: 4920
+weight: 4940
 url: /de/aspose.slides/fonts/
 ---
 ## Fonts Klasse
@@ -26,9 +26,9 @@ public class Fonts : IFonts
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Gibt den Schriftartnamen zurück, der mit einem bestimmten Skript-Tag aus dem Präsentationsthema verknüpft ist. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Ermittelt den Schriftartnamen, der einem bestimmten Skript-Tag aus dem Präsentationsthema zugeordnet ist. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Gibt ein Wörterbuch aller Skript-Schriftartdefinitionen in der Präsentation zurück. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Entfernt die Schriftarteinstellung, die mit einem bestimmten Skript-Tag aus der Schriftartsammlung des Themas verknüpft ist. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Entfernt die Schriftarteinstellung, die einem bestimmten Skript-Tag aus der Schriftartsammlung des Themas zugeordnet ist. |
 | [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Weist einem bestimmten Skript-Tag einen Schriftartnamen zu, der definiert, wie Text dieses Skripts in der Präsentation dargestellt wird. |
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik veri çalışma kitabının çalışma sayfalarının koleksiyonunu temsil eder.
 type: docs
-weight: 1400
+weight: 1410
 url: /tr/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection sınıf
@@ -18,17 +18,17 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Sayımı döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını belirten bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | İndeksle çalışma sayfasını döndürür. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Eşzamanlama kökünü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Sayacı döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | İndeks ile çalışma sayfasını döndürür. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
 
 ### Örnekler
 

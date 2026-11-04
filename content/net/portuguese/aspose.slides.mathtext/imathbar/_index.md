@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica a função barra composta por um argumento base e uma sobrebarra ou subbarra
+second_title: Referência API Aspose.Sildes para .NET
+description: Especifica a função de barra composta por um argumento base e uma barra superior ou inferior
 type: docs
-weight: 8120
+weight: 8140
 url: /pt/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface
 
-Especifica a função barra, composta por um argumento base e uma sobrebarra ou subbarra
+Especifica a função de barra, consistindo em um argumento base e uma barra superior ou inferior
 
 ```csharp
 public interface IMathBar : IMathElement

@@ -1,14 +1,14 @@
 ---
 title: Convert
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: Presentation../aspose.slides/presentation을 변환하기 위한 메서드 그룹을 나타냅니다.
 type: docs
-weight: 7880
+weight: 7900
 url: /ko/aspose.slides.lowcode/convert/
 ---
-## 변환 클래스
+## Convert 클래스
 
-[`Presentation`](../../aspose.slides/presentation)를 변환하도록 설계된 메서드 그룹을 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)를 변환하기 위해 의도된 메서드 그룹을 나타냅니다.
 
 ```csharp
 public static class Convert
@@ -16,32 +16,32 @@ public static class Convert
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | [`Presentation`](../../aspose.slides/presentation)를 전달된 출력 경로 확장자를 사용하여 필요한 내보내기 형식을 결정합니다. |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.jpeg"로 지정하면 결과가 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.jpeg"로 지정하면 결과가 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.jpeg"로 지정하면 결과가 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 전송된 출력 경로 확장자를 사용하여 필요한 내보내기 형식을 결정하고 [`Presentation`](../../aspose.slides/presentation)를 변환합니다. |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.jpeg"인 경우 결과는 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.jpeg"인 경우 결과는 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 입력 프레젠테이션을 JPEG 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.jpeg"인 경우 결과는 "myPath/myFilename_N.jpeg" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | [`Presentation`](../../aspose.slides/presentation)를 PDF로 변환합니다. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | [`Presentation`](../../aspose.slides/presentation)를 PDF로 변환합니다. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | [`Presentation`](../../aspose.slides/presentation)를 PDF로 변환합니다. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | [`Presentation`](../../aspose.slides/presentation)를 PDF로 변환합니다. |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.png"로 지정하면 결과가 "myPath/myFilename_N.png" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.png"로 지정하면 결과가 "myPath/myFilename_N.png" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.png"로 지정하면 결과가 "myPath/myFilename_N.png" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.png"인 경우 결과는 "myPath/myFilename_N.png" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.png"인 경우 결과는 "myPath/myFilename_N.png" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 입력 프레젠테이션을 PNG 형식 이미지 집합으로 변환합니다. 출력 파일 이름은 "myPath/myFilename.png"이며 결과는 "myPath/myFilename_N.png" 파일 집합으로 저장되고, N은 슬라이드 번호입니다. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | [`Presentation`](../../aspose.slides/presentation)를 SVG로 변환합니다. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | [`Presentation`](../../aspose.slides/presentation)를 SVG로 변환합니다. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | [`Presentation`](../../aspose.slides/presentation)를 SVG로 변환합니다. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | [`Presentation`](../../aspose.slides/presentation)를 SVG로 변환합니다. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | [`Presentation`](../../aspose.slides/presentation)를 SVG로 변환합니다. |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 입력 프레젠테이션을 TIFF 형식 이미지 집합으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.tiff"로 지정하면 결과가 "myPath/myFilename_N.tiff" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 입력 프레젠테이션을 사용자 지정 옵션으로 TIFF 형식으로 변환합니다. 출력 파일 이름을 "myPath/myFilename.tiff"로 지정하고 *multipage*가 `false`이면 결과가 "myPath/myFilename_N.tiff" 파일 집합으로 저장되며, N은 슬라이드 번호입니다. *multipage*가 `true`인 경우 결과는 다중 페이지 "myPath/myFilename.tiff" 문서가 됩니다. |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 입력 프레젠테이션을 TIFF 형식 이미지 집합으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.tiff"인 경우 결과는 "myPath/myFilename_N.tiff" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 입력 프레젠테이션을 사용자 지정 옵션으로 TIFF 형식으로 변환합니다. 출력 파일 이름이 "myPath/myFilename.tiff"이고 *multipage*가 `false`인 경우 결과는 "myPath/myFilename_N.tiff" 파일 집합으로 저장되며, 여기서 N은 슬라이드 번호입니다. 반대로 *multipage*가 `true`인 경우 결과는 다중 페이지 "myPath/myFilename.tiff" 문서가 됩니다. |
 
 ## 기타 멤버
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) | 각 [`Slide`](../../aspose.slides/slide)마다 호출되는 콜백으로, 반환될 출력 경로를 기대합니다. |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | [`Slide`](../../aspose.slides/slide)마다 호출되는 콜백이며, 반환될 출력 경로를 기대합니다. |
 
 ### 예제
 
@@ -49,7 +49,7 @@ public static class Convert
 Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 어셈블리 [Aspose.Slides](../../)

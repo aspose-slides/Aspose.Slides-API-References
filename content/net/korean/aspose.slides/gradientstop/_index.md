@@ -1,9 +1,9 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 참조
 description: 그라디언트 형식을 나타냅니다.
 type: docs
-weight: 5020
+weight: 5040
 url: /ko/aspose.slides/gradientstop/
 ---
 ## GradientStop 클래스
@@ -16,20 +16,20 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | 그라디언트 중지점의 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 그라디언트 중지점의 위치(0..1)를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | 그라디언트 스톱의 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 그라디언트 스톱의 위치(0..1)를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IGradientStop](../igradientstop)

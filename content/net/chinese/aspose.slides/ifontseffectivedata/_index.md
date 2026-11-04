@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，包含有效字体集合。
+description: 不可变对象，包含有效的字体设置。
 type: docs
-weight: 5910
+weight: 5930
 url: /zh/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData 接口
 
-不可变对象，包含有效字体集合。
+Immutable object which contains effective fonts set.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -24,7 +24,7 @@ public interface IFontsEffectiveData
 
 ### 备注
 
-此接口作为 [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) 和 [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) 接口的一部分使用。
+此接口用作 [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) 和 [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) 接口的一部分。
 
 ### 另请参阅
 

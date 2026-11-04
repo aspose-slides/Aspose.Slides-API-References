@@ -1,9 +1,9 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 계산된 수식이 올바르지 않거나 구문 분석되지 않았을 때 발생하는 예외입니다.
 type: docs
-weight: 10710
+weight: 10730
 url: /ko/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException 클래스
@@ -19,9 +19,9 @@ public class CellInvalidFormulaException : PptxEditException
 | 이름 | 설명 |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 초기화합니다. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 지정된 오류 메시지와 함께 초기화합니다. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 지정된 오류 메시지와 이 예외의 원인인 내부 예외에 대한 참조와 함께 초기화합니다. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 지정된 오류 메시지와 잘못된 수식을 포함하는 셀 참조와 함께 초기화합니다. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 지정된 오류 메시지와 이 예외의 원인이 되는 내부 예외에 대한 참조를 사용하여 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 지정된 오류 메시지와 잘못된 수식을 포함하는 셀 참조를 사용하여 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
@@ -29,7 +29,7 @@ public class CellInvalidFormulaException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | 잘못된 수식을 포함하는 셀 참조를 가져옵니다. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 네임스페이스 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

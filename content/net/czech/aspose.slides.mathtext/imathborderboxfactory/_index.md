@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes pro .NET API Reference
-description: Umožňuje vytvořit matematické ohraničující pole
+second_title: Aspose.Sildes pro .NET referenci API
+description: Umožňuje vytvořit matematický rámeček
 type: docs
-weight: 8180
+weight: 8200
 url: /cs/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory rozhraní
 
-Umožňuje vytvořit matematické ohraničující pole
+Umožňuje vytvořit matematický rámeček
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,12 +18,12 @@ public interface IMathBorderBoxFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Vytvoří matematické ohraničující pole aplikací na prvek |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Vytvoří matematické ohraničující pole aplikací na prvek |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Vytvoří matematický rámeček aplikací na prvek |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Vytvoří matematický rámeček aplikací na prvek |
 
 ### Poznámky
 
-Pro kompatibilitu s COM
+Pro COM kompatibilitu
 
 ### Viz také
 

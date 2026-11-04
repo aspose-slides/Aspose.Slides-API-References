@@ -1,12 +1,12 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Odniesienie API
 description: Reprezentuje wyrównanie tabulacji.
 type: docs
-weight: 10830
+weight: 10850
 url: /pl/aspose.slides/tabalignment/
 ---
-## TabAlignment enumeracja
+## Wyliczenie TabAlignment
 
 Reprezentuje wyrównanie tabulacji.
 
@@ -18,10 +18,10 @@ public enum TabAlignment
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Left | `0` | Wyrównanie do lewej |
-| Center | `1` | Wyrównanie do środka |
-| Right | `2` | Wyrównanie do prawej |
-| Decimal | `3` | Wyrównanie dziesiętne |
+| Left | `0` | Left alignment |
+| Center | `1` | Center alignment |
+| Right | `2` | Right alignment |
+| Decimal | `3` | Decimal alignment |
 
 ### Zobacz także
 

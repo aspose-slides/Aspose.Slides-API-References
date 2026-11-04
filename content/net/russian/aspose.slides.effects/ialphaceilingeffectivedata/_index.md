@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, представляющий эффект Alpha Ceiling. Значения непрозрачности Alpha, превышающие ноль, изменяются на 100. Другими словами, всё частично непрозрачное становится полностью непрозрачным.
 type: docs
-weight: 3050
+weight: 3070
 url: /ru/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект Alpha Ceiling. Значения Alpha (непрозрачности), превышающие ноль, изменяются на 100 %. Другими словами, всё частично непрозрачное становится полностью непрозрачным.
+Неизменяемый объект, представляющий эффект Alpha Ceiling. Значения Alpha (непрозрачности), больше нуля, изменяются на 100 %. Другими словами, всё частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)

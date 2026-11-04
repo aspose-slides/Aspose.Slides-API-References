@@ -1,14 +1,14 @@
 ---
 title: XValue
-second_title: Aspose.Slides .NET API Referenciája
-description: Visszaadja a diagramadat-pont x értékét. Csak olvasható IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes .NET API referencia
+description: Lekéri a diagram adatpont x értékét. Csak olvasható IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /hu/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue tulajdonság
 
-Visszaadja a diagramadat-pont x értékét. Csak olvasható [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Lekéri a diagram adatpont x értékét. Csak olvasható [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

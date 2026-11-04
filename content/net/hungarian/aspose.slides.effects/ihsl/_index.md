@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes .NET API referencia
-description: Hue/Saturation/Luminance effektust képvisel. A hue, saturation és luminance minden egyes értéke a jelenlegi értékéhez viszonyítva állítható.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Egy Hue/Saturation/Luminance hatást reprezentál. A hue, a saturation és a luminance mindegyike állítható az aktuális értékhez képest.
 type: docs
-weight: 3360
+weight: 3380
 url: /hu/aspose.slides.effects/ihsl/
 ---
 ## IHSL interfész
 
-A Hue/Saturation/Luminance effektust képviseli. A hue, saturation és luminance minden egyes értéke a jelenlegi értékéhez viszonyítva állítható.
+Egy Hue/Saturation/Luminance hatást reprezentál. A hue, a saturation és a luminance mindegyike állítható az aktuális értékhez képest.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,7 +18,7 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Visszaadja az IImageTransformOperation interfészt. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még

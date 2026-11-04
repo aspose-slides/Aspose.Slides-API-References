@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes .NET API referencia
-description: A fény előbeállítási típusokat meghatározó konstansok.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Állandók, amelyek a fény előre definiált típusait határozzák meg.
 type: docs
-weight: 7700
+weight: 7720
 url: /hu/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType enumeráció
 
-A fény előbeállítási típusokat meghatározó konstansok.
+Az előre definiált fény típusokat meghatározó állandók.
 
 ```csharp
 public enum LightRigPresetType

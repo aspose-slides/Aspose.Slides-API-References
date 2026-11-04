@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: सुपरस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें एक बेस और छोटा आकार का सुपरस्क्रिप्ट ऊपर और दाएँ स्थित होते हैं
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक सुपरस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है, जो एक बेस और एक छोटा-आकार का सुपरस्क्रिप्ट शामिल करता है, जो ऊपर और दाएँ स्थित होता है
 type: docs
-weight: 8490
+weight: 8510
 url: /hi/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement इंटरफ़ेस
 
-सुपरस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें एक बेस और एक छोटा आकार का सुपरस्क्रिप्ट ऊपर और दाएँ स्थित होता है
+एक सुपरस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है, जो एक बेस और एक छोटा-आकार का सुपरस्क्रिप्ट शामिल करता है, जो ऊपर और दाएँ स्थित होता है
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSuperscriptElement : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस को प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | बेस तर्क |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | सुपरस्क्रिप्ट |
 
@@ -31,7 +31,7 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

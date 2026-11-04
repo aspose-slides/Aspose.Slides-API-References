@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Manager dar, der das Verhalten der Platzhalter für die Master-Handout-Folien einschließlich des Kopfzeilen-Platzhalters enthält.
+description: Stellt einen Manager dar, der das Verhalten der Platzhalter für die Master-Handout-Folie einschließlich des Kopfzeilen-Platzhalters enthält.
 type: docs
-weight: 6360
+weight: 6380
 url: /de/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager Schnittstelle
 
-Stellt den Manager dar, der das Verhalten der Platzhalter für Master-Handout-Folien enthält, einschließlich des Kopfzeilen-Platzhalters.
+Stellt einen Manager dar, der das Verhalten der Platzhalter für die Master-Handout-Folie enthält, einschließlich des Kopfzeilen-Platzhalters.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

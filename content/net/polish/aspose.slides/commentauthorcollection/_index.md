@@ -1,9 +1,9 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET — odniesienie API
 description: Reprezentuje kolekcję autorów komentarzy.
 type: docs
-weight: 2640
+weight: 2660
 url: /pl/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection klasa
@@ -20,7 +20,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | --- | --- |
 | [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
 | [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
@@ -32,7 +32,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Znajduje autora w kolekcji po nazwie. |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Znajduje autora w kolekcji po nazwie i inicjałach. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
 | [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Usuwa pierwsze wystąpienie określonego autora w kolekcji. |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Usuwa autora o podanym indeksie w kolekcji. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Tworzy i zwraca tablicę ze wszystkimi autorami. |

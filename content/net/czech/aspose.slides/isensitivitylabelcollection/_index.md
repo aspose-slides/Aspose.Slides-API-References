@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje kolekci citlivých štítků aplikovaných na dokument.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje kolekci citlivostních štítků aplikovaných na dokument.
 type: docs
-weight: 6940
+weight: 6960
 url: /cs/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection rozhraní
 
-Představuje kolekci citlivých štítků aplikovaných na dokument.
+Představuje kolekci citlivostních štítků aplikovaných na dokument.
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -16,19 +16,19 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Získá počet všech prvků v kolekci. Pouze ke čtení Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Vrátí citlivý štítek podle indexu. Pouze ke čtení [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Získá počet všech prvků v kolekci. Pouze pro čtení Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Vrátí citlivostní štítek podle indexu. Pouze pro čtení [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Přidá SensitivityLabel do kolekce. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Přidá citlivý štítek na konec kolekce. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Přidá citlivostní štítek na konci kolekce. |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Odstraní všechny prvky z kolekce. |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Odstraní citlivý štítek na zadaném indexu. |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Odstraní citlivostní štítek na zadaném indexu. |
 
 ### Viz také
 

@@ -1,24 +1,24 @@
 ---
 title: IsVisible
-second_title: Aspose.Sildes için .NET API Referansı
-description: False, veri etiketinin varsayılan olarak görünür olmadığı ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show-flags ShowValue ... false olduğu anlamına gelir. Salt okunur Boolean.
+second_title: Aspose.Sildes .NET API Referansı
+description: False, veri etiketinin varsayılan olarak görünür olmadığını ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show-flags ShowValue ... değerinin false olduğunu ifade eder. Salt-okunur Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /tr/aspose.slides.charts/datalabelcollection/isvisible/
 ---
 ## DataLabelCollection.IsVisible özelliği
 
-False, veri etiketinin varsayılan olarak görünür olmadığı anlamına gelir (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-bayrakları (ShowValue, ...) false olur). Salt okunur Boolean.
+False, veri etiketinin varsayılan olarak görünür olmadığını (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-flags (ShowValue, ...) false olduğunu) ifade eder. Salt-okunur Boolean.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Açıklama
+### Açıklamalar
 
-Veri etiketi varsayılan olarak görünürse, Hide() yöntemiyle varsayılan olarak gizleyebilirsiniz. Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false ise), DefaultDataLabelFormat özelliğinin Show*-bayraklarını (ShowValue, ...) true durumuna ayarlayarak veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
+Veri etiketi varsayılan olarak görünürse, Hide() metodu ile varsayılan olarak gizleyebilirsiniz. Ancak veri etiketi varsayılan olarak görünür değilse (IsVisible false'tur), DefaultDataLabelFormat özelliğinin Show*-flags (ShowValue, ...) ayarını true durumuna getirerek veri etiketini "varsayılan olarak görünür" yapabilirsiniz.
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DataLabelCollection](../../datalabelcollection)
 * ad alanı [Aspose.Slides.Charts](../../datalabelcollection)

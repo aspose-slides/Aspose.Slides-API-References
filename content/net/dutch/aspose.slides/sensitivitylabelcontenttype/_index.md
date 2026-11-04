@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de typen markering van inhoud weer die op een document moeten worden toegepast.
+description: Stelt de typen inhoudsmarkering voor die op een document moeten worden toegepast.
 type: docs
-weight: 9820
+weight: 9840
 url: /nl/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## SensitivityLabelContentType enumeratie
 
-Geeft de typen inhoudsmarkering weer die op een document moeten worden toegepast.
+Vertegenwoordigt de typen inhoudsmarkering die op een document moeten worden toegepast.
 
 ```csharp
 public enum SensitivityLabelContentType

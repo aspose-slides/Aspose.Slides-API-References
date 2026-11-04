@@ -3,7 +3,7 @@ title: IPortionFormatEffectiveData
 second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades de formatação de porção de texto efetivas.
 type: docs
-weight: 6740
+weight: 6760
 url: /pt/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interface
@@ -19,15 +19,15 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Retorna a interface IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Retorna o identificador do marcador. Somente leitura String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Retorna o hyperlink definido para clique do mouse. Somente leitura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Retorna o hyperlink definido para mouse over. Somente leitura [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Retorna o identificador de marcador. Somente leitura String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Retorna o hiperlink definido para clique do mouse. Somente leitura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Retorna o hiperlink definido para passar o mouse. Somente leitura [`IHyperlink`](../ihyperlink). |
 
 ### Observações
 
-Esta interface é usada juntamente com a interface [`IPortionFormat`](../iportionformat) para retornar valores de formatação efetivos com herança aplicada.
+Esta interface é usada juntamente com a interface [`IPortionFormat`](../iportionformat) para retornar valores de formatação efetiva com herança aplicada.
 
-### Veja também
+### Veja Também
 
 * interface [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

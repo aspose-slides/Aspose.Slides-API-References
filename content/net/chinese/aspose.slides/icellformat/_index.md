@@ -3,7 +3,7 @@ title: ICellFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示表格单元格的格式。
 type: docs
-weight: 5470
+weight: 5490
 url: /zh/aspose.slides/icellformat/
 ---
 ## ICellFormat 接口
@@ -25,13 +25,13 @@ public interface ICellFormat
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 返回右侧边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 返回顶部边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | 返回单元格填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。读写 Single。 |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。读/写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 获取在继承和表格样式应用后的实际表格单元格格式属性。 |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 获取在继承和表格样式应用下的有效表格单元格格式属性。 |
 
 ### 另请参阅
 

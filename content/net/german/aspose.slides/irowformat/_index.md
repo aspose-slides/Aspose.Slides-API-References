@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Format einer Tabellenzeile dar.
 type: docs
-weight: 6870
+weight: 6890
 url: /de/aspose.slides/irowformat/
 ---
 ## IRowFormat Schnittstelle
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Ruft die effektiven Formatierungseigenschaften einer Tabellenzeile ab, wobei Vererbung und Tabellenstile angewendet werden. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Ruft die wirksamen Formatierungseigenschaften einer Tabellenzeile ab, unter Berücksichtigung von Vererbung und angewendeten Tabellenstilen. |
 
 ### Siehe auch
 

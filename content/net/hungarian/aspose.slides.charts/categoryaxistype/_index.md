@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Sildes .NET API referencia
-description: Kategória tengely egy típusát jelöli.
+description: A kategória tengely egy típusát reprezentálja.
 type: docs
-weight: 1250
+weight: 1260
 url: /hu/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType felsorolás
+## CategoryAxisType enumeráció
 
-Kategória tengely egy típusát jelöli.
+A kategória tengely egy típusát reprezentálja.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Text | `0` | Megadja, hogy a kategória tengely szöveges tengely. |
-| Date | `1` | Megadja, hogy a kategória tengely dátum tengely. |
+| Text | `0` | Megadja, hogy a kategória tengely egy szöveges tengely. |
+| Date | `1` | Megadja, hogy a kategória tengely egy dátum tengely. |
 
 ### Lásd még
 

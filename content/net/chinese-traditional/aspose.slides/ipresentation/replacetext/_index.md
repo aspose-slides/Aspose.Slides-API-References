@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes for .NET API 參考
-description: 將指定文字的所有出現替換為另一個指定的文字。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 將指定文字的所有出現取代為另一個指定的文字。
 type: docs
-weight: 370
+weight: 380
 url: /zh-hant/aspose.slides/ipresentation/replacetext/
 ---
 ## IPresentation.ReplaceText 方法
 
-將指定文字的所有出現替換為另一個指定的文字。
+將指定文字的所有出現取代為另一個指定的文字。
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,25 +18,25 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | oldText | String | 要被取代的字串。 |
-| newText | String | 用來取代所有 oldText 出現位置的字串。 |
+| newText | String | 用於取代 oldText 所有出現的字串。 |
 | options | ITextSearchOptions | 文字搜尋選項 [`ITextSearchOptions`](../../itextsearchoptions)。 |
 | callback | IFindResultCallback | 接收搜尋結果的回呼物件 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 範例
 
-以下範例程式碼展示如何將一個指定字串替換為另一個指定字串。
+以下範例程式碼示範如何將一個指定的字串取代為另一個指定的字串。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 將所有獨立的 'the' 出現替換為 '***'
+	// 將所有獨立的 'the' 出現取代為 '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另見
+### 另請參閱
 
 * 介面 [ITextSearchOptions](../../itextsearchoptions)
 * 介面 [IFindResultCallback](../../ifindresultcallback)

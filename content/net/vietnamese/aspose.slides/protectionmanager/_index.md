@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Quản lý bảo vệ mật khẩu cho bài thuyết trình.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Quản lý bảo vệ mật khẩu cho bản trình chiếu.
 type: docs
-weight: 9680
+weight: 9700
 url: /vi/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager lớp
 
-Quản lý bảo vệ mật khẩu cho bài thuyết trình.
+Quản lý bảo vệ mật khẩu cho bản trình chiếu.
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,22 +18,22 @@ public sealed class ProtectionManager : IProtectionManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Thuộc tính này có ý nghĩa khi bài thuyết trình được bảo vệ bằng mật khẩu. Nếu true thì các thuộc tính tài liệu được mã hoá trong tệp bài thuyết trình. Nếu false thì các thuộc tính tài liệu là công khai trong khi bài thuyết trình được mã hoá. Đọc/ghi Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Lấy mật khẩu được sử dụng để mã hoá bài thuyết trình. Chỉ đọc String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Lấy giá trị cho biết liệu thể hiện này có được mã hoá hay không. Chỉ đọc Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Thuộc tính này có ý nghĩa khi tệp bài thuyết trình được bảo vệ bằng mật khẩu và các thuộc tính tài liệu của tệp này là công khai. Giá trị true có nghĩa là chỉ các thuộc tính tài liệu được tải từ tệp bài thuyết trình đã mã hoá mà không cần mật khẩu. Giá trị false có nghĩa là toàn bộ bài thuyết trình được mã hoá được tải bằng mật khẩu đúng, không chỉ các thuộc tính tài liệu được tải. Nếu bài thuyết trình không được mã hoá thì giá trị thuộc tính luôn là false. Nếu các thuộc tính tài liệu của tệp đã mã hoá không công khai thì giá trị thuộc tính luôn là false. Nếu Presentation.EncryptDocumentProperties là true thì giá trị thuộc tính IsOnlyDocumentPropertiesLoaded luôn là false. Chỉ đọc Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Lấy giá trị cho biết liệu bài thuyết trình này có được bảo vệ ghi không. Chỉ đọc Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Lấy hoặc đặt khuyến nghị chỉ đọc. Đọc/ghi Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Thuộc tính này có ý nghĩa khi bản trình chiếu được bảo vệ bằng mật khẩu. Nếu true thì các thuộc tính tài liệu được mã hóa trong tệp bản trình chiếu. Nếu false thì các thuộc tính tài liệu là công khai trong khi bản trình chiếu được mã hóa. Đọc/ghi Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Lấy mật khẩu được sử dụng để mã hóa bản trình chiếu. Chỉ-đọc String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Lấy giá trị cho biết liệu thể hiện này có bị mã hóa hay không. Chỉ-đọc Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Thuộc tính này có ý nghĩa khi tệp bản trình chiếu được bảo vệ bằng mật khẩu và các thuộc tính tài liệu của tệp này là công khai. Giá trị true có nghĩa là chỉ các thuộc tính tài liệu được tải từ tệp bản trình chiếu đã mã hóa mà không cần mật khẩu. Giá trị false có nghĩa là toàn bộ bản trình chiếu đã mã hóa được tải bằng mật khẩu đúng, không chỉ các thuộc tính tài liệu được tải. Nếu bản trình chiếu không được mã hóa thì giá trị thuộc tính luôn là false. Nếu các thuộc tính tài liệu của tệp đã mã hóa không công khai thì giá trị thuộc tính luôn là false. Nếu Presentation.EncryptDocumentProperties là true thì giá trị thuộc tính IsOnlyDocumentPropertiesLoaded luôn là false. Chỉ-đọc Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Lấy giá trị cho biết liệu bản trình chiếu này có được bảo vệ ghi không. Chỉ-đọc Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Lấy hoặc đặt khuyến nghị chỉ-đọc. Đọc/ghi Boolean. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Xác định xem một bài thuyết trình có được bảo vệ bằng mật khẩu để sửa đổi hay không. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Mã hoá Presentation bằng mật khẩu đã chỉ định. |
-| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Xóa bỏ việc mã hoá. |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Xóa bảo vệ ghi cho bài thuyết trình này. |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Đặt bảo vệ ghi cho bài thuyết trình này bằng mật khẩu đã chỉ định. |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Xác định xem một bản trình chiếu có được bảo vệ bằng mật khẩu để chỉnh sửa hay không. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Mã hóa bản trình chiếu bằng mật khẩu đã chỉ định. |
+| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Gỡ bỏ quá trình mã hóa. |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Gỡ bỏ bảo vệ ghi cho bản trình chiếu này. |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Đặt bảo vệ ghi cho bản trình chiếu này bằng mật khẩu đã chỉ định. |
 
 ### Xem thêm
 

@@ -1,9 +1,9 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Substitui todas as ocorrências do texto especificado por outro texto especificado.
 type: docs
-weight: 370
+weight: 380
 url: /pt/aspose.slides/ipresentation/replacetext/
 ---
 ## IPresentation.ReplaceText método
@@ -20,7 +20,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | oldText | String | A string a ser substituída. |
 | newText | String | A string que substitui todas as ocorrências de oldText. |
 | options | ITextSearchOptions | Opções de pesquisa de texto [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | O objeto de retorno de chamada para receber resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | O objeto de callback para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
@@ -30,7 +30,7 @@ O código de exemplo a seguir mostra como substituir uma string especificada por
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Substitua todas as ocorrências separadas de 'the' por '***'
+	// Substitui todas as ocorrências separadas de 'the' por '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

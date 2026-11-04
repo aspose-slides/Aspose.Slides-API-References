@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดในงานนำเสนอ. ขยายคลาส LayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/คัดลอกสไลด์เลย์เอาต์ในบริบทของการรวมคอลเลกชันแยกของสไลด์เลย์เอาต์ของมาสเตอร์.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของสไลด์เค้าโครงทั้งหมดในงานนำเสนอ. ขยายคลาส LayoutSlideCollection พร้อมเมธอดสำหรับการเพิ่ม/ทำสำเนาสไลด์เค้าโครงในบริบทของการรวมคอลเลกชันย่อยของ masters layout slides.
 type: docs
-weight: 4980
+weight: 5000
 url: /th/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection คลาส
 
-Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection คลาส with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
+แสดงถึงคอลเลกชันของสไลด์เค้าโครงทั้งหมดในงานนำเสนอ. สืบทอดจาก LayoutSlideCollection คลาสพร้อมเมธอดสำหรับการเพิ่ม/ทำสำเนาสไลด์เค้าโครงในบริบทของการรวมคอลเลกชันย่อยของสไลด์เค้าโครงของมาสเตอร์.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,23 +19,23 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | คืนค่าจำนวนของ layout slides ในคอลลักชัน โดยอ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลลักชันนี้ถูกซิงโครไนซ์ (thread-safe) โดยอ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | คืนค่า layout slide ตามดัชนี โดยอ่านอย่างเดียว [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์ โดยอ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | ส่งคืนจำนวนสไลด์เค้าโครงในคอลเลกชันหนึ่ง. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | ส่งคืนค่าที่แสดงว่าการเข้าถึงคอลเลกชันถูกซิงโครไนส์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | ส่งคืนสไลด์เค้าโครงตามดัชนี. อ่านอย่างเดียว [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | เพิ่ม layout slide ใหม่ใน presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | เพิ่มสำเนาของ layout slide ที่ระบุไปยัง presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | เพิ่มสำเนาของ layout slide ที่ระบุไปยัง presentation. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | คัดลอกทั้งหมดขององค์ประกอบจากคอลลักชันไปยังอาเรย์ที่ระบุ. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | คืนค่า layout slide แรกของประเภทที่ระบุ. ประเภทของ layout slide เพื่อค้นหา. [`LayoutSlide`](../layoutslide) ด้วยประเภทที่ระบุหรือ null หากไม่ได้พบ layouts. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลลักชัน. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | ลบ layout ออกจากคอลลักชัน. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | ลบ layout slides ที่ไม่ได้ใช้ (layout slides ที่ HasDependingSlides เป็น false). |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | เพิ่มสไลด์เค้าโครงใหม่ไปยังงานนำเสนอ. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เค้าโครงที่ระบุไปยังงานนำเสนอ. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | เพิ่มสำเนาของสไลด์เค้าโครงที่ระบุไปยังงานนำเสนอ. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | ส่งคืนสไลด์เค้าโครงแรกของประเภทที่ระบุ. ชนิดของสไลด์เค้าโครงที่ต้องการค้นหา.[`LayoutSlide`](../layoutslide) กับประเภทที่ระบุหรือ null หากไม่พบเค้าโครง. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | ลบเค้าโครงออกจากคอลเลกชัน. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | ลบสไลด์เค้าโครงที่ไม่ได้ใช้ (สไลด์เค้าโครงที่ HasDependingSlides เป็น false). |
 
 ### ดูเพิ่มเติม
 

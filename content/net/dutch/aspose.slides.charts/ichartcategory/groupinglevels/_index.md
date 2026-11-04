@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheerde container van de waarden van de groeperingsniveaus van de diagramcategorie. Een meerlagige categorie bevat meer dan één groeperingsniveau. Indexering van de groeperingsniveaus is nulgebaseerd. Alleen-lezen IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Beheerde container van de waarden van de groepsniveaus van de diagramcategorie. Een meerlagige categorie bevat meer dan één groepsniveau. Indexering van groepsniveaus is nulgebaseerd. Alleen-lezen IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /nl/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels eigenschap
 
-Beheerde container van de waarden van de groeperingsniveaus van de diagramcategorie. Een meerlagige categorie bevat meer dan één groepeerlevel. Indexering van de groepeerlevels is nulgebaseerd. Alleen-lezen [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Beheerde container van de waarden van de groepsniveaus van de diagramcategorie. Een meerlagige categorie bevat meer dan één groepsniveau. Indexering van groepsniveaus is nulgebaseerd. Alleen-lezen [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMathArrayFactory
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อนุญาตให้สร้างอาเรย์คณิตศาสตร์
+description: อนุญาตให้สร้างอาร์เรย์คณิตศาสตร์
 type: docs
-weight: 8110
+weight: 8130
 url: /th/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างอาเรย์คณิตศาสตร์
+อนุญาตให้สร้างอาร์เรย์คณิตศาสตร์
 
 ```csharp
 public interface IMathArrayFactory
@@ -18,12 +18,12 @@ public interface IMathArrayFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาเรย์คณิตศาสตร์และใส่องค์ประกอบที่ระบุลงในอาเรย์ |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาเรย์คณิตศาสตร์และใส่องค์ประกอบหลายรายการที่ระบุลงในอาเรย์ |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาร์เรย์คณิตศาสตร์และใส่องค์ประกอบที่ระบุลงในอาร์เรย์ |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาร์เรย์คณิตศาสตร์และใส่องค์ประกอบที่ระบุไว้หลายรายการลงในอาร์เรย์ |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

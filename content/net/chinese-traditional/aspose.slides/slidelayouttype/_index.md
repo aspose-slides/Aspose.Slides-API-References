@@ -3,7 +3,7 @@ title: SlideLayoutType
 second_title: Aspose.Sildes .NET API 參考
 description: 表示投影片版面配置類型。
 type: docs
-weight: 9990
+weight: 10010
 url: /zh-hant/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType 列舉
@@ -16,7 +16,7 @@ public enum SlideLayoutType : sbyte
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 數值 | 說明 |
 | --- | --- | --- |
 | Custom | `-1` | 自訂 |
 | Title | `0` | 標題 |
@@ -37,16 +37,16 @@ public enum SlideLayoutType : sbyte
 | TitleAndObject | `15` | 標題與物件 |
 | TextAndMedia | `16` | 文字與媒體 |
 | MediaAndText | `17` | 媒體與文字 |
-| ObjectOverText | `18` | 物件覆蓋文字 |
-| TextOverObject | `19` | 文字覆蓋物件 |
+| ObjectOverText | `18` | 物件在文字之上 |
+| TextOverObject | `19` | 文字在物件之上 |
 | TextAndTwoObjects | `20` | 文字與兩個物件 |
 | TwoObjectsAndText | `21` | 兩個物件與文字 |
-| TwoObjectsOverText | `22` | 兩個物件覆蓋文字 |
+| TwoObjectsOverText | `22` | 兩個物件在文字之上 |
 | FourObjects | `23` | 四個物件 |
-| VerticalText | `24` | 直排文字 |
-| ClipArtAndVerticalText | `25` | 剪貼畫與直排文字 |
-| VerticalTitleAndText | `26` | 直排標題與文字 |
-| VerticalTitleAndTextOverChart | `27` | 直排標題與文字覆蓋圖表 |
+| VerticalText | `24` | 垂直文字 |
+| ClipArtAndVerticalText | `25` | 剪貼畫與垂直文字 |
+| VerticalTitleAndText | `26` | 垂直標題與文字 |
+| VerticalTitleAndTextOverChart | `27` | 垂直標題與文字在圖表之上 |
 | TwoObjects | `28` | 兩個物件 |
 | ObjectAndTwoObject | `29` | 物件與兩個物件 |
 | TwoObjectsAndObject | `30` | 兩個物件與物件 |

@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes용 .NET API 레퍼런스
 description: 슬라이드 범위
 type: docs
-weight: 10530
+weight: 10550
 url: /ko/aspose.slides/slidesrange/
 ---
 ## SlidesRange 클래스
@@ -16,18 +16,18 @@ public class SlidesRange
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [SlidesRange](slidesrange)() | 기본 생성자입니다. |
+| [SlidesRange](slidesrange)() | 기본 생성자. |
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | 끝 |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | 시작 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IField
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: フィールドを表します。
 type: docs
-weight: 5770
+weight: 5790
 url: /ja/aspose.slides/ifield/
 ---
 ## IField インターフェイス
@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | ベース ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | フィールドの型を取得または設定します。読み取り/書き込み [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | フィールドの型を取得または設定します。読み書き [`IFieldType`](../ifieldtype). |
 
 ### 参照
 

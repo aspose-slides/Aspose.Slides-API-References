@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa las propiedades de formato de un gráfico.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa las propiedades de formato del gráfico.
 type: docs
-weight: 1680
+weight: 1690
 url: /es/aspose.slides.charts/format/
 ---
-## Format clase
+## Clase Format
 
-Representa las propiedades de formato de un gráfico.
+Representa las propiedades de formato del gráfico.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat

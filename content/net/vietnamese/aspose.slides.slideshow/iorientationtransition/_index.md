@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Hiệu ứng chuyển đổi slide theo hướng.
 type: docs
-weight: 10150
+weight: 10170
 url: /vi/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition giao diện

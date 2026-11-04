@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje dodatkowy schemat kolorów, który można przypisać do slajdu.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje dodatkowy schemat kolorów, który może być przypisany do slajdu.
 type: docs
-weight: 11100
+weight: 11120
 url: /pl/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme klasa
 
-Reprezentuje dodatkową schemat kolorów, który można przypisać do slajdu.
+Reprezentuje dodatkową schemat kolorów, który może być przypisany do slajdu.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme

@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ระบุขนาดของบริเวณสไลด์ width when a child of restoredTop height when a child of restoredLeft ของมุมมองปกติเมื่อบริเวณเป็นขนาดที่ปรับได้ (ไม่ถูกย่อหรือขยายเต็ม)
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุการกำหนดขนาดของพื้นที่สไลด์ ความกว้างเมื่อเป็น child ของ restoredTop ความสูงเมื่อเป็น child ของ restoredLeft ของมุมมองปกติเมื่อพื้นที่เป็นขนาด restored ที่เปลี่ยนแปลงได้ซึ่งไม่ได้ถูกย่อขนาดหรือขยายขนาด
 type: docs
-weight: 6480
+weight: 6500
 url: /th/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties อินเทอร์เฟซ
 
-ระบุขนาดของพื้นที่สไลด์ ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
+ระบุการกำหนดขนาดของพื้นที่สไลด์ ((width when a child of restoredTop, height when a child of restoredLeft) ของมุมมองปกติ, เมื่อพื้นที่อยู่ในขนาด restored ที่เปลี่ยนแปลงได้ (neither minimized nor maximized).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | ระบุว่าขนาดของพื้นที่เนื้อหาด้านข้างควรชดเชยขนาดใหม่เมื่อปรับขนาดหน้าต่างที่บรรจุมุมมองภายในแอปพลิเคชันหรือไม่ อ่าน/เขียน Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | ระบุขนาดของพื้นที่สไลด์ (width when a child of RestoredTop, height when a child of RestoredLeft). อ่าน/เขียน Single. ทำข้อยกเว้นเมื่อค่าต่ำกว่า 0 หรือมากกว่า 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | ระบุว่าขนาดของพื้นที่เนื้อหาด้านข้างควรชดเชยขนาดใหม่เมื่อปรับขนาดหน้าต่างที่บรรจุมุมมองภายในแอปพลิเคชันหรือไม่ Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | ระบุขนาดของพื้นที่สไลด์ (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. ขว้างข้อยกเว้นเมื่อค่าต่ำกว่า 0 หรือ มากกว่า 100. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MathVerticalAlignment
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Perataan Vertikal
+description: Penjajaran Vertikal
 type: docs
-weight: 9050
+weight: 9070
 url: /id/aspose.slides.mathtext/mathverticalalignment/
 ---
-## enumerasi MathVerticalAlignment
+## MathVerticalAlignment enumerasi
 
-Perataan Vertikal
+Penjajaran Vertikal
 
 ```csharp
 public enum MathVerticalAlignment
@@ -18,10 +18,10 @@ public enum MathVerticalAlignment
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `0` | Nilai tidak didefinisikan |
-| Top | `1` | Top |
-| Center | `2` | Center |
-| Bottom | `3` | Bottom |
+| NotDefined | `0` | Nilai tidak ditentukan |
+| Top | `1` | Atas |
+| Center | `2` | Tengah |
+| Bottom | `3` | Bawah |
 
 ### Lihat Juga
 

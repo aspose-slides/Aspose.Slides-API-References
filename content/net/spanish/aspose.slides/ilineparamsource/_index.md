@@ -1,9 +1,9 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Interfaz auxiliar de parámetros de línea.
 type: docs
-weight: 6330
+weight: 6350
 url: /es/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource interfaz

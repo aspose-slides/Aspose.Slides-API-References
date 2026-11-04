@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling Tab-objecten voor.
+description: Stelt een verzameling tabbladen voor.
 type: docs
-weight: 7200
+weight: 7220
 url: /nl/aspose.slides/itabcollection/
 ---
 ## ITabCollection interface
 
-Stelt een verzameling Tab-objecten voor.
+Stelt een collectie tabbladen voor.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -16,18 +16,18 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Haalt het element op bij de opgegeven index. Alleen-lezen [`ITab`](../itab). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Voegt een Tab toe aan de collectie. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Voegt een Tab toe aan de collectie. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Verwijdert het element bij de opgegeven index van de collectie. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: Input
-second_title: Aspose.Sildes .NET API referencia
-description: Egy bemeneti elemek sablonjainak gyűjteményét reprezentál.
+second_title: Aspose.Sildes .NET API referenciája
+description: A bemeneti elemek sablonjainak gyűjteményét képviseli.
 type: docs
-weight: 4630
+weight: 4650
 url: /hu/aspose.slides.export.web/input/
 ---
 ## Input osztály
 
-A bemeneti elemek (sablonok) gyűjteményét reprezentálja.
+A bemeneti elemek (sablonok) gyűjteményét képviseli.
 
 ```csharp
 public sealed class Input
@@ -18,7 +18,7 @@ public sealed class Input
 
 | Név | Leírás |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Sablont ad a gyűjteményhez. |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Hozzáad egy sablont a gyűjteményhez. |
 
 ### Lásd még
 

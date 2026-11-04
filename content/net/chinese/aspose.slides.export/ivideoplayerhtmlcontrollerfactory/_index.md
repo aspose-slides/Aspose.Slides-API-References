@@ -1,9 +1,9 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 允许创建 VideoPlayerHtmlController。
 type: docs
-weight: 4190
+weight: 4210
 url: /zh/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
 ## IVideoPlayerHtmlControllerFactory 接口
@@ -18,13 +18,13 @@ public interface IVideoPlayerHtmlControllerFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | 创建 video player HTML controller。 |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | 创建 VideoPlayerHtmlController。 |
 
 ### 备注
 
 用于 COM 兼容性。
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

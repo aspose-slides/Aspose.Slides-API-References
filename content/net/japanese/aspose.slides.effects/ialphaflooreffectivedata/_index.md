@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Alpha フロア効果を表す不変オブジェクトです。Alpha の不透明度が 100 未満の値はゼロに変換されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Alpha Floor エフェクトを表す不変オブジェクトです。Alpha の不透明度が 100 未満の場合はゼロに変更されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
 type: docs
-weight: 3070
+weight: 3090
 url: /ja/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData インターフェイス
 
-アルファフロア効果を表す不変オブジェクトです。アルファ（不透明度）の値が 100% 未満の場合はゼロに変換されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
+Alpha Floor エフェクトを表す不変オブジェクトです。Alpha（不透明度）の値が 100% 未満の場合はゼロに変更されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData

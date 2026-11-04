@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję autorów komentarzy.
 type: docs
-weight: 5580
+weight: 5600
 url: /pl/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfejs
@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
 
 ## Metody
 

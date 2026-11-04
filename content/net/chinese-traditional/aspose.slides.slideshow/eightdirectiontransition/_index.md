@@ -3,12 +3,12 @@ title: EightDirectionTransition
 second_title: Aspose.Sildes for .NET API 參考
 description: 八方向投影片過渡效果。
 type: docs
-weight: 10020
+weight: 10040
 url: /zh-hant/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition 類別
 
-八方向投影片過渡效果。
+Eight direction slide transition effect.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -18,16 +18,16 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 過渡的方向。讀寫 [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 過渡的方向。 可讀/寫 [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和像雜湊表之類的資料結構。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和類似雜湊表的資料結構。 |
 
-### 另見
+### 另請參考
 
 * 類別 [TransitionValueBase](../transitionvaluebase)
 * 介面 [IEightDirectionTransition](../ieightdirectiontransition)

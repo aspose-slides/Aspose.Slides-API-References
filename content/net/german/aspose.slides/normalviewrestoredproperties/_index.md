@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes für .NET API-Referenz
-description: "Gibt die Größe des Folienbereichs an: Breite, wenn ein Kind von restoredTop, Höhe, wenn ein Kind von restoredLeft, in der normalen Ansicht, wenn der Bereich eine variable wiederhergestellte Größe hat, weder minimiert noch maximiert."
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Größe des Folienbereichs an (Breite, wenn ein Kind von restoredTop, Höhe, wenn ein Kind von restoredLeft) der Normalansicht, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert).
 type: docs
-weight: 9120
+weight: 9140
 url: /de/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties Klasse
 
-Gibt die Größe des Folienbereichs an ((Breite, wenn Kind von RestoredTop, Höhe, wenn Kind von RestoredLeft) der normalen Ansicht, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert).
+Gibt die Größe des Folienbereichs an ((Breite, wenn ein Kind von restoredTop, Höhe, wenn ein Kind von restoredLeft) der Normalansicht, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Gibt an, ob die Größe des Seiteninhaltsbereichs die neue Größe beim Ändern der Größe des Fensters, das die Ansicht in der Anwendung enthält, kompensieren soll Lesen/Schreiben Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Gibt die Größe des Folienbereichs an (Breite, wenn Kind von RestoredTop, Höhe, wenn Kind von RestoredLeft). Lesen/Schreiben Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Gibt an, ob die Größe des seitlichen Inhaltsbereichs die neue Größe ausgleichen soll, wenn das Fenster, das die Ansicht innerhalb der Anwendung enthält, skaliert wird. Lese/Schreiben Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Gibt die Größe des Folienbereichs an (Breite, wenn ein Kind von RestoredTop, Höhe, wenn ein Kind von RestoredLeft). Lese/Schreiben Single. |
 
 ### Siehe auch
 

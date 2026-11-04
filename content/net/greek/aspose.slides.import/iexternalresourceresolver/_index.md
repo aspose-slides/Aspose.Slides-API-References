@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes για .NET API αναφορά
-description: Διεπαφή κλήσης επαναφοράς που χρησιμοποιείται για την επίλυση εξωτερικών πόρων κατά την εισαγωγή εγγράφων Html Svg.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Διεπαφή κλήσης που χρησιμοποιείται για την επίλυση εξωτερικών πόρων κατά την εισαγωγή εγγράφων Html και Svg.
 type: docs
-weight: 7490
+weight: 7510
 url: /el/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver διασύνδεση
 
-Διεπαφή κλήσης επαναφοράς που χρησιμοποιείται για την ανάλυση εξωτερικών πόρων κατά την εισαγωγή εγγράφων Html, Svg.
+Διεπαφή κλήσης που χρησιμοποιείται για την επίλυση εξωτερικών πόρων κατά την εισαγωγή εγγράφων Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,8 +18,8 @@ public interface IExternalResourceResolver
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Αντιστοιχίζει ένα URI σε ένα αντικείμενο που περιέχει τον πραγματικό πόρο. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Επιλύει το απόλυτο URI από το βασικό και το σχετικό URI. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Απεικονίζει ένα URI σε ένα αντικείμενο που περιέχει το πραγματικό πόρο. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Επιλύει το απόλυτο URI από τα βασικά και σχετικά URIs. |
 
 ### Δείτε επίσης
 

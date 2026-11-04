@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
 type: docs
-weight: 360
+weight: 370
 url: /it/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex metodo

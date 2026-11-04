@@ -1,12 +1,12 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: リップル スライド遷移効果。
 type: docs
-weight: 10170
+weight: 10190
 url: /ja/aspose.slides.slideshow/irippletransition/
 ---
-## IRippleTransition インターフェイス
+## IRippleTransition インターフェース
 
 リップル スライド遷移効果。
 
@@ -18,12 +18,12 @@ public interface IRippleTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 基本 ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 遷移の方向。読み書き可能 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | ベースITransitionValueBaseインターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 遷移の方向。読み書き [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
 
 ### 参照
 
-* インターフェイス [ITransitionValueBase](../itransitionvaluebase)
+* インターフェース [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)
 

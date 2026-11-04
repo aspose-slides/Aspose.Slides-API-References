@@ -1,9 +1,9 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Cho phép tạo IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 8460
+weight: 8480
 url: /vi/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
 ## IMathRightSubSuperscriptElementFactory giao diện
@@ -22,7 +22,7 @@ public interface IMathRightSubSuperscriptElementFactory
 
 ### Ghi chú
 
-Để tương thích COM
+Đối với tính tương thích COM
 
 ### Xem thêm
 

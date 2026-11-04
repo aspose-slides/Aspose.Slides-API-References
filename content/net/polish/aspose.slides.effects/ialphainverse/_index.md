@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: Reprezentuje efekt Alpha Inverse. Wartości przezroczystości Alpha są odwracane przez odjęcie od 100.
+second_title: Referencja API Aspose.Slides dla .NET
+description: Reprezentuje efekt odwrotnego alfa. Wartości przejrzystości alfa są odwracane przez odjęcie od 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /pl/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interfejs
 
-Reprezentuje efekt Alpha Inverse. Wartości Alpha (przezroczystość) są odwracane przez odjęcie od 100%.
+Reprezentuje efekt odwrotnego alfa. Wartości alfa (przezroczystość) są odwracane przez odjęcie od 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfejs [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)

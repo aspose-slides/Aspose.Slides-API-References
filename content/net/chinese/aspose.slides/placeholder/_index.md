@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片上的占位符。
 type: docs
-weight: 9430
+weight: 9450
 url: /zh/aspose.slides/placeholder/
 ---
 ## 占位符类

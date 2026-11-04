@@ -1,20 +1,20 @@
 ---
 title: SetAsTotal
 second_title: Aspose.Sildes for .NET API 參考
-description: 將資料點設為總計。僅適用於 Waterfall 系列類型。
+description: 將資料點設定為總計。僅適用於 Waterfall 系列類型。
 type: docs
-weight: 170
+weight: 210
 url: /zh-hant/aspose.slides.charts/chartdatapoint/setastotal/
 ---
 ## ChartDataPoint.SetAsTotal 屬性
 
-將資料點設為總計。僅適用於 Waterfall 系列類型。
+將資料點設定為總計。僅適用於 Waterfall 系列類型。
 
 ```csharp
 public bool SetAsTotal { get; set; }
 ```
 
-### 參見
+### 另請參閱
 
 * 類別 [ChartDataPoint](../../chartdatapoint)
 * 命名空間 [Aspose.Slides.Charts](../../chartdatapoint)

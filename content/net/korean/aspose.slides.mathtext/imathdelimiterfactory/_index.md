@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 구분자를 생성할 수 있습니다
 type: docs
-weight: 8220
+weight: 8240
 url: /ko/aspose.slides.mathtext/imathdelimiterfactory/
 ---
-## IMathDelimiterFactory 인터페이스
+## IMathDelimiterFactory interface
 
-수학 구분자를 만들 수 있습니다
+수학 구분자를 생성할 수 있습니다
 
 ```csharp
 public interface IMathDelimiterFactory

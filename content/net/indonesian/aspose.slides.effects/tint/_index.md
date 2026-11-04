@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Tint. Menggeser nilai warna efek menuju/menjauhi hue sebesar jumlah yang ditentukan.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Tint. Menggeser nilai warna efek menuju/menjauh dari hue sebesar jumlah yang ditentukan.
 type: docs
-weight: 3660
+weight: 3680
 url: /id/aspose.slides.effects/tint/
 ---
-## Kelas Tint
+## Tint kelas
 
-Mewakili efek Tint. Menggeser nilai warna efek menuju/menjauhi hue sebesar jumlah yang ditentukan.
+Mewakili efek Tint. Menggeser nilai warna efek menuju/menjauh dari hue sebesar jumlah yang ditentukan.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,14 +18,14 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | Menentukan apakah [`Tint`](../tint) yang ditentukan sama dengan [`Tint`](../tint) saat ini. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Mendapatkan data efek Tint yang efektif dengan warisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Mendapatkan data efek Tint yang efektif dengan pewarisan diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes の .NET API リファレンス
-description: このクラスはテキスト部分の書式設定プロパティを含みます。IPortionFormatEffectiveData./iportionformateffectivedata とは異なり、このクラスのすべてのプロパティは書き込み可能です。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: このクラスはテキスト部分の書式設定プロパティを含んでいます。IPortionFormatEffectiveData./iportionformateffectivedata とは異なり、このクラスのすべてのプロパティは書き込み可能です。
 type: docs
-weight: 6730
+weight: 6750
 url: /ja/aspose.slides/iportionformat/
 ---
 ## IPortionFormat インターフェイス
 
-このクラスはテキスト部分の書式設定プロパティを含みます。[`IPortionFormatEffectiveData`](../iportionformateffectivedata) とは異なり、このクラスのすべてのプロパティは書き込み可能です。
+このクラスはテキスト部分の書式設定プロパティを含んでいます。[`IPortionFormatEffectiveData`](../iportionformateffectivedata)とは異なり、このクラスのすべてのプロパティは書き込み可能です。
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -20,8 +20,8 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | IBasePortionFormat インターフェイスを返します。読み取り専用 [`IBasePortionFormat`](../ibaseportionformat)。 |
 | [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | ベース IHyperlinkContainer インターフェイスを取得できます。読み取り専用 [`IHyperlinkContainer`](../ihyperlinkcontainer)。 |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | ブックマーク識別子を取得または設定します。読み書き可能 String。 |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | スマートタグをクリーニングすべきかどうかを決定します。継承は適用されません。読み書き可能 Boolean。 |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | ブックマーク識別子を取得または設定します。読み書き String。 |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | スマートタグをクリアするかどうかを決定します。継承は適用されません。読み書き Boolean。 |
 
 ## メソッド
 
@@ -31,9 +31,9 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 ### 備考
 
-このクラスは、特定の部分に対して定義されたテキスト部分の書式設定プロパティを取得および操作するために使用されます。つまり、値を取得する際に継承が適用されないため、ほとんどの場合「未定義」を意味する値が得られます。
+このクラスは特定の部分に定義されたテキスト部分の書式設定プロパティを取得および操作するために使用されます。これは、値を取得する際に継承が適用されないことを意味し、ほとんどの場合「未定義」の値が返されます。
 
-継承を含む有効な書式設定パラメータの値を取得するには、[`GetEffective`](./geteffective) メソッドを使用する必要があり、これは [`IPortionFormatEffectiveData`](../iportionformateffectivedata) インスタンスを返します。
+継承されたものも含めた有効な書式設定パラメータ値を取得するには、[`GetEffective`](./geteffective) メソッドを使用する必要があります。このメソッドは [`IPortionFormatEffectiveData`](../iportionformateffectivedata) インスタンスを返します。
 
 ### 参照
 

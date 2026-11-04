@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Wände in 3D-Diagrammen dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Wände bei 3D-Diagrammen dar.
 type: docs
-weight: 2010
+weight: 2030
 url: /de/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall Schnittstelle
 
-Stellt Wände in 3d-Diagrammen dar.
+Stellt Wände bei 3D-Diagrammen dar.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Gibt die Wandfüllung, Linie, Effekt und 3d-Stile zurück. Nur-Lesen [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Gibt den Bildtyp zurück oder legt ihn fest. Lesen/Schreiben [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Gibt die Wandstärke zurück oder legt sie fest als Prozentsatz der größten Dimension des Plotvolumens. Lesen/Schreiben Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Gibt die Wandfüllung, Linie, Effekt und 3D-Stile zurück. Nur lesbar [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Gibt den Bildtyp zurück oder setzt ihn. Lese/Schreib [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Gibt die Wanddicke zurück oder setzt sie als Prozentsatz der größten Dimension des Plotvolumens. Lese/Schreib Int32. |
 
 ### Siehe auch
 

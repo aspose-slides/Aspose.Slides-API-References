@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει το κελί για δεδομένα γραφήματος.
+description: Αναπαριστά κελί για δεδομένα διαγράμματος.
 type: docs
-weight: 1320
+weight: 1330
 url: /el/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell κλάση
 
-Αντιπροσωπεύει το κελί για δεδομένα γραφήματος.
+Αναπαριστά κελί για δεδομένα διαγράμματος.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -16,27 +16,27 @@ public class ChartDataCell : IChartDataCell
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Λαμβάνει το φύλλο εργασίας. Read-only [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Επιστρέφει τον δείκτη της στήλης του φύλλου εργασίας στην οποία εντοπίζεται το κελί. Read-only Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Λαμβάνει ή ορίζει τη προσαρμοσμένη μορφή εμφάνισης αριθμών και ημερομηνιών. Εάν η τιμή είναι κενή θα χρησιμοποιηθεί η τιμή PresetNumberFormat. Read/write String. |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Λαμβάνει ή ορίζει τον τύπο σε μορφή A1. |
-| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Καθορίζει εάν το κελί είναι κρυφό. Read-only Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Λαμβάνει ή ορίζει την ενσωματωμένη μορφή εμφάνισης αριθμών και ημερομηνιών. Ο προκαθορισμένος αριθμός πρέπει να είναι στο [0..22] ή [37..49]. Read/write Byte. |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Λαμβάνει ή ορίζει τον τύπο σε μορφή R1C1. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Επιστρέφει τον δείκτη της γραμμής του φύλλου εργασίας στην οποία εντοπίζεται το κελί. Read-only Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Λαμβάνει ή ορίζει την τιμή ενός κελιού. Read/write Object. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Ανακτά το φύλλο εργασίας. Μόνο για ανάγνωση [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Επιστρέφει τον δείκτη της στήλης του φύλλου εργασίας στην οποία βρίσκεται το κελί. Μόνο για ανάγνωση Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Ανακτά ή ορίζει την προσαρμοσμένη μορφή εμφάνισης αριθμών και ημερομηνιών. Εάν η τιμή είναι κενή, θα χρησιμοποιηθεί η τιμή PresetNumberFormat. Ανάγνωση/εγγραφή String. |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Ανακτά ή ορίζει τον τύπο σε στυλ A1. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Καθορίζει εάν το κελί είναι κρυφό. Μόνο για ανάγνωση Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Ανακτά ή ορίζει την ενσωματωμένη μορφή εμφάνισης αριθμών και ημερομηνιών. Η προεπιλεγμένη τιμή πρέπει να βρίσκεται στα [0..22] ή [37..49]. Ανάγνωση/εγγραφή Byte. |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Ανακτά ή ορίζει τον τύπο σε στυλ R1C1. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Επιστρέφει τον δείκτη της γραμμής του φύλλου εργασίας στην οποία βρίσκεται το κελί. Μόνο για ανάγνωση Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Ανακτά ή ορίζει την τιμή ενός κελιού. Ανάγνωση/εγγραφή Object. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Εάν το κελί περιέχει τύπο, η τιμή θα ενημερωθεί βάσει αυτού του τύπου. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IChartDataCell](../ichartdatacell)
+* διεπαφή [IChartDataCell](../ichartdatacell)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 

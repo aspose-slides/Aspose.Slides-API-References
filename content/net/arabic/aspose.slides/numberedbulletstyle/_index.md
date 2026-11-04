@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل نمط الرصاصات المرقمة.
+description: يمثل نمط الرصاص المرقَّم.
 type: docs
-weight: 9180
+weight: 9200
 url: /ar/aspose.slides/numberedbulletstyle/
 ---
-## تعداد NumberedBulletStyle
+## التعداد NumberedBulletStyle
 
-يمثل نمط الرصاصات المرقمة.
+يمثل نمط الرصاص المرقَّم.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -19,51 +19,51 @@ public enum NumberedBulletStyle : sbyte
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | NotDefined | `-1` | غير معرف. |
-| BulletAlphaLCPeriod | `0` | حروف أبجدية صغيرة مع نقطة. Sample: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | حروف أبجدية كبيرة مع نقطة. Sample: A., B., C., ... |
-| BulletArabicParenRight | `2` | أرقام عربية مع قوس إغلاق. Sample: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | أرقام عربية مع نقطة. Sample: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | أرقام رومانية صغيرة مع القوسين. Sample: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | أرقام رومانية صغيرة مع قوس إغلاق. Sample: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | أرقام رومانية صغيرة مع نقطة. Sample: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | أرقام رومانية كبيرة مع نقطة. Sample: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | حروف أبجدية صغيرة مع القوسين. Sample: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | حروف أبجدية صغيرة مع قوس إغلاق. Sample: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | حروف أبجدية كبيرة مع القوسين. Sample: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | حروف أبجدية كبيرة مع قوس إغلاق. Sample: A), B), C), ... |
-| BulletArabicParenBoth | `12` | أرقام عربية مع القوسين. Sample: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | أرقام عربية. Sample: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | أرقام رومانية كبيرة مع القوسين. Sample: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | أرقام رومانية كبيرة مع قوس إغلاق. Sample: I), II), III), ... |
+| BulletAlphaLCPeriod | `0` | أحرف أبجدية صغيرة مع نقطة. مثال: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | أحرف أبجدية كبيرة مع نقطة. مثال: A., B., C., ... |
+| BulletArabicParenRight | `2` | أرقام عربية مع قوس إغلاق. مثال: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | أرقام عربية مع نقطة. مثال: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | أرقام رومانية صغيرة مع قوسين. مثال: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | أرقام رومانية صغيرة مع قوس إغلاق. مثال: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | أرقام رومانية صغيرة مع نقطة. مثال: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | أرقام رومانية كبيرة مع نقطة. مثال: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | أحرف أبجدية صغيرة مع قوسين. مثال: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | أحرف أبجدية صغيرة مع قوس إغلاق. مثال: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | أحرف أبجدية كبيرة مع قوسين. مثال: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | أحرف أبجدية كبيرة مع قوس إغلاق. مثال: A), B), C), ... |
+| BulletArabicParenBoth | `12` | أرقام عربية مع قوسين. مثال: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | أرقام عربية. مثال: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | أرقام رومانية كبيرة مع قوسين. مثال: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | أرقام رومانية كبيرة مع قوس إغلاق. مثال: I), II), III), ... |
 | BulletSimpChinPlain | `16` | صينية مبسطة بدون نقطة. |
 | BulletSimpChinPeriod | `17` | صينية مبسطة مع نقطة. |
-| BulletCircleNumDBPlain | `18` | رقم محاط بدائرة مزدوجة للقيم حتى 10، ومن 11 إلى الأرقام العربية. |
-| BulletCircleNumWDWhitePlain | `19` | رقم ملون بالنص مع دائرة بلون نفسه مرسومة حوله (أرقام دائرة بيضاء من Wingdings). من 11 إلى الأرقام العربية. |
-| BulletCircleNumWDBlackPlain | `20` | رقم بلون الظل مع خلفية دائرية بلون النص العادي (أرقام دائرة سوداء من Wingdings). |
+| BulletCircleNumDBPlain | `18` | رقم محاط بحرف مزدوج للقيّم حتى 10، من 11 - أرقام عربية. |
+| BulletCircleNumWDWhitePlain | `19` | رقم ملون بالنص مع دائرة بنفس اللون مرسومة حوله (أرقام دائرة Wingdings بيضاء). من 11 - أرقام عربية. |
+| BulletCircleNumWDBlackPlain | `20` | رقم بلون ظل مع خلفية دائرية بلون النص العادي (أرقام دائرة Wingdings سوداء). |
 | BulletTradChinPlain | `21` | صينية تقليدية بدون نقطة. |
 | BulletTradChinPeriod | `22` | صينية تقليدية مع نقطة. |
-| BulletArabicAlphaDash | `23` | حروف أبجدية اللغة العربية مع شرطة. |
+| BulletArabicAlphaDash | `23` | أحرف أبجدية اللغة العربية مع شرطة. |
 | BulletArabicAbjadDash | `24` | أبجدية عربية مع شرطة. |
-| BulletHebrewAlphaDash | `25` | حروف أبجدية اللغة العبرية مع شرطة. |
+| BulletHebrewAlphaDash | `25` | أحرف أبجدية اللغة العبرية مع شرطة. |
 | BulletKanjiKoreanPlain | `26` | أرقام يابانية/كورية بدون نقطة. |
 | BulletKanjiKoreanPeriod | `27` | أرقام يابانية/كورية مع نقطة. |
 | BulletArabicDBPlain | `28` | نظام ترقيم عربي مزدوج البايت (بدون علامات ترقيم). |
-| BulletArabicDBPeriod | `29` | نظام ترقيم عربي مزدوج البايت مع نقطة مزدوجة البايت. |
+| BulletArabicDBPeriod | `29` | نظام ترقيم عربي مزدوج البايت مع نقطة مزدوجة. |
 | BulletThaiAlphaPeriod | `30` | حرف تايلاندي مع نقطة. |
-| BulletThaiAlphaParenRight | `31` | قوس حروف تايلاندية - يمين. |
-| BulletThaiAlphaParenBoth | `32` | قوس حروف تايلاندية - كلاهما. |
-| BulletThaiNumPeriod | `33` | رقم تايلاندي مع نقطة. |
-| BulletThaiNumParenRight | `34` | قوس أرقام تايلاندية - يمين. |
-| BulletThaiNumParenBoth | `35` | قوس أرقام تايلاندية - كلاهما. |
-| BulletHindiAlphaPeriod | `36` | حرف هندية مع نقطة - الحروف المتحركة. |
-| BulletHindiNumPeriod | `37` | رقم هندي مع نقطة. |
-| BulletKanjiSimpChinDBPeriod | `38` | كانجي صينية مبسطة DBPeriod. |
-| BulletHindiNumParenRight | `39` | قوس أرقام هندية - يمين. |
-| BulletHindiAlpha1Period | `40` | حرف هندية مع نقطة - الحروف الساكنة. |
+| BulletThaiAlphaParenRight | `31` | قوس حرف تايلاندي - يمين. |
+| BulletThaiAlphaParenBoth | `32` | قوس حرف تايلاندي - كلاهما. |
+| BulletThaiNumPeriod | `33` | عدد تايلاندي مع نقطة. |
+| BulletThaiNumParenRight | `34` | قوس عدد تايلاندي - يمين. |
+| BulletThaiNumParenBoth | `35` | قوس عدد تايلاندي - كلاهما. |
+| BulletHindiAlphaPeriod | `36` | حرف هندي مع نقطة - الحروف المتحركة. |
+| BulletHindiNumPeriod | `37` | عدد هندي مع نقطة. |
+| BulletKanjiSimpChinDBPeriod | `38` | كانجي صيني بسيط DBPeriod. |
+| BulletHindiNumParenRight | `39` | قوس عدد هندي - يمين. |
+| BulletHindiAlpha1Period | `40` | حرف هندي مع نقطة - الحروف الساكنة. |
 
 ### انظر أيضًا
 
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

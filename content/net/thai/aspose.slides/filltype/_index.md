@@ -1,32 +1,32 @@
 ---
 title: FillType
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: ระบุประเภทการเติมภายในของวัตถุภาพต่าง ๆ.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: กำหนดประเภทการเติมภายในของวัตถุภาพต่างๆ
 type: docs
-weight: 4790
+weight: 4810
 url: /th/aspose.slides/filltype/
 ---
-## FillType การระบุ
+## FillType enumeration
 
-ระบุประเภทการเติมภายในของวัตถุภาพต่าง ๆ.
+ระบุประเภทการเติมภายในของวัตถุภาพต่างๆ
 
 ```csharp
 public enum FillType : sbyte
 ```
 
-### ค่า
+### Values
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | ประเภทการเติมไม่ได้กำหนด. |
-| NoFill | `0` | ไม่มีการเติม. |
-| Solid | `1` | เติมด้วยสีทึบ. |
-| Gradient | `2` | การเติมเป็นไล่สี. |
-| Pattern | `3` | ใช้ลายแบบซ้ำเพื่อเติมวัตถุ. |
-| Picture | `4` | ใช้รูปภาพเดียวเพื่อเติมวัตถุ. |
-| Group | `5` | วัตถุภาพสืบรับคุณสมบัติการเติมจากกลุ่ม. |
+| NotDefined | `-1` | ประเภทการเติมยังไม่ได้กำหนด |
+| NoFill | `0` | ไม่มีการเติม |
+| Solid | `1` | เติมด้วยสีทึบ |
+| Gradient | `2` | การเติมเป็นไล่ระดับสี |
+| Pattern | `3` | ใช้ลวดลายที่ทำซ้ำเพื่อเติมวัตถุ |
+| Picture | `4` | ใช้รูปภาพเดี่ยวเพื่อเติมวัตถุ |
+| Group | `5` | วัตถุภาพสืบทอดคุณสมบัติการเติมจากกลุ่ม |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TransitionSoundMode
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de geluidsmodus van de overgang voor.
+description: Geeft de geluidsmodus van de overgang weer.
 type: docs
-weight: 10430
+weight: 10450
 url: /nl/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## TransitionSoundMode enumeratie
 
-Stelt de geluidsmodus van de overgang voor.
+Geeft de geluidsmodus van de overgang weer.
 
 ```csharp
 public enum TransitionSoundMode

@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Typ von Hyperlink-Aktion dar.
+description: Stellt einen Typ einer Hyperlink-Aktion dar.
 type: docs
-weight: 2560
+weight: 2580
 url: /de/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat Aufzählung
 
-Stellt einen Typ von Hyperlink-Aktion dar.
+Stellt einen Typ einer Hyperlink-Aktion dar.
 
 ```csharp
 public enum ColorStringFormat

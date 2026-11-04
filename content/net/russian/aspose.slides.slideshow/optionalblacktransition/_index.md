@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
-second_title: Справка API Aspose.Sildes для .NET
-description: Эффект перехода слайда с черным экраном.
+second_title: Aspose.Sildes для .NET справочник API
+description: Необязательный черный эффект перехода слайда.
 type: docs
-weight: 10260
+weight: 10280
 url: /ru/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition класс
 
-Эффект перехода слайдов с черным экраном.
+Необязательный черный эффект перехода слайда.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,14 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Имя | Описание |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (а затем переходить к новому слайду через черный). Чтение/запись Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (а затем переходить к новому слайду поверх черного). Чтение/запись Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хеш-функции для конкретного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

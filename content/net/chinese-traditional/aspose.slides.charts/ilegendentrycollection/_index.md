@@ -3,12 +3,12 @@ title: ILegendEntryCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示圖例集合。
 type: docs
-weight: 2140
+weight: 2160
 url: /zh-hant/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection 介面
 
-表示圖例集合。
+Represents legends collection.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -19,7 +19,7 @@ public interface ILegendEntryCollection
 | 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 取得圖例項目的屬性，該項目對應於 Chart.ChartData.Series[0].DataPoints[index]（當圖表類型屬於以下列表時）：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或對於其他圖表類型，對應於 Chart.ChartData.Series[index]。 |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 取得對應於 Chart.ChartData.Series[0].DataPoints[index] 的圖例項屬性（當圖表類型屬於以下列表時）：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或對於其他圖表類型，對應於 Chart.ChartData.Series[index] 的圖例項屬性。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes para .NET Referência de API
-description: Efeito de transição de slide de direção lateral.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Efeito de transição de slide por direção lateral.
 type: docs
-weight: 10310
+weight: 10330
 url: /pt/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition classe
 
-Efeito de transição de slide de direção lateral.
+Efeito de transição de slide por direção lateral.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -16,16 +16,16 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se duas instâncias de TransitionValueBase são iguais. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
 
 ### Veja Também
 

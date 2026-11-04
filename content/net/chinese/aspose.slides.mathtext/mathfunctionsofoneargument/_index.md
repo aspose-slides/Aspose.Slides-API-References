@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes .NET API 参考
-description: 单参数常用数学函数
+description: 单参数的常用数学函数
 type: docs
-weight: 8740
+weight: 8760
 url: /zh/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument 枚举
 
-常用单参数数学函数
+单参数的常用数学函数
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -22,13 +22,13 @@ public enum MathFunctionsOfOneArgument
 | Cos | `1` | 余弦 |
 | Tan | `2` | 正切 |
 | Csc | `3` | 余割 |
-| Sec | `4` | 正割 |
+| Sec | `4` | 割 |
 | Cot | `5` | 余切 |
 | HyperbolicSin | `6` | 双曲正弦 |
 | HyperbolicCos | `7` | 双曲余弦 |
 | HyperbolicTan | `8` | 双曲正切 |
 | HyperbolicCsc | `9` | 双曲余割 |
-| HyperbolicSec | `10` | 双曲正割 |
+| HyperbolicSec | `10` | 双曲割 |
 | HyperbolicCot | `11` | 双曲余切 |
 | Lg | `12` | 常用对数 |
 | Ln | `13` | 自然对数 |
@@ -36,13 +36,13 @@ public enum MathFunctionsOfOneArgument
 | ArcCos | `15` | 反余弦 |
 | ArcTan | `16` | 反正切 |
 | ArcCsc | `17` | 反余割 |
-| ArcSec | `18` | 反正割 |
+| ArcSec | `18` | 反割 |
 | ArcCot | `19` | 反余切 |
 | HyperbolicArcSin | `20` | 双曲反正弦 |
 | HyperbolicArcCos | `21` | 双曲反余弦 |
 | HyperbolicArcTan | `22` | 双曲反正切 |
 | HyperbolicArcCsc | `23` | 双曲反余割 |
-| HyperbolicArcSec | `24` | 双曲反正割 |
+| HyperbolicArcSec | `24` | 双曲反割 |
 | HyperbolicArcCot | `25` | 双曲反余切 |
 
 ### 另请参见

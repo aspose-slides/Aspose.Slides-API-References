@@ -1,9 +1,9 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Videoobjekten dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Sammlung von Video-Objekten dar.
 type: docs
-weight: 7370
+weight: 7390
 url: /de/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`IVideo`](../ivideo). |
 
 ## Methoden
 

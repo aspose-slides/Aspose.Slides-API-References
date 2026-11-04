@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti legendy diagramu.
+description: Reprezentuje vlastnosti legendy grafu.
 type: docs
-weight: 2310
+weight: 2330
 url: /cs/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties třída
 
-Představuje vlastnosti legendy diagramu.
+Reprezentuje vlastnosti legendy grafu.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -19,7 +19,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 | Název | Popis |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Určuje, zda je položka legendy skryta. Čtení/zápis Boolean. |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Určuje, zda je položka legendy skrytá. Čtení/Zápis Boolean. |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
 
 ### Viz také

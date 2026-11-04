@@ -3,7 +3,7 @@ title: Trendline
 second_title: Référence API Aspose.Sildes pour .NET
 description: Classe représentant la ligne de tendance d'une série de graphique
 type: docs
-weight: 2470
+weight: 2490
 url: /fr/aspose.slides.charts/trendline/
 ---
 ## Trendline classe
@@ -16,28 +16,28 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Spécifie le nombre de catégories (ou d'unités sur un graphique de dispersion) que la ligne de tendance prolonge avant les données de la série qui est analysée. Sur les graphiques de dispersion et non-dispersion, la valeur doit être une valeur non négative. Lecture/écriture Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Spécifie le nombre de catégories (ou unités sur un graphique de dispersion) que la ligne de tendance prolonge avant les données de la série qui fait l'objet de la tendance. Sur les graphiques de dispersion et non-dispersion, la valeur doit être toute valeur non négative. Lecture/écriture Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Renvoie le graphique parent. Lecture seule [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la Rsquaredvalue). Lecture/écriture Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R-squared de la ligne de tendance est affichée sur le graphique (dans la même étiquette que l'équation). Lecture/écriture Boolean. |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans le même libellé que la Rsquaredvalue). Lecture/écriture Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R-squared de la ligne de tendance est affichée sur le graphique (dans le même libellé que l'équation). Lecture/écriture Boolean. |
 | [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Représente le format de la ligne de tendance. Lecture/écriture [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Spécifie le nombre de catégories (ou d'unités sur un graphique de dispersion) que la ligne de tendance prolonge après les données de la série qui est analysée. Sur les graphiques de dispersion et non-dispersion, la valeur doit être une valeur non négative. Lecture/écriture Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit croiser l'axe y. Cette propriété n'est prise en charge que lorsque le type de ligne de tendance est exp, linear ou poly. Lecture/écriture Double. |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Spécifie le nombre de catégories (ou unités sur un graphique de dispersion) que la ligne de tendance prolonge après les données de la série qui fait l'objet de la tendance. Sur les graphiques de dispersion et non-dispersion, la valeur doit être toute valeur non négative. Lecture/écriture Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit traverser l'axe y. Cette propriété n'est prise en charge que lorsque le type de ligne de tendance est exp, linear ou poly. Lecture/écriture Double. |
 | [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Spécifie l'ordre de la ligne de tendance polynomiale. Elle est ignorée pour les autres types de ligne de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écriture Byte. |
 | [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Spécifie la période de la ligne de tendance pour une ligne de tendance à moyenne mobile. Elle est ignorée pour les autres variantes de ligne de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Représente l'entrée de légende liée à cette ligne de tendance. Lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Représente l'entrée de légende liée à cette ligne de tendance Lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Renvoie le format de texte. Lecture seule [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Peut contenir un texte riche formaté. Si cette propriété n'est pas nulle, cette valeur de texte formaté remplace le texte auto-généré de l'étiquette de donnée. Le texte auto-généré de l'étiquette de donnée désigne le texte géré par les propriétés ShowSeriesName, ShowValue, ... et formaté avec la propriété TextFormatManager.TextFormat. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Peut contenir un texte riche formaté. Si cette propriété n'est pas nulle, alors cette valeur de texte formaté remplace le texte auto-généré de l'étiquette de données. Le texte auto-généré de l'étiquette de données désigne le texte géré par les propriétés ShowSeriesName, ShowValue, ... et formaté avec la propriété TextFormatManager.TextFormat. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Obtient ou définit le nom de la ligne de tendance. Lecture/écriture String. |
 | [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Obtient ou définit le type de ligne de tendance. Lecture/écriture [`TrendlineType`](../trendlinetype). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialise TextFrameForOverriding avec le texte du paramètre "text". Si TextFrameForOverriding est déjà initialisé, il modifie simplement son texte. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialise TextFrameForOverriding avec le texte dans le paramètre "text". Si TextFrameForOverriding est déjà initialisé, alors change simplement son texte. |
 
 ### Voir aussi
 

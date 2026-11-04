@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Floor エフェクトを表します。Alpha の不透明度が 100 未満の場合はゼロに変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
+description: Alpha Floor エフェクトを表します。Alpha 不透明度の値が 100 未満の場合は 0 に変更されます。つまり、部分的に透明なものは完全に透明になります。
 type: docs
-weight: 2860
+weight: 2880
 url: /ja/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor クラス
 
-Alpha Floor エフェクトを表します。100% 未満の Alpha (不透明度) の値は 0 に変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
+Alpha Floor エフェクトを表します。Alpha (不透明度) が 100% 未満の値は 0 に変更されます。つまり、部分的に透明なものは完全に透明になります。
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,14 +18,14 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | 指定された [`AlphaFloor`](../alphafloor) が現在の [`AlphaFloor`](../alphafloor) と等しいかどうかを判定します。 |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 継承が適用された有効な Alpha Floor エフェクト データを取得します。 |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | [`AlphaFloor`](../alphafloor) が現在の [`AlphaFloor`](../alphafloor) と等しいかどうかを判断します。 |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 継承が適用された有効な Alpha Floor 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

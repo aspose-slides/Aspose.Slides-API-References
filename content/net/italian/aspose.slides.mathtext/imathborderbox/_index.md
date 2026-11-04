@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Disegna un bordo rettangolare o di altro tipo attorno all'IMathElement.
+description: Disegna un bordo rettangolare o di altro tipo attorno a IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /it/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox interfaccia
 
-Disegna un bordo rettangolare o di altro tipo attorno all'IMathElement.
+Disegna un bordo rettangolare o di altro tipo attorno a IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -16,17 +16,17 @@ public interface IMathBorderBox : IMathElement
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Argomento base |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Nascondi bordo inferiore (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo inferiore della casella del bordo. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Nascondi bordo sinistro (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo sinistro della casella del bordo. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Nascondi bordo destro (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo destro della casella del bordo. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Nascondi bordo superiore (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo superiore della casella del bordo. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Barrato diagonale dal basso-sinistro all'alto-destro (il valore predefinito è false). Specifica lo stato nascosto o mostrato di una linea diagonale barrata dal vertice in basso-sinistra a quello in alto-destra della casella del bordo. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Nascondi bordo inferiore (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo inferiore della casella. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Nascondi bordo sinistro (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo sinistro della casella. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Nascondi bordo destro (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo destro della casella. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Nascondi bordo superiore (il valore predefinito è false) - specifica lo stato nascosto o mostrato del bordo superiore della casella. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Barrato diagonale da basso-sinistra a alto-destra (il valore predefinito è false). Specifica lo stato nascosto o mostrato di una linea diagonale barrata dal canto inferiore sinistro a quello superiore destro della casella. |
 | [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Barrato orizzontale (il valore predefinito è false) - specifica lo stato nascosto o mostrato di una linea orizzontale barrata. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Barrato diagonale dall'alto-sinistro al basso-destro (il valore predefinito è false). Specifica lo stato nascosto o mostrato di una linea diagonale barrata dal vertice in alto-sinistra a quello in basso-destra della casella del bordo. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Barrato diagonale da alto-sinistra a basso-destra (il valore predefinito è false). Specifica lo stato nascosto o mostrato di una linea diagonale barrata dal canto superiore sinistro a quello inferiore destro della casella. |
 | [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Barrato verticale (il valore predefinito è false) - specifica lo stato nascosto o mostrato di una linea verticale barrata. |
 
 ### Esempi

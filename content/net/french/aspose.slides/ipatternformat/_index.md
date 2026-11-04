@@ -1,9 +1,9 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente un motif pour remplir une forme.
 type: docs
-weight: 6620
+weight: 6640
 url: /fr/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat interface
@@ -19,15 +19,15 @@ public interface IPatternFormat
 | Nom | Description |
 | --- | --- |
 | [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Renvoie la couleur du motif d'arrière-plan. Lecture seule [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Renvoie la couleur du motif de premier plan. Lecture seule [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Renvoie la couleur du motif au premier plan. Lecture seule [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Renvoie ou définit le style du motif. Lecture/écriture [`PatternStyle`](../patternstyle). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crée une image en mosaïque pour le remplissage du motif. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crée une image en mosaïque pour le remplissage du motif avec des couleurs spécifiées. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crée une image de carreau pour le remplissage du motif. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crée une image de carreau pour le remplissage du motif avec des couleurs spécifiées. |
 
 ### Voir aussi
 

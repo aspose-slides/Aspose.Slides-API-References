@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
 second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje předdefinované nastavení pro stínový efekt.
+description: Reprezentuje přednastavení pro stínový efekt.
 type: docs
-weight: 9670
+weight: 9690
 url: /cs/aspose.slides/presetshadowtype/
 ---
 ## Výčet PresetShadowType
 
-Representuje předdefinované nastavení stínového efektu.
+Reprezentuje přednastavení pro stínový efekt.
 
 ```csharp
 public enum PresetShadowType
@@ -18,26 +18,26 @@ public enum PresetShadowType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Reprezentuje horní levý vržený stín. |
-| TopLeftLargeDropShadow | `1` | Reprezentuje horní levý velký vržený stín. |
-| BackLeftLongPerspectiveShadow | `2` | Reprezentuje zadní levý dlouhý perspektivní stín |
-| BackRightLongPerspectiveShadow | `3` | Reprezentuje zadní pravý dlouhý perspektivní stín |
-| TopLeftDoubleDropShadow | `4` | Reprezentuje horní levý dvojitý vržený stín. |
-| BottomRightSmallDropShadow | `5` | Reprezentuje pravý dolní malý vržený stín. |
-| FrontLeftLongPerspectiveShadow | `6` | Reprezentuje přední levý dlouhý perspektivní stín. |
-| FrontRightLongPerspectiveShadow | `7` | Reprezentuje přední pravý dlouhý perspektivní stín. |
-| OuterBoxShadow3D | `8` | Reprezentuje vnější krabicový stín 3D. |
-| InnerBoxShadow3D | `9` | Reprezentuje vnitřní krabicový stín 3D. |
-| BackCenterPerspectiveShadow | `10` | Reprezentuje zadní středový perspektivní stín. |
-| TopRightDropShadow | `11` | Reprezentuje horní pravý vržený stín. |
-| FrontBottomShadow | `12` | Reprezentuje přední dolní stín. |
-| BackLeftPerspectiveShadow | `13` | Reprezentuje zadní levý perspektivní stín. |
-| BackRightPerspectiveShadow | `14` | Reprezentuje zadní pravý perspektivní stín. |
-| BottomLeftDropShadow | `15` | Reprezentuje dolní levý vržený stín. |
-| BottomRightDropShadow | `16` | Reprezentuje dolní pravý vržený stín. |
-| FrontLeftPerspectiveShadow | `17` | Reprezentuje přední levý perspektivní stín. |
-| FrontRightPerspectiveShadow | `18` | Reprezentuje přední pravý perspektivní stín. |
-| TopLeftSmallDropShadow | `19` | Reprezentuje horní levý malý vržený stín. |
+| TopLeftDropShadow | `0` | Reprezentuje stín v levém horním rohu. |
+| TopLeftLargeDropShadow | `1` | Reprezentuje velký stín v levém horním rohu. |
+| BackLeftLongPerspectiveShadow | `2` | Reprezentuje dlouhý perspektivní stín vzadu vlevo. |
+| BackRightLongPerspectiveShadow | `3` | Reprezentuje dlouhý perspektivní stín vzadu vpravo. |
+| TopLeftDoubleDropShadow | `4` | Reprezentuje dvojitý stín v levém horním rohu. |
+| BottomRightSmallDropShadow | `5` | Reprezentuje malý stín v pravém dolním rohu. |
+| FrontLeftLongPerspectiveShadow | `6` | Reprezentuje dlouhý perspektivní stín vpředu vlevo. |
+| FrontRightLongPerspectiveShadow | `7` | Reprezentuje dlouhý perspektivní stín vpředu vpravo. |
+| OuterBoxShadow3D | `8` | Reprezentuje vnější 3D stín krabice. |
+| InnerBoxShadow3D | `9` | Reprezentuje vnitřní 3D stín krabice. |
+| BackCenterPerspectiveShadow | `10` | Reprezentuje perspektivní stín uprostřed vzadu. |
+| TopRightDropShadow | `11` | Reprezentuje stín v pravém horním rohu. |
+| FrontBottomShadow | `12` | Reprezentuje stín v přední dolní části. |
+| BackLeftPerspectiveShadow | `13` | Reprezentuje perspektivní stín vzadu vlevo. |
+| BackRightPerspectiveShadow | `14` | Reprezentuje perspektivní stín vzadu vpravo. |
+| BottomLeftDropShadow | `15` | Reprezentuje stín v levém dolním rohu. |
+| BottomRightDropShadow | `16` | Reprezentuje stín v pravém dolním rohu. |
+| FrontLeftPerspectiveShadow | `17` | Reprezentuje perspektivní stín vpředu vlevo. |
+| FrontRightPerspectiveShadow | `18` | Reprezentuje perspektivní stín vpředu vpravo. |
+| TopLeftSmallDropShadow | `19` | Reprezentuje malý stín v levém horním rohu. |
 
 ### Viz také
 

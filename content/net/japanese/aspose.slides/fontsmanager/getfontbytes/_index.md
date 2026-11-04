@@ -1,27 +1,27 @@
 ---
 title: GetFontBytes
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定されたフォント スタイルとフォント データのフォント データを表すバイト配列を取得します。
+description: 指定されたフォントスタイルとフォントデータに対応するフォントデータを表すバイト配列を取得します。
 type: docs
-weight: 50
+weight: 60
 url: /ja/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes メソッド
 
-指定されたフォント スタイルとフォント データのフォント データを表すバイト 配列を取得します。
+指定されたフォントスタイルとフォントデータに対応するフォントデータを表すバイト配列を取得します。
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| fontData | IFontData | フォントに関する情報を含むフォント データ オブジェクト [`IFontData`](../../ifontdata)。 |
+| fontData | IFontData | フォントに関する情報を含むフォントデータオブジェクト [`IFontData`](../../ifontdata)。 |
 | fontStyle | FontStyleType | データを取得するフォントのスタイル [`FontStyleType`](../../fontstyletype)。 |
 
 ### 戻り値
 
-指定されたフォント スタイルのフォント データを含むバイト 配列です。フォント データまたはスタイルが見つからない場合は null を返します。
+指定されたフォントスタイルのフォントデータを含むバイト配列を返します。フォントデータまたはスタイルが見つからない場合は、null を返します。
 
 ### 例
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // プレゼンテーションで使用されているすべてのフォントを取得
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // プレゼンテーション内の最初のフォントの Regular スタイルを表すバイト配列を取得
+    // プレゼンテーション内の最初のフォントの標準スタイルを表すバイト配列を取得
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 ### 関連項目
 
 * インターフェイス [IFontData](../../ifontdata)
-* 列挙体 [FontStyleType](../../fontstyletype)
+* 列挙型 [FontStyleType](../../fontstyletype)
 * クラス [FontsManager](../../fontsmanager)
 * 名前空間 [Aspose.Slides](../../fontsmanager)
 * アセンブリ [Aspose.Slides](../../../)

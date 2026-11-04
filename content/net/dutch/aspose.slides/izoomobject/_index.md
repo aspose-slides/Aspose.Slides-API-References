@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Zoom-object voor in een dia.
+description: Vertegenwoordigt een Zoom-object in een dia.
 type: docs
-weight: 7410
+weight: 7430
 url: /nl/aspose.slides/izoomobject/
 ---
 ## IZoomObject interface
@@ -14,16 +14,16 @@ Stelt een Zoom-object voor in een dia.
 public interface IZoomObject : IGraphicalObject
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Staat toe om de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Haalt het afbeeldingstype van een zoomobject op of stelt het in. Lezen/Schrijven [`ZoomImageType`](../zoomimagetype). Standaardwaarde: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Haalt het navigatiegedrag in de diavoorstelling op of stelt het in. Lezen/Schrijven Boolean. Standaardwaarde: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Haalt de waarde op of stelt deze in die aangeeft of de Zoom de achtergrond van de doel-dia gebruikt. Lezen/Schrijven Boolean. Standaardwaarde: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Haalt de duur van de overgang tussen Zoom en dia op of stelt deze in. Lezen/Schrijven Single. Standaardwaarde: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Haalt de afbeelding voor zoomobject op of stelt deze in. Lezen/Schrijven [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Stelt het mogelijk om de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Haalt het afbeeldings type van een zoom-object op of stelt dit in. Lezen/schrijven [`ZoomImageType`](../zoomimagetype). Standaardwaarde: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Haalt het navigatiegedrag op in diavoorstelling of stelt dit in. Lezen/schrijven Boolean. Standaardwaarde: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Haalt de waarde op die aangeeft of de Zoom de achtergrond van de doeldia zal gebruiken, of stelt deze in. Lezen/schrijven Boolean. Standaardwaarde: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Haalt de duur van de overgang tussen Zoom en dia op of stelt deze in. Lezen/schrijven Single. Standaardwaarde: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Haalt de afbeelding voor het zoom-object op of stelt deze in. Lezen/schrijven [`IPPImage`](../ippimage). |
 
 ### Zie ook
 

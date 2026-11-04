@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa wartości słupków błędów. Powinno być używane wyłącznie wtedy, gdy typ wartości słupków błędów jest Custom.
+description: Określa wartości słupków błędów. Powinien być używany tylko wtedy, gdy typ wartości słupków błędów jest Custom.
 type: docs
-weight: 1660
+weight: 1670
 url: /pl/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues klasa
 
-Określa wartości słupków błędów. Powinno być używane tylko wtedy, gdy typ wartości słupków błędów jest Custom.
+Określa wartości słupków błędów. Powinien być używany tylko wtedy, gdy typ wartości słupków błędów jest Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues

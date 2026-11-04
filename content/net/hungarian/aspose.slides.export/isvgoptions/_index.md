@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes .NET API referenciája
-description: SVG beállításokat képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: SVG opciókat képvisel.
 type: docs
-weight: 4060
+weight: 4080
 url: /hu/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions interfész
 
-Képviseli az SVG beállításokat.
+SVG opciókat képvisel.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -19,19 +19,19 @@ public interface ISVGOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Egy logikai jelző, amely jelzi, hogy a levágott részek a dokumentum részeként maradnak-e. Ha true a levágott részek eltávolításra kerülnek, ha false pedig sorosítva lesznek a dokumentumban (ami nagyobb fájl méretet eredményezhet). Olvasás/írás Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Boolean jelző, amely azt mutatja, hogy a levágott részek a dokumentum részét képezik-e. Ha true, a levágott részek eltávolításra kerülnek, ha false, a dokumentumban lesznek sorosítva (ami nagyobb fájlhoz vezethet). Olvasás/írás Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Meghatározza, hogy a 3D szöveg le van-e tiltva az SVG-ben. Olvasás/írás Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Értéket ad vissza vagy állít be, amely jelzi, hogy a szöveget ligatúrák használata nélkül renderelik-e. Ha `true` értékre van állítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezetten ez a tulajdonság `false` értékre van állítva. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Letiltja a FromCornerX és FromCenter gradientek felosztását. Olvasás/írás Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | Az SVG 1.1 nem teszi lehetővé a jelölők insetjeinek meghatározását. Az Aspose.Slides SVG író motorja megoldást kínál erre a problémára: levágja a nyíllal ellátott vonal végét, így a vonal nem lóg át a jelölőkön. Ez az opció letiltja ezt a viselkedést. Olvasás/írás Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Meghatározza a külsőleg betöltött betűtípusok kezelésének módját. Olvasás/írás [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Lehetőségeket biztosít, amelyek az exportált dokumentumban lévő Ink objektumok megjelenését szabályozzák. Csak olvasható [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Meghatározza a JPEG kódolási minőséget. Olvasás/írás Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Visszaadja vagy beállítja a metafájl rasterizációjának alsó felbontási határát. Olvasás/írás Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Képviseli a képek tömörítési szintjét. Olvasás/írás [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Visszaadja és beállítja azt a visszahívási interfészt, amely lehetővé teszi a felhasználó számára az alakzat konverziójának vezérlését. Olvasás/írás [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Meghatározza, hogy a megadott alakzat forgatása megtörténjen-e a renderelés során vagy sem. Olvasás/írás Boolean. Alapértelmezett érték true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Meghatározza, hogy a szövegkeret szerepeljen-e a renderelési területen vagy sem. Olvasás/írás Boolean. Alapértelmezett érték false. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Megkapja vagy beállítja azt az értéket, amely azt jelzi, hogy a szöveg ligatúrák használata nélkül legyen-e renderelve. Ha `true`-ra van állítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Letiltja a FromCornerX és FromCenter gradiens szétválasztását. Olvasás/írás Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | Az SVG 1.1 nem támogatja a jelölők beállításainak meghatározását. Az Aspose.Slides SVG író motorja megkerülést alkalmaz: levágja a nyíllal ellátott vonal végét, így a vonal nem fed le jelölőket. Ez a beállítás kikapcsolja ezt a viselkedést. Olvasás/írás Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Meghatározza a külsőleg betöltött betűkészletek kezelésének módját. Olvasás/írás [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Opciókat biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban. Csak olvasható [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Meghatározza a JPEG kódolás minőségét. Olvasás/írás Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Visszaadja vagy beállítja a metafájl rasterizálásának alacsonyabb felbontási határát. Olvasás/írás Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | A képek tömörítési szintjét jelöli. Olvasás/írás [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Visszaad és beállít egy visszahívási interfészt, amely lehetővé teszi a felhasználó számára a shape átalakítás szabályozását. Olvasás/írás [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Meghatározza, hogy a renderelés során a shape megadott forgatása végrehajtásra kerüljön-e vagy sem. Olvasás/írás Boolean. Alapértelmezett érték true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Meghatározza, hogy a szövegdoboz a renderelési területbe kerül-e vagy sem. Olvasás/írás Boolean. Alapértelmezett érték false. |
 | [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Meghatározza, hogy a dián lévő szöveg grafikaként legyen-e mentve. Olvasás/írás Boolean. |
 
 ### Lásd még

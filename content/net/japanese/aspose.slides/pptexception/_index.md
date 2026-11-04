@@ -1,14 +1,14 @@
 ---
 title: PptException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 標準的な内部例外型を表します。
+description: 標準的な内部例外タイプを表します。
 type: docs
-weight: 9520
+weight: 9540
 url: /ja/aspose.slides/pptexception/
 ---
 ## PptException クラス
 
-標準的な内部例外型を表します。
+標準的な内部例外タイプを表します。
 
 ```csharp
 public class PptException : Exception
@@ -18,11 +18,11 @@ public class PptException : Exception
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptException](pptexception#constructor)() | 既定のコンストラクタ。 |
+| [PptException](pptexception#constructor)() | デフォルト コンストラクタ。 |
 | [PptException](pptexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [PptException](pptexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタ。 |
+| [PptException](pptexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

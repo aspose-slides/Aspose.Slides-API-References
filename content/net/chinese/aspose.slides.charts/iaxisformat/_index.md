@@ -1,9 +1,9 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表格式属性。
 type: docs
-weight: 1720
+weight: 1730
 url: /zh/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat 接口
@@ -18,11 +18,11 @@ public interface IAxisFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 返回轴使用的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 返回用于轴的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
 | [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | 返回轴的填充样式属性。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | 返回轴的线条样式属性。只读 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

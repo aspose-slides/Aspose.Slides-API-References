@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes pro .NET – reference API
-description: Reprezentuje obslužnou rutinu tiknutí rámce události FrameTick./presentationplayer/frametick.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Představuje obslužnou rutinu ticku snímku události FrameTick./presentationplayer/frametick.
 type: docs
-weight: 4400
+weight: 4420
 url: /cs/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler delegát
 
-Representuje obslužnou rutinu tiknutí rámce události [`FrameTick`](../presentationplayer/frametick).
+Representuje obslužnou rutinu ticku snímku události [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| sender | PresentationPlayer | Odesílatel události tiknutí rámce. |
-| args | FrameTickEventArgs | Argumenty tiknutí rámce. |
+| sender | PresentationPlayer | Odesílatel události ticku snímku. |
+| args | FrameTickEventArgs | Argumenty ticku snímku. |
 
 ### Viz také
 

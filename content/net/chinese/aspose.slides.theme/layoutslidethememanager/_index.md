@@ -1,9 +1,9 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 提供对布局幻灯片主题覆盖的访问。
 type: docs
-weight: 11410
+weight: 11430
 url: /zh/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager 类
@@ -28,7 +28,7 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 将额外的配色方案应用于幻灯片。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 返回主题对象。 |
 
-### 另请参见
+### 另见
 
 * 类 [BaseOverrideThemeManager](../baseoverridethememanager)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

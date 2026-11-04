@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa un tipo de puntos de división en el segundo pastel o barra en un gráfico de pastel-sobre-pastel o barra-sobre-pastel.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un tipo de puntos de división en el segundo pastel o barra de un gráfico pie-of-pie o bar-of-pie.
 type: docs
-weight: 2380
+weight: 2400
 url: /es/aspose.slides.charts/piesplittype/
 ---
-## Enumeración PieSplitType
+## PieSplitType enumeración
 
-Representa un tipo de puntos de división en el segundo pastel o barra en un gráfico de pastel-sobre-pastel o barra-sobre-pastel.
+Representa un tipo de puntos de división en el segundo pastel o barra de un gráfico de pie-of-pie o bar-of-pie.
 
 ```csharp
 public enum PieSplitType
@@ -19,10 +19,10 @@ public enum PieSplitType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Default | `0` | Especifica que los puntos de datos se dividirán usando el mecanismo predeterminado para este tipo de gráfico. |
-| Custom | `1` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico de acuerdo con los valores de división personalizados. |
-| ByPercentage | `2` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando los puntos con un porcentaje inferior al porcentaje de Posición de División en el segundo gráfico. |
-| ByPos | `3` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando la última Posición de División de los puntos de datos en el segundo gráfico. |
-| ByValue | `4` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando los puntos de datos con un valor inferior a la Posición de División en el segundo gráfico. |
+| Custom | `1` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico de acuerdo con los valores Custom Split. |
+| ByPercentage | `2` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando los puntos con porcentaje inferior a Split Position por ciento en el segundo gráfico. |
+| ByPos | `3` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando la última Split Position de los puntos de datos en el segundo gráfico. |
+| ByValue | `4` | Especifica que los puntos de datos se dividirán entre el pastel y el segundo gráfico colocando los puntos de datos con un valor inferior a Split Position en el segundo gráfico. |
 
 ### Ver también
 

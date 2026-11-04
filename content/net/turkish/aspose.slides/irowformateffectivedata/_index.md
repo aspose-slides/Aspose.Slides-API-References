@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkin tablo satırı biçimlendirme özelliklerini içeren değişmez nesne.
+description: Etkili tablo satırı biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6880
+weight: 6900
 url: /tr/aspose.slides/irowformateffectivedata/
 ---
-## IRowFormatEffectiveData arayüzü
+## IRowFormatEffectiveData arayüz
 
-Etkin tablo satırı biçimlendirme özelliklerini içeren değişmez nesne.
+Değiştirilemez nesne, etkili tablo satırı biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,15 +16,15 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Base IBaseTableFormatEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Temel IBaseTableFormatEffectiveData arayüzünü almayı sağlar. Yalnızca okunabilir [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Açıklamalar
 
 Bu arayüz, [`IRowFormat`](../irowformat) arayüzü ile birlikte, kalıtım ve tablo stilleri uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Diğer Bağlantılar
+### Bkz
 
 * arayüz [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)

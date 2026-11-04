@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Ripple 슬라이드 전환 효과.
+description: 리플 슬라이드 전환 효과.
 type: docs
-weight: 10170
+weight: 10190
 url: /ko/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition 인터페이스
 
-Ripple slide transition effect.
+리플 슬라이드 전환 효과.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase

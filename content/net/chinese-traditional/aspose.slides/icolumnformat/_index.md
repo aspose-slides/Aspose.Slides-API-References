@@ -1,9 +1,9 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示表格欄位的格式。
 type: docs
-weight: 5540
+weight: 5560
 url: /zh-hant/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat 介面
@@ -18,9 +18,9 @@ public interface IColumnFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 取得套用繼承與表格樣式後的有效表格欄位格式屬性。 |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 取得套用繼承和表格樣式後的有效表格欄位格式屬性。 |
 
-### 另請參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,30 +1,30 @@
 ---
 title: MathBoxFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa en math box
+description: Tillåter att skapa en matematisk låda
 type: docs
-weight: 8640
+weight: 8660
 url: /sv/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory klass
 
-Tillåter att skapa en math box
+Tillåter att skapa en matematisk låda
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-## Konstruktorer
+## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [MathBoxFactory](mathboxfactory)() | Standardkonstruktorn. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Skapa en math box genom att tillämpa på elementet |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Skapa en matematisk låda genom att applicera på elementet |
 
 ### Anmärkningar
 

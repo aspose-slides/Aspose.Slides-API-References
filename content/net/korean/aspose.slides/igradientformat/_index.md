@@ -1,9 +1,9 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 그라디언트 형식을 나타냅니다.
 type: docs
-weight: 6000
+weight: 6020
 url: /ko/aspose.slides/igradientformat/
 ---
 ## IGradientFormat 인터페이스
@@ -23,10 +23,10 @@ public interface IGradientFormat : IFillParamSource
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 그라디언트의 모양을 반환하거나 설정합니다. 읽기/쓰기 [`GradientShape`](../gradientshape). |
 | [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 그라디언트 스톱 컬렉션을 반환합니다. 읽기 전용 [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 그라디언트의 각도를 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 그라디언트가 스케일되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 그라디언트가 스케일링되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 그라디언트의 플리핑 모드를 반환하거나 설정합니다. 읽기/쓰기 [`TileFlip`](../tileflip). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

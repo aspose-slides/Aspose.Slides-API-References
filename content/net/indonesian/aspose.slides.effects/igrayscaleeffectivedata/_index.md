@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak berubah yang mewakili efek Skala Abu-abu. Mengonversi semua nilai warna efek menjadi nuansa abu-abu yang sesuai dengan luminansinya. Nilai alpha (opasitas) efek tidak terpengaruh.
+description: Objek tidak dapat diubah yang mewakili efek Skala Abu-abu. Mengubah semua nilai warna efek menjadi nuansa abu-abu yang sesuai dengan luminansinya. Nilai alpha (keburaman) efek tidak terpengaruh.
 type: docs
-weight: 3350
+weight: 3370
 url: /id/aspose.slides.effects/igrayscaleeffectivedata/
 ---
-## IGrayScaleEffectiveData antarmuka
+## IGrayScaleEffectiveData interface
 
-Objek tak berubah yang mewakili efek Skala Abu-abu. Mengonversi semua nilai warna efek menjadi nuansa abu-abu, yang sesuai dengan luminansinya. Nilai alpha (opasitas) efek tidak terpengaruh.
+Objek tak dapat diubah yang mewakili efek Skala Abu-abu. Mengubah semua nilai warna efek menjadi nuansa abu-abu, yang sesuai dengan luminansinya. Nilai alpha (keburaman) efek tidak terpengaruh.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan dasar IEffectEffectiveData antarmuka. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lihat Juga
 

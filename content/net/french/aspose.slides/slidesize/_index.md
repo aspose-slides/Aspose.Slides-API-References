@@ -1,9 +1,9 @@
 ---
 title: SlideSize
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente la taille et l'orientation d'une diapositive.
 type: docs
-weight: 10500
+weight: 10520
 url: /fr/aspose.slides/slidesize/
 ---
 ## classe SlideSize

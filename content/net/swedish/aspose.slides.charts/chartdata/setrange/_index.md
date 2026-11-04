@@ -1,14 +1,14 @@
 ---
 title: SetRange
 second_title: Aspose.Sildes för .NET API-referens
-description: Ställ in diagrammets dataintervall. Serier och kategorier uppdateras baserat på det nya dataintervallet. Om antalet serier i dataintervallet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen.
+description: Ställ in diagramdataintervallet. Series och kategorier kommer att uppdateras baserat på det nya intervallet. Om antalet serier i dataintervallet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen.
 type: docs
-weight: 130
+weight: 140
 url: /sv/aspose.slides.charts/chartdata/setrange/
 ---
 ## ChartData.SetRange metod
 
-Ställ in diagrammets dataintervall. Series och kategorier kommer att uppdateras baserat på det nya dataintervallet. Om antalet series i dataintervallet är större än antalet series i diagramdata läggs ytterligare series med samma typ som den sista series i den aktuella samlingen till i slutet av samlingen.
+Ställ in diagramdataintervallet. Series och kategorier kommer att uppdateras baserat på det nya intervallet. Om antalet serier i dataintervallet är större än antalet serier i diagramdata läggs ytterligare serier med samma typ som den sista serien i den aktuella samlingen till i slutet av samlingen.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,15 +16,15 @@ public void SetRange(string formula)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| formula | String | Formeln för cellernas dataintervall. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | Formeln för cellernas dataområde. t.ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Undantag
 
-| Undantag | villkor |
+| undantag | villkor |
 | --- | --- |
 | ArgumentNullException | formula är null. |
-| InvalidOperationException | Unsupported chart type |
-| ArgumentException | formula har felaktigt format. |
+| InvalidOperationException | Ej stödd diagramtyp |
+| ArgumentException | formula har fel format. |
 
 ### Se även
 

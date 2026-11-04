@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling punten voor voor het splitsen van een punt in een staaf-van-taart of taart-van-taart grafiek met een aangepaste splitsing.
+description: Stelt een verzameling punten voor voor het splitsen van een punt in een bar-of-pie of pie-of-pie grafiek met een aangepaste splitsing.
 type: docs
-weight: 2370
+weight: 2390
 url: /nl/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection klasse
 
-Stelt een verzameling punten voor voor het splitsen van een punt in een staaf-van-taart- of taart-van-taart-grafiek met een aangepaste splitsing.
+Stelt een verzameling punten voor voor het splitsen van een punt in een bar-of-pie- of pie-of-pie-grafiek met een aangepaste splitsing.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -16,31 +16,31 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Retourneert of stelt het aantal gegevenspunten van de grafiek in. Alleen-lezen Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Retourneert een waarde die aangeeft of de ICollection alleen-lezen is. Alleen-lezen Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Retourneert een grafiekgegevenspunt voor de opgegeven index. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Geeft of stelt het aantal grafiekgegevenspunten in. Alleen-lezen Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Haalt een waarde op die aangeeft of de ICollection alleen-lezen is. Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Geeft grafiekgegevenspunt terug voor de opgegeven index. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Voegt een gegevenspunt toe aan de collectie. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Voegt een gegevenspunt toe op basis van zijn index in de puntenverzameling van de bovenliggende serie. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Voegt een gegevenspunt toe via zijn index in de bovenliggende reeks punten-collectie. |
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Verwijdert alle items uit de ICollection. |
 | [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Bepaalt of de ICollection een specifieke waarde bevat. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend op een specifieke Array-index. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend op een bepaalde Array-index. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Verwijdert een item uit de collectie. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Verwijdert een item uit de collectie op basis van zijn index in de puntenverzameling van de bovenliggende serie. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Verwijdert een item uit de collectie via zijn index in de bovenliggende reeks punten-collectie. |
 
 ### Zie ook
 
 * interface [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

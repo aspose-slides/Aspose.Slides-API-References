@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja, hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Megadja, hogy hány diát és milyen sorrendben helyeznek el az oldalon.
 type: docs
-weight: 3850
+weight: 3870
 url: /hu/aspose.slides.export/handouttype/
 ---
-## HandoutType enumeráció
+## HandoutType felsorolás
 
-Megadja, hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
+Megadja, hogy hány diát és milyen sorrendben helyeznek el az oldalon.
 
 ```csharp
 public enum HandoutType
@@ -21,12 +21,12 @@ public enum HandoutType
 | Handouts1 | `0` | Egy dia oldalanként. |
 | Handouts2 | `1` | Két dia oldalanként. |
 | Handouts3 | `2` | Három dia oldalanként. |
-| Handouts4Horizontal | `3` | Négy dia oldalanként vízszintes sorrendben. |
-| Handouts4Vertical | `4` | Négy dia oldalanként függőleges sorrendben. |
-| Handouts6Horizontal | `5` | Hat dia oldalanként vízszintes sorrendben. |
-| Handouts6Vertical | `6` | Hat dia oldalanként függőleges sorrendben. |
-| Handouts9Horizontal | `7` | Kilenc dia oldalanként vízszintes sorrendben. |
-| Handouts9Vertical | `8` | Kilenc dia oldalanként függőleges sorrendben. |
+| Handouts4Horizontal | `3` | Négy dia oldalanként vízszintes sorban. |
+| Handouts4Vertical | `4` | Négy dia oldalanként függőleges sorban. |
+| Handouts6Horizontal | `5` | Hat dia oldalanként vízszintes sorban. |
+| Handouts6Vertical | `6` | Hat dia oldalanként függőleges sorban. |
+| Handouts9Horizontal | `7` | Kilenc dia oldalanként vízszintes sorban. |
+| Handouts9Vertical | `8` | Kilenc dia oldalanként függőleges sorban. |
 
 ### Lásd még
 

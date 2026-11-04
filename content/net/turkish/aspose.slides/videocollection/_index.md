@@ -1,9 +1,9 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes .NET için API Referansı
-description: Video nesnelerinden oluşan bir koleksiyonu temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Video nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11710
+weight: 11730
 url: /tr/aspose.slides/videocollection/
 ---
 ## VideoCollection sınıfı
@@ -16,22 +16,22 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Koleksiyondaki video dosyalarının sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (thread-safe) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Eşitleme kökünü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Koleksiyondaki video dosyalarının sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Belirtilen dizindeki elemanı alır. Yalnızca okuma [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Senkronizasyon kökünü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Bayt dizisinden bir sunuma video oluşturur ve ekler. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Başka bir sunumdan bir video dosyasının kopyasını ekler. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Akımdan bir sunuma video oluşturur ve ekler. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Videoları belirtilen dizine, belirtilen dizinden başlayarak kopyalar. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Koleksiyonun içinde yineleme yapan bir enumerator döndürür. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Videoları belirtilen dizine, belirtilen indeksten başlayarak kopyalar. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Koleksiyonun içinde dolaşan bir enumerator döndürür. |
 
 ### Ayrıca Bakınız
 

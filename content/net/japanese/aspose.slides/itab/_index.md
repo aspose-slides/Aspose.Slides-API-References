@@ -1,9 +1,9 @@
 ---
 title: ITab
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストのタブ設定を表します。
 type: docs
-weight: 7190
+weight: 7210
 url: /ja/aspose.slides/itab/
 ---
 ## ITab インターフェイス
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。読み取り/書き込み [`TabAlignment`](../tabalignment)。 |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable インターフェイスを取得します。読み取り専用 IComparable。 |
-| [Position](../../aspose.slides/itab/position) { get; set; } | タブの位置を取得または設定します。このプロパティを設定すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。読み取り/書き込み Double。 |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。 読み取り/書き込み [`TabAlignment`](../tabalignment)。 |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable インターフェイスを返します。 読み取り専用 IComparable。 |
+| [Position](../../aspose.slides/itab/position) { get; set; } | タブの位置を取得または設定します。 このプロパティを設定すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。 読み取り/書き込み Double。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

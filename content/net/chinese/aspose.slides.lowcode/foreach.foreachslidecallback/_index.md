@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes .NET API 参考
-description: 回调将在每个 Slide./foreach/slide 中的 Presentation../aspose.slides/presentation 被调用。
+second_title: Aspose.Sildes for .NET API 参考
+description: 在演示文稿中对每个 Slide./foreach/slide 调用的回调../aspose.slides/presentation.
 type: docs
-weight: 7960
+weight: 7980
 url: /zh/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback 委托
 
-回调将在 [`Presentation`](../../aspose.slides/presentation) 中为每个 [`Slide`](../foreach/slide) 调用。
+将在 [`Presentation`](../../aspose.slides/presentation) 中的每个 [`Slide`](../foreach/slide) 上调用的回调。
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 | slide | Slide | 当前迭代的幻灯片 |
 | index | Int32 | 当前幻灯片的索引 |
 
-### 参见
+### 另见
 
 * 类 [Slide](../../aspose.slides/slide)
 * 类 [ForEach](../foreach)

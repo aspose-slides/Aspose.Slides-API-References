@@ -1,12 +1,12 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente le format de fichier source.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le format du fichier source.
 type: docs
-weight: 10680
+weight: 10700
 url: /fr/aspose.slides/sourceformat/
 ---
-## SourceFormat énumération
+## énumération SourceFormat
 
 Représente le format de fichier source.
 
@@ -21,16 +21,16 @@ public enum SourceFormat
 | Ppt | `0` | Microsoft PowerPoint 97-2003 Présentation (*.ppt). |
 | Pptx | `1` | Microsoft Office Open XML Présentation (*.pptx). |
 | Odp | `2` | OpenDocument Présentation (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Présentation avec macro (*.pptm). |
+| Pptm | `3` | Microsoft Office Open XML Présentation avec macros (*.pptm). |
 | Ppsx | `4` | Microsoft Office Open XML Diaporama (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Diaporama avec macro (*.ppsm). |
+| Ppsm | `5` | Microsoft Office Open XML Diaporama avec macros (*.ppsm). |
 | Potx | `6` | Microsoft Office Open XML Modèle (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Modèle avec macro (*.potm). |
+| Potm | `7` | Microsoft Office Open XML Modèle avec macros (*.potm). |
 | Pps | `8` | Microsoft PowerPoint 97-2003 Diaporama (*.pps). |
 | Pot | `9` | Microsoft PowerPoint 97-2003 Modèle (*.pot). |
-| Otp | `10` | OpenDocument Modèle de Présentation (*.otp). |
-| Fodp | `11` | Présentation ODF XML plat (*.fodp). |
-| Xml | `12` | Présentation XML PowerPoint (*.xml). |
+| Otp | `10` | OpenDocument Modèle de présentation (*.otp). |
+| Fodp | `11` | Flat XML ODF Présentation (*.fodp). |
+| Xml | `12` | PowerPoint XML Présentation (*.xml). |
 
 ### Voir aussi
 

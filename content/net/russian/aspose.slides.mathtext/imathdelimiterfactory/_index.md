@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes для .NET справочник API
-description: Позволяет создавать математический разделитель
+second_title: Aspose.Sildes для .NET API справка
+description: Позволяет создать математический разделитель
 type: docs
-weight: 8220
+weight: 8240
 url: /ru/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory интерфейс
 
-Позволяет создавать математический разделитель
+Позволяет создать математический разделитель
 
 ```csharp
 public interface IMathDelimiterFactory
@@ -18,8 +18,8 @@ public interface IMathDelimiterFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создать математический разделитель, применяя к элементу |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создать математический разделитель, применяя к элементу |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создает математический разделитель, применяя к элементу |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создает математический разделитель, применяя к элементу |
 
 ### Примечания
 

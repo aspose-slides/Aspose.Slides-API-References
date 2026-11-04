@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: 그리드라인 형식 속성을 나타냅니다.
+description: 그리드 라인 형식 속성을 나타냅니다.
 type: docs
-weight: 1410
+weight: 1420
 url: /ko/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat 클래스
 
-그리드라인 형식 속성을 나타냅니다.
+그리드 라인 형식 속성을 나타냅니다.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat

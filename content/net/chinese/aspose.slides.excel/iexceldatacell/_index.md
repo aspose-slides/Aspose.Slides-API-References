@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 Excel 工作簿中的单个单元格。
 type: docs
-weight: 3700
+weight: 3720
 url: /zh/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell 接口

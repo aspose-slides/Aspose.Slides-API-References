@@ -1,14 +1,14 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes .NET API referencia
-description: A táblázat formátumát képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A tábla formátumát képviseli.
 type: docs
-weight: 10870
+weight: 10890
 url: /hu/aspose.slides/tableformat/
 ---
 ## TableFormat osztály
 
-A táblázat formátumát képviseli.
+A tábla formátumát képviseli.
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
@@ -18,14 +18,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Név | Leírás |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Visszaad egy táblázat kitöltési tulajdonságok objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | A kitöltési szín átlátszóságát adja vissza vagy állítja be. Olvasás/írás Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Visszaad egy táblázat kitöltési tulajdonság objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Lekérdezi vagy beállítja a kitöltő szín átlátszóságát. Olvasható/írható Single. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Az öröklődéssel és alkalmazott táblastílusokkal együtt a tényleges táblázat formázási tulajdonságokat adja vissza. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Lekérdezi a hatékony táblázat formázási tulajdonságokat öröklődéssel és alkalmazott táblastílusokkal. |
 
 ### Lásd még
 

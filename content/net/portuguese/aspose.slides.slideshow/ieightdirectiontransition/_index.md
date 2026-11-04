@@ -3,12 +3,12 @@ title: IEightDirectionTransition
 second_title: Referência da API Aspose.Sildes para .NET
 description: Efeito de transição de slide em oito direções.
 type: docs
-weight: 10070
+weight: 10090
 url: /pt/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interface
 
-Efeito de transição de slide em oito direções.
+Eight direction slide transition effect.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -21,7 +21,7 @@ public interface IEightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-### Ver também
+### Veja também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

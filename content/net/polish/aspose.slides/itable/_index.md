@@ -1,12 +1,12 @@
 ---
 title: ITable
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje tabelę na slajdzie.
 type: docs
-weight: 7230
+weight: 7250
 url: /pl/aspose.slides/itable/
 ---
-## ITable interface
+## ITable interfejs
 
 Reprezentuje tabelę na slajdzie.
 
@@ -24,10 +24,10 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Określa, czy pierwsza kolumna tabeli ma być rysowana ze specjalnym formatowaniem. Odczyt/zapis Boolean. |
 | [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Określa, czy pierwszy wiersz tabeli ma być rysowany ze specjalnym formatowaniem. Odczyt/zapis Boolean. |
 | [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Określa, czy parzyste wiersze mają być rysowane z innym formatowaniem. Odczyt/zapis Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Zwraca komórkę o określonych indeksach kolumny i wiersza. Tylko do odczytu [`ICell`](../icell). |
+| [Item](../../aspose.slides/itable/item) { get; } | Zwraca komórkę o podanych indeksach kolumny i wiersza. Tylko do odczytu [`ICell`](../icell). |
 | [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Określa, czy ostatnia kolumna tabeli ma być rysowana ze specjalnym formatowaniem. Odczyt/zapis Boolean. |
 | [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Określa, czy ostatni wiersz tabeli ma być rysowany ze specjalnym formatowaniem. Odczyt/zapis Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Określa, czy tabela ma kolejność od prawej do lewej. Odczyt/zapis Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Określa, czy tabela ma kolejność czytania od prawej do lewej. Odczyt/zapis Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Zwraca kolekcję wierszy. Tylko do odczytu [`IRowCollection`](../irowcollection). |
 | [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Pobiera lub ustawia wbudowany styl tabeli. Odczyt/zapis [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Zwraca obiekt TableFormat zawierający właściwości formatowania tej tabeli. Tylko do odczytu [`ITableFormat`](../itableformat). |
@@ -37,7 +37,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Nazwa | Opis |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Łączy sąsiednie komórki. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Łączy sąsiadujące komórki. |
 
 ### Zobacz także
 

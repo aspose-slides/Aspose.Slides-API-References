@@ -3,12 +3,12 @@ title: FontAlignment
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar vertikal teckensnittjustering.
 type: docs
-weight: 4800
+weight: 4820
 url: /sv/aspose.slides/fontalignment/
 ---
-## FontAlignment uppräkning
+## FontAlignment-enumeration
 
-Representerar vertikal teckensnittsjustering.
+Representerar vertikal teckensnittjustering.
 
 ```csharp
 public enum FontAlignment

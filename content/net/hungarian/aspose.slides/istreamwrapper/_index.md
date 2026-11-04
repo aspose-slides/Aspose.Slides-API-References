@@ -1,9 +1,9 @@
 ---
 title: IStreamWrapper
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Aspose.IO.Stream csomagoló a COM interfészhez.
 type: docs
-weight: 7130
+weight: 7150
 url: /hu/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper interfész
@@ -18,29 +18,29 @@ public interface IStreamWrapper : IDisposable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Lehetővé teszi a base IDisposable interfész elérését. Csak olvasható IDisposable. |
-| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Megkap egy értéket, amely jelzi, hogy az aktuális adatfolyam támogatja-e az olvasást. Csak olvasható Boolean. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Megkap egy értéket, amely jelzi, hogy az aktuális adatfolyam támogatja-e a keresést. Csak olvasható Boolean. |
-| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Megkap egy értéket, amely jelzi, hogy az aktuális adatfolyam támogatja-e az írást. Csak olvasható Boolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Megkapja az adatfolyam bájtban kifejezett hosszát. Csak olvasható Int64. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Megkapja a pozíciót az aktuális adatfolyamban. Csak olvasható Int64. |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Megkap egy adatfolyamot. Csak olvasható Stream. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Lehetővé teszi a bázis IDisposable interfész lekérését. Csak olvasható IDisposable. |
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Lekér egy értéket, amely jelzi, hogy az aktuális stream támogatja-e az olvasást. Csak olvasható Boolean. |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Lekér egy értéket, amely jelzi, hogy az aktuális stream támogatja-e a keresést. Csak olvasható Boolean. |
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Lekér egy értéket, amely jelzi, hogy az aktuális stream támogatja-e az írást. Csak olvasható Boolean. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Lekéri a stream hosszát bájtban. Csak olvasható Int64. |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Lekéri az aktuális streamben lévő pozíciót. Csak olvasható Int64. |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Lekér egy streamet. Csak olvasható Stream. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Close](../../aspose.slides/istreamwrapper/close)() | Lezárja az aktuális adatfolyamot és felszabadítja az összes erőforrást. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Törli az adatfolyam összes puffert, és az esetleg pufferelt adatot az alatta lévő eszközre írja. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Olvas egy bájtsorozatot az aktuális adatfolyamból, és a pozíciót a beolvasott bájtok számával lépteti előre. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Olvas egy bájtot az adatfolyamból, és a pozíciót egy bájttal lépteti előre, vagy -1-et ad vissza, ha az adatfolyam végén vagyunk. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Beállítja a pozíciót az aktuális adatfolyamban |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Ír egy bájtsorozatot az aktuális adatfolyamba, és a pozíciót a írt bájtok számával lépteti előre. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Ír egy bájtot az adatfolyam aktuális pozíciójába, és a pozíciót egy bájttal lépteti előre. |
+| [Close](../../aspose.slides/istreamwrapper/close)() | Bezárja az aktuális streamet és felszabadít minden erőforrást. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Törli az összes puffert ehhez a streamhez, és az esetleg pufferelt adatokat az alaprendszerbe írja. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Olvas egy bájt sorozatot az aktuális streamből, és a pozíciót a beolvasott bájtok számával előre lépteti. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Olvas egy bájtot a streamből és a pozíciót egy bájttal előre lépteti, vagy -1-et ad vissza, ha a stream vége. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Beállítja a pozíciót az aktuális streamben |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | ír egy bájt sorozatot az aktuális streambe, és a pozíciót az írt bájtok számával előre lépteti. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Ír egy bájtot a stream aktuális pozíciójába, és a pozíciót egy bájttal előre lépteti. |
 
 ### Lásd még
 
-* névtér [Aspose.Slides](../../aspose.slides)
+* névtere [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

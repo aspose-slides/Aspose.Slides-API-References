@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ホイール スライド遷移効果。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ホイールスライドの遷移効果。
 type: docs
-weight: 10470
+weight: 10490
 url: /ja/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition クラス
 
-Wheel スライド遷移効果。
+ホイールスライドの遷移効果。
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,7 +18,7 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Wheel transition のスポーク数。読み取り/書き込み UInt32。 |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | ホイール遷移のスポーク数。読み取り/書き込み UInt32。 |
 
 ## メソッド
 

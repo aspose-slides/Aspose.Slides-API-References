@@ -1,9 +1,9 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Paragrafların bir koleksiyonunu temsil eder.
 type: docs
-weight: 6570
+weight: 6590
 url: /tr/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection arayüz
@@ -16,29 +16,29 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt okunur IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Temel ISlideComponent arabirimini almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt okunur Int32. |
-| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. Salt-okunur IEnumerable. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt-okunur [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt-okunur Int32. |
+| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Paragraph'ı koleksiyonun sonuna ekler. |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | ParagraphCollection içeriğini koleksiyonun sonuna ekler. |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Belirtilen html dizesinden metni koleksiyona ekler. |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Belirtilen html dizesinden metni koleksiyona ekler. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Belirtilen paragrafları HTML'ye dönüştürür ve String nesnesi olarak döndürür. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Paragraph'ı belirtilen indekste koleksiyona ekler. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | ParagraphCollection içeriğini belirtilen indekste koleksiyona ekler. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Belirtilen paragrafları HTML'e dönüştürür ve String nesnesi olarak döndürür. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Paragraph'ı belirtilen dizinde koleksiyona ekler. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | ParagraphCollection içeriğini belirtilen dizinde koleksiyona ekler. |
 | [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Belirli bir paragrafın ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Koleksiyonda belirtilen dizindeki öğeyi kaldırır. |
 
-### Ayrıca Bak
+### İlgili
 
 * arayüz [IParagraph](../iparagraph)
 * arayüz [ISlideComponent](../islidecomponent)

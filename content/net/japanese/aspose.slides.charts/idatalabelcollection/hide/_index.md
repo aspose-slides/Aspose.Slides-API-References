@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes の .NET API リファレンス
-description: DefaultDataLabelFormat プロパティのすべての Show-flags (ShowValue ...) を false に設定することで、データ ラベルをデフォルトで非表示にします。IsVisible はこの後 false になります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: DefaultDataLabelFormat プロパティのすべての Show フラグ（ShowValue ...） を false に設定することで、データ ラベルをデフォルトで非表示にします。この操作後、IsVisible は false になります。
 type: docs
-weight: 100
+weight: 110
 url: /ja/aspose.slides.charts/idatalabelcollection/hide/
 ---
 ## IDataLabelCollection.Hide メソッド
 
-DefaultDataLabelFormat プロパティのすべての Show*-フラグ (ShowValue, ...) を false に設定することで、データ ラベルをデフォルトで非表示にします。この後、IsVisible は false になります。
+すべての Show*-flags（ShowValue、...） を DefaultDataLabelFormat プロパティで false に設定することで、データ ラベルをデフォルトで非表示にします。この操作後、IsVisible は false になります。
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### 備考
 
-データ ラベルがデフォルトで表示されない (IsVisible が false) 場合は、DefaultDataLabelFormat プロパティの Show*-フラグ (ShowValue, ...) を true に設定することで、データ ラベルをデフォルトで表示できます。
+デフォルトでデータ ラベルが表示されていない（IsVisible が false）場合、DefaultDataLabelFormat プロパティの Show*-flags（ShowValue、...） を true に設定することで、データ ラベルをデフォルトで表示できます。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IDataLabelCollection](../../idatalabelcollection)
 * 名前空間 [Aspose.Slides.Charts](../../idatalabelcollection)

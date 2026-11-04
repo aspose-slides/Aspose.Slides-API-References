@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
 second_title: Aspose.Sildes .NET API referencia
-description: Matematikai kontextussal rendelkező részt képvisel.
+description: Matematikai kontextussal rendelkező részt jelöl.
 type: docs
-weight: 8420
+weight: 8440
 url: /hu/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion interfész
 
-Matematikai kontextussal rendelkező részt képvisel.
+Matematikai kontextussal rendelkező részt jelöl.
 
 ```csharp
 public interface IMathPortion

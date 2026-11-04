@@ -1,9 +1,9 @@
 ---
 title: MathBorderBoxFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Permite criar uma caixa de borda matemática
 type: docs
-weight: 8620
+weight: 8640
 url: /pt/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory classe
@@ -16,13 +16,13 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 ## Construtores
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [MathBorderBoxFactory](mathborderboxfactory)() | O construtor padrão. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Cria uma caixa de borda matemática aplicando ao elemento |
 | [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Cria uma caixa de borda matemática aplicando ao elemento |
@@ -31,7 +31,7 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 Para compatibilidade COM
 
-### Ver Também
+### Veja Também
 
 * interface [IMathBorderBoxFactory](../imathborderboxfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

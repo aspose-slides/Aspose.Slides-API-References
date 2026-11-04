@@ -1,14 +1,14 @@
 ---
 title: ICell
-second_title: Aspose.Sildes .NET API referencia
-description: Egy cellát reprezentál egy táblázatban.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy cellát képvisel a táblázatban.
 type: docs
-weight: 5450
+weight: 5470
 url: /hu/aspose.slides/icell/
 ---
 ## ICell interfész
 
-Represents a cell in a table.
+Egy cellát képvisel egy táblázatban.
 
 ```csharp
 public interface ICell : ISlideComponent
@@ -18,16 +18,16 @@ public interface ICell : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Meghatározza, hogy a szövegdoboz középre legyen-e igazítva a cellában. Olvasás/írás Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Meghatározza, hogy a szövegdoboz középre legyen-e helyezve a cellán belül. Olvasás/írás Boolean. |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
 | [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Visszaadja a CellFormat objektumot, amely a cella formázási tulajdonságait tartalmazza. Csak olvasható [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Visszaadja a szülő táblázat táblarácsában a cella által lefedendő rácsoszlopok számát. Ez a tulajdonság lehetővé teszi, hogy a cellák egyesítettnek tűnjenek, mivel függőleges határokat fednek le más cellákban. Csak olvasható Int32. |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Visszaadja a szülő tábla rácsában a cella által lefedett oszlopok számát. Ez a tulajdonság lehetővé teszi, hogy a cellák összeolvadt hatást kapjanak, mivel függőleges határokat átfednek a táblában. Csak olvasható Int32. |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Lekéri a cella első oszlopát. Csak olvasható [`IColumn`](../icolumn). |
 | [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Visszaadja az első oszlop indexét, amelyet a cella lefed. Csak olvasható Int32. |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Lekéri a cella első sorát. Csak olvasható [`IRow`](../irow). |
 | [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Visszaadja az első sor indexét, amelyet a cella lefed. Csak olvasható Int32. |
 | [Height](../../aspose.slides/icell/height) { get; } | Visszaadja a cella magasságát. Csak olvasható Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Igaz értéket ad vissza, ha a cella egy beállított cellával egyesített, egyébként hamis. Csak olvasható Boolean. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Igaz értéket ad vissza, ha a cella össze van vonva bármely módosított cellával, egyébként hamis. Csak olvasható Boolean. |
 | [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Visszaadja vagy beállítja a TextFrame alsó margóját. Olvasás/írás Double. |
 | [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Visszaadja vagy beállítja a TextFrame bal margóját. Olvasás/írás Double. |
 | [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Visszaadja vagy beállítja a TextFrame jobb margóját. Olvasás/írás Double. |
@@ -35,9 +35,9 @@ public interface ICell : ISlideComponent
 | [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Visszaadja a cella minimális magasságát. Ez a cella által lefedett összes sor minimális magasságának összege. Csak olvasható Double. |
 | [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Visszaadja a táblázat bal oldalától a cella bal oldaláig mért távolságot. Csak olvasható Double. |
 | [OffsetY](../../aspose.slides/icell/offsety) { get; } | Visszaadja a táblázat felső oldalától a cella felső oldaláig mért távolságot. Csak olvasható Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Visszaadja, hány sorra nyúlik egy egyesített cella. Ez a vMerge attribútummal kombinálva használható más cellákon a vízszintes egyesítés kezdőcellájának megadásához. Csak olvasható Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | Visszaadja a cellához tartozó szülő Table objektumot. Csak olvasható [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Visszaadja vagy beállítja a szöveg horgony típusát. Olvasás/írás [`TextAnchorType`](../textanchortype). |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Visszaadja a sorok számát, amelyet egy összevont cella kiterjed. Ezt a vMerge attribútummal más cellákon együtt használják egy horizontális egyesítés kezdőcellájának megadására. Csak olvasható Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | Visszaadja a cella szülő Table objektumát. Csak olvasható [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Visszaadja vagy beállítja a szövegankor típusát. Olvasás/írás [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/icell/textframe) { get; } | Visszaadja a cella szövegdobozát. Csak olvasható [`ITextFrame`](../itextframe). |
 | [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Visszaadja vagy beállítja a függőleges szöveg típusát. Olvasás/írás [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/icell/width) { get; } | Visszaadja a cella szélességét. Csak olvasható Double. |
@@ -47,9 +47,9 @@ public interface ICell : ISlideComponent
 | Name | Description |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | Felosztja a cellát két cellára az oszlop indexe alapján. |
-| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | A magasság alapján osztja fel a cellát. |
+| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | Felosztja a cellát magasság alapján. |
 | [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | Felosztja a cellát két cellára a sor indexe alapján. |
-| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | A szélesség alapján osztja fel a cellát. |
+| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | Felosztja a cellát szélesség alapján. |
 
 ### Lásd még
 

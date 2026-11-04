@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Permite crear un cuadro de borde matemático
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Permite crear una caja de borde matemático
 type: docs
-weight: 8620
+weight: 8640
 url: /es/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory clase
 
-Permite crear un cuadro de borde matemático
+Permite crear una caja de borde matemático
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -18,18 +18,18 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | El constructor predeterminado. |
+| [MathBorderBoxFactory](mathborderboxfactory)() | El constructor por defecto. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crear un cuadro de borde matemático aplicándolo al elemento |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crear un cuadro de borde matemático aplicándolo al elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una caja de borde matemático aplicándola al elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una caja de borde matemático aplicándola al elemento |
 
-### Observaciones
+### Comentarios
 
-Para compatibilidad con COM
+Para compatibilidad COM
 
 ### Ver también
 

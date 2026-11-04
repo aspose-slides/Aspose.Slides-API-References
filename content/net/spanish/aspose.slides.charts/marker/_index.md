@@ -3,12 +3,12 @@ title: Marker
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el marcador de un chert.
 type: docs
-weight: 2330
+weight: 2350
 url: /es/aspose.slides.charts/marker/
 ---
-## Marker clase
+## Clase Marker
 
-Representa el marcador de un chert.
+Representa marcador de un chert.
 
 ```csharp
 public class Marker : IMarker
@@ -16,9 +16,9 @@ public class Marker : IMarker
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Obtiene o establece el relleno del marcador. Solo lectura [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Obtiene o establece el relleno del marcador. Sólo lectura [`IFormat`](../iformat). |
 | [Size](../../aspose.slides.charts/marker/size) { get; set; } | Representa el tamaño del marcador en un gráfico de líneas, gráfico de dispersión o gráfico de radar. Lectura/escritura Int32. |
 | [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Representa el estilo del marcador en un gráfico de líneas, gráfico de dispersión o gráfico de radar. Lectura/escritura [`MarkerStyleType`](../markerstyletype). |
 

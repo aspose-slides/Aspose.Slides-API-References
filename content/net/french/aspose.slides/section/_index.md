@@ -3,12 +3,12 @@ title: Section
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une section de diapositives.
 type: docs
-weight: 9750
+weight: 9770
 url: /fr/aspose.slides/section/
 ---
 ## Section classe
 
-Représente une section de diapositives.
+Représente la section des diapositives.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection

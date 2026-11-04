@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Replace. ค่าอัลฟ่า (ความทึบ) ของเอฟเฟกต์จะถูกแทนที่ด้วยค่าอัลฟ่าแบบคงที่.
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Replace. ค่าความทึบของอัลฟ่าในเอฟเฟกต์จะถูกแทนที่ด้วยอัลฟ่าคงที่.
 type: docs
-weight: 3150
+weight: 3170
 url: /th/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Replace. ค่าอัลฟ่า (ความทึบ) ของเอฟเฟกต์จะถูกแทนที่ด้วยค่าอัลฟ่าแบบคงที่.
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Replace. ค่าอัลฟ่า (ความทึบ) ของเอฟเฟกต์จะถูกแทนที่ด้วยอัลฟ่าคงที่.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | ส่งค่ากลับเป็นค่าอัลฟ่าใหม่ในช่วง [0..1] อ่านอย่างเดียว Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | คืนค่าอัลฟ่าใหม่ในช่วง [0..1] อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซฐาน IEffectEffectiveData. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет длину наконечника стрелки.
 type: docs
-weight: 7730
+weight: 7750
 url: /ru/aspose.slides/linearrowheadlength/
 ---
-## LineArrowheadLength перечисление
+## Перечисление LineArrowheadLength
 
 Представляет длину наконечника стрелки.
 

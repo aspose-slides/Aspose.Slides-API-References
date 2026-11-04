@@ -1,9 +1,9 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 適用於 .NET API 參考
 description: 用於取得搜尋文字結果的回呼介面。
 type: docs
-weight: 5820
+weight: 5840
 url: /zh-hant/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback 介面
@@ -18,9 +18,9 @@ public interface IFindResultCallback
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 回呼方法，接收有關找到的文字之資料。 |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 接收有關找到的文字資料的回呼方法。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

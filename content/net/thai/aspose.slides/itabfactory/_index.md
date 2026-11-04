@@ -1,9 +1,9 @@
 ---
 title: ITabFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างอินสแตนซ์ของ ITab
 type: docs
-weight: 7220
+weight: 7240
 url: /th/aspose.slides/itabfactory/
 ---
 ## ITabFactory อินเทอร์เฟซ
@@ -18,7 +18,7 @@ public interface ITabFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | สร้างอินสแตนซ์ใหม่ของ ITab |
+| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | สร้างอินสแตนซ์ใหม่ของ ITab. |
 
 ### หมายเหตุ
 

@@ -1,9 +1,9 @@
 ---
 title: ISvgTSpan
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: SVG 텍스트 부분 tspan에 대한 옵션을 나타냅니다.
 type: docs
-weight: 4140
+weight: 4160
 url: /ko/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan 인터페이스
@@ -18,9 +18,9 @@ public interface ISvgTSpan
 
 | 이름 | 설명 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | “tspan” 요소의 id를 가져오거나 설정합니다. |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | "tspan" 요소의 id를 가져오거나 설정합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

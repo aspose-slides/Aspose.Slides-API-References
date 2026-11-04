@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
 second_title: Aspose.Sildes .NET API 参考
-description: 表示图表的组件。
+description: 表示图表的一个组件。
 type: docs
-weight: 1790
+weight: 1810
 url: /zh/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent 接口
 
-表示图表的组件。
+表示图表的一个组件。
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,10 +18,10 @@ public interface IChartComponent : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 允许获取基 ISlideComponent 接口。只读 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | 返回图表。只读 [`IChart`](../ichart)。 |
 
-### 另请参考
+### 另请参阅
 
 * 接口 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een Trace-object. Een Trace-element wordt gebruikt om de door de digitizer vastgelegde gegevens op te nemen. Het bevat een reeks punten die gecodeerd zijn volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een Trace-object voor. Een Trace-element wordt gebruikt om de door de digitalizer vastgelegde gegevens te registreren. Het bevat een reeks punten die zijn gecodeerd volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
 type: docs
-weight: 7590
+weight: 7610
 url: /nl/aspose.slides.ink/inktrace/
 ---
 ## InkTrace klasse
 
-Vertegenwoordigt een Trace-object. Een Trace-element wordt gebruikt om de door de digitizer vastgelegde gegevens op te nemen. Het bevat een reeks punten die gecodeerd zijn volgens de specificatie van het InkTraceFormat-object.
+Stelt een Trace-object voor. Een Trace-element wordt gebruikt om de door de digitalizer vastgelegde gegevens te registreren. Het bevat een reeks punten die zijn gecodeerd volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
 
 ```csharp
 public class InkTrace : IInkTrace

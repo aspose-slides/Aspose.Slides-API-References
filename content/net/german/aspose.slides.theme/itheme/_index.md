@@ -1,14 +1,14 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein Design dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Thema dar.
 type: docs
-weight: 11370
+weight: 11390
 url: /de/aspose.slides.theme/itheme/
 ---
 ## ITheme Schnittstelle
 
-Stellt ein Design dar.
+Stellt ein Thema dar.
 
 ```csharp
 public interface ITheme : IPresentationComponent
@@ -16,18 +16,18 @@ public interface ITheme : IPresentationComponent
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis IPresentationComponent Schnittstelle. Nur-Lesen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur-Lesen [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Gibt das Schriftschema zurück. Nur-Lesen [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Gibt das Formformat-Schema zurück. Nur-Lesen [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur lesbar [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Gibt das Schriftartenschema zurück. Nur lesbar [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Gibt das Shape-Format-Schema zurück. Nur lesbar [`IFormatScheme`](../iformatscheme). |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Liefert effektive Theme-Daten mit angewandter Vererbung. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Ermittelt die effektiven Themendaten mit angewandter Vererbung. |
 
 ### Siehe auch
 

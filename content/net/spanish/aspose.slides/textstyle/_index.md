@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Esta clase contiene las propiedades de formato del estilo de texto.
+description: Esta clase contiene las propiedades de formato de estilo de texto.
 type: docs
-weight: 11000
+weight: 11020
 url: /es/aspose.slides/textstyle/
 ---
-## Clase TextStyle
+## TextStyle clase
 
-Esta clase contiene las propiedades de formato del estilo de texto.
+Esta clase contiene las propiedades de formato de estilo de texto.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -19,7 +19,7 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | Nombre | Descripción |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Propiedades predeterminadas del párrafo. Solo lectura [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Propiedades de párrafo predeterminadas. Solo lectura [`IParagraphFormat`](../iparagraphformat). |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | [GetEffective](../../aspose.slides/textstyle/geteffective)() | Obtiene los datos de formato de estilo de texto efectivos con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Si existe el nivel de estilo lo devuelve, de lo contrario devuelve null. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Si el nivel de estilo existe, lo devuelve; de lo contrario devuelve null. |
 
 ### Ver también
 

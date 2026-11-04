@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva di layout.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il gestore che consente di aggiungere segnaposto alla diapositiva layout.
 type: docs
-weight: 7630
+weight: 7650
 url: /it/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager classe
 
-Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva di layout.
+Rappresenta il gestore che consente di aggiungere segnaposto alla diapositiva layout.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un grafico. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, un media o del testo. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un oggetto multimediale. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un'immagine online. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un'immagine. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un diagramma SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere una tabella. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti di testo. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, un media o del testo in direzione verticale. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti di testo in direzione verticale. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un grafico. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuti, come un'immagine, una tabella, media o testo. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un oggetto multimediale. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un'immagine online. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un'immagine. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere un diagramma SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere una tabella. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere testo. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere contenuti, come un'immagine, una tabella, media o testo, in direzione verticale. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva layout per contenere testo in direzione verticale. |
 
 ### Vedi anche
 

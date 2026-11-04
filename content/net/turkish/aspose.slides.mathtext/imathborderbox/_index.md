@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: IMathElement etrafında dikdörtgen veya başka bir kenarlık çizer.
 type: docs
-weight: 8170
+weight: 8190
 url: /tr/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox arayüz
 
-Temel IMathElement etrafında dikdörtgen veya başka bir kenarlık çizer.
+IMathElement etrafında dikdörtgen ya da başka bir kenarlık çizer.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Temel IMathElement arayüzüne erişim sağlar [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Temel argüman |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Alt Kenarı Gizle (varsayılan false) - kenar kutusunun alt kenarının gizli veya gösterili durumunu belirtir. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Sol Kenarı Gizle (varsayılan false) - kenar kutusunun sol kenarının gizli veya gösterili durumunu belirtir. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Sağ Kenarı Gizle (varsayılan false) - kenar kutusunun sağ kenarının gizli veya gösterili durumunu belirtir. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Üst Kenarı Gizle (varsayılan false) - kenar kutusunun üst kenarının gizli veya gösterili durumunu belirtir. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Alt Sol'dan Üst Sağ'a Üstü Çiz (varsayılan false). Kenar kutusunun alt sol köşesinden üst sağ köşesine uzanan çapraz üstü çizili çizginin gizli veya gösterili durumunu belirtir. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Yatay Üstü Çiz (varsayılan false) - yatay üstü çizili bir çizginin gizli veya gösterili durumunu belirtir. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Üst Sol'dan Alt Sağ'a Üstü Çiz (varsayılan false). Kenar kutusunun üst sol köşesinden alt sağ köşesine uzanan çapraz üstü çizili çizginin gizli veya gösterili durumunu belirtir. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Dikey Üstü Çiz (varsayılan false) - dikey üstü çizili bir çizginin gizli veya gösterili durumunu belirtir. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Alt Kenarı Gizle (varsayılan false) - kenarlık kutusunun alt kenarının gizli ya da görünür durumunu belirtir. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Sol Kenarı Gizle (varsayılan false) - kenarlık kutusunun sol kenarının gizli ya da görünür durumunu belirtir. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Sağ Kenarı Gizle (varsayılan false) - kenarlık kutusunun sağ kenarının gizli ya da görünür durumunu belirtir. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Üst Kenarı Gizle (varsayılan false) - kenarlık kutusunun üst kenarının gizli ya da görünür durumunu belirtir. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Alt Sol'dan Üst Sağa Çizgi (varsayılan false). Kenarlık kutusunun alt-sol köşesinden üst-sağ köşesine çapraz bir çizginin gizli ya da görünür durumunu belirtir. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Yatay Üstü Çizme (varsayılan false) - yatay bir üstü çizme çizgisinin gizli ya da görünür durumunu belirtir. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Üst Sol'dan Alt Sağ'a Çizgi (varsayılan false). Kenarlık kutusunun üst-sol köşesinden alt-sağ köşesine çapraz bir çizginin gizli ya da görünür durumunu belirtir. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Dikey Üstü Çizme (varsayılan false) - dikey bir üstü çizme çizgisinin gizli ya da görünür durumunu belirtir. |
 
 ### Örnekler
 

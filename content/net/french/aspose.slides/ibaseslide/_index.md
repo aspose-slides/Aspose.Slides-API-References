@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les données communes à tous les types de diapositive.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente les données communes pour tous les types de diapositives.
 type: docs
-weight: 5340
+weight: 5360
 url: /fr/aspose.slides/ibaseslide/
 ---
-## interface IBaseSlide
+## IBaseSlide interface
 
-Représente les données communes à tous les types de diapositive.
+Représente les données communes pour tous les types de diapositive.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permet d'obtenir l'interface de base IThemeable. Lecture seule [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Renvoie l'arrière-plan de la diapositive. Lecture seule [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Renvoie la collection de contrôles ActiveX sur une diapositive. Lecture seule [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Renvoie les données personnalisées de la diapositive. Lecture seule [`ICustomData`](../icustomdata). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permet d’obtenir l’interface de base IThemeable. Lecture seule [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Retourne l’arrière-plan de la diapositive. Lecture seule [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Retourne la collection de contrôles ActiveX sur une diapositive. Lecture seule [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Retourne les données personnalisées de la diapositive. Lecture seule [`ICustomData`](../icustomdata). |
 | [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Fournit un accès facile aux hyperliens contenus. Lecture seule [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Renvoie ou définit le nom d'une diapositive. Lecture/écriture String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Renvoie les formes d'une diapositive. Lecture seule [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété renvoie toujours `false`. Lecture/écriture Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Renvoie l'ID d'une diapositive. Lecture seule UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Renvoie l'objet TransitionEx qui contient des informations sur la façon dont la diapositive spécifiée progresse pendant un diaporama. Lecture seule [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Renvoie l'objet de la chronologie d'animation. Lecture seule [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Retourne ou définit le nom d’une diapositive. Lecture/écriture String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Retourne les formes d’une diapositive. Lecture seule [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Indique si les formes du masque de diapositive doivent être affichées sur les diapositives. Pour le masque lui-même, cette propriété renvoie toujours `false`. Lecture/écriture Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Retourne l’ID d’une diapositive. Lecture seule UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Retourne l’objet TransitionEx qui contient les informations sur la façon dont la diapositive spécifiée progresse pendant le diaporama. Lecture seule [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Retourne l’objet de la chronologie d’animation. Lecture seule [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Détermine si les deux instances de IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si toutes les formes, styles, textes, animations et autres paramètres, etc., sont égaux. La comparaison ne prend pas en compte les valeurs d'identifiants uniques, par ex. SlideId, ni le contenu dynamique, par ex. la valeur de la date actuelle dans le texte de substitution Date. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Recherche la première occurrence d'une forme avec le texte alternatif spécifié. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Fusionne les segments avec le même formatage dans tous les paragraphes de toutes les formes admissibles. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Détermine si les deux instances IBaseSlide sont égales. La valeur retournée est calculée en fonction de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si toutes les formes, styles, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d’identifiants uniques, par ex. SlideId, ni le contenu dynamique, par ex. la valeur de date actuelle dans le champ Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Recherche la première occurrence d’une forme avec le texte alternatif spécifié. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Regroupe les runs avec le même formatage dans tous les paragraphes de toutes les formes acceptables. |
 
 ### Voir aussi
 

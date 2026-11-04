@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Alpha Floor. Nilai opasitas Alpha yang kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya transparan.
+description: Mewakili efek Alpha Floor. Nilai opasitas Alpha kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang sebagian transparan menjadi sepenuhnya transparan.
 type: docs
-weight: 3060
+weight: 3080
 url: /id/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor antarmuka
 
-Mewakili efek Alpha Floor. Nilai Alpha (opasitas) kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya transparan.
+Mewakili efek Alpha Floor. Nilai Alpha (opasitas) kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang sebagian transparan menjadi sepenuhnya transparan.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Memungkinkan memperoleh antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Memungkinkan memperoleh antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya baca [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

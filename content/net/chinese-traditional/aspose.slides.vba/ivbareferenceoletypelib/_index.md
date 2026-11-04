@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 OLE Automation 類型庫參考。
+description: 表示 OLE 自動化類型庫參考。
 type: docs
-weight: 11610
+weight: 11630
 url: /zh-hant/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib 介面
 
-表示 OLE Automation 類型庫參考。
+表示 OLE 自動化類型庫參考。
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -19,7 +19,7 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 傳回 IVbaReference 介面。唯讀 [`IVbaReference`](../ivbareference)。 |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示 Automation 類型庫的識別碼。讀寫 String。 |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示自動化類型庫的識別碼。可讀寫 String。 |
 
 ### 另請參閱
 

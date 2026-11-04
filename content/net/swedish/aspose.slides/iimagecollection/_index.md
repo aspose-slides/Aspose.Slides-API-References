@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en samling av PPImage.
 type: docs
-weight: 6160
+weight: 6180
 url: /sv/aspose.slides/iimagecollection/
 ---
 ## IImageCollection gränssnitt
 
-Representerar en samling av PPImage.
+Representerar samling av PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -18,13 +18,13 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | Returnerar bilden enligt dess index. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Returnerar bilden efter dess index. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Lägger till en bild i en presentation från en specificerad buffert. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Lägger till en bild i en presentation från en specificerad buffer. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Lägg till en bild i en presentation. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Lägger till en kopia av en bild från en annan presentation. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Lägg till en bild i en presentation från ett SVG-objekt. |

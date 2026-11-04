@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォントコレクション。
 type: docs
-weight: 4920
+weight: 4940
 url: /ja/aspose.slides/fonts/
 ---
 ## Fonts クラス
@@ -16,24 +16,24 @@ public class Fonts : IFonts
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | 複合スクリプト フォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 東アジア フォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | ラテン フォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | 複雑スクリプトフォントを取得または設定します。読み書き [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 東アジアフォントを取得または設定します。読み書き [`IFontData`](../ifontdata)。 |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | ラテンフォントを取得または設定します。読み書き [`IFontData`](../ifontdata)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 特定のスクリプト タグに関連付けられたフォント名をプレゼンテーションのテーマから取得します。 |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | プレゼンテーション内のすべてのスクリプト フォント定義の辞書を返します。 |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | テーマのフォント コレクションから特定のスクリプト タグに関連付けられたフォント設定を削除します。 |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 特定のスクリプト タグにフォント名を割り当てます。このタグは、プレゼンテーションでそのスクリプトのテキストがどのようにレンダリングされるかを定義します。 |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | プレゼンテーションテーマから特定のスクリプトタグに関連付けられたフォント名を取得します。 |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | プレゼンテーション内のすべてのスクリプトフォント定義の辞書を返します。 |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | テーマのフォントコレクションから特定のスクリプトタグに関連付けられたフォント設定を削除します。 |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | プレゼンテーションでそのスクリプトのテキストがどのように表示されるかを定義する、特定のスクリプトタグにフォント名を割り当てます。 |
 
 ### 参照
 
-* インターフェイス [IFonts](../ifonts)
+* インターフェース [IFonts](../ifonts)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili batang kesalahan dari seri grafik. Nilai khusus ErrorBars berada dalam IChartDataPointCollection pada properti ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili error bars dari seri bagan. Nilai kustom ErrorBars berada dalam IChartDataPointCollection pada properti ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 2090
+weight: 2110
 url: /id/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat antarmuka
 
-Mewakili batang kesalahan dari seri grafik. Nilai khusus ErrorBars berada dalam IChartDataPointCollection (pada properti [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Mewakili error bars dari seri bagan. Nilai kustom ErrorBars berada dalam IChartDataPointCollection (pada properti [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -18,13 +18,13 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Mengembalikan antarmuka IChartComponent. Hanya-baca [`IChartComponent`](../ichartcomponent). |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Mewakili format batang kesalahan. Baca/tulis [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Menentukan bahwa ujung penutup tidak digambar pada batang kesalahan. Baca/tulis Boolean. |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Mengembalikan antarmuka IChartComponent. Baca-saja [`IChartComponent`](../ichartcomponent). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Mewakili format error bars. Baca/tulis [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Menentukan bahwa ujung penutup tidak digambar pada error bars. Baca/tulis Boolean. |
 | [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Mendapatkan atau mengatur visibilitas Error Bars. Baca/tulis Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Mendapatkan atau mengatur tipe batang kesalahan. Baca/tulis [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Mendapatkan atau mengatur nilai yang digunakan dengan tipe nilai Fixed, Percentage, dan StandardDeviation untuk menentukan panjang batang kesalahan. Baca/tulis Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Mewakili cara-cara yang mungkin untuk menentukan panjang batang kesalahan. Jika tipe nilai khusus, untuk menentukan nilai gunakan properti [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) dari titik data spesifik dalam koleksi DataPoints pada seri. Baca/tulis [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Mendapatkan atau mengatur tipe error bars. Baca/tulis [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Mendapatkan atau mengatur nilai yang digunakan dengan tipe nilai Fixed, Percentage, dan StandardDeviation untuk menentukan panjang error bars. Baca/tulis Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Mewakili cara-cara yang mungkin untuk menentukan panjang error bars. Jika tipe nilai kustom, untuk menentukan nilai gunakan properti [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) dari titik data spesifik dalam koleksi DataPoints pada seri. Baca/tulis [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Lihat Juga
 

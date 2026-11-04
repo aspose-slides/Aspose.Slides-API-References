@@ -1,9 +1,9 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la raccolta di tag (coppie di stringhe definite dall'utente)
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la raccolta di tag, coppie di stringhe definite dall'utente
 type: docs
-weight: 7260
+weight: 7280
 url: /it/aspose.slides/itagcollection/
 ---
 ## ITagCollection interfaccia
@@ -18,7 +18,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Restituisce o imposta una coppia chiave e valore di un tag. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Restituisce o imposta una coppia chiave/valore di un tag. |
 
 ## Metodi
 

@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक चार्ट सेल्स के संग्रह का प्रतिनिधित्व करता है।
+description: एक चार्ट सेल्स का संग्रह दर्शाता है।
 type: docs
-weight: 2170
+weight: 2190
 url: /hi/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue इंटरफ़ेस
 
-चार्ट सेल्स के संग्रह का प्रतिनिधित्व करता है।
+एक चार्ट सेल्स का संग्रह दर्शाता है।
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,10 +18,10 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | नाम | विवरण |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | चार्ट सेल्स के संग्रह को रिटर्न या सेट करता है। पढ़ने/लिखने योग्य [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | बेस IBaseChartValue इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | चार्ट सेल्स के संग्रह को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IChartCellCollection`](../ichartcellcollection)। |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | बेस IBaseChartValue इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseChartValue`](../ibasechartvalue)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBaseChartValue](../ibasechartvalue)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)

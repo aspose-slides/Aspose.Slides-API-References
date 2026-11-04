@@ -3,7 +3,7 @@ title: TransitionSoundMode
 second_title: Aspose.Sildes için .NET API Referansı
 description: Geçişin ses modunu temsil eder.
 type: docs
-weight: 10430
+weight: 10450
 url: /tr/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## TransitionSoundMode enum
@@ -22,7 +22,7 @@ public enum TransitionSoundMode
 | StartSound | `0` |  |
 | StopPrevoiusSound | `1` |  |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

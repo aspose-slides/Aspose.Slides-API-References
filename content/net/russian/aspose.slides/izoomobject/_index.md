@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes для .NET справки API
+second_title: Aspose.Sildes для .NET API справка
 description: Представляет объект Zoom на слайде.
 type: docs
-weight: 7410
+weight: 7430
 url: /ru/aspose.slides/izoomobject/
 ---
 ## IZoomObject интерфейс
@@ -16,11 +16,11 @@ public interface IZoomObject : IGraphicalObject
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
 | [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Получает или задает тип изображения объекта zoom. Чтение/запись [`ZoomImageType`](../zoomimagetype). Значение по умолчанию: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Получает или задает поведение навигации в слайд-шоу. Чтение/запись Boolean. Значение по умолчанию: false |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Получает или задает поведение навигации в слайдшоу. Чтение/запись Boolean. Значение по умолчанию: false |
 | [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Получает или задает значение, указывающее, будет ли Zoom использовать фон целевого слайда. Чтение/запись Boolean. Значение по умолчанию: true |
 | [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Получает или задает длительность перехода между Zoom и слайдом. Чтение/запись Single. Значение по умолчанию: 1.0f |
 | [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Получает или задает изображение для объекта zoom. Чтение/запись [`IPPImage`](../ippimage). |

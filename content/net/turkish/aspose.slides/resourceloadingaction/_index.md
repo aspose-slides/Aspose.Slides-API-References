@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Harici kaynak yükleme modunu belirtir.
 type: docs
-weight: 9700
+weight: 9720
 url: /tr/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction enum
@@ -14,13 +14,13 @@ Harici kaynak yükleme modunu belirtir.
 public enum ResourceLoadingAction
 ```
 
-### Values
+### Değerler
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides harici kaynağı normal şekilde yükleyecektir. |
-| Skip | `1` | Aspose.Slides harici kaynağın yüklenmesini atlayacaktır. Görüntü için yalnızca veri içermeyen bağlantı saklanacaktır. |
-| UserProvided | `2` | Aspose.Slides, kullanıcı tarafından [`SetData`](../iresourceloadingargs/setdata) içinde sağlanan bayt dizisini görüntü verisi olarak kullanacaktır. |
+| Default | `0` | Aspose.Slides, harici kaynağı normal şekilde yükleyecektir. |
+| Skip | `1` | Aspose.Slides, harici kaynağın yüklenmesini atlayacaktır. Veri içermeyen yalnızca bağlantı bir resim için saklanacaktır. |
+| UserProvided | `2` | Aspose.Slides, [`SetData`](../iresourceloadingargs/setdata) içinde kullanıcı tarafından sağlanan bayt dizisini resim verisi olarak kullanacaktır. |
 
 ### Ayrıca Bakınız
 

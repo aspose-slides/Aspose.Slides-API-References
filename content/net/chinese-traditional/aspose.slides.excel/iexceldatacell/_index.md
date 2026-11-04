@@ -1,14 +1,14 @@
 ---
 title: IExcelDataCell
-second_title: Aspose.Sildes for .NET API 參考
-description: 代表 Excel 工作簿中的單一儲存格。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示 Excel 活頁簿中的單一儲存格。
 type: docs
-weight: 3700
+weight: 3720
 url: /zh-hant/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell 介面
 
-代表 Excel 工作簿中的單一儲存格。
+表示 Excel 活頁簿中的單一儲存格。
 
 ```csharp
 public interface IExcelDataCell
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | 取得該儲存格所在工作表中欄位的零基索引。唯讀 Int32。 |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | 取得圖表資料儲存格的名稱。唯讀 String。 |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | 取得該儲存格所在工作表中列的零基索引。唯讀 Int32。 |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | 取得 Excel 儲存格中包含的值。唯讀 Object。 |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | 取得工作表中儲存格所在之欄位的零基索引。唯讀 Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | 取得圖表資料儲存格的名稱。唯讀 String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | 取得工作表中儲存格所在之列的零基索引。唯讀 Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | 取得 Excel 儲存格中包含的值。唯讀 Object. |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes .NET API-referenciája
-description: Be- és kimeneti diaátmenet hatás.
+second_title: Aspose.Sildes .NET API-referencia
+description: Be-ki diavetítés átmeneti effektus.
 type: docs
-weight: 10230
+weight: 10250
 url: /hu/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition osztály
 
-Be- és kimeneti diaátmenet hatás.
+Be-ki diavetítés átmeneti effektus.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -25,7 +25,7 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és hash táblákhoz hasonló adatstruktúrákban való használatra. |
 
 ### Lásd még
 

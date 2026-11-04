@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: تأثير انتقال شريحة الاتجاه.
 type: docs
-weight: 10270
+weight: 10290
 url: /ar/aspose.slides.slideshow/orientationtransition/
 ---
-## فئة OrientationTransition
+## OrientationTransition فئة
 
-تأثير انتقال شريحة الاتجاه.
+تأثير انتقال الشريحة الاتجاهي.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -20,12 +20,12 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | اتجاه الانتقال. قراءة/كتابة [`Orientation`](../../aspose.slides/orientation). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كان مثالاَين من TransitionValueBase متساويين. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت مثيلتي TransitionValueBase متساويتين. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة والهياكل البيانية مثل جدول التجزئة. |
 
 ### انظر أيضًا
 

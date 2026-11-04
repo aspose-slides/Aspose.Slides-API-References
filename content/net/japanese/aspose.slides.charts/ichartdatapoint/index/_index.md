@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このデータポイントが適用される親の子コレクションのどの要素かを決定します。読み取りは UInt32 です。
+description: このデータポイントが適用される、親の子コレクションのどれかを決定します。読み取り UInt32。
 type: docs
-weight: 80
+weight: 120
 url: /ja/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index プロパティ
 
-このデータ ポイントが適用される、親の子コレクションのどの要素かを決定します。読み取りは UInt32 です。
+このデータポイントが適用される、親の子コレクションのどれかを決定します。読み取り UInt32。
 
 ```csharp
 public uint Index { get; }

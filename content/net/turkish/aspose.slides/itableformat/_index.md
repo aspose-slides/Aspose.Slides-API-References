@@ -3,12 +3,12 @@ title: ITableFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablonun biçimini temsil eder.
 type: docs
-weight: 7240
+weight: 7260
 url: /tr/aspose.slides/itableformat/
 ---
 ## ITableFormat arayüzü
 
-Bir tablo biçimini temsil eder.
+Bir tablonun biçimini temsil eder.
 
 ```csharp
 public interface ITableFormat
@@ -18,16 +18,16 @@ public interface ITableFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Bir tablo doldurma özellikleri nesnesi döndürür. Yalnızca okuma [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Bir tablo doldurma özellikleri nesnesi döndürür. Salt okunur [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Doldurma renginin şeffaflığını alır veya ayarlar. Okuma/yazma Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkili tablo biçimlendirme özelliklerini alır. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Kalıtım ve uygulanan tablo stilleriyle etkili tablo biçimlendirme özelliklerini alır. |
 
-### İlgili
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

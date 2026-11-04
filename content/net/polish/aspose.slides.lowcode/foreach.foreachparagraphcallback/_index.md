@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Wywołanie zwrotne, które będzie wywoływane dla każdego Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Wywołanie zwrotne, które zostanie wywołane dla każdego Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /pl/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegat
 
-Callback that will be invoked for each [`Paragraph`](../foreach/paragraph) on the [`BaseSlide`](../../aspose.slides/baseslide).
+Wywołanie zwrotne, które zostanie wywołane dla każdego [`Paragraph`](../foreach/paragraph) w [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
@@ -16,9 +16,9 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| para | Paragraph | Aktualny iterowany akapit |
-| slide | BaseSlide | Aktualny iterowany slajd |
-| index | Int32 | Indeks bieżącego akapitu na slajdzie |
+| para | Paragraph | Obecny iterowany akapit |
+| slide | BaseSlide | Obecny iterowany slajd |
+| index | Int32 | Indeks aktualnego akapitu na slajdzie |
 
 ### Zobacz także
 

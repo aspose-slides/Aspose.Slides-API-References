@@ -1,20 +1,20 @@
 ---
 title: Value
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về giá trị của điểm dữ liệu biểu đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Lấy giá trị của một điểm dữ liệu biểu đồ. Chỉ đọc IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /vi/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value thuộc tính
 
-Trả về giá trị của điểm dữ liệu biểu đồ. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
+Lấy giá trị của một điểm dữ liệu biểu đồ. Chỉ đọc [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IDoubleChartValue](../../idoublechartvalue)
 * giao diện [IChartDataPoint](../../ichartdatapoint)

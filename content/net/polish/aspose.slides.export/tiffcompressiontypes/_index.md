@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes dla .NET - referencja API
-description: Umożliwia wybór opcji kontrolujących sposób kompresji prezentacji w formacie TIFF.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Udostępnia opcje, które kontrolują sposób kompresji prezentacji w formacie TIFF.
 type: docs
-weight: 4560
+weight: 4580
 url: /pl/aspose.slides.export/tiffcompressiontypes/
 ---
-## Wyliczenie TiffCompressionTypes
+## TiffCompressionTypes enumeracja
 
-Umożliwia wybór opcji kontrolujących sposób kompresji prezentacji w formacie TIFF.
+Udostępnia opcje, które kontrolują sposób kompresji prezentacji w formacie TIFF.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -22,7 +22,7 @@ public enum TiffCompressionTypes
 | None | `1` | Określa brak kompresji. |
 | CCITT3 | `2` | Określa schemat kompresji CCITT3. |
 | CCITT4 | `3` | Określa schemat kompresji CCITT4. |
-| LZW | `4` | Określa schemat kompresji LZW (Default). |
+| LZW | `4` | Określa schemat kompresji LZW (Domyślny). |
 | RLE | `5` | Określa schemat kompresji RLE. |
 
 ### Zobacz także

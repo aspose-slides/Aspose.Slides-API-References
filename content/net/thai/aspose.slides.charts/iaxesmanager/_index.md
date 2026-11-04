@@ -1,14 +1,14 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ให้การเข้าถึงแกนของแผนภูมิ.
 type: docs
-weight: 1700
+weight: 1710
 url: /th/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager อินเทอร์เฟซ
 
-ให้การเข้าถึงแกนของแผนภูมิ.
+ให้การเข้าถึงแกนของแผนภูมิ
 
 ```csharp
 public interface IAxesManager
@@ -18,11 +18,11 @@ public interface IAxesManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | ดึงแกนแนวนอนของแผนภูมิ. อ่านอย่างเดียว [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | ดึงแกนแนวนอนรองของแผนภูมิ. อ่านอย่างเดียว [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | ดึงแกนแนวตั้งรองของแผนภูมิ. อ่านอย่างเดียว [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | ดึงแกนซีรีส์ของแผนภูมิ. อ่านอย่างเดียว [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | ดึงแกนแนวตั้งของแผนภูมิ. อ่านอย่างเดียว [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | ได้รับแกนแนวนอนของแผนภูมิ อ่านอย่างเดียว [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | ได้รับแกนแนวนอนรองของแผนภูมิ อ่านอย่างเดียว [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | ได้รับแกนแนวตั้งรองของแผนภูมิ อ่านอย่างเดียว [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | ได้รับแกนซีรีส์ของแผนภูมิ อ่านอย่างเดียว [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | ได้รับแกนแนวตั้งของแผนภูมิ อ่านอย่างเดียว [`IAxis`](../iaxis). |
 
 ### ดูเพิ่มเติม
 

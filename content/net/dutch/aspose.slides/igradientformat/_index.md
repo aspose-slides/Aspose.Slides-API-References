@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een gradiëntformaat voor.
+description: Stelt een gradiëntenopmaak voor.
 type: docs
-weight: 6000
+weight: 6020
 url: /nl/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interface
 
-Stelt een gradiëntformaat voor.
+Stelt een gradiëntenopmaak voor.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Staat toe de bas IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Retourneert of stelt de stijl van een gradiënt in. Lezen/Schrijven [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Retourneert of stelt de vorm van een gradiënt in. Lezen/Schrijven [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Retourneert de collectie van gradiëntstops. Alleen-lezen [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Retourneert of stelt de hoek van een gradiënt in. Lezen/Schrijven Single. |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Staat toe om de basise IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Geeft de stijl van een gradiënt terug of stelt deze in. Lezen/Schrijven [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Geeft de vorm van een gradiënt terug of stelt deze in. Lezen/Schrijven [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Geeft de verzameling van gradiëntstops terug. Alleen-lezen [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Geeft de hoek van een gradiënt terug of stelt deze in. Lezen/Schrijven Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Bepaalt of een gradiënt geschaald is. Lezen/Schrijven [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Retourneert of stelt de flipmodus voor een gradiënt in. Lezen/Schrijven [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Geeft de flipmodus voor een gradiënt terug of stelt deze in. Lezen/Schrijven [`TileFlip`](../tileflip). |
 
 ### Zie ook
 

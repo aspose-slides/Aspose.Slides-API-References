@@ -1,12 +1,12 @@
 ---
 title: ImagePixelFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Especifica el formato de píxel para las imágenes generadas.
 type: docs
-weight: 4210
+weight: 4230
 url: /es/aspose.slides.export/imagepixelformat/
 ---
-## Enumeración ImagePixelFormat
+## enumeración ImagePixelFormat
 
 Especifica el formato de píxel para las imágenes generadas.
 
@@ -18,7 +18,7 @@ public enum ImagePixelFormat
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 bit por píxel, indexado. |
+| Format1bppIndexed | `1` | 1 bits por píxel, indexado. |
 | Format4bppIndexed | `4` | 4 bits por píxel, indexado. |
 | Format8bppIndexed | `8` | 8 bits por píxel, indexado. |
 | Format24bppRgb | `24` | 24 bits por píxel, RGB. |

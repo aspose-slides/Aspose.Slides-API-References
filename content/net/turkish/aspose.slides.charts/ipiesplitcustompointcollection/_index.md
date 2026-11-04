@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Özel bir bölünmeyle bar-of-pie veya pie-of-pie grafiğinde ikinci dilim veya çubukta çizilecek noktaların bir koleksiyonunu temsil eder.
+description: Özel bölünme ile bar-of-pie veya pie-of-pie grafiğinde ikinci pasta veya çubukta çizilecek noktaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 2190
+weight: 2210
 url: /tr/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
-## IPieSplitCustomPointCollection arayüzü
+## IPieSplitCustomPointCollection arabirimi
 
-Özel bölünmüş bar-of-pie veya pie-of-pie grafiklerinde ikinci dilim veya çubukta çizilecek noktaların bir koleksiyonunu temsil eder.
+Özel bölünmeyle bir bar-of-pie veya pie-of-pie grafiğinde ikinci pasta veya çubukta çizilecek nokta koleksiyonunu temsil eder.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -19,18 +19,18 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | Ad | Açıklama |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | İndekse göre grafik veri noktasını döndürür. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | İndexe göre grafik veri noktasını döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Üst serinin nokta koleksiyonunda indeksine göre veri noktasını ekler. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Üst serinin nokta koleksiyonunda indeksine göre öğeyi koleksiyondan kaldırır. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Üst serinin nokta koleksiyonundaki indeksine göre veri noktasını ekler. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Üst serinin nokta koleksiyonundaki indeksine göre öğeyi koleksiyondan kaldırır. |
 
 ### Ayrıca Bakınız
 
-* arayüz [IChartDataPoint](../ichartdatapoint)
+* arabirimi [IChartDataPoint](../ichartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

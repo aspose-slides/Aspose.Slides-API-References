@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes .NET API 參考文件
-description: 表示形狀的樣式參考。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示形狀樣式參考。
 type: docs
-weight: 9910
+weight: 9930
 url: /zh-hant/aspose.slides/shapestyle/
 ---
 ## ShapeStyle 類別
@@ -16,18 +16,18 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 ## 屬性
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | 傳回形狀的效果顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | 傳回或設定形狀在樣式矩陣中的效果欄索引。可讀寫 UInt32。 |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | 傳回形狀的填充顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | 傳回或設定形狀在樣式矩陣中的填充欄索引。0 表示無填充，正值 - 主題填充樣式的索引，負值 - 主題背景樣式的索引。可讀寫 Int16。 |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | 傳回或設定形狀在字型集合中的字型索引。可讀寫 [`FontCollectionIndex`](../fontcollectionindex)。 |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | 傳回或設定形狀在樣式矩陣中的效果欄位索引。讀寫 UInt32。 |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | 傳回形狀的填色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | 傳回或設定形狀在樣式矩陣中的填充欄位索引。0 表示無填充，正值 - 主題填充樣式的索引，負值 - 主題背景樣式的索引。讀寫 Int16。 |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | 傳回或設定形狀在字型集合中的字型索引。讀寫 [`FontCollectionIndex`](../fontcollectionindex)。 |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | 傳回形狀的字型顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
 | [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | 傳回形狀的輪廓顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | 傳回或設定線條在樣式矩陣中的欄索引。可讀寫 UInt16。 |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | 傳回或設定線條在樣式矩陣中的欄位索引。讀寫 UInt16。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Shape](../shape)

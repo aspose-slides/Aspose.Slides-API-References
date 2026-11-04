@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes for .NET API 參考
-description: Ripple 幻燈片轉場效果。
+second_title: Aspose.Sildes 用於 .NET 的 API 參考
+description: Ripple 投影片過渡效果。
 type: docs
-weight: 10170
+weight: 10190
 url: /zh-hant/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition 介面
 
-Ripple 幻燈片轉場效果。
+Ripple 投影片過渡效果。
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IRippleTransition : ITransitionValueBase
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 轉換方向。讀寫 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

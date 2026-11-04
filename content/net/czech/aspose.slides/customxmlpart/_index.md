@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje vlastní část XML.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Reprezentuje vlastní XML část.
 type: docs
-weight: 2740
+weight: 2760
 url: /cs/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart třída
 
-Představuje vlastní část XML.
+Represents custom xml part.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -16,18 +16,18 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Určuje globálně jedinečný identifikátor (GUID), který jednoznačně identifikuje jedinou vlastní část XML v dokumentu Office Open XML. Pouze pro čtení Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Vrací kolekci schémat XML, která jsou spojena s vlastní částí XML. Pouze pro čtení String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Vrací nebo nastavuje data xml jako řetězec UTF-8. Čtení/zápis String. hodnota je `null`. hodnota je prázdná nebo data xml jsou neplatná. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Vrací nebo nastavuje data xml. Čtení/zápis Byte[]. hodnota je `null`. hodnota je prázdná nebo data xml jsou neplatná. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Určuje globálně jedinečný identifikátor (GUID), který jedinečně identifikuje jeden vlastní XML část v dokumentu Office Open XML. Pouze pro čtení Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Vrací kolekci XML schémat, která jsou spojena s vlastní XML částí. Pouze pro čtení String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Vrací nebo nastavuje data xml jako řetězec UTF-8. Čtení/zápis String. value je `null`. value je prázdná nebo xml-data jsou neplatná. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Vrací nebo nastavuje data xml. Čtení/zápis Byte[]. value je `null`. value je prázdná nebo xml-data jsou neplatná. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Odstraní vlastní část XML z prezentace. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Odstraňuje vlastní xml část z prezentace. |
 
 ### Viz také
 

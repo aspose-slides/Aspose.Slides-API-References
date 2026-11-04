@@ -3,7 +3,7 @@ title: IVbaModuleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: VBA プロジェクト モジュールのコレクションを表します。
 type: docs
-weight: 11540
+weight: 11560
 url: /ja/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection インターフェイス
@@ -24,10 +24,10 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | VBA プロジェクトに新しい空のモジュールを追加します。 |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 新しい空のモジュールを VBA Project に追加します。 |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [IVbaModule](../ivbamodule)

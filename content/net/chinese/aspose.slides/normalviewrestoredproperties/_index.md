@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定幻灯片区域的大小——当作为 restoredTop 的子项时为宽度，作为 restoredLeft 的子项时为高度——在普通视图中，当该区域为可变的恢复尺寸（既未最小化也未最大化）时。
+second_title: Aspose.Sildes .NET API 参考
+description: 指定在常规视图中，当区域为可变的已恢复大小（既未最小化也未最大化）时，幻灯片区域的尺寸——作为 restoredTop 的子项时为宽度，作为 restoredLeft 的子项时为高度。
 type: docs
-weight: 9120
+weight: 9140
 url: /zh/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties 类
 
-指定幻灯片区域的大小（当作为 restoredTop 的子项时为宽度，作为 restoredLeft 的子项时为高度）属于普通视图，当该区域为可变的恢复大小（既未最小化也未最大化）。
+指定在常规视图中，幻灯片区域的尺寸（当区域为可变的已恢复大小（既未最小化也未最大化）时，作为 restoredTop 的子项时为宽度，作为 restoredLeft 的子项时为高度）。
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在调整包含视图的窗口大小时，侧内容区域的尺寸是否应补偿新的大小。可读写 Boolean。 |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定幻灯片区域的大小（当作为 RestoredTop 的子项时为宽度，作为 RestoredLeft 的子项时为高度）。可读写 Single。 |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在调整包含视图的窗口大小时，侧内容区域的大小是否应补偿新的大小。读/写 Boolean。 |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定幻灯片区域的大小（作为 RestoredTop 的子项时为宽度，作为 RestoredLeft 的子项时为高度）。读/写 Single。 |
 
 ### 另请参见
 

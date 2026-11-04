@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar felstaplar för diagramserier. ErrorBars anpassade värden finns i IChartDataPointCollection i ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues egenskap.
+description: Representerar felstaplar för diagramserier. ErrorBars anpassade värden finns i IChartDataPointCollection i egenskapen ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1670
+weight: 1680
 url: /sv/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat klass
 
-Representerar felstaplar för diagramserie. Anpassade värden för ErrorBars finns i IChartDataPointCollection (i egenskapen [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Representerar felstaplar för diagramserie. ErrorBars anpassade värden finns i IChartDataPointCollection (i [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) egenskap).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -18,13 +18,13 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Returnerar det överordnade diagrammet. Skrivskyddad [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Returnerar det överordnade diagrammet. Endast läsning [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Representerar formatet för felstaplarna. Läs/skriv [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Anger att en ändkappa inte ritas på felstaplarna. Läs/skriv Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Hämtar eller anger synlighet för felstaplar. Läs/skriv Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Hämtar eller anger typ för felstaplar. Läs/skriv [`ErrorBarType`](../errorbartype). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Anger att en ändkapsel inte ritas på felstaplarna. Läs/skriv Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Hämtar eller anger synlighet för felstaplar . Läs/skriv Boolean. |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Hämtar eller anger typ av felstaplar. Läs/skriv [`ErrorBarType`](../errorbartype). |
 | [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Hämtar eller anger värde som används med Fixed, Percentage och StandardDeviation värdetyper för att bestämma längden på felstaplarna. I alla andra fall returneras NaN. Läs/skriv Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Representerar möjliga sätt att bestämma längden på felstaplarna. Vid anpassad värdetyp för att ange värde, använd egenskapen [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) för en specifik datapunkt i DataPoints-samlingen för serien. Vid Fixed, Percentage eller StandardDeviation värdetyp, använd Value-egenskapen för att ange värde. Läs/skriv [`ErrorBarValueType`](../errorbarvaluetype). |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Representerar möjliga sätt att bestämma längden på felstaplarna. Vid anpassad värdetyp för att ange värde, använd [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) egenskap för specifik datapunkt i DataPoints-samlingen för serien. Vid Fixed, Percentage eller StandardDeviation värdetyp, använd Value-egenskap för att ange värde. Läs/skriv [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Se även
 

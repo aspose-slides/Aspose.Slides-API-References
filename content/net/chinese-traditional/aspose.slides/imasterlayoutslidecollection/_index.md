@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示已定義的母片的所有版面投影片的集合。繼承 ILayoutSlideCollection 介面，提供在各個母片版面投影片集合中新增、插入、移除、複製版面投影片的方法。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示已定義母片的所有版面投影片的集合。擴充 ILayoutSlideCollection 介面，提供在個別母片版面投影片集合中加入/插入/移除/複製版面投影片的方法。
 type: docs
-weight: 6380
+weight: 6400
 url: /zh-hant/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection 介面
 
-表示已定義的母片的所有版面投影片的集合。繼承 ILayoutSlideCollection 介面，提供在母片各自的版面投影片集合中新增、插入、移除、複製版面投影片的方法。
+表示已定義母片的所有版面投影片的集合。擴充 ILayoutSlideCollection 介面，提供在母片版面投影片的各自集合中加入/插入/移除/複製 版面投影片的方法。
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -16,22 +16,22 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | 返回 ILayoutSlideCollection 介面。唯讀 [`ILayoutSlideCollection`](../ilayoutslidecollection)。 |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | 傳回 ILayoutSlideCollection 介面。唯讀 [`ILayoutSlideCollection`](../ilayoutslidecollection)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合的末端新增版面投影片。 |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合的末端新增指定版面投影片的副本。 |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合的末尾新增一個版面投影片。 |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合的末尾新增指定版面投影片的副本。 |
 | [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 在集合的指定位置插入新的版面投影片。 |
 | [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 在集合的指定位置插入指定版面投影片的副本。 |
-| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 移除集合中指定索引位置的元素。 |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | 將版面投影片從集合移動至指定位置。 |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 移除集合中指定索引處的元素。 |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | 將版面投影片從集合中移動至指定位置。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [ILayoutSlideCollection](../ilayoutslidecollection)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

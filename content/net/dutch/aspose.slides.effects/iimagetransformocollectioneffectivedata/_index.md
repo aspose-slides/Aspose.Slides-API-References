@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderbaar object dat een alleen-lezen collectie van effectieve afbeeldingstransformatie-effecten vertegenwoordigt.
+description: Onveranderlijk object dat een alleen-lezen collectie van effectieve beeldtransformatie-effecten vertegenwoordigt.
 type: docs
-weight: 3380
+weight: 3400
 url: /nl/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData interface
 
-Onveranderbaar object dat een alleen-lezen collectie van effectieve afbeeldingstransformatie-effecten vertegenwoordigt.
+Onveranderlijk object dat een alleen-lezen collectie van effectieve beeldtransformatie-effecten vertegenwoordigt.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### Opmerkingen
 
-Naam IImageTransformOperationCollectionEffectiveData afgekapt tot IImageTransformOCollectionEffectiveData omdat de maximale lengte van COM-namen niet meer dan 39 kan zijn.
+Naam IImageTransformOperationCollectionEffectiveData afgekapt tot IImageTransformOCollectionEffectiveData omdat de lengte van COM-namen niet meer dan 39 mag zijn.
 
 ### Zie ook
 

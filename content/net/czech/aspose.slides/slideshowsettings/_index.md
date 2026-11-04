@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje nastavení promítání snímků pro prezentaci.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Reprezentuje nastavení prezentace pro promítání snímků.
 type: docs
-weight: 10480
+weight: 10500
 url: /cs/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings třída
 
-Reprezentuje nastavení promítání snímků pro prezentaci.
+Reprezentuje nastavení prezentace pro promítání snímků.
 
 ```csharp
 public class SlideShowSettings
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Název | Popis |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Opakovat promítání snímků |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Barva pera pro promítání snímků |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Zobrazit animaci v promítání snímků |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Zobrazit ovládací prvky médií |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Zobrazit komentář v promítání snímků |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Smyčka prezentace |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Barva pera pro prezentaci |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Zobrazit animaci v prezentaci |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Zobrazit ovládací prvky média |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Zobrazit komentář v prezentaci |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Rozsah snímků |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Získá nebo nastaví typ promítání snímků. Reprezentován následujícími [`SlideShowType`](./slideshowtype) předky: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) a [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Použít načasování v promítání snímků |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Získá nebo nastaví typ prezentace. Je reprezentován následujícími [`SlideShowType`](./slideshowtype) předky: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) a [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Použít načasování v prezentaci |
 
 ### Viz také
 

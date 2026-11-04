@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta LightRig.
 type: docs
-weight: 6270
+weight: 6290
 url: /it/aspose.slides/ilightrig/
 ---
 ## ILightRig interfaccia
@@ -19,14 +19,14 @@ public interface ILightRig
 | Nome | Descrizione |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Direzione della luce. Lettura/scrittura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Rappresenta una luce preimpostata che può essere applicata a una forma. Il light rig rappresenta un gruppo di luci orientate in un modo specifico rispetto a una scena 3D. Lettura/scrittura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Rappresenta una luce preimpostata a destra che può essere applicata a una forma. Il light rig rappresenta un gruppo di luci orientate in modo specifico rispetto a una scena 3D. Lettura/scrittura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Una rotazione è definita tramite l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. primo elemento nell'array restituito - latitudine, secondo - longitudine, terzo - rivoluzione. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Una rotazione è definita tramite l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come le coordinate di latitudine e longitudine. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come coordinate di latitudine e longitudine. primo elemento nell'array restituito - latitudine, secondo - longitudine, terzo - rivoluzione. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Una rotazione è definita mediante l'uso di una coordinata di latitudine, una coordinata di longitudine e una rivoluzione attorno all'asse come coordinate di latitudine e longitudine. |
 
 ### Vedi anche
 

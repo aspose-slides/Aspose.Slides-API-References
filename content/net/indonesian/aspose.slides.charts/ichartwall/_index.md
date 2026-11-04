@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili dinding pada diagram 3d.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili dinding pada grafik 3d.
 type: docs
-weight: 2010
+weight: 2030
 url: /id/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall antarmuka
 
-Mewakili dinding pada diagram 3D.
+Mewakili dinding pada grafik 3d.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Mengembalikan isian dinding, garis, efek, gaya 3d. Hanya-baca [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Mengembalikan atau mengatur tipe gambar. Baca/tulis [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Mengembalikan atau mengatur ketebalan dinding sebagai persentase dari dimensi terbesar volume plot. Baca/tulis Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Mengembalikan isian dinding, garis, efek, gaya 3d. Hanya Baca [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Mengembalikan atau mengatur tipe gambar. Baca/Tulis [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Mengembalikan atau mengatur ketebalan dinding sebagai persentase dari dimensi terbesar volume plot. Baca/Tulis Int32. |
 
 ### Lihat Juga
 

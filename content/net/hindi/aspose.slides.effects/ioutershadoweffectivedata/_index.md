@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो Outer Shadow प्रभाव का प्रतिनिधित्व करती है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो बाहरी छाया प्रभाव को दर्शाती है।
 type: docs
-weight: 3470
+weight: 3490
 url: /hi/aspose.slides.effects/ioutershadoweffectivedata/
 ---
-## IOuterShadowEffectiveData interface
+## IOuterShadowEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो Outer Shadow प्रभाव का प्रतिनिधित्व करती है।
+अपरिवर्तनीय वस्तु जो बाहरी छाया प्रभाव को दर्शाती है।
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -18,19 +18,19 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | ब्लर त्रििज्या। केवल-पढ़ने योग्य Double। |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | शैडो की दिशा। केवल-पढ़ने योग्य Single। |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | शैडो की दूरी। केवल-पढ़ने योग्य Double। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | आधार IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | धुंधलापन त्रिज्या। केवल-पढ़ने योग्य Double। |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | छाया की दिशा। केवल-पढ़ने योग्य Single। |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | छाया की दूरी। केवल-पढ़ने योग्य Double। |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | आयत संरेखण। केवल-पढ़ने योग्य [`RectangleAlignment`](../../aspose.slides/rectanglealignment)। |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | निर्दिष्ट करता है कि क्या शैडो को आकार के साथ घुमाया जाना चाहिए यदि आकार घुमाया गया हो। केवल-पढ़ने योग्य Boolean। |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | क्षैतिज स्केलिंग कारक निर्धारित करता है, नकारात्मक स्केलिंग से उलटा हो जाता है। केवल-पढ़ने योग्य Double। |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | ऊर्ध्वाधर स्केलिंग कारक निर्धारित करता है, नकारात्मक स्केलिंग से उलटा हो जाता है। केवल-पढ़ने योग्य Double। |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | शैडो का रंग। केवल-पढ़ने योग्य Color। |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | क्षैतिज तिरछा कोण (डिग्री में) निर्धारित करता है। केवल-पढ़ने योग्य Double। |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | ऊर्ध्वाधर तिरछा कोण (डिग्री में) निर्धारित करता है। केवल-पढ़ने योग्य Double। |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | निर्दिष्ट करता है कि क्या छाया को आकार के साथ घुमाया जाना चाहिए यदि आकार घुमाया गया हो। केवल-पढ़ने योग्य Boolean। |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | क्षैतिज स्केलिंग फ़ैक्टर निर्दिष्ट करता है, नकारात्मक स्केलिंग फ्लिप का कारण बनती है। केवल-पढ़ने योग्य Double। |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | ऊर्ध्वाधर स्केलिंग फ़ैक्टर निर्दिष्ट करता है, नकारात्मक स्केलिंग फ्लिप का कारण बनती है। केवल-पढ़ने योग्य Double। |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ने योग्य Color। |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | क्षैतिज स्क्यू कोण (डिग्री में) निर्दिष्ट करता है। केवल-पढ़ने योग्य Double। |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | ऊर्ध्वाधर स्क्यू कोण (डिग्री में) निर्दिष्ट करता है। केवल-पढ़ने योग्य Double। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

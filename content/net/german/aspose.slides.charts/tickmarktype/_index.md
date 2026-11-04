@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den TickMarkType für die angegebene Achse dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Tick-Mark-Typ für die angegebene Achse dar.
 type: docs
-weight: 2450
+weight: 2470
 url: /de/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType Aufzählung
 
-Stellt den TickMarkType für die angegebene Achse dar.
+Stellt den Tick-Mark-Typ für die angegebene Achse dar.
 
 ```csharp
 public enum TickMarkType
@@ -18,10 +18,10 @@ public enum TickMarkType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Cross | `0` | Gibt an, dass die Tickmarks die Achse kreuzen. |
-| Inside | `1` | Gibt an, dass die Tickmarks im Plotbereich liegen. |
-| None | `2` | Gibt an, dass keine Tickmarks vorhanden sind. |
-| Outside | `3` | Gibt an, dass die Tickmarks außerhalb des Plotbereichs liegen. |
+| Cross | `0` | Gibt an, dass die tick marks die Achse kreuzen. |
+| Inside | `1` | Gibt an, dass die tick marks sich innerhalb des plot area befinden. |
+| None | `2` | Gibt an, dass keine tick marks vorhanden sind. |
+| Outside | `3` | Gibt an, dass die tick marks außerhalb des plot area liegen. |
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una parte de la forma con las mismas propiedades de contorno y relleno.
 type: docs
-weight: 9870
+weight: 9890
 url: /es/aspose.slides/shapeelement/
 ---
 ## ShapeElement clase
@@ -19,7 +19,7 @@ public class ShapeElement : IShapeElement
 | Nombre | Descripción |
 | --- | --- |
 | [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Devuelve información sobre cómo rellenar un elemento. Solo lectura [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Devuelve un Shape_PPT para el cual se creó el elemento. Solo lectura [`Shape`](../shape). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Devuelve un Shape_PPT para el que se creó el elemento. Solo lectura [`Shape`](../shape). |
 | [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Obtiene una matriz de puntos que definen la geometría de la ruta del elemento. |
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Obtiene una matriz de valores byte que especifican el tipo de cada punto en la ruta del elemento. |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Devuelve información sobre cómo trazar un elemento. Solo lectura [`ShapeElementStrokeSource`](../shapeelementstrokesource). |

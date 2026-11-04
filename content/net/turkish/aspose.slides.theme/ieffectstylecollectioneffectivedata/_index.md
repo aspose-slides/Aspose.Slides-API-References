@@ -1,12 +1,12 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Etkili efekt stillerinin salt okunur bir koleksiyonunu temsil eden değiştirilemez nesne.
 type: docs
-weight: 11190
+weight: 11210
 url: /tr/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
-## IEffectStyleCollectionEffectiveData arayüz
+## IEffectStyleCollectionEffectiveData arayüzü
 
 Değiştirilemez nesne, etkili efekt stillerinin salt okunur bir koleksiyonunu temsil eder.
 
@@ -20,11 +20,11 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
-### Açıklamalar
+### Açıklama
 
-Bu arayüz [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) bir parçası olarak kullanılır.
+Bu arayüz [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) parçası olarak kullanılır.
 
-### Bakınız
+### İlgili
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)

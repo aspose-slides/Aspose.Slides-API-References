@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Proporciona acceso a las barras arriba/abajo de gráficos de líneas o de cotizaciones.
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Proporciona acceso a las barras de subida/bajada de un gráfico de líneas o de valores.
 type: docs
-weight: 2260
+weight: 2280
 url: /es/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interfaz
 
-Proporcione acceso a las barras arriba/abajo de gráficos de línea o de cotizaciones.
+Proporciona acceso a las barras de subida/bajada de un gráfico de líneas o de valores.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Devuelve el formato de las barras descendentes. Solo lectura [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Devuelve o establece la anchura del espacio. Lectura/escritura Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determina si el gráfico tiene barras arriba/abajo. Lectura/escritura Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Devuelve el formato de las barras ascendentes. Solo lectura [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Devuelve el formato de las barras de bajada. Solo lectura [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Devuelve o establece el ancho del hueco. Lectura/escritura Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determina si el gráfico tiene barras de subida/bajada. Lectura/escritura Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Devuelve el formato de las barras de subida. Solo lectura [`IFormat`](../iformat). |
 
 ### Ver también
 

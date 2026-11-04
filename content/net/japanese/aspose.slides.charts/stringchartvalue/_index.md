@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーション ドキュメントに文字列値を格納できる方法は 2 つあります。1) チャートに関連付けられたワークブックのセル/セル群に格納する方法。2) リテラル値として格納する方法。
+second_title: Aspose.Sildes 用 .NET API リファレンス
+description: pptx プレゼンテーション ドキュメントに格納できる文字列値を表します。格納方法は 2 つあり、1) チャートに関連付けられたワークブックのセル/セル群に格納する方法、2) リテラル値として格納する方法です。
 type: docs
-weight: 2410
+weight: 2430
 url: /ja/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue クラス
 
-pptx プレゼンテーション ドキュメントに文字列値を格納できる方法は 2 つあります: 1) チャートに関連付けられたワークブックのセル/セル群; 2) リテラル値として。
+pptx プレゼンテーション ドキュメントに格納できる文字列値を表します。格納方法は 2 つあります: 1) チャートに関連付けられたワークブックのセル/セル群に格納する方法; 2) リテラル値として格納する方法。
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,18 +16,18 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | null 値の割り当ては許可されていません。返される値は常に null ではありません。読み取り/書き込み [`IChartCellCollection`](../ichartcellcollection)。 |
 | [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | リテラル文字列として値を取得または設定します。読み取り/書き込み String。 |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data オブジェクトを取得または設定します。読み取り/書き込み Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 子クラスで AsCell、AsCells、AsLiteralString、AsLiteralDouble のいずれのプロパティが実際に使用されているかを指定します。言い換えれば、Data プロパティの値の型を指定します。読み取り/書き込み [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 派生クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、Data プロパティの値のタイプを指定します。読み取り/書き込み [`DataSourceType`](../datasourcetype)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | DataSourceType プロパティが DataSourceType.Worksheet の場合、このメソッドは文字列データを表すワークブック内のセルのアドレスを返します。それ以外の場合は空文字列を返します。 |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | DataSourceType プロパティが DataSourceType.Worksheet の場合、このメソッドは文字列データを表すワークブック内のセルのアドレスを返します。そうでない場合は空文字列を返します。 |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | 指定されたセルから値を設定します。 |
 | override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 文字列値データを返します。DataSourceType が false で文字列値が割り当てられていない場合は null を返します。 |
 

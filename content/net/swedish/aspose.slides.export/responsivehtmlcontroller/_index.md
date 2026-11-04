@@ -3,7 +3,7 @@ title: ResponsiveHtmlController
 second_title: Aspose.Sildes för .NET API-referens
 description: Responsiv HTML-kontroller
 type: docs
-weight: 4420
+weight: 4440
 url: /sv/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController klass
@@ -16,12 +16,12 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 ## Konstruktörer
 
-| Name | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Skapar en ny instans |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Skapar en ny instans |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Skapar ny instans |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Skapar ny instans |
 
-### Se även
+### Se också
 
 * gränssnitt [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)

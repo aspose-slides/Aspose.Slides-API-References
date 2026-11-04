@@ -1,14 +1,14 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy diára vonatkozó megjegyzést képvisel.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy dián lévő megjegyzést képvisel.
 type: docs
-weight: 6460
+weight: 6480
 url: /hu/aspose.slides/imoderncomment/
 ---
 ## IModernComment interfész
 
-Egy diára vonatkozó megjegyzést képviseli.
+Egy dián lévő megjegyzést képvisel.
 
 ```csharp
 public interface IModernComment : IComment
@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | Név | Leírás |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Lehetővé teszi a base IComment interfész lekérését. Csak olvasható [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Visszaadja a megjegyzéshez társított alakzatot. Csak olvasható [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Visszaadja vagy beállítja a megjegyzés állapotát. Olvasható/írható [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegválasztás hosszát a szövegkeretben, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasható/írható Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegválasztás kezdőpozícióját a szövegkeretben, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasható/írható Int32. |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Lehetővé teszi az alap IComment interfész elérését. Csak olvasható [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Visszaadja a megjegyzéshez kapcsolódó alakzatot. Csak olvasható [`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Visszaadja vagy beállítja a megjegyzés állapotát. Olvasás/írás [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegkeretben a szövegkijelölés hosszát, ha a megjegyzés AutoShape-hez társított. Olvasás/írás Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegkeretben a szövegkijelölés kezdőpozícióját, ha a megjegyzés AutoShape-hez társított. Olvasás/írás Int32. |
 
 ### Példák
 

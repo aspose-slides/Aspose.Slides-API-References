@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelAssignmentType
-second_title: Aspose.Sildes .NET API 参考
-description: 表示对敏感度标签的分配方式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示敏感度标签的分配方法。
 type: docs
-weight: 9800
+weight: 9820
 url: /zh/aspose.slides/sensitivitylabelassignmenttype/
 ---
 ## SensitivityLabelAssignmentType 枚举
 
-表示对敏感度标签的分配方式。
+表示敏感度标签的分配方法。
 
 ```csharp
 public enum SensitivityLabelAssignmentType
@@ -16,10 +16,10 @@ public enum SensitivityLabelAssignmentType
 
 ### 值
 
-| 名称 | 值 | 说明 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Standard | `0` | 用于任何未由用户直接应用的敏感度标签。这包括所有默认标签、自动应用的标签。 |
-| Privileged | `1` | 用于任何由用户直接应用的敏感度标签。这包括手动应用的敏感度标签，以及推荐或强制标记，或任何由用户决定使用哪个敏感度标签的功能。 |
+| Standard | `0` | 用于任何未被用户直接应用的敏感度标签。这包括任何默认标签和自动应用的标签。 |
+| Privileged | `1` | 用于任何被用户直接应用的敏感度标签。这包括任何手动应用的敏感度标签，以及推荐或强制标记的情况，或任何用户决定使用哪个敏感度标签的功能。 |
 
 ### 另请参见
 

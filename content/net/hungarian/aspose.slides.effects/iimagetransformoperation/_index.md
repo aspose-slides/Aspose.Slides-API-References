@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes .NET API referencia
-description: Az absztrakt képrétegezési transzformációs hatást képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: Absztrakt képtranszformációs hatást képvisel.
 type: docs
-weight: 3390
+weight: 3410
 url: /hu/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation interfész
 
-Az absztrakt képrétegezés transzformációs hatását képviseli.
+Absztrakt képtranszformációs hatást képvisel.
 
 ```csharp
 public interface IImageTransformOperation

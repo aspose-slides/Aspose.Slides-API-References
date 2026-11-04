@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes для .NET справочник API
-description: выравнивание текстового блока в области текста.
+description: выравнивание текстового блока внутри текстовой области.
 type: docs
-weight: 10910
+weight: 10930
 url: /ru/aspose.slides/textanchortype/
 ---
 ## TextAnchorType перечисление
 
-выравнивание текстового блока в области текста.
+выравнивание текстового блока внутри текстовой области.
 
 ```csharp
 public enum TextAnchorType : sbyte

@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของอ็อบเจกต์ GradientStopData
+description: แสดงถึงคอลเลกชันของวัตถุ GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /th/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData คลาส
 
-แสดงคอลเลกชันของอ็อบเจกต์ GradientStopData.
+แสดงถึงคอลเลกชันของวัตถุ GradientStopData.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -18,17 +18,17 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | ส่งคืนจำนวน gradient stop ในคอลเลกชัน. อ่าน-อย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | ส่งคืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (thread-safe). อ่าน-อย่างเดียว Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | ส่งคืน gradient stop ตามดัชนี. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | ส่งคืนรากการซิงโครไนซ์. อ่าน-อย่างเดียว Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | คืนค่าจำนวน gradient stops ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบประสาน (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | คืนค่า gradient stop ตามดัชนี. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | คืนค่า synchronization root. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | ส่งคืน enumerator ที่วนผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | คืนค่า enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

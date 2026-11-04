@@ -1,15 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Slidess for .NET API Reference
-description: 通过将 DefaultDataLabelFormat 属性的所有 Show-标志 ShowValue, ... 设置为 false 状态，默认情况下隐藏数据标签。此后 IsVisible 将为 false。
+second_title: Aspose.Sildes for .NET API 参考
+description: 通过将 DefaultDataLabelFormat 属性的所有 Show-标志（ShowValue ...）设置为 false 状态，使数据标签默认隐藏。IsVisible 将为 false。
 type: docs
-weight: 100
+weight: 110
 url: /zh/aspose.slides.charts/idatalabelcollection/hide/
 ---
-
 ## IDataLabelCollection.Hide 方法
 
-通过将 DefaultDataLabelFormat 属性的所有 Show*-标志（ShowValue，...）设置为 false 状态，默认情况下隐藏数据标签。此后 IsVisible 将为 false。
+通过将 DefaultDataLabelFormat 属性的所有 Show*-标志（ShowValue，...）设置为 false 状态，使数据标签默认隐藏。之后 IsVisible 将为 false。
 
 ```csharp
 public void Hide()
@@ -17,7 +16,7 @@ public void Hide()
 
 ### 备注
 
-如果数据标签默认情况下不可见（IsVisible 为 false），您可以通过将 DefaultDataLabelFormat 属性的 Show*-标志（ShowValue，...）设置为 true 状态，使数据标签“默认可见”。
+如果数据标签默认不可见（IsVisible 为 false），可以通过将 DefaultDataLabelFormat 属性的 Show*-标志（ShowValue，...）设置为 true 状态，使数据标签“默认可见”。
 
 ### 另请参阅
 

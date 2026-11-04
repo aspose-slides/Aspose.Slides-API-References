@@ -1,14 +1,14 @@
 ---
 title: Item
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 取得具有指定索引之資料點的資料標籤。
 type: docs
-weight: 60
+weight: 70
 url: /zh-hant/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection 索引子
 
-取得資料標籤，用於具有指定索引的資料點。
+取得具有指定索引的資料點的資料標籤。
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,7 +16,8 @@ public IDataLabel this[int index] { get; }
 
 ### 備註
 
-存取資料標籤的另一種方式為： - SeriesEx.DataPoints[i].Label - 管理標籤屬性。
+存取資料標籤的另一種方式是：
+- SeriesEx.DataPoints[i].Label - 管理標籤屬性。
 
 ### 另請參閱
 

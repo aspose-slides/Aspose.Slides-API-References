@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Alpha Replace. Hodnoty alfa (průhlednost) efektu jsou nahrazeny pevnou hodnotou alfa.
+description: Neměnný objekt, který představuje efekt Alpha Replace. Hodnoty alfa průhlednosti efektu jsou nahrazeny pevnou alfou.
 type: docs
-weight: 3150
+weight: 3170
 url: /cs/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Alpha Replace. Hodnoty alfa (průhlednost) jsou nahrazeny pevnou hodnotou alfa.
+Neměnný objekt, který představuje efekt Alpha Replace. Hodnoty alfy (průhlednosti) efektu jsou nahrazeny pevnou alfou.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Vrací novou hodnotu alfa v intervalu [0..1] Pouze pro čtení Single. |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Vrací novou hodnotu alfy v intervalu [0..1] Pouze pro čtení Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Viz také

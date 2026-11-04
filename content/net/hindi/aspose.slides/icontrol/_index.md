@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक ActiveX नियंत्रण का प्रतिनिधित्व करता है।
 type: docs
-weight: 5630
+weight: 5650
 url: /hi/aspose.slides/icontrol/
 ---
 ## IControl इंटरफ़ेस
 
-एक ActiveX नियंत्रण का प्रतिनिधित्व करता है।
+ActiveX नियंत्रण का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -18,16 +18,16 @@ public interface IControl : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | जब स्थायी बनाने के लिए उपयोग की जाने वाली विधि PersistStream, PersistStreamInit या PersistStorage हो, तो ActiveX नियंत्रण की स्थायित्व को निर्दिष्ट करता है। |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | जब स्थायित्व के लिए प्रयुक्त विधि PersistStream, PersistStreamInit या PersistStorage हो, तब ActiveX नियंत्रण की स्थायित्व को निर्दिष्ट करता है। |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
 | [ClassId](../../aspose.slides/icontrol/classid) { get; } | इस नियंत्रण का क्लास आईडी प्राप्त करता है। केवल पढ़ने योग्य Guid। |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | नियंत्रण के फ्रेम को लौटाता या सेट करता है। पढ़ने और लिखने योग्य [`IShapeFrame`](../ishapeframe)। |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | इस नियंत्रण का नाम लौटाता है। पढ़ने और लिखने योग्य String। |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ActiveX नियंत्रण के गुणों को संग्रहीत करने के लिए उपयोग की जाने विधि प्राप्त करता है। केवल पढ़ने योग्य [`PersistenceType`](../persistencetype)। |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | नियंत्रण के फ्रेम को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IShapeFrame`](../ishapeframe)। |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | इस नियंत्रण का नाम लौटाता है। पढ़ने/लिखने योग्य String। |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ActiveX नियंत्रण की प्रॉपर्टीज़ को संग्रहीत करने के लिए प्रयुक्त विधि प्राप्त करता है। केवल पढ़ने योग्य [`PersistenceType`](../persistencetype)। |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | ActiveX गुणों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IControlPropertiesCollection`](../icontrolpropertiescollection)। |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ControlEx इमेज फ़िल गुण ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat)। |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ControlEx इमेज फ़िल गुणों का ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

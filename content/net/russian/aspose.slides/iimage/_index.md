@@ -1,9 +1,9 @@
 ---
 title: IImage
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет растровое или векторное изображение.
 type: docs
-weight: 6150
+weight: 6170
 url: /ru/aspose.slides/iimage/
 ---
 ## IImage интерфейс
@@ -18,9 +18,9 @@ public interface IImage : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Возвращает высоту изображения в пикселях. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Возвращает размер изображения. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Возвращает ширину изображения в пикселях. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Получает высоту изображения в пикселей. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Получает размер изображения. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Получает ширину изображения в пикселей. |
 
 ## Методы
 
@@ -36,7 +36,7 @@ public interface IImage : IDisposable
 
 Этот интерфейс предоставляет общую абстракцию для работы как с растровыми, так и с векторными изображениями. Реализации могут различаться в зависимости от базового типа изображения.
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

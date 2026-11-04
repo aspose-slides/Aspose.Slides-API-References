@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 데이터가 있는 셀 컬렉션을 나타냅니다.
+description: 데이터가 포함된 셀 컬렉션을 나타냅니다.
 type: docs
-weight: 1780
+weight: 1800
 url: /ko/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection 인터페이스
 
-데이터가 있는 셀 컬렉션을 나타냅니다.
+데이터가 포함된 셀의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -19,20 +19,20 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | ICollection 인터페이스를 반환합니다. 읽기 전용 IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 컬렉션의 셀 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 컬렉션에 있는 셀 수를 가져옵니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 인덱스로 셀(IChartDataCell)을 반환합니다. |
 
 ## 메서드
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 컬렉션에 새 셀을 추가합니다. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 지정된 값으로 [`IChartDataCell`](../ichartdatacell)를 생성하고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 새 셀을 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | [`IChartDataCell`](../ichartdatacell)를 지정된 값으로 생성하고 컬렉션에 추가합니다. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | 워크북의 셀 집합 주소를 반환합니다. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 모든 셀 문자열 값을 연결한 문자열을 반환합니다. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 모든 셀 문자열 값들을 연결한 문자열을 반환합니다. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | 인덱스로 컬렉션에서 셀을 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IChartDataCell](../ichartdatacell)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

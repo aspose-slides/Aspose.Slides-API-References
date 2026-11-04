@@ -1,12 +1,12 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes для .NET — справка по API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет коллекцию комментариев одного автора.
 type: docs
-weight: 2650
+weight: 2670
 url: /ru/aspose.slides/commentcollection/
 ---
-## Класс CommentCollection
+## CommentCollection класс
 
 Представляет коллекцию комментариев одного автора.
 
@@ -18,7 +18,7 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Получает количество элементов, фактически находящихся в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`Comment`](../comment). |
 | [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
@@ -32,10 +32,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | [Clear](../../aspose.slides/commentcollection/clear)() | Удаляет все комментарии из коллекции. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Находит комментарий в коллекции по индексу. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Возвращает перечислитель, позволяющий перебрать коллекцию. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Вставляет новый комментарий в коллекцию по указанному индексу. |
 | [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Вставляет новый современный комментарий в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Удаляет первое вхождение указанного комментария из коллекции. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Удаляет первое вхождение указанного комментария в коллекции. |
 | [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Создаёт и возвращает массив со всеми комментариями. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Создаёт и возвращает массив со всеми комментариями из указанного диапазона. |

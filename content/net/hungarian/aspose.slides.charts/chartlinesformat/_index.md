@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes .NET API-referencia
-description: A rácsvonalak formázási tulajdonságait reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A rácsvonalak formátumtulajdonságait reprezentálja.
 type: docs
-weight: 1410
+weight: 1420
 url: /hu/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat osztály
 
-A rácsvonalak formázási tulajdonságait reprezentálja.
+A rácsvonalak formátum tulajdonságait reprezentálja.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Név | Leírás |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Visszaadja a diagramvonalhoz használt effektusokat. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Visszaadja a diagramvonal vonalstílusának tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Visszaadja egy diagramvonalhoz használt effektusokat. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Visszaadja egy diagramvonal vonalstílus-tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Lásd még
 

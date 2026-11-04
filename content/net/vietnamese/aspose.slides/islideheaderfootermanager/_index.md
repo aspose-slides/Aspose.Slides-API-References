@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang slide, ngày giờ, số trang.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang slide, ngày-giờ, số trang.
 type: docs
-weight: 7070
+weight: 7090
 url: /vi/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager giao diện
 
-Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang slide, ngày-giờ, số trang.
+Đại diện cho trình quản lý giữ hành vi của phần chân trang slide, ngày-giờ, các trình giữ chỗ số trang.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

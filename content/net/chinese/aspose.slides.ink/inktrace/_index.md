@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个 Trace 对象。Trace 元素用于记录数字化仪捕获的数据。它包含根据 InkTraceFormat 对象提供的规范编码的一系列点。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个 Trace 对象。Trace 元素用于记录数字化仪捕获的数据。它包含一系列点，这些点根据 InkTraceFormat 对象提供的规范进行编码。
 type: docs
-weight: 7590
+weight: 7610
 url: /zh/aspose.slides.ink/inktrace/
 ---
 ## InkTrace 类
 
-表示一个 Trace 对象。Trace 元素用于记录数字化仪捕获的数据。它包含根据 InkTraceFormat 对象提供的规范编码的一系列点。
+表示一个 Trace 对象。Trace 元素用于记录数字化仪捕获的数据。它包含一系列点，这些点根据 InkTraceFormat 对象提供的规范进行编码。
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -19,7 +19,7 @@ public class InkTrace : IInkTrace
 | 名称 | 描述 |
 | --- | --- |
 | [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | 获取 IInkLine [`IInkBrush`](../iinkbrush) 的 Brush，只读。 |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | 获取 IInkLine PointF 的点，只读。 |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | 获取 IInkLine PointF 的 points，只读。 |
 
 ### 另请参阅
 

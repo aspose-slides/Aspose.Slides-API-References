@@ -1,12 +1,12 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет тип, который может возвращать соответствующие эффективные данные с применённым наследованием.
 type: docs
-weight: 5170
+weight: 5190
 url: /ru/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject<T> интерфейс
+## IAccessiblePVIObject&lt;T&gt; интерфейс
 
 Представляет тип, который может возвращать соответствующие эффективные данные с применённым наследованием.
 
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Возвращает эффективные данные с применённым наследованием. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Получает эффективные данные с применённым наследованием. |
 
 ### См. также
 

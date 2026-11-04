@@ -1,9 +1,9 @@
 ---
 title: Picture
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет изображение в презентации.
 type: docs
-weight: 9380
+weight: 9400
 url: /ru/aspose.slides/picture/
 ---
 ## Picture класс
@@ -19,9 +19,9 @@ public sealed class Picture : ISlidesPicture
 | Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или задает встроенное изображение. Чтение/запись [`IPPImage`](../ippimage). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или задаёт внедрённое изображение. Чтение/запись [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Возвращает коллекцию эффектов преобразования изображения. Только для чтения [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает или задает URL связанного изображения. Чтение/запись String. |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает или задаёт URL связанного изображения. Чтение/запись String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Возвращает презентацию. Только для чтения [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/picture/slide) { get; } | Возвращает родительский слайд изображения. Только для чтения [`IBaseSlide`](../ibaseslide). |
 

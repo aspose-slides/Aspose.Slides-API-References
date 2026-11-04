@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示评论作者的集合。
 type: docs
-weight: 5580
+weight: 5600
 url: /zh/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection 接口
@@ -25,14 +25,14 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | 名称 | 描述 |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | 在集合的末尾添加新作者。 |
-| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | 从集合中移除所有作者。 |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | 按名称在集合中查找作者。 |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 按名称和首字母在集合中查找作者。 |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | 移除集合中的所有作者。 |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | 通过名称在集合中查找作者。 |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 通过名称和首字母在集合中查找作者。 |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | 移除集合中指定作者的第一次出现。 |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | 移除集合中指定索引处的作者。 |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | 创建并返回包含所有作者的数组。 |
 
-### 相关内容
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ICommentAuthor](../icommentauthor)

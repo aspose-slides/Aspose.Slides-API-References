@@ -1,9 +1,9 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa un grupo de formas en una diapositiva.
 type: docs
-weight: 6080
+weight: 6100
 url: /es/aspose.slides/igroupshape/
 ---
 ## IGroupShape interfaz

@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของส่วนของพาธกราฟิกของ GeometryShape
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนส่วนของกราฟิกพาธของ GeometryShape
 type: docs
-weight: 6610
+weight: 6630
 url: /th/aspose.slides/ipathsegment/
 ---
 ## IPathSegment อินเทอร์เฟซ
 
-เป็นตัวแทนของส่วนของกราฟิกพาธของ GeometryShape
+แทนส่วนของกราฟิกพาธของ GeometryShape
 
 ```csharp
 public interface IPathSegment
@@ -18,8 +18,8 @@ public interface IPathSegment
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | ประเภทพาธของส่วน |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | ข้อมูลพาธของส่วน |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | ประเภทเส้นทางของส่วน |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | ข้อมูลเส้นทางของส่วน |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: Video
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示嵌入到演示文稿中的图像。
 type: docs
-weight: 11700
+weight: 11720
 url: /zh/aspose.slides/video/
 ---
 ## Video 类
@@ -18,8 +18,8 @@ public class Video : IVideo
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 返回音频数据的副本。对于大量数据的情况，考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将视频数据加载到内存中，甚至导致 OutOfMemoryException。只读 Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | 返回视频的 MIME 类型，使用 [`BinaryData`](./binarydata) 编码。只读 String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 返回音频数据的副本。如果数据量很大，考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将视频数据加载到内存中，甚至导致 OutOfMemoryException。只读 Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | 返回视频的 MIME 类型，由 [`BinaryData`](./binarydata) 编码。只读 String。 |
 
 ## 方法
 

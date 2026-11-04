@@ -1,14 +1,14 @@
 ---
 title: ICamera
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili Camera.
+description: Mewakili Kamera.
 type: docs
-weight: 5410
+weight: 5430
 url: /id/aspose.slides/icamera/
 ---
 ## ICamera antarmuka
 
-Mewakili Camera.
+Represents Camera.
 
 ```csharp
 public interface ICamera
@@ -16,18 +16,18 @@ public interface ICamera
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | tipe Camera Read/write [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 derajat, bidang pandang) Read/write Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (nilai positif dalam persentase) Read/write Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Tipe kamera Baca/tulis [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) Baca/tulis Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Zoom kamera (nilai positif dalam persentase) Baca/tulis Single. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi pada sumbu sebagaimana koordinat lintang dan bujur. elemen pertama dalam array yang dikembalikan – lintang, kedua – bujur, ketiga – revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi pada sumbu sebagaimana koordinat lintang dan bujur. Jika nilai koordinat mana pun adalah float.NaN, semua rotasi tidak terdefinisi. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Sebuah rotasi didefinisikan melalui penggunaan koordinat latitude, koordinat longitude, dan revolusi sekitar sumbu sebagai koordinat latitude dan longitude. elemen pertama dalam array hasil - latitude, kedua - longitude, ketiga - revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Sebuah rotasi didefinisikan melalui penggunaan koordinat latitude, koordinat longitude, dan revolusi sekitar sumbu sebagai koordinat latitude dan longitude. Jika nilai koordinat mana pun adalah float.NaN, semua rotasi tidak terdefinisi. |
 
 ### Lihat Juga
 

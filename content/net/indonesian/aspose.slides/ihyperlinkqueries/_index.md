@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkQueries
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan akses mudah ke hyperlink yang terkandung.
 type: docs
-weight: 6140
+weight: 6160
 url: /id/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries antarmuka

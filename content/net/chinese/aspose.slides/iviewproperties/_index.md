@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes for .NET API 参考
-description: 演示文稿范围的视图属性。
+second_title: Aspose.Sildes .NET API 参考
+description: 整个演示文稿的视图属性。
 type: docs
-weight: 7390
+weight: 7410
 url: /zh/aspose.slides/iviewproperties/
 ---
 ## IViewProperties 接口
 
-演示文稿范围的视图属性。
+整个演示文稿的视图属性。
 
 ```csharp
 public interface IViewProperties
@@ -16,16 +16,16 @@ public interface IViewProperties
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | 返回或设置用于演示文稿底层网格的网格间距，单位为点。可读写 Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | 指定在上次保存演示文稿时使用的视图模式。可读写 [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧边内容区域和底部内容区域。只读 [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | 指定与备注视图模式相关的公共视图属性。只读 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | 指定是否应显示幻灯片批注。可读写 [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | 指定与幻灯片视图模式相关的公共视图属性。只读 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | 返回或设置用于演示文稿文档底层网格的网格间距，单位为点。读/写 Single。 |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | 指定在上次保存演示文稿文档时使用的视图模式。读/写 [`ViewType`](../viewtype)。 |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧边内容区域和底部内容区域。只读 [`INormalViewProperties`](../inormalviewproperties)。 |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | 指定与备注视图模式关联的公共视图属性。只读 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | 指定是否应显示幻灯片批注。读/写 [`NullableBool`](../nullablebool)。 |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | 指定与幻灯片视图模式关联的公共视图属性。只读 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

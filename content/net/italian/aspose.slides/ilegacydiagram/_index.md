@@ -1,9 +1,9 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un oggetto diagramma legacy
 type: docs
-weight: 6250
+weight: 6270
 url: /it/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram interfaccia
@@ -18,7 +18,7 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Sola lettura [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Solo lettura [`IGraphicalObject`](../igraphicalobject). |
 
 ## Metodi
 

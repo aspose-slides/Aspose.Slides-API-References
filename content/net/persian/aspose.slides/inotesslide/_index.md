@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک اسلاید یادداشت را در یک ارائه نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک اسلاید یادداشت در یک ارائه را نشان می‌دهد.
 type: docs
-weight: 6500
+weight: 6520
 url: /fa/aspose.slides/inotesslide/
 ---
 ## INotesSlide رابط
 
-یک اسلاید یادداشت را در یک ارائه نشان می‌دهد.
+یک اسلاید یادداشت در یک ارائه را نشان می‌دهد.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -16,13 +16,13 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 ## ویژگی‌ها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | اجازه می‌دهد تا رابط پایه IBaseSlide را دریافت کند. فقط خواندنی [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable رابط را برمی‌گرداند. فقط خواندنی [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | یک TextFrame با متن یادداشت‌ها را برمی‌گرداند اگر موجود باشد. فقط خواندنی [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | یک ParentSlide را برمی‌گرداند. فقط خواندنی [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | به‌دست آوردن رابط پایه IBaseSlide را امکان‌پذیر می‌کند. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | بازمی‌گرداند IOverrideThemeable رابط. فقط-خواندنی [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت را بازمی‌گرداند. فقط-خواندنی [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | اگر موجود باشد، TextFrame شامل متن یادداشت‌ها را بازمی‌گرداند. فقط-خواندنی [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide را بازمی‌گرداند. فقط-خواندنی [`ISlide`](../islide). |
 
 ### موارد مرتبط
 

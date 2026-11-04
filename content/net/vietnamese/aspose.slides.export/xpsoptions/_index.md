@@ -1,64 +1,64 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới định dạng XPS.
 type: docs
-weight: 4730
+weight: 4750
 url: /vi/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions lớp
 
-Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới dạng XPS.
+Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới định dạng XPS.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [XpsOptions](xpsoptions)() | Hàm khởi tạo mặc định. |
+| [XpsOptions](xpsoptions)() | Hàm tạo mặc định. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng trong trường hợp không tìm thấy phông chữ nguồn. Đọc-ghi String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Đúng để vẽ khung đen quanh mỗi slide. Đọc-ghi Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Đọc-ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Đúng để chuyển đổi tất cả các metafile được sử dụng trong bản trình chiếu sang hình ảnh PNG. Đọc-ghi Boolean. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Đúng để vẽ khung đen quanh mỗi slide. Đọc/ghi Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị trực quan của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để nhận cập nhật tiến độ lưu dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Đúng để chuyển đổi tất cả các metafile được sử dụng trong bản trình chiếu thành ảnh PNG. Đọc/ghi Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Xác định xem tài liệu được tạo có bao gồm các slide ẩn hay không. Mặc định là `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định xem có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc-ghi Boolean. Giá trị mặc định là **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy. Đọc-ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định xem có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy bỏ. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ví dụ
 
-Ví dụ sau cho thấy cách chuyển đổi bản trình chiếu sang XPS bằng cài đặt mặc định.
+Ví dụ sau cho thấy cách chuyển đổi bản trình chiếu sang XPS sử dụng cài đặt mặc định.
 
 ```csharp
 [C#]
-// Khởi tạo một đối tượng Presentation đại diện cho tệp trình chiếu
+// Khởi tạo đối tượng Presentation đại diện cho một tệp bản trình chiếu
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // Lưu trình chiếu thành tài liệu XPS
+    // Lưu bản trình chiếu thành tài liệu XPS
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-Ví dụ sau cho thấy cách chuyển đổi bản trình chiếu sang XPS bằng cài đặt tùy chỉnh.
+Ví dụ sau cho thấy cách chuyển đổi bản trình chiếu sang XPS sử dụng cài đặt tùy chỉnh.
 
 ```csharp
 [C#]
-// Khởi tạo một đối tượng Presentation đại diện cho tệp trình chiếu
+// Khởi tạo đối tượng Presentation đại diện cho một tệp bản trình chiếu
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
     // Khởi tạo lớp TiffOptions
     XpsOptions options = new XpsOptions();
     // Lưu MetaFiles dưới dạng PNG
     options.SaveMetafilesAsPng = true;
-    // Lưu trình chiếu thành tài liệu XPS
+    // Lưu bản trình chiếu thành tài liệu XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```

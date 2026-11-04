@@ -1,9 +1,9 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a coleção de tags (pares de strings definidos pelo usuário)
 type: docs
-weight: 7260
+weight: 7280
 url: /pt/aspose.slides/itagcollection/
 ---
 ## ITagCollection interface
@@ -34,7 +34,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Remove a tag com um nome especificado da coleção. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Remove a tag no índice especificado. |
 
-### Ver Também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * namespace [Aspose.Slides](../../aspose.slides)

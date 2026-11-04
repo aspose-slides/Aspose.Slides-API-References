@@ -1,9 +1,9 @@
 ---
 title: NotesSlideManager
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Gerenciador de slide de notas.
 type: docs
-weight: 9160
+weight: 9180
 url: /pt/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager classe
@@ -18,18 +18,18 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Nome | Descrição |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Retorna o slide de notas para o slide atual. Retorna null se o slide não possuir slide de notas. Somente leitura [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Retorna o slide de notas para o slide atual. Retorna null se o slide não possui slide de notas. Somente leitura [`INotesSlide`](../inotesslide). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Retorna o slide de notas para o slide atual, criando um caso não exista. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Retorna o slide de notas para o slide atual, criando um se não houver. |
 | [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Remove o slide de notas do slide atual. |
 
 ### Exemplos
 
-O exemplo a seguir mostra como adicionar notas a um slide específico de uma apresentação PowerPoint.
+O exemplo a seguir mostra como adicionar Notas a um slide específico da apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -39,12 +39,12 @@ O exemplo a seguir mostra como adicionar notas a um slide específico de uma apr
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
-	  // Salvar a apresentação no disco
+	  // Salvar a apresentação em disco
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-O exemplo a seguir mostra como remover notas de um slide específico de uma apresentação PowerPoint.
+O exemplo a seguir mostra como remover Notas do slide específico de uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ O exemplo a seguir mostra como remover notas de um slide específico de uma apre
 	  // Removendo notas do primeiro slide
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // Salvar a apresentação no disco
+	  // Salvar a apresentação em disco
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Esta clase representa el token que se utiliza para señalar a tareas de larga duración si se solicitó la interrupción.
+description: Esta clase representa el token que se usa para indicar a tareas de larga duración si se solicitó la interrupción.
 type: docs
-weight: 7600
+weight: 7620
 url: /es/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken clase
 
-Esta clase representa el token que se utiliza para señalar a tareas de larga duración si se solicitó la interrupción.
+Esta clase representa el token que se usa para indicar a tareas de larga duración si se solicitó la interrupción.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,7 +18,7 @@ public class InterruptionToken : IInterruptionToken
 
 | Nombre | Descripción |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Representa un token de interrupción vacío. Las operaciones de larga duración nunca serán interrumpidas mediante [`Interrupt`](../interruptiontokensource/interrupt) al usar este token. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Representa un token de interrupción vacío. Las operaciones de larga duración nunca se interrumpirán mediante [`Interrupt`](../interruptiontokensource/interrupt) al usar este token. |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Devuelve Boolean.true si se solicitó la interrupción. |
 
 ## Métodos

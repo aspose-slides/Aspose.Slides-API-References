@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt eigenschappen van het rasterlijnenformaat voor.
+description: Stelt de opmaak-eigenschappen van rasterlijnen voor.
 type: docs
-weight: 1410
+weight: 1420
 url: /nl/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat klasse
 
-Representeert de eigenschappen van het rasterlijnenformaat.
+Stelt de opmaak-eigenschappen van rasterlijnen voor.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Retourneert de effecten die worden gebruikt voor een grafieklijn. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Retourneert lijnstijleigenschappen van een grafieklijn. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Geeft de effecten terug die worden gebruikt voor een grafieklijn. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Geeft de lijnstijl-eigenschappen van een grafieklijn terug. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Zie ook
 

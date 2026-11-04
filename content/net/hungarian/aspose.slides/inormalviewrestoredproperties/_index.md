@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a dia régió méretezését (szélesség, ha a restoredTop gyermeke, magasság, ha a restoredLeft gyermeke) a normál nézetben, amikor a terület változó visszaállított méretű (sem minimalizált, sem maximalizált).
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megadja a dia terület méretezését (szélesség, ha a restoredTop gyermekeként, magasság, ha a restoredLeft gyermekeként) a normál nézetben, amikor a terület változó visszaállított mérettel rendelkezik, sem minimalizált, sem maximalizált.
 type: docs
-weight: 6480
+weight: 6500
 url: /hu/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interfész
 
-Meghatározza a dia régió méretezését ((szélesség, ha a restoredTop gyermeke, magasság, ha a restoredLeft gyermeke) a normál nézetben, amikor a terület változó visszaállított méretű (sem minimalizált, sem maximalizált).
+Meghatározza a dia terület méretezését ((szélesség, ha a restoredTop gyermekeként, magasság, ha a restoredLeft gyermekeként) a normál nézetben, amikor a terület változó visszaállított mérettel rendelkezik (sem minimalizált, sem maximalizált).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Név | Leírás |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Megadja, hogy a mellék tartalom régió mérete kompenzálja-e az új méretet az alkalmazáson belül a nézetet tartalmazó ablak átméretezésekor. Olvasás/írás Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Megadja a dia régió méretét (szélesség, ha a RestoredTop gyermeke, magasság, ha a RestoredLeft gyermeke). Olvasás/írás Single. Kivételt dob, ha az érték kisebb, mint 0 vagy nagyobb, mint 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Megadja, hogy a oldalsó tartalom terület mérete kompenzálja-e az új méretet az alkalmazáson belül a nézetet tartalmazó ablak átméretezésekor. Olvasás/írás Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Megadja a dia terület méretét (szélesség, ha a RestoredTop gyermekeként, magasság, ha a RestoredLeft gyermekeként). Olvasás/írás Single. Kivételt dob, ha az érték kisebb, mint 0 vagy nagyobb, mint 100. |
 
 ### Lásd még
 

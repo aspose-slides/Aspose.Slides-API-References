@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes для .NET API справочника
+second_title: Справочник API Aspose.Sildes для .NET
 description: Цифровая подпись в подписанном файле.
 type: docs
-weight: 2770
+weight: 2790
 url: /ru/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature класс
@@ -16,19 +16,19 @@ public class DigitalSignature : IDigitalSignature
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Создаёт новый объект DigitalSignature с указанным сертификатом. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Создаёт новый объект DigitalSignature с указанным путем к файлу сертификата и паролем. |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Создает новый объект DigitalSignature с указанным сертификатом. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Создает новый объект DigitalSignature с указанным путем к файлу сертификата и паролем. |
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, использованный для подписи документа. Только для чтения X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписания документа. Только для чтения X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Назначение подписи. Чтение/запись String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был изменён, значение будет true. Только для чтения Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время, когда документ был подписан. Только для чтения DateTime. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был изменён, значение будет истинным. Только для чтения Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время подписи документа. Только для чтения DateTime. |
 
 ### Примеры
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 {
     // Создать объект DigitalSignature с файлом PFX и паролем PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Добавить комментарий к новой цифровой подписи
+    // Комментарий новой цифровой подписи
     signature.Comments = "Aspose.Slides digital signing test.";
     // Добавить цифровую подпись в презентацию
     pres.DigitalSignatures.Add(signature);
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Проверить, действительны ли все цифровые подписи
+        // Проверить, являются ли все цифровые подписи действительными
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

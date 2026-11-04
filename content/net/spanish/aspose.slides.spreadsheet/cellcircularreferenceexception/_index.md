@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: La excepción que se lanza cuando se detectan una o más referencias circulares en las que una fórmula hace referencia a su propia celda, ya sea directa o indirectamente.
+description: La excepción que se lanza cuando se detecta una o más referencias circulares donde una fórmula hace referencia a su propia celda, ya sea directa o indirectamente.
 type: docs
-weight: 10700
+weight: 10720
 url: /es/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException clase
 
-La excepción que se lanza cuando se detectan una o más referencias circulares en las que una fórmula hace referencia a su propia celda directa o indirectamente.
+La excepción que se lanza cuando se detecta una o más referencias circulares donde una fórmula hace referencia a su propia celda, ya sea directa o indirectamente.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException

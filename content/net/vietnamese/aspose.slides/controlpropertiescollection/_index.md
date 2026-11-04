@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Một bộ sưu tập các thuộc tính AcitveX.
+second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+description: Một tập hợp các thuộc tính AcitveX.
 type: docs
-weight: 2710
+weight: 2730
 url: /vi/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection lớp
 
-A collection of AcitveX properties.
+Một tập hợp các thuộc tính AcitveX.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -18,18 +18,18 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Trả về số lượng thuộc tính trong bộ sưu tập. Chỉ đọc Int32. |
-| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Trả về hoặc thiết lập thuộc tính. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Trả về bộ sưu tập các tên thuộc tính. Chỉ đọc ICollection. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Trả về số lượng thuộc tính trong tập hợp. Chỉ đọc Int32. |
+| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Trả về hoặc đặt thuộc tính. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Trả về tập hợp các tên thuộc tính. Chỉ đọc ICollection. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Thêm một thuộc tính vào bộ sưu tập. |
+| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Thêm một thuộc tính vào tập hợp. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Xóa tất cả các thuộc tính. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
-| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Xóa một thuộc tính có tên đã chỉ định. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Trả về một enumerator mà duyệt qua tập hợp. |
+| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Xóa một thuộc tính có tên được chỉ định. |
 
 ### Xem thêm
 

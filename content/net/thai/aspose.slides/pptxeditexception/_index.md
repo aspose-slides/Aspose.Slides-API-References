@@ -1,26 +1,26 @@
 ---
 title: PptxEditException
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขงานนำเสนอ
+description: แสดงถึงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
 type: docs
-weight: 9550
+weight: 9570
 url: /th/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException คลาส
 
-แสดงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขงานนำเสนอ
+แสดงถึงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
 
 ```csharp
 public class PptxEditException : PptxException
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PptxEditException](pptxeditexception#constructor)() | คอนสตรักเตอร์เริ่มต้น. |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | คอนสตรักเตอร์ที่ให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | คอนสตรักเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
+| [PptxEditException](pptxeditexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้ |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังใน |
 
 ### ดูเพิ่มเติม
 

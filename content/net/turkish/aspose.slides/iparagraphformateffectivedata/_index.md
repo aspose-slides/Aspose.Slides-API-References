@@ -1,9 +1,9 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Etkili paragraf biçimlendirme özelliklerini içeren değişmez nesne.
 type: docs
-weight: 6600
+weight: 6620
 url: /tr/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData arayüz
@@ -18,29 +18,29 @@ public interface IParagraphFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Bir paragraftaki metin hizalamasını döndürür. Salt okunur [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Bir paragrafın madde işareti biçimini döndürür. Salt okunur [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Bir paragrafın varsayılan bölüm biçimini döndürür. Salt okunur [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Varsayılan sekme boyutunu döndürür. Salt okunur Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Bir paragrafın derinliğini döndürür. Salt okunur Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Bir paragrafta Doğu Asya satır sonunun kullanılıp kullanılmadığını belirler. Salt okunur Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Bir paragrafta yazı tipi hizalamasını döndürür. Salt okunur [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Bir paragrafta sarkan noktalama işaretlerinin kullanılıp kullanılmadığını belirler. Salt okunur Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Paragrafın İlk Satır Girintisi/Sarkan Girintisini döndürür. Sarkan Girinti negatif değerlerle tanımlanabilir. Salt okunur Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Bir paragrafta Latin satır sonunun kullanılıp kullanılmadığını belirler. Salt okunur Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Bir paragrafta sol kenar boşluğunu döndürür. Salt okunur Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Bir paragrafta sağ kenar boşluğunu döndürür. Salt okunur Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Bir paragrafta Sağdan Sola yazımın kullanılıp kullanılmadığını belirler. Salt okunur Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Bir paragrafta son satırdan sonraki boşluk miktarını döndürür. Salt okunur Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Bir paragrafta ilk satırdan önceki boşluk miktarını döndürür. Salt okunur Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Bir paragrafta temel satırlar arasındaki boşluk miktarını döndürür. Salt okunur Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Bir paragrafın sekmelerini döndürür. Salt okunur [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Paragraftaki metin hizalamasını döndürür. Yalnızca okunabilir [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Paragraftaki madde işareti biçimini döndürür. Yalnızca okunabilir [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Paragrafın varsayılan bölüm biçimini döndürür. Yalnızca okunabilir [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Varsayılan sekme boyutunu döndürür. Yalnızca okunabilir Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Paragrafın derinliğini döndürür. Yalnızca okunabilir Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Paragrafta Doğu Asya satır sonunun kullanılıp kullanılmadığını belirler. Yalnızca okunabilir Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Paragraftaki yazı tipi hizalamasını döndürür. Yalnızca okunabilir [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Paragrafta asılı noktalama işaretinin kullanılıp kullanılmadığını belirler. Yalnızca okunabilir Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Paragrafın İlk Satır Girintisi/Asılı Girintisini döndürür. Asılı Girinti negatif değerlerle tanımlanabilir. Yalnızca okunabilir Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Paragrafta Latin satır sonunun kullanılıp kullanılmadığını belirler. Yalnızca okunabilir Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Paragraftaki sol kenar boşluğunu döndürür. Yalnızca okunabilir Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Paragraftaki sağ kenar boşluğunu döndürür. Yalnızca okunabilir Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Paragrafta Sağdan Sola yazımının kullanılıp kullanılmadığını belirler. Yalnızca okunabilir Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Paragraftaki son satırdan sonraki boşluk miktarını döndürür. Yalnızca okunabilir Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Paragraftaki ilk satırdan önceki boşluk miktarını döndürür. Yalnızca okunabilir Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Paragraftaki temel satırlar arasındaki boşluk miktarını döndürür. Yalnızca okunabilir Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Paragrafın sekmelerini döndürür. Yalnızca okunabilir [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IParagraphFormat`](../iparagraphformat) arayüzü ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`IParagraphFormat`](../iparagraphformat) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,65 +1,66 @@
 ---
 title: Aspose.Slides.Charts
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: มีคลาสสำหรับทำงานกับแผนภูมิในงานนำเสนอ Microsoft PowerPoint
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ประกอบด้วยคลาสสำหรับทำงานกับแผนภูมิในงานนำเสนอ Microsoft PowerPoint
 type: docs
 weight: 40
 url: /th/aspose.slides.charts/
 ---
-มีคลาสสำหรับทำงานกับแผนภูมิในงานนำเสนอ Microsoft PowerPoint
+ประกอบด้วยคลาสสำหรับทำงานกับแผนภูมิในงานนำเสนอ Microsoft PowerPoint
 
 ## คลาส
 
 | คลาส | คำอธิบาย |
 | --- | --- |
-| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Exception ที่ถูกโยนเมื่อการประกอบแกนของชุดข้อมูลไม่สามารถผสานกับการประกอบแกนที่มีอยู่ในแผนภูมิได้. |
-| [AxesManager](./axesmanager) | ให้การเข้าถึงแกนของแผนภูมิ. |
-| [Axis](./axis) | ห่อหุ้มวัตถุที่แสดงแกนของแผนภูมิ. |
-| [AxisFormat](./axisformat) | แสดงคุณสมบัติรูปแบบของแผนภูมิ. |
-| [BaseChartValue](./basechartvalue) | แสดงค่าของแผนภูมิ. |
-| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Exception ที่ถูกโยนเมื่อพยายามรวมประเภทแผนภูมิ 2D และ 3D. |
-| [Chart](./chart) | แสดงแผนภูมิกราฟิกบนสไลด์. |
-| [ChartCategory](./chartcategory) | แสดงหมวดหมู่ของแผนภูมิ. |
+| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | ข้อยกเว้นที่ถูกโยนเมื่อส่วนประกอบของแกนของชุดข้อมูลไม่สามารถรวมกับส่วนประกอบของแกนที่มีอยู่ในแผนภูมิ |
+| [AxesManager](./axesmanager) | ให้การเข้าถึงแกนของแผนภูมิ |
+| [Axis](./axis) | ห่อหุ้มวัตถุที่เป็นตัวแทนแกนของแผนภูมิ |
+| [AxisFormat](./axisformat) | แสดงคุณสมบัติการจัดรูปแบบของแผนภูมิ |
+| [BaseChartValue](./basechartvalue) | แสดงค่าของแผนภูมิ |
+| [CachedChartValue](./cachedchartvalue) | แสดงค่าที่เก็บไว้ในแคชของแผนภูมิ (เช่น X, Y, ขนาดบับเบิล หรือค่าหลัก) |
+| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | ข้อยกเว้นที่ถูกโยนเมื่อพยายามรวมประเภทแผนภูมิ 2D และ 3D |
+| [Chart](./chart) | แสดงแผนภูมิกราฟิกบนสไลด์ |
+| [ChartCategory](./chartcategory) | แสดงหมวดหมู่ของแผนภูมิ |
 | [ChartCategoryCollection](./chartcategorycollection) | แสดงคอลเลกชันของ [`ChartCategory`](../aspose.slides.charts/chartcategory) |
 | [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | คอนเทนเนอร์ที่จัดการค่าของระดับหมวดหมู่แผนภูมิ |
 | [ChartCellCollection](./chartcellcollection) | แสดงคอลเลกชันของเซลล์ที่มีข้อมูล |
 | [ChartData](./chartdata) | แสดงข้อมูลที่ใช้สำหรับการวาดแผนภูมิ |
 | [ChartDataCell](./chartdatacell) | แสดงเซลล์สำหรับข้อมูลแผนภูมิ |
-| [ChartDataPoint](./chartdatapoint) | แสดงจุดข้อมูลของซีรีส์ |
-| [ChartDataPointCollection](./chartdatapointcollection) | แสดงคอลเลกชันของจุดข้อมูลซีรีส์ |
-| [ChartDataPointLevel](./chartdatapointlevel) | แสดงระดับของจุดข้อมูล ใช้กับแผนภูมิ Treemap และ Sunburst |
-| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับ Treeamp และ Sunburst การทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์ |
-| [ChartDataWorkbook](./chartdataworkbook) | ให้การเข้าถึง Excel workbook ที่ฝังอยู่ |
-| [ChartDataWorksheet](./chartdataworksheet) | แสดง worksheet ที่เชื่อมโยงกับ [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | แสดงคอลเลกชันของ worksheet ของ workbook ข้อมูลแผนภูมิ |
-| [ChartLinesFormat](./chartlinesformat) | แสดงคุณสมบัติรูปแบบของเส้นกริด |
-| [ChartPlotArea](./chartplotarea) | แสดงสี่เหลี่ยมที่จะแสดงแผนภูมิ |
-| [ChartPortionFormat](./chartportionformat) | คลาสนี้มีคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ แตกต่างจาก [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata) ทุกคุณสมบัติของคลาสนี้สามารถเขียนได้ |
-| [ChartSeries](./chartseries) | แสดงซีรีส์ของแผนภูมิ |
+| [ChartDataPoint](./chartdatapoint) | แสดงจุดข้อมูลของชุด |
+| [ChartDataPointCollection](./chartdatapointcollection) | แสดงคอลเลกชันของจุดข้อมูลของชุด |
+| [ChartDataPointLevel](./chartdatapointlevel) | แสดงระดับของจุดข้อมูล ใช้ได้กับแผนภูมิ Treemap และ Sunburst |
+| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับชุดข้อมูล Treeamp และ Sunburst การจัดลำดับระดับจุดข้อมูลเริ่มจากศูนย์ |
+| [ChartDataWorkbook](./chartdataworkbook) | ให้การเข้าถึงเวิร์กบุ๊ก Excel ที่ฝังอยู่ |
+| [ChartDataWorksheet](./chartdataworksheet) | แสดงเวิร์กชีตที่เชื่อมโยงกับ [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
+| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | แสดงคอลเลกชันของเวิร์กชีตของเวิร์กบุ๊กข้อมูลแผนภูมิ |
+| [ChartLinesFormat](./chartlinesformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบเส้นกริด |
+| [ChartPlotArea](./chartplotarea) | แสดงสี่เหลี่ยมที่แผนภูมิควรแสดงผล |
+| [ChartPortionFormat](./chartportionformat) | คลาสนี้ประกอบด้วยคุณสมบัติกระบวนการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ ต่างจาก [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata) คุณสมบัติทั้งหมดของคลาสนี้สามารถเขียนได้ |
+| [ChartSeries](./chartseries) | แสดงชุดข้อมูลของแผนภูมิ |
 | [ChartSeriesCollection](./chartseriescollection) | แสดงคอลเลกชันของ [`ChartSeries`](../aspose.slides.charts/chartseries) |
-| [ChartSeriesGroup](./chartseriesgroup) | แสดงกลุ่มของซีรีส์ |
-| [ChartTextFormat](./charttextformat) | กำหนดการจัดรูปแบบข้อความเริ่มต้นสำหรับองค์ประกอบข้อความของแผนภูมิ |
+| [ChartSeriesGroup](./chartseriesgroup) | แสดงกลุ่มของชุดข้อมูล |
+| [ChartTextFormat](./charttextformat) | ระบุการจัดรูปแบบข้อความเริ่มต้นสำหรับองค์ประกอบข้อความของแผนภูมิ |
 | [ChartTitle](./charttitle) | แสดงคุณสมบัติของหัวเรื่องแผนภูมิ |
-| [ChartTypeCharacterizer](./charttypecharacterizer) | ตัวช่วยสำหรับการดึงข้อมูลเพิ่มเติมเกี่ยวกับแผนภูมิและซีรีส์ตาม ChartType ของมัน |
-| [ChartWall](./chartwall) | แสดงผนังบนแผนภูมิ 3D |
-| [DataLabel](./datalabel) | แสดงป้ายกำกับของซีรีส์ |
-| [DataLabelCollection](./datalabelcollection) | แสดงป้ายกำกับของซีรีส์ |
+| [ChartTypeCharacterizer](./charttypecharacterizer) | ตัวช่วยสำหรับดึงข้อมูลเพิ่มเติมเกี่ยวกับแผนภูมิและชุดข้อมูลตาม ChartType ของมัน |
+| [ChartWall](./chartwall) | แสดงผนังของแผนภูมิ 3D |
+| [DataLabel](./datalabel) | แสดงป้ายชื่อของชุด |
+| [DataLabelCollection](./datalabelcollection) | แสดงป้ายชื่อของชุด |
 | [DataLabelFormat](./datalabelformat) | แสดงตัวเลือกการจัดรูปแบบสำหรับ DataLabel |
-| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | กำหนดประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues |
+| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | ระบุประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues |
 | [DataTable](./datatable) | แสดงคุณสมบัติของตารางข้อมูล |
-| [DoubleChartValue](./doublechartvalue) | แสดงค่า double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [ErrorBarsCustomValues](./errorbarscustomvalues) | กำหนดค่าของแถบข้อผิดพลาด จะใช้เฉพาะเมื่อประเภทค่าของแถบข้อผิดพลาดเป็น Custom |
-| [ErrorBarsFormat](./errorbarsformat) | แสดงแถบข้อผิดพลาดของซีรีส์แผนภูมิ ค่า custom ของ ErrorBars อยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) ) |
-| [Format](./format) | แสดงคุณสมบัติรูปแบบของแผนภูมิ |
-| [Legend](./legend) | แสดงคุณสมบัติของ legend ของแผนภูมิ |
-| [LegendEntryCollection](./legendentrycollection) | แสดงคอลเลกชันของ legends |
-| [LegendEntryProperties](./legendentryproperties) | แสดงคุณสมบัติของ legend ของแผนภูมิ |
-| [Marker](./marker) | แสดงเครื่องหมายของแผนภูมิ |
-| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | แสดงคอลเลกชันของจุดสำหรับจุดแบ่งในแผนภูมิ bar-of-pie หรือ pie-of-pie ที่มีการแบ่งแบบกำหนดเอง |
+| [DoubleChartValue](./doublechartvalue) | แสดงค่าดับเบิลที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [ErrorBarsCustomValues](./errorbarscustomvalues) | ระบุค่าของแถบความผิดพลาด ใช้เฉพาะเมื่อประเภทค่าของแถบความผิดพลาดเป็น Custom |
+| [ErrorBarsFormat](./errorbarsformat) | แสดงแถบความผิดพลาดของชุดข้อมูลแผนภูมิ ค่าที่กำหนดเองของ ErrorBars อยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)) |
+| [Format](./format) | แสดงคุณสมบัติกระบวนการจัดรูปแบบของแผนภูมิ |
+| [Legend](./legend) | แสดงคุณสมบัติของคำอธิบายแผนภูมิ |
+| [LegendEntryCollection](./legendentrycollection) | แสดงคอลเลกชันของคำอธิบาย |
+| [LegendEntryProperties](./legendentryproperties) | แสดงคุณสมบัติของคำอธิบายในแผนภูมิ |
+| [Marker](./marker) | แสดงตัวทำเครื่องหมายของแผนภูมิ |
+| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | แสดงคอลเลกชันของจุดสำหรับจุดแยกในแผนภูมิ bar-of-pie หรือ pie-of-pie ที่มีการแยกแบบกำหนดเอง |
 | [Rotation3D](./rotation3d) | แสดงการหมุน 3D ของแผนภูมิ |
-| [StringChartValue](./stringchartvalue) | แสดงค่าชนิด string ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [StringOrDoubleChartValue](./stringordoublechartvalue) | แสดงค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [Trendline](./trendline) | คลาสแสดงเส้นแนวโน้มของซีรีส์แผนภูมิ |
+| [StringChartValue](./stringchartvalue) | แสดงค่าข้อความที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [StringOrDoubleChartValue](./stringordoublechartvalue) | แสดงค่าข้อความหรือค่าดับเบิลที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [Trendline](./trendline) | คลาสแสดงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ |
 | [TrendlineCollection](./trendlinecollection) | แสดงคอลเลกชันของ Trendline |
 | [UpDownBarsManager](./updownbarsmanager) | ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock |
 
@@ -67,11 +68,12 @@ url: /th/aspose.slides.charts/
 
 | อินเทอร์เฟซ | คำอธิบาย |
 | --- | --- |
-| [IActualLayout](./iactuallayout) | กำหนดตำแหน่งจริงขององค์ประกอบแผนภูมิ |
+| [IActualLayout](./iactuallayout) | ระบุตำแหน่งจริงขององค์ประกอบแผนภูมิ |
 | [IAxesManager](./iaxesmanager) | ให้การเข้าถึงแกนของแผนภูมิ |
-| [IAxis](./iaxis) | ห่อหุ้มวัตถุที่แสดงแกนของแผนภูมิ |
-| [IAxisFormat](./iaxisformat) | แสดงคุณสมบัติรูปแบบของแผนภูมิ |
+| [IAxis](./iaxis) | ห่อหุ้มวัตถุที่เป็นตัวแทนแกนของแผนภูมิ |
+| [IAxisFormat](./iaxisformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบของแผนภูมิ |
 | [IBaseChartValue](./ibasechartvalue) | แสดงค่าของแผนภูมิ |
+| [ICachedChartValue](./icachedchartvalue) | แสดงค่าที่เก็บไว้ในแคชของแผนภูมิ (เช่น X, Y, ขนาดบับเบิล หรือค่าหลัก) |
 | [IChart](./ichart) | แสดงแผนภูมิกราฟิกบนสไลด์ |
 | [IChartCategory](./ichartcategory) | แสดงหมวดหมู่ของแผนภูมิ |
 | [IChartCategoryCollection](./ichartcategorycollection) | แสดงคอลเลกชันของ [`IChartCategory`](../aspose.slides.charts/ichartcategory) |
@@ -80,81 +82,83 @@ url: /th/aspose.slides.charts/
 | [IChartComponent](./ichartcomponent) | แสดงส่วนประกอบของแผนภูมิ |
 | [IChartData](./ichartdata) | แสดงข้อมูลที่ใช้สำหรับการวาดแผนภูมิ |
 | [IChartDataCell](./ichartdatacell) | แสดงเซลล์สำหรับข้อมูลแผนภูมิ |
-| [IChartDataPoint](./ichartdatapoint) | แสดงจุดข้อมูลของซีรีส์ |
-| [IChartDataPointCollection](./ichartdatapointcollection) | แสดงคอลเลกชันของจุดข้อมูลซีรีส์ |
-| [IChartDataPointLevel](./ichartdatapointlevel) | แสดงระดับของจุดข้อมูล ใช้กับแผนภูมิ Treemap และ Sunburst |
-| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับ Treeamp และ Sunburst การทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์ |
-| [IChartDataWorkbook](./ichartdataworkbook) | ให้การเข้าถึง Excel workbook ที่ฝังอยู่ |
-| [IChartDataWorksheet](./ichartdataworksheet) | แสดง worksheet ที่เชื่อมโยงกับ [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | แสดงคอลเลกชันของ worksheet ของ workbook ข้อมูลแผนภูมิ |
-| [IChartLinesFormat](./ichartlinesformat) | แสดงคุณสมบัติรูปแบบของเส้นกริด |
-| [IChartParagraphFormat](./ichartparagraphformat) | แสดงคุณสมบัติการจัดรูปแบบของย่อหน้าของแผนภูมิ |
+| [IChartDataPoint](./ichartdatapoint) | แสดงจุดข้อมูลของชุด |
+| [IChartDataPointCollection](./ichartdatapointcollection) | แสดงคอลเลกชันของจุดข้อมูลของชุด |
+| [IChartDataPointLevel](./ichartdatapointlevel) | แสดงระดับของจุดข้อมูล ใช้ได้กับแผนภูมิ Treemap และ Sunburst |
+| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | คอนเทนเนอร์ของระดับจุดข้อมูล ใช้กับชุด Treeamp และ Sunburst การจัดลำดับระดับจุดข้อมูลเริ่มจากศูนย์ |
+| [IChartDataWorkbook](./ichartdataworkbook) | ให้การเข้าถึงเวิร์กบุ๊ก Excel ที่ฝังอยู่ |
+| [IChartDataWorksheet](./ichartdataworksheet) | แสดงเวิร์กชีตที่เชื่อมโยงกับ [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
+| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | แสดงคอลเลกชันของเวิร์กชีตของเวิร์กบุ๊กข้อมูลแผนภูมิ |
+| [IChartLinesFormat](./ichartlinesformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบเส้นกริด |
+| [IChartParagraphFormat](./ichartparagraphformat) | แสดงคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ |
 | [IChartPlotArea](./ichartplotarea) | แสดงคุณสมบัติของหัวเรื่องแผนภูมิ |
-| [IChartPortionFormat](./ichartportionformat) | แสดงคุณสมบัติการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ |
-| [IChartSeries](./ichartseries) | แสดงซีรีส์ของแผนภูมิ |
+| [IChartPortionFormat](./ichartportionformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบส่วนของแผนภูมิที่ใช้ในแผนภูมิ |
+| [IChartSeries](./ichartseries) | แสดงชุดข้อมูลของแผนภูมิ |
 | [IChartSeriesCollection](./ichartseriescollection) | แสดงคอลเลกชันของ [`IChartSeries`](../aspose.slides.charts/ichartseries) |
-| [IChartSeriesGroup](./ichartseriesgroup) | แสดงกลุ่มของซีรีส์ |
-| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | แสดงคอลเลกชันของกลุ่มของซีรีส์ที่สามารถผสานกันได้ |
+| [IChartSeriesGroup](./ichartseriesgroup) | แสดงกลุ่มของชุดข้อมูล |
+| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | แสดงคอลเลกชันของกลุ่มชุดข้อมูลที่สามารถรวมกันได้ |
 | [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | แสดงคอลเลกชันแบบอ่านอย่างเดียวของ [`IChartSeries`](../aspose.slides.charts/ichartseries) |
-| [IChartTextBlockFormat](./icharttextblockformat) | แสดงคุณสมบัติการจัดรูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ |
-| [IChartTextFormat](./icharttextformat) | แผนภูมิทำงานกับชุดจำกัดของคุณสมบัติการจัดรูปแบบข้อความ อินเทอร์เฟซ IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat อธิบายชุดจำกัดนี้ |
+| [IChartTextBlockFormat](./icharttextblockformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบขององค์ประกอบข้อความของแผนภูมิ |
+| [IChartTextFormat](./icharttextformat) | แผนภูมิทำงานกับชุดจำกัดของคุณสมบัติการจัดรูปแบบข้อความ อินเทอร์เฟซ IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat บรรยายชุดจำกัดนี้ |
 | [IChartTitle](./icharttitle) | แสดงคุณสมบัติของหัวเรื่องแผนภูมิ |
-| [IChartWall](./ichartwall) | แสดงผนังบนแผนภูมิ 3D |
-| [IDataLabel](./idatalabel) | แสดงป้ายกำกับของซีรีส์ |
-| [IDataLabelCollection](./idatalabelcollection) | แสดงป้ายกำกับของซีรีส์ |
+| [IChartWall](./ichartwall) | แสดงผนังของแผนภูมิ 3D |
+| [IDataLabel](./idatalabel) | แสดงป้ายชื่อของชุด |
+| [IDataLabelCollection](./idatalabelcollection) | แสดงป้ายชื่อของชุด |
 | [IDataLabelFormat](./idatalabelformat) | แสดงตัวเลือกการจัดรูปแบบสำหรับ DataLabel |
-| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | กำหนดประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues |
+| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | ระบุประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues |
 | [IDataTable](./idatatable) | แสดงคุณสมบัติของตารางข้อมูล |
-| [IDoubleChartValue](./idoublechartvalue) | แสดงค่า double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | กำหนดค่าของแถบข้อผิดพลาด จะใช้เฉพาะเมื่อประเภทค่าของแถบข้อผิดพลาดเป็น Custom |
-| [IErrorBarsFormat](./ierrorbarsformat) | แสดงแถบข้อผิดพลาดของซีรีส์แผนภูมิ ค่า custom ของ ErrorBars อยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) ) |
-| [IFormat](./iformat) | แสดงคุณสมบัติรูปแบบของแผนภูมิ |
+| [IDoubleChartValue](./idoublechartvalue) | แสดงค่าดับเบิลที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | ระบุค่าของแถบความผิดพลาด ใช้เฉพาะเมื่อประเภทค่าของแถบความผิดพลาดเป็น Custom |
+| [IErrorBarsFormat](./ierrorbarsformat) | แสดงแถบความผิดพลาดของชุดข้อมูลแผนภูมิ ค่าที่กำหนดเองของ ErrorBars อยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)) |
+| [IFormat](./iformat) | แสดงคุณสมบัติกระบวนการจัดรูปแบบของแผนภูมิ |
 | [IFormattedTextContainer](./iformattedtextcontainer) | แสดงรูปแบบข้อความของแผนภูมิ |
-| [ILayoutable](./ilayoutable) | กำหนดตำแหน่งที่แน่นอนขององค์ประกอบแผนภูมิ |
-| [ILegend](./ilegend) | แสดงคุณสมบัติของ legend ของแผนภูมิ |
-| [ILegendEntryCollection](./ilegendentrycollection) | แสดงคอลเลกชันของ legends |
-| [ILegendEntryProperties](./ilegendentryproperties) | แสดงคุณสมบัติของ legend ของแผนภูมิ |
+| [ILayoutable](./ilayoutable) | ระบุตำแหน่งที่แน่นอนขององค์ประกอบแผนภูมิ |
+| [ILegend](./ilegend) | แสดงคุณสมบัติของคำอธิบายแผนภูมิ |
+| [ILegendEntryCollection](./ilegendentrycollection) | แสดงคอลเลกชันของคำอธิบาย |
+| [ILegendEntryProperties](./ilegendentryproperties) | แสดงคุณสมบัติของคำอธิบายในแผนภูมิ |
 | [IMarker](./imarker) | แสดงเครื่องหมายของแผนภูมิ |
-| [IMultipleCellChartValue](./imultiplecellchartvalue) | แสดงคอลเลกชันของเซลล์แผนภูมิ |
+| [IMultipleCellChartValue](./imultiplecellchartvalue) | แสดงคอลเลกชันของเซลล์ในแผนภูมิ |
 | [IOverridableText](./ioverridabletext) | แสดงข้อความที่สามารถเขียนทับได้สำหรับแผนภูมิ |
-| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | แสดงคอลเลกชันของจุดที่จะวาดในไพร์ที่สองหรือแถบที่สองบนแผนภูมิ bar-of-pie หรือ pie-of-pie ที่มีการแบ่งแบบกำหนดเอง |
+| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | แสดงคอลเลกชันของจุดที่จะวาดในพายหรือแท่งที่สองบนแผนภูมิ bar-of-pie หรือ pie-of-pie ที่มีการแยกแบบกำหนดเอง |
 | [IRotation3D](./irotation3d) | แสดงการหมุน 3D ของแผนภูมิ |
 | [ISingleCellChartValue](./isinglecellchartvalue) | แสดงเซลล์ข้อมูลของแผนภูมิ |
-| [IStringChartValue](./istringchartvalue) | แสดงค่าชนิด string ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [IStringOrDoubleChartValue](./istringordoublechartvalue) | แสดงค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
-| [ITrendline](./itrendline) | คลาสแสดงเส้นแนวโน้มของซีรีส์แผนภูมิ |
+| [IStringChartValue](./istringchartvalue) | แสดงค่าข้อความที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [IStringOrDoubleChartValue](./istringordoublechartvalue) | แสดงค่าข้อความหรือค่าดับเบิลที่สามารถเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษร |
+| [ITrendline](./itrendline) | คลาสแสดงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ |
 | [ITrendlineCollection](./itrendlinecollection) | แสดงคอลเลกชันของ TrendlineEx |
 | [IUpDownBarsManager](./iupdownbarsmanager) | ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock |
 
-## การนับค่า
+## การนับ
 
-| การนับค่า | คำอธิบาย |
+| การนับ | คำอธิบาย |
 | --- | --- |
-| [AxisAggregationType](./axisaggregationtype) | แสดงประเภทการรวมของแกนหมวดหมู่ ใช้กับซีรีส์ Histogram หรือ HistogramPareto เท่านั้น |
+| [AxisAggregationType](./axisaggregationtype) | แสดงประเภทการรวมของแกนหมวดหมู่ ใช้กับชุดข้อมูล Histogram หรือ HistogramPareto เท่านั้น |
 | [AxisPositionType](./axispositiontype) | กำหนดตำแหน่งของแกน |
-| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | กำหนดวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิ bubble |
+| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | ระบุวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิบับเบิล |
 | [CategoryAxisType](./categoryaxistype) | แสดงประเภทของแกนหมวดหมู่ |
 | [ChartDataSourceType](./chartdatasourcetype) | แสดงประเภทของแหล่งข้อมูลของแผนภูมิ |
-| [ChartShapeType](./chartshapetype) | แสดงรูปร่างของแผนภูมิ |
+| [ChartShapeType](./chartshapetype) | แสดงรูปทรงของแผนภูมิ |
 | [ChartType](./charttype) | แสดงประเภทของแผนภูมิ |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeration ของกลุ่มประเภทซีรีส์ที่สามารถผสานกันได้ แต่ละองค์ประกอบสัมพันธ์กับกลุ่มของประเภทซีรีส์แผนภูมิที่สามารถอยู่พร้อมกันใน ChartSeriesGroup ตัวอย่างเช่น: ซีรีส์ ChartType.PercentsStackedArea ไม่สามารถอยู่พร้อมกับซีรีส์ ChartType.StackedArea ใน ChartSeriesGroup เดียวกันได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup เดียวกันพร้อมกัน (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea) และซีรีส์ ChartType.Line สามารถอยู่กับซีรีส์ ChartType.LineWithMarkers พร้อมกันใน CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup |
-| [CrossesType](./crossestype) | กำหนดตำแหน่งที่แกนจะตัดกัน |
-| [DataSourceType](./datasourcetype) | ประเภทของแหล่งข้อมูล |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | การนับของกลุ่มประเภทชุดข้อมูลที่สามารถรวมกันได้ แต่ละรายการเชื่อมโยงกับกลุ่มของประเภทชุดข้อมูลแผนภูมิที่สามารถอยู่ร่วมกันใน ChartSeriesGroup หนึ่งได้ ตัวอย่างเช่น ชุดข้อมูล ChartType.PercentsStackedArea ไม่สามารถอยู่พร้อมกับชุดข้อมูล ChartType.StackedArea ใน ChartSeriesGroup เดียวได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup เดียวพร้อมกัน (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea) และชุดข้อมูล ChartType.Line สามารถอยู่กับชุดข้อมูล ChartType.LineWithMarkers พร้อมกันใน CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup |
+| [CrossesType](./crossestype) | กำหนดว่าจุดตัดของแกนจะอยู่ที่ไหน |
+| [DataSourceType](./datasourcetype) | ประเภทแหล่งข้อมูล |
 | [DisplayBlanksAsType](./displayblanksastype) | กำหนดวิธีการแสดงข้อมูลที่หายไป |
-| [DisplayUnitType](./displayunittype) | กำหนดความหลายของข้อมูลที่แสดง |
-| [ErrorBarType](./errorbartype) | แสดงประเภทของแถบข้อผิดพลาด |
-| [ErrorBarValueType](./errorbarvaluetype) | แสดงประเภทของค่าของแถบข้อผิดพลาด |
-| [LayoutTargetType](./layouttargettype) | หากการจัดวางพื้นที่พล็อตกำหนดด้วยตนเอง คุณสมบัตินี้กำหนดว่าจะจัดวางพื้นที่พล็อตโดยภายใน (ไม่รวมแกนและป้ายแกน) หรือโดยภายนอก (รวมแกนและป้ายแกน) |
+| [DisplayUnitType](./displayunittype) | กำหนดความซ้ำของข้อมูลที่แสดง |
+| [ErrorBarType](./errorbartype) | แสดงประเภทของแถบความผิดพลาด |
+| [ErrorBarValueType](./errorbarvaluetype) | แสดงประเภทของค่าของแถบความผิดพลาด |
+| [LayoutTargetType](./layouttargettype) | หากการจัดวางพื้นที่พล็อตกำหนดด้วยตนเอง คุณสมบัตินี้ระบุว่าจะจัดวางพื้นที่พล็อตโดยภายใน (ไม่รวมแกนและป้ายแกน) หรือโดยภายนอก (รวมแกนและป้ายแกน) |
 | [LegendDataLabelPosition](./legenddatalabelposition) | กำหนดตำแหน่งของป้ายข้อมูล |
-| [LegendPositionType](./legendpositiontype) | กำหนดตำแหน่งของ legend บนแผนภูมิ |
+| [LegendPositionType](./legendpositiontype) | กำหนดตำแหน่งของคำอธิบายบนแผนภูมิ |
 | [MarkerStyleType](./markerstyletype) | กำหนดรูปแบบของเครื่องหมายบนจุดข้อมูลของแผนภูมิ |
-| [ParentLabelLayoutType](./parentlabellayouttype) | แสดงการจัดวางของป้ายข้อมูลหมวดหมู่ ใช้กับซีรีส์ Treemap เท่านั้น |
-| [PictureType](./picturetype) | กำหนดโหมดการเติมรูปแบบของแถบ |
-| [PieSplitType](./piesplittype) | แสดงประเภทของจุดแบ่งในไพร์ที่สองหรือแถบที่สองบนแผนภูมิ pie-of-pie หรือ bar-of-pie |
-| [QuartileMethodType](./quartilemethodtype) | ส่งคืนประเภทของวิธีควอร์ไทล์ |
+| [ParentLabelLayoutType](./parentlabellayouttype) | แสดงการจัดวางป้ายข้อมูลของหมวดหมู่ ใช้กับชุดข้อมูล Treemap เท่านั้น |
+| [PictureType](./picturetype) | กำหนดโหมดการเติมรูปภาพของแท่ง |
+| [PieSplitType](./piesplittype) | แสดงประเภทของจุดแยกในพายหรือแท่งที่สองบนแผนภูมิ pie-of-pie หรือ bar-of-pie |
+| [QuartileMethodType](./quartilemethodtype) | คืนค่าประเภทของวิธีควอไทล์ |
 | [StyleType](./styletype) | แสดงสไตล์ของแผนภูมิ |
-| [TickLabelPositionType](./ticklabelpositiontype) | แสดงประเภทตำแหน่งของป้ายกำกับ tick-mark บนแกนที่ระบุ |
-| [TickMarkType](./tickmarktype) | แสดงประเภทของ tick mark สำหรับแกนที่ระบุ |
+| [TickLabelPositionType](./ticklabelpositiontype) | แสดงประเภทตำแหน่งของป้ายเครื่องหมายบรรทัดบนแกนที่ระบุ |
+| [TickMarkType](./tickmarktype) | แสดงประเภทของเครื่องหมายบรรทัดสำหรับแกนที่ระบุ |
 | [TimeUnitType](./timeunittype) | แสดงหน่วยฐานสำหรับแกนหมวดหมู่ |
 | [TrendlineType](./trendlinetype) | แสดงประเภทของเส้นแนวโน้ม |
-| [WorkbookType](./workbooktype) | กำหนดประเภทของไฟล์ workbook Open XML
+| [WorkbookType](./workbooktype) | ระบุประเภทของไฟล์เวิร์กบุ๊ก Open XML |
+
+<!-- DO NOT EDIT: generated by xmldoccmd for Aspose.Slides.dll -->

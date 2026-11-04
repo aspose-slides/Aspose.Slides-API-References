@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy szakaszok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: A szekciók gyűjteményét képviseli.
 type: docs
-weight: 6900
+weight: 6920
 url: /hu/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interfész
 
-Egy szakaszok gyűjteményét képviseli.
+A szekciók gyűjteményét képviseli.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -18,20 +18,20 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Visszaadja az elemet a megadott indexnél. Csak olvasható [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Lekéri az elemet a megadott indexen. Írásvédett [`ISection`](../isection). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Üres szakaszt ad a gyűjtemény megadott pozíciójába. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Új szakaszt ad, amely egy adott diától kezdődik. |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Üres szakaszt ad a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/isectioncollection/clear)() | Eltávolítja az összes szakaszt a gyűjteményből. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Visszaadja a megadott szakasz indexét a gyűjteményben. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Eltávolítja a szakaszt. A szakaszban lévő diák egyesülnek az előző szakaszba. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Eltávolítja a szakaszt és az abban lévő diákat. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Áthelyezi a szakaszt és a benne lévő diákat a gyűjteményből a megadott pozícióba. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Üres szekciót ad a gyűjtemény megadott pozíciójához. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Új szekciót ad, amely egy meghatározott diától kezdődik. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Üres szekciót ad a gyűjtemény végéhez. |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | El távolítja az összes szekciót a gyűjteményből. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Visszaadja a megadott szekció indexét a gyűjteményben. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Eltávolítja a szekciót. A szekcióban lévő diák az előző szekcióba lesznek egyesítve. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Eltávolítja a szekciót és a szekcióban lévő diákat. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Áthelyezi a szekciót és diáit a gyűjteményből a megadott pozícióba. |
 
 ### Lásd még
 

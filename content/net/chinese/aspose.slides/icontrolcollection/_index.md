@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: ActiveX 控件的集合。
 type: docs
-weight: 5640
+weight: 5660
 url: /zh/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection 接口
@@ -29,7 +29,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 从集合中移除 ActiveX 控件。 |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 从集合中移除存储在指定位置的 ActiveX 控件。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IControl](../icontrol)

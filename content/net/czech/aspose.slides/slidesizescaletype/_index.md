@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ měřítka obsahu snímku.
+description: Reprezentuje typ škálování obsahu snímku.
 type: docs
-weight: 10510
+weight: 10530
 url: /cs/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType enumerace
+## SlideSizeScaleType výčtový typ
 
-Representuje typ měřítka obsahu snímku.
+Reprezentuje typ škálování obsahu snímku.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -18,8 +18,8 @@ public enum SlideSizeScaleType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| DoNotScale | `0` | Nesklovat. |
-| EnsureFit | `1` | Změnit velikost tak, aby se vešel. |
+| DoNotScale | `0` | Neskalovat. |
+| EnsureFit | `1` | Škálovat tak, aby se vešlo. |
 | Maximize | `2` | Maximalizovat velikost obsahu. |
 
 ### Viz také

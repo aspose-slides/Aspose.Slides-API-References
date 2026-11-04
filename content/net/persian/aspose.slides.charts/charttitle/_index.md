@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes برای مرجع API .NET
-description: خواص عنوان نمودار را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET API مرجع
+description: خواص عنوان نمودار را نمایندگی می‌کند.
 type: docs
-weight: 1490
+weight: 1500
 url: /fa/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle کلاس
 
-خواص عنوان نمودار را نشان می‌دهد.
+خواص عنوان نمودار را نمایندگی می‌کند.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -16,34 +16,34 @@ public class ChartTitle : IChartTitle
 
 ## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. فقط خواندنی Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. فقط خواندنی Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | موقعیت X واقعی (چپ) عنصر نمودار نسبت به گوشه بالایی چپ نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. فقط خواندنی Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | بالای واقعی عنصر نمودار نسبت به گوشه بالایی چپ نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. فقط خواندنی Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | پایین. فقط خواندنی Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | نمودار والد را برمی‌گرداند. فقط خواندنی [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | استایل‌های پر، خط و افکت عنوان را برمی‌گرداند. فقط خواندنی [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | ارتفاع عنوان را به‌عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | تعیین می‌کند آیا سایر عناصر نمودار می‌توانند روی عنوان همپوشانی داشته باشند. قابل خواندن/نوشتن Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | راست. فقط خواندنی Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | قالب متن را برمی‌گرداند. فقط خواندنی [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | می‌تواند متن با قالب‌بندی غنی را شامل شود. اگر این ویژگی مقدار null نداشته باشد، مقدار متن قالب‌بندی‌شده، متن خودکار تولید شده را نقض می‌کند. متن خودکار تولید شده یک ویژگی ضمنی برچسب داده، برچسب واحد نمایش محور مقدار، عنوان محور، عنوان نمودار، برچسب خط روند است. متن خودکار تولید شده با ویژگی IFormattedTextContainer.TextFormat قالب‌بندی می‌شود. فقط خواندنی [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | عرض عنوان را به‌عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | مختصات X عنوان را به‌عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | مختصات Y عنوان را به‌عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. فقط-خواندنی Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. فقط-خواندنی Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | موقعیت افقی واقعی (چپ) عنصر نمودار را نسبت به گوشهٔ بالای چپ نمودار مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. فقط-خواندنی Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | موقعیت بالای واقعی عنصر نمودار را نسبت به گوشهٔ بالای چپ نمودار مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. فقط-خواندنی Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | پایین. فقط-خواندنی Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | نمودار والد را برمی‌گرداند. فقط-خواندنی [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | استایل‌های پر، خط و اثر یک عنوان را برمی‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | ارتفاع یک عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | تعیین می‌کند آیا عناصر دیگر نمودار می‌توانند روی عنوان overlay شوند یا نه. خواندنی/نوشتنی Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | راست. فقط-خواندنی Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | قالب متن را برمی‌گرداند. فقط-خواندنی [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | می‌تواند متن قالب‌بندی‌شده غنی را شامل شود. اگر این ویژگی null نباشد، مقدار متن قالب‌بندی‌شده، متن تولید خودکار را بازنویسی می‌کند. متن تولید خودکار یک ویژگی ضمنی برچسب داده، برچسب واحد نمایش محور مقدار، عنوان محور، عنوان نمودار و برچسب خط روند است. متن تولید خودکار با ویژگی IFormattedTextContainer.TextFormat قالب‌بندی می‌شود. فقط-خواندنی [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | عرض یک عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | مختصات x یک عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | مختصات y یک عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | یک TextFrameForOverriding را با متنی که در پارامتر \"text\" ارائه شده مقداردهی اولیه می‌کند. اگر TextFrameForOverriding قبلاً مقداردهی اولیه شده باشد، فقط متن آن را تغییر می‌دهد. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | TextFrameForOverriding را با متنی که در پارامتر "text" داده شده مقداردهی اولیه می‌کند. اگر TextFrameForOverriding از پیش مقداردهی شده باشد، به سادگی متن آن را تغییر می‌دهد. |
 
 ### موارد مرتبط
 
 * رابط [IChartTitle](../icharttitle)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

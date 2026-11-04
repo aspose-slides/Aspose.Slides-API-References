@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 레이아웃 슬라이드 컬렉션의 기본 클래스를 나타냅니다.
+description: 레이아웃 슬라이드 컬렉션에 대한 기본 클래스를 나타냅니다.
 type: docs
-weight: 6230
+weight: 6250
 url: /ko/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection 인터페이스
 
-레이아웃 슬라이드 컬렉션의 기본 클래스를 나타냅니다.
+레이아웃 슬라이드 컬렉션에 대한 기본 클래스를 나타냅니다.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -26,7 +26,7 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 지정된 유형의 첫 번째 레이아웃 슬라이드를 반환합니다. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | 컬렉션에서 레이아웃을 제거합니다. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 사용되지 않은 레이아웃 슬라이드를 제거합니다 (HasDependingSlides가 false인 레이아웃 슬라이드). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 사용되지 않는 레이아웃 슬라이드를 제거합니다 (HasDependingSlides가 false인 레이아웃 슬라이드). |
 
 ### 참조
 

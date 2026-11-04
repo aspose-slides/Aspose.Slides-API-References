@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes para Referência de API .NET
-description: Representa uma coleção de partes xml personalizadas.
+second_title: Referência da API Aspose.Sildes for .NET
+description: Representa a coleção de partes xml personalizadas.
 type: docs
-weight: 2750
+weight: 2770
 url: /pt/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection classe
 
-Representa uma coleção de partes xml personalizadas.
+Representa a coleção de partes xml personalizadas.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -21,7 +21,7 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Retorna a contagem de partes xml personalizadas na coleção. Somente leitura Int32. |
 | [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Retorna o elemento no índice especificado. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Retorna um Object de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
@@ -32,11 +32,11 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Adiciona uma nova parte xml personalizada. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Remove todos os itens da coleção. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Copia para o array especificado. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Remove a primeira ocorrência de um objeto específico da coleção. |
 | [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Remove a parte xml personalizada no índice especificado. |
 
-### Veja Também
+### Ver Também
 
 * interface [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes a .NET API referencia
-description: A formák számára tárolja a téma által definiált formátumokat.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A formák számára tárolja a téma által meghatározott formátumokat.
 type: docs
-weight: 11270
+weight: 11290
 url: /hu/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interfész
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Lehetővé teszi a bázis ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Visszaad egy gyűjteményt a téma által definiált háttérkitöltési stílusokról. Csak olvasható [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Visszaad egy gyűjteményt a téma által definiált effektusstílusokról. Csak olvasható [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Visszaad egy gyűjteményt a téma által definiált kitöltési stílusokról. Csak olvasható [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Visszaad egy gyűjteményt a téma által definiált vonalstílusokról. Csak olvasható [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Visszaadja a téma által definiált háttérkitöltési stílusok gyűjteményét. Csak olvasható [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Visszaadja a téma által definiált effektusstílusok gyűjteményét. Csak olvasható [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Visszaadja a téma által definiált kitöltési stílusok gyűjteményét. Csak olvasható [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Visszaadja a téma által definiált vonalstílusok gyűjteményét. Csak olvasható [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Lásd még
 

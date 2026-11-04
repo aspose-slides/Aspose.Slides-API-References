@@ -1,14 +1,14 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Gömülü bir ses dosyasını temsil eder.
 type: docs
-weight: 5210
+weight: 5230
 url: /tr/aspose.slides/iaudio/
 ---
-## IAudio arabirimi
+## IAudio arayüz
 
-Ses gömülü bir ses dosyasını temsil eder.
+Gömülü bir ses dosyasını temsil eder.
 
 ```csharp
 public interface IAudio
@@ -16,16 +16,16 @@ public interface IAudio
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Ses verisinin bir kopyasını döndürür. Büyük miktarda veri durumunda, ses verisinin belleğe gereksiz şekilde yüklenmesini veya hatta OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) metodunun kullanılmasını düşünün. Salt okunur Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Sesin bir MIME türünü döndürür, [`BinaryData`](./binarydata) içinde kodlanmış. Salt okunur String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Sesin verisinin bir kopyasını döndürür. Büyük miktarda veri durumunda, belleğe gereksiz yere ses verisinin yüklenmesini veya OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) yönteminin kullanılmasını düşünün. Salt okunur Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Sesin MIME türünü [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt okunur String. |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Okuma için bir Stream döndürür. 'using' deyimini kullanın veya kullandıktan sonra akışı kapatın. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Okuma için Stream akışını döndürür. 'using' kullanın veya kullanımdan sonra akışı kapatın. |
 
 ### Ayrıca Bakınız
 

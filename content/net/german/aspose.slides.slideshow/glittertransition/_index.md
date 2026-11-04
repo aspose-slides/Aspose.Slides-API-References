@@ -3,12 +3,12 @@ title: GlitterTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Glitter-Folienübergangseffekt.
 type: docs
-weight: 10050
+weight: 10070
 url: /de/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition Klasse
 
-Glitter-Folienübergangseffekt.
+Glitter slide transition effect.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -18,17 +18,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Richtung der Transition. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Gibt die Form der während der Transition verwendeten Visuals an. Lesen/Schreiben [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Gibt die Form der während des Übergangs verwendeten Visualisierungen an. Lesen/Schreiben [`TransitionPattern`](../transitionpattern). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TransitionValueBase](../transitionvaluebase)
 * Schnittstelle [IGlitterTransition](../iglittertransition)

@@ -3,12 +3,12 @@ title: ICaptionsCollection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: बंद कैप्शन का एक संग्रह दर्शाता है।
 type: docs
-weight: 5440
+weight: 5460
 url: /hi/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection इंटरफ़ेस
 
-Represents a collection of the closed captions.
+बंद कैप्शन का एक संग्रह दर्शाता है।
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -18,18 +18,18 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल-पढ़ने-योग्य Int32। |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर बंद कैप्शन लौटाता है। केवल-पढ़ने-योग्य [`ICaptions`](../icaptions)। |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर बंद कैप्शन लौटाता है। केवल-पढ़ने योग्य [`ICaptions`](../icaptions). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | एक स्ट्रीम से संग्रह के अंत में WebVTT बंद कैप्शन जोड़ता है। |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | संग्रह के अंत में WebVTT बंद कैप्शन जोड़ता है। |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | WebVTT बंद कैप्शन को संग्रह के अंत में जोड़ता है। |
 | [Clear](../../aspose.slides/icaptionscollection/clear)() | संग्रह से सभी बंद कैप्शन हटाता है। |
 | [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | संग्रह से निर्दिष्ट बंद कैप्शन हटाता है। |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | निर्दिष्ट अनुक्रमांक पर बंद कैप्शन हटाता है। |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | निर्दिष्ट अनुक्रमणिका पर बंद कैप्शन हटाता है। |
 
 ### देखें
 

@@ -3,10 +3,10 @@ title: ISaveOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Alternativ som styr hur en presentation sparas.
 type: docs
-weight: 4070
+weight: 4090
 url: /sv/aspose.slides.export/isaveoptions/
 ---
-## ISaveOptions interface
+## ISaveOptions gränssnitt
 
 Alternativ som styr hur en presentation sparas.
 
@@ -18,13 +18,13 @@ public interface ISaveOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Read-write String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparande av framstegsuppdateringar i procent. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Read/write Boolean. Standardvärdet är **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Returnerar eller anger typsnitt som används om källtypsnittet inte hittas. Läs-skriv String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för sparande av förloppsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och beslutar om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Gradient-Stopps dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Sammlung von Verlaufspunkten dar.
 type: docs
-weight: 6030
+weight: 6050
 url: /de/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection Schnittstelle
 
-Stellt eine Sammlung von Gradient-Stopps dar.
+Stellt eine Sammlung von Verlaufspunkten dar.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -16,22 +16,22 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Gibt den Gradient-Stop nach Index zurück. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Gibt den Verlaufspunkt nach Index zurück. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Erstellt einen neuen Gradient-Stop und fügt ihn am Ende der Sammlung hinzu. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Erstellt einen neuen Gradient-Stop und fügt ihn am Ende der Sammlung hinzu. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Erstellt einen neuen Gradient-Stop und fügt ihn am Ende der Sammlung hinzu. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Entfernt alle Gradient-Stops aus der Sammlung. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Erstellt einen neuen Gradient-Stop und fügt ihn an der angegebenen Position in die Sammlung ein. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Erstellt einen neuen Gradient-Stop und fügt ihn an der angegebenen Position in die Sammlung ein. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Erstellt einen neuen Gradient-Stop und fügt ihn an der angegebenen Position in die Sammlung ein. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Entfernt den Gradient-Stop an der angegebenen Position. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Erstellt den neuen Verlaufspunkt und fügt ihn am Ende der Sammlung hinzu. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Erstellt den neuen Verlaufspunkt und fügt ihn am Ende der Sammlung hinzu. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Erstellt den neuen Verlaufspunkt und fügt ihn am Ende der Sammlung hinzu. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Entfernt alle Verlaufspunkte aus einer Sammlung. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Erstellt den neuen Verlaufspunkt und fügt ihn an dem angegebenen Index in die Sammlung ein. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Erstellt den neuen Verlaufspunkt und fügt ihn an dem angegebenen Index in die Sammlung ein. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Erstellt den neuen Verlaufspunkt und fügt ihn an dem angegebenen Index in die Sammlung ein. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Entfernt einen Verlaufspunkt an dem angegebenen Index. |
 
 ### Siehe auch
 

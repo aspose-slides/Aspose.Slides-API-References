@@ -3,7 +3,7 @@ title: SaveOptionsFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 保存オプションのインスタンスを作成できます
 type: docs
-weight: 4460
+weight: 4480
 url: /ja/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory クラス
@@ -18,7 +18,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [SaveOptionsFactory](saveoptionsfactory)() | 既定のコンストラクタです。 |
+| [SaveOptionsFactory](saveoptionsfactory)() | デフォルト コンストラクタです。 |
 
 ## メソッド
 

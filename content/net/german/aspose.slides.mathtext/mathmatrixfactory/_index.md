@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen einer mathematischen Matrix
 type: docs
-weight: 8860
+weight: 8880
 url: /de/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory Klasse
@@ -26,7 +26,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Erstellt eine mathematische Matrix |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität
 

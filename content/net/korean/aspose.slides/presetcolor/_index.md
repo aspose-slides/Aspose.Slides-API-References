@@ -3,12 +3,12 @@ title: PresetColor
 second_title: Aspose.Sildes for .NET API 참조
 description: 미리 정의된 색상 프리셋을 나타냅니다.
 type: docs
-weight: 9660
+weight: 9680
 url: /ko/aspose.slides/presetcolor/
 ---
 ## PresetColor 열거형
 
-사전 정의된 색상 프리셋을 나타냅니다.
+미리 정의된 색상 프리셋을 나타냅니다.
 
 ```csharp
 public enum PresetColor

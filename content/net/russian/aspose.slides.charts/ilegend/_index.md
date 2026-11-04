@@ -1,14 +1,14 @@
 ---
 title: ILegend
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства легенды диаграмм.
 type: docs
-weight: 2130
+weight: 2150
 url: /ru/aspose.slides.charts/ilegend/
 ---
 ## ILegend интерфейс
 
-Представляет свойства легенды диаграммы.
+Represents chart's legend properties.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -16,16 +16,16 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает элементы легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/запись Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Задает позицию легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют действие этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает позицию легенды на диаграмме. Значения X, Y, Width, Height, отличные от NaN, переопределяют действие этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IActualLayout](../iactuallayout)
 * интерфейс [IFormattedTextContainer](../iformattedtextcontainer)

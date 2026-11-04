@@ -1,9 +1,9 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示字体定义。
 type: docs
-weight: 5830
+weight: 5850
 url: /zh/aspose.slides/ifontdata/
 ---
 ## IFontData 接口
@@ -18,7 +18,7 @@ public interface IFontData
 
 | 名称 | 描述 |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 返回字体名称。只读 String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 返回字体名称。只读 String。 |
 
 ## 方法
 
@@ -26,7 +26,7 @@ public interface IFontData
 | --- | --- |
 | [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | 返回字体名称，将主题引用替换为实际使用的字体。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

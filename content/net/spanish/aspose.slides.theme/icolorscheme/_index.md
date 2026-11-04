@@ -1,9 +1,9 @@
 ---
 title: IColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Almacena los colores definidos por el tema.
 type: docs
-weight: 11150
+weight: 11170
 url: /es/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interfaz
@@ -14,7 +14,7 @@ Almacena los colores definidos por el tema.
 public interface IColorScheme : ISlideComponent
 ```
 
-## Properties
+## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |

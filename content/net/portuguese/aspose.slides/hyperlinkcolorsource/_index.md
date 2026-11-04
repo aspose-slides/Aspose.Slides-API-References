@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes para Referência de API .NET
-description: Representa a origem da cor do hiperlink.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa a origem da cor do hyperlink.
 type: docs
-weight: 5140
+weight: 5160
 url: /pt/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource enumeração
 
-Representa a origem da cor do hiperlink.
+Representa a origem da cor do hyperlink.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -18,10 +18,10 @@ public enum HyperlinkColorSource
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Styles | `0` | Styles. |
+| Styles | `0` | Estilos. |
 | PortionFormat | `1` | Formato da porção. |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

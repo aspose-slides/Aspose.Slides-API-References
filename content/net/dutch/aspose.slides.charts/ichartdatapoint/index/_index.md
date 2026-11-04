@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt tot welke van de kindcollecties van de ouder dit gegevenspunt behoort. Lezen UInt32.
+description: Bepaalt tot welke van de kindverzameling van de ouder dit gegevenspunt van toepassing is. Leest UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /nl/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index eigenschap
 
-Bepaalt tot welke van de kindcollecties van de ouder dit gegevenspunt behoort. Lezen UInt32.
+Bepaalt tot welke van de kindverzameling van de ouder dit gegevenspunt van toepassing is. Leest UInt32.
 
 ```csharp
 public uint Index { get; }

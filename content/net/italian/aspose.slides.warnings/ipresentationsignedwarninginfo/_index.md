@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Questo avviso indica che la presentazione in lettura ha la firma e che questa firma verrà rimossa durante l'elaborazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Questo avviso indica che la presentazione letta ha la firma e che questa firma sarà rimossa durante l'elaborazione.
 type: docs
-weight: 11790
+weight: 11810
 url: /it/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo interfaccia
 
-Questo avviso indica che la presentazione in lettura ha la firma e che questa firma verrà rimossa durante l'elaborazione.
+Questo avviso indica che la presentazione letta contiene la firma e che questa firma verrà rimossa durante l'elaborazione.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo

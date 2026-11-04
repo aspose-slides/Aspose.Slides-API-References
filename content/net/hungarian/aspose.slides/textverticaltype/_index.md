@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: Meghatározza a szöveg függőleges írási módját.
 type: docs
-weight: 11030
+weight: 11050
 url: /hu/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enumeráció
 
-Meghatározza a szöveg függőleges írási módját.
+Meghatározza a függőleges írási módot egy szöveghez.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -21,7 +21,7 @@ public enum TextVerticalType : sbyte
 | NotDefined | `-1` | Nincs definiálva. |
 | Horizontal | `0` | Vízszintes szöveg. |
 | Vertical | `1` | Függőleges szöveg. |
-| Vertical270 | `2` | 270 fokos függőleges szöveg. |
+| Vertical270 | `2` | Függőleges 270 fokos szöveg. |
 | WordArtVertical | `3` | WordArt függőleges szöveg. |
 | EastAsianVertical | `4` | Kelet-ázsiai függőleges szöveg. |
 | MongolianVertical | `5` | Mongol függőleges szöveg. |

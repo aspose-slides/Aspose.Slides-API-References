@@ -1,14 +1,14 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes для .NET справки API
-description: Позволяет создать элемент MathematicalText
+second_title: Aspose.Sildes для .NET API
+description: Позволяет создавать элемент MathematicalText
 type: docs
-weight: 9070
+weight: 9090
 url: /ru/aspose.slides.mathtext/mathematicaltextfactory/
 ---
-## MathematicalTextFactory класс
+## Класс MathematicalTextFactory
 
-Позволяет создать элемент MathematicalText
+Позволяет создавать элемент MathematicalText
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -25,7 +25,7 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 | Имя | Описание |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Создать пустой элемент математического текста |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста с указанным значением |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста со указанным значением |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Создать пустой элемент математического текста с указанным значением |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Создать пустой элемент математического текста с указанным значением и свойствами форматирования |
 

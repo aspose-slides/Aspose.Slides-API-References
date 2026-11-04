@@ -1,9 +1,9 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，包含有效的效果格式屬性。
+second_title: Aspose.Sildes .NET API 參考
+description: 不可變物件，包含有效的效果格式屬性。
 type: docs
-weight: 5750
+weight: 5770
 url: /zh-hant/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData 介面
@@ -20,10 +20,10 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | 允許取得基礎 IEffectParamSource 介面。唯讀 [`IEffectParamSource`](../ieffectparamsource)。 |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | 模糊效果。唯讀 [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata)。 |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 填充疊加效果。唯讀 [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata)。 |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 填充覆蓋效果。唯讀 [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata)。 |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | 發光效果。唯讀 [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata)。 |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 內部陰影。唯讀 [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata)。 |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 返回 true，如果所有效果都已禁用（如剛創建的，預設 EffectFormat 物件）。唯讀 Boolean。 |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 若所有效果皆已停用（如剛建立的預設 EffectFormat 物件）則回傳 true。唯讀 Boolean。 |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 外部陰影。唯讀 [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata)。 |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | 預設陰影。唯讀 [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata)。 |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 反射。唯讀 [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata)。 |
@@ -31,7 +31,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ### 備註
 
-此介面與 [`IEffectFormat`](../ieffectformat) 介面一起使用，以傳回套用繼承的有效格式值。
+此介面與 [`IEffectFormat`](../ieffectformat) 介面一起使用，以回傳套用繼承的有效格式值。
 
 ### 另請參閱
 

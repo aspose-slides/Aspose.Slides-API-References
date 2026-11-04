@@ -1,14 +1,14 @@
 ---
 title: DataLabel
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy sor címkéit képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy sorozat címkéit képviseli.
 type: docs
-weight: 1550
+weight: 1560
 url: /hu/aspose.slides.charts/datalabel/
 ---
 ## DataLabel osztály
 
-Egy sor címkéit képviseli.
+A sorozat címkéit képviseli.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -18,36 +18,37 @@ public class DataLabel : IDataLabel
 
 | Név | Leírás |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | Új DataLabel példányt hoz létre. |
+| [DataLabel](datalabel)(IChartDataPoint) | Új példányt hoz létre a DataLabel osztályból. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Meghatározza a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Meghatározza a diagram elem tényleges x-helyzetét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Meghatározza a diagram elem tényleges felső pozícióját a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Meghatározza a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Meghatározza a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Meghatározza a diagram elem tényleges felső pozícióját a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
 | [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Alsó. Csak olvasható Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Visszaadja a szülő diagramot. Csak olvasható [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Visszaadja a címkeformátumot. Csak olvasható [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | A cím magasságát a diagram magasságának arányában adja meg vagy állítja be. Olvasási/írási Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | Hamis azt jelenti, hogy a címke nem látható (és így minden Show*-jelző (ShowValue, …) hamis). Csak olvasható Boolean. |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Visszaadja az adatcímke formátumát. Csak olvasható [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Visszaadja vagy beállítja egy cím magasságát a diagram magasságának hányadosaként. Olvasás/írás Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | A hamis azt jelenti, hogy az adatcímke nem látható (és ezért minden Show*-flag (ShowValue, ...) hamis). Csak olvasható Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | Megkapja vagy beállítja az adatcímke alakzat típusát. NotDefined értéket ad vissza, ha nincs alakzat definiálva. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | Jobb. Csak olvasható Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Visszaadja a szövegformátumot. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg felülírja a címke automatikusan generált szövegét. Az automatikusan generált szöveg a ShowSeriesName, ShowValue, … tulajdonságok által kezelt szöveget jelenti, amely a TextFormatManager.TextFormat tulajdonsággal formázott. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | A munkafüzet adatcelláját adja meg vagy állítja be. Alkalmazható, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | A cím szélességét a diagram szélességének arányában adja meg vagy állítja be. Olvasási/írási Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | A cím x-koordinátáját a diagram szélességének arányában adja meg vagy állítja be. Olvasási/írási Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | A cím y-koordinátáját a diagram magasságának arányában adja meg vagy állítja be. Olvasási/írási Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg felülírja az adatcímke automatikusan generált szövegét. Az adatcímke automatikusan generált szövege azt jelenti, hogy a ShowSeriesName, ShowValue, … tulajdonságok által kezelt szöveg, amely a TextFormatManager.TextFormat tulajdonsággal van formázva. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Megkapja vagy beállítja a munkafüzet adatcelláját. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Visszaadja vagy beállítja egy cím szélességét a diagram szélességének hányadosaként. Olvasás/írás Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Visszaadja vagy beállítja egy cím x koordinátáját a diagram szélességének hányadosaként. Olvasás/írás Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Visszaadja vagy beállítja egy cím y koordinátáját a diagram magasságának hányadosaként. Olvasás/írás Single. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding objektumot a „text” paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, csak a szövegét módosítja. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text értéke alapján. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | A címkét rejtetté teszi az összes Show*-jelző (ShowValue, …) hamis állapotra állításával. Az IsVisible ezután hamis lesz. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding-ot a paraméter "text" szövegével. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen megváltoztatja a szövegét. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Visszaadja a tényleges címkeszöveget a DataLabelFormat beállítások vagy a TextFrameForOverriding.Text érték alapján. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Elrejti az adatcímkét az összes Show*-flag (ShowValue, ...) hamis állapotra állításával. Az IsVisible hamis lesz ezután. |
 
 ### Lásd még
 

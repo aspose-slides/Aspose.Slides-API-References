@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 BrightnessContrast 效果。调整亮度和对比度
+description: 表示 BrightnessContrast 效果。 调整亮度和对比度
 type: docs
-weight: 2930
+weight: 2950
 url: /zh/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast 类
 
-表示 BrightnessContrast 效果。调整亮度和对比度
+表示 BrightnessContrast 效果。 调整亮度和对比度
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -16,19 +16,19 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。 只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | 确定指定的 [`BrightnessContrast`](../brightnesscontrast) 是否等于当前的 [`BrightnessContrast`](../brightnesscontrast)。 |
 | [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | 获取在应用继承后的有效 BrightnessContrast 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | 用作特定类型的哈希函数。 |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | 作为特定类型的散列函数。 |
 
-### 参见
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IBrightnessContrast](../ibrightnesscontrast)

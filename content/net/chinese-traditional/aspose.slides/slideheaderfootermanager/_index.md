@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示管理器，負責保持投影片頁腳、日期時間、頁碼佔位符的行為。
+description: 表示管理投影片頁腳、日期時間、頁碼佔位符行為的管理員。
 type: docs
-weight: 9980
+weight: 10000
 url: /zh-hant/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager 類別
 
-表示管理器，負責保持投影片頁腳、日期時間、頁碼佔位符的行為。
+表示管理投影片頁腳、日期時間、頁碼佔位符行為的管理員。
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -27,9 +27,9 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定投影片日期時間佔位符的文字。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定文字到投影片日期時間佔位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可見性。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定投影片頁腳佔位符的文字。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定文字到投影片頁腳佔位符。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可見性。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可見性。 |
 

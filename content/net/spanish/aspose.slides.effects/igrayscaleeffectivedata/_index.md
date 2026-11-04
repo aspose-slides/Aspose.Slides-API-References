@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto de escala de grises. Convierte todos los valores de color del efecto a una tonalidad de gris correspondiente a su luminancia. Los valores alfa (opacidad) del efecto no se ven afectados.
+description: Objeto inmutable que representa un efecto de escala de grises. Convierte todos los valores de color del efecto a un tono de gris correspondiente a su luminancia. Los valores alfa de opacidad del efecto no se ven afectados.
 type: docs
-weight: 3350
+weight: 3370
 url: /es/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interfaz
 
-Objeto inmutable que representa un efecto de escala de grises. Convierte todos los valores de color del efecto a una tonalidad de gris, correspondiente a su luminancia. Los valores alfa (opacidad) del efecto no se ven afectados.
+Objeto inmutable que representa un efecto de escala de grises. Convierte todos los valores de color del efecto a un tono de gris, correspondiente a su luminancia. Los valores alfa (opacidad) del efecto no se ven afectados.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData

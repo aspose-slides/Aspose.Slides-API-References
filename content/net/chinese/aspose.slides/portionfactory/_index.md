@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
 second_title: Aspose.Sildes for .NET API 参考
-description: 允许创建测试片段
+description: 允许创建测试部分
 type: docs
-weight: 9480
+weight: 9500
 url: /zh/aspose.slides/portionfactory/
 ---
 ## PortionFactory 类
 
-允许创建测试片段
+允许创建测试部分
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -24,15 +24,15 @@ public class PortionFactory : IPortionFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | 创建一个空的文本片段。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定的片段数据创建片段。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 从指定字符串创建文本片段。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | 创建一个空的文本部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分数据创建一个部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 从指定的字符串创建文本部分。 |
 
 ### 备注
 
-用于 COM 兼容性。
+用于 COM 兼容性
 
-### 另见
+### 另请参见
 
 * 接口 [IPortionFactory](../iportionfactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

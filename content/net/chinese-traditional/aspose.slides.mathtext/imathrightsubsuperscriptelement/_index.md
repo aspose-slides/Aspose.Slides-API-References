@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定 Sub-Superscript 物件，此物件由一個基底以及位於基底右側的下標與上標組成。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 指定 Sub-Superscript 物件，它由基底以及放置於基底右側的下標和上標組成。
 type: docs
-weight: 8450
+weight: 8470
 url: /zh-hant/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement 介面
 
-指定 Sub-Superscript 物件，由 base 以及位於 base 右側的下標 (subscript) 與上標 (superscript) 組成。
+指定 Sub-Superscript 物件，該物件由基底以及放置於基底右側的下標和上標組成。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 名稱 | 描述 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下標/上標的對齊方式。當為 true 時，下標與上標彼此水平對齊。當為 false 時，它們會根據 base 的形狀進行字距調整。預設值為 false。 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允許取得 base IMathElement 介面 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Base 參數 |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下標/上標 的對齊方式。當為 true 時，下標與上標水平對齊。當為 false 時，它們會根據基底的形狀進行調整。預設值為 false。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允許取得基底 IMathElement 介面 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基底參數 |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下標參數 |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上標參數 |
 

@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Glitter-diaovergangseffect.
+description: Glitter diaovergangseffect.
 type: docs
-weight: 10100
+weight: 10120
 url: /nl/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interface
 
-Glitter-diaovergangseffect.
+Glitter slide transition effect.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Stelt toe om de basis ITransitionValueBase interface te verkrijgen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Specificeert de vorm van de visuals die tijdens de overgang worden gebruikt. Lezen/Schrijven [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Specificeert de vorm van de visuals die tijdens de overgang worden gebruikt. Lezen/schrijven [`TransitionPattern`](../transitionpattern). |
 
 ### Zie ook
 

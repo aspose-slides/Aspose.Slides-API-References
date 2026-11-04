@@ -1,9 +1,9 @@
 ---
 title: SwfOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供控制演示文稿以 Swf 格式保存方式的选项。
 type: docs
-weight: 4530
+weight: 4550
 url: /zh/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions 类
@@ -25,30 +25,30 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | 名称 | 描述 |
 | --- | --- |
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | 指定生成的 SWF 文档是否应压缩。默认值为 `true`。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。可读写 String。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
 | [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | 启用/禁用上下文菜单。默认值为 true。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的可视样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | 指定 JPEG 图像的质量。默认值为 95。 |
 | [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | 将在查看器右上角显示为徽标的图像。图像应为 32x64 像素的 PNG 图像，否则徽标可能显示不正确。 |
-| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 获取或设置徽标的完整超链接地址。仅当指定了 [`LogoImageBytes`](./logoimagebytes) 时才有效。 |
+| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 获取或设置徽标的完整超链接地址。仅在指定了 [`LogoImageBytes`](./logoimagebytes) 时才有效。 |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 显示/隐藏底部面板。可在 flashvars 中覆盖。默认值为 true。 |
+| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 显示/隐藏底部窗格。可在 flashvars 中覆盖。默认值为 true。 |
 | [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 显示/隐藏全屏按钮。可在 flashvars 中覆盖。默认值为 true。 |
 | [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认值为 `false`。 |
-| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 显示/隐藏左侧面板。可在 flashvars 中覆盖。默认值为 true。 |
-| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | 指定是否显示页面周围的边框。默认值为 true。 |
+| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 显示/隐藏左侧窗格。可在 flashvars 中覆盖。默认值为 true。 |
+| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | 指定是否应显示页面周围的边框。默认值为 true。 |
 | [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | 显示/隐藏页面步进器。可在 flashvars 中覆盖。默认值为 true。 |
-| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 显示/隐藏搜索区域。可在 flashvars 中覆盖。默认值为 true。 |
-| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 显示/隐藏整个顶部面板。可在 flashvars 中覆盖。默认值为 true。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
+| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 显示/隐藏搜索区段。可在 flashvars 中覆盖。默认值为 true。 |
+| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 显示/隐藏整个顶部窗格。可在 flashvars 中覆盖。默认值为 true。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿 [`ISlidesLayoutOptions`](../islideslayoutoptions) 时幻灯片在页面上的放置模式。此属性不支持分配类型为 [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 的对象。 |
-| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 以打开的左侧面板启动。可在 flashvars 中覆盖。默认值为 false。 |
+| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 以打开的左侧窗格开始。可在 flashvars 中覆盖。默认值为 false。 |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | 指定生成的 SWF 文档是否应包含集成文档查看器。默认值为 `true`。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
-以下示例演示如何将 PowerPoint 转换为 SWF Flash。
+以下示例展示如何将 PowerPoint 转换为 SWF Flash。
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation presentation = new Presentation("HelloWorld.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [ISwfOptions](../iswfoptions)

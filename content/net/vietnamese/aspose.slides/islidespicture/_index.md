@@ -1,14 +1,14 @@
 ---
 title: ISlidesPicture
-second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một hình ảnh trong bản trình bày.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một hình ảnh trong bài thuyết trình.
 type: docs
-weight: 7110
+weight: 7130
 url: /vi/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture giao diện
 
-Đại diện cho một hình ảnh trong bản trình bày.
+Biểu thị một hình ảnh trong bài thuyết trình.
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -19,11 +19,11 @@ public interface ISlidesPicture : ISlideComponent
 | Tên | Mô tả |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Trả về hoặc đặt hình ảnh được nhúng. Đọc/ghi [`IPPImage`](../ippimage). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Trả về hoặc đặt hình ảnh nhúng. Đọc/ghi [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Trả về tập hợp các hiệu ứng biến đổi hình ảnh. Chỉ đọc [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Trả về hoặc đặt URL của hình ảnh liên kết. Đọc/ghi String. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ISlideComponent](../islidecomponent)
 * không gian tên [Aspose.Slides](../../aspose.slides)

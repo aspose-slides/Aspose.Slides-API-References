@@ -3,12 +3,12 @@ title: PresentationFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: COM インターフェイスを介してプレゼンテーションを作成できます
 type: docs
-weight: 9600
+weight: 9620
 url: /ja/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory クラス
 
-COM インターフェイスを介してプレゼンテーションを作成できます
+COM インターフェイス経由でプレゼンテーションを作成できます。
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -16,37 +16,37 @@ public class PresentationFactory : IPresentationFactory
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | プレゼンテーションファクトリの静的インスタンスです。読み取り専用 [`PresentationFactory`](../presentationfactory)。 |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | プレゼンテーション工場の静的インスタンスです。読み取り専用 [`PresentationFactory`](../presentationfactory)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | 新しいプレゼンテーションを作成します。 |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 追加のロードオプションを使用して新しいプレゼンテーションを作成します。 |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | ストリームから新しい PresentationInfo オブジェクトを作成し、プレゼンテーションにバインドします。指定されたストリーム内のプレゼンテーション情報を取得します。 |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | ファイルから新しい PresentationInfo オブジェクトを作成し、プレゼンテーションにバインドします。 |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 追加のロードオプションで新しいプレゼンテーションを作成します |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | ストリームから新しい PresentationInfo オブジェクトを作成し、プレゼンテーションをバインドします。指定されたストリーム内のプレゼンテーションに関する情報を取得します。 |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | ファイルから新しい PresentationInfo オブジェクトを作成し、プレゼンテーションをバインドします。 |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | スライドから生テキストを取得します |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | スライドから生テキストを取得します |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | スライドから生テキストを取得します |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | 配列から既存のプレゼンテーションを読み取ります |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | ストリームから既存のプレゼンテーションを読み取ります |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | ファイルから既存のプレゼンテーションを読み取ります |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 追加のロードオプションを使用して配列から既存のプレゼンテーションを読み取ります |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 追加のロードオプションを使用してストリームから既存のプレゼンテーションを読み取ります |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 追加のロードオプションを使用してファイルから既存のプレゼンテーションを読み取ります |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 追加のロードオプションで配列から既存のプレゼンテーションを読み取ります |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 追加のロードオプションでストリームから既存のプレゼンテーションを読み取ります |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 追加のロードオプションでストリームから既存のプレゼンテーションを読み取ります |
 
 ### 例
 
-次の例は、プレゼンテーション形式の確認方法を示しています。
+以下の例は、プレゼンテーション形式を確認する方法を示します。
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-次の例は、プレゼンテーションのプロパティ取得方法を示しています。
+以下の例は、プレゼンテーションのプロパティを取得する方法を示します。
 
 ```csharp
 [C#]
@@ -67,10 +67,10 @@ IDocumentProperties props = info.ReadDocumentProperties();
 Console.WriteLine(props.CreatedTime);
 Console.WriteLine(props.Subject);
 Console.WriteLine(props.Title);
-// …
+// ..
 ```
 
-次の例は、プレゼンテーションのプロパティ更新方法を示しています。
+以下の例は、プレゼンテーションのプロパティを更新する方法を示します。
 
 ```csharp
 [C#]
@@ -80,7 +80,7 @@ props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IPresentationFactory](../ipresentationfactory)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

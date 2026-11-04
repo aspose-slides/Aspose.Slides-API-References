@@ -3,10 +3,10 @@ title: TileFlip
 second_title: Aspose.Sildes için .NET API Referansı
 description: Döşeme çevirme modunu tanımlar.
 type: docs
-weight: 11500
+weight: 11520
 url: /tr/aspose.slides/tileflip/
 ---
-## TileFlip enumerasyon
+## TileFlip enum
 
 Döşeme çevirme modunu tanımlar.
 
@@ -16,7 +16,7 @@ public enum TileFlip
 
 ### Değerler
 
-| Name | Value | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | NoFlip | `0` |  |

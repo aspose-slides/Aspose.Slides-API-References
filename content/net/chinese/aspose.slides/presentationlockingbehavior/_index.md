@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes .NET API 参考
-description: 表示在加载和使用 IPresentation./ipresentation 实例时，对 IPresentation./ipresentation 源文件或 Stream 的处理行为。
+description: 表示在加载和使用 IPresentation./ipresentation 实例时，对 IPresentation./ipresentation 源文件或流的处理行为。
 type: docs
-weight: 9630
+weight: 9650
 url: /zh/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior 枚举
 
-表示在加载和使用 [`IPresentation`](../ipresentation) 实例时对 [`IPresentation`](../ipresentation) 源（文件或 Stream）的处理行为。
+表示在加载和使用 [`IPresentation`](../ipresentation) 实例时，处理 [`IPresentation`](../ipresentation) 源（文件或 Stream）的行为。
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| LoadAndRelease | `0` | 源仅在 [`IPresentation`](../ipresentation) 构造函数执行期间被锁定。如果 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 设置为 false，则所有 BLOB 将被加载到内存中。否则，可能会使用其他方式，例如临时文件。此行为比 KeepLocked 慢，如果可以将源的所有权传递给 [`IPresentation`](../ipresentation)，建议使用 KeepLocked。 |
-| KeepLocked | `1` | 源将在 [`IPresentation`](../ipresentation) 实例的整个生命周期内被锁定，直至其被释放。[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 必须设置为 true 才能使用此行为，否则将抛出异常。推荐使用此行为，它比 LoadAndRelease 更快且占用更少的内存。 |
+| LoadAndRelease | `0` | 源仅在 [`IPresentation`](../ipresentation) 构造函数执行期间被锁定。如果 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 设置为 false，所有 BLOB 将被加载到内存中。否则，可能会使用其他方式，例如临时文件。此行为比 KeepLocked 更慢，如果可以将源的所有权传递给 [`IPresentation`](../ipresentation)，建议使用 KeepLocked。 |
+| KeepLocked | `1` | 源将在 [`IPresentation`](../ipresentation) 实例的整个生命周期内被锁定，直至其被释放。必须将 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 设置为 true 才能使用此行为，否则将抛出异常。推荐使用此行为，它比 LoadAndRelease 更快且占用更少的内存。 |
 
 ### 备注
 
-源是传递给 [`IPresentation`](../ipresentation) 构造函数的参数。以下示例中，源是 “pres.pptx” 文件：
+源是传递给 [`IPresentation`](../ipresentation) 构造函数的参数。在下面的示例中，源是 "pres.pptx" 文件：
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,9 +31,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-对于此示例，源（“pres.pptx” 文件）将在 [`IPresentation`](../ipresentation) 实例的生命周期内被锁定，即其他进程无法更改或删除它。
+对于此示例，源（"pres.pptx" 文件）将在 [`IPresentation`](../ipresentation) 实例的生命周期内被锁定，即其他进程无法更改或删除它。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

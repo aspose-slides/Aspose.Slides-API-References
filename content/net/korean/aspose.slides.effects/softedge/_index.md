@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 소프트 엣지 효과를 나타냅니다. 모양의 가장자리는 흐릿해지지만 채우기에는 영향을 주지 않습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 소프트 에지 효과를 나타냅니다. 도형의 가장자리는 흐릿하게 처리되지만 채우기는 영향을 받지 않습니다.
 type: docs
-weight: 3650
+weight: 3670
 url: /ko/aspose.slides.effects/softedge/
 ---
 ## SoftEdge 클래스
 
-소프트 엣지 효과를 나타냅니다. 모양의 가장자리는 흐릿하게 처리되지만 채우기에는 영향을 주지 않습니다.
+소프트 에지 효과를 나타냅니다. 도형의 가장자리는 흐릿하게 처리되지만, 채우기는 영향을 받지 않습니다.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,14 +18,14 @@ public sealed class SoftEdge : ISoftEdge
 
 | 이름 | 설명 |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 모서리에 적용할 블러 반경을 지정합니다. 읽기/쓰기 Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 지정된 가장자리에 적용할 블러 반경을 지정합니다. 읽기/쓰기 Double. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 지정된 [`SoftEdge`](../softedge)가 현재 [`SoftEdge`](../softedge)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 상속이 적용된 실제 Soft Edge 효과 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 상속이 적용된 유효한 Soft Edge 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
 
 ### 참고

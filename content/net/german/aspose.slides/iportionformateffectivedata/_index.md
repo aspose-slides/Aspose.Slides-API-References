@@ -1,33 +1,33 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das wirksame Textabschnittsformatierungseigenschaften enthält.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das effektive Textabschnitt-Formatierungseigenschaften enthält.
 type: docs
-weight: 6740
+weight: 6760
 url: /de/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das wirksame Textabschnittsformatierungseigenschaften enthält.
+Unveränderliches Objekt, das effektive Textabschnitt-Formatierungseigenschaften enthält.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 ```
 
-## Eigenschaften
+## Properties
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Gibt die IBasePortionFormatEffectiveData Schnittstelle zurück. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Gibt die Lesezeichen-Kennung zurück. Nur lesbar String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Gibt den für Mausklick definierten Hyperlink zurück. Nur lesbar [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Gibt den für Mausüberfahren definierten Hyperlink zurück. Nur lesbar [`IHyperlink`](../ihyperlink). |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Gibt die Schnittstelle IBasePortionFormatEffectiveData zurück. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Gibt die Lesezeichenkennung zurück. Nur lesbarer String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Gibt den Hyperlink zurück, der für Mausklick definiert ist. Nur lesbar [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Gibt den Hyperlink zurück, der für Mauszeiger-Überlagerung definiert ist. Nur lesbar [`IHyperlink`](../ihyperlink). |
 
 ### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`IPortionFormat`](../iportionformat) Schnittstelle verwendet, um wirksame Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`IPortionFormat`](../iportionformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * Namensraum [Aspose.Slides](../../aspose.slides)

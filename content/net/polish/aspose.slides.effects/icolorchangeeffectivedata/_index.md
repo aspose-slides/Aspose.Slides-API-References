@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Niezmienny obiekt reprezentujący efekt zmiany koloru. Instancje FromColor są zastępowane instancjami ToColor.
 type: docs
-weight: 3230
+weight: 3250
 url: /pl/aspose.slides.effects/icolorchangeeffectivedata/
 ---
-## IColorChangeEffectiveData interfejs
+## IColorChangeEffectiveData interface
 
-Niezmienny obiekt reprezentujący efekt zmiany koloru. Instancje FromColor są zastępowane instancjami ToColor.
+Niezmienny obiekt, który reprezentuje efekt zmiany koloru. Instancje FromColor są zastępowane instancjami ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Kolor, który zostanie zastąpiony. Tylko do odczytu Color. |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Kolor, który zastąpi. Tylko do odczytu Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Zwraca wartość boolowską określającą, czy komponent alfa powinien być użyty. Tylko do odczytu Boolean. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Zwraca wartość boolowską określającą, czy składnik alfa powinien być używany. Tylko do odczytu Boolean. |
 
 ### Zobacz także
 

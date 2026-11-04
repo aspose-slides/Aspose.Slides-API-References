@@ -1,22 +1,24 @@
 ---
 title: Item
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mendapatkan label data untuk titik data dengan indeks yang ditentukan.
+description: Mengambil label data untuk titik data dengan indeks yang ditentukan.
 type: docs
-weight: 60
+weight: 70
 url: /id/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection indeks
 
-Mengembalikan label data untuk titik data dengan indeks yang ditentukan.
+Mengambil label data untuk titik data dengan indeks yang ditentukan.
 
 ```csharp
 public IDataLabel this[int index] { get; }
 ```
 
-### Catatan
+### Keterangan
 
-Cara alternatif untuk mengakses label data adalah: - SeriesEx.DataPoints[i].Label - mengelola properti label.
+Cara alternatif untuk mengakses label data adalah:
+- SeriesEx.DataPoints[i].Label
+- manage label properties.
 
 ### Lihat Juga
 

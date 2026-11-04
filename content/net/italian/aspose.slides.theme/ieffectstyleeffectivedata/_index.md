@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes per .NET API Reference
-description: Oggetto immutabile che contiene le proprietà efficaci dello stile dell'effetto.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che contiene le proprietà di stile dell'effetto effettivo.
 type: docs
-weight: 11200
+weight: 11220
 url: /it/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà efficaci dello stile dell'effetto.
+Oggetto immutabile che contiene le proprietà di stile dell'effetto effettivo.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,12 +18,12 @@ public interface IEffectStyleEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Restituisce un formato effetto. Solo lettura [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Restituisce un formato di effetto. Solo lettura [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
 | [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Restituisce un formato 3d. Solo lettura [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
-### Osservazioni
+### Note
 
-Questa interfaccia è utilizzata come parte di [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+Questa interfaccia è usata come parte di [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
 ### Vedi anche
 

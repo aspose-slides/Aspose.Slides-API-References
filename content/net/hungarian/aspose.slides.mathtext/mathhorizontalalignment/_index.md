@@ -1,9 +1,9 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes a .NET API Referenciája
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Vízszintes igazítás
 type: docs
-weight: 8780
+weight: 8800
 url: /hu/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment enumeráció
@@ -18,7 +18,7 @@ public enum MathHorizontalAlignment
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `0` | Az érték nincs definiálva |
+| NotDefined | `0` | Az érték nincs meghatározva |
 | Left | `1` | Balra igazítás |
 | Center | `2` | Középre |
 | Right | `3` | Jobbra |

@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Představuje kolekci digitálních podpisů připojených k dokumentu.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje kolekci digitálních podpisů připojených k dokumentu.
 type: docs
-weight: 5700
+weight: 5720
 url: /cs/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection rozhraní
 
-Představuje kolekci digitálních podpisů připojených k dokumentu.
+Reprezentuje kolekci digitálních podpisů připojených k dokumentu.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>

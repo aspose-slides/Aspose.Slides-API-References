@@ -3,10 +3,10 @@ title: IAnimationTimeLine
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Zeitleiste der Animation dar.
 type: docs
-weight: 5200
+weight: 5220
 url: /de/aspose.slides/ianimationtimeline/
 ---
-## IAnimationTimeLine interface
+## IAnimationTimeLine Schnittstelle
 
 Stellt die Zeitleiste der Animation dar.
 
@@ -18,8 +18,8 @@ public interface IAnimationTimeLine
 
 | Name | Beschreibung |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Gibt eine Sammlung interaktiver Sequenzen zurück. Diese Sequenzen können nur Effekte durch "click on shape" mit angegebenem Zielobjekt enthalten. Nur lesbar [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Gibt die Hauptsequenz zurück, die nur die Haupt-Effekte-Sammlung enthalten kann. Nur lesbar [`ISequence`](../../aspose.slides.animation/isequence). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Gibt eine Sammlung interaktiver Sequenzen zurück. Diese Sequenzen können nur Effekte durch "Klick auf Form" mit angegebenem Zielobjekt enthalten. Nur lesbar [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Gibt die Hauptsequenz zurück, die nur die Haupt-Effektsammlung enthalten kann. Nur lesbar [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Gibt eine Sammlung von Textanimationen zurück. Nur lesbar [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en yttre skuggeffekt.
 type: docs
-weight: 3470
+weight: 3490
 url: /sv/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData gränssnitt
@@ -19,16 +19,16 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Suddighetsradie. Skrivskyddad Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Blur-radie. Skrivskyddad Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Skuggans riktning. Skrivskyddad Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Skuggans avstånd. Skrivskyddad Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rektangeljustering. Skrivskyddad [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Anger om skuggan ska rotera med formen när formen roteras. Skrivskyddad Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Anger horisontell skalningsfaktor, negativ skalning ger en spegling. Skrivskyddad Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Anger vertikal skalningsfaktor, negativ skalning ger en spegling. Skrivskyddad Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Skuggfärg. Skrivskyddad Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Anger horisontell skevningsvinkel (i grader). Skrivskyddad Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Anger vertikal skevningsvinkel (i grader). Skrivskyddad Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Anger den horisontella skalningsfaktorn, negativ skalning orsakar en spegling. Skrivskyddad Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Anger den vertikala skalningsfaktorn, negativ skalning orsakar en spegling. Skrivskyddad Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Skuggans färg. Skrivskyddad Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Anger den horisontella skevningsvinkeln (i grader). Skrivskyddad Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Anger den vertikala skevningsvinkeln (i grader). Skrivskyddad Double. |
 
 ### Se även
 

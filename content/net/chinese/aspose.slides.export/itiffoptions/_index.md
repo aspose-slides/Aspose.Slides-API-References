@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
 second_title: Aspose.Sildes for .NET API 参考
-description: 提供控制演示文稿以 TIFF 格式保存的选项。
+description: 提供控制演示文稿以 TIFF 格式保存方式的选项。
 type: docs
-weight: 4170
+weight: 4190
 url: /zh/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions 接口
 
-提供控制演示文稿以 TIFF 格式保存的选项。
+提供控制演示文稿以 TIFF 格式保存方式的选项。
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -19,17 +19,17 @@ public interface ITiffOptions : ISaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | 指定将彩色图像转换为黑白图像的算法。仅当 [`CompressionType`](./compressiontype) 设置为 CCITT4 或 CCITT3 时才会应用此选项。读写 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。默认是 Default。 |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 指定压缩类型。读写 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 指定水平分辨率（每英寸点数）。读写 UInt32。 |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 指定垂直分辨率（每英寸点数）。读写 UInt32。 |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 指定生成的 TIFF 图像的尺寸。默认值为 0x0，这意味着生成的图像尺寸将根据演示文稿幻灯片尺寸计算。读写 Size。 |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | 指定将彩色图像转换为黑白图像的算法。只有在 [`CompressionType`](./compressiontype) 设置为 CCITT4 或 CCITT3 时才会应用此选项。可读写 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。默认值为 Default。 |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 指定压缩类型。可读写 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 指定水平分辨率（每英寸点数）。可读写 UInt32。 |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 指定垂直分辨率（每英寸点数）。可读写 UInt32。 |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 指定生成的 TIFF 图像的大小。默认值为 0x0，表示生成的图像大小将根据演示文稿幻灯片尺寸计算。可读写 Size。 |
 | [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 指定生成图像的像素格式。读写 [`ImagePixelFormat`](../imagepixelformat)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认是 `false`。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 指定生成图像的像素格式。可读写 [`ImagePixelFormat`](../imagepixelformat)。 |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏的幻灯片。默认值为 `false`。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

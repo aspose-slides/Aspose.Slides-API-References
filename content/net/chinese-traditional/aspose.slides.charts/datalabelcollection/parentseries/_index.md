@@ -1,20 +1,20 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes for .NET API 參考
-description: 取得父系列。 唯讀 IChartSeriesaspose.slides.charts/ichartseries.
+description: 取得父系列。唯讀 IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /zh-hant/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries 屬性
 
-取得父系列。 唯讀 [`IChartSeries`](../../ichartseries).
+取得父系列。唯讀 [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }
 ```
 
-### 相關參考
+### 參見
 
 * 介面 [IChartSeries](../../ichartseries)
 * 類別 [DataLabelCollection](../../datalabelcollection)

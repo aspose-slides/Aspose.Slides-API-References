@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tidak dapat diubah yang mewakili efek Glow, di mana batas luar berwarna yang blur ditambahkan di luar tepi objek.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek yang tidak dapat diubah yang mewakili efek Glow di mana outline berwarna yang blur ditambahkan di luar tepi objek.
 type: docs
-weight: 3330
+weight: 3350
 url: /id/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek Glow, di mana batas luar yang kabur berwarna ditambahkan di luar tepi objek.
+Objek yang tidak dapat diubah yang mewakili efek Glow, di mana outline berwarna yang blur ditambahkan di luar tepi objek.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Hanya-baca Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan interface IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Warna. Hanya-baca Warna. |
 | [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Hanya-baca Double. |
 
 ### Lihat Juga

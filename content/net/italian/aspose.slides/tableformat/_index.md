@@ -1,9 +1,9 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato di una tabella.
 type: docs
-weight: 10870
+weight: 10890
 url: /it/aspose.slides/tableformat/
 ---
 ## TableFormat classe
@@ -18,7 +18,7 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Restituisce un oggetto delle proprietà di riempimento della tabella. Solo lettura [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Restituisce un oggetto di proprietà di riempimento della tabella. Solo lettura [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Ottiene o imposta la trasparenza del colore di riempimento. Lettura/scrittura Single. |
 
 ## Metodi

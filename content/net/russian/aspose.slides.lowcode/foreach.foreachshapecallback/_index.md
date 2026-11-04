@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Коллбэк, который будет вызываться для каждой Shape./foreach/shape в Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes для .NET справки API
+description: Обратный вызов, который будет вызываться для каждой Shape./foreach/shape в Presentation../aspose.slides/presentation.
 type: docs
-weight: 7950
+weight: 7970
 url: /ru/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegate
 
-Коллбэк, который будет вызываться для каждого [`Shape`](../foreach/shape) в [`Presentation`](../../aspose.slides/presentation).
+Обратный вызов, который будет вызываться для каждого [`Shape`](../foreach/shape) в [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);

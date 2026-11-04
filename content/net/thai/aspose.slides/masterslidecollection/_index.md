@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงคอลเลกชันของสไลด์มาสเตอร์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของสไลด์แม่
 type: docs
-weight: 8040
+weight: 8060
 url: /th/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection คลาส
 
-แสดงคอลเลกชันของสไลด์มาสเตอร์
+แสดงถึงคอลเลกชันของสไลด์แม่
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,22 +18,22 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | ดึงจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นซิงโครไนซ์ (ปลอดภัยต่อเธรด) หรือไม่. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | คืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริง ๆ. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | เพิ่มสำเนาของสไลด์มาสเตอร์ที่ระบุไปยังตำแหน่งสุดท้ายของคอลเลกชัน. สไลด์เลเอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วย. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | คืน enumerator ที่ทำการวนผ่านคอลเลกชัน. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | แทรกสำเนาของสไลด์มาสเตอร์ที่ระบุไปยังตำแหน่งที่กำหนดของคอลเลกชัน. สไลด์เลเอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วย. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | เพิ่มสำเนาของสไลด์แม่ที่ระบุไปยังส่วนท้ายของคอลเลกชัน. สไลด์เลย์เอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วย. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | แทรกสำเนาของสไลด์แม่ที่ระบุไปยังตำแหน่งที่ระบุของคอลเลกชัน. สไลด์เลย์เอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วย. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | ลบการเกิดครั้งแรกของอ็อบเจ็กต์ที่ระบุออกจากคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | ลบสไลด์มาสเตอร์ที่ไม่ได้ใช้. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | ลบสไลด์แม่ที่ไม่ได้ใช้. |
 
 ### ดูเพิ่มเติม
 

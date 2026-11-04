@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Sildes for .NET API 참조
-description: 수학 텍스트 요소를 생성할 수 있습니다
+description: MathematicalText 요소를 생성할 수 있습니다
 type: docs
-weight: 8520
+weight: 8540
 url: /ko/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory 인터페이스
@@ -27,7 +27,7 @@ public interface IMathematicalTextFactory
 
 COM 호환성을 위해
 
-### 관련 참조
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

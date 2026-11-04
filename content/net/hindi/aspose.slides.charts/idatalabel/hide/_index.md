@@ -1,24 +1,24 @@
 ---
 title: Hide
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: सभी Show-flags ShowValue ... को false स्थिति में सेट करके डेटा लेबल को छिपा दें। IsVisible इस के बाद false रहेगा।
 type: docs
-weight: 80
+weight: 90
 url: /hi/aspose.slides.charts/idatalabel/hide/
 ---
 ## IDataLabel.Hide विधि
 
-सभी Show*-flags (ShowValue, ...) को false स्थिति में सेट करके डेटा लेबल को छिपा दें। IsVisible false रहेगा।
+सभी Show*-फ़्लैग (ShowValue, ...) को false स्थिति में सेट करके डेटा लेबल को छिपा सकते हैं। IsVisible इस के बाद false रहेगा।
 
 ```csharp
 public void Hide()
 ```
 
-### टिप्पणी
+### टिप्पणियाँ
 
-यदि डेटा लेबल दिखाई नहीं देता (IsVisible false है) तो आप Show*-flags (ShowValue, ...) को true स्थिति में सेट करके डेटा लेबल को दिखाई दे सकते हैं।
+यदि डेटा लेबल दृश्य नहीं है (IsVisible false है) तो आप Show*-फ़्लैग को true स्थिति में सेट करके डेटा लेबल को दृश्यमान बना सकते हैं।
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IDataLabel](../../idatalabel)
 * नामस्थान [Aspose.Slides.Charts](../../idatalabel)

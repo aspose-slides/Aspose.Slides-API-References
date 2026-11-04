@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก วันที่-เวลา ตัวเลขหน้าและตัวอักษรตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก.
+description: แสดงถึงผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก ตัวตำแหน่งเวลาตามวันที่ ตัวตำแหน่งเลขหน้า และตัวตำแหน่งทั้งหมดของสไลด์ลูก. สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก.
 type: docs
-weight: 6440
+weight: 6460
 url: /th/aspose.slides/imasterslideheaderfootermanager/
 ---
-## IMasterSlideHeaderFooterManager อินเทอร์เฟซ
+## interface IMasterSlideHeaderFooterManager
 
-เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก, ตัวแทนวันที่-เวลา, ตัวเลขหน้าสไลด์และตัวอักษรตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์จะใช้และพึ่งพาสไลด์หลัก.
+เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก, ตัวตำแหน่งเวลาตามวันที่, ตัวตำแหน่งเลขหน้าและตัวตำแหน่งทั้งหมดของสไลด์ลูก สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,22 +18,22 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่า IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่าอินเทอร์เฟซ IBaseSlideHeaderFooterManager. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับตัวแทนวันที่-เวลาในสไลด์หลักและตัวแทนวันที่-เวลาตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของตัวแทนวันที่-เวลาในสไลด์หลักและตัวแทนวันที่-เวลาตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับส่วนท้ายสไลด์หลักและส่วนท้ายตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของส่วนท้ายสไลด์หลักและส่วนท้ายตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของตัวแทนเลขหน้าสไลด์หลักและตัวแทนเลขหน้าตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับตัวตำแหน่งเวลาตามวันที่ของสไลด์หลักและตัวตำแหน่งเวลาตามวันที่ของสไลด์ลูกทั้งหมด สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการแสดงผลของตัวตำแหน่งเวลาตามวันที่ของสไลด์หลักและตัวตำแหน่งเวลาตามวันที่ของสไลด์ลูกทั้งหมด สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับตัวตำแหน่งส่วนท้ายของสไลด์หลักและตัวตำแหน่งส่วนท้ายของสไลด์ลูกทั้งหมด สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวตำแหน่งส่วนท้ายของสไลด์หลักและตัวตำแหน่งส่วนท้ายของสไลด์ลูกทั้งหมด สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวตำแหน่งเลขหน้าของสไลด์หลักและตัวตำแหน่งเลขหน้าของสไลด์ลูกทั้งหมด สไลด์ลูกหมายถึงตัวตำแหน่งที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง สไลด์เค้าโครงที่อิงและสไลด์ที่อิงใช้และพึ่งพาสไลด์หลัก |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

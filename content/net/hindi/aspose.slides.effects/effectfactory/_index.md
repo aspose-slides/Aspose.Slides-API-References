@@ -1,41 +1,41 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: इफ़ेक्ट्स बनाने की अनुमति देता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रभाव बनाने की अनुमति देता है
 type: docs
-weight: 2970
+weight: 2990
 url: /hi/aspose.slides.effects/effectfactory/
 ---
-## EffectFactory वर्ग
+## EffectFactory क्लास
 
-इफ़ेक्ट्स बनाने की अनुमति देता है
+प्रभाव बनाने की अनुमति देता है
 
 ```csharp
 public class EffectFactory : IEffectFactory
 ```
 
-## निर्माताएँ
+## कंस्ट्रक्टर्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [EffectFactory](effectfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [EffectFactory](effectfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## गुण
+## प्रॉपर्टीज़
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory लौटाता है। केवल-पढ़ने योग्य [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)। |
 
-## विधियाँ
+## मेथड्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow प्रभाव बनाता है। |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | अंदर छाया प्रभाव बनाता है। |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | बाहरी छाया प्रभाव बनाता है। |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | पूर्वनिर्धारित छाया प्रभाव बनाता है। |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | परावर्तन प्रभाव बनाता है। |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | सॉफ्ट एज प्रभाव बनाता है। |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Inner shafow प्रभाव बनाता है। |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Outer shadow प्रभाव बनाता है। |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Preset shadow प्रभाव बनाता है। |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Reflection प्रभाव बनाता है। |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Soft Edge प्रभाव बनाता है। |
 
 ### टिप्पणी
 

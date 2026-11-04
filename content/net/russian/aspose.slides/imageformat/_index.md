@@ -1,9 +1,9 @@
 ---
 title: ImageFormat
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет формат файла изображения.
 type: docs
-weight: 7430
+weight: 7450
 url: /ru/aspose.slides/imageformat/
 ---
 ## Перечисление ImageFormat
@@ -18,16 +18,16 @@ public enum ImageFormat
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| MemoryBmp | `0` | Представляет формат растрового изображения в памяти. |
-| Bmp | `1` | Представляет формат изображения bitmap (BMP). |
-| Emf | `2` | Представляет формат изображения расширенный метафайл (EMF). |
-| Wmf | `3` | Представляет формат изображения Windows метафайл (WMF). |
-| Gif | `4` | Представляет формат изображения Graphics Interchange Format (GIF). |
-| Jpeg | `5` | Представляет формат изображения Joint Photographic Experts Group (JPEG). |
-| Png | `6` | Представляет формат изображения W3C Portable Network Graphics (PNG). |
-| Tiff | `7` | Представляет формат изображения Tagged Image File Format (TIFF). |
+| MemoryBmp | `0` | Представляет формат битовой карты в памяти. |
+| Bmp | `1` | Представляет формат изображения битовой карты (BMP). |
+| Emf | `2` | Представляет формат улучшенного метафайла (EMF). |
+| Wmf | `3` | Представляет формат метафайла Windows (WMF). |
+| Gif | `4` | Представляет формат Graphics Interchange Format (GIF). |
+| Jpeg | `5` | Представляет формат Joint Photographic Experts Group (JPEG). |
+| Png | `6` | Представляет формат W3C Portable Network Graphics (PNG). |
+| Tiff | `7` | Представляет формат Tagged Image File Format (TIFF). |
 | Exif | `8` | Представляет формат Exchangeable Image File (Exif). |
-| Icon | `9` | Представляет формат изображения Windows icon. |
+| Icon | `9` | Представляет формат значка Windows. |
 
 ### См. также
 

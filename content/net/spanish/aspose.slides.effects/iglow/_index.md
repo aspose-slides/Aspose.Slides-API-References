@@ -1,12 +1,12 @@
 ---
 title: IGlow
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Representa un efecto de brillo en el que se agrega un contorno borroso de color fuera de los bordes del objeto.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un efecto de resplandor en el que se agrega un contorno borroso de color fuera de los bordes del objeto.
 type: docs
-weight: 3320
+weight: 3340
 url: /es/aspose.slides.effects/iglow/
 ---
-## IGlow interfaz
+## Interfaz IGlow
 
 Representa un efecto de resplandor, en el que se agrega un contorno borroso de color fuera de los bordes del objeto.
 

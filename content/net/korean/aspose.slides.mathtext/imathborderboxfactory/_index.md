@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 경계 상자를 생성할 수 있습니다
+description: 수학 테두리 상자를 만들 수 있습니다
 type: docs
-weight: 8180
+weight: 8200
 url: /ko/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory 인터페이스
 
-수학 경계 상자를 생성할 수 있습니다
+수학 테두리 상자를 만들 수 있습니다
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,14 +18,14 @@ public interface IMathBorderBoxFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 요소에 적용하여 수학 경계 상자를 생성합니다 |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 요소에 적용하여 수학 경계 상자를 생성합니다 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 요소에 적용하여 수학 테두리 상자를 생성합니다 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 요소에 적용하여 수학 테두리 상자를 생성합니다 |
 
-### 주의사항
+### 비고
 
 COM 호환성을 위해
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

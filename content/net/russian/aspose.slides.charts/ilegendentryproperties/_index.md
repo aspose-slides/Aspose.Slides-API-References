@@ -3,7 +3,7 @@ title: ILegendEntryProperties
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет свойства легенды диаграммы.
 type: docs
-weight: 2150
+weight: 2170
 url: /ru/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties интерфейс
@@ -19,9 +19,9 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 | Имя | Описание |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или задает флаг скрытия элемента легенды. Чтение/запись Boolean. |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или задает флаг скрытия записи легенды. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFormattedTextContainer](../iformattedtextcontainer)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

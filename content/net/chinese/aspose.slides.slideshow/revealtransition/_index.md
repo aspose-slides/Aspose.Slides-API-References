@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 显示幻灯片过渡效果。
 type: docs
-weight: 10280
+weight: 10300
 url: /zh/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition 类
 
-显示幻灯片的过渡效果。
+显示幻灯片过渡效果。
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -18,17 +18,17 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指定过渡是否淡入淡出至黑色。读/写 Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指定过渡是否通过黑色淡入淡出。读/写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，可用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和如哈希表的数据结构。 |
 
-### 另请参阅
+### 另见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IRevealTransition](../irevealtransition)

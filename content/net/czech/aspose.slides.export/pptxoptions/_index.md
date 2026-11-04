@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje možnosti pro uložení OpenXml prezentací PPTX PPSX POTX PPTM PPSM POTM.
+description: Reprezentuje možnosti ukládání OpenXml prezentací PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4370
+weight: 4390
 url: /cs/aspose.slides.export/pptxoptions/
 ---
-## Třída PptxOptions
+## PptxOptions třída
 
-Reprezentuje možnosti pro ukládání prezentací OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Representuje možnosti ukládání prezentací OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -16,23 +16,23 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | Vytvoří novou instanci třídy PptxOptions |
+| [PptxOptions](pptxoptions)() | Vytvoří novou instanci PptxOptions |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Určuje úroveň komprese používanou při ukládání dokumentu prezentace. Výchozí hodnota je Level6. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Určuje třídu shody, ke které dokument Presentation odpovídá. Výchozí hodnota je Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že zdrojové písmo nebylo nalezeno. Čtení-zápis String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje zpětnou volací objekt pro ukládání aktualizací průběhu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Určuje, zda bude miniatura prezentace obnovena. Čtení-zápis Boolean. Výchozí hodnota je **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Určuje, zda je pro dokument Presentation používán formát ZIP64. Výchozí hodnota je IfNecessary |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Určuje třídu souladu, ke které dokument Presentation odpovídá. Výchozí hodnota je Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že zdrojové písmo není nalezeno. Čtení/zápis String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení/zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje objekt zpětného volání pro aktualizace průběhu ukládání v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Určuje, zda bude miniatura prezentace obnovena. Čtení/zápis Boolean. Výchozí hodnota je **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace vynechat hypertextové odkazy s voláním JavaScriptu. Čtení/zápis Boolean. Výchozí hodnota je **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení/zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Určuje, zda pro dokument Presentation bude použit formát ZIP64. Výchozí hodnota je IfNecessary |
 
 ### Viz také
 

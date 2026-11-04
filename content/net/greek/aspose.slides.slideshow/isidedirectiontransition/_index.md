@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάβασης διαφάνειας με πλευρική κατεύθυνση.
+description: Εφέ μετάβασης διαφάνειας πλάγιου προσανατολισμού.
 type: docs
-weight: 10190
+weight: 10210
 url: /el/aspose.slides.slideshow/isidedirectiontransition/
 ---
-## ISideDirectionTransition διεπαφή
+## ISideDirectionTransition διασύνδεση
 
-Εφέ μετάβασης διαφάνειας με πλευρική κατεύθυνση.
+Εφέ μετάβασης διαφάνειας πλάγιου προσανατολισμού.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITransitionValueBase](../itransitionvaluebase)
+* διασύνδεση [ITransitionValueBase](../itransitionvaluebase)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότηση [Aspose.Slides](../../)
 

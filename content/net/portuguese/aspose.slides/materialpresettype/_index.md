@@ -1,12 +1,12 @@
 ---
 title: MaterialPresetType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Constantes que definem o material da forma.
 type: docs
-weight: 8060
+weight: 8080
 url: /pt/aspose.slides/materialpresettype/
 ---
-## enumeração MaterialPresetType
+## MaterialPresetType enumeração
 
 Constantes que definem o material da forma.
 
@@ -16,7 +16,7 @@ public enum MaterialPresetType
 
 ### Valores
 
-| Nome | Valor | Descrição |
+| Name | Value | Descrição |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Clear | `0` |  |

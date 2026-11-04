@@ -1,12 +1,12 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Ana el ilanı slayt yöneticisi.
 type: docs
-weight: 6370
+weight: 6390
 url: /tr/aspose.slides/imasterhandoutslidemanager/
 ---
-## IMasterHandoutSlideManager arabirimi
+## IMasterHandoutSlideManager arayüzü
 
 Ana el ilanı slayt yöneticisi.
 
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Bu sunumdaki tüm not slaytları için bir ana slaytı döndürür; eğer varsa, aksi takdirde null döndürür. Salt okunur [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Bu sunumun tüm not slaytları için bir master varsa döndürür, aksi takdirde null döndürür. Yalnızca okuma [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Ana el ilanı slaytını kaldırır. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Varsayılan ana el ilanı slaytını ilgili el ilanı slaytına ayarlar. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Master el ilanı slaydını kaldırır. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Varsayılan master el ilanı slaydını ilgili el ilanı slaydına ayarlar. |
 
 ### Ayrıca Bakınız
 

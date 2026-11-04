@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Sildes pro .NET API Reference
-description: Efekt přechodu snímku ze strany.
+description: Efekt přechodu snímku do bočního směru.
 type: docs
-weight: 10310
+weight: 10330
 url: /cs/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition třída
 
-Efekt přechodu snímku ze strany.
+Side direction slide transition effect.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -18,14 +18,14 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Název | Popis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Směr přechodu. Čtení/Zápis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashová funkce pro konkrétní typ, vhodná k použití v hashovacích algoritmech a datových strukturách jako je hash tabulka. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 

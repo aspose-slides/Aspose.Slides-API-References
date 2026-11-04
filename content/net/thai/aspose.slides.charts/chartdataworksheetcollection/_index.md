@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงคอลเลกชันของ worksheets ของ chart data workbook.
 type: docs
-weight: 1400
+weight: 1410
 url: /th/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection คลาส
 
-แสดงถึงคอลเลกชันของ worksheets ของ chart data workbook.
+แสดงถึงคอลเลกชันของ worksheet ของ chart data workbook.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -19,15 +19,15 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | คืนค่าจำนวน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้เป็นแบบ synchronized (thread-safe). อ่านอย่างเดียว Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | คืนค่า worksheet ตามดัชนี. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | คืนค่ารากการประสาน. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | คืนค่า synchronization root. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | คัดลอกไปยัง array ที่ระบุ. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | คัดลอกไปยังอาร์เรย์ที่ระบุ. |
 | [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 
 ### ตัวอย่าง

@@ -1,9 +1,9 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un type d'exception interne standard.
 type: docs
-weight: 9560
+weight: 9580
 url: /fr/aspose.slides/pptxexception/
 ---
 ## PptxException classe
@@ -20,7 +20,7 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Constructeur par défaut. |
 | [PptxException](pptxexception#constructor_1)(string) | Constructeur permettant d'ajouter un message à cette exception. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception intégrée. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception imbriquée. |
 
 ### Voir aussi
 

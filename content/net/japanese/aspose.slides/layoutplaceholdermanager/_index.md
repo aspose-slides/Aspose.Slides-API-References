@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: レイアウトスライドにプレースホルダーを追加できるマネージャーを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: レイアウト スライドにプレースホルダーを追加できるマネージャーを表します。
 type: docs
-weight: 7630
+weight: 7650
 url: /ja/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager クラス
 
-レイアウトスライドにプレースホルダーを追加できるマネージャーを表します。
+レイアウト スライドにプレースホルダーを追加できるマネージャーを表します。
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -16,18 +16,18 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | レイアウトスライドにチャートを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、表、メディア、テキストなどのコンテンツを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | レイアウトスライドにメディアオブジェクトを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | レイアウトスライドにオンライン画像を保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | レイアウトスライドに画像を保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | レイアウトスライドにSmartArt ダイアグラムを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | レイアウトスライドに表を保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、表、メディア、テキストなどのコンテンツを縦方向で保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを縦方向で保持する新しいプレースホルダーシェイプを追加します。 |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | レイアウト スライドにチャートを保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | レイアウト スライドに画像、テーブル、メディア、テキストなどのコンテンツを保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | レイアウト スライドにメディア オブジェクトを保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | レイアウト スライドにオンライン画像を保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | レイアウト スライドに画像を保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | レイアウト スライドに SmartArt 図を保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | レイアウト スライドにテーブルを保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | レイアウト スライドにテキスト コンテンツを保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | レイアウト スライドに画像、テーブル、メディア、テキストなどのコンテンツを縦方向に保持するための新しいプレースホルダー シェイプを追加します。 |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | レイアウト スライドにテキスト コンテンツを縦方向に保持するための新しいプレースホルダー シェイプを追加します。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: IGradientStop
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un formato de degradado.
 type: docs
-weight: 6020
+weight: 6040
 url: /es/aspose.slides/igradientstop/
 ---
 ## IGradientStop interfaz

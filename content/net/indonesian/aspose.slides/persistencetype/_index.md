@@ -3,10 +3,10 @@ title: PersistenceType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan metode yang digunakan untuk menyimpan properti kontrol ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /id/aspose.slides/persistencetype/
 ---
-## enumerasi PersistenceType
+## Enumerasi PersistenceType
 
 Menentukan metode yang digunakan untuk menyimpan properti kontrol ActiveX.
 
@@ -19,10 +19,10 @@ public enum PersistenceType
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | NotDefined | `-1` | ID persistance tidak ditentukan. |
-| PersistPropertyBag | `0` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistence berbasis property-bag. Persistence berbasis property-bag menyimpan kontrol ActiveX dengan cara kumpulan pasangan nama dan nilai yang menentukan data yang dipertahankan oleh kontrol ActiveX. |
-| PersistStream | `1` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistence berbasis stream yang tidak mendukung inisialisasi kontrol ActiveX ke keadaan default. |
-| PersistStreamInit | `2` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistence berbasis stream yang mendukung inisialisasi kontrol ActiveX ke keadaan default. |
-| PersistStorage | `3` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistence berbasis storage. |
+| PersistPropertyBag | `0` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistensi berbasis property-bag. Persistensi berbasis property-bag menyimpan kontrol ActiveX melalui koleksi pasangan nama dan nilai yang menentukan data yang dipertahankan oleh kontrol ActiveX. |
+| PersistStream | `1` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistensi berbasis stream yang tidak mendukung inisialisasi kontrol ActiveX ke keadaan default. |
+| PersistStreamInit | `2` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistensi berbasis stream yang mendukung inisialisasi kontrol ActiveX ke keadaan default. |
+| PersistStorage | `3` | Menentukan bahwa kontrol ActiveX dipertahankan menggunakan persistensi berbasis storage. |
 
 ### Lihat Juga
 

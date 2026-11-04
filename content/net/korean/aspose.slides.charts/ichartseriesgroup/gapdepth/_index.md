@@ -1,18 +1,22 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 3D 차트에서 데이터 시리즈 간의 거리를 마커 너비 대비 백분율로 반환하거나 설정합니다. 읽기/쓰기 UInt16.
+description: 3D 차트에서 데이터 시리즈 간 거리를 마커 너비의 백분율로 가져오거나 설정합니다. 값은 0에서 500 사이여야 합니다. 읽기/쓰기 UInt16.
 type: docs
 weight: 60
 url: /ko/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth 속성
 
-데이터 시리즈 간의 거리를 마커 너비 대비 백분율로 반환하거나 설정합니다. 3D 차트에서 사용됩니다. 읽기/쓰기 UInt16.
+데이터 시리즈 간의 거리를 3D 차트에서 마커 너비의 백분율로 가져오거나 설정합니다. 값은 0에서 500 사이여야 합니다. 읽기/쓰기 UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### 비고
+
+이 속성은 다음 유형의 시리즈에 적용됩니다: 3D 막대 및 열 하위 유형, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### 참고
 

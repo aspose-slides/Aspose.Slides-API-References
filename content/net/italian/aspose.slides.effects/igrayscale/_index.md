@@ -3,10 +3,10 @@ title: IGrayScale
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta l'interfaccia IImageTransformOperation.
 type: docs
-weight: 3340
+weight: 3360
 url: /it/aspose.slides.effects/igrayscale/
 ---
-## interfaccia IGrayScale
+## IGrayScale interfaccia
 
 Rappresenta l'interfaccia IImageTransformOperation.
 
@@ -19,7 +19,7 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia di base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Restituisce l'interfaccia IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche

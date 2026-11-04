@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นไกด์การวาดที่สามารถปรับได้.
+description: แสดงถึงไกด์การวาดที่ปรับได้.
 type: docs
-weight: 2810
+weight: 2830
 url: /th/aspose.slides/drawingguide/
 ---
 ## DrawingGuide คลาส
 
-Represents an adjustable drawing guide.
+แสดงถึงไกด์การวาดที่ปรับได้
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -16,11 +16,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | คืนค่า หรือ ตั้งค่าสีของแนวทางการวาด. อ่าน/เขียน Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | คืนค่า หรือ ตั้งค่าแนววางของแนวทางการวาด. อ่าน/เขียน [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | คืนค่า หรือ ตั้งค่าตำแหน่งของแนวทางการวาดเป็นจุดจากด้านบนซ้ายของสไลด์. อ่าน/เขียน Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | คืนค่า หรือกำหนดสีของไกด์การวาด. อ่าน/เขียน Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | คืนค่า หรือกำหนดแนวทางของไกด์การวาด. อ่าน/เขียน [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | คืนค่า หรือกำหนดตำแหน่งของไกด์การวาดเป็นจุดจากมุมบนซ้ายของสไลด์. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: SvgShape
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 SVG 形状的选项。
 type: docs
-weight: 4510
+weight: 4530
 url: /zh/aspose.slides.export/svgshape/
 ---
 ## SvgShape 类
@@ -18,13 +18,13 @@ public sealed class SvgShape : ISvgShape
 
 | 名称 | 描述 |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | 获取形状 id |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | 获取形状 ID |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | 为形状设置事件处理程序 |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | 为该形状设置事件处理程序 |
 
 ### 另请参见
 

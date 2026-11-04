@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Jeżeli UseCell jest true, to ta właściwość reprezentuje właściwość AsCell.Value. Jeżeli UseCell jest false, to ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Object.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Jeżeli UseCell ma wartość true, ta właściwość reprezentuje właściwość AsCell.Value. Jeżeli UseCell ma wartość false, ta właściwość reprezentuje właściwość AsLiteral. Obiekt odczyt/zapis.
 type: docs
-weight: 50
+weight: 60
 url: /pl/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value właściwość
 
-If UseCell is true then this property represents AsCell.Value właściwość. If UseCell is false then this property represents AsLiteral właściwość. Odczyt/zapis Object.
+Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, ta właściwość reprezentuje właściwość AsLiteral. Obiekt odczyt/zapis.
 
 ```csharp
 public object Value { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: テキスト下線のタイプを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: テキスト下線の種類を表します。
 type: docs
-weight: 11010
+weight: 11030
 url: /ja/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType 列挙型
+## TextUnderlineType 列挙体
 
-テキスト下線のタイプを表します。
+テキスト下線の種類を表します。
 
 ```csharp
 public enum TextUnderlineType : sbyte
@@ -38,7 +38,7 @@ public enum TextUnderlineType : sbyte
 | HeavyWavy | `16` |  |
 | DoubleWavy | `17` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta i valori delle barre di errore della serie nel caso di tipo di valore Custom. Solo lettura IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta i valori delle barre di errore della serie nel caso di tipo di valore Custom. Sola lettura IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /it/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
 ## IChartDataPoint.ErrorBarsCustomValues proprietà
 
-Rappresenta i valori delle barre di errore della serie in caso di tipo di valore Custom. Solo lettura [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Rappresenta i valori delle barre di errore della serie nel caso di tipo di valore Custom. Sola lettura [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }

@@ -3,10 +3,10 @@ title: ChartDataWorkbook
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει πρόσβαση σε ενσωματωμένο βιβλίο εργασίας Excel
 type: docs
-weight: 1380
+weight: 1390
 url: /el/aspose.slides.charts/chartdataworkbook/
 ---
-## ChartDataWorkbook κλάση
+## Κατηγορία ChartDataWorkbook
 
 Παρέχει πρόσβαση σε ενσωματωμένο βιβλίο εργασίας Excel
 
@@ -24,13 +24,13 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Υπολογίζει όλους τους τύπους στο βιβλίο εργασίας και ενημερώνει τις αντίστοιχες τιμές των κελιών. |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Καθαρίζει όλες τις τιμές των κελιών στο φύλλο |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές γραφήματος ή κατηγορίες |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές γραφήματος ή κατηγορίες |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές γραφήματος ή κατηγορίες |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές γραφήματος ή κατηγορίες |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές γραφήματος ή κατηγορίες |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Υπολογίζει όλους τους τύπους στο βιβλίο εργασίας και ενημερώνει τις αντίστοιχες τιμές κελιών. |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Καθαρίζει όλες τις τιμές κελιών στο φύλλο |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές ή κατηγορίες διαγράφηματος |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές ή κατηγορίες διαγράφηματος |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές ή κατηγορίες διαγράφηματος |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές ή κατηγορίες διαγράφηματος |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Λαμβάνει το κελί που μπορεί να χρησιμοποιηθεί για σειρές ή κατηγορίες διαγράφηματος |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Λαμβάνει το σύνολο των κελιών. |
 
 ### Δείτε επίσης

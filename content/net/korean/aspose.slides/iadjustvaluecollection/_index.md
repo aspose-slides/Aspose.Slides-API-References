@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형 조정값의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 도형 조정 컬렉션을 나타냅니다.
 type: docs
-weight: 5190
+weight: 5210
 url: /ko/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection 인터페이스
 
-도형 조정값의 컬렉션을 나타냅니다.
+도형의 조정 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -16,13 +16,13 @@ public interface IAdjustValueCollection : ICollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 기본 ICollection 인터페이스를 가져올 수 있습니다. 읽기 전용 ICollection. |
 | [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable 인터페이스를 반환합니다. 읽기 전용 IEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 인덱스로 조정값을 반환합니다. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 인덱스로 조정을 반환합니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

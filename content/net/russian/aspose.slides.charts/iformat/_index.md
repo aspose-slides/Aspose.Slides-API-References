@@ -1,12 +1,12 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет свойства формата диаграммы.
 type: docs
-weight: 2100
+weight: 2120
 url: /ru/aspose.slides.charts/iformat/
 ---
-## интерфейс IFormat
+## IFormat интерфейс
 
 Представляет свойства формата диаграммы.
 
@@ -23,7 +23,7 @@ public interface IFormat
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

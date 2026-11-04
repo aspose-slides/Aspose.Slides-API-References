@@ -3,7 +3,7 @@ title: ILegacyDiagram
 second_title: Aspose.Sildes for .NET API リファレンス
 description: レガシーダイアグラムオブジェクトを表します
 type: docs
-weight: 6250
+weight: 6270
 url: /ja/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram インターフェイス
@@ -24,8 +24,8 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | 名前 | 説明 |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | レガシーダイアグラムを編集可能なグループ シェイプに変換します。作成された GroupShape オブジェクトは、同じ位置に親グループ シェイプとして追加されます。 |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | レガシーダイアグラムを編集可能な SmartArt オブジェクトに変換します。作成された SmartArt オブジェクトは、同じ位置に親グループ シェイプとして追加されます。 |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | レガシーダイアグラムを編集可能なグループ シェイプに変換します。作成された GroupShape オブジェクトは、同じ位置に親グループ シェイプに追加されます。 |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | レガシーダイアグラムを編集可能な SmartArt オブジェクトに変換します。作成された SmartArt オブジェクトは、同じ位置に親グループ シェイプに追加されます。 |
 
 ### 参照
 

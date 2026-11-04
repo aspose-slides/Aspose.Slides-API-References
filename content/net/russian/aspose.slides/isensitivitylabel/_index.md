@@ -1,9 +1,9 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes для .NET — справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет метку чувствительности из Microsoft Purview Information Protection.
 type: docs
-weight: 6930
+weight: 6950
 url: /ru/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel интерфейс
@@ -18,14 +18,14 @@ public interface ISensitivityLabel
 
 | Имя | Описание |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Возвращает или задаёт метод назначения для метки чувствительности. Чтение/запись [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Возвращает список типов маркировки содержимого, которые должны быть применены к файлу. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Возвращает или задаёт идентификатор метки чувствительности. Чтение/запись String. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Возвращает или задает метод назначения метки чувствительности. Чтение/запись [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Возвращает список типов маркировки содержимого, которые следует применить к файлу. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Возвращает или задает идентификатор метки чувствительности. Чтение/запись String. |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Указывает, включена ли метка чувствительности. |
 | [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Указывает, была ли метка чувствительности удалена. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Возвращает или задаёт идентификатор сайта Azure Active Directory (Azure AD), соответствующий политике меток чувствительности, описывающей эту метку. Чтение/запись Guid. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Возвращает или задает идентификатор сайта Azure Active Directory (Azure AD), соответствующий политике метки чувствительности, описывающей эту метку. Чтение/запись Guid. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

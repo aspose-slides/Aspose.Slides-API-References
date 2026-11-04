@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt rozmycia (Blur), który jest stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są pod wpływem.
+description: Reprezentuje efekt Blur, który jest stosowany do całego kształtu, włączając w to wypełnienie. Wszystkie kanały kolorów, w tym alfa, są wpływane.
 type: docs
-weight: 2920
+weight: 2940
 url: /pl/aspose.slides.effects/blur/
 ---
-## Blur klasa
+## Klasa Blur
 
-Reprezentuje efekt Blur, który jest stosowany do całego kształtu, włączając jego wypełnienie. Wszystkie kanały kolorów, w tym alfa, są pod wpływem.
+Reprezentuje efekt Blur, który jest stosowany do całego kształtu, włączając w to wypełnienie. Wszystkie kanały kolorów, w tym alfa, są wpływane.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -16,18 +16,18 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Określa, czy granice obiektu powinny być powiększane w wyniku rozmycia. True wskazuje, że granice są powiększane, natomiast false wskazuje, że nie są. Odczyt/zapis Boolean. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Określa, czy granice obiektu powinny zostać powiększone w wyniku rozmycia. True oznacza, że granice są powiększane, natomiast false oznacza, że nie są. Odczyt/zapis Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Zwraca lub ustawia promień rozmycia. Odczyt/zapis Double. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Określa, czy określony [`Blur`](../blur) jest równy bieżącemu [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Pobiera efektywne dane efektu Blur z uwzględnieniem dziedziczenia. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Pobiera efektywne dane efektu Blur z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także

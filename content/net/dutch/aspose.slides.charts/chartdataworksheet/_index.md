@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt werkblad voor dat geassocieerd is met IChartDataCell./ichartdatacell
+description: Stelt een werkblad voor dat gekoppeld is aan IChartDataCell./ichartdatacell
 type: docs
-weight: 1390
+weight: 1400
 url: /nl/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet klasse
 
-Stelt het werkblad voor dat is gekoppeld aan [`IChartDataCell`](../ichartdatacell)
+Represents worksheet associated with [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Haalt de index op van het werkblad. Alleen-lezen Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Retourneert de naam van het werkblad. Alleen-lezen String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Haalt de index van het werkblad op. Alleen-lezen Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Geeft de naam van het werkblad terug. Alleen-lezen String. |
 
 ### Zie ook
 

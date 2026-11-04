@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes для .NET справочник API
-description: Эффект перехода с рябью.
+second_title: Aspose.Sildes для .NET справка по API
+description: Эффект перехода слайда Ripple.
 type: docs
-weight: 10130
+weight: 10150
 url: /ru/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition интерфейс
 
-Эффект перехода с рябью.
+Эффект перехода «Ripple» для слайда.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IMorphTransition : ITransitionValueBase
 | Имя | Описание |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Тип морфологического перехода. Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Тип морф-перехода. Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
 
 ### См. также
 

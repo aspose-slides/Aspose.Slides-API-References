@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวัตถุ Limit ที่ประกอบด้วยข้อความบน baseline และข้อความขนาดย่อที่อยู่เหนือหรือใต้โดยทันที
+description: ระบุออบเจ็กต์ Limit ที่ประกอบด้วยข้อความบนเส้นฐานและข้อความขนาดลดลงที่อยู่ด้านบนหรือด้านล่างของมันโดยตรง
 type: docs
-weight: 8320
+weight: 8340
 url: /th/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit อินเทอร์เฟซ
 
-ระบุวัตถุ Limit ซึ่งประกอบด้วยข้อความบน baseline และข้อความขนาดย่อที่อยู่เหนือหรือใต้ทันที
+ระบุออบเจ็กต์ Limit ที่ประกอบด้วยข้อความบนเส้นฐานและข้อความขนาดลดลงที่อยู่ด้านบนหรือด้านล่างของมันโดยตรง
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLimit : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement ฐาน [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | อาร์กิวเมนต์ฐาน |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | อาร์กิวเมนต์จำกัด |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | ระบุขอบจำกัดบนหรือขอบจำกัดล่าง |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | อาร์กิวเมนต์ลิมิต |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | ระบุขอบบนหรือขอบล่าง |
 
 ### ตัวอย่าง
 

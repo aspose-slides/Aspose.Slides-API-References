@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar fyllningsformateringsalternativ.
+description: Representerar alternativ för fyllningsformat.
 type: docs
-weight: 4780
+weight: 4800
 url: /sv/aspose.slides/fillformat/
 ---
-## FillFormat klass
+## FillFormat-klass
 
-Representerar fyllningsformateringsalternativ.
+Representerar alternativ för fyllningsformat.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,7 +18,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att få bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Returnerar eller anger fyllningstypen. Läs/skriv [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Returnerar gradientfyllningsformatet. Skrivskyddad [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Returnerar mönsterfyllningsformatet. Skrivskyddad [`IPatternFormat`](../ipatternformat). |
@@ -31,7 +31,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Hämtar effektiv fyllningsformateringsdata med arv tillämpat. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Hämtar effektiva fyllningsformateringsdata med ärftlighet tillämpad. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även

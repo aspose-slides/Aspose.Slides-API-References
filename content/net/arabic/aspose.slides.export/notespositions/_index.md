@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل القاعدة لعرض الملاحظات في المستند المُصدَّر
+description: يمثّل القاعدة لتصوير الملاحظات في المستند المُصدَّر
 type: docs
-weight: 4300
+weight: 4320
 url: /ar/aspose.slides.export/notespositions/
 ---
 ## تعداد NotesPositions
 
-يمثل القاعدة لعرض الملاحظات في المستند المُصدَّر
+يمثل القاعدة لتصوير الملاحظات في المستند المُصدَّر
 
 ```csharp
 public enum NotesPositions
@@ -18,11 +18,11 @@ public enum NotesPositions
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| None | `0` | يحدد أن الملاحظات لا يجب عرضها على الإطلاق. |
-| BottomFull | `1` | يحدد أن الملاحظات يجب أن تعرض بالكامل باستخدام صفحات إضافية حسب الحاجة. |
+| None | `0` | يحدد أن الملاحظات يجب ألا تُعرض على الإطلاق. |
+| BottomFull | `1` | يحدد أن الملاحظات يجب أن تُعرض بالكامل باستخدام صفحات إضافية حسب الحاجة. |
 | BottomTruncated | `2` | يحدد أن الملاحظات يجب أن تُعرض في صفحة واحدة فقط. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * النطاق [Aspose.Slides.Export](../../aspose.slides.export)
 * التجميع [Aspose.Slides](../../)

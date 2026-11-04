@@ -1,20 +1,20 @@
 ---
 title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de verzameling werkbladen van het werkboek met grafiekgegevens voor.
+description: Stelt de verzameling werkbladen van de chart-gegevenswerkmap voor.
 type: docs
-weight: 1880
+weight: 1900
 url: /nl/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection interface
 
-Stelt de verzameling werkbladen van het werkboek met grafiekgegevens voor.
+Represents the collection of worksheets of chart data workbook.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |

@@ -1,20 +1,20 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Initialiseert de intern opgenomen Excel-werkmap met een door de gebruiker opgegeven waarde.
+description: Initialiseert de intern geïntegreerde Excel-werkmap met een door de gebruiker opgegeven waarde.
 type: docs
-weight: 150
+weight: 160
 url: /nl/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
-## IChartData.WriteWorkbookStream methode
+## IChartData.WriteWorkbookStream method
 
-Initialiseert de intern opgenomen Excel-werkmap met een door de gebruiker opgegeven waarde.
+Initialiseert de intern geïntegreerde Excel-werkmap met een door de gebruiker opgegeven waarde.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
 ```
 
-| Parameter | Type | Omschrijving |
+| Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | ms | MemoryStream | De door de gebruiker aangeleverde stream die de volledige Excel-werkmap bevat. |
 

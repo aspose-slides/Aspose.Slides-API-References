@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แผนภูมิดำเนินการด้วยชุดจำกัดของคุณสมบัติรูปแบบข้อความ. อินเทอร์เฟซ IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat อธิบายชุดจำกัดนี้.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แผนภูมิทำงานด้วยชุดจำกัดของคุณสมบัติการจัดรูปแบบข้อความ. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat อินเทอร์เฟซอธิบายชุดจำกัดนี้.
 type: docs
-weight: 1990
+weight: 2010
 url: /th/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat อินเทอร์เฟซ
 
-แผนภูมิจัดการด้วยชุดจำกัดของคุณสมบัติรูปแบบข้อความ. อินเทอร์เฟซ IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat อธิบายชุดจำกัดนี้.
+Chart operate with restricted set of text format properties. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfaces describe this restricted set.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,11 +18,11 @@ public interface IChartTextFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | คืนค่ารูปแบบย่อหน้า. อ่านอย่างเดียว [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | คืนค่ารูปแบบส่วน. อ่านอย่างเดียว [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | คืนค่ารูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ. อ่านอย่างเดียว [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | ส่งคืนรูปแบบย่อหน้า. อ่านอย่างเดียว [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | ส่งคืนรูปแบบส่วน. อ่านอย่างเดียว [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | ส่งคืนรูปแบบสำหรับองค์ประกอบข้อความแผนภูมิ. อ่านอย่างเดียว [`IChartTextBlockFormat`](../icharttextblockformat). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

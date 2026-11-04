@@ -1,9 +1,9 @@
 ---
 title: TextFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Retorna o formato de texto. Somente leitura IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /pt/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat propriedade
@@ -14,7 +14,7 @@ Retorna o formato de texto. Somente leitura [`IChartTextFormat`](../../icharttex
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Ver também
+### Ver Também
 
 * interface [IChartTextFormat](../../icharttextformat)
 * classe [DataLabel](../../datalabel)

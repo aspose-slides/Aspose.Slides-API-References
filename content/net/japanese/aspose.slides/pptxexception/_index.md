@@ -1,9 +1,9 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 標準的な内部例外タイプを表します。
 type: docs
-weight: 9560
+weight: 9580
 url: /ja/aspose.slides/pptxexception/
 ---
 ## PptxException クラス
@@ -18,9 +18,9 @@ public class PptxException : OOXMLException
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptxException](pptxexception#constructor)() | デフォルトコンストラクタ。 |
-| [PptxException](pptxexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクタ。 |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
+| [PptxException](pptxexception#constructor)() | デフォルト コンストラクタ。 |
+| [PptxException](pptxexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタ。 |
 
 ### 参照
 

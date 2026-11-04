@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ทำให้ป้ายข้อมูลซ่อนโดยค่าเริ่มต้นโดยตั้งค่า Show-flags ทั้งหมดเช่น ShowValue ... ของคุณสมบัติ DefaultDataLabelFormat ให้เป็น false. IsVisible จะเป็น false หลังจากนี้.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ทำให้ป้ายข้อมูลถูกซ่อนโดยค่าเริ่มต้นโดยตั้งค่า Show-flags ทั้งหมด ShowValue ... ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
 type: docs
-weight: 100
+weight: 110
 url: /th/aspose.slides.charts/idatalabelcollection/hide/
 ---
-## IDataLabelCollection.Hide เมธodb
+## IDataLabelCollection.Hide เมธอด
 
-ทำให้ป้ายข้อมูลซ่อนโดยค่าเริ่มต้นโดยการตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
+ทำให้ป้ายข้อมูลถูกซ่อนโดยค่าเริ่มต้นโดยตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### หมายเหตุ
 
-หากป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ป้ายข้อมูล "visible by default" ได้โดยการตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ true.
+หากป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ป้ายข้อมูล "แสดงโดยค่าเริ่มต้น" ด้วยการตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ true.
 
 ### ดูเพิ่มเติม
 

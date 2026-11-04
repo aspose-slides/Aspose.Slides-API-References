@@ -1,9 +1,9 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет имя ссылки проекта VBA.
 type: docs
-weight: 11570
+weight: 11590
 url: /ru/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference интерфейс

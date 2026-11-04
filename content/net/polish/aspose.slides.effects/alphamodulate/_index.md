@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt Alpha Modulate. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent. Kontener efektu określa efekt zawierający wartości alfa do modulacji.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt Alpha Modulate. Wartości alfa (przezroczystości) efektu są mnożone przez stały procent. Kontener efektu określa efekt zawierający wartości alfa do modulacji.
 type: docs
-weight: 2880
+weight: 2900
 url: /pl/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate klasa
 
-Reprezentuje efekt Alpha Modulate. Wartości alfa (przezroczystości) efektu są mnożone przez stały procent. Kontener efektu określa efekt zawierający wartości alfa do modulacji.
+Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -24,8 +24,8 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Określa, czy określony [`AlphaModulate`](../alphamodulate) jest równy bieżącemu [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Pobiera efektywne dane efektu Alpha Modulate z zastosowanym dziedziczeniem. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Określa, czy podany [`AlphaModulate`](../alphamodulate) jest równy bieżącemu [`AlphaModulate`](../alphamodulate). |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Pobiera skuteczne dane efektu Alpha Modulate z zastosowanym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także

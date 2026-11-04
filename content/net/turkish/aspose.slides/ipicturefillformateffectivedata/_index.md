@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Slides için .NET API Referansı
-description: Resim doldurmanın özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Resim doldurma özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6660
+weight: 6680
 url: /tr/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData arayüz
 
-Resim doldurmanın özelliklerini içeren değişmez nesne.
+Değiştirilemez nesne, resim dolgusunun özelliklerini içerir.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -18,20 +18,20 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Temel IFillParamSource arabirimini almayı sağlar. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Resim alt kısmından kırpılan gerçek görüntü yüksekliğinin yüzde sayısını döndürür. Salt okunur Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Resim sol kısmından kırpılan gerçek görüntü genişliğinin yüzde sayısını döndürür. Salt okunur Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Resim sağ kısmından kırpılan gerçek görüntü genişliğinin yüzde sayısını döndürür. Salt okunur Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Resim üst kısmından kırpılan gerçek görüntü yüksekliğinin yüzde sayısını döndürür. Salt okunur Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Bir resmi doldurmak için kullanılan dpi değerini döndürür. Salt okunur Int32. |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Temel IFillParamSource arayüzünü almaya izin verir. Salt okunur [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Gerçek resim yüksekliğinin yüzde oranını, resmin alt kısmından kırpılan miktarı döndürür. Salt okunur Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Gerçek resim genişliğinin yüzde oranını, resmin solundan kırpılan miktarı döndürür. Salt okunur Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Gerçek resim genişliğinin yüzde oranını, resmin sağından kırpılan miktarı döndürür. Salt okunur Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Gerçek resim yüksekliğinin yüzde oranını, resmin üstünden kırpılan miktarı döndürür. Salt okunur Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Resmi doldurmak için kullanılan dpi değerini döndürür. Salt okunur Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Resmi döndürür. Salt okunur [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Resim doldurma modunu döndürür. Salt okunur [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Resim dolgu modunu döndürür. Salt okunur [`PictureFillMode`](../picturefillmode). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IFillFormatEffectiveData`](../ifillformateffectivedata) parçası olarak kullanılır.
+Bu arayüz [`IFillFormatEffectiveData`](../ifillformateffectivedata) parçası olarak kullanılır.
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

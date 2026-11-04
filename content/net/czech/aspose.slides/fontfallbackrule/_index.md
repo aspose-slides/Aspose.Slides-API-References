@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje pravidlo náhrady písma
+description: Reprezentuje pravidlo náhrady písma
 type: docs
-weight: 4840
+weight: 4860
 url: /cs/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule třída
 
-Zastupuje pravidlo náhrady písma
+Reprezentuje pravidlo náhrady písma
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -25,23 +25,23 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Získá počet písem skutečně definovaných pro rozsah. Pouze pro čtení Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Získá název písma na zadaném indexu. Pouze pro čtení [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Získá poslední index kontinuálního unicode rozsahu. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Získá první index kontinuálního unicode rozsahu. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Získá počet fontů skutečně definovaných pro rozsah. Pouze pro čtení Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Získá název fontu na zadaném indexu. Pouze pro čtení [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Získá poslední index spojitého Unicode rozsahu. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Získá první index spojitého Unicode rozsahu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Přidá nové písmo/písma do seznamu náhradních písem. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Přidá nová písma do seznamu náhradních písem. |
-| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Odstraní všechna písma ze seznamu. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Přidá nový font(y) do seznamu náhradních fontů. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Přidá nové fonty do seznamu náhradních fontů. |
+| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Odstraní všechny fonty ze seznamu. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Vrátí index zadaného pravidla ve sbírce. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Odstraní první výskyt konkrétního náhradního písma ze seznamu. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Odstraní náhradní písmo na zadaném indexu v seznamu. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Vytvoří a vrátí pole se všemi náhradními písmy pro toto pravidlo. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi náhradními písmy ze zadaného rozsahu v seznamu. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Odstraní první výskyt konkrétního náhradního fontu ze seznamu. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Odstraní náhradní font na zadaném indexu v seznamu. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Vytvoří a vrátí pole se všemi náhradními fonty pro toto pravidlo. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Vytvoří a vrátí pole se všemi náhradními fonty ze zadaného rozsahu v seznamu. |
 
 ### Viz také
 

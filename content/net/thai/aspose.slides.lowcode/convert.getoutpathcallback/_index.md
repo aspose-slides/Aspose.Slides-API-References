@@ -1,22 +1,22 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ Slide../aspose.slides/slide ซึ่งคาดว่าจะคืนค่าที่อยู่ของผลลัพธ์
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: คอลแบ็คที่ถูกเรียกใช้สำหรับแต่ละ Slide../aspose.slides/slide โดยคาดว่าจะส่งคืนเส้นทางเอาต์พุต
 type: docs
-weight: 7890
+weight: 7910
 url: /th/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback ตัวแทน
 
-คอลแบ็กที่ถูกเรียกสำหรับแต่ละ [`Slide`](../../aspose.slides/slide), คาดว่าจะคืนค่าเส้นทางผลลัพธ์
+คอลแบ็คที่ถูกเรียกใช้สำหรับแต่ละ [`Slide`](../../aspose.slides/slide) เพื่อนำเส้นทางเอาต์พุตที่คาดว่าจะส่งคืน
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| slide | Slide | สไลด์ที่กำลังวนรอบอยู่ |
+| slide | Slide | สไลด์ปัจจุบันที่ทำการวน |
 | index | Int32 | ดัชนีของสไลด์ปัจจุบัน |
 
 ### ดูเพิ่มเติม

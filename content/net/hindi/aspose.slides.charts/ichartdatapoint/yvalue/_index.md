@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट डेटा पॉइंट का y मान लौटाता है। केवल-पढ़ने-योग्य IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक चार्ट डेटा पॉइंट का y मान प्राप्त करता है। केवल-पढ़ने योग्य IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /hi/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
-## IChartDataPoint.YValue प्रॉपर्टी
+## IChartDataPoint.YValue गुण
 
-चार्ट डेटा पॉइंट का y मान लौटाता है। केवल-पढ़ने-योग्य [`IDoubleChartValue`](../../idoublechartvalue)।
+एक चार्ट डेटा पॉइंट का y मान प्राप्त करता है। केवल-पढ़ने योग्य [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

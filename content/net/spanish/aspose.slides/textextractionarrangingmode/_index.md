@@ -1,12 +1,12 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el modo a usar durante la extracción de texto
 type: docs
-weight: 10940
+weight: 10960
 url: /es/aspose.slides/textextractionarrangingmode/
 ---
-## TextExtractionArrangingMode enumeración
+## Enumeración TextExtractionArrangingMode
 
 Representa el modo a usar durante la extracción de texto
 

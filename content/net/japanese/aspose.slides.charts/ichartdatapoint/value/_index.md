@@ -1,20 +1,20 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ ポイントの値を返します。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: チャート データ ポイントの値を取得します。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /ja/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value プロパティ
 
-チャート データ ポイントの値を返します。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue)。
+チャート データ ポイントの値を取得します。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IDoubleChartValue](../../idoublechartvalue)
 * インターフェイス [IChartDataPoint](../../ichartdatapoint)

@@ -1,9 +1,9 @@
 ---
 title: IAccessiblePVIObjectT
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un type pouvant renvoyer les données effectives correspondantes avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un type qui peut renvoyer les données effectives correspondantes avec l'héritage appliqué.
 type: docs
-weight: 5170
+weight: 5190
 url: /fr/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> interface
@@ -17,7 +17,7 @@ public interface IAccessiblePVIObject<T>
 
 | Paramètre | Description |
 | --- | --- |
-| T | Type des données effectives. |
+| T | Type de données effectives. |
 
 ## Méthodes
 

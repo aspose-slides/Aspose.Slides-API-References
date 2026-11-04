@@ -3,12 +3,12 @@ title: IStreamWrapperFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Fabrik StreamWrappers. Untuk antarmuka COM.
 type: docs
-weight: 7140
+weight: 7160
 url: /id/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory antarmuka
 
-Fabrik StreamWrappers. Untuk antarmuka COM.
+Factory of StreamWrappers. For COM interface.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -21,7 +21,7 @@ public interface IStreamWrapperFactory
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Membuat FileStream dengan jalur yang ditentukan dan mode pembuatan. |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Membuat FileStream dengan jalur yang ditentukan, mode pembuatan, dan izin baca/tulis. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Membuat pembungkus MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Membuat pembungkus MemoryStream berdasarkan array byte yang ditentukan. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Membuat pembungkus MemoryStream berdasarkan byte array yang ditentukan. |
 
 ### Lihat Juga
 

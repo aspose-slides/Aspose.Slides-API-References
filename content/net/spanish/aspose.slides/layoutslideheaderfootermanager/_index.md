@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa al gestor que contiene el comportamiento del pie de diapositiva de diseño, de fecha y hora, de número de página y de todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas dependientes. Las diapositivas dependientes usan y dependen de la diapositiva de diseño.
+description: Representa al administrador que contiene el comportamiento de los marcadores de posición del pie de página, fecha y hora, número de página de la diapositiva de diseño y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas dependientes. Las diapositivas dependientes usan y dependen de la diapositiva de diseño.
 type: docs
-weight: 7660
+weight: 7680
 url: /es/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager clase
 
-Representa al gestor que contiene el comportamiento del marcador de posición del pie de diapositiva de diseño, de fecha y hora, de número de página y de todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas dependientes. Las diapositivas dependientes usan y dependen de la diapositiva de diseño.
+Representa el administrador que contiene el comportamiento de los marcadores de posición del pie de página, fecha y hora, número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios son marcadores contenidos en diapositivas dependientes. Las diapositivas dependientes usan y dependen de la diapositiva de diseño.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,9 +19,9 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que un marcador de posición de fecha y hora está presente. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que un marcador de posición de pie de página está presente. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que un marcador de posición de número de página está presente. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que existe un marcador de posición de fecha y hora. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que existe un marcador de posición de pie de página. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que existe un marcador de posición de número de página. ReadBoolean. |
 
 ## Métodos
 

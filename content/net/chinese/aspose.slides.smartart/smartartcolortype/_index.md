@@ -1,9 +1,9 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 SmartArt 图表的配色方案。
 type: docs
-weight: 10610
+weight: 10630
 url: /zh/aspose.slides.smartart/smartartcolortype/
 ---
 ## SmartArtColorType 枚举
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.smartart/smartartcolortype/
 public enum SmartArtColorType
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ public enum SmartArtColorType
 | GradientLoopAccent6 | `36` | GradientLoopAccent6 |
 | TransparentGradientRangeAccent6 | `37` | TransparentGradientRangeAccent6 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 程序集 [Aspose.Slides](../../)

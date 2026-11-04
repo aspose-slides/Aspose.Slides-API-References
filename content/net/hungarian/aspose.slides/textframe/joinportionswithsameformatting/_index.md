@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Slides .NET API referencia
-description: Összekapcsolja a futamokat azonos formázással az összes bekezdésben.
+second_title: Aspose.Sildes a .NET API referencia
+description: Összevonja a futásokat azonos formázással az összes bekezdésben.
 type: docs
-weight: 110
+weight: 120
 url: /hu/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting metódus
 
-Összekapcsolja a futamokat azonos formázással az összes bekezdésben.
+Egyesíti a futásokat azonos formázással az összes bekezdésben.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

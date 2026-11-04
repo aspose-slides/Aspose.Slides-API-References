@@ -1,9 +1,9 @@
 ---
 title: ChartTextFormat
 second_title: Aspose.Sildes .NET API 参考
-description: 为图表文本元素指定默认文本格式。
+description: 指定图表文本元素的默认文本格式。
 type: docs
-weight: 1480
+weight: 1490
 url: /zh/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat 类
@@ -27,7 +27,7 @@ public class ChartTextFormat : IChartTextFormat
 | 名称 | 描述 |
 | --- | --- |
 | [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 从指定的文本框复制文本格式。 |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 复制文本格式到指定的文本框。 |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 将文本格式复制到指定的文本框。 |
 
 ### 另请参阅
 

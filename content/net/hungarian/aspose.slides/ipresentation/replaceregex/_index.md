@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
 type: docs
-weight: 360
+weight: 370
 url: /hu/aspose.slides/ipresentation/replaceregex/
 ---
 ## IPresentation.ReplaceRegex metódus
@@ -16,20 +16,20 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | Regex | A reguláris kifejezés Regex a cserélendő karakterláncok lekéréséhez. |
-| newText | String | A karakterlánc, amely minden előfordulását lecseréli a cserélendő karakterláncoknak. |
+| regex | Regex | A reguláris kifejezés (Regex), amely a cserélendő karakterláncokat adja meg. |
+| newText | String | A karakterlánc, amely a cserélendő összes előfordulást helyettesíti. |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-A következő kódrészlet bemutatja, hogyan lehet szöveget cserélni reguláris kifejezéssel a megadott karakterlánc használatával.
+Az alábbi kódrészlet bemutatja, hogyan lehet szöveget cserélni reguláris kifejezéssel a megadott karakterlánc használatával.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Cserélje le az összes 10 vagy több karakterből álló szót '***'-re
+	// Cserélje le az összes 10 vagy több karakterből álló szót a '***' karakterekkel
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

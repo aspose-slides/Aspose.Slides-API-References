@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 다른 타일을 결합하여 더 큰 영역을 채우는 기하학적 패턴을 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 지정된 기하학적 패턴이 함께 타일링되어 더 큰 영역을 채웁니다.
 type: docs
-weight: 10400
+weight: 10420
 url: /ko/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern 열거형
 
-다른 작은 타일을 결합하여 더 큰 영역을 채우는 기하학적 패턴을 지정합니다.
+지정된 기하학적 패턴이 함께 타일링되어 더 큰 영역을 채웁니다.
 
 ```csharp
 public enum TransitionPattern

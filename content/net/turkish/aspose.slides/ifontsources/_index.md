@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes için .NET API Referansı
-description: Harici fontlar için dosya ve bellek kaynakları sağlar.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Harici yazı tipleri için dosya ve bellek kaynaklarını sağlar.
 type: docs
-weight: 5870
+weight: 5890
 url: /tr/aspose.slides/ifontsources/
 ---
-## IFontSources arayüz
+## IFontSources arabirimi
 
-Harici fontlar için dosya ve bellek kaynakları sağlar.
+Dış yazı tipleri için dosya ve bellek kaynaklarını sağlar.
 
 ```csharp
 public interface IFontSources
@@ -18,8 +18,8 @@ public interface IFontSources
 
 | Ad | Açıklama |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Font dosyalarını içeren klasörler. Bu klasörlerde bulunan tüm font dosyaları koleksiyona dahil edilir. Rekürsif olarak aranan klasörler. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Bayt dizileri olarak temsil edilen font koleksiyonu. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Yazı tipi dosyalarını içeren klasörler. Bu klasörlerde bulunan tüm yazı tipi dosyaları koleksiyona dahil edilir. Rekürsif olarak aranan klasörler. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Bayt dizileri olarak temsil edilen bir yazı tipi koleksiyonu. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /th/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions อินเทอร์เฟซ
 
-ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML
+ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -16,11 +16,11 @@ public interface IXamlOptions : ISaveOptions
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ส่งกลับ ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | กำหนดว่าจะส่งออกสไลด์ที่ซ่อนอยู่หรือไม่. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | แสดงการทำงานของ IOutputSaver อินเทอร์เฟซ. |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ส่งคืนอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | กำหนดว่าการสไลด์ที่ซ่อนจะถูกส่งออกหรือไม่. |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | เป็นตัวแทนของการทำงานของอินเทอร์เฟซ IOutputSaver. |
 
 ### ตัวอย่าง
 

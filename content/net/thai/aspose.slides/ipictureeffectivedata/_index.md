@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: อ็อบเจกต์คงที่ที่มีคุณสมบัติโปรไฟล์ภาพที่มีผล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติรูปภาพที่มีผล
 type: docs
-weight: 6640
+weight: 6660
 url: /th/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์คงที่ที่มีคุณสมบัติโปรไฟล์ภาพที่มีผล.
+วัตถุที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติรูปภาพที่มีผล.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | ส่งคืนภาพที่ฝังอยู่. อ่านอย่างเดียว [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | ส่งคืนคอลเลกชันของเอฟเฟกต์การแปลงภาพ. อ่านอย่างเดียว [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | ส่งคืน URL ของภาพที่เชื่อมต่อ. อ่านอย่างเดียว String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | คืนค่าภาพที่ฝังไว้. อ่านอย่างเดียว [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | คืนค่าคอลเลกชันของเอฟเฟกต์การแปลงรูปภาพ. อ่านอย่างเดียว [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | คืนค่า URL ของรูปภาพที่เชื่อมโยง. อ่านอย่างเดียว String. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้เป็นส่วนหนึ่งของ [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) และ [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
+อินเทอร์เฟซนี้ถูกใช้เป็นส่วนหนึ่งของ [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) และ [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 
 ### ดูเพิ่มเติม
 

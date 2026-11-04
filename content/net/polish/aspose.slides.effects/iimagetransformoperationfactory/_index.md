@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Umożliwia tworzenie instancji efektów obrazu
 type: docs
-weight: 3410
+weight: 3430
 url: /pl/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory interfejs

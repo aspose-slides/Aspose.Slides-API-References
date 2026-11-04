@@ -3,7 +3,7 @@ title: IImageWrapper
 second_title: Aspose.Sildes pro .NET API Reference
 description: Obal System.Drawing.Image pro rozhraní COM.
 type: docs
-weight: 6170
+weight: 6190
 url: /cs/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper rozhraní
@@ -26,9 +26,9 @@ public interface IImageWrapper : IDisposable
 
 | Název | Popis |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Uloží obrázek do zadaného souboru |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Uloží obrázek do zadaného proudu ve specifikovaném formátu. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Uloží obrázek do zadaného souboru ve specifikovaném formátu. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Uloží Image do určeného souboru. |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Uloží Image do určeného proudu ve specifikovaném formátu. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Uloží Image do určeného souboru ve specifikovaném formátu. |
 
 ### Viz také
 

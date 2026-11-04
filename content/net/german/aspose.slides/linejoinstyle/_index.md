@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Stil für das Zusammenfügen von Linien dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt den Linienverbindungsstil dar.
 type: docs
-weight: 7800
+weight: 7820
 url: /de/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle Aufzählung
 
-Stellt den Stil für das Zusammenfügen von Linien dar.
+Stellt den Linienverbindungsstil dar.
 
 ```csharp
 public enum LineJoinStyle : sbyte

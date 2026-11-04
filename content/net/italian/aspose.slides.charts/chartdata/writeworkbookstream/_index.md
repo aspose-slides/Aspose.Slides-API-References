@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Inizializza la cartella di lavoro Excel contenuta internamente con il valore specificato dall'utente.
+description: Inizializza il workbook di Excel contenuto internamente con il valore specificato dall'utente.
 type: docs
-weight: 150
+weight: 160
 url: /it/aspose.slides.charts/chartdata/writeworkbookstream/
 ---
 ## ChartData.WriteWorkbookStream metodo
 
-Inizializza la cartella di lavoro Excel contenuta internamente con il valore specificato dall'utente.
+Inizializza il workbook di Excel contenuto internamente con il valore specificato dall'utente.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| ms | MemoryStream | Il flusso fornito dall'utente contenente l'intera cartella di lavoro Excel. |
+| ms | MemoryStream | Il flusso fornito dall'utente che contiene l'intero workbook di Excel. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示字型替代的集合。
+description: 表示字型替換的集合。
 type: docs
-weight: 5890
+weight: 5910
 url: /zh-hant/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection 介面
 
-表示字型替代的集合。
+表示字型替換的集合。
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -24,8 +24,8 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 將新的字型替代規則新增至集合。 |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除特定物件的首次出現。 |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 將新字型替換規則新增至集合。 |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除特定物件的第一次出現。 |
 
 ### 參見
 

@@ -1,9 +1,9 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示一种效果样式。
 type: docs
-weight: 11170
+weight: 11190
 url: /zh/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle 接口
@@ -16,10 +16,10 @@ public interface IEffectStyle
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | 返回效果格式。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | 返回 3d 格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | 返回一个效果格式。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | 返回一个3d格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 
 ### 另见
 

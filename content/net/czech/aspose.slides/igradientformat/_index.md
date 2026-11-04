@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes pro .NET – reference API
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Reprezentuje formát gradientu.
 type: docs
-weight: 6000
+weight: 6020
 url: /cs/aspose.slides/igradientformat/
 ---
 ## IGradientFormat rozhraní
 
-Reprezentuje formát gradientu.
+Representuje formát gradientu.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Název | Popis |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Vrací nebo nastavuje styl gradientu. Čtení/zápis [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Vrací nebo nastavuje tvar gradientu. Čtení/zápis [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Vrací kolekci zastávek gradientu. Pouze pro čtení [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Vrací nebo nastavuje úhel gradientu. Čtení/zápis Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Určuje, zda je gradient škálován. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Vrací nebo nastavuje režim otáčení gradientu. Čtení/zápis [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze ke čtení [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Vrací nebo nastavuje styl gradientu. Čtení/Zápis [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Vrací nebo nastavuje tvar gradientu. Čtení/Zápis [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Vrací kolekci zastávek gradientu. Pouze ke čtení [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Vrací nebo nastavuje úhel gradientu. Čtení/Zápis Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Určuje, zda je gradient škálován. Čtení/Zápis [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Vrací nebo nastavuje režim převrácení gradientu. Čtení/Zápis [`TileFlip`](../tileflip). |
 
 ### Viz také
 

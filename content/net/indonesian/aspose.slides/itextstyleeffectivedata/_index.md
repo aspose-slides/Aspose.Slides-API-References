@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Objek tak dapat diubah yang berisi properti gaya teks yang efektif.
 type: docs
-weight: 7320
+weight: 7340
 url: /id/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData antarmuka
@@ -26,9 +26,9 @@ public interface ITextStyleEffectiveData
 | --- | --- |
 | [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Mengembalikan level gaya yang efektif. |
 
-### Keterangan
+### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`ITextStyle`](../itextstyle) untuk mengembalikan nilai format yang efektif dengan pewarisan diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`ITextStyle`](../itextstyle) untuk mengembalikan nilai format yang efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 

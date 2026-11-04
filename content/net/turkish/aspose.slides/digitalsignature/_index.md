@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: İmzalı dosyada dijital imza.
 type: docs
-weight: 2770
+weight: 2790
 url: /tr/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature sınıfı
 
-İmzalı dosyadaki dijital imza.
+İmzalı dosyada dijital imza.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -18,21 +18,21 @@ public class DigitalSignature : IDigitalSignature
 
 | Ad | Açıklama |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Belirtilen sertifikayla yeni bir DigitalSignature nesnesi oluşturur. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Belirtilen sertifika dosyası yolu ve parola ile yeni bir DigitalSignature nesnesi oluşturur. |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Belirtilen sertifika ile yeni bir DigitalSignature nesnesi oluşturur. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Belirtilen sertifika dosya yolu ve parolası ile yeni bir DigitalSignature nesnesi oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Belgeyi imzalamak için kullanılan sertifika nesnesi. Salt okunur X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | İmzanın amacı. Okunur/yazılır String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Bu dijital imza geçerli ve belge değiştirilmemişse, bu değer doğru olur. Salt okunur Boolean. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | İmzanın amacı. Okunur/yazılabilir String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Bu dijital imza geçerli ve belge değiştirilmemişse, bu değer doğru olacaktır. Salt okunur Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Belgenin imzalandığı zaman. Salt okunur DateTime. |
 
 ### Örnekler
 
-Aşağıdaki örnek, PowerPoint Sunumunda PFX sertifikasından dijital imza eklemeyi göstermektedir.
+Aşağıdaki örnek, PowerPoint Sunumu'na bir PFX sertifikasından dijital imza eklemeyi gösterir.
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Aşağıdaki örnek kod, PowerPoint Sunumunun dijital imzasını nasıl doğrulayacağını göstermektedir.
+Aşağıdaki örnek kod, PowerPoint Sunumu'nun dijital imzasını doğrulamayı gösterir.
 
 ```csharp
 [C#]

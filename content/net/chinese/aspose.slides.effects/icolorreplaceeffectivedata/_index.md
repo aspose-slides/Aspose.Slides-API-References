@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，表示颜色替换效果。所有效果颜色都被更改为固定颜色。Alpha 值不受影响。
+description: 不可变对象，表示颜色替换效果。所有效果颜色都会更改为固定颜色。Alpha 值不受影响。
 type: docs
-weight: 3250
+weight: 3270
 url: /zh/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData 接口
 
-不可变对象，表示颜色替换效果。所有效果颜色都被更改为固定颜色。Alpha 值不受影响。
+不可变对象，表示颜色替换效果。所有效果颜色都会被更改为固定颜色。Alpha 值不受影响。
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | 返回用于替换每个像素颜色的颜色格式。只读 Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | 返回将替换每个像素颜色的颜色格式。只读 Color。 |
 
 ### 另见
 

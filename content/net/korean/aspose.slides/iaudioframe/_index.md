@@ -3,7 +3,7 @@ title: IAudioFrame
 second_title: Aspose.Sildes for .NET API 참조
 description: 슬라이드의 오디오 클립을 나타냅니다.
 type: docs
-weight: 5230
+weight: 5250
 url: /ko/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame 인터페이스
@@ -14,7 +14,7 @@ url: /ko/aspose.slides/iaudioframe/
 public interface IAudioFrame : IPictureFrame
 ```
 
-## Properties
+## 속성
 
 | 이름 | 설명 |
 | --- | --- |
@@ -23,23 +23,23 @@ public interface IAudioFrame : IPictureFrame
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | 마지막 트랙 시간을 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 | [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | 시작 트랙 인덱스를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 | [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | 시작 트랙 시간을 반환하거나 설정합니다. 읽기/쓰기 Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | 오디오 프레임과 연결된 폐쇄 캡션 컬렉션을 가져옵니다. 이 속성은 읽기 전용이며 모든 캡션 트랙을 포함하는 [`ICaptionsCollection`](../icaptionscollection)를 반환합니다. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | 사운드가 프레젠테이션에 포함되어 있는지 여부를 확인합니다. 읽기 전용 Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 임베드된 오디오 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | 미디어 초기 페이드 인 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | 미디어 종료 페이드 아웃 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | 오디오 프레임에 연결된 폐쇄 캡션 컬렉션을 가져옵니다. 이 속성은 읽기 전용이며 모든 캡션 트랙을 포함하는 [`ICaptionsCollection`](../icaptionscollection)를 반환합니다. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | 소리가 프레젠테이션에 포함되었는지 여부를 결정합니다. 읽기 전용 Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 임베디드 오디오 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | 미디어의 초기 페이드 인 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | 미디어의 종료 페이드 아웃 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | AudioFrame이 숨겨져 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame에 연결된 오디오 파일의 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | 오디오가 슬라이드 전체에서 재생되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | 오디오가 반복 재생되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | 오디오 재생 모드를 반환하거나 설정합니다. 읽기/쓰기 [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 오디오가 재생 후 자동으로 시작 위치로 되감기는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 재생 중에 미디어 끝에서 제거할 시간 길이를 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 재생 중에 미디어 시작에서 제거할 시간 길이를 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 오디오 재생 후 자동으로 시작 위치로 되감는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 재생 중에 미디어 끝에서 제거할 시간 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 재생 중에 미디어 시작에서 제거할 시간 지속 시간을 밀리초 단위로 지정합니다. 읽기/쓰기 Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | 오디오 볼륨을 반환하거나 설정합니다. 읽기/쓰기 [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | 오디오 볼륨을 백분율로 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | 오디오 볼륨을 퍼센트로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IPictureFrame](../ipictureframe)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

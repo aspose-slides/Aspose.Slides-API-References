@@ -1,14 +1,14 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Aspose.Sildes .NET API referencia
-description: Inicializálja a TextFrameForOverriding-et a "text" paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, egyszerűen módosítja a szövegét.
+second_title: Aspose.Sildes .NET API Referencia
+description: Inicializálja a TextFrameForOverriding-et a paraméter text szövegével. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen megváltoztatja a szövegét.
 type: docs
-weight: 180
+weight: 190
 url: /hu/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 ## DataLabel.AddTextFrameForOverriding metódus
 
-Inicializálja a TextFrameForOverriding-et a "text" paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen módosítja a szövegét.
+Inicializálja a TextFrameForOverriding-et a "text" paraméter szövegével. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen megváltoztatja a szövegét.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -16,7 +16,7 @@ public ITextFrame AddTextFrameForOverriding(string text)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| text | String | Szöveg egy új TextFrameForOverriding-hez. |
+| text | String | Szöveg az új TextFrameForOverriding számára. |
 
 ### Lásd még
 

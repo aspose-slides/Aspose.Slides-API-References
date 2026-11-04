@@ -3,7 +3,7 @@ title: MathHorizontalAlignment
 second_title: Aspose.Sildes für .NET API Referenz
 description: Horizontale Ausrichtung
 type: docs
-weight: 8780
+weight: 8800
 url: /de/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment Aufzählung
@@ -21,7 +21,7 @@ public enum MathHorizontalAlignment
 | NotDefined | `0` | Wert ist nicht definiert |
 | Left | `1` | Linksbündig |
 | Center | `2` | Zentriert |
-| Right | `3` | Rechts |
+| Right | `3` | Rechtsbündig |
 
 ### Siehe auch
 

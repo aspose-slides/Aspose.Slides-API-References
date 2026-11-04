@@ -3,7 +3,7 @@ title: TransitionValueBase
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Clase base para efectos de transición de diapositivas.
 type: docs
-weight: 10460
+weight: 10480
 url: /es/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase clase
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como una función hash para un tipo concreto, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

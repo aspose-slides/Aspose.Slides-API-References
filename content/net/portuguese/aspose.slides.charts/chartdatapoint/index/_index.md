@@ -1,9 +1,9 @@
 ---
 title: Index
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /pt/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index propriedade
@@ -12,7 +12,7 @@ url: /pt/aspose.slides.charts/chartdatapoint/index/
 public uint Index { get; }
 ```
 
-### Ver também
+### Veja Também
 
 * classe [ChartDataPoint](../../chartdatapoint)
 * espaço de nomes [Aspose.Slides.Charts](../../chartdatapoint)

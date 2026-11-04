@@ -3,12 +3,12 @@ title: IBrightnessContrastEffectiveData
 second_title: Aspose.Sildes .NET API 参考
 description: 不可变对象，表示 BrightnessContrast 效果。调整亮度和对比度
 type: docs
-weight: 3210
+weight: 3230
 url: /zh/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData 接口
 
-不可变对象，表示一个 BrightnessContrast 效果。调整亮度和对比度
+不可变对象，表示 BrightnessContrast 效果。调整亮度和对比度
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | 返回亮度。只读 Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | 返回对比度。只读 Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | 返回亮度。只读 Single。 |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | 返回对比度。只读 Single。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

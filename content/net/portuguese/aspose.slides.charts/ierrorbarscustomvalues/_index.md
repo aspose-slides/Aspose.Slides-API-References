@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica os valores das barras de erro. Deve ser usado apenas quando o tipo de valor das barras de erro for Custom.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica os valores das barras de erro. Deve ser usado somente quando o tipo de valor das barras de erro é Custom.
 type: docs
-weight: 2080
+weight: 2100
 url: /pt/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues interface
 
-Especifica os valores das barras de erro. Deve ser usado apenas quando o tipo de valor das barras de erro é Custom.
+Especifica os valores da barra de erro. Deve ser usado somente quando o tipo de valor das barras de erro é Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues

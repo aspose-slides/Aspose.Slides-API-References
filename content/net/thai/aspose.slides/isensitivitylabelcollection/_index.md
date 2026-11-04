@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของป้ายความอ่อนไหวที่ถูกนำไปใช้กับเอกสาร
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นคอลเลกชันของป้ายความอ่อนไหวงที่ใช้กับเอกสาร.
 type: docs
-weight: 6940
+weight: 6960
 url: /th/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของป้ายความอ่อนไหวที่ถูกใช้กับเอกสาร
+เป็นคอลเลกชันของป้ายความอ่อนไหวงที่ใช้กับเอกสาร.
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -18,17 +18,17 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | รับจำนวนทั้งหมดขององค์ประกอบในคอลเลกชัน การอ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | ส่งคืนป้ายความอ่อนไหวตามดัชนี การอ่านอย่างเดียว [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | รับจำนวนของทุกองค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | ส่งคืนป้ายความอ่อนไหวงตามดัชนี. อ่านอย่างเดียว [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | เพิ่ม SensitivityLabel ไปยังคอลเลกชัน. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | เพิ่มป้ายความอ่อนไหวที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | ลบป้ายความอ่อนไหวที่ตำแหน่งดัชนีที่ระบุ. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | เพิ่มป้ายความอ่อนไหวงที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | ลบองค์ประกอบทั้งหมดออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | ลบป้ายความอ่อนไหวงตามดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

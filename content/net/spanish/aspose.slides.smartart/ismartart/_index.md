@@ -3,10 +3,10 @@ title: ISmartArt
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un diagrama SmartArt.
 type: docs
-weight: 10540
+weight: 10560
 url: /es/aspose.slides.smartart/ismartart/
 ---
-## ISmartArt interfaz
+## Interfaz ISmartArt
 
 Representa un diagrama SmartArt.
 
@@ -21,7 +21,7 @@ public interface ISmartArt : IGraphicalObject
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Devuelve colecciones de todos los nodos en el objeto SmartArt. Solo lectura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Permite obtener la interfaz base IGraphicalObject. Solo lectura [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Devuelve o establece el estilo de color del objeto SmartArt. Lectura/escritura [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Devuelve o establece el estado del diagrama SmartArt respecto a (de izquierda a derecha) LTR o (de derecha a izquierda) RTL, si el diagrama admite inversión. Lectura/escritura Boolean. |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Devuelve o establece el estado del diagrama SmartArt con respecto a (de izquierda a derecha) LTR o (de derecha a izquierda) RTL, si el diagrama admite inversión. Lectura/escritura Boolean. |
 | [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Devuelve o establece el diseño del objeto SmartArt. Lectura/escritura [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Devuelve colecciones de nodos raíz en el objeto SmartArt. Solo lectura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Devuelve o establece el estilo rápido del objeto SmartArt. Lectura/escritura [`SmartArtQuickStyleType`](../smartartquickstyletype). |

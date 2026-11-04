@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติสำหรับการเติมเส้น.
+description: แสดงคุณสมบัติสำหรับการเติมเส้น
 type: docs
-weight: 7780
+weight: 7800
 url: /th/aspose.slides/linefillformat/
 ---
-## LineFillFormat คลาส
+## คลาส LineFillFormat
 
-แสดงคุณสมบัติสำหรับการเติมเส้น.
+แสดงคุณสมบัติสำหรับการเติมเส้น
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,19 +18,19 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | ส่งคืนหรือกำหนดประเภทการเติม. อ่าน/เขียน [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | ส่งคืนรูปแบบการเติมแบบไล่สี. อ่านอย่างเดียว [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | ส่งคืนรูปแบบการเติมแบบลวดลาย. อ่านอย่างเดียว [`IPatternFormat`](../ipatternformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | คืนค่าหรือกำหนดประเภทการเติม. อ่าน/เขียน [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | คืนค่ารูปแบบการเติมแบบไล่สี. อ่านอย่างเดียว [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | คืนค่ารูปแบบการเติมแบบลวดลาย. อ่านอย่างเดียว [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | กำหนดว่าการเติมควรหมุนตามรูปร่างหรือไม่. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | ส่งคืนสีของการเติมแบบทึบ. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | คืนค่าสีของการเติมแบบทึบ. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่ระบุ. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮชโค้ด. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด. |
 
 ### ดูเพิ่มเติม
 

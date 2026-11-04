@@ -1,31 +1,31 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेज़ेंटेशन-व्यापी दृश्य गुण।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: प्रस्तुति-व्यापी दृश्य गुण।
 type: docs
-weight: 7390
+weight: 7410
 url: /hi/aspose.slides/iviewproperties/
 ---
-## IViewProperties इंटरफ़ेस
+## IViewProperties interface
 
-प्रेज़ेंटेशन-व्यापी दृश्य गुण।
+प्रस्तुति-व्यापी दृश्य गुण।
 
 ```csharp
 public interface IViewProperties
 ```
 
-## गुण
+## Properties
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | ग्रिड का अंतराल सेट या प्राप्त करता है जो प्रस्तुति दस्तावेज़ के नीचे ग्रिड के लिए उपयोग किया जाना चाहिए, पॉइंट्स में। पढ़ें/लिखें Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | वह दृश्य मोड निर्दिष्ट करता है जो प्रस्तुति दस्तावेज़ को अंतिम बार सहेजते समय उपयोग किया गया था। पढ़ें/लिखें [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्रों होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक निचला सामग्री क्षेत्र। केवल-पढ़ने-योग्य [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | नोट्स दृश्य मोड से जुड़े सामान्य दृश्य गुणों को निर्दिष्ट करता है। केवल-पढ़ने-योग्य [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | निर्दिष्ट करता है कि स्लाइड टिप्पणी दिखाई जानी चाहिए या नहीं। पढ़ें/लिखें [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | स्लाइड दृश्य मोड से जुड़े सामान्य दृश्य गुणों को निर्दिष्ट करता है। केवल-पढ़ने-योग्य [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | प्रस्तुति दस्तावेज़ के नीचे स्थित ग्रिड के लिए उपयोग किए जाने वाले ग्रिड स्पेसिंग को लौटाता है या सेट करता है, पॉइंट्स में। पढ़ने/लिखने योग्य Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | प्रस्तुति दस्तावेज़ को आखिरी बार सहेजे जाने पर उपयोग किए गए दृश्य मोड को निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | सामान्य दृश्य गुणों को दर्शाता है। सामान्य दृश्य तीन सामग्री क्षेत्रों से बनता है: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और नीचे का सामग्री क्षेत्र। केवल-पढ़ने योग्य [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | नोट्स दृश्य मोड से जुड़े सामान्य दृश्य गुणों को निर्दिष्ट करता है। केवल-पढ़ने योग्य [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | स्लाइड टिप्पणी दिखाए जाने चाहिए या नहीं, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | स्लाइड दृश्य मोड से जुड़े सामान्य दृश्य गुणों को निर्दिष्ट करता है। केवल-पढ़ने योग्य [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### अन्य देखें
+### See Also
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

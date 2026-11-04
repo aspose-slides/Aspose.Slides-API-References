@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
-description: Reprezentuje slajd notatek w prezentacji.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje slajd z notatkami w prezentacji.
 type: docs
-weight: 6500
+weight: 6520
 url: /pl/aspose.slides/inotesslide/
 ---
 ## INotesSlide interfejs
 
-Reprezentuje slajd notatek w prezentacji.
+Reprezentuje slajd z notatkami w prezentacji.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -20,11 +20,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Umożliwia pobranie bazowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Zwraca interfejs IOverrideThemeable. Tylko do odczytu [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Zwraca menedżer HeaderFooter slajdu notatek. Tylko do odczytu [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Zwraca menedżer HeaderFooter slajdu z notatkami. Tylko do odczytu [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Zwraca TextFrame z tekstem notatek, jeśli istnieje. Tylko do odczytu [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Zwraca ParentSlide. Tylko do odczytu [`ISlide`](../islide). |
 
-### Patrz także
+### Zobacz także
 
 * interfejs [IBaseSlide](../ibaseslide)
 * interfejs [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

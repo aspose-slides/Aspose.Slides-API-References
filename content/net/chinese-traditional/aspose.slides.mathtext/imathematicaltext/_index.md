@@ -1,14 +1,14 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 數學文字
 type: docs
-weight: 8510
+weight: 8530
 url: /zh-hant/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText 介面
 
-Mathematical text
+數學文字
 
 ```csharp
 public interface IMathematicalText : IMathElement
@@ -31,7 +31,7 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

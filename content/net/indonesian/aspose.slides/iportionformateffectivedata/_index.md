@@ -1,9 +1,9 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Objek tidak dapat diubah yang berisi properti pemformatan bagian teks yang efektif.
 type: docs
-weight: 6740
+weight: 6760
 url: /id/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData antarmuka
@@ -19,13 +19,13 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Nama | Deskripsi |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Mengembalikan antarmuka IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Mengembalikan pengenal penanda. String hanya-baca. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Mengembalikan hyperlink yang didefinisikan untuk klik mouse. hanya-baca [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Mengembalikan hyperlink yang didefinisikan untuk mouse over. hanya-baca [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Mengembalikan pengidentifikasi penanda buku. String Hanya-baca. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Mengembalikan hyperlink yang ditentukan untuk klik mouse. [`IHyperlink`](../ihyperlink) Hanya-baca. |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Mengembalikan hyperlink yang ditentukan untuk mengarahkan mouse. [`IHyperlink`](../ihyperlink) Hanya-baca. |
 
-### Catatan
+### Keterangan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IPortionFormat`](../iportionformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan [`IPortionFormat`](../iportionformat) antarmuka untuk mengembalikan nilai pemformatan efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 

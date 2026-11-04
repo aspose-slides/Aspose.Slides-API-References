@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: डेटा लेबल लीडर लाइन्स फ़ॉर्मेट का प्रतिनिधित्व करता है। केवल-पढ़ने योग्य IChartLinesFormataspose.slides.charts/ichartlinesformat.
+description: डेटा लेबल्स लीडर लाइन्स फ़ॉर्मेट को दर्शाता है। केवल पढ़ने योग्य IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /hi/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
-## IDataLabelCollection.LeaderLinesFormat संपत्ति
+## IDataLabelCollection.LeaderLinesFormat प्रॉपर्टी
 
-डेटा लेबल लीडर लाइन्स फ़ॉर्मेट का प्रतिनिधित्व करता है। केवल-पढ़ने योग्य [`IChartLinesFormat`](../../ichartlinesformat).
+डेटा लेबल्स लीडर लाइन्स फ़ॉर्मेट को दर्शाता है। केवल पढ़ने योग्य [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IChartLinesFormat](../../ichartlinesformat)
 * इंटरफ़ेस [IDataLabelCollection](../../idatalabelcollection)

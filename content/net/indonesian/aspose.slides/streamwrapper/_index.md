@@ -1,9 +1,9 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Pembungkus Aspose.IO.Stream untuk antarmuka COM.
 type: docs
-weight: 10750
+weight: 10770
 url: /id/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper kelas
@@ -18,13 +18,13 @@ public class StreamWrapper : IStreamWrapper
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Mengizinkan mendapatkan antarmuka IDisposable dasar. Hanya baca IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung pembacaan. Hanya baca Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung pencarian. Hanya baca Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung penulisan. Hanya baca Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Mendapatkan panjang aliran dalam byte. Hanya baca Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Mendapatkan atau mengatur posisi dalam aliran saat ini. Hanya baca Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Mendapatkan sebuah aliran. Hanya baca Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Mengizinkan untuk memperoleh antarmuka IDisposable dasar. Hanya-baca IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung pembacaan. Hanya-baca Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung pencarian. Hanya-baca Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Mendapatkan nilai yang menunjukkan apakah aliran saat ini mendukung penulisan. Hanya-baca Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Mendapatkan panjang dalam byte aliran. Hanya-baca Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Mendapatkan atau mengatur posisi dalam aliran saat ini. Hanya-baca Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Mendapatkan sebuah aliran. Hanya-baca Stream. |
 
 ## Metode
 
@@ -32,12 +32,12 @@ public class StreamWrapper : IStreamWrapper
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | Menutup aliran saat ini dan melepaskan semua sumber daya. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Membuang objek. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Mengosongkan semua penyangga untuk aliran ini dan menyebabkan data yang tersangga ditulis ke perangkat dasar. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Membaca rangkaian byte dari aliran saat ini dan menggerakkan posisi dalam aliran sebesar jumlah byte yang dibaca. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Membaca satu byte dari aliran dan menggerakkan posisi dalam aliran satu byte, atau mengembalikan -1 jika berada pada akhir aliran. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Mengosongkan semua buffer untuk aliran ini dan menyebabkan data yang di-buffer ditulis ke perangkat dasar. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Membaca urutan byte dari aliran saat ini dan menggeser posisi dalam aliran sebesar jumlah byte yang dibaca. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Membaca satu byte dari aliran dan menggeser posisi dalam aliran satu byte, atau mengembalikan -1 jika berada di akhir aliran. |
 | [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Mengatur posisi dalam aliran saat ini |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Menulis rangkaian byte ke aliran saat ini dan menggerakkan posisi saat ini dalam aliran sebesar jumlah byte yang ditulis. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Menulis satu byte ke posisi saat ini dalam aliran dan menggerakkan posisi dalam aliran satu byte. |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Menulis urutan byte ke aliran saat ini dan menggeser posisi saat ini dalam aliran ini sebesar jumlah byte yang ditulis. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Menulis satu byte ke posisi saat ini dalam aliran dan menggeser posisi dalam aliran satu byte. |
 
 ### Lihat Juga
 

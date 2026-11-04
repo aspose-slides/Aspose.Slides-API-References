@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Administrador de diapositivas de notas maestras.
 type: docs
-weight: 6410
+weight: 6430
 url: /es/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interfaz

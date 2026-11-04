@@ -1,14 +1,14 @@
 ---
 title: Collect
 second_title: Aspose.Sildes .NET API referencia
-description: A Presentation../aspose.slides/presentation-ból különböző típusú modellobjektumok összegyűjtésére szánt metóduscsoportot képviseli.
+description: Képviseli a módszerek egy csoportját, amely a Presentation../aspose.slides/presentation-ból különböző típusú modellobjektumok gyűjtésére szolgál.
 type: docs
-weight: 7860
+weight: 7880
 url: /hu/aspose.slides.lowcode/collect/
 ---
 ## Collect osztály
 
-A [`Presentation`](../../aspose.slides/presentation) különböző típusú modellobjektumok összegyűjtésére szolgáló metódusok egy csoportját képviseli.
+A [`Presentation`](../../aspose.slides/presentation)-ból származó különböző típusú modellobjektumok gyűjtésére szolgáló módszerek csoportját képviseli.
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | Név | Leírás |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Shape`](../../aspose.slides/shape) összes példányát gyűjti össze a [`Presentation`](../../aspose.slides/presentation)-ban. |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Az összes [`Shape`](../../aspose.slides/shape) példányt a [`Presentation`](../../aspose.slides/presentation)-ben gyűjti össze. |
 
 ### Példák
 

@@ -1,14 +1,14 @@
 ---
 title: NotesSize
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Größe einer Notizfolie dar.
+description: Stellt eine Größe einer Notizfolie dar.
 type: docs
-weight: 9130
+weight: 9150
 url: /de/aspose.slides/notessize/
 ---
 ## NotesSize Klasse
 
-Stellt die Größe einer Notizfolie dar.
+Stellt eine Größe einer Notizfolie dar.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | Name | Beschreibung |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Gibt die Größe in Punkten zurück oder legt sie fest. Lese/Schreib SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Gibt die Größe in Punkten zurück oder setzt sie. Lesen/Schreiben SizeF. |
 
 ### Siehe auch
 

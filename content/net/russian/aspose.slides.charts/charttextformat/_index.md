@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
 second_title: Aspose.Sildes для .NET справочник API
-description: Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
+description: Указывает форматирование текста по умолчанию для элементов текста диаграммы.
 type: docs
-weight: 1480
+weight: 1490
 url: /ru/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat класс
 
-Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
+Указывает форматирование текста по умолчанию для элементов текста диаграммы.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -26,8 +26,8 @@ public class ChartTextFormat : IChartTextFormat
 
 | Имя | Описание |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Копирует формат текста из указанного текстового кадра. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Копирует формат текста в указанный текстовый кадр. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Копирует формат текста из указанного текстового фрейма. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Копирует формат текста в указанный текстовый фрейм. |
 
 ### См. также
 

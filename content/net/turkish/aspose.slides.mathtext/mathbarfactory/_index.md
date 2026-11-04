@@ -1,14 +1,14 @@
 ---
 title: MathBarFactory
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir matematik çubuğu oluşturmanıza olanak tanır
+description: Bir matematik çubuğu oluşturmayı sağlar
 type: docs
-weight: 8580
+weight: 8600
 url: /tr/aspose.slides.mathtext/mathbarfactory/
 ---
-## MathBarFactory sınıfı
+## MathBarFactory sınıf
 
-Bir matematik çubuğu oluşturmanıza olanak tanır
+Bir matematik çubuğu oluşturmayı sağlar
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -24,8 +24,8 @@ public class MathBarFactory : IMathBarFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Öğe üzerinde uygulayarak bir matematik çubuğu oluşturur |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Öğe üzerinde uygulayarak bir matematik çubuğu oluşturur |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Elemanın üzerine uygulayarak bir matematik çubuğu oluşturur |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Elemanın üzerine uygulayarak bir matematik çubuğu oluşturur |
 
 ### Açıklamalar
 

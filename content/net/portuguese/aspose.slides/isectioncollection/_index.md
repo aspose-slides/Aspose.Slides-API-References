@@ -1,9 +1,9 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa uma coleção de seções.
 type: docs
-weight: 6900
+weight: 6920
 url: /pt/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interface
@@ -25,15 +25,15 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | Nome | Descrição |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Adiciona uma seção vazia na posição especificada da coleção. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Adiciona nova seção iniciada a partir de um slide específico. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Adiciona uma nova seção iniciada a partir de um slide específico. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Adiciona uma seção vazia ao final da coleção. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Remove todas as seções da coleção. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Retorna o índice da seção especificada na coleção. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Retorna um índice da seção especificada na coleção. |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Remove a seção. Slides contidos na seção serão mesclados à seção anterior. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Remove a seção e os slides contidos nela. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Move a seção e seus slides da coleção para a posição especificada. |
 
-### Ver Também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ISection](../isection)

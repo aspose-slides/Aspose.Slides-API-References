@@ -3,10 +3,10 @@ title: LineJoinStyle
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le style de jointure des lignes.
 type: docs
-weight: 7800
+weight: 7820
 url: /fr/aspose.slides/linejoinstyle/
 ---
-## Énumération LineJoinStyle
+## LineJoinStyle énumération
 
 Représente le style de jointure des lignes.
 

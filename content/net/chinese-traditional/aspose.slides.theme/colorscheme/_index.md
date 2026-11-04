@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes for .NET API 參考
 description: 儲存主題定義的顏色。
 type: docs
-weight: 11070
+weight: 11090
 url: /zh-hant/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme 類別
@@ -26,13 +26,13 @@ public class ColorScheme : IColorScheme
 | [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | 方案中的第六個強調色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | 方案中的第一個深色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | 方案中的第二個深色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | 已訪問超連結的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | 已造訪的超連結的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | 超連結的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | 取得指定索引處的元素。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | 方案中的第一個亮色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | 方案中的第二個亮色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | 傳回父簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | 傳回父投影片。唯讀 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | 方案中的第一個淺色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | 方案中的第二個淺色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | 傳回父級簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | 傳回父級投影片。唯讀 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
 
 ### 另請參閱
 

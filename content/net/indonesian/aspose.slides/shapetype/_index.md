@@ -3,10 +3,10 @@ title: ShapeType
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili geometri bawaan dari bentuk geometri.
 type: docs
-weight: 9930
+weight: 9950
 url: /id/aspose.slides/shapetype/
 ---
-## ShapeType enumerasi
+## enumerasi ShapeType
 
 Mewakili geometri bawaan dari bentuk geometri.
 
@@ -18,199 +18,199 @@ public enum ShapeType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tidak terdefinisi. |
-| Custom | `0` | Custom shape. Ini adalah nilai hanya-baca. |
-| Line | `1` | Line Shape. |
-| LineInverse | `2` | Line Inverse Shape. |
-| Triangle | `3` | Triangle Shape. |
-| RightTriangle | `4` | Right Triangle Shape. |
-| Rectangle | `5` | Rectangle Shape. |
-| Diamond | `6` | Diamond Shape. |
-| Parallelogram | `7` | Parallelogram Shape. |
-| Trapezoid | `8` | Trapezoid Shape. |
-| NonIsoscelesTrapezoid | `9` | Non-Isosceles Trapezoid Shape. |
-| Pentagon | `10` | Pentagon Shape. |
-| Hexagon | `11` | Hexagon Shape. |
-| Heptagon | `12` | Heptagon Shape. |
-| Octagon | `13` | Octagon Shape. |
-| Decagon | `14` | Decagon Shape. |
-| Dodecagon | `15` | Dodecagon Shape. |
-| FourPointedStar | `16` | Four Pointed Star Shape. |
-| FivePointedStar | `17` | Five Pointed Star Shape. |
-| SixPointedStar | `18` | Six Pointed Star Shape. |
-| SevenPointedStar | `19` | Seven Pointed Star Shape. |
-| EightPointedStar | `20` | Eight Pointed Star Shape. |
-| TenPointedStar | `21` | Ten Pointed Star Shape. |
-| TwelvePointedStar | `22` | Twelve Pointed Star Shape. |
-| SixteenPointedStar | `23` | Sixteen Pointed Star Shape. |
-| TwentyFourPointedStar | `24` | Twenty Four Pointed Star Shape. |
-| ThirtyTwoPointedStar | `25` | Thirty Two Pointed Star Shape. |
-| RoundCornerRectangle | `26` | Round Corner Rectangle Shape. |
-| OneRoundCornerRectangle | `27` | One Round Corner Rectangle Shape. |
-| TwoSamesideRoundCornerRectangle | `28` | Two Same-side Round Corner Rectangle Shape. |
-| TwoDiagonalRoundCornerRectangle | `29` | Two Diagonal Round Corner Rectangle Shape. |
-| OneSnipOneRoundCornerRectangle | `30` | One Snip One Round Corner Rectangle Shape. |
-| OneSnipCornerRectangle | `31` | One Snip Corner Rectangle Shape. |
-| TwoSamesideSnipCornerRectangle | `32` | Two Same-side Snip Corner Rectangle Shape. |
-| TwoDiagonalSnipCornerRectangle | `33` | Two Diagonal Snip Corner Rectangle Shape. |
-| Plaque | `34` | Plaque Shape. |
-| Ellipse | `35` | Ellipse Shape. |
-| Teardrop | `36` | Teardrop Shape. |
-| HomePlate | `37` | Home Plate Shape. |
-| Chevron | `38` | Chevron Shape. |
-| PieWedge | `39` | Pie Wedge Shape. |
-| Pie | `40` | Pie Shape. |
-| BlockArc | `41` | Block Arc Shape. |
-| Donut | `42` | Donut Shape. |
-| NoSmoking | `43` | No Smoking Shape. |
-| RightArrow | `44` | Right Arrow Shape. |
-| LeftArrow | `45` | Left Arrow Shape. |
-| UpArrow | `46` | Up Arrow Shape. |
-| DownArrow | `47` | Down Arrow Shape. |
-| StripedRightArrow | `48` | Striped Right Arrow Shape. |
-| NotchedRightArrow | `49` | Notched Right Arrow Shape. |
-| BentUpArrow | `50` | Bent Up Arrow Shape. |
-| LeftRightArrow | `51` | Left Right Arrow Shape. |
-| UpDownArrow | `52` | Up Down Arrow Shape. |
-| LeftUpArrow | `53` | Left Up Arrow Shape. |
-| LeftRightUpArrow | `54` | Left Right Up Arrow Shape. |
-| QuadArrow | `55` | Quad-Arrow Shape. |
-| CalloutLeftArrow | `56` | Callout Left Arrow Shape. |
-| CalloutRightArrow | `57` | Callout Right Arrow Shape. |
-| CalloutUpArrow | `58` | Callout Up Arrow Shape. |
-| CalloutDownArrow | `59` | Callout Down Arrow Shape. |
-| CalloutLeftRightArrow | `60` | Callout Left Right Arrow Shape. |
-| CalloutUpDownArrow | `61` | Callout Up Down Arrow Shape. |
-| CalloutQuadArrow | `62` | Callout Quad-Arrow Shape. |
-| BentArrow | `63` | Bent Arrow Shape. |
-| UTurnArrow | `64` | U-Turn Arrow Shape. |
-| CircularArrow | `65` | Circular Arrow Shape. |
-| LeftCircularArrow | `66` | Left Circular Arrow Shape. |
-| LeftRightCircularArrow | `67` | Left Right Circular Arrow Shape. |
-| CurvedRightArrow | `68` | Curved Right Arrow Shape. |
-| CurvedLeftArrow | `69` | Curved Left Arrow Shape. |
-| CurvedUpArrow | `70` | Curved Up Arrow Shape. |
-| CurvedDownArrow | `71` | Curved Down Arrow Shape. |
-| SwooshArrow | `72` | Swoosh Arrow Shape. |
-| Cube | `73` | Cube Shape. |
-| Can | `74` | Can Shape. |
-| LightningBolt | `75` | Lightning Bolt Shape. |
-| Heart | `76` | Heart Shape. |
-| Sun | `77` | Sun Shape. |
-| Moon | `78` | Moon Shape. |
-| SmileyFace | `79` | Smiley Face Shape. |
-| IrregularSeal1 | `80` | Irregular Seal 1 Shape. |
-| IrregularSeal2 | `81` | Irregular Seal 2 Shape. |
-| FoldedCorner | `82` | Folded Corner Shape. |
-| Bevel | `83` | Bevel Shape. |
-| Frame | `84` | Frame Shape. |
-| HalfFrame | `85` | Half Frame Shape. |
-| Corner | `86` | Corner Shape. |
-| DiagonalStripe | `87` | Diagonal Stripe Shape. |
-| Chord | `88` | Chord Shape. |
-| CurvedArc | `89` | Curved Arc Shape. |
-| LeftBracket | `90` | Left Bracket Shape. |
-| RightBracket | `91` | Right Bracket Shape. |
-| LeftBrace | `92` | Left Brace Shape. |
-| RightBrace | `93` | Right Brace Shape. |
-| BracketPair | `94` | Bracket Pair Shape. |
-| BracePair | `95` | Brace Pair Shape. |
-| StraightConnector1 | `96` | Straight Connector 1 Shape. |
-| BentConnector2 | `97` | Bent Connector 2 Shape. |
-| BentConnector3 | `98` | Bent Connector 3 Shape. |
-| BentConnector4 | `99` | Bent Connector 4 Shape. |
-| BentConnector5 | `100` | Bent Connector 5 Shape. |
-| CurvedConnector2 | `101` | Curved Connector 2 Shape. |
-| CurvedConnector3 | `102` | Curved Connector 3 Shape. |
-| CurvedConnector4 | `103` | Curved Connector 4 Shape. |
-| CurvedConnector5 | `104` | Curved Connector 5 Shape. |
-| Callout1 | `105` | Callout 1 Shape. |
-| Callout2 | `106` | Callout 2 Shape. |
-| Callout3 | `107` | Callout 3 Shape. |
-| Callout1WithAccent | `108` | Callout 1 with Accent Shape. |
-| Callout2WithAccent | `109` | Callout 2 with Accent Shape. |
-| Callout3WithAccent | `110` | Callout 3 with Accent Shape. |
-| Callout1WithBorder | `111` | Callout 1 with Border Shape. |
-| Callout2WithBorder | `112` | Callout 2 with Border Shape. |
-| Callout3WithBorder | `113` | Callout 3 with Border Shape. |
-| Callout1WithBorderAndAccent | `114` | Callout 1 with Border and Accent Shape. |
-| Callout2WithBorderAndAccent | `115` | Callout 2 with Border and Accent Shape. |
-| Callout3WithBorderAndAccent | `116` | Callout 3 with Border and Accent Shape. |
-| CalloutWedgeRectangle | `117` | Callout Wedge Rectangle Shape. |
-| CalloutWedgeRoundRectangle | `118` | Callout Wedge Round Rectangle Shape. |
-| CalloutWedgeEllipse | `119` | Callout Wedge Ellipse Shape. |
-| CalloutCloud | `120` | Callout Cloud Shape. |
-| Cloud | `121` | Cloud Shape. |
-| Ribbon | `122` | Ribbon Shape. |
-| Ribbon2 | `123` | Ribbon 2 Shape. |
-| EllipseRibbon | `124` | Ellipse Ribbon Shape. |
-| EllipseRibbon2 | `125` | Ellipse Ribbon 2 Shape. |
-| LeftRightRibbon | `126` | Left Right Ribbon Shape. |
-| VerticalScroll | `127` | Vertical Scroll Shape. |
-| HorizontalScroll | `128` | Horizontal Scroll Shape. |
-| Wave | `129` | Wave Shape. |
-| DoubleWave | `130` | Double Wave Shape. |
-| Plus | `131` | Plus Shape. |
-| ProcessFlow | `132` | Process Flow Shape. |
-| DecisionFlow | `133` | Decision Flow Shape. |
-| InputOutputFlow | `134` | Input Output Flow Shape. |
-| PredefinedProcessFlow | `135` | Predefined Process Flow Shape. |
-| InternalStorageFlow | `136` | Internal Storage Flow Shape. |
-| DocumentFlow | `137` | Document Flow Shape. |
-| MultiDocumentFlow | `138` | Multi-Document Flow Shape. |
-| TerminatorFlow | `139` | Terminator Flow Shape. |
-| PreparationFlow | `140` | Preparation Flow Shape. |
-| ManualInputFlow | `141` | Manual Input Flow Shape. |
-| ManualOperationFlow | `142` | Manual Operation Flow Shape. |
-| ConnectorFlow | `143` | Connector Flow Shape. |
-| PunchedCardFlow | `144` | Punched Card Flow Shape. |
-| PunchedTapeFlow | `145` | Punched Tape Flow Shape. |
-| SummingJunctionFlow | `146` | Summing Junction Flow Shape. |
-| OrFlow | `147` | Or Flow Shape. |
-| CollateFlow | `148` | Collate Flow Shape. |
-| SortFlow | `149` | Sort Flow Shape. |
-| ExtractFlow | `150` | Extract Flow Shape. |
-| MergeFlow | `151` | Merge Flow Shape. |
-| OfflineStorageFlow | `152` | Offline Storage Flow Shape. |
-| OnlineStorageFlow | `153` | Online Storage Flow Shape. |
-| MagneticTapeFlow | `154` | Magnetic Tape Flow Shape. |
-| MagneticDiskFlow | `155` | Magnetic Disk Flow Shape. |
-| MagneticDrumFlow | `156` | Magnetic Drum Flow Shape. |
-| DisplayFlow | `157` | Display Flow Shape. |
-| DelayFlow | `158` | Delay Flow Shape. |
-| AlternateProcessFlow | `159` | Alternate Process Flow Shape. |
-| OffPageConnectorFlow | `160` | Off-Page Connector Flow Shape. |
-| BlankButton | `161` | Blank Button Shape. |
-| HomeButton | `162` | Home Button Shape. |
-| HelpButton | `163` | Help Button Shape. |
-| InformationButton | `164` | Information Button Shape. |
-| ForwardOrNextButton | `165` | Forward or Next Button Shape. |
-| BackOrPreviousButton | `166` | Back or Previous Button Shape. |
-| EndButton | `167` | End Button Shape. |
-| BeginningButton | `168` | Beginning Button Shape. |
-| ReturnButton | `169` | Return Button Shape. |
-| DocumentButton | `170` | Document Button Shape. |
-| SoundButton | `171` | Sound Button Shape. |
-| MovieButton | `172` | Movie Button Shape. |
-| Gear6 | `173` | Gear 6 Shape. |
-| Gear9 | `174` | Gear 9 Shape. |
-| Funnel | `175` | Funnel Shape. |
-| PlusMath | `176` | Plus Math Shape. |
-| MinusMath | `177` | Minus Math Shape. |
-| MultiplyMath | `178` | Multiply Math Shape. |
-| DivideMath | `179` | Divide Math Shape. |
-| EqualMath | `180` | Equal Math Shape. |
-| NotEqualMath | `181` | Not Equal Math Shape. |
-| CornerTabs | `182` | Corner Tabs Shape. |
-| SquareTabs | `183` | Square Tabs Shape. |
-| PlaqueTabs | `184` | Plaque Tabs Shape. |
-| ChartX | `185` | Chart X Shape. |
-| ChartStar | `186` | Chart Star Shape. |
-| ChartPlus | `187` | Chart Plus Shape. |
+| NotDefined | `-1` | Tidak didefinisikan. |
+| Custom | `0` | Bentuk kustom. Ini adalah nilai hanya-baca. |
+| Line | `1` | Bentuk Garis. |
+| LineInverse | `2` | Bentuk Garis Terbalik. |
+| Triangle | `3` | Bentuk Segitiga. |
+| RightTriangle | `4` | Bentuk Segitiga Siku. |
+| Rectangle | `5` | Bentuk Persegi Panjang. |
+| Diamond | `6` | Bentuk Belah Ketupat. |
+| Parallelogram | `7` | Bentuk Jajar Genjang. |
+| Trapezoid | `8` | Bentuk Trapesium. |
+| NonIsoscelesTrapezoid | `9` | Bentuk Trapesium Tidak Sama Kaki. |
+| Pentagon | `10` | Bentuk Pentagon. |
+| Hexagon | `11` | Bentuk Heksagon. |
+| Heptagon | `12` | Bentuk Heptagon. |
+| Octagon | `13` | Bentuk Oktagon. |
+| Decagon | `14` | Bentuk Dekagon. |
+| Dodecagon | `15` | Bentuk Dodekagon. |
+| FourPointedStar | `16` | Bentuk Bintang Empat Sudut. |
+| FivePointedStar | `17` | Bentuk Bintang Lima Sudut. |
+| SixPointedStar | `18` | Bentuk Bintang Enam Sudut. |
+| SevenPointedStar | `19` | Bentuk Bintang Tujuh Sudut. |
+| EightPointedStar | `20` | Bentuk Bintang Delapan Sudut. |
+| TenPointedStar | `21` | Bentuk Bintang Sepuluh Sudut. |
+| TwelvePointedStar | `22` | Bentuk Bintang Dua Belas Sudut. |
+| SixteenPointedStar | `23` | Bentuk Bintang Enam Belas Sudut. |
+| TwentyFourPointedStar | `24` | Bentuk Bintang Dua Puluh Empat Sudut. |
+| ThirtyTwoPointedStar | `25` | Bentuk Bintang Tiga Puluh Dua Sudut. |
+| RoundCornerRectangle | `26` | Bentuk Persegi Panjang Sudut Bulat. |
+| OneRoundCornerRectangle | `27` | Bentuk Persegi Panjang Sudut Bulat Satu. |
+| TwoSamesideRoundCornerRectangle | `28` | Bentuk Persegi Panjang Sudut Bulat Dua Sisi Sama. |
+| TwoDiagonalRoundCornerRectangle | `29` | Bentuk Persegi Panjang Sudut Bulat Dua Diagonal. |
+| OneSnipOneRoundCornerRectangle | `30` | Bentuk Persegi Panjang Sudut Bulat Satu Potongan Satu. |
+| OneSnipCornerRectangle | `31` | Bentuk Persegi Panjang Sudut Satu Potongan. |
+| TwoSamesideSnipCornerRectangle | `32` | Bentuk Persegi Panjang Sudut Dua Potongan Sisi Sama. |
+| TwoDiagonalSnipCornerRectangle | `33` | Bentuk Persegi Panjang Sudut Dua Potongan Diagonal. |
+| Plaque | `34` | Bentuk Plakat. |
+| Ellipse | `35` | Bentuk Elips. |
+| Teardrop | `36` | Bentuk Tetes Air Mata. |
+| HomePlate | `37` | Bentuk Home Plate. |
+| Chevron | `38` | Bentuk Chevron. |
+| PieWedge | `39` | Bentuk Irisan Pai. |
+| Pie | `40` | Bentuk Pai. |
+| BlockArc | `41` | Bentuk Busur Blok. |
+| Donut | `42` | Bentuk Donat. |
+| NoSmoking | `43` | Bentuk Tidak Merokok. |
+| RightArrow | `44` | Bentuk Panah Ke Kanan. |
+| LeftArrow | `45` | Bentuk Panah Ke Kiri. |
+| UpArrow | `46` | Bentuk Panah Ke Atas. |
+| DownArrow | `47` | Bentuk Panah Ke Bawah. |
+| StripedRightArrow | `48` | Bentuk Panah Kanan Garis-garis. |
+| NotchedRightArrow | `49` | Bentuk Panah Kanan Bertiang. |
+| BentUpArrow | `50` | Bentuk Panah Naik Bengkok. |
+| LeftRightArrow | `51` | Bentuk Panah Kiri Kanan. |
+| UpDownArrow | `52` | Bentuk Panah Atas Bawah. |
+| LeftUpArrow | `53` | Bentuk Panah Kiri Atas. |
+| LeftRightUpArrow | `54` | Bentuk Panah Kiri Kanan Atas. |
+| QuadArrow | `55` | Bentuk Panah Quad. |
+| CalloutLeftArrow | `56` | Bentuk Callout Panah Kiri. |
+| CalloutRightArrow | `57` | Bentuk Callout Panah Kanan. |
+| CalloutUpArrow | `58` | Bentuk Callout Panah Atas. |
+| CalloutDownArrow | `59` | Bentuk Callout Panah Bawah. |
+| CalloutLeftRightArrow | `60` | Bentuk Callout Panah Kiri Kanan. |
+| CalloutUpDownArrow | `61` | Bentuk Callout Panah Atas Bawah. |
+| CalloutQuadArrow | `62` | Bentuk Callout Panah Quad. |
+| BentArrow | `63` | Bentuk Panah Bengkok. |
+| UTurnArrow | `64` | Bentuk Panah Putar-U. |
+| CircularArrow | `65` | Bentuk Panah Lingkaran. |
+| LeftCircularArrow | `66` | Bentuk Panah Lingkaran Kiri. |
+| LeftRightCircularArrow | `67` | Bentuk Panah Lingkaran Kiri Kanan. |
+| CurvedRightArrow | `68` | Bentuk Panah Kanan Lengkung. |
+| CurvedLeftArrow | `69` | Bentuk Panah Kiri Lengkung. |
+| CurvedUpArrow | `70` | Bentuk Panah Atas Lengkung. |
+| CurvedDownArrow | `71` | Bentuk Panah Bawah Lengkung. |
+| SwooshArrow | `72` | Bentuk Panah Swoosh. |
+| Cube | `73` | Bentuk Kubus. |
+| Can | `74` | Bentuk Kaleng. |
+| LightningBolt | `75` | Bentuk Sambaran Petir. |
+| Heart | `76` | Bentuk Hati. |
+| Sun | `77` | Bentuk Matahari. |
+| Moon | `78` | Bentuk Bulan. |
+| SmileyFace | `79` | Bentuk Wajah Senyum. |
+| IrregularSeal1 | `80` | Bentuk Segel Tidak Reguler 1. |
+| IrregularSeal2 | `81` | Bentuk Segel Tidak Reguler 2. |
+| FoldedCorner | `82` | Bentuk Sudut Terlipat. |
+| Bevel | `83` | Bentuk Bevel. |
+| Frame | `84` | Bentuk Bingkai. |
+| HalfFrame | `85` | Bentuk Setengah Bingkai. |
+| Corner | `86` | Bentuk Sudut. |
+| DiagonalStripe | `87` | Bentuk Garis Diagonal. |
+| Chord | `88` | Bentuk Chord. |
+| CurvedArc | `89` | Bentuk Busur Lengkung. |
+| LeftBracket | `90` | Bentuk Kurung Kiri. |
+| RightBracket | `91` | Bentuk Kurung Kanan. |
+| LeftBrace | `92` | Bentuk Kurung Keriting Kiri. |
+| RightBrace | `93` | Bentuk Kurung Keriting Kanan. |
+| BracketPair | `94` | Bentuk Pasangan Kurung. |
+| BracePair | `95` | Bentuk Pasangan Kurung Keriting. |
+| StraightConnector1 | `96` | Bentuk Penyambung Lurus 1. |
+| BentConnector2 | `97` | Bentuk Penyambung Bengkok 2. |
+| BentConnector3 | `98` | Bentuk Penyambung Bengkok 3. |
+| BentConnector4 | `99` | Bentuk Penyambung Bengkok 4. |
+| BentConnector5 | `100` | Bentuk Penyambung Bengkok 5. |
+| CurvedConnector2 | `101` | Bentuk Penyambung Lengkung 2. |
+| CurvedConnector3 | `102` | Bentuk Penyambung Lengkung 3. |
+| CurvedConnector4 | `103` | Bentuk Penyambung Lengkung 4. |
+| CurvedConnector5 | `104` | Bentuk Penyambung Lengkung 5. |
+| Callout1 | `105` | Bentuk Callout 1. |
+| Callout2 | `106` | Bentuk Callout 2. |
+| Callout3 | `107` | Bentuk Callout 3. |
+| Callout1WithAccent | `108` | Bentuk Callout 1 dengan Aksen. |
+| Callout2WithAccent | `109` | Bentuk Callout 2 dengan Aksen. |
+| Callout3WithAccent | `110` | Bentuk Callout 3 dengan Aksen. |
+| Callout1WithBorder | `111` | Bentuk Callout 1 dengan Tepi. |
+| Callout2WithBorder | `112` | Bentuk Callout 2 dengan Tepi. |
+| Callout3WithBorder | `113` | Bentuk Callout 3 dengan Tepi. |
+| Callout1WithBorderAndAccent | `114` | Bentuk Callout 1 dengan Tepi dan Aksen. |
+| Callout2WithBorderAndAccent | `115` | Bentuk Callout 2 dengan Tepi dan Aksen. |
+| Callout3WithBorderAndAccent | `116` | Bentuk Callout 3 dengan Tepi dan Aksen. |
+| CalloutWedgeRectangle | `117` | Bentuk Callout Wedge Persegi Panjang. |
+| CalloutWedgeRoundRectangle | `118` | Bentuk Callout Wedge Persegi Panjang Bulat. |
+| CalloutWedgeEllipse | `119` | Bentuk Callout Wedge Elips. |
+| CalloutCloud | `120` | Bentuk Callout Awan. |
+| Cloud | `121` | Bentuk Awan. |
+| Ribbon | `122` | Bentuk Pita. |
+| Ribbon2 | `123` | Bentuk Pita 2. |
+| EllipseRibbon | `124` | Bentuk Pita Elips. |
+| EllipseRibbon2 | `125` | Bentuk Pita Elips 2. |
+| LeftRightRibbon | `126` | Bentuk Pita Kiri Kanan. |
+| VerticalScroll | `127` | Bentuk Gulir Vertikal. |
+| HorizontalScroll | `128` | Bentuk Gulir Horizontal. |
+| Wave | `129` | Bentuk Gelombang. |
+| DoubleWave | `130` | Bentuk Gelombang Ganda. |
+| Plus | `131` | Bentuk Plus. |
+| ProcessFlow | `132` | Bentuk Alur Proses. |
+| DecisionFlow | `133` | Bentuk Alur Keputusan. |
+| InputOutputFlow | `134` | Bentuk Alur Input Output. |
+| PredefinedProcessFlow | `135` | Bentuk Alur Proses Pratentukan. |
+| InternalStorageFlow | `136` | Bentuk Alur Penyimpanan Internal. |
+| DocumentFlow | `137` | Bentuk Alur Dokumen. |
+| MultiDocumentFlow | `138` | Bentuk Alur Multi-Dokumen. |
+| TerminatorFlow | `139` | Bentuk Alur Terminator. |
+| PreparationFlow | `140` | Bentuk Alur Persiapan. |
+| ManualInputFlow | `141` | Bentuk Alur Input Manual. |
+| ManualOperationFlow | `142` | Bentuk Alur Operasi Manual. |
+| ConnectorFlow | `143` | Bentuk Alur Penyambung. |
+| PunchedCardFlow | `144` | Bentuk Alur Kartu Punched. |
+| PunchedTapeFlow | `145` | Bentuk Alur Pita Punched. |
+| SummingJunctionFlow | `146` | Bentuk Alur Simpulan Junction. |
+| OrFlow | `147` | Bentuk Alur OR. |
+| CollateFlow | `148` | Bentuk Alur Penggabungan. |
+| SortFlow | `149` | Bentuk Alur Penyortiran. |
+| ExtractFlow | `150` | Bentuk Alur Ekstraksi. |
+| MergeFlow | `151` | Bentuk Alur Penggabungan. |
+| OfflineStorageFlow | `152` | Bentuk Alur Penyimpanan Offline. |
+| OnlineStorageFlow | `153` | Bentuk Alur Penyimpanan Online. |
+| MagneticTapeFlow | `154` | Bentuk Alur Pita Magnetik. |
+| MagneticDiskFlow | `155` | Bentuk Alur Disk Magnetik. |
+| MagneticDrumFlow | `156` | Bentuk Alur Drum Magnetik. |
+| DisplayFlow | `157` | Bentuk Alur Tampilan. |
+| DelayFlow | `158` | Bentuk Alur Penundaan. |
+| AlternateProcessFlow | `159` | Bentuk Alur Proses Alternatif. |
+| OffPageConnectorFlow | `160` | Bentuk Alur Penyambung Lintas Halaman. |
+| BlankButton | `161` | Bentuk Tombol Kosong. |
+| HomeButton | `162` | Bentuk Tombol Beranda. |
+| HelpButton | `163` | Bentuk Tombol Bantuan. |
+| InformationButton | `164` | Bentuk Tombol Informasi. |
+| ForwardOrNextButton | `165` | Bentuk Tombol Maju atau Berikutnya. |
+| BackOrPreviousButton | `166` | Bentuk Tombol Kembali atau Sebelumnya. |
+| EndButton | `167` | Bentuk Tombol Akhir. |
+| BeginningButton | `168` | Bentuk Tombol Awal. |
+| ReturnButton | `169` | Bentuk Tombol Kembali. |
+| DocumentButton | `170` | Bentuk Tombol Dokumen. |
+| SoundButton | `171` | Bentuk Tombol Suara. |
+| MovieButton | `172` | Bentuk Tombol Film. |
+| Gear6 | `173` | Bentuk Gear 6. |
+| Gear9 | `174` | Bentuk Gear 9. |
+| Funnel | `175` | Bentuk Corong. |
+| PlusMath | `176` | Bentuk Plus Matematika. |
+| MinusMath | `177` | Bentuk Minus Matematika. |
+| MultiplyMath | `178` | Bentuk Kali Matematika. |
+| DivideMath | `179` | Bentuk Bagi Matematika. |
+| EqualMath | `180` | Bentuk Sama Dengan Matematika. |
+| NotEqualMath | `181` | Bentuk Tidak Sama Dengan Matematika. |
+| CornerTabs | `182` | Bentuk Tab Sudut. |
+| SquareTabs | `183` | Bentuk Tab Kotak. |
+| PlaqueTabs | `184` | Bentuk Tab Plakat. |
+| ChartX | `185` | Bentuk Chart X. |
+| ChartStar | `186` | Bentuk Chart Bintang. |
+| ChartPlus | `187` | Bentuk Chart Plus. |
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

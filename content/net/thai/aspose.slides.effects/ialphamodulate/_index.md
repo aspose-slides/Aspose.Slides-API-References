@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Alpha Modulate ค่าอัลฟา (ความโปร่งใส) ของเอฟเฟกต์ถูกคูณด้วยเปอร์เซ็นต์คงที่ ตัวบรรจุเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความอัลฟาเพื่อทำการโมดูเลต
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงเอฟเฟกต์ Alpha Modulate. ค่าความทึบของ Alpha จะถูกคูณด้วยเปอร์เซ็นต์คงที่. ตัวคอนเทนเนอร์ของเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความทึบของ Alpha เพื่อทำการปรับเปลี่ยน.
 type: docs
-weight: 3100
+weight: 3120
 url: /th/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Modulate ค่าอัลฟา (ความโปร่งใส) ของเอฟเฟกต์ถูกคูณด้วยเปอร์เซ็นต์คงที่ ตัวบรรจุเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความอัลฟาเพื่อทำการโมดูเลต
+แสดงถึงเอฟเฟกต์ Alpha Modulate. ค่าความทึบ (opacity) ของ Alpha จะถูกคูณด้วยเปอร์เซ็นต์คงที่ ตัวคอนเทนเนอร์ของเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความทึบของ Alpha เพื่อทำการปรับเปลี่ยน
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IAccessiblePVIObject พื้นฐาน อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IImageTransformOperation พื้นฐาน อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

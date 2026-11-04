@@ -1,20 +1,20 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Objet immutable qui contient l'ensemble des polices effectives.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Objet immuable qui contient l'ensemble des polices effectives.
 type: docs
-weight: 5910
+weight: 5930
 url: /fr/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData interface
 
-Objet immutable qui contient l'ensemble des polices effectives.
+Objet immuable qui contient les polices effectives.
 
 ```csharp
 public interface IFontsEffectiveData
 ```
 
-## Properties
+## Propriétés
 
 | Nom | Description |
 | --- | --- |

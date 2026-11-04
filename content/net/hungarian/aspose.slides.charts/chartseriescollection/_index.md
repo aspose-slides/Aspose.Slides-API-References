@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: Képviseli a ChartSeries gyűjteményét./chartseries
+second_title: Aspose.Sildes .NET API Referenciája
+description: A ChartSeries gyűjteményét képviseli./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /hu/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection osztály
 
-Képviseli a [`ChartSeries`](../chartseries) gyűjteményt.
+[`ChartSeries`](../chartseries) gyűjteményét képviseli.
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -18,26 +18,26 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | A gyűjteményben lévő objektumok számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Egy értéket ad vissza, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | A megadott indexű elemet adja vissza. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Egy szinkronizációs gyökeret ad vissza. Csak olvasható Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Visszaadja az objektumok számát a gyűjteményben. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Visszaadja az elemet a megadott indexnél. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Új diagram sorozatot hoz létre, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Új diagram sorozatot hoz létre a [`ChartCellCollection`](../chartcellcollection) alapján, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Új diagram sorozatot hoz létre a [`ChartDataCell`](../chartdatacell) alapján, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Új diagram sorozatot hoz létre az érték alapján, és hozzáadja a gyűjteményhez. |
-| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Az összes vezérlőt eltávolítja a gyűjteményből. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Új diagram sorozatot hoz létre és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Új diagram sorozatot hoz létre [`ChartCellCollection`](../chartcellcollection) alapján és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Új diagram sorozatot hoz létre [`ChartDataCell`](../chartdatacell) alapján és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Új diagram sorozatot hoz létre az értékből és hozzáadja a gyűjteményhez. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Eltávolít minden vezérlőt a gyűjteményből. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Az egész gyűjteményt átmásolja a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Keres a megadott [`ChartSeries`](../chartseries) után, és visszaadja a nullától induló indexet az első előforduláshoz az egész gyűjteményben. |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Új diagram sorozatot hoz létre, és beszúrja a gyűjteménybe. |
-| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | A megadott értéket eltávolítja. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Eltávolít egy megadott pozícióban tárolt ActiveX vezérlőt a gyűjteményből. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Keres a megadott [`ChartSeries`](../chartseries)-re, és visszaadja az első előfordulás nulla alapú indexét az egész Collection-ben |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Új diagram sorozatot hoz létre és beilleszti a gyűjteménybe. |
+| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Eltávolítja a megadott értéket. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Eltávolít egy ActiveX vezérlőt, amely a megadott pozíción van tárolva a gyűjteményből. |
 
 ### Lásd még
 

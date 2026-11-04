@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes για την Αναφορά API του .NET
-description: Καθορίζει σε ποιο από τα σύνολα παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Ανάγνωση UInt32.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Καθορίζει σε ποια από τις συλλογές παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Ανάγνωση UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /el/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index ιδιότητα
 
-Καθορίζει σε ποιο από τα παιδικά σύνολα του γονέα ανήκει αυτό το σημείο δεδομένων. Ανάγνωση UInt32.
+Καθορίζει σε ποια από τις συλλογές παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων. Ανάγνωση UInt32.
 
 ```csharp
 public uint Index { get; }
@@ -16,7 +16,7 @@ public uint Index { get; }
 
 ### Δείτε επίσης
 
-* διασύνδεση [IChartDataPoint](../../ichartdatapoint)
+* διεπαφή [IChartDataPoint](../../ichartdatapoint)
 * χώρος ονομάτων [Aspose.Slides.Charts](../../ichartdatapoint)
 * συναρμολόγηση [Aspose.Slides](../../../)
 

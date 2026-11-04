@@ -1,27 +1,27 @@
 ---
 title: IMathFractionFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: गणितीय अंश बनाने की अनुमति देता है
 type: docs
-weight: 8260
+weight: 8280
 url: /hi/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory इंटरफ़ेस
 
-गणितीय अंश बनाने की अनुमति देता है
+गणितीय अंश बनाने के लिए अनुमति देता है
 
 ```csharp
 public interface IMathFractionFactory
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | एक गणितीय अंश बनाता है |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | एक गणितीय अंश बनाता है |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | गणितीय अंश बनाता है |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | गणितीय अंश बनाता है |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए
 

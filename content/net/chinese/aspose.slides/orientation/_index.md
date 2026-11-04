@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Sildes .NET API 参考
 description: 表示形状的方向。
 type: docs
-weight: 9240
+weight: 9260
 url: /zh/aspose.slides/orientation/
 ---
 ## 方向枚举
@@ -18,10 +18,10 @@ public enum Orientation : sbyte
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Horizontal | `0` | 水平。 |
-| Vertical | `1` | 垂直。 |
+| Horizontal | `0` | Horizontal. |
+| Vertical | `1` | Vertical. |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

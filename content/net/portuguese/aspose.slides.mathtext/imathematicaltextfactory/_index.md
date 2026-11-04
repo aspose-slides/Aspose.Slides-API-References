@@ -1,12 +1,12 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a referência da API .NET
 description: Permite criar um elemento MathematicalText
 type: docs
-weight: 8520
+weight: 8540
 url: /pt/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## interface IMathematicalTextFactory
+## IMathematicalTextFactory interface
 
 Permite criar um elemento MathematicalText
 
@@ -18,16 +18,16 @@ public interface IMathematicalTextFactory
 
 | Nome | Descrição |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Create empty mathematical text element |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Create mathematical text element with the specified value |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Create empty mathematical text element with the specified value |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Cria um elemento de texto matemático vazio |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Cria um elemento de texto matemático com o valor especificado |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Cria um elemento de texto matemático vazio com o valor especificado |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Cria um elemento de texto matemático vazio com o valor e propriedades de formatação especificados |
 
 ### Observações
 
 Para compatibilidade COM
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

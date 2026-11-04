@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Fábrica de StreamWrappers. Para la interfaz COM.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Fábrica de StreamWrappers. Para interfaz COM.
 type: docs
-weight: 7140
+weight: 7160
 url: /es/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interfaz
 
-Fábrica de StreamWrappers. Para la interfaz COM.
+Fábrica de StreamWrappers. Para interfaz COM.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -20,8 +20,8 @@ public interface IStreamWrapperFactory
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea FileStream con la ruta especificada y el modo de creación. |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea FileStream con la ruta especificada, el modo de creación y el permiso de lectura/escritura. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea un envoltorio MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un envoltorio MemoryStream basado en la matriz de bytes especificada. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea wrapper MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea wrapper MemoryStream basado en el array de bytes especificado. |
 
 ### Ver también
 

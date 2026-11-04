@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Hiệu ứng chuyển đổi slide Ripple.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển tiếp slide Ripple.
 type: docs
-weight: 10290
+weight: 10310
 url: /vi/aspose.slides.slideshow/rippletransition/
 ---
-## Lớp RippleTransition
+## RippleTransition lớp
 
-Hiệu ứng chuyển đổi slide Ripple.
+Hiệu ứng chuyển tiếp slide Ripple.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,13 +18,13 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Tên | Mô tả |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Hướng chuyển đổi. Đọc/ghi [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai thể hiện TransitionValueBase có bằng nhau hay không. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm

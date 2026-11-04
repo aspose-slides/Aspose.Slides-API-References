@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Référence API Aspose.Sildes pour .NET
-description: Objet immuable qui représente un effet de lueur dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
+description: Objet immuable qui représente un effet Glow dans lequel une bordure floue de couleur est ajoutée à l'extérieur des bords de l'objet.
 type: docs
-weight: 3330
+weight: 3350
 url: /fr/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
 
-Objet immuable qui représente un effet de lueur, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
+Objet immuable qui représente un effet Glow, dans lequel une bordure floue de couleur est ajoutée à l'extérieur des bords de l'objet.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData

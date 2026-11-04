@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो प्रभावी अनुच्छेद फ़ॉर्मेटिंग गुणों को समाहित करती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: अविकल्पीय ऑब्जेक्ट जो प्रभावी पैराग्राफ़ फ़ॉर्मेटिंग गुणों को सम्मिलित करता है।
 type: docs
-weight: 6600
+weight: 6620
 url: /hi/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी अनुच्छेद फ़ॉर्मेटिंग गुणों को समाहित करती है।
+अविकल्पीय ऑब्जेक्ट जो प्रभावी पैराग्राफ़ फ़ॉर्मेटिंग गुणों को सम्मिलित करता है।
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -16,31 +16,31 @@ public interface IParagraphFormatEffectiveData
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | किसी अनुच्छेद में पाठ संरेखण लौटाता है। केवल-पढ़ने योग्य [`TextAlignment`](../textalignment)। |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | किसी अनुच्छेद का बुलेट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)। |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | किसी अनुच्छेद का डिफ़ॉल्ट पोर्शन फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IPortionFormatEffectiveData`](../iportionformateffectivedata)। |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | एक पैराग्राफ़ में टेक्स्ट संरेखण लौटाता है। केवल-पढ़ने योग्य [`TextAlignment`](../textalignment)। |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | एक पैराग्राफ़ का बुललेट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)। |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | एक पैराग्राफ़ के डिफ़ॉल्ट पोर्शन फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IPortionFormatEffectiveData`](../iportionformateffectivedata)। |
 | [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | डिफ़ॉल्ट टैबुलेशन आकार लौटाता है। केवल-पढ़ने योग्य Single। |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | किसी अनुच्छेद की गहराई लौटाता है। केवल-पढ़ने योग्य Int16। |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | निर्धारित करता है कि क्या ईस्ट एशियन लाइन ब्रेक अनुच्छेद में उपयोग होता है। केवल-पढ़ने योग्य Boolean। |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | अनुच्छेद में फ़ॉन्ट संरेखण लौटाता है। केवल-पढ़ने योग्य [`FontAlignment`](../fontalignment)। |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | निर्धारित करता है कि क्या हैंगिंग पंचुएशन अनुच्छेद में उपयोग होता है। केवल-पढ़ने योग्य Boolean। |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | अनुच्छेद की पहली पंक्ति इंडेंट/हैंगिंग इंडेंट लौटाता है। हैंगिंग इंडेंट नकारात्मक मानों से परिभाषित किया जा सकता है। केवल-पढ़ने योग्य Single। |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | निर्धारित करता है कि क्या लैटिन लाइन ब्रेक अनुच्छेद में उपयोग होता है। केवल-पढ़ने योग्य Boolean। |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | अनुच्छेद में बायाँ मार्जिन लौटाता है। केवल-पढ़ने योग्य Single। |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | अनुच्छेद में दायाँ मार्जिन लौटाता है। केवल-पढ़ने योग्य Single। |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | निर्धारित करता है कि क्या दाएँ-से-बाएँ लेखन अनुच्छेद में उपयोग होता है। केवल-पढ़ने योग्य Boolean। |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | अनुच्छेद की अंतिम पंक्ति के बाद की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | अनुच्छेद की पहली पंक्ति से पहले की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | अनुच्छेद में बेस लाइनों के बीच की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | अनुच्छेद की टैबुलेशन लौटाता है। केवल-पढ़ने योग्य [`ITabEffectiveData`](../itabeffectivedata)[]। |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | एक पैराग्राफ़ की गहराई लौटाता है। केवल-पढ़ने योग्य Int16। |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | निर्धारित करता है कि क्या पैराग्राफ़ में ईस्ट एशियन लाइन ब्रेक उपयोग किया जाता है। केवल-पढ़ने योग्य Boolean। |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | एक पैराग्राफ़ में फ़ॉन्ट संरेखण लौटाता है। केवल-पढ़ने योग्य [`FontAlignment`](../fontalignment)। |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | निर्धारित करता है कि क्या पैराग्राफ़ में हैंगिंग पंक्चुएशन उपयोग किया जाता है। केवल-पढ़ने योग्य Boolean। |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | पैराग्राफ़ का पहला लाइन इंडेंट/हैंगिंग इंडेंट लौटाता है। हैंगिंग इंडेंट नकारात्मक मानों से परिभाषित किया जा सकता है। केवल-पढ़ने योग्य Single। |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | निर्धारित करता है कि क्या पैराग्राफ़ में लैटिन लाइन ब्रेक उपयोग किया जाता है। केवल-पढ़ने योग्य Boolean। |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | एक पैराग्राफ़ में बायाँ मार्जिन लौटाता है। केवल-पढ़ने योग्य Single। |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | एक पैराग्राफ़ में दायाँ मार्जिन लौटाता है। केवल-पढ़ने योग्य Single। |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | निर्धारित करता है कि क्या पैराग्राफ़ में दाएँ से बाएँ लेखन उपयोग किया जाता है। केवल-पढ़ने योग्य Boolean। |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | पैराग्राफ़ की अंतिम लाइन के बाद की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | पहली लाइन से पहले की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | पैराग्राफ़ में बेस लाइनों के बीच की स्पेस की मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | पैराग्राफ़ की टैबुलेशन लौटाता है। केवल-पढ़ने योग्य [`ITabEffectiveData`](../itabeffectivedata)[]। |
 
 ### टिप्पणी
 
-यह इंटरफ़ेस [`IParagraphFormat`](../iparagraphformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होने के साथ प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
+यह इंटरफ़ेस [`IParagraphFormat`](../iparagraphformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होने पर प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

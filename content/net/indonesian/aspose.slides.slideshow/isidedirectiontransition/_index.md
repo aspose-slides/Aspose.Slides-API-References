@@ -1,9 +1,9 @@
 ---
 title: ISideDirectionTransition
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide arah sisi.
 type: docs
-weight: 10190
+weight: 10210
 url: /id/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition antarmuka
@@ -18,7 +18,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ITransitionValueBase. Hanya baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Lihat Juga

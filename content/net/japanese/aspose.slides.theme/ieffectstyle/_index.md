@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes の .NET API リファレンス
-description: エフェクト スタイルを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: エフェクトスタイルを表します。
 type: docs
-weight: 11170
+weight: 11190
 url: /ja/aspose.slides.theme/ieffectstyle/
 ---
-## IEffectStyle インターフェース
+## IEffectStyle インターフェイス
 
-エフェクト スタイルを表します。
+エフェクトスタイルを表します。
 
 ```csharp
 public interface IEffectStyle
@@ -18,10 +18,10 @@ public interface IEffectStyle
 
 | 名前 | 説明 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | エフェクト フォーマットを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | エフェクトフォーマットを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
 | [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | 3D フォーマットを返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

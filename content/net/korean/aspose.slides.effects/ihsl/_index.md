@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes for .NET API 참조
-description: 색조/채도/명도 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
 type: docs
-weight: 3360
+weight: 3380
 url: /ko/aspose.slides.effects/ihsl/
 ---
-## IHSL interface
+## IHSL 인터페이스
 
-색조/채도/명도 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
+Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도를 각각 현재 값에 상대적으로 조정할 수 있습니다.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation

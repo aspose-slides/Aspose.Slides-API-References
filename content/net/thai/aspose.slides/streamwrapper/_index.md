@@ -1,14 +1,14 @@
 ---
 title: StreamWrapper
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ตัวห่อ Aspose.IO.Stream สำหรับอินเทอร์เฟซ COM.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: Aspose.IO.Stream wrapper สำหรับอินเทอร์เฟซ COM.
 type: docs
-weight: 10750
+weight: 10770
 url: /th/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper คลาส
 
-Aspose.IO.Stream wrapper for COM interface.
+Aspose.IO.Stream wrapper สำหรับอินเทอร์เฟซ COM.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -18,26 +18,26 @@ public class StreamWrapper : IStreamWrapper
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IDisposable พื้นฐาน. อ่านอย่างเดียว IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | รับค่าที่บ่งชี้ว่าการสตรีมปัจจุบันรองรับการอ่านหรือไม่. อ่านอย่างเดียว Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | รับค่าที่บ่งชี้ว่าการสตรีมปัจจุบันรองรับการค้นหาหรือไม่. อ่านอย่างเดียว Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | รับค่าที่บ่งชี้ว่าการสตรีมปัจจุบันรองรับการเขียนหรือไม่. อ่านอย่างเดียว Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | รับความยาวเป็นไบต์ของสตรีม. อ่านอย่างเดียว Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | รับหรือกำหนดตำแหน่งภายในสตรีมปัจจุบัน. อ่านอย่างเดียว Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | รับสตรีม. อ่านอย่างเดียว Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IDisposable พื้นฐาน. อ่านอย่างเดียว IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | รับค่าที่บ่งบอกว่า stream ปัจจุบันรองรับการอ่านหรือไม่. อ่านอย่างเดียว Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | รับค่าที่บ่งบอกว่า stream ปัจจุบันรองรับการเลื่อนตำแหน่งหรือไม่. อ่านอย่างเดียว Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | รับค่าที่บ่งบอกว่า stream ปัจจุบันรองรับการเขียนหรือไม่. อ่านอย่างเดียว Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | รับความยาวเป็นไบต์ของ stream. อ่านอย่างเดียว Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | รับหรือกำหนดตำแหน่งภายใน stream ปัจจุบัน. อ่านอย่างเดียว Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | รับ stream. อ่านอย่างเดียว Stream. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | ปิดสตรีมปัจจุบันและปล่อยทรัพยากรใด ๆ |
-| [Dispose](../../aspose.slides/streamwrapper/dispose)() | ทำลายอ็อบเจ็กต์ |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | ล้างบัฟเฟอร์ทั้งหมดสำหรับสตรีมนี้และทำให้ข้อมูลที่บัฟเฟอร์อยู่ถูกเขียนไปยังอุปกรณ์พื้นฐาน |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | อ่านลำดับของไบต์จากสตรีมปัจจุบันและเลื่อนตำแหน่งภายในสตรีมตามจำนวนไบต์ที่อ่าน |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | อ่านไบต์หนึ่งจากสตรีมและเลื่อนตำแหน่งภายในสตรีมหนึ่งไบต์ หรือคืนค่า -1 หากอยู่ที่จุดสิ้นสุดของสตรีม |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | กำหนดตำแหน่งภายในสตรีมปัจจุบัน |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | เขียนลำดับของไบต์ไปยังสตรีมปัจจุบันและเลื่อนตำแหน่งปัจจุบันภายในสตรีมนี้ตามจำนวนไบต์ที่เขียน |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | เขียนไบต์หนึ่งไปยังตำแหน่งปัจจุบันในสตรีมและเลื่อนตำแหน่งภายในสตรีมหนึ่งไบต์ |
+| [Close](../../aspose.slides/streamwrapper/close)() | ปิด stream ปัจจุบันและปล่อยทรัพยากรใด ๆ |
+| [Dispose](../../aspose.slides/streamwrapper/dispose)() | ทำลายออบเจ็กต์. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | ล้างบัฟเฟอร์ทั้งหมดสำหรับ stream นี้และทำให้ข้อมูลที่บัฟเฟอร์อยู่ถูกเขียนลงอุปกรณ์พื้นฐาน. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | อ่านลำดับของไบต์จาก stream ปัจจุบันและเลื่อนตำแหน่งภายใน stream ไปตามจำนวนไบต์ที่อ่าน. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | อ่านไบต์หนึ่งจาก streamและเลื่อนตำแหน่งใน stream ไปหนึ่งไบต์, หรือคืนค่า -1 หากถึงจุดสิ้นสุดของ stream. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | กำหนดตำแหน่งภายใน stream ปัจจุบัน |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | เขียนลำดับของไบต์ไปยัง stream ปัจจุบันและเลื่อนตำแหน่งปัจจุบันใน stream นี้ไปตามจำนวนไบต์ที่เขียน. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | เขียนไบต์หนึ่งไปยังตำแหน่งปัจจุบันใน streamและเลื่อนตำแหน่งใน stream ไปหนึ่งไบต์. |
 
 ### ดูเพิ่มเติม
 

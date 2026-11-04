@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Autor von Kommentaren dar.
 type: docs
-weight: 5570
+weight: 5590
 url: /de/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor Schnittstelle
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | Name | Beschreibung |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Gibt die Sammlung von Kommentaren zurück, die von diesem Autor erstellt wurden. Schreibgeschützt [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Gibt die Initialen des Autors zurück oder setzt sie. Lese/Schreib String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Gibt den Namen des Autors zurück oder setzt ihn. Lese/Schreib String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Gibt die Sammlung von Kommentaren zurück, die dieser Autor erstellt hat. Nur lesbar [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Gibt die Initialen des Autors zurück oder setzt sie. Lesen/Schreiben String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Gibt den Namen des Autors zurück oder setzt ihn. Lesen/Schreiben String. |
 
 ## Methoden
 

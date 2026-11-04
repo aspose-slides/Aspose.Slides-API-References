@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืนขนาดของฟองของจุดข้อมูลแผนภูมิ. อ่านได้อย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: รับขนาดบับเบิลของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /th/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize คุณสมบัติ
 
-ส่งคืนขนาดของฟองของจุดข้อมูลแผนภูมิ. อ่านได้อย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
+รับขนาดบับเบิลของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

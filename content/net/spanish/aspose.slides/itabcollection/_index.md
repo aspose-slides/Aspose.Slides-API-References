@@ -1,9 +1,9 @@
 ---
 title: ITabCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una colección de pestañas.
 type: docs
-weight: 7200
+weight: 7220
 url: /es/aspose.slides/itabcollection/
 ---
 ## ITabCollection interfaz
@@ -16,16 +16,16 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Item](../../aspose.slides/itabcollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ITab`](../itab). |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Agrega un Tab a la colección. |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Agrega un Tab a la colección. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Añade un Tab a la colección. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Añade un Tab a la colección. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Elimina todos los elementos de la colección. |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 

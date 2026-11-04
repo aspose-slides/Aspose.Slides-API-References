@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines mathematischen Akzents
 type: docs
-weight: 8090
+weight: 8110
 url: /de/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory Schnittstelle
@@ -18,8 +18,8 @@ public interface IMathAccentFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Erzeugt einen mathematischen Akzent, der auf ein angegebenes mathematisches Element angewendet wird, mit dem Standardwert für das Akzentzeichen |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Erzeugt einen mathematischen Akzent, der auf ein angegebenes mathematisches Element angewendet wird |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Erstellt einen mathematischen Akzent, der auf ein angegebenes Math-Element angewendet wird, mit dem Standard-Akzentzeichenwert |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Erstellt einen mathematischen Akzent, der auf ein angegebenes Math-Element angewendet wird |
 
 ### Anmerkungen
 

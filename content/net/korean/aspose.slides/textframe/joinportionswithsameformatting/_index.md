@@ -1,20 +1,20 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 모든 단락에서 동일한 서식을 가진 텍스트 실행을 결합합니다.
+description: 모든 단락에서 동일한 서식을 가진 런을 결합합니다.
 type: docs
-weight: 110
+weight: 120
 url: /ko/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting 메서드
 
-모든 단락에서 동일한 서식을 가진 텍스트 실행을 결합합니다.
+모든 단락에서 동일한 서식을 가진 런을 병합합니다.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### 참조
+### 관련 항목
 
 * 클래스 [TextFrame](../../textframe)
 * 네임스페이스 [Aspose.Slides](../../textframe)

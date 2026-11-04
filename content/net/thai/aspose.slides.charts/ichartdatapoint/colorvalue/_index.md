@@ -1,14 +1,14 @@
 ---
 title: ColorValue
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ส่งคืนค่สีของจุดข้อมูลแผนภูมิ ใช้กับแผนภูมิแผนที่ อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: รับค่าสีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /th/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue คุณสมบัติ
 
-ส่งคืนค่สีของจุดข้อมูลแผนภูมิ ใช้กับแผนภูมิแผนที่ อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
+รับค่าค่าสีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

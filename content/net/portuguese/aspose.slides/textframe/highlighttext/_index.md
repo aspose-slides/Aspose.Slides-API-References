@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Realça todas as correspondências do texto de exemplo com a cor especificada.
 type: docs
-weight: 100
+weight: 110
 url: /pt/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Realça todas as ocorrências do texto de exemplo com a cor especificada.
+Realça todas as correspondências do texto de exemplo com a cor especificada.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -16,8 +16,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| text | String | Texto de exemplo a ser realçado. |
-| highlightColor | Color | A cor usada para realçar o texto. |
+| text | String | Amostra de texto a ser realçada. |
+| highlightColor | Color | A cor para realçar o texto. |
 
 ### Veja Também
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Realça todas as ocorrências do texto de exemplo com a cor especificada.
+Realça todas as correspondências do texto de exemplo com a cor especificada.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,21 +39,21 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | text | String | O texto a ser realçado. |
-| highlightColor | Color | A cor usada para realçar o texto. |
+| highlightColor | Color | A cor para realçar o texto. |
 | options | ITextSearchOptions | Opções de pesquisa de texto [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | O objeto de retorno de chamada para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
-O exemplo de código a seguir demonstra como realçar texto em um TextFrame.
+O exemplo de código a seguir mostra como realçar texto em um TextFrame.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// destacando todas as palavras 'important'
+	// realçando todas as palavras 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// destacando todas as ocorrências separadas de 'the'
+	// realçando todas as ocorrências separadas de 'the'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर हो तो लागू होता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर है तो लागू किया जाता है।
 type: docs
-weight: 60
+weight: 70
 url: /hi/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell प्रॉपर्टी
 
-वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर है तो लागू होता है।
+वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर है तो लागू किया जाता है।
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

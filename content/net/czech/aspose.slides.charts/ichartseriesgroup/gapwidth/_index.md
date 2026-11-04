@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje prostor mezi skupinami pruhových nebo sloupcových klastrů jako procento šířky pruhu nebo sloupce. Čtení/Zápis UInt16.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Získá nebo nastaví mezeru mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Hodnota musí být mezi 0 a 500. Číst/Zapisovat UInt16.
 type: docs
 weight: 70
 url: /cs/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth vlastnost
 
-Určuje prostor mezi skupinami pruhových nebo sloupcových klastrů jako procento šířky pruhu nebo sloupce. Čtení/Zápis UInt16.
+Získá nebo nastaví mezeru mezi shluky pruhů nebo sloupců jako procento šířky pruhu nebo sloupce. Hodnota musí být mezi 0 a 500. Číst/Zapisovat UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Poznámky
+
+Tato vlastnost se vztahuje k sériím následujících typů: Všechny podtypy pruhů a sloupců, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Viz také
 

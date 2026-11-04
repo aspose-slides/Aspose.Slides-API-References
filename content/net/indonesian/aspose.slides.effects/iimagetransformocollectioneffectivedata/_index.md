@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang mewakili koleksi hanya-baca dari efek transformasi gambar yang efektif.
+description: Objek tak dapat diubah yang merepresentasikan koleksi hanya-baca dari efek transformasi gambar yang efektif.
 type: docs
-weight: 3380
+weight: 3400
 url: /id/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
-## IImageTransformOCollectionEffectiveData antarmuka
+## IImageTransformOCollectionEffectiveData interface
 
-Objek tak dapat diubah yang mewakili koleksi hanya-baca dari efek transformasi gambar yang efektif.
+Objek tak dapat diubah yang merepresentasikan koleksi hanya-baca dari efek transformasi gambar yang efektif.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### Catatan
 
-Nama IImageTransformOperationCollectionEffectiveData dipotong menjadi IImageTransformOCollectionEffectiveData karena panjang nama COM tidak boleh lebih dari 39.
+Name IImageTransformOperationCollectionEffectiveData dipotong menjadi IImageTransformOCollectionEffectiveData karena panjang nama COM tidak dapat lebih dari 39.
 
 ### Lihat Juga
 

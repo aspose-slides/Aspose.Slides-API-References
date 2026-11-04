@@ -1,9 +1,9 @@
 ---
 title: CellUnsupportedDataException
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: La excepción que se lanza cuando se encuentra un dato no compatible en una celda de hoja de cálculo.
 type: docs
-weight: 10730
+weight: 10750
 url: /es/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException clase

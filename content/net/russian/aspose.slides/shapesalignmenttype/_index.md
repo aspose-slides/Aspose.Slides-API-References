@@ -1,9 +1,9 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes для .NET справочника API
-description: Определяет способ изменения размещения выбранных фигур на слайде.
+second_title: Aspose.Sildes для .NET справки API
+description: Определяет способ изменения расположения выбранных фигур на слайде.
 type: docs
-weight: 9940
+weight: 9960
 url: /ru/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType перечисление
@@ -16,16 +16,16 @@ public enum ShapesAlignmentType
 
 ### Значения
 
-| Name | Value | Description |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| AlignLeft | `0` | Выровнять по левому краю |
-| AlignRight | `1` | Выровнять по правому краю |
+| AlignLeft | `0` | Выровнять слева |
+| AlignRight | `1` | Выровнять справа |
 | AlignCenter | `2` | Выровнять по центру |
-| AlignTop | `3` | Выровнять по верхнему краю |
+| AlignTop | `3` | Выровнять сверху |
 | AlignMiddle | `4` | Выровнять по середине |
-| AlignBottom | `5` | Выровнять по нижнему краю |
-| DistributeHorizontally | `6` | Распределить по горизонтали |
-| DistributeVertically | `7` | Распределить по вертикали |
+| AlignBottom | `5` | Выровнять снизу |
+| DistributeHorizontally | `6` | Распределить горизонтально |
+| DistributeVertically | `7` | Распределить вертикально |
 
 ### См. также
 

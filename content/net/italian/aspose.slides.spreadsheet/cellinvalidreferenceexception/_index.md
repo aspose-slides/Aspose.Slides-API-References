@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Riferimento API Aspose.Sildes per .NET
-description: L'eccezione generata quando viene incontrato un riferimento di cella non valido.
+description: L'eccezione generata quando viene incontrato un riferimento a cella non valido.
 type: docs
-weight: 10720
+weight: 10740
 url: /it/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
-## CellInvalidReferenceException class
+## CellInvalidReferenceException classe
 
-L'eccezione che viene generata quando viene incontrato un riferimento di cella non valido.
+L'eccezione generata quando viene incontrato un riferimento a cella non valido.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -21,13 +21,13 @@ public class CellInvalidReferenceException : PptxEditException
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Inizializza una nuova istanza della classe [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Inizializza una nuova istanza della classe [`CellInvalidReferenceException`](../cellinvalidreferenceexception) con un messaggio di errore specificato. |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Inizializza una nuova istanza della classe [`CellInvalidReferenceException`](../cellinvalidreferenceexception) con un messaggio di errore specificato e un riferimento all'eccezione interna che è la causa di questa eccezione. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato e un riferimento di cella non valido. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inizializza una nuova istanza della classe [`CellCircularReferenceException`](../cellcircularreferenceexception) con un messaggio di errore specificato e un riferimento a cella non valido. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Restituisce un riferimento di cella non valido. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Ottiene un riferimento di cella non valido. |
 
 ### Vedi anche
 

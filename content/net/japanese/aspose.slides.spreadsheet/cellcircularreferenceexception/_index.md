@@ -1,22 +1,22 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式が直接または間接的に自身のセルを参照することで、1つ以上の循環参照が検出されたときにスローされる例外です。
+description: 式が自セルを直接または間接的に参照することで、1つ以上の循環参照が検出されたときにスローされる例外です。
 type: docs
-weight: 10700
+weight: 10720
 url: /ja/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException クラス
 
-数式が直接または間接的に自分のセルを参照することで、1つ以上の循環参照が検出されたときにスローされる例外です。
+式が自セルを直接または間接的に参照することで、1つ以上の循環参照が検出されたときにスローされる例外です。
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | [`CellCircularReferenceException`](../cellcircularreferenceexception) クラスの新しいインスタンスを初期化します。 |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | [`CellCircularReferenceException`](../cellcircularreferenceexception) クラスの新しいインスタンスを、指定されたエラーメッセージで初期化します。 |
@@ -25,7 +25,7 @@ public class CellCircularReferenceException : PptxEditException
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | 循環セル参照を取得します。 |
 

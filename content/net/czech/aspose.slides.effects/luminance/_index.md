@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje efekt Luminance. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast měřítko upravuje všechny barvy tak, aby byly buď blíže k sobě, nebo dále od sebe.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje efekt Luminance. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast mění škálu všech barev tak, aby byly buď blíže, nebo dále od sebe.
 type: docs
-weight: 3610
+weight: 3630
 url: /cs/aspose.slides.effects/luminance/
 ---
 ## Luminance třída
 
-Reprezentuje efekt Luminance. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast měřítko upravuje všechny barvy tak, aby byly buď blíže, nebo dále od sebe.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -24,7 +24,7 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Určuje, zda zadaný [`Luminance`](../luminance) je roven aktuálnímu [`Luminance`](../luminance). |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Určuje, zda je zadaný [`Luminance`](../luminance) roven aktuálnímu [`Luminance`](../luminance). |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Získá efektivní data efektu Luminance s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

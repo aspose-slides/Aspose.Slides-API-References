@@ -1,18 +1,22 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan ruang antara kumpulan batang atau kolom sebagai persentase lebar batang atau kolom. Baca/tulis UInt16.
+description: Mendapatkan atau mengatur spasi antara kumpulan batang atau kolom sebagai persentase lebar batang atau kolom. Nilai harus berada di antara 0 dan 500. Baca/tulis UInt16.
 type: docs
 weight: 70
 url: /id/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth properti
 
-Menentukan ruang antara kumpulan batang atau kolom, sebagai persentase lebar batang atau kolom. Baca/tulis UInt16.
+Mendapatkan atau mengatur spasi antara kumpulan batang atau kolom, sebagai persentase lebar batang atau kolom. Nilai harus berada di antara 0 dan 500. Baca/tulis UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Catatan
+
+Properti ini berlaku untuk seri dengan tipe berikut: Semua subtipe batang dan kolom, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Lihat Juga
 

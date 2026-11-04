@@ -3,7 +3,7 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes for .NET API 參考
 description: 指定僅限於角落和中心的方向。
 type: docs
-weight: 10340
+weight: 10360
 url: /zh-hant/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType 列舉
@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-### 值
+### 列舉值
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 組件 [Aspose.Slides](../../)

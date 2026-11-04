@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection de parties XML personnalisées.
 type: docs
-weight: 5680
+weight: 5700
 url: /fr/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface

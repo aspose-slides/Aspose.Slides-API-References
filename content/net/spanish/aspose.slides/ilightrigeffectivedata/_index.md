@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas del rig de luz.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Objeto inmutable que contiene las propiedades efectivas del rig de luz.
 type: docs
-weight: 6280
+weight: 6300
 url: /es/aspose.slides/ilightrigeffectivedata/
 ---
-## Interfaz ILightRigEffectiveData
+## ILightRigEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades efectivas del rig de luz.
+Objeto inmutable que contiene las propiedades efectivas del rig de luz.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,7 +19,7 @@ public interface ILightRigEffectiveData
 | Nombre | Descripción |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Dirección de la luz. Solo lectura [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa una luz preestablecida que se puede aplicar a una forma. El rig de luz representa un grupo de luces orientadas de una manera específica respecto a una escena 3D. Solo lectura [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representa una luz preestablecida que puede aplicarse a una forma. El rig de luz representa un grupo de luces orientadas de una manera específica en relación con una escena 3D. Solo lectura [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Métodos
 
@@ -29,7 +29,7 @@ public interface ILightRigEffectiveData
 
 ### Observaciones
 
-Esta interfaz se utiliza como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Esta interfaz se usa como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Ver también
 

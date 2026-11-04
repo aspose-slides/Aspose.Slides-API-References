@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示在条形饼图或饼形饼图中第二个饼或柱上绘制的具有自定义分割的点集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示将在条形饼图或饼形饼图的第二个饼或条形中使用自定义分割绘制的点集合。
 type: docs
-weight: 2190
+weight: 2210
 url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection 接口
 
-表示在条形饼图或饼形饼图中第二个饼或柱上绘制的具有自定义分割的点集合。
+表示在条形饼图或饼形饼图的第二个饼或条形中使用自定义分割绘制的点集合。
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -16,19 +16,19 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | 返回 IEnumerable 接口。 |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | 返回按索引获取的图表数据点。 |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | 返回 按索引的图表数据点。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 在父系列点集合中按其索引添加数据点。 |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 在父系列点集合中按其索引从集合中移除项。 |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 通过在父系列点集合中的索引添加数据点。 |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 通过在父系列点集合中的索引从集合中删除项。 |
 
-### 另见
+### 参见
 
 * 接口 [IChartDataPoint](../ichartdatapoint)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
-description: ตัวเลือกสำหรับการสกัด HTML จากข้อความ Pptx.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ตัวเลือกสำหรับการแปลง HTML จากข้อความ Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /th/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions คลาส
 
-ตัวเลือกสำหรับการสกัด HTML จากข้อความ Pptx
+ตัวเลือกสำหรับการแปลง HTML จากข้อความ Pptx.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -24,10 +24,10 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | คืนหรือกำหนดค่า แสดงว่าควรเพิ่มหัวข้อ Clipboard หรือไม่. อ่าน/เขียน Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | คืนหรือกำหนดชื่อการเข้ารหัส html. ค่านี้จะถูกบันทึกในไฟล์ HTML ที่สร้างขึ้น, แต่ขึ้นอยู่กับผู้เรียกเพื่อให้แน่ใจว่าไฟล์จะถูกบันทึกด้วยการเข้ารหัสนี้. อ่าน/เขียน String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | คืนหรือกำหนดวัตถุ callback ที่ควบคุมวิธีการเก็บวัตถุภายนอก. อ่าน/เขียน [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | คืนหรือกำหนดความลึกการสืบทอดสำหรับคุณสมบัติข้อความ. อ่าน/เขียน [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | คืนค่า或กำหนดค่าที่บ่งบอกว่าควรเพิ่มส่วนหัว Clipboard หรือไม่ อ่าน/เขียน Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | คืนค่า或กำหนดชื่อการเข้ารหัส html. ค่าดังกล่าวจะถูกบันทึกลงในไฟล์ HTML ที่สร้างขึ้น, แต่ขึ้นอยู่กับผู้เรียกเพื่อให้แน่ใจว่าไฟล์จะถูกบันทึกในการเข้ารหัสนี้. อ่าน/เขียน String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | คืนค่า或กำหนดอ็อบเจ็กต์ callback ที่ควบคุมว่าการจัดเก็บอ็อบเจ็กต์ภายนอกจะทำอย่างไร. อ่าน/เขียน [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | คืนค่า或กำหนดความลึกที่สืบทอดสำหรับคุณสมบัติข้อความ. อ่าน/เขียน [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### ดูเพิ่มเติม
 

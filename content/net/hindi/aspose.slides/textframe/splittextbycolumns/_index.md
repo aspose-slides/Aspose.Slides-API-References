@@ -1,45 +1,45 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: ITextFrameaspose.slides/itextframe की टेक्स्ट सामग्री को स्ट्रिंग्स की एरे में विभाजित करता है, जहाँ प्रत्येक तत्व फ्रेम के भीतर एक अलग टेक्स्ट कॉलम से मेल खाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: ITextFrameaspose.slides/itextframe की पाठ सामग्री को स्ट्रिंग्स की एरे में विभाजित करता है, जहाँ प्रत्येक तत्व फ्रेम के भीतर एक अलग पाठ कॉलम से सम्बंधित होता है।
 type: docs
-weight: 140
+weight: 150
 url: /hi/aspose.slides/textframe/splittextbycolumns/
 ---
-## TextFrame.SplitTextByColumns मेथड
+## TextFrame.SplitTextByColumns विधि
 
-फ़्रेम के भीतर प्रत्येक अलग टेक्स्ट कॉलम से मेल खाने वाले स्ट्रिंग्स की एरे में [`ITextFrame`](../../itextframe) की टेक्स्ट सामग्री को विभाजित करता है।
+[`ITextFrame`](../../itextframe) की पाठ सामग्री को स्ट्रिंग्स की एक एरे में विभाजित करता है, जहाँ प्रत्येक तत्व फ्रेम के भीतर एक अलग पाठ कॉलम से सम्बंधित होता है।
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### रिटर्न वैल्यू
+### रिटर्न मान
 
-स्ट्रिंग्स की एरे, जहाँ प्रत्येक स्ट्रिंग [`ITextFrame`](../../itextframe) में एक विशिष्ट कॉलम की टेक्स्ट सामग्री को दर्शाती है।
+स्ट्रिंग्स की एक एरे, जहाँ प्रत्येक स्ट्रिंग [`ITextFrame`](../../itextframe) में एक विशिष्ट कॉलम की पाठ सामग्री का प्रतिनिधित्व करती है।
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यदि टेक्स्ट फ्रेम में कई कॉलम नहीं हैं, तो लौटाई गई एरे में पूर्ण टेक्स्ट को सम्मिलित करने वाला एक ही तत्व होगा। खाली कॉलम एरे में खाली स्ट्रिंग्स के रूप में दर्शाए जाएंगे।
+यदि टेक्स्ट फ्रेम में कई कॉलम नहीं होते हैं, तो लौटाई गई एरे में एक ही तत्व होगा जिसमें पूरा पाठ होगा। खाली कॉलम एरे में खाली स्ट्रिंग्स के रूप में प्रदर्शित किए जाएंगे।
 
 ### उदाहरण
 
-निम्न उदाहरण `SplitTextByColumns` का उपयोग कैसे करें दर्शाता है:
+निम्नलिखित उदाहरण दिखाता है कि `SplitTextByColumns` का उपयोग कैसे किया जाता है:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
     // स्लाइड पर पहली शेप प्राप्त करें और इसे ITextFrame में कास्ट करें
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // टेक्स्ट फ्रेम की सामग्री को कॉलमों में विभाजित करें
+    // टेक्स्ट फ्रेम की सामग्री को कॉलम में विभाजित करें
     string[] columnsText = textFrame.SplitTextByColumns();
-    // प्रत्येक कॉलम का टेक्स्ट कंसोल पर प्रिंट करें
+    // प्रत्येक कॉलम का टेक्स्ट कंसोल में प्रिंट करें
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }
 ```
 
-### संबंधित देखें
+### देखें भी
 
 * क्लास [TextFrame](../../textframe)
 * नामस्थान [Aspose.Slides](../../textframe)

@@ -1,36 +1,36 @@
 ---
 title: IMathDelimiter
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: "Xác định đối tượng delimiter gồm các ký tự mở và đóng như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng, và một hoặc nhiều phần tử toán học bên trong được ngăn cách bằng một ký tự được chỉ định. Ví dụ: 2 2x7C2"
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định đối tượng dấu phân cách bao gồm các ký tự mở và đóng như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng, và một hoặc nhiều phần tử toán học bên trong được ngăn cách bằng một ký tự xác định. Ví dụ 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /vi/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter giao diện
 
-Xác định đối tượng delimiter, bao gồm các ký tự mở và đóng (như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng), và một hoặc nhiều phần tử toán học bên trong, được ngăn cách bằng một ký tự được chỉ định. Ví dụ: (𝑥2); [𝑥2&#x7C;𝑦2]
+Xác định đối tượng dấu phân cách, bao gồm các ký tự mở và đóng (như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng), và một hoặc nhiều phần tử toán học bên trong, được ngăn cách bằng một ký tự xác định. Ví dụ: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
 ```
 
-## Thuộc tính
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Một hoặc nhiều phần tử toán học được ngăn cách bằng các ký tự delimiter |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character chỉ định ký tự delimiter bắt đầu, hay ký tự mở. Các delimiter toán học là các ký tự bao quanh như dấu ngoặc tròn, dấu ngoặc vuông và dấu ngoặc nhọn. Giá trị mặc định: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Chỉ định hình dạng của các delimiter trong đối tượng delimiter. Khi là MathDelimiterShape.Centered, các delimiter được canh giữa trục toán học của văn bản toán học và vẫn được điều chỉnh để vừa với toàn bộ chiều cao của nội dung. Khi là MathDelimiterShape.Match, chiều cao và hình dạng của chúng được thay đổi để khớp chính xác với nội dung. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character chỉ định ký tự delimiter kết thúc, hay ký tự đóng. Các delimiter toán học là các ký tự bao quanh như dấu ngoặc tròn, dấu ngoặc vuông và dấu ngoặc nhọn. Mặc định: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Chỉ định việc mở rộng của BeginningCharacter, SeparatorCharacter, EndingCharacter. Khi true, các delimiter tăng chiều dọc để khớp với chiều cao của operand. Giá trị mặc định là true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character chỉ định ký tự ngăn cách các đối số trong đối tượng delimiter. Mặc định: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Một hoặc nhiều phần tử toán học được ngăn cách bằng các ký tự dấu phân cách |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Cho phép lấy IMathElement giao diện cơ bản [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character chỉ định ký tự bắt đầu, hoặc ký tự mở, của dấu phân cách. Các dấu phân cách toán học là các ký tự bao quanh như dấu ngoặc tròn, dấu ngoặc vuông và dấu ngoặc nhọn. Giá trị mặc định: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Chỉ định hình dạng của các dấu phân cách trong đối tượng dấu phân cách. Khi là MathDelimiterShape.Centered, các dấu phân cách được căn giữa quanh trục toán học của văn bản toán học và vẫn được điều chỉnh để phù hợp với toàn bộ chiều cao của nội dung. Khi là MathDelimiterShape.Match, chiều cao và hình dạng của chúng được thay đổi để khớp chính xác với nội dung. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character chỉ định ký tự kết thúc, hoặc ký tự đóng, của dấu phân cách. Các dấu phân cách toán học là các ký tự bao quanh như dấu ngoặc tròn, dấu ngoặc vuông và dấu ngoặc nhọn. Mặc định: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Chỉ định sự tăng trưởng của BeginningCharacter, SeparatorCharacter, EndingCharacter. Khi true, các dấu phân cách sẽ mở rộng theo chiều dọc để phù hợp với chiều cao của toán hạng. Giá trị mặc định là true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character chỉ định ký tự phân tách các đối số trong đối tượng dấu phân cách. Mặc định: '&#x7C;'. |
 
-## Phương thức
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Ngăn cách các đối số bằng ký tự delimiter được chỉ định |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Phân tách các đối số bằng ký tự dấu phân cách đã chỉ định |
 
 ### Ví dụ
 
@@ -46,6 +46,6 @@ IMathDelimiter delimiter = element.Enclose();
 
 * giao diện [IMathElement](../imathelement)
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

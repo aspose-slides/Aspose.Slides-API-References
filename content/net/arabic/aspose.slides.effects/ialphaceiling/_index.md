@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
-description: يمثل تأثير السقف ألفا. قيم شفافية الألفا الأكبر من الصفر تتغير إلى 100. بعبارة أخرى، أي شيء شفاف جزئيًا يصبح شفافًا بالكامل.
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يمثّل تأثير سقف ألفا. قيم شفافية ألفا الأكبر من الصفر تُغيّر إلى 100. بمعنى آخر، أي شيء شبه شفاف يصبح شفافًا بالكامل.
 type: docs
-weight: 3040
+weight: 3060
 url: /ar/aspose.slides.effects/ialphaceiling/
 ---
-## واجهة IAlphaCeiling
+## IAlphaCeiling واجهة
 
-يمثل تأثير السقف ألفا. قيم ألفا (الشفافية) التي تكون أكبر من الصفر تُغيّر إلى 100٪. بعبارة أخرى، أي شيء شفاف جزئيًا يصبح شفافًا بالكامل.
+يمثل تأثير سقف ألفا. قيم ألفا (الشفافية) الأكبر من الصفر تتحول إلى 100٪. بعبارة أخرى، أي شيء شبه شفاف يصبح شفافًا بالكامل.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperationEx الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. فقط للقراءة [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperationEx الأساسية. فقط للقراءة [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### انظر أيضًا
 

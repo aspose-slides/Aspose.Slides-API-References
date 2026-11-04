@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ramtidsstämplingshanteraren för FrameTick./presentationplayer/frametick-händelsen.
+description: Representerar ram-tick-hanteraren för FrameTick./presentationplayer/frametick-händelsen.
 type: docs
-weight: 4400
+weight: 4420
 url: /sv/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler delegate
+## PresentationPlayer.FrameTickHandler delegat
 
-Representerar ramtidsstämplingshanteraren för [`FrameTick`](../presentationplayer/frametick)-händelsen.
+Representerar ram-tick-hanteraren för [`FrameTick`](../presentationplayer/frametick)-händelsen.
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sender | PresentationPlayer | Avsändare för ramtidsstämplingshändelsen. |
-| args | FrameTickEventArgs | Argument för ramtidsstämningen. |
+| sender | PresentationPlayer | Avsändare för ram-tick-händelsen. |
+| args | FrameTickEventArgs | Argument för ram-tick. |
 
 ### Se också
 

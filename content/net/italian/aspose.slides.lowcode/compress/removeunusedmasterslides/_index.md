@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Sildes per .NET API Reference
-description: Esegue la compressione della Presentationaspose.slides/presentation rimuovendo le slide master non utilizzate.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Esegue la compressione della Presentationaspose.slides/presentation rimuovendo le diapositive master inutilizzate.
 type: docs
-weight: 30
+weight: 50
 url: /it/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides metodo
 
-Esegue la compressione del [`Presentation`](../../../aspose.slides/presentation) rimuovendo le slide master inutilizzate.
+Esegue la compressione del [`Presentation`](../../../aspose.slides/presentation) rimuovendo le diapositive master inutilizzate.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)

@@ -3,12 +3,12 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: प्रेजेंटेशन मास्टर थीम तक पहुंच प्रदान करता है।
 type: docs
-weight: 11320
+weight: 11340
 url: /hi/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager इंटरफ़ेस
 
-प्रेजेंटेशन मास्टर थीम तक पहुँच प्रदान करता है।
+Provides access to presentation master theme.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -18,11 +18,11 @@ public interface IMasterThemeManager : IThemeManager
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | बेस IThemeManager इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | निर्धारित करता है कि OverrideTheme विरासत में मिला प्रभावी थीम (Presentation.MasterTheme) को ओवरराइड करता है या नहीं। पढ़ें/लिखें Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट को लौटाता है। पढ़ें/लिखें [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | आधार IThemeManager इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IThemeManager`](../ithememanager)। |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | निर्धारित करता है कि OverrideTheme विरासत में मिले प्रभावी थीम (Presentation.MasterTheme) को ओवरराइड करता है या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट को लौटाता है। पढ़ने/लिखने योग्य [`IMasterTheme`](../imastertheme)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IThemeManager](../ithememanager)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)

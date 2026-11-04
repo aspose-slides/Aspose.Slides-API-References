@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Füllformatierungseigenschaften enthält.
+second_title: Aspose.Sildes for .NET API Referenz
+description: Unveränderliches Objekt, das wirksame Füllformatierungseigenschaften enthält.
 type: docs
-weight: 5800
+weight: 5820
 url: /de/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Füllformatierungseigenschaften enthält.
+Unveränderliches Objekt, das wirksame Füllformatierungseigenschaften enthält.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,18 +18,18 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Gibt die IFillParamSource Schnittstelle zurück. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Gibt den Fülltyp zurück. Nur lesbar [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Gibt das Farbverlauf-Füllformat zurück. Nur lesbar [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Gibt das Muster-Füllformat zurück. Nur lesbar [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Gibt das Bild-Füllformat zurück. Nur lesbar [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Gibt zurück IFillParamSource Schnittstelle. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Gibt zurück den Typ der Füllung. Nur lesbar [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Gibt zurück das Verlaufsfüllformat. Nur lesbar [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Gibt zurück das Musterfüllformat. Nur lesbar [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Gibt zurück das Bildfüllformat. Nur lesbar [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Bestimmt, ob die Füllung mit der Form rotiert werden soll. Nur lesbar Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Gibt die Füllfarbe zurück. Nur lesbar Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Liest die durch ein Farbschema definierte Füllfarbe. Der Wert NotDefined zeigt an, dass [`SolidFillColor`](./solidfillcolor) keine Schemafarbe ist. Nur lesbar [`SchemeColor`](../schemecolor). |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Gibt zurück die Füllfarbe. Nur lesbar Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Liest die Füllfarbe, die durch ein Farbschema definiert ist. Der Wert NotDefined zeigt an, dass das [`SolidFillColor`](./solidfillcolor) keine Schemafarbe ist. Nur lesbar [`SchemeColor`](../schemecolor). |
 
-### Bemerkungen
+### Anmerkungen
 
-Dieses Interface wird zusammen mit dem [`IFillFormat`](../ifillformat) Interface verwendet, um effektive Formatierungswerte mit vererbter Anwendung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`IFillFormat`](../ifillformat) Schnittstelle verwendet, um wirksame Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes .NET API 참조
+second_title: Aspose.Sildes for .NET API 참조
 description: AcitveX 속성의 컬렉션입니다.
 type: docs
-weight: 2710
+weight: 2730
 url: /ko/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection 클래스
 
-ActiveX 속성의 컬렉션입니다.
+AcitveX 속성의 컬렉션입니다.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | 컬렉션에 있는 속성의 수를 반환합니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | 컬렉션에 포함된 속성 수를 반환합니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | 속성을 반환하거나 설정합니다. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | 속성 이름의 컬렉션을 반환합니다. 읽기 전용 ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | 속성 이름들의 컬렉션을 반환합니다. 읽기 전용 ICollection. |
 
 ## 메서드
 
@@ -28,7 +28,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | 컬렉션에 속성을 추가합니다. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | 모든 속성을 제거합니다. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | 지정된 이름을 가진 속성을 제거합니다. |
 
 ### 관련 항목

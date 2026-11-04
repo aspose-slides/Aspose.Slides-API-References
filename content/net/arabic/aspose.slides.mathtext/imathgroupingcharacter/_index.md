@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد رمز تجميع فوق أو تحت تعبير عادةً لتسليط الضوء على العلاقة بين العناصر
+second_title: مرجع API لـ Aspose.Sildes .NET
+description: يحدد رمز التجميع فوق أو أسفل تعبير عادةً لتسليط الضوء على العلاقة بين العناصر
 type: docs
-weight: 8290
+weight: 8310
 url: /ar/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter واجهة
 
-يحدد رمز التجميع فوق أو تحت تعبير، عادةً لتسليط الضوء على العلاقة بين العناصر
+يحدد رمز التجميع فوق أو أسفل تعبير، عادةً لتسليط الضوء على العلاقة بين العناصر
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,11 +18,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | السماح بالحصول على واجهة IMMathElement الأساسية [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | يسمح بالحصول على واجهة IMathElement الأساسية [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | الوسيط الأساسي |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | حرف التجميع القيمة الافتراضية: U+23DF (قوس مجعد سفلي) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | موضع حرف التجميع. القيمة الافتراضية: أسفل |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | المحاذاة العمودية لحرف المجموعة. يحدد موضع الكائن بالنسبة إلى خط الأساس. على سبيل المثال، عندما يكون حرف المجموعة فوق الكائن، فإن VerticalJustification = Top يعني أن أعلى الكائن يقع على خط الأساس؛ وعندما يكون VerticalJustification = Bottom، يكون أسفل الكائن على خط الأساس القيمة الافتراضية: Bottom لـ Position=Top، و Top لـ Position=Bottom |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | قيمة افتراضية لرمز التجميع: U+23DF (القوس المعقوف السفلي) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | موضع رمز التجميع. الافتراضي: أسفل |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | محاذاة رأسية لرمز التجميع. تحدد محاذاة الكائن بالنسبة إلى الخط الأساسي. على سبيل المثال، عندما يكون رمز التجميع فوق الكائن، فإن VerticalJustification of Top يعني أن أعلى الكائن يقع على الخط الأساسي؛ عندما يتم تعيين VerticalJustification إلى Bottom، يكون أسفل الكائن على الخط الأساسي. الافتراضي: Bottom لـ Position=Top، وTop لـ Position=Bottom |
 
 ### أمثلة
 

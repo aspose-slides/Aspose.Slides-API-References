@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje kolekcję obiektów TrendlineEx
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje kolekcję TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /pl/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interfejs
 
-Reprezentuje kolekcję obiektów TrendlineEx
+Reprezentuje kolekcję TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Umożliwia dostęp do podstawowego interfejsu IEnumerable. Tylko do odczytu IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Umożliwia uzyskanie podstawowego interfejsu IEnumerable. IEnumerable tylko do odczytu. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Zwraca liczbę elementów rzeczywiście znajdujących się w kolekcji. Int32 tylko do odczytu. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Zwraca element pod określonym indeksem. [`ITrendline`](../itrendline) tylko do odczytu. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Dodaje nową Trendline na końcu kolekcji i zwraca ją. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Dodaje nowy Trendline na końcu kolekcji i zwraca go. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Usuwa określoną wartość. |
 
 ### Zobacz także

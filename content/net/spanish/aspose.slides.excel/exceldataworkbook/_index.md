@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un libro de trabajo que brinda acceso a datos de Excel para uso general.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa un libro de trabajo que proporciona acceso a datos de Excel para uso general.
 type: docs
-weight: 3690
+weight: 3710
 url: /es/aspose.slides.excel/exceldataworkbook/
 ---
-## ExcelDataWorkbook clase
+## Clase ExcelDataWorkbook
 
-Representa un libro de trabajo que brinda acceso a datos de Excel para uso general.
+Representa un libro de trabajo que proporciona acceso a datos de Excel para uso general.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -25,13 +25,13 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Obtiene una celda de la hoja de cálculo especificada usando su índice y el nombre de celda al estilo Excel (p. ej., "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Obtiene una celda de la hoja de cálculo especificada usando el nombre de celda al estilo Excel (p. ej., "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Obtiene una celda de la hoja de cálculo especificada usando su índice y las coordenadas de la celda. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Obtiene una celda de la hoja de cálculo especificada usando su nombre y las coordenadas de la celda. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Obtiene una colección de celdas del libro de trabajo que coinciden con la fórmula especificada. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Obtiene un diccionario que contiene los índices y nombres de todos los gráficos en la hoja de cálculo especificada de un libro de Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Obtiene los nombres de todas las hojas de cálculo contenidas en el libro de trabajo de Excel. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Recupera una celda de la hoja de cálculo especificada usando su índice y el nombre de celda al estilo Excel (p. ej., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Recupera una celda de la hoja de cálculo especificada usando el nombre de celda al estilo Excel (p. ej., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Recupera una celda de la hoja de cálculo especificada usando su índice y las coordenadas de la celda. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Recupera una celda de la hoja de cálculo especificada usando su nombre y las coordenadas de la celda. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Recupera una colección de celdas del libro de trabajo que coinciden con la fórmula especificada. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Recupera un diccionario que contiene los índices y nombres de todos los gráficos en la hoja de cálculo especificada de un libro de trabajo de Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Recupera los nombres de todas las hojas de cálculo contenidas en el libro de trabajo de Excel. |
 
 ### Ver también
 

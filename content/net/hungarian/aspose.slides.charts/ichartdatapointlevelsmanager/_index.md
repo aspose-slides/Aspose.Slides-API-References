@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az adatpontszintek tárolója. Treeamp és Sunburst sorozatokra alkalmazható. Az adatpontszintek indexelése nulla-alapú.
+second_title: Aspose.Sildes .NET API referencia
+description: Az adattétel szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazva. Az adattétel szintek indexelése nulláról indul.
 type: docs
-weight: 1850
+weight: 1870
 url: /hu/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager interfész
 
-Adatpont szintek tárolója. Alkalmazható Treeamp és Sunburst sorozatokhoz. Az adatpont szintek indexelése nullával kezdődik.
+Az adattétel szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazva. Az adattétel szintek indexelése nullától indul.
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public interface IChartDataPointLevelsManager
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Visszaadja az adatpont szintek számát. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Visszaadja az IChartDataPointLevel objektumot a meghatározott szinthez. |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Visszaadja az adattétel szintek számát. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Visszaadja a meghatározott szinthez tartozó IChartDataPointLevel objektumot. |
 
 ### Lásd még
 

@@ -1,12 +1,12 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип зачеркивания текста.
 type: docs
-weight: 10990
+weight: 11010
 url: /ru/aspose.slides/textstrikethroughtype/
 ---
-## Перечисление TextStrikethroughType
+## TextStrikethroughType перечисление
 
 Представляет тип зачеркивания текста.
 

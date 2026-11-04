@@ -1,12 +1,11 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示几何形状的调整值。这些值会影响形状的形式。
 type: docs
-weight: 5180
+weight: 5200
 url: /zh/aspose.slides/iadjustvalue/
 ---
-
 ## IAdjustValue 接口
 
 表示几何形状的调整值。这些值会影响形状的形式。
@@ -17,14 +16,14 @@ public interface IAdjustValue
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 返回或设置值，将其解释为以度为单位的角度。读/写 Single。 |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 返回或设置值，将其解释为角度（度）。读/写 Single。 |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | 返回此调整值的名称。只读 String。 |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | 返回或设置调整值（原样）。读/写 Int64。 |
 | [Type](../../aspose.slides/iadjustvalue/type) { get; } | 返回形状调整的类型。只读 [`ShapeAdjustmentType`](../shapeadjustmenttype)。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

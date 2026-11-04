@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Interface voor auxiliaire lijnparameters.
+description: Interface voor aanvullende lijnparameters.
 type: docs
-weight: 6330
+weight: 6350
 url: /nl/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource interface
 
-Interface voor auxiliaire lijnparameters.
+Interface voor aanvullende lijnparameters.
 
 ```csharp
 public interface ILineParamSource

@@ -3,7 +3,7 @@ title: PresentationInfo
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション ファイルに関する情報
 type: docs
-weight: 9620
+weight: 9640
 url: /ja/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo クラス
@@ -21,7 +21,7 @@ public sealed class PresentationInfo : IPresentationInfo
 | [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | バインドされたプレゼンテーションが暗号化されている場合は True を取得し、そうでない場合は False を取得します。読み取り専用 Boolean。 |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | バインドされたプレゼンテーションが開くためのパスワードで保護されているかどうかを示す値を取得します。 |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | バインドされたプレゼンテーションが書き込み保護されているかどうかを示す値を取得します。 |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | バインドされたプレゼンテーションのフォーマットを取得します。読み取り専用 [`LoadFormat`](../loadformat)。 |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | バインドされたプレゼンテーションの形式を取得します。読み取り専用 [`LoadFormat`](../loadformat)。 |
 
 ## メソッド
 
@@ -34,7 +34,7 @@ public sealed class PresentationInfo : IPresentationInfo
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | バインドされたプレゼンテーションをストリームに書き込みます。 |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | バインドされたプレゼンテーションをファイルに書き込みます。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IPresentationInfo](../ipresentationinfo)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

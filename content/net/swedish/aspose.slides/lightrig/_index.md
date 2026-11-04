@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar LightRig.
 type: docs
-weight: 7690
+weight: 7710
 url: /sv/aspose.slides/lightrig/
 ---
 ## LightRig klass
@@ -14,24 +14,24 @@ Representerar LightRig.
 public sealed class LightRig : PVIObject, ILightRig
 ```
 
-## Egenskaper
+## Properties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas- IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Ljusriktning. Läs/skriv [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Representerar en förinställd ljusriktning som kan tillämpas på en form. Light rig representerar en grupp av ljus orienterade på ett specifikt sätt i förhållande till en 3D-scen. Läs/skriv [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Representerar en förinställd ljusriktning som kan tillämpas på en form. Light rig representerar en grupp ljus orienterade på ett specifikt sätt i förhållande till en 3D-scen. Läs/skriv [`LightRigPresetType`](../lightrigpresettype). |
 
-## Metoder
+## Methods
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinaterna. första elementet i returarrayen – latitud, andra – longitud, tredje – rotation. Returnerar null om ingen rotation är definierad. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinaterna. Om något koordinatvärde är float.NaN är all rotation odefinierad. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinater. första elementet i returarrayen – latitud, andra – longitud, tredje – rotation. Returnerar null om ingen rotation är definierad. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinater. Om något av koordinatvärdena är float.NaN är hela rotationen odefinierad. |
 
-### Se även
+### Se också
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [ILightRig](../ilightrig)

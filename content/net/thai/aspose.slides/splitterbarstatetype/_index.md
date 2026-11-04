@@ -1,26 +1,26 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ระบุสถานะที่แถบแบ่งควรจะแสดง. แถบแบ่งจะแยกบริเวณหลักและบริเวณรองภายในพื้นที่มองเห็น.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุสถานะที่ splitter bar ควรแสดง. splitter bar แยกบริเวณหลักและรองภายในพื้นที่การแสดงผล.
 type: docs
-weight: 10690
+weight: 10710
 url: /th/aspose.slides/splitterbarstatetype/
 ---
-## SplitterBarStateType การระบุค่า
+## SplitterBarStateType enumeration
 
-ระบุสถานะที่แถบแบ่งควรจะแสดง แถบแบ่งจะแยกบริเวณหลักและบริเวณรองภายในพื้นที่มองเห็น
+ระบุสถานะที่ splitter bar ควรแสดง. splitter bar แยกบริเวณหลักและรองภายในพื้นที่การแสดงผล.
 
 ```csharp
 public enum SplitterBarStateType
 ```
 
-### ค่า
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Minimized | `0` | บริเวณหลักใช้พื้นที่มองเห็นน้อยที่สุดที่แอปพลิเคชันอนุญาต |
-| Restored | `1` | บริเวณหลักมีขนาดกลางที่กำหนดไว้ |
-| Maximized | `2` | บริเวณหลักใช้พื้นที่มองเห็นมากที่สุดที่แอปพลิเคชันอนุญาต |
+| Minimized | `0` | บริเวณหลักใช้พื้นที่การแสดงผลน้อยที่สุดที่แอปพลิเคชันอนุญาต |
+| Restored | `1` | บริเวณหลักมีขนาดกลางเฉพาะ |
+| Maximized | `2` | บริเวณหลักใช้พื้นที่การแสดงผลมากที่สุดที่แอปพลิเคชันอนุญาต |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Firma digital en archivo firmado.
 type: docs
-weight: 5690
+weight: 5710
 url: /es/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interfaz
@@ -21,7 +21,7 @@ public interface IDigitalSignature
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objeto de certificado que se utilizó para firmar el documento. Solo lectura X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | El propósito de la firma. Lectura/escritura String. |
 | [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Si esta firma digital es válida y el documento no ha sido manipulado, este valor será verdadero. Solo lectura Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | El momento en que el documento fue firmado. Solo lectura DateTime. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | La hora en que se firmó el documento. Solo lectura DateTime. |
 
 ### Ver también
 

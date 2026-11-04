@@ -1,14 +1,14 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ビデオの再生方法を定義する定数。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: ビデオの再生方法を定義する定数です。
 type: docs
-weight: 11730
+weight: 11750
 url: /ja/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset 列挙体
+## VideoPlayModePreset 列挙型
 
-ビデオの再生方法を定義する定数。
+ビデオの再生方法を定義する定数です。
 
 ```csharp
 public enum VideoPlayModePreset
@@ -20,9 +20,9 @@ public enum VideoPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | 自動的に再生します。 |
-| OnClick | `1` | 動画フレームがクリックされたときのみ再生します。 |
+| OnClick | `1` | ビデオフレームがクリックされたときだけ再生します。 |
 | AllSlides | `2` | すべてのスライドで再生します。 |
-| InClickSequence | `3` | クリックと同時に自動的に再生します。 |
+| InClickSequence | `3` | クリックで自動的に再生します。 |
 
 ### 参照
 

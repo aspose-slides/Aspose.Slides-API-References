@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Folienübergangseffekt mit Eckrichtung.
+description: Folienübergangseffekt in Eckrichtung.
 type: docs
-weight: 10060
+weight: 10080
 url: /de/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition Schnittstelle
 
-Folienübergangseffekt mit Eckrichtung.
+Folienübergangseffekt in Eckrichtung.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Richtung der Transition. Lesen/Schreiben [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese/Schreib [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Siehe auch
 

@@ -3,12 +3,12 @@ title: CommentAuthorCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de autores de comentários.
 type: docs
-weight: 2640
+weight: 2660
 url: /pt/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection classe
 
-Representa uma coleção de autores de comentário.
+Representa uma coleção de autores de comentários.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -16,16 +16,16 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`ICommentAuthor`](../icommentauthor). |
 | [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Adiciona um novo autor ao final de uma coleção. |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | Remove todos os autores de uma coleção. |

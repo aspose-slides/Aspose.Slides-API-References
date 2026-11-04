@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Alpha Bi-Level hatást reprezentál. Az Alpha átlátszósági értékek, amelyek kisebbek a küszöbnél, 0 (teljesen átlátszó) értékre, a küszöbnél nagyobb vagy egyenlő értékek 100 (teljesen átlátszatlan) értékre módosulnak.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Alpha Bi-Level hatást ábrázol. Az Alpha Opacity értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, és az alpha értékek, amelyek nagyobbak vagy egyenlőek a küszöbbel, 100-ra (teljesen átlátszatlan) változnak.
 type: docs
-weight: 3020
+weight: 3040
 url: /hu/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interfész
 
-Represents an Alpha Bi-Level effect. Alpha (Átlátszóság) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
+Ábrázolja az Alpha kétszintű hatást. Az Alpha (Átlátszóság) értékek, amelyek kisebbek a küszöbértéknél, 0-ra (teljesen átlátszó) változnak, és az alfa értékek, amelyek nagyobbak vagy egyenlőek a küszöbértékkel, 100%-ra (teljesen átlátszatlan) változnak.
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,13 +19,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Lehetővé teszi a(z) IAccessiblePVIObject alap interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Lehetővé teszi a(z) IImageTransformOperation alap interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Visszaadja a hatás küszöbértékét. Olvasás/írás Single. |
 
 ### Megjegyzés
 
-Használja az ImageTransformOperationFactory osztályt a COM-ban példányok létrehozásához.
+Használja az ImageTransformOperationFactory-t a COM-ban történő példányok létrehozásához.
 
 ### Lásd még
 

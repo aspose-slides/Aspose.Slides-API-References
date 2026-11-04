@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مدير السمة الرئيسي.
+second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+description: يمثل مدير سمة الأساس.
 type: docs
-weight: 11330
+weight: 11350
 url: /ar/aspose.slides.theme/imasterthemeable/
 ---
-## الواجهة IMasterThemeable
+## IMasterThemeable واجهة
 
-يمثل مدير السمة الرئيسي.
+يمثل مدير سمة الأساس.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
@@ -18,12 +18,12 @@ public interface IMasterThemeable : IThemeable
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | إرجاع IThemeable interface. للقراءة فقط [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | إرجاع مدير سمة الماستر. للقراءة فقط [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | إرجاع واجهة IThemeable. للقراءة فقط [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | إرجاع مدير سمة الأساس. للقراءة فقط [`IMasterThemeManager`](../imasterthememanager). |
 
 ### انظر أيضًا
 
-* الواجهة [IThemeable](../ithemeable)
+* واجهة [IThemeable](../ithemeable)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)
 * التجميع [Aspose.Slides](../../)
 

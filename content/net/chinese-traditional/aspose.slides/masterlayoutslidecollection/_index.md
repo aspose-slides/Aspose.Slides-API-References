@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示已定義母片的所有版面投影片集合。繼承 LayoutSlideCollection 類別，提供在各個母片版面投影片集合中新增、插入、移除、複製和重新排序版面投影片的方法。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示已定義的母版投影片的所有版面投影片的集合。繼承 LayoutSlideCollection 類別，提供在母版版面投影片各自集合的情境中新增、插入、移除、複製、重新排序版面投影片的方法。
 type: docs
-weight: 8000
+weight: 8020
 url: /zh-hant/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection 類別
 
-表示已定義母片的所有版面投影片的集合。繼承 LayoutSlideCollection 類別，提供在各個母片版面投影片集合中新增/插入/移除/複製/重新排序版面投影片的方法。
+表示已定義的母版投影片的所有版面投影片的集合。繼承 LayoutSlideCollection 類別，提供在母版版面投影片各自集合的情境中新增/插入/移除/複製/重新排序版面投影片的方法。
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,30 +17,30 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 返回集合中版面投影片的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 返回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 依索引返回版面投影片。唯讀 [`LayoutSlide`](../layoutslide)。 |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 返回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 傳回集合中版面投影片的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 傳回依索引取得的版面投影片。唯讀 [`LayoutSlide`](../layoutslide)。 |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合的末尾新增一個版面投影片。 |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合的末尾新增指定版面投影片的副本。 |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | 在集合的末端新增一個版面投影片。 |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | 在集合的末端新增指定版面投影片的副本。 |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 返回第一個指定類型的版面投影片。要尋找的版面投影片類型。[`LayoutSlide`](../layoutslide) 具有指定類型，若未找到任何版面則返回 null。 |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 傳回第一個指定類型的版面投影片。要尋找的版面投影片類型。[`LayoutSlide`](../layoutslide)（具有指定類型）或如果未找到任何版面則為 null。 |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 在集合的指定位置插入新的版面投影片。 |
 | [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 在集合的指定位置插入指定版面投影片的副本。 |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 從集合中移除版面投影片。 |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | 移除集合中指定索引的元素。 |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 從集合中移除版面。 |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | 移除集合中指定索引處的元素。 |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 移除未使用的版面投影片（HasDependingSlides 為 false 的版面投影片）。 |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | 將版面投影片從集合中移動到指定位置。 |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | 將版面投影片從集合中移動到指定的位置。 |
 
-### 另見
+### 參見
 
 * 類別 [LayoutSlideCollection](../layoutslidecollection)
 * 介面 [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)

@@ -1,12 +1,12 @@
 ---
 title: Section
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla referencji API .NET
 description: Reprezentuje sekcję slajdów.
 type: docs
-weight: 9750
+weight: 9770
 url: /pl/aspose.slides/section/
 ---
-## Section klasa
+## Klasa sekcji
 
 Reprezentuje sekcję slajdów.
 
@@ -19,7 +19,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | Nazwa | Opis |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Nazwa sekcji. |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | Id sekcji. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | Identyfikator sekcji. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Zwraca pierwszy slajd sekcji. |
 
 ## Metody

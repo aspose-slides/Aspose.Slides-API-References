@@ -1,14 +1,14 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje opcje, które mogą być użyte do wyszukiwania tekstu w obiekcie Presentation Slide lub TextFrame.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje opcje, które można używać do wyszukiwania tekstu w prezentacji, slajdzie lub ramce tekstowej.
 type: docs
-weight: 10970
+weight: 10990
 url: /pl/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions klasa
 
-Reprezentuje opcje, które mogą być użyte do wyszukiwania tekstu w obiekcie Presentation, Slide lub TextFrame.
+Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
@@ -16,17 +16,17 @@ public class TextSearchOptions : ITextSearchOptions
 
 ## Konstruktory
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [TextSearchOptions](textsearchoptions)() | Creates new default text search options. |
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Ustaw true, aby używać wyszukiwania rozróżniającego wielkość liter, false – w przeciwnym razie. Odczyt/zapis Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Ustaw `true`, aby uwzględnić tekst zawarty w notatkach slajdu ([`NotesSlide`](../notesslide)) podczas wykonywania operacji wyszukiwania tekstu, zamiany lub podświetlania. Wartość domyślna to `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Ustaw true, aby dopasowywać tylko całe słowa, false – w przeciwnym razie. Odczyt/zapis Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Ustaw true, aby używać wyszukiwania rozróżniającego wielkość liter, false - w przeciwnym razie. Odczyt/zapis Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Ustaw `true`, aby uwzględnić tekst zawarty w notatkach slajdu ([`NotesSlide`](../notesslide)) podczas wykonywania operacji wyszukiwania tekstu, zamiany lub podświetlania. Domyślna wartość to `false`. Odczyt/zapis Boolean. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Ustaw true, aby dopasowywać tylko pełne wyrazy, false - w przeciwnym razie. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

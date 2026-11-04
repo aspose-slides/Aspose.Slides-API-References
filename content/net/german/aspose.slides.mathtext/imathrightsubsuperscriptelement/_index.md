@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem tief- und hochgestellten Index besteht, die rechts von der Basis platziert werden.
+description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einer Tief- und Hochstellung besteht, die rechts von der Basis platziert werden.
 type: docs
-weight: 8450
+weight: 8470
 url: /de/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
-## IMathRightSubSuperscriptElement Schnittstelle
+## IMathRightSubSuperscriptElement interface
 
-Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem tief- und hochgestellten Index besteht, die rechts von der Basis platziert werden.
+Gibt das Sub-Superscript-Objekt an, das aus einer Basis und einer Tief- und Hochstellung besteht, die rechts von der Basis platziert werden.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Gibt die Ausrichtung von Subscript/Superscript an. Wenn true, sind Subscript und Superscript horizontal zueinander ausgerichtet. Wenn false, werden sie an die Form der Basis angepasst. Der Standardwert ist false. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement Schnittstelle [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Gibt die Ausrichtung von Tief- und Hochstellung an. Wenn true, sind Tief- und Hochstellung horizontal zueinander ausgerichtet. Wenn false, werden sie an die Form der Basis angepasst. Der Standardwert ist false. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Basisargument |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Tiefgestellt-Argument |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Hochgestellt-Argument |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Tiefstellungsargument |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Hochstellungsargument |
 
 ### Beispiele
 

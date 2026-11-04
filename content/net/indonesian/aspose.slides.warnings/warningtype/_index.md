@@ -1,14 +1,14 @@
 ---
 title: WarningType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis peringatan.
+description: Mewakili tipe peringatan.
 type: docs
-weight: 11830
+weight: 11850
 url: /id/aspose.slides.warnings/warningtype/
 ---
-## enumerasi WarningType
+## WarningType enumerasi
 
-Mewakili jenis peringatan.
+Mewakili tipe peringatan.
 
 ```csharp
 public enum WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Masalah telah terdeteksi dalam dokumen sumber yang membuat sangat mungkin dokumen tidak dapat dibuka jika disimpan dalam format aslinya. |
-| DataLoss | `1` | Teks/grafik/gambar atau data lain akan sepenuhnya hilang baik dari pohon dokumen setelah pemuatan, maupun dokumen yang dibuat setelah penyimpanan. |
+| SourceFileCorruption | `0` | Sebuah masalah telah terdeteksi dalam dokumen sumber yang membuat sangat mungkin dokumen tidak dapat dibuka jika disimpan dalam format aslinya. |
+| DataLoss | `1` | Teks/diagram/gambar atau data lain akan sepenuhnya hilang baik dari pohon dokumen setelah pemuatan, atau dari dokumen yang dibuat setelah penyimpanan. |
 | MajorFormattingLoss | `2` | Kehilangan format utama. |
-| MinorFormattingLoss | `3` | Kehilangan format kecil. |
+| MinorFormattingLoss | `3` | Kehilangan format minor. |
 | CompatibilityIssue | `4` | Ini adalah masalah yang diketahui yang akan mencegah dokumen dibuka oleh agen pengguna tertentu, atau versi sebelumnya dari agen pengguna. |
-| UnexpectedContent | `99` | Beberapa konten dalam dokumen sumber tidak dapat dikenali (misalnya tidak didukung), ini mungkin atau mungkin tidak menyebabkan masalah atau mengakibatkan kehilangan data/format. |
+| UnexpectedContent | `99` | Beberapa konten dalam dokumen sumber tidak dapat dikenali (misalnya tidak didukung), hal ini mungkin menyebabkan masalah atau tidak, atau mengakibatkan kehilangan data/format. |
 
 ### Lihat Juga
 

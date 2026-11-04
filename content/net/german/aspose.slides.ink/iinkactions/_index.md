@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein Ink-Objekt auf einer Folie dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Tintenobjekt auf einer Folie dar.
 type: docs
-weight: 7520
+weight: 7540
 url: /de/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions Schnittstelle
 
-Stellt ein Ink-Objekt auf einer Folie dar.
+Stellt ein Tintenobjekt auf einer Folie dar.
 
 ```csharp
 public interface IInkActions : IGraphicalObject

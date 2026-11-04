@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyvolána, když formát souboru prezentace není podporován.
+description: Výjimka, která je vyhozena, když formát souboru prezentace není podporován.
 type: docs
-weight: 7620
+weight: 7640
 url: /cs/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException třída
 
-Výjimka, která je vyvolána, když formát souboru prezentace není podporován.
+Výjimka, která je vyhozena, když formát souboru prezentace není podporován.
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -20,7 +20,7 @@ public class InvalidPasswordException : Exception
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Výchozí konstruktor. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Konstruktor pro výjimku, která obsahuje zprávu a vloženou výjimku. |
 
 ### Viz také
 

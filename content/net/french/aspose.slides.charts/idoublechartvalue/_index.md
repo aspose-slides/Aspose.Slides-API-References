@@ -1,9 +1,9 @@
 ---
 title: IDoubleChartValue
-second_title: Référence API Aspose.Sildes pour .NET
-description: "Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières: 1) dans la ou les cellules du classeur lié au graphique 2) en tant que valeur littérale."
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente une valeur double qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans la ou les cellules du classeur lié au graphique ; 2) en tant que valeur littérale.
 type: docs
-weight: 2070
+weight: 2090
 url: /fr/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue interface
@@ -16,14 +16,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Permet d’obtenir l’interface de base ISingleCellChartValue. Lecture seule [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Permet d'obtenir l'interface de base ISingleCellChartValue. Lecture seule [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Renvoie ou définit la valeur double littérale si DataSourceType = Charts.DataSourceType.DoubleLiterals. Lecture/écriture Double. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Convertit en double. |
 

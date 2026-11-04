@@ -3,7 +3,7 @@ title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Niezmienny obiekt, który zawiera efektywne właściwości wypełniania linii.
 type: docs
-weight: 6300
+weight: 6320
 url: /pl/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interfejs
@@ -21,15 +21,15 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Zwraca interfejs IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Zwraca typ wypełnienia. Tylko do odczytu [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Zwraca format wypełnienia gradientowego. Tylko do odczytu [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Zwraca format wypełnienia wzorowego. Tylko do odczytu [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Zwraca format wypełnienia wzorcowego. Tylko do odczytu [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Określa, czy wypełnienie powinno być obracane razem z kształtem. Tylko do odczytu Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Zwraca kolor wypełnienia jednolitego. Tylko do odczytu Color. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Zwraca kolor jednolitego wypełnienia. Tylko do odczytu Color. |
 
 ### Uwagi
 
 Ten interfejs jest używany jako część [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IFillParamSource](../ifillparamsource)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

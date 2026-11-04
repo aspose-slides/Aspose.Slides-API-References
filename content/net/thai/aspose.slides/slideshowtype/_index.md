@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์ PresentedBySpeaker./presentedbyspeaker นำเสนอโดยผู้พูดเต็มจอ BrowsedByIndividual./browsedbyindividual เรียกดูโดยบุคคลในหน้าต่าง BrowsedAtKiosk./browsedatkiosk เรียกดูที่คีออสเต็มจอ
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์ PresentedBySpeaker./presentedbyspeaker Presented by a speaker full screen BrowsedByIndividual./browsedbyindividual Browsed by individual window BrowsedAtKiosk./browsedatkiosk Browsed at a kiosk full screen
 type: docs
-weight: 10490
+weight: 10510
 url: /th/aspose.slides/slideshowtype/
 ---
 ## SlideShowType คลาส
 
-การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์: [`PresentedBySpeaker`](../presentedbyspeaker) นำเสนอโดยผู้พูด (เต็มจอ) [`BrowsedByIndividual`](../browsedbyindividual) เรียกดูโดยบุคคล (หน้าต่าง) [`BrowsedAtKiosk`](../browsedatkiosk) เรียกดูที่คีออสก์ (เต็มจอ)
+การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์: [`PresentedBySpeaker`](../presentedbyspeaker) นำเสนอโดยผู้พูด (เต็มหน้าจอ) [`BrowsedByIndividual`](../browsedbyindividual) เรียกดูโดยบุคคล (หน้าต่าง) [`BrowsedAtKiosk`](../browsedatkiosk) เรียกดูที่คีออสก์ (เต็มหน้าจอ)
 
 ```csharp
 public abstract class SlideShowType

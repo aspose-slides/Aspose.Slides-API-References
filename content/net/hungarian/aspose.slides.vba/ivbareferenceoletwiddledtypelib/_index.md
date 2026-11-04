@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Aspose.Sildes .NET API Referencia
-description: Módosított OLE Automation típuskönyvtár-referenciát képvisel, amelyben minden vezérlő kiterjeszthetőként van megjelölve.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosított OLE Automation típuskönyvtár-hivatkozást reprezentál, amelyben minden vezérlő kiterjeszthetőként van megjelölve.
 type: docs
-weight: 11600
+weight: 11620
 url: /hu/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib interfész
 
-Módosított OLE Automation típuskönyvtár-referenciát képvisel, amelyben minden vezérlő kiterjeszthetőként van megjelölve.
+Módosított OLE Automation típuskönyvtár-hivatkozást reprezentál, amelyben minden vezérlő kiterjeszthetőként van megjelölve.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference

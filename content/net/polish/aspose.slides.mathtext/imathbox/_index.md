@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa logiczne opakowywanie (pakowanie) elementu matematycznego. Na przykład obiekt w pudełku może służyć jako emulator operatora z punktem wyrównania lub bez niego, jako punkt podziału linii lub może być grupowany w sposób uniemożliwiający podziały linii wewnątrz. Przykładowo operator powinien być opakowany, aby zapobiec podziałom linii.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Określa logiczne opakowywanie (pakowanie) elementu matematycznego. Na przykład obiekt opakowany może służyć jako emulator operatora z punktem wyrównania lub bez niego, jako punkt podziału linii lub być grupowany w sposób zapobiegający podziałom linii wewnątrz. Przykładowo, operator powinien być opakowany, aby zapobiec podziałom linii.
 type: docs
-weight: 8190
+weight: 8210
 url: /pl/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interfejs
 
-Określa logiczne opakowywanie (pakowanie) elementu matematycznego. Na przykład, obiekt w pudełku może służyć jako emulator operatora z punktem wyrównania lub bez niego, jako punkt podziału linii lub może być grupowany w sposób uniemożliwiający podziały linii wewnątrz. Przykładowo, operator "==" powinien być opakowany, aby zapobiec podziałom linii.
+Określa logiczne opakowywanie (pakowanie) elementu matematycznego. Na przykład, obiekt opakowany może służyć jako emulator operatora z punktem wyrównania lub bez niego, jako punkt podziału linii lub być grupowany w taki sposób, aby nie zezwalał na podziały linii wewnątrz. Przykładowo, operator "==" powinien być opakowany, aby zapobiec podziałom linii.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Gdy ustawione na true, ten emulator operatora służy jako punkt wyrównania; to znaczy, wyznaczone punkty wyrównania w innych równaniach mogą być z nim wyrównane. Domyślnie: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Umożliwia uzyskanie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Gdy true, ten emulator operatora pełni rolę punktu wyrównania; to znaczy, wyznaczone punkty wyrównania w innych równaniach mogą być z nim wyrównane. Domyślnie: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Umożliwia pobranie bazowego interfejsu IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argument bazowy |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Różniczka. Gdy ustawione na true, pole działa jako różniczka (np. 𝑑𝑥 w całce), i otrzymuje odpowiednie odstępy poziome dla matematycznej różniczki. Domyślnie: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Jawny podział określa, czy na początku obiektu Box występuje podział linii, tak aby linia zawijała się na początku obiektu. Określa numer operatora w poprzedniej linii tekstu matematycznego, który ma być użyty jako punkt wyrównania dla bieżącej linii tekstu matematycznego. Możliwe wartości: 1..255. Domyślnie: 0 (brak jawnego podziału) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Brak podziału. Ta właściwość określa właściwość „unbreakable” (niełamiąca) obiektu pudełka. Gdy ustawione na true, w obrębie pudełka nie mogą wystąpić podziały linii. Może to być istotne dla emulatorów operatorów składających się z więcej niż jednego operatora binarnego. Gdy ten element nie jest określony, podziały mogą wystąpić wewnątrz pudełka. Domyślnie: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulator operatora. Gdy ustawione na true, pole i jego zawartość zachowują się jak pojedynczy operator i dziedziczą właściwości operatora. Oznacza to na przykład, że znak może służyć jako punkt podziału linii i może być wyrównany do innych operatorów. Emulatory operatorów są często używane, gdy jeden lub więcej glifów łączy się w operator, np. '=='. Domyślna wartość: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Różnicznik. Gdy true, pudełko zachowuje się jako różnicznik (np. 𝑑𝑥 w całce), i otrzymuje odpowiednie odstępy poziome dla matematycznego różnicznika. Domyślnie: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Jawny podział określa, czy na początku obiektu Box występuje podział linii, tak aby linia łamała się na początku obiektu. Określa numer operatora w poprzedniej linii tekstu matematycznego, który ma być użyty jako punkt wyrównania dla bieżącej linii tekstu matematycznego. Możliwe wartości: 1..255 Domyślnie: 0 (brak jawnego podziału) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Brak podziału. Ta właściwość określa właściwość „unbreakable” (niełamiąca) obiektu pudełka. Gdy true, w obrębie pudełka nie mogą wystąpić podziały linii. Może to być istotne dla emulatorów operatorów składających się z więcej niż jednego operatora binarnego. Gdy element nie jest określony, podziały mogą wystąpić wewnątrz pudełka. Domyślnie: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulator operatora. Gdy true, pudełko i jego zawartość zachowują się jak pojedynczy operator i dziedziczą właściwości operatora. Oznacza to na przykład, że znak może służyć jako punkt podziału linii i może być wyrównany do innych operatorów. Emulatory operatorów są często używane, gdy jeden lub więcej glifów łączy się w operator, taki jak '=='. Domyślna wartość: false |
 
 ### Przykłady
 

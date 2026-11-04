@@ -1,12 +1,12 @@
 ---
 title: Control
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um controle ActiveX.
 type: docs
-weight: 2690
+weight: 2710
 url: /pt/aspose.slides/control/
 ---
-## classe Control
+## Classe de controle
 
 Representa um controle ActiveX.
 
@@ -22,11 +22,11 @@ public class Control : DomObject<ControlCollection>, IControl
 | [ClassId](../../aspose.slides/control/classid) { get; set; } | Obtém o id da classe deste controle. Guid somente leitura. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Retorna ou define o quadro do controle. Leitura/gravação [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | Obtém ou define o nome deste controle. Leitura/gravação String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Obtém o método usado para armazenar as propriedades do controle ActiveX. Somente leitura [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Retorna uma coleção de propriedades ActiveX. Observação: Aspose.Slides suporta apenas propriedades ActiveX baseadas em XML. Se as propriedades estiverem armazenadas em formato binário, esta propriedade retornará null. Somente leitura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Obtém o método usado para armazenar propriedades do controle ActiveX. Somente leitura [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Retorna uma coleção de propriedades ActiveX. Observação: Aspose.Slides suporta apenas propriedades ActiveX baseadas em XML. Se as propriedades estiverem armazenadas em formato binário, esta propriedade retornará nulo. Somente leitura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Retorna o objeto de propriedades de preenchimento de imagem do Control. Somente leitura [`IPictureFillFormat`](../ipicturefillformat). |
 
-### Veja Também
+### Veja também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [ControlCollection](../controlcollection)

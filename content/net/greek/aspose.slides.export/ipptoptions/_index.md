@@ -3,12 +3,12 @@ title: IPptOptions
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή PPT.
 type: docs
-weight: 4010
+weight: 4030
 url: /el/aspose.slides.export/ipptoptions/
 ---
-## IPptOptions διασύνδεση
+## IPptOptions διεπαφή
 
-Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή PPT.
+Provides options that control how a presentation is saved in PPT format.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -18,12 +18,12 @@ public interface IPptOptions : ISaveOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Επιστρέφει τη διεπαφή ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Αντιπροσωπεύει το GUID της κλάσης αντικειμένου (CLSID) που αποθηκεύεται στην καταχώρηση της ριζικής καταλόγου. Μπορεί να χρησιμοποιηθεί για ενεργοποίηση COM της εφαρμογής του εγγράφου. Η προεπιλεγμένη τιμή είναι '64818D11-4F9B-11CF-86EA-00AA00B929E8' που αντιστοιχεί στο 'Microsoft Powerpoint.Slide.8'. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Επιστρέφει το διεπαφή ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Αντιπροσωπεύει το GUID κλάσης αντικειμένου (CLSID) που αποθηκεύεται στην καταχώρηση του ριζικού καταλόγου. Μπορεί να χρησιμοποιηθεί για ενεργοποίηση COM της εφαρμογής του εγγράφου. Η προεπιλεγμένη τιμή είναι '64818D11-4F9B-11CF-86EA-00AA00B929E8' που αντιστοιχίζει στο 'Microsoft Powerpoint.Slide.8'. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ISaveOptions](../isaveoptions)
+* διεπαφή [ISaveOptions](../isaveoptions)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συγκρότηση [Aspose.Slides](../../)
 

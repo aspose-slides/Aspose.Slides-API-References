@@ -3,7 +3,7 @@ title: IPictureFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含图片填充的属性。
 type: docs
-weight: 6660
+weight: 6680
 url: /zh/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData 接口
@@ -16,20 +16,20 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | 允许获取基础 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 返回实际图像高度被裁剪掉的底部百分比数。只读 Single。 |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 返回实际图像宽度被裁剪掉的左侧百分比数。只读 Single。 |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 返回实际图像宽度被裁剪掉的右侧百分比数。只读 Single。 |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 返回实际图像高度被裁剪掉的顶部百分比数。只读 Single。 |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | 允许获取基 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | 返回实际图像高度被裁剪掉的底部百分比。只读 Single。 |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | 返回实际图像宽度被裁剪掉的左侧百分比。只读 Single。 |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | 返回实际图像宽度被裁剪掉的右侧百分比。只读 Single。 |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | 返回实际图像高度被裁剪掉的顶部百分比。只读 Single。 |
 | [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | 返回用于填充图片的 DPI。只读 Int32。 |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | 返回图片。只读 [`IPictureEffectiveData`](../ipictureeffectivedata)。 |
 | [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | 返回图片填充模式。只读 [`PictureFillMode`](../picturefillmode)。 |
 
 ### 备注
 
-此接口作为 [`IFillFormatEffectiveData`](../ifillformateffectivedata) 的一部分使用。
+此接口用作 [`IFillFormatEffectiveData`](../ifillformateffectivedata) 的一部分。
 
 ### 另请参阅
 

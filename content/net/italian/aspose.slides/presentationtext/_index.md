@@ -1,9 +1,9 @@
 ---
 title: PresentationText
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il testo estratto dalla presentazione
 type: docs
-weight: 9640
+weight: 9660
 url: /it/aspose.slides/presentationtext/
 ---
 ## PresentationText classe

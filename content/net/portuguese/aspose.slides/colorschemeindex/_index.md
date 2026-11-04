@@ -1,12 +1,12 @@
 ---
 title: ColorSchemeIndex
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um índice em um esquema de cores.
 type: docs
-weight: 2550
+weight: 2570
 url: /pt/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex enumeração
+## Enumeração ColorSchemeIndex
 
 Representa um índice em um esquema de cores.
 
@@ -28,8 +28,8 @@ public enum ColorSchemeIndex : byte
 | Accent4 | `7` | Ênfase 4. |
 | Accent5 | `8` | Ênfase 5. |
 | Accent6 | `9` | Ênfase 6. |
-| Hyperlink | `10` | Hipervínculo. |
-| FollowedHyperlink | `11` | Hipervínculo seguido. |
+| Hyperlink | `10` | Hyperlink. |
+| FollowedHyperlink | `11` | Hyperlink seguido. |
 
 ### Veja Também
 

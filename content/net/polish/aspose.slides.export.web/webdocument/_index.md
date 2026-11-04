@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje formę przejściową prezentacji służącą do zapisu w formacie internetowym.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Reprezentuje formę przejściową prezentacji przeznaczoną do zapisu w formacie internetowym.
 type: docs
-weight: 4680
+weight: 4700
 url: /pl/aspose.slides.export.web/webdocument/
 ---
-## WebDocument klasa
+## Klasa WebDocument
 
-Reprezentuje formę przejściową prezentacji do zapisu w formacie internetowym.
+Reprezentuje formę przejściową prezentacji przeznaczoną do zapisu w formacie internetowym.
 
 ```csharp
 public class WebDocument
@@ -16,21 +16,21 @@ public class WebDocument
 
 ## Konstruktory
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) konstruktor. |
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Zwraca globalny magazyn dokumentu. Tylko do odczytu [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Zwraca globalną pamięć dokumentu. Tylko do odczytu [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
 | [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Zwraca kolekcję elementów wyjściowych dokumentu. Tylko do odczytu [`Output`](./output). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | Zapisuje wyjście dokumentu. |
 

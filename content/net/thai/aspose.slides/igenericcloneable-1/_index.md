@@ -3,12 +3,12 @@ title: IGenericCloneableT
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงเวอร์ชันทั่วไปของ ICloneable
 type: docs
-weight: 5950
+weight: 5970
 url: /th/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> อินเทอร์เฟซ
 
-แสดงถึงเวอร์ชันทั่วไปของ ICloneable
+แสดงตัวแทนเวอร์ชันทั่วไปของ ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,13 +16,13 @@ public interface IGenericCloneable<T> : ICloneable
 
 | พารามิเตอร์ | คำอธิบาย |
 | --- | --- |
-| T | ประเภทของอ็อบเจกต์ที่จะทำการโคลน |
+| T | ประเภทของอ็อบเจกต์ที่ต้องการคัดลอก |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | คืนค่าอินเทอร์เฟซ ICloneable. |
+| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | คืนค่า ICloneable อินเทอร์เฟซ. |
 
 ## เมธอด
 

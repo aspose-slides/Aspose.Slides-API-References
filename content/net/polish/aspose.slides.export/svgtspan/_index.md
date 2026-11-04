@@ -1,14 +1,14 @@
 ---
 title: SvgTSpan
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes – referencja API .NET
 description: Reprezentuje opcje fragmentu tekstu SVG tspan.
 type: docs
-weight: 4520
+weight: 4540
 url: /pl/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan klasa
 
-Reprezentuje opcje dla fragmentu tekstu SVG ("tspan").
+Reprezentuje opcje fragmentu tekstu SVG ("tspan").
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan

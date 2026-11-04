@@ -3,10 +3,10 @@ title: TransitionCornerDirectionType
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет типы переходов направления угла.
 type: docs
-weight: 10350
+weight: 10370
 url: /ru/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## Перечисление TransitionCornerDirectionType
+## TransitionCornerDirectionType перечисление
 
 Представляет типы переходов направления угла.
 

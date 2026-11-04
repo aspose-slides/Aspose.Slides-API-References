@@ -1,12 +1,12 @@
 ---
 title: FontData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yazı tipi tanımını temsil eder. Değiştirilemez.
+description: Bir yazı tipi tanımını temsil eder. Değiştirilemez.
 type: docs
-weight: 4820
+weight: 4840
 url: /tr/aspose.slides/fontdata/
 ---
-## FontData sınıf
+## FontData sınıfı
 
 Yazı tipi tanımını temsil eder. Değiştirilemez.
 
@@ -24,15 +24,15 @@ public sealed class FontData : IFontData
 
 | Ad | Açıklama |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Yazı tipi adını döndürür. Okunur/Yazılır String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Yazı tipi adını döndürür. Okuma/Yazma String. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | İki FontData örneğinin eşit olup olmadığını belirler. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Yazı tipi adını döndürür, tema referansını kullanılan gerçek bir yazı tipiyle değiştirir. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarını kullanmak için uygundur. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Yazı tipi adını döndürür, tema başvurusunu kullanılan gerçek bir yazı tipiyle değiştirir. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | Dize temsili döndürür. |
 
 ### Ayrıca Bakınız

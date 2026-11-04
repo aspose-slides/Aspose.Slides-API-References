@@ -3,7 +3,7 @@ title: EffectStyle
 second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: แสดงถึงสไตล์เอฟเฟกต์.
 type: docs
-weight: 11080
+weight: 11100
 url: /th/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle คลาส
@@ -14,12 +14,12 @@ url: /th/aspose.slides.theme/effectstyle/
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 ```
 
-## คุณสมบัติ
+## Properties
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | ส่งคืนรูปแบบเอฟเฟกต์. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | ส่งคืนรูปแบบ 3 มิติ. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | คืนค่าแบบฟอร์มเอฟเฟกต์. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | คืนค่าแบบฟอร์ม 3d. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### ดูเพิ่มเติม
 

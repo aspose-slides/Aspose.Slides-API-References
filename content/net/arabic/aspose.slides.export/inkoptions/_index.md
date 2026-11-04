@@ -1,14 +1,14 @@
 ---
 title: InkOptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يوفر خيارات تتحكم في مظهر كائنات Ink في المستند المُصدَّر.
+second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+description: يوفر خيارات تتحكم في مظهر كائنات Ink في المستند المصدّر.
 type: docs
-weight: 4220
+weight: 4240
 url: /ar/aspose.slides.export/inkoptions/
 ---
 ## InkOptions فئة
 
-يوفر خيارات تتحكم في مظهر كائنات Ink في المستند المُصدَّر.
+يوفر خيارات تتحكم في مظهر كائنات Ink في المستند المصدّر.
 
 ```csharp
 public class InkOptions : IInkOptions
@@ -18,8 +18,8 @@ public class InkOptions : IInkOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | يظهر أو يخفِّي عناصر Ink في المستند المُصدَّر. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | يستخدم عملية ROP أو الشفافية لرسم الفرشاة. |
+| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | يعرض أو يخفي عناصر Ink في المستند المصدّر. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | يستخدم عملية ROP أو Opacity لتصيير الفرشاة. |
 
 ### انظر أيضًا
 

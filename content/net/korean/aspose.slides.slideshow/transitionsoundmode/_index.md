@@ -1,9 +1,9 @@
 ---
 title: TransitionSoundMode
-second_title: Aspose.Sildes용 .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 전환의 사운드 모드를 나타냅니다.
 type: docs
-weight: 10430
+weight: 10450
 url: /ko/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## TransitionSoundMode 열거형

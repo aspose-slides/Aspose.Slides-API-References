@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงโดยผู้บรรยายเต็มหน้าจอ
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
+description: แสดงโดยผู้พูดเต็มหน้าจอ
 type: docs
-weight: 9650
+weight: 9670
 url: /th/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker คลาส
 
-แสดงโดยผู้บรรยาย (เต็มหน้าจอ)
+แสดงโดยผู้พูด (เต็มหน้าจอ)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -18,7 +18,7 @@ public class PresentedBySpeaker : SlideShowType
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | สร้างอินสแตนซ์ใหม่ของคลาส PresentedBySpeaker |
+| [PresentedBySpeaker](presentedbyspeaker)() | สร้างอินสแตนซ์ใหม่ของ PresentedBySpeaker คลาส. |
 
 ### ตัวอย่าง
 

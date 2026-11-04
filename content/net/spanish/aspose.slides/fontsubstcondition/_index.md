@@ -1,9 +1,9 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una regla para la sustitución de fuentes
 type: docs
-weight: 4880
+weight: 4900
 url: /es/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition enumeración

@@ -1,9 +1,9 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示在图表中使用的图表部分格式属性。
 type: docs
-weight: 1920
+weight: 1940
 url: /zh/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat 接口
@@ -20,7 +20,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | 返回 IBasePortionFormat 接口。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes a .NET API referenciához
-description: A rendelkezésre álló gradient stílusokat reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A rendelkezésre álló színátmenet stílusokat képviseli.
 type: docs
-weight: 5060
+weight: 5080
 url: /hu/aspose.slides/gradientstyle/
 ---
 ## GradientStyle enumeráció
 
-A rendelkezésre álló gradient stílusokat reprezentálja.
+A rendelkezésre álló színátmenet stílusokat képviseli.
 
 ```csharp
 public enum GradientStyle
@@ -18,10 +18,10 @@ public enum GradientStyle
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Az alapértelmezett gradient stílus. |
-| PowerPointUI | `1` | A gradient stílus, ahogyan a PowerPoint felhasználói felületén megjelenik. |
+| Default | `0` | Az alapértelmezett színátmenet stílus. |
+| PowerPointUI | `1` | A színátmenet stílus, ahogy a PowerPoint felhasználói felületén jelenik meg. |
 
-### Lásd még
+### Továbbiak
 
 * névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API справки
 description: Предоставляет параметры, которые управляют тем, как презентация сжимается в формате TIFF.
 type: docs
-weight: 4560
+weight: 4580
 url: /ru/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes перечисление

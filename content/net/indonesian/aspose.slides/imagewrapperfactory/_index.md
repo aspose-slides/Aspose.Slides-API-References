@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kelas ini memungkinkan menginisialisasi IBitmapWrapper.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Kelas ini memungkinkan untuk menginisialisasi IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /id/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory kelas
@@ -14,20 +14,19 @@ Kelas ini memungkinkan untuk menginisialisasi IBitmapWrapper.
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-
 ## Konstruktor
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ImageWrapperFactory](imagewrapperfactory)() | Konstruktor default. |
+| [ImageWrapperFactory](imagewrapperfactory)() | Konstruktor bawaan. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Menginisialisasi instance baru kelas ImageWrapper dari gambar yang ada yang ditentukan. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Menginisialisasi instance baru kelas BitmapWrapper dari aliran data yang ditentukan. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Menginisialisasi instance baru kelas BitmapWrapper dari file yang ditentukan. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Menginisialisasi sebuah instance baru dari kelas ImageWrapper dari gambar yang ada yang ditentukan. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Menginisialisasi sebuah instance baru dari kelas BitmapWrapper dari aliran data yang ditentukan. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Menginisialisasi sebuah instance baru dari kelas BitmapWrapper dari file yang ditentukan. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 嵌入式 Eot 字型 HTML 控制器。
 type: docs
-weight: 3900
+weight: 3920
 url: /zh-hant/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController 介面
@@ -18,7 +18,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } |傳回 IHtmlFormattingController 介面。|
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | 傳回 IHtmlFormattingController 介面。 |
 
 ### 另請參閱
 

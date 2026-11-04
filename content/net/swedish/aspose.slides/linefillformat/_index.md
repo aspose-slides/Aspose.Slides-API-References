@@ -3,12 +3,12 @@ title: LineFillFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar egenskaper för linjefyllning.
 type: docs
-weight: 7780
+weight: 7800
 url: /sv/aspose.slides/linefillformat/
 ---
 ## LineFillFormat klass
 
-Representerar egenskaper för linjefyllning.
+Representerar egenskaper för fyllning av linjer.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,21 +18,21 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-gränssnittet IPresentationComponent. Läs-endast [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Returnerar eller anger fyllningstypen. Läs/skriv [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Returnerar gradientfyllningsformatet. Skrivskyddad [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Returnerar mönsterfyllningsformatet. Skrivskyddad [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Bestämmer om fyllningen ska roteras med en form. Läs/skriv [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Returnerar färgen på en solid fyllning. Skrivskyddad [`IColorFormat`](../icolorformat). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Returnerar gradientfyllningsformatet. Läs-endast [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Returnerar mönsterfyllningsformatet. Läs-endast [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Avgör om fyllningen ska roteras med en form. Läs/skriv [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Returnerar färgen på en solid fyllning. Läs-endast [`IColorFormat`](../icolorformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
-### Se även
+### Se också
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [ILineFillFormat](../ilinefillformat)

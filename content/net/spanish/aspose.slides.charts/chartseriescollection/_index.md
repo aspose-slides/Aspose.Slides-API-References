@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa la colección de ChartSeries./chartseries
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /es/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection clase
 
-Representa la colección de [`ChartSeries`](../chartseries)
+Representa una colección de [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -19,9 +19,9 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Devuelve un número de objetos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Obtiene el elemento en el índice especificado. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
@@ -30,12 +30,12 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Crea una nueva serie de gráfico y la agrega a la colección. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Crea una nueva serie de gráfico a partir de [`ChartCellCollection`](../chartcellcollection) y la agrega a la colección. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Crea una nueva serie de gráfico a partir de [`ChartDataCell`](../chartdatacell) y la agrega a la colección. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Crea una nueva serie de gráfico a partir de un valor y la agrega a la colección. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Crea una nueva serie de gráfico a partir del valor y la agrega a la colección. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Elimina todos los controles de la colección. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copia toda la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Busca el [`ChartSeries`](../chartseries) especificado y devuelve el índice basado en cero de la primera aparición dentro de toda la colección. |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Crea una nueva serie de gráfico e inserta en la colección. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Busca el [`ChartSeries`](../chartseries) especificado y devuelve el índice basado en cero de la primera coincidencia dentro de toda la colección. |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Crea una nueva serie de gráfico y la inserta en la colección. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Elimina el valor especificado. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Elimina un control ActiveX almacenado en la posición especificada de la colección. |
 

@@ -1,27 +1,27 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes .NET API 参考
-description: 指定一个几何图案，可相互拼接以填充更大的区域。
+description: 指定一种几何图案，可拼接在一起以填充更大的区域。
 type: docs
-weight: 10400
+weight: 10420
 url: /zh/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern 枚举
 
-指定一个几何图案，可相互拼接以填充更大的区域。
+指定一种几何图案，可拼接在一起以填充更大的区域。
 
 ```csharp
 public enum TransitionPattern
 ```
 
-### 取值
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Diamond | `0` | Diamond 瓦片模式 |
-| Hexagon | `1` | Hexagon 瓦片模式 |
+| Diamond | `0` | Diamond 瓦片图案 |
+| Hexagon | `1` | Hexagon 瓦片图案 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

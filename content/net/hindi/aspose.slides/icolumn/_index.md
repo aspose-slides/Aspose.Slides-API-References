@@ -1,9 +1,9 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: टेबल में एक कॉलम का प्रतिनिधित्व करता है।
 type: docs
-weight: 5520
+weight: 5540
 url: /hi/aspose.slides/icolumn/
 ---
 ## IColumn इंटरफ़ेस
@@ -16,14 +16,14 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | बेस IBulkTextFormattable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठन [`IBulkTextFormattable`](../ibulktextformattable)। |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | बेस ICellCollection इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठन [`ICellCollection`](../icellcollection)। |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | इस कॉलम के लिए फ़ॉर्मेटिंग गुणों वाले ColumnFormat ऑब्जेक्ट को लौटाता है। केवल-पठन [`IColumnFormat`](../icolumnformat)। |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | एक कॉलम की चौड़ाई को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | बेस IBulkTextFormattable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBulkTextFormattable`](../ibulktextformattable)। |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | बेस ICellCollection इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ICellCollection`](../icellcollection)। |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | इस कॉलम के लिए फॉर्मेटिंग गुणधर्मों को सम्मिलित करने वाले ColumnFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IColumnFormat`](../icolumnformat)। |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | कॉलम की चौड़ाई को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Double। |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [IBulkTextFormattable](../ibulktextformattable)
 * इंटरफ़ेस [ICellCollection](../icellcollection)

@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示章节中幻灯片的集合。
+description: 表示该部分中的幻灯片集合。
 type: docs
-weight: 6910
+weight: 6930
 url: /zh/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection 接口
 
-表示章节中幻灯片的集合。
+表示该部分中的幻灯片集合。
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -20,7 +20,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 | --- | --- |
 | [Item](../../aspose.slides/isectionslidecollection/item) { get; } | 获取指定索引处的元素。只读 [`ISlide`](../islide)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ISlide](../islide)

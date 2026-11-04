@@ -1,9 +1,9 @@
 ---
 title: ISvgImage
-second_title: Riferimento API Aspose.Slides per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un'immagine SVG.
 type: docs
-weight: 7180
+weight: 7200
 url: /it/aspose.slides/isvgimage/
 ---
 ## ISvgImage interfaccia
@@ -16,16 +16,16 @@ public interface ISvgImage
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Restituisce l'URI base dell'SVG specificato. Usato per risolvere i collegamenti relativi. Sola lettura String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Restituisce l'interfaccia di callback usata per risolvere risorse esterne durante l'importazione di documenti SVG. Sola lettura [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Restituisce l'interfaccia di callback usata per risolvere le risorse esterne durante l'importazione dei documenti SVG. Sola lettura [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Restituisce il contenuto SVG. Sola lettura String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Restituisce i dati SVG. Sola lettura Byte[]. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Salva l'immagine SVG come file EMF. |
 

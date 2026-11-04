@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Référence API Aspose.Sildes pour .NET
-description: Effet de transition de diapositive en vol.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Effet de transition de diapositive en vol libre.
 type: docs
-weight: 10040
+weight: 10060
 url: /fr/aspose.slides.slideshow/flythroughtransition/
 ---
-## FlyThroughTransition classe
+## classe FlyThroughTransition
 
-Effet de transition de diapositive en vol.
+Effet de transition de diapositive en vol libre.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -19,14 +19,14 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 | Nom | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Direction de la transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Spécifie que le déplacement des diapositives de la présentation pendant la transition comprend un rebond. Lecture/écriture Booléen. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Spécifie que le déplacement des diapositives de la présentation pendant la transition comprend un rebond. Lecture/écriture Boolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données telles qu'une table de hachage. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Servir de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Voir aussi
 

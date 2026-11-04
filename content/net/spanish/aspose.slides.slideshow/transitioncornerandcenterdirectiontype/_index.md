@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica una dirección limitada a las esquinas y al centro.
+description: Especifica una dirección restringida a las esquinas y al centro.
 type: docs
-weight: 10340
+weight: 10360
 url: /es/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType enumeración
 
-Especifica una dirección limitada a las esquinas y al centro.
+Especifica una dirección restringida a las esquinas y al centro.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType

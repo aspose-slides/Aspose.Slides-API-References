@@ -1,9 +1,9 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: n-ary operatörlerde limitlerin alt simge/üst simge konumu.
 type: docs
-weight: 8840
+weight: 8860
 url: /tr/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations enum
@@ -18,8 +18,8 @@ public enum MathLimitLocations
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NotDefined | `0` | Tanımlanmamış |
-| UnderOver | `1` | Limitler operatör sembolünün üst ve alt kısmına çizilir |
+| NotDefined | `0` | Tanımlı değil |
+| UnderOver | `1` | Limitler, operatör simgesinin üst ve alt kısmına çizilir |
 | SubscriptSuperscript | `2` | Limitler alt simge ve üst simge olarak çizilir |
 
 ### Ayrıca Bakınız

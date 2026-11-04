@@ -1,9 +1,9 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示图表标题属性。
 type: docs
-weight: 1490
+weight: 1500
 url: /zh/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle 类
@@ -16,31 +16,31 @@ public class ChartTitle : IChartTitle
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | 指定图表元素的实际高度。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。只读 Single。 |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | 指定图表元素的实际宽度。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。只读 Single。 |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。只读 Single。 |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部位置。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。只读 Single。 |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。只读 Single。 |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 返回标题的填充、线条、效果样式。只读 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 返回或设置标题的高度，作为图表高度的比例。可读写 Single。 |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素覆盖标题。可读写 Boolean。 |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右侧。只读 Single。 |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则此格式化文本值会覆盖自动生成的文本。自动生成的文本是数据标签、值轴的显示单位标签、轴标题、图表标题、趋势线的标签的隐式属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 返回或设置标题的宽度，作为图表宽度的比例。可读写 Single。 |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 返回或设置标题的 x 坐标，作为图表宽度的比例。可读写 Single。 |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 返回或设置标题的 y 坐标，作为图表高度的比例。可读写 Single。 |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | 指定图表元素的实际高度。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | 指定图表元素的实际宽度。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部位置。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。只读 Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 返回标题的填充、线条、效果样式。只读 [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 返回或设置标题的高度，占图表高度的比例。读/写 Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素覆盖标题。读/写 Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 右侧。只读 Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则该格式化文本值会覆盖自动生成的文本。自动生成的文本是数据标签、值轴的显示单位标签、轴标题、图表标题、趋势线标签的隐含属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 返回或设置标题的宽度，占图表宽度的比例。读/写 Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 返回或设置标题的 x 坐标，占图表宽度的比例。读/写 Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 返回或设置标题的 y 坐标，占图表高度的比例。读/写 Single. |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | 使用参数 "text" 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则仅更改其文本。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IChartTitle](../icharttitle)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes for .NET API 참조
-description: 플라이스루 슬라이드 전환 효과.
+second_title: Aspose.Sildes용 .NET API 참조
+description: 플라이 스루 슬라이드 전환 효과.
 type: docs
-weight: 10090
+weight: 10110
 url: /ko/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition 인터페이스
 
-플라이스루 슬라이드 전환 효과.
+플라이-스루 슬라이드 전환 효과.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -20,9 +20,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 전환 중 프레젠테이션 슬라이드 이동에 바운스가 포함되도록 지정합니다. 읽기/쓰기 Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 전환 중 프레젠테이션 슬라이드의 움직임에 바운스가 포함되도록 지정합니다. 읽기/쓰기 Boolean. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

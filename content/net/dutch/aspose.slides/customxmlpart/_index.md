@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een aangepast xml-deel voor.
+description: Stelt een aangepast xml-gedeelte voor.
 type: docs
-weight: 2740
+weight: 2760
 url: /nl/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart klasse
 
-Stelt een aangepast xml-deel voor.
+Stelt een aangepast XML-gedeelte voor.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -16,18 +16,18 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Specificeert een wereldwijd unieke identifier (GUID) die een enkel aangepast XML-deel binnen een Office Open XML-document uniek identificeert. Alleen-lezen Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Retourneert de verzameling XML-schemas die aan het aangepaste XML-deel zijn gekoppeld. Alleen-lezen String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Retourneert of stelt xml-gegevens in als UTF-8-string. Lezen/schrijven String. waarde is `null`. waarde is leeg of xml-data is ongeldig. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Retourneert of stelt xml-gegevens in. Lezen/schrijven Byte[]. waarde is `null`. waarde is leeg of xml-data is ongeldig. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Specificeert een wereldwijd unieke identifier (GUID) die een enkel aangepast XML-gedeelte binnen een Office Open XML-document uniek identificeert. Alleen-lezen Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Retourneert de collectie XML-schema's die aan het aangepaste XML-gedeelte zijn gekoppeld. Alleen-lezen String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Retourneert of stelt xml-gegevens in als UTF-8-string. Lezen/schrijven String. waarde is `null`.waarde is leeg of xml-gegevens zijn ongeldig. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Retourneert of stelt xml-gegevens in. Lezen/schrijven Byte[]. waarde is `null`.waarde is leeg of xml-gegevens zijn ongeldig. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Verwijdert het aangepaste xml-deel uit de presentatie. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Verwijdert het aangepaste xml-gedeelte uit de presentatie. |
 
 ### Zie ook
 

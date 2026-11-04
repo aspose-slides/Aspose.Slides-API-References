@@ -3,12 +3,12 @@ title: IFontsLoader
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Klasse zum Laden benutzerdefinierter Schriftarten, die vom Benutzer definiert wurden. Sollte verwendet werden, bevor Präsentationsobjekte erstellt werden.
 type: docs
-weight: 5920
+weight: 5940
 url: /de/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader Schnittstelle
 
-Klasse zum Laden benutzerdefinierter Schriftarten, die vom Benutzer definiert wurden. Sollte verwendet werden, bevor Präsentationsobjekte erstellt werden.
+Klasse zum Laden benutzerdefinierter Schriftarten, die vom Nutzer definiert wurden. Sollte verwendet werden, bevor Präsentationsobjekte erstellt werden.
 
 ```csharp
 public interface IFontsLoader

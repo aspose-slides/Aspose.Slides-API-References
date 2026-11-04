@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
 second_title: Aspose.Sildes .NET API referencia
-description: Diagram adataihoz tartozó cellát képviseli.
+description: A diagram adatait tároló cellát képviseli.
 type: docs
-weight: 1320
+weight: 1330
 url: /hu/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell osztály
 
-A diagramadatokhoz tartozó cellát képviseli.
+A diagram adatait tároló cellát képviseli.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -18,17 +18,17 @@ public class ChartDataCell : IChartDataCell
 
 | Név | Leírás |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Lekéri a munkalapot. Csak olvasható [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Visszaadja a munkalap azon oszlopának indexét, amelyben a cella található. Csak olvasható Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Lekéri vagy beállítja a számok és dátumok egyéni megjelenítési formátumát. Ha az érték üres, a PresetNumberFormat értéke lesz használva. Olvasás/írás String. |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Lekéri vagy beállítja a képletet A1-stílusban. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | A munkalapot adja vissza. Csak olvasható [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Visszaadja a munkalapon a cella oszlopának indexét. Csak olvasható Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | A számok és dátumok egyéni megjelenítési formátumát adja vissza vagy állítja be. Ha az érték üres, a PresetNumberFormat értéke lesz használva. Olvasás/írás String. |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A képletet adja vissza vagy állítja be A1-stílusban. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Megállapítja, hogy a cella rejtett-e. Csak olvasható Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Lekéri vagy beállítja a számok és dátumok beépített megjelenítési formátumát. Az előre beállított számnak a [0..22] vagy [37..49] tartományban kell lennie. Olvasás/írás Byte. |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Lekéri vagy beállítja a képletet R1C1-stílusban. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Visszaadja a munkalap azon sorának indexét, amelyben a cella található. Csak olvasható Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Lekéri vagy beállítja egy cella értékét. Olvasás/írás Object. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | A számok és dátumok beépített megjelenítési formátumát adja vissza vagy állítja be. A beépített számnak a [0..22] vagy [37..49] tartományban kell lennie. Olvasás/írás Byte. |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | A képletet adja vissza vagy állítja be R1C1-stílusban. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Visszaadja a munkalapon a cella sorának indexét. Csak olvasható Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | A cella értékét adja vissza vagy állítja be. Olvasás/írás Object. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

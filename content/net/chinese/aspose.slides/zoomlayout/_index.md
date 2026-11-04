@@ -1,9 +1,9 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 指定摘要缩放布局。
 type: docs
-weight: 11860
+weight: 11880
 url: /zh/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout 枚举
@@ -19,9 +19,9 @@ public enum ZoomLayout
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | GridLayout | `0` | 指定布局为对象列表的网格布局。 |
-| FixedLayout | `1` | 指定使用用户自定义缩放定位的布局。 |
+| FixedLayout | `1` | 指定使用用户定义的 Zoom 定位的布局。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

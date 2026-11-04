@@ -1,20 +1,20 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示抽象的图像转换效果。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示抽象图像变换效果。
 type: docs
-weight: 3390
+weight: 3410
 url: /zh/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation 接口
 
-表示抽象的图像转换效果。
+表示抽象图像转换效果。
 
 ```csharp
 public interface IImageTransformOperation
 ```
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

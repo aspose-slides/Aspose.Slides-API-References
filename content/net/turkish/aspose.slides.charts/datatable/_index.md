@@ -1,9 +1,9 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Veri tablosu özelliklerini temsil eder.
 type: docs
-weight: 1600
+weight: 1610
 url: /tr/aspose.slides.charts/datatable/
 ---
 ## DataTable sınıfı
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Ad | Açıklama |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | chart nesnesini döndürür. Salt-okunur [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Nesnenin line, fill ve effect stillerini döndürür. Salt-okunur [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | chart veri tablosunun yatay hücre kenarlıkları varsa doğru. Okunur-yazılabilir Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | chart veri tablosunun dış kenarlıkları varsa doğru. Okunur-yazılabilir Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | chart veri tablosunun dikey hücre kenarlıkları varsa doğru. Okunur-yazılabilir Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | veri etiketi açıklama anahtarı görünürse doğru. Okunur-yazılabilir Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | metin biçimini döndürür. Salt-okunur [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Grafiği döndürür. Yalnızca okuma [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Bir nesnenin çizgi, dolgu ve efekt stillerini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Grafik veri tablosunun yatay hücre kenarlıkları varsa doğru döner. Okuma/yazma Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Grafik veri tablosunun dış kenarlıkları varsa doğru döner. Okuma/yazma Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Grafik veri tablosunun dikey hücre kenarlıkları varsa doğru döner. Okuma/yazma Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Veri etiketi açıklama anahtarı görünürse doğru döner. Okuma/yazma Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Metin biçimini döndürür. Yalnızca okuma [`IChartTextFormat`](../icharttextformat). |
 
 ### Ayrıca Bakınız
 

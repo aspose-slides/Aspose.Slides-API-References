@@ -1,14 +1,14 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes pro .NET API Reference
-description: Tato třída umožňuje export videa a audio souborů do HTML
+second_title: Aspose.Sildes pro .NET API referenci
+description: Tato třída umožňuje export video a audio souborů do HTML
 type: docs
-weight: 4580
+weight: 4600
 url: /cs/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController třída
 
-Tato třída umožňuje export videa a audio souborů do HTML
+Tato třída umožňuje export video a audio souborů do HTML
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController

@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства рельефа основной грани фигур.
 type: docs
-weight: 6960
+weight: 6980
 url: /ru/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel интерфейс
 
-Представляет свойства рельефа основной грани фигуры.
+Представляет свойства рельефа основной грани формы.
 
 ```csharp
 public interface IShapeBevel

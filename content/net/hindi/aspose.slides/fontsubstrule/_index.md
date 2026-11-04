@@ -1,12 +1,12 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: फ़ॉन्ट प्रतिस्थापन जानकारी का प्रतिनिधित्व करता है
 type: docs
-weight: 4890
+weight: 4910
 url: /hi/aspose.slides/fontsubstrule/
 ---
-## FontSubstRule वर्ग
+## FontSubstRule क्लास
 
 फ़ॉन्ट प्रतिस्थापन जानकारी का प्रतिनिधित्व करता है
 
@@ -25,11 +25,11 @@ public class FontSubstRule : IFontSubstRule
 
 | Name | Description |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | प्रतिस्थापन के लिए उपयोग किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata)। |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | प्रतिस्थापन के लिए लागू किया जाने वाला नियम। केवल पढ़ने योग्य [`FontSubstCondition`](../fontsubstcondition)। |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | प्रतिस्थापित किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata)। |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | प्रतिस्थापन के लिए उपयोग करने वाला फ़ॉन्ट। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | प्रतिस्थापन के लिए लागू करने का नियम। केवल-पढ़ने योग्य [`FontSubstCondition`](../fontsubstcondition)। |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | प्रतिस्थापित किया जाने वाला फ़ॉन्ट। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IFontSubstRule](../ifontsubstrule)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

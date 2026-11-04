@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Sildes の .NET API リファレンス
-description: テキスト抽出時に使用するモードを表します
+description: テキスト抽出中に使用するモードを表します
 type: docs
-weight: 10940
+weight: 10960
 url: /ja/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode 列挙体
 
-テキスト抽出時に使用するモードを表します
+テキスト抽出中に使用するモードを表します
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -18,10 +18,10 @@ public enum TextExtractionArrangingMode
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Unarranged | `0` | スライド上の位置を考慮せずに取得した生のテキスト |
-| Arranged | `1` | テキストがスライド上の順序と同じ順序で配置されます |
+| Unarranged | `0` | スライド上の位置を考慮しない生のテキスト |
+| Arranged | `1` | テキストはスライド上の順序と同じ順序で配置されます |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

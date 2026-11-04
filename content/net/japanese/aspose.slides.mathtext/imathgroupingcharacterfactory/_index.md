@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: 数式グルーピング文字を作成できます
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 数式のグルーピング文字を作成できます
 type: docs
-weight: 8300
+weight: 8320
 url: /ja/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory インターフェイス
 
-数式グルーピング文字を作成できます
+数式のグルーピング文字を作成できるようにします
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,12 +18,12 @@ public interface IMathGroupingCharacterFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 数式グルーピング文字を作成します |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 数式グルーピング文字を作成します |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 数式のグルーピング文字を作成します |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 数式のグルーピング文字を作成します |
 
 ### 備考
 
-COM 互換性のため
+COM互換性のため
 
 ### 参照
 

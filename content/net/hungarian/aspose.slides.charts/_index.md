@@ -1,162 +1,164 @@
 ---
 title: Aspose.Slides.Charts
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Osztályokat tartalmaz a diagramok kezeléséhez a Microsoft PowerPoint prezentációkban.
+second_title: Aspose.Sildes a .NET API referencia
+description: Tartalmaz osztályokat a Microsoft PowerPoint prezentációk diagramjaival való munkához.
 type: docs
 weight: 40
 url: /hu/aspose.slides.charts/
 ---
-Osztályokat tartalmaz a diagramok kezeléséhez a Microsoft PowerPoint prezentációkban.
+Olyan osztályokat tartalmaz, amelyek diagramokkal való munkát tesznek lehetővé a Microsoft PowerPoint prezentációkban.
 
 ## Osztályok
 
 | Osztály | Leírás |
 | --- | --- |
-| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Kivétel, amely akkor keletkezik, amikor a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével. |
-| [AxesManager](./axesmanager) | Hozzáférést biztosít a diagram tengelyeihez. |
-| [Axis](./axis) | Becsomagolja azt az objektumot, amely a diagram tengelyét képviseli. |
-| [AxisFormat](./axisformat) | A diagram formátum tulajdonságait képviseli. |
-| [BaseChartValue](./basechartvalue) | A diagram egy értékét képviseli. |
-| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Kivétel, amely akkor keletkezik, amikor 2D és 3D diagramtípusok kombinálására próbálkozik. |
-| [Chart](./chart) | Egy grafikus diagramot ábrázol egy dián. |
-| [ChartCategory](./chartcategory) | A diagram kategóriáit képviseli. |
-| [ChartCategoryCollection](./chartcategorycollection) | A [`ChartCategory`](../aspose.slides.charts/chartcategory) gyűjteményt képviseli. |
-| [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | Kezelt tároló a diagramkategória szintek értékei számára. |
-| [ChartCellCollection](./chartcellcollection) | Adataival rendelkező cellák gyűjteményét képviseli. |
-| [ChartData](./chartdata) | A diagram ábrázolásához használt adatokat képviseli. |
-| [ChartDataCell](./chartdatacell) | Diagramadat celláját képviseli. |
-| [ChartDataPoint](./chartdatapoint) | Sorozat adatpontot képviseli. |
-| [ChartDataPointCollection](./chartdatapointcollection) | Sorozat adatpontjainak gyűjteményét képviseli. |
-| [ChartDataPointLevel](./chartdatapointlevel) | Az adatpont szintjét képviseli. Treemap és Sunburst diagramokra alkalmazható. |
-| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Az adatpont szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazható. Az adatpont szintek indexelése nulláral kezdődik. |
-| [ChartDataWorkbook](./chartdataworkbook) | Beágyazott Excel munkafüzethez biztosít hozzáférést |
-| [ChartDataWorksheet](./chartdataworksheet) | A [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) munkalapot képviseli. |
-| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | A diagram adatok munkafüzetének munkalapjainak gyűjteményét képviseli. |
-| [ChartLinesFormat](./chartlinesformat) | A rácsvonalak formátum tulajdonságait képviseli. |
-| [ChartPlotArea](./chartplotarea) | A diagram megjelenítésének helyét meghatározó téglalapot képviseli. |
-| [ChartPortionFormat](./chartportionformat) | Ez az osztály a diagramokban használt diagramrész formázási tulajdonságokat tartalmazza. A [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)-tól eltérően ennek az osztálynak minden tulajdonsága írható. |
-| [ChartSeries](./chartseries) | Diagram sorozatot képviseli. |
-| [ChartSeriesCollection](./chartseriescollection) | A [`ChartSeries`](../aspose.slides.charts/chartseries) gyűjteményt képviseli. |
-| [ChartSeriesGroup](./chartseriesgroup) | Sorozatok csoportját képviseli. |
-| [ChartTextFormat](./charttextformat) | Alapértelmezett szövegformázást ad meg a diagram szövegelemekhez. |
-| [ChartTitle](./charttitle) | Diagram cím tulajdonságait képviseli. |
-| [ChartTypeCharacterizer](./charttypecharacterizer) | Segítség a diagramokkal és sorozatokkal kapcsolatos további információk lekéréséhez a ChartType alapján. |
-| [ChartWall](./chartwall) | 3D diagramok falait képviseli. |
-| [DataLabel](./datalabel) | Sorozat címkéket képviseli. |
-| [DataLabelCollection](./datalabelcollection) | Sorozat címkéket képviseli. |
-| [DataLabelFormat](./datalabelformat) | A DataLabel formázási beállításait képviseli. |
-| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | A ChartDataPoint.ErrorBarsCustomValues tulajdonságlista értéktípusait határozza meg. |
-| [DataTable](./datatable) | Az adat táblázat tulajdonságait képviseli. |
-| [DoubleChartValue](./doublechartvalue) | Kettős értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [ErrorBarsCustomValues](./errorbarscustomvalues) | Az error bar értékeket határozza meg. Csak akkor használható, ha az Error bars értéktípusa egyéni. |
-| [ErrorBarsFormat](./errorbarsformat) | A diagram sorozat hibasávjait képviseli. Az ErrorBars egyéni értékek az IChartDataPointCollection-ben találhatók (a [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) tulajdonságban). |
-| [Format](./format) | Diagram formátum tulajdonságait képviseli. |
-| [Legend](./legend) | Diagram jelmagyarázatának tulajdonságait képviseli. |
-| [LegendEntryCollection](./legendentrycollection) | Jelmagyarázatok gyűjteményét képviseli. |
-| [LegendEntryProperties](./legendentryproperties) | Diagram egy jelmagyarázatának tulajdonságait képviseli. |
-| [Marker](./marker) | A diagram jelölőjét képviseli. |
-| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | Az egyéni felosztású bar-of-pie vagy pie-of-pie diagramban a felosztási ponthoz tartozó pontok gyűjteményét képviseli. |
-| [Rotation3D](./rotation3d) | A diagram 3D-rotációját képviseli. |
-| [StringChartValue](./stringchartvalue) | Karakterlánc értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [StringOrDoubleChartValue](./stringordoublechartvalue) | Karakterlánc vagy kettős értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [Trendline](./trendline) | Az osztály a diagram sorozat trendvonalát képviseli |
-| [TrendlineCollection](./trendlinecollection) | A Trendline gyűjteményét képviseli |
-| [UpDownBarsManager](./updownbarsmanager) | Line- vagy Stock-diagram fel- és lefelé sávjaihoz biztosít hozzáférést. |
+| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Exception, amely akkor kerül dobásra, ha a sorozat tengelyösszetétele nem kombinálható a diagram jelenlegi tengelyösszetételével. |
+| [AxesManager](./axesmanager) | Biztosítja a diagramtengelyek elérését. |
+| [Axis](./axis) | Befoglalja azt az objektumot, amely egy diagram tengelyét reprezentálja. |
+| [AxisFormat](./axisformat) | A diagram formázási tulajdonságait képviseli. |
+| [BaseChartValue](./basechartvalue) | Egy diagram értékét reprezentálja. |
+| [CachedChartValue](./cachedchartvalue) | A gyorsítótárazott diagramértéket reprezentálja (pl. X, Y, buborékméret vagy a fő érték). |
+| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Exception, amely akkor kerül dobásra, ha megpróbálják kombinálni a 2D és 3D diagramtípusokat. |
+| [Chart](./chart) | Egy grafikus diagramot képvisel egy dián. |
+| [ChartCategory](./chartcategory) | A diagram kategóriáit reprezentálja. |
+| [ChartCategoryCollection](./chartcategorycollection) | A(z) [`ChartCategory`](../aspose.slides.charts/chartcategory) gyűjteményét reprezentálja. |
+| [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | A diagram kategóriaszintjeinek értékeinek kezelt tárolója. |
+| [ChartCellCollection](./chartcellcollection) | Az adatcellákat tartalmazó gyűjteményt reprezentálja. |
+| [ChartData](./chartdata) | A diagram ábrázolásához használt adatokat reprezentálja. |
+| [ChartDataCell](./chartdatacell) | Diagramadatokhoz tartozó cellát reprezentálja. |
+| [ChartDataPoint](./chartdatapoint) | Sorozatadat-pontot reprezentál. |
+| [ChartDataPointCollection](./chartdatapointcollection) | A sorozatadat-pontok gyűjteményét reprezentálja. |
+| [ChartDataPointLevel](./chartdatapointlevel) | Az adatpontos szintet reprezentálja. Treemap és Sunburst diagramokra vonatkozik. |
+| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Az adatpontos szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazva. Az adatpontos szintek indexelése nulláról indul. |
+| [ChartDataWorkbook](./chartdataworkbook) | Biztosítja a beágyazott Excel munkafüzet elérését. |
+| [ChartDataWorksheet](./chartdataworksheet) | A(z) [`IChartDataCell`](../aspose.slides.charts/ichartdatacell)-hoz tartozó munkalapot reprezentálja. |
+| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | A diagramadatok munkafüzetének munkalapjainak gyűjteményét reprezentálja. |
+| [ChartLinesFormat](./chartlinesformat) | A rácsvonalak formázási tulajdonságait reprezentálja. |
+| [ChartPlotArea](./chartplotarea) | A téglalapot reprezentálja, ahol a diagramnak meg kell jelennie. |
+| [ChartPortionFormat](./chartportionformat) | Ez az osztály a diagramokban használt diagramrész formázási tulajdonságait tartalmazza. A [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)-tól eltérően ennek az osztálynak az összes tulajdonsága írható. |
+| [ChartSeries](./chartseries) | Diagram sorozatot reprezentál. |
+| [ChartSeriesCollection](./chartseriescollection) | A(z) [`ChartSeries`](../aspose.slides.charts/chartseries) gyűjteményét reprezentálja. |
+| [ChartSeriesGroup](./chartseriesgroup) | Sorozatcsoportot reprezentál. |
+| [ChartTextFormat](./charttextformat) | Alapértelmezett szövegformázást határoz meg a diagram szövegelemekhez. |
+| [ChartTitle](./charttitle) | A diagram címének tulajdonságait reprezentálja. |
+| [ChartTypeCharacterizer](./charttypecharacterizer) | Segítség a diagramokról és sorozatokról további információk lekéréséhez a ChartType alapján. |
+| [ChartWall](./chartwall) | A 3D diagramok falait reprezentálja. |
+| [DataLabel](./datalabel) | Sorozatcímkéket reprezentál. |
+| [DataLabelCollection](./datalabelcollection) | Sorozatcímkéket reprezentál. |
+| [DataLabelFormat](./datalabelformat) | A DataLabel formázási beállításait reprezentálja. |
+| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | Meghatározza az értéktípusokat a ChartDataPoint.ErrorBarsCustomValues tulajdonságlistában. |
+| [DataTable](./datatable) | Az adat táblázat tulajdonságait reprezentálja. |
+| [DoubleChartValue](./doublechartvalue) | Kettős értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [ErrorBarsCustomValues](./errorbarscustomvalues) | Meghatározza a hibasáv értékeket. Csak akkor használható, ha a hibasáv értéktípusa Egyéni. |
+| [ErrorBarsFormat](./errorbarsformat) | A diagram sorozatának hibasávjait reprezentálja. Az ErrorBars egyéni értékek az IChartDataPointCollection-ben (a [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) tulajdonságban) vannak. |
+| [Format](./format) | A diagram formázási tulajdonságait reprezentálja. |
+| [Legend](./legend) | A diagram jelmagyarázatának tulajdonságait reprezentálja. |
+| [LegendEntryCollection](./legendentrycollection) | Jelmagyarázatok gyűjteményét reprezentálja. |
+| [LegendEntryProperties](./legendentryproperties) | Diagram jelmagyarázatának tulajdonságait reprezentálja. |
+| [Marker](./marker) | A chert jelölőjét reprezentálja. |
+| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | Egy pontgyűjteményt reprezentál, amely a bar-of-pie vagy pie-of-pie diagram egyéni felosztású szétválasztási pontjához tartozik. |
+| [Rotation3D](./rotation3d) | A diagram 3D forgását reprezentálja. |
+| [StringChartValue](./stringchartvalue) | Szövegértéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [StringOrDoubleChartValue](./stringordoublechartvalue) | Szöveg vagy dupla értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [Trendline](./trendline) | Az osztály a diagram sorozat trendvonalát reprezentálja. |
+| [TrendlineCollection](./trendlinecollection) | A Trendline gyűjteményét reprezentálja. |
+| [UpDownBarsManager](./updownbarsmanager) | Lehetővé teszi a vonal- vagy részvény-diagram fel- és lefelé sávjainak elérését. |
 
 ## Interfészek
 
 | Interfész | Leírás |
 | --- | --- |
 | [IActualLayout](./iactuallayout) | Meghatározza egy diagram elem tényleges pozícióját. |
-| [IAxesManager](./iaxesmanager) | Hozzáférést biztosít a diagram tengelyeihez. |
-| [IAxis](./iaxis) | Becsomagolja azt az objektumot, amely a diagram tengelyét képviseli. |
-| [IAxisFormat](./iaxisformat) | A diagram formátum tulajdonságait képviseli. |
-| [IBaseChartValue](./ibasechartvalue) | A diagram egy értékét képviseli. |
-| [IChart](./ichart) | Egy grafikus diagramot ábrázol egy dián. |
-| [IChartCategory](./ichartcategory) | A diagram kategóriáit képviseli. |
-| [IChartCategoryCollection](./ichartcategorycollection) | A [`IChartCategory`](../aspose.slides.charts/ichartcategory) gyűjteményt képviseli. |
-| [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | Kezelt tároló a diagramkategória szintek értékei számára. |
-| [IChartCellCollection](./ichartcellcollection) | Adataival rendelkező cellák gyűjteményét képviseli. |
-| [IChartComponent](./ichartcomponent) | A diagram egy komponensét képviseli. |
-| [IChartData](./ichartdata) | A diagram ábrázolásához használt adatokat képviseli. |
-| [IChartDataCell](./ichartdatacell) | Diagramadat celláját képviseli. |
-| [IChartDataPoint](./ichartdatapoint) | Sorozat adatpontot képviseli. |
-| [IChartDataPointCollection](./ichartdatapointcollection) | Sorozat adatpontjainak gyűjteményét képviseli. |
-| [IChartDataPointLevel](./ichartdatapointlevel) | Az adatpont szintjét képviseli. Treemap és Sunburst diagramokra alkalmazható. |
-| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Az adatpont szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazható. Az adatpont szintek indexelése nulláral kezdődik. |
-| [IChartDataWorkbook](./ichartdataworkbook) | Beágyazott Excel munkafüzethez biztosít hozzáférést |
-| [IChartDataWorksheet](./ichartdataworksheet) | A [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) munkalapot képviseli. |
-| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | A diagram adatok munkafüzetének munkalapjainak gyűjteményét képviseli. |
-| [IChartLinesFormat](./ichartlinesformat) | A rácsvonalak formátum tulajdonságait képviseli. |
-| [IChartParagraphFormat](./ichartparagraphformat) | A diagram bekezdésformázási tulajdonságait képviseli. |
-| [IChartPlotArea](./ichartplotarea) | Diagram cím tulajdonságait képviseli. |
-| [IChartPortionFormat](./ichartportionformat) | A diagramokban használt diagramrész formázási tulajdonságait képviseli. |
-| [IChartSeries](./ichartseries) | Diagram sorozatot képviseli. |
-| [IChartSeriesCollection](./ichartseriescollection) | A [`IChartSeries`](../aspose.slides.charts/ichartseries) gyűjteményt képviseli. |
-| [IChartSeriesGroup](./ichartseriesgroup) | Sorozatok csoportját képviseli. |
-| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | A kombinálható sorozatok csoportjainak gyűjteményét képviseli. |
-| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | A [`IChartSeries`](../aspose.slides.charts/ichartseries) csak olvasható gyűjteményét képviseli. |
-| [IChartTextBlockFormat](./icharttextblockformat) | A diagram szövegelemek formázási tulajdonságait képviseli. |
-| [IChartTextFormat](./icharttextformat) | A diagram korlátozott szövegformázási tulajdonságokkal működik. Az IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfészek leírják ezt a korlátozott halmazt. |
-| [IChartTitle](./icharttitle) | Diagram cím tulajdonságait képviseli. |
-| [IChartWall](./ichartwall) | 3D diagramok falait képviseli. |
-| [IDataLabel](./idatalabel) | Sorozat címkéket képviseli. |
-| [IDataLabelCollection](./idatalabelcollection) | Sorozat címkéket képviseli. |
-| [IDataLabelFormat](./idatalabelformat) | A DataLabel formázási beállításait képviseli. |
-| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | A ChartDataPoint.ErrorBarsCustomValues tulajdonságlista értéktípusait határozza meg. |
-| [IDataTable](./idatatable) | Az adat táblázat tulajdonságait képviseli. |
-| [IDoubleChartValue](./idoublechartvalue) | Kettős értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Az error bar értékeket határozza meg. Csak akkor használható, ha az Error bars értéktípusa egyéni. |
-| [IErrorBarsFormat](./ierrorbarsformat) | A diagram sorozat hibasávjait képviseli. Az ErrorBars egyéni értékek az IChartDataPointCollection-ben találhatók (a [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) tulajdonságban). |
-| [IFormat](./iformat) | Diagram formátum tulajdonságait képviseli. |
-| [IFormattedTextContainer](./iformattedtextcontainer) | A diagram szövegformátumát képviseli. |
+| [IAxesManager](./iaxesmanager) | Lehetővé teszi a diagram tengelyek elérését. |
+| [IAxis](./iaxis) | Befoglalja azt az objektumot, amely egy diagram tengelyét reprezentálja. |
+| [IAxisFormat](./iaxisformat) | A diagram formázási tulajdonságait reprezentálja. |
+| [IBaseChartValue](./ibasechartvalue) | Egy diagram értékét reprezentálja. |
+| [ICachedChartValue](./icachedchartvalue) | A gyorsítótárazott diagramértéket reprezentálja (pl. X, Y, buborékméret vagy a fő érték). |
+| [IChart](./ichart) | Grafikus diagramot reprezentál egy dián. |
+| [IChartCategory](./ichartcategory) | A diagram kategóriáit reprezentálja. |
+| [IChartCategoryCollection](./ichartcategorycollection) | A(z) [`IChartCategory`](../aspose.slides.charts/ichartcategory) gyűjteményét reprezentálja. |
+| [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | A diagram kategóriaszintjeinek értékeinek kezelt tárolója. |
+| [IChartCellCollection](./ichartcellcollection) | Az adatcellákat tartalmazó gyűjteményt reprezentálja. |
+| [IChartComponent](./ichartcomponent) | A diagram egy komponensét reprezentálja. |
+| [IChartData](./ichartdata) | A diagram ábrázolásához használt adatokat reprezentálja. |
+| [IChartDataCell](./ichartdatacell) | Diagramadatokhoz tartozó cellát reprezentálja. |
+| [IChartDataPoint](./ichartdatapoint) | Sorozatadat-pontot reprezentál. |
+| [IChartDataPointCollection](./ichartdatapointcollection) | A sorozatadat-pontok gyűjteményét reprezentálja. |
+| [IChartDataPointLevel](./ichartdatapointlevel) | Az adatpontos szintet reprezentálja. Treemap és Sunburst diagramokra vonatkozik. |
+| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Az adatpontos szintek tárolója. Treeamp és Sunburst sorozatokra alkalmazva. Az adatpontos szintek indexelése nulláról indul. |
+| [IChartDataWorkbook](./ichartdataworkbook) | Lehetővé teszi a beágyazott Excel munkafüzet elérését. |
+| [IChartDataWorksheet](./ichartdataworksheet) | A(z) [`IChartDataCell`](../aspose.slides.charts/ichartdatacell)-hoz kapcsolódó munkalapot reprezentálja. |
+| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | A diagram adatmunkafüzet munkalapjainak gyűjteményét reprezentálja. |
+| [IChartLinesFormat](./ichartlinesformat) | A rácsvonalak formázási tulajdonságait reprezentálja. |
+| [IChartParagraphFormat](./ichartparagraphformat) | A diagram bekezdésformázási tulajdonságait reprezentálja. |
+| [IChartPlotArea](./ichartplotarea) | A diagram címének tulajdonságait reprezentálja. |
+| [IChartPortionFormat](./ichartportionformat) | A diagramrész formázási tulajdonságait reprezentálja, amely a diagramokban használatos. |
+| [IChartSeries](./ichartseries) | Diagram sorozatot reprezentál. |
+| [IChartSeriesCollection](./ichartseriescollection) | A(z) [`IChartSeries`](../aspose.slides.charts/ichartseries) gyűjteményét reprezentálja. |
+| [IChartSeriesGroup](./ichartseriesgroup) | Sorozatcsoportot reprezentál. |
+| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | A kombinálható sorozatok csoportjainak gyűjteményét reprezentálja. |
+| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | A(z) [`IChartSeries`](../aspose.slides.charts/ichartseries) csak-olvasásra alkalmas gyűjteményét reprezentálja. |
+| [IChartTextBlockFormat](./icharttextblockformat) | A diagram szöveg elemeinek formázási tulajdonságait reprezentálja. |
+| [IChartTextFormat](./icharttextformat) | A diagram korlátozott szövegformázási tulajdonságokkal működik. Az IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat és IChartPortionFormat interfészek írják le ezt a korlátozott halmazt. |
+| [IChartTitle](./icharttitle) | A diagram címének tulajdonságait reprezentálja. |
+| [IChartWall](./ichartwall) | A 3D diagramok falait reprezentálja. |
+| [IDataLabel](./idatalabel) | Sorozatcímkéket reprezentál. |
+| [IDataLabelCollection](./idatalabelcollection) | Sorozatcímkéket reprezentál. |
+| [IDataLabelFormat](./idatalabelformat) | A DataLabel formázási beállításait reprezentálja. |
+| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | Meghatározza az értéktípusokat a ChartDataPoint.ErrorBarsCustomValues tulajdonságlistában. |
+| [IDataTable](./idatatable) | Az adat táblázat tulajdonságait reprezentálja. |
+| [IDoubleChartValue](./idoublechartvalue) | Kettős értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Meghatározza a hibasáv értékeket. Csak akkor használható, ha a hibasáv értéktípusa Egyéni. |
+| [IErrorBarsFormat](./ierrorbarsformat) | A diagram sorozatának hibasávjait reprezentálja. Az ErrorBars egyéni értékek az IChartDataPointCollection-ben (a [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) tulajdonságban) vannak. |
+| [IFormat](./iformat) | A diagram formázási tulajdonságait reprezentálja. |
+| [IFormattedTextContainer](./iformattedtextcontainer) | A diagram szövegformátumát reprezentálja. |
 | [ILayoutable](./ilayoutable) | Meghatározza egy diagram elem pontos pozícióját. |
-| [ILegend](./ilegend) | Diagram jelmagyarázatának tulajdonságait képviseli. |
-| [ILegendEntryCollection](./ilegendentrycollection) | Jelmagyarázatok gyűjteményét képviseli. |
-| [ILegendEntryProperties](./ilegendentryproperties) | Diagram egy jelmagyarázatának tulajdonságait képviseli. |
-| [IMarker](./imarker) | A diagram jelölőjét képviseli. |
-| [IMultipleCellChartValue](./imultiplecellchartvalue) | A diagram celláinak gyűjteményét képviseli. |
-| [IOverridableText](./ioverridabletext) | A diagram felülírható szövegét képviseli. |
-| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Az egyéni felosztással rendelkező bar-of-pie vagy pie-of-pie diagram második körében vagy sávjában megrajzolandó pontok gyűjteményét képviseli. |
-| [IRotation3D](./irotation3d) | A diagram 3D-rotációját képviseli. |
-| [ISingleCellChartValue](./isinglecellchartvalue) | A diagram adatcelláját képviseli. |
-| [IStringChartValue](./istringchartvalue) | Karakterlánc értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Karakterlánc vagy kettős értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként. |
-| [ITrendline](./itrendline) | Az osztály a diagram sorozat trendvonalát képviseli |
-| [ITrendlineCollection](./itrendlinecollection) | A TrendlineEx gyűjteményét képviseli |
-| [IUpDownBarsManager](./iupdownbarsmanager) | Line- vagy Stock-diagram fel- és lefelé sávjaihoz biztosít hozzáférést. |
+| [ILegend](./ilegend) | A diagram jelmagyarázatának tulajdonságait reprezentálja. |
+| [ILegendEntryCollection](./ilegendentrycollection) | Jelmagyarázatok gyűjteményét reprezentálja. |
+| [ILegendEntryProperties](./ilegendentryproperties) | Diagram jelmagyarázatának tulajdonságait reprezentálja. |
+| [IMarker](./imarker) | A chert jelölőjét reprezentálja. |
+| [IMultipleCellChartValue](./imultiplecellchartvalue) | Diagram celláinak gyűjteményét reprezentálja. |
+| [IOverridableText](./ioverridabletext) | A diagram felülírható szövegét reprezentálja. |
+| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Egy pontgyűjteményt reprezentál, amely a bar-of-pie vagy pie-of-pie diagram második körében vagy sávjában kerül kirajzolásra egy egyéni felosztás mellett. |
+| [IRotation3D](./irotation3d) | A diagram 3D forgását reprezentálja. |
+| [ISingleCellChartValue](./isinglecellchartvalue) | Diagram adatcellát reprezentálja. |
+| [IStringChartValue](./istringchartvalue) | Szövegértéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Szöveg vagy dupla értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként. |
+| [ITrendline](./itrendline) | Az osztály a diagram sorozat trendvonalát reprezentálja. |
+| [ITrendlineCollection](./itrendlinecollection) | A TrendlineEx gyűjteményét reprezentálja. |
+| [IUpDownBarsManager](./iupdownbarsmanager) | Lehetővé teszi a vonal- vagy részvény-diagram fel- és lefelé sávjainak elérését. |
 
 ## Enumeráció
 
 | Enumeráció | Leírás |
 | --- | --- |
-| [AxisAggregationType](./axisaggregationtype) | A kategória tengely aggregáció típusát képviseli. Csak Histogram vagy HistogramPareto sorozatokkal használható. |
+| [AxisAggregationType](./axisaggregationtype) | A kategória tengely aggregációs típusát reprezentálja. csak Histogram vagy HistogramPareto sorozatoknál használható. |
 | [AxisPositionType](./axispositiontype) | Meghatározza a tengely pozícióját. |
-| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | Megadja az adatokat buborékkör diagramméreteként ábrázolás lehetséges módjait. |
-| [CategoryAxisType](./categoryaxistype) | A kategória tengely típusát képviseli. |
-| [ChartDataSourceType](./chartdatasourcetype) | A diagram adatforrásának típusát képviseli. |
-| [ChartShapeType](./chartshapetype) | A diagram alakzatát képviseli. |
-| [ChartType](./charttype) | A diagram típusát képviseli. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Az összevonható sorozattípusok csoportjainak felsorolása. Minden elem egy olyan típuscsoporthoz tartozik, amely a diagram sorozatok típusait tartalmazza, és egyszerre létezhet egy ChartSeriesGroup-ban. Például: a ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea lehet egy ChartSeriesGroup-ban egyszerre (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). És a ChartType.Line sorozat lehet a ChartType.LineWithMarkers sorozattal egyszerre egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban. |
-| [CrossesType](./crossestype) | Meghatározza, ahol a tengely keresztezi. |
+| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | Meghatározza a lehetséges módokat az adatok buborék diagram méretekként való ábrázolására. |
+| [CategoryAxisType](./categoryaxistype) | A kategória tengely típusát reprezentálja. |
+| [ChartDataSourceType](./chartdatasourcetype) | A diagram adatforrásának típusát reprezentálja. |
+| [ChartShapeType](./chartshapetype) | A diagram alakját reprezentálja. |
+| [ChartType](./charttype) | A diagram típusát reprezentálja. |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | A kombinálható sorozattípusok csoportjának felsorolása. Minden elem egy olyan típuscsoporthoz tartozik, amely a ChartSeriesGroup-ban egyszerre létezhet. Például: a ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea lehet egy ChartSeriesGroup-ban egyszerre (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). És a ChartType.Line sorozat együtt lehet a ChartType.LineWithMarkers sorozattal egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban. |
+| [CrossesType](./crossestype) | Meghatározza, hol metszi a tengely. |
 | [DataSourceType](./datasourcetype) | Adatforrás típusok. |
 | [DisplayBlanksAsType](./displayblanksastype) | Meghatározza, hogyan jelenik meg a hiányzó adat. |
-| [DisplayUnitType](./displayunittype) | Meghatározza a megjelenített adatok sokszorosítását. |
-| [ErrorBarType](./errorbartype) | A hibasáv típusát képviseli. |
-| [ErrorBarValueType](./errorbarvaluetype) | A hibasáv érték típusát képviseli. |
-| [LayoutTargetType](./layouttargettype) | Ha a plot area elrendezése manuálisan van meghatározva, ez a tulajdonság azt adja meg, hogy a plot area-t a belseje (a tengely és tengelycímkék nélkül) vagy a külseje (a tengely és tengelycímkékkel együtt) alapján kell-e elrendezni. |
+| [DisplayUnitType](./displayunittype) | Meghatározza a megjelenített adatok sokaságát. |
+| [ErrorBarType](./errorbartype) | A hibasáv típusát reprezentálja. |
+| [ErrorBarValueType](./errorbarvaluetype) | A hibasáv érték típusát reprezentálja. |
+| [LayoutTargetType](./layouttargettype) | Ha a diagramterület elrendezése manuálisan van meghatározva, ez a tulajdonság meghatározza, hogy a diagramterületet a belső (tengely és tengelycímkék nélkül) vagy a külső (tengely és tengelycímkék beleértve) rész alapján helyezzük el. |
 | [LegendDataLabelPosition](./legenddatalabelposition) | Meghatározza az adatcímkék pozícióját. |
 | [LegendPositionType](./legendpositiontype) | Meghatározza a jelmagyarázat pozícióját a diagramon. |
-| [MarkerStyleType](./markerstyletype) | Meghatározza a jelölő formáját a diagram adatpontján. |
-| [ParentLabelLayoutType](./parentlabellayouttype) | A kategória adatcímkék elrendezését képviseli. Csak Treemap sorozatoknál használható. |
-| [PictureType](./picturetype) | Meghatározza a sáv kép kitöltésének módját. |
-| [PieSplitType](./piesplittype) | A pie-of-pie vagy bar-of-pie diagram második körében vagy sávjában a felosztási pontok típusát képviseli. |
-| [QuartileMethodType](./quartilemethodtype) | A kvartilis módszer típusát adja vissza. |
-| [StyleType](./styletype) | A diagram stílusát képviseli. |
-| [TickLabelPositionType](./ticklabelpositiontype) | A megadott tengelyen a jelölőcímkék pozíció típusát képviseli. |
-| [TickMarkType](./tickmarktype) | A megadott tengely jelölőjének típusát képviseli. |
-| [TimeUnitType](./timeunittype) | A kategória tengely alapegységét képviseli. |
-| [TrendlineType](./trendlinetype) | A trendvonal típusát képviseli. |
+| [MarkerStyleType](./markerstyletype) | Meghatározza a diagram adatpontjainak jelölő formáját. |
+| [ParentLabelLayoutType](./parentlabellayouttype) | A kategória adatcímkék elrendezését reprezentálja. csak Treemap sorozatoknál használható. |
+| [PictureType](./picturetype) | Meghatározza a sáv kép kitöltés módját. |
+| [PieSplitType](./piesplittype) | A pie-of-pie vagy bar-of-pie diagram második körének vagy sávjának felosztási pontjainak típusát reprezentálja. |
+| [QuartileMethodType](./quartilemethodtype) | Visszaadja a kvartilis módszer típusát. |
+| [StyleType](./styletype) | A diagram stílusát reprezentálja. |
+| [TickLabelPositionType](./ticklabelpositiontype) | A megadott tengelyen a jelölőcímkék pozíció típusát reprezentálja. |
+| [TickMarkType](./tickmarktype) | A megadott tengely jelölő típusát reprezentálja. |
+| [TimeUnitType](./timeunittype) | A kategória tengely alapegységét reprezentálja. |
+| [TrendlineType](./trendlinetype) | A trendvonal típusát reprezentálja. |
 | [WorkbookType](./workbooktype) | Meghatározza az Open XML munkafüzet fájl típusát. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

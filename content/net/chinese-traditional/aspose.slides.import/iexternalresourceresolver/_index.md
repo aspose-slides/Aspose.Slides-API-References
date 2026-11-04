@@ -1,9 +1,9 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 在 Html、Svg 文件匯入期間，用於解析外部資源的回呼介面。
 type: docs
-weight: 7490
+weight: 7510
 url: /zh-hant/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver 介面
@@ -16,10 +16,10 @@ public interface IExternalResourceResolver
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | 將 URI 映射至包含實際資源的物件。 |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | 解析基礎 URI 與相對 URI 所得到的絕對 URI。 |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | 將 URI 映射到包含實際資源的物件。 |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | 從基礎 URI 和相對 URI 解析絕對 URI。 |
 
 ### 另請參閱
 

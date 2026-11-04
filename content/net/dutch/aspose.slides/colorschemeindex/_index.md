@@ -1,14 +1,14 @@
 ---
 title: ColorSchemeIndex
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een index in een kleurenpalet voor.
+description: Stelt een index in een kleurenschema voor.
 type: docs
-weight: 2550
+weight: 2570
 url: /nl/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex enumeratie
 
-Stelt een index in een kleurenpalet voor.
+Stelt een index in een kleurenschema voor.
 
 ```csharp
 public enum ColorSchemeIndex : byte

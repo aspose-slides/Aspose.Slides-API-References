@@ -1,20 +1,20 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes için .NET API Referansı
-description: "Bu listeden bir grafik türü kullanıldığında ilgili gösterge girdisinin özellikleri: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Salt-okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties."
+description: Bu listedeki grafik tiplerinden biri olduğunda ilgili lejant girdisinin özellikleri ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Salt-okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /tr/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry özelliği
 
-Bu listedeki grafik türlerinden biri olduğunda ilgili gösterge girdisinin özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Salt-okunur [`ILegendEntryProperties`](../../ilegendentryproperties).
+Bu listedeki grafik tiplerinden biri olduğunda ilgili lejant girdisinin özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Salt-okunur [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ILegendEntryProperties](../../ilegendentryproperties)
 * sınıf [ChartDataPoint](../../chartdatapoint)

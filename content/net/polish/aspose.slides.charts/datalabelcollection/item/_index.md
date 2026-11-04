@@ -1,14 +1,14 @@
 ---
 title: Item
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Zwraca etykietę danych dla punktu danych o określonym indeksie.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Pobiera etykietę danych dla punktu danych o określonym indeksie.
 type: docs
-weight: 60
+weight: 70
 url: /pl/aspose.slides.charts/datalabelcollection/item/
 ---
-## Indeksator DataLabelCollection
+## DataLabelCollection indeksator
 
-Zwraca etykietę danych dla punktu danych o określonym indeksie.
+Pobiera etykietę danych dla punktu danych o określonym indeksie.
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,9 +16,9 @@ public IDataLabel this[int index] { get; }
 
 ### Uwagi
 
-Alternatywny sposób dostępu do etykiety danych to: - SeriesEx.DataPoints[i].Label - zarządzaj właściwościami etykiety.
+Alternatywny sposób uzyskania etykiety danych to: - SeriesEx.DataPoints[i].Label - zarządzaj właściwościami etykiety.
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IDataLabel](../../idatalabel)
 * klasa [DataLabelCollection](../../datalabelcollection)

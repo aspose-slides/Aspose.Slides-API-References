@@ -1,26 +1,26 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Slides for .NET API 레퍼런스
-description: 각 Paragraph./foreach/paragraph에 대해 BaseSlide../aspose.slides/baseslide에서 호출되는 콜백입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 각 Paragraph에 대해 BaseSlide에서 호출되는 콜백입니다./foreach/paragraph../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /ko/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegate
 
-각 [`Paragraph`](../foreach/paragraph)에 대해 호출되는 콜백이며 [`BaseSlide`](../../aspose.slides/baseslide)에서 동작합니다.
+각 [`Paragraph`](../foreach/paragraph)에 대해 [`BaseSlide`](../../aspose.slides/baseslide)에서 호출되는 콜백입니다.
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| para | Paragraph | 현재 반복 중인 문단 |
+| para | Paragraph | 현재 반복 중인 단락 |
 | slide | BaseSlide | 현재 반복 중인 슬라이드 |
-| index | Int32 | 슬라이드에서 현재 문단의 인덱스 |
+| index | Int32 | 슬라이드의 현재 단락 인덱스 |
 
-### 참조
+### 관련 항목
 
 * 클래스 [Paragraph](../../aspose.slides/paragraph)
 * 클래스 [BaseSlide](../../aspose.slides/baseslide)

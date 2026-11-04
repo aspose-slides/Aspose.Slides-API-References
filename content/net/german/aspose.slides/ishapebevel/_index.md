@@ -1,9 +1,9 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Eigenschaften des Hauptflächenreliefs von Formen dar.
 type: docs
-weight: 6960
+weight: 6980
 url: /de/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel Schnittstelle
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Fasen-Typ. Lese/Schreib [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Fasen-Höhe. Lese/Schreib Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Fasen-Breite. Lese/Schreib Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Fasentyp. Lese-/Schreib [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Fasenhöhe. Lese-/Schreib Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Fasenbreite. Lese-/Schreib Double. |
 
 ### Siehe auch
 

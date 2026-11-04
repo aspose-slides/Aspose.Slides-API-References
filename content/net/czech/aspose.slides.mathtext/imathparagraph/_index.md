@@ -3,7 +3,7 @@ title: IMathParagraph
 second_title: Aspose.Sildes pro .NET API Reference
 description: Matematický odstavec, který je kontejnerem pro matematické bloky IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /cs/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph rozhraní

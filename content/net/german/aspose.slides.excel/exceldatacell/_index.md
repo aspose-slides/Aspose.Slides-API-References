@@ -3,7 +3,7 @@ title: ExcelDataCell
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine einzelne Zelle in einer Excel-Arbeitsmappe dar.
 type: docs
-weight: 3680
+weight: 3700
 url: /de/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell Klasse
@@ -18,9 +18,9 @@ public class ExcelDataCell : IExcelDataCell
 
 | Name | Beschreibung |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Liefert den nullbasierten Index der Spalte im Arbeitsblatt, in dem sich die Zelle befindet. Nur-Lesen Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Liefert den nullbasierten Index der Spalte im Arbeitsblatt, in dem sich die Zelle befindet. Nur lesbar Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Liefert den Namen der Diagrammdatenzelle. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Liefert den nullbasierten Index der Zeile im Arbeitsblatt, in dem sich die Zelle befindet. Nur-Lesen Int32. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Liefert den nullbasierten Index der Zeile im Arbeitsblatt, in dem sich die Zelle befindet. Nur lesbar Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Liefert den in der Excel-Zelle enthaltenen Wert. |
 
 ### Siehe auch

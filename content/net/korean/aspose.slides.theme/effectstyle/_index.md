@@ -3,7 +3,7 @@ title: EffectStyle
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과 스타일을 나타냅니다.
 type: docs
-weight: 11080
+weight: 11100
 url: /ko/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle 클래스
@@ -19,9 +19,9 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 | 이름 | 설명 |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 3D 형식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 3d 형식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### 참고
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [EffectStyleCollection](../effectstylecollection)

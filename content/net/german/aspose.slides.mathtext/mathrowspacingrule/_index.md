@@ -3,7 +3,7 @@ title: MathRowSpacingRule
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Der Typ des vertikalen Abstands zwischen Spalten in einer Matrix oder einem Array
 type: docs
-weight: 8980
+weight: 9000
 url: /de/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule Aufzählung
@@ -16,13 +16,13 @@ public enum MathRowSpacingRule
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
-| SingleLineGap | `0` | einzelner Zeilenabstand |
-| OneAndAHalfLineGap | `1` | Eineinhalb Zeilen Abstand |
-| TwoLineGap | `2` | Zwei Zeilen Abstand |
-| Exactly | `3` | Genau (verwendet den Wert der RowSpacing-Eigenschaft, gemessen in Punkten) |
-| Multiple | `4` | Mehrfach (verwendet den Wert der RowSpacing-Eigenschaft, gemessen in Zeilen) |
+| SingleLineGap | `0` | einzeiliger Abstand |
+| OneAndAHalfLineGap | `1` | eineinhalb Zeilen Abstand |
+| TwoLineGap | `2` | zwei Zeilen Abstand |
+| Exactly | `3` | Genau (verlassen Sie sich auf den Wert der RowSpacing-Eigenschaft, gemessen in Punkten) |
+| Multiple | `4` | Mehrfach (verlassen Sie sich auf den Wert der RowSpacing-Eigenschaft, gemessen in Zeilen) |
 
 ### Siehe auch
 

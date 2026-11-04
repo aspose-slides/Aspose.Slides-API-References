@@ -1,9 +1,9 @@
 ---
 title: ChartLinesFormat
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства формата линий сетки.
 type: docs
-weight: 1410
+weight: 1420
 url: /ru/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat класс
@@ -16,12 +16,12 @@ public class ChartLinesFormat : IChartLinesFormat
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Возвращает эффекты, используемые для линии диаграммы. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChartLinesFormat](../ichartlinesformat)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

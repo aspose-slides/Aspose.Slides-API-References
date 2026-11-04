@@ -1,14 +1,14 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes для .NET справочника API
-description: Параметры для извлечения HTML из текста Pptx.
+second_title: Aspose.Sildes для .NET - справочник API
+description: Параметры извлечения HTML из текста Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /ru/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions класс
 
-Параметры для извлечения HTML из текста Pptx.
+Параметры извлечения HTML из текста Pptx.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -25,11 +25,11 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 | Имя | Описание |
 | --- | --- |
 | [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Возвращает или задает значение, указывающее, следует ли добавлять заголовки Clipboard. Чтение/запись Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или задает имя кодировки html. Это значение будет сохранено в сгенерированном HTML файле, но его сохранение в этой кодировке зависит от вызывающей стороны. Чтение/запись String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или задает объект обратного вызова, который контролирует, как будет сохраняться внешний объект. Чтение/запись [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или задает глубину вложенности для текстовых свойств. Чтение/запись [`TextInheritanceLimit`](../textinheritancelimit). |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или задает имя кодировки html. Это значение будет сохранено в сгенерированный файл HTML, но от вызывающего кода зависит, чтобы файл был сохранён в этой кодировке. Чтение/запись String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или задает объект обратного вызова, который контролирует, как будет храниться внешний объект. Чтение/запись [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или задает вложенную глубину для текстовых свойств. Чтение/запись [`TextInheritanceLimit`](../textinheritancelimit). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITextToHtmlConversionOptions](../itexttohtmlconversionoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

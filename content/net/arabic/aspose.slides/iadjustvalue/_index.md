@@ -1,9 +1,9 @@
 ---
 title: IAdjustValue
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل قيمة تعديل الشكل الهندسي. تؤثر هذه القيم على شكل الأشكال.
+description: يمثل قيمة تعديل الأشكال الهندسية. تؤثر هذه القيم على شكل الأشكال.
 type: docs
-weight: 5180
+weight: 5200
 url: /ar/aspose.slides/iadjustvalue/
 ---
 ## واجهة IAdjustValue
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | الاسم | الوصف |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | يرجع أو يضبط القيمة، مع تفسيرها كزاوية بالدرجات. Read/write Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | يرجع اسم قيمة التعديل هذه. Read-only String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | يرجع أو يضبط قيمة التعديل "كما هي". Read/write Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | يرجع نوع تعديل الشكل. Read-only [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | إرجاع أو تعيين القيمة، مع تفسيرها كزاوية بالدرجات. قراءة/كتابة Single. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | إرجاع اسم هذه القيمة القابلة للتعديل. للقراءة فقط String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | إرجاع أو تعيين قيمة التعديل "كما هي". قراءة/كتابة Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | إرجاع نوع تعديل الشكل. للقراءة فقط [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### انظر أيضًا
 

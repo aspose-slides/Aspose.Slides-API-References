@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili caption tertutup WebVTT.
+description: Mewakili teks tertutup WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /id/aspose.slides/icaptions/
 ---
 ## ICaptions interface
 
-Mewakili caption tertutup WebVTT.
+Mewakili teks tertutup WebVTT.
 
 ```csharp
 public interface ICaptions
@@ -18,10 +18,10 @@ public interface ICaptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Mengembalikan data biner dari caption tertutup. Baca-saja Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Mengembalikan pengidentifikasi unik global (GUID) dari caption tertutup. Baca-saja Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Mengembalikan data caption tertutup sebagai string UTF-8. Baca-saja String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | Mengembalikan atau mengatur label caption tertutup. Baca/tulis String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Mengembalikan data biner dari teks tertutup. Read-only Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Mengembalikan pengidentifikasi unik global (GUID) dari teks tertutup. Read-only Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Mengembalikan data teks tertutup sebagai string ber-encoding UTF-8 Read-only String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | Mengembalikan atau mengatur label teks tertutup. Read/write String. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IGifOptions
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen für den GIF-Export dar.
+description: Stellt GIF-Exportoptionen dar.
 type: docs
-weight: 3920
+weight: 3940
 url: /de/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions Schnittstelle
 
-Stellt Optionen für den GIF-Export dar.
+Stellt GIF-Exportoptionen dar.
 
 ```csharp
 public interface IGifOptions : ISaveOptions
@@ -18,7 +18,7 @@ public interface IGifOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur-Lesen [`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Gibt die ISaveOptions Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
 | [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Liest oder setzt die Standardverzögerungszeit [ms]. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nicht festgelegt ist. Der Standardwert ist 1000. |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Liest oder setzt die Frame-Größe. |

@@ -3,7 +3,7 @@ title: ISvgShapeAndTextFormattingController
 second_title: Referência da API Aspose.Sildes para .NET
 description: Controla a geração de formas SVG e texto.
 type: docs
-weight: 4120
+weight: 4140
 url: /pt/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController interface
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Nome | Descrição |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Esta função é chamada antes da renderização da parte de texto para SVG para permitir que o usuário controle o SVG resultante. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Esta função é chamada antes da renderização da porção de texto para SVG para permitir que o usuário controle o SVG resultante. |
 
 ### Exemplos
 
@@ -48,7 +48,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 	public void FormatText(Aspose.Slides.Export.ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
 	{
 		int paragraphIndex = 0; int portionIndex = 0;
-		for (int i = 0; i &lt; textFrame.Paragraphs.Count; i++)
+		for (int i = 0; i < textFrame.Paragraphs.Count; i++)
 		{
 			portionIndex = textFrame.Paragraphs[i].Portions.IndexOf(portion);
 			if (portionIndex > -1) { paragraphIndex = i; break; }
@@ -63,7 +63,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 }
 ```
 
-### Ver também
+### Veja Também
 
 * interface [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

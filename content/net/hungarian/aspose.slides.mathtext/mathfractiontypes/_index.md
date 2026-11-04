@@ -1,9 +1,9 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Tört típusok
 type: docs
-weight: 8710
+weight: 8730
 url: /hu/aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes felsorolás
@@ -19,9 +19,9 @@ public enum MathFractionTypes
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Bar | `1` | Bar tört |
-| Skewed | `2` | Torzított |
+| Skewed | `2` | Döntött |
 | Linear | `3` | Lineáris tört |
-| NoBar | `4` | No-Bar tört (Stack) |
+| NoBar | `4` | No-Bar tört (Verem) |
 
 ### Lásd még
 

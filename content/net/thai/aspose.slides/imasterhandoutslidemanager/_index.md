@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ผู้จัดการสไลด์แฮนด์เอาท์หลัก.
+description: ตัวจัดการสไลด์ master handout.
 type: docs
-weight: 6370
+weight: 6390
 url: /th/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager อินเทอร์เฟซ
 
-ผู้จัดการสไลด์แฮนด์เอาท์หลัก.
+Master handout slide manager.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | ส่งคืน master สำหรับสไลด์โน้ตทั้งหมดของการนำเสนอนี้หากมีอยู่ มิฉะนั้นจะส่งคืนค่า null. อ่านอย่างเดียว [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | ส่งคืน master สำหรับสไลด์บันทึกทั้งหมดของการนำเสนอนี้หากมี, มิฉะนั้นจะส่งคืนค่า null. อ่านอย่างเดียว [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | ลบสไลด์แฮนด์เอาท์หลัก. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | กำหนดสไลด์แฮนด์เอาท์หลักตั้งต้นให้เป็นสไลด์แฮนด์เอาท์ที่เกี่ยวข้อง. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | ลบสไลด์ master handout. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | ตั้งค่าสไลด์ master handout เริ่มต้นเป็นสไลด์ handout ที่เกี่ยวข้อง. |
 
 ### ดูเพิ่มเติม
 

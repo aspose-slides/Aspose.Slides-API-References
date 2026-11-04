@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Ripple slayt geçiş efekti.
+description: Dalgalı slayt geçiş efekti.
 type: docs
-weight: 10250
+weight: 10270
 url: /tr/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition sınıfı
 
-Ripple slayt geçiş efekti.
+Dalgalı slayt geçiş efekti.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,16 +18,16 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okuma/Yazma [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph geçişinin türü. Okunur/Yazılır [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder; karma algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash fonksiyonu görevi görür, hash algoritmaları ve hash tablosu gibi veri yapılarına uygun. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IMorphTransition](../imorphtransition)

@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de WebVTT-ondertitels voor.
+description: Stelt de WebVTT gesloten ondertiteling voor.
 type: docs
-weight: 5430
+weight: 5450
 url: /nl/aspose.slides/icaptions/
 ---
 ## ICaptions interface
 
-Stelt de WebVTT-ondertitels voor.
+Stelt de WebVTT gesloten ondertiteling voor.
 
 ```csharp
 public interface ICaptions
@@ -18,10 +18,10 @@ public interface ICaptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Retourneert de binaire gegevens van de ondertitels. Alleen-lezen Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retourneert de wereldwijd unieke identifier (GUID) van de ondertiteling. Alleen-lezen Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Retourneert de ondertitelingsgegevens als UTF-8-gecodeerde string. Alleen-lezen String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | Retourneert of stelt het label van de ondertiteling in. Lezen/schrijven String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Retourneert de binaire gegevens van de gesloten ondertiteling. Alleen-lezen Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Retourneert de wereldwijd unieke identifier (GUID) van de gesloten ondertiteling. Alleen-lezen Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Retourneert de gegevens van de gesloten ondertiteling als UTF-8 gecodeerde tekenreeks Alleen-lezen String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | Retourneert of stelt het label van de gesloten ondertiteling in. Lezen/Schrijven String. |
 
 ### Zie ook
 

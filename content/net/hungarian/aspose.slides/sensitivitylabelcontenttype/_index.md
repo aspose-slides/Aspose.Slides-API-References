@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
-second_title: Aspose.Sildes .NET API-referencia
-description: A dokumentumra alkalmazandó tartalomjelölés típusait reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: Ábrázolja a dokumentumra alkalmazandó tartalomjelölés típusait.
 type: docs
-weight: 9820
+weight: 9840
 url: /hu/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## SensitivityLabelContentType felsorolás
 
-A dokumentumra alkalmazandó tartalomjelölés típusait reprezentálja.
+A dokumentumra alkalmazandó tartalomjelölés típusait ábrázolja.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -18,11 +18,11 @@ public enum SensitivityLabelContentType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Azt jelenti, hogy a címke alapértelmezetten vagy automatikusan kerül alkalmazásra. |
-| Header | `1` | Azt jelenti, hogy a címkét manuálisan alkalmazták. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
-| Footer | `2` | Azt jelenti, hogy a címkét manuálisan alkalmazták. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
-| Watermark | `4` | Azt jelenti, hogy a címkét manuálisan alkalmazták. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
-| Encryption | `8` | Azt jelenti, hogy a címkét manuálisan alkalmazták. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
+| None | `0` | Azt jelenti, hogy a címke alapértelmezés szerint vagy automatikusan kerül alkalmazásra. |
+| Header | `1` | Azt jelenti, hogy a címke manuálisan került alkalmazásra. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
+| Footer | `2` | Azt jelenti, hogy a címke manuálisan került alkalmazásra. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
+| Watermark | `4` | Azt jelenti, hogy a címke manuálisan került alkalmazásra. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
+| Encryption | `8` | Azt jelenti, hogy a címke manuálisan került alkalmazásra. Használja bármely érzékenységi címkéhez, amelyet a felhasználó közvetlenül alkalmazott. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: IMathNaryOperator를 생성하도록 허용합니다
+second_title: Aspose.Sildes for .NET API 참조
+description: IMathNaryOperator를 생성할 수 있습니다
 type: docs
-weight: 8370
+weight: 8390
 url: /ko/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory 인터페이스
 
-IMathNaryOperator를 생성할 수 있습니다
+Allows to create IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorFactory

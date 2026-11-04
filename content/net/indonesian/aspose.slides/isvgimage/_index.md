@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gambar SVG.
 type: docs
-weight: 7180
+weight: 7200
 url: /id/aspose.slides/isvgimage/
 ---
 ## ISvgImage antarmuka
@@ -18,10 +18,10 @@ public interface ISvgImage
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Mengembalikan URI dasar dari SVG yang ditentukan. Digunakan untuk menyelesaikan tautan relatif. Hanya baca String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Mengembalikan antarmuka callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen SVG. Hanya baca [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Mengembalikan konten SVG. Hanya baca String. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Mengembalikan data SVG. Hanya baca Byte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Mengembalikan URI dasar dari SVG yang ditentukan. Digunakan untuk menyelesaikan tautan relatif. Hanya-baca String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Mengembalikan antarmuka callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen SVG. Hanya-baca [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Mengembalikan konten SVG. Hanya-baca String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Mengembalikan data SVG. Hanya-baca Byte[]. |
 
 ## Metode
 

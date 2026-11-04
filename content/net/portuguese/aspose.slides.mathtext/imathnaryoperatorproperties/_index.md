@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes para Referência de API .NET
-description: Especifica as propriedades do IMathNaryOperator
+second_title: Aspose.Sildes para .NET Referência da API
+description: Especifica as propriedades de IMathNaryOperator
 type: docs
-weight: 8380
+weight: 8400
 url: /pt/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
-## interface IMathNaryOperatorProperties
+## IMathNaryOperatorProperties interface
 
-Especifica propriedades do IMathNaryOperator
+Especifica as propriedades de IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -22,9 +22,9 @@ public interface IMathNaryOperatorProperties
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Ocultar subscrito |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Ocultar sobrescrito |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | A localização dos limites (subscrito e sobrescrito) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Caractere do operador n-ário Por exemplo: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Caractere do Operador N-ário Por exemplo: '∑', '∫' |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

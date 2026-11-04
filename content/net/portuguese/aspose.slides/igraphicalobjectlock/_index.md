@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
-second_title: Referência da API Aspose.Sildes para .NET
-description: Determina quais operações são desativadas no GraphicalObjectEx pai.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Determina quais operações estão desativadas no objeto pai GraphicalObjectEx.
 type: docs
-weight: 6070
+weight: 6090
 url: /pt/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock interface
 
-Determina quais operações estão desativadas no GraphicalObjectEx pai.
+Determina quais operações estão desativadas no objeto pai GraphicalObjectEx.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -23,10 +23,10 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 | [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Determina se a seleção de subformas deste objeto é proibida. Leitura/gravação Boolean. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Leitura/gravação Boolean. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Determina se mover esta forma é proibido. Leitura/gravação Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Leitura/gravação Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Determina se selecionar esta forma é proibido. Leitura/gravação Boolean. |
 | [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Determina se redimensionar esta forma é proibido. Leitura/gravação Boolean. |
 
-### Veja Também
+### Veja também
 
 * interface [IBaseShapeLock](../ibaseshapelock)
 * namespace [Aspose.Slides](../../aspose.slides)

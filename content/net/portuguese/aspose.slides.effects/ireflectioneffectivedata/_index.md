@@ -1,12 +1,12 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Objeto imutável que representa um efeito de Reflexão.
 type: docs
-weight: 3510
+weight: 3530
 url: /pt/aspose.slides.effects/ireflectioneffectivedata/
 ---
-## interface IReflectionEffectiveData
+## IReflectionEffectiveData interface
 
 Objeto imutável que representa um efeito de Reflexão.
 
@@ -26,9 +26,9 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 | [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Opacidade final da reflexão. (porcentagens). Somente leitura Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Especifica a direção para deslocar a reflexão. (ângulo). Somente leitura Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Alinhamento do retângulo. Somente leitura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Especifica se a reflexão deve girar com a forma quando a forma for girada. Somente leitura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Especifica o fator de escala horizontal, escala negativa causa inversão. (porcentagens) Somente leitura Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Especifica o fator de escala vertical, escala negativa causa inversão. (porcentagens) Somente leitura Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Especifica se a reflexão deve girar com a forma caso a forma seja girada. Somente leitura Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Especifica o fator de dimensionamento horizontal, escala negativa causa invertimento. (porcentagens) Somente leitura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Especifica o fator de dimensionamento vertical, escala negativa causa invertimento. (porcentagens) Somente leitura Double. |
 | [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Especifica o ângulo de inclinação horizontal. Somente leitura Double. |
 | [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Especifica o ângulo de inclinação vertical. Somente leitura Double. |
 | [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Especifica a posição inicial (ao longo da rampa de gradiente alfa) do valor alfa inicial (porcentagens). Somente leitura Single. |

@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes for .NET API Reference
 description: Reprezentuje klasę bazową dla kolekcji slajdów układu.
 type: docs
-weight: 6230
+weight: 6250
 url: /pl/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interfejs

@@ -1,14 +1,14 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: LightRig'i temsil eder.
 type: docs
-weight: 6270
+weight: 6290
 url: /tr/aspose.slides/ilightrig/
 ---
-## ILightRig arayüz
+## ILightRig arayüzü
 
-Represents LightRig.
+LightRig'i temsil eder.
 
 ```csharp
 public interface ILightRig
@@ -16,17 +16,17 @@ public interface ILightRig
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Işık yönü. Okunabilir/yazılabilir [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık hakkını temsil eder. Light rig, 3B sahneye göre belirli bir şekilde yönlendirilmiş bir grup ışığı temsil eder. Okunabilir/yazılabilir [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Işık yönü. Okuma/yazma [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık yönünü temsil eder. Light rig, 3B sahneye göre belirli bir şekilde yönlendirilmiş bir grup ışığı temsil eder. Okuma/yazma [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır. Döndürülen dizi içinde ilk öğe - enlem, ikincisi - boylam, üçüncüsü - devrim. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında devrim kullanılarak tanımlanır. Dönen dizi öğesinin ilk elemanı - enlem, ikinci - boylam, üçüncü - devrim. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında devrim kullanılarak tanımlanır. |
 
 ### Ayrıca Bakınız
 

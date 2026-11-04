@@ -3,7 +3,7 @@ title: FontData
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Schriftartdefinition dar. Unveränderlich.
 type: docs
-weight: 4820
+weight: 4840
 url: /de/aspose.slides/fontdata/
 ---
 ## FontData Klasse
@@ -24,16 +24,16 @@ public sealed class FontData : IFontData
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Gibt den Schriftartnamen zurück. Lesen/Schreiben String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Gibt den Schriftartnamen zurück. Lese/Schreib String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Bestimmt, ob zwei FontData-Instanzen gleich sind. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Gibt den Schriftartnamen zurück und ersetzt den Themenverweis durch die tatsächlich verwendete Schriftart. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für Hash-Algorithmen und Datenstrukturen wie eine Hashtabelle. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Gibt die Zeichenkettendarstellung zurück. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Gibt den Schriftartnamen zurück und ersetzt die Themenreferenz durch die tatsächlich verwendete Schriftart. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ und ist geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Gibt die Zeichenkettenrepräsentation zurück. |
 
 ### Siehe auch
 

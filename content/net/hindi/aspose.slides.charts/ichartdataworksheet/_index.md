@@ -1,20 +1,20 @@
 ---
 title: IChartDataWorksheet
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: IChartDataCell से संबंधित कार्यपत्रक का प्रतिनिधित्व करता है ./ichartdatacell
+description: IChartDataCell के साथ जुड़ा कार्यपत्रक दर्शाता है./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /hi/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet इंटरफ़ेस
 
-कार्यपत्रक जो [`IChartDataCell`](../ichartdatacell) से जुड़ा है, दर्शाता है
+[`IChartDataCell`](../ichartdatacell) के साथ संबद्ध कार्यपत्रक का प्रतिनिधित्व करता है
 
 ```csharp
 public interface IChartDataWorksheet
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |

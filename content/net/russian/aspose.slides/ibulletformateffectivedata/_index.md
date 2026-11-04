@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Неизменяемый объект, содержащий эффективные свойства форматирования маркировки абзаца.
+second_title: Aspose.Sildes для .NET справочник API
+description: Неизменяемый объект, содержащий эффективные свойства форматирования маркеров абзаца.
 type: docs
-weight: 5400
+weight: 5420
 url: /ru/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства форматирования маркировки абзаца.
+Неизменяемый объект, содержащий эффективные свойства форматирования маркеров абзаца.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -16,15 +16,15 @@ public interface IBulletFormatEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Возвращает фактическое значение маркера для родительского абзаца. Только для чтения String. |
 | [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Возвращает символ маркера абзаца. Только для чтения Char. |
 | [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Возвращает формат заполнения маркера абзаца. Только для чтения [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 | [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Возвращает шрифт маркера абзаца. Только для чтения [`IFontData`](../ifontdata). |
 | [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Возвращает высоту маркера абзаца. Только для чтения Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Определяет, имеет ли маркер собственный цвет или наследует его от первой части в абзаце. Возвращает **true**, если маркер имеет собственный цвет, и **false**, если маркер наследует цвет от первой части в абзаце. Только для чтения Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. Возвращает **true**, если маркер имеет собственный шрифт, и **true**, если маркер наследует шрифт от первой части в абзаце. Только для чтения Boolean. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Определяет, имеет ли маркер собственный цвет или наследует его от первой части в абзаце. Возвращает **true**, если у маркера собственный цвет, и **false**, если маркер наследует цвет от первой части в абзаце. Только для чтения Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. Возвращает **true**, если у маркера собственный шрифт, и **true**, если маркер наследует шрифт от первой части в абзаце. Только для чтения Boolean. |
 | [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Возвращает первое число, используемое для группы нумерованных маркеров. Только для чтения Int16. |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Возвращает стиль нумерованного маркера. Только для чтения [`NumberedBulletStyle`](../numberedbulletstyle). |
 | [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Возвращает тип маркера абзаца. Только для чтения [`BulletType`](../bullettype). |

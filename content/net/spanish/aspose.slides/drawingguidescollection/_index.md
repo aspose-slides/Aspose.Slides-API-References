@@ -1,9 +1,9 @@
 ---
 title: DrawingGuidesCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de las guías de dibujo ajustables.
 type: docs
-weight: 2820
+weight: 2840
 url: /es/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection clase
@@ -18,8 +18,8 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Devuelve la guía de dibujo por índice. Solo lectura [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Devuelve el número de elementos en la colección. Sólo lectura Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Devuelve la guía de dibujo por índice. Sólo lectura [`IDrawingGuide`](../idrawingguide). |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Agrega la guía de dibujo al final de la colección. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Elimina todos los elementos de la colección. |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Elimina la guía de dibujo en el índice especificado. |
 
 ### Ver también

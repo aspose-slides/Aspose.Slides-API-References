@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 인수에 대한 함수를 지정합니다.
 type: docs
-weight: 8270
+weight: 8290
 url: /ko/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction 인터페이스
 
-인수에 대한 함수를 지정합니다.
+인수의 함수를 지정합니다.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,13 +18,13 @@ public interface IMathFunction : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)에 대한 접근을 허용합니다 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)에 접근할 수 있습니다 |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | 함수 인수 |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 함수 이름 예: 함수 이름으로 sin과 cos가 있습니다 |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 함수 이름 예를 들어, 함수 이름은 sin 및 cos입니다 |
 
 ### 예제
 
-예:
+예시:
 
 ```csharp
 [C#]

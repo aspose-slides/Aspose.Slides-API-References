@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes pour .NET Référence d'API
-description: Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste ajuste toutes les couleurs pour qu'elles soient plus proches ou plus éloignées les unes des autres.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste agrandit toutes les couleurs pour qu'elles soient plus proches ou plus éloignées les unes des autres.
 type: docs
-weight: 3440
+weight: 3460
 url: /fr/aspose.slides.effects/iluminance/
 ---
-## interface ILuminance
+## ILuminance interface
 
-Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste ajuste toutes les couleurs pour qu’elles soient plus proches ou plus éloignées les unes des autres.
+Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste agrandit toutes les couleurs pour qu'elles soient plus proches ou plus éloignées les unes des autres.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 

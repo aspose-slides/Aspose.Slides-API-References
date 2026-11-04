@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar övergångshastighetstyper.
+description: Representerar typer av övergångshastighet.
 type: docs
-weight: 10440
+weight: 10460
 url: /sv/aspose.slides.slideshow/transitionspeed/
 ---
-## TransitionSpeed-enumeration
+## TransitionSpeed uppräkning
 
-Representerar övergångshastighetstyper.
+Representerar typer av övergångshastighet.
 
 ```csharp
 public enum TransitionSpeed

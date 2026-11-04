@@ -3,12 +3,12 @@ title: IVbaModuleCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi modul Proyek VBA.
 type: docs
-weight: 11540
+weight: 11560
 url: /id/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection antarmuka
 
-Mewakili koleksi modul Proyek VBA.
+Represents a collection of a VBA Project modules.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -25,7 +25,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 | Nama | Deskripsi |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Menambahkan modul kosong baru ke Proyek VBA. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Menghapus kemunculan pertama dari objek tertentu dari koleksi. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Menghapus kejadian pertama dari objek tertentu dalam koleksi. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: InkTrace
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa un objeto Trace. Un elemento Trace se utiliza para registrar los datos capturados por el digitalizador. Contiene una secuencia de puntos codificados según la especificación proporcionada por el objeto InkTraceFormat.
 type: docs
-weight: 7590
+weight: 7610
 url: /es/aspose.slides.ink/inktrace/
 ---
 ## InkTrace clase

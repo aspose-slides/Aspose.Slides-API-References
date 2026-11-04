@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng sang một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+description: Biểu diễn một hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 type: docs
-weight: 3000
+weight: 3020
 url: /vi/aspose.slides.effects/grayscale/
 ---
 ## GrayScale lớp
 
-Đại diện cho một hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng sang một sắc độ xám, tương ứng với độ sáng của chúng. Giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+Biểu diễn một hiệu ứng Gray Scale. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám, tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -26,7 +26,7 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Xác định xem [`GrayScale`](../grayscale) được chỉ định có bằng với [`GrayScale`](../grayscale) hiện tại hay không. |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Lấy dữ liệu hiệu ứng Gray Scale thực tế với kế thừa được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

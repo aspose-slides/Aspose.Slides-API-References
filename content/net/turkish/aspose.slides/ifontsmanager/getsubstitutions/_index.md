@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgileri alır.
+description: Sunumların işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 type: docs
-weight: 80
+weight: 90
 url: /tr/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Sunumun işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgileri alır.
+Sunumun işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Dönüş Değeri
 
-Tüm yazı tipi ikamelerinin koleksiyonu [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Tüm yazı tipi ikame koleksiyonu [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Örnekler
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Belirtilen slaytların render edilmesi sırasında değiştirilecek yazı tipleri hakkında bilgileri alır.
+Belirtilen slaytların işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,7 +49,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| slides | Int32[] | 1'den başlayan, yazı tipi ikame bilgilerini almak için kullanılacak slayt indeksleri dizisi. |
+| slides | Int32[] | 1’den başlayarak yazı tipi ikamesi bilgisinin alınacağı slayt dizinlerinin bir dizisi. |
 
 ### Dönüş Değeri
 

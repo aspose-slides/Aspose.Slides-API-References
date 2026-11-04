@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan objek Limit yang terdiri dari teks pada garis dasar dan teks berukuran lebih kecil tepat di atas atau di bawahnya.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan objek Limit yang terdiri dari teks pada garis dasar dan teks ukuran kecil tepat di atas atau di bawahnya.
 type: docs
-weight: 8320
+weight: 8340
 url: /id/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit antarmuka
 
-Menentukan objek Limit, yang terdiri dari teks pada garis dasar dan teks berukuran lebih kecil tepat di atas atau di bawahnya.
+Menentukan objek Limit, yang terdiri dari teks pada garis dasar dan teks berukuran kecil tepat di atas atau di bawahnya.
 
 ```csharp
 public interface IMathLimit : IMathElement

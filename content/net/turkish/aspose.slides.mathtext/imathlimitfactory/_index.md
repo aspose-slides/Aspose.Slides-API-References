@@ -1,31 +1,31 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes .NET API Referansı
-description: IMathLimit oluşturulmasına izin verir
+second_title: Aspose.Sildes for .NET API Referansı
+description: IMathLimit oluşturulmasını sağlar
 type: docs
-weight: 8330
+weight: 8350
 url: /tr/aspose.slides.mathtext/imathlimitfactory/
 ---
-## IMathLimitFactory arayüzü
+## IMathLimitFactory arayüz
 
-IMathLimit oluşturulmasına izin verir
+IMathLimit oluşturulmasını sağlar
 
 ```csharp
 public interface IMathLimitFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Alt sınırda IMathLimit oluşturur |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Alt sınırda limit ile IMathLimit oluşturur |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMathLimit oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### İlgili
+### Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

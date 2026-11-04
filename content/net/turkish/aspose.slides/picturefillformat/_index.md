@@ -3,12 +3,12 @@ title: PictureFillFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir resim doldurma stilini temsil eder.
 type: docs
-weight: 9390
+weight: 9410
 url: /tr/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat sınıfı
 
-Bir resim doldurma stilini temsil eder.
+Represents a picture fill style.
 
 ```csharp
 public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
@@ -18,32 +18,32 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | Resmin alt kısmından kırpılan gerçek görüntü yüksekliğinin yüzde miktarını döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
-| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | Resmin sol kısmından kırpılan gerçek görüntü genişliğinin yüzde miktarını döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
-| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | Resmin sağ kısmından kırpılan gerçek görüntü genişliğinin yüzde miktarını döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
-| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | Resmin üst kısmından kırpılan gerçek görüntü yüksekliğinin yüzde miktarını döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
-| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | Resmi doldurmak için kullanılan dpi değerini döndürür veya ayarlar. Okunabilir/Yazılabilir Int32. |
-| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | Resmi döndürür. Salt okunur [`ISlidesPicture`](../islidespicture). |
-| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | Resim doldurma modunu döndürür veya ayarlar. Okunabilir/Yazılabilir [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | Şeklin sınırlayıcı kutusunun alt kenarından yüzde ofset ile tanımlanan doldurma dikdörtgeninin alt kenarını döndürür veya ayarlar. Pozitif yüzde bir girinti, negatif yüzde bir dışarı çıkış belirtir. Okunabilir/Yazılabilir Single. |
-| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | Şeklin sınırlayıcı kutusunun sol kenarından yüzde ofset ile tanımlanan doldurma dikdörtgeninin sol kenarını döndürür veya ayarlar. Pozitif yüzde bir girinti, negatif yüzde bir dışarı çıkış belirtir. Okunabilir/Yazılabilir Single. |
-| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | Şeklin sınırlayıcı kutusunun sağ kenarından yüzde ofset ile tanımlanan doldurma dikdörtgeninin sağ kenarını döndürür veya ayarlar. Pozitif yüzde bir girinti, negatif yüzde bir dışarı çıkış belirtir. Okunabilir/Yazılabilir Single. |
-| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | Şeklin sınırlayıcı kutusunun üst kenarından yüzde ofset ile tanımlanan doldurma dikdörtgeninin üst kenarını döndürür veya ayarlar. Pozitif yüzde bir girinti, negatif yüzde bir dışarı çıkış belirtir. Okunabilir/Yazılabilir Single. |
-| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | Doku şekil içinde nasıl hizalanacağını döndürür veya ayarlar. Bu ayar, doku deseninin başlangıç noktasını ve şekil boyunca nasıl tekrar edeceğini kontrol eder. Okunabilir/Yazılabilir [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | Dokunun yatay, dikey veya her iki eksende çevrilmesini sağlar. Okunabilir/Yazılabilir [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | Dokunun şeklin orijininden puan cinsinden yatay ofsetini döndürür veya ayarlar. Pozitif değer dokuyu sağa, negatif değer sola kaydırır. Okunabilir/Yazılabilir Single. |
-| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | Dokunun şeklin orijininden puan cinsinden dikey ofsetini döndürür veya ayarlar. Pozitif değer dokuyu aşağı, negatif değer yukarı kaydırır. Okunabilir/Yazılabilir Single. |
-| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | Doku doldurmanın yatay ölçeğini yüzde olarak döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
-| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | Doku doldurmanın dikey ölçeğini yüzde olarak döndürür veya ayarlar. Okunabilir/Yazılabilir Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | Gerçek resim yüksekliğinin yüzde kaçının resmin altından kırpıldığını döndürür veya ayarlar. Okunur/yazılır Single. |
+| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | Gerçek resim genişliğinin yüzde kaçının resmin solundan kırpıldığını döndürür veya ayarlar. Okunur/yazılır Single. |
+| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | Gerçek resim genişliğinin yüzde kaçının resmin sağından kırpıldığını döndürür veya ayarlar. Okunur/yazılır Single. |
+| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | Gerçek resim yüksekliğinin yüzde kaçının resmin üstünden kırpıldığını döndürür veya ayarlar. Okunur/yazılır Single. |
+| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | Resmi doldurmak için kullanılan dpi'yi döndürür veya ayarlar. Okunur/yazılır Int32. |
+| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | Resmi döndürür. Yalnızca okunabilir [`ISlidesPicture`](../islidespicture). |
+| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | Resim doldurma modunu döndürür veya ayarlar. Okunur/yazılır [`PictureFillMode`](../picturefillmode). |
+| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | Şeklin sınırlayıcı kutusunun alt kenarından yüzde ofsetle tanımlanan doldurma dikdörtgeninin alt kenarını döndürür veya ayarlar. Pozitif yüzde bir iç kenar, negatif yüzde bir dış kenar belirtir. Okunur/yazılır Single. |
+| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | Şeklin sınırlayıcı kutusunun sol kenarından yüzde ofsetle tanımlanan doldurma dikdörtgeninin sol kenarını döndürür veya ayarlar. Pozitif yüzde bir iç kenar, negatif yüzde bir dış kenar belirtir. Okunur/yazılır Single. |
+| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | Şeklin sınırlayıcı kutusunun sağ kenarından yüzde ofsetle tanımlanan doldurma dikdörtgeninin sağ kenarını döndürür veya ayarlar. Pozitif yüzde bir iç kenar, negatif yüzde bir dış kenar belirtir. Okunur/yazılır Single. |
+| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | Şeklin sınırlayıcı kutusunun üst kenarından yüzde ofsetle tanımlanan doldurma dikdörtgeninin üst kenarını döndürür veya ayarlar. Pozitif yüzde bir iç kenar, negatif yüzde bir dış kenar belirtir. Okunur/yazılır Single. |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | Doku şekil içinde nasıl hizalanacağını döndürür veya ayarlar. Bu ayar, doku deseninin başlangıç noktasını ve şekil boyunca nasıl tekrarlanacağını kontrol eder. Okunur/yazılır [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | Doku karosunu yatay, dikey veya her iki eksende çevirir. Okunur/yazılır [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | Doku'nun şeklin başlangıcından yatay ofsetini (puan cinsinden) döndürür veya ayarlar. Pozitif değer doku'nu sağa, negatif değer sola hareket ettirir. Okunur/yazılır Single. |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | Doku'nun şeklin başlangıcından düşey ofsetini (puan cinsinden) döndürür veya ayarlar. Pozitif değer doku'nu aşağı, negatif değer yukarı hareket ettirir. Okunur/yazılır Single. |
+| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | Doku doldurması için yatay ölçeği yüzde olarak döndürür veya ayarlar. Okunur/yazılır Single. |
+| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | Doku doldurması için düşey ölçeği yüzde olarak döndürür veya ayarlar. Okunur/yazılır Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | Görüntüyü şekil boyutuna ve belirtilen çözünürlüğe göre boyutunu azaltarak sıkıştırır. İsteğe bağlı olarak, kırpılmış alanları da siler. |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Görüntüyü şekil boyutuna ve belirtilen çözünürlüğe göre boyutunu azaltarak sıkıştırır. İsteğe bağlı olarak, kırpılmış alanları da siler. |
-| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Doldurma resmi üzerindeki kırpılmış alanları siler. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | Şekil boyutuna ve belirtilen çözünürlüğe bağlı olarak boyutunu küçülterek resmi sıkıştırır. İsteğe bağlı olarak, kırpılmış alanları da siler. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Şekil boyutuna ve belirtilen çözünürlüğe bağlı olarak boyutunu küçülterek resmi sıkıştırır. İsteğe bağlı olarak, kırpılmış alanları da siler. |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Doldurma resmindeki kırpılmış alanları sil. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 

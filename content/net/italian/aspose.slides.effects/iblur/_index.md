@@ -1,14 +1,14 @@
 ---
 title: IBlur
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Blur applicato all'intera forma, includendo il riempimento. Tutti i canali colore, incluso l'alpha, sono influenzati.
+description: Rappresenta un effetto Blur applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, incluso l'alpha, sono influenzati.
 type: docs
-weight: 3180
+weight: 3200
 url: /it/aspose.slides.effects/iblur/
 ---
 ## IBlur interfaccia
 
-Rappresenta un effetto Blur che viene applicato all'intera forma, includendo il riempimento. Tutti i canali colore, incluso l'alpha, sono influenzati.
+Rappresenta un effetto Blur che viene applicato all'intera forma, inclusa la sua riempitura. Tutti i canali colore, incluso l'alpha, sono influenzati.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -20,8 +20,8 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se i limiti dell'oggetto debbano essere ampliati a seguito della sfocatura. True indica che i limiti sono ampliati mentre false indica che non lo sono. Lettura/scrittura Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Restituisce o imposta il raggio della sfocatura. Lettura/scrittura Double. |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Determina se i limiti dell'oggetto devono essere ampliati come risultato del blur. True indica che i limiti sono ampliati mentre false indica che non lo sono. Lettura/scrittura Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Restituisce o imposta il raggio del blur. Lettura/scrittura Double. |
 
 ### Vedi anche
 

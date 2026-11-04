@@ -1,9 +1,9 @@
 ---
 title: IInOutTransition
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per l'API di riferimento .NET
 description: Effetto di transizione diapositiva In-Out.
 type: docs
-weight: 10110
+weight: 10130
 url: /it/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition interfaccia

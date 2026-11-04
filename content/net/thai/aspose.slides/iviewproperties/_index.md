@@ -1,14 +1,14 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คุณสมบัติการมองเห็นทั่วทั้งการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คุณสมบัติมุมมองทั่วทั้งการนำเสนอ.
 type: docs
-weight: 7390
+weight: 7410
 url: /th/aspose.slides/iviewproperties/
 ---
-## IViewProperties อินเทอร์เฟซ
+## IViewProperties ส่วนต่อประสาน
 
-Presentation wide view properties.
+คุณสมบัติมุมมองของการนำเสนอทั้งหมด.
 
 ```csharp
 public interface IViewProperties
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | คืนค่า หรือ ตั้งค่าระยะห่างของเส้นกริดที่ควรใช้สำหรับกริดที่อยู่ใต้เอกสารการนำเสนอ หน่วยเป็นพอยต์. อ่าน/เขียน Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | ระบุโหมดการดูที่ใช้เมื่อบันทึกเอกสารการนำเสนอเป็นครั้งสุดท้าย. อ่าน/เขียน [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | แสดงคุณสมบัติของมุมมองปกติ. มุมมองปกติมีพื้นที่เนื้อหา 3 ส่วน: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง, และพื้นที่เนื้อหาทางด้านล่าง. อ่านอย่างเดียว [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | ระบุคุณสมบัติการดูทั่วไปที่เชื่อมโยงกับโหมดการดูบันทึกย่อ. อ่านอย่างเดียว [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | ระบุว่าความคิดเห็นของสไลด์ควรแสดงหรือไม่. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | ระบุคุณสมบัติการดูทั่วไปที่เชื่อมโยงกับโหมดการดูสไลด์. อ่านอย่างเดียว [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | คืนค่า หรือกำหนดระยะห่างของตารางที่ควรใช้สำหรับกริดที่เป็นพื้นฐานของเอกสารการนำเสนอเป็นหน่วยจุด. อ่าน/เขียน Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | ระบุโหมดมุมมองที่ใช้เมื่อไฟล์การนำเสนอถูกบันทึกครั้งล่าสุด. อ่าน/เขียน [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | แสดงคุณสมบัติมุมมองปกติ. มุมมองปกติมีสามพื้นที่เนื้อหา: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง, และพื้นที่เนื้อหาด้านล่าง. อ่านอย่างเดียว [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | ระบุคุณสมบัติมุมมองทั่วไปที่เกี่ยวข้องกับโหมดมุมมองบันทึกย่อ. อ่านอย่างเดียว [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | ระบุว่าจะให้แสดงความคิดเห็นของสไลด์แสดงหรือไม่. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | ระบุคุณสมบัติมุมมองทั่วไปที่เกี่ยวข้องกับโหมดมุมมองสไลด์. อ่านอย่างเดียว [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### ดูเพิ่มเติม
 

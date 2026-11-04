@@ -3,7 +3,7 @@ title: PlaceholderType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示占位符的类型。
 type: docs
-weight: 9450
+weight: 9470
 url: /zh/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType 枚举
@@ -14,28 +14,28 @@ url: /zh/aspose.slides/placeholdertype/
 public enum PlaceholderType : sbyte
 ```
 
-### Values
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Title | `0` | 标题。 |
-| Body | `1` | 正文。 |
-| CenteredTitle | `2` | 居中标题。 |
-| Subtitle | `3` | 副标题。 |
-| DateAndTime | `4` | 日期和时间。 |
-| SlideNumber | `5` | 幻灯片编号。 |
-| Footer | `6` | 页脚。 |
-| Header | `7` | 页眉。 |
-| Object | `8` | 对象。 |
-| Chart | `9` | 图表。 |
-| Table | `10` | 表格。 |
-| ClipArt | `11` | 剪贴画。 |
-| Diagram | `12` | 图示。 |
-| Media | `13` | 媒体。 |
-| SlideImage | `14` | 幻灯片图像。 |
-| Picture | `15` | 图片。 |
+| Title | `0` | Title. |
+| Body | `1` | Body. |
+| CenteredTitle | `2` | Centered Title. |
+| Subtitle | `3` | Subtitle. |
+| DateAndTime | `4` | Date and Time. |
+| SlideNumber | `5` | Slide Number. |
+| Footer | `6` | Footer. |
+| Header | `7` | Header. |
+| Object | `8` | Object. |
+| Chart | `9` | Chart. |
+| Table | `10` | Table. |
+| ClipArt | `11` | Clip Art. |
+| Diagram | `12` | Diagram. |
+| Media | `13` | Media. |
+| SlideImage | `14` | Slide Image. |
+| Picture | `15` | Picture. |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

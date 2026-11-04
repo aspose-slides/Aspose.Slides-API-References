@@ -1,9 +1,9 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Nabízí metody, které pomáhají vyhledávat tvary a text v prezentaci.
 type: docs
-weight: 11520
+weight: 11540
 url: /cs/aspose.slides.util/slideutil/
 ---
 ## SlideUtil třída
@@ -18,18 +18,18 @@ public static class SlideUtil
 
 | Název | Popis |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Mění umístění všech tvarů na snímku. Zarovnává tvary k okrajům nebo k hraně snímku nebo je zarovnává relativně vůči sobě navzájem. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Mění umístění všech tvarů v rámci skupinového tvaru. Zarovnává tvary k okrajům nebo k hraně snímku nebo je zarovnává relativně vůči sobě navzájem. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Mění umístění vybraných tvarů na snímku. Zarovnává tvary k okrajům nebo k hraně snímku nebo je zarovnává relativně vůči sobě navzájem. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Mění umístění vybraných tvarů v rámci skupinového tvaru. Zarovnává tvary k okrajům nebo k hraně snímku nebo je zarovnává relativně vůči sobě navzájem. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Najde a nahradí text v prezentaci zadaným formátem |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Najde tvar podle alternativního textu na snímku v prezentaci PPTX. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Najde tvar podle alternativního textu v prezentaci PPTX. |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Vyhledá všechny tvary na určeném snímku, které odpovídají danému typu zástupného prvku. |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Vrátí všechny textové rámečky na snímku v prezentaci PPTX. |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Vrátí všechny textové rámečky v prezentaci PPTX. |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Vrátí všechny textové rámečky na určeném snímku, které obsahují zadaný text. |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Převede formát zdrojového souboru na odpovídající [`SaveFormat`](../../aspose.slides.export/saveformat). |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Mění umístění všech tvarů na snímku. Zarovnává tvary k okrajům snímku nebo k jeho okrajům nebo je zarovnává relativně k sobě navzájem. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Mění umístění všech tvarů ve skupinovém tvaru. Zarovnává tvary k okrajům snímku nebo k jeho okrajům nebo je zarovnává relativně k sobě navzájem. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Mění umístění vybraných tvarů na snímku. Zarovnává tvary k okrajům snímku nebo k jeho okrajům nebo je zarovnává relativně k sobě navzájem. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Mění umístění vybraných tvarů ve skupinovém tvaru. Zarovnává tvary k okrajům snímku nebo k jeho okrajům nebo je zarovnává relativně k sobě navzájem. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Vyhledá a nahradí text v prezentaci pomocí zadaného formátu |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Najde tvar dle alternativního textu na snímku v prezentaci PPTX. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Najde tvar dle alternativního textu v prezentaci PPTX. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Vyhledá všechny tvary na určeném snímku, které odpovídají zadanému typu zástupce. |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Vrací všechny textové rámečky na snímku v prezentaci PPTX. |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Vrací všechny textové rámečky v prezentaci PPTX. |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Vrací všechny textové rámečky na určeném snímku, které obsahují zadaný text. |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Převádí formát zdrojového souboru na odpovídající [`SaveFormat`](../../aspose.slides.export/saveformat). |
 
 ### Viz také
 

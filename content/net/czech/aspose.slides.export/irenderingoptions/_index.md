@@ -3,12 +3,12 @@ title: IRenderingOptions
 second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje možnosti, které řídí, jak je prezentace/snímek vykreslen.
 type: docs
-weight: 4040
+weight: 4060
 url: /cs/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions rozhraní
 
-Poskytuje možnosti, které řídí, jak je prezentace/snímek vykreslena.
+Poskytuje možnosti, které řídí, jak je prezentace/snímek vykreslen.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -16,12 +16,12 @@ public interface IRenderingOptions : ISaveOptions
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Získá nebo nastaví hodnotu určující, zda je text vykreslen bez použití ligatur. Když je nastavena na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Získává nebo nastavuje hodnotu určující, zda je text vykreslován bez použití ligatur. Když je nastavena na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled objektů Ink v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Příklady
 

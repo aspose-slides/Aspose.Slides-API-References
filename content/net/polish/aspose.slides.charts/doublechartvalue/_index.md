@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: "Reprezentuje wartość podwójną, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literał."
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje wartość typu double, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość dosłowną.
 type: docs
-weight: 1630
+weight: 1640
 url: /pl/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue klasa
 
-Reprezentuje wartość zmiennoprzecinkową podwójną, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literał.
+Reprezentuje wartość typu double, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość dosłowną.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -19,7 +19,7 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 | Nazwa | Opis |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Zwraca lub ustawia komórkę danych wykresu. odczyt/zapis [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Zwraca lub ustawia wartość jako podwójną stałą. odczyt/zapis Double. |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Zwraca lub ustawia wartość jako dosłowny double. odczyt/zapis Double. |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Zwraca lub ustawia obiekt Data. odczyt/zapis Object. |
 | [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w pochodnych. Innymi słowy określa typ wartości właściwości Data. odczyt/zapis [`DataSourceType`](../datasourcetype). |
 

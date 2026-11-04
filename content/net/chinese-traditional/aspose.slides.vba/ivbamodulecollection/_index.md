@@ -1,9 +1,9 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 VBA 專案模組的集合。
 type: docs
-weight: 11540
+weight: 11560
 url: /zh-hant/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection 介面
@@ -24,8 +24,8 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 將新的空白模組新增至 VBA 專案。 |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 從集合中移除第一次出現的特定物件。 |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 新增一個空的模組至 VBA 專案。 |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 從集合中移除第一個出現的特定物件。 |
 
 ### 另請參閱
 

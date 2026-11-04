@@ -3,12 +3,12 @@ title: ILayoutable
 second_title: Aspose.Sildes para .NET Referência de API
 description: Especifica a posição exata de um elemento de gráfico.
 type: docs
-weight: 2120
+weight: 2140
 url: /pt/aspose.slides.charts/ilayoutable/
 ---
-## interface ILayoutable
+## ILayoutable interface
 
-Especifica a posição exata de um elemento do gráfico.
+Especifica a posição exata de um elemento de gráfico.
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -19,14 +19,14 @@ public interface ILayoutable : IChartComponent
 | Nome | Descrição |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Permite obter a interface base IChartComponent. Somente leitura [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Obtém a parte superior do elemento do gráfico como uma fração da altura do gráfico. Somente leitura Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Especifica a altura do elemento do gráfico como uma fração da altura do gráfico. Leitura/gravação Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtém a parte direita do elemento do gráfico como uma fração da largura do gráfico. Somente leitura Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Especifica a largura do elemento do gráfico como uma fração da largura do gráfico. Leitura/gravação Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Especifica a localização x (esquerda) do elemento do gráfico como uma fração da largura do gráfico. Leitura/gravação Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Especifica a parte superior do elemento do gráfico como uma fração da altura do gráfico. Leitura/gravação Single. |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Obtém o topo do elemento de gráfico como fração da altura do gráfico. Somente leitura Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Especifica a altura do elemento de gráfico como fração da altura do gráfico. Leitura/gravação Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Obtém a direita do elemento de gráfico como fração da largura do gráfico. Somente leitura Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Especifica a largura do elemento de gráfico como fração da largura do gráfico. Leitura/gravação Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Especifica a localização x (esquerda) do elemento de gráfico como fração da largura do gráfico. Leitura/gravação Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Especifica o topo do elemento de gráfico como fração da altura do gráfico. Leitura/gravação Single. |
 
-### Ver também
+### Veja Também
 
 * interface [IChartComponent](../ichartcomponent)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

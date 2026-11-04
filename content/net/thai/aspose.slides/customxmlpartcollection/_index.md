@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดง collection ของ custom xml parts.
+description: เป็นคอลเลกชันของส่วน XML แบบกำหนดเอง.
 type: docs
-weight: 2750
+weight: 2770
 url: /th/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection คลาส
 
-แสดง collection ของ custom xml parts.
+เป็นคอลเลกชันของส่วน XML แบบกำหนดเอง.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -16,25 +16,25 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | ส่งคืนจำนวนของ custom xml parts ใน collection. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึง collection ถูกซิงโครไนซ์ (thread-safe) หรือไม่. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | ส่งคืนองค์ประกอบที่ตำแหน่ง index ที่ระบุ. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | ส่งคืนจำนวนของส่วน XML แบบกำหนดเองในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึงคอลเลกชันนี้มีการประสาน (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | ส่งคืนองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | ส่งคืนรากฐานการประสาน. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | เพิ่ม custom xml part ใหม่. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | เพิ่ม custom xml part ใหม่. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | เพิ่ม custom xml part ใหม่. |
-| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | ลบรายการทั้งหมดออกจาก collection. |
-| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | คัดลอกไปยัง array ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | ส่งคืน enumerator ที่วนผ่าน collection. |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | ลบการพบครั้งแรกของวัตถุเฉพาะจาก collection. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | ลบ custom xml part ที่ตำแหน่ง index ที่ระบุ. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | เพิ่มส่วน XML แบบกำหนดใหม่. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | เพิ่มส่วน XML แบบกำหนดใหม่. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | เพิ่มส่วน XML แบบกำหนดใหม่. |
+| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | ลบรายการทั้งหมดจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | คัดลอกไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | ส่งคืนตัววนซ้ำที่ทำการวนผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | ลบการปรากฏครั้งแรกของวัตถุที่ระบุจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | ลบส่วน XML แบบกำหนดที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

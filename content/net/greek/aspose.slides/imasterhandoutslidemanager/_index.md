@@ -3,7 +3,7 @@ title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Διαχειριστής κύριας διαφάνειας εγχειριδίου.
 type: docs
-weight: 6370
+weight: 6390
 url: /el/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager διασύνδεση
@@ -18,13 +18,13 @@ public interface IMasterHandoutSlideManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Επιστρέφει έναν κύριο για όλες τις διαφάνειες σημειώσεων αυτής της παρουσίασης εάν υπάρχει, διαφορετικά επιστρέφει null. Μόνο για ανάγνωση [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Επιστρέφει ένα master για όλες τις διαφάνειες σημειώσεων αυτής της παρουσίασης εάν υπάρχει, διαφορετικά επιστρέφει null. Μόνο για ανάγνωση [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Καταργεί την κύρια διαφάνεια εγχειριδίου. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Αφαιρεί τη κύρια διαφάνεια εγχειριδίου. |
 | [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Ορίζει την προεπιλεγμένη κύρια διαφάνεια εγχειριδίου στην σχετική διαφάνεια εγχειριδίου. |
 
 ### Δείτε επίσης

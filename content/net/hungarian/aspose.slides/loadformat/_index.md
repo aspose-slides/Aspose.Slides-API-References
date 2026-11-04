@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes .NET API-referencia
-description: Megadja a betöltendő dokumentum formátumát.
+second_title: Aspose.Sildes .NET API referenciája
+description: Jelzi a betöltendő dokumentum formátumát.
 type: docs
-weight: 7830
+weight: 7850
 url: /hu/aspose.slides/loadformat/
 ---
 ## LoadFormat enumeráció
 
-Megadja a betöltendő dokumentum formátumát.
+Jelzi a betöltendő dokumentum formátumát.
 
 ```csharp
 public enum LoadFormat
@@ -18,20 +18,20 @@ public enum LoadFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Auto | `0` | Az Aspose.Slides számára automatikusan felismeri a formátumot. |
+| Auto | `0` | Az Aspose.Slides-t arra utasítja, hogy a formátumot automatikusan felismerje. |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 prezentáció. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 Diavetítés. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 dia előadás. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML dokumentum. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML diavetítés. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML dia előadás. |
 | Odp | `5` | OpenOffice ODF prezentáció. |
 | Potx | `6` | Microsoft Office Open XML PresentationML sablon. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML makróval ellátott dokumentum. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML makróval ellátott diavetítés. |
-| Potm | `9` | Microsoft Office Open XML PresentationML makróval ellátott sablon. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML makrókkal ellátott dokumentum. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML makrókkal ellátott dia előadás. |
+| Potm | `9` | Microsoft Office Open XML PresentationML makrókkal ellátott sablon. |
 | Otp | `10` | OpenOffice OTP prezentációs sablon. |
 | Ppt95 | `11` | Microsoft PowerPoint 95 prezentáció. |
 | Pot | `12` | Microsoft PowerPoint 97-2003 prezentációs sablon. |
-| Fodp | `13` | Lapos XML ODF prezentáció. |
+| Fodp | `13` | Flat XML ODF prezentáció. |
 | Unknown | `255` | Ismeretlen fájlformátum |
 
 ### Lásd még

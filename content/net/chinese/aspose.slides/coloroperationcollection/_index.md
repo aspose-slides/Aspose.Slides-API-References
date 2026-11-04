@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
 second_title: Aspose.Sildes .NET API 参考
-description: 表示颜色变换操作的集合。
+description: 表示一组颜色变换操作。
 type: docs
-weight: 2540
+weight: 2560
 url: /zh/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection 类
 
-表示颜色变换操作的集合。
+表示一组颜色变换操作。
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,27 +18,27 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 返回集合中操作的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。读写 [`ColorOperation`](../coloroperation)。 |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 返回集合中操作的数量。只读 Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。读/写 [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 返回同步根。只读 Object. |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | 向集合的末尾添加一个新操作。 |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | 向集合的末尾添加一个新操作。 |
-| [Clear](../../aspose.slides/coloroperationcollection/clear)() | 删除所有颜色操作。 |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | 创建一个 ColorOperationCollection 集合的副本。 |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | 在集合末尾添加一个新操作。 |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | 在集合末尾添加一个新操作。 |
+| [Clear](../../aspose.slides/coloroperationcollection/clear)() | 移除所有颜色操作。 |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | 创建 ColorOperationCollection 集合的副本。 |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | 克隆当前对象 |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | 将新操作插入到集合中。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 将新操作插入到集合中。 |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 从集合中删除颜色操作。 |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 从集合中移除颜色操作。 |
 
-### 另见
+### 参见
 
 * 接口 [IColorOperationCollection](../icoloroperationcollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

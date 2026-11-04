@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Gruppe von Formen auf einer Folie dar.
 type: docs
-weight: 6080
+weight: 6100
 url: /de/aspose.slides/igroupshape/
 ---
 ## IGroupShape Schnittstelle

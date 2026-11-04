@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Minden nem SVG képre (bitkép vagy metafájl) a Markdown exportálás során meghívásra kerül. true értékkel a megadott link használható, false esetén az alapértelmezett mentési logika kerül alkalmazásra.
+second_title: Aspose.Sildes .NET API Referencia
+description: Minden nem SVG képre (bittérkép vagy metafájl) a Markdown exportálás során meghívódik. Adjon vissza true értéket a megadott link használatához, vagy false-t az alapértelmezett mentési logika alkalmazásához.
 type: docs
-weight: 4260
+weight: 4280
 url: /hu/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownImageSavingHandler delegált
 
-Minden nem SVG képre (bitkép vagy metafájl) a Markdown exportálás során meghívásra kerül. `true` értékkel a megadott *link* használható, `false` esetén az alapértelmezett mentési logika kerül alkalmazásra.
+Minden nem SVG képre (bittérkép vagy metafájl) a Markdown exportálás során meghívódik. Adjon vissza `true` értéket a megadott *link* használatához, vagy `false`-t az alapértelmezett mentési logika alkalmazásához.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -16,7 +16,7 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| image | IImage | Az exportált kép (bitkép vagy metafájl). |
+| image | IImage | A exportálandó kép (bittérkép vagy metafájl). |
 | format | ImageFormat | A kép formátuma. |
 | link | String& | A Markdown link, amelyet akkor kell használni, ha `true` értéket ad vissza. |
 

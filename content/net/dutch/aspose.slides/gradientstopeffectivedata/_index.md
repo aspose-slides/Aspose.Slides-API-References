@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een kleurovergangspunt vertegenwoordigt.
+description: Onveranderlijk object dat een kleurstop vertegenwoordigt.
 type: docs
-weight: 5050
+weight: 5070
 url: /nl/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData klasse
 
-Onveranderlijk object dat een kleurovergangspunt vertegenwoordigt.
+Onveranderlijk object dat een kleurstop vertegenwoordigt.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Geeft de kleur van een kleurovergangspunt terug. Alleen-lezen Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Geeft de positie (0..1) van een kleurovergangspunt terug. Alleen-lezen Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Retourneert de kleur van een kleurstop. Alleen-lezen Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Retourneert de positie (0..1) van een kleurstop. Alleen-lezen Single. |
 
 ## Methoden
 

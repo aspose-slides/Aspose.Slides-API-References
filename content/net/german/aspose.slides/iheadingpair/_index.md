@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine 'Heading pair'-Eigenschaft des Dokuments dar. Sie gibt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
+description: Stellt eine Heading pair-Eigenschaft des Dokuments dar. Sie gibt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
 type: docs
-weight: 6100
+weight: 6120
 url: /de/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair Schnittstelle
 
-Stellt eine 'Heading pair'-Eigenschaft des Dokuments dar. Sie gibt den Gruppennamen von Dokumentteilen und die Anzahl der Teile in der Gruppe an.
+Stellt eine 'Heading pair'-Eigenschaft des Dokuments dar. Sie gibt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
 
 ```csharp
 public interface IHeadingPair
@@ -18,8 +18,8 @@ public interface IHeadingPair
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | Gibt die Anzahl der Teile in der Gruppe zurück. Nur-Lesen Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | Gibt den Gruppennamen der Dokumentteile zurück. Nur-Lesen String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | Gibt die Anzahl der Teile in der Gruppe zurück. Nur lesbar Int32. |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | Gibt den Gruppennamen der Dokumentteile zurück. Nur lesbar String. |
 
 ### Siehe auch
 

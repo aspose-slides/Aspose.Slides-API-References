@@ -1,9 +1,9 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET referenci API
 description: Efekt přechodu orientace snímku.
 type: docs
-weight: 10270
+weight: 10290
 url: /cs/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition třída
@@ -24,8 +24,8 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Viz také
 

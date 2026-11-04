@@ -1,9 +1,9 @@
 ---
 title: ISvgTSpan
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 SVG 文字部分 tspan 的選項。
 type: docs
-weight: 4140
+weight: 4160
 url: /zh-hant/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan 介面

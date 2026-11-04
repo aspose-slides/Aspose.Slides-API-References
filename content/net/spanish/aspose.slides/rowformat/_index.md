@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el formato de una fila de tabla.
 type: docs
-weight: 9730
+weight: 9750
 url: /es/aspose.slides/rowformat/
 ---
 ## RowFormat clase
@@ -18,7 +18,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Obtiene las propiedades de formato efectivas de la fila de tabla con herencia y estilos de tabla aplicados. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Obtiene las propiedades de formato de fila de tabla efectivas con herencia y estilos de tabla aplicados. |
 
 ### Ver también
 

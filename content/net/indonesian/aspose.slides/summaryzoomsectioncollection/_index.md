@@ -3,12 +3,12 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi objek Summary Zoom Section.
 type: docs
-weight: 10790
+weight: 10810
 url: /id/aspose.slides/summaryzoomsectioncollection/
 ---
-## SummaryZoomSection kelas
+## SummaryZoomSectionCollection kelas
 
-Mewakili sekumpulan objek Summary Zoom Section.
+Mewakili koleksi objek Summary Zoom Section.
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -17,16 +17,16 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Membuat objek Summary Zoom Section baru dan menambahkannya ke koleksi |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Menghapus semua objek SummaryZoomSection dari koleksi. |

@@ -3,7 +3,7 @@ title: PVIObject
 second_title: Aspose.Sildes pro .NET API Reference
 description: Zapouzdřuje základní servisní infrastrukturu pro objekty, které mohou být předmětem dědičnosti hodnot vlastností.
 type: docs
-weight: 9270
+weight: 9290
 url: /cs/aspose.slides/pviobject/
 ---
 ## PVIObject třída
@@ -24,7 +24,7 @@ public abstract class PVIObject : ISlideComponent
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

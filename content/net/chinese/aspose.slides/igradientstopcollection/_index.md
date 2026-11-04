@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示渐变停止点的集合。
+second_title: Aspose.Sildes .NET API参考
+description: 表示一个渐变停止点的集合。
 type: docs
-weight: 6030
+weight: 6050
 url: /zh/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection 接口
 
-表示渐变停止点的集合。
+表示一个渐变停止点的集合。
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -16,24 +16,24 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | 返回按索引获取的渐变停止点。 |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | 返回指定索引处的渐变停止点。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | 创建新的渐变停止点并将其添加到集合的末尾。 |
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | 创建新的渐变停止点并将其添加到集合的末尾。 |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | 创建新的渐变停止点并将其添加到集合的末尾。 |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | 从集合中删除所有渐变停止点。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | 创建新的渐变停止点并在指定索引处插入到集合中。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | 创建新的渐变停止点并在指定索引处插入到集合中。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 创建新的渐变停止点并在指定索引处插入到集合中。 |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 删除指定索引处的渐变停止点。 |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | 从集合中移除所有渐变停止点。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | 创建新的渐变停止点并将其插入到集合中指定的索引位置。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | 创建新的渐变停止点并将其插入到集合中指定的索引位置。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 创建新的渐变停止点并将其插入到集合中指定的索引位置。 |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 移除指定索引处的渐变停止点。 |
 
-### 参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IGradientStop](../igradientstop)

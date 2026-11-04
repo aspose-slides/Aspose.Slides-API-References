@@ -3,7 +3,7 @@ title: ErrorBarType
 second_title: Aspose.Sildes .NET API 参考
 description: 表示误差线的类型
 type: docs
-weight: 1640
+weight: 1650
 url: /zh/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType 枚举
@@ -18,11 +18,11 @@ public enum ErrorBarType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Both | `0` | 指定误差线应在正向和负向方向显示。 |
-| Minus | `1` | 指定误差线仅在负向方向显示。 |
-| Plus | `2` | 指定误差线仅在正向方向显示。 |
+| Both | `0` | 指定应在正向和负向显示误差线。 |
+| Minus | `1` | 指定应仅在负向显示误差线。 |
+| Plus | `2` | 指定应仅在正向显示误差线。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

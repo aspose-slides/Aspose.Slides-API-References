@@ -3,7 +3,7 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
 description: 외부 그림자 효과를 나타내는 불변 객체입니다.
 type: docs
-weight: 3470
+weight: 3490
 url: /ko/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData 인터페이스
@@ -18,19 +18,19 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | 베이스 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | 블러 반경. 읽기 전용 Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | 그림자 방향. 읽기 전용 Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 그림자 거리. 읽기 전용 Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 사각형 정렬. 읽기 전용 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 도형이 회전될 경우 그림자가 도형과 함께 회전해야 하는지 여부를 지정합니다. 읽기 전용 Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 수평 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 수직 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 그림자가 도형과 함께 회전해야 하는지 여부를 지정합니다(도형이 회전된 경우). 읽기 전용 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 수평 스케일링 요소를 지정합니다. 음수 스케일링은 플립을 일으킵니다. 읽기 전용 Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 수직 스케일링 요소를 지정합니다. 음수 스케일링은 플립을 일으킵니다. 읽기 전용 Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 그림자 색상. 읽기 전용 Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 수평 기울기 각도(도)를 지정합니다. 읽기 전용 Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 수직 기울기 각도(도)를 지정합니다. 읽기 전용 Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 수평 왜곡 각도(도 단위)를 지정합니다. 읽기 전용 Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 수직 왜곡 각도(도 단위)를 지정합니다. 읽기 전용 Double. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

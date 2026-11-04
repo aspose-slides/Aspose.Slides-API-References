@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: اثر انتقال اسلاید سیاه اختیاری.
 type: docs
-weight: 10140
+weight: 10160
 url: /fa/aspose.slides.slideshow/ioptionalblacktransition/
 ---
-## IOptionalBlackTransition واسط
+## IOptionalBlackTransition رابط
 
-تأثیر گذار اختیاری انتقال اسلاید سیاه.
+اثر انتقال اسلاید سیاه اختیاری.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -16,14 +16,14 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 ## ویژگی‌ها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | امکان دریافت رابط پایه ITransitionValueBase را فراهم می‌کند. فقط‌خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | این ویژگی مشخص می‌کند که آیا انتقال از صفحه سیاه آغاز می‌شود (و سپس اسلاید جدید بر روی سیاه انتقال می‌یابد). خواندنی/نوشتنی Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | به شما امکان می‌دهد رابط ITransitionValueBase پایه را دریافت کنید. فقط‌خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | این ویژگی مشخص می‌کند که آیا انتقال از صفحه‌سیاه شروع می‌شود (و سپس اسلاید جدید را روی سیاه منتقل می‌کند). قابل‌خواندن/قابل‌نوشتن Boolean. |
 
-### همچنین ببینید
+### موارد مرتبط
 
-* واسط [ITransitionValueBase](../itransitionvaluebase)
+* رابط [ITransitionValueBase](../itransitionvaluebase)
 * فضای‌نام [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * اسمبلی [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
 description: แสดงข้อความที่สามารถแทนที่ได้สำหรับแผนภูมิ.
 type: docs
-weight: 2180
+weight: 2200
 url: /th/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText อินเทอร์เฟซ
 
-แสดงถึงข้อความที่สามารถทำการแทนที่ได้สำหรับแผนภูมิ.
+แสดงข้อความที่สามารถแทนที่ได้สำหรับแผนภูมิ.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFormattedTextContainer พื้นฐานได้. อ่านอย่างเดียว [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่จัดรูปแบบอย่างหลากหลายได้. หากคุณสมบัตินี้เป็นค่า null จะทำให้ค่าข้อความที่จัดรูปแบบนี้แทนที่ข้อความที่สร้างโดยอัตโนมัติ. ข้อความที่สร้างโดยอัตโนมัติเป็นคุณสมบัติโดยปริยายของป้ายข้อมูล, ป้ายหน่วยแสดงผลของแกนค่า, ชื่อแกน, ชื่อแผนภูมิ, ป้ายของเส้นแนวโน้ม. ข้อความที่สร้างโดยอัตโนมัติถูกจัดรูปแบบด้วยคุณสมบัติ IFormattedTextContainer.TextFormat. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่จัดรูปแบบแบบ rich text. หากคุณสมบัตินี้ไม่เป็นค่า null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติ. ข้อความที่สร้างอัตโนมัติเป็นคุณสมบัติโดยอัตโนมัติของป้ายข้อมูล, ป้ายหน่วยการแสดงผลของแกนค่า, ชื่อแกน, ชื่อแผนภูมิ, ป้ายของเส้นแนวโน้ม. ข้อความที่สร้างอัตโนมัติถูกจัดรูปแบบด้วยคุณสมบัติ IFormattedTextContainer.TextFormat. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นแล้วจะทำการเปลี่ยนข้อความของมันเท่านั้น. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นไว้แล้วก็จะแค่เปลี่ยนข้อความของมันเท่านั้น. |
 
 ### ดูเพิ่มเติม
 

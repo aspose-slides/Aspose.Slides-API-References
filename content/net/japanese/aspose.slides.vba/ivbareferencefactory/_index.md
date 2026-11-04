@@ -3,12 +3,12 @@ title: IVbaReferenceFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: COM インターフェイスを介して VBA プロジェクト参照を作成できます
 type: docs
-weight: 11590
+weight: 11610
 url: /ja/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory インターフェイス
 
-COM インターフェイスを介して VBA プロジェクト参照を作成できます
+COMインターフェイスを介してVBAプロジェクト参照を作成できます
 
 ```csharp
 public interface IVbaReferenceFactory
@@ -18,7 +18,7 @@ public interface IVbaReferenceFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | 新しい OLE Automation タイプ ライブラリ参照を作成します。 |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | 新しいOLE Automation型ライブラリ参照を作成します。 |
 
 ### 参照
 

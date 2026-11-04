@@ -1,9 +1,9 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes .NET용 API 참조
+second_title: Aspose.Sildes for .NET API 참조
 description: 노트 슬라이드 관리자.
 type: docs
-weight: 6520
+weight: 6540
 url: /ko/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager 인터페이스
@@ -27,7 +27,7 @@ public interface INotesSlideManager
 | [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | 현재 슬라이드에 대한 노트 슬라이드를 반환하며, 없을 경우 새로 생성합니다. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | 현재 슬라이드의 노트 슬라이드를 제거합니다. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Objet immuable qui représente un effet Alpha Modulate Fixed. Les valeurs d'alpha d'opacité de l'effet sont multipliées par un pourcentage fixe.
 type: docs
-weight: 3130
+weight: 3150
 url: /fr/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
-## IAlphaModulateFixedEffectiveData interface
+## interface IAlphaModulateFixedEffectiveData
 
 Objet immuable qui représente un effet Alpha Modulate Fixed. Les valeurs d'alpha (opacité) de l'effet sont multipliées par un pourcentage fixe.
 
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Renvoie une quantité d'effet en pourcentage. Lecture seule Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface IEffectEffectiveData de base. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Renvoie une quantité d'effet en pourcentages. Lecture seule Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Voir aussi
 

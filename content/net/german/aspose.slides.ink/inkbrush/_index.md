@@ -3,7 +3,7 @@ title: InkBrush
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein inkBrush-Objekt dar.
 type: docs
-weight: 7570
+weight: 7590
 url: /de/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush Klasse
@@ -18,9 +18,9 @@ public class InkBrush : IInkBrush
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Liest oder legt die Pinselfarbe für eine Linie fest. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Ruft den Ink-Effekt-Typ (z. B. Galaxy, Gold, Silver) ab, der den visuellen Stil des Ink-Strichs definiert. Der Wert wird aus der Brush-Eigenschaft "inkEffects" geparst. Wird kein erkannter Effekt angegeben, wird NotDefined zurückgegeben. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Liest oder legt die Pinselgröße für eine Linie in Punkten fest. |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Liest oder setzt die Pinselfarbe für eine Linie. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Liest den Tinteneffekt-Typ (z. B., Galaxy, Gold, Silver), der den visuellen Stil des Tintenzugs definiert. Der Wert wird aus der Pinsel-Eigenschaft "inkEffects" geparst. Wenn kein erkannter Effekt angegeben ist, wird NotDefined zurückgegeben. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Liest oder setzt die Pinselgröße für eine Linie in Punkten. |
 
 ### Siehe auch
 

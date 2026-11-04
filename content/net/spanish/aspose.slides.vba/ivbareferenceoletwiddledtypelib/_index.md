@@ -3,7 +3,7 @@ title: IVbaReferenceOleTwiddledTypeLib
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una referencia de biblioteca de tipos OLE Automation modificada en la que todos los controles están marcados como extensibles.
 type: docs
-weight: 11600
+weight: 11620
 url: /es/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib interfaz
@@ -18,7 +18,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Devuelve la interfaz IVbaReference. Sólo lectura [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Devuelve la interfaz IVbaReference. Solo lectura [`IVbaReference`](../ivbareference). |
 
 ### Ver también
 

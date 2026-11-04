@@ -3,7 +3,7 @@ title: ReplaceRegex
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
 type: docs
-weight: 110
+weight: 120
 url: /id/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metode
@@ -29,7 +29,7 @@ Contoh kode berikut menunjukkan cara mengganti teks menggunakan ekspresi reguler
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Ganti semua kata yang memiliki 10 atau lebih karakter dengan '***'
+	// Ganti semua kata dengan 10 atau lebih karakter dengan '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

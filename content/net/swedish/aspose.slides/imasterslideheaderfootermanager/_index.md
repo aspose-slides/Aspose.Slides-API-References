@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som innehåller beteendet för masterbildens sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
+description: Representerar en hanterare som innehåller beteendet för masterbildens sidfot, datum-/tid-platshållare, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
 type: docs
-weight: 6440
+weight: 6460
 url: /sv/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager gränssnitt
 
-Representerar en manager som innehåller beteendet för masterbildens sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
+Representerar hanterare som innehåller beteendet för masterbildens sidfot, datum-tid, sidnumreringsplatshållare och alla barn-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ställer in text för masterbildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar masterbildens datum-tid-platshållare och alla underordnade datum-tid-platshållares synlighet. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ställer in text för masterbildens sidfot-platshållare och alla underordnade sidfot-platshållare. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar masterbildens sidfot-platshållare och alla underordnade sidfot-platshållares synlighet. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar masterbildens sidnummer-platshållare och alla underordnade sidnummer-platshållares synlighet. Underordnade platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ställer in text till masterbildens datum-tid-platshållare och alla barn-datum-tid-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för masterbildens datum-tid-platshållare och alla barn-datum-tid-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ställer in text till masterbildens sidfots-platshållare och alla barn-sidfots-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för masterbildens sidfots-platshållare och alla barn-sidfots-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för masterbildens sidnummer-platshållare och alla barn-sidnummer-platshållare. Barn-platshållare innebär att platshållare finns på beroende layoutbilder och beroende bilder. Beroende layoutbilder och bilder använder och är beroende av masterbilden. |
 
 ### Se även
 

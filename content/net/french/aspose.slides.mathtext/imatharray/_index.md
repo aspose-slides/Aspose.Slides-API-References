@@ -1,14 +1,14 @@
 ---
 title: IMathArray
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Spécifie un tableau vertical d'équations ou tout objet mathématique
 type: docs
-weight: 8100
+weight: 8120
 url: /fr/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interface
 
-Spécifie un tableau vertical d’équations ou tout objet mathématique
+Spécifie un tableau vertical d'équations ou tout objet mathématique
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -18,13 +18,13 @@ public interface IMathArray : IMathElement
 
 | Nom | Description |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Ensemble des éléments du tableau |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | L'ensemble des éléments du tableau |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Spécifie l'alignement du tableau par rapport au texte environnant. Le texte à l'extérieur du tableau peut être aligné avec le bas, le haut ou le centre d’un objet tableau. Valeur par défaut : Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribution maximale. Lorsque vrai, le tableau est espacé à la largeur maximale de l’élément contenant (page, colonne, cellule, etc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribution d’objet. Lorsque vrai, le contenu du tableau est espacé à la largeur maximale de l’objet tableau. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espacement entre les lignes d’un tableau. Il n’est utilisé que lorsque RowSpacingRule est réglé sur 3 Exactly, auquel cas l’unité de mesure est points ou Multiple, auquel cas l’unité de mesure est demi-lignes. Valeur par défaut : 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Le type d’espacement vertical entre les éléments du tableau |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Spécifie l'alignement du tableau par rapport au texte environnant. Le texte extérieur au tableau peut être aligné avec le bas, le haut ou le centre d'un objet tableau. Valeur par défaut : Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribution maximale. Lorsque vrai, le tableau est espacé à la largeur maximale de l'élément contenant (page, colonne, cellule, etc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribution d'objet. Lorsque vrai, le contenu du tableau est espacé à la largeur maximale de l'objet tableau. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Espacement entre les lignes d'un tableau. Il n'est utilisé que lorsque RowSpacingRule est défini sur 3 Exactement, auquel cas l'unité de mesure est les points, ou Multiple, auquel cas l'unité de mesure est les demi-lignes. Valeur par défaut : 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Le type d'espacement vertical entre les éléments du tableau |
 
 ### Exemples
 

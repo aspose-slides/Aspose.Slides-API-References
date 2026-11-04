@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: आकारों के समायोजनों का संग्रह दर्शाता है।
+description: Shapes के समायोजनों का एक संग्रह दर्शाता है।
 type: docs
-weight: 5190
+weight: 5210
 url: /hi/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection इंटरफ़ेस
 
-shape के समायोजनों का संग्रह दर्शाता है।
+Reprasents a collection of shape's adjustments.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,8 +18,8 @@ public interface IAdjustValueCollection : ICollection
 
 | नाम | विवरण |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | बेस ICollection इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-रीड ICollection। |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-रीड IEnumerable। |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | बेस ICollection इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य ICollection। |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
 | [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | इंडेक्स द्वारा समायोजन लौटाता है। |
 
 ### संबंधित देखें

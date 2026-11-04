@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear un párrafo matemático
 type: docs
-weight: 8400
+weight: 8420
 url: /es/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interfaz
@@ -18,12 +18,12 @@ public interface IMathParagraphFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Crear párrafo matemático vacío |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Crear un párrafo matemático vacío |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Crea un párrafo matemático y coloca el bloque matemático especificado en él |
 
 ### Observaciones
 
-Para compatibilidad con COM
+Para compatibilidad COM
 
 ### Ver también
 

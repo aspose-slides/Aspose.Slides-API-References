@@ -1,9 +1,9 @@
 ---
 title: ISaveOptionsFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API .NET
 description: Permite crear instancias de opciones de guardado
 type: docs
-weight: 4080
+weight: 4100
 url: /es/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory interfaz
@@ -22,7 +22,7 @@ public interface ISaveOptionsFactory
 
 ### Observaciones
 
-Para compatibilidad COM.
+Para compatibilidad con COM.
 
 ### Ver también
 

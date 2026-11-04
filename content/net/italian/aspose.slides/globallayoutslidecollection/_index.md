@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di tutti i layout slide nella presentazione. Estende la classe LayoutSlideCollection con metodi per aggiungere/clonare layout slide nel contesto di unione delle singole raccolte dei layout slide dei master.
+description: Rappresenta una collezione di tutte le diapositive di layout nella presentazione. Estende la classe LayoutSlideCollection con metodi per aggiungere/clonare diapositive di layout nel contesto dell'unione delle collezioni individuali delle diapositive di layout dei master.
 type: docs
-weight: 4980
+weight: 5000
 url: /it/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection classe
 
-Rappresenta una raccolta di tutti i layout slide nella presentazione. Estende la classe LayoutSlideCollection con metodi per aggiungere/clonare layout slide nel contesto di unione delle singole raccolte dei layout slide del master.
+Rappresenta una collezione di tutte le diapositive di layout nella presentazione. Estende la classe LayoutSlideCollection con metodi per aggiungere/clonare diapositive di layout nel contesto dell'unione delle collezioni individuali delle diapositive di layout del master.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,31 +17,31 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Restituisce il numero di layout slide in una raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Restituisce il layout slide per indice. Sola lettura [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Restituisce il numero di diapositive di layout in una collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Restituisce la diapositiva di layout per indice. Solo lettura [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Aggiunge un nuovo layout slide alla presentazione. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Aggiunge una copia di un layout slide specificato alla presentazione. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Aggiunge una copia di un layout slide specificato alla presentazione. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Restituisce il primo layout slide del tipo specificato. Un tipo di layout slide da trovare.[`LayoutSlide`](../layoutslide) con il tipo specificato o null se non sono presenti layout. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Rimuove un layout dalla raccolta. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Rimuove i layout slide inutilizzati (layout slide il cui HasDependingSlides è false). |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Aggiunge una nuova diapositiva di layout alla presentazione. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Aggiunge una copia di una diapositiva di layout specificata alla presentazione. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Aggiunge una copia di una diapositiva di layout specificata alla presentazione. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Restituisce la prima diapositiva di layout del tipo specificato. Un tipo di diapositiva di layout da trovare.[`LayoutSlide`](../layoutslide) con tipo specificato o null se non sono trovati layout. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Rimuove un layout dalla collezione. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Rimuove le diapositive di layout inutilizzate (diapositive di layout il cui HasDependingSlides è false). |
 
 ### Vedi anche
 
 * classe [LayoutSlideCollection](../layoutslidecollection)
 * interfaccia [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* namespace [Aspose.Slides](../../aspose.slides)
+* spazio dei nomi [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

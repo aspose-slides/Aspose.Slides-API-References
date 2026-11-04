@@ -1,9 +1,9 @@
 ---
 title: TiffOptions
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή TIFF.
+description: Παρέχει επιλογές που ελέγχουν πώς μια παρουσίαση αποθηκεύεται σε μορφή TIFF.
 type: docs
-weight: 4570
+weight: 4590
 url: /el/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions κλάση
@@ -19,25 +19,24 @@ public class TiffOptions : SaveOptions, ITiffOptions
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [TiffOptions](tiffoptions)() | Προεπιλεγμένος κατασκευαστής. |
+## Properties
 
-## Ιδιότητες
-
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Καθορίζει τον αλγόριθμο για τη μετατροπή μιας έγχρωμης εικόνας σε ασπρόμαυρη εικόνα. Αυτή η επιλογή θα εφαρμοστεί μόνο εάν [`CompressionType`](./compressiontype) είναι ορισμένο σε CCITT4 ή CCITT3 Ανάγνωση/εγγραφή [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Η προεπιλογή είναι Default. |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Καθορίζει τον αλγόριθμο για τη μετατροπή μιας έγχρωμης εικόνας σε εικόνα ασπρόμαυρη. Αυτή η επιλογή εφαρμόζεται μόνο εάν το [`CompressionType`](./compressiontype) έχει οριστεί σε CCITT4 ή CCITT3 Ανάγνωση/εγγραφή [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Η προεπιλογή είναι Προεπιλογή. |
 | [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Καθορίζει τον τύπο συμπίεσης. Ανάγνωση/εγγραφή [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται εάν η πηγή γραμματοσειράς δεν βρεθεί. Ανάγνωση-εγγραφή String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Ανάγνωση/εγγραφή String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Καθορίζει την οριζόντια ανάλυση σε κουκκίδες ανά ίντσα. Ανάγνωση/εγγραφή UInt32. |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Καθορίζει την κάθετη ανάλυση σε κουκκίδες ανά ίντσα. Ανάγνωση/εγγραφή UInt32. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Καθορίζει το μέγεθος μιας παραγόμενης εικόνας TIFF. Η προεπιλεγμένη τιμή είναι 0x0, που σημαίνει ότι τα μεγέθη των παραγόμενων εικόνων θα υπολογιστούν βάσει του μεγέθους των διαφανειών της παρουσίασης. Ανάγνωση/εγγραφή Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο για ανάγνωση [`IInkOptions`](../iinkoptions) |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Καθορίζει την κατακόρυφη ανάλυση σε κουκκίδες ανά ίντσα. Ανάγνωση/εγγραφή UInt32. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του διαβάθμισης. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Καθορίζει το μέγεθος μιας παραγόμενης εικόνας TIFF. Η προεπιλεγμένη τιμή είναι 0x0, που σημαίνει ότι τα μεγέθη των παραγόμενων εικόνων θα υπολογίζονται βάσει της τιμής του μεγέθους της διαφάνειας παρουσίασης. Ανάγνωση/εγγραφή Size. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο ανάγνωση [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Καθορίζει τη μορφή pixel για τις παραγόμενες εικόνες. Ανάγνωση/εγγραφή [`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο κλήσης επιστροφής για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο θα περιέχει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο callback για την αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο πρέπει να περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ακυρωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Παραδείγματα
 
@@ -45,7 +44,7 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 ```csharp
 [C#]
-// Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
+// Δημιουργεί ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο παρουσίασης
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
     // Αποθήκευση της παρουσίασης σε έγγραφο TIFF
@@ -57,10 +56,10 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
 
 ```csharp
 [C#]
-// Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο Presentation
+// Δημιουργεί ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο Presentation
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
-    // Δημιουργήστε την κλάση TiffOptions
+    // Δημιουργεί ένα αντικείμενο της κλάσης TiffOptions
     TiffOptions opts = new TiffOptions();
     // Ορισμός τύπου συμπίεσης
     opts.CompressionType = TiffCompressionTypes.Default;
@@ -68,38 +67,38 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
     // Τύποι συμπίεσης
-    // Default - Καθορίζει το προεπιλεγμένο σχήμα συμπίεσης (LZW).
-    // None - Καθορίζει καμία συμπίεση.
+    // Default - Ορίζει το προεπιλεγμένο σχήμα συμπίεσης (LZW).
+    // None - Ορίζει μηδενική συμπίεση.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
     // Το βάθος εξαρτάται από τον τύπο συμπίεσης και δεν μπορεί να οριστεί χειροκίνητα.
-    // Η μονάδα ανάλυσης είναι πάντα ίση με “2” (dots per inch)
-    // Ρύθμιση DPI εικόνας
+    // Η μονάδα ανάλυσης είναι πάντα ίση με “2” (κουκκίδες ανά ίντσα)
+    // Ορισμός DPI εικόνας
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Ορισμός μεγέθους εικόνας
     opts.ImageSize = new Size(1728, 1078);
-    // Αποθήκευση της παρουσίασης σε TIFF με συγκεκριμένο μέγεθος εικόνας
+    // Αποθήκευση της παρουσίασης σε TIFF με καθορισμένο μέγεθος εικόνας
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε TIFF με προσαρμοσμένη μορφή pixel εικόνας.
+Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε TIFF με προσαρμοσμένη μορφή εικονοστοιχείου.
 
 ```csharp
 [C#]
-// Δημιουργήστε ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο Presentation
+// Δημιουργεί ένα αντικείμενο Presentation που αντιπροσωπεύει ένα αρχείο Presentation
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat περιέχει τις ακόλουθες τιμές (όπως φαίνεται από την τεκμηρίωση):
-    Format1bppIndexed; // 1 bit ανά pixel, ευρετηριασμένο.
-    Format4bppIndexed; // 4 bits ανά pixel, ευρετηριασμένο.
-    Format8bppIndexed; // 8 bits ανά pixel, ευρετηριασμένο.
+    Το ImagePixelFormat περιέχει τις ακόλουθες τιμές (όπως φαίνεται από την τεκμηρίωση):
+    Format1bppIndexed; // 1 bits ανά pixel, ευρετήριο.
+    Format4bppIndexed; // 4 bits ανά pixel, ευρετήριο.
+    Format8bppIndexed; // 8 bits ανά pixel, ευρετήριο.
     Format24bppRgb; // 24 bits ανά pixel, RGB.
     Format32bppArgb; // 32 bits ανά pixel, ARGB.
     */

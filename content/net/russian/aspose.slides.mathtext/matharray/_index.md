@@ -1,14 +1,14 @@
 ---
 title: MathArray
-second_title: Справочник API Aspose.Sildes для .NET
-description: Определяет вертикальный массив уравнений или любых математических объектов
+second_title: Aspose.Sildes для .NET справочник API
+description: Указывает вертикальный массив уравнений или любых математических объектов
 type: docs
-weight: 8550
+weight: 8570
 url: /ru/aspose.slides.mathtext/matharray/
 ---
 ## MathArray класс
 
-Определяет вертикальный массив уравнений или любых математических объектов
+Указывает вертикальный массив уравнений или любых математических объектов
 
 ```csharp
 public sealed class MathArray : MathElementBase, IMathArray
@@ -16,43 +16,43 @@ public sealed class MathArray : MathElementBase, IMathArray
 
 ## Конструкторы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [MathArray](matharray#constructor_1)(IEnumerable&lt;IMathElement&gt;) | Создает математический массив и помещает в него указанные элементы |
-| [MathArray](matharray#constructor)(IMathElement) | Создает математический массив и помещает в него указанный элемент |
+| [MathArray](matharray#constructor_1)(IEnumerable&lt;IMathElement&gt;) | Создает математический массив и помещает указанные элементы в него |
+| [MathArray](matharray#constructor)(IMathElement) | Создает математический массив и помещает указанный элемент в него |
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/matharray/arguments) { get; } | Набор элементов массива |
-| [BaseJustification](../../aspose.slides.mathtext/matharray/basejustification) { get; set; } | Указывает выравнивание массива относительно окружающего текста. Текст за пределами массива может быть выравнен по нижнему, верхнему краю или по центру объекта массива. Значение по умолчанию: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/matharray/maximumdistribution) { get; set; } | Максимальное распределение. Когда значение true, массив растягивается до максимально возможной ширины содержащего элемента (страница, колонка, ячейка и т.д.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/matharray/objectdistribution) { get; set; } | Распределение объекта. Когда значение true, содержимое массива растягивается до максимально возможной ширины объекта массива. |
-| [RowSpacing](../../aspose.slides.mathtext/matharray/rowspacing) { get; set; } | Расстояние между строками массива. Используется только когда RowSpacingRule установлен в 3 (Exactly), в этом случае единица измерения — пункты, или в Multiple, тогда единица измерения — полулинии. Значение по умолчанию: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/matharray/rowspacingrule) { get; set; } | Тип вертикального расстояния между элементами массива. Значение по умолчанию: SingleLineGap |
+| [BaseJustification](../../aspose.slides.mathtext/matharray/basejustification) { get; set; } | Задает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен по нижнему краю, верхнему краю или по центру объекта массива. Значение по умолчанию: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/matharray/maximumdistribution) { get; set; } | Maximum Distribution Когда true, массив распределяется по максимальной ширине содержащего элемента (страница, колонка, ячейка и т.д.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/matharray/objectdistribution) { get; set; } | Object Distribution Когда true, содержимое массива распределяется по максимальной ширине объекта массива. |
+| [RowSpacing](../../aspose.slides.mathtext/matharray/rowspacing) { get; set; } | Spacing between rows of an array Используется только когда RowSpacingRule установлен в 3. В этом случае единица измерения — пункты, или Multiple — половины строк. Значение по умолчанию: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/matharray/rowspacingrule) { get; set; } | The type of vertical spacing between array elements Значение по умолчанию: SingleLineGap |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Устанавливает знак акцента (символ над этим элементом) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента, и указанный дополнительный аргумент |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Принимает указанную функцию, используя данный экземпляр в качестве аргумента, и указанный дополнительный аргумент |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Устанавливает знак ударения (символ над этим элементом) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Принимает указанную функцию, используя текущий экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Принимает указанную функцию, используя текущий экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Принимает указанную функцию, используя текущий экземпляр в качестве аргумента |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Принимает указанную функцию, используя текущий экземпляр в качестве аргумента и указанный дополнительный аргумент |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Принимает указанную функцию, используя текущий экземпляр в качестве аргумента и указанный дополнительный аргумент |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Создает дробь с этим числителем и указанным знаменателем |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Создает дробь с этим числителем и указанным знаменателем |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Создает дробь указанного типа с этим числителем и указанным знаменателем |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Создает дробь указанного типа с этим числителем и указанным знаменателем |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Обрамляет математический элемент в скобках |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Обрамляет математический элемент скобками |
 | virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Обрамляет математический элемент указанными символами, например скобками или другими символами |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Принимает функцию аргумента, используя данный экземпляр в качестве имени функции |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Принимает функцию аргумента, используя данный экземпляр в качестве имени функции |
-| [GetChildren](../../aspose.slides.mathtext/matharray/getchildren)() | Получить дочерние элементы |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Принимает функцию аргумента, используя текущий экземпляр в качестве имени функции |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Принимает функцию аргумента, используя текущий экземпляр в качестве имени функции |
+| [GetChildren](../../aspose.slides.mathtext/matharray/getchildren)() | Получает дочерние элементы |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Помещает этот элемент в группу, используя нижнюю фигурную скобку |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Помещает этот элемент в группу, используя группирующий символ, например нижнюю фигурную скобку или другой |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Помещает этот элемент в группу, используя группирующий символ, например нижнюю фигурную скобку или иной |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Принимает интеграл без пределов |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Принимает интеграл |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Принимает интеграл |
@@ -63,8 +63,8 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Создает N-арный оператор |
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Создает N-арный оператор |
 | [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Устанавливает черту над этим элементом |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Указывает математический корень заданной степени от указанного аргумента. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Указывает математический корень заданной степени от указанного аргумента. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Задает математический корень заданной степени от указанного аргумента |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Задает математический корень заданной степени от указанного аргумента |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Принимает нижний предел |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Принимает нижний предел |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Создает нижний индекс |
@@ -79,24 +79,24 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Принимает верхний предел |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Помещает этот элемент в рамку |
 | [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Помещает этот элемент в рамку |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Помещает этот элемент в невизуальный блок (логическую группу), используемый для группировки компонентов уравнения или другого экземпляра математического текста. Объект в рамке может (например) выступать в роли эмулятора оператора с точкой выравнивания или без неё, служить точкой разрыва строки или быть сгруппирован так, чтобы не допускать разрыва строки внутри. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Вставляет в вертикальный массив |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Устанавливает черту под этим элементом |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Помещает этот элемент в невизуальный блок (логическая группировка), используемый для объединения компонентов уравнения или другого математического текста. Такой блок может, например, выступать в роли эмулятора оператора с точкой привязки или без неё, служить точкой разрыва строки или быть сгруппирован так, чтобы внутри него нельзя было делать разрывы строк. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Размещает в вертикальном массиве |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Устанавливает черту внизу этого элемента |
 
 ### Примеры
 
-Example:
+Пример:
 
 ```csharp
 [C#]
 MathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Смотрите также
+### См. также
 
 * класс [MathElementBase](../mathelementbase)
 * интерфейс [IMathArray](../imatharray)
-* пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

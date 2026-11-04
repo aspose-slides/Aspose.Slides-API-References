@@ -1,20 +1,20 @@
 ---
 title: OrganizationChartLayoutType
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示组织图中子节点的格式化类型
+description: 表示组织结构图中子节点的布局类型
 type: docs
-weight: 10590
+weight: 10610
 url: /zh/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType 枚举
 
-表示组织图中子节点的格式化类型
+表示组织结构图中子节点的布局类型
 
 ```csharp
 public enum OrganizationChartLayoutType
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ public enum OrganizationChartLayoutType
 | LeftHanging | `3` | 将子节点垂直放置在父节点下方的左侧。 |
 | RightHanging | `4` | 将子节点垂直放置在父节点下方的右侧。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 程序集 [Aspose.Slides](../../)

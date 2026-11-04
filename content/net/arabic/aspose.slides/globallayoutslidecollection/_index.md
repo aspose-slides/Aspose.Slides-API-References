@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
-description: يمثل مجموعة من جميع شرائح التخطيط في العرض التقديمي. يمتد LayoutSlideCollection بطرق لإضافة/استنساخ شرائح التخطيط في سياق توحيد المجموعات الفردية لشرائح التخطيط الخاصة بالماستر.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: تمثّل مجموعة من جميع شرائح التخطيط في العرض. تمتد فئة LayoutSlideCollection مع طرق لإضافة/استنساخ شرائح التخطيط في سياق توحيد المجموعات الفردية لشرائح التخطيط الخاصة بالماستر.
 type: docs
-weight: 4980
+weight: 5000
 url: /ar/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection فئة
 
-يمثل مجموعة من جميع شرائح التخطيط في العرض التقديمي. يمتد LayoutSlideCollection فئة بطرق لإضافة/استنساخ شرائح التخطيط في سياق توحيد المجموعات الفردية لشرائح التخطيط الخاصة بالماستر.
+Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,21 +19,21 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | يعيد عدد شرائح التخطيط في مجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | يعيد شريحة التخطيط حسب الفهرس. للقراءة فقط [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | يعيد جذر المزامنة. للقراءة فقط Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | يعيد عدد شرائح التخطيط في مجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن الخيوط). قراءة فقط Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | يعيد شريحة التخطيط حسب الفهرس. قراءة فقط [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | يضيف شريحة تخطيط جديدة إلى العرض التقديمي. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | يضيف نسخة من شريحة التخطيط المحددة إلى العرض التقديمي. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | يضيف نسخة من شريحة التخطيط المحددة إلى العرض التقديمي. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | يعيد أول شريحة تخطيط من النوع المحدد. نوع شريحة التخطيط للبحث عنها.[`LayoutSlide`](../layoutslide) مع النوع المحدد أو null إذا لم يتم العثور على أي تخطيطات. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | يعيد Enumerator الذي يتنقل عبر المجموعة. |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | يضيف شريحة تخطيط جديدة إلى العرض. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | يضيف نسخة من شريحة تخطيط محددة إلى العرض. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | يضيف نسخة من شريحة تخطيط محددة إلى العرض. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | ينْسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | يعيد أول شريحة تخطيط من النوع المحدد. نوع شريحة التخطيط للبحث عنها.[`LayoutSlide`](../layoutslide) بالنوع المحدد أو null إذا لم يتم العثور على أي تخطيطات. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | يعيد عدادًا يتكرر عبر المجموعة. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | يزيل تخطيطًا من المجموعة. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | يزيل شرائح التخطيط غير المستخدمة (شرائح التخطيط التي تكون HasDependingSlides فيها false). |
 

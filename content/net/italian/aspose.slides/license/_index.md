@@ -1,9 +1,9 @@
 ---
 title: License
-second_title: Aspose.Sildes per il riferimento API di .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Fornisce metodi per licenziare il componente.
 type: docs
-weight: 7680
+weight: 7700
 url: /it/aspose.slides/license/
 ---
 ## License classe
@@ -16,13 +16,13 @@ public class License : ILicense
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [License](license)() | Inizializza una nuova istanza di questa classe. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [IsLicensed](../../aspose.slides/license/islicensed)() | Verifica se la licenza è applicata al componente |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | Reimposta la licenza |

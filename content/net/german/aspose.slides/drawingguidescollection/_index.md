@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes for .NET API-Referenz
-description: Stellt eine Sammlung der anpassbaren Zeichenhilfen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Sammlung der verstellbaren Zeichenhilfen dar.
 type: docs
-weight: 2820
+weight: 2840
 url: /de/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection Klasse
 
-Stellt eine Sammlung der anpassbaren Zeichenhilfen dar.
+Stellt eine Sammlung der verstellbaren Zeichenhilfen dar.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,8 +18,8 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesbar Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Gibt die Zeichenhilfe nach Index zurück. Nur lesbar [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur Lesezugriff Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Gibt die Zeichenhilfe nach Index zurück. Nur Lesezugriff [`IDrawingGuide`](../idrawingguide). |
 
 ## Methoden
 

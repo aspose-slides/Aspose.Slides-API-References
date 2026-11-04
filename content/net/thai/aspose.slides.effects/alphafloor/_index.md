@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของเอฟเฟกต์ Alpha Floor. ค่า Alpha ความทึบที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. พูดอีกอย่างหนึ่ง สิ่งที่โปร่งใบบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความทึบของ Alpha ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งที่โปร่งแสงบางส่วนจะกลายเป็นโปร่งแสงเต็มที่.
 type: docs
-weight: 2860
+weight: 2880
 url: /th/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor คลาส
 
-เป็นตัวแทนของเอฟเฟกต์ Alpha Floor. ค่า Alpha (ความทึบ) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. พูดอีกอย่างหนึ่ง, สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าของ Alpha (ความทึบ) ที่ต่ำกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งที่โปร่งแสงบางส่วนจะกลายเป็นโปร่งแสงเต็มที่.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,15 +18,15 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent ฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | กำหนดว่าค่า [`AlphaFloor`](../alphafloor) ที่ระบุเท่ากับค่า [`AlphaFloor`](../alphafloor) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | รับข้อมูลเอฟเฟกต์ Alpha Floor ที่มีผลโดยมีการใช้การสืบทอดแล้ว. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่ระบุ. |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | รับข้อมูลเอฟเฟกต์ Alpha Floor ที่มีผลโดยมีการสืบทอดที่ใช้. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

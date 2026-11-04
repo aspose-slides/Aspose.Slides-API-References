@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή από λειτουργίες μετασχηματισμού χρώματος.
+description: Αναπαριστά μια συλλογή λειτουργιών μετασχηματισμού χρώματος.
 type: docs
-weight: 5510
+weight: 5530
 url: /el/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection διασύνδεση
 
-Αντιπροσωπεύει μια συλλογή από λειτουργίες μετασχηματισμού χρώματος.
+Αντιπροσωπεύει μια συλλογή λειτουργιών μετασχηματισμού χρώματος.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -19,7 +19,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία στη συγκεκριμένη θέση. Ανάγνωση/εγγραφή [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία στο συγκεκριμένο δείκτη. Ανάγνωση/εγγραφή [`IColorOperation`](../icoloroperation). |
 
 ## Μέθοδοι
 
@@ -30,7 +30,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Αφαιρεί όλες τις λειτουργίες χρώματος. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Εισάγει τη νέα λειτουργία σε μια συλλογή. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Εισάγει τη νέα λειτουργία σε μια συλλογή. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Αφαιρεί τη λειτουργία χρώματος από τη συλλογή. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Αφαιρεί τη λειτουργία χρώματος από μια συλλογή. |
 
 ### Δείτε επίσης
 

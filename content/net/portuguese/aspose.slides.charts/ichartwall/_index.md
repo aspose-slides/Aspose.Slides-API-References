@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa paredes em gráficos 3d.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa paredes em gráficos 3D.
 type: docs
-weight: 2010
+weight: 2030
 url: /pt/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interface
 
-Representa paredes em gráficos 3d.
+Representa paredes em gráficos 3D.
 
 ```csharp
 public interface IChartWall
@@ -18,11 +18,11 @@ public interface IChartWall
 
 | Nome | Descrição |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Retorna o preenchimento da parede, linha, efeito e estilos 3d. Somente leitura [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Retorna o preenchimento da parede, linha, efeito, estilos 3D. Somente leitura [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Retorna ou define o tipo de imagem. Leitura/gravação [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Retorna ou define a espessura das paredes como uma porcentagem da maior dimensão do volume da plotagem. Leitura/gravação Int32. |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Retorna ou define a espessura das paredes como uma porcentagem da maior dimensão do volume do gráfico. Leitura/gravação Int32. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

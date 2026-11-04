@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสนี้แทน token ที่ใช้สื่อสัญญาณให้งานที่ทำงานระยะยาวทราบว่ามีการร้องขอการหยุดชั่วคราวหรือไม่
+description: คลาสนี้แสดงถึงโทเค็นที่ใช้สำหรับระบุให้กับงานที่ทำงานเป็นระยะเวลานานว่ามีการขัดจังหวะหรือไม่
 type: docs
-weight: 7600
+weight: 7620
 url: /th/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken คลาส
 
-คลาสนี้แสดงถึง token ที่ใช้สื่อสัญญาณให้งานที่ทำงานระยะยาวทราบว่ามีการร้องขอการหยุดชั่วคราวหรือไม่
+This class represents the token to use for signaling long running tasks whether the interruption was requested.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | แสดงถึง token การหยุดชั่วคราวที่ว่างเปล่า การทำงานที่ใช้เวลานานจะไม่มีการหยุดโดยใช้ [`Interrupt`](../interruptiontokensource/interrupt) เมื่อใช้ token นี้ |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | คืนค่า Boolean.true หากมีการร้องขอการหยุดชั่วคราว |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | แสดงถึงโทเค็นการขัดจังหวะที่ว่างเปล่า การดำเนินการที่ใช้เวลานานจะไม่ถูกขัดจังหวะผ่าน [`Interrupt`](../interruptiontokensource/interrupt) เมื่อใช้โทเค็นนี้ |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | ส่งคืน Boolean.true หากการขัดจังหวะถูกร้องขอ |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | ทำให้เกิด OperationCanceledException หากมีการร้องขอการหยุดชั่วคราว |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | ขว้าง OperationCanceledException หากการขัดจังหวะถูกร้องขอ |
 
 ### ดูเพิ่มเติม
 

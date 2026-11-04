@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Slides pro .NET – reference API
-description: Reprezentuje efekt rozostření, který se aplikuje na celý tvar včetně jeho výplně. Všechny barevné kanály, včetně alfa kanálu, jsou ovlivněny.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje efekt rozostření, který se aplikuje na celý tvar včetně jeho výplně. Všechny barevné kanály, včetně alfa, jsou ovlivněny.
 type: docs
-weight: 2920
+weight: 2940
 url: /cs/aspose.slides.effects/blur/
 ---
-## Blur třída
+## Třída Blur
 
-Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
+Representuje rozostřený efekt, který se použije na celý tvar, včetně jeho výplně. Všechny barevné kanály, včetně alfa, jsou ovlivněny.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -16,18 +16,18 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Určuje, zda má být ohraničení objektu rozšířeno v důsledku rozostření. True označuje, že ohraničení je rozšířeno, zatímco false označuje, že není. Čtení/zápis Boolean. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Určuje, zda mají být ohraničení objektu rozšířena v důsledku rozostření. True označuje, že ohraničení jsou rozšířena, zatímco false označuje, že nejsou. Čtení/zápis Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Vrací nebo nastavuje poloměr rozostření. Čtení/zápis Double. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Určuje, zda je zadaný [`Blur`](../blur) roven aktuálnímu [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Získá data efektu Blur s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Získá efektivní data rozostření s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

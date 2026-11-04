@@ -1,9 +1,9 @@
 ---
 title: IMathArray
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يحدد مصفوفة رأسية من المعادلات أو أي كائنات رياضية
 type: docs
-weight: 8100
+weight: 8120
 url: /ar/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray واجهة
@@ -18,15 +18,15 @@ public interface IMathArray : IMathElement
 
 | الاسم | الوصف |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | مجموعة عناصر المصفوفة |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | يسمح بالحصول على واجهة IMMathElement الأساسية [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | يحدد محاذاة المصفوفة بالنسبة للنص المحيط. يمكن محاذاة النص خارج المصفوفة مع الأسفل أو الأعلى أو الوسط لكائن المصفوفة. القيمة الافتراضية: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | التوزيع الأقصى. عندما تكون true، يتم توزيع المصفوفة لتتناسب مع العرض الأقصى للعنصر الحاوي (page, column, cell, إلخ). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | توزيع الكائن. عندما تكون true، يتم توزيع محتويات المصفوفة لتتناسب مع العرض الأقصى لكائن المصفوفة. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | المسافة بين صفوف المصفوفة تُستخدم فقط عندما يكون RowSpacingRule مضبطًا على 3 Exactly، وفي هذه الحالة وحدة القياس هي points أو Multiple، وفي هذه الحالة وحدة القياس هي half-lines. الافتراضي: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | نوع المسافة الرأسية بين عناصر المصفوفة |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | مجموعة العناصر في المصفوفة |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | يسمح بالحصول على الواجهة الأساسية IMathElement [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | يحدد محاذاة المصفوفة بالنسبة للنص المحيط. يمكن محاذاة النص خارج المصفوفة إلى الأسفل أو الأعلى أو المركز بالنسبة لكائن المصفوفة. القيمة الافتراضية: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | توزيع أقصى عندما تكون true، يتم توزيع المصفوفة إلى أقصى عرض للعنصر المحتوي (صفحة, عمود, خلية, إلخ). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | توزيع الكائن عندما تكون true، يتم توزيع محتويات المصفوفة إلى أقصى عرض لكائن المصفوفة. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | المسافة بين صفوف المصفوفة تُستخدم فقط عندما يكون RowSpacingRule مضبوطًا على 3 Exactly حيث تكون وحدة القياس نقاط أو Multiple حيث تكون وحدة القياس نصف أسطر. القيمة الافتراضية: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | نوع المسافة العمودية بين عناصر المصفوفة |
 
-### الأمثلة
+### أمثلة
 
 مثال:
 
@@ -35,7 +35,7 @@ public interface IMathArray : IMathElement
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * واجهة [IMathElement](../imathelement)
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)

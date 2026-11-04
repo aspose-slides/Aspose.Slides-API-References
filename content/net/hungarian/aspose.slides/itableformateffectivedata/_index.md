@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Változtathatatlan objektum, amely a hatékony táblázatformázási tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Módosíthatatlan objektum, amely tartalmazza a hatékony táblázatformázási tulajdonságokat.
 type: docs
-weight: 7250
+weight: 7270
 url: /hu/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interfész
 
-Változtathatatlan objektum, amely a hatékony táblázatformázási tulajdonságokat tartalmaz.
+Módosíthatatlan objektum, amely tartalmazza a hatékony táblázatformázási tulajdonságokat.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | Név | Leírás |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi a base IBaseTableFormatEffectiveData interfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Lekéri a kitöltő szín átlátszóságát. Read Single. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | A kitöltő szín átlátszóságát adja vissza. Olvas Single. |
 
 ### Megjegyzések
 
-Ez a interfész a [`ITableFormat`](../itableformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához, öröklődéssel és táblázatstílusok alkalmazásával.
+Ez az interfész a [`ITableFormat`](../itableformat) interfészével együtt használható a hatékony formázási értékek visszaadására öröklődéssel és alkalmazott táblázatstílusokkal.
 
 ### Lásd még
 

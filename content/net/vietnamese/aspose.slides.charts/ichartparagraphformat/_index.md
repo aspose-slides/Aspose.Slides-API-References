@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho các thuộc tính định dạng đoạn văn của một biểu đồ.
+second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn các thuộc tính định dạng đoạn văn của một biểu đồ.
 type: docs
-weight: 1900
+weight: 1920
 url: /vi/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat giao diện
 
-Đại diện cho các thuộc tính định dạng đoạn văn của biểu đồ.
+Biểu diễn các thuộc tính định dạng đoạn văn của biểu đồ.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,24 +18,24 @@ public interface IChartParagraphFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Trả về hoặc đặt căn chỉnh văn bản trong một đoạn. Đọc/ghi [`TextAlignment`](../../aspose.slides/textalignment). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Trả về hoặc đặt căn chỉnh văn bản trong một đoạn văn. Đọc/ghi [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Trả về hoặc đặt kích thước tabulation mặc định. Đọc/ghi Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Xác định xem có sử dụng ngắt dòng Đông Á trong một đoạn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Trả về hoặc đặt căn chỉnh phông chữ trong một đoạn. Đọc/ghi [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Xác định xem có sử dụng dấu câu treo trong một đoạn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Trả về hoặc đặt Thụt Lề Dòng Đầu tiên/Thụt Lề Treo cho đoạn. Thụt Lề Treo có thể được định nghĩa bằng giá trị âm. Đọc/ghi Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Xác định xem có sử dụng ngắt dòng Latin trong một đoạn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái trong một đoạn. Đọc/ghi Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Trả về hoặc đặt lề phải trong một đoạn. Đọc/ghi Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Xác định xem có sử dụng viết từ phải sang trái trong một đoạn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Trả về hoặc đặt khoảng cách sau dòng cuối cùng trong một đoạn. Đọc/ghi Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Trả về hoặc đặt khoảng cách trước dòng đầu tiên trong một đoạn. Đọc/ghi Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Trả về hoặc đặt khoảng cách giữa các dòng cơ bản trong một đoạn. Đọc/ghi Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Trả về các tabulation của một đoạn. Chỉ đọc [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Xác định xem có sử dụng ngắt dòng Đông Á trong một đoạn văn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Trả về hoặc đặt căn chỉnh phông chữ trong một đoạn văn. Đọc/ghi [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Xác định xem có sử dụng dấu câu treo trong một đoạn văn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Trả về hoặc đặt Thụt dòng Dòng đầu tiên/Hanging Indent của đoạn văn. Thụt dòng treo có thể được định nghĩa với giá trị âm. Đọc/ghi Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Xác định xem có sử dụng ngắt dòng Latin trong một đoạn văn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái trong một đoạn văn. Đọc/ghi Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Trả về hoặc đặt lề phải trong một đoạn văn. Đọc/ghi Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Xác định xem có sử dụng viết từ phải sang trái trong một đoạn văn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Trả về hoặc đặt khoảng cách sau dòng cuối cùng trong một đoạn văn. Đọc/ghi Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Trả về hoặc đặt khoảng cách trước dòng đầu tiên trong một đoạn văn. Đọc/ghi Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Trả về hoặc đặt khoảng cách giữa các dòng cơ sở trong một đoạn văn. Đọc/ghi Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Trả về các tabulation của một đoạn văn. Chỉ đọc [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* bộ lắp ráp [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

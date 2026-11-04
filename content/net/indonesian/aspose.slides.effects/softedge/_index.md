@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili efek tepi lunak. Tepi bentuk menjadi kabur sementara isi tidak terpengaruh.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili efek tepi lembut. Tepi bentuk menjadi buram sedangkan isi tidak terpengaruh.
 type: docs
-weight: 3650
+weight: 3670
 url: /id/aspose.slides.effects/softedge/
 ---
 ## SoftEdge kelas
 
-Mewakili efek tepi lunak. Tepi bentuk menjadi kabur, sementara isi tidak terpengaruh.
+Mewakili efek tepi lembut. Tepi bentuk menjadi blur, sementara isi tidak terpengaruh.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge

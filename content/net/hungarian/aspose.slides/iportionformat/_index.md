@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes .NET API referenciája
-description: Ez az osztály tartalmazza a szövegrész formázási tulajdonságait. Az IPortionFormatEffectiveData./iportionformateffectivedata-vel ellentétben ennek az osztálynak az összes tulajdonsága írható.
+second_title: Aspose.Sildes .NET API referencia
+description: Ez az osztály tartalmazza a szövegrész formázási tulajdonságait. Az IPortionFormatEffectiveData./iportionformateffectivedata-tól eltérően ennek az osztálynak az összes tulajdonsága írható.
 type: docs
-weight: 6730
+weight: 6750
 url: /hu/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interfész
 
-Ez az osztály tartalmazza a szövegrész formázási tulajdonságait. A [`IPortionFormatEffectiveData`](../iportionformateffectivedata)-től eltérően, ennek az osztálynak az összes tulajdonsága írható.
+Ez az osztály tartalmazza a szövegrész formázási tulajdonságait. A [`IPortionFormatEffectiveData`](../iportionformateffectivedata)-tól eltérően ennek az osztálynak az összes tulajdonsága írható.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,10 +18,10 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Visszaadja az IBasePortionFormat interfészt. Csak olvasható [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Lehetővé teszi a base IHyperlinkContainer interfész lekérését. Csak olvasható [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Visszaadja az IBasePortionFormat interfészét. Csak olvasható [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Lehetővé teszi az alap IHyperlinkContainer interfész lekérését. Csak olvasható [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Visszaadja vagy beállítja a könyvjelző azonosítót. Olvasás/írás String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Meghatározza, hogy a smart tag-et tisztítani kell-e. Nincs öröklődés alkalmazva. Olvasás/írás Boolean. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Meghatározza, hogy a intelligens címkét tisztítani kell-e. Nincs öröklődés alkalmazva. Olvasás/írás Boolean. |
 
 ## Metódusok
 
@@ -31,9 +31,9 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 ### Megjegyzések
 
-Ez az osztály a meghatározott részhez definiált szövegrész formázási tulajdonságok visszaadására és manipulálására szolgál. Ez azt jelenti, hogy értékek lekérésekor nincs öröklődés alkalmazva, ezért a legtöbb esetben "nem definiált" értékeket kap.
+Ez az osztály a konkrét részhez definiált szövegrész formázási tulajdonságok visszaadására és manipulálására szolgál. Ez azt jelenti, hogy az értékek lekérdezésekor nincs öröklődés alkalmazva, így a legtöbb esetben olyan értékeket kapunk, amelyek "nem definiált" értéket jelentnek.
 
-Az öröklődést is tartalmazó hatékony formázási paraméterértékek lekéréséhez használni kell a [`GetEffective`](./geteffective) metódust, amely egy [`IPortionFormatEffectiveData`](../iportionformateffectivedata) példányt ad vissza.
+Az örökölt értékeket is magában foglaló hatékony formázási paraméterértékek lekéréséhez a [`GetEffective`](./geteffective) metódust kell használni, amely egy [`IPortionFormatEffectiveData`](../iportionformateffectivedata) példányt ad vissza.
 
 ### Lásd még
 

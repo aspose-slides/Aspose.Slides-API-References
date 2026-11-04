@@ -1,9 +1,9 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для справочника API .NET
 description: Этот класс содержит свойства форматирования текстовых частей. В отличие от IPortionFormatEffectiveData./iportionformateffectivedata все свойства этого класса доступны для записи.
 type: docs
-weight: 6730
+weight: 6750
 url: /ru/aspose.slides/iportionformat/
 ---
 ## IPortionFormat интерфейс
@@ -18,24 +18,24 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Возвращает интерфейс IBasePortionFormat. Только для чтения [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Позволяет получить базовый интерфейс IHyperlinkContainer. Только для чтения [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Возвращает интерфейс IBasePortionFormat. Только чтение [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Позволяет получить базовый интерфейс IHyperlinkContainer. Только чтение [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Возвращает или задает идентификатор закладки. Чтение/запись String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Определяет, следует ли очистить смарт-тег. Наследование не применено. Чтение/запись Boolean. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Определяет, следует ли очищать смарт-тег. Наследование не применяется. Чтение/запись Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Получает эффективные данные форматирования части с примененным наследованием. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Получает данные эффективного форматирования части с применённым наследованием. |
 
 ### Примечания
 
-Этот класс используется для получения и изменения свойств форматирования текстовых частей, определённых для конкретной части. Это означает, что при получении значений наследование не применяется, поэтому в большинстве случаев вы получите значения, означающие «undefined».
+Этот класс используется для получения и изменения свойств форматирования текстовой части, определённых для конкретной части. Это означает, что при получении значений наследование не применяется, поэтому в большинстве случаев вы получите значения, означающие «неопределено».
 
 Чтобы получить эффективные значения параметров форматирования, включая унаследованные, необходимо использовать метод [`GetEffective`](./geteffective), который возвращает экземпляр [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBasePortionFormat](../ibaseportionformat)
 * интерфейс [IHyperlinkContainer](../ihyperlinkcontainer)

@@ -1,26 +1,26 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 컬렉션에서 지정된 DataLabel의 인덱스를 반환합니다.
 type: docs
-weight: 110
+weight: 120
 url: /ko/aspose.slides.charts/idatalabelcollection/indexof/
 ---
-## IDataLabelCollection.IndexOf method
+## IDataLabelCollection.IndexOf 메서드
 
-지정된 DataLabel의 인덱스를 컬렉션에서 반환합니다.
+컬렉션에서 지정된 DataLabel의 인덱스를 반환합니다.
 
 ```csharp
 public int IndexOf(IDataLabel value)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | value | IDataLabel | 찾을 DataLabel. |
 
-### 반환값
+### 반환 값
 
-DataLabel의 인덱스 또는 컬렉션에 포함되지 않은 DataLabel인 경우 -1을 반환합니다.
+DataLabel의 인덱스이며, 컬렉션에 속하지 않은 DataLabel인 경우 -1을 반환합니다.
 
 ### 참조
 

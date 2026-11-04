@@ -3,10 +3,10 @@ title: IShapeFrame
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de los marcos de forma.
 type: docs
-weight: 7000
+weight: 7020
 url: /es/aspose.slides/ishapeframe/
 ---
-## IShapeFrame interfaz
+## Interfaz IShapeFrame
 
 Representa las propiedades del marco de forma.
 
@@ -24,7 +24,7 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 | [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Determina si un marco está volteado verticalmente. Solo lectura [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | Devuelve la altura de un marco. Solo lectura Single. |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Devuelve las coordenadas de un marco. Solo lectura RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Solo lectura Single. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj; un valor negativo indica rotación en sentido contrario a las agujas del reloj. Solo lectura Single. |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | Devuelve el ancho de un marco. Solo lectura Single. |
 | [X](../../aspose.slides/ishapeframe/x) { get; } | Devuelve la coordenada X de la esquina superior izquierda de un marco. Solo lectura Single. |
 | [Y](../../aspose.slides/ishapeframe/y) { get; } | Devuelve la coordenada Y de la esquina superior izquierda de un marco. Solo lectura Single. |

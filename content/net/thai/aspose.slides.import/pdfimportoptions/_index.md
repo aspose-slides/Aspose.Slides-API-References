@@ -1,30 +1,30 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวเลือกการนำเข้า PDF
+second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
+description: แสดงตัวเลือกการนำเข้าฟอร์แมต PDF
 type: docs
-weight: 7500
+weight: 7520
 url: /th/aspose.slides.import/pdfimportoptions/
 ---
-## คลาส PdfImportOptions
+## PdfImportOptions คลาส
 
-แสดงตัวเลือกการนำเข้า PDF
+แสดงตัวเลือกการนำเข้าฟอร์แมต PDF
 
 ```csharp
 public class PdfImportOptions
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [PdfImportOptions](pdfimportoptions)() | ตัวสร้างเริ่มต้น |
+| [PdfImportOptions](pdfimportoptions)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | กำหนดว่าจะตรวจจับตารางเมื่อทำการนำเข้าไฟล์ pdf หรือไม่ |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | กำหนดว่าจะตรวจจับตารางเมื่อทำการนำเข้าไฟล์ pdf หรือไม่. |
 
 ### ดูเพิ่มเติม
 

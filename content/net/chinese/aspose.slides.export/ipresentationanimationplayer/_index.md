@@ -3,12 +3,12 @@ title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes .NET API 参考
 description: 表示动画的播放器。动画由 PresentationAnimationsGenerator./presentationanimationsgenerator 通过其 NewAnimation./presentationanimationsgenerator/newanimation 事件生成。
 type: docs
-weight: 4030
+weight: 4050
 url: /zh/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer 接口
 
-表示动画的播放器。通过 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 的 [`NewAnimation`](../presentationanimationsgenerator/newanimation) 事件生成动画。
+表示动画的播放器。动画由 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 通过其 [`NewAnimation`](../presentationanimationsgenerator/newanimation) 事件生成。
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -51,7 +51,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

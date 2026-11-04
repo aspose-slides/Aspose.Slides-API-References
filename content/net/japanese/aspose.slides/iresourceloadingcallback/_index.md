@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 外部リソースの読み込みを管理するために使用されるコールバックインターフェイスです。
+description: 外部リソースの読み込みを管理するために使用されるコールバックインターフェイス。
 type: docs
-weight: 6840
+weight: 6860
 url: /ja/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback インターフェイス
 
-外部リソースの読み込みを管理するために使用されるインターフェイスです。
+外部リソースの読み込みを管理するために使用されるコールバックインターフェイス。
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -18,7 +18,7 @@ public interface IResourceLoadingCallback
 
 | 名前 | 説明 |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 外部リソースの読み込みを制御するコールバック メソッドです。 |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 外部リソースの読み込みを制御するコールバックメソッド。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto Alpha Ceiling. Los valores de opacidad Alpha mayores que cero se cambian a 100. En otras palabras, cualquier cosa parcialmente opaca se vuelve totalmente opaca.
+description: Objeto inmutable que representa un efecto Alpha Ceiling. Los valores de opacidad Alpha mayores que cero se cambian a 100. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
 type: docs
-weight: 3050
+weight: 3070
 url: /es/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## Interfaz IAlphaCeilingEffectiveData
+## IAlphaCeilingEffectiveData interfaz
 
-Objeto inmutable que representa un efecto Alpha Ceiling. Los valores Alpha (opacidad) mayores que cero se cambian a 100 %. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
+Objeto inmutable que representa un efecto Alpha Ceiling. Los valores Alpha (opacidad) mayores que cero se cambian al 100 %. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData

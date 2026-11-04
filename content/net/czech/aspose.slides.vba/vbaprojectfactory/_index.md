@@ -1,14 +1,14 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Sildes pro referenční dokumentaci .NET API
-description: Umožňuje vytvořit projekt VBA přes COM rozhraní
+second_title: Aspose.Slides pro .NET API reference
+description: Umožňuje vytvořit projekt VBA prostřednictvím rozhraní COM
 type: docs
-weight: 11660
+weight: 11680
 url: /cs/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory třída
 
-Umožňuje vytvořit VBA projekt přes COM rozhraní
+Umožňuje vytvořit projekt VBA prostřednictvím rozhraní COM
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -24,14 +24,14 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Název | Popis |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA project factory static instance. Pouze pro čtení [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Statická instance továrny VBA projekt. Pouze pro čtení [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Vytvoří nový VBA projekt. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Načte VBA projekt z OLE kontejneru. |
+| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Vytvoří nový projekt VBA. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Načte projekt VBA z kontejneru OLE. |
 
 ### Viz také
 

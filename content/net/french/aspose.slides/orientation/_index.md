@@ -1,9 +1,9 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente l'orientation d'une forme.
 type: docs
-weight: 9240
+weight: 9260
 url: /fr/aspose.slides/orientation/
 ---
 ## Énumération Orientation

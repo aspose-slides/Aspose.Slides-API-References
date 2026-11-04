@@ -1,9 +1,9 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Paragrafların bir koleksiyonunu temsil eder.
 type: docs
-weight: 9290
+weight: 9310
 url: /tr/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection sınıfı
@@ -20,28 +20,28 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | --- | --- |
 | [Count](../../aspose.slides/paragraphcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt okunur Int32. |
 | [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | ICollection'ın salt okunur olup olmadığını gösteren bir değeri alır. Salt okunur Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Koleksiyonun sonuna bir Paragraph ekler. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Koleksiyonun sonuna bir ParagraphCollection içeriği ekler. |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Bir Paragraph'ı koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | ParagraphCollection içeriğini koleksiyonun sonuna ekler. |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Belirtilen html dizesinden metni koleksiyona ekler. |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Belirtilen html dizesinden metni koleksiyona ekler. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection'ın öğelerini belirli bir dizi indeksinden başlayarak bir Array'e kopyalar. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Belirtilen paragrafları HTML'ye dönüştürür ve bir String nesnesi olarak döndürür. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection öğelerini bir diziye kopyalar, belirli bir dizi indeksinden başlayarak. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Belirtilen paragrafları HTML'e dönüştürür ve String nesnesi olarak döndürür. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | IList içinde belirli bir öğenin indeksini belirler. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Belirtilen indekste koleksiyona bir Paragraph ekler. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Belirtilen indekste koleksiyona bir ParagraphCollection içeriği ekler. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | IList içinde belirli bir öğenin dizinini belirler. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Belirtilen dizinde koleksiyona bir Paragraph ekler. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Belirtilen dizinde koleksiyona bir ParagraphCollection içeriğini ekler. |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ICollection'dan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Koleksiyonun belirtilen dizinindeki öğeyi kaldırır. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [TextFrame](../textframe)

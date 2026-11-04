@@ -1,26 +1,26 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van aangepaste xml-onderdelen voor.
+description: Vertegenwoordigt een verzameling van aangepaste xml-onderdelen.
 type: docs
-weight: 5680
+weight: 5700
 url: /nl/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface
 
-Represents collection of custom xml parts.
+Vertegenwoordigt een verzameling van aangepaste xml-onderdelen.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
 | [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Retourneert het element op de opgegeven index. |
 
-## Methods
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -28,8 +28,8 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Voegt een nieuw aangepast xml-onderdeel toe. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Voegt een nieuw aangepast xml-onderdeel toe. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Verwijdert alle items uit de collectie. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Verwijdert de eerste instantie van een specifiek object uit de collectie. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Verwijdert aangepast xml-onderdeel op de opgegeven index. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Verwijdert de eerste voorkoming van een specifiek object uit de collectie. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Verwijdert het aangepaste xml-onderdeel op de opgegeven index. |
 
 ### Zie ook
 

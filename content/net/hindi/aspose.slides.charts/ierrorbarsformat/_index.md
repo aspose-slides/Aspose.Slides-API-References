@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: चार्ट सीरीज़ के त्रुटि बार का प्रतिनिधित्व करता है। ErrorBars कस्टम मान IChartDataPointCollection में होते हैं, ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues प्रॉपर्टी में।
+description: चार्ट श्रृंखला के त्रुटि बारों का प्रतिनिधित्व करता है। ErrorBars कस्टम मान IChartDataPointCollection में स्थित हैं, ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues प्रॉपर्टी में।
 type: docs
-weight: 2090
+weight: 2110
 url: /hi/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat इंटरफ़ेस
 
-चार्ट सीरीज़ के त्रुटि बार का प्रतिनिधित्व करता है। ErrorBars कस्टम मान IChartDataPointCollection में होते हैं ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) प्रॉपर्टी में)।
+चार्ट श्रृंखला के त्रुटि बारों को दर्शाता है। ErrorBars कस्टम मान IChartDataPointCollection में हैं ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) प्रॉपर्टी में)।
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -18,15 +18,15 @@ public interface IErrorBarsFormat : IChartComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | IChartComponent इंटरफ़ेस लौटाता है। केवल- पढ़ने योग्य [`IChartComponent`](../ichartcomponent)। |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | त्रुटि बार के फ़ॉर्मेट का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`IFormat`](../iformat)। |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | यह निर्दिष्ट करता है कि त्रुटि बार पर अंत कैप नहीं बनाया जाता है। पढ़ने/लिखने योग्य Boolean। |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Error Bars की दृश्यता प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean। |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | त्रुटि बार के प्रकार को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`ErrorBarType`](../errorbartype)। |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Fixed, Percentage और StandardDeviation मान प्रकारों के साथ उपयोग किए जाने वाले मान को प्राप्त करता है या सेट करता है, जिससे त्रुटि बार की लंबाई निर्धारित होती है। पढ़ने/लिखने योग्य Single। |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | त्रुटि बार की लंबाई निर्धारित करने के संभावित तरीकों का प्रतिनिधित्व करता है। कस्टम मान प्रकार के मामले में सीरीज़ के DataPoints संग्रह में विशिष्ट डेटा पॉइंट की [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) प्रॉपर्टी का उपयोग करें। पढ़ने/लिखने योग्य [`ErrorBarValueType`](../errorbarvaluetype)। |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | IChartComponent इंटरफ़ेस को वापस देता है। केवल-पढ़ने योग्य [`IChartComponent`](../ichartcomponent)। |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | त्रुटि बारों का स्वरूप दर्शाता है। पढ़ें/लिखें [`IFormat`](../iformat)। |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | त्रुटि बारों पर अंत कैप नहीं खींचा जाता। पढ़ें/लिखें Boolean। |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Error Bars दृश्यता प्राप्त करता है या सेट करता है। पढ़ें/लिखें Boolean। |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | त्रुटि बारों के प्रकार को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`ErrorBarType`](../errorbartype)। |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | त्रुटि बारों की लंबाई निर्धारित करने के लिए Fixed, Percentage और StandardDeviation मान प्रकारों के साथ उपयोग किए जाने वाले मान को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single। |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | त्रुटि बारों की लंबाई निर्धारित करने के संभावित तरीकों को दर्शाता है। कस्टम मान प्रकार के मामले में मान निर्दिष्ट करने के लिए श्रृंखला के DataPoints संग्रह में विशेष डेटा पॉइंट की [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) प्रॉपर्टी का उपयोग करें। पढ़ें/लिखें [`ErrorBarValueType`](../errorbarvaluetype)। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IChartComponent](../ichartcomponent)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

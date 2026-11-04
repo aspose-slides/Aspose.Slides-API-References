@@ -1,20 +1,20 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Sildes for .NET API Referansı
-description: Kullanılmayan ana slaytları kaldırarak Presentationaspose.slides/presentation sıkıştırması yapar.
+second_title: Aspose.Sildes .NET API Referansı
+description: Presentationaspose.slides/presentation'ı kullanılmayan ana slaytları kaldırarak sıkıştırır.
 type: docs
-weight: 30
+weight: 50
 url: /tr/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides yöntemi
 
-Kullanılmayan ana slaytları kaldırarak [`Presentation`](../../../aspose.slides/presentation) sıkıştırmasını yapar.
+[`Presentation`](../../../aspose.slides/presentation)'yi kullanılmayan ana slaytları kaldırarak sıkıştırır.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
 ```
 
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pres | Presentation | Sunum örneği |
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [Presentation](../../../aspose.slides/presentation)
 * sınıf [Compress](../../compress)

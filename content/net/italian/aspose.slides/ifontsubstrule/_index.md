@@ -1,9 +1,9 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le informazioni di sostituzione dei caratteri
 type: docs
-weight: 5880
+weight: 5900
 url: /it/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interfaccia
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Font da usare per la sostituzione Sola lettura [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regola da applicare per la sostituzione Sola lettura [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Font da sostituire Sola lettura [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Carattere da usare per la sostituzione Solo lettura [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regola da applicare per la sostituzione Solo lettura [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Carattere da sostituire Solo lettura [`IFontData`](../ifontdata). |
 
 ### Vedi anche
 

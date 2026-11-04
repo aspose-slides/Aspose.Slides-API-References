@@ -1,14 +1,14 @@
 ---
 title: ISection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά ενότητα διαφανειών.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ενότητα διαφανειών.
 type: docs
-weight: 6890
+weight: 6910
 url: /el/aspose.slides/isection/
 ---
-## ISection διασύνδεση
+## Διεπαφή ISection
 
-Αναπαριστά ενότητα διαφανειών.
+Αντιπροσωπεύει ενότητα διαφανειών.
 
 ```csharp
 public interface ISection
@@ -16,7 +16,7 @@ public interface ISection
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Όνομα της ενότητας. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | Αναγνωριστικό ενότητας. |
@@ -24,7 +24,7 @@ public interface ISection
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Επιστρέφει λίστα διαφανειών στην ενότητα. |
 

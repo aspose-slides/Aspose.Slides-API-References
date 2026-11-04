@@ -1,9 +1,9 @@
 ---
 title: AlphaModulateFixed
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Alpha Modulate Fixed. Los valores de opacidad alfa del efecto se multiplican por un porcentaje fijo.
+second_title: Aspose.Sildes para la referencia API de .NET
+description: Representa un efecto Alpha Modulate Fixed. Los valores de alfa de opacidad del efecto se multiplican por un porcentaje fijo.
 type: docs
-weight: 2890
+weight: 2910
 url: /es/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed clase
@@ -18,7 +18,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | Nombre | Descripción |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Devuelve una cantidad del efecto en porcentajes. Lectura/escritura Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Devuelve una cantidad de efecto en porcentajes. Lectura/escritura Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Métodos
@@ -27,7 +27,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Determina si el [`AlphaModulateFixed`](../alphamodulatefixed) especificado es igual al [`AlphaModulateFixed`](../alphamodulatefixed) actual. |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Obtiene los datos efectivos del efecto Alpha Modulate Fixed con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Sirve como función hash para un tipo particular. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Funciona como una función hash para un tipo particular. |
 
 ### Ver también
 

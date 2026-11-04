@@ -1,14 +1,14 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een wiskundige breuk te maken
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Staat toe een wiskundige breuk te maken
 type: docs
-weight: 8700
+weight: 8720
 url: /nl/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory klasse
 
-Staat toe om een wiskundige breuk te maken
+Staat toe een wiskundige breuk te maken
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
@@ -27,11 +27,11 @@ public class MathFractionFactory : IMathFractionFactory
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Maakt een wiskundige breuk |
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Maakt een wiskundige breuk |
 
-### Opmerkingen
+### Remarks
 
 Voor COM-compatibiliteit
 
-### Zie ook
+### See Also
 
 * interface [IMathFractionFactory](../imathfractionfactory)
 * naamruimte [Aspose.Slides.MathText](../../aspose.slides.mathtext)

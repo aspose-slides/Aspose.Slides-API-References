@@ -1,29 +1,29 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das die effektiven Formatierungseigenschaften von Tabellenzellen enthält.
+description: Unveränderliches Objekt, das effektive Tabellenzellen-Formatierungseigenschaften enthält.
 type: docs
-weight: 5480
+weight: 5500
 url: /de/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das die effektiven Formatierungseigenschaften von Tabellenzellen enthält.
+Unveränderliches Objekt, das effektive Tabellenzellen-Formatierungseigenschaften enthält.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## Eigenschaften
+## Properties
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Ruft die Transparenz der Füllfarbe ab. Einzelwert lesen. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBaseTableFormatEffectiveData. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Gibt die Transparenz der Füllfarbe zurück. Einzelwert vom Typ Single. |
 
-### Hinweise
+### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`ICellFormat`](../icellformat)-Schnittstelle verwendet, um effektive Formatierungswerte mit vererbten und angewandten Tabellenstilen zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ICellFormat`](../icellformat) Schnittstelle verwendet, um effektive Formatierungswerte zurückzugeben, wobei Vererbung und Tabellenstile angewendet werden.
 
 ### Siehe auch
 

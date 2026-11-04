@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesGroup
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع Aspose.Sildes لـ .NET API
 description: يمثل مجموعة من السلاسل.
 type: docs
-weight: 1460
+weight: 1470
 url: /ar/aspose.slides.charts/chartseriesgroup/
 ---
 ## فئة ChartSeriesGroup
@@ -16,37 +16,37 @@ public class ChartSeriesGroup : IChartSeriesGroup
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | تحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. قراءة/كتابة [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | تحدد معامل التحجيم لمخطط الفقاعات (يمكن أن يكون بين 0 و 300 بالمئة من الحجم الافتراضي). قراءة/كتابة Int32. |
-| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | يرجع المخطط الأب. قراءة فقط [`IChart`](../ichart). |
-| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | تحدد حجم الفتحة في مخطط الدونات (يمكن أن يكون بين 0 و 90 بالمئة من حجم مساحة الرسم). قراءة/كتابة Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | تحصل أو تعين زاوية الشريحة الأولى في مخطط الفطيرة أو الدونات، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). قراءة/كتابة UInt16. |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | يرجع أو يعين المسافة، كنسبة مئوية من عرض العلامة، بين سلاسل البيانات في مخطط ثلاثي الأبعاد. قراءة/كتابة UInt16. |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | تحدد المسافة بين مجموعات الأعمدة أو الشرائح، كنسبة مئوية من عرض العمود أو الشريط. قراءة/كتابة UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | صواب إذا كان المخطط يحتوي على خطوط السلسلة. يُطبق على مخططات الأعمدة المتكدسة ومخططات OfPie. قراءة/كتابة Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | تحدد تنسيق HiLowLines. يتم تطبيق HiLowLines مع أنواع المخططات HiLowClose و OpenHiLowClose و VolumeHiLowClose و VolumeOpenHiLowClose. |
-| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | تحدد أن كل علامة بيانات في السلسلة لها لون مختلف. قراءة/كتابة Boolean. |
-| [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | تحصل على العنصر عند الفهرس المحدد. |
-| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | تحدد مقدار تداخل الأعمدة والشرائح في المخططات ثنائية الأبعاد، كنسبة مئوية (من -100٪ إلى 100٪). - -100٪: أقصى مسافة (الأعمدة منفصلة تمامًا). - 0٪: توضع الأعمدة بجانب بعضها دون تداخل أو مسافة. - 100٪: أقصى تداخل (الأعمدة تتداخل تمامًا). هذه الخاصية قراءة/كتابة SByte. |
-| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | تحدد كيفية تحديد نقاط البيانات التي تكون في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. قراءة/كتابة [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | معلومات الانقسام المخصصة لمخطط pie-of-pie أو bar-of-pie مع انقسام مخصص. يحتوي على نقاط البيانات التي يجب رسمها في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. قراءة فقط [`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | تحدد قيمة تُستخدم لتحديد نقاط البيانات الموجودة في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. تُستخدم مع الخاصية PieSplitBy. قراءة/كتابة Double. |
-| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | تشير إلى ما إذا كانت سلاسل هذه المجموعة تُرسم على المحور الثانوي. قراءة فقط Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | تحدد حجم الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن تكون بين 5 و 200 بالمئة). قراءة/كتابة UInt16. |
-| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | يرجع مجموعة من السلاسل. قراءة فقط [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | يرجع نوع هذه المجموعة من السلاسل. قراءة فقط [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | توفر وصولًا إلى أشرطة الصعود/الهبوط في مخطط الخط أو المخطط السهمي. قراءة فقط [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | يحدد كيفية تمثيل قيم حجم الفقاعات في مخطط الفقاعات. قابل للقراءة والكتابة [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | يحدد عامل المقياس لمخطط الفقاعات (يمكن أن يكون بين 0 و 300 في المئة من الحجم الافتراضي). قابل للقراءة والكتابة Int32. |
+| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | يرجع المخطط الأب. للقراءة فقط [`IChart`](../ichart). |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | يحدد حجم الفتحة في مخطط الدونات (يمكن أن يكون بين 0 و 90 في المئة من حجم مساحة الرسم). قابل للقراءة والكتابة Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | يحصل أو يضبط زاوية القطعة الأولى في مخطط الفطيرة أو الدونات، بالدرجات (مع اتجاه عقارب الساعة من الأعلى، من 0 إلى 360 درجة). قابل للقراءة والكتابة UInt16. |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | يحصل أو يضبط المسافة بين سلاسل البيانات في مخطط ثلاثي الأبعاد، كنسبة مئوية من عرض العلامة. يجب أن تكون القيمة بين 0 و 500. قابل للقراءة والكتابة UInt16. |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | يحصل أو يضبط المسافة بين مجموعات الأعمدة أو الأعمدة، كنسبة مئوية من عرض العمود أو الشريط. يجب أن تكون القيمة بين 0 و 500. قابل للقراءة والكتابة UInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | True إذا كان المخطط يحتوي على خطوط السلاسل. يُطبق على مخططات الشريط المكدس ومخططات OfPie. قابل للقراءة والكتابة Boolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | يحدد تنسيق HiLowLines. يتم تطبيق HiLowLines مع أنواع المخططات HiLowClose و OpenHiLowClose و VolumeHiLowClose و VolumeOpenHiLowClose. |
+| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | يحدد أن كل علامة بيانات في السلسلة لها لون مختلف. قابل للقراءة والكتابة Boolean. |
+| [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | يحصل على العنصر عند الفهرس المحدد. |
+| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | يحدد مقدار تداخل الأشرطة والأعمدة في المخططات الثنائية الأبعاد، كنسبة مئوية (من -100% إلى 100%). - -100%: الحد الأقصى للمسافات (الأشرطة منفصلة تمامًا). - 0%: تُوضع الأشرطة جنبًا إلى جنب بدون تداخل أو مسافة. - 100%: الحد الأقصى للتداخل (الأشرطة تتداخل تمامًا). هذه الخاصية قابلة للقراءة والكتابة SByte. |
+| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | يحدد الطريقة لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. قابل للقراءة والكتابة [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | معلومات الانقسام المخصصة لمخطط pie-of-pie أو bar-of-pie مع انقسام مخصص. يحتوي على نقاط البيانات التي يجب رسمها في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. للقراءة فقط [`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | يحدد قيمة تُستخدم لتحديد أي نقاط البيانات تكون في الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie. تُستخدم مع خاصية PieSplitBy. قابل للقراءة والكتابة Double. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | يشير ما إذا كانت سلاسل هذه المجموعة مرسومة على المحور الثانوي. للقراءة فقط Boolean. |
+| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | يحدد حجم الفطيرة أو الشريط الثاني في مخطط pie-of-pie أو bar-of-pie، كنسبة مئوية من حجم الفطيرة الأولى (يمكن أن يكون بين 5 و 200 في المئة). قابل للقراءة والكتابة UInt16. |
+| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | يرجع مجموعة من السلاسل. للقراءة فقط [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | يرجع نوع هذه المجموعة من السلاسل. للقراءة فقط [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | يوفر الوصول إلى أشرطة الارتفاع/الانخفاض في مخطط الخط أو مخطط السهم. للقراءة فقط [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### ملاحظات
 
-1) راجع الملخص والملاحظات لفئة ChartSeriesGroupCollection والعدد CombinableSeriesTypesGroup. 2) تحتوي مجموعة السلاسل على بعض خصائص السلسلة التي تكون مشتركة لكل سلسلة في المجموعة ("خصائص مجموعة السلسلة"). خصائص مجموعة السلسلة في فئة ChartSeriesGroup هي قراءة/كتابة. يمكن لكل من "خصائص مجموعة السلسلة" أن يكون لها تمثيل قراءة فقط في فئة ChartSeries.
+1) راجع الملخص والملاحظات لفئة ChartSeriesGroupCollection والعدد CombinableSeriesTypesGroup. 2) تحتوي مجموعة السلاسل على بعض خصائص السلسلة المشتركة لكل سلسلة في المجموعة ("خصائص مجموعة السلاسل"). "خصائص مجموعة السلاسل" في فئة ChartSeriesGroup قابلة للقراءة والكتابة. كل واحدة من "خصائص مجموعة السلاسل" يمكن أن يكون لها إسقاط للقراءة فقط في فئة ChartSeries.
 
-### راجع أيضًا
+### انظر أيضًا
 
 * واجهة [IChartSeriesGroup](../ichartseriesgroup)
-* نطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
+* نطاق الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

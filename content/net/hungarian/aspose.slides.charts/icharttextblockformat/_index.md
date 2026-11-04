@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes .NET API referencia
-description: A diagram szövegelemek formázási tulajdonságait képviseli.
+description: A diagram szöveg elemek formázási tulajdonságait képviseli.
 type: docs
-weight: 1980
+weight: 2000
 url: /hu/aspose.slides.charts/icharttextblockformat/
 ---
-## IChartTextBlockFormat interfész
+## IChartTextBlockFormat interface
 
-A diagram szövegelemek formázási tulajdonságait képviseli.
+Represents formatting properties for chart text elements.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -19,15 +19,15 @@ public interface IChartTextBlockFormat
 | Név | Leírás |
 | --- | --- |
 | [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Visszaadja vagy beállítja a függőleges horgony szöveget egy TextFrame-ben. Olvasás/írás [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Visszaadja vagy beállítja a szöveg automatikus illesztési módját. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésre). Olvasás/írás [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Ha NullableBool.True, akkor a szöveget vízszintesen kell középre helyezni a mezőben. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Visszaadja vagy beállítja az alsó margót (pontban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésre). Olvasás/írás Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Visszaadja vagy beállítja a bal margót (pontban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésre). Olvasás/írás Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Visszaadja vagy beállítja a jobb margót (pontban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésre). Olvasás/írás Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Visszaadja vagy beállítja a felső margót (pontban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésre). Olvasás/írás Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Megadja az egyéni forgatást, amelyet a szövegre alkalmaznak a körülhatároló mezőben. Ha nincs megadva, akkor a kísérő alakzat forgatását használja. Ha meg van adva, akkor ez függetlenül az alakzattól alkalmazásra kerül. Azaz az alakzat rendelkezhet forgatással, ráadásul a szöveg is saját forgatással rendelkezhet. A vizuális szövegforgatás értéke, amely ebből a tulajdonságból és a TextVerticalType tulajdonságban előre definiált függőleges típusról származik, összegzett érték. Olvasás/írás Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Meghatározza a szöveg tájolását. A vizuális szövegforgatás értéke, amely ebből a tulajdonságból és a RotationAngle tulajdonság egyéni szögéből származik, összegzett érték. Olvasás/írás [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** ha a szöveg a TextFrame margóinál van tördelve. Ennek a tulajdonságnak a módosítása csak a következő diagram részekre gyakorolhat hatást: DataLabel és DataLabelFormat (teljes támogatás a PowerPoint 2007/2013-ban). Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Visszaadja vagy beállítja a szöveg autofit módját. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésnél). Olvasás/írás [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Ha NullableBool.True, akkor a szöveget vízszintesen középre kell helyezni a dobozban. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Visszaadja vagy beállítja az alsó margót (pontokban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésnél). Olvasás/írás Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Visszaadja vagy beállítja a bal margót (pontokban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésnél). Olvasás/írás Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Visszaadja vagy beállítja a jobb margót (pontokban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésnél). Olvasás/írás Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Visszaadja vagy beállítja a felső margót (pontokban) egy TextFrame-ben. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2013-ban; a PowerPoint 2007-ben nincs hatása a megjelenítésnél). Olvasás/írás Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Megadja a saját forgatást, amely a szövegre kerül a körülhatároló dobozon belül. Ha nincs megadva, akkor az együttálló alakzat forgatása kerül felhasználásra. Ha meg van adva, akkor ez függetlenül az alakzattól kerül alkalmazásra. Vagyis az alakzat kaphat forgatást, mely a szöveg saját forgatása mellett alkalmazható. A vizuális szöveg forgatásának eredő értéke ebből a tulajdonságból és a TextVerticalType tulajdonság előre meghatározott függőleges típusából származik. Olvasás/írás Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Meghatározza a szöveg orientációját. A vizuális szöveg forgatásának eredő értéke ebből a tulajdonságból és a RotationAngle saját szögéből származik. Olvasás/írás [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** ha a szöveg a TextFrame margóinál sortörést kap. Ennek a tulajdonságnak a módosítása csak bizonyos diagram részekre, a DataLabel és DataLabelFormat elemekre gyakorolhat hatást (teljes támogatás a PowerPoint 2007/2013-ban). Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Lásd még
 

@@ -1,20 +1,20 @@
 ---
 title: Value
 second_title: Aspose.Sildes för .NET API-referens
-description: Om UseCell är true så representerar denna egenskap AsCell.Value property. Om UseCell är false så representerar denna egenskap AsLiteral property. Läs/skriv Object.
+description: Om UseCell är true så representerar den här egenskapen AsCell.Value property. Om UseCell är false så representerar den här egenskapen AsLiteral property. Läs/skriv Object.
 type: docs
-weight: 50
+weight: 60
 url: /sv/aspose.slides.charts/chartcategory/value/
 ---
 ## ChartCategory.Value egenskap
 
-Om UseCell är true så representerar denna egenskap AsCell.Value property. Om UseCell är false så representerar denna egenskap AsLiteral property. Läs/skriv Object.
+If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Läs/skriv Object.
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### Se även
+### Se också
 
 * klass [ChartCategory](../../chartcategory)
 * namnrymd [Aspose.Slides.Charts](../../chartcategory)

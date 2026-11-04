@@ -3,12 +3,12 @@ title: IAudioFrame
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Audioclip auf einer Folie dar.
 type: docs
-weight: 5230
+weight: 5250
 url: /de/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame Schnittstelle
 
-Stellt einen Audioclip auf einer Folie dar.
+Represents an audio clip on a slide.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,26 +18,26 @@ public interface IAudioFrame : IPictureFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Ermöglicht das Abrufen der Basis IPictureFrame Schnittstelle. Nur-Lesen [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Gibt den letzten Track-Index zurück oder setzt ihn. Lese/Schreib Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Gibt die letzte Track-Zeit zurück oder setzt sie. Lese/Schreib Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Gibt den Start-Track-Index zurück oder setzt ihn. Lese/Schreib Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Gibt die Start-Track-Zeit zurück oder setzt sie. Lese/Schreib Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Ermittelt die Sammlung geschlossener Untertitel, die dem Audio-Frame zugeordnet sind. Diese Eigenschaft ist Nur-Lesen und gibt ein [`ICaptionsCollection`](../icaptionscollection) zurück, das alle Untertitel-Spuren enthält. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Ermittelt, ob ein Ton in die Präsentation eingebettet ist. Nur-Lesen Boolean. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Ermöglicht das Abrufen der Basis-IPictureFrame-Schnittstelle. Nur lesbar [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Gibt den Index des letzten Tracks zurück oder setzt ihn. Lese/Schreib Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Gibt die Zeit des letzten Tracks zurück oder setzt sie. Lese/Schreib Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Gibt den Index des Start-Tracks zurück oder setzt ihn. Lese/Schreib Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Gibt die Zeit des Start-Tracks zurück oder setzt sie. Lese/Schreib Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Ruft die Sammlung geschlossener Untertitel ab, die dem Audio-Frame zugeordnet ist. Diese Eigenschaft ist nur lesbar und gibt ein [`ICaptionsCollection`](../icaptionscollection) zurück, das alle Untertitel-Tracks enthält. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bestimmt, ob ein Ton in die Präsentation eingebettet ist. Nur lesbar Boolean. |
 | [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Gibt das eingebettete Audio-Objekt zurück oder setzt es. Lese/Schreib [`IAudio`](../iaudio). |
 | [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Gibt die Zeitdauer für das anfängliche Einblenden des Mediums in Millisekunden an. Lese/Schreib Single. |
 | [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Gibt die Zeitdauer für das abschließende Ausblenden des Mediums in Millisekunden an. Lese/Schreib Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Ermittelt, ob ein AudioFrame ausgeblendet ist. Lese/Schreib Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Gibt den Namen einer Audiodatei zurück oder setzt ihn, die mit einem AudioFrame verknüpft ist. Lese/Schreib String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Ermittelt, ob ein Audio über die Folien hinweg abgespielt wird. Lese/Schreib Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Ermittelt, ob ein Audio wiederholt wird. Lese/Schreib Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Gibt den Audio-Wiedergabemodus zurück oder setzt ihn. Lese/Schreib [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Ermittelt, ob ein Audio nach dem Abspielen automatisch zum Anfang zurückspult. Lese/Schreib Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Gibt die Zeitdauer an, die am Ende des Mediums während der Wiedergabe in Millisekunden entfernt wird. Lese/Schreib Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Gibt die Zeitdauer an, die am Anfang des Mediums während der Wiedergabe in Millisekunden entfernt wird. Lese/Schreib Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Gibt die Audio-Lautstärke zurück oder setzt sie. Lese/Schreib [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Gibt die Audio-Lautstärke in Prozent zurück oder setzt sie. Lese/Schreib Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Bestimmt, ob ein AudioFrame ausgeblendet ist. Lese/Schreib Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Gibt den Namen einer Audiodatei zurück, die mit einem AudioFrame verknüpft ist, oder setzt ihn. Lese/Schreib String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Bestimmt, ob Audio über die Folien hinweg abgespielt wird. Lese/Schreib Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Bestimmt, ob Audio wiederholt wird. Lese/Schreib Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Gibt den Wiedergabemodus des Audios zurück oder setzt ihn. Lese/Schreib [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Bestimmt, ob ein Audio nach der Wiedergabe automatisch zum Anfang zurückgespult wird. Lese/Schreib Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Gibt die Zeitdauer an, die am Ende des Mediums während der Wiedergabe in Millisekunden entfernt werden soll. Lese/Schreib Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Gibt die Zeitdauer an, die am Anfang des Mediums während der Wiedergabe in Millisekunden entfernt werden soll. Lese/Schreib Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Gibt die Audiodateilautstärke zurück oder setzt sie. Lese/Schreib [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Gibt die Audiodateilautstärke in Prozent zurück oder setzt sie. Lese/Schreib Single. |
 
 ### Siehe auch
 

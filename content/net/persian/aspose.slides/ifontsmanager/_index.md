@@ -1,9 +1,9 @@
 ---
 title: IFontsManager
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: فونت‌ها را در سراسر ارائه مدیریت می‌کند.
 type: docs
-weight: 5930
+weight: 5950
 url: /fa/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager رابط
@@ -18,29 +18,30 @@ public interface IFontsManager
 
 | نام | توضیح |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | مجموعهٔ کاربری قوانین FontFallBack را برای مدیریت مجموعهٔ فونت‌ها به‌منظور جایگزینی صحیح توسط عملکرد fallback نمایش می‌دهد. خواندنی/نوشتنی [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | جایگزینی‌های فونت که هنگام رندر استفاده می‌شوند. خواندنی/نوشتنی [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | مجموعه‌ای از قوانین FontFallBack کاربر را برای مدیریت مجموعه‌های فونت به‌منظور جایگزینی صحیح توسط عملکرد fallback نشان می‌دهد. خواندن/نوشتن [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | جایگزینی‌های فونت برای استفاده هنگام رندر کردن. خواندن/نوشتن [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | مشخص می‌کند که آیا فونت‌های ثبت‌شده نسبت به فونت‌های تعبیه‌شده با همان نام و سبک ترجیح داده شوند یا نه. وقتی فعال باشد، فونت‌های تعبیه‌شدهٔ منطبق به‌طور موقت با فونت‌های ثبت‌شدهٔ مربوطه هنگام خروجی‌گیری جایگزین می‌شوند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | فونت توکار را اضافه می‌کند. هنگام اضافه کردن هر فونتی به‌خاطر داشته باشید که اکثر فونت‌ها تحت حق‌نویس هستند. ابتدا مجوز فونت را پیشاپیش پیدا کنید و بررسی کنید آیا می‌تواند آزادانه به ماشین دیگری منتقل شود یا نه. در صورتیکه دادهٔ فونت null باشد یا این فونت قبلاً توکار شده باشد، ممکن است ArgumentException پرتاب شود |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | فونت توکار را اضافه می‌کند. هنگام کپی کردن هر فونتی به‌خاطر داشته باشید که اکثر فونت‌ها تحت حق‌نویس هستند. ابتدا مجوز فونت را پیشاپیش پیدا کنید و بررسی کنید آیا می‌تواند آزادانه به ماشین دیگری منتقل شود یا نه. در صورتیکه دادهٔ فونت null باشد یا این فونت قبلاً توکار شده باشد، ممکن است ArgumentException پرتاب شود |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | فونت‌های توکار شده در ارائه را برمی‌گرداند |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | آرایهٔ بایتی که نمایانگر دادهٔ فونت برای سبک فونت و دادهٔ فونت مشخص شده است را بازیابی می‌کند |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | سطح توکار شدن فونت را از آرایهٔ بایتی و نام فونت داده‌شده تعیین می‌کند |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | فونت‌های استفاده‌شده در ارائه را برمی‌گرداند |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | اطلاعاتی دربارهٔ فونت‌هایی که در هنگام رندر ارائه جایگزین می‌شوند را دریافت می‌کند |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | اطلاعاتی دربارهٔ فونت‌هایی که در هنگام رندر اسلایدهای مشخص شده جایگزین می‌شوند را دریافت می‌کند |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | فونت توکار شده را حذف می‌کند |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | فونت را در ارائه با استفاده از اطلاعات ارائه‌شده در [`IFontSubstRule`](../ifontsubstrule) جایگزین می‌کند |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | فونت را در ارائه با استفاده از اطلاعات ارائه‌شده در مجموعهٔ [`IFontSubstRule`](../ifontsubstrule) جایگزین می‌کند |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | فونت را در ارائه جایگزین می‌کند |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | فونت تعبیه‌شده را اضافه می‌کند. در هنگام افزودن هر فونتی به این نکته توجه داشته باشید که اکثر فونت‌ها حق تکثیر دارند. ابتدا مجوز یک فونت را پیش از آن پیدا کنید و تأیید کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. اگر داده‌های فونت null باشد یا این فونت قبلاً تعبیه شده باشد، یک ArgumentException می‌تواند پرتاب شود. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | فونت تعبیه‌شده را اضافه می‌کند. در هنگام کپی هر فونتی به این نکته توجه داشته باشید که اکثر فونت‌ها حق تکثیر دارند. ابتدا مجوز یک فونت را پیش از آن پیدا کنید و تأیید کنید که می‌توانند به‌صورت آزاد به ماشین دیگری منتقل شوند. اگر داده‌های فونت null باشد یا این فونت قبلاً تعبیه شده باشد، یک ArgumentException می‌تواند پرتاب شود. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | فونت‌های تعبیه‌شده در ارائه را برمی‌گرداند. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | آرایه بایت حاوی داده‌های فونت برای یک سبک فونت و داده‌های فونت مشخص را بازیابی می‌کند. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | سطح تعبیه یک فونت را از آرایه بایت و نام فونت داده‌شده تعیین می‌کند. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | فونت‌های استفاده‌شده در ارائه را برمی‌گرداند. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | اطلاعاتی در مورد فونت‌هایی که در رندر ارائه جایگزین خواهند شد را دریافت می‌کند. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | اطلاعاتی در مورد فونت‌هایی که در رندر اسلایدهای مشخص جایگزین خواهند شد را دریافت می‌کند. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | فونت تعبیه‌شده را حذف می‌کند. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | فونت در ارائه را با استفاده از اطلاعات ارائه‌شده در [`IFontSubstRule`](../ifontsubstrule) جایگزین می‌کند. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | فونت در ارائه را با استفاده از اطلاعات ارائه‌شده در مجموعه [`IFontSubstRule`](../ifontsubstrule) جایگزین می‌کند. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | فونت در ارائه را جایگزین می‌کند. |
 
 ### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجموعه [Aspose.Slides](../../)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

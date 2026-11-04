@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes .NET API hivatkozás
-description: A menedzsert jelenti, amely a mester jegyzetdia lábléc, dátum-idő és oldalszám helyőrzőinek és az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek.
+description: Az a menedzser, amely a mester jegyzet dia lábléc, időpont, oldal szám helyőrzőinek és az összes gyermekhelyőrzőnek a viselkedését kezeli. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon találhatók. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek.
 type: docs
-weight: 8020
+weight: 8040
 url: /hu/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager osztály
 
-A menedzser, amely a mester jegyzetdia lábléc, dátum-idő, oldalszám helyőrzőit és az összes gyermek helyőrzőt kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek.
+A menedzsert képviseli, amely a mester jegyzet dia lábléc, időpont, oldal szám helyőrzőinek és az összes gyermekhelyőrzőnek a viselkedését kezeli. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,29 +19,29 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 | Név | Leírás |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Visszaadja azt az értéket, amely jelzi, hogy dátum-idő helyőrző jelen van. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Visszaadja azt az értéket, amely jelzi, hogy lábléc helyőrző jelen van. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Visszaadja azt az értéket, amely jelzi, hogy fejléc helyőrző jelen van. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Visszaadja azt az értéket, amely jelzi, hogy oldalszám helyőrző jelen van. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Adatepont helyőrző jelenlétét jelző értéket ad vissza. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | A lábléc helyőrző jelenlétét jelző értéket ad vissza. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | A fejléc helyőrző jelenlétét jelző értéket ad vissza. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Az oldal szám helyőrző jelenlétét jelző értéket ad vissza. ReadBoolean. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a mesterdia dátum-idő helyőrzőjében és az összes gyermek dátum-idő helyőrzőben. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a mesterdia dátum-idő helyőrző és az összes gyermek dátum-idő helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Beállítja a szöveget a dia dátum-idő helyőrzőjében. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Módosítja a dia dátum-idő helyőrzőjének láthatóságát. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a mesterdia lábléc helyőrzőjében és az összes gyermek lábléc helyőrzőben. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a mesterdia lábléc helyőrző és az összes gyermek lábléc helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Beállítja a szöveget a dia lábléc helyőrzőjében. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Módosítja a dia lábléc helyőrzőjének láthatóságát. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Beállítja a szöveget a mester jegyzetdia fejléc helyőrzőjében és az összes gyermek fejléc helyőrzőben. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Módosítja a mester jegyzetdia fejléc helyőrző és az összes gyermek fejléc helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Beállítja a szöveget a dia fejléc helyőrzőjében. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Módosítja a dia fejléc helyőrzőjének láthatóságát. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a mesterdia oldalszám helyőrző és az összes gyermek oldalszám helyőrző láthatóságát. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzetdiákon találhatók. A függő jegyzetdiák a mester jegyzetdiát használják és tőle függenek. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Módosítja a dia oldalszám helyőrzőjének láthatóságát. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Szöveget állít be a mester dia időpont helyőrzőjébe és az összes gyermek időpont helyőrzőbe. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a mester dia időpont helyőrző és az összes gyermek időpont helyőrző láthatóságát. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Szöveget állít be a dia időpont helyőrzőjébe. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Megváltoztatja a dia időpont helyőrző láthatóságát. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Szöveget állít be a mester dia lábléc helyőrzőjébe és az összes gyermek lábléc helyőrzőbe. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a mester dia lábléc helyőrző és az összes gyermek lábléc helyőrző láthatóságát. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Szöveget állít be a dia lábléc helyőrzőjébe. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Megváltoztatja a dia lábléc helyőrző láthatóságát. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Szöveget állít be a mester jegyzet dia fejléc helyőrzőjébe és az összes gyermek fejléc helyőrzőbe. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Módosítja a mester jegyzet dia fejléc helyőrző és az összes gyermek fejléc helyőrző láthatóságát. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Szöveget állít be a dia fejléc helyőrzőjébe. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Megváltoztatja a dia fejléc helyőrző láthatóságát. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a mester dia oldal szám helyőrző és az összes gyermek oldal szám helyőrző láthatóságát. A gyermekhelyőrzők olyan helyőrzőket jelentenek, amelyek a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Megváltoztatja a dia oldal szám helyőrző láthatóságát. |
 
 ### Lásd még
 

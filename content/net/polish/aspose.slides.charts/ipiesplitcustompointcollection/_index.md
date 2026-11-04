@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje kolekcję punktów, które mają być rysowane w drugim wykresie kołowym lub słupkowym w diagramie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
+second_title: Aspose.Slides dla .NET – odniesienie API
+description: Reprezentuje kolekcję punktów, które mają być rysowane w drugim kawałku koła lub słupka na wykresie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
 type: docs
-weight: 2190
+weight: 2210
 url: /pl/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interfejs
 
-Reprezentuje kolekcję punktów, które mają być rysowane w drugim wykresie kołowym lub słupkowym w diagramie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
+Reprezentuje kolekcję punktów, które mają być rysowane w drugim kawałku koła lub słupku na wykresie słupkowo-kołowym lub kołowo-kołowym z niestandardowym podziałem.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -28,7 +28,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Dodaje punkt danych według jego indeksu w kolekcji punktów serii nadrzędnej. |
 | [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Usuwa element z kolekcji według jego indeksu w kolekcji punktów serii nadrzędnej. |
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IChartDataPoint](../ichartdatapoint)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)

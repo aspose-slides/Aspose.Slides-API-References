@@ -3,7 +3,7 @@ title: IChartCategoryCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /sv/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection gränssnitt
@@ -18,20 +18,20 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Returnerar antalet kategorigrupperingsnivåer som används. Är mer än ett för flernivåkategorier. Skrivskyddad Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Returnerar antalet nivåer för kategorigruppering som används. Är mer än en för flernivåkategorier. Skrivskyddad Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Hämtar elementet på det angivna indexet. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Om true så används kalkylbladet för att lagra kategorier (detta fall stöder flernivåkategorier). Om false så används kalkylbladet INTE för att lagra värden (och detta fall stödjer inte flernivåkategorier). Läs/skriv Boolean. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Om true används arbetsbladet för att lagra kategorier (detta fall stöder flernivåkategorier). Om false används arbetsbladet INTE för att lagra värden (och detta fall stöder inte flernivåkategorier). Läs/skriv Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Om kategorin finns i samlingen, returnera den. Annars skapas en ny diagramkategori från [`IChartDataCell`](../ichartdatacell) och läggs till i samlingen. |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Skapar ny [`IChartCategory`](../ichartcategory) från värdet och lägger till den i samlingen. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Om kategori finns i samlingen, returneras den. Annars skapas en ny diagramkategori från [`IChartDataCell`](../ichartdatacell) och läggs till i samlingen. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Skapar en ny [`IChartCategory`](../ichartcategory) från värdet och lägger till den i samlingen. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Tar bort alla element från samlingen. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Söker efter den angivna [`IChartCategory`](../ichartcategory) och returnerar det nollbaserade indexet för den första förekomsten i hela samlingen. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Söker efter den angivna [`IChartCategory`](../ichartcategory) och returnerar det nollbaserade indexet för den första förekomsten i hela samlingen |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Tar bort det angivna värdet. |
-| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Tar bort elementet på det angivna indexet. |
+| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Tar bort elementet på det givna indexet. |
 
 ### Se även
 

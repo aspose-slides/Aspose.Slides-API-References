@@ -1,12 +1,12 @@
 ---
 title: FormatScheme
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Memorizza i formati definiti dal tema per le forme.
 type: docs
-weight: 11140
+weight: 11160
 url: /it/aspose.slides.theme/formatscheme/
 ---
-## classe FormatScheme
+## FormatScheme classe
 
 Memorizza i formati definiti dal tema per le forme.
 
@@ -18,12 +18,12 @@ public class FormatScheme : IFormatScheme
 
 | Nome | Descrizione |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Restituisce una raccolta di stili di riempimento di sfondo definiti dal tema. Solo lettura [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Restituisce una raccolta di stili di effetto definiti dal tema. Solo lettura [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Restituisce una raccolta di stili di riempimento definiti dal tema. Solo lettura [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Restituisce una raccolta di stili di linea definiti dal tema. Solo lettura [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Restituisce la presentazione padre. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Restituisce la diapositiva padre. Solo lettura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Restituisce una collezione di stili di riempimento di sfondo definiti dal tema. Solo lettura [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Restituisce una collezione di stili di effetto definiti dal tema. Solo lettura [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Restituisce una collezione di stili di riempimento definiti dal tema. Solo lettura [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Restituisce una collezione di stili di linea definiti dal tema. Solo lettura [`ILineFormatCollection`](../ilineformatcollection). |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Restituisce la presentazione principale. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Restituisce la diapositiva principale. Solo lettura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Vedi anche
 

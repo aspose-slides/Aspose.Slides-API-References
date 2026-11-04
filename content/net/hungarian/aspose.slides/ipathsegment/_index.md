@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes .NET API-referencia
-description: A GeometryShape grafikus útvonal szegmensét képviseli
+second_title: Aspose.Sildes .NET API Referenciához
+description: A GeometryShape grafikus útvonalának szegmensét reprezentálja
 type: docs
-weight: 6610
+weight: 6630
 url: /hu/aspose.slides/ipathsegment/
 ---
 ## IPathSegment interfész
 
-A GeometryShape grafikus útvonal szegmensét képviseli
+A GeometryShape grafikus útvonalának szegmensét reprezentálja
 
 ```csharp
 public interface IPathSegment
@@ -18,8 +18,8 @@ public interface IPathSegment
 
 | Név | Leírás |
 | --- | --- |
-| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | A szegmens útvonal típusa |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | A szegmens útvonal adatai |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Az adott szegmens út típusa |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Az adott szegmens út adatai |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe transisi arah sisi.
+description: Mewakili jenis transisi arah sisi.
 type: docs
-weight: 10420
+weight: 10440
 url: /id/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType enumerasi
 
-Mewakili tipe transisi arah sisi.
+Mewakili jenis transisi arah sisi.
 
 ```csharp
 public enum TransitionSideDirectionType

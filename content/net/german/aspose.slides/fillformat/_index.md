@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Füllformatierungsoption dar.
+description: Stellt Füllformatierungsoptionen dar.
 type: docs
-weight: 4780
+weight: 4800
 url: /de/aspose.slides/fillformat/
 ---
 ## FillFormat Klasse
 
-Stellt eine Füllformatierungsoption dar.
+Stellt Füllformatierungsoptionen dar.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -16,22 +16,22 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Gibt den Typ der Füllung zurück oder legt ihn fest. Lesen/Schreiben [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Gibt das Farbverlauf-Füllformat zurück. Nur-Lese [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Gibt das Muster-Füllformat zurück. Nur-Lese [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Gibt das Bild-Füllformat zurück. Nur-Lese [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit der Form rotiert werden soll. Lesen/Schreiben [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Gibt die Füllfarbe zurück. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Gibt den Typ der Füllung zurück oder legt ihn fest. Lese/Schreib [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Gibt das Farbverlauf-Füllformat zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Gibt das Muster-Füllformat zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Gibt das Bild-Füllformat zurück. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit der Form rotiert werden soll. Lese/Schreib [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Gibt die Füllfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Ermittelt die effektiven Füllformatierungsdaten mit angewandter Vererbung. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Ermittelt die wirksamen Füllformatierungsdaten mit angewandter Vererbung. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
 
 ### Siehe auch

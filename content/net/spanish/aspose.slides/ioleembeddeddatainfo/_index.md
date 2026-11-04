@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa la información de datos incrustados para el objeto OLE.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la información de datos incrustados para un objeto OLE.
 type: docs
-weight: 6530
+weight: 6550
 url: /es/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo interfaz
 
-Representa la información de datos incrustados para el objeto OLE.
+Representa la información de datos incrustados para un objeto OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -16,10 +16,10 @@ public interface IOleEmbeddedDataInfo
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Devuelve los datos del archivo del objeto OLE incrustado Solo lectura Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Devuelve la extensión del archivo del objeto OLE incrustado actual Solo lectura String. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Devuelve la extensión del archivo para el objeto OLE incrustado actual Solo lectura String. |
 
 ### Ver también
 

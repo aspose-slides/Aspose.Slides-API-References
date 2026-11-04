@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en överskriven temahanterare.
+description: Representerar åsidosättnings temahanterare.
 type: docs
-weight: 11360
+weight: 11380
 url: /sv/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable gränssnitt
 
-Representerar en överskriven temahanterare.
+Representerar åsidosättnings temahanterare.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IOverrideThemeable : IThemeable
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Returnerar IThemeable gränssnitt. Skrivskyddad [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Returnerar överskriven temahanterare. Skrivskyddad [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Returnerar åsidosättnings temahanterare. Skrivskyddad [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### Se även
 

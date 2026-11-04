@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan akses ke batang naik/turun pada diagram Garis atau Saham.
+description: Memberikan akses ke batang naik/turun pada grafik Garis atau Saham.
 type: docs
-weight: 2260
+weight: 2280
 url: /id/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager antarmuka
 
-Menyediakan akses ke batang naik/turun pada diagram Garis atau Saham.
+Memberikan akses ke batang naik/turun pada grafik Garis atau Saham.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Mengembalikan format batang turun. Read-only [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Mengembalikan atau mengatur lebar celah. Read/write Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Menentukan apakah diagram memiliki batang naik/turun. Read/write Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Mengembalikan format batang naik. Read-only [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Mengembalikan format batang turun. Hanya-baca [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Mengembalikan atau mengatur lebar celah. Baca/tulis Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Menentukan apakah grafik memiliki batang naik/turun. Baca/tulis Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Mengembalikan format batang naik. Hanya-baca [`IFormat`](../iformat). |
 
 ### Lihat Juga
 

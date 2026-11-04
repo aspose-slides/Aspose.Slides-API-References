@@ -1,14 +1,14 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes for .NET API Reference
-description: Egy olyan kivételt képvisel, amely a prezentáció olvasási hibái során keletkezik.
+second_title: Aspose.Sildes .NET API referencia
+description: Kivételt reprezentál, amely a prezentáció olvasási hibái esetén keletkezik.
 type: docs
-weight: 9530
+weight: 9550
 url: /hu/aspose.slides/pptreadexception/
 ---
 ## PptReadException osztály
 
-A prezentáció olvasási hibái esetén keletkező kivételt képviseli.
+A prezentáció olvasási hibáknál dobott kivételt reprezentálja.
 
 ```csharp
 public class PptReadException : PptException
@@ -20,7 +20,7 @@ public class PptReadException : PptException
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | Alapértelmezett konstruktor. |
 | [PptReadException](pptreadexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Konstruktor kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

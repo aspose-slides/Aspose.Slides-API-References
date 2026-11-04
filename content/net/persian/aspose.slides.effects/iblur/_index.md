@@ -1,27 +1,27 @@
 ---
 title: IBlur
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک اثر تاری است که به تمام شکل از جمله پرکننده آن اعمال می‌شود. تمام کانال‌های رنگ، از جمله آلفا، تحت تأثیر قرار می‌گیرند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش یک اثر Blur که بر تمام شکل، از جمله پر کردن آن اعمال می‌شود. تمام کانال‌های رنگی، از جمله آلفا، تحت تأثیر قرار می‌گیرند.
 type: docs
-weight: 3180
+weight: 3200
 url: /fa/aspose.slides.effects/iblur/
 ---
-## رابط IBlur
+## IBlur رابط
 
-نمایانگر یک اثر تاری است که بر تمام شکل، از جمله پرکننده آن اعمال می‌شود. تمام کانال‌های رنگ، از جمله آلفا، تحت تأثیر قرار می‌گیرند.
+نمایش یک اثر Blur که بر تمام شکل، از جمله پر کردن آن اعمال می‌شود. تمام کانال‌های رنگی، از جمله آلفا، تحت تأثیر قرار می‌گیرند.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | اجازه می‌دهد تا رابط IAccessiblePVIObject پایه را دریافت کند. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | اجازه می‌دهد تا رابط IImageTransformOperation پایه را دریافت کند. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | تعیین می‌کند که آیا مرزهای شی باید به دلیل تاری بزرگ شوند یا خیر. مقدار True نشان می‌دهد مرزها بزرگ می‌شوند و مقدار false نشان می‌دهد که بزرگ نمی‌شوند. خواندنی/قابل‌نوشتن Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | مقدار شعاع تاری را برمی‌گرداند یا تنظیم می‌کند. خواندنی/قابل‌نوشتن Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | اجازه دریافت رابط پایه IAccessiblePVIObject را می‌دهد. فقط خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | اجازه دریافت رابط پایه IImageTransformOperation را می‌دهد. فقط خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | تعیین می‌کند که آیا مرزهای شی باید به دلیل تاری بزرگ شوند یا نه. مقدار True نشان می‌دهد مرزها بزرگ می‌شوند و مقدار false نشان می‌دهد که بزرگ نمی‌شوند. خواندنی/نوشتنی Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | مقدار شعاع تاری را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Double. |
 
 ### موارد مرتبط
 

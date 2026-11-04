@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет коллекцию стилей заполнения.
+second_title: Aspose.Sildes для .NET справочника API
+description: Представляет коллекцию стилей заливки.
 type: docs
-weight: 11120
+weight: 11140
 url: /ru/aspose.slides.theme/fillformatcollection/
 ---
-## FillFormatCollection класс
+## FillFormatCollection class
 
-Представляет коллекцию стилей заполнения.
+Представляет коллекцию стилей заливки.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,19 +18,19 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только чтение Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только чтение Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Возвращает элемент по указанному индексу. Только чтение [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только чтение Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Возвращает перечислитель, который проходит по элементам коллекции. |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 
-### См. также
+### Смотрите также
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [FormatScheme](../formatscheme)

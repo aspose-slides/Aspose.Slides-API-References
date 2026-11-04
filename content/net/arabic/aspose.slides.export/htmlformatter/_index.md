@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Sildes لمرجع API .NET
 description: يمثل قالب ملف HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /ar/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter فئة
@@ -16,11 +16,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 ## الطرق
 
-| اسم | الوصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | يقوم بإنشاء وإرجاع مُنسق HTML لتوليد HTML مخصص يعتمد على رد الاتصال. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | يقوم بإنشاء وإرجاع مُنسق HTML لعرض مستند بسيط يتكون من تسلسل شرائح واحدة تحت الأخرى. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | يقوم بإنشاء وإرجاع مُنسق HTML لعروض شرائح بسيطة تُظهر الشرائح واحدة تلو الأخرى. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | ينشئ ويرجع مُنسق HTML لتوليد HTML مخصص قائم على النداءات العكسيّة. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | ينشئ ويرجع مُنسق HTML لعرض مستند بسيط يتكون من تسلسلات من الشرائح واحدًا فوق الآخر. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | ينشئ ويرجع مُنسق HTML لعرض شرائح بسيط يُظهر الشرائح واحدةً تلو الأخرى. |
 
 ### انظر أيضًا
 

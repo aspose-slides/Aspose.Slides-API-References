@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes for .NET API Referansı
-description: IPresentation./ipresentation kaynak dosyasını veya Stream'ini yüklerken ve bir IPresentation./ipresentation örneğiyle çalışırken nasıl ele alınacağını temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: IPresentation./ipresentation kaynak dosyasını veya Stream'i bir IPresentation./ipresentation örneği ile yüklerken ve çalışırken ele alma davranışını temsil eder.
 type: docs
-weight: 9630
+weight: 9650
 url: /tr/aspose.slides/presentationlockingbehavior/
 ---
-## PresentationLockingBehavior sınıflandırması
+## PresentationLockingBehavior enum
 
-Bir [`IPresentation`](../ipresentation) kaynağını (dosya veya Stream) yüklerken ve [`IPresentation`](../ipresentation) örneğiyle çalışırken bu kaynağa nasıl davranılacağını temsil eder.
+Bir [`IPresentation`](../ipresentation) örneği ile yüklerken ve çalışırken [`IPresentation`](../ipresentation) kaynağını (dosya veya Stream) ele alma davranışını temsil eder.
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| LoadAndRelease | `0` | Kaynak sadece [`IPresentation`](../ipresentation) yapılandırıcı yürütmesi süresi boyunca kilitli olacaktır. Eğer [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) false olarak ayarlanırsa, tüm BLOB'lar belleğe yüklenecektir. Aksi takdirde, geçici dosyalar gibi başka yollar kullanılabilir. Bu davranış KeepLocked'dan daha yavaştır ve kaynağın sahipliğini [`IPresentation`](../ipresentation)'a geçirmek mümkünse, KeepLocked kullanılması önerilir. |
-| KeepLocked | `1` | Kaynak, [`IPresentation`](../ipresentation) örneğinin tüm ömrü boyunca, dispose edilene kadar kilitli olacaktır. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) bu davranışı kullanmak için true olarak ayarlanmalıdır, aksi takdirde istisna fırlatılacaktır. Bu davranış önerilir, LoadAndRelease'den daha hızlıdır ve daha az bellek tüketir. |
+| LoadAndRelease | `0` | Kaynak yalnızca [`IPresentation`](../ipresentation) yapıcı yürütmesi süresince kilitlenir. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) false olarak ayarlanırsa, tüm BLOB'lar belleğe yüklenir. Aksi takdirde, geçici dosyalar gibi diğer yollar kullanılabilir. Bu davranış KeepLocked'tan daha yavaştır ve kaynağın sahipliğini [`IPresentation`](../ipresentation)'a aktarabilmek mümkünse KeepLocked kullanılması önerilir. |
+| KeepLocked | `1` | Kaynak, [`IPresentation`](../ipresentation) örneğinin tüm ömrü boyunca, dispose edilene kadar kilitli kalır. Bu davranışı kullanmak için [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) true olarak ayarlanmalıdır, aksi takdirde istisna fırlatılır. Bu davranış önerilir, LoadAndRelease'e göre daha hızlıdır ve daha az bellek tüketir. |
 
 ### Açıklamalar
 
-Kaynak, [`IPresentation`](../ipresentation) yapılandırıcısına geçirilen parametredir. Aşağıdaki örnekte, kaynak "pres.pptx" dosyasıdır:
+Kaynak, [`IPresentation`](../ipresentation) yapıcısına geçirilen parametredir. Aşağıdaki örnekte, kaynak "pres.pptx" dosyasıdır:
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-Bu örnek için, kaynak ("pres.pptx" dosyası) [`IPresentation`](../ipresentation) örnek ömrü boyunca kilitli olacaktır, yani diğer süreç tarafından değiştirilemez veya silinemez.
+Bu örnek için, kaynak ("pres.pptx" dosyası) [`IPresentation`](../ipresentation) örnek ömrü boyunca kilitli kalacaktır, yani diğer süreç tarafından değiştirilemez veya silinemez.
 
 ### Ayrıca Bakınız
 

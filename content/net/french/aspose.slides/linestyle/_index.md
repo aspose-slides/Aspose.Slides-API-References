@@ -3,12 +3,12 @@ title: LineStyle
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le style d'une ligne.
 type: docs
-weight: 7820
+weight: 7840
 url: /fr/aspose.slides/linestyle/
 ---
 ## Énumération LineStyle
 
-Représente le style d'une ligne.
+Représente le style d’une ligne.
 
 ```csharp
 public enum LineStyle : sbyte

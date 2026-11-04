@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Duotone-effekt.
 type: docs
-weight: 3260
+weight: 3280
 url: /sv/aspose.slides.effects/iduotone/
 ---
 ## IDuotone gränssnitt
@@ -18,10 +18,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Returnerar mål-färgformat för mörka pixlar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Returnerar mål-färgformat för ljusa pixlar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Returnerar mål färgformat för mörka pixlar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Returnerar mål färgformat för ljusa pixlar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Se även
 

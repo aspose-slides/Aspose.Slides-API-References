@@ -1,9 +1,9 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (przezroczystości) efektu są mnożone przez stały procent.
+description: Reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent.
 type: docs
-weight: 2890
+weight: 2910
 url: /pl/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed klasa
@@ -26,8 +26,8 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Określa, czy określony [`AlphaModulateFixed`](../alphamodulatefixed) jest równy bieżącemu [`AlphaModulateFixed`](../alphamodulatefixed). |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Pobiera efektywne dane efektu Alpha Modulate Fixed z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Pobiera skuteczne dane efektu Alpha Modulate Fixed z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 

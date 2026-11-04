@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Determina el formato en el que se guardará la imagen de la diapositiva para la exportación de la presentación a HTML.
+description: Determina el formato en el que se guardará la imagen de la diapositiva para la exportación a HTML.
 type: docs
-weight: 4470
+weight: 4490
 url: /es/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat clase
 
-Determina el formato en el que la imagen de la diapositiva se guardará para la exportación de la presentación a HTML.
+Determina el formato en el que se guardará la imagen de la diapositiva para la exportación a HTML.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -25,7 +25,7 @@ public class SlideImageFormat : ISlideImageFormat
 | Nombre | Descripción |
 | --- | --- |
 | static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Las diapositivas deben convertirse en una imagen raster. |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Las diapositivas deben convertirse a formato SVG. |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Las diapositivas deben convertirse a un formato SVG. |
 
 ### Ver también
 

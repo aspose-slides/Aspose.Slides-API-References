@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
 second_title: Aspose.Sildes .NET API referencia
-description: A menedzser, amely a lábléc, a dátum-idő és az oldalszám helyőrzőinek viselkedését kezeli az összes dia típusra.
+description: Olyan kezelőt reprezentál, amely a lábléc, a dátum-idő és az oldalszám helyőrzőinek viselkedését tartalmazza az összes diatípusra.
 type: docs
-weight: 5300
+weight: 5320
 url: /hu/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager interfész
 
-Az összes dia típus számára a lábléc, dátum-idő és oldalszám helyőrzőinek viselkedését kezelő menedzser.
+Egy olyan menedzsert reprezentál, amely a lábléc, a dátum-idő és az oldalszám helyőrzőinek viselkedését tartalmazza az összes diatípusra.
 
 ```csharp
 public interface IBaseHeaderFooterManager

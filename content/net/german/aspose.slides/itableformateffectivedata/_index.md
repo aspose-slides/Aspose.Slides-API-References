@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das wirksame Tabellenformatierungseigenschaften enthält.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Tabellenformatierungseigenschaften enthält.
 type: docs
-weight: 7250
+weight: 7270
 url: /de/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das wirksame Tabellenformatierungseigenschaften enthält.
+Unveränderliches Objekt, das effektive Tabellenformatierungseigenschaften enthält.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Ermittelt die Transparenz der Füllfarbe. Single lesen. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IBaseTableFormatEffectiveData Schnittstelle. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Ermittelt die Transparenz der Füllfarbe. Liest Single. |
 
-### Hinweise
+### Bemerkungen
 
-Dieses Interface wird zusammen mit dem [`ITableFormat`](../itableformat) Schnittstelle verwendet, um wirksame Formatierungswerte mit Vererbung und angewendeten Tabellenstilen zurückzugeben.
+Dieses Schnittstelle wird zusammen mit der [`ITableFormat`](../itableformat) Schnittstelle verwendet, um effektive Formatierungswerte mit Vererbung und angewendeten Tabellenstilen zurückzugeben.
 
 ### Siehe auch
 

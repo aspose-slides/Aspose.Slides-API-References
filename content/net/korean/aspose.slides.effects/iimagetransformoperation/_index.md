@@ -3,7 +3,7 @@ title: IImageTransformOperation
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 추상 이미지 변환 효과를 나타냅니다.
 type: docs
-weight: 3390
+weight: 3410
 url: /ko/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation 인터페이스
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.effects/iimagetransformoperation/
 public interface IImageTransformOperation
 ```
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

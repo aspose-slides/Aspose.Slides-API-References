@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje informace o substituci fontů
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje informace o nahrazování písma
 type: docs
-weight: 4890
+weight: 4910
 url: /cs/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule třída
 
-Reprezentuje informace o substituci fontů
+Představuje informace o nahrazování písma
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -25,11 +25,11 @@ public class FontSubstRule : IFontSubstRule
 
 | Název | Popis |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Font, který se použije pro substituci. Pouze pro čtení [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Pravidlo použité pro substituci. Pouze pro čtení [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Font, který má být nahrazen. Pouze pro čtení [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Písmo, které se má použít pro nahrazení. Pouze ke čtení [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Pravidlo, které se použije pro nahrazení. Pouze ke čtení [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Písmo k nahrazení. Pouze ke čtení [`IFontData`](../ifontdata). |
 
-### Další související položky
+### Viz také
 
 * rozhraní [IFontSubstRule](../ifontsubstrule)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)

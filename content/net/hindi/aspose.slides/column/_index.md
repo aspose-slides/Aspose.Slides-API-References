@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: टेबल में एक कॉलम का प्रतिनिधित्व करता है।
+description: एक तालिका में कॉलम का प्रतिनिधित्व करता है।
 type: docs
-weight: 2590
+weight: 2610
 url: /hi/aspose.slides/column/
 ---
-## Column क्लास
+## कॉलम वर्ग
 
-एक टेबल में कॉलम का प्रतिनिधित्व करता है।
+टेबल में एक कॉलम का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -16,30 +16,30 @@ public sealed class Column : CellCollection, IColumn
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | इस कॉलम के लिए फ़ॉर्मेटिंग गुणों को सम्मिलित करने वाले ColumnFormat ऑब्जेक्ट को लौटाता है। केवल पढ़ने योग्य [`IColumnFormat`](../icolumnformat)। |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | कलेक्शन में कोशिकाओं की संख्या लौटाता है। केवल पढ़ने योग्य Int32। |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि कलेक्शन तक पहुंच समन्वित (थ्रेड-सेफ) है या नहीं। केवल पढ़ने योग्य Boolean। |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | स्थिति द्वारा एक Cell लौटाता है। केवल पढ़ने योग्य [`Cell`](../cell)। |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection का अभिभावक प्रस्तुतीकरण लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../ipresentation)। |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection की अभिभावक स्लाइड लौटाता है। केवल पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | एक समन्वयन रूट लौटाता है। केवल पढ़ने योग्य Object। |
-| [Width](../../aspose.slides/column/width) { get; set; } | कॉलम की चौड़ाई प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Double। |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | वापस देता है ColumnFormat ऑब्जेक्ट जो इस कॉलम के लिए फ़ॉर्मेटिंग गुणों को समाहित करता है। केवल-पढ़ने योग्य [`IColumnFormat`](../icolumnformat)। |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | वापस देता है संग्रह में सेल्स की संख्या। केवल-पढ़ने योग्य Int32। |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | वापस देता है एक मान जो दर्शाता है कि संग्रह तक पहुँच समन्वित (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean। |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | वापस देता है स्थिति द्वारा एक सेल। केवल-पढ़ने योग्य [`Cell`](../cell)। |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | वापस देता है CellCollection का पैरेंट प्रेजेंटेशन। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation)। |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | वापस देता है CellCollection की पैरेंट स्लाइड। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | वापस देता है एक सिंक्रोनाइज़ेशन रूट। केवल-पढ़ने योग्य Object। |
+| [Width](../../aspose.slides/column/width) { get; set; } | वापस देता है या सेट करता है कॉलम की चौड़ाई। पढ़ें/लिखें Double। |
 
-## मेथड्स
+## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | सभी तत्वों को कलेक्शन से निर्दिष्ट array में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | एक enumerator लौटाता है जो कलेक्शन के माध्यम से इटरेट करता है। |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | निर्धारित पैराग्राफ फ़ॉर्मेट गुणों को सभी column cells के पैराग्राफ पर सेट करता है। |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | निर्धारित portion फ़ॉर्मेट गुणों को सभी column cells के portions पर सेट करता है। |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | निर्धारित टेक्स्ट फ़्रेम फ़ॉर्मेट गुणों को सभी column cells के text frames पर सेट करता है। |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | संग्रह से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | वापस देता है एक एन्यूमरेटर जो संग्रह के माध्यम से इटररेट करता है। |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | सभी कॉलम सेल के पैराग्राफ़ पर परिभाषित पैराग्राफ़ फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | सभी कॉलम सेल के पोर्शन पर परिभाषित पोर्शन फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | सभी कॉलम सेल के टेक्स्ट फ़्रेम पर परिभाषित टेक्स्ट फ़्रेम फ़ॉर्मेट गुण सेट करता है। |
 
-### संबंधित देखें
+### देखें भी
 
-* क्लास [CellCollection](../cellcollection)
+* वर्ग [CellCollection](../cellcollection)
 * इंटरफ़ेस [IColumn](../icolumn)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

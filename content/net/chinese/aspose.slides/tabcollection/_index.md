@@ -1,14 +1,14 @@
 ---
 title: TabCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示标签的集合。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示一个选项卡集合。
 type: docs
-weight: 10840
+weight: 10860
 url: /zh/aspose.slides/tabcollection/
 ---
 ## TabCollection 类
 
-表示标签的集合。
+表示一个选项卡集合。
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -16,25 +16,25 @@ public sealed class TabCollection : ITabCollection
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | 获取指定索引处的元素。只读 [`Tab`](../tab)。 |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | 向集合添加一个 Tab。 |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | 向集合添加一个 Tab。 |
-| [Clear](../../aspose.slides/tabcollection/clear)() | 从集合中删除所有元素。 |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | 向集合中添加一个 Tab。 |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | 向集合中添加一个 Tab。 |
+| [Clear](../../aspose.slides/tabcollection/clear)() | 从集合中移除所有元素。 |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | 确定两个 TabsEx 实例是否相等。 |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | 返回此对象的哈希代码。 |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | 删除集合中指定索引处的元素。 |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | 返回此对象的哈希码。 |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
 ### 另见
 

@@ -1,9 +1,9 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 辅助填充参数接口。
 type: docs
-weight: 5810
+weight: 5830
 url: /zh/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/ifillparamsource/
 public interface IFillParamSource
 ```
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

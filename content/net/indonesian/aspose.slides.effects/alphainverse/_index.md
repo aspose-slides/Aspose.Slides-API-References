@@ -1,9 +1,9 @@
 ---
 title: AlphaInverse
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek Alpha Inverse. Nilai opacity Alpha dibalik dengan mengurangkan dari 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /id/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse kelas
@@ -18,14 +18,14 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Menentukan apakah [`AlphaInverse`](../alphainverse) yang ditentukan sama dengan [`AlphaInverse`](../alphainverse) saat ini. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Mendapatkan data efek Alpha Inverse yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Mendapatkan data efek Alpha Inverse yang efektif dengan penerapan pewarisan. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

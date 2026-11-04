@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị một phần có ngữ cảnh toán học bên trong.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả một phần có ngữ cảnh toán học bên trong.
 type: docs
-weight: 8420
+weight: 8440
 url: /vi/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion giao diện
 
-Biểu thị một phần có ngữ cảnh toán học bên trong.
+Mô tả một phần có ngữ cảnh toán học bên trong.
 
 ```csharp
 public interface IMathPortion

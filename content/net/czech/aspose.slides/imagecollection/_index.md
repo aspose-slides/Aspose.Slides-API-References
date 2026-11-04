@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET – API Reference
 description: Představuje kolekci PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /cs/aspose.slides/imagecollection/
 ---
 ## ImageCollection třída
@@ -16,16 +16,16 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Vrací počet obrázků v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Získá prvek na určeném indexu. Pouze pro čtení [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Vrací počet obrázků v kolekci. Jen pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Jen pro čtení Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Získá prvek na zadaném indexu. Jen pro čtení [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Vrací kořen synchronizace. Jen pro čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Přidá obrázek do prezentace ze specifikovaného bufferu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Přidá obrázek do prezentace. |
@@ -34,7 +34,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Přidá obrázek do prezentace ze streamu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Přidá obrázek do prezentace ze streamu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Vytvoří a přidá obrázek do prezentace ze streamu. |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do určeného pole. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 
 ### Viz také

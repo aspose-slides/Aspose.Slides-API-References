@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Sildes for .NET API リファレンス
-description: データ ポイントが円グラフの中心からどれだけ移動するかを指定します。 読み取り/書き込み Int32.
+description: データポイントが円グラフの中心から移動される量を指定します。読み書き Int32。
 type: docs
-weight: 60
+weight: 100
 url: /ja/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion プロパティ
 
-データ ポイントが円グラフの中心からどれだけ移動するかを指定します。 読み取り/書き込み Int32.
+データポイントがパイの中心から移動される量を指定します。読み書き Int32。
 
 ```csharp
 public int Explosion { get; set; }

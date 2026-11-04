@@ -1,14 +1,14 @@
 ---
 title: ModernComment
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy dián lévő megjegyzést ábrázol.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy dián lévő megjegyzést reprezentál.
 type: docs
-weight: 9090
+weight: 9110
 url: /hu/aspose.slides/moderncomment/
 ---
 ## ModernComment osztály
 
-A dián lévő megjegyzést képviseli.
+Egy dián lévő megjegyzést reprezentál.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -19,21 +19,21 @@ public sealed class ModernComment : Comment, IModernComment
 | Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Visszaadja a megjegyzés szerzőjét. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Visszaadja vagy beállítja a megjegyzés létrehozásának időpontját. A tulajdonság MinValue-re állítása azt jelenti, hogy nincs beállítva a megjegyzés időpontja. Olvasás/írás DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülő megjegyzést. Olvasás/írás [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Visszaadja vagy beállítja egy megjegyzés pozícióját a dián. Olvasás/írás PointF. |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Visszaadja vagy beállítja a megjegyzés létrehozásának időpontját. Ennek a tulajdonságnak MinValue értékre állítása azt jelenti, hogy nincs megjegyzés időpont beállítva. Írható/olvasható DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülő megjegyzést. Írható/olvasható [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Visszaadja vagy beállítja egy megjegyzés pozícióját a dián. Írható/olvasható PointF. |
 | [Shape](../../aspose.slides/moderncomment/shape) { get; } | Visszaad egy alakzatot, amely a megjegyzéshez kapcsolódik. Csak olvasható [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Visszaadja vagy beállítja a megjegyzés szülő diáját. Csak olvasható [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Visszaadja vagy beállítja a megjegyzés állapotát. Olvasás/írás [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Visszaadja vagy beállítja egy diamegjegyzés egyszerű szövegét. Olvasás/írás String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés hosszát a szövegdobozban, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasás/írás Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés kezdőpozícióját a szövegdobozban, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasás/írás Int32. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Visszaadja a megjegyzés szülő diáját. Csak olvasható [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Visszaadja vagy beállítja a megjegyzés állapotát. Írható/olvasható [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Visszaadja vagy beállítja egy dia megjegyzés egyszerű szövegét. Írható/olvasható String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés hosszát a szövegkeretben, ha a megjegyzés AutoShape-hez kapcsolódik. Írható/olvasható Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés kezdőpozícióját a szövegkeretben, ha a megjegyzés AutoShape-hez kapcsolódik. Írható/olvasható Int32. |
 
 ## Módszerek
 
 | Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Eltávolítja a megjegyzést és annak összes válaszát a szülő gyűjteményből. |
+| [Remove](../../aspose.slides/comment/remove)() | Eltávolítja a megjegyzést és minden válaszát a szülő gyűjteményből. |
 
 ### Példák
 

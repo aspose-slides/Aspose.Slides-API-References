@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av celler med data.
+description: Representerar en samling celler med data.
 type: docs
-weight: 1300
+weight: 1310
 url: /sv/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection klass
 
-Representerar en samling av celler med data.
+Representerar en samling celler med data.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -19,20 +19,20 @@ public class ChartCellCollection : IChartCellCollection
 | Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Hämtar antalet celler i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Returnerar en cell (IChartDataCell) enligt index. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Returnerar en cell (IChartDataCell) efter index. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Lägg till en ny cell i samlingen. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Skapar [`ChartDataCell`](../chartdatacell) från angivet värde och lägger till den i samlingen. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Returnerar adressen till uppsättningen av celler i arbetsboken. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Kedjning av strängar från alla cellers strängvärden. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Lägg till ny cell i samlingen. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Skapar [`ChartDataCell`](../chartdatacell) från angivet värde och lägger till det i samlingen. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Returnerar adressen till celluppsättningen i arbetsboken. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Konkatenationssträng från alla cellers strängvärden. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Tar bort en cell från samlingen enligt index. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Tar bort en cell från samlingen efter index. |
 
-### Se också
+### Se även
 
 * gränssnitt [IChartCellCollection](../ichartcellcollection)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)

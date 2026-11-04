@@ -1,9 +1,9 @@
 ---
 title: MathMatrixFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Consente di creare una matrice matematica
 type: docs
-weight: 8860
+weight: 8880
 url: /it/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory classe

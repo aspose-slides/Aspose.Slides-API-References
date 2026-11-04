@@ -1,14 +1,14 @@
 ---
 title: SvgTSpan
-second_title: Aspose.Sildes .NET API referenciához
-description: Az SVG szövegrész (tspan) beállításait jelenti.
+second_title: Aspose.Sildes .NET API referencia
+description: Az SVG szövegrész tspan opcióit képviseli.
 type: docs
-weight: 4520
+weight: 4540
 url: /hu/aspose.slides.export/svgtspan/
 ---
-## SvgTSpan osztály
+## SvgTSpan class
 
-Az SVG szövegrész ("tspan") beállításait jelenti.
+Az SVG szövegrész ("tspan") opcióit képviseli.
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan
@@ -18,7 +18,7 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | Név | Leírás |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Lekéri a "tspan" elem azonosítóját |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | "tspan" elem azonosítóját adja vissza |
 
 ### Lásd még
 

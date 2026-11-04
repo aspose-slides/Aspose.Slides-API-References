@@ -1,14 +1,14 @@
 ---
 title: XValue
-second_title: Aspose.Sildes の .NET API リファレンス
-description: チャート データ ポイントの x 値を返します。読み取り専用 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャート データ ポイントの x 値を取得します。読み取り専用 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /ja/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue プロパティ
 
-チャート データ ポイントの x 値を返します。読み取り専用 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue)。
+チャート データ ポイントの x 値を取得します。読み取り専用 [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
 second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje pracovní list spojený s IChartDataCell./ichartdatacell
+description: Představuje list spojený s IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /cs/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet rozhraní
 
-Reprezentuje list spojený s [`IChartDataCell`](../ichartdatacell)
+Představuje list přidružený k [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public interface IChartDataWorksheet
@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | Název | Popis |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Získá index. Pouze pro čtení Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Získá název. Pouze pro čtení String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Získá index. Pouze ke čtení Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Získá název. Pouze ke čtení String. |
 
 ### Viz také
 

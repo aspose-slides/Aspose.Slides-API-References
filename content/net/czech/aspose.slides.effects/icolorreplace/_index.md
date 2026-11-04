@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Reprezentuje efekt náhrady barvy.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje efekt nahrazení barvy.
 type: docs
-weight: 3240
+weight: 3260
 url: /cs/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace rozhraní
 
-Reprezentuje efekt náhrady barvy.
+Representuje efekt nahrazení barvy.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 

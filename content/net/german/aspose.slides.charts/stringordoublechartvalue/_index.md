@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes für .NET API-Referenz
-description: "Stellt einen Zeichenketten- oder Double-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle(n) des Arbeitsbuchs, das dem Diagramm zugeordnet ist, 2) als literal Wert."
+description: Stellt einen Zeichenketten- oder Double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle(n) der Arbeitsmappe, die dem Diagramm zugeordnet ist; 2) als literaler Wert.
 type: docs
-weight: 2420
+weight: 2440
 url: /de/aspose.slides.charts/stringordoublechartvalue/
 ---
-## StringOrDoubleChartValue Klasse
+## StringOrDoubleChartValue class
 
-Stellt einen Zeichenketten- oder Double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle(n) des Arbeitsbuchs, das dem Diagramm zugeordnet ist; 2) als literal Wert.
+Stellt einen Zeichenketten- oder Double-Wert dar, der in einer pptx-Präsentationsdatei auf zwei Arten gespeichert werden kann: 1) in Zelle(n) der Arbeitsmappe, die dem Diagramm zugeordnet ist; 2) als literaler Wert.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -19,8 +19,8 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | Name | Beschreibung |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Gibt die Diagrammdatenzelle zurück oder legt sie fest. Lesen/Schreiben [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Gibt den Wert als literal double zurück oder legt ihn fest. Lesen/Schreiben Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Gibt den Wert als literal string zurück oder legt ihn fest. Lesen/Schreiben String. |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Gibt den Wert als literales Double zurück oder legt ihn fest. Lesen/Schreiben Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Gibt den Wert als literale Zeichenkette zurück oder legt ihn fest. Lesen/Schreiben String. |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Gibt das Data-Objekt zurück oder legt es fest. Lesen/Schreiben Object. |
 | [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaft AsCell, AsCells, AsLiteralString oder AsLiteralDouble in abgeleiteten Klassen tatsächlich ist. Mit anderen Worten gibt sie den Typ des Werts der Data-Eigenschaft an. Lesen/Schreiben [`DataSourceType`](../datasourcetype). |
 
@@ -28,7 +28,7 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Name | Beschreibung |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Wandelt in double um. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Konvertiert zu double. |
 
 ### Siehe auch
 

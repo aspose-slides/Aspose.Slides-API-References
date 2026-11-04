@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，包含有效的颜色方案属性。
+second_title: Aspose.Sildes .NET API 参考
+description: 不可变对象，包含有效的配色方案属性。
 type: docs
-weight: 11160
+weight: 11180
 url: /zh/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData 接口
 
-不可变对象，包含有效的颜色方案属性。
+不可变对象，包含有效的配色方案属性。
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -18,23 +18,23 @@ public interface IColorSchemeEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | 方案中的第一强调颜色。只读 Color。 |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | 方案中的第二强调颜色。只读 Color。 |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | 方案中的第三强调颜色。只读 Color。 |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | 方案中的第四强调颜色。只读 Color。 |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | 方案中的第五强调颜色。只读 Color。 |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | 方案中的第六强调颜色。只读 Color。 |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | 方案中的第一深色。只读 Color。 |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | 方案中的第二深色。只读 Color。 |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | 已访问超链接的颜色。只读 Color。 |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | 超链接的颜色。只读 Color。 |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | 获取指定索引处的元素。只读 Color。 |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | 方案中的第一浅色。只读 Color。 |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | 方案中的第二浅色。只读 Color。 |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | 方案中的第一个强调色。只读 Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | 方案中的第二个强调色。只读 Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | 方案中的第三个强调色。只读 Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | 方案中的第四个强调色。只读 Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | 方案中的第五个强调色。只读 Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | 方案中的第六个强调色。只读 Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | 方案中的第一个暗色。只读 Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | 方案中的第二个暗色。只读 Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | 已访问超链接的颜色。只读 Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | 超链接的颜色。只读 Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | 获取指定索引处的元素。只读 Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | 方案中的第一个浅色。只读 Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | 方案中的第二个浅色。只读 Color. |
 
 ### 备注
 
-此类用作 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分。
+此 类 用作 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分。
 
 ### 另见
 

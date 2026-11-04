@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le proprietà di formattazione delle linee della griglia.
+description: Rappresenta le proprietà di formato delle linee della griglia.
 type: docs
-weight: 1410
+weight: 1420
 url: /it/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat classe
 
-Rappresenta le proprietà di formattazione delle linee della griglia.
+Rappresenta le proprietà di formato delle linee della griglia.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Restituisce gli effetti utilizzati per una linea del grafico. Solo lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Restituisce le proprietà di stile della linea del grafico. Solo lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Restituisce gli effetti usati per una linea del grafico. Sola lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Restituisce le proprietà dello stile della linea di un grafico. Sola lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Vedi anche
 

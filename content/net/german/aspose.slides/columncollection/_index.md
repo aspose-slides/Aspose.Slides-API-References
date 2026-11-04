@@ -3,12 +3,12 @@ title: ColumnCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Spalten in einer Tabelle dar.
 type: docs
-weight: 2600
+weight: 2620
 url: /de/aspose.slides/columncollection/
 ---
 ## ColumnCollection Klasse
 
-Repäsentiert eine Sammlung von Spalten in einer Tabelle.
+Stellt eine Sammlung von Spalten in einer Tabelle dar.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -16,16 +16,16 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | Gibt die Anzahl der Spalten in einer Sammlung zurück. Nur lesend Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesend Boolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | Gibt die Spalte am angegebenen Index zurück. Nur lesend [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Gibt ein Synchronisationsobjekt zurück. Nur lesend Object. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Gibt die Anzahl der Spalten in einer Sammlung zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | Gibt die Spalte am angegebenen Index zurück. Nur-Lesen [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie am unteren Rand einer Tabelle ein. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |

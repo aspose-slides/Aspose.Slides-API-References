@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa célula para dados de gráfico.
+second_title: Referência de API Aspose.Sildes para .NET
+description: Representa a célula para dados de gráfico.
 type: docs
-weight: 1320
+weight: 1330
 url: /pt/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell classe
 
-Representa célula para dados de gráfico.
+Representa a célula para dados de gráfico.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -20,21 +20,21 @@ public class ChartDataCell : IChartDataCell
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Obtém a planilha. Somente leitura [`IChartDataWorksheet`](../ichartdataworksheet). |
 | [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Retorna o índice da coluna da planilha em que a célula está localizada. Somente leitura Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Obtém ou define o formato de exibição personalizado de números e datas. Se o valor estiver vazio, será usado o valor PresetNumberFormat. Leitura/Gravação String. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Obtém ou define o formato de exibição personalizado de números e datas. Se o valor estiver vazio, será usado o valor PresetNumberFormat. Leitura/gravação String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Obtém ou define a fórmula no estilo A1. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Determina se a célula está oculta. Somente leitura Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Obtém ou define o formato de exibição incorporado de números e datas. O número predefinido deve estar em [0..22] ou [37..49]. Leitura/Gravação Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Obtém ou define o formato de exibição interno de números e datas. O número predefinido deve estar em [0..22] ou [37..49]. Leitura/gravação Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Obtém ou define a fórmula no estilo R1C1. |
 | [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Retorna o índice da linha da planilha em que a célula está localizada. Somente leitura Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Obtém ou define o valor de uma célula. Leitura/Gravação Object. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Obtém ou define o valor de uma célula. Leitura/gravação Object. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Se a célula contém uma fórmula, o valor será atualizado com base nessa fórmula. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Se a célula contiver uma fórmula, o valor será atualizado com base nessa fórmula. |
 
-### Ver também
+### Veja Também
 
 * interface [IChartDataCell](../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

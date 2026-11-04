@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kontejner pro vlastní data.
+description: Reprezentuje kontejner pro vlastní data.
 type: docs
-weight: 2730
+weight: 2750
 url: /cs/aspose.slides/customdata/
 ---
 ## CustomData třída
 
-Představuje kontejner pro vlastní data.
+Represents container for custom data.
 
 ```csharp
 public class CustomData : ICustomData
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | Název | Popis |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Vrací kolekci vlastních xml částí. Pouze pro čtení [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Vrací kolekci štítků zákaznických dat. Pouze pro čtení [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Vrací kolekci vlastních částí xml. Pouze pro čtení [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Vrací kolekci značek zákaznických dat. Pouze pro čtení [`ITagCollection`](../itagcollection). |
 
 ### Viz také
 

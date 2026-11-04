@@ -1,14 +1,14 @@
 ---
 title: IParagraphFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengizinkan pembuatan paragraf
+description: Memungkinkan membuat paragraf
 type: docs
-weight: 6580
+weight: 6600
 url: /id/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory antarmuka
 
-Mengizinkan pembuatan paragraf
+Memungkinkan membuat paragraf
 
 ```csharp
 public interface IParagraphFactory
@@ -18,10 +18,10 @@ public interface IParagraphFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Membuat paragraf kosong baru. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Membuat paragraf baru yang kosong. |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Membuat paragraf baru dengan data paragraf yang ditentukan menggunakan. |
 
-### Keterangan
+### Catatan
 
 Untuk kompatibilitas COM.
 

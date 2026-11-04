@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Fornisce l'accesso alla cartella di lavoro Excel incorporata
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Fornisce l'accesso a un workbook Excel incorporato
 type: docs
-weight: 1860
+weight: 1880
 url: /it/aspose.slides.charts/ichartdataworkbook/
 ---
-## IChartDataWorkbook interfaccia
+## IChartDataWorkbook interface
 
-Fornisce l'accesso alla cartella di lavoro Excel incorporata
+Fornisce l'accesso a un workbook Excel incorporato
 
 ```csharp
 public interface IChartDataWorkbook
@@ -16,22 +16,22 @@ public interface IChartDataWorkbook
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Restituisce una raccolta di fogli di lavoro. |
+| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Ottiene una raccolta di fogli di lavoro. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Calcola tutte le formule nella cartella di lavoro e aggiorna i valori delle celle corrispondenti. |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Calcola tutte le formule nel workbook e aggiorna i valori delle celle corrispondenti. |
 | [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Cancella tutti i valori delle celle nel foglio |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Restituisce l'insieme di celle. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Ottiene la cella che può essere usata per le serie o le categorie del grafico |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Ottiene la cella che può essere usata per le serie o le categorie del grafico |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Ottiene la cella che può essere usata per le serie o le categorie del grafico |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Ottiene la cella che può essere usata per le serie o le categorie del grafico |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Ottiene la cella che può essere usata per le serie o le categorie del grafico |
+| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Ottiene l'insieme di celle. |
 
 ### Vedi anche
 

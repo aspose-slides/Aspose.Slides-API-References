@@ -1,9 +1,9 @@
 ---
 title: DataSourceType
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes for .NET
 description: Types de source de données.
 type: docs
-weight: 1580
+weight: 1590
 url: /fr/aspose.slides.charts/datasourcetype/
 ---
 ## Énumération DataSourceType
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Worksheet | `0` | Utilisez des objets CellXls pour stocker XValue, YValue, Value ou BubbleSize du point de données dans la feuille de calcul. |
-| StringLiterals | `1` | Utilisez une variable string à accès rapide pour stocker XValue, YValue, Value ou BubbleSize du point de données. Worksheet n'est PAS utilisé pour stocker les valeurs. |
-| DoubleLiterals | `2` | Utilisez une variable double à accès rapide pour stocker XValue, YValue, Value ou BubbleSize du point de données. Worksheet n'est PAS utilisé pour stocker les valeurs. |
+| Worksheet | `0` | Utilisez les objets CellXls pour stocker XValue, YValue, Value ou BubbleSize du point de données dans la feuille de calcul. |
+| StringLiterals | `1` | Utilisez une variable chaîne à accès rapide pour stocker XValue, YValue, Value ou BubbleSize du point de données. La feuille de calcul n'est PAS utilisée pour stocker les valeurs. |
+| DoubleLiterals | `2` | Utilisez une variable double à accès rapide pour stocker XValue, YValue, Value ou BubbleSize du point de données. La feuille de calcul n'est PAS utilisée pour stocker les valeurs. |
 
 ### Voir aussi
 

@@ -1,23 +1,23 @@
 ---
 title: Save
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในไฟล์ตามรูปแบบที่ระบุ.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: บันทึกสไลด์ทั้งหมดของงานนำเสนอไปยังไฟล์ด้วยรูปแบบที่ระบุ
 type: docs
-weight: 390
+weight: 400
 url: /th/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในไฟล์ตามฟอร์แมตที่ระบุ
+บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในไฟล์ด้วยรูปแบบที่ระบุ
 
 ```csharp
 public void Save(string fname, SaveFormat format)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| fname | String | เส้นทางไปยังไฟล์ที่สร้าง |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### ดูเพิ่มเติม
 
@@ -30,16 +30,16 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในสตรีมตามฟอร์แมตที่ระบุ
+บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในสตรีมด้วยรูปแบบที่ระบุ
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| stream | Stream | สตรีมผลลัพธ์ |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### ดูเพิ่มเติม
 
@@ -68,23 +68,23 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในสตรีมตามฟอร์แมตที่ระบุและด้วยตัวเลือกเพิ่มเติม
+บันทึกสไลด์ทั้งหมดของงานนำเสนอลงในสตรีมด้วยรูปแบบที่ระบุและตัวเลือกเพิ่มเติม
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| stream | Stream | สตรีมผลลัพธ์ |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
-| options | ISaveOptions | ตัวเลือกฟอร์แมตเพิ่มเติม |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### ข้อยกเว้น
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | หากพยายามบันทึกไฟล์ที่เข้ารหัสในฟอร์แมตที่ไม่ใช่ Office 2007-2010 |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
 
 ### ดูเพิ่มเติม
 
@@ -98,15 +98,15 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-บันทึกสไลด์ทั้งหมดของงานนำเสนอเป็นชุดไฟล์ที่แสดง XAML markup
+บันทึกสไลด์ทั้งหมดของงานนำเสนอเป็นชุดไฟล์ที่เป็น XAML markup
 
 ```csharp
 public void Save(IXamlOptions options)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| options | IXamlOptions | ตัวเลือกฟอร์แมต XAML |
+| options | IXamlOptions | The XAML format options. |
 
 ### ตัวอย่าง
 
@@ -129,25 +129,25 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-บันทึกสไลด์ที่ระบุของงานนำเสนอลงในไฟล์ตามฟอร์แมตที่ระบุโดยคงหมายเลขหน้า
+บันทึกสไลด์ที่ระบุของงานนำเสนอลงในไฟล์ด้วยรูปแบบที่ระบุพร้อมคงเลขหน้า
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| fname | String | เส้นทางไปยังไฟล์ที่สร้าง |
-| slides | Int32[] | อาร์เรย์ที่มีตำแหน่งสไลด์ เริ่มต้นจาก 1 |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### ข้อยกเว้น
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | เมื่อพารามิเตอร์ stream หรือ slides มีค่า null |
-| ArgumentOutOfRangeException | เมื่อพารามิเตอร์ slides มีหมายเลขหน้าที่ไม่ถูกต้อง |
-| InvalidOperationException | เมื่อใช้ SaveFormat ที่ไม่รองรับ เช่น PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### ดูเพิ่มเติม
 
@@ -160,18 +160,18 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-บันทึกสไลด์ที่ระบุของงานนำเสนอลงในไฟล์ตามฟอร์แมตที่ระบุโดยคงหมายเลขหน้า
+บันทึกสไลด์ที่ระบุของงานนำเสนอลงในไฟล์ด้วยรูปแบบที่ระบุพร้อมคงเลขหน้า
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| fname | String | เส้นทางไปยังไฟล์ที่สร้าง |
-| slides | Int32[] | อาร์เรย์ที่มีตำแหน่งสไลด์ เริ่มต้นจาก 1 |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
-| options | ISaveOptions | ตัวเลือกฟอร์แมตเพิ่มเติม |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### ดูเพิ่มเติม
 
@@ -185,17 +185,17 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-บันทึกสไลด์ที่ระบุของงานนำเสนอลงในสตรีมตามฟอร์แมตที่ระบุโดยคงหมายเลขหน้า
+บันทึกสไลด์ที่ระบุของงานนำเสนอลงในสตรีมด้วยรูปแบบที่ระบุพร้อมคงเลขหน้า
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| stream | Stream | สตรีมผลลัพธ์ |
-| slides | Int32[] | อาร์เรย์ที่มีตำแหน่งสไลด์ เริ่มต้นจาก 1 |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### ดูเพิ่มเติม
 
@@ -208,30 +208,30 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-บันทึกสไลด์ที่ระบุของงานนำเสนอลงในสตรีมตามฟอร์แมตที่ระบุโดยคงหมายเลขหน้า
+บันทึกสไลด์ที่ระบุของงานนำเสนอลงในสตรีมด้วยรูปแบบที่ระบุพร้อมคงเลขหน้า
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| stream | Stream | สตรีมผลลัพธ์ |
-| slides | Int32[] | อาร์เรย์ที่มีตำแหน่งสไลด์ เริ่มต้นจาก 1 |
-| format | SaveFormat | ฟอร์แมตของข้อมูลที่ส่งออก |
-| options | ISaveOptions | ตัวเลือกฟอร์แมตเพิ่มเติม |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### ข้อยกเว้น
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | เมื่อพารามิเตอร์ stream หรือ slides มีค่า null |
-| ArgumentOutOfRangeException | เมื่อพารามิเตอร์ slides มีหมายเลขหน้าที่ไม่ถูกต้อง |
-| InvalidOperationException | เมื่อใช้ SaveFormat ที่ไม่รองรับ เช่น PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีแปลง PowerPoint เป็น PNG
+The following example shows how to convert PowerPoint to PNG.
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีแปลง PowerPoint เป็น PNG พร้อมการกำหนดมิติที่กำหนดเอง
+The following example shows how to convert PowerPoint to PNG with custom dimensions.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีแปลง PowerPoint เป็น PNG ด้วยขนาดที่กำหนดเอง
+The following example shows how to convert PowerPoint to PNG with custom size.
 
 ```csharp
 [C#]

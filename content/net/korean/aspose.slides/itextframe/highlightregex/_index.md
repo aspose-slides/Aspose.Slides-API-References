@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes for .NET API 참조
-description: 정규식과 일치하는 모든 항목을 지정된 색상으로 강조 표시합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 정규식과 지정된 색상으로 모든 일치 항목을 강조 표시합니다.
 type: docs
-weight: 80
+weight: 90
 url: /ko/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex 메서드
 
-정규식과 일치하는 모든 항목을 지정된 색상으로 강조 표시합니다.
+정규식과 지정된 색상으로 모든 일치 항목을 강조 표시합니다.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| regex | Regex | 강조 표시할 문자열을 얻기 위한 정규식 Regex입니다. |
-| highlightColor | Color | 텍스트를 강조 표시할 색상입니다. |
-| callback | IFindResultCallback | 검색 결과를 받기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | 강조 표시할 문자열을 가져오기 위한 정규식 Regex. |
+| highlightColor | Color | 텍스트를 강조 표시할 색상. |
+| callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### 예제
 
-다음 코드 샘플은 정규식을 사용하여 TextFrame의 텍스트를 강조 표시하는 방법을 보여줍니다.
+다음 코드 샘플은 정규식을 사용하여 TextFrame에서 텍스트를 강조 표시하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)
 * 인터페이스 [ITextFrame](../../itextframe)

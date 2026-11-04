@@ -1,14 +1,14 @@
 ---
 title: SlidesRange
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Intervallo diapositive
+description: Intervallo di diapositive
 type: docs
-weight: 10530
+weight: 10550
 url: /it/aspose.slides/slidesrange/
 ---
 ## SlidesRange classe
 
-Intervallo diapositive
+Intervallo di diapositive
 
 ```csharp
 public class SlidesRange
@@ -16,13 +16,13 @@ public class SlidesRange
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [SlidesRange](slidesrange)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Fine |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Inizio |

@@ -1,9 +1,9 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla dokumentacji API .NET
 description: Umożliwia tworzenie akapitów
 type: docs
-weight: 9300
+weight: 9320
 url: /pl/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory klasa
@@ -25,11 +25,11 @@ public class ParagraphFactory : IParagraphFactory
 | Nazwa | Opis |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Tworzy nowy pusty akapit. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tworzy nowy akapit z określonymi danymi akapitu przy użyciu. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tworzy nowy akapit przy użyciu określonych danych akapitu. |
 
 ### Uwagi
 
-Dla zgodności z COM.
+Dla kompatybilności z COM.
 
 ### Zobacz także
 

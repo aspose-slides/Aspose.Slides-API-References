@@ -1,9 +1,9 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示字体集合。
 type: docs
-weight: 5900
+weight: 5920
 url: /zh/aspose.slides/ifonts/
 ---
 ## IFonts 接口
@@ -18,9 +18,9 @@ public interface IFonts
 
 | 名称 | 描述 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复合脚本字体。可读写 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 返回或设置东亚字体。可读写 [`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | 返回或设置拉丁字体。可读写 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复杂脚本字体。读/写 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 返回或设置东亚字体。读/写 [`IFontData`](../ifontdata)。 |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | 返回或设置拉丁字体。读/写 [`IFontData`](../ifontdata)。 |
 
 ## 方法
 
@@ -29,9 +29,9 @@ public interface IFonts
 | [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | 获取与演示文稿主题中特定脚本标签关联的字体名称。 |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | 返回演示文稿中所有脚本字体定义的字典。 |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | 从主题的字体集合中移除与特定脚本标签关联的字体设置。 |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 为特定脚本标签分配字体名称，以定义该脚本的文本在演示文稿中的渲染方式。 |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 为特定脚本标签分配字体名称，该标签定义了演示文稿中该脚本文本的渲染方式。 |
 
-### 另请参阅
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

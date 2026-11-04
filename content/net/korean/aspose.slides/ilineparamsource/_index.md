@@ -1,20 +1,20 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 보조 라인 매개변수 인터페이스.
+second_title: Aspose.Sildes for .NET API 참조
+description: 보조 라인 매개 변수 인터페이스.
 type: docs
-weight: 6330
+weight: 6350
 url: /ko/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource 인터페이스
 
-보조 라인 매개변수 인터페이스.
+보조 라인 매개 변수 인터페이스.
 
 ```csharp
 public interface ILineParamSource
 ```
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

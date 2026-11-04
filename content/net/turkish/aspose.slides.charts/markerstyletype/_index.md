@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Grafiklerin veri noktasındaki işaretleyicinin şeklini belirler.
+second_title: Aspose.Sildes .NET API Referansı
+description: Grafik veri noktasındaki işaretçinin biçimini belirler.
 type: docs
-weight: 2340
+weight: 2360
 url: /tr/aspose.slides.charts/markerstyletype/
 ---
-## MarkerStyleType enumu
+## MarkerStyleType enum
 
-Grafiğin veri noktasındaki işaretleyicinin şeklini belirler.
+Grafiğin veri noktasındaki işaretçinin biçimini belirler.
 
 ```csharp
 public enum MarkerStyleType
@@ -20,7 +20,7 @@ public enum MarkerStyleType
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Circle | `0` | Her veri noktasında bir daire çizileceğini belirtir. |
-| Dash | `1` | Her veri noktasında bir kesik çizgi çizileceğini belirtir. |
+| Dash | `1` | Her veri noktasında bir tire çizileceğini belirtir. |
 | Diamond | `2` | Her veri noktasında bir elmas çizileceğini belirtir. |
 | Dot | `3` | Her veri noktasında bir nokta çizileceğini belirtir. |
 | None | `4` | Her veri noktasında hiçbir şey çizilmeyeceğini belirtir. |

@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: "Stelt een stringwaarde voor die kan worden opgeslagen in een pptx-presentatiedocument op twee manieren: 1) in cel/cellen van een werkmap die gerelateerd is aan een diagram 2) als letterlijke waarde."
+description: Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel/cellen van de werkmap die bij de grafiek horen, 2) als letterlijke waarde.
 type: docs
-weight: 2410
+weight: 2430
 url: /nl/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue klasse
 
-Stelt een stringwaarde voor die kan worden opgeslagen in een pptx-presentatiedocument op twee manieren: 1) in cel/cellen van een werkmap die gerelateerd is aan een diagram; 2) als letterlijke waarde.
+Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,18 +18,18 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Toewijzen van null-waarde is niet toegestaan. Teruggegeven waarde is altijd niet null. Lezen/schrijven [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Geeft de waarde terug of stelt deze in als letterlijke string. Lezen/schrijven String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Geeft het Data-object terug of stelt het in. Lezen/schrijven Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specificeert of de AsCell-, AsCells-, AsLiteralString- of AsLiteralDouble-eigenschap geldig is in afgeleiden. Met andere woorden specificeert het het type waarde van de Data-eigenschap. Lezen/schrijven [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Toewijzing van null-waarde is niet toegestaan. Retournerende waarde is altijd niet null. Lezen/Schrijven [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Returns or sets value as literal string. Lezen/Schrijven String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Returns or sets Data object. Lezen/Schrijven Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specificeert of AsCell, AsCells, AsLiteralString of AsLiteralDouble eigenschap daadwerkelijk aanwezig is in afstammelingen. Met andere woorden specificeert het het type waarde van de Data eigenschap. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Als de DataSourceType-eigenschap DataSourceType.Worksheet is, retourneert deze methode het adres van de cellen in de werkmap die de stringgegevens vertegenwoordigen. Anders wordt een lege string geretourneerd. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Stelt de waarde in vanaf de opgegeven cel. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Retourneert de stringwaardegegevens. Retourneert null als DataSourceType false is en er geen stringwaarde is toegewezen. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Sets value from specified cell. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
 ### Zie ook
 

@@ -3,10 +3,10 @@ title: EmptyTransition
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Effet de transition de diapositive vide.
 type: docs
-weight: 10030
+weight: 10050
 url: /fr/aspose.slides.slideshow/emptytransition/
 ---
-## classe EmptyTransition
+## EmptyTransition classe
 
 Effet de transition de diapositive vide.
 
@@ -19,7 +19,7 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données telles qu’une table de hachage. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fonctionne comme une fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données telles qu’une table de hachage. |
 
 ### Voir aussi
 

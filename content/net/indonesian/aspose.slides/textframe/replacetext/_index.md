@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.
 type: docs
-weight: 130
+weight: 140
 url: /id/aspose.slides/textframe/replacetext/
 ---
 ## TextFrame.ReplaceText metode
@@ -18,7 +18,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | oldText | String | String yang akan diganti. |
-| newText | String | String yang menggantikan semua kemunculan oldText. |
+| newText | String | String untuk mengganti semua kemunculan oldText. |
 | options | ITextSearchOptions | Opsi pencarian teks [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Objek callback untuk menyimpan hasil operasi penggantian [`IFindResultCallback`](../../ifindresultcallback). |
 
@@ -29,7 +29,7 @@ Kode contoh berikut menunjukkan cara mengganti satu string yang ditentukan denga
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Ganti semua kemunculan 'the' yang terpisah dengan '***'
+	// Ganti semua kemunculan 'the' terpisah dengan '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

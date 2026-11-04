@@ -1,14 +1,14 @@
 ---
 title: IColumnFormat
 second_title: Aspose.Sildes .NET API 参考
-description: 表示表列的格式。
+description: 表示表格列的格式。
 type: docs
-weight: 5540
+weight: 5560
 url: /zh/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat 接口
 
-表示表列的格式。
+表示表格列的格式。
 
 ```csharp
 public interface IColumnFormat
@@ -18,9 +18,9 @@ public interface IColumnFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 获取在继承和表样式应用后的有效表列格式属性。 |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 获取应用继承和表格样式后的有效表列格式属性。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

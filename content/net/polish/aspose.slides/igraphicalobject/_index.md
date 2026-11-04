@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje abstrakcyjny obiekt graficzny.
 type: docs
-weight: 6060
+weight: 6080
 url: /pl/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject interfejs
 
-Reprezentuje abstrakcyjny obiekt graficzny.
+Represents abstract graphical object.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,7 +18,7 @@ public interface IGraphicalObject : IShape
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Pozwala uzyskać bazowy interfejs IShape. Tylko do odczytu [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Umożliwia pobranie podstawowego interfejsu IShape. Tylko do odczytu [`IShape`](../ishape). |
 | [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Zwraca blokady kształtu. Tylko do odczytu [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 | [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Zwraca blokady kształtu. Tylko do odczytu [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 

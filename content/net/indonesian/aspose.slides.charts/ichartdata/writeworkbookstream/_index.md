@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menginisialisasi workbook Excel yang disertakan secara internal dengan nilai yang ditentukan pengguna.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menginisialisasi buku kerja Excel yang secara internal terkandung dengan nilai yang ditentukan pengguna.
 type: docs
-weight: 150
+weight: 160
 url: /id/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream metode
 
-Menginisialisasi workbook Excel yang disertakan secara internal dengan nilai yang ditentukan pengguna.
+Menginisialisasi buku kerja Excel yang secara internal terkandung dengan nilai yang ditentukan pengguna.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)

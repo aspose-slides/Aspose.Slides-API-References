@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ ポイントのラベルを表します。読み取り専用 IDataLabelaspose.slides.charts/idatalabel。
+description: チャート データ ポイントのラベルを表します。 読み取り専用 IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /ja/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label プロパティ
 
-チャート データ ポイントのラベルを表します。読み取り専用 [`IDataLabel`](../../idatalabel).
+チャート データ ポイントのラベルを表します。 読み取り専用 [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

@@ -3,12 +3,12 @@ title: IFontScheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーマで定義されたフォントを格納します。
 type: docs
-weight: 11250
+weight: 11270
 url: /ja/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme インターフェイス
 
-テーマで定義されたフォントを格納します。
+Stores theme-defined fonts.
 
 ```csharp
 public interface IFontScheme
@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | 名前 | 説明 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | スライドの「heading」部分のフォントコレクションを返します。読み取り専用 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | スライドの「body」部分のフォントコレクションを返します。読み取り専用 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | フォントスキーム名を返します。読み書き可能な String。 |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | スライドの「見出し」部分のフォントコレクションを返します。読み取り専用 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | スライドの「本文」部分のフォントコレクションを返します。読み取り専用 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | フォントスキーム名を返します。読み取り/書き込み String。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Slides a .NET API-referencia
-description: Meghatározza a határoló objektumot, amely nyitó és záró karakterekből, például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak, áll, és egy vagy több matematikai elemet tartalmaz, amelyeket egy meghatározott karakterrel választanak el. Példák 2 2x7C2
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja a határolóobjektumot, amely nyitó és záró karakterekből áll, például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak, valamint egy vagy több matematikai elemet tartalmaz, amelyeket egy megadott karakterrel választanak el. Példák: 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /hu/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interfész
 
-Megadja a határoló objektumot, amely nyitó és záró karakterekből (például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak) áll, és egy vagy több matematikai elemet tartalmaz belül, amelyeket egy meghatározott karakterrel választanak el. Példák: (𝑥2); [𝑥2&#x7C;𝑦2]
+Megadja a határolóobjektumot, amely nyitó és záró karakterekből (például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak) áll, és egy vagy több matematikai elemet tartalmaz belül, melyeket egy megadott karakterrel elválasztanak. Példák: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -18,19 +18,19 @@ public interface IMathDelimiter : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Egy vagy több matematikai elem, amelyet határoló karakterek választanak el |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész lekérését [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | A Delimiter Beginning Character meghatározza a kezdő, vagy nyitó, határoló karaktert. A matematikai határolók körülvevő karakterek, mint például a zárójelek, szögletes zárójelek és kapcsos zárójelek. Az alapértelmezett érték: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Megadja a határolók alakját a határoló objektumban. Ha MathDelimiterShape.Centered, a határolók a matematikai szöveg tengelye köré középre helyeződnek, és a tartalmuk teljes magasságához igazodnak. Ha MathDelimiterShape.Match, magasságuk és alakjuk úgy módosul, hogy pontosan illeszkedjen a tartalmukra. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | A Delimiter Ending Character meghatározza a záró, vagy befejező, határoló karaktert. A matematikai határolók körülvevő karakterek, mint például a zárójelek, szögletes zárójelek és kapcsos zárójelek. Az alapértelmezett: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Megadja a BeginningCharacter, SeparatorCharacter és EndingCharacter növekedését. Ha igaz, a határolók függőlegesen nőnek, hogy egyezzenek az operandus magasságával. Az alapértelmezett érték: true. |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | A Delimiter Separator Character meghatározza azt a karaktert, amely elválasztja az argumentumokat a határoló objektumban. Az alapértelmezett: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Egy vagy több matematikai elem, a határoló karakterekkel elválasztva |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész [`IMathElement`](../imathelement) lekérését |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character meghatározza a kezdeti, vagy nyitó, határoló karaktert. A matematikai határolók olyan befoglaló karakterek, mint a zárójelek, szögletes zárójelek és kapcsos zárójelek. Az alapértelmezett érték: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Meghatározza a határolók alakját a határolóobjektumban. Ha MathDelimiterShape.Centered, a határolók a matematikai szöveg axisa körül középre vannak helyezve, és úgy lesznek méretezve, hogy illeszkedjenek a tartalmuk teljes magasságához. Ha MathDelimiterShape.Match, magasságuk és alakjuk pontosan a tartalmukhoz igazodik. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character meghatározza a záró, vagy befejező, határoló karaktert. A matematikai határolók olyan befoglaló karakterek, mint a zárójelek, szögletes zárójelek és kapcsos zárójelek. Az alapértelmezett: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Meghatározza a BeginningCharacter, SeparatorCharacter, EndingCharacter növekedését. Ha igaz, a határolók függőlegesen nőnek, hogy illeszkedjenek operandusuk magasságához. Alapértelmezett érték: true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character meghatározza azt a karaktert, amely elválasztja az argumentumokat a határolóobjektumban. Alapértelmezett: '&#x7C;'. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Határolja az argumentumokat a megadott határoló karakter használatával |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Határolja az argumentumokat a megadott határoló karakterrel |
 
 ### Példák
 

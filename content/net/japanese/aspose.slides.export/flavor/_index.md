@@ -1,14 +1,14 @@
 ---
 title: Flavor
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プログラムで使用されるすべての Markdown 仕様。
+description: プログラムで使用されるすべてのMarkdown仕様。
 type: docs
-weight: 3800
+weight: 3820
 url: /ja/aspose.slides.export/flavor/
 ---
 ## フレーバー列挙
 
-プログラムで使用されるすべての Markdown 仕様。
+プログラムで使用されるすべてのMarkdown仕様。
 
 ```csharp
 public enum Flavor

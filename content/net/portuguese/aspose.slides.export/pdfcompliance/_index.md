@@ -1,9 +1,9 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a referência da API .NET
 description: Constantes que definem o nível de conformidade com os padrões PDF.
 type: docs
-weight: 4320
+weight: 4340
 url: /pt/aspose.slides.export/pdfcompliance/
 ---
 ## Enumeração PdfCompliance

@@ -3,12 +3,12 @@ title: BaseOverrideThemeManager
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Classe de base pour les classes qui offrent un accès à différents types de thèmes remplacés.
 type: docs
-weight: 11040
+weight: 11060
 url: /fr/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager classe
 
-Classe de base pour les classes qui offrent un accès à différents types de thèmes remplacés.
+Base class for classes that provide access to different types of overriden themes.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,15 +18,15 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Nom | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Booléen en lecture seule. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Renvoie l’objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme surcharge le thème effectif hérité ou non. Pour activer OverrideTheme pour la surcharge, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme de la surcharge, utilisez la méthode OverrideTheme.Clear(). Lecture seule Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Renvoie l'objet thème de surcharge. Lecture/Écriture [`IOverrideTheme`](../ioverridetheme). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleur supplémentaire à une diapositive. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Renvoie l’objet du thème. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleurs supplémentaire à une diapositive. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Renvoie l'objet thème. |
 
 ### Voir aussi
 

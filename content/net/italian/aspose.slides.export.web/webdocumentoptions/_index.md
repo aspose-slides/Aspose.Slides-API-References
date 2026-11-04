@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un insieme di opzioni per il salvataggio di WebDocument./webdocument.
 type: docs
-weight: 4690
+weight: 4710
 url: /it/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions classe
 
-Rappresenta un insieme di opzioni per il salvataggio di [`WebDocument`](../webdocument).
+Rappresenta un set di opzioni per il salvataggio di [`WebDocument`](../webdocument).
 
 ```csharp
 public class WebDocumentOptions
@@ -24,10 +24,10 @@ public class WebDocumentOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Restituisce o imposta il salvatore di output. Lettura/scrittura [`IOutputSaver`](../ioutputsaver). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Restituisce o imposta l'opzione di animazione delle forme. Lettura/scrittura Booleano. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Restituisce o imposta l'opzione di animazione delle transizioni. Lettura/scrittura Booleano. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Restituisce o imposta l'opzione di incorporamento delle immagini. Lettura/scrittura Booleano. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Restituisce o imposta il salvataggio dell'output. Lettura/scrittura [`IOutputSaver`](../ioutputsaver). |
 | [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Restituisce o imposta il motore dei modelli. Lettura/scrittura [`ITemplateEngine`](../itemplateengine). |
 
 ### Vedi anche

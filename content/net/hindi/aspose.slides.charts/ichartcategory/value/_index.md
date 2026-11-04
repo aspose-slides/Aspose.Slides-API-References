@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: यदि UseCell true है तो यह प्रॉपर्टी AsCell.Value प्रॉपर्टी को दर्शाती है। यदि UseCell false है तो यह प्रॉपर्टी AsLiteral प्रॉपर्टी को दर्शाती है। पढ़ें/लिखें Object.
 type: docs
-weight: 50
+weight: 60
 url: /hi/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value प्रॉपर्टी
@@ -14,7 +14,7 @@ url: /hi/aspose.slides.charts/ichartcategory/value/
 public object Value { get; set; }
 ```
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IChartCategory](../../ichartcategory)
 * नामस्थान [Aspose.Slides.Charts](../../ichartcategory)

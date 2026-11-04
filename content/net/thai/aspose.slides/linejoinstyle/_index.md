@@ -1,20 +1,20 @@
 ---
 title: LineJoinStyle
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงสไตล์การเชื่อมต่อของเส้น
+description: แสดงสไตล์การเชื่อมต่อของเส้น.
 type: docs
-weight: 7800
+weight: 7820
 url: /th/aspose.slides/linejoinstyle/
 ---
-## LineJoinStyle enumeration
+## LineJoinStyle การนับค่า
 
-แสดงถึงสไตล์การเชื่อมต่อของเส้น
+แสดงสไตล์การเชื่อมต่อของเส้น.
 
 ```csharp
 public enum LineJoinStyle : sbyte
 ```
 
-### ค่าต่าง
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

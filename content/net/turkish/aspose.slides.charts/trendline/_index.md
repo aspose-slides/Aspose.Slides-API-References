@@ -1,14 +1,14 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sınıf, grafik serisinin trend çizgisini temsil eder
 type: docs
-weight: 2470
+weight: 2490
 url: /tr/aspose.slides.charts/trendline/
 ---
 ## Trendline sınıfı
 
-Sınıf, grafik serisinin trend çizgisini temsil eder
+Class represents trend line of chart series
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -16,34 +16,34 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden önce uzadığı kategori sayısını (veya dağılım grafiğindeki birimleri) belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Oku/Yaz Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Üst grafiği döndürür. Salt Okunur [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Trend çizgisinin denkleminin grafik üzerinde (Rsquaredvalue ile aynı etikette) görüntülenmesini belirtir. Oku/Yaz Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Trend çizgisinin R-kare değerinin grafik üzerinde (denklem ile aynı etikette) görüntülenmesini belirtir. Oku/Yaz Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Trend çizgisinin biçimini temsil eder. Oku/Yaz [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden sonra uzadığı kategori sayısını (veya dağılım grafiğindeki birimleri) belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Oku/Yaz Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Trend çizgisinin y eksenini kestiği değeri belirtir. Bu özellik yalnızca trend çizgi türü exp, linear veya poly olduğunda desteklenir. Oku/Yaz Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Polinom trend çizgisinin derecesini belirtir. Diğer trend çizgi tipleri için göz ardı edilir. Değer 2 ile 6 arasında olmalıdır. Oku/Yaz Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Hareketli ortalama trend çizgisi için trend çizgisinin periyodunu belirtir. Diğer trend çizgi varyantları için göz ardı edilir. Değer 2 ile 255 arasında olmalıdır. Oku/Yaz Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Bu trend çizgisiyle ilgili lejand girdisini temsil eder. Salt Okunur [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Metin biçimini döndürür. Salt Okunur [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketi için otomatik oluşturulan metnin üzerine yazar. Otomatik oluşturulan veri etiketi metni, ShowSeriesName, ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliği ile biçimlendirilen metindir. Salt Okunur [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Trend çizgisinin adını alır veya ayarlar. Oku/Yaz String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Trend çizgisinin tipini alır veya ayarlar. Oku/Yaz [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden önce uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Üst grafiği döndürür. Yalnızca okuma [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Trend çizgisinin denkleminin grafikte (Rsquaredvalue ile aynı etiket içinde) görüntülenmesini belirtir. Okunabilir/Yazılabilir Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Trend çizgisinin R-kare değerinin grafikte (denklemin aynı etiketi içinde) görüntülenmesini belirtir. Okunabilir/Yazılabilir Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Trend çizgisinin biçimini temsil eder. Okunabilir/Yazılabilir [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden sonra uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Trend çizgisinin y eksenini kestiği değeri belirtir. Bu özellik yalnızca trend çizgi tipi exp, linear veya poly olduğunda desteklenir. Okunabilir/Yazılabilir Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Polinom trend çizgisinin derecesini belirtir. Diğer trend çizgi tipleri için yok sayılır. Değer 2 ile 6 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Hareketli ortalama trend çizgisi için trend çizgisinin periyodunu belirtir. Diğer trend çizgi varyantları için yok sayılır. Değer 2 ile 255 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Bu trend çizgisiyle ilgili lejand girdisini temsil eder. Yalnızca okuma [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Metin biçimini döndürür. Yalnızca okuma [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketi için otomatik olarak oluşturulan metni geçersiz kılar. Otomatik oluşturulan veri etiketi metni, ShowSeriesName, ShowValue, … özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilmiş metindir. Yalnızca okuma [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Trend çizgisinin adını alır veya ayarlar. Okunabilir/Yazılabilir String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Trend çizgisinin tipini alır veya ayarlar. Okunabilir/Yazılabilir [`TrendlineType`](../trendlinetype). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | TextFrameForOverriding'i, parametre "text" içindeki metinle başlatır. TextFrameForOverriding zaten başlatılmışsa, yalnızca metnini değiştirir. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Parametre "text" içindeki metin ile TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [TrendlineCollection](../trendlinecollection)
-* arabirim [ITrendline](../itrendline)
+* arayüz [ITrendline](../itrendline)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

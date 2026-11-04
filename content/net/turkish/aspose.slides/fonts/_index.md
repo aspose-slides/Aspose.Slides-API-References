@@ -1,14 +1,14 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Yazı tipleri koleksiyonu.
 type: docs
-weight: 4920
+weight: 4940
 url: /tr/aspose.slides/fonts/
 ---
 ## Fonts sınıfı
 
-Fonts koleksiyonu.
+Fonts kümesi.
 
 ```csharp
 public class Fonts : IFonts
@@ -18,20 +18,20 @@ public class Fonts : IFonts
 
 | Ad | Açıklama |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Karmaşık betik yazı tipini döndürür veya ayarlar. Okunur/yazılır [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Doğu Asya yazı tipini döndürür veya ayarlar. Okunur/yazılır [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Latin yazı tipini döndürür veya ayarlar. Okunur/yazılır [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Karmaşık betik yazı tipini döndürür veya ayarlar. Okuma/yazma [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Doğu Asya yazı tipini döndürür veya ayarlar. Okuma/yazma [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Latin yazı tipini döndürür veya ayarlar. Okuma/yazma [`IFontData`](../ifontdata). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Sunum temasından belirli bir betik etiketine ilişkili yazı tipi adını alır. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Sunum içindeki tüm betik yazı tipi tanımlarının sözlüğünü döndürür. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Temanın yazı tipi koleksiyonundan belirli bir betik etiketine ilişkin yazı tipi ayarını kaldırır. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Belirli bir betik etiketine bir yazı tipi adı atar; bu, betiğin metninin sunumda nasıl görüntüleneceğini tanımlar. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Sunum temasından belirli bir betik etiketiyle ilişkili yazı tipi adını alır. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Sunumdaki tüm betik yazı tipi tanımlarının bir sözlüğünü döndürür. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Temanın yazı tipi koleksiyonundan belirli bir betik etiketiyle ilişkili yazı tipi ayarını kaldırır. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Belirli bir betik etiketine bir yazı tipi adı atar; bu, o betiğin metninin sunumda nasıl görüntüleneceğini belirler. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IFonts](../ifonts)
 * ad alanı [Aspose.Slides](../../aspose.slides)

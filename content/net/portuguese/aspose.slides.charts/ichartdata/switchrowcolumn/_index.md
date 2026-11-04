@@ -1,20 +1,20 @@
 ---
 title: SwitchRowColumn
-second_title: Aspose.Sildes para .NET Referência da API
-description: Troca os dados ao longo do eixo. Dados plotados no eixo X serão movidos para o eixo Y e vice-versa.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Troca os dados ao longo do eixo. Dados representados no eixo X serão movidos para o eixo Y e vice-versa.
 type: docs
-weight: 140
+weight: 150
 url: /pt/aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
-## IChartData.SwitchRowColumn method
+## IChartData.SwitchRowColumn método
 
-Troca os dados ao longo do eixo. Dados plotados no eixo X serão movidos para o eixo Y e vice-versa.
+Troca os dados ao longo do eixo. Dados representados no eixo X serão movidos para o eixo Y e vice-versa.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### Ver Também
+### Ver também
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)

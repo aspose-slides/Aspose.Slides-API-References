@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un effet d'ombre externe.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un effet d'ombre extérieure.
 type: docs
-weight: 3460
+weight: 3480
 url: /fr/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interface
 
-Représente un effet d'ombre externe.
+Représente un effet d’ombre extérieure.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Permet d’obtenir l’interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Permet d’obtenir l’interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Rayon du flou, en points. Valeur par défaut – 0 pt. Lecture/écriture Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction de l'ombre, en degrés. Valeur par défaut – 0 ° (de gauche à droite). Lecture/écriture Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance de l'ombre par rapport à l'objet, en points. Valeur par défaut – 0 pt. Lecture/écriture Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alignement du rectangle. Valeur par défaut – Bas. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indique si l'ombre tourne avec la forme. Valeur par défaut – true. Lecture/écriture Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Facteur d'échelle horizontal, en pourcentage de la taille d'origine. Un facteur négatif provoque un basculement. Valeur par défaut – 100 %. Lecture/écriture Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Facteur d'échelle vertical, en pourcentage de la taille d'origine. Un facteur négatif provoque un basculement. Valeur par défaut – 100 %. Lecture/écriture Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Couleur de l'ombre. Valeur par défaut – noir automatique (dépendant du thème). Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Angle d'inclinaison horizontal, en degrés. Valeur par défaut – 0 °. Lecture/écriture Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Angle d'inclinaison vertical, en degrés. Valeur par défaut – 0 °. Lecture/écriture Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction de l’ombre, en degrés. Valeur par défaut – 0 ° (de gauche à droite). Lecture/écriture Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance de l’ombre par rapport à l’objet, en points. Valeur par défaut – 0 pt. Lecture/écriture Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alignement du rectangle. Valeur par défaut – Bottom. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indique si l’ombre tourne avec la forme. Valeur par défaut – true. Lecture/écriture Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Facteur d’échelle horizontal, en pourcentage de la taille originale. Un facteur négatif provoque un retournement. Valeur par défaut – 100 %. Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Facteur d’échelle vertical, en pourcentage de la taille originale. Un facteur négatif provoque un retournement. Valeur par défaut – 100 %. Lecture/écriture Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Couleur de l’ombre. Valeur par défaut – noir automatique (dépendant du thème). Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Angle d’inclinaison horizontal, en degrés. Valeur par défaut – 0 °. Lecture/écriture Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Angle d’inclinaison vertical, en degrés. Valeur par défaut – 0 °. Lecture/écriture Double. |
 
 ### Voir aussi
 

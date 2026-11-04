@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ITextFrameaspose.slides/itextframe のテキストコンテンツを文字列の配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。
+description: ITextFrameaspose.slides/itextframe のテキスト コンテンツを文字列の配列に分割し、各要素はフレーム内の個別のテキスト列に対応します。
 type: docs
-weight: 130
+weight: 140
 url: /ja/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns method
 
-[`ITextFrame`](../../itextframe) のテキストコンテンツを文字列の配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。
+[`ITextFrame`](../../itextframe) のテキスト コンテンツを文字列の配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -16,22 +16,22 @@ public string[] SplitTextByColumns()
 
 ### 戻り値
 
-文字列の配列で、各文字列は [`ITextFrame`](../../itextframe) の特定の列のテキストコンテンツを表します。
+[`ITextFrame`](../../itextframe) の特定の列のテキスト コンテンツを表す文字列の配列です。
 
 ### 備考
 
-テキストフレームに複数列が含まれていない場合、返される配列は全テキストを含む単一の要素となります。空の列は配列内で空文字列として表されます。
+テキスト フレームに複数の列が含まれていない場合、返される配列は全文を含む単一の要素になります。空の列は配列内で空文字列として表されます。
 
 ### 例
 
-次の例は `SplitTextByColumns` の使用方法を示します。
+次の例は `SplitTextByColumns` の使用方法を示しています：
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // スライド上の最初のシェイプを取得し、ITextFrameにキャストします
+    // スライド上の最初のシェイプを取得し、ITextFrame にキャストします
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // テキストフレームの内容を列に分割します
+    // テキスト フレームのコンテンツを列に分割します
     string[] columnsText = textFrame.SplitTextByColumns();
     // 各列のテキストをコンソールに出力します
     foreach (string column in columnsText)

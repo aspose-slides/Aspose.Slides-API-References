@@ -1,14 +1,14 @@
 ---
 title: TextSearchOptions
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет параметры, которые могут использоваться для поиска текста в Presentation, Slide или TextFrame.
+description: Представляет параметры, которые можно использовать для поиска текста в Presentation Slide или TextFrame.
 type: docs
-weight: 10970
+weight: 10990
 url: /ru/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions класс
 
-Представляет параметры, которые могут использоваться для поиска текста в Presentation, Slide или TextFrame.
+Представляет параметры, которые можно использовать для поиска текста в Presentation, Slide или TextFrame.
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
@@ -18,17 +18,17 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Имя | Описание |
 | --- | --- |
-| [TextSearchOptions](textsearchoptions)() | Создает новые параметры поиска текста по умолчанию. |
+| [TextSearchOptions](textsearchoptions)() | Создаёт новые параметры поиска текста по умолчанию. |
 
 ## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Установите true для поиска с учетом регистра, false — иначе. Чтение/запись Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Установите `true`, чтобы включить текст, содержащийся в заметках слайда ([`NotesSlide`](../notesslide)), при выполнении операций поиска текста, замены или выделения. Значение по умолчанию — `false`. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Установите true, чтобы использовать поиск с учётом регистра, false — иначе. Чтение/запись Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Установите `true`, чтобы включать текст, содержащийся в заметках слайда ([`NotesSlide`](../notesslide)), при выполнении операций поиска текста, замены или подсветки. Значение по умолчанию — `false`. |
 | [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Установите true, чтобы сопоставлять только целые слова, false — иначе. Чтение/запись Boolean. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITextSearchOptions](../itextsearchoptions)
 * пространство имён [Aspose.Slides](../../aspose.slides)

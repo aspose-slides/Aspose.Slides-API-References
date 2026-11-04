@@ -1,9 +1,9 @@
 ---
 title: IAdjustValue
 second_title: Aspose.Sildes برای مرجع API .NET
-description: مقدار تنظیم شکل‌های هندسی را نشان می‌دهد. این مقادیر بر فرم شکل‌ها تأثیر می‌گذارند.
+description: نمایانگر مقدار تنظیم یک شکل هندسی است. این مقادیر بر فرم شکل‌ها تأثیر می‌گذارند.
 type: docs
-weight: 5180
+weight: 5200
 url: /fa/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue رابط
@@ -14,14 +14,14 @@ url: /fa/aspose.slides/iadjustvalue/
 public interface IAdjustValue
 ```
 
-## خواص
+## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | مقدار را برمی‌گرداند یا تنظیم می‌کند و آن را به‌عنوان زاویه‌ای بر حسب درجه تفسیر می‌کند. خواندنی/نوشتنی Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | نام این مقدار تنظیم را برمی‌گرداند. فقط‌خواندنی String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | مقدار تنظیم را همان‌گونه برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | نوع تنظیم شکل را برمی‌گرداند. فقط‌خواندنی [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | مقدار را باز می‌گرداند یا تنظیم می‌کند، به‌عنوان زاویه‌ای بر حسب درجه تفسیر می‌شود. قابل خواندن/قابل نوشتن Single. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | نام این مقدار تنظیم را باز می‌گرداند. فقط-قابل خواندن String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | مقدار تنظیم را «همان‌طور» باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/قابل نوشتن Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | نوع تنظیم شکل را باز می‌گرداند. فقط-قابل خواندن [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### موارد مرتبط
 

@@ -3,7 +3,7 @@ title: InvertIfNegative
 second_title: Aspose.Sildes för .NET API-referens
 description: Anger att datapunkten ska invertera sina färger om värdet är negativt. Läs/skriv Boolean.
 type: docs
-weight: 120
+weight: 160
 url: /sv/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
 ## ChartDataPoint.InvertIfNegative egenskap
@@ -14,7 +14,7 @@ Anger att datapunkten ska invertera sina färger om värdet är negativt. Läs/s
 public bool InvertIfNegative { get; set; }
 ```
 
-### Se också
+### Se även
 
 * klass [ChartDataPoint](../../chartdatapoint)
 * namnrymd [Aspose.Slides.Charts](../../chartdatapoint)

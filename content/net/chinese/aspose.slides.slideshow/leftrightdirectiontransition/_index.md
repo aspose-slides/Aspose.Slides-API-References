@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
 second_title: Aspose.Sildes .NET API 参考
-description: 左右方向幻灯片过渡效果。
+description: 左右方向幻灯片切换效果。
 type: docs
-weight: 10240
+weight: 10260
 url: /zh/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition 类
 
-左右方向幻灯片过渡效果。
+左右方向幻灯片切换效果。
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,14 +18,14 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 过渡方向。可读/可写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的散列函数，适用于散列算法和诸如散列表之类的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和哈希表等数据结构。 |
 
 ### 另请参见
 

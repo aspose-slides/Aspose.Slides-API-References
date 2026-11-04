@@ -1,9 +1,9 @@
 ---
 title: InnerShadow
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個內部陰影效果。
+description: 表示一個 Inner Shadow 效果。
 type: docs
-weight: 3600
+weight: 3620
 url: /zh-hant/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow 類別
@@ -18,18 +18,18 @@ public sealed class InnerShadow : IInnerShadow
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | 模糊半徑。可讀寫 Double。 |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | 陰影方向。可讀寫 Single。 |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | 陰影距離。可讀寫 Double。 |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | 陰影顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | 模糊半徑。讀寫 Double. |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | 陰影方向。讀寫 Single. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | 陰影距離。讀寫 Double. |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | 陰影顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | 判斷指定的 [`InnerShadow`](../innershadow) 是否等於目前的 [`InnerShadow`](../innershadow)。 |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 取得套用繼承的有效 Inner Shadow 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 作為特定類型的雜湊函式。 |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | 判斷指定的 [`InnerShadow`](../innershadow) 是否等於目前的 [`InnerShadow`](../innershadow). |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 取得套用繼承後的有效 Inner Shadow 效果資料. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 作為特定類型的雜湊函式. |
 
 ### 另請參閱
 

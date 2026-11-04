@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示基礎 IImageTransformOperation 介面。
 type: docs
-weight: 3140
+weight: 3160
 url: /zh-hant/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace 介面
 
-表示 基礎 IImageTransformOperation 介面。
+表示基礎 IImageTransformOperation 介面。
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

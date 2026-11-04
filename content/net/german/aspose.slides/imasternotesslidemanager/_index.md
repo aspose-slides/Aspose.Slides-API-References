@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Manager für Master-Notizfolien.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Master-Notizen-Folienverwaltung.
 type: docs
-weight: 6410
+weight: 6430
 url: /de/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager Schnittstelle
 
-Manager für Master-Notizfolien.
+Master-Notizen-Folienverwaltung.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -16,18 +16,18 @@ public interface IMasterNotesSlideManager
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Gibt ein Master-Objekt für alle Notizfolien dieser Präsentation zurück, falls eines vorhanden ist, andernfalls wird null zurückgegeben. Nur-Lesen [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Gibt ein Master für alle Notizfolien dieser Präsentation zurück, falls eines vorhanden ist, andernfalls wird null zurückgegeben. Nur-Lesen [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Entfernt die Master-Notizfolie. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Setzt die Standard-Master-Notizfolie für die zugehörige Notizfolie. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Legt die Standard-Master-Notizfolie für die zugehörige Notizfolie fest. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namensraum [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

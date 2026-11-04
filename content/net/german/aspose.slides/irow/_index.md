@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Zeile in einer Tabelle dar.
 type: docs
-weight: 6850
+weight: 6870
 url: /de/aspose.slides/irow/
 ---
 ## IRow Schnittstelle
@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basis-IBulkTextFormattable Schnittstelle. Nur lesend [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Ermöglicht das Abrufen der Basis-ICellCollection Schnittstelle. Nur lesend [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Gibt die Höhe einer Zeile zurück. Nur lesend Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Gibt die minimale mögliche Höhe einer Zeile zurück oder legt sie fest. Lesen/Schreiben Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Gibt das RowFormat-Objekt zurück, das Formatierungseigenschaften für diese Zeile enthält. Nur lesend [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBulkTextFormattable. Nur-Lesen [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ICellCollection. Nur-Lesen [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Gibt die Höhe einer Zeile zurück. Nur-Lesen Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Gibt die minimale mögliche Höhe einer Zeile zurück oder setzt sie. Lese/Schreib Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Gibt das RowFormat-Objekt zurück, das Formatierungseigenschaften für diese Zeile enthält. Nur-Lesen [`IRowFormat`](../irowformat). |
 
 ### Siehe auch
 

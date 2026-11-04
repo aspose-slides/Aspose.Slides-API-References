@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Diese Klasse enthält die Formatierungseigenschaften für Textstile.
+description: Diese Klasse enthält die Textstil-Formatierungseigenschaften.
 type: docs
-weight: 11000
+weight: 11020
 url: /de/aspose.slides/textstyle/
 ---
 ## TextStyle Klasse
 
-Diese Klasse enthält die Formatierungseigenschaften für Textstile.
+Diese Klasse enthält die Textstil-Formatierungseigenschaften.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -16,19 +16,19 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standard-Absatz-Eigenschaften. Nur lesbar [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Ruft die effektiven Textstil-Formatierungsdaten ab, wobei die Vererbung angewendet wird. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Wenn die Stil-Ebene existiert, wird sie zurückgegeben, andernfalls null. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Liefert die wirksamen Textstil-Formatierungsdaten mit angewandter Vererbung. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Falls die Stilstufe existiert, wird sie zurückgegeben, andernfalls null. |
 
 ### Siehe auch
 

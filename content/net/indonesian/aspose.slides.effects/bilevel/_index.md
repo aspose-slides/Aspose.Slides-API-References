@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Bi-Level hitam/putih. Warna masukan yang luminansnya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansnya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Bi-Level hitam/putih. Warna masukan yang luminansinya kurang dari nilai ambang yang ditentukan diubah menjadi hitam. Warna masukan yang luminansinya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alpha tidak terpengaruh oleh efek ini.
 type: docs
-weight: 2910
+weight: 2930
 url: /id/aspose.slides.effects/bilevel/
 ---
 ## Kelas BiLevel
 
-Mewakili efek Bi-Level (hitam/putih). Warna masukan yang luminansnya kurang dari nilai ambang batas yang ditentukan diubah menjadi hitam. Warna masukan yang luminansnya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alfa tidak terpengaruh oleh efek ini.
+Mewakili efek Bi-Level (hitam/putih). Warna masukan yang luminansinya kurang dari nilai ambang yang ditentukan diubah menjadi hitam. Warna masukan yang luminansinya lebih besar atau sama dengan nilai yang ditentukan diatur menjadi putih. Nilai efek alpha tidak terpengaruh oleh efek ini.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -16,13 +16,13 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Menentukan apakah [`BiLevel`](../bilevel) yang ditentukan sama dengan [`BiLevel`](../bilevel) saat ini. |
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Mendapatkan data efek Bi-Level yang efektif dengan pewarisan yang diterapkan. |

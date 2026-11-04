@@ -1,27 +1,27 @@
 ---
 title: IPlaceholder
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een plaatsaanduiding op een dia.
+description: Stelt een tijdelijke aanduiding op een dia voor.
 type: docs
-weight: 6690
+weight: 6710
 url: /nl/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interface
 
-Vertegenwoordigt een plaatsaanduiding op een dia.
+Stelt een tijdelijke aanduiding op een dia voor.
 
 ```csharp
 public interface IPlaceholder
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Haalt de index van een plaatsaanduiding op. Alleen-lezen UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Haalt de oriëntatie van een plaatsaanduiding op. Alleen-lezen [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Haalt de grootte van een plaatsaanduiding op. Alleen-lezen [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Haalt het type van een plaatsaanduiding op. Alleen-lezen [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Haalt de index van een tijdelijke aanduiding op. Alleen-lezen UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Haalt de oriëntatie van een tijdelijke aanduiding op. Alleen-lezen [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Haalt de grootte van een tijdelijke aanduiding op. Alleen-lezen [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Haalt het type van een tijdelijke aanduiding op. Alleen-lezen [`PlaceholderType`](../placeholdertype). |
 
 ### Zie ook
 

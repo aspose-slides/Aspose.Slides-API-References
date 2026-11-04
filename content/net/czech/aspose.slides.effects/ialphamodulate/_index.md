@@ -1,20 +1,19 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt Alpha Modulate. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty, které mají být modulovány.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje efekt Alpha Modulate. Hodnoty alfa průhlednosti efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující hodnoty alfa k modulaci.
 type: docs
-weight: 3100
+weight: 3120
 url: /cs/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate rozhraní
 
-Reprezentuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty, které se mají modulovat.
+Reprezentuje efekt Alpha Modulate. Hodnoty alfa (průhlednost) jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující hodnoty alfa k modulaci.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
     IImageTransformOperation
 ```
-
 
 ## Vlastnosti
 
@@ -23,7 +22,7 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Viz také
+### Další související
 
 * rozhraní [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * rozhraní [IAlphaModulateEffectiveData](../ialphamodulateeffectivedata)

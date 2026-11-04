@@ -1,14 +1,14 @@
 ---
 title: IThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt themaeigenschappen.
+description: Geeft thema-eigenschappen weer.
 type: docs
-weight: 11390
+weight: 11410
 url: /nl/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager interface
 
-Vertegenwoordigt themaeigenschappen.
+Geef thema-eigenschappen weer.
 
 ```csharp
 public interface IThemeManager
@@ -19,7 +19,7 @@ public interface IThemeManager
 | Naam | Beschrijving |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenpalet toe op een dia. |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Retourneert het themobject. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Retourneert het thema-object. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes için .NET API Referansı
-description: Presentation içindeki animasyonların bir üreticisini temsil eder../aspose.slides/presentation.
+second_title: Aspose.Slides için .NET API Referansı
+description: Sunum içindeki animasyonların bir oluşturucusunu temsil eder../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /tr/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator sınıfı
 
-[`Presentation`](../../aspose.slides/presentation) içinde animasyonların bir üreticisini temsil eder.
+[`Presentation`](../../aspose.slides/presentation) içindeki animasyonların oluşturucusunu temsil eder.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -18,8 +18,8 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) yeni bir örnek oluşturur. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) yeni bir örnek oluşturur. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)'nin yeni bir örneğini oluşturur. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)'nin yeni bir örneğini oluşturur. |
 
 ## Özellikler
 
@@ -33,9 +33,9 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneğini yok eder. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Her slayt için animasyon olayları oluşturulmasını çalıştırır. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Her slayt için animasyon olayları oluşturulmasını çalıştırır. |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) örneğini serbest bırakır. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Her slayt için animasyon olayları oluşturmayı çalıştırır. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Her slayt için animasyon olayları oluşturmayı çalıştırır. |
 
 ## Alanlar
 
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Bir olay, yeni bir animasyonun oluşturulduğunu gösterir. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Yeni bir animasyonun oluşturulduğunu temsil eden bir olay. |
 
 ### Örnekler
 

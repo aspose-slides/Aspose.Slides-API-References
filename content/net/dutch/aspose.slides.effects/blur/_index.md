@@ -3,7 +3,7 @@ title: Blur
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een Blur-effect voor dat wordt toegepast op de volledige vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
 type: docs
-weight: 2920
+weight: 2940
 url: /nl/aspose.slides.effects/blur/
 ---
 ## Blur klasse
@@ -16,19 +16,19 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Bepaalt of de grenzen van het object moeten worden vergroot als gevolg van de vervaging. True geeft aan dat de grenzen worden vergroot, terwijl false aangeeft dat dat niet het geval is. Lezen/Schrijven Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Geeft de blur-radius terug of stelt deze in. Lezen/Schrijven Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Bepaalt of de grenzen van het object moeten worden vergroot als gevolg van de vervaging. True betekent dat de grenzen worden vergroot, terwijl false aangeeft dat ze dat niet zijn. Lezen/Schrijven Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Retourneert of stelt de vervagingsradius in. Lezen/Schrijven Double. |
 
-## Methoden
+## Methodes
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | Bepaalt of de opgegeven [`Blur`](../blur) gelijk is aan de huidige [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Haalt de effectieve Blur-effect gegevens op met de toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Dient als een hashfunctie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Haalt de effectieve Blur-effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Dient als hash-functie voor een specifiek type. |
 
 ### Zie ook
 

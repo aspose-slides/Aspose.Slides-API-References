@@ -1,15 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Slides for .NET API Reference
-description: 返回图表数据点的 y 值。只读 IDoubleChartValue aspose.slides.charts/idoublechartvalue。
+second_title: Aspose.Sildes .NET API 参考
+description: 获取图表数据点的 y 值。只读 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /zh/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
-
 ## IChartDataPoint.YValue 属性
 
-返回图表数据点的 y 值。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
+获取图表数据点的 y 值。只读 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

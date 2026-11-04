@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes pro referenci .NET API
-description: Reprezentuje vlastnosti formátu náčrtu čar.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Reprezentuje vlastnosti pro formát náčrtu čar.
 type: docs
-weight: 9950
+weight: 9970
 url: /cs/aspose.slides/sketchformat/
 ---
 ## SketchFormat třída
 
-Reprezentuje vlastnosti formátu náčrtu čar.
+Reprezentuje vlastnosti pro formát náčrtu čar.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -25,7 +25,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s určeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

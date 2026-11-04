@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Référence API Aspose.Sildes pour .NET
-description: Effet de transition de diapositive fractionnée.
+description: Effet de transition de diapositive scindée.
 type: docs
-weight: 10330
+weight: 10350
 url: /fr/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition classe
 
-Effet de transition de diapositive fractionnée.
+Effet de transition de diapositive scindée.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Nom | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Direction de la division de la transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientation de la division de la transition. Lecture/écriture [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Direction de la division de transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientation de la division de transition. Lecture/écriture [`Orientation`](../../aspose.slides/orientation). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Servit de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances TransitionValueBase sont égales. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Voir aussi
 

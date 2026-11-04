@@ -1,14 +1,14 @@
 ---
 title: MathSuperscriptElement
-second_title: Aspose.Sildes .NET API 參考
-description: 指定上標物件，該物件由基底以及放置於右上方的縮小尺寸上標組成
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定上標物件，該物件由基底以及置於右上方的縮小尺寸上標組成
 type: docs
-weight: 9020
+weight: 9040
 url: /zh-hant/aspose.slides.mathtext/mathsuperscriptelement/
 ---
 ## MathSuperscriptElement 類別
 
-指定上標物件，該物件由基底及放置於右上方的縮小尺寸上標組成。
+指定上標物件，該物件由基底以及置於右上方的縮小尺寸上標組成
 
 ```csharp
 public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
@@ -31,23 +31,23 @@ public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | 設定重音符號（此元素上方的字元） |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | 使用此實例作為參數以取得指定的函式 |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | 使用此實例作為參數以取得指定的函式 |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | 使用此實例作為參數以取得指定的函式 |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | 使用此實例作為參數並使用指定的額外參數以取得指定的函式 |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | 使用此實例作為參數並使用指定的額外參數以取得指定的函式 |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | 使用此分子與指定的分母建立分數 |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | 使用此分子與指定的分母建立分數 |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | 使用此分子與指定的分母建立指定類型的分數 |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | 使用此分子與指定的分母建立指定類型的分數 |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | 將數學元素括在括號內 |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | 使用指定字元（例如括號或其他字元）將數學元素框住 |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | 使用此實例作為函式名稱以取得參數的函式 |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | 使用此實例作為函式名稱以取得參數的函式 |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | 設定重音標記（此元素頂部的字元） |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | 以此實例作為參數採用指定的函式 |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | 以此實例作為參數採用指定的函式 |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | 以此實例作為參數採用指定的函式 |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | 以此實例作為參數，並使用指定的額外參數採用指定的函式 |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | 以此實例作為參數，並使用指定的額外參數採用指定的函式 |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | 以此分子和指定的分母建立分數 |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | 以此分子和指定的分母建立分數 |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | 以此分子與指定的分母建立指定類型的分數 |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | 以此分子與指定的分母建立指定類型的分數 |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | 將數學元素包在括號中 |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | 將數學元素以指定的字元（例如括號或其他字元）框住 |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | 以此實例作為函式名稱，對參數使用函式 |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | 以此實例作為函式名稱，對參數使用函式 |
 | [GetChildren](../../aspose.slides.mathtext/mathsuperscriptelement/getchildren)() | 取得子元素 |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | 使用底部大括號將此元素置於群組中 |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | 使用分組字元（例如底部大括號或其他）將此元素置於群組中 |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | 使用底部大括號將此元素放入群組 |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | 使用分組字元（例如底部大括號或其他）將此元素放入群組 |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | 取得無上下限的積分 |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | 取得積分 |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | 取得積分 |
@@ -58,8 +58,8 @@ public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | 建立 N 元運算子 |
 | [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | 建立 N 元運算子 |
 | [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | 在此元素上方設定橫線 |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | 指定給定次方的數學根，來源於指定的參數。 |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | 指定給定次方的數學根，來源於指定的參數。 |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | 指定由指定參數取得的給定次方的數學根 |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | 指定由指定參數取得的給定次方的數學根 |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | 取得下限 |
 | [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | 取得下限 |
 | [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | 建立下標 |
@@ -72,10 +72,10 @@ public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | 建立上標 |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | 取得上限 |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | 取得上限 |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | 將此元素放入框線盒中 |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | 將此元素放入框線盒中 |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | 將此元素放入非視覺框（邏輯分組），用於將方程式或其他數學文字的組件分組。一個盒狀物件可（例如）作為帶或不帶對齊點的運算子模擬器，作為換行點，或分組以避免在其中換行。 |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | 放入垂直陣列 |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | 將此元素放入邊框盒中 |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | 將此元素放入邊框盒中 |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | 將此元素放入非可視盒（邏輯分組），用於將方程式或其他數學文字的組件分組。盒狀物件可（例如）作為具有或不具有對齊點的運算子模擬器、作為換行點，或以不允許內部換行的方式分組。 |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | 放入垂直陣列中 |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | 在此元素下方設定橫線 |
 
 ### 範例
@@ -87,7 +87,7 @@ public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 MathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### 參閱
+### 另見
 
 * 類別 [BaseScript](../basescript)
 * 介面 [IMathSuperscriptElement](../imathsuperscriptelement)

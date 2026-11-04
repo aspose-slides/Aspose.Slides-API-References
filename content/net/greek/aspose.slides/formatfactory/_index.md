@@ -1,14 +1,14 @@
 ---
 title: FormatFactory
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιτρέπει τη δημιουργία μορφοτύπων μέσω διεπαφής COM.
+description: Επιτρέπει τη δημιουργία μορφών μέσω διεπαφής COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /el/aspose.slides/formatfactory/
 ---
 ## FormatFactory κλάση
 
-Επιτρέπει τη δημιουργία μορφοτύπων μέσω COM διασύνδεσης.
+Επιτρέπει τη δημιουργία μορφών μέσω της διεπαφής COM.
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -16,27 +16,27 @@ public class FormatFactory : IFormatFactory
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [FormatFactory](formatfactory)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Στατική παρουσία του εργοστασίου μορφών. Μόνο-ανάγνωση [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Στατική παρουσία εργοστασίου μορφής. Μόνο για ανάγνωση [`FormatFactory`](../formatfactory). |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Δημιουργεί νέο [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Δημιουργεί νέο [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Δημιουργεί νέο [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Δημιουργεί ένα νέο [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Δημιουργεί ένα νέο [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Δημιουργεί ένα νέο [`ITextFrameFormat`](../itextframeformat). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IFormatFactory](../iformatfactory)
+* διασύνδεση [IFormatFactory](../iformatfactory)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

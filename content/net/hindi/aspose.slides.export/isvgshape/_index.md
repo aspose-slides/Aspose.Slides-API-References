@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: SVG आकार के विकल्पों का प्रतिनिधित्व करता है।
+description: SVG आकार के विकल्पों को दर्शाता है।
 type: docs
-weight: 4110
+weight: 4130
 url: /hi/aspose.slides.export/isvgshape/
 ---
-## ISvgShape interface
+## ISvgShape इंटरफ़ेस
 
-SVG आकार के विकल्पों का प्रतिनिधित्व करता है।
+SVG आकार के विकल्पों को दर्शाता है।
 
 ```csharp
 public interface ISvgShape
@@ -20,7 +20,7 @@ public interface ISvgShape
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | आकार के लिए id सेट या प्राप्त करता है |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |

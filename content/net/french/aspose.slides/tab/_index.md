@@ -3,10 +3,10 @@ title: Tab
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une tabulation pour un texte.
 type: docs
-weight: 10820
+weight: 10840
 url: /fr/aspose.slides/tab/
 ---
-## Tab classe
+## Classe Tab
 
 Représente une tabulation pour un texte.
 
@@ -18,15 +18,15 @@ public sealed class Tab : PVIObject, ITab
 
 | Nom | Description |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | Crée un nouveau Tab |
+| [Tab](tab)(double, TabAlignment) | Crée une nouvelle Tab |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Renvoie ou définit le style d'alignement d'une tabulation. Lecture/écriture [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Renvoie ou définit le style d'alignement d'un onglet. Lecture/écriture [`TabAlignment`](../tabalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Renvoie ou définit la position d'une tabulation. L'attribution de cette propriété peut modifier l'index de la tabulation dans la collection et invalider l'Enumerator. Lecture/écriture Double. |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Renvoie ou définit la position d'un onglet. L'affectation de cette propriété peut changer l'index de l'onglet dans la collection et invalider l'énumérateur. Lecture/écriture Double. |
 
 ## Méthodes
 

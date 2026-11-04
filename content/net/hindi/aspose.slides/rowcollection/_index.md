@@ -1,9 +1,9 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: टेबल पंक्ति संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 9720
+weight: 9740
 url: /hi/aspose.slides/rowcollection/
 ---
 ## RowCollection क्लास
@@ -18,22 +18,22 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | संग्रह में वास्तव में शामिल पंक्तियों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | एक मान लौटाता है जो संकेत देता है कि क्या संग्रह तक पहुँच समकालीकृत (थ्रेड-सेफ) है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर पंक्ति लौटाता है। केवल-पढ़ने योग्य [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | समकालिकीकरण रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | संग्रह में वास्तव में सम्मिलित पंक्तियों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच समक्रमित (थ्रेड-सेफ) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | निर्दिष्ट सूचकांक पर पंक्ति लौटाता है। केवल पढ़ने योग्य [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | समक्रमण रूट लौटाता है। केवल पढ़ने योग्य Object. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रति बनाता है और उसे टेबल के नीचे सम्मिलित करता है। |
-| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | संग्रह से सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | एक इटररेटर लौटाता है जो संग्रह के माध्यम से पुनरावृति करता है। |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रति बनाता है और उसे टेबल में निर्दिष्ट स्थिति पर सम्मिलित करता है। |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रतिलिपि बनाता है और उसे टेबल के नीचे सम्मिलित करता है। |
+| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रतिलिपि बनाता है और उसे टेबल में निर्दिष्ट स्थिति पर सम्मिलित करता है। |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | एक टेबल से निर्दिष्ट स्थिति पर पंक्ति हटाता है। |
 
-### देखें भी
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Table](../table)

@@ -3,7 +3,7 @@ title: OptionalBlackTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Optionaler schwarzer Folienübergangseffekt.
 type: docs
-weight: 10260
+weight: 10280
 url: /de/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition Klasse
@@ -18,14 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Name | Beschreibung |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm ausgeht (und dann die neue Folie über Schwarz übergeht). Lese/Schreib Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm startet (und dann die neue Folie über Schwarz überblendet). Lese-/Schreib Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

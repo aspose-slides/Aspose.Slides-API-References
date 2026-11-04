@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 서식 속성을 나타냅니다. 읽기/쓰기 IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /ko/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format 속성
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.charts/ichartdatapoint/format/
 public IFormat Format { get; set; }
 ```
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IFormat](../../iformat)
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)

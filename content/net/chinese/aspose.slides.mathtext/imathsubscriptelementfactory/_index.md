@@ -1,9 +1,9 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建 IMathSubscriptElement
 type: docs
-weight: 8480
+weight: 8500
 url: /zh/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory 接口
@@ -24,7 +24,7 @@ public interface IMathSubscriptElementFactory
 
 用于 COM 兼容性
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

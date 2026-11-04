@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes for .NET API 参考
-description: 分割幻灯片过渡效果。
+second_title: Aspose.Sildes .NET API 参考
+description: 拆分幻灯片切换效果。
 type: docs
-weight: 10330
+weight: 10350
 url: /zh/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition 类
 
-分割幻灯片过渡效果。
+拆分幻灯片切换效果。
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -16,17 +16,17 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | 过渡拆分的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | 过渡拆分的方向。读/写 [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | 拆分页过渡的方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | 拆分页过渡的方向。读/写 [`Orientation`](../../aspose.slides/orientation)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，可用于哈希算法和诸如哈希表之类的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和诸如哈希表之类的数据结构。 |
 
 ### 另见
 

@@ -1,12 +1,12 @@
 ---
 title: ITemplateEngine
-second_title: Aspose.Sildes için .NET API Referansı
-description: Şablon ve veri çiftini sonuç çıktısına, genellikle HTML, dönüştüren bir şablon motorunu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Şablon ve veri çiftini sonuç çıktısına (genellikle HTML) dönüştüren bir şablon motorunu temsil eder.
 type: docs
-weight: 4620
+weight: 4640
 url: /tr/aspose.slides.export.web/itemplateengine/
 ---
-## ITemplateEngine arabirimi
+## ITemplateEngine arayüzü
 
 Şablon ve veri çiftini sonuç çıktısına (genellikle HTML) dönüştüren bir şablon motorunu temsil eder.
 
@@ -19,9 +19,9 @@ public interface ITemplateEngine
 | Ad | Açıklama |
 | --- | --- |
 | [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Şablonu şablon koleksiyonuna ekler. |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Şablonu verilen anahtar ve model nesnesiyle çıktıya dönüştürür. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Şablonu verilen anahtar ve model nesnesi ile çıktıya dönüştürür. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * derleme [Aspose.Slides](../../)

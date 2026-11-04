@@ -3,12 +3,12 @@ title: IChartPortionFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formateringsegenskaperna för diagramdelar som används i diagram.
 type: docs
-weight: 1920
+weight: 1940
 url: /sv/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat gränssnitt
 
-Representerar formateringsegenskaper för diagramdelar som används i diagram.
+Representerar formateringsegenskaperna för diagramdelar som används i diagram.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -20,7 +20,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Returnerar IBasePortionFormat gränssnitt. |
 
-### Se även
+### Se också
 
 * gränssnitt [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)

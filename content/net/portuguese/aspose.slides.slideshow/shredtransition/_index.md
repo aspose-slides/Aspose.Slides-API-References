@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide fragmentado.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Efeito de transição de slide Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /pt/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition classe
 
-Efeito de transição de slide fragmentado.
+Efeito de transição de slide Shred.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -16,17 +16,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Especifica a forma dos visuais usados durante a transição. Leitura/gravação [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Especifica a forma dos elementos visuais usados durante a transição. Leitura/gravação [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como função hash para um tipo específico, adequado para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela de hash. |
 
 ### Veja Também
 

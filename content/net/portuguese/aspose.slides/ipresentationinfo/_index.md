@@ -1,9 +1,9 @@
 ---
 title: IPresentationInfo
-second_title: Referência API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Informações sobre o arquivo de apresentação
 type: docs
-weight: 6790
+weight: 6810
 url: /pt/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interface
@@ -16,19 +16,19 @@ public interface IPresentationInfo
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Obtém True se a apresentação vinculada estiver criptografada, caso contrário False. Somente leitura Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por senha para abrir. |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Obtém True se a apresentação vinculada estiver criptografada, caso contrário False. Boolean somente leitura. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por uma senha para abrir. |
 | [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida contra gravação. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Obtém o formato da apresentação vinculada. Somente leitura [`LoadFormat`](../loadformat). |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Obtém o formato da apresentação vinculada. [`LoadFormat`](../loadformat) somente leitura. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Verifica se uma senha está correta para uma apresentação protegida com senha de abertura. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Verifica se uma senha de modificação está correta para uma apresentação protegida contra gravação. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Verifica se a senha de modificação está correta para uma apresentação protegida contra gravação. |
 | [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Obtém as propriedades do documento da apresentação vinculada. |
 | [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Atualiza as propriedades da apresentação vinculada. |
 | [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Grava a apresentação vinculada em um stream. |

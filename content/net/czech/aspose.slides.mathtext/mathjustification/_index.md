@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje zarovnání matematického odstavce - série sousedních výskytů matematického textu ve stejném odstavci
+description: Určuje zarovnání matematického odstavce, což je série sousedních instancí matematického textu ve stejném odstavci
 type: docs
-weight: 8800
+weight: 8820
 url: /cs/aspose.slides.mathtext/mathjustification/
 ---
-## Výčtový typ MathJustification
+## MathJustification enumerace
 
-Určuje zarovnání matematického odstavce (série sousedních výskytů matematického textu ve stejném odstavci)
+Určuje zarovnání matematického odstavce (série sousedních instancí matematického textu v rámci stejného odstavce)
 
 ```csharp
 public enum MathJustification
@@ -18,10 +18,10 @@ public enum MathJustification
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| LeftJustified | `1` | Zarovnat matematický text vlevo |
-| RightJustified | `2` | Zarovnat matematický text vpravo |
+| LeftJustified | `1` | Zarovnat matematický text doleva |
+| RightJustified | `2` | Zarovnat matematický text doprava |
 | Centered | `3` | Zarovnat matematický text na střed |
-| CenteredAsGroup | `4` | Centrovat na stránce celou skupinu matematických bloků jako jedinou jednotku. To znamená, že výskyty matematického textu mohou být zarovnány vůči sobě navzájem, ale celá skupina matematického textu je centrována jako celek. |
+| CenteredAsGroup | `4` | Vystředit na stránce celou skupinu matematických bloků jako jediné celky. To znamená, že instance matematického textu mohou být zarovnány vůči sobě navzájem, ale celá skupina matematického textu je jako celek vystředěna. |
 
 ### Viz také
 

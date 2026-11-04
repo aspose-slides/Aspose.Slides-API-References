@@ -3,12 +3,12 @@ title: ImageCollection
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /pl/aspose.slides/imagecollection/
 ---
 ## ImageCollection klasa
 
-Reprezentuje kolekcję PPImage.
+Represents collection of PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -16,16 +16,16 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Zwraca liczbę obrazów w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IPPImage`](../ippimage). |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (thread-safe). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Pobiera element pod określonym indeksem. Tylko do odczytu [`IPPImage`](../ippimage). |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Dodaje obraz do prezentacji z określonego bufora. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Dodaje obraz do prezentacji. |
@@ -35,7 +35,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Dodaje obraz do prezentacji ze strumienia. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Tworzy i dodaje obraz do prezentacji ze strumienia. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 
 ### Zobacz także
 

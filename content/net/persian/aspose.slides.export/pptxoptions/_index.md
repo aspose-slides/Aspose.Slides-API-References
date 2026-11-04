@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: گزینه‌هایی را برای ذخیره ارائه‌های OpenXml (PPTX، PPSX، POTX، PPTM، PPSM، POTM) ارائه می‌دهد.
 type: docs
-weight: 4370
+weight: 4390
 url: /fa/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions کلاس
 
-نمایانگر گزینه‌های ذخیره‌سازی ارائه‌های OpenXml (PPTX، PPSX، POTX، PPTM، PPSM، POTM) است.
+گزینه‌هایی را برای ذخیره ارائه‌های OpenXml (PPTX، PPSX، POTX، PPTM، PPSM، POTM) ارائه می‌دهد.
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -16,23 +16,23 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | Creates new instance of PptxOptions |
+| [PptxOptions](pptxoptions)() | یک نمونه جدید از PptxOptions ایجاد می‌کند |
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | سطح فشرده‌سازی مورد استفاده هنگام ذخیره سند ارائه را مشخص می‌کند. مقدار پیش‌فرض Level6 است. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | کلاس سازگاری که سند ارائه با آن سازگار است را مشخص می‌کند. مقدار پیش‌فرض Ecma376_2006 است. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | قلم استفاده شده در صورتی که قلم منبع یافت نشود را برمی‌گرداند یا تنظیم می‌کند. Read-write String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیانت را برمی‌گرداند یا تنظیم می‌کند. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء فراخوانی برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نشان می‌دهد. به [`IProgressCallback`](../../aspose.slides/iprogresscallback) مراجعه کنید. |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | مشخص می‌کند آیا تصویر کوچک ارائه تازه شود یا نه. Read/write Boolean. مقدار پیش‌فرض **true** است. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره ارائه، پیوندهای ابرمتنی با فراخوانی‌های JavaScript رد شوند یا نه. Read/write Boolean. مقدار پیش‌فرض **false** است. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا قطع شود را برمی‌گرداند یا تنظیم می‌کند. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | مشخص می‌کند آیا قالب ZIP64 برای سند ارائه استفاده شود یا نه. مقدار پیش‌فرض IfNecessary است. |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | کلاس انطباقی که سند Presentation به آن پایبند است را مشخص می‌کند. مقدار پیش‌فرض Ecma376_2006 است. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت یافت نشدن فونت منبع استفاده می‌شود، دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء کال‌بک برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نشان می‌دهد. ببینید [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | مشخص می‌کند آیا تصویر کوچک ارائه تازه شود یا خیر. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **true** است. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره ارائه، پیوندهای هیپرتکست حاوی فراخوانی‌های JavaScript صرف‌نظر شوند یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود، دریافت یا تنظیم می‌کند. قابل خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | مشخص می‌کند آیا قالب ZIP64 برای سند Presentation استفاده شود یا خیر. مقدار پیش‌فرض IfNecessary است. |
 
 ### موارد مرتبط
 

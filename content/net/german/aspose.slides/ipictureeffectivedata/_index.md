@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Bildeigenschaften enthält.
+description: Unveränderliches Objekt, das wirksame Bildeigenschaften enthält.
 type: docs
-weight: 6640
+weight: 6660
 url: /de/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das effektive Bildeigenschaften enthält.
+Unveränderliches Objekt, das wirksame Bildeigenschaften enthält.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Gibt das eingebettete Bild zurück. Nur lesbar [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Gibt die Sammlung der Bildtransformations-Effekte zurück. Nur lesbar [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Gibt die URL des verknüpften Bildes zurück. Nur lesbarer String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Gibt das eingebettete Bild zurück. Nur-Lese [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Gibt die Sammlung von Bildtransformations-Effekten zurück. Nur-Lese [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Gibt die URL des verknüpften Bildes zurück. Nur-Lese String. |
 
 ### Anmerkungen
 
-Diese Schnittstelle wird als Teil von [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) und [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) verwendet.
+Dieses Interface wird als Teil von [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) und [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) verwendet.
 
 ### Siehe auch
 

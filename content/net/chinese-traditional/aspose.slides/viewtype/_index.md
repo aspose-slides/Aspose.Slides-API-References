@@ -1,9 +1,9 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 簡報檢視類型
 type: docs
-weight: 11750
+weight: 11770
 url: /zh-hant/aspose.slides/viewtype/
 ---
 ## ViewType 列舉
@@ -18,14 +18,14 @@ public enum ViewType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| NotDefined | `0` | 值未定義 |
-| SlideView | `1` | 一般投影片檢視 |
-| SlideMasterView | `2` | 投影片主題檢視 |
-| NotesView | `3` | 投影片備註檢視 |
+| NotDefined | `0` | 未定義值 |
+| SlideView | `1` | 普通投影片檢視 |
+| SlideMasterView | `2` | 投影片母片檢視 |
+| NotesView | `3` | 備註檢視 |
 | HandoutView | `4` | 講義檢視 |
-| NotesMasterView | `5` | 備註主題檢視 |
+| NotesMasterView | `5` | 備註母片檢視 |
 | OutlineView | `6` | 大綱檢視 |
-| SlideSorterView | `7` | 投影片瀏覽檢視 |
+| SlideSorterView | `7` | 投影片排序檢視 |
 | SlideThumbnailView | `8` | 投影片縮圖檢視 |
 
 ### 另請參閱

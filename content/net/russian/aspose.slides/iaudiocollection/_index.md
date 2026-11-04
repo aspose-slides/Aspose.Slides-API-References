@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет коллекцию встроенных аудиофайлов.
 type: docs
-weight: 5220
+weight: 5240
 url: /ru/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection интерфейс
@@ -24,9 +24,9 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Имя | Описание |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет аудио в презентацию из массива байтов. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создаёт и добавляет аудио в презентацию из массива байтов. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Добавляет копию аудиофайла из другой презентации. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет аудио в презентацию из потока. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создаёт и добавляет аудио в презентацию из потока. |
 
 ### См. также
 

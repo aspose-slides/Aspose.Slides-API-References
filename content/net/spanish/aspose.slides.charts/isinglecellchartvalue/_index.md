@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una celda de datos del gráfico.
+description: Representa una celda de datos de gráfico.
 type: docs
-weight: 2210
+weight: 2230
 url: /es/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue interfaz
 
-Representa una celda de datos del gráfico.
+Representa una celda de datos de gráfico.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue

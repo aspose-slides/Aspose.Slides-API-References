@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 불변 객체로서 Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 알파값으로 교체됩니다.
+description: 불변 객체로 Alpha Replace 효과를 나타냅니다. 효과 알파 불투명도 값이 고정 알파로 대체됩니다.
 type: docs
-weight: 3150
+weight: 3170
 url: /ko/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData 인터페이스
 
-불변 객체로서 Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 알파값으로 교체됩니다.
+불변 객체로 Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 알파로 대체됩니다.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un effet Alpha Inverse. Les valeurs d'opacité Alpha sont inversées en les soustrayant de 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /fr/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse classe
 
-Représente un effet Alpha Inverse. Les valeurs Alpha (opacité) sont inversées en soustrayant de 100 %.
+Représente un effet Alpha Inverse. Les valeurs Alpha (opacité) sont inversées en les soustrayant de 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -16,16 +16,16 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Détermine si le [`AlphaInverse`](../alphainverse) spécifié est égal au [`AlphaInverse`](../alphainverse) actuel. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Récupère les données effectives de l'effet Alpha Inverse avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Obtient les données effectives de l'effet Alpha Inverse avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Fonctionne comme fonction de hachage pour un type particulier. |
 
 ### Voir aussi

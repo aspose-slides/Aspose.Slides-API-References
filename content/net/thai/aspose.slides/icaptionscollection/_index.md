@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคอลเลกชันของคำบรรยายแบบปิด.
+description: แสดงถึงคอลเลกชันของคำบรรยายปิด.
 type: docs
-weight: 5440
+weight: 5460
 url: /th/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของคำบรรยายแบบปิด
+แสดงถึงคอลเลกชันของคำบรรยายปิด.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -18,18 +18,18 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | คืนค่าจำนวนขององค์ประกอบในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | คืนค่าคำบรรยายแบบปิดที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | คืนจำนวนขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | คืนคำบรรยายปิดที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ICaptions`](../icaptions). |
 
 ## เมธอด
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | เพิ่มคำบรรยายแบบปิด WebVTT ไปยังส่วนท้ายของคอลเลกชันจากสตรีม. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | เพิ่มคำบรรยายแบบปิด WebVTT ไปยังส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | ลบคำบรรยายแบบปิดทั้งหมดจากคอลเลกชัน. |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | ลบคำบรรยายแบบปิดที่ระบุจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | ลบคำบรรยายแบบปิดที่ตำแหน่งที่ระบุ. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | เพิ่มคำบรรยายปิดแบบ WebVTT ที่ส่วนท้ายของคอลเลกชันจากสตรีม. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | เพิ่มคำบรรยายปิดแบบ WebVTT ที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | ลบคำบรรยายปิดทั้งหมดออกจากคอลเลกชัน. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | ลบคำบรรยายปิดที่ระบุออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | ลบคำบรรยายปิดที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

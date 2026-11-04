@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 TrendlineEx 的集合
 type: docs
-weight: 2250
+weight: 2270
 url: /zh/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection 接口
@@ -18,7 +18,7 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口。只读 IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 允许获取基类 IEnumerable 接口。只读 IEnumerable。 |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 获取指定索引处的元素。只读 [`ITrendline`](../itrendline)。 |
 
@@ -29,7 +29,7 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 | [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 在集合末尾添加新的 Trendline 并返回它。 |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | 移除指定的值。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITrendline](../itrendline)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

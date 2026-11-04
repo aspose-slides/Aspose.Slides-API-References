@@ -1,20 +1,20 @@
 ---
 title: Index
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يحدد أي من مجموعة الأطفال للوالد تنطبق عليها نقطة البيانات هذه. قراءة UInt32.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يحدد أي عنصر من مجموعة أطفال الوالدين تنطبق عليه نقطة البيانات هذه. قراءة UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /ar/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index خاصية
 
-يحدد أي عنصر من مجموعة الأطفال للوالد تنطبق عليه نقطة البيانات هذه. قراءة UInt32.
+يحدد أي عنصر من مجموعة الأطفال للعنصر الأصلي تنطبق عليه هذه نقطة البيانات. قراءة UInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### راجع أيضًا
+### انظر أيضًا
 
 * واجهة [IChartDataPoint](../../ichartdatapoint)
 * نطاق [Aspose.Slides.Charts](../../ichartdatapoint)

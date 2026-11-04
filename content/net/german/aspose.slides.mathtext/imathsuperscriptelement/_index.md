@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Hochstellung-Objekt an, das aus einer Basis und einer verkleinerten Hochstellung besteht, die oben und rechts platziert ist
+description: Gibt das Superscript-Objekt an, das aus einer Basis und einem verkleinerten Superscript über und rechts davon besteht
 type: docs
-weight: 8490
+weight: 8510
 url: /de/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement Schnittstelle
 
-Gibt das Hochstellung-Objekt an, das aus einer Basis und einem verkleinerten Hochstellung-Objekt besteht, das oben und rechts platziert ist
+Legt das Superscript-Objekt fest, das aus einer Basis und einer verkleinerten Superscript über und rechts davon besteht
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -20,7 +20,7 @@ public interface IMathSuperscriptElement : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Basisargument |
-| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Hochstellung |
+| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Superscript |
 
 ### Beispiele
 

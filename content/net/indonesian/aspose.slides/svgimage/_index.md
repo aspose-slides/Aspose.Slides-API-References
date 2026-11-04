@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gambar SVG.
 type: docs
-weight: 10800
+weight: 10820
 url: /id/aspose.slides/svgimage/
 ---
 ## SvgImage kelas

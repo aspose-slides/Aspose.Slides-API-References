@@ -1,9 +1,9 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET odwołanie API
 description: Efekt przejścia slajdu Reveal.
 type: docs
-weight: 10280
+weight: 10300
 url: /pl/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition klasa
@@ -26,9 +26,9 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszania i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
 
-### Zobacz również
+### Zobacz także
 
 * klasa [TransitionValueBase](../transitionvaluebase)
 * interfejs [IRevealTransition](../irevealtransition)

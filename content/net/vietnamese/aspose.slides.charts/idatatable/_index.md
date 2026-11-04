@@ -1,14 +1,14 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đại diện các thuộc tính của bảng dữ liệu.
 type: docs
-weight: 2060
+weight: 2080
 url: /vi/aspose.slides.charts/idatatable/
 ---
 ## IDataTable giao diện
 
-Đại diện các thuộc tính của bảng dữ liệu.
+Represents data table properties.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -16,16 +16,16 @@ public interface IDataTable : IFormattedTextContainer
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện IFormattedTextContainer cơ bản. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Trả về các kiểu đường viền, tô màu và hiệu ứng của một đối tượng. Chỉ đọc [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True nếu bảng dữ liệu biểu đồ có viền ô ngang. Đọc/ghi Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True nếu bảng dữ liệu biểu đồ có viền bao quanh. Đọc/ghi Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True nếu bảng dữ liệu biểu đồ có viền ô dọc. Đọc/ghi Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True nếu chìa khóa chú giải nhãn dữ liệu được hiển thị. Đọc/ghi Boolean. |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Trả về các kiểu line, fill, và effect của một đối tượng. Chỉ đọc [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Đúng nếu chart data table có horizontal cell borders. Đọc/ghi Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Đúng nếu chart data table có outline borders. Đọc/ghi Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Đúng nếu chart data table có vertical cell borders. Đọc/ghi Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Đúng nếu data label legend key hiển thị. Đọc/ghi Boolean. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IFormattedTextContainer](../iformattedtextcontainer)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

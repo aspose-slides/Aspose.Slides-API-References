@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Określa odstęp między grupami słupków lub kolumn, wyrażony jako procent szerokości słupka lub kolumny. Odczyt/zapis UInt16.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Pobiera lub ustawia odstęp między grupami słupków lub kolumn, wyrażony jako procent szerokości słupka lub kolumny. Wartość musi mieścić się w przedziale od 0 do 500. Odczyt/zapis UInt16.
 type: docs
 weight: 70
 url: /pl/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth właściwość
 
-Określa odstęp między grupami słupków lub kolumn, jako procent szerokości słupka lub kolumny. Odczyt/zapis UInt16.
+Pobiera lub ustawia odstęp między grupami słupków lub kolumn, wyrażony jako procent szerokości słupka lub kolumny. Wartość musi mieścić się w przedziale od 0 do 500. Odczyt/zapis UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Uwagi
+
+Ta właściwość dotyczy serii następujących typów: podtypy Bar (zobacz także [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) metoda), podtypy Column (zobacz także [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) metoda), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Zobacz także
 

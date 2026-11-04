@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API 參考
-description: 允許建立影像變換操作
+description: 允許建立圖像轉換作業
 type: docs
-weight: 3590
+weight: 3610
 url: /zh-hant/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory 類別
 
-允許建立影像變換操作
+允許建立圖像轉換作業
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory

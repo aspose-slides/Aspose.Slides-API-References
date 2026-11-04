@@ -1,58 +1,59 @@
 ---
 title: DataLabel
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของป้ายซีรีส์.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนชุดป้ายกำกับของซีรีส์.
 type: docs
-weight: 1550
+weight: 1560
 url: /th/aspose.slides.charts/datalabel/
 ---
 ## DataLabel คลาส
 
-Represents a series labels.
+แทนชุดป้ายกำกับของซีรีส์.
 
 ```csharp
 public class DataLabel : IDataLabel
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | Creates a new instance of DataLabel class. |
+| [DataLabel](datalabel)(IChartDataPoint) | สร้างอินสแตนซ์ใหม่ของคลาส DataLabel |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง Read Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง Read Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | ระบุตำแหน่ง x (ซ้าย) จริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง Read Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง Read Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | ด้านล่าง Read-only Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | ส่งคืนแผนภูมิแม่ Read-only [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | ส่งคืนรูปแบบป้ายข้อมูล Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | ส่งคืนหรือกำหนดความสูงของหัวเรื่องเป็นส่วนของความสูงของแผนภูมิ Read/write Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | ค่า False หมายความว่าป้ายข้อมูลไม่แสดง (และธง Show*- ทั้งหมด (ShowValue, ...) จะเป็น false) Read-only Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | ด้านขวา Read-only Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | ส่งคืนรูปแบบข้อความ Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่ฟอร์แมตอย่างหลากหลาย หากคุณสมบัตินี้ไม่เป็น null ค่าข้อความที่ฟอร์แมตนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName, ShowValue, ... และถูกฟอร์แมตด้วยคุณสมบัติ TextFormatManager.TextFormat Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | รับหรือกำหนดเซลล์ข้อมูลในเวิร์กบุ๊ก ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่า true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของหัวเรื่องเป็นส่วนของความกว้างของแผนภูมิ Read/write Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | ส่งคืนหรือกำหนดพิกัด x ของหัวเรื่องเป็นส่วนของความกว้างของแผนภูมิ Read/write Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | ส่งคืนหรือกำหนดพิกัด y ของหัวเรื่องเป็นส่วนของความสูงของแผนภูมิ Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | ด้านล่าง. อ่านอย่างเดียว Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | ส่งคืนแผนภูมิพาเรนท์. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | ส่งคืนรูปแบบป้ายกำกับข้อมูล. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | ส่งคืนหรือกำหนดความสูงของชื่อเป็นส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False หมายถึงป้ายกำกับข้อมูลไม่ปรากฏ (และ flag Show* ทั้งหมด (ShowValue, ...) เป็น false). อ่านอย่างเดียว Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | รับหรือกำหนดประเภทรูปทรงของป้ายกำกับข้อมูล. ส่งคืน NotDefined หากไม่มีรูปทรงที่กำหนด. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | ด้านขวา. อ่านอย่างเดียว Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | ส่งคืนรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | สามารถบรรจุข้อความฟอร์แมตที่หลากหลายได้. หากคุณสมบัตินี้ไม่เป็น null แล้วค่าข้อความฟอร์แมตนี้จะแทนที่ข้อความที่สร้างอัตโนมัติของป้ายกำกับข้อมูล. ข้อความที่สร้างอัตโนมัติของป้ายกำกับข้อมูลหมายถึงข้อความที่จัดการโดยคุณสมบัติ ShowSeriesName, ShowValue, ... และฟอร์แมตด้วยคุณสมบัติ TextFormatManager.TextFormat. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | รับหรือกำหนดเซลล์ข้อมูลของเวิร์กบุ๊ก. ใช้เมื่อคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของชื่อเป็นส่วนของความกว้างของแผนภูมิ. อ่าน/เขียน Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | ส่งคืนหรือกำหนดพิกัด x ของชื่อเป็นส่วนของความกว้างของแผนภูมิ. อ่าน/เขียน Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | ส่งคืนหรือกำหนดพิกัด y ของชื่อเป็นส่วนของความสูงของแผนภูมิ. อ่าน/เขียน Single. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text" หาก TextFrameForOverriding ได้รับการเริ่มต้นแล้วก็จะเปลี่ยนข้อความเท่านั้น. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | ส่งคืนข้อความป้ายจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | ทำให้ป้ายข้อมูลซ่อนโดยตั้งค่าธง Show*- ทั้งหมด (ShowValue, ...) เป็น false สถานะ IsVisible จะเป็น false หลังจากนี้. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นแล้วก็เปลี่ยนข้อความของมันเท่านั้น. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | ส่งคืนข้อความป้ายกำกับจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | ทำให้ป้ายกำกับข้อมูลซ่อนโดยตั้งค่า Show*-flags ทั้งหมด (ShowValue, ...) เป็น false. IsVisible จะเป็น false หลังจากนี้. |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IDataLabel](../idatalabel)
-* เนมส페ซ [Aspose.Slides.Charts](../../aspose.slides.charts)
+* เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Şekillerin ana yüzey kabartısının özelliklerini temsil eder.
 type: docs
-weight: 6960
+weight: 6980
 url: /tr/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel arayüz
@@ -18,11 +18,11 @@ public interface IShapeBevel
 
 | Ad | Açıklama |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Eğim türü. Okunur/yazılır [`BevelPresetType`](../bevelpresettype). |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Eğim tipi. Okunur/yazılır [`BevelPresetType`](../bevelpresettype). |
 | [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Eğim yüksekliği. Okunur/yazılır Double. |
 | [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Eğim genişliği. Okunur/yazılır Double. |
 
-### İlgili
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
